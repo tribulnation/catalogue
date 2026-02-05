@@ -1,8 +1,9 @@
 {
   "display_name": "Bitcoin",
   "kind": "blockchain",
-  "icon": "icons/asset/bitcoin.svg",
+  "about": "Bitcoin is a decentralized blockchain for peer-to-peer digital money and censorship-resistant transfers.",
   "urls": {
     "Website": "https://www.bitcoin.org/"
-  }
+  },
+  "icon": "icons/asset/bitcoin.svg"
 }

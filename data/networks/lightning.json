@@ -1,8 +1,9 @@
 {
   "display_name": "Lightning Network",
-  "icon": "icons/network/lightning.svg",
   "native_asset": "bitcoin",
+  "about": "The Lightning Network is a Layer 2 payment network for instant, low-cost Bitcoin transactions.",
   "urls": {
     "Website": "https://lightning.network/"
-  }
+  },
+  "icon": "icons/network/lightning.svg"
 }

@@ -1,8 +1,9 @@
 {
   "display_name": "Base",
-  "icon": "icons/network/base.svg",
   "native_asset": "ethereum",
+  "about": "Base is an Ethereum Layer 2 built on the OP Stack and incubated by Coinbase.",
   "urls": {
     "Website": "https://base.org/"
-  }
+  },
+  "icon": "icons/network/base.svg"
 }
