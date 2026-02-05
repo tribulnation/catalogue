@@ -2,13 +2,13 @@ import os as _os
 from collections import defaultdict as _defaultdict
 from glob import glob as _glob
 from pydantic import TypeAdapter as _TypeAdapter
-from .schema import Asset, Platform, Network, AssetTranslation, NetworkTranslation, Catalogue
+from .schema import Asset, Platform, Network, Catalogue
 
 _asset_adapter = _TypeAdapter(Asset)
 _platform_adapter = _TypeAdapter(Platform)
 _network_adapter = _TypeAdapter(Network)
-_asset_translation_adapter = _TypeAdapter(AssetTranslation)
-_network_translation_adapter = _TypeAdapter(NetworkTranslation)
+_asset_translation_adapter = _TypeAdapter(dict[str, str])
+_network_translation_adapter = _TypeAdapter(dict[str, str])
 
 def assets(folder: str) -> dict[str, Asset]:
   assets: dict[str, Asset] = {}
@@ -34,23 +34,21 @@ def networks(folder: str) -> dict[str, Network]:
       networks[id] = _network_adapter.validate_json(f.read(), extra='forbid')
   return networks
 
-def network_translations(folder: str) -> dict[str, list[NetworkTranslation]]:
-  network_translations = _defaultdict[str, list[NetworkTranslation]](list)
-  for file in _glob(_os.path.join(folder, '*.jsonl')):
+def network_translations(folder: str) -> dict[str, dict[str, str]]:
+  network_translations = _defaultdict[str, dict[str, str]](dict)
+  for file in _glob(_os.path.join(folder, '*.json')):
     platform = file.split('/')[-1].split('.')[0]
     with open(file) as f:
-      for line in f:
-        network_translations[platform].append(_network_translation_adapter.validate_json(line))
+      network_translations[platform].update(_network_translation_adapter.validate_json(f.read()))
 
   return network_translations
 
-def asset_translations(folder: str) -> dict[str, list[AssetTranslation]]:
-  asset_translations = _defaultdict[str, list[AssetTranslation]](list)
-  for file in _glob(_os.path.join(folder, '*.jsonl')):
+def asset_translations(folder: str) -> dict[str, dict[str, str]]:
+  asset_translations = _defaultdict[str, dict[str, str]](dict)
+  for file in _glob(_os.path.join(folder, '*.json')):
     platform = file.split('/')[-1].split('.')[0]
     with open(file) as f:
-      for line in f:
-        asset_translations[platform].append(_asset_translation_adapter.validate_json(line))
+      asset_translations[platform].update(_asset_translation_adapter.validate_json(f.read()))
   return asset_translations
 
 def all(folder: str) -> Catalogue:

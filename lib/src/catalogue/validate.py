@@ -1,5 +1,5 @@
 import os as _os
-from .schema import Asset, Platform, Network, AssetTranslation, NetworkTranslation, Catalogue
+from .schema import Asset, Platform, Network, Catalogue
 
 def asset_icons(assets: dict[str, Asset], base_folder: str):
   errors: list[str] = []
@@ -33,20 +33,20 @@ def native_assets(assets: dict[str, Asset], networks: dict[str, Network]):
         errors.append(f'[NATIVE ASSET ERROR] Network "{id}" has inexistent native asset "{asset}"')
   return errors
 
-def asset_translations(assets: dict[str, Asset], asset_translations: dict[str, list[AssetTranslation]]):
+def asset_translations(assets: dict[str, Asset], asset_translations: dict[str, dict[str, str]]):
   errors: list[str] = []
   for platform, translations in asset_translations.items():
-    for trans in translations:
-      if trans['asset'] not in assets:
-        errors.append(f'[ASSET TRANSLATION ERROR] Asset translation "{platform}" has inexistent asset "{trans.asset}"')
+    for asset in translations.values():
+      if asset not in assets:
+        errors.append(f'[ASSET TRANSLATION ERROR] Asset translation "{platform}" has inexistent asset "{asset}"')
   return errors
 
-def network_translations(networks: dict[str, Network], network_translations: dict[str, list[NetworkTranslation]]):
+def network_translations(networks: dict[str, Network], network_translations: dict[str, dict[str, str]]):
   errors: list[str] = []
   for platform, translations in network_translations.items():
-    for trans in translations:
-      if trans['network'] not in networks:
-        errors.append(f'[NETWORK TRANSLATION ERROR] Network translation "{platform}" has inexistent network "{trans.network}"')
+    for network in translations.values():
+      if network not in networks:
+        errors.append(f'[NETWORK TRANSLATION ERROR] Network translation "{platform}" has inexistent network "{network}"')
   return errors
 
 def all(catalogue: Catalogue, base_folder: str):

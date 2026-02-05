@@ -1,1 +1,1 @@
-from .schema import Asset, Platform, Network, AssetTranslation, NetworkTranslation, Catalogue
+from .schema import Asset, Platform, Network, Catalogue
