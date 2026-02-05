@@ -8,6 +8,8 @@ class Asset(TypedDict):
   tags: NotRequired[list[str]]
   urls: NotRequired[dict[str, str]]
   icon: NotRequired[str]
+  rank: int
+  coingecko_id: NotRequired[str]
 
 class Platform(TypedDict):
   display_name: str
@@ -15,6 +17,7 @@ class Platform(TypedDict):
   urls: NotRequired[dict[str, str]]
   kind: Literal['cex', 'dex', 'blockchain']
   icon: NotRequired[str]
+  rank: int
 
 class Network(TypedDict):
   display_name: str
@@ -22,6 +25,7 @@ class Network(TypedDict):
   urls: NotRequired[dict[str, str]]
   native_asset: NotRequired[str]
   icon: NotRequired[str]
+  rank: int
 
 class Catalogue(NamedTuple):
   assets: dict[str, Asset]

@@ -49,6 +49,18 @@ def network_translations(networks: dict[str, Network], network_translations: dic
         errors.append(f'[NETWORK TRANSLATION ERROR] Network translation "{platform}" has inexistent network "{network}"')
   return errors
 
+def ranks(kind: str, items: dict[str, dict]):
+  errors: list[str] = []
+  ranks = [item.get('rank') for item in items.values()]
+  if any(rank is None for rank in ranks):
+    errors.append(f'[{kind} RANK ERROR] Missing rank value(s)')
+    return errors
+  sorted_ranks = sorted(ranks)
+  expected = list(range(1, len(sorted_ranks) + 1))
+  if sorted_ranks != expected:
+    errors.append(f'[{kind} RANK ERROR] Ranks must be consecutive starting at 1')
+  return errors
+
 def all(catalogue: Catalogue, base_folder: str):
   errors: list[str] = []
   errors.extend(asset_icons(catalogue.assets, base_folder))
@@ -57,4 +69,7 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(native_assets(catalogue.assets, catalogue.networks))
   errors.extend(asset_translations(catalogue.assets, catalogue.asset_translations))
   errors.extend(network_translations(catalogue.networks, catalogue.network_translations))
+  errors.extend(ranks('ASSET', catalogue.assets))
+  errors.extend(ranks('PLATFORM', catalogue.platforms))
+  errors.extend(ranks('NETWORK', catalogue.networks))
   return errors
