@@ -1,10 +1,13 @@
-from typing_extensions import TypedDict, NotRequired, Literal, NamedTuple
+from typing_extensions import TypedDict, NotRequired, Literal, NamedTuple, Mapping
+
+Locale = Literal['ca', 'es', 'en']
+Translations = Mapping[Locale, str]
 
 class Asset(TypedDict):
   display_name: str
   symbol: str
   display_decimals: NotRequired[int]
-  about: NotRequired[str]
+  about: NotRequired[Translations]
   tags: NotRequired[list[str]]
   urls: NotRequired[dict[str, str]]
   icon: NotRequired[str]
@@ -13,7 +16,7 @@ class Asset(TypedDict):
 
 class Platform(TypedDict):
   display_name: str
-  about: NotRequired[str]
+  about: NotRequired[Translations]
   urls: NotRequired[dict[str, str]]
   kind: Literal['cex', 'dex', 'blockchain']
   icon: NotRequired[str]
@@ -21,7 +24,7 @@ class Platform(TypedDict):
 
 class Network(TypedDict):
   display_name: str
-  about: NotRequired[str]
+  about: NotRequired[Translations]
   urls: NotRequired[dict[str, str]]
   native_asset: NotRequired[str]
   icon: NotRequired[str]
