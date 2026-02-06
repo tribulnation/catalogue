@@ -1,7 +1,11 @@
 {
   "display_name": "Polygon",
   "native_asset": "polygon",
-  "about": "Polygon is an Ethereum scaling ecosystem that includes multiple chains and Layer 2 solutions.",
+  "about": {
+    "en": "Polygon is an Ethereum scaling ecosystem that includes multiple chains and Layer 2 solutions.",
+    "es": "Polygon es un ecosistema de escalado de Ethereum que incluye m\u00faltiples cadenas y soluciones de capa 2 (Layer 2).",
+    "ca": "Polygon \u00e9s un ecosistema d'escalat d'Ethereum que inclou m\u00faltiples cadenes i solucions de capa 2 (Layer 2)."
+  },
   "rank": 10,
   "urls": {
     "Website": "https://polygon.technology/"

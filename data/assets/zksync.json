@@ -2,7 +2,11 @@
   "display_name": "ZKsync",
   "symbol": "ZK",
   "display_decimals": 1,
-  "about": "ZKsync is an Ethereum Layer 2 that uses zero-knowledge rollups for scalable, low-cost transactions. ZK is its native token.",
+  "about": {
+    "en": "ZKsync is an Ethereum Layer 2 that uses zero-knowledge rollups for scalable, low-cost transactions. ZK is its native token.",
+    "es": "ZKsync es una capa 2 (Layer 2) de Ethereum que usa rollup (rollup)s de conocimiento cero para transacciones escalables y de bajo coste. ZK es su token nativo.",
+    "ca": "ZKsync \u00e9s una capa 2 (Layer 2) d'Ethereum que utilitza rollup (rollup)s de coneixement zero per a transaccions escalables i de baix cost. ZK \u00e9s el seu token natiu."
+  },
   "rank": 47,
   "coingecko_id": "zksync",
   "icon": "icons/asset/zksync.svg",

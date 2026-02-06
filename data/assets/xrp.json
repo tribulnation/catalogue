@@ -2,7 +2,11 @@
   "display_name": "XRP",
   "symbol": "XRP",
   "display_decimals": 2,
-  "about": "XRP is the native asset of the XRP Ledger, used for fast, low-cost transfers and as a bridge asset.",
+  "about": {
+    "en": "XRP is the native asset of the XRP Ledger, used for fast, low-cost transfers and as a bridge asset.",
+    "es": "XRP es el activo nativo del XRP Ledger, usado para transferencias r\u00e1pidas y de bajo coste y como activo puente.",
+    "ca": "XRP \u00e9s l'actiu natiu del XRP Ledger, utilitzat per a transfer\u00e8ncies r\u00e0pides i de baix cost i com a actiu pont."
+  },
   "rank": 7,
   "coingecko_id": "ripple",
   "tags": [

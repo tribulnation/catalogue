@@ -2,7 +2,11 @@
   "display_name": "Wrapped Staked Ether",
   "symbol": "WSTETH",
   "display_decimals": 6,
-  "about": "Wrapped Staked Ether (wstETH) is a wrapped version of Lido staked ETH that accrues rewards through its exchange rate.",
+  "about": {
+    "en": "Wrapped Staked Ether (wstETH) is a wrapped version of Lido staked ETH that accrues rewards through its exchange rate.",
+    "es": "Wrapped Staked Ether (wstETH) es una versi\u00f3n envuelta de ETH en staking (staking) de Lido que acumula recompensas a trav\u00e9s de su tipo de cambio.",
+    "ca": "Wrapped Staked Ether (wstETH) \u00e9s una versi\u00f3 envoltada d'ETH en staking (staking) de Lido que acumula recompenses a trav\u00e9s del seu tipus de canvi."
+  },
   "rank": 33,
   "coingecko_id": "wrapped-steth",
   "icon": "icons/asset/wrapped-staked-ether.svg",

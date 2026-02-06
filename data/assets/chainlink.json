@@ -2,7 +2,11 @@
   "display_name": "Chainlink",
   "symbol": "LINK",
   "display_decimals": 2,
-  "about": "Chainlink provides decentralized oracle services that deliver off-chain data to smart contracts. LINK is used to pay node operators and secure oracle services.",
+  "about": {
+    "en": "Chainlink provides decentralized oracle services that deliver off-chain data to smart contracts. LINK is used to pay node operators and secure oracle services.",
+    "es": "Chainlink ofrece servicios de or\u00e1culos descentralizados que aportan datos off-chain (off-chain) a los contratos inteligentes (smart contracts). LINK se usa para pagar a los operadores de nodos y asegurar los servicios de or\u00e1culo.",
+    "ca": "Chainlink ofereix serveis d'oracles descentralitzats que aporten dades off-chain (off-chain) als contractes intel\u00b7ligents (smart contracts). LINK s'utilitza per pagar els operadors de nodes i assegurar els serveis d'oracle."
+  },
   "rank": 14,
   "coingecko_id": "chainlink",
   "icon": "icons/asset/chainlink.svg",

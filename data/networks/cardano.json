@@ -1,7 +1,11 @@
 {
   "display_name": "Cardano",
   "native_asset": "cardano",
-  "about": "Cardano is a proof-of-stake blockchain built with a research-driven approach to scalability and governance.",
+  "about": {
+    "en": "Cardano is a proof-of-stake blockchain built with a research-driven approach to scalability and governance.",
+    "es": "Cardano es una blockchain de prueba de participaci\u00f3n (proof-of-stake) construida con un enfoque de investigaci\u00f3n para escalabilidad y gobernanza (governance).",
+    "ca": "Cardano \u00e9s una blockchain de prova de participaci\u00f3 (proof-of-stake) constru\u00efda amb un enfocament de recerca per a escalabilitat i governan\u00e7a (governance)."
+  },
   "rank": 12,
   "urls": {
     "Website": "https://cardano.org/"

@@ -2,7 +2,11 @@
   "display_name": "Bitget Token",
   "symbol": "BGB",
   "display_decimals": 2,
-  "about": "Bitget Token (BGB) is the utility token of the Bitget exchange, used for fee discounts and ecosystem benefits.",
+  "about": {
+    "en": "Bitget Token (BGB) is the utility token of the Bitget exchange, used for fee discounts and ecosystem benefits.",
+    "es": "Bitget Token (BGB) es el token de utilidad del exchange Bitget, usado para descuentos de comisiones y beneficios del ecosistema.",
+    "ca": "Bitget Token (BGB) \u00e9s el token d'utilitat de l'exchange Bitget, utilitzat per a descomptes de comissions i beneficis de l'ecosistema."
+  },
   "rank": 50,
   "coingecko_id": "bitget-token",
   "icon": "icons/asset/bitget-token.svg",

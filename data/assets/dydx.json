@@ -2,7 +2,11 @@
   "display_name": "dYdX",
   "symbol": "DYDX",
   "display_decimals": 2,
-  "about": "dYdX is a decentralized derivatives exchange focused on perpetuals trading. DYDX is used for governance and ecosystem incentives.",
+  "about": {
+    "en": "dYdX is a decentralized derivatives exchange focused on perpetuals trading. DYDX is used for governance and ecosystem incentives.",
+    "es": "dYdX es un exchange descentralizado de derivados centrado en trading de perpetuos. DYDX se usa para gobernanza (governance) e incentivos del ecosistema.",
+    "ca": "dYdX \u00e9s un exchange descentralitzat de derivats centrat en el trading de perpetus. DYDX s'utilitza per a governan\u00e7a (governance) i incentius de l'ecosistema."
+  },
   "rank": 46,
   "coingecko_id": "dydx",
   "icon": "icons/asset/dydx.svg",

@@ -1,7 +1,11 @@
 {
   "display_name": "Bitcoin",
   "kind": "blockchain",
-  "about": "Bitcoin is a decentralized blockchain for peer-to-peer digital money and censorship-resistant transfers.",
+  "about": {
+    "en": "Bitcoin is a decentralized blockchain for peer-to-peer digital money and censorship-resistant transfers.",
+    "es": "Bitcoin es una blockchain descentralizada para dinero digital entre pares y transferencias resistentes a la censura.",
+    "ca": "Bitcoin \u00e9s una blockchain descentralitzada per a diners digitals entre iguals i transfer\u00e8ncies resistents a la censura."
+  },
   "rank": 6,
   "urls": {
     "Website": "https://www.bitcoin.org/"

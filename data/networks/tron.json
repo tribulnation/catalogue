@@ -1,7 +1,11 @@
 {
   "display_name": "Tron",
   "native_asset": "tron",
-  "about": "TRON is a high-throughput smart contract network widely used for stablecoin transfers.",
+  "about": {
+    "en": "TRON is a high-throughput smart contract network widely used for stablecoin transfers.",
+    "es": "TRON es una red de contratos inteligentes (smart contracts) de alto rendimiento ampliamente usada para transferencias de stablecoin (stablecoin)s.",
+    "ca": "TRON \u00e9s una xarxa de contractes intel\u00b7ligents (smart contracts) d'alt rendiment \u00e0mpliament usada per a transfer\u00e8ncies de stablecoin (stablecoin)s."
+  },
   "rank": 5,
   "urls": {
     "Website": "https://tron.network/"

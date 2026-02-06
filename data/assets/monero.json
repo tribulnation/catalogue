@@ -2,7 +2,11 @@
   "display_name": "Monero",
   "symbol": "XMR",
   "display_decimals": 2,
-  "about": "Monero is a privacy-focused cryptocurrency that uses ring signatures and stealth addresses to obscure transaction details.",
+  "about": {
+    "en": "Monero is a privacy-focused cryptocurrency that uses ring signatures and stealth addresses to obscure transaction details.",
+    "es": "Monero es una criptomoneda centrada en la privacidad que usa firmas de anillo y direcciones ocultas para ocultar los detalles de las transacciones.",
+    "ca": "Monero \u00e9s una criptomoneda centrada en la privadesa que utilitza signatures d'anell i adreces ocultes per ocultar els detalls de les transaccions."
+  },
   "rank": 20,
   "coingecko_id": "monero",
   "icon": "icons/asset/monero.svg",

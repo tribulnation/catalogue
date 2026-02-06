@@ -2,7 +2,11 @@
   "display_name": "Solana",
   "symbol": "SOL",
   "display_decimals": 2,
-  "about": "Solana is a high-throughput blockchain designed for low-cost, fast transactions and smart contracts. SOL is used for fees, staking, and governance.",
+  "about": {
+    "en": "Solana is a high-throughput blockchain designed for low-cost, fast transactions and smart contracts. SOL is used for fees, staking, and governance.",
+    "es": "Solana es una blockchain de alto rendimiento dise\u00f1ada para transacciones r\u00e1pidas y de bajo coste y contratos inteligentes (smart contracts). SOL se usa para comisiones, staking (staking) y gobernanza (governance).",
+    "ca": "Solana \u00e9s una blockchain d'alt rendiment dissenyada per a transaccions r\u00e0pides i de baix cost i contractes intel\u00b7ligents (smart contracts). SOL s'utilitza per a comissions, staking (staking) i governan\u00e7a (governance)."
+  },
   "rank": 5,
   "coingecko_id": "solana",
   "tags": [

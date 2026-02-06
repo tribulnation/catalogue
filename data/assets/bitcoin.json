@@ -2,7 +2,11 @@
   "display_name": "Bitcoin",
   "symbol": "BTC",
   "display_decimals": 8,
-  "about": "Bitcoin is a decentralized digital currency secured by proof-of-work. BTC is widely used as a store of value and for peer-to-peer payments.",
+  "about": {
+    "en": "Bitcoin is a decentralized digital currency secured by proof-of-work. BTC is widely used as a store of value and for peer-to-peer payments.",
+    "es": "Bitcoin es una moneda digital descentralizada asegurada por prueba de trabajo (proof-of-work). BTC se usa ampliamente como reserva de valor y para pagos entre pares.",
+    "ca": "Bitcoin \u00e9s una moneda digital descentralitzada assegurada per prova de treball (proof-of-work). BTC s'utilitza \u00e0mpliament com a reserva de valor i per a pagaments entre iguals."
+  },
   "rank": 1,
   "coingecko_id": "bitcoin",
   "tags": [

@@ -1,7 +1,11 @@
 {
   "display_name": "NEAR",
   "native_asset": "near",
-  "about": "NEAR is a sharded proof-of-stake blockchain focused on usability and scalability.",
+  "about": {
+    "en": "NEAR is a sharded proof-of-stake blockchain focused on usability and scalability.",
+    "es": "NEAR es una blockchain de prueba de participaci\u00f3n (proof-of-stake) con sharding centrada en usabilidad y escalabilidad.",
+    "ca": "NEAR \u00e9s una blockchain de prova de participaci\u00f3 (proof-of-stake) amb sharding centrada en usabilitat i escalabilitat."
+  },
   "rank": 14,
   "urls": {
     "Website": "https://near.org/"

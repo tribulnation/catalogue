@@ -2,7 +2,11 @@
   "display_name": "Bittensor",
   "symbol": "TAO",
   "display_decimals": 4,
-  "about": "Bittensor is a decentralized network for machine learning models and data. TAO rewards contributors and helps secure the network.",
+  "about": {
+    "en": "Bittensor is a decentralized network for machine learning models and data. TAO rewards contributors and helps secure the network.",
+    "es": "Bittensor es una red descentralizada para modelos de aprendizaje autom\u00e1tico y datos. TAO recompensa a los contribuyentes y ayuda a asegurar la red.",
+    "ca": "Bittensor \u00e9s una xarxa descentralitzada per a models d'aprenentatge autom\u00e0tic i dades. TAO recompensa els contribu\u00efdors i ajuda a assegurar la xarxa."
+  },
   "rank": 24,
   "coingecko_id": "bittensor",
   "icon": "icons/asset/bittensor.svg",

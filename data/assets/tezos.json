@@ -2,7 +2,11 @@
   "display_name": "Tezos",
   "symbol": "XTZ",
   "display_decimals": 2,
-  "about": "Tezos is a self-amending proof-of-stake blockchain with on-chain governance. XTZ is used for fees and staking.",
+  "about": {
+    "en": "Tezos is a self-amending proof-of-stake blockchain with on-chain governance. XTZ is used for fees and staking.",
+    "es": "Tezos es una blockchain de prueba de participaci\u00f3n (proof-of-stake) autoenmendable con gobernanza (governance) on-chain (on-chain). XTZ se usa para comisiones y staking (staking).",
+    "ca": "Tezos \u00e9s una blockchain de prova de participaci\u00f3 (proof-of-stake) autoesmenable amb governan\u00e7a (governance) on-chain (on-chain). XTZ s'utilitza per a comissions i staking (staking)."
+  },
   "rank": 29,
   "coingecko_id": "tezos",
   "icon": "icons/asset/tezos.svg",

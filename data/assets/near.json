@@ -2,7 +2,11 @@
   "display_name": "NEAR",
   "symbol": "NEAR",
   "display_decimals": 2,
-  "about": "NEAR is a sharded proof-of-stake blockchain focused on usability and scalability. NEAR is used for fees and staking.",
+  "about": {
+    "en": "NEAR is a sharded proof-of-stake blockchain focused on usability and scalability. NEAR is used for fees and staking.",
+    "es": "NEAR es una blockchain de prueba de participaci\u00f3n (proof-of-stake) con sharding centrada en usabilidad y escalabilidad. NEAR se usa para comisiones y staking (staking).",
+    "ca": "NEAR \u00e9s una blockchain de prova de participaci\u00f3 (proof-of-stake) amb sharding centrada en usabilitat i escalabilitat. NEAR s'utilitza per a comissions i staking (staking)."
+  },
   "rank": 16,
   "coingecko_id": "near",
   "icon": "icons/asset/near.svg",

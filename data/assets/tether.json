@@ -2,7 +2,11 @@
   "display_name": "Tether USD",
   "symbol": "USDT",
   "display_decimals": 2,
-  "about": "Tether (USDT) is a US dollar-pegged stablecoin used widely for trading and transfers across multiple chains.",
+  "about": {
+    "en": "Tether (USDT) is a US dollar-pegged stablecoin used widely for trading and transfers across multiple chains.",
+    "es": "Tether (USDT) es una stablecoin (stablecoin) vinculada al d\u00f3lar estadounidense usada ampliamente para trading y transferencias en m\u00faltiples cadenas.",
+    "ca": "Tether (USDT) \u00e9s una stablecoin (stablecoin) vinculada al d\u00f2lar nord-americ\u00e0 usada \u00e0mpliament per al trading i les transfer\u00e8ncies en m\u00faltiples cadenes."
+  },
   "rank": 3,
   "coingecko_id": "tether",
   "tags": [

@@ -2,7 +2,11 @@
   "display_name": "Hyperliquid",
   "symbol": "HYPE",
   "display_decimals": 2,
-  "about": "Hyperliquid is a decentralized perpetuals exchange built on its own Layer 1. HYPE is the network's native token.",
+  "about": {
+    "en": "Hyperliquid is a decentralized perpetuals exchange built on its own Layer 1. HYPE is the network's native token.",
+    "es": "Hyperliquid es un exchange descentralizado de perpetuos construido sobre su propia capa 1 (Layer 1). HYPE es el token nativo de la red.",
+    "ca": "Hyperliquid \u00e9s un exchange descentralitzat de perpetus constru\u00eft sobre la seva pr\u00f2pia capa 1 (Layer 1). HYPE \u00e9s el token natiu de la xarxa."
+  },
   "rank": 48,
   "coingecko_id": "hyperliquid",
   "icon": "icons/asset/hyperliquid.svg",

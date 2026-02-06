@@ -1,7 +1,11 @@
 {
   "display_name": "Sui",
   "native_asset": "sui",
-  "about": "Sui is a high-performance Layer 1 built around the Move programming language.",
+  "about": {
+    "en": "Sui is a high-performance Layer 1 built around the Move programming language.",
+    "es": "Sui es una capa 1 (Layer 1) de alto rendimiento basada en el lenguaje Move.",
+    "ca": "Sui \u00e9s una capa 1 (Layer 1) d'alt rendiment basada en el llenguatge Move."
+  },
   "rank": 21,
   "urls": {
     "Website": "https://sui.io/"

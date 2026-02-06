@@ -2,7 +2,11 @@
   "display_name": "PayPal USD",
   "symbol": "PYUSD",
   "display_decimals": 2,
-  "about": "PayPal USD (PYUSD) is a US dollar-pegged stablecoin issued by PayPal for payments and transfers on supported chains.",
+  "about": {
+    "en": "PayPal USD (PYUSD) is a US dollar-pegged stablecoin issued by PayPal for payments and transfers on supported chains.",
+    "es": "PayPal USD (PYUSD) es una stablecoin (stablecoin) vinculada al d\u00f3lar estadounidense emitida por PayPal para pagos y transferencias en cadenas compatibles.",
+    "ca": "PayPal USD (PYUSD) \u00e9s una stablecoin (stablecoin) vinculada al d\u00f2lar nord-americ\u00e0 emesa per PayPal per a pagaments i transfer\u00e8ncies en cadenes compatibles."
+  },
   "rank": 36,
   "coingecko_id": "paypal-usd",
   "tags": [

@@ -2,7 +2,11 @@
   "display_name": "Mantle",
   "symbol": "MNT",
   "display_decimals": 2,
-  "about": "Mantle is an Ethereum Layer 2 with a modular architecture for scalability. MNT is used for gas and governance in the ecosystem.",
+  "about": {
+    "en": "Mantle is an Ethereum Layer 2 with a modular architecture for scalability. MNT is used for gas and governance in the ecosystem.",
+    "es": "Mantle es una capa 2 (Layer 2) de Ethereum con arquitectura modular para escalabilidad. MNT se usa para gas (gas) y gobernanza (governance) en el ecosistema.",
+    "ca": "Mantle \u00e9s una capa 2 (Layer 2) d'Ethereum amb arquitectura modular per a escalabilitat. MNT s'utilitza per a gas (gas) i governan\u00e7a (governance) a l'ecosistema."
+  },
   "rank": 26,
   "coingecko_id": "mantle",
   "icon": "icons/asset/mantle.svg",

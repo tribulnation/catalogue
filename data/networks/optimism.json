@@ -1,7 +1,11 @@
 {
   "display_name": "Optimism",
   "native_asset": "ethereum",
-  "about": "OP Mainnet (Optimism) is an Ethereum Layer 2 rollup built on the OP Stack.",
+  "about": {
+    "en": "OP Mainnet (Optimism) is an Ethereum Layer 2 rollup built on the OP Stack.",
+    "es": "OP Mainnet (Optimism) es un rollup (rollup) de capa 2 (Layer 2) de Ethereum construido sobre el OP Stack.",
+    "ca": "OP Mainnet (Optimism) \u00e9s un rollup (rollup) de capa 2 (Layer 2) d'Ethereum constru\u00eft sobre l'OP Stack."
+  },
   "rank": 9,
   "urls": {
     "Website": "https://optimism.io/"

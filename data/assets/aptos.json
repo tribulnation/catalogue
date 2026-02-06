@@ -2,7 +2,11 @@
   "display_name": "Aptos",
   "symbol": "APT",
   "display_decimals": 2,
-  "about": "Aptos is a proof-of-stake Layer 1 designed for high throughput and reliability. APT is used for fees, staking, and governance.",
+  "about": {
+    "en": "Aptos is a proof-of-stake Layer 1 designed for high throughput and reliability. APT is used for fees, staking, and governance.",
+    "es": "Aptos es una capa 1 (Layer 1) de prueba de participaci\u00f3n (proof-of-stake) dise\u00f1ada para alto rendimiento y fiabilidad. APT se usa para comisiones, staking (staking) y gobernanza (governance).",
+    "ca": "Aptos \u00e9s una capa 1 (Layer 1) de prova de participaci\u00f3 (proof-of-stake) dissenyada per a alt rendiment i fiabilitat. APT s'utilitza per a comissions, staking (staking) i governan\u00e7a (governance)."
+  },
   "rank": 45,
   "coingecko_id": "aptos",
   "icon": "icons/asset/aptos.svg",

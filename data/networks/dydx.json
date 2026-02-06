@@ -1,7 +1,11 @@
 {
   "display_name": "dYdX",
   "native_asset": "dydx",
-  "about": "dYdX is a trading-focused blockchain powering the dYdX decentralized exchange.",
+  "about": {
+    "en": "dYdX is a trading-focused blockchain powering the dYdX decentralized exchange.",
+    "es": "dYdX es una blockchain centrada en trading que impulsa el exchange descentralizado dYdX.",
+    "ca": "dYdX \u00e9s una blockchain centrada en trading que impulsa l'exchange descentralitzat dYdX."
+  },
   "rank": 31,
   "urls": {
     "Website": "https://www.dydx.foundation/"

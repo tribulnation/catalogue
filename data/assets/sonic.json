@@ -2,7 +2,11 @@
   "display_name": "Sonic",
   "symbol": "S",
   "display_decimals": 1,
-  "about": "Sonic is a high-performance Layer 1 built for fast transactions and low fees. S is used for fees and staking in the network.",
+  "about": {
+    "en": "Sonic is a high-performance Layer 1 built for fast transactions and low fees. S is used for fees and staking in the network.",
+    "es": "Sonic es una capa 1 (Layer 1) de alto rendimiento construida para transacciones r\u00e1pidas y comisiones bajas. S se usa para comisiones y staking (staking) en la red.",
+    "ca": "Sonic \u00e9s una capa 1 (Layer 1) d'alt rendiment constru\u00efda per a transaccions r\u00e0pides i comissions baixes. S s'utilitza per a comissions i staking (staking) a la xarxa."
+  },
   "rank": 49,
   "coingecko_id": "sonic-3",
   "icon": "icons/asset/sonic.svg",

@@ -2,7 +2,11 @@
   "display_name": "Sky USD",
   "symbol": "USDS",
   "display_decimals": 2,
-  "about": "Sky USD (USDS) is the decentralized stablecoin of the Sky protocol, the rebranded MakerDAO ecosystem. It is designed for 1:1 USD parity.",
+  "about": {
+    "en": "Sky USD (USDS) is the decentralized stablecoin of the Sky protocol, the rebranded MakerDAO ecosystem. It is designed for 1:1 USD parity.",
+    "es": "Sky USD (USDS) es la stablecoin (stablecoin) descentralizada del protocolo Sky, el ecosistema MakerDAO renombrado. Est\u00e1 dise\u00f1ada para paridad 1:1 con USD.",
+    "ca": "Sky USD (USDS) \u00e9s la stablecoin (stablecoin) descentralitzada del protocol Sky, l'ecosistema MakerDAO reanomenat. Est\u00e0 dissenyada per a paritat 1:1 amb USD."
+  },
   "rank": 39,
   "coingecko_id": "usds",
   "tags": [

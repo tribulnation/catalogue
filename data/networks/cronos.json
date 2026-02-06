@@ -1,7 +1,11 @@
 {
   "display_name": "Cronos",
   "native_asset": "cronos",
-  "about": "Cronos is an EVM-compatible blockchain linked to the Crypto.com ecosystem.",
+  "about": {
+    "en": "Cronos is an EVM-compatible blockchain linked to the Crypto.com ecosystem.",
+    "es": "Cronos es una blockchain compatible con EVM vinculada al ecosistema de Crypto.com.",
+    "ca": "Cronos \u00e9s una blockchain compatible amb EVM vinculada a l'ecosistema de Crypto.com."
+  },
   "rank": 28,
   "urls": {
     "Website": "https://cronos.org/"

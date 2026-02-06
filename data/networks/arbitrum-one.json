@@ -1,7 +1,11 @@
 {
   "display_name": "Arbitrum One",
   "native_asset": "ethereum",
-  "about": "Arbitrum One is a public Ethereum Layer 2 rollup that scales transactions for EVM applications.",
+  "about": {
+    "en": "Arbitrum One is a public Ethereum Layer 2 rollup that scales transactions for EVM applications.",
+    "es": "Arbitrum One es un rollup (rollup) p\u00fablico de capa 2 (Layer 2) de Ethereum que escala transacciones para aplicaciones EVM.",
+    "ca": "Arbitrum One \u00e9s un rollup (rollup) p\u00fablic de capa 2 (Layer 2) d'Ethereum que escala transaccions per a aplicacions EVM."
+  },
   "rank": 8,
   "urls": {
     "Website": "https://arbitrum.io/"

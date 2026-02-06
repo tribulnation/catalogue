@@ -2,7 +2,11 @@
   "display_name": "Zcash",
   "symbol": "ZEC",
   "display_decimals": 2,
-  "about": "Zcash is a privacy-focused cryptocurrency that offers optional zero-knowledge shielded transactions.",
+  "about": {
+    "en": "Zcash is a privacy-focused cryptocurrency that offers optional zero-knowledge shielded transactions.",
+    "es": "Zcash es una criptomoneda centrada en la privacidad que ofrece transacciones blindadas opcionales con cero conocimiento.",
+    "ca": "Zcash \u00e9s una criptomoneda centrada en la privadesa que ofereix transaccions blindades opcionals amb zero coneixement."
+  },
   "rank": 30,
   "coingecko_id": "zcash",
   "icon": "icons/asset/zcash.svg",

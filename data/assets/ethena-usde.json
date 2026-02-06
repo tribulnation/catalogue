@@ -2,7 +2,11 @@
   "display_name": "Ethena USDe",
   "symbol": "USDE",
   "display_decimals": 2,
-  "about": "USDe is a crypto-collateralized synthetic dollar from Ethena that aims to track 1 USD using hedged positions.",
+  "about": {
+    "en": "USDe is a crypto-collateralized synthetic dollar from Ethena that aims to track 1 USD using hedged positions.",
+    "es": "USDe es un d\u00f3lar sint\u00e9tico colateralizado con cripto de Ethena que busca seguir 1 USD mediante posiciones cubiertas.",
+    "ca": "USDe \u00e9s un d\u00f2lar sint\u00e8tic col\u00b7lateralitzat amb cripto d'Ethena que busca seguir 1 USD mitjan\u00e7ant posicions cobertes."
+  },
   "rank": 38,
   "coingecko_id": "ethena-usde",
   "tags": [

@@ -2,7 +2,11 @@
   "display_name": "Toncoin",
   "symbol": "TON",
   "display_decimals": 2,
-  "about": "Toncoin is the native asset of The Open Network, a blockchain built for fast, scalable apps and messaging integrations.",
+  "about": {
+    "en": "Toncoin is the native asset of The Open Network, a blockchain built for fast, scalable apps and messaging integrations.",
+    "es": "Toncoin es el activo nativo de The Open Network, una blockchain creada para apps escalables e integraciones de mensajer\u00eda.",
+    "ca": "Toncoin \u00e9s l'actiu natiu de The Open Network, una blockchain constru\u00efda per a aplicacions escalables i integracions de missatgeria."
+  },
   "rank": 10,
   "coingecko_id": "the-open-network",
   "icon": "icons/asset/toncoin.svg",

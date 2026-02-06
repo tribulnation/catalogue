@@ -1,7 +1,11 @@
 {
   "display_name": "Dogecoin",
   "native_asset": "dogecoin",
-  "about": "Dogecoin is a proof-of-work blockchain originally created as a meme coin, used for payments and tipping.",
+  "about": {
+    "en": "Dogecoin is a proof-of-work blockchain originally created as a meme coin, used for payments and tipping.",
+    "es": "Dogecoin es una blockchain de prueba de trabajo (proof-of-work) creada originalmente como meme coin, usada para pagos y propinas.",
+    "ca": "Dogecoin \u00e9s una blockchain de prova de treball (proof-of-work) creada originalment com a meme coin, usada per a pagaments i propines."
+  },
   "rank": 16,
   "urls": {
     "Website": "https://dogecoin.com/"

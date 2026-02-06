@@ -1,7 +1,11 @@
 {
   "display_name": "Base",
   "native_asset": "ethereum",
-  "about": "Base is an Ethereum Layer 2 built on the OP Stack and incubated by Coinbase.",
+  "about": {
+    "en": "Base is an Ethereum Layer 2 built on the OP Stack and incubated by Coinbase.",
+    "es": "Base es una capa 2 (Layer 2) de Ethereum construida sobre el OP Stack e incubada por Coinbase.",
+    "ca": "Base \u00e9s una capa 2 (Layer 2) d'Ethereum constru\u00efda sobre l'OP Stack i incubada per Coinbase."
+  },
   "rank": 7,
   "urls": {
     "Website": "https://base.org/"

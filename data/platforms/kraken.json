@@ -1,7 +1,11 @@
 {
   "display_name": "Kraken",
   "kind": "cex",
-  "about": "Kraken is a centralized cryptocurrency exchange offering spot and derivatives markets.",
+  "about": {
+    "en": "Kraken is a centralized cryptocurrency exchange offering spot and derivatives markets.",
+    "es": "Kraken es un exchange de criptomonedas centralizado que ofrece mercados spot y de derivados.",
+    "ca": "Kraken \u00e9s un exchange de criptomonedes centralitzat que ofereix mercats spot i de derivats."
+  },
   "rank": 2,
   "urls": {
     "Website": "https://www.kraken.com/"

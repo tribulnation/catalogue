@@ -2,7 +2,11 @@
   "display_name": "StablR Euro",
   "symbol": "EURR",
   "display_decimals": 2,
-  "about": "StablR Euro (EURR) is a euro-pegged stablecoin issued by StablR for 1:1 euro redemption and transfers.",
+  "about": {
+    "en": "StablR Euro (EURR) is a euro-pegged stablecoin issued by StablR for 1:1 euro redemption and transfers.",
+    "es": "StablR Euro (EURR) es una stablecoin (stablecoin) vinculada al euro emitida por StablR para canje 1:1 y transferencias.",
+    "ca": "StablR Euro (EURR) \u00e9s una stablecoin (stablecoin) vinculada a l'euro emesa per StablR per al bescanvi 1:1 i transfer\u00e8ncies."
+  },
   "rank": 44,
   "coingecko_id": "stablr-euro",
   "tags": [

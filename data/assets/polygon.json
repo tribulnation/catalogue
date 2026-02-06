@@ -2,7 +2,11 @@
   "display_name": "Polygon",
   "symbol": "POL",
   "display_decimals": 2,
-  "about": "Polygon is an Ethereum scaling ecosystem that includes multiple chains and Layer 2 solutions. POL is used for fees and staking on Polygon networks.",
+  "about": {
+    "en": "Polygon is an Ethereum scaling ecosystem that includes multiple chains and Layer 2 solutions. POL is used for fees and staking on Polygon networks.",
+    "es": "Polygon es un ecosistema de escalado de Ethereum que incluye m\u00faltiples cadenas y soluciones de capa 2 (Layer 2). POL se usa para comisiones y staking (staking) en redes Polygon.",
+    "ca": "Polygon \u00e9s un ecosistema d'escalat d'Ethereum que inclou m\u00faltiples cadenes i solucions de capa 2 (Layer 2). POL s'utilitza per a comissions i staking (staking) a les xarxes Polygon."
+  },
   "rank": 27,
   "coingecko_id": "polygon-ecosystem-token",
   "icon": "icons/asset/polygon.svg",

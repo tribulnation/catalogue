@@ -2,7 +2,11 @@
   "display_name": "Bitcoin Cash",
   "symbol": "BCH",
   "display_decimals": 2,
-  "about": "Bitcoin Cash is a Bitcoin fork that increased block size to enable more on-chain transactions. BCH is used for payments and transfers.",
+  "about": {
+    "en": "Bitcoin Cash is a Bitcoin fork that increased block size to enable more on-chain transactions. BCH is used for payments and transfers.",
+    "es": "Bitcoin Cash es una bifurcaci\u00f3n de Bitcoin que aument\u00f3 el tama\u00f1o de bloque para permitir m\u00e1s transacciones on-chain (on-chain). BCH se usa para pagos y transferencias.",
+    "ca": "Bitcoin Cash \u00e9s una bifurcaci\u00f3 de Bitcoin que va augmentar la mida del bloc per permetre m\u00e9s transaccions on-chain (on-chain). BCH s'utilitza per a pagaments i transfer\u00e8ncies."
+  },
   "rank": 18,
   "coingecko_id": "bitcoin-cash",
   "icon": "icons/asset/bitcoin-cash.svg",

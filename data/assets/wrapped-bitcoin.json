@@ -2,7 +2,11 @@
   "display_name": "Wrapped Bitcoin",
   "symbol": "WBTC",
   "display_decimals": 8,
-  "about": "Wrapped Bitcoin (WBTC) is a tokenized representation of BTC on Ethereum, backed 1:1 by bitcoin held in custody.",
+  "about": {
+    "en": "Wrapped Bitcoin (WBTC) is a tokenized representation of BTC on Ethereum, backed 1:1 by bitcoin held in custody.",
+    "es": "Wrapped Bitcoin (WBTC) es una representaci\u00f3n tokenizada de BTC en Ethereum, respaldada 1:1 por bitcoin en custodia.",
+    "ca": "Wrapped Bitcoin (WBTC) \u00e9s una representaci\u00f3 tokenitzada de BTC a Ethereum, recolzada 1:1 per bitcoin en cust\u00f2dia."
+  },
   "rank": 31,
   "coingecko_id": "wrapped-bitcoin",
   "icon": "icons/asset/wrapped-bitcoin.svg",

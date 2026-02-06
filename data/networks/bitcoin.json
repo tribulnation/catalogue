@@ -1,7 +1,11 @@
 {
   "display_name": "Bitcoin",
   "native_asset": "bitcoin",
-  "about": "Bitcoin is a proof-of-work blockchain for decentralized digital money and peer-to-peer payments.",
+  "about": {
+    "en": "Bitcoin is a proof-of-work blockchain for decentralized digital money and peer-to-peer payments.",
+    "es": "Bitcoin es una blockchain de prueba de trabajo (proof-of-work) para dinero digital descentralizado y pagos entre pares.",
+    "ca": "Bitcoin \u00e9s una blockchain de prova de treball (proof-of-work) per a diners digitals descentralitzats i pagaments entre iguals."
+  },
   "rank": 2,
   "urls": {
     "Website": "https://bitcoin.org/"

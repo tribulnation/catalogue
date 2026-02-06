@@ -2,7 +2,11 @@
   "display_name": "Tether Gold",
   "symbol": "XAUT",
   "display_decimals": 4,
-  "about": "Tether Gold (XAUT) is a token backed by physical gold, with each token representing a specific amount held in custody.",
+  "about": {
+    "en": "Tether Gold (XAUT) is a token backed by physical gold, with each token representing a specific amount held in custody.",
+    "es": "Tether Gold (XAUT) es un token respaldado por oro f\u00edsico, donde cada token representa una cantidad espec\u00edfica custodiada.",
+    "ca": "Tether Gold (XAUT) \u00e9s un token recolzat per or f\u00edsic, on cada token representa una quantitat espec\u00edfica custodiada."
+  },
   "rank": 35,
   "coingecko_id": "tether-gold",
   "tags": [
