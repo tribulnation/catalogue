@@ -58,7 +58,7 @@ def ranks(kind: str, items: dict[str, dict]):
   sorted_ranks = sorted(ranks)
   expected = list(range(1, len(sorted_ranks) + 1))
   if sorted_ranks != expected:
-    errors.append(f'[{kind} RANK ERROR] Ranks must be consecutive starting at 1')
+    errors.append(f'[{kind} RANK ERROR] Ranks must be consecutive starting at 1. Found: {sorted_ranks}')
   return errors
 
 def all(catalogue: Catalogue, base_folder: str):
