@@ -24,7 +24,7 @@ pip install -e lib
 ```
 
 ```python
-from catalogue import load
+from tribulnation.catalogue import load
 
 catalogue = load.all('data')
 ```
