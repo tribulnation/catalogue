@@ -1,0 +1,296 @@
+{
+  "BTC": {
+    "id": "BTC",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "ETH": {
+    "id": "ETH",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "ATOM": {
+    "id": "ATOM",
+    "base": "cosmos",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "DYDX": {
+    "id": "DYDX",
+    "base": "dydx",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "SOL": {
+    "id": "SOL",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "AVAX": {
+    "id": "AVAX",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "BNB": {
+    "id": "BNB",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "OP": {
+    "id": "OP",
+    "base": "optimism",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "LTC": {
+    "id": "LTC",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "ARB": {
+    "id": "ARB",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "DOGE": {
+    "id": "DOGE",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "SUI": {
+    "id": "SUI",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "CRV": {
+    "id": "CRV",
+    "base": "curve-dao",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "LINK": {
+    "id": "LINK",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "GMX": {
+    "id": "GMX",
+    "base": "gmx",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "XRP": {
+    "id": "XRP",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "BCH": {
+    "id": "BCH",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "APT": {
+    "id": "APT",
+    "base": "aptos",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "AAVE": {
+    "id": "AAVE",
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "TRX": {
+    "id": "TRX",
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "UNI": {
+    "id": "UNI",
+    "base": "uniswap",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "SEI": {
+    "id": "SEI",
+    "base": "sei",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "DOT": {
+    "id": "DOT",
+    "base": "polkadot",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "BLUR": {
+    "id": "BLUR",
+    "base": "blur",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "TIA": {
+    "id": "TIA",
+    "base": "celestia",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "ADA": {
+    "id": "ADA",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "TON": {
+    "id": "TON",
+    "base": "toncoin",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "PENDLE": {
+    "id": "PENDLE",
+    "base": "pendle",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "NEAR": {
+    "id": "NEAR",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "TAO": {
+    "id": "TAO",
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "MNT": {
+    "id": "MNT",
+    "base": "mantle",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "ZK": {
+    "id": "ZK",
+    "base": "zksync",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "POL": {
+    "id": "POL",
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "XLM": {
+    "id": "XLM",
+    "base": "stellar",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "HYPE": {
+    "id": "HYPE",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "USUAL": {
+    "id": "USUAL",
+    "base": "usual",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "S": {
+    "id": "S",
+    "base": "sonic",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "PAXG": {
+    "id": "PAXG",
+    "base": "pax-gold",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "ZEC": {
+    "id": "ZEC",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "MON": {
+    "id": "MON",
+    "base": "monad",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "CC": {
+    "id": "CC",
+    "base": "canton",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "XMR": {
+    "id": "XMR",
+    "base": "monero",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  }
+}

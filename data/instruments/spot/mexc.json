@@ -1,0 +1,422 @@
+{
+  "XAUTUSDC": {
+    "id": "XAUTUSDC",
+    "base": "tether-gold",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "XAUTUSDT": {
+    "id": "XAUTUSDT",
+    "base": "tether-gold",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "XRPUSDC": {
+    "id": "XRPUSDC",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "XRPUSDT": {
+    "id": "XRPUSDT",
+    "base": "xrp",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "TONUSDC": {
+    "id": "TONUSDC",
+    "base": "toncoin",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "TONUSDT": {
+    "id": "TONUSDT",
+    "base": "toncoin",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "CCUSDC": {
+    "id": "CCUSDC",
+    "base": "canton",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "CCUSDT": {
+    "id": "CCUSDT",
+    "base": "canton",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "HYPEUSDC": {
+    "id": "HYPEUSDC",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "HYPEUSDT": {
+    "id": "HYPEUSDT",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "XMRUSDC": {
+    "id": "XMRUSDC",
+    "base": "monero",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "XMRUSDT": {
+    "id": "XMRUSDT",
+    "base": "monero",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "NEARUSDC": {
+    "id": "NEARUSDC",
+    "base": "near",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "NEARUSDT": {
+    "id": "NEARUSDT",
+    "base": "near",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "EURIUSDC": {
+    "id": "EURIUSDC",
+    "base": "eurite",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "EURIUSDT": {
+    "id": "EURIUSDT",
+    "base": "eurite",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "LINKUSDC": {
+    "id": "LINKUSDC",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "LINKUSDT": {
+    "id": "LINKUSDT",
+    "base": "chainlink",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "BTCUSDC": {
+    "id": "BTCUSDC",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "BTCUSDT": {
+    "id": "BTCUSDT",
+    "base": "bitcoin",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "UNIUSDC": {
+    "id": "UNIUSDC",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "UNIUSDT": {
+    "id": "UNIUSDT",
+    "base": "uniswap",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "ETHUSDC": {
+    "id": "ETHUSDC",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "ETHUSDT": {
+    "id": "ETHUSDT",
+    "base": "ethereum",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "MNTUSDC": {
+    "id": "MNTUSDC",
+    "base": "mantle",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "MNTUSDT": {
+    "id": "MNTUSDT",
+    "base": "mantle",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "DOTUSDC": {
+    "id": "DOTUSDC",
+    "base": "polkadot",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "DOTUSDT": {
+    "id": "DOTUSDT",
+    "base": "polkadot",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "AAVEUSDC": {
+    "id": "AAVEUSDC",
+    "base": "aave",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "AAVEUSDT": {
+    "id": "AAVEUSDT",
+    "base": "aave",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "PAXGUSDC": {
+    "id": "PAXGUSDC",
+    "base": "pax-gold",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "PAXGUSDT": {
+    "id": "PAXGUSDT",
+    "base": "pax-gold",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "USDEUSDC": {
+    "id": "USDEUSDC",
+    "base": "ethena-usde",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "USDEUSDT": {
+    "id": "USDEUSDT",
+    "base": "ethena-usde",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "TRXUSDC": {
+    "id": "TRXUSDC",
+    "base": "tron",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "TRXUSDT": {
+    "id": "TRXUSDT",
+    "base": "tron",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "BGBUSDC": {
+    "id": "BGBUSDC",
+    "base": "bitget-token",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "BGBUSDT": {
+    "id": "BGBUSDT",
+    "base": "bitget-token",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "XLMUSDC": {
+    "id": "XLMUSDC",
+    "base": "stellar",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "XLMUSDT": {
+    "id": "XLMUSDT",
+    "base": "stellar",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "EURRUSDC": {
+    "id": "EURRUSDC",
+    "base": "stablr-euro",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "EURRUSDT": {
+    "id": "EURRUSDT",
+    "base": "stablr-euro",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "LTCUSDC": {
+    "id": "LTCUSDC",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "LTCUSDT": {
+    "id": "LTCUSDT",
+    "base": "litecoin",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "TAOUSDC": {
+    "id": "TAOUSDC",
+    "base": "bittensor",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "TAOUSDT": {
+    "id": "TAOUSDT",
+    "base": "bittensor",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "AVAXUSDC": {
+    "id": "AVAXUSDC",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "AVAXUSDT": {
+    "id": "AVAXUSDT",
+    "base": "avalanche",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "SOLUSDC": {
+    "id": "SOLUSDC",
+    "base": "solana",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "SOLUSDT": {
+    "id": "SOLUSDT",
+    "base": "solana",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "SUIUSDC": {
+    "id": "SUIUSDC",
+    "base": "sui",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "SUIUSDT": {
+    "id": "SUIUSDT",
+    "base": "sui",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "DOGEUSDC": {
+    "id": "DOGEUSDC",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "DOGEUSDT": {
+    "id": "DOGEUSDT",
+    "base": "dogecoin",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "BCHUSDC": {
+    "id": "BCHUSDC",
+    "base": "bitcoin-cash",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "BCHUSDT": {
+    "id": "BCHUSDT",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "BNBUSDC": {
+    "id": "BNBUSDC",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "BNBUSDT": {
+    "id": "BNBUSDT",
+    "base": "bnb",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "CROUSDC": {
+    "id": "CROUSDC",
+    "base": "cronos",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "CROUSDT": {
+    "id": "CROUSDT",
+    "base": "cronos",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "WBTCUSDC": {
+    "id": "WBTCUSDC",
+    "base": "wrapped-bitcoin",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "WBTCUSDT": {
+    "id": "WBTCUSDT",
+    "base": "wrapped-bitcoin",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "ZECUSDC": {
+    "id": "ZECUSDC",
+    "base": "zcash",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "ZECUSDT": {
+    "id": "ZECUSDT",
+    "base": "zcash",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "STETHUSDC": {
+    "id": "STETHUSDC",
+    "base": "lido-staked-ether",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "STETHUSDT": {
+    "id": "STETHUSDT",
+    "base": "lido-staked-ether",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "USD1USDC": {
+    "id": "USD1USDC",
+    "base": "usd1",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "USD1USDT": {
+    "id": "USD1USDT",
+    "base": "usd1",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "ADAUSDC": {
+    "id": "ADAUSDC",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "ADAUSDT": {
+    "id": "ADAUSDT",
+    "base": "cardano",
+    "quote": "tether",
+    "platform": "mexc"
+  }
+}
