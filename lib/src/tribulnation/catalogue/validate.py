@@ -1,5 +1,5 @@
 import os as _os
-from .schema import Asset, Platform, Network, Catalogue
+from .schema import Asset, Platform, Network, Catalogue, Spot, Perpetual
 
 def asset_icons(assets: dict[str, Asset], base_folder: str):
   errors: list[str] = []
@@ -55,10 +55,36 @@ def ranks(kind: str, items: dict[str, dict]):
   if any(rank is None for rank in ranks):
     errors.append(f'[{kind} RANK ERROR] Missing rank value(s)')
     return errors
-  sorted_ranks = sorted(ranks)
-  expected = list(range(1, len(sorted_ranks) + 1))
-  if sorted_ranks != expected:
-    errors.append(f'[{kind} RANK ERROR] Ranks must be consecutive starting at 1. Found: {sorted_ranks}')
+  sorted_items = sorted(items.values(), key=lambda item: item.get('rank'))
+  ranks = [item['rank'] for item in sorted_items]
+  expected = list(range(1, len(ranks) + 1))
+  if ranks != expected:
+    display = '\n'.join(f'{item["rank"]}: {item["display_name"]}' for item in sorted_items)
+    errors.append(f'[{kind} RANK ERROR] Ranks must be consecutive starting at 1. Found:\n{display}')
+  return errors
+
+def spot_instruments(spot_instruments: dict[str, dict[str, Spot]], assets: dict[str, Asset]):
+  errors: list[str] = []
+  for platform, instruments in spot_instruments.items():
+    for instrument in instruments.values():
+      base, quote, id = instrument['base'], instrument['quote'], instrument['id']
+      if base not in assets:
+        errors.append(f'[SPOT INSTRUMENT ERROR] Spot instrument "{id}" on "{platform}" has inexistent base asset "{base}"')
+      if quote not in assets:
+        errors.append(f'[SPOT INSTRUMENT ERROR] Spot instrument "{id}" on "{platform}" has inexistent quote asset "{quote}"')
+  return errors
+
+def perpetual_instruments(perpetual_instruments: dict[str, dict[str, Perpetual]], assets: dict[str, Asset]):
+  errors: list[str] = []
+  for platform, instruments in perpetual_instruments.items():
+    for instrument in instruments.values():
+      base, quote, settlement, id = instrument['base'], instrument['quote'], instrument['settlement'], instrument['id']
+      if base not in assets:
+        errors.append(f'[PERPETUAL INSTRUMENT ERROR] Perpetual instrument "{id}" on "{platform}" has inexistent base asset "{base}"')
+      if quote not in assets:
+        errors.append(f'[PERPETUAL INSTRUMENT ERROR] Perpetual instrument "{id}" on "{platform}" has inexistent quote asset "{quote}"')
+      if settlement not in assets:
+        errors.append(f'[PERPETUAL INSTRUMENT ERROR] Perpetual instrument "{id}" on "{platform}" has inexistent settlement asset "{settlement}"')
   return errors
 
 def all(catalogue: Catalogue, base_folder: str):
@@ -72,4 +98,6 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(ranks('ASSET', catalogue.assets))
   errors.extend(ranks('PLATFORM', catalogue.platforms))
   errors.extend(ranks('NETWORK', catalogue.networks))
+  errors.extend(spot_instruments(catalogue.spot_instruments, catalogue.assets))
+  errors.extend(perpetual_instruments(catalogue.perpetual_instruments, catalogue.assets))
   return errors

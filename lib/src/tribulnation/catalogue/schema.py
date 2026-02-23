@@ -3,6 +3,28 @@ from typing_extensions import TypedDict, NotRequired, Literal, NamedTuple, Mappi
 Locale = Literal['ca', 'es', 'en']
 Translations = Mapping[Locale, str]
 
+class Spot(TypedDict):
+  id: str
+  """Platform-specific ID"""
+  base: str
+  """Base asset ID"""
+  quote: str
+  """Quote asset ID"""
+  platform: str
+  """Platform ID"""
+
+class Perpetual(TypedDict):
+  id: str
+  """Platform-specific ID"""
+  base: str
+  """Base asset ID"""
+  quote: str
+  """Quote asset ID"""
+  settlement: str
+  """Settlement asset ID"""
+  platform: str
+  """Platform ID"""
+
 class Asset(TypedDict):
   display_name: str
   symbol: str
@@ -38,3 +60,7 @@ class Catalogue(NamedTuple):
   """`platform id -> platform-specific id -> asset id`"""
   asset_translations: dict[str, dict[str, str]]
   """`platform id -> platform-specific id -> asset id`"""
+  spot_instruments: dict[str, dict[str, Spot]]
+  """`platform id -> platform-specific id -> spot instrument`"""
+  perpetual_instruments: dict[str, dict[str, Perpetual]]
+  """`platform id -> platform-specific id -> perpetual instrument`"""
