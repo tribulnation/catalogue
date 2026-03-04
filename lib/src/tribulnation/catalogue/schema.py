@@ -10,8 +10,6 @@ class Spot(TypedDict):
   """Base asset ID"""
   quote: str
   """Quote asset ID"""
-  platform: str
-  """Platform ID"""
 
 class Perpetual(TypedDict):
   id: str
@@ -22,8 +20,6 @@ class Perpetual(TypedDict):
   """Quote asset ID"""
   settlement: str
   """Settlement asset ID"""
-  platform: str
-  """Platform ID"""
 
 class Asset(TypedDict):
   display_name: str
