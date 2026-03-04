@@ -1,7 +1,8 @@
 import os as _os
+from typing import Mapping
 from .schema import Asset, Platform, Network, Catalogue, Spot, Perpetual
 
-def asset_icons(assets: dict[str, Asset], base_folder: str):
+def asset_icons(assets: Mapping[str, Asset], base_folder: str):
   errors: list[str] = []
   for id, asset in assets.items():
     if (icon := asset.get('icon')) is not None:
@@ -9,7 +10,7 @@ def asset_icons(assets: dict[str, Asset], base_folder: str):
         errors.append(f'[ASSET ICON ERROR] Asset "{id}" has inexistent icon "{icon}"')
   return errors
 
-def platform_icons(platforms: dict[str, Platform], base_folder: str):
+def platform_icons(platforms: Mapping[str, Platform], base_folder: str):
   errors: list[str] = []
   for id, platform in platforms.items():
     if (icon := platform.get('icon')) is not None:
@@ -17,7 +18,7 @@ def platform_icons(platforms: dict[str, Platform], base_folder: str):
         errors.append(f'[PLATFORM ICON ERROR] Platform "{id}" has inexistent icon "{icon}"')
   return errors
 
-def network_icons(networks: dict[str, Network], base_folder: str):
+def network_icons(networks: Mapping[str, Network], base_folder: str):
   errors: list[str] = []
   for id, network in networks.items():
     if (icon := network.get('icon')) is not None:
@@ -25,7 +26,7 @@ def network_icons(networks: dict[str, Network], base_folder: str):
         errors.append(f'[NETWORK ICON ERROR] Network "{id}" has inexistent icon "{icon}"')
   return errors
 
-def native_assets(assets: dict[str, Asset], networks: dict[str, Network]):
+def native_assets(assets: Mapping[str, Asset], networks: Mapping[str, Network]):
   errors: list[str] = []
   for id, network in networks.items():
     if (asset := network.get('native_asset')) is not None:
@@ -33,7 +34,7 @@ def native_assets(assets: dict[str, Asset], networks: dict[str, Network]):
         errors.append(f'[NATIVE ASSET ERROR] Network "{id}" has inexistent native asset "{asset}"')
   return errors
 
-def asset_translations(assets: dict[str, Asset], asset_translations: dict[str, dict[str, str]]):
+def asset_translations(assets: Mapping[str, Asset], asset_translations: Mapping[str, Mapping[str, str]]):
   errors: list[str] = []
   for platform, translations in asset_translations.items():
     for asset in translations.values():
@@ -41,7 +42,7 @@ def asset_translations(assets: dict[str, Asset], asset_translations: dict[str, d
         errors.append(f'[ASSET TRANSLATION ERROR] Asset translation "{platform}" has inexistent asset "{asset}"')
   return errors
 
-def network_translations(networks: dict[str, Network], network_translations: dict[str, dict[str, str]]):
+def network_translations(networks: Mapping[str, Network], network_translations: Mapping[str, Mapping[str, str]]):
   errors: list[str] = []
   for platform, translations in network_translations.items():
     for network in translations.values():
@@ -49,13 +50,13 @@ def network_translations(networks: dict[str, Network], network_translations: dic
         errors.append(f'[NETWORK TRANSLATION ERROR] Network translation "{platform}" has inexistent network "{network}"')
   return errors
 
-def ranks(kind: str, items: dict[str, dict]):
+def ranks(kind: str, items: Mapping[str, Mapping]):
   errors: list[str] = []
   ranks = [item.get('rank') for item in items.values()]
   if any(rank is None for rank in ranks):
     errors.append(f'[{kind} RANK ERROR] Missing rank value(s)')
     return errors
-  sorted_items = sorted(items.values(), key=lambda item: item.get('rank'))
+  sorted_items = sorted(items.values(), key=lambda item: item.get('rank')) # type: ignore
   ranks = [item['rank'] for item in sorted_items]
   expected = list(range(1, len(ranks) + 1))
   if ranks != expected:
@@ -63,7 +64,7 @@ def ranks(kind: str, items: dict[str, dict]):
     errors.append(f'[{kind} RANK ERROR] Ranks must be consecutive starting at 1. Found:\n{display}')
   return errors
 
-def spot_instruments(spot_instruments: dict[str, dict[str, Spot]], assets: dict[str, Asset]):
+def spot_instruments(spot_instruments: Mapping[str, Mapping[str, Spot]], assets: Mapping[str, Asset]):
   errors: list[str] = []
   for platform, instruments in spot_instruments.items():
     for instrument in instruments.values():
@@ -74,7 +75,7 @@ def spot_instruments(spot_instruments: dict[str, dict[str, Spot]], assets: dict[
         errors.append(f'[SPOT INSTRUMENT ERROR] Spot instrument "{id}" on "{platform}" has inexistent quote asset "{quote}"')
   return errors
 
-def perpetual_instruments(perpetual_instruments: dict[str, dict[str, Perpetual]], assets: dict[str, Asset]):
+def perpetual_instruments(perpetual_instruments: Mapping[str, Mapping[str, Perpetual]], assets: Mapping[str, Asset]):
   errors: list[str] = []
   for platform, instruments in perpetual_instruments.items():
     for instrument in instruments.values():
