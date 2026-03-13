@@ -95,6 +95,30 @@
     "quote": "tether",
     "platform": "mexc"
   },
+  "ASTER_USDT": {
+    "id": "ASTER_USDT",
+    "base": "aster",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "ASTER_USDC": {
+    "id": "ASTER_USDC",
+    "base": "aster",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "CHZUSDC": {
+    "id": "CHZUSDC",
+    "base": "chiliz",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "CHZUSDT": {
+    "id": "CHZUSDT",
+    "base": "chiliz",
+    "quote": "tether",
+    "platform": "mexc"
+  },
   "LINKUSDC": {
     "id": "LINKUSDC",
     "base": "chainlink",
@@ -380,6 +404,18 @@
   "ZECUSDT": {
     "id": "ZECUSDT",
     "base": "zcash",
+    "quote": "tether",
+    "platform": "mexc"
+  },
+  "ZKUSDC": {
+    "id": "ZKUSDC",
+    "base": "zksync",
+    "quote": "usd-coin",
+    "platform": "mexc"
+  },
+  "ZKUSDT": {
+    "id": "ZKUSDT",
+    "base": "zksync",
     "quote": "tether",
     "platform": "mexc"
   },

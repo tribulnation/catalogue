@@ -1,373 +1,326 @@
 {
+  "ASTER-USD": {
+    "id": "ASTER-USD",
+    "base": "aster",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "BTC-USD": {
     "id": "BTC-USD",
     "base": "bitcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "ETH-USD": {
     "id": "ETH-USD",
     "base": "ethereum",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "LINK-USD": {
     "id": "LINK-USD",
     "base": "chainlink",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "SOL-USD": {
     "id": "SOL-USD",
     "base": "solana",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "ADA-USD": {
     "id": "ADA-USD",
     "base": "cardano",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "AVAX-USD": {
     "id": "AVAX-USD",
     "base": "avalanche",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "LTC-USD": {
     "id": "LTC-USD",
     "base": "litecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "DOGE-USD": {
     "id": "DOGE-USD",
     "base": "dogecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "ATOM-USD": {
     "id": "ATOM-USD",
     "base": "cosmos",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "DOT-USD": {
     "id": "DOT-USD",
     "base": "polkadot",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "UNI-USD": {
     "id": "UNI-USD",
     "base": "uniswap",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "BCH-USD": {
     "id": "BCH-USD",
     "base": "bitcoin-cash",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "TRX-USD": {
     "id": "TRX-USD",
     "base": "tron",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "NEAR-USD": {
     "id": "NEAR-USD",
     "base": "near",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "XLM-USD": {
     "id": "XLM-USD",
     "base": "stellar",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "APT-USD": {
     "id": "APT-USD",
     "base": "aptos",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "SEI-USD": {
     "id": "SEI-USD",
     "base": "sei",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "SUI-USD": {
     "id": "SUI-USD",
     "base": "sui",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "XRP-USD": {
     "id": "XRP-USD",
     "base": "xrp",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "AAVE-USD": {
     "id": "AAVE-USD",
     "base": "aave",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "BNB-USD": {
     "id": "BNB-USD",
     "base": "bnb",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "DYDX-USD": {
     "id": "DYDX-USD",
     "base": "dydx",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "TON-USD": {
     "id": "TON-USD",
     "base": "toncoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "ZK-USD": {
     "id": "ZK-USD",
     "base": "zksync",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "TAO-USD": {
     "id": "TAO-USD",
     "base": "bittensor",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "XMR-USD": {
     "id": "XMR-USD",
     "base": "monero",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "XTZ-USD": {
     "id": "XTZ-USD",
     "base": "tezos",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "MNT-USD": {
     "id": "MNT-USD",
     "base": "mantle",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "PAXG-USD": {
     "id": "PAXG-USD",
     "base": "pax-gold",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "EURC-USD": {
     "id": "EURC-USD",
     "base": "euro-coin",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "WBTC-USD": {
     "id": "WBTC-USD",
     "base": "wrapped-bitcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "USDE-USD": {
     "id": "USDE-USD",
     "base": "ethena-usde",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "POL-USD": {
     "id": "POL-USD",
     "base": "polygon",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "ZEC-USD": {
     "id": "ZEC-USD",
     "base": "zcash",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "HYPE-USD": {
     "id": "HYPE-USD",
     "base": "hyperliquid",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "S-USD": {
     "id": "S-USD",
     "base": "sonic",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "WSTETH-USD": {
     "id": "WSTETH-USD",
     "base": "wrapped-staked-ether",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "CRO-USD": {
     "id": "CRO-USD",
     "base": "cronos",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "XAUT-USD": {
     "id": "XAUT-USD",
     "base": "tether-gold",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "CRV-USD": {
     "id": "CRV-USD",
     "base": "curve-dao",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "PEPE-USD": {
     "id": "PEPE-USD",
     "base": "pepe",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "CHZ-USD": {
     "id": "CHZ-USD",
     "base": "chiliz",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "USUAL-USD": {
     "id": "USUAL-USD",
     "base": "usual",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "OP-USD": {
     "id": "OP-USD",
     "base": "optimism",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "ARB-USD": {
     "id": "ARB-USD",
     "base": "arbitrum",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "BLUR-USD": {
     "id": "BLUR-USD",
     "base": "blur",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "TIA-USD": {
     "id": "TIA-USD",
     "base": "celestia",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "BONK-USD": {
     "id": "BONK-USD",
     "base": "bonk",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "CVX-USD": {
     "id": "CVX-USD",
     "base": "convex-finance",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "PENDLE-USD": {
     "id": "PENDLE-USD",
     "base": "pendle",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "CORE-USD": {
     "id": "CORE-USD",
     "base": "core",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "GMX-USD": {
     "id": "GMX-USD",
     "base": "gmx",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   },
   "MON-USD": {
     "id": "MON-USD",
     "base": "monad",
     "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "platform": "dydx"
+    "settlement": "usd-coin"
   }
 }
