@@ -388,5 +388,15 @@
     "id": "ADAUSDT",
     "base": "cardano",
     "quote": "tether"
+  },
+  "ZROUSDC": {
+    "id": "ZROUSDC",
+    "base": "layer-zero",
+    "quote": "usd-coin"
+  },
+  "ZROUSDT": {
+    "id": "ZROUSDT",
+    "base": "layer-zero",
+    "quote": "tether"
   }
 }

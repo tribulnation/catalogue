@@ -328,5 +328,11 @@
     "base": "monad",
     "quote": "usd-coin",
     "settlement": "usd-coin"
+  },
+  "ZRO-USD": {
+    "id": "ZRO-USD",
+    "base": "layer-zero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
   }
 }
