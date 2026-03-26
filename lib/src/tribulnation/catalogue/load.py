@@ -20,6 +20,10 @@ def assets(folder: str) -> dict[str, Asset]:
       assets[id] = _asset_adapter.validate_json(f.read(), extra='forbid')
   return assets
 
+def assets_order(file: str) -> list[str]:
+  with open(file) as f:
+    return [line.strip() for line in f if line.strip()]
+
 def platforms(folder: str) -> dict[str, Platform]:
   platforms: dict[str, Platform] = {}
   for file in _glob(_os.path.join(folder, '*.json')):
@@ -72,6 +76,7 @@ def perpetual_instruments(folder: str) -> dict[str, dict[str, Perpetual]]:
 def all(folder: str) -> Catalogue:
   return Catalogue(
     assets=assets(_os.path.join(folder, 'assets')),
+    assets_order=assets_order(_os.path.join(folder, 'assets', 'order.txt')),
     platforms=platforms(_os.path.join(folder, 'platforms')),
     networks=networks(_os.path.join(folder, 'networks')),
     network_translations=network_translations(_os.path.join(folder, 'network_translations')),

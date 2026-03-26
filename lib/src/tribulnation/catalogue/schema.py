@@ -1,4 +1,5 @@
-from typing_extensions import TypedDict, NotRequired, Literal, NamedTuple, Mapping
+from dataclasses import dataclass
+from typing_extensions import TypedDict, NotRequired, Literal, Mapping
 
 Locale = Literal['ca', 'es', 'en']
 Translations = Mapping[Locale, str]
@@ -29,7 +30,6 @@ class Asset(TypedDict):
   tags: NotRequired[list[str]]
   urls: NotRequired[dict[str, str]]
   icon: NotRequired[str]
-  rank: int
   coingecko_id: NotRequired[str]
 
 class Platform(TypedDict):
@@ -48,8 +48,10 @@ class Network(TypedDict):
   icon: NotRequired[str]
   rank: int
 
-class Catalogue(NamedTuple):
+@dataclass
+class Catalogue:
   assets: dict[str, Asset]
+  assets_order: list[str]
   platforms: dict[str, Platform]
   networks: dict[str, Network]
   network_translations: dict[str, dict[str, str]]
@@ -60,3 +62,8 @@ class Catalogue(NamedTuple):
   """`platform id -> platform-specific id -> spot instrument`"""
   perpetual_instruments: dict[str, dict[str, Perpetual]]
   """`platform id -> platform-specific id -> perpetual instrument`"""
+
+  @property
+  def ordered_assets(self):
+    for asset in self.assets_order:
+      yield asset, self.assets[asset]

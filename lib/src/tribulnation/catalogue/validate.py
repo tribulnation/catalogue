@@ -50,6 +50,32 @@ def network_translations(networks: Mapping[str, Network], network_translations: 
         errors.append(f'[NETWORK TRANSLATION ERROR] Network translation "{platform}" has inexistent network "{network}"')
   return errors
 
+def asset_order(assets: Mapping[str, Asset], base_folder: str):
+  errors: list[str] = []
+  order_file = _os.path.join(base_folder, 'data', 'assets', 'order.txt')
+  if not _os.path.exists(order_file):
+    return ['[ASSET ORDER ERROR] Missing file "data/assets/order.txt"']
+
+  with open(order_file) as f:
+    ordered_assets = [line.strip() for line in f if line.strip()]
+
+  unknown_assets = [asset for asset in ordered_assets if asset not in assets]
+  if unknown_assets:
+    unknown_assets_display = ', '.join(unknown_assets)
+    errors.append(f'[ASSET ORDER ERROR] Unknown asset id(s) in "data/assets/order.txt": {unknown_assets_display}')
+
+  duplicates = sorted({asset for asset in ordered_assets if ordered_assets.count(asset) > 1})
+  if duplicates:
+    duplicates_display = ', '.join(duplicates)
+    errors.append(f'[ASSET ORDER ERROR] Duplicate asset id(s) in "data/assets/order.txt": {duplicates_display}')
+
+  missing_assets = sorted(set(assets.keys()) - set(ordered_assets))
+  if missing_assets:
+    missing_assets_display = ', '.join(missing_assets)
+    errors.append(f'[ASSET ORDER ERROR] Missing asset id(s) in "data/assets/order.txt": {missing_assets_display}')
+
+  return errors
+
 def ranks(kind: str, items: Mapping[str, Mapping]):
   errors: list[str] = []
   ranks = [item.get('rank') for item in items.values()]
@@ -93,10 +119,10 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(asset_icons(catalogue.assets, base_folder))
   errors.extend(platform_icons(catalogue.platforms, base_folder))
   errors.extend(network_icons(catalogue.networks, base_folder))
+  errors.extend(asset_order(catalogue.assets, base_folder))
   errors.extend(native_assets(catalogue.assets, catalogue.networks))
   errors.extend(asset_translations(catalogue.assets, catalogue.asset_translations))
   errors.extend(network_translations(catalogue.networks, catalogue.network_translations))
-  errors.extend(ranks('ASSET', catalogue.assets))
   errors.extend(ranks('PLATFORM', catalogue.platforms))
   errors.extend(ranks('NETWORK', catalogue.networks))
   errors.extend(spot_instruments(catalogue.spot_instruments, catalogue.assets))
