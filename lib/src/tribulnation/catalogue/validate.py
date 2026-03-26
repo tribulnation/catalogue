@@ -102,6 +102,32 @@ def platform_order(platforms: Mapping[str, Platform], base_folder: str):
 
   return errors
 
+def network_order(networks: Mapping[str, Network], base_folder: str):
+  errors: list[str] = []
+  order_file = _os.path.join(base_folder, 'data', 'networks', 'order.txt')
+  if not _os.path.exists(order_file):
+    return ['[NETWORK ORDER ERROR] Missing file "data/networks/order.txt"']
+
+  with open(order_file) as f:
+    ordered_networks = [line.strip() for line in f if line.strip()]
+
+  unknown_networks = [network for network in ordered_networks if network not in networks]
+  if unknown_networks:
+    unknown_networks_display = ', '.join(unknown_networks)
+    errors.append(f'[NETWORK ORDER ERROR] Unknown network id(s) in "data/networks/order.txt": {unknown_networks_display}')
+
+  duplicates = sorted({network for network in ordered_networks if ordered_networks.count(network) > 1})
+  if duplicates:
+    duplicates_display = ', '.join(duplicates)
+    errors.append(f'[NETWORK ORDER ERROR] Duplicate network id(s) in "data/networks/order.txt": {duplicates_display}')
+
+  missing_networks = sorted(set(networks.keys()) - set(ordered_networks))
+  if missing_networks:
+    missing_networks_display = ', '.join(missing_networks)
+    errors.append(f'[NETWORK ORDER ERROR] Missing network id(s) in "data/networks/order.txt": {missing_networks_display}')
+
+  return errors
+
 def ranks(kind: str, items: Mapping[str, Mapping]):
   errors: list[str] = []
   ranks = [item.get('rank') for item in items.values()]
@@ -147,10 +173,10 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(network_icons(catalogue.networks, base_folder))
   errors.extend(asset_order(catalogue.assets, base_folder))
   errors.extend(platform_order(catalogue.platforms, base_folder))
+  errors.extend(network_order(catalogue.networks, base_folder))
   errors.extend(native_assets(catalogue.assets, catalogue.networks))
   errors.extend(asset_translations(catalogue.assets, catalogue.asset_translations))
   errors.extend(network_translations(catalogue.networks, catalogue.network_translations))
-  errors.extend(ranks('NETWORK', catalogue.networks))
   errors.extend(spot_instruments(catalogue.spot_instruments, catalogue.assets))
   errors.extend(perpetual_instruments(catalogue.perpetual_instruments, catalogue.assets))
   return errors

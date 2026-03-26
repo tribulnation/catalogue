@@ -45,7 +45,6 @@ class Network(TypedDict):
   urls: NotRequired[dict[str, str]]
   native_asset: NotRequired[str]
   icon: NotRequired[str]
-  rank: int
 
 @dataclass
 class Catalogue:
@@ -54,6 +53,7 @@ class Catalogue:
   platforms: dict[str, Platform]
   platforms_order: list[str]
   networks: dict[str, Network]
+  networks_order: list[str]
   network_translations: dict[str, dict[str, str]]
   """`platform id -> platform-specific id -> asset id`"""
   asset_translations: dict[str, dict[str, str]]
@@ -72,3 +72,8 @@ class Catalogue:
   def ordered_platforms(self):
     for platform in self.platforms_order:
       yield platform, self.platforms[platform]
+
+  @property
+  def ordered_networks(self):
+    for network in self.networks_order:
+      yield network, self.networks[network]
