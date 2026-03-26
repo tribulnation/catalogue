@@ -1,6 +1,6 @@
 import os as _os
 from typing import Mapping
-from .schema import Asset, Platform, Network, Catalogue, Spot, Perpetual
+from .schema import Asset, Platform, Network, Catalogue, Spot, Perpetual, Debt
 
 def asset_icons(assets: Mapping[str, Asset], base_folder: str):
   errors: list[str] = []
@@ -164,6 +164,15 @@ def perpetual_instruments(perpetual_instruments: Mapping[str, Mapping[str, Perpe
         errors.append(f'[PERPETUAL INSTRUMENT ERROR] Perpetual instrument "{id}" on "{platform}" has inexistent quote asset "{quote}"')
       if settlement not in assets:
         errors.append(f'[PERPETUAL INSTRUMENT ERROR] Perpetual instrument "{id}" on "{platform}" has inexistent settlement asset "{settlement}"')
+  return errors
+
+def debt_instruments(debt_instruments: Mapping[str, Mapping[str, Debt]], assets: Mapping[str, Asset]):
+  errors: list[str] = []
+  for platform, instruments in debt_instruments.items():
+    for instrument in instruments.values():
+      asset, id = instrument['asset'], instrument['id']
+      if asset not in assets:
+        errors.append(f'[DEBT INSTRUMENT ERROR] Debt instrument "{id}" on "{platform}" has inexistent asset "{asset}"')
   return errors
 
 def all(catalogue: Catalogue, base_folder: str):

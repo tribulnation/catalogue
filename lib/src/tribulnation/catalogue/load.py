@@ -2,7 +2,7 @@ import os as _os
 from collections import defaultdict as _defaultdict
 from glob import glob as _glob
 from pydantic import TypeAdapter as _TypeAdapter
-from .schema import Asset, Platform, Network, Catalogue, Spot, Perpetual
+from .schema import Asset, Platform, Network, Catalogue, Spot, Perpetual, Debt
 
 _asset_adapter = _TypeAdapter(Asset)
 _platform_adapter = _TypeAdapter(Platform)
@@ -11,6 +11,7 @@ _asset_translation_adapter = _TypeAdapter(dict[str, str])
 _network_translation_adapter = _TypeAdapter(dict[str, str])
 _spot_instruments_adapter = _TypeAdapter(dict[str, Spot])
 _perpetual_instruments_adapter = _TypeAdapter(dict[str, Perpetual])
+_debt_instruments_adapter = _TypeAdapter(dict[str, Debt])
 
 def assets(folder: str) -> dict[str, Asset]:
   assets: dict[str, Asset] = {}
@@ -81,6 +82,14 @@ def perpetual_instruments(folder: str) -> dict[str, dict[str, Perpetual]]:
       perpetual_instruments[platform].update(_perpetual_instruments_adapter.validate_json(f.read()))
   return perpetual_instruments
 
+def debt_instruments(folder: str) -> dict[str, dict[str, Debt]]:
+  debt_instruments = _defaultdict[str, dict[str, Debt]](dict)
+  for file in _glob(_os.path.join(folder, '*.json')):
+    platform = file.split('/')[-1].split('.')[0]
+    with open(file) as f:
+      debt_instruments[platform].update(_debt_instruments_adapter.validate_json(f.read()))
+  return debt_instruments
+
 def all(folder: str) -> Catalogue:
   return Catalogue(
     assets=assets(_os.path.join(folder, 'assets')),
@@ -93,4 +102,5 @@ def all(folder: str) -> Catalogue:
     asset_translations=asset_translations(_os.path.join(folder, 'asset_translations')),
     spot_instruments=spot_instruments(_os.path.join(folder, 'instruments', 'spot')),
     perpetual_instruments=perpetual_instruments(_os.path.join(folder, 'instruments', 'perpetual')),
+    debt_instruments=debt_instruments(_os.path.join(folder, 'instruments', 'debt')),
   )
