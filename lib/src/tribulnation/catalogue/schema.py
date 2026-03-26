@@ -38,7 +38,6 @@ class Platform(TypedDict):
   urls: NotRequired[dict[str, str]]
   kind: Literal['cex', 'dex', 'blockchain']
   icon: NotRequired[str]
-  rank: int
 
 class Network(TypedDict):
   display_name: str
@@ -53,6 +52,7 @@ class Catalogue:
   assets: dict[str, Asset]
   assets_order: list[str]
   platforms: dict[str, Platform]
+  platforms_order: list[str]
   networks: dict[str, Network]
   network_translations: dict[str, dict[str, str]]
   """`platform id -> platform-specific id -> asset id`"""
@@ -67,3 +67,8 @@ class Catalogue:
   def ordered_assets(self):
     for asset in self.assets_order:
       yield asset, self.assets[asset]
+
+  @property
+  def ordered_platforms(self):
+    for platform in self.platforms_order:
+      yield platform, self.platforms[platform]

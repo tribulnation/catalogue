@@ -76,6 +76,32 @@ def asset_order(assets: Mapping[str, Asset], base_folder: str):
 
   return errors
 
+def platform_order(platforms: Mapping[str, Platform], base_folder: str):
+  errors: list[str] = []
+  order_file = _os.path.join(base_folder, 'data', 'platforms', 'order.txt')
+  if not _os.path.exists(order_file):
+    return ['[PLATFORM ORDER ERROR] Missing file "data/platforms/order.txt"']
+
+  with open(order_file) as f:
+    ordered_platforms = [line.strip() for line in f if line.strip()]
+
+  unknown_platforms = [platform for platform in ordered_platforms if platform not in platforms]
+  if unknown_platforms:
+    unknown_platforms_display = ', '.join(unknown_platforms)
+    errors.append(f'[PLATFORM ORDER ERROR] Unknown platform id(s) in "data/platforms/order.txt": {unknown_platforms_display}')
+
+  duplicates = sorted({platform for platform in ordered_platforms if ordered_platforms.count(platform) > 1})
+  if duplicates:
+    duplicates_display = ', '.join(duplicates)
+    errors.append(f'[PLATFORM ORDER ERROR] Duplicate platform id(s) in "data/platforms/order.txt": {duplicates_display}')
+
+  missing_platforms = sorted(set(platforms.keys()) - set(ordered_platforms))
+  if missing_platforms:
+    missing_platforms_display = ', '.join(missing_platforms)
+    errors.append(f'[PLATFORM ORDER ERROR] Missing platform id(s) in "data/platforms/order.txt": {missing_platforms_display}')
+
+  return errors
+
 def ranks(kind: str, items: Mapping[str, Mapping]):
   errors: list[str] = []
   ranks = [item.get('rank') for item in items.values()]
@@ -120,10 +146,10 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(platform_icons(catalogue.platforms, base_folder))
   errors.extend(network_icons(catalogue.networks, base_folder))
   errors.extend(asset_order(catalogue.assets, base_folder))
+  errors.extend(platform_order(catalogue.platforms, base_folder))
   errors.extend(native_assets(catalogue.assets, catalogue.networks))
   errors.extend(asset_translations(catalogue.assets, catalogue.asset_translations))
   errors.extend(network_translations(catalogue.networks, catalogue.network_translations))
-  errors.extend(ranks('PLATFORM', catalogue.platforms))
   errors.extend(ranks('NETWORK', catalogue.networks))
   errors.extend(spot_instruments(catalogue.spot_instruments, catalogue.assets))
   errors.extend(perpetual_instruments(catalogue.perpetual_instruments, catalogue.assets))

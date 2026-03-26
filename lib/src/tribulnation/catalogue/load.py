@@ -32,6 +32,10 @@ def platforms(folder: str) -> dict[str, Platform]:
       platforms[id] = _platform_adapter.validate_json(f.read(), extra='forbid')
   return platforms
 
+def platforms_order(file: str) -> list[str]:
+  with open(file) as f:
+    return [line.strip() for line in f if line.strip()]
+
 def networks(folder: str) -> dict[str, Network]:
   networks: dict[str, Network] = {}
   for file in _glob(_os.path.join(folder, '*.json')):
@@ -78,6 +82,7 @@ def all(folder: str) -> Catalogue:
     assets=assets(_os.path.join(folder, 'assets')),
     assets_order=assets_order(_os.path.join(folder, 'assets', 'order.txt')),
     platforms=platforms(_os.path.join(folder, 'platforms')),
+    platforms_order=platforms_order(_os.path.join(folder, 'platforms', 'order.txt')),
     networks=networks(_os.path.join(folder, 'networks')),
     network_translations=network_translations(_os.path.join(folder, 'network_translations')),
     asset_translations=asset_translations(_os.path.join(folder, 'asset_translations')),
