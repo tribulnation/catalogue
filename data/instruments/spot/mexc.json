@@ -409,6 +409,16 @@
     "base": "wormhole",
     "quote": "tether"
   },
+  "SNXUSDC": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "usd-coin"
+  },
+  "SNXUSDT": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "tether"
+  },
   "ARKMUSDC": {
     "exchange": "spot",
     "base": "arkham",
