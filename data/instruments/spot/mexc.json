@@ -399,6 +399,16 @@
     "base": "pump",
     "quote": "tether"
   },
+  "WUSDC": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "usd-coin"
+  },
+  "WUSDT": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "tether"
+  },
   "ARKMUSDC": {
     "exchange": "spot",
     "base": "arkham",

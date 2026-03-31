@@ -17,6 +17,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "W-USD": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "ETH-USD": {
     "exchange": "perp",
     "base": "ethereum",
