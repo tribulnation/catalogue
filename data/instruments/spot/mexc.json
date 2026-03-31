@@ -389,6 +389,16 @@
     "base": "cardano",
     "quote": "tether"
   },
+  "PUMPUSDC": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "usd-coin"
+  },
+  "PUMPUSDT": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "tether"
+  },
   "ARKMUSDC": {
     "exchange": "spot",
     "base": "arkham",

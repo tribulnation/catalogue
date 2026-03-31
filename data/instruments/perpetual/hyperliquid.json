@@ -13,6 +13,13 @@
     "settlement": "usd-coin",
     "platform": "hyperliquid"
   },
+  "PUMP": {
+    "exchange": "",
+    "base": "pump",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
   "ATOM": {
     "exchange": "",
     "base": "cosmos",

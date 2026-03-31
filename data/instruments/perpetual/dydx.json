@@ -11,6 +11,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "PUMP-USD": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "ETH-USD": {
     "exchange": "perp",
     "base": "ethereum",
