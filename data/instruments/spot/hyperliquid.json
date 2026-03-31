@@ -40,5 +40,17 @@
     "base": "hyperliquid",
     "quote": "ethena-usde",
     "platform": "hyperliquid"
+  },
+  "XAUT0/USDC:182": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "XAUT0/USDT0:209": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "tether",
+    "platform": "hyperliquid"
   }
 }
