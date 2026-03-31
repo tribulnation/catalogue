@@ -1,5 +1,5 @@
+from typing_extensions import TypedDict, NotRequired, Literal, Mapping, Iterable
 from dataclasses import dataclass
-from typing_extensions import TypedDict, NotRequired, Literal, Mapping
 
 Locale = Literal['ca', 'es', 'en']
 Translations = Mapping[Locale, str]
@@ -83,3 +83,8 @@ class Catalogue:
   def ordered_networks(self):
     for network in self.networks_order:
       yield network, self.networks[network]
+
+  @staticmethod
+  def load(path: str) -> 'Catalogue':
+    from . import load
+    return load.all(path)
