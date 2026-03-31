@@ -1,411 +1,411 @@
 {
   "XAUTUSDC": {
-    "id": "XAUTUSDC",
+    "exchange": "spot",
     "base": "tether-gold",
     "quote": "usd-coin"
   },
   "XAUTUSDT": {
-    "id": "XAUTUSDT",
+    "exchange": "spot",
     "base": "tether-gold",
     "quote": "tether"
   },
   "XRPUSDC": {
-    "id": "XRPUSDC",
+    "exchange": "spot",
     "base": "xrp",
     "quote": "usd-coin"
   },
   "XRPUSDT": {
-    "id": "XRPUSDT",
+    "exchange": "spot",
     "base": "xrp",
     "quote": "tether"
   },
   "TONUSDC": {
-    "id": "TONUSDC",
+    "exchange": "spot",
     "base": "toncoin",
     "quote": "usd-coin"
   },
   "TONUSDT": {
-    "id": "TONUSDT",
+    "exchange": "spot",
     "base": "toncoin",
     "quote": "tether"
   },
   "CCUSDC": {
-    "id": "CCUSDC",
+    "exchange": "spot",
     "base": "canton",
     "quote": "usd-coin"
   },
   "CCUSDT": {
-    "id": "CCUSDT",
+    "exchange": "spot",
     "base": "canton",
     "quote": "tether"
   },
   "HYPEUSDC": {
-    "id": "HYPEUSDC",
+    "exchange": "spot",
     "base": "hyperliquid",
     "quote": "usd-coin"
   },
   "HYPEUSDT": {
-    "id": "HYPEUSDT",
+    "exchange": "spot",
     "base": "hyperliquid",
     "quote": "tether"
   },
   "XMRUSDC": {
-    "id": "XMRUSDC",
+    "exchange": "spot",
     "base": "monero",
     "quote": "usd-coin"
   },
   "XMRUSDT": {
-    "id": "XMRUSDT",
+    "exchange": "spot",
     "base": "monero",
     "quote": "tether"
   },
   "NEARUSDC": {
-    "id": "NEARUSDC",
+    "exchange": "spot",
     "base": "near",
     "quote": "usd-coin"
   },
   "NEARUSDT": {
-    "id": "NEARUSDT",
+    "exchange": "spot",
     "base": "near",
     "quote": "tether"
   },
   "EURIUSDC": {
-    "id": "EURIUSDC",
+    "exchange": "spot",
     "base": "eurite",
     "quote": "usd-coin"
   },
   "EURIUSDT": {
-    "id": "EURIUSDT",
+    "exchange": "spot",
     "base": "eurite",
     "quote": "tether"
   },
   "ASTERUSDT": {
-    "id": "ASTERUSDT",
+    "exchange": "spot",
     "base": "aster",
     "quote": "tether"
   },
   "ASTERUSDC": {
-    "id": "ASTERUSDC",
+    "exchange": "spot",
     "base": "aster",
     "quote": "usd-coin"
   },
   "CHZUSDC": {
-    "id": "CHZUSDC",
+    "exchange": "spot",
     "base": "chiliz",
     "quote": "usd-coin"
   },
   "CHZUSDT": {
-    "id": "CHZUSDT",
+    "exchange": "spot",
     "base": "chiliz",
     "quote": "tether"
   },
   "LINKUSDC": {
-    "id": "LINKUSDC",
+    "exchange": "spot",
     "base": "chainlink",
     "quote": "usd-coin"
   },
   "LINKUSDT": {
-    "id": "LINKUSDT",
+    "exchange": "spot",
     "base": "chainlink",
     "quote": "tether"
   },
   "BTCUSDC": {
-    "id": "BTCUSDC",
+    "exchange": "spot",
     "base": "bitcoin",
     "quote": "usd-coin"
   },
   "BTCUSDT": {
-    "id": "BTCUSDT",
+    "exchange": "spot",
     "base": "bitcoin",
     "quote": "tether"
   },
   "UNIUSDC": {
-    "id": "UNIUSDC",
+    "exchange": "spot",
     "base": "uniswap",
     "quote": "usd-coin"
   },
   "UNIUSDT": {
-    "id": "UNIUSDT",
+    "exchange": "spot",
     "base": "uniswap",
     "quote": "tether"
   },
   "ETHUSDC": {
-    "id": "ETHUSDC",
+    "exchange": "spot",
     "base": "ethereum",
     "quote": "usd-coin"
   },
   "ETHUSDT": {
-    "id": "ETHUSDT",
+    "exchange": "spot",
     "base": "ethereum",
     "quote": "tether"
   },
   "MNTUSDC": {
-    "id": "MNTUSDC",
+    "exchange": "spot",
     "base": "mantle",
     "quote": "usd-coin"
   },
   "MNTUSDT": {
-    "id": "MNTUSDT",
+    "exchange": "spot",
     "base": "mantle",
     "quote": "tether"
   },
   "DOTUSDC": {
-    "id": "DOTUSDC",
+    "exchange": "spot",
     "base": "polkadot",
     "quote": "usd-coin"
   },
   "DOTUSDT": {
-    "id": "DOTUSDT",
+    "exchange": "spot",
     "base": "polkadot",
     "quote": "tether"
   },
   "AAVEUSDC": {
-    "id": "AAVEUSDC",
+    "exchange": "spot",
     "base": "aave",
     "quote": "usd-coin"
   },
   "AAVEUSDT": {
-    "id": "AAVEUSDT",
+    "exchange": "spot",
     "base": "aave",
     "quote": "tether"
   },
   "PAXGUSDC": {
-    "id": "PAXGUSDC",
+    "exchange": "spot",
     "base": "pax-gold",
     "quote": "usd-coin"
   },
   "PAXGUSDT": {
-    "id": "PAXGUSDT",
+    "exchange": "spot",
     "base": "pax-gold",
     "quote": "tether"
   },
   "USDEUSDC": {
-    "id": "USDEUSDC",
+    "exchange": "spot",
     "base": "ethena-usde",
     "quote": "usd-coin"
   },
   "USDEUSDT": {
-    "id": "USDEUSDT",
+    "exchange": "spot",
     "base": "ethena-usde",
     "quote": "tether"
   },
   "TRXUSDC": {
-    "id": "TRXUSDC",
+    "exchange": "spot",
     "base": "tron",
     "quote": "usd-coin"
   },
   "TRXUSDT": {
-    "id": "TRXUSDT",
+    "exchange": "spot",
     "base": "tron",
     "quote": "tether"
   },
   "BGBUSDC": {
-    "id": "BGBUSDC",
+    "exchange": "spot",
     "base": "bitget-token",
     "quote": "usd-coin"
   },
   "BGBUSDT": {
-    "id": "BGBUSDT",
+    "exchange": "spot",
     "base": "bitget-token",
     "quote": "tether"
   },
   "XLMUSDC": {
-    "id": "XLMUSDC",
+    "exchange": "spot",
     "base": "stellar",
     "quote": "usd-coin"
   },
   "XLMUSDT": {
-    "id": "XLMUSDT",
+    "exchange": "spot",
     "base": "stellar",
     "quote": "tether"
   },
   "EURRUSDC": {
-    "id": "EURRUSDC",
+    "exchange": "spot",
     "base": "stablr-euro",
     "quote": "usd-coin"
   },
   "EURRUSDT": {
-    "id": "EURRUSDT",
+    "exchange": "spot",
     "base": "stablr-euro",
     "quote": "tether"
   },
   "LTCUSDC": {
-    "id": "LTCUSDC",
+    "exchange": "spot",
     "base": "litecoin",
     "quote": "usd-coin"
   },
   "LTCUSDT": {
-    "id": "LTCUSDT",
+    "exchange": "spot",
     "base": "litecoin",
     "quote": "tether"
   },
   "TAOUSDC": {
-    "id": "TAOUSDC",
+    "exchange": "spot",
     "base": "bittensor",
     "quote": "usd-coin"
   },
   "TAOUSDT": {
-    "id": "TAOUSDT",
+    "exchange": "spot",
     "base": "bittensor",
     "quote": "tether"
   },
   "AVAXUSDC": {
-    "id": "AVAXUSDC",
+    "exchange": "spot",
     "base": "avalanche",
     "quote": "usd-coin"
   },
   "AVAXUSDT": {
-    "id": "AVAXUSDT",
+    "exchange": "spot",
     "base": "avalanche",
     "quote": "tether"
   },
   "ALGOUSDT": {
-    "id": "ALGOUSDT",
+    "exchange": "spot",
     "base": "algorand",
     "quote": "tether"
   },
   "ALGOUSDC": {
-    "id": "ALGOUSDC",
+    "exchange": "spot",
     "base": "algorand",
     "quote": "usd-coin"
   },
   "SOLUSDC": {
-    "id": "SOLUSDC",
+    "exchange": "spot",
     "base": "solana",
     "quote": "usd-coin"
   },
   "SOLUSDT": {
-    "id": "SOLUSDT",
+    "exchange": "spot",
     "base": "solana",
     "quote": "tether"
   },
   "SUIUSDC": {
-    "id": "SUIUSDC",
+    "exchange": "spot",
     "base": "sui",
     "quote": "usd-coin"
   },
   "SUIUSDT": {
-    "id": "SUIUSDT",
+    "exchange": "spot",
     "base": "sui",
     "quote": "tether"
   },
   "DOGEUSDC": {
-    "id": "DOGEUSDC",
+    "exchange": "spot",
     "base": "dogecoin",
     "quote": "usd-coin"
   },
   "DOGEUSDT": {
-    "id": "DOGEUSDT",
+    "exchange": "spot",
     "base": "dogecoin",
     "quote": "tether"
   },
   "BCHUSDC": {
-    "id": "BCHUSDC",
+    "exchange": "spot",
     "base": "bitcoin-cash",
     "quote": "usd-coin"
   },
   "BCHUSDT": {
-    "id": "BCHUSDT",
+    "exchange": "spot",
     "base": "bitcoin-cash",
     "quote": "tether"
   },
   "BNBUSDC": {
-    "id": "BNBUSDC",
+    "exchange": "spot",
     "base": "bnb",
     "quote": "usd-coin"
   },
   "BNBUSDT": {
-    "id": "BNBUSDT",
+    "exchange": "spot",
     "base": "bnb",
     "quote": "tether"
   },
   "CROUSDC": {
-    "id": "CROUSDC",
+    "exchange": "spot",
     "base": "cronos",
     "quote": "usd-coin"
   },
   "CROUSDT": {
-    "id": "CROUSDT",
+    "exchange": "spot",
     "base": "cronos",
     "quote": "tether"
   },
   "WBTCUSDC": {
-    "id": "WBTCUSDC",
+    "exchange": "spot",
     "base": "wrapped-bitcoin",
     "quote": "usd-coin"
   },
   "WBTCUSDT": {
-    "id": "WBTCUSDT",
+    "exchange": "spot",
     "base": "wrapped-bitcoin",
     "quote": "tether"
   },
   "ZECUSDC": {
-    "id": "ZECUSDC",
+    "exchange": "spot",
     "base": "zcash",
     "quote": "usd-coin"
   },
   "ZECUSDT": {
-    "id": "ZECUSDT",
+    "exchange": "spot",
     "base": "zcash",
     "quote": "tether"
   },
   "ZKUSDC": {
-    "id": "ZKUSDC",
+    "exchange": "spot",
     "base": "zksync",
     "quote": "usd-coin"
   },
   "ZKUSDT": {
-    "id": "ZKUSDT",
+    "exchange": "spot",
     "base": "zksync",
     "quote": "tether"
   },
   "STETHUSDC": {
-    "id": "STETHUSDC",
+    "exchange": "spot",
     "base": "lido-staked-ether",
     "quote": "usd-coin"
   },
   "STETHUSDT": {
-    "id": "STETHUSDT",
+    "exchange": "spot",
     "base": "lido-staked-ether",
     "quote": "tether"
   },
   "USD1USDC": {
-    "id": "USD1USDC",
+    "exchange": "spot",
     "base": "usd1",
     "quote": "usd-coin"
   },
   "USD1USDT": {
-    "id": "USD1USDT",
+    "exchange": "spot",
     "base": "usd1",
     "quote": "tether"
   },
   "ADAUSDC": {
-    "id": "ADAUSDC",
+    "exchange": "spot",
     "base": "cardano",
     "quote": "usd-coin"
   },
   "ADAUSDT": {
-    "id": "ADAUSDT",
+    "exchange": "spot",
     "base": "cardano",
     "quote": "tether"
   },
   "ONDOUSDC": {
-    "id": "ONDOUSDC",
+    "exchange": "spot",
     "base": "ondo",
     "quote": "usd-coin"
   },
   "ONDOUSDT": {
-    "id": "ONDOUSDT",
+    "exchange": "spot",
     "base": "ondo",
     "quote": "tether"
   },
   "ZROUSDC": {
-    "id": "ZROUSDC",
+    "exchange": "spot",
     "base": "layer-zero",
     "quote": "usd-coin"
   },
   "ZROUSDT": {
-    "id": "ZROUSDT",
+    "exchange": "spot",
     "base": "layer-zero",
     "quote": "tether"
   }

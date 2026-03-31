@@ -1,342 +1,342 @@
 {
   "ASTER-USD": {
-    "id": "ASTER-USD",
+    "exchange": "perp",
     "base": "aster",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "BTC-USD": {
-    "id": "BTC-USD",
+    "exchange": "perp",
     "base": "bitcoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ETH-USD": {
-    "id": "ETH-USD",
+    "exchange": "perp",
     "base": "ethereum",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "LINK-USD": {
-    "id": "LINK-USD",
+    "exchange": "perp",
     "base": "chainlink",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "SOL-USD": {
-    "id": "SOL-USD",
+    "exchange": "perp",
     "base": "solana",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ONDO-USD": {
-    "id": "ONDO-USD",
+    "exchange": "perp",
     "base": "ondo",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ADA-USD": {
-    "id": "ADA-USD",
+    "exchange": "perp",
     "base": "cardano",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "AVAX-USD": {
-    "id": "AVAX-USD",
+    "exchange": "perp",
     "base": "avalanche",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ALGO-USD": {
-    "id": "ALGO-USD",
+    "exchange": "perp",
     "base": "algorand",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "LTC-USD": {
-    "id": "LTC-USD",
+    "exchange": "perp",
     "base": "litecoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "DOGE-USD": {
-    "id": "DOGE-USD",
+    "exchange": "perp",
     "base": "dogecoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ATOM-USD": {
-    "id": "ATOM-USD",
+    "exchange": "perp",
     "base": "cosmos",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "DOT-USD": {
-    "id": "DOT-USD",
+    "exchange": "perp",
     "base": "polkadot",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "UNI-USD": {
-    "id": "UNI-USD",
+    "exchange": "perp",
     "base": "uniswap",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "BCH-USD": {
-    "id": "BCH-USD",
+    "exchange": "perp",
     "base": "bitcoin-cash",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "TRX-USD": {
-    "id": "TRX-USD",
+    "exchange": "perp",
     "base": "tron",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "NEAR-USD": {
-    "id": "NEAR-USD",
+    "exchange": "perp",
     "base": "near",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "XLM-USD": {
-    "id": "XLM-USD",
+    "exchange": "perp",
     "base": "stellar",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "APT-USD": {
-    "id": "APT-USD",
+    "exchange": "perp",
     "base": "aptos",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "SEI-USD": {
-    "id": "SEI-USD",
+    "exchange": "perp",
     "base": "sei",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "SUI-USD": {
-    "id": "SUI-USD",
+    "exchange": "perp",
     "base": "sui",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "XRP-USD": {
-    "id": "XRP-USD",
+    "exchange": "perp",
     "base": "xrp",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "AAVE-USD": {
-    "id": "AAVE-USD",
+    "exchange": "perp",
     "base": "aave",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "BNB-USD": {
-    "id": "BNB-USD",
+    "exchange": "perp",
     "base": "bnb",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "DYDX-USD": {
-    "id": "DYDX-USD",
+    "exchange": "perp",
     "base": "dydx",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "TON-USD": {
-    "id": "TON-USD",
+    "exchange": "perp",
     "base": "toncoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ZK-USD": {
-    "id": "ZK-USD",
+    "exchange": "perp",
     "base": "zksync",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "TAO-USD": {
-    "id": "TAO-USD",
+    "exchange": "perp",
     "base": "bittensor",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "XMR-USD": {
-    "id": "XMR-USD",
+    "exchange": "perp",
     "base": "monero",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "XTZ-USD": {
-    "id": "XTZ-USD",
+    "exchange": "perp",
     "base": "tezos",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "MNT-USD": {
-    "id": "MNT-USD",
+    "exchange": "perp",
     "base": "mantle",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "PAXG-USD": {
-    "id": "PAXG-USD",
+    "exchange": "perp",
     "base": "pax-gold",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "EURC-USD": {
-    "id": "EURC-USD",
+    "exchange": "perp",
     "base": "euro-coin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "WBTC-USD": {
-    "id": "WBTC-USD",
+    "exchange": "perp",
     "base": "wrapped-bitcoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "USDE-USD": {
-    "id": "USDE-USD",
+    "exchange": "perp",
     "base": "ethena-usde",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "POL-USD": {
-    "id": "POL-USD",
+    "exchange": "perp",
     "base": "polygon",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ZEC-USD": {
-    "id": "ZEC-USD",
+    "exchange": "perp",
     "base": "zcash",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "HYPE-USD": {
-    "id": "HYPE-USD",
+    "exchange": "perp",
     "base": "hyperliquid",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "S-USD": {
-    "id": "S-USD",
+    "exchange": "perp",
     "base": "sonic",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "WSTETH-USD": {
-    "id": "WSTETH-USD",
+    "exchange": "perp",
     "base": "wrapped-staked-ether",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "CRO-USD": {
-    "id": "CRO-USD",
+    "exchange": "perp",
     "base": "cronos",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "XAUT-USD": {
-    "id": "XAUT-USD",
+    "exchange": "perp",
     "base": "tether-gold",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "CRV-USD": {
-    "id": "CRV-USD",
+    "exchange": "perp",
     "base": "curve-dao",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "PEPE-USD": {
-    "id": "PEPE-USD",
+    "exchange": "perp",
     "base": "pepe",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "CHZ-USD": {
-    "id": "CHZ-USD",
+    "exchange": "perp",
     "base": "chiliz",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "USUAL-USD": {
-    "id": "USUAL-USD",
+    "exchange": "perp",
     "base": "usual",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "OP-USD": {
-    "id": "OP-USD",
+    "exchange": "perp",
     "base": "optimism",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ARB-USD": {
-    "id": "ARB-USD",
+    "exchange": "perp",
     "base": "arbitrum",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "BLUR-USD": {
-    "id": "BLUR-USD",
+    "exchange": "perp",
     "base": "blur",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "TIA-USD": {
-    "id": "TIA-USD",
+    "exchange": "perp",
     "base": "celestia",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "BONK-USD": {
-    "id": "BONK-USD",
+    "exchange": "perp",
     "base": "bonk",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "CVX-USD": {
-    "id": "CVX-USD",
+    "exchange": "perp",
     "base": "convex-finance",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "PENDLE-USD": {
-    "id": "PENDLE-USD",
+    "exchange": "perp",
     "base": "pendle",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "CORE-USD": {
-    "id": "CORE-USD",
+    "exchange": "perp",
     "base": "core",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "GMX-USD": {
-    "id": "GMX-USD",
+    "exchange": "perp",
     "base": "gmx",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "MON-USD": {
-    "id": "MON-USD",
+    "exchange": "perp",
     "base": "monad",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ZRO-USD": {
-    "id": "ZRO-USD",
+    "exchange": "perp",
     "base": "layer-zero",
     "quote": "usd-coin",
     "settlement": "usd-coin"

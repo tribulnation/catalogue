@@ -145,8 +145,8 @@ def ranks(kind: str, items: Mapping[str, Mapping]):
 def spot_instruments(spot_instruments: Mapping[str, Mapping[str, Spot]], assets: Mapping[str, Asset]):
   errors: list[str] = []
   for platform, instruments in spot_instruments.items():
-    for instrument in instruments.values():
-      base, quote, id = instrument['base'], instrument['quote'], instrument['id']
+    for id, instrument in instruments.items():
+      base, quote = instrument['base'], instrument['quote']
       if base not in assets:
         errors.append(f'[SPOT INSTRUMENT ERROR] Spot instrument "{id}" on "{platform}" has inexistent base asset "{base}"')
       if quote not in assets:
@@ -156,8 +156,8 @@ def spot_instruments(spot_instruments: Mapping[str, Mapping[str, Spot]], assets:
 def perpetual_instruments(perpetual_instruments: Mapping[str, Mapping[str, Perpetual]], assets: Mapping[str, Asset]):
   errors: list[str] = []
   for platform, instruments in perpetual_instruments.items():
-    for instrument in instruments.values():
-      base, quote, settlement, id = instrument['base'], instrument['quote'], instrument['settlement'], instrument['id']
+    for id, instrument in instruments.items():
+      base, quote, settlement = instrument['base'], instrument['quote'], instrument['settlement']
       if base not in assets:
         errors.append(f'[PERPETUAL INSTRUMENT ERROR] Perpetual instrument "{id}" on "{platform}" has inexistent base asset "{base}"')
       if quote not in assets:
@@ -169,8 +169,8 @@ def perpetual_instruments(perpetual_instruments: Mapping[str, Mapping[str, Perpe
 def debt_instruments(debt_instruments: Mapping[str, Mapping[str, Debt]], assets: Mapping[str, Asset]):
   errors: list[str] = []
   for platform, instruments in debt_instruments.items():
-    for instrument in instruments.values():
-      asset, id = instrument['asset'], instrument['id']
+    for id, instrument in instruments.items():
+      asset = instrument['asset']
       if asset not in assets:
         errors.append(f'[DEBT INSTRUMENT ERROR] Debt instrument "{id}" on "{platform}" has inexistent asset "{asset}"')
   return errors

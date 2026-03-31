@@ -1,342 +1,285 @@
 {
   "XAUT_USDC": {
-    "id": "XAUT_USDC",
     "base": "tether-gold",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "XAUT_USDT": {
-    "id": "XAUT_USDT",
     "base": "tether-gold",
     "quote": "tether",
     "settlement": "tether"
   },
   "XRP_USDC": {
-    "id": "XRP_USDC",
     "base": "xrp",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "XRP_USDT": {
-    "id": "XRP_USDT",
     "base": "xrp",
     "quote": "tether",
     "settlement": "tether"
   },
   "TON_USDC": {
-    "id": "TON_USDC",
     "base": "toncoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "TON_USDT": {
-    "id": "TON_USDT",
     "base": "toncoin",
     "quote": "tether",
     "settlement": "tether"
   },
   "CC_USDT": {
-    "id": "CC_USDT",
     "base": "canton",
     "quote": "tether",
     "settlement": "tether"
   },
   "HYPE_USDC": {
-    "id": "HYPE_USDC",
     "base": "hyperliquid",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "HYPE_USDT": {
-    "id": "HYPE_USDT",
     "base": "hyperliquid",
     "quote": "tether",
     "settlement": "tether"
   },
   "XMR_USDT": {
-    "id": "XMR_USDT",
     "base": "monero",
     "quote": "tether",
     "settlement": "tether"
   },
   "NEAR_USDC": {
-    "id": "NEAR_USDC",
     "base": "near",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "NEAR_USDT": {
-    "id": "NEAR_USDT",
     "base": "near",
     "quote": "tether",
     "settlement": "tether"
   },
   "LINK_USDC": {
-    "id": "LINK_USDC",
     "base": "chainlink",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "LINK_USDT": {
-    "id": "LINK_USDT",
     "base": "chainlink",
     "quote": "tether",
     "settlement": "tether"
   },
   "BTC_USDC": {
-    "id": "BTC_USDC",
     "base": "bitcoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "BTC_USDT": {
-    "id": "BTC_USDT",
     "base": "bitcoin",
     "quote": "tether",
     "settlement": "tether"
   },
   "UNI_USDC": {
-    "id": "UNI_USDC",
     "base": "uniswap",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "UNI_USDT": {
-    "id": "UNI_USDT",
     "base": "uniswap",
     "quote": "tether",
     "settlement": "tether"
   },
   "ETH_USDC": {
-    "id": "ETH_USDC",
     "base": "ethereum",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ETH_USDT": {
-    "id": "ETH_USDT",
     "base": "ethereum",
     "quote": "tether",
     "settlement": "tether"
   },
   "MNT_USDC": {
-    "id": "MNT_USDC",
     "base": "mantle",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "MNT_USDT": {
-    "id": "MNT_USDT",
     "base": "mantle",
     "quote": "tether",
     "settlement": "tether"
   },
   "DOT_USDC": {
-    "id": "DOT_USDC",
     "base": "polkadot",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "DOT_USDT": {
-    "id": "DOT_USDT",
     "base": "polkadot",
     "quote": "tether",
     "settlement": "tether"
   },
   "AAVE_USDC": {
-    "id": "AAVE_USDC",
     "base": "aave",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "AAVE_USDT": {
-    "id": "AAVE_USDT",
     "base": "aave",
     "quote": "tether",
     "settlement": "tether"
   },
   "PAXG_USDC": {
-    "id": "PAXG_USDC",
     "base": "pax-gold",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "PAXG_USDT": {
-    "id": "PAXG_USDT",
     "base": "pax-gold",
     "quote": "tether",
     "settlement": "tether"
   },
   "USDE_USDT": {
-    "id": "USDE_USDT",
     "base": "ethena-usde",
     "quote": "tether",
     "settlement": "tether"
   },
   "TRX_USDC": {
-    "id": "TRX_USDC",
     "base": "tron",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "TRX_USDT": {
-    "id": "TRX_USDT",
     "base": "tron",
     "quote": "tether",
     "settlement": "tether"
   },
   "XLM_USDC": {
-    "id": "XLM_USDC",
     "base": "stellar",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "XLM_USDT": {
-    "id": "XLM_USDT",
     "base": "stellar",
     "quote": "tether",
     "settlement": "tether"
   },
   "LTC_USDC": {
-    "id": "LTC_USDC",
     "base": "litecoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "LTC_USDT": {
-    "id": "LTC_USDT",
     "base": "litecoin",
     "quote": "tether",
     "settlement": "tether"
   },
   "TAO_USDC": {
-    "id": "TAO_USDC",
     "base": "bittensor",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "TAO_USDT": {
-    "id": "TAO_USDT",
     "base": "bittensor",
     "quote": "tether",
     "settlement": "tether"
   },
   "AVAX_USDC": {
-    "id": "AVAX_USDC",
     "base": "avalanche",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "AVAX_USDT": {
-    "id": "AVAX_USDT",
     "base": "avalanche",
     "quote": "tether",
     "settlement": "tether"
   },
   "SOL_USDC": {
-    "id": "SOL_USDC",
     "base": "solana",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "SOL_USDT": {
-    "id": "SOL_USDT",
     "base": "solana",
     "quote": "tether",
     "settlement": "tether"
   },
   "SUI_USDC": {
-    "id": "SUI_USDC",
     "base": "sui",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "SUI_USDT": {
-    "id": "SUI_USDT",
     "base": "sui",
     "quote": "tether",
     "settlement": "tether"
   },
   "DOGE_USDC": {
-    "id": "DOGE_USDC",
     "base": "dogecoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "DOGE_USDT": {
-    "id": "DOGE_USDT",
     "base": "dogecoin",
     "quote": "tether",
     "settlement": "tether"
   },
   "BCH_USDC": {
-    "id": "BCH_USDC",
     "base": "bitcoin-cash",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "BCH_USDT": {
-    "id": "BCH_USDT",
     "base": "bitcoin-cash",
     "quote": "tether",
     "settlement": "tether"
   },
   "BNB_USDC": {
-    "id": "BNB_USDC",
     "base": "bnb",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "BNB_USDT": {
-    "id": "BNB_USDT",
     "base": "bnb",
     "quote": "tether",
     "settlement": "tether"
   },
   "CRO_USDT": {
-    "id": "CRO_USDT",
     "base": "cronos",
     "quote": "tether",
     "settlement": "tether"
   },
   "WBTC_USDT": {
-    "id": "WBTC_USDT",
     "base": "wrapped-bitcoin",
     "quote": "tether",
     "settlement": "tether"
   },
   "ZEC_USDC": {
-    "id": "ZEC_USDC",
     "base": "zcash",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ZEC_USDT": {
-    "id": "ZEC_USDT",
     "base": "zcash",
     "quote": "tether",
     "settlement": "tether"
   },
   "STETH_USDT": {
-    "id": "STETH_USDT",
     "base": "lido-staked-ether",
     "quote": "tether",
     "settlement": "tether"
   },
   "ADA_USDC": {
-    "id": "ADA_USDC",
     "base": "cardano",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
   "ADA_USDT": {
-    "id": "ADA_USDT",
     "base": "cardano",
     "quote": "tether",
     "settlement": "tether"
   },
   "PI_USDT": {
-    "id": "PI_USDT",
     "base": "pi",
     "quote": "tether",
     "settlement": "tether"

@@ -5,12 +5,16 @@ Locale = Literal['ca', 'es', 'en']
 Translations = Mapping[Locale, str]
 
 class Spot(TypedDict):
+  exchange: NotRequired[str]
+  """Exchange ID (for TradingSDK)"""
   base: str
   """Base asset ID"""
   quote: str
   """Quote asset ID"""
 
 class Perpetual(TypedDict):
+  exchange: NotRequired[str]
+  """Exchange ID (for TradingSDK)"""
   base: str
   """Base asset ID"""
   quote: str

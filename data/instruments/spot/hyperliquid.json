@@ -1,42 +1,42 @@
 {
   "PEPE/USDC:11": {
-    "id": "PEPE/USDC:11",
+    "exchange": "spot",
     "base": "pepe",
     "quote": "usd-coin",
     "platform": "hyperliquid"
   },
   "HYPE/USDC:107": {
-    "id": "HYPE/USDC:107",
+    "exchange": "spot",
     "base": "hyperliquid",
     "quote": "usd-coin",
     "platform": "hyperliquid"
   },
   "MON/USDC:129": {
-    "id": "MON/USDC:129",
+    "exchange": "spot",
     "base": "monad",
     "quote": "usd-coin",
     "platform": "hyperliquid"
   },
   "UBTC/USDC:142": {
-    "id": "UBTC/USDC:142",
+    "exchange": "spot",
     "base": "bitcoin",
     "quote": "usd-coin",
     "platform": "hyperliquid"
   },
   "USDE/USDC:150": {
-    "id": "USDE/USDC:150",
+    "exchange": "spot",
     "base": "ethena-usde",
     "quote": "usd-coin",
     "platform": "hyperliquid"
   },
   "UETH/USDC:151": {
-    "id": "UETH/USDC:151",
+    "exchange": "spot",
     "base": "ethereum",
     "quote": "usd-coin",
     "platform": "hyperliquid"
   },
   "HYPE/USDE:255": {
-    "id": "HYPE/USDE:255",
+    "exchange": "spot",
     "base": "hyperliquid",
     "quote": "ethena-usde",
     "platform": "hyperliquid"
