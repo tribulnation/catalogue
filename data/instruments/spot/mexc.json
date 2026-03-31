@@ -389,6 +389,16 @@
     "base": "cardano",
     "quote": "tether"
   },
+  "ARKMUSDC": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "usd-coin"
+  },
+  "ARKMUSDT": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "tether"
+  },
   "ONDOUSDC": {
     "exchange": "spot",
     "base": "ondo",
