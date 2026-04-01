@@ -429,6 +429,16 @@
     "base": "fartcoin",
     "quote": "tether"
   },
+  "XPLUSDC": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "usd-coin"
+  },
+  "XPLUSDT": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "tether"
+  },
   "ARKMUSDC": {
     "exchange": "spot",
     "base": "arkham",

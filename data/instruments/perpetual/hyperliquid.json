@@ -34,6 +34,20 @@
     "settlement": "ethena-usde",
     "platform": "hyperliquid"
   },
+  "XPL": {
+    "exchange": "",
+    "base": "plasma",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "hyna:XPL": {
+    "exchange": "hyna",
+    "base": "plasma",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "platform": "hyperliquid"
+  },
   "ATOM": {
     "exchange": "",
     "base": "cosmos",
