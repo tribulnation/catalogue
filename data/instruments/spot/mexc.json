@@ -49,6 +49,16 @@
     "base": "hyperliquid",
     "quote": "tether"
   },
+  "PENDLEUSDC": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "usd-coin"
+  },
+  "PENDLEUSDT": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "tether"
+  },
   "XMRUSDC": {
     "exchange": "spot",
     "base": "monero",
@@ -417,6 +427,16 @@
   "SNXUSDT": {
     "exchange": "spot",
     "base": "synthetix",
+    "quote": "tether"
+  },
+  "RENDERUSDC": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "usd-coin"
+  },
+  "RENDERUSDT": {
+    "exchange": "spot",
+    "base": "render",
     "quote": "tether"
   },
   "FARTCOINUSDC": {

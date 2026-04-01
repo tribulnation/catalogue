@@ -34,6 +34,13 @@
     "settlement": "ethena-usde",
     "platform": "hyperliquid"
   },
+  "RENDER": {
+    "exchange": "",
+    "base": "render",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
   "XPL": {
     "exchange": "",
     "base": "plasma",
@@ -333,6 +340,13 @@
     "base": "monero",
     "quote": "tether",
     "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "flx:XMR": {
+    "exchange": "flx",
+    "base": "monero",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
     "platform": "hyperliquid"
   }
 }
