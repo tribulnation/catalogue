@@ -20,6 +20,20 @@
     "settlement": "usd-coin",
     "platform": "hyperliquid"
   },
+  "FARTCOIN": {
+    "exchange": "",
+    "base": "fartcoin",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "hyna:FARTCOIN": {
+    "exchange": "hyna",
+    "base": "fartcoin",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "platform": "hyperliquid"
+  },
   "ATOM": {
     "exchange": "",
     "base": "cosmos",
@@ -46,6 +60,13 @@
     "base": "avalanche",
     "quote": "tether",
     "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "hyna:PUMP": {
+    "exchange": "hyna",
+    "base": "pump",
+    "quote": "tether",
+    "settlement": "ethena-usde",
     "platform": "hyperliquid"
   },
   "BNB": {

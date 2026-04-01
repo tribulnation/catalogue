@@ -419,6 +419,16 @@
     "base": "synthetix",
     "quote": "tether"
   },
+  "FARTCOINUSDC": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "usd-coin"
+  },
+  "FARTCOINUSDT": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "tether"
+  },
   "ARKMUSDC": {
     "exchange": "spot",
     "base": "arkham",
