@@ -41,6 +41,20 @@
     "settlement": "usd-coin",
     "platform": "hyperliquid"
   },
+  "BLAST": {
+    "exchange": "",
+    "base": "blast",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "REZ": {
+    "exchange": "",
+    "base": "renzo",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
   "XPL": {
     "exchange": "",
     "base": "plasma",

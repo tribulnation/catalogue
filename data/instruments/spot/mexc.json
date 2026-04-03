@@ -439,6 +439,26 @@
     "base": "render",
     "quote": "tether"
   },
+  "BLASTUSDC": {
+    "exchange": "spot",
+    "base": "blast",
+    "quote": "usd-coin"
+  },
+  "BLASTUSDT": {
+    "exchange": "spot",
+    "base": "blast",
+    "quote": "tether"
+  },
+  "REZUSDC": {
+    "exchange": "spot",
+    "base": "rez",
+    "quote": "usd-coin"
+  },
+  "REZUSDT": {
+    "exchange": "spot",
+    "base": "rez",
+    "quote": "tether"
+  },
   "FARTCOINUSDC": {
     "exchange": "spot",
     "base": "fartcoin",

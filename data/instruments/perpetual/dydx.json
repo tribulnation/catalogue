@@ -29,6 +29,18 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "BLAST-USD": {
+    "exchange": "perp",
+    "base": "blast",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "REZ-USD": {
+    "exchange": "perp",
+    "base": "renzo",
+    "quote": "usd-coin",
+    "settlement":"usd-coin"
+  },
   "FARTCOIN,RAYDIUM,9BB6NFECJBCTNNLFKO2FQVQBQ8HHM13KCYYCDQBGPUMP-USD": {
     "exchange": "perp",
     "base": "fartcoin",
