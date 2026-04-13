@@ -328,9 +328,30 @@
     "settlement": "usd-coin",
     "platform": "hyperliquid"
   },
+  "AVNT": {
+    "exchange": "",
+    "base": "avantis",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
   "ZEC": {
     "exchange": "",
     "base": "zcash",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "ENA": {
+    "exchange": "",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "W": {
+    "exchange": "",
+    "base": "wormhole",
     "quote": "tether",
     "settlement": "usd-coin",
     "platform": "hyperliquid"

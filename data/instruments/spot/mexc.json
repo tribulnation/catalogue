@@ -59,6 +59,36 @@
     "base": "pendle",
     "quote": "tether"
   },
+  "AVNTUSDC": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "usd-coin"
+  },
+  "AVNTUSDT": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "tether"
+  },
+  "DYDXUSDC": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "usd-coin"
+  },
+  "DYDXUSDT": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "tether"
+  },
+  "ENAUSDC": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd-coin"
+  },
+  "ENAUSDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether"
+  },
   "XMRUSDC": {
     "exchange": "spot",
     "base": "monero",
@@ -179,12 +209,12 @@
     "base": "aave",
     "quote": "tether"
   },
-  "PAXGUSDC": {
+  "GOLD(PAXG)USDC": {
     "exchange": "spot",
     "base": "pax-gold",
     "quote": "usd-coin"
   },
-  "PAXGUSDT": {
+  "GOLD(PAXG)USDT": {
     "exchange": "spot",
     "base": "pax-gold",
     "quote": "tether"
@@ -451,12 +481,12 @@
   },
   "REZUSDC": {
     "exchange": "spot",
-    "base": "rez",
+    "base": "renzo",
     "quote": "usd-coin"
   },
   "REZUSDT": {
     "exchange": "spot",
-    "base": "rez",
+    "base": "renzo",
     "quote": "tether"
   },
   "FARTCOINUSDC": {

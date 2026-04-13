@@ -5,9 +5,21 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "AVNT-USD": {
+    "exchange": "perp",
+    "base": "avantis",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "BTC-USD": {
     "exchange": "perp",
     "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ENA-USD": {
+    "exchange": "perp",
+    "base": "ethena",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
