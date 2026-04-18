@@ -9,6 +9,16 @@
     "base": "tether-gold",
     "quote": "tether"
   },
+  "BONKUSDC": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd-coin"
+  },
+  "BONKUSDT": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "tether"
+  },
   "XRPUSDC": {
     "exchange": "spot",
     "base": "xrp",
