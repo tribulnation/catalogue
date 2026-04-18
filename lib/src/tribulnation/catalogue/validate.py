@@ -1,6 +1,6 @@
 import os as _os
 from typing import Mapping
-from .schema import Asset, Platform, Network, Catalogue, Spot, Perpetual, Debt
+from .schema import Asset, Platform, Network, Catalogue, Spot, Perpetual, Debt, Collateral
 
 def asset_icons(assets: Mapping[str, Asset], base_folder: str):
   errors: list[str] = []
@@ -175,6 +175,15 @@ def debt_instruments(debt_instruments: Mapping[str, Mapping[str, Debt]], assets:
         errors.append(f'[DEBT INSTRUMENT ERROR] Debt instrument "{id}" on "{platform}" has inexistent asset "{asset}"')
   return errors
 
+def collateral_instruments(collateral_instruments: Mapping[str, Mapping[str, Collateral]], assets: Mapping[str, Asset]):
+  errors: list[str] = []
+  for platform, instruments in collateral_instruments.items():
+    for id, instrument in instruments.items():
+      asset = instrument['asset']
+      if asset not in assets:
+        errors.append(f'[COLLATERAL INSTRUMENT ERROR] Collateral instrument "{id}" on "{platform}" has inexistent asset "{asset}"')
+  return errors
+
 def all(catalogue: Catalogue, base_folder: str):
   errors: list[str] = []
   errors.extend(asset_icons(catalogue.assets, base_folder))
@@ -188,4 +197,6 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(network_translations(catalogue.networks, catalogue.network_translations))
   errors.extend(spot_instruments(catalogue.spot_instruments, catalogue.assets))
   errors.extend(perpetual_instruments(catalogue.perpetual_instruments, catalogue.assets))
+  errors.extend(debt_instruments(catalogue.debt_instruments, catalogue.assets))
+  errors.extend(collateral_instruments(catalogue.collateral_instruments, catalogue.assets))
   return errors

@@ -26,6 +26,10 @@ class Debt(TypedDict):
   asset: str
   """Underlying asset ID"""
 
+class Collateral(TypedDict):
+  asset: str
+  """Underlying asset ID"""
+
 class Asset(TypedDict):
   display_name: str
   symbol: str
@@ -68,6 +72,8 @@ class Catalogue:
   """`platform id -> platform-specific id -> perpetual instrument`"""
   debt_instruments: dict[str, dict[str, Debt]]
   """`platform id -> platform-specific id -> debt instrument`"""
+  collateral_instruments: dict[str, dict[str, Collateral]]
+  """`platform id -> platform-specific id -> collateral instrument`"""
 
   @property
   def ordered_assets(self):
