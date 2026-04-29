@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="g1" cx="6754.358" cy="1193.72375" fx="6754.358" fy="1193.72375" r=".8704"
+      gradientTransform="translate(2173812.61985 -383881.39905) rotate(-180) scale(321.79999 -321.79999)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6d28ff" />
+      <stop offset="1" stop-color="#f7a7f9" />
+    </radialGradient>
+    <radialGradient id="g2" cx="6733.06917" cy="1167.00811" fx="6733.06917" fy="1167.00811"
+      r=".8704" gradientTransform="translate(-288343.60951 -1664823.85183) rotate(90) scale(247.3 -247.3)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffcd6b" />
+      <stop offset="1" stop-color="#eb5edf" />
+    </radialGradient>
+    <radialGradient id="g3" cx="256" cy="262" fx="256" fy="262" r="213.4528"
+      gradientTransform="translate(0 -6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a273ff" />
+      <stop offset=".5" stop-color="#9faeff" />
+      <stop offset="1" stop-color="#aaf2e1" />
+    </radialGradient>
+    <radialGradient id="g4" cx="256" cy="261.94881" fx="256" fy="261.94881" r="228.5568"
+      gradientTransform="translate(0 -6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd2b9" />
+      <stop offset=".3" stop-color="#c99bed" />
+      <stop offset="1" stop-color="#0075ff" />
+    </radialGradient>
+    <radialGradient id="g5" cx="6738.20187" cy="1220.7699" fx="6738.20187" fy="1220.7699" r=".8704"
+      gradientTransform="translate(559337.89914 1599525.06408) rotate(-99) scale(247.4 -247.4)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7a7f9" />
+      <stop offset="1" stop-color="#00ddfb" />
+    </radialGradient>
+    <radialGradient id="g6" cx="6733.79447" cy="1221.38859" fx="6733.79447" fy="1221.38859"
+      r=".8704" gradientTransform="translate(302055.38808 1664177.47537) rotate(-90) scale(247.10001 -247.10001)"
+      xlink:href="#g3" />
+    <radialGradient id="g7" cx="6760.7065" cy="1193.45205" fx="6760.7065" fy="1193.45205" r=".8704"
+      gradientTransform="translate(1674206.80989 -295242.89423) rotate(-180) scale(247.60001 -247.60001)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff3d0" />
+      <stop offset="1" stop-color="#ffc044" />
+    </radialGradient>
+    <radialGradient id="g8" r=".8704" xlink:href="#g2" />
+    <radialGradient id="g9" cx="6743.03248" cy="1170.50277" fx="6743.03248" fy="1170.50277"
+      r=".8704" gradientTransform="translate(449483.46366 -1755445.12669) rotate(114.2) scale(264.79999 -264.79999)"
+      xlink:href="#g4" />
+    <radialGradient id="g10" cx="6733.20801" cy="1166.74372" fx="6733.20801" fy="1166.74372"
+      r=".8704" gradientTransform="translate(-288968.4088 -1668904.79372) rotate(90) scale(247.89999 -247.89999)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d4faff" />
+      <stop offset="1" stop-color="#00ddfb" />
+    </radialGradient>
+    <radialGradient id="g11" cx="6710.97061" cy="1178.34577" fx="6710.97061" fy="1178.34577"
+      r=".87043" gradientTransform="translate(-1508180.92764 -736802.15467) rotate(36) scale(246.39999 -246.39999)"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0075ff" />
+      <stop offset="1" stop-color="#00ddfb" />
+    </radialGradient>
+  </defs>
+  <g>
+    <rect x="0" y="0" width="512" height="512" fill="#fff" />
+    <g>
+      <path
+        d="M57.6,320.512c-6.7584-20.83841-10.24-42.59841-10.24-64.512l1.536-1.17759,201.216.40959,5.888.768-198.4,64.512Z"
+        fill="url(#g1)" />
+      <path
+        d="M320.46081,454.4c-31.33441,10.18881-64.5632,12.8-97.12641,7.62881l-1.536-2.35519,33.4848-201.0112.66559-2.66241,64.4608,198.39998h.05122Z"
+        fill="url(#g2)" />
+      <path
+        d="M464.64,256c0,21.91359-3.43041,43.62241-10.18881,64.46081h-4.50559l-192.8192-63.6928-1.0752-.768h208.64l-.05119-.00002Z"
+        fill="url(#g3)" />
+      <path
+        d="M87.2448,133.376c6.4-8.8576,13.5168-17.152,21.248-24.8832l1.7408.512,144.79359,145.3568.9728,1.63841-168.7552-122.624h.00002Z"
+        fill="url(#g4)" />
+      <path
+        d="M108.4928,108.4928c31.12959-31.1296,71.3728-51.6608,114.8928-58.5216l.92159,1.536,31.6928,201.1648v3.328L108.4928,108.4928Z"
+        fill="url(#g5)" />
+      <path
+        d="M223.33441,49.9712c32.512-5.1712,65.792-2.56,97.12641,7.6288l-64.4608,198.4-32.66559-206.0288h-.00002Z"
+        fill="url(#g6)" />
+      <path d="M47.36,256c0-21.91359,3.4304-43.62241,10.1888-64.4608l198.4,64.4608H47.36Z"
+        fill="url(#g7)" />
+      <path
+        d="M378.624,87.2448c35.63519,25.9072,62.15681,62.4128,75.776,104.29439l-198.4,64.4608,122.624-168.7552h0v.00002Z"
+        fill="url(#g8)" />
+      <path
+        d="M133.376,424.75519c-17.7152-12.85119-33.28-28.46719-46.1312-46.13119l168.7552-122.624-122.624,168.75519Z"
+        fill="url(#g9)" />
+      <path
+        d="M223.38559,462.02881c-10.8032-1.68959-21.4528-4.24959-31.84641-7.62881l64.4608-198.4-32.61441,206.02881h.00002Z"
+        fill="url(#g10)" />
+      <path
+        d="M454.4,320.46081c-13.61919,41.88159-40.14081,78.43841-75.776,104.29441l-122.624-168.7552,198.4,64.4608Z"
+        fill="url(#g11)" />
+    </g>
+  </g>
+</svg>

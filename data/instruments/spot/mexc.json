@@ -9,6 +9,26 @@
     "base": "tether-gold",
     "quote": "tether"
   },
+  "SKYUSDC": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd-coin"
+  },
+  "SKYUSDT": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "tether"
+  },
+  "POLUSDC": {
+    "exchange": "spot",
+    "base": "polygon-usdc",
+    "quote": "usd-coin"
+  },
+  "POLUSDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether"
+  },
   "BONKUSDC": {
     "exchange": "spot",
     "base": "bonk",
