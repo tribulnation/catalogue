@@ -3,9 +3,9 @@
   "symbol": "WSTETH",
   "display_decimals": 6,
   "about": {
-    "en": "Wrapped Staked Ether (wstETH) is a wrapped version of Lido staked ETH that accrues rewards through its exchange rate.",
-    "es": "Wrapped Staked Ether (wstETH) es una versi\u00f3n envuelta de ETH en staking (staking) de Lido que acumula recompensas a trav\u00e9s de su tipo de cambio.",
-    "ca": "Wrapped Staked Ether (wstETH) \u00e9s una versi\u00f3 envoltada d'ETH en staking (staking) de Lido que acumula recompenses a trav\u00e9s del seu tipus de canvi."
+    "en": "Wrapped Staked Ether is the wrapped, non-rebasing version of Lido's staked ether token. Instead of reflecting staking rewards through balance increases, wstETH accrues value through its exchange rate relative to stETH, which makes it easier to integrate into DeFi protocols and collateral systems. It is a widely used yield-bearing ETH wrapper in on-chain finance.",
+    "es": "Wrapped Staked Ether es la versi\u00f3n envuelta y no rebasing (non-rebasing) del token de ether en staking de Lido. En lugar de reflejar las recompensas de staking mediante aumentos de saldo, wstETH acumula valor a trav\u00e9s de su tipo de cambio relativo frente a stETH, lo que facilita su integraci\u00f3n en protocolos DeFi y sistemas de colateral. Es un wrapper de ETH con rendimiento ampliamente utilizado en las finanzas on-chain (on-chain).",
+    "ca": "Wrapped Staked Ether \u00e9s la versi\u00f3 embolcallada i no rebasing (non-rebasing) del token d'ether en staking de Lido. En lloc de reflectir les recompenses d'staking mitjan\u00e7ant augments de saldo, wstETH acumula valor a trav\u00e9s del seu tipus de canvi relatiu respecte a stETH, cosa que en facilita la integraci\u00f3 en protocols DeFi i sistemes de col\u00b7lateral. \u00c9s un wrapper d'ETH amb rendiment \u00e0mpliament utilitzat a les finances on-chain (on-chain)."
   },
   "coingecko_id": "wrapped-steth",
   "icon": "icons/asset/wrapped-staked-ether.svg",
