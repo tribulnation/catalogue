@@ -40,19 +40,23 @@ class Asset(TypedDict):
   icon: NotRequired[str]
   coingecko_id: NotRequired[str]
 
-class Platform(TypedDict):
+class BasePlatform(TypedDict):
   display_name: str
   about: NotRequired[Translations]
   urls: NotRequired[dict[str, str]]
-  kind: Literal['cex', 'dex', 'blockchain']
   icon: NotRequired[str]
 
-class Network(TypedDict):
-  display_name: str
-  about: NotRequired[Translations]
-  urls: NotRequired[dict[str, str]]
+class CexPlatform(BasePlatform):
+  kind: Literal['cex']
+
+class DexPlatform(BasePlatform):
+  kind: Literal['dex']
+
+class Blockchain(BasePlatform):
+  kind: Literal['blockchain']
   native_asset: NotRequired[str]
-  icon: NotRequired[str]
+
+Platform = CexPlatform | DexPlatform | Blockchain
 
 @dataclass
 class Catalogue:
@@ -60,10 +64,8 @@ class Catalogue:
   assets_order: list[str]
   platforms: dict[str, Platform]
   platforms_order: list[str]
-  networks: dict[str, Network]
-  networks_order: list[str]
   network_translations: dict[str, dict[str, str]]
-  """`platform id -> platform-specific id -> asset id`"""
+  """`platform id -> platform-specific id -> platform id`"""
   asset_translations: dict[str, dict[str, str]]
   """`platform id -> platform-specific id -> asset id`"""
   spot_instruments: dict[str, dict[str, Spot]]
@@ -84,11 +86,6 @@ class Catalogue:
   def ordered_platforms(self):
     for platform in self.platforms_order:
       yield platform, self.platforms[platform]
-
-  @property
-  def ordered_networks(self):
-    for network in self.networks_order:
-      yield network, self.networks[network]
 
   @staticmethod
   def load(path: str) -> 'Catalogue':

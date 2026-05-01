@@ -1,6 +1,6 @@
 import os as _os
 from typing import Mapping
-from .schema import Asset, Platform, Network, Catalogue, Spot, Perpetual, Debt, Collateral
+from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral
 
 def asset_icons(assets: Mapping[str, Asset], base_folder: str):
   errors: list[str] = []
@@ -18,20 +18,13 @@ def platform_icons(platforms: Mapping[str, Platform], base_folder: str):
         errors.append(f'[PLATFORM ICON ERROR] Platform "{id}" has inexistent icon "{icon}"')
   return errors
 
-def network_icons(networks: Mapping[str, Network], base_folder: str):
+def native_assets(assets: Mapping[str, Asset], platforms: Mapping[str, Platform]):
   errors: list[str] = []
-  for id, network in networks.items():
-    if (icon := network.get('icon')) is not None:
-      if not _os.path.exists(_os.path.join(base_folder, icon)):
-        errors.append(f'[NETWORK ICON ERROR] Network "{id}" has inexistent icon "{icon}"')
-  return errors
-
-def native_assets(assets: Mapping[str, Asset], networks: Mapping[str, Network]):
-  errors: list[str] = []
-  for id, network in networks.items():
-    if (asset := network.get('native_asset')) is not None:
-      if asset not in assets:
-        errors.append(f'[NATIVE ASSET ERROR] Network "{id}" has inexistent native asset "{asset}"')
+  for id, platform in platforms.items():
+    if platform['kind'] == 'blockchain':
+      if (asset := platform.get('native_asset')) is not None:  # type: ignore[union-attr]
+        if asset not in assets:
+          errors.append(f'[NATIVE ASSET ERROR] Blockchain "{id}" has inexistent native asset "{asset}"')
   return errors
 
 def asset_translations(assets: Mapping[str, Asset], asset_translations: Mapping[str, Mapping[str, str]]):
@@ -42,12 +35,12 @@ def asset_translations(assets: Mapping[str, Asset], asset_translations: Mapping[
         errors.append(f'[ASSET TRANSLATION ERROR] Asset translation "{platform}" has inexistent asset "{asset}"')
   return errors
 
-def network_translations(networks: Mapping[str, Network], network_translations: Mapping[str, Mapping[str, str]]):
+def network_translations(platforms: Mapping[str, Platform], network_translations: Mapping[str, Mapping[str, str]]):
   errors: list[str] = []
   for platform, translations in network_translations.items():
     for network in translations.values():
-      if network not in networks:
-        errors.append(f'[NETWORK TRANSLATION ERROR] Network translation "{platform}" has inexistent network "{network}"')
+      if network not in platforms:
+        errors.append(f'[NETWORK TRANSLATION ERROR] Network translation "{platform}" has inexistent platform "{network}"')
   return errors
 
 def asset_order(assets: Mapping[str, Asset], base_folder: str):
@@ -102,31 +95,6 @@ def platform_order(platforms: Mapping[str, Platform], base_folder: str):
 
   return errors
 
-def network_order(networks: Mapping[str, Network], base_folder: str):
-  errors: list[str] = []
-  order_file = _os.path.join(base_folder, 'data', 'networks', 'order.txt')
-  if not _os.path.exists(order_file):
-    return ['[NETWORK ORDER ERROR] Missing file "data/networks/order.txt"']
-
-  with open(order_file) as f:
-    ordered_networks = [line.strip() for line in f if line.strip()]
-
-  unknown_networks = [network for network in ordered_networks if network not in networks]
-  if unknown_networks:
-    unknown_networks_display = ', '.join(unknown_networks)
-    errors.append(f'[NETWORK ORDER ERROR] Unknown network id(s) in "data/networks/order.txt": {unknown_networks_display}')
-
-  duplicates = sorted({network for network in ordered_networks if ordered_networks.count(network) > 1})
-  if duplicates:
-    duplicates_display = ', '.join(duplicates)
-    errors.append(f'[NETWORK ORDER ERROR] Duplicate network id(s) in "data/networks/order.txt": {duplicates_display}')
-
-  missing_networks = sorted(set(networks.keys()) - set(ordered_networks))
-  if missing_networks:
-    missing_networks_display = ', '.join(missing_networks)
-    errors.append(f'[NETWORK ORDER ERROR] Missing network id(s) in "data/networks/order.txt": {missing_networks_display}')
-
-  return errors
 
 def ranks(kind: str, items: Mapping[str, Mapping]):
   errors: list[str] = []
@@ -188,13 +156,11 @@ def all(catalogue: Catalogue, base_folder: str):
   errors: list[str] = []
   errors.extend(asset_icons(catalogue.assets, base_folder))
   errors.extend(platform_icons(catalogue.platforms, base_folder))
-  errors.extend(network_icons(catalogue.networks, base_folder))
   errors.extend(asset_order(catalogue.assets, base_folder))
   errors.extend(platform_order(catalogue.platforms, base_folder))
-  errors.extend(network_order(catalogue.networks, base_folder))
-  errors.extend(native_assets(catalogue.assets, catalogue.networks))
+  errors.extend(native_assets(catalogue.assets, catalogue.platforms))
   errors.extend(asset_translations(catalogue.assets, catalogue.asset_translations))
-  errors.extend(network_translations(catalogue.networks, catalogue.network_translations))
+  errors.extend(network_translations(catalogue.platforms, catalogue.network_translations))
   errors.extend(spot_instruments(catalogue.spot_instruments, catalogue.assets))
   errors.extend(perpetual_instruments(catalogue.perpetual_instruments, catalogue.assets))
   errors.extend(debt_instruments(catalogue.debt_instruments, catalogue.assets))

@@ -3,11 +3,12 @@
   "kind": "blockchain",
   "about": {
     "en": "Bitcoin is the original proof-of-work blockchain, launched in 2009 by the pseudonymous Satoshi Nakamoto as a decentralized system for peer-to-peer digital payments without intermediaries. Its fixed supply of 21 million BTC and strong security model have made it the foundation of the cryptocurrency industry. The network is further extended by the Lightning Network, a Layer 2 solution enabling fast, low-cost micropayments.",
-    "es": "Bitcoin es la blockchain original de prueba de trabajo (proof-of-work), lanzada en 2009 por el pseud\u00f3nimo Satoshi Nakamoto como sistema descentralizado para pagos digitales entre pares sin intermediarios. Su suministro fijo de 21 millones de BTC y su s\u00f3lido modelo de seguridad lo han convertido en el fundamento de la industria de las criptomonedas. La red se ampl\u00eda con la Lightning Network, una soluci\u00f3n de capa 2 (Layer 2) que permite micropagos r\u00e1pidos y de bajo coste.",
-    "ca": "Bitcoin \u00e9s la blockchain original de prova de treball (proof-of-work), llan\u00e7ada el 2009 pel pseud\u00f2nim Satoshi Nakamoto com a sistema descentralitzat per a pagaments digitals entre iguals sense intermediaris. El seu subministrament fix de 21 milions de BTC i el seu s\u00f2lid model de seguretat l'han convertit en el fonament de la ind\u00fastria de les criptomonedes. La xarxa s'amplia amb la Lightning Network, una soluci\u00f3 de capa 2 (Layer 2) que permet micropagaments r\u00e0pids i de baix cost."
+    "es": "Bitcoin es la blockchain original de prueba de trabajo (proof-of-work), lanzada en 2009 por el pseudónimo Satoshi Nakamoto como sistema descentralizado para pagos digitales entre pares sin intermediarios. Su suministro fijo de 21 millones de BTC y su sólido modelo de seguridad lo han convertido en el fundamento de la industria de las criptomonedas. La red se amplía con la Lightning Network, una solución de capa 2 (Layer 2) que permite micropagos rápidos y de bajo coste.",
+    "ca": "Bitcoin és la blockchain original de prova de treball (proof-of-work), llançada el 2009 pel pseudònim Satoshi Nakamoto com a sistema descentralitzat per a pagaments digitals entre iguals sense intermediaris. El seu subministrament fix de 21 milions de BTC i el seu sòlid model de seguretat l'han convertit en el fonament de la indústria de les criptomonedes. La xarxa s'amplia amb la Lightning Network, una solució de capa 2 (Layer 2) que permet micropagaments ràpids i de baix cost."
   },
   "urls": {
     "Website": "https://www.bitcoin.org/"
   },
-  "icon": "icons/asset/bitcoin.svg"
+  "icon": "icons/asset/bitcoin.svg",
+  "native_asset": "bitcoin"
 }

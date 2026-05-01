@@ -2,11 +2,10 @@ import os as _os
 from collections import defaultdict as _defaultdict
 from glob import glob as _glob
 from pydantic import TypeAdapter as _TypeAdapter
-from .schema import Asset, Platform, Network, Catalogue, Spot, Perpetual, Debt, Collateral
+from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral
 
 _asset_adapter = _TypeAdapter(Asset)
 _platform_adapter = _TypeAdapter(Platform)
-_network_adapter = _TypeAdapter(Network)
 _asset_translation_adapter = _TypeAdapter(dict[str, str])
 _network_translation_adapter = _TypeAdapter(dict[str, str])
 _spot_instruments_adapter = _TypeAdapter(dict[str, Spot])
@@ -35,18 +34,6 @@ def platforms(folder: str) -> dict[str, Platform]:
   return platforms
 
 def platforms_order(file: str) -> list[str]:
-  with open(file) as f:
-    return [line.strip() for line in f if line.strip()]
-
-def networks(folder: str) -> dict[str, Network]:
-  networks: dict[str, Network] = {}
-  for file in _glob(_os.path.join(folder, '*.json')):
-    id = file.split('/')[-1].split('.')[0]
-    with open(file) as f:
-      networks[id] = _network_adapter.validate_json(f.read(), extra='forbid')
-  return networks
-
-def networks_order(file: str) -> list[str]:
   with open(file) as f:
     return [line.strip() for line in f if line.strip()]
 
@@ -105,8 +92,6 @@ def all(folder: str) -> Catalogue:
     assets_order=assets_order(_os.path.join(folder, 'assets', 'order.txt')),
     platforms=platforms(_os.path.join(folder, 'platforms')),
     platforms_order=platforms_order(_os.path.join(folder, 'platforms', 'order.txt')),
-    networks=networks(_os.path.join(folder, 'networks')),
-    networks_order=networks_order(_os.path.join(folder, 'networks', 'order.txt')),
     network_translations=network_translations(_os.path.join(folder, 'network_translations')),
     asset_translations=asset_translations(_os.path.join(folder, 'asset_translations')),
     spot_instruments=spot_instruments(_os.path.join(folder, 'instruments', 'spot')),

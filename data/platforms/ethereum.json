@@ -2,12 +2,13 @@
   "display_name": "Ethereum",
   "kind": "blockchain",
   "about": {
-    "en": "Ethereum is the leading programmable blockchain, launched in 2015, and the foundation for most of the decentralized finance, NFT, and Web3 ecosystem. It transitioned from proof-of-work to proof-of-stake in 2022 (The Merge), significantly reducing its energy consumption. Ethereum is also the anchor for a growing family of Layer 2 networks \u2014 including Arbitrum, Optimism, and Base \u2014 that extend its capacity for scalable, low-cost applications.",
-    "es": "Ethereum es la principal blockchain programable, lanzada en 2015, y el fundamento de la mayor parte del ecosistema de finanzas descentralizadas, NFTs y Web3. En 2022 pas\u00f3 de prueba de trabajo (proof-of-work) a prueba de participaci\u00f3n (proof-of-stake) (The Merge), reduciendo significativamente su consumo energ\u00e9tico. Ethereum es tambi\u00e9n el ancla de una creciente familia de redes de capa 2 (Layer 2) \u2014incluidas Arbitrum, Optimism y Base\u2014 que ampl\u00edan su capacidad para aplicaciones escalables y de bajo coste.",
-    "ca": "Ethereum \u00e9s la principal blockchain programable, llan\u00e7ada el 2015, i el fonament de la major part de l'ecosistema de finances descentralitzades, NFTs i Web3. El 2022 va passar de prova de treball (proof-of-work) a prova de participaci\u00f3 (proof-of-stake) (The Merge), reduint significativament el seu consum energ\u00e8tic. Ethereum \u00e9s tamb\u00e9 l'ancoratge d'una creixent fam\u00edlia de xarxes de capa 2 (Layer 2) \u2014incloses Arbitrum, Optimism i Base\u2014 que amplien la seva capacitat per a aplicacions escalables i de baix cost."
+    "en": "Ethereum is the leading programmable blockchain, launched in 2015, and the foundation for most of the decentralized finance, NFT, and Web3 ecosystem. It transitioned from proof-of-work to proof-of-stake in 2022 (The Merge), significantly reducing its energy consumption. Ethereum is also the anchor for a growing family of Layer 2 networks — including Arbitrum, Optimism, and Base — that extend its capacity for scalable, low-cost applications.",
+    "es": "Ethereum es la principal blockchain programable, lanzada en 2015, y el fundamento de la mayor parte del ecosistema de finanzas descentralizadas, NFTs y Web3. En 2022 pasó de prueba de trabajo (proof-of-work) a prueba de participación (proof-of-stake) (The Merge), reduciendo significativamente su consumo energético. Ethereum es también el ancla de una creciente familia de redes de capa 2 (Layer 2) —incluidas Arbitrum, Optimism y Base— que amplían su capacidad para aplicaciones escalables y de bajo coste.",
+    "ca": "Ethereum és la principal blockchain programable, llançada el 2015, i el fonament de la major part de l'ecosistema de finances descentralitzades, NFTs i Web3. El 2022 va passar de prova de treball (proof-of-work) a prova de participació (proof-of-stake) (The Merge), reduint significativament el seu consum energètic. Ethereum és també l'ancoratge d'una creixent família de xarxes de capa 2 (Layer 2) —incloses Arbitrum, Optimism i Base— que amplien la seva capacitat per a aplicacions escalables i de baix cost."
   },
   "urls": {
     "Website": "https://www.ethereum.org/"
   },
-  "icon": "icons/asset/ethereum.svg"
+  "icon": "icons/asset/ethereum.svg",
+  "native_asset": "ethereum"
 }
