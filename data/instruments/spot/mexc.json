@@ -21,7 +21,7 @@
   },
   "POLUSDC": {
     "exchange": "spot",
-    "base": "polygon-usdc",
+    "base": "polygon",
     "quote": "usd-coin"
   },
   "POLUSDT": {
@@ -107,6 +107,11 @@
   "DYDXUSDT": {
     "exchange": "spot",
     "base": "dydx",
+    "quote": "tether"
+  },
+  "DYMUSDT": {
+    "exchange": "spot",
+    "base": "dymension",
     "quote": "tether"
   },
   "ENAUSDC": {

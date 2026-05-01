@@ -1,6 +1,11 @@
 {
   "display_name": "Arbitrum",
   "kind": "blockchain",
+  "about": {
+    "en": "Arbitrum is an Ethereum Layer 2 network that uses optimistic rollups to reduce fees and increase transaction throughput while inheriting Ethereum's security. Launched in 2021 by Offchain Labs, it is one of the largest Layer 2 networks by total value locked and supports a broad ecosystem of DeFi, NFT, and gaming applications. It is fully EVM-compatible, allowing developers to deploy Solidity contracts without modifications.",
+    "es": "Arbitrum es una red de capa 2 (Layer 2) de Ethereum que usa rollups optimistas (optimistic rollups) para reducir comisiones y aumentar el rendimiento de transacciones, manteniendo la seguridad de Ethereum. Lanzado en 2021 por Offchain Labs, es una de las mayores redes de capa 2 por valor total bloqueado y soporta un amplio ecosistema de DeFi, NFTs y aplicaciones de juegos. Es totalmente compatible con EVM, lo que permite a los desarrolladores desplegar contratos Solidity sin modificaciones.",
+    "ca": "Arbitrum és una xarxa de capa 2 (Layer 2) d'Ethereum que utilitza rollups optimistes (optimistic rollups) per reduir comissions i augmentar el rendiment de transaccions mantenint la seguretat d'Ethereum. Llançat el 2021 per Offchain Labs, és una de les majors xarxes de capa 2 per valor total bloquejat i dona suport a un ampli ecosistema de DeFi, NFTs i aplicacions de jocs. És totalment compatible amb EVM, la qual cosa permet als desenvolupadors desplegar contractes Solidity sense modificacions."
+  },
   "urls": {
     "Website": "https://arbitrum.io/"
   },

@@ -11,9 +11,15 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
-  "SKY-USD": {
+  "SKY-USD:128": {
     "exchange": "perp",
     "base": "sky",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "XAG-USD": {
+    "exchange": "perp",
+    "base": "silver",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
@@ -146,6 +152,12 @@
   "DOT-USD": {
     "exchange": "perp",
     "base": "polkadot",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "DYM-USD": {
+    "exchange": "perp",
+    "base": "dymension",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },

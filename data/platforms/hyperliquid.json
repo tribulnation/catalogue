@@ -1,6 +1,11 @@
 {
   "display_name": "Hyperliquid",
   "kind": "dex",
+  "about": {
+    "en": "Hyperliquid is a decentralized perpetuals and spot exchange built on its own Layer 1 blockchain, offering a fully on-chain central limit order book with sub-second finality and throughput of up to 200,000 orders per second. Launched in 2023, it has grown to dominate the decentralized perpetuals market, regularly capturing over 80% of on-chain perpetuals volume globally. The platform also features HyperEVM, an EVM-compatible environment allowing developers to build decentralized applications that interact directly with Hyperliquid's trading infrastructure.",
+    "es": "Hyperliquid es un exchange descentralizado de perpetuos y spot construido sobre su propia blockchain de capa 1 (Layer 1), que ofrece un libro de órdenes central totalmente on-chain (on-chain) con finalización en menos de un segundo y un rendimiento de hasta 200.000 órdenes por segundo. Lanzado en 2023, ha crecido hasta dominar el mercado de perpetuos descentralizados, capturando regularmente más del 80% del volumen global de perpetuos on-chain (on-chain). La plataforma también cuenta con HyperEVM, un entorno compatible con EVM que permite a los desarrolladores construir aplicaciones descentralizadas que interactúan directamente con la infraestructura de trading de Hyperliquid.",
+    "ca": "Hyperliquid és un exchange descentralitzat de perpetus i spot construït sobre la seva pròpia blockchain de capa 1 (Layer 1), que ofereix un llibre d'ordres central totalment on-chain (on-chain) amb finalització en menys d'un segon i un rendiment de fins a 200.000 ordres per segon. Llançat el 2023, ha crescut fins a dominar el mercat de perpetus descentralitzats, capturant regularment més del 80% del volum global de perpetus on-chain (on-chain). La plataforma també compta amb HyperEVM, un entorn compatible amb EVM que permet als desenvolupadors construir aplicacions descentralitzades que interactuen directament amb la infraestructura de trading de Hyperliquid."
+  },
   "icon": "icons/asset/hyperliquid.svg",
   "urls": {
     "Website": "https://app.hyperliquid.xyz/trade",

@@ -34,6 +34,13 @@
     "settlement": "ethena-usde",
     "platform": "hyperliquid"
   },
+  "xyz:SILVER": {
+    "exchange": "xyz",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
   "RENDER": {
     "exchange": "",
     "base": "render",
