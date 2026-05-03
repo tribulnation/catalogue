@@ -11,7 +11,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
-  "SKY-USD:128": {
+  "PI-USD": {
+    "exchange": "perp",
+    "base": "pi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SKY-USD": {
     "exchange": "perp",
     "base": "sky",
     "quote": "usd-coin",

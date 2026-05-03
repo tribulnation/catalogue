@@ -9,6 +9,16 @@
     "base": "tether-gold",
     "quote": "tether"
   },
+  "PIUSDC": {
+    "exchange": "spot",
+    "base": "pi",
+    "quote": "usd-coin"
+  },
+  "PIUSDT": {
+    "exchange": "spot",
+    "base": "pi",
+    "quote": "tether"
+  },
   "SKYUSDC": {
     "exchange": "spot",
     "base": "sky",
