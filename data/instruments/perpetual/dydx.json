@@ -149,6 +149,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "HBAR-USD": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "ATOM-USD": {
     "exchange": "perp",
     "base": "cosmos",

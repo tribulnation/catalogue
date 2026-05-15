@@ -19,6 +19,16 @@
     "base": "pi",
     "quote": "tether"
   },
+  "USUALUSDC": {
+    "exchange": "spot",
+    "base": "usual",
+    "quote": "usd-coin"
+  },
+  "USUALUSDT": {
+    "exchange": "spot",
+    "base": "usual",
+    "quote": "tether"
+  },
   "SKYUSDC": {
     "exchange": "spot",
     "base": "sky",
@@ -87,6 +97,16 @@
   "HYPEUSDT": {
     "exchange": "spot",
     "base": "hyperliquid",
+    "quote": "tether"
+  },
+  "HBARUSDC": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "usd-coin"
+  },
+  "HBARUSDT": {
+    "exchange": "spot",
+    "base": "hedera",
     "quote": "tether"
   },
   "PENDLEUSDC": {
