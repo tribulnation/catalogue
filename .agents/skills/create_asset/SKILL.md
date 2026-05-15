@@ -1,6 +1,7 @@
-# Create Asset
-
-Create all data for a new asset.
+---
+name: Create Asset
+description: Create all data for a new asset.
+---
 
 1. Create a new `data/assets/<id>.json`. Research online for:
   - Display name
