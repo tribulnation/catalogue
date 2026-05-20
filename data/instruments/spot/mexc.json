@@ -99,6 +99,11 @@
     "base": "hyperliquid",
     "quote": "tether"
   },
+  "PURRUSDT": {
+    "exchange": "spot",
+    "base": "purr",
+    "quote": "tether"
+  },
   "HBARUSDC": {
     "exchange": "spot",
     "base": "hedera",

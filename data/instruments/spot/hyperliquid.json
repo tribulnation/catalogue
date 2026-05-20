@@ -1,4 +1,10 @@
 {
+  "PURR/USDC:0": {
+    "exchange": "spot",
+    "base": "purr",
+    "quote": "usd-coin",
+    "platform": "hyperliquid"
+  },
   "PEPE/USDC:11": {
     "exchange": "spot",
     "base": "pepe",
@@ -69,6 +75,12 @@
     "exchange": "spot",
     "base": "tether-gold",
     "quote": "tether",
+    "platform": "hyperliquid"
+  },
+  "UENA/USDC:206": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd-coin",
     "platform": "hyperliquid"
   }
 }
