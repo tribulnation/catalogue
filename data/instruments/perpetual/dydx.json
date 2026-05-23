@@ -1,4 +1,10 @@
 {
+  "ASTR-USD": {
+    "exchange": "perp",
+    "base": "astar",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "ASTER-USD": {
     "exchange": "perp",
     "base": "aster",
