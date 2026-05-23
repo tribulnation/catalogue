@@ -29,6 +29,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "WTI-USD": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "BTC-USD": {
     "exchange": "perp",
     "base": "bitcoin",

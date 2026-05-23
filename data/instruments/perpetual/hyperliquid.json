@@ -48,6 +48,13 @@
     "settlement": "usd-coin",
     "platform": "hyperliquid"
   },
+  "xyz:CL": {
+    "exchange": "xyz",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
   "RENDER": {
     "exchange": "",
     "base": "render",
@@ -396,6 +403,20 @@
     "base": "monero",
     "quote": "tether",
     "settlement": "hyperliquid-usd",
+    "platform": "hyperliquid"
+  },
+  "flx:OIL": {
+    "exchange": "flx",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "platform": "hyperliquid"
+  },
+  "cash:WTI": {
+    "exchange": "cash",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "usd-coin",
     "platform": "hyperliquid"
   }
 }
