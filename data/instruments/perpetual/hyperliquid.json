@@ -342,6 +342,20 @@
     "settlement": "usd-coin",
     "platform": "hyperliquid"
   },
+  "HBAR": {
+    "exchange": "",
+    "base": "hedera",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "ASTER": {
+    "exchange": "",
+    "base": "aster",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
   "PAXG": {
     "exchange": "",
     "base": "pax-gold",
@@ -396,6 +410,13 @@
     "base": "monero",
     "quote": "tether",
     "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "hyna:XMR": {
+    "exchange": "hyna",
+    "base": "monero",
+    "quote": "tether",
+    "settlement": "ethena-usde",
     "platform": "hyperliquid"
   },
   "flx:XMR": {
