@@ -328,6 +328,20 @@
     "settlement": "usd-coin",
     "platform": "hyperliquid"
   },
+  "hyna:HYPE": {
+    "exchange": "hyna",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "platform": "hyperliquid"
+  },
+  "ONDO": {
+    "exchange": "",
+    "base": "ondo",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
   "USUAL": {
     "exchange": "",
     "base": "usual",
@@ -356,6 +370,13 @@
     "settlement": "usd-coin",
     "platform": "hyperliquid"
   },
+  "SNX": {
+    "exchange": "",
+    "base": "synthetix",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
   "PAXG": {
     "exchange": "",
     "base": "pax-gold",
@@ -377,11 +398,25 @@
     "settlement": "usd-coin",
     "platform": "hyperliquid"
   },
+  "hyna:ZEC": {
+    "exchange": "hyna",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "platform": "hyperliquid"
+  },
   "ENA": {
     "exchange": "",
     "base": "ethena",
     "quote": "tether",
     "settlement": "usd-coin",
+    "platform": "hyperliquid"
+  },
+  "hyna:ENA": {
+    "exchange": "hyna",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "ethena-usde",
     "platform": "hyperliquid"
   },
   "W": {
