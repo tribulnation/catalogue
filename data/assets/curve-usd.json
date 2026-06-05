@@ -1,0 +1,20 @@
+{
+  "display_name": "Curve USD",
+  "symbol": "crvUSD",
+  "display_decimals": 2,
+  "about": {
+    "en": "Curve USD is Curve Finance's decentralized US dollar stablecoin. crvUSD is issued through overcollateralized borrowing positions and uses Curve's LLAMMA liquidation mechanism to manage collateral and support the peg. It is used across Curve pools and DeFi integrations as a crypto-backed dollar asset within the Curve ecosystem.",
+    "es": "Curve USD es la stablecoin (stablecoin) descentralizada en d\u00f3lares estadounidenses de Curve Finance. crvUSD se emite mediante posiciones de pr\u00e9stamo sobrecolateralizadas y utiliza el mecanismo de liquidaci\u00f3n LLAMMA de Curve para gestionar el colateral y respaldar la paridad. Se usa en pools de Curve e integraciones DeFi como un activo en d\u00f3lares respaldado por cripto dentro del ecosistema Curve.",
+    "ca": "Curve USD \u00e9s la stablecoin (stablecoin) descentralitzada en d\u00f2lars nord-americans de Curve Finance. crvUSD s'emet mitjan\u00e7ant posicions de pr\u00e9stec sobrecol\u00b7lateralitzades i utilitza el mecanisme de liquidaci\u00f3 LLAMMA de Curve per gestionar el col\u00b7lateral i donar suport a la paritat. S'utilitza en pools de Curve i integracions DeFi com un actiu en d\u00f2lars recolzat per cripto dins de l'ecosistema Curve."
+  },
+  "coingecko_id": "crvusd",
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "icon": "icons/asset/curve-dao.svg",
+  "urls": {
+    "Website": "https://curve.finance/"
+  }
+}
