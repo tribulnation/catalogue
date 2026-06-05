@@ -111,6 +111,13 @@
     "settlement": "usd-coin",
     "platform": "hyperliquid"
   },
+  "hyna:SOL": {
+    "exchange": "hyna",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "platform": "hyperliquid"
+  },
   "AVAX": {
     "exchange": "",
     "base": "avalanche",
