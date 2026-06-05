@@ -2,7 +2,7 @@ import os as _os
 from collections import defaultdict as _defaultdict
 from glob import glob as _glob
 from pydantic import TypeAdapter as _TypeAdapter
-from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral
+from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral, SpamToken
 
 _asset_adapter = _TypeAdapter(Asset)
 _platform_adapter = _TypeAdapter(Platform)
@@ -12,6 +12,7 @@ _spot_instruments_adapter = _TypeAdapter(dict[str, Spot])
 _perpetual_instruments_adapter = _TypeAdapter(dict[str, Perpetual])
 _debt_instruments_adapter = _TypeAdapter(dict[str, Debt])
 _collateral_instruments_adapter = _TypeAdapter(dict[str, Collateral])
+_spam_tokens_adapter = _TypeAdapter(dict[str, SpamToken])
 
 def assets(folder: str) -> dict[str, Asset]:
   assets: dict[str, Asset] = {}
@@ -86,6 +87,14 @@ def collateral_instruments(folder: str) -> dict[str, dict[str, Collateral]]:
       collateral_instruments[platform].update(_collateral_instruments_adapter.validate_json(f.read()))
   return collateral_instruments
 
+def spam_tokens(folder: str) -> dict[str, dict[str, SpamToken]]:
+  spam_tokens = _defaultdict[str, dict[str, SpamToken]](dict)
+  for file in _glob(_os.path.join(folder, '*.json')):
+    platform = file.split('/')[-1].split('.')[0]
+    with open(file) as f:
+      spam_tokens[platform].update(_spam_tokens_adapter.validate_json(f.read()))
+  return spam_tokens
+
 def all(folder: str) -> Catalogue:
   return Catalogue(
     assets=assets(_os.path.join(folder, 'assets')),
@@ -98,4 +107,5 @@ def all(folder: str) -> Catalogue:
     perpetual_instruments=perpetual_instruments(_os.path.join(folder, 'instruments', 'perpetual')),
     debt_instruments=debt_instruments(_os.path.join(folder, 'instruments', 'debt')),
     collateral_instruments=collateral_instruments(_os.path.join(folder, 'instruments', 'collateral')),
+    spam_tokens=spam_tokens(_os.path.join(folder, 'spam_tokens')),
   )

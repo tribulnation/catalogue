@@ -30,6 +30,9 @@ class Collateral(TypedDict):
   asset: str
   """Underlying asset ID"""
 
+class SpamToken(TypedDict):
+  ...
+
 class Asset(TypedDict):
   display_name: str
   symbol: str
@@ -76,6 +79,8 @@ class Catalogue:
   """`platform id -> platform-specific id -> debt instrument`"""
   collateral_instruments: dict[str, dict[str, Collateral]]
   """`platform id -> platform-specific id -> collateral instrument`"""
+  spam_tokens: dict[str, dict[str, SpamToken]]
+  """`platform id -> platform-specific id -> spam token`"""
 
   @property
   def ordered_assets(self):

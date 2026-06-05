@@ -1,6 +1,6 @@
 import os as _os
 from typing import Mapping
-from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral
+from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral, SpamToken
 
 def asset_icons(assets: Mapping[str, Asset], base_folder: str):
   errors: list[str] = []
