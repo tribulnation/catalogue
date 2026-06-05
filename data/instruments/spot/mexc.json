@@ -449,6 +449,16 @@
     "base": "bnb",
     "quote": "tether"
   },
+  "CAKEUSDC": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "usd-coin"
+  },
+  "CAKEUSDT": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "tether"
+  },
   "CROUSDC": {
     "exchange": "spot",
     "base": "cronos",

@@ -53,6 +53,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "CAKE-USD": {
+    "exchange": "perp",
+    "base": "pancakeswap",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "ENA-USD": {
     "exchange": "perp",
     "base": "ethena",
