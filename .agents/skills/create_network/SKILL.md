@@ -18,6 +18,7 @@ Use this when adding a blockchain network/platform. This is different from addin
    - Add `about` in English, Spanish, and Catalan.
    - Add `urls.Website`.
    - Add `icon` when a suitable icon exists. Most blockchain platforms reuse `icons/asset/<native_asset>.svg`; use `icons/network/<id>.svg` only when the repo already uses or needs a separate network icon.
+   - Icons must be square: use a square `viewBox`/canvas and a square background, even when centering a wide wordmark inside it.
 
 3. Add `<id>` to `data/platforms/order.txt`.
    - Place it near comparable networks, preserving the existing rough priority/grouping.
