@@ -1,0 +1,14 @@
+{
+  "display_name": "Wrapped Ether",
+  "symbol": "WETH",
+  "display_decimals": 6,
+  "about": {
+    "en": "Wrapped Ether is an ERC-20 representation of ether that is designed to trade and integrate more easily with token-based smart contracts. WETH is backed 1:1 by ETH through wrapping and unwrapping contracts, so its price closely tracks ether. It is widely used across DeFi protocols, decentralized exchanges, lending markets, and bridges.",
+    "es": "Wrapped Ether es una representación ERC-20 de ether diseñada para operar e integrarse con más facilidad en contratos inteligentes basados en tokens. WETH está respaldado 1:1 por ETH mediante contratos de envoltura y desenvoltura, por lo que su precio sigue de cerca al de ether. Se utiliza ampliamente en protocolos DeFi, exchanges descentralizados, mercados de préstamo y puentes.",
+    "ca": "Wrapped Ether és una representació ERC-20 d'ether dissenyada per operar i integrar-se amb més facilitat en contractes intel·ligents basats en tokens. WETH està recolzat 1:1 per ETH mitjançant contractes d'embolcall i desembolcall, de manera que el seu preu segueix de prop el d'ether. S'utilitza àmpliament en protocols DeFi, exchanges descentralitzats, mercats de préstec i ponts."
+  },
+  "coingecko_id": "weth",
+  "urls": {
+    "Website": "https://ethereum.org/en/wrapped-eth"
+  }
+}
