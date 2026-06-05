@@ -529,6 +529,11 @@
     "base": "pump",
     "quote": "tether"
   },
+  "XOUSDT": {
+    "exchange": "spot",
+    "base": "xociety",
+    "quote": "tether"
+  },
   "WUSDC": {
     "exchange": "spot",
     "base": "wormhole",
