@@ -29,6 +29,11 @@
     "base": "usual",
     "quote": "tether"
   },
+  "TUSDUSDT": {
+    "exchange": "spot",
+    "base": "true-usd",
+    "quote": "tether"
+  },
   "SKYUSDC": {
     "exchange": "spot",
     "base": "sky",
@@ -142,6 +147,11 @@
   "DYDXUSDT": {
     "exchange": "spot",
     "base": "dydx",
+    "quote": "tether"
+  },
+  "VANAUSDT": {
+    "exchange": "spot",
+    "base": "vana",
     "quote": "tether"
   },
   "DYMUSDT": {
