@@ -45,7 +45,7 @@ def network_translations(folder: str) -> dict[str, dict[str, str]]:
     with open(file) as f:
       network_translations[platform].update(_network_translation_adapter.validate_json(f.read()))
 
-  return network_translations
+  return dict(network_translations)
 
 def asset_translations(folder: str) -> dict[str, dict[str, str]]:
   asset_translations = _defaultdict[str, dict[str, str]](dict)
@@ -53,7 +53,7 @@ def asset_translations(folder: str) -> dict[str, dict[str, str]]:
     platform = file.split('/')[-1].split('.')[0]
     with open(file) as f:
       asset_translations[platform].update(_asset_translation_adapter.validate_json(f.read()))
-  return asset_translations
+  return dict(asset_translations) 
 
 def spot_instruments(folder: str) -> dict[str, dict[str, Spot]]:
   spot_instruments = _defaultdict[str, dict[str, Spot]](dict)
@@ -61,7 +61,7 @@ def spot_instruments(folder: str) -> dict[str, dict[str, Spot]]:
     platform = file.split('/')[-1].split('.')[0]
     with open(file) as f:
       spot_instruments[platform].update(_spot_instruments_adapter.validate_json(f.read()))
-  return spot_instruments
+  return dict(spot_instruments)
 
 def perpetual_instruments(folder: str) -> dict[str, dict[str, Perpetual]]:
   perpetual_instruments = _defaultdict[str, dict[str, Perpetual]](dict)
@@ -69,7 +69,7 @@ def perpetual_instruments(folder: str) -> dict[str, dict[str, Perpetual]]:
     platform = file.split('/')[-1].split('.')[0]
     with open(file) as f:
       perpetual_instruments[platform].update(_perpetual_instruments_adapter.validate_json(f.read()))
-  return perpetual_instruments
+  return dict(perpetual_instruments)
 
 def debt_instruments(folder: str) -> dict[str, dict[str, Debt]]:
   debt_instruments = _defaultdict[str, dict[str, Debt]](dict)
@@ -77,7 +77,7 @@ def debt_instruments(folder: str) -> dict[str, dict[str, Debt]]:
     platform = file.split('/')[-1].split('.')[0]
     with open(file) as f:
       debt_instruments[platform].update(_debt_instruments_adapter.validate_json(f.read()))
-  return debt_instruments
+  return dict(debt_instruments)
 
 def collateral_instruments(folder: str) -> dict[str, dict[str, Collateral]]:
   collateral_instruments = _defaultdict[str, dict[str, Collateral]](dict)
@@ -85,7 +85,7 @@ def collateral_instruments(folder: str) -> dict[str, dict[str, Collateral]]:
     platform = file.split('/')[-1].split('.')[0]
     with open(file) as f:
       collateral_instruments[platform].update(_collateral_instruments_adapter.validate_json(f.read()))
-  return collateral_instruments
+  return dict(collateral_instruments)
 
 def spam_tokens(folder: str) -> dict[str, dict[str, SpamToken]]:
   spam_tokens = _defaultdict[str, dict[str, SpamToken]](dict)
@@ -93,7 +93,7 @@ def spam_tokens(folder: str) -> dict[str, dict[str, SpamToken]]:
     platform = file.split('/')[-1].split('.')[0]
     with open(file) as f:
       spam_tokens[platform].update(_spam_tokens_adapter.validate_json(f.read()))
-  return spam_tokens
+  return dict(spam_tokens)
 
 def all(folder: str) -> Catalogue:
   return Catalogue(
