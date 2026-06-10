@@ -65,6 +65,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "LIT-USD": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "SNX-USD": {
     "exchange": "perp",
     "base": "synthetix",
