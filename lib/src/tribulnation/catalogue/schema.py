@@ -1,5 +1,6 @@
 from typing_extensions import TypedDict, NotRequired, Literal, Mapping, Iterable
 from dataclasses import dataclass
+from pathlib import Path
 
 Locale = Literal['ca', 'es', 'en']
 Translations = Mapping[Locale, str]
@@ -93,6 +94,6 @@ class Catalogue:
       yield platform, self.platforms[platform]
 
   @staticmethod
-  def load(path: str) -> 'Catalogue':
+  def load(path: Path | str) -> 'Catalogue':
     from . import load
     return load.all(path)
