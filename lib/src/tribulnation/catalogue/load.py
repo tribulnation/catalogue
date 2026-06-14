@@ -1,7 +1,7 @@
 from collections import defaultdict
 from pathlib import Path
 from pydantic import TypeAdapter
-from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral, SpamToken
+from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral, SpamToken, Pool
 
 _asset_adapter = TypeAdapter(Asset)
 _platform_adapter = TypeAdapter(Platform)
@@ -12,6 +12,7 @@ _perpetual_instruments_adapter = TypeAdapter(dict[str, Perpetual])
 _debt_instruments_adapter = TypeAdapter(dict[str, Debt])
 _collateral_instruments_adapter = TypeAdapter(dict[str, Collateral])
 _spam_tokens_adapter = TypeAdapter(dict[str, SpamToken])
+_pools_adapter = TypeAdapter(dict[str, Pool])
 
 def assets(folder: Path) -> dict[str, Asset]:
   assets: dict[str, Asset] = {}
@@ -83,6 +84,13 @@ def spam_tokens(folder: Path) -> dict[str, dict[str, SpamToken]]:
     spam_tokens[platform].update(_spam_tokens_adapter.validate_json(file.read_bytes()))
   return dict(spam_tokens)
 
+def pools(folder: Path) -> dict[str, dict[str, Pool]]:
+  pools = defaultdict[str, dict[str, Pool]](dict)
+  for file in folder.glob('*.json'):
+    platform = file.stem
+    pools[platform].update(_pools_adapter.validate_json(file.read_bytes()))
+  return dict(pools)
+
 def all(folder: Path | str) -> Catalogue:
   folder = Path(folder)
   return Catalogue(
@@ -96,5 +104,6 @@ def all(folder: Path | str) -> Catalogue:
     perpetual_instruments=perpetual_instruments(folder / 'instruments' / 'perpetual'),
     debt_instruments=debt_instruments(folder / 'instruments' / 'debt'),
     collateral_instruments=collateral_instruments(folder / 'instruments' / 'collateral'),
+    pools=pools(folder / 'pools'),
     spam_tokens=spam_tokens(folder / 'spam_tokens'),
   )

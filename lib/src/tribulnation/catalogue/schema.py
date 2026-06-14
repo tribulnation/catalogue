@@ -26,10 +26,18 @@ class Perpetual(TypedDict):
 class Debt(TypedDict):
   asset: str
   """Underlying asset ID"""
+  name: str
 
 class Collateral(TypedDict):
   asset: str
   """Underlying asset ID"""
+  name: str
+
+class Pool(TypedDict):
+  assets: list[str]
+  """List of asset IDs"""
+  name: str
+  """Pool name"""
 
 class SpamToken(TypedDict):
   ...
@@ -82,6 +90,8 @@ class Catalogue:
   """`platform id -> platform-specific id -> collateral instrument`"""
   spam_tokens: dict[str, dict[str, SpamToken]]
   """`platform id -> platform-specific id -> spam token`"""
+  pools: dict[str, dict[str, Pool]]
+  """`platform id -> platform-specific id -> pool`"""
 
   @property
   def ordered_assets(self):

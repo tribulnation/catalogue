@@ -1,6 +1,6 @@
 import os as _os
 from typing import Mapping
-from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral, SpamToken
+from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral, SpamToken, Pool
 
 def asset_icons(assets: Mapping[str, Asset], base_folder: str):
   errors: list[str] = []
@@ -152,6 +152,15 @@ def collateral_instruments(collateral_instruments: Mapping[str, Mapping[str, Col
         errors.append(f'[COLLATERAL INSTRUMENT ERROR] Collateral instrument "{id}" on "{platform}" has inexistent asset "{asset}"')
   return errors
 
+def pools(pools: Mapping[str, Mapping[str, Pool]], assets: Mapping[str, Asset]):
+  errors: list[str] = []
+  for platform, platform_pools in pools.items():
+    for id, pool in platform_pools.items():
+      for asset in pool['assets']:
+        if asset not in assets:
+          errors.append(f'[POOL ERROR] Pool "{id}" on "{platform}" has inexistent asset "{asset}"')
+  return errors
+
 def all(catalogue: Catalogue, base_folder: str):
   errors: list[str] = []
   errors.extend(asset_icons(catalogue.assets, base_folder))
@@ -165,4 +174,5 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(perpetual_instruments(catalogue.perpetual_instruments, catalogue.assets))
   errors.extend(debt_instruments(catalogue.debt_instruments, catalogue.assets))
   errors.extend(collateral_instruments(catalogue.collateral_instruments, catalogue.assets))
+  errors.extend(pools(catalogue.pools, catalogue.assets))
   return errors
