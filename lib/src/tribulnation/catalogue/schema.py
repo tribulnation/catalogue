@@ -45,7 +45,6 @@ class SpamToken(TypedDict):
 class Asset(TypedDict):
   display_name: str
   symbol: str
-  display_decimals: NotRequired[int]
   about: NotRequired[Translations]
   tags: NotRequired[list[str]]
   urls: NotRequired[dict[str, str]]
