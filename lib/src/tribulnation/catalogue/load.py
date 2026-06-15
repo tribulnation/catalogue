@@ -95,7 +95,6 @@ def all(folder: Path | str) -> Catalogue:
   folder = Path(folder)
   return Catalogue(
     assets=assets(folder / 'assets'),
-    assets_order=assets_order(folder / 'assets' / 'order.txt'),
     platforms=platforms(folder / 'platforms'),
     platforms_order=platforms_order(folder / 'platforms' / 'order.txt'),
     network_translations=network_translations(folder / 'network_translations'),
