@@ -6,7 +6,9 @@
     "es": "PayPal USD es una stablecoin (stablecoin) respaldada por d\u00f3lares estadounidenses emitida para el ecosistema de pagos y transferencias de PayPal. PYUSD est\u00e1 dise\u00f1ada para soportar liquidaci\u00f3n de d\u00f3lares digitales a trav\u00e9s de blockchains compatibles mientras se conecta directamente con una gran marca de pagos de consumo. Refleja la entrada de una empresa generalista de pagos en la infraestructura on-chain (on-chain) del d\u00f3lar.",
     "ca": "PayPal USD \u00e9s una stablecoin (stablecoin) recolzada per d\u00f2lars nord-americans emesa per a l'ecosistema de pagaments i transfer\u00e8ncies de PayPal. PYUSD est\u00e0 dissenyada per donar suport a la liquidaci\u00f3 de d\u00f2lars digitals a trav\u00e9s de blockchains compatibles mentre es connecta directament amb una gran marca de pagaments de consum. Reflecteix l'entrada d'una empresa generalista de pagaments en la infraestructura on-chain (on-chain) del d\u00f2lar."
   },
-  "coingecko_id": "paypal-usd",
+  "external": {
+    "coingecko": "paypal-usd"
+  },
   "tags": [
     "Stablecoin",
     "USD"

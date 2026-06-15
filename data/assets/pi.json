@@ -6,7 +6,9 @@
     "es": "Pi Network es una criptomoneda social, una plataforma para desarrolladores y un ecosistema centrado en la accesibilidad y la utilidad en el mundo real. Permite a los usuarios minar y transaccionar PI con una interfaz movil y respalda aplicaciones dentro de su ecosistema blockchain.",
     "ca": "Pi Network es una criptomoneda social, una plataforma per a desenvolupadors i un ecosistema centrat en l'accessibilitat i la utilitat en el mon real. Permet als usuaris minar i transaccionar PI amb una interficie mobil i dona suport a aplicacions dins del seu ecosistema blockchain."
   },
-  "coingecko_id": "pi-network",
+  "external": {
+    "coingecko": "pi-network"
+  },
   "icon": "icons/asset/pi.svg",
   "urls": {
     "Website": "https://minepi.com/",

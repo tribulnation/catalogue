@@ -6,7 +6,9 @@
     "es": "Celestia es el activo nativo de Celestia, una red blockchain modular centrada en la disponibilidad de datos para rollups (rollups) y cadenas espec\u00edficas de aplicaci\u00f3n. TIA se utiliza para pagar blobspace (blobspace), asegurar la red mediante staking (staking) y participar en la gobernanza, y los desarrolladores tambi\u00e9n pueden usarlo como token de gas dentro de stacks blockchain modulares. Es central en el modelo de Celestia para hacer el despliegue de blockchains m\u00e1s escalable y personalizable.",
     "ca": "Celestia \u00e9s l'actiu natiu de Celestia, una xarxa blockchain modular centrada en la disponibilitat de dades per a rollups (rollups) i cadenes espec\u00edfiques d'aplicaci\u00f3. TIA s'utilitza per pagar blobspace (blobspace), assegurar la xarxa mitjan\u00e7ant staking (staking) i participar en la governan\u00e7a, i els desenvolupadors tamb\u00e9 el poden fer servir com a token de gas dins d'stacks blockchain modulars. \u00c9s central en el model de Celestia per fer el desplegament de blockchains m\u00e9s escalable i personalitzable."
   },
-  "coingecko_id": "celestia",
+  "external": {
+    "coingecko": "celestia"
+  },
   "icon": "icons/asset/celestia.svg",
   "urls": {
     "Website": "https://celestia.org/"

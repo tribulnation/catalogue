@@ -6,7 +6,9 @@
     "es": "Arbitrum es el token de gobernanza del ecosistema Arbitrum, una capa 2 (Layer 2) de Ethereum centrada en escalar aplicaciones on-chain (on-chain) con comisiones m\u00e1s bajas y ejecuci\u00f3n m\u00e1s r\u00e1pida. ARB otorga a sus poseedores poder de voto sobre la DAO de Arbitrum, incluyendo actualizaciones del protocolo, asignaciones de tesorer\u00eda y la evoluci\u00f3n de las cadenas y herramientas del ecosistema. Se utiliza en la gobernanza de una gran red rollup (rollup) de Ethereum.",
     "ca": "Arbitrum \u00e9s el token de governan\u00e7a de l'ecosistema Arbitrum, una capa 2 (Layer 2) d'Ethereum centrada a escalar aplicacions on-chain (on-chain) amb comissions m\u00e9s baixes i execuci\u00f3 m\u00e9s r\u00e0pida. ARB atorga als seus posse\u00efdors poder de vot sobre la DAO d'Arbitrum, incloent-hi actualitzacions del protocol, assignacions de tresoreria i l'evoluci\u00f3 de les cadenes i eines de l'ecosistema. S'utilitza en la governan\u00e7a d'una gran xarxa rollup (rollup) d'Ethereum."
   },
-  "coingecko_id": "arbitrum",
+  "external": {
+    "coingecko": "arbitrum"
+  },
   "icon": "icons/asset/arbitrum.svg",
   "urls": {
     "Website": "https://arbitrum.io/"

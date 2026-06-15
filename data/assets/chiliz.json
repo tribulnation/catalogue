@@ -7,7 +7,9 @@
     "ca": "Chiliz \u00e9s un ecosistema de blockchain i tokens centrat en l'esport i la participaci\u00f3 de fans. CHZ s'utilitza per a governan\u00e7a, pagaments i participaci\u00f3 a les plataformes impulsades per Chiliz."
   },
   "icon": "icons/asset/chiliz.svg",
-  "coingecko_id": "chiliz",
+  "external": {
+    "coingecko": "chiliz"
+  },
   "urls": {
     "Website": "https://www.chiliz.com/"
   }

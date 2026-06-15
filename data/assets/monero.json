@@ -6,7 +6,9 @@
     "es": "Monero es una criptomoneda centrada en la privacidad dise\u00f1ada para dificultar el rastreo on-chain (on-chain) de importes, remitentes y destinatarios. Utiliza t\u00e9cnicas de preservaci\u00f3n de privacidad como firmas de anillo, direcciones ocultas (stealth addresses) y mecanismos de transacciones confidenciales para proteger el anonimato de los usuarios. XMR es un activo importante construido principalmente alrededor de la privacidad financiera.",
     "ca": "Monero \u00e9s una criptomoneda centrada en la privadesa dissenyada per dificultar el rastreig on-chain (on-chain) d'importos, remitents i destinataris. Utilitza t\u00e8cniques de preservaci\u00f3 de privadesa com signatures d'anell, adreces ocultes (stealth addresses) i mecanismes de transaccions confidencials per protegir l'anonimat dels usuaris. XMR \u00e9s un actiu important constru\u00eft principalment al voltant de la privadesa financera."
   },
-  "coingecko_id": "monero",
+  "external": {
+    "coingecko": "monero"
+  },
   "icon": "icons/asset/monero.svg",
   "urls": {
     "Website": "https://www.getmonero.org/"

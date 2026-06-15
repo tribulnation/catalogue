@@ -6,7 +6,9 @@
     "es": "Chainlink ofrece servicios de or\u00e1culos descentralizados que aportan datos off-chain (off-chain) a los contratos inteligentes (smart contracts). LINK se usa para pagar a los operadores de nodos y asegurar los servicios de or\u00e1culo.",
     "ca": "Chainlink ofereix serveis d'oracles descentralitzats que aporten dades off-chain (off-chain) als contractes intel\u00b7ligents (smart contracts). LINK s'utilitza per pagar els operadors de nodes i assegurar els serveis d'oracle."
   },
-  "coingecko_id": "chainlink",
+  "external": {
+    "coingecko": "chainlink"
+  },
   "icon": "icons/asset/chainlink.svg",
   "urls": {
     "Website": "https://chain.link/"

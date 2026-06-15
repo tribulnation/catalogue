@@ -6,7 +6,9 @@
     "es": "Stellar es una blockchain enfocada en pagos construida para emitir, transferir y liquidar activos digitales de forma eficiente a trav\u00e9s de fronteras. XLM se utiliza para comisiones, reservas de cuenta y operaciones de red, mientras que el proyecto en conjunto pone el foco en remesas, acceso financiero y movimiento tokenizado de dinero. Es una red veterana orientada a infraestructura pr\u00e1ctica de pagos.",
     "ca": "Stellar \u00e9s una blockchain enfocada a pagaments constru\u00efda per emetre, transferir i liquidar actius digitals de manera eficient a trav\u00e9s de fronteres. XLM s'utilitza per a comissions, reserves de compte i operacions de xarxa, mentre que el projecte en conjunt posa el focus en remeses, acc\u00e9s financer i moviment tokenitzat de diners. \u00c9s una xarxa veterana orientada a infraestructura pr\u00e0ctica de pagaments."
   },
-  "coingecko_id": "stellar",
+  "external": {
+    "coingecko": "stellar"
+  },
   "icon": "icons/asset/stellar.svg",
   "urls": {
     "Website": "https://www.stellar.org/"

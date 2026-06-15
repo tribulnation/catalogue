@@ -6,7 +6,9 @@
     "es": "MetaMask USD es una stablecoin (stablecoin) vinculada al d\u00f3lar estadounidense creada para el ecosistema MetaMask. Emitida por Bridge y potenciada por M0, mUSD est\u00e1 respaldada por letras del Tesoro estadounidense a corto plazo y est\u00e1 dise\u00f1ada para pagos nativos de cartera, swaps, actividad DeFi y gasto con MetaMask Card.",
     "ca": "MetaMask USD \u00e9s una stablecoin (stablecoin) vinculada al d\u00f2lar nord-americ\u00e0 creada per a l'ecosistema MetaMask. Emesa per Bridge i impulsada per M0, mUSD est\u00e0 recolzada per lletres del Tresor nord-americ\u00e0 a curt termini i est\u00e0 dissenyada per a pagaments natius de cartera, swaps, activitat DeFi i despesa amb MetaMask Card."
   },
-  "coingecko_id": "metamask-usd",
+  "external": {
+    "coingecko": "metamask-usd"
+  },
   "tags": [
     "Stablecoin",
     "USD"

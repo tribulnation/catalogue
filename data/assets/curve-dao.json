@@ -6,7 +6,9 @@
     "es": "Curve es un exchange descentralizado optimizado para stablecoins y trading con bajo deslizamiento. CRV se utiliza para gobernanza e incentivos dentro del ecosistema de Curve.",
     "ca": "Curve \u00e9s un exchange descentralitzat optimitzat per a stablecoins i trading amb baix lliscament. CRV s'utilitza per a governan\u00e7a i incentius dins de l'ecosistema de Curve."
   },
-  "coingecko_id": "curve-dao-token",
+  "external": {
+    "coingecko": "curve-dao-token"
+  },
   "icon": "icons/asset/curve-dao.svg",
   "urls": {
     "Website": "https://curve.finance/"

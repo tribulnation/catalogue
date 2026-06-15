@@ -6,7 +6,9 @@
     "es": "Cosmos Hub es una cadena central del ecosistema Cosmos, que conecta blockchains soberanas mediante el protocolo de interoperabilidad IBC. ATOM se utiliza para staking (staking), gobernanza y la seguridad y coordinaci\u00f3n del propio Hub. El proyecto ayud\u00f3 a popularizar la visi\u00f3n modular de muchas cadenas espec\u00edficas de aplicaci\u00f3n conectadas mediante comunicaci\u00f3n cross-chain (cross-chain) estandarizada.",
     "ca": "Cosmos Hub \u00e9s una cadena central de l'ecosistema Cosmos, que connecta blockchains sobiranes mitjan\u00e7ant el protocol d'interoperabilitat IBC. ATOM s'utilitza per a staking (staking), governan\u00e7a i la seguretat i coordinaci\u00f3 del mateix Hub. El projecte va ajudar a popularitzar la visi\u00f3 modular de moltes cadenes espec\u00edfiques d'aplicaci\u00f3 connectades mitjan\u00e7ant comunicaci\u00f3 cross-chain (cross-chain) estandarditzada."
   },
-  "coingecko_id": "cosmos",
+  "external": {
+    "coingecko": "cosmos"
+  },
   "icon": "icons/asset/cosmos.svg",
   "urls": {
     "Website": "https://cosmos.network/"

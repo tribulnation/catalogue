@@ -6,7 +6,9 @@
     "es": "Tether Gold es un activo tokenizado de oro emitido por Tether en el que cada XAUT representa propiedad sobre una cantidad espec\u00edfica de oro f\u00edsico mantenido en custodia. Est\u00e1 dise\u00f1ado para proporcionar acceso basado en blockchain a exposici\u00f3n a metales preciosos manteniendo un respaldo canjeable. XAUT es un activo vinculado al oro visible en los mercados cripto.",
     "ca": "Tether Gold \u00e9s un actiu tokenitzat d'or em\u00e8s per Tether en qu\u00e8 cada XAUT representa propietat sobre una quantitat espec\u00edfica d'or f\u00edsic mantingut en cust\u00f2dia. Est\u00e0 dissenyat per proporcionar acc\u00e9s basat en blockchain a exposici\u00f3 a metalls preciosos mantenint un suport bescanviable. XAUT \u00e9s un actiu vinculat a l'or visible als mercats cripto."
   },
-  "coingecko_id": "tether-gold",
+  "external": {
+    "coingecko": "tether-gold"
+  },
   "tags": [
     "RWA",
     "Commodity"

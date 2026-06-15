@@ -6,7 +6,9 @@
     "es": "Wrapped Bitcoin es una representaci\u00f3n tokenizada de bitcoin en Ethereum y otras redes compatibles, respaldada 1:1 por BTC mantenido en custodia. WBTC permite que la exposici\u00f3n a Bitcoin se utilice dentro de protocolos DeFi, mercados de pr\u00e9stamo y aplicaciones de contratos inteligentes sin salir de formato tokenizado. Se convirti\u00f3 en un puente entre el capital de Bitcoin y las finanzas basadas en Ethereum.",
     "ca": "Wrapped Bitcoin \u00e9s una representaci\u00f3 tokenitzada de bitcoin a Ethereum i altres xarxes compatibles, recolzada 1:1 per BTC mantingut en cust\u00f2dia. WBTC permet que l'exposici\u00f3 a Bitcoin s'utilitzi dins de protocols DeFi, mercats de pr\u00e9stec i aplicacions de contractes intel\u00b7ligents sense sortir del format tokenitzat. Es va convertir en un pont entre el capital de Bitcoin i les finances basades en Ethereum."
   },
-  "coingecko_id": "wrapped-bitcoin",
+  "external": {
+    "coingecko": "wrapped-bitcoin"
+  },
   "icon": "icons/asset/wrapped-bitcoin.svg",
   "urls": {
     "Website": "https://www.wbtc.network/"

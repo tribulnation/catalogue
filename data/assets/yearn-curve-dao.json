@@ -6,7 +6,9 @@
     "es": "Yearn CRV es la posici\u00f3n tokenizada de CRV de Yearn para el ecosistema yCRV. Los usuarios pueden obtener yCRV a partir de CRV y hacer staking en Yearn para recibir recompensas de comisiones de protocolo e incentivos de voto que Yearn convierte en activos con rendimiento. El token est\u00e1 vinculado a la participaci\u00f3n a largo plazo de Yearn en la gobernanza de Curve y la optimizaci\u00f3n de recompensas.",
     "ca": "Yearn CRV \u00e9s la posici\u00f3 tokenitzada de CRV de Yearn per a l'ecosistema yCRV. Els usuaris poden obtenir yCRV a partir de CRV i fer staking a Yearn per rebre recompenses de comissions de protocol i incentius de vot que Yearn converteix en actius amb rendiment. El token est\u00e0 vinculat a la participaci\u00f3 a llarg termini de Yearn en la governan\u00e7a de Curve i l'optimitzaci\u00f3 de recompenses."
   },
-  "coingecko_id": "yearn-crv",
+  "external": {
+    "coingecko": "yearn-crv"
+  },
   "icon": "icons/asset/yearn-curve-dao.svg",
   "urls": {
     "Website": "https://ycrv.yearn.fi/"

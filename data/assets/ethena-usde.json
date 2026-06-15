@@ -6,7 +6,9 @@
     "es": "USDe es el d\u00f3lar sint\u00e9tico del protocolo Ethena, dise\u00f1ado para mantener un valor similar al d\u00f3lar usando colateral cripto y posiciones de derivados cubiertas en lugar de reservas bancarias convencionales. Es un activo de valor estable cripto-nativo construido alrededor de mec\u00e1nicas on-chain (on-chain) de funding y basis (basis). USDe es central en la infraestructura de d\u00f3lar y en la pila de productos con rendimiento de Ethena.",
     "ca": "USDe \u00e9s el d\u00f2lar sint\u00e8tic del protocol Ethena, dissenyat per mantenir un valor semblant al d\u00f2lar utilitzant col\u00b7lateral cripto i posicions de derivats cobertes en lloc de reserves banc\u00e0ries convencionals. \u00c9s un actiu de valor estable cripto-natiu constru\u00eft al voltant de mec\u00e0niques on-chain (on-chain) de funding i basis (basis). USDe \u00e9s central en la infraestructura de d\u00f2lar i en la pila de productes amb rendiment d'Ethena."
   },
-  "coingecko_id": "ethena-usde",
+  "external": {
+    "coingecko": "ethena-usde"
+  },
   "tags": [
     "Stablecoin",
     "USD"

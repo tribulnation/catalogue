@@ -42,6 +42,9 @@ class Pool(TypedDict):
 class SpamToken(TypedDict):
   ...
 
+class ExternalIds(TypedDict, total=False):
+  coingecko: str
+
 class Asset(TypedDict):
   display_name: str
   symbol: str
@@ -49,7 +52,7 @@ class Asset(TypedDict):
   tags: NotRequired[list[str]]
   urls: NotRequired[dict[str, str]]
   icon: NotRequired[str]
-  coingecko_id: NotRequired[str]
+  external: NotRequired[ExternalIds]
 
 class BasePlatform(TypedDict):
   display_name: str

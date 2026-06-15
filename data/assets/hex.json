@@ -6,7 +6,9 @@
     "es": "HEX es una criptomoneda basada en Ethereum que puede mantenerse como un token ERC-20 o bloquearse en dep\u00f3sitos temporales (staking). El protocolo est\u00e1 dise\u00f1ado en torno a incentivos de staking, con recompensas que var\u00edan seg\u00fan el tama\u00f1o, la duraci\u00f3n y la actividad de la red.",
     "ca": "HEX \u00e9s una criptomoneda basada en Ethereum que es pot mantenir com un token ERC-20 o bloquejar en dip\u00f2sits temporals (staking). El protocol est\u00e0 dissenyat al voltant d'incentius de staking, amb recompenses que varien segons la mida, la durada i l'activitat de la xarxa."
   },
-  "coingecko_id": "hex",
+  "external": {
+    "coingecko": "hex"
+  },
   "icon": "icons/asset/hex.svg",
   "urls": {
     "Website": "https://hex.com/"

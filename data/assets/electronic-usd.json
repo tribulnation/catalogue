@@ -6,7 +6,9 @@
     "es": "Electronic USD es una stablecoin (stablecoin) vinculada al d\u00f3lar estadounidense construida con Reserve Protocol y disponible en redes como Ethereum, Base y Arbitrum. EUSD est\u00e1 dise\u00f1ada como un token de d\u00f3lar descentralizado y respaldado por activos, con prueba de reservas on-chain y gobernanza comunitaria. Se usa para transferencias denominadas en d\u00f3lares, liquidez y actividad DeFi donde los usuarios quieren exposici\u00f3n a un activo digital estable.",
     "ca": "Electronic USD \u00e9s una stablecoin (stablecoin) vinculada al d\u00f2lar nord-americ\u00e0 constru\u00efda amb Reserve Protocol i disponible en xarxes com Ethereum, Base i Arbitrum. EUSD est\u00e0 dissenyada com un token de d\u00f2lar descentralitzat i recolzat per actius, amb prova de reserves on-chain i governan\u00e7a comunit\u00e0ria. S'utilitza per a transfer\u00e8ncies denominades en d\u00f2lars, liquiditat i activitat DeFi on els usuaris volen exposici\u00f3 a un actiu digital estable."
   },
-  "coingecko_id": "electronic-usd",
+  "external": {
+    "coingecko": "electronic-usd"
+  },
   "tags": [
     "Stablecoin",
     "USD"

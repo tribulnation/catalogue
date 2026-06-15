@@ -6,7 +6,9 @@
     "es": "Axelar es una red de interoperabilidad de prueba de participaci\u00f3n (proof-of-stake) que conecta blockchains y permite a las aplicaciones enrutar mensajes y activos entre ecosistemas. AXL se utiliza para staking (staking), gobernanza, comisiones de transacci\u00f3n y para asegurar la comunicaci\u00f3n cross-chain mediante el conjunto de validadores de la red.",
     "ca": "Axelar \u00e9s una xarxa d'interoperabilitat de prova de participaci\u00f3 (proof-of-stake) que connecta blockchains i permet a les aplicacions encaminar missatges i actius entre ecosistemes. AXL s'utilitza per a staking (staking), governan\u00e7a, comissions de transacci\u00f3 i per assegurar la comunicaci\u00f3 cross-chain mitjan\u00e7ant el conjunt de validadors de la xarxa."
   },
-  "coingecko_id": "axelar",
+  "external": {
+    "coingecko": "axelar"
+  },
   "icon": "icons/asset/axelar.svg",
   "urls": {
     "Website": "https://www.axelar.network/"

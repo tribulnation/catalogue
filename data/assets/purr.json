@@ -6,7 +6,9 @@
     "es": "Purr es el primer token spot nativo lanzado en Hyperliquid L1. PURR es un activo meme comunitario con un mecanismo deflacionario en el que se queman las comisiones de trading pagadas en PURR.",
     "ca": "Purr \u00e9s el primer token spot natiu llan\u00e7at a Hyperliquid L1. PURR \u00e9s un actiu meme comunitari amb un mecanisme deflacionari en qu\u00e8 es cremen les comissions de trading pagades en PURR."
   },
-  "coingecko_id": "purr-2",
+  "external": {
+    "coingecko": "purr-2"
+  },
   "icon": "icons/asset/purr.svg",
   "urls": {
     "Website": "https://app.hyperliquid.xyz/trade/PURR/USDC"

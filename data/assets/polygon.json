@@ -6,7 +6,9 @@
     "es": "POL es la moneda nativa de la red Polygon, utilizada para comisiones y recompensas de staking. Tambi\u00e9n es un token ERC-20 que impulsar\u00e1 el ecosistema de capa 2 con conocimiento cero de Polygon y sustituir\u00e1 gradualmente a MATIC como parte de Polygon 2.0.",
     "ca": "POL \u00e9s la moneda nativa de la xarxa Polygon, utilitzada per a comissions i recompenses de staking. Tamb\u00e9 \u00e9s un token ERC-20 que impulsar\u00e0 l'ecosistema de capa 2 amb coneixement zero de Polygon i substituir\u00e0 gradualment MATIC com a part de Polygon 2.0."
   },
-  "coingecko_id": "polygon-ecosystem-token",
+  "external": {
+    "coingecko": "polygon-ecosystem-token"
+  },
   "icon": "icons/asset/polygon.svg",
   "urls": {
     "Website": "https://polygon.technology/"

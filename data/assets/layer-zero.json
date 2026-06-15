@@ -6,7 +6,9 @@
     "es": "LayerZero es el token asociado a LayerZero, un protocolo de interoperabilidad omnichain (omnichain) que permite a las aplicaciones enviar mensajes, tokens y datos entre muchas blockchains. El protocolo sustenta est\u00e1ndares cross-chain (cross-chain) como OApp y OFT, dise\u00f1ados para preservar una l\u00f3gica de aplicaci\u00f3n y un suministro de token unificados entre redes. ZRO est\u00e1 ligado al ecosistema de una capa de mensajer\u00eda ampliamente utilizada en el mundo multichain cripto.",
     "ca": "LayerZero \u00e9s el token associat a LayerZero, un protocol d'interoperabilitat omnichain (omnichain) que permet a les aplicacions enviar missatges, tokens i dades entre moltes blockchains. El protocol sustenta est\u00e0ndards cross-chain (cross-chain) com OApp i OFT, dissenyats per preservar una l\u00f2gica d'aplicaci\u00f3 i un subministrament de token unificats entre xarxes. ZRO est\u00e0 lligat a l'ecosistema d'una capa de missatgeria \u00e0mpliament utilitzada en el m\u00f3n multichain cripto."
   },
-  "coingecko_id": "layerzero",
+  "external": {
+    "coingecko": "layerzero"
+  },
   "icon": "icons/asset/layer-zero.svg",
   "urls": {
     "Website": "https://layerzero.network/"

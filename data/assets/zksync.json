@@ -6,7 +6,9 @@
     "es": "ZKsync es una capa 2 (Layer 2) de Ethereum construida sobre tecnolog\u00eda zero-knowledge rollup (zero-knowledge rollup) para ofrecer transacciones m\u00e1s escalables y de menor coste manteni\u00e9ndose cercana al modelo de seguridad de Ethereum. La red apunta tanto a aplicaciones de usuario como a herramientas para desarrolladores con el fin de facilitar la adopci\u00f3n de infraestructura basada en zk. ZK es el token nativo ligado a la gobernanza y a la participaci\u00f3n en el ecosistema de ese stack rollup.",
     "ca": "ZKsync \u00e9s una capa 2 (Layer 2) d'Ethereum constru\u00efda sobre tecnologia zero-knowledge rollup (zero-knowledge rollup) per oferir transaccions m\u00e9s escalables i de menor cost mantenint-se propera al model de seguretat d'Ethereum. La xarxa apunta tant a aplicacions d'usuari com a eines per a desenvolupadors amb la finalitat de facilitar l'adopci\u00f3 d'infraestructura basada en zk. ZK \u00e9s el token natiu lligat a la governan\u00e7a i a la participaci\u00f3 en l'ecosistema d'aquest stack rollup."
   },
-  "coingecko_id": "zksync",
+  "external": {
+    "coingecko": "zksync"
+  },
   "icon": "icons/asset/zksync.svg",
   "urls": {
     "Website": "https://www.zksync.io/"

@@ -6,7 +6,9 @@
     "es": "Usual USD es la stablecoin (stablecoin) vinculada al d\u00f3lar emitida por Usual DAO. USD0 est\u00e1 dise\u00f1ada como un ERC-20 permissionless (permissionless) y componible respaldado por activos del mundo real de corta duraci\u00f3n, como letras del Tesoro de EE. UU. e instrumentos soberanos equivalentes, con mecanismos de emisi\u00f3n y canje pensados para mantener la paridad con el d\u00f3lar. Sirve como el activo estable central del ecosistema Usual junto al token de gobernanza USUAL y el token de staking USUALx.",
     "ca": "Usual USD \u00e9s la stablecoin (stablecoin) vinculada al d\u00f2lar emesa per Usual DAO. USD0 est\u00e0 dissenyada com un ERC-20 permissionless (permissionless) i componible recolzat per actius del m\u00f3n real de curta durada, com lletres del Tresor dels EUA i instruments sobirans equivalents, amb mecanismes d'emissi\u00f3 i bescanvi pensats per mantenir la paritat amb el d\u00f2lar. Serveix com l'actiu estable central de l'ecosistema Usual juntament amb el token de governan\u00e7a USUAL i el token de staking USUALx."
   },
-  "coingecko_id": "usual-usd",
+  "external": {
+    "coingecko": "usual-usd"
+  },
   "tags": [
     "Stablecoin",
     "USD",

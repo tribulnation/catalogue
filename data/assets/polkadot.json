@@ -6,7 +6,9 @@
     "es": "Polkadot es una red multicadena que conecta blockchains especializadas llamadas parachains. DOT se usa para staking (staking), gobernanza (governance) y bonding.",
     "ca": "Polkadot \u00e9s una xarxa multicadena que connecta blockchains especialitzades anomenades parachains. DOT s'utilitza per a staking (staking), governan\u00e7a (governance) i bonding."
   },
-  "coingecko_id": "polkadot",
+  "external": {
+    "coingecko": "polkadot"
+  },
   "icon": "icons/asset/polkadot.svg",
   "urls": {
     "Website": "https://polkadot.com/"

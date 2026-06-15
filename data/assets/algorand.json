@@ -6,7 +6,9 @@
     "es": "Algorand es el token nativo de la blockchain Algorand, una capa 1 (Layer 1) de prueba de participaci\u00f3n (proof-of-stake) dise\u00f1ada para pagos r\u00e1pidos, de bajo coste y aplicaciones on-chain (on-chain). ALGO se utiliza para pagar comisiones de transacci\u00f3n, participar en la gobernanza y ayudar a asegurar el consenso mediante nodos de participaci\u00f3n. Con una oferta m\u00e1xima fija de 10.000 millones de tokens, ALGO sustenta pagos, DeFi, activos tokenizados y otras aplicaciones dentro del ecosistema de Algorand.",
     "ca": "Algorand \u00e9s el token natiu de la blockchain Algorand, una capa 1 (Layer 1) de prova de participaci\u00f3 (proof-of-stake) dissenyada per a pagaments r\u00e0pids, de baix cost i aplicacions on-chain (on-chain). ALGO s'utilitza per pagar comissions de transacci\u00f3, participar en la governan\u00e7a i ajudar a assegurar el consens mitjan\u00e7ant nodes de participaci\u00f3. Amb una oferta m\u00e0xima fixa de 10.000 milions de tokens, ALGO sustenta pagaments, DeFi, actius tokenitzats i altres aplicacions dins de l'ecosistema d'Algorand."
   },
-  "coingecko_id": "algorand",
+  "external": {
+    "coingecko": "algorand"
+  },
   "icon": "icons/asset/algorand.svg",
   "urls": {
     "Website": "https://algorandtechnologies.com/"
