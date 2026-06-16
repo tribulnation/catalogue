@@ -99,6 +99,10 @@ class Catalogue:
     for platform in self.platforms_order:
       yield platform, self.platforms[platform]
 
+  @property
+  def blockchains(self):
+    return {id: platform for id, platform in self.platforms.items() if platform['kind'] == 'blockchain'}
+
   @staticmethod
   def load(path: Path | str) -> 'Catalogue':
     from . import load
