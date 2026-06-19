@@ -103,6 +103,10 @@ class Catalogue:
   def blockchains(self):
     return {id: platform for id, platform in self.platforms.items() if platform['kind'] == 'blockchain'}
 
+  @property
+  def dexs(self):
+    return {id: platform for id, platform in self.platforms.items() if platform['kind'] == 'dex'}
+
   @staticmethod
   def load(path: Path | str) -> 'Catalogue':
     from . import load
