@@ -71,6 +71,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "ETC-USD": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "SNX-USD": {
     "exchange": "perp",
     "base": "synthetix",
