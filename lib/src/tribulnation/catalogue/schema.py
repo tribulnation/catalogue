@@ -66,9 +66,12 @@ class CexPlatform(BasePlatform):
 class DexPlatform(BasePlatform):
   kind: Literal['dex']
 
+BlockchainCategory = Literal['evm']
+
 class Blockchain(BasePlatform):
   kind: Literal['blockchain']
   native_asset: NotRequired[str]
+  category: NotRequired[BlockchainCategory]
 
 Platform = CexPlatform | DexPlatform | Blockchain
 
@@ -111,3 +114,4 @@ class Catalogue:
   def load(path: Path | str) -> 'Catalogue':
     from . import load
     return load.all(path)
+
