@@ -14,7 +14,7 @@
 The validate the data running:
 
 ```bash
-python validate.py
+python scripts/validate.py
 ```
 
 ## Loading Data

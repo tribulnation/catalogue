@@ -5,6 +5,7 @@ import argparse
 import json
 import shutil
 import sys
+import zipfile
 from html import escape
 from pathlib import Path
 from urllib.parse import quote, urljoin
@@ -278,6 +279,16 @@ def stats(catalogue: Catalogue) -> Stats:
     assets_with_pegs=sum(1 for a in assets.values() if 'pegged_to' in a),
     spam_addresses=sum(len(a) for a in catalogue.spam.values()),
   )
+
+
+def write_zip(src: Path, dst: Path) -> None:
+  if not src.exists():
+    return
+  dst.parent.mkdir(parents=True, exist_ok=True)
+  with zipfile.ZipFile(dst, 'w', zipfile.ZIP_DEFLATED) as zf:
+    for file in sorted(src.rglob('*')):
+      if file.is_file():
+        zf.write(file, file.relative_to(src))
 
 
 def write_openapi(api: Path, public_url: str | None = None) -> None:
