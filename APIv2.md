@@ -186,6 +186,16 @@ type DexsList = Array<{
 
 ### Translations `/api/translations`
 
+#### Asset Translations `/api/translations/assets/<platform>.json`
+
+Maps platform-specific asset IDs to canonical asset IDs.
+
+```ts
+type AssetTranslations = {
+  [platform_specific_id: string]: string
+}
+```
+
 #### Network Translations `/api/translations/networks/<platform>.json`
 
 Maps platform-specific network IDs to canonical platform IDs.
@@ -324,7 +334,7 @@ type InstrumentIndex = Array<InstrumentReference>
 
 ### Spam Addresses `/api/spam/<platform>.json`
 
-Spam addresses for a platform.
+Spam addresses for a DEX/Blockchain, keyed by platform-specific ID/address.
 
 ```ts
 type SpamAddress = {
@@ -334,7 +344,9 @@ type SpamAddress = {
   reported_at?: string
 }
 
-type SpamAddresses = Array<SpamAddress>
+type SpamAddresses = {
+  [address: string]: SpamAddress
+}
 ```
 
 ### Indexes `/api/indexes`
