@@ -9,7 +9,10 @@
 </svelte:head>
 
 <nav>
-	<a class="brand" href="/">Catalogue</a>
+	<a class="brand" href="/">
+		<img src={favicon} alt="Tribulnation" width="28" height="28" class="brand-icon" />
+		Catalogue
+	</a>
 	<div class="links">
 		<a href="/">Home</a>
 		<a href="/assets">Assets</a>
@@ -61,10 +64,18 @@
 	}
 
 	.brand {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
 		font-weight: 600;
 		font-size: 1rem;
 		color: #e4e4eb;
 		letter-spacing: -0.01em;
+	}
+
+	.brand-icon {
+		border-radius: 6px;
+		flex-shrink: 0;
 	}
 
 	.brand:hover {
