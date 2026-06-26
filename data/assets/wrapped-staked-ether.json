@@ -7,7 +7,8 @@
     "ca": "Wrapped Staked Ether \u00e9s la versi\u00f3 embolcallada i no rebasing (non-rebasing) del token d'ether en staking de Lido. En lloc de reflectir les recompenses d'staking mitjan\u00e7ant augments de saldo, wstETH acumula valor a trav\u00e9s del seu tipus de canvi relatiu respecte a stETH, cosa que en facilita la integraci\u00f3 en protocols DeFi i sistemes de col\u00b7lateral. \u00c9s un wrapper d'ETH amb rendiment \u00e0mpliament utilitzat a les finances on-chain (on-chain)."
   },
   "external": {
-    "coingecko": "wrapped-steth"
+    "coingecko": "wrapped-steth",
+    "coinmarketcap": "12409"
   },
   "icon": "icons/asset/wrapped-staked-ether.svg",
   "urls": {

@@ -7,7 +7,8 @@
     "ca": "Wrapped Ether \u00e9s una representaci\u00f3 ERC-20 d'ether dissenyada per operar i integrar-se amb m\u00e9s facilitat en contractes intel\u00b7ligents basats en tokens. WETH est\u00e0 recolzat 1:1 per ETH mitjan\u00e7ant contractes d'embolcall i desembolcall, de manera que el seu preu segueix de prop el d'ether. S'utilitza \u00e0mpliament en protocols DeFi, exchanges descentralitzats, mercats de pr\u00e9stec i ponts."
   },
   "external": {
-    "coingecko": "weth"
+    "coingecko": "weth",
+    "coinmarketcap": "2396"
   },
   "pegged_to": {
     "asset": "ethereum"

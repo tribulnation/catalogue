@@ -1,5 +1,5 @@
 {
-  "display_name": "USDD",
+  "display_name": "Decentralized USD",
   "symbol": "USDD",
   "about": {
     "en": "USDD is a decentralized US dollar stablecoin issued by the TRON DAO Reserve. It is designed to maintain a dollar peg through crypto reserves and on-chain stability mechanisms, and it circulates across TRON, Ethereum, and BNB Chain. USDD is used as a stable-value asset for trading, liquidity, payments, and DeFi activity in the TRON ecosystem and beyond.",
@@ -7,7 +7,8 @@
     "ca": "USDD \u00e9s una stablecoin (stablecoin) descentralitzada en d\u00f2lars nord-americans emesa per TRON DAO Reserve. Est\u00e0 dissenyada per mantenir la paritat amb el d\u00f2lar mitjan\u00e7ant reserves cripto i mecanismes d'estabilitat on-chain (on-chain), i circula a TRON, Ethereum i BNB Chain. USDD s'utilitza com a actiu de valor estable per a trading, liquiditat, pagaments i activitat DeFi dins i fora de l'ecosistema TRON."
   },
   "external": {
-    "coingecko": "usdd"
+    "coingecko": "usdd",
+    "coinmarketcap": "19891"
   },
   "pegged_to": {
     "asset": "usd"
