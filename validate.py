@@ -1,4 +1,4 @@
-from tribulnation.catalogue import validate, load
+from tribulnation.catalogue.data import validate, load
 
 catalogue = load.all('data')
 errors = validate.all(catalogue, '.')

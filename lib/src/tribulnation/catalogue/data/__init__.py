@@ -2,7 +2,7 @@
 
 Central catalogue of (crypto-)assets, platforms and networks.
 """
-from .data import (
+from .schema import (
   Asset, AssetPeg, ExternalIds,
   BasePlatform, CexPlatform, DexPlatform, Blockchain, BlockchainCategory,
   BlockchainNamespace, Platform,
