@@ -1,6 +1,6 @@
 {
   "name": "@tribulnation/catalogue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Client for the Tribulnation crypto asset catalogue",
   "type": "module",
   "main": "dist/index.js",
@@ -23,6 +23,18 @@
     "type": "git",
     "url": "git+https://github.com/tribulnation/catalogue.git"
   },
+  "keywords": [
+    "crypto",
+    "cryptocurrency",
+    "blockchain",
+    "defi",
+    "catalogue",
+    "assets",
+    "trading",
+    "instruments",
+    "exchange",
+    "typescript"
+  ],
   "author": "Marcel Claramunt",
   "license": "MIT",
   "devDependencies": {
