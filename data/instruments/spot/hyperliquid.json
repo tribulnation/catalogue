@@ -2,85 +2,71 @@
   "PURR/USDC:0": {
     "exchange": "spot",
     "base": "purr",
-    "quote": "usd-coin",
-    "platform": "hyperliquid"
+    "quote": "usd-coin"
   },
   "PEPE/USDC:11": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "usd-coin",
-    "platform": "hyperliquid"
+    "quote": "usd-coin"
   },
   "HYPE/USDC:107": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "usd-coin",
-    "platform": "hyperliquid"
+    "quote": "usd-coin"
   },
   "MON/USDC:129": {
     "exchange": "spot",
     "base": "monad",
-    "quote": "usd-coin",
-    "platform": "hyperliquid"
+    "quote": "usd-coin"
   },
   "UBTC/USDC:142": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd-coin",
-    "platform": "hyperliquid"
+    "quote": "usd-coin"
   },
   "USDE/USDC:150": {
     "exchange": "spot",
     "base": "ethena-usde",
-    "quote": "usd-coin",
-    "platform": "hyperliquid"
+    "quote": "usd-coin"
   },
   "UETH/USDC:151": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd-coin",
-    "platform": "hyperliquid"
+    "quote": "usd-coin"
   },
   "UFART/USDC:162": {
     "exchange": "spot",
     "base": "fartcoin",
-    "quote": "usd-coin",
-    "platform": "hyperliquid"
+    "quote": "usd-coin"
   },
   "UXPL/USDC:210": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "usd-coin",
-    "platform": "hyperliquid"
+    "quote": "usd-coin"
   },
   "UXPL/USDH:233": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "hyperliquid-usd",
-    "platform": "hyperliquid"
+    "quote": "hyperliquid-usd"
   },
   "HYPE/USDE:255": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "ethena-usde",
-    "platform": "hyperliquid"
+    "quote": "ethena-usde"
   },
   "XAUT0/USDC:182": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "usd-coin",
-    "platform": "hyperliquid"
+    "quote": "usd-coin"
   },
   "XAUT0/USDT0:209": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "tether",
-    "platform": "hyperliquid"
+    "quote": "tether"
   },
   "UENA/USDC:206": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "usd-coin",
-    "platform": "hyperliquid"
+    "quote": "usd-coin"
   }
 }

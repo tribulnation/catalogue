@@ -3,511 +3,438 @@
     "exchange": "",
     "base": "bitcoin",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "ETH": {
     "exchange": "",
     "base": "ethereum",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "PUMP": {
     "exchange": "",
     "base": "pump",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "PURR": {
     "exchange": "",
     "base": "purr",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "FARTCOIN": {
     "exchange": "",
     "base": "fartcoin",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "hyna:FARTCOIN": {
     "exchange": "hyna",
     "base": "fartcoin",
     "quote": "tether",
-    "settlement": "ethena-usde",
-    "platform": "hyperliquid"
+    "settlement": "ethena-usde"
   },
   "xyz:SILVER": {
     "exchange": "xyz",
     "base": "silver",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "xyz:CL": {
     "exchange": "xyz",
     "base": "west-texas-intermediate",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "RENDER": {
     "exchange": "",
     "base": "render",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "BLAST": {
     "exchange": "",
     "base": "blast",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "REZ": {
     "exchange": "",
     "base": "renzo",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "XPL": {
     "exchange": "",
     "base": "plasma",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "hyna:XPL": {
     "exchange": "hyna",
     "base": "plasma",
     "quote": "tether",
-    "settlement": "ethena-usde",
-    "platform": "hyperliquid"
+    "settlement": "ethena-usde"
   },
   "ATOM": {
     "exchange": "",
     "base": "cosmos",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "DYDX": {
     "exchange": "",
     "base": "dydx",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "SOL": {
     "exchange": "",
     "base": "solana",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "hyna:SOL": {
     "exchange": "hyna",
     "base": "solana",
     "quote": "tether",
-    "settlement": "ethena-usde",
-    "platform": "hyperliquid"
+    "settlement": "ethena-usde"
   },
   "LIT": {
     "exchange": "",
     "base": "lighter",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "ETC": {
     "exchange": "",
     "base": "ethereum-classic",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "ALGO": {
     "exchange": "",
     "base": "algorand",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "WLFI": {
     "exchange": "",
     "base": "world-liberty-financial",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "AVAX": {
     "exchange": "",
     "base": "avalanche",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "hyna:PUMP": {
     "exchange": "hyna",
     "base": "pump",
     "quote": "tether",
-    "settlement": "ethena-usde",
-    "platform": "hyperliquid"
+    "settlement": "ethena-usde"
   },
   "BNB": {
     "exchange": "",
     "base": "bnb",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "OP": {
     "exchange": "",
     "base": "optimism",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "LTC": {
     "exchange": "",
     "base": "litecoin",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "ARB": {
     "exchange": "",
     "base": "arbitrum",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "DOGE": {
     "exchange": "",
     "base": "dogecoin",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "SUI": {
     "exchange": "",
     "base": "sui",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "CRV": {
     "exchange": "",
     "base": "curve-dao",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "LINK": {
     "exchange": "",
     "base": "chainlink",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "GMX": {
     "exchange": "",
     "base": "gmx",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "XRP": {
     "exchange": "",
     "base": "xrp",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "BCH": {
     "exchange": "",
     "base": "bitcoin-cash",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "APT": {
     "exchange": "",
     "base": "aptos",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "AAVE": {
     "exchange": "",
     "base": "aave",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "TRX": {
     "exchange": "",
     "base": "tron",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "UNI": {
     "exchange": "",
     "base": "uniswap",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "SEI": {
     "exchange": "",
     "base": "sei",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "DOT": {
     "exchange": "",
     "base": "polkadot",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "BLUR": {
     "exchange": "",
     "base": "blur",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "TIA": {
     "exchange": "",
     "base": "celestia",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "ADA": {
     "exchange": "",
     "base": "cardano",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "TON": {
     "exchange": "",
     "base": "toncoin",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "PENDLE": {
     "exchange": "",
     "base": "pendle",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "NEAR": {
     "exchange": "",
     "base": "near",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "TAO": {
     "exchange": "",
     "base": "bittensor",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "MNT": {
     "exchange": "",
     "base": "mantle",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "ZK": {
     "exchange": "",
     "base": "zksync",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "POL": {
     "exchange": "",
     "base": "polygon",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "XLM": {
     "exchange": "",
     "base": "stellar",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "HYPE": {
     "exchange": "",
     "base": "hyperliquid",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "hyna:HYPE": {
     "exchange": "hyna",
     "base": "hyperliquid",
     "quote": "tether",
-    "settlement": "ethena-usde",
-    "platform": "hyperliquid"
+    "settlement": "ethena-usde"
   },
   "ONDO": {
     "exchange": "",
     "base": "ondo",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "USUAL": {
     "exchange": "",
     "base": "usual",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "S": {
     "exchange": "",
     "base": "sonic",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "HBAR": {
     "exchange": "",
     "base": "hedera",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "ASTER": {
     "exchange": "",
     "base": "aster",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "SNX": {
     "exchange": "",
     "base": "synthetix",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "PAXG": {
     "exchange": "",
     "base": "pax-gold",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "AVNT": {
     "exchange": "",
     "base": "avantis",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "ZEC": {
     "exchange": "",
     "base": "zcash",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "hyna:ZEC": {
     "exchange": "hyna",
     "base": "zcash",
     "quote": "tether",
-    "settlement": "ethena-usde",
-    "platform": "hyperliquid"
+    "settlement": "ethena-usde"
   },
   "ENA": {
     "exchange": "",
     "base": "ethena",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "hyna:ENA": {
     "exchange": "hyna",
     "base": "ethena",
     "quote": "tether",
-    "settlement": "ethena-usde",
-    "platform": "hyperliquid"
+    "settlement": "ethena-usde"
   },
   "W": {
     "exchange": "",
     "base": "wormhole",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "MON": {
     "exchange": "",
     "base": "monad",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "CC": {
     "exchange": "",
     "base": "canton",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "XMR": {
     "exchange": "",
     "base": "monero",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   },
   "hyna:XMR": {
     "exchange": "hyna",
     "base": "monero",
     "quote": "tether",
-    "settlement": "ethena-usde",
-    "platform": "hyperliquid"
+    "settlement": "ethena-usde"
   },
   "flx:XMR": {
     "exchange": "flx",
     "base": "monero",
     "quote": "tether",
-    "settlement": "hyperliquid-usd",
-    "platform": "hyperliquid"
+    "settlement": "hyperliquid-usd"
   },
   "flx:OIL": {
     "exchange": "flx",
     "base": "west-texas-intermediate",
     "quote": "tether",
-    "settlement": "hyperliquid-usd",
-    "platform": "hyperliquid"
+    "settlement": "hyperliquid-usd"
   },
   "cash:WTI": {
     "exchange": "cash",
     "base": "west-texas-intermediate",
     "quote": "tether",
-    "settlement": "usd-coin",
-    "platform": "hyperliquid"
+    "settlement": "usd-coin"
   }
 }
