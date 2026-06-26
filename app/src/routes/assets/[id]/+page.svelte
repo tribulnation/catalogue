@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Copy from '$lib/Copy.svelte';
+
 	let { data } = $props();
 	const asset = $derived(data.asset);
 	const locales = $derived(asset.about ? Object.keys(asset.about).sort() : []);
@@ -24,6 +26,15 @@
 		}
 		return groups;
 	});
+
+	let iconCopied = $state(false);
+
+	function copyIcon(path: string) {
+		const url = new URL(path, window.location.href).href;
+		navigator.clipboard.writeText(url);
+		iconCopied = true;
+		setTimeout(() => (iconCopied = false), 1500);
+	}
 </script>
 
 <svelte:head>
@@ -40,7 +51,21 @@
 	<div class="header">
 		<div class="icon-wrap">
 			{#if asset.icon}
-				<img src={asset.icon} alt={asset.display_name} width="56" height="56" />
+				<button class="icon-btn" onclick={() => copyIcon(asset.icon!)} title="Copy icon URL">
+					<img src={asset.icon} alt={asset.display_name} width="56" height="56" />
+					<span class="icon-copy-overlay" aria-hidden="true">
+						{#if iconCopied}
+							<svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor">
+								<path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 1 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+							</svg>
+						{:else}
+							<svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor">
+								<path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+								<path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5H3.5A1.5 1.5 0 0 0 2 3h12a1.5 1.5 0 0 0-1.5-1.5H11A1.5 1.5 0 0 0 9.5 0h-3z"/>
+							</svg>
+						{/if}
+					</span>
+				</button>
 			{:else}
 				<div class="icon-placeholder">{asset.symbol?.charAt(0) ?? '?'}</div>
 			{/if}
@@ -89,14 +114,14 @@
 			{#each Object.entries(asset.external) as [provider, id]}
 				<div class="detail-row">
 					<span class="detail-label">{provider}</span>
-					<code class="detail-value mono">{id}</code>
+					<Copy value={id} />
 				</div>
 			{/each}
 		{/if}
 
 		<div class="detail-row">
 			<span class="detail-label">ID</span>
-			<code class="detail-value mono">{asset.id}</code>
+			<Copy value={asset.id} />
 		</div>
 	</div>
 
@@ -162,11 +187,39 @@
 		flex-shrink: 0;
 	}
 
-	.icon-wrap img {
+	.icon-btn {
+		position: relative;
+		display: block;
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+		border-radius: 100%;
+	}
+
+	.icon-btn img {
 		width: 56px;
 		height: 56px;
 		object-fit: contain;
 		border-radius: 100%;
+		display: block;
+	}
+
+	.icon-copy-overlay {
+		position: absolute;
+		inset: 0;
+		border-radius: 100%;
+		background: rgba(0, 0, 0, 0.55);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		opacity: 0;
+		transition: opacity 0.15s;
+	}
+
+	.icon-btn:hover .icon-copy-overlay {
+		opacity: 1;
 	}
 
 	.icon-placeholder {
