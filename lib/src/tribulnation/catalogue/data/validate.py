@@ -1,7 +1,8 @@
 import os as _os
 import re as _re
 from typing import Mapping
-from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral, Pool
+from .schema import Asset, Platform, Spot, Perpetual, Debt, Collateral, Pool
+from .main import Catalogue
 
 _id_pattern = _re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 

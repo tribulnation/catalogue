@@ -1,7 +1,8 @@
 from collections import defaultdict
 from pathlib import Path
 from pydantic import TypeAdapter
-from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral, SpamAddress, Pool
+from .schema import Asset, Platform, Spot, Perpetual, Debt, Collateral, SpamAddress, Pool
+from .main import Catalogue
 
 _asset_adapter = TypeAdapter(Asset)
 _platform_adapter = TypeAdapter(Platform)

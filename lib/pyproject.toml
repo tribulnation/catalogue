@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tribulnation-catalogue"
-version = "0.1.5"
+version = "0.1.7"
 authors = [
   {name="Marcel Claramunt", email="marcel@tribulnation.com"}
 ]
@@ -14,6 +14,13 @@ dependencies = [
 ]
 requires-python = ">=3.10"
 readme = {file="README.md", content-type="text/markdown"}
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
 
 [project.urls]
 repo = "https://github.com/tribulnation/catalogue.git"

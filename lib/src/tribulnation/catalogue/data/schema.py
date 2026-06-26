@@ -1,7 +1,5 @@
-from typing_extensions import TypedDict, NotRequired, Literal, Mapping, Iterable
-from dataclasses import dataclass
+from typing_extensions import TypedDict, NotRequired, Literal, Mapping
 from datetime import datetime
-from pathlib import Path
 
 Locale = Literal['ca', 'es', 'en']
 Translations = Mapping[Locale, str]
@@ -86,46 +84,3 @@ class Blockchain(BasePlatform):
 
 Platform = CexPlatform | DexPlatform | Blockchain
 
-@dataclass
-class Catalogue:
-  assets: dict[str, Asset]
-  platforms: dict[str, Platform]
-  platforms_order: list[str]
-  network_translations: dict[str, dict[str, str]]
-  """`platform id -> platform-specific id -> platform id`"""
-  asset_translations: dict[str, dict[str, str]]
-  """`platform id -> platform-specific id -> asset id`"""
-  spot_instruments: dict[str, dict[str, Spot]]
-  """`platform id -> platform-specific id -> spot instrument`"""
-  perpetual_instruments: dict[str, dict[str, Perpetual]]
-  """`platform id -> platform-specific id -> perpetual instrument`"""
-  debt_instruments: dict[str, dict[str, Debt]]
-  """`platform id -> platform-specific id -> debt instrument`"""
-  collateral_instruments: dict[str, dict[str, Collateral]]
-  """`platform id -> platform-specific id -> collateral instrument`"""
-  spam: dict[str, dict[str, SpamAddress]]
-  """`platform id -> platform-specific address -> spam address`"""
-  pools: dict[str, dict[str, Pool]]
-  """`platform id -> platform-specific id -> pool`"""
-
-  @property
-  def spam_tokens(self):
-    return self.spam
-
-  @property
-  def ordered_platforms(self):
-    for platform in self.platforms_order:
-      yield platform, self.platforms[platform]
-
-  @property
-  def blockchains(self):
-    return {id: platform for id, platform in self.platforms.items() if platform['kind'] == 'blockchain'}
-
-  @property
-  def dexs(self):
-    return {id: platform for id, platform in self.platforms.items() if platform['kind'] == 'dex'}
-
-  @staticmethod
-  def load(path: Path | str) -> 'Catalogue':
-    from . import load
-    return load.all(path)
