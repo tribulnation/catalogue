@@ -1,5 +1,25 @@
 # Static API Proposal v2
 
+## Conventions
+
+- API files are static JSON generated from `data/`.
+- Optional fields are omitted when absent.
+- List routes return arrays with minimal metadata.
+- Detail routes return full records.
+- Route parameters use catalogue IDs unless explicitly noted.
+- Generated records include `id`, even when source data stores the ID as a file name or map key.
+
+```ts
+type Locale = 'ca' | 'es' | 'en'
+type Translations = Partial<Record<Locale, string>>
+
+type Urls = Record<string, string>
+
+type ExternalIds = {
+  coingecko?: string
+}
+```
+
 ## Routes
 
 ### Home `/`
@@ -8,21 +28,33 @@ Documentation and overview.
 
 ### API `/api`
 
-#### Stats `/api/stats.json`
+Human-readable API index page. JSON routes live below `/api`.
+
+### Stats `/api/stats.json`
 
 Global stats about the catalogue.
 
 ```ts
-type State = {
+type Stats = {
   assets: number
   platforms: number
-  // ...
+  blockchains: number
+  cexs: number
+  dexs: number
+  asset_translations: number
+  network_translations: number
+  assets_with_icons: number
+  assets_with_external_ids: number
+  assets_with_pegs: number
+  spam_platforms: number
 }
 ```
 
-### Assets List `/api/assets.json`
+### Assets
 
-A list of all assets with minimal metadata
+#### Assets List `/api/assets.json`
+
+A list of all assets with minimal metadata.
 
 ```ts
 type AssetsList = Array<{
@@ -30,10 +62,14 @@ type AssetsList = Array<{
   display_name: string
   symbol: string
   icon?: string
+  tags?: string[]
+  pegged_to?: {
+    asset: string
+  }
 }>
 ```
 
-### Assets `/api/assets/<id>.json`
+#### Asset Detail `/api/assets/<id>.json`
 
 Detailed metadata for a specific asset.
 
@@ -42,102 +78,311 @@ type Asset = {
   id: string
   display_name: string
   symbol: string
-  // ...
+  about?: Translations
+  tags?: string[]
+  urls?: Urls
+  icon?: string
+  external?: ExternalIds
+  pegged_to?: {
+    asset: string
+  }
 }
 ```
 
-### Platforms List `/api/platforms.json`
+### Platforms
 
-A list of all platforms with minimal metadata
+#### Platforms List `/api/platforms.json`
+
+A list of all platforms with minimal metadata.
 
 ```ts
 type PlatformsList = Array<{
   id: string
   display_name: string
+  kind: PlatformKind
   icon?: string
 }>
 ```
 
-### Platforms `/api/platforms/<id>.json`
+#### Platform Detail `/api/platforms/<id>.json`
 
 Detailed metadata for a specific platform.
 
 ```ts
-type Platform = {
+type PlatformKind = 'blockchain' | 'cex' | 'dex'
+type BlockchainCategory = 'evm'
+type BlockchainNamespace = 'bip122' | 'cosmos' | 'eip155' | 'solana'
+
+type BasePlatform = {
   id: string
   display_name: string
-  // ...
+  kind: PlatformKind
+  about?: Translations
+  urls?: Urls
+  icon?: string
 }
+
+type Blockchain = BasePlatform & {
+  kind: 'blockchain'
+  native_asset?: string
+  category?: BlockchainCategory
+  namespace?: BlockchainNamespace
+  chain_id?: string | number
+}
+
+type Cex = BasePlatform & {
+  kind: 'cex'
+}
+
+type Dex = BasePlatform & {
+  kind: 'dex'
+}
+
+type Platform = Blockchain | Cex | Dex
 ```
 
-### Blockchains List `/api/platforms/blockchains.json`
+#### Blockchains List `/api/platforms/blockchains.json`
 
-...
+A list of blockchain platforms with minimal metadata.
 
-### Centralized Exchanges List `/api/platforms/cexs.json`
+```ts
+type BlockchainsList = Array<{
+  id: string
+  display_name: string
+  kind: 'blockchain'
+  icon?: string
+  native_asset?: string
+  category?: BlockchainCategory
+  namespace?: BlockchainNamespace
+  chain_id?: string | number
+}>
+```
 
-...
+#### Centralized Exchanges List `/api/platforms/cexs.json`
 
-### Decentralized Exchanges List `/api/platforms/dexs.json`
+A list of centralized exchange platforms with minimal metadata.
 
-...
+```ts
+type CexsList = Array<{
+  id: string
+  display_name: string
+  kind: 'cex'
+  icon?: string
+}>
+```
 
+#### Decentralized Exchanges List `/api/platforms/dexs.json`
+
+A list of decentralized exchange platforms with minimal metadata.
+
+```ts
+type DexsList = Array<{
+  id: string
+  display_name: string
+  kind: 'dex'
+  icon?: string
+}>
+```
 
 ### Translations `/api/translations`
 
-#### Asset Translations `/api/translations/assets/<platform>.json`
-
-...
-
 #### Network Translations `/api/translations/networks/<platform>.json`
 
-...
+Maps platform-specific network IDs to canonical platform IDs.
 
+```ts
+type NetworkTranslations = {
+  [platform_specific_id: string]: string
+}
+```
 
 ### Instruments `/api/instruments`
 
-#### Spot Pairs (CEXs/DEXs) `/api/instruments/spot/<platform>.json`
+Instrument routes are platform-specific. Index routes list available platforms
+and counts; they do not inline all instrument data.
 
-...
+```ts
+type SpotInstrument = {
+  id: string
+  exchange?: string
+  base: string
+  quote: string
+}
 
-#### Perpetual Markets (CEXs/DEXs) `/api/instruments/perpetual/<platform>.json`
+type PerpetualInstrument = {
+  id: string
+  exchange?: string
+  base: string
+  quote: string
+  settlement: string
+}
 
-...
+type DebtInstrument = {
+  id: string
+  asset: string
+  name: string
+}
 
-#### Debt Assets (DEXs/Blockchains) `/api/instruments/debt/<platform>.json`
+type CollateralInstrument = {
+  id: string
+  asset: string
+  name: string
+}
 
-...
+type PoolInstrument = {
+  id: string
+  assets: string[]
+  name: string
+}
+```
 
-#### Collateral Assets (DEXs/Blockchains) `/api/instruments/collateral/<platform>.json`
+#### Spot Pairs `/api/instruments/spot/<platform>.json`
 
-...
+Spot pairs for a CEX/DEX, keyed by platform-specific ID.
 
-#### Liquidity Pools (DEXs/Blockchains) `/api/instruments/pools/<platform>.json`
+```ts
+type SpotInstruments = {
+  [platform_specific_id: string]: SpotInstrument
+}
+```
 
-...
+#### Perpetual Markets `/api/instruments/perpetual/<platform>.json`
 
-#### Instrument Indices `/api/instruments/index/<asset>.json`
+Perpetual markets for a CEX/DEX, keyed by platform-specific ID.
 
-All instruments where the given asset is the base/underlying.
+```ts
+type PerpetualInstruments = {
+  [platform_specific_id: string]: PerpetualInstrument
+}
+```
 
-...
+#### Debt Assets `/api/instruments/debt/<platform>.json`
 
+Debt assets for a DEX/Blockchain, keyed by platform-specific ID/address.
 
-### Spam Addresses (CEXs/DEXs) `/api/spam/<platform>.json`
+```ts
+type DebtAssets = {
+  [address: string]: DebtInstrument
+}
+```
 
-...
+#### Collateral Assets `/api/instruments/collateral/<platform>.json`
 
+Collateral assets for a DEX/Blockchain, keyed by platform-specific ID/address.
+
+```ts
+type CollateralInstruments = {
+  [address: string]: CollateralInstrument
+}
+```
+
+#### Liquidity Pools `/api/instruments/pools/<platform>.json`
+
+Liquidity pools for a DEX/Blockchain, keyed by platform-specific ID/address.
+
+```ts
+type PoolInstruments = {
+  [address: string]: PoolInstrument
+}
+```
+
+#### Instrument Index `/api/instruments/index/<asset>.json`
+
+All instruments where the given asset is the base, underlying asset, collateral
+asset, debt asset, pool constituent, or settlement asset.
+
+```ts
+type InstrumentReference = {
+  kind: 'spot'
+  platform: string
+  id: string
+  role: 'base' | 'quote'
+} | {
+  kind: 'perpetual'
+  platform: string
+  id: string
+  role: 'base' | 'quote' | 'settlement'
+} | {
+  kind: 'debt'
+  platform: string
+  id: string
+  role: 'asset'
+} | {
+  kind: 'collateral'
+  platform: string
+  id: string
+  role: 'asset'
+} | {
+  kind: 'pool'
+  platform: string
+  id: string
+  role: 'asset'
+}
+
+type InstrumentIndex = Array<InstrumentReference>
+```
+
+### Spam Addresses `/api/spam/<platform>.json`
+
+Spam addresses for a platform.
+
+```ts
+type SpamAddress = {
+  id: string
+  reason?: string
+  source?: string
+  reported_at?: string
+}
+
+type SpamAddresses = Array<SpamAddress>
+```
 
 ### Indexes `/api/indexes`
 
 #### Symbols `/api/indexes/symbols.json`
 
-...
+Maps symbols to possible canonical asset IDs.
 
-#### External IDs `/api/indexes/external/<provider>.json`
+```ts
+type SymbolsIndex = {
+  [symbol: string]: string[]
+}
+```
 
-...
+### External IDs `/api/indexes/external/<provider>.json`
 
-#### Pegged Assets `/api/indexes/pegs.json`
+Maps third-party registry IDs to canonical asset IDs.
 
-...
+```ts
+type ExternalIndex = {
+  [provider_specific_id: string]: string
+}
+```
+
+### Pegged Assets `/api/indexes/pegs.json`
+
+Maps target asset IDs to assets that track or represent them.
+
+```ts
+type PegsIndex = {
+  [target_asset_id: string]: string[]
+}
+```
+
+## Build
+
+Recommended build command:
+
+```bash
+.venv/bin/python scripts/build_api.py
+```
+
+The builder should:
+
+1. Load `data/`.
+2. Run validation.
+3. Recreate `public/api`.
+4. Write list, detail, translation, instrument, spam, stats, and index files.
+5. Copy or expose icons under `public/icons`.
+6. Write `public/index.html`.
+7. Exit non-zero on validation errors or duplicate external index keys.
