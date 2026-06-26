@@ -4,6 +4,7 @@ export type AssetPeg = {
 
 export type ExternalIds = {
   coingecko?: string
+  coinmarketcap?: string
 }
 
 export type AssetSummary = {

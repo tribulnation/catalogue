@@ -3,6 +3,8 @@ from pydantic import BaseModel
 class ExternalIds(BaseModel):
   coingecko: str | None = None
   """Coingecko asset ID"""
+  coinmarketcap: str | None = None
+  """Coinmarketcap asset ID"""
 
 class AssetPeg(BaseModel):
   asset: str
