@@ -541,6 +541,9 @@ def build(args: argparse.Namespace) -> None:
 
   write_openapi(api, public_url)
 
+  write_zip(root / 'data', output / 'data.zip')
+  write_zip(root / 'icons', output / 'icons.zip')
+
   copy_icons(root, output)
   if should_write_site_html(root, output):
     copy_ui(root, output)
