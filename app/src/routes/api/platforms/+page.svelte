@@ -10,9 +10,9 @@
 	<h1>Platforms</h1>
 	<p>
 		<a href="/api/platforms.json">All JSON</a>
-		<a href="/api/platforms/blockchains.json">Blockchains</a>
-		<a href="/api/platforms/cexs.json">CEXs</a>
-		<a href="/api/platforms/dexs.json">DEXs</a>
+		<a href="/api/blockchains.json">Blockchains</a>
+		<a href="/api/cexs.json">CEXs</a>
+		<a href="/api/dexs.json">DEXs</a>
 	</p>
 	<ul>
 		{#each data.platforms as platform}

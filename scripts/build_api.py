@@ -385,7 +385,7 @@ def build_api_html(stats_data: Stats) -> str:
     <li><a href="stats.json">Stats</a>: {stats_data.assets} assets, {stats_data.platforms} platforms</li>
     <li><a href="assets.json">Assets</a></li>
     <li><a href="platforms.json">Platforms</a></li>
-    <li><a href="platforms/blockchains.json">Blockchains</a></li>
+    <li><a href="blockchains.json">Blockchains</a></li>
     <li><a href="indexes/symbols.json">Symbol index</a></li>
     <li><a href="indexes/pegs.json">Peg index</a></li>
     <li><a href="indexes/external/coingecko.json">CoinGecko index</a></li>
@@ -541,15 +541,15 @@ def build(args: argparse.Namespace) -> None:
   for id, platform in sorted(catalogue.platforms.items()):
     write_json(api / 'platforms' / f'{id}.json', platform_detail(id, platform, assets, public_url))
 
-  write_json(api / 'platforms' / 'blockchains.json', [
+  write_json(api / 'blockchains.json', [
     blockchain_summary(id, p, assets, public_url)
     for id, p in sorted(catalogue.platforms.items()) if p['kind'] == 'blockchain'
   ])
-  write_json(api / 'platforms' / 'cexs.json', [
+  write_json(api / 'cexs.json', [
     cex_summary(id, p, public_url)
     for id, p in sorted(catalogue.platforms.items()) if p['kind'] == 'cex'
   ])
-  write_json(api / 'platforms' / 'dexs.json', [
+  write_json(api / 'dexs.json', [
     dex_summary(id, p, public_url)
     for id, p in sorted(catalogue.platforms.items()) if p['kind'] == 'dex'
   ])

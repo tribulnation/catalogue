@@ -61,17 +61,17 @@ def get_localized_platform(id: str, locale: Locale) -> LocalizedPlatformDetail:
   """Localized metadata for a specific platform."""
   raise NotImplementedError
 
-@app.get('/api/platforms/blockchains.json')
+@app.get('/api/blockchains.json')
 def get_blockchains() -> list[BlockchainSummary]:
   """List of all blockchains."""
   raise NotImplementedError
 
-@app.get('/api/platforms/cexs.json')
+@app.get('/api/cexs.json')
 def get_cexs() -> list[CexSummary]:
   """List of all centralized exchanges."""
   raise NotImplementedError
 
-@app.get('/api/platforms/dexs.json')
+@app.get('/api/dexs.json')
 def get_dexs() -> list[DexSummary]:
   """List of all decentralized exchanges."""
   raise NotImplementedError
