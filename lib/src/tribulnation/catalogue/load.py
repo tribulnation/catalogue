@@ -11,7 +11,7 @@ _spot_instruments_adapter = TypeAdapter(dict[str, Spot])
 _perpetual_instruments_adapter = TypeAdapter(dict[str, Perpetual])
 _debt_instruments_adapter = TypeAdapter(dict[str, Debt])
 _collateral_instruments_adapter = TypeAdapter(dict[str, Collateral])
-_spam_tokens_adapter = TypeAdapter(dict[str, SpamAddress])
+_spam_adapter = TypeAdapter(dict[str, SpamAddress])
 _pools_adapter = TypeAdapter(dict[str, Pool])
 
 def assets(folder: Path) -> dict[str, Asset]:
@@ -77,12 +77,12 @@ def collateral_instruments(folder: Path) -> dict[str, dict[str, Collateral]]:
     collateral_instruments[platform].update(_collateral_instruments_adapter.validate_json(file.read_bytes(), extra='forbid'))
   return dict(collateral_instruments)
 
-def spam_tokens(folder: Path) -> dict[str, dict[str, SpamAddress]]:
-  spam_tokens = defaultdict[str, dict[str, SpamAddress]](dict)
+def spam(folder: Path) -> dict[str, dict[str, SpamAddress]]:
+  spam = defaultdict[str, dict[str, SpamAddress]](dict)
   for file in folder.glob('*.json'):
     platform = file.stem
-    spam_tokens[platform].update(_spam_tokens_adapter.validate_json(file.read_bytes(), extra='forbid'))
-  return dict(spam_tokens)
+    spam[platform].update(_spam_adapter.validate_json(file.read_bytes(), extra='forbid'))
+  return dict(spam)
 
 def pools(folder: Path) -> dict[str, dict[str, Pool]]:
   pools = defaultdict[str, dict[str, Pool]](dict)
@@ -104,5 +104,5 @@ def all(folder: Path | str) -> Catalogue:
     debt_instruments=debt_instruments(folder / 'instruments' / 'debt'),
     collateral_instruments=collateral_instruments(folder / 'instruments' / 'collateral'),
     pools=pools(folder / 'instruments' / 'pools'),
-    spam_tokens=spam_tokens(folder / 'spam'),
+    spam=spam(folder / 'spam'),
   )
