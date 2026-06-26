@@ -10,5 +10,7 @@
     "Website": "https://avalanche.network/"
   },
   "kind": "blockchain",
-  "category": "evm"
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 43114
 }

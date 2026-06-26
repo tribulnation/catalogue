@@ -11,5 +11,7 @@
   },
   "icon": "icons/asset/ethereum.svg",
   "native_asset": "ethereum",
-  "category": "evm"
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 1
 }

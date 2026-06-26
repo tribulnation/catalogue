@@ -9,5 +9,7 @@
   "urls": {
     "Website": "https://cronos.org/"
   },
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "eip155",
+  "chain_id": 25
 }

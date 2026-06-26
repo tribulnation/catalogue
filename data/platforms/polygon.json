@@ -10,5 +10,7 @@
     "Website": "https://polygon.technology/"
   },
   "kind": "blockchain",
-  "category": "evm"
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 137
 }

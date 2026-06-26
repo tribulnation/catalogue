@@ -11,5 +11,7 @@
   },
   "icon": "icons/asset/optimism.svg",
   "kind": "blockchain",
-  "category": "evm"
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 10
 }
