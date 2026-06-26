@@ -8,13 +8,7 @@
 
 A typed, open catalogue of crypto assets, trading platforms, instrument mappings, and name translations — built to resolve the inconsistent IDs and symbols that exchanges, wallets, chains, and market data APIs throw at you.
 
-<!-- stats:begin -->
-| | |
-|---|---|
-| **169** assets | **48** platforms (34 blockchains, 12 CEX, 2 DEX) |
-| **353** instruments | **631** translations |
-| **124** icons | **129** spam addresses |
-<!-- stats:end -->
+![Stats](https://catalogue.tribulnation.com/stats.svg)
 
 ---
 

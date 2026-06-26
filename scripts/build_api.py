@@ -13,7 +13,7 @@ from urllib.parse import quote, urljoin
 from pydantic import BaseModel
 
 from tribulnation.catalogue.data import load, validate
-from tribulnation.catalogue.data.schema import Catalogue
+from tribulnation.catalogue.data.main import Catalogue
 from tribulnation.catalogue.api.schema import (
   Stats,
   AssetPeg, ExternalIds, AssetSummary, AssetDetail, LocalizedAssetDetail,
@@ -281,6 +281,43 @@ def stats(catalogue: Catalogue) -> Stats:
   )
 
 
+def write_stats_svg(s: Stats, path: Path) -> None:
+  instruments = s.spot_instruments + s.perpetual_instruments
+  translations = s.asset_translations + s.network_translations
+  cols = [
+    (str(s.assets), 'assets'),
+    (str(s.platforms), 'platforms'),
+    (str(instruments), 'instruments'),
+    (str(translations), 'translations'),
+    (str(s.assets_with_icons), 'icons'),
+  ]
+  n = len(cols)
+  w, h, col_w = 600, 56, 600 // n
+  cells = ''.join(
+    f'<text class="n" x="{col_w * i + col_w // 2}" y="26" text-anchor="middle">{num}</text>'
+    f'<text class="l" x="{col_w * i + col_w // 2}" y="42" text-anchor="middle">{label}</text>'
+    for i, (num, label) in enumerate(cols)
+  )
+  seps = ''.join(
+    f'<line class="s" x1="{col_w * i}" y1="10" x2="{col_w * i}" y2="46"/>'
+    for i in range(1, n)
+  )
+  svg = (
+    f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}"'
+    f' viewBox="0 0 {w} {h}" role="img" aria-label="Catalogue stats">\n'
+    '<style>\n'
+    '.bg{fill:#f6f8fa}.n{font:bold 18px system-ui,sans-serif;fill:#1f2328}'
+    '.l{font:11px system-ui,sans-serif;fill:#57606a}.s{stroke:#d0d7de;stroke-width:1}\n'
+    '@media(prefers-color-scheme:dark){'
+    '.bg{fill:#161b22}.n{fill:#e6edf3}.l{fill:#8b949e}.s{stroke:#30363d}}\n'
+    '</style>\n'
+    f'<rect class="bg" width="{w}" height="{h}" rx="6"/>\n'
+    f'{seps}{cells}\n</svg>\n'
+  )
+  path.parent.mkdir(parents=True, exist_ok=True)
+  path.write_text(svg)
+
+
 def write_zip(src: Path, dst: Path) -> None:
   if not src.exists():
     return
@@ -475,6 +512,7 @@ def build(args: argparse.Namespace) -> None:
 
   stats_data = stats(catalogue)
   write_json(api / 'stats.json', stats_data)
+  write_stats_svg(stats_data, output / 'stats.svg')
 
   write_json(api / 'assets.json', [
     asset_summary(id, asset, public_url)
