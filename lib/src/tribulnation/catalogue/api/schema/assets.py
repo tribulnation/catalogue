@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from tribulnation.catalogue.data.schema import Locale
 
 class ExternalIds(BaseModel):
   coingecko: str | None = None
@@ -37,7 +38,7 @@ class BaseAssetDetail(AssetSummary):
   """Asset pegged to"""
 
 class AssetDetail(BaseAssetDetail):
-  about: dict[str, str] | None = None
+  about: dict[Locale, str] | None = None
   """Asset about"""
 
 class LocalizedAssetDetail(BaseAssetDetail):

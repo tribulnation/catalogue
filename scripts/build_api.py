@@ -12,8 +12,8 @@ from urllib.parse import quote, urljoin
 
 from pydantic import BaseModel
 
+from tribulnation.catalogue import data
 from tribulnation.catalogue.data import load, validate
-from tribulnation.catalogue.data.main import Catalogue
 from tribulnation.catalogue.api.schema import (
   Stats,
   AssetPeg, ExternalIds, AssetSummary, AssetDetail, LocalizedAssetDetail,
@@ -65,7 +65,7 @@ def public_path(public_url: str | None, path: str) -> str:
   return urljoin(public_url, path.lstrip('/'))
 
 
-def asset_summary(id: str, asset: dict, public_url: str | None) -> AssetSummary:
+def asset_summary(id: str, asset: data.Asset, public_url: str | None) -> AssetSummary:
   icon = asset.get('icon')
   peg = asset.get('pegged_to')
   return AssetSummary(
@@ -78,7 +78,7 @@ def asset_summary(id: str, asset: dict, public_url: str | None) -> AssetSummary:
   )
 
 
-def asset_detail(id: str, asset: dict, public_url: str | None) -> AssetDetail:
+def asset_detail(id: str, asset: data.Asset, public_url: str | None) -> AssetDetail:
   icon = asset.get('icon')
   peg = asset.get('pegged_to')
   ext = asset.get('external')
@@ -89,13 +89,13 @@ def asset_detail(id: str, asset: dict, public_url: str | None) -> AssetDetail:
     icon=public_path(public_url, icon) if icon else None,
     tags=asset.get('tags'),
     urls=asset.get('urls'),
-    about=asset.get('about'),
+    about=a if (a := asset.get('about')) else None,
     external=ExternalIds(**ext) if ext else None,
     pegged_to=AssetPeg(**peg) if peg else None,
   )
 
 
-def localized_asset(id: str, asset: dict, public_url: str | None, locale: str, about: str) -> LocalizedAssetDetail:
+def localized_asset(id: str, asset: data.Asset, public_url: str | None, locale: str, about: str) -> LocalizedAssetDetail:
   icon = asset.get('icon')
   peg = asset.get('pegged_to')
   ext = asset.get('external')
@@ -112,8 +112,17 @@ def localized_asset(id: str, asset: dict, public_url: str | None, locale: str, a
   )
 
 
-def platform_summary(id: str, platform: dict, public_url: str | None) -> PlatformSummary:
+def effective_platform_icon(platform: data.Platform, assets: dict[str, data.Asset]) -> str | None:
   icon = platform.get('icon')
+  if icon is None and platform.get('kind') == 'blockchain':
+    native = platform.get('native_asset')
+    if native:
+      icon = assets.get(native, {}).get('icon')
+  return icon
+
+
+def platform_summary(id: str, platform: data.Platform, assets: dict[str, data.Asset], public_url: str | None) -> PlatformSummary:
+  icon = effective_platform_icon(platform, assets)
   return PlatformSummary(
     id=id,
     display_name=platform['display_name'],
@@ -122,8 +131,8 @@ def platform_summary(id: str, platform: dict, public_url: str | None) -> Platfor
   )
 
 
-def blockchain_summary(id: str, platform: dict, public_url: str | None) -> BlockchainSummary:
-  icon = platform.get('icon')
+def blockchain_summary(id: str, platform: data.Blockchain, assets: dict[str, data.Asset], public_url: str | None) -> BlockchainSummary:
+  icon = effective_platform_icon(platform, assets)
   return BlockchainSummary(
     id=id,
     display_name=platform['display_name'],
@@ -136,7 +145,7 @@ def blockchain_summary(id: str, platform: dict, public_url: str | None) -> Block
   )
 
 
-def cex_summary(id: str, platform: dict, public_url: str | None) -> CexSummary:
+def cex_summary(id: str, platform: data.CexPlatform, public_url: str | None) -> CexSummary:
   icon = platform.get('icon')
   return CexSummary(
     id=id,
@@ -146,7 +155,7 @@ def cex_summary(id: str, platform: dict, public_url: str | None) -> CexSummary:
   )
 
 
-def dex_summary(id: str, platform: dict, public_url: str | None) -> DexSummary:
+def dex_summary(id: str, platform: data.DexPlatform, public_url: str | None) -> DexSummary:
   icon = platform.get('icon')
   return DexSummary(
     id=id,
@@ -156,15 +165,15 @@ def dex_summary(id: str, platform: dict, public_url: str | None) -> DexSummary:
   )
 
 
-def platform_detail(id: str, platform: dict, public_url: str | None) -> PlatformDetail:
-  icon = platform.get('icon')
+def platform_detail(id: str, platform: data.Platform, assets: dict[str, data.Asset], public_url: str | None) -> PlatformDetail:
+  icon = effective_platform_icon(platform, assets)
   return PlatformDetail(
     id=id,
     display_name=platform['display_name'],
     kind=platform['kind'],
     icon=public_path(public_url, icon) if icon else None,
     urls=platform.get('urls'),
-    about=platform.get('about'),
+    about=a if (a := platform.get('about')) else None,
     native_asset=platform.get('native_asset'),
     category=platform.get('category'),
     namespace=platform.get('namespace'),
@@ -172,34 +181,34 @@ def platform_detail(id: str, platform: dict, public_url: str | None) -> Platform
   )
 
 
-def platform_index(maps: dict) -> list[InstrumentPlatformEntry]:
+def platform_index(maps: dict[str, dict]) -> list[InstrumentPlatformEntry]:
   return [
     InstrumentPlatformEntry(platform=platform, count=len(items))
     for platform, items in sorted(maps.items())
   ]
 
 
-def spot_instruments(items: dict) -> dict[str, SpotInstrument]:
+def spot_instruments(items: dict[str, data.Spot]) -> dict[str, SpotInstrument]:
   return {id: SpotInstrument(id=id, **item) for id, item in sorted(items.items())}
 
 
-def perpetual_instruments(items: dict) -> dict[str, PerpetualInstrument]:
+def perpetual_instruments(items: dict[str, data.Perpetual]) -> dict[str, PerpetualInstrument]:
   return {id: PerpetualInstrument(id=id, **item) for id, item in sorted(items.items())}
 
 
-def debt_instruments(items: dict) -> dict[str, DebtInstrument]:
+def debt_instruments(items: dict[str, data.Debt]) -> dict[str, DebtInstrument]:
   return {id: DebtInstrument(id=id, **item) for id, item in sorted(items.items())}
 
 
-def collateral_instruments(items: dict) -> dict[str, CollateralInstrument]:
+def collateral_instruments(items: dict[str, data.Collateral]) -> dict[str, CollateralInstrument]:
   return {id: CollateralInstrument(id=id, **item) for id, item in sorted(items.items())}
 
 
-def pool_instruments(items: dict) -> dict[str, PoolInstrument]:
+def pool_instruments(items: dict[str, data.Pool]) -> dict[str, PoolInstrument]:
   return {id: PoolInstrument(id=id, **item) for id, item in sorted(items.items())}
 
 
-def instrument_index(catalogue: Catalogue) -> dict[str, list[InstrumentReference]]:
+def instrument_index(catalogue: data.Catalogue) -> dict[str, list[InstrumentReference]]:
   index: dict[str, list[InstrumentReference]] = {}
 
   def add(asset: str, ref: InstrumentReference) -> None:
@@ -235,14 +244,14 @@ def instrument_index(catalogue: Catalogue) -> dict[str, list[InstrumentReference
   }
 
 
-def symbols_index(catalogue: Catalogue) -> dict[str, list[str]]:
+def symbols_index(catalogue: data.Catalogue) -> dict[str, list[str]]:
   out: dict[str, list[str]] = {}
   for id, asset in catalogue.assets.items():
     out.setdefault(asset['symbol'], []).append(id)
   return {symbol: sorted(ids) for symbol, ids in sorted(out.items())}
 
 
-def external_index(catalogue: Catalogue, provider: str) -> dict[str, str]:
+def external_index(catalogue: data.Catalogue, provider: str) -> dict[str, str]:
   out: dict[str, str] = {}
   for id, asset in sorted(catalogue.assets.items()):
     external = asset.get('external', {})
@@ -253,7 +262,7 @@ def external_index(catalogue: Catalogue, provider: str) -> dict[str, str]:
   return out
 
 
-def pegs_index(catalogue: Catalogue) -> dict[str, list[str]]:
+def pegs_index(catalogue: data.Catalogue) -> dict[str, list[str]]:
   out: dict[str, list[str]] = {}
   for id, asset in catalogue.assets.items():
     if peg := asset.get('pegged_to'):
@@ -261,7 +270,7 @@ def pegs_index(catalogue: Catalogue) -> dict[str, list[str]]:
   return {asset: sorted(ids) for asset, ids in sorted(out.items())}
 
 
-def stats(catalogue: Catalogue) -> Stats:
+def stats(catalogue: data.Catalogue) -> Stats:
   platforms = catalogue.platforms
   assets = catalogue.assets
   return Stats(
@@ -380,6 +389,7 @@ def build_api_html(stats_data: Stats) -> str:
     <li><a href="indexes/symbols.json">Symbol index</a></li>
     <li><a href="indexes/pegs.json">Peg index</a></li>
     <li><a href="indexes/external/coingecko.json">CoinGecko index</a></li>
+    <li><a href="indexes/external/coinmarketcap.json">CoinMarketCap index</a></li>
     <li><a href="openapi.json">OpenAPI spec</a></li>
   </ul>
 </body>
@@ -523,15 +533,16 @@ def build(args: argparse.Namespace) -> None:
     for locale, about in sorted(asset.get('about', {}).items()):
       write_json(api / 'assets' / id / f'{locale}.json', localized_asset(id, asset, public_url, locale, about))
 
+  assets = catalogue.assets
   write_json(api / 'platforms.json', [
-    platform_summary(id, platform, public_url)
+    platform_summary(id, platform, assets, public_url)
     for id, platform in sorted(catalogue.platforms.items())
   ])
   for id, platform in sorted(catalogue.platforms.items()):
-    write_json(api / 'platforms' / f'{id}.json', platform_detail(id, platform, public_url))
+    write_json(api / 'platforms' / f'{id}.json', platform_detail(id, platform, assets, public_url))
 
   write_json(api / 'platforms' / 'blockchains.json', [
-    blockchain_summary(id, p, public_url)
+    blockchain_summary(id, p, assets, public_url)
     for id, p in sorted(catalogue.platforms.items()) if p['kind'] == 'blockchain'
   ])
   write_json(api / 'platforms' / 'cexs.json', [
@@ -575,6 +586,7 @@ def build(args: argparse.Namespace) -> None:
 
   write_json(api / 'indexes' / 'symbols.json', symbols_index(catalogue))
   write_json(api / 'indexes' / 'external' / 'coingecko.json', external_index(catalogue, 'coingecko'))
+  write_json(api / 'indexes' / 'external' / 'coinmarketcap.json', external_index(catalogue, 'coinmarketcap'))
   write_json(api / 'indexes' / 'pegs.json', pegs_index(catalogue))
 
   write_openapi(api, public_url)

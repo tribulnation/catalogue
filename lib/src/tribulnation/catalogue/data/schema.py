@@ -1,8 +1,8 @@
-from typing_extensions import TypedDict, NotRequired, Literal, Mapping
+from typing_extensions import TypedDict, NotRequired, Literal
 from datetime import datetime
 
 Locale = Literal['ca', 'es', 'en']
-Translations = Mapping[Locale, str]
+Translations = dict[Locale, str]
 
 class Spot(TypedDict):
   exchange: NotRequired[str]

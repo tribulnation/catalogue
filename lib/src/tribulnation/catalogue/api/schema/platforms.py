@@ -1,5 +1,6 @@
 from typing_extensions import Literal
 from pydantic import BaseModel
+from tribulnation.catalogue.data.schema import Locale
 
 PlatformKind = Literal['blockchain', 'cex', 'dex']
 
@@ -40,7 +41,7 @@ class BasePlatformDetail(PlatformSummary):
   """Platform icon URL"""
 
 class PlatformDetail(BasePlatformDetail):
-  about: dict[str, str] | None = None
+  about: dict[Locale, str] | None = None
   """Platform about"""
   native_asset: str | None = None
   """Native asset ID (blockchains only)"""
