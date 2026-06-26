@@ -110,6 +110,9 @@ Spot pairs, perpetual futures, debt positions, collateral positions, and liquidi
 ### Translations
 Per-platform display-name mappings for assets and networks. Resolves what a given exchange calls `BTC/USDT` into `('bitcoin', 'tether')`.
 
+### Icons
+SVG icons for assets, platforms, and networks, organized under `icons/asset/`, `icons/platform/`, and `icons/network/`. All icons are **square and maskable** — they include a full square background and are designed to be displayed cropped to a circle or rounded square. API responses include absolute icon URLs.
+
 ### Spam
 Known spam token addresses per chain, with optional source and reported timestamp.
 
