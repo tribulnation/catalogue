@@ -17,6 +17,14 @@ class AssetPricing:
     return cls(sources={
       'coingecko': coingecko,
     })
+  
+  @classmethod
+  def coingecko_eur(cls):
+    from .coingecko import CoingeckoPricing
+    coingecko = CoingeckoPricing.new(env='pro', quote='eur')
+    return cls(sources={
+      'coingecko': coingecko,
+    })
 
   async def current_price(self, asset: Asset) -> Decimal | None:
     for source, id in asset.get('external', {}).items():
