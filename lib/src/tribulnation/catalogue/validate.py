@@ -1,6 +1,23 @@
 import os as _os
+import re as _re
 from typing import Mapping
 from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral, Pool
+
+_id_pattern = _re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
+
+def ids(kind: str, items: Mapping[str, object]):
+  errors: list[str] = []
+  for id in items:
+    if not _id_pattern.fullmatch(id):
+      errors.append(f'[{kind} ID ERROR] Invalid id "{id}". IDs must be lowercase kebab-case')
+  return errors
+
+def platform_keys(kind: str, platforms: Mapping[str, Platform], items: Mapping[str, object]):
+  errors: list[str] = []
+  for platform in items:
+    if platform not in platforms:
+      errors.append(f'[{kind} PLATFORM ERROR] Unknown platform id "{platform}"')
+  return errors
 
 def asset_icons(assets: Mapping[str, Asset], base_folder: str):
   errors: list[str] = []
@@ -138,10 +155,20 @@ def pools(pools: Mapping[str, Mapping[str, Pool]], assets: Mapping[str, Asset]):
 
 def all(catalogue: Catalogue, base_folder: str):
   errors: list[str] = []
+  errors.extend(ids('ASSET', catalogue.assets))
+  errors.extend(ids('PLATFORM', catalogue.platforms))
   errors.extend(asset_icons(catalogue.assets, base_folder))
   errors.extend(platform_icons(catalogue.platforms, base_folder))
   errors.extend(platform_order(catalogue.platforms, base_folder))
   errors.extend(native_assets(catalogue.assets, catalogue.platforms))
+  errors.extend(platform_keys('ASSET TRANSLATION', catalogue.platforms, catalogue.asset_translations))
+  errors.extend(platform_keys('NETWORK TRANSLATION', catalogue.platforms, catalogue.network_translations))
+  errors.extend(platform_keys('SPOT INSTRUMENT', catalogue.platforms, catalogue.spot_instruments))
+  errors.extend(platform_keys('PERPETUAL INSTRUMENT', catalogue.platforms, catalogue.perpetual_instruments))
+  errors.extend(platform_keys('DEBT INSTRUMENT', catalogue.platforms, catalogue.debt_instruments))
+  errors.extend(platform_keys('COLLATERAL INSTRUMENT', catalogue.platforms, catalogue.collateral_instruments))
+  errors.extend(platform_keys('POOL', catalogue.platforms, catalogue.pools))
+  errors.extend(platform_keys('SPAM', catalogue.platforms, catalogue.spam))
   errors.extend(asset_translations(catalogue.assets, catalogue.asset_translations))
   errors.extend(network_translations(catalogue.platforms, catalogue.network_translations))
   errors.extend(spot_instruments(catalogue.spot_instruments, catalogue.assets))
