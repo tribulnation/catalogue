@@ -70,11 +70,14 @@ class DexPlatform(BasePlatform):
   kind: Literal['dex']
 
 BlockchainCategory = Literal['evm']
+BlockchainNamespace = Literal['bip122', 'cosmos', 'eip155', 'solana']
 
 class Blockchain(BasePlatform):
   kind: Literal['blockchain']
   native_asset: NotRequired[str]
   category: NotRequired[BlockchainCategory]
+  chain_id: NotRequired[int | str]
+  namespace: NotRequired[BlockchainNamespace]
 
 Platform = CexPlatform | DexPlatform | Blockchain
 
@@ -95,10 +98,14 @@ class Catalogue:
   """`platform id -> platform-specific id -> debt instrument`"""
   collateral_instruments: dict[str, dict[str, Collateral]]
   """`platform id -> platform-specific id -> collateral instrument`"""
-  spam_tokens: dict[str, dict[str, SpamAddress]]
+  spam: dict[str, dict[str, SpamAddress]]
   """`platform id -> platform-specific address -> spam address`"""
   pools: dict[str, dict[str, Pool]]
   """`platform id -> platform-specific id -> pool`"""
+
+  @property
+  def spam_tokens(self):
+    return self.spam
 
   @property
   def ordered_platforms(self):
