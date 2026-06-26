@@ -1,4 +1,4 @@
-# Static API Proposal v2
+# Static API Specification
 
 ## Conventions
 
@@ -7,13 +7,13 @@
 - List routes return arrays with minimal metadata.
 - Detail routes return full records.
 - Route parameters use catalogue IDs unless explicitly noted.
-- Generated records include `id`, even when source data stores the ID as a file name or map key.
 
 ```ts
 type Locale = 'ca' | 'es' | 'en'
 type Translations = Partial<Record<Locale, string>>
 
 type Urls = Record<string, string>
+type IconUrl = string
 
 type ExternalIds = {
   coingecko?: string
@@ -21,14 +21,6 @@ type ExternalIds = {
 ```
 
 ## Routes
-
-### Home `/`
-
-Documentation and overview.
-
-### API `/api`
-
-Human-readable API index page. JSON routes live below `/api`.
 
 ### Stats `/api/stats.json`
 
@@ -61,7 +53,7 @@ type AssetsList = Array<{
   id: string
   display_name: string
   symbol: string
-  icon?: string
+  icon?: IconUrl
   tags?: string[]
   pegged_to?: {
     asset: string
@@ -81,11 +73,23 @@ type Asset = {
   about?: Translations
   tags?: string[]
   urls?: Urls
-  icon?: string
+  icon?: IconUrl
   external?: ExternalIds
   pegged_to?: {
     asset: string
   }
+}
+```
+
+#### Localized Asset Detail `/api/assets/<id>/<locale>.json`
+
+Detailed metadata for a specific asset and locale. Generated only for locales
+available in the asset's `about` field.
+
+```ts
+type LocalizedAsset = Omit<Asset, 'about'> & {
+  locale: Locale
+  about?: string
 }
 ```
 
@@ -100,7 +104,7 @@ type PlatformsList = Array<{
   id: string
   display_name: string
   kind: PlatformKind
-  icon?: string
+  icon?: IconUrl
 }>
 ```
 
@@ -119,7 +123,7 @@ type BasePlatform = {
   kind: PlatformKind
   about?: Translations
   urls?: Urls
-  icon?: string
+  icon?: IconUrl
 }
 
 type Blockchain = BasePlatform & {
@@ -150,7 +154,7 @@ type BlockchainsList = Array<{
   id: string
   display_name: string
   kind: 'blockchain'
-  icon?: string
+  icon?: IconUrl
   native_asset?: string
   category?: BlockchainCategory
   namespace?: BlockchainNamespace
@@ -167,7 +171,7 @@ type CexsList = Array<{
   id: string
   display_name: string
   kind: 'cex'
-  icon?: string
+  icon?: IconUrl
 }>
 ```
 
@@ -180,7 +184,7 @@ type DexsList = Array<{
   id: string
   display_name: string
   kind: 'dex'
-  icon?: string
+  icon?: IconUrl
 }>
 ```
 
@@ -212,6 +216,11 @@ Instrument routes are platform-specific. Index routes list available platforms
 and counts; they do not inline all instrument data.
 
 ```ts
+type InstrumentPlatformIndex = Array<{
+  platform: string
+  count: number
+}>
+
 type SpotInstrument = {
   id: string
   exchange?: string
@@ -246,6 +255,14 @@ type PoolInstrument = {
 }
 ```
 
+#### Spot Platforms `/api/instruments/spot.json`
+
+Platforms with spot pair data.
+
+```ts
+type SpotPlatforms = InstrumentPlatformIndex
+```
+
 #### Spot Pairs `/api/instruments/spot/<platform>.json`
 
 Spot pairs for a CEX/DEX, keyed by platform-specific ID.
@@ -254,6 +271,14 @@ Spot pairs for a CEX/DEX, keyed by platform-specific ID.
 type SpotInstruments = {
   [platform_specific_id: string]: SpotInstrument
 }
+```
+
+#### Perpetual Platforms `/api/instruments/perpetual.json`
+
+Platforms with perpetual market data.
+
+```ts
+type PerpetualPlatforms = InstrumentPlatformIndex
 ```
 
 #### Perpetual Markets `/api/instruments/perpetual/<platform>.json`
@@ -266,6 +291,14 @@ type PerpetualInstruments = {
 }
 ```
 
+#### Debt Platforms `/api/instruments/debt.json`
+
+Platforms with debt asset data.
+
+```ts
+type DebtPlatforms = InstrumentPlatformIndex
+```
+
 #### Debt Assets `/api/instruments/debt/<platform>.json`
 
 Debt assets for a DEX/Blockchain, keyed by platform-specific ID/address.
@@ -276,6 +309,14 @@ type DebtAssets = {
 }
 ```
 
+#### Collateral Platforms `/api/instruments/collateral.json`
+
+Platforms with collateral asset data.
+
+```ts
+type CollateralPlatforms = InstrumentPlatformIndex
+```
+
 #### Collateral Assets `/api/instruments/collateral/<platform>.json`
 
 Collateral assets for a DEX/Blockchain, keyed by platform-specific ID/address.
@@ -284,6 +325,14 @@ Collateral assets for a DEX/Blockchain, keyed by platform-specific ID/address.
 type CollateralInstruments = {
   [address: string]: CollateralInstrument
 }
+```
+
+#### Pool Platforms `/api/instruments/pools.json`
+
+Platforms with liquidity pool data.
+
+```ts
+type PoolPlatforms = InstrumentPlatformIndex
 ```
 
 #### Liquidity Pools `/api/instruments/pools/<platform>.json`
@@ -393,8 +442,17 @@ The builder should:
 
 1. Load `data/`.
 2. Run validation.
-3. Recreate `public/api`.
+3. Recreate `<output>/api`.
 4. Write list, detail, translation, instrument, spam, stats, and index files.
-5. Copy or expose icons under `public/icons`.
-6. Write `public/index.html`.
+5. Copy or expose icons under `<output>/icons`.
+6. Write API folder index pages when generating standalone `public` output.
 7. Exit non-zero on validation errors or duplicate external index keys.
+
+The optional `--public-url` argument turns source icon paths such as
+`icons/asset/bitcoin.svg` into absolute API URLs such as
+`https://tribulnation.github.io/catalogue/icons/asset/bitcoin.svg`. When omitted,
+icon paths are root-relative, for example `/icons/asset/bitcoin.svg`.
+
+If a SvelteKit `app/` exists, the default output directory is `app/static`, so
+the API is generated at `app/static/api` and icons at `app/static/icons`.
+Otherwise the default output directory is `public`.
