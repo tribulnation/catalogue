@@ -1,7 +1,7 @@
 from collections import defaultdict
 from pathlib import Path
 from pydantic import TypeAdapter
-from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral, SpamToken, Pool
+from .schema import Asset, Platform, Catalogue, Spot, Perpetual, Debt, Collateral, SpamAddress, Pool
 
 _asset_adapter = TypeAdapter(Asset)
 _platform_adapter = TypeAdapter(Platform)
@@ -11,7 +11,7 @@ _spot_instruments_adapter = TypeAdapter(dict[str, Spot])
 _perpetual_instruments_adapter = TypeAdapter(dict[str, Perpetual])
 _debt_instruments_adapter = TypeAdapter(dict[str, Debt])
 _collateral_instruments_adapter = TypeAdapter(dict[str, Collateral])
-_spam_tokens_adapter = TypeAdapter(dict[str, SpamToken])
+_spam_tokens_adapter = TypeAdapter(dict[str, SpamAddress])
 _pools_adapter = TypeAdapter(dict[str, Pool])
 
 def assets(folder: Path) -> dict[str, Asset]:
@@ -38,7 +38,7 @@ def network_translations(folder: Path) -> dict[str, dict[str, str]]:
   network_translations = defaultdict[str, dict[str, str]](dict)
   for file in folder.glob('*.json'):
     platform = file.stem
-    network_translations[platform].update(_network_translation_adapter.validate_json(file.read_bytes()))
+    network_translations[platform].update(_network_translation_adapter.validate_json(file.read_bytes(), extra='forbid'))
 
   return dict(network_translations)
 
@@ -46,49 +46,49 @@ def asset_translations(folder: Path) -> dict[str, dict[str, str]]:
   asset_translations = defaultdict[str, dict[str, str]](dict)
   for file in folder.glob('*.json'):
     platform = file.stem
-    asset_translations[platform].update(_asset_translation_adapter.validate_json(file.read_bytes()))
+    asset_translations[platform].update(_asset_translation_adapter.validate_json(file.read_bytes(), extra='forbid'))
   return dict(asset_translations) 
 
 def spot_instruments(folder: Path) -> dict[str, dict[str, Spot]]:
   spot_instruments = defaultdict[str, dict[str, Spot]](dict)
   for file in folder.glob('*.json'):
     platform = file.stem
-    spot_instruments[platform].update(_spot_instruments_adapter.validate_json(file.read_bytes()))
+    spot_instruments[platform].update(_spot_instruments_adapter.validate_json(file.read_bytes(), extra='forbid'))
   return dict(spot_instruments)
 
 def perpetual_instruments(folder: Path) -> dict[str, dict[str, Perpetual]]:
   perpetual_instruments = defaultdict[str, dict[str, Perpetual]](dict)
   for file in folder.glob('*.json'):
     platform = file.stem
-    perpetual_instruments[platform].update(_perpetual_instruments_adapter.validate_json(file.read_bytes()))
+    perpetual_instruments[platform].update(_perpetual_instruments_adapter.validate_json(file.read_bytes(), extra='forbid'))
   return dict(perpetual_instruments)
 
 def debt_instruments(folder: Path) -> dict[str, dict[str, Debt]]:
   debt_instruments = defaultdict[str, dict[str, Debt]](dict)
   for file in folder.glob('*.json'):
     platform = file.stem
-    debt_instruments[platform].update(_debt_instruments_adapter.validate_json(file.read_bytes()))
+    debt_instruments[platform].update(_debt_instruments_adapter.validate_json(file.read_bytes(), extra='forbid'))
   return dict(debt_instruments)
 
 def collateral_instruments(folder: Path) -> dict[str, dict[str, Collateral]]:
   collateral_instruments = defaultdict[str, dict[str, Collateral]](dict)
   for file in folder.glob('*.json'):
     platform = file.stem
-    collateral_instruments[platform].update(_collateral_instruments_adapter.validate_json(file.read_bytes()))
+    collateral_instruments[platform].update(_collateral_instruments_adapter.validate_json(file.read_bytes(), extra='forbid'))
   return dict(collateral_instruments)
 
-def spam_tokens(folder: Path) -> dict[str, dict[str, SpamToken]]:
-  spam_tokens = defaultdict[str, dict[str, SpamToken]](dict)
+def spam_tokens(folder: Path) -> dict[str, dict[str, SpamAddress]]:
+  spam_tokens = defaultdict[str, dict[str, SpamAddress]](dict)
   for file in folder.glob('*.json'):
     platform = file.stem
-    spam_tokens[platform].update(_spam_tokens_adapter.validate_json(file.read_bytes()))
+    spam_tokens[platform].update(_spam_tokens_adapter.validate_json(file.read_bytes(), extra='forbid'))
   return dict(spam_tokens)
 
 def pools(folder: Path) -> dict[str, dict[str, Pool]]:
   pools = defaultdict[str, dict[str, Pool]](dict)
   for file in folder.glob('*.json'):
     platform = file.stem
-    pools[platform].update(_pools_adapter.validate_json(file.read_bytes()))
+    pools[platform].update(_pools_adapter.validate_json(file.read_bytes(), extra='forbid'))
   return dict(pools)
 
 def all(folder: Path | str) -> Catalogue:
@@ -103,6 +103,6 @@ def all(folder: Path | str) -> Catalogue:
     perpetual_instruments=perpetual_instruments(folder / 'instruments' / 'perpetual'),
     debt_instruments=debt_instruments(folder / 'instruments' / 'debt'),
     collateral_instruments=collateral_instruments(folder / 'instruments' / 'collateral'),
-    pools=pools(folder / 'pools'),
-    spam_tokens=spam_tokens(folder / 'spam_tokens'),
+    pools=pools(folder / 'instruments' / 'pools'),
+    spam_tokens=spam_tokens(folder / 'spam'),
   )

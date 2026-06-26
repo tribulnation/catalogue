@@ -1,5 +1,6 @@
 from typing_extensions import TypedDict, NotRequired, Literal, Mapping, Iterable
 from dataclasses import dataclass
+from datetime import datetime
 from pathlib import Path
 
 Locale = Literal['ca', 'es', 'en']
@@ -39,8 +40,10 @@ class Pool(TypedDict):
   name: str
   """Pool name"""
 
-class SpamToken(TypedDict):
-  ...
+class SpamAddress(TypedDict, total=False):
+  reason: str
+  source: str
+  reported_at: datetime
 
 class ExternalIds(TypedDict, total=False):
   coingecko: str
@@ -92,8 +95,8 @@ class Catalogue:
   """`platform id -> platform-specific id -> debt instrument`"""
   collateral_instruments: dict[str, dict[str, Collateral]]
   """`platform id -> platform-specific id -> collateral instrument`"""
-  spam_tokens: dict[str, dict[str, SpamToken]]
-  """`platform id -> platform-specific id -> spam token`"""
+  spam_tokens: dict[str, dict[str, SpamAddress]]
+  """`platform id -> platform-specific address -> spam address`"""
   pools: dict[str, dict[str, Pool]]
   """`platform id -> platform-specific id -> pool`"""
 
@@ -114,4 +117,3 @@ class Catalogue:
   def load(path: Path | str) -> 'Catalogue':
     from . import load
     return load.all(path)
-
