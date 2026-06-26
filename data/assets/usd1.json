@@ -9,6 +9,9 @@
   "external": {
     "coingecko": "usd1-wlfi"
   },
+  "pegged_to": {
+    "asset": "usd"
+  },
   "tags": [
     "Stablecoin",
     "USD"

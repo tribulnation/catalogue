@@ -44,6 +44,17 @@ def native_assets(assets: Mapping[str, Asset], platforms: Mapping[str, Platform]
           errors.append(f'[NATIVE ASSET ERROR] Blockchain "{id}" has inexistent native asset "{asset}"')
   return errors
 
+def asset_pegs(assets: Mapping[str, Asset]):
+  errors: list[str] = []
+  for id, asset in assets.items():
+    if (peg := asset.get('pegged_to')) is not None:
+      target = peg['asset']
+      if target == id:
+        errors.append(f'[ASSET PEG ERROR] Asset "{id}" cannot be pegged to itself')
+      elif target not in assets:
+        errors.append(f'[ASSET PEG ERROR] Asset "{id}" is pegged to inexistent asset "{target}"')
+  return errors
+
 def asset_translations(assets: Mapping[str, Asset], asset_translations: Mapping[str, Mapping[str, str]]):
   errors: list[str] = []
   for platform, translations in asset_translations.items():
@@ -161,6 +172,7 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(platform_icons(catalogue.platforms, base_folder))
   errors.extend(platform_order(catalogue.platforms, base_folder))
   errors.extend(native_assets(catalogue.assets, catalogue.platforms))
+  errors.extend(asset_pegs(catalogue.assets))
   errors.extend(platform_keys('ASSET TRANSLATION', catalogue.platforms, catalogue.asset_translations))
   errors.extend(platform_keys('NETWORK TRANSLATION', catalogue.platforms, catalogue.network_translations))
   errors.extend(platform_keys('SPOT INSTRUMENT', catalogue.platforms, catalogue.spot_instruments))

@@ -9,6 +9,9 @@
   "external": {
     "coingecko": "weth"
   },
+  "pegged_to": {
+    "asset": "ethereum"
+  },
   "icon": "icons/asset/wrapped-ether.svg",
   "urls": {
     "Website": "https://ethereum.org/en/wrapped-eth"

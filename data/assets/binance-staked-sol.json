@@ -9,6 +9,9 @@
   "external": {
     "coingecko": "binance-staked-sol"
   },
+  "pegged_to": {
+    "asset": "solana"
+  },
   "urls": {
     "Website": "https://www.binance.com/en/sol-staking"
   }

@@ -9,6 +9,9 @@
   "external": {
     "coingecko": "eurite"
   },
+  "pegged_to": {
+    "asset": "euro"
+  },
   "tags": [
     "Stablecoin",
     "EUR"

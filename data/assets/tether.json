@@ -9,6 +9,9 @@
   "external": {
     "coingecko": "tether"
   },
+  "pegged_to": {
+    "asset": "usd"
+  },
   "tags": [
     "Stablecoin",
     "USD",

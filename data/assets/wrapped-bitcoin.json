@@ -9,6 +9,9 @@
   "external": {
     "coingecko": "wrapped-bitcoin"
   },
+  "pegged_to": {
+    "asset": "bitcoin"
+  },
   "icon": "icons/asset/wrapped-bitcoin.svg",
   "urls": {
     "Website": "https://www.wbtc.network/"

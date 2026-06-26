@@ -48,6 +48,9 @@ class SpamAddress(TypedDict, total=False):
 class ExternalIds(TypedDict, total=False):
   coingecko: str
 
+class AssetPeg(TypedDict):
+  asset: str
+
 class Asset(TypedDict):
   display_name: str
   symbol: str
@@ -56,6 +59,7 @@ class Asset(TypedDict):
   urls: NotRequired[dict[str, str]]
   icon: NotRequired[str]
   external: NotRequired[ExternalIds]
+  pegged_to: NotRequired[AssetPeg]
 
 class BasePlatform(TypedDict):
   display_name: str

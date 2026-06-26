@@ -9,6 +9,9 @@
   "external": {
     "coingecko": "helio-protocol-hay"
   },
+  "pegged_to": {
+    "asset": "usd"
+  },
   "tags": [
     "Stablecoin",
     "USD"

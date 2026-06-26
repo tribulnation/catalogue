@@ -9,6 +9,9 @@
   "external": {
     "coingecko": "ethena-usde"
   },
+  "pegged_to": {
+    "asset": "usd"
+  },
   "tags": [
     "Stablecoin",
     "USD"

@@ -9,6 +9,9 @@
   "external": {
     "coingecko": "usdh-2"
   },
+  "pegged_to": {
+    "asset": "usd"
+  },
   "tags": [
     "Stablecoin",
     "USD"

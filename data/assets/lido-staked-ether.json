@@ -9,6 +9,9 @@
   "external": {
     "coingecko": "staked-ether"
   },
+  "pegged_to": {
+    "asset": "ethereum"
+  },
   "icon": "icons/asset/lido-staked-ether.svg",
   "urls": {
     "Website": "https://www.lido.fi/"
