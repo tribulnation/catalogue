@@ -19,6 +19,8 @@ class AssetSummary(BaseModel):
   """Asset icon URL"""
   tags: list[str] | None = None
   """Asset tags"""
+  pegged_to: AssetPeg | None = None
+  """Peg target, if this is a pegged asset"""
 
 class BaseAssetDetail(AssetSummary):
   tags: list[str] | None = None

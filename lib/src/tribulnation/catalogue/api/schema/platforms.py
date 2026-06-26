@@ -42,6 +42,14 @@ class BasePlatformDetail(PlatformSummary):
 class PlatformDetail(BasePlatformDetail):
   about: dict[str, str] | None = None
   """Platform about"""
+  native_asset: str | None = None
+  """Native asset ID (blockchains only)"""
+  category: str | None = None
+  """Category (blockchains only, e.g. 'evm')"""
+  namespace: str | None = None
+  """CAIP-2 namespace (blockchains only)"""
+  chain_id: int | str | None = None
+  """Chain ID (blockchains only)"""
 
 class LocalizedPlatformDetail(BasePlatformDetail):
   about: str | None = None

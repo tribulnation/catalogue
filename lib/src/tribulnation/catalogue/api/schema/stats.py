@@ -21,5 +21,9 @@ class Stats(BaseModel):
   """Number of assets with external IDs in the catalogue"""
   assets_with_pegs: int
   """Number of assets with pegs in the catalogue"""
+  spot_instruments: int
+  """Number of spot instruments in the catalogue"""
+  perpetual_instruments: int
+  """Number of perpetual instruments in the catalogue"""
   spam_addresses: int
   """Number of spam addresses in the catalogue"""
