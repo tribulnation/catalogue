@@ -24,6 +24,18 @@
 
 {@render children()}
 
+<footer>
+	<div class="foot-inner">
+		<span class="foot-copy">© {new Date().getFullYear()} <a href="https://tribulnation.com">Tribulnation Labs</a> · Barcelona</span>
+		<div class="foot-links">
+			<a href="https://tribulnation.com" target="_blank" rel="noopener noreferrer">tribulnation.com ↗</a>
+			<a href="https://github.com/tribulnation/catalogue" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+			<a href="https://www.npmjs.com/package/@tribulnation/catalogue" target="_blank" rel="noopener noreferrer">npm ↗</a>
+			<a href="https://pypi.org/project/tribulnation-catalogue/" target="_blank" rel="noopener noreferrer">PyPI ↗</a>
+		</div>
+	</div>
+</footer>
+
 <style>
 	:global(*) {
 		box-sizing: border-box;
@@ -102,5 +114,47 @@
 
 	.links .secondary {
 		color: #55556a;
+	}
+
+	footer {
+		margin-top: 4rem;
+		padding: 2rem 1.5rem;
+		border-top: 1px solid #1e1e26;
+		font-size: 0.8rem;
+		color: #55556a;
+	}
+
+	.foot-inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 1rem;
+		max-width: 72rem;
+		margin: 0 auto;
+	}
+
+	.foot-copy :global(a) {
+		color: #55556a;
+	}
+
+	.foot-copy :global(a:hover) {
+		color: #8888a0;
+		text-decoration: none;
+	}
+
+	.foot-links {
+		display: flex;
+		gap: 1.25rem;
+	}
+
+	.foot-links a {
+		color: #55556a;
+		transition: color 0.15s;
+	}
+
+	.foot-links a:hover {
+		color: #8888a0;
+		text-decoration: none;
 	}
 </style>
