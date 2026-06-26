@@ -7,7 +7,7 @@ const config = {
 			filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 	},
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({ fallback: '404.html' }),
 		prerender: {
 			handleHttpError: ({ path, message }) => {
 				// Instrument index files only exist for assets that appear in instruments.
