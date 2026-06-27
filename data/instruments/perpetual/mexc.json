@@ -283,5 +283,170 @@
     "base": "pi",
     "quote": "tether",
     "settlement": "tether"
+  },
+  "1INCH_USDT": {
+    "base": "1inch",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AKT_USDT": {
+    "base": "akash-network",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "APE_USDT": {
+    "base": "apecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AR_USDT": {
+    "base": "arweave",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AXS_USDT": {
+    "base": "axie-infinity",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BAT_USDT": {
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BSV_USDT": {
+    "base": "bitcoin-cash-sv",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ETHFI_USDC": {
+    "base": "ether-fi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ETHFI_USDT": {
+    "base": "ether-fi",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "FET_USDT": {
+    "base": "fetch-ai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GALA_USDT": {
+    "base": "gala",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GLM_USDT": {
+    "base": "golem",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GRASS_USDT": {
+    "base": "grass",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "IMX_USDT": {
+    "base": "immutable-x",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "KAIA_USDT": {
+    "base": "kaia",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LDO_USDT": {
+    "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MANA_USDT": {
+    "base": "decentraland",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NEO_USDC": {
+    "base": "neo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "NEO_USDT": {
+    "base": "neo",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PENGU_USDC": {
+    "base": "pudgy-penguins",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "PENGU_USDT": {
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "RUNE_USDT": {
+    "base": "thorchain",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SAND_USDT": {
+    "base": "the-sandbox",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SUN_USDT": {
+    "base": "sun-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SYRUP_USDT": {
+    "base": "syrup",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "THETA_USDT": {
+    "base": "theta-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TRUMP_USDC": {
+    "base": "official-trump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TWT_USDT": {
+    "base": "trust-wallet-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "VET_USDT": {
+    "base": "vechain",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "VIRTUAL_USDC": {
+    "base": "virtuals-protocol",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "VIRTUAL_USDT": {
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "WIF_USDC": {
+    "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "WIF_USDT": {
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "settlement": "tether"
   }
 }

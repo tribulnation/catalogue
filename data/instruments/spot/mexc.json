@@ -643,5 +643,275 @@
     "exchange": "spot",
     "base": "layer-zero",
     "quote": "tether"
+  },
+  "1INCHUSDC": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "usd-coin"
+  },
+  "1INCHUSDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether"
+  },
+  "APEUSDC": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd-coin"
+  },
+  "APEUSDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether"
+  },
+  "ARETH": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "ethereum"
+  },
+  "ARUSDC": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "usd-coin"
+  },
+  "ARUSDT": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "tether"
+  },
+  "AXSUSDC": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "usd-coin"
+  },
+  "AXSUSDT": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "tether"
+  },
+  "BATUSDT": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "tether"
+  },
+  "BSVUSDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash-sv",
+    "quote": "tether"
+  },
+  "BTTUSDT": {
+    "exchange": "spot",
+    "base": "bittorrent",
+    "quote": "tether"
+  },
+  "DCRUSDT": {
+    "exchange": "spot",
+    "base": "decred",
+    "quote": "tether"
+  },
+  "ETHFIUSD1": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "usd1"
+  },
+  "ETHFIUSDC": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "usd-coin"
+  },
+  "ETHFIUSDE": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "ethena-usde"
+  },
+  "ETHFIUSDT": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "tether"
+  },
+  "FETUSDC": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd-coin"
+  },
+  "FETUSDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether"
+  },
+  "GALAUSDC": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "usd-coin"
+  },
+  "GALAUSDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether"
+  },
+  "GNOUSDT": {
+    "exchange": "spot",
+    "base": "gnosis",
+    "quote": "tether"
+  },
+  "GRASSUSDT": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "tether"
+  },
+  "IMXUSDC": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "usd-coin"
+  },
+  "IMXUSDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether"
+  },
+  "KAIAUSDC": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "usd-coin"
+  },
+  "KAIAUSDT": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "tether"
+  },
+  "LDOUSDC": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "usd-coin"
+  },
+  "LDOUSDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether"
+  },
+  "MANAUSDT": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "tether"
+  },
+  "NEOBTC": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "bitcoin"
+  },
+  "NEOUSDC": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "usd-coin"
+  },
+  "NEOUSDT": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "tether"
+  },
+  "PENGUUSDC": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin"
+  },
+  "PENGUUSDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether"
+  },
+  "RUNEUSDC": {
+    "exchange": "spot",
+    "base": "thorchain",
+    "quote": "usd-coin"
+  },
+  "RUNEUSDT": {
+    "exchange": "spot",
+    "base": "thorchain",
+    "quote": "tether"
+  },
+  "SANDUSDC": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "usd-coin"
+  },
+  "SANDUSDT": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "tether"
+  },
+  "SUNUSDT": {
+    "exchange": "spot",
+    "base": "sun-token",
+    "quote": "tether"
+  },
+  "SYRUPUSDC": {
+    "exchange": "spot",
+    "base": "syrup",
+    "quote": "usd-coin"
+  },
+  "SYRUPUSDT": {
+    "exchange": "spot",
+    "base": "syrup",
+    "quote": "tether"
+  },
+  "TRUMPUSD1": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd1"
+  },
+  "TRUMPUSDC": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd-coin"
+  },
+  "TRUMPUSDT": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "tether"
+  },
+  "TWTUSDC": {
+    "exchange": "spot",
+    "base": "trust-wallet-token",
+    "quote": "usd-coin"
+  },
+  "TWTUSDT": {
+    "exchange": "spot",
+    "base": "trust-wallet-token",
+    "quote": "tether"
+  },
+  "VETUSDC": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "usd-coin"
+  },
+  "VETUSDT": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "tether"
+  },
+  "VIRTUALUSDC": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "usd-coin"
+  },
+  "VIRTUALUSDT": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "tether"
+  },
+  "WIFEUR": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "euro"
+  },
+  "WIFUSDC": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd-coin"
+  },
+  "WIFUSDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether"
   }
 }
