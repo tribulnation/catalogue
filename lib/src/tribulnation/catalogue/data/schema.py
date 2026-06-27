@@ -46,6 +46,7 @@ class SpamAddress(TypedDict, total=False):
 class ExternalIds(TypedDict, total=False):
   coingecko: str
   coinmarketcap: str
+  twelvedata: str
 
 class AssetPeg(TypedDict):
   asset: str

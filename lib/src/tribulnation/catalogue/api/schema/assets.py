@@ -6,6 +6,8 @@ class ExternalIds(BaseModel):
   """Coingecko asset ID"""
   coinmarketcap: str | None = None
   """Coinmarketcap asset ID"""
+  twelvedata: str | None = None
+  """Twelve Data symbol"""
 
 class AssetPeg(BaseModel):
   asset: str

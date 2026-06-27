@@ -99,7 +99,13 @@ catalogue = Catalogue.load('data')       # explicit local folder
 ## What's inside
 
 ### Assets
-Canonical records keyed by slug (e.g. `bitcoin`, `usd-coin`). Each asset has a `display_name`, `symbol`, optional `icon`, `tags`, external IDs (CoinGecko, …), and peg information for stablecoins and wrapped tokens.
+Canonical records keyed by slug (e.g. `bitcoin`, `usd-coin`). Each asset has a `display_name`, `symbol`, optional `icon`, `tags`, peg information for stablecoins and wrapped tokens, and external IDs mapping to third-party providers:
+
+| Field | Provider |
+|---|---|
+| `coingecko` | CoinGecko asset ID |
+| `coinmarketcap` | CoinMarketCap asset ID |
+| `twelvedata` | Twelve Data symbol (e.g. `XAU/USD`) |
 
 ### Platforms
 Trading venues and networks keyed by slug (e.g. `binance`, `ethereum`). Covers CEX, DEX, and blockchain platforms. Blockchains carry `namespace`, `chain_id`, `native_asset`, and EVM/SVM `category`.

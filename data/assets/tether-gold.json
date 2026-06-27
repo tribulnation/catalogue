@@ -10,6 +10,9 @@
     "coingecko": "tether-gold",
     "coinmarketcap": "5176"
   },
+  "pegged_to": {
+    "asset": "gold"
+  },
   "tags": [
     "RWA",
     "Commodity"
