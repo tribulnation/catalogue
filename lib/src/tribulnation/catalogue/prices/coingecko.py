@@ -52,14 +52,15 @@ def wrap_exceptions(f):
       raise ApiError(*e.args) from e
   return wrapper
 
+CoingeckoQuote = Literal['eur', 'usd']
 
 @dataclass
 class CoingeckoPricing(Pricing):
   client: coingecko_sdk.AsyncCoingecko
-  quote: Literal['eur', 'usd']
+  quote: CoingeckoQuote
 
   @classmethod
-  def new(cls, *, env: Literal['demo', 'pro'] = 'demo', quote: Literal['eur', 'usd'] = 'eur'):
+  def new(cls, *, env: Literal['demo', 'pro'] = 'demo', quote: CoingeckoQuote = 'eur'):
     return cls(client=coingecko_sdk.AsyncCoingecko(environment=env), quote=quote)
   
   @wrap_exceptions
@@ -68,7 +69,7 @@ class CoingeckoPricing(Pricing):
     for ids_batch in batch(ids, 100):
       r = await self.client.coins.markets.get(vs_currency=self.quote, ids=','.join(ids_batch))
       for coin in r:
-        if p := coin.current_price:
+        if (p := coin.current_price) is not None:
           out[coin.id] = round_price(Decimal(p))
     return out
 
@@ -79,3 +80,13 @@ class CoingeckoPricing(Pricing):
     if price := (r.market_data.current_price or {}).get(self.quote):
       return Price(price=round_price(Decimal(price)), time=date)
 
+
+  @wrap_exceptions
+  async def market_caps(self, ids: Sequence[str]) -> dict[str, Decimal]:
+    out: dict[str, Decimal] = {}
+    for ids_batch in batch(ids, 100):
+      r = await self.client.coins.markets.get(vs_currency=self.quote, ids=','.join(ids_batch))
+      for coin in r:
+        if (c := coin.market_cap) is not None:
+          out[coin.id] = round(Decimal(c), 2)
+    return out

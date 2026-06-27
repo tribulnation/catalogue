@@ -38,3 +38,18 @@ class Pricing(SDK):
       for id, price in zip(ids, prices)
       if price is not None
     }
+
+
+  @SDK.method
+  async def market_cap(self, id: str) -> Decimal | None:
+    return (await self.market_caps([id])).get(id)
+
+
+  @SDK.method
+  async def market_caps(self, ids: Sequence[str]) -> Mapping[str, Decimal]:
+    market_caps = await asyncio.gather(*(self.market_cap(id) for id in ids))
+    return {
+      id: market_cap
+      for id, market_cap in zip(ids, market_caps)
+      if market_cap is not None
+    }
