@@ -31,7 +31,7 @@ Quote = Literal['eur', 'usd']
 Source = Literal['coingecko', 'coinmarketcap', 'twelvedata', 'alphavantage']
 
 @dataclass
-class AssetPricing:
+class MarketData:
   sources: Mapping[str, Pricing]
   logger: logging.Logger | None = default_logger
 

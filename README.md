@@ -96,13 +96,13 @@ catalogue = Catalogue.load('data')       # explicit local folder
 
 ### Pricing
 
-`AssetPricing` resolves prices for catalogue assets using one or more external providers. Providers are selected by flag and picked in order — the first one that returns a price wins.
+`MarketData` resolves prices for catalogue assets using one or more external providers. Providers are selected by flag and picked in order — the first one that returns a price wins.
 
 ```python
-from tribulnation.catalogue import Catalogue, AssetPricing
+from tribulnation.catalogue import Catalogue, MarketData
 
 catalogue = Catalogue.load()
-sdk = AssetPricing.new('usd', 'coingecko', 'twelvedata')
+sdk = MarketData.new('usd', 'coingecko', 'twelvedata')
 
 btc   = catalogue.assets['bitcoin']
 gold  = catalogue.assets['gold']
@@ -125,13 +125,13 @@ Each provider reads its API key from the environment:
 Retry on network errors and rate limits is on by default. Configure with `max_retries`, `base_delay`, and `max_delay`:
 
 ```python
-sdk = AssetPricing.new('usd', 'coingecko', max_retries=3, base_delay=2.0)
+sdk = MarketData.new('usd', 'coingecko', max_retries=3, base_delay=2.0)
 ```
 
 Provider errors are logged via Python's standard `logging` module. Pass `logger=None` to silence them:
 
 ```python
-sdk = AssetPricing.new('usd', 'coingecko', logger=None)
+sdk = MarketData.new('usd', 'coingecko', logger=None)
 ```
 
 ---

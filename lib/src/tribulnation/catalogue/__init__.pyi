@@ -8,12 +8,12 @@ from .data import (
   BlockchainNamespace, Platform,
   Catalogue, Spot, Perpetual, Debt, Collateral, Pool, SpamAddress,
 )
-from .prices import AssetPricing
+from .market_data import MarketData
 
 __all__ = [
   'Asset', 'AssetPeg', 'ExternalIds',
   'BasePlatform', 'CexPlatform', 'DexPlatform', 'Blockchain', 'BlockchainCategory',
   'BlockchainNamespace', 'Platform',
   'Catalogue', 'Spot', 'Perpetual', 'Debt', 'Collateral', 'Pool', 'SpamAddress',
-  'AssetPricing',
+  'MarketData',
 ]

@@ -3,9 +3,9 @@ from .coingecko import CoingeckoPricing
 from .coinmarketcap import CoinMarketCapPricing
 from .twelvedata import TwelveDataPricing
 from .alphavantage import AlphaVantagePricing
-from .main import AssetPricing, Source, Quote
+from .main import MarketData, Source, Quote
 
 __all__ = [
   'Pricing', 'Price', 'CoingeckoPricing', 'CoinMarketCapPricing',
-  'TwelveDataPricing', 'AlphaVantagePricing', 'AssetPricing', 'Source', 'Quote',
+  'TwelveDataPricing', 'AlphaVantagePricing', 'MarketData', 'Source', 'Quote',
 ]
