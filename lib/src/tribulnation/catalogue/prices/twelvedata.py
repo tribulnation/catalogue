@@ -44,6 +44,16 @@ def _parse_dt(s: str) -> datetime:
   return datetime.fromisoformat(s)
 
 
+def _raise_body_error(data: Any) -> None:
+  message = str(data.get('message', 'Unknown error'))
+  code = data.get('code', 0)
+  if code == 401:
+    raise AuthError(message)
+  if code == 429:
+    raise RateLimited(message)
+  raise ApiError(message)
+
+
 def _error_message(response: httpx.Response) -> str:
   try:
     payload = response.json()
@@ -110,7 +120,9 @@ class TwelveDataPricing(Pricing):
 
     out: dict[str, Decimal] = {}
     if len(ids) == 1:
-      # Single symbol: response is {price: "..."}
+      # Single symbol: response is {price: "..."} or {code, message, status}
+      if data.get('status') == 'error':
+        _raise_body_error(data)
       if 'price' in data:
         out[ids[0]] = round_price(TdPrice.model_validate(data).price)
     else:
@@ -121,6 +133,9 @@ class TwelveDataPricing(Pricing):
         if isinstance(entry, Mapping) and 'price' in entry:
           out[symbol] = round_price(TdPrice.model_validate(entry).price)
     return out
+
+  async def current_price(self, id: str) -> Decimal | None:
+    return await super().current_price(id)
 
   @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
@@ -142,3 +157,12 @@ class TwelveDataPricing(Pricing):
       return None
     entry = data.values[0]
     return Price(price=round_price(entry.close), time=_parse_dt(entry.datetime))
+
+  async def historical_prices(self, ids: Sequence[str], time: datetime) -> Mapping[str, Price]:
+    return await super().historical_prices(ids, time)
+
+  async def market_cap(self, id: str) -> Decimal | None:
+    raise NotImplementedError
+
+  async def market_caps(self, ids: Sequence[str]) -> Mapping[str, Decimal]:
+    return await super().market_caps(ids)
