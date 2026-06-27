@@ -68,5 +68,35 @@
     "exchange": "spot",
     "base": "ethena",
     "quote": "usd-coin"
+  },
+  "USDT0/USDC:166": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd-coin"
+  },
+  "HYPE/USDT0:207": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether"
+  },
+  "USDH/USDC:230": {
+    "exchange": "spot",
+    "base": "hyperliquid-usd",
+    "quote": "usd-coin"
+  },
+  "HYPE/USDH:232": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "hyperliquid-usd"
+  },
+  "UBTC/USDH:234": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "hyperliquid-usd"
+  },
+  "UETH/USDH:235": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "hyperliquid-usd"
   }
 }
