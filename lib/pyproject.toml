@@ -23,4 +23,14 @@ classifiers = [
 ]
 
 [project.urls]
-repo = "https://github.com/tribulnation/catalogue.git"
+Repository = "https://github.com/tribulnation/catalogue.git"
+
+[project.optional-dependencies]
+cli = ["typer"]
+api = ["fastapi"]
+prices = [
+  "coingecko-sdk", "httpx", "tribulnation-sdk",
+]
+
+[project.scripts]
+tn-catalogue = "tribulnation.catalogue.cli:app"
