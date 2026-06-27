@@ -14,12 +14,8 @@ from .coingecko import batch, round_date, round_price
 from .sdk import Pricing, Price
 
 
-BASE_URL = 'https://pro-api.coinmarketcap.com'
-
-
 def _quote_symbol(quote: str) -> str:
   return quote.upper()
-
 
 def _normalize_quote(data: Any) -> dict[str, Any]:
   if isinstance(data, Mapping):
@@ -61,6 +57,7 @@ class CmcStatus(CmcModel):
 
 class CmcQuote(CmcModel):
   price: Decimal
+  market_cap: Decimal | None = None
   symbol: str | None = None
   timestamp: datetime | None = None
   last_updated: datetime | None = None
@@ -150,6 +147,7 @@ CoinMarketCapQuote = Literal['eur', 'usd']
 @dataclass
 class CoinMarketCapPricing(Pricing):
   quote: CoinMarketCapQuote
+  base_url: str = field(kw_only=True, default='https://pro-api.coinmarketcap.com')
   headers: Mapping[str, str] = field(kw_only=True, repr=False)
   client: HttpClient = field(kw_only=True, default_factory=HttpClient)
 
@@ -173,7 +171,7 @@ class CoinMarketCapPricing(Pricing):
     out: dict[str, Decimal] = {}
     for ids_batch in batch(ids, 100):
       r = await self.client.request(
-        'GET', '/v3/cryptocurrency/quotes/latest',
+        'GET', f'{self.base_url}/v3/cryptocurrency/quotes/latest',
         headers=self.headers,
         params={
           'id': ','.join(ids_batch),
@@ -191,13 +189,35 @@ class CoinMarketCapPricing(Pricing):
     return out
 
   @wrap_exceptions
+  async def market_caps(self, ids: Sequence[str]) -> dict[str, Decimal]:
+    out: dict[str, Decimal] = {}
+    for ids_batch in batch(ids, 100):
+      r = await self.client.request(
+        'GET', f'{self.base_url}/v3/cryptocurrency/quotes/latest',
+        headers=self.headers,
+        params={
+          'id': ','.join(ids_batch),
+          'convert': _quote_symbol(self.quote),
+          'skip_invalid': 'true',
+        },
+      )
+      r.raise_for_status()
+      data = CmcLatestResponse.model_validate(r.json())
+
+      for coin in data.data:
+        quote = coin.quote.get(_quote_symbol(self.quote))
+        if quote is not None and quote.market_cap is not None:
+          out[str(coin.id)] = round(quote.market_cap, 2)
+    return out
+
+  @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
     date = round_date(time)
     if date.tzinfo is None:
       date = date.replace(tzinfo=timezone.utc)
 
     r = await self.client.request(
-      'GET', '/v3/cryptocurrency/quotes/historical',
+      'GET', f'{self.base_url}/v3/cryptocurrency/quotes/historical',
       headers=self.headers,
       params={
         'id': id,

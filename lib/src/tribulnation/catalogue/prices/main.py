@@ -52,3 +52,10 @@ class AssetPricing:
       if sdk := self.sources.get(source):
         if (price := await sdk.historical_price(id, time)) is not None: # type: ignore
           return price
+
+
+  async def market_cap(self, asset: Asset) -> Decimal | None:
+    for source, id in asset.get('external', {}).items():
+      if sdk := self.sources.get(source):
+        if (market_cap := await sdk.market_cap(id)) is not None: # type: ignore
+          return market_cap
