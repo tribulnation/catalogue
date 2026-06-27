@@ -35,9 +35,14 @@
 		cursor: pointer;
 		color: inherit;
 		transition: background 0.1s;
-		flex: 1;
 		min-width: 0;
-		max-width: 100%;
+	}
+
+	@media (max-width: 600px) {
+		.copy {
+			flex: 1;
+			max-width: 100%;
+		}
 	}
 
 	.copy:hover {
