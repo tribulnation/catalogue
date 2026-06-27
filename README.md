@@ -94,6 +94,46 @@ catalogue = Catalogue.load(refresh=True) # force fresh download
 catalogue = Catalogue.load('data')       # explicit local folder
 ```
 
+### Pricing
+
+`AssetPricing` resolves prices for catalogue assets using one or more external providers. Providers are selected by flag and picked in order — the first one that returns a price wins.
+
+```python
+from tribulnation.catalogue import Catalogue, AssetPricing
+
+catalogue = Catalogue.load()
+sdk = AssetPricing.new('usd', 'coingecko', 'twelvedata')
+
+btc   = catalogue.assets['bitcoin']
+gold  = catalogue.assets['gold']
+
+price     = await sdk.current_price(btc)   # via CoinGecko
+xau_price = await sdk.current_price(gold)  # via Twelve Data
+```
+
+Each provider reads its API key from the environment:
+
+| Provider | Source | Env var | Covers |
+|---|---|---|---|
+| CoinGecko | `'coingecko'` | `COINGECKO_PRO_API_KEY` or `COINGECKO_DEMO_API_KEY` | Crypto — price, market cap, history |
+| CoinMarketCap | `'coinmarketcap'` | `COINMARKETCAP_API_KEY` | Crypto — price, market cap, history |
+| Twelve Data | `'twelvedata'` | `TWELVEDATA_API_KEY` | Precious metals (XAU, XAG†), forex |
+| Alpha Vantage | `'alphavantage'` | `ALPHAVANTAGE_API_KEY` | Energy & agricultural commodities (WTI, BRENT, …), forex |
+
+† XAG requires a paid Twelve Data plan.
+
+Retry on network errors and rate limits is on by default. Configure with `max_retries`, `base_delay`, and `max_delay`:
+
+```python
+sdk = AssetPricing.new('usd', 'coingecko', max_retries=3, base_delay=2.0)
+```
+
+Provider errors are logged via Python's standard `logging` module. Pass `logger=None` to silence them:
+
+```python
+sdk = AssetPricing.new('usd', 'coingecko', logger=None)
+```
+
 ---
 
 ## What's inside

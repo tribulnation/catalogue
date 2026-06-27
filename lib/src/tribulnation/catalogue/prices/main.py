@@ -28,6 +28,7 @@ if TYPE_CHECKING:
   from .alphavantage import AlphaVantageQuote
 
 Quote = Literal['eur', 'usd']
+Source = Literal['coingecko', 'coinmarketcap', 'twelvedata', 'alphavantage']
 
 @dataclass
 class AssetPricing:
@@ -36,34 +37,34 @@ class AssetPricing:
 
   @classmethod
   def new(
-    cls, quote: Quote, *, coingecko: bool = False,
-    coinmarketcap: bool = False,
-    twelvedata: bool = False,
-    alphavantage: bool = False,
+    cls, quote: Quote, *sources: Source,
     logger: logging.Logger | None = default_logger,
     **retry: Unpack[RetryConfig],
   ):
-    sources: dict[str, Pricing] = {}
-    if coingecko:
-      from .coingecko import CoingeckoPricing
-      sources['coingecko'] = CoingeckoPricing.new(quote=quote)
-    if coinmarketcap:
-      from .coinmarketcap import CoinMarketCapPricing
-      sources['coinmarketcap'] = CoinMarketCapPricing.new(quote=quote)
-    if twelvedata:
-      from .twelvedata import TwelveDataPricing
-      q = 'USD' if quote == 'usd' else 'EUR'
-      sources['twelvedata'] = TwelveDataPricing.new(quote=q)
-    if alphavantage:
-      from .alphavantage import AlphaVantagePricing
-      q = 'USD' if quote == 'usd' else 'EUR'
-      sources['alphavantage'] = AlphaVantagePricing.new(quote=q)
-
     if not sources:
       raise ValueError('Must specify at least one source')
 
-    sources = {k: retried(v, **retry) for k, v in sources.items()}
-    return cls(sources=sources, logger=logger)
+    built: dict[str, Pricing] = {}
+    for source in sources:
+      if source == 'coingecko':
+        from .coingecko import CoingeckoPricing
+        built['coingecko'] = CoingeckoPricing.new(quote=quote)
+      elif source == 'coinmarketcap':
+        from .coinmarketcap import CoinMarketCapPricing
+        built['coinmarketcap'] = CoinMarketCapPricing.new(quote=quote)
+      elif source == 'twelvedata':
+        from .twelvedata import TwelveDataPricing
+        q = 'USD' if quote == 'usd' else 'EUR'
+        built['twelvedata'] = TwelveDataPricing.new(quote=q)
+      elif source == 'alphavantage':
+        from .alphavantage import AlphaVantagePricing
+        q = 'USD' if quote == 'usd' else 'EUR'
+        built['alphavantage'] = AlphaVantagePricing.new(quote=q)
+      else:
+        raise ValueError(f'Unknown source: {source!r}')
+
+    built = {k: retried(v, **retry) for k, v in built.items()}
+    return cls(sources=built, logger=logger)
 
 
   @classmethod
