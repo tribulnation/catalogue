@@ -1,4 +1,4 @@
-from typing_extensions import Iterable, TypeVar, Literal, Sequence
+from typing_extensions import Iterable, TypeVar, Literal, Sequence, Mapping
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from decimal import Decimal
@@ -60,9 +60,14 @@ class CoingeckoPricing(Pricing):
   quote: CoingeckoQuote
 
   @classmethod
-  def new(cls, *, env: Literal['demo', 'pro'] = 'demo', quote: CoingeckoQuote = 'eur'):
-    return cls(client=coingecko_sdk.AsyncCoingecko(environment=env), quote=quote)
+  def new(cls, *, env: Literal['demo', 'pro'] | None = None, quote: CoingeckoQuote = 'eur'):
+    client = coingecko_sdk.AsyncCoingecko() if env is None else coingecko_sdk.AsyncCoingecko(environment=env)
+    return cls(client=client, quote=quote)
   
+  async def current_price(self, id: str) -> Decimal | None:
+    return await super().current_price(id)
+
+  @Pricing.method
   @wrap_exceptions
   async def current_prices(self, ids: Sequence[str]) -> dict[str, Decimal]:
     out: dict[str, Decimal] = {}
@@ -80,6 +85,8 @@ class CoingeckoPricing(Pricing):
     if price := (r.market_data.current_price or {}).get(self.quote):
       return Price(price=round_price(Decimal(price)), time=date)
 
+  async def historical_prices(self, ids: Sequence[str], time: datetime) -> Mapping[str, Price]:
+    return await super().historical_prices(ids, time)
 
   @wrap_exceptions
   async def market_caps(self, ids: Sequence[str]) -> dict[str, Decimal]:
@@ -90,3 +97,6 @@ class CoingeckoPricing(Pricing):
         if (c := coin.market_cap) is not None:
           out[coin.id] = round(Decimal(c), 2)
     return out
+
+  async def market_cap(self, id: str) -> Decimal | None:
+    return await super().market_cap(id)

@@ -188,6 +188,9 @@ class CoinMarketCapPricing(Pricing):
           out[str(coin.id)] = round_price(quote.price)
     return out
 
+  async def current_price(self, id: str) -> Decimal | None:
+    return await super().current_price(id)
+
   @wrap_exceptions
   async def market_caps(self, ids: Sequence[str]) -> dict[str, Decimal]:
     out: dict[str, Decimal] = {}
@@ -209,6 +212,9 @@ class CoinMarketCapPricing(Pricing):
         if quote is not None and quote.market_cap is not None:
           out[str(coin.id)] = round(quote.market_cap, 2)
     return out
+
+  async def market_cap(self, id: str) -> Decimal | None:
+    return await super().market_cap(id)
 
   @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
@@ -243,3 +249,6 @@ class CoinMarketCapPricing(Pricing):
       return None
 
     return Price(price=round_price(value.price), time=value.timestamp or quote.timestamp)
+
+  async def historical_prices(self, ids: Sequence[str], time: datetime) -> Mapping[str, Price]:
+    return await super().historical_prices(ids, time)
