@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 2500">
+  <defs>
+    <linearGradient id="bg" x1="1250" y1="0" x2="1250" y2="2500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F89791"/>
+      <stop offset="1" stop-color="#F7C882"/>
+    </linearGradient>
+    <radialGradient id="drop" cx="4255.8911" cy="1058.0284" r="594" gradientTransform="matrix(-.0124269 -1.5265 1.8194 -.0265185 -624.3724 8621.4365)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C5C6AB"/>
+      <stop offset="1" stop-color="#7985AB"/>
+    </radialGradient>
+    <radialGradient id="diamond-shadow" cx="1249" cy="1036" r="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0066FF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#00C2FF" stop-opacity=".4"/>
+    </radialGradient>
+    <radialGradient id="diamond" cx="1248.5" cy="1152.5" r="28.008" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#AEE6F9" stop-opacity=".8588"/>
+      <stop offset="1" stop-color="#C8D6DC"/>
+    </radialGradient>
+    <linearGradient id="left" x1="1009" y1="250" x2="1009" y2="1250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#77D4FF"/>
+      <stop offset="1" stop-color="#93D6F2" stop-opacity=".898"/>
+    </linearGradient>
+    <linearGradient id="right" x1="1489" y1="250" x2="1489" y2="1250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#506AAC"/>
+      <stop offset="1" stop-color="#96CFEF" stop-opacity=".8196"/>
+    </linearGradient>
+    <clipPath id="drop-clip">
+      <path d="M1249 1472 692 1154l-15 23c-171 263-133 607 92 828 265 260 695 260 960 0 225-221 263-565 92-828l-15-23-557 318z"/>
+    </clipPath>
+  </defs>
+  <rect width="2500" height="2500" fill="url(#bg)"/>
+  <g clip-path="url(#drop-clip)">
+    <circle cx="1249" cy="1541" r="679" fill="url(#drop)" fill-rule="evenodd" clip-rule="evenodd"/>
+  </g>
+  <polygon points="1249 762 769 1036 1249 1310 1729 1036" fill="url(#diamond-shadow)"/>
+  <polygon points="1250 833 692 1154 1249 1472 1805 1154" fill="url(#diamond)"/>
+  <polygon points="1249 300 769 1036 1249 1310" fill="url(#left)"/>
+  <polygon points="1249 1310 1729 1036 1249 300" fill="url(#right)"/>
+</svg>
