@@ -105,7 +105,7 @@
     "exchange": "perp",
     "base": "renzo",
     "quote": "usd-coin",
-    "settlement":"usd-coin"
+    "settlement": "usd-coin"
   },
   "FARTCOIN,RAYDIUM,9BB6NFECJBCTNNLFKO2FQVQBQ8HHM13KCYYCDQBGPUMP-USD": {
     "exchange": "perp",
@@ -476,6 +476,78 @@
   "ZRO-USD": {
     "exchange": "perp",
     "base": "layer-zero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "1INCH-USD": {
+    "exchange": "perp",
+    "base": "1inch",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "APE-USD": {
+    "exchange": "perp",
+    "base": "apecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "AXS-USD": {
+    "exchange": "perp",
+    "base": "axie-infinity",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ETHFI-USD": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "IMX-USD": {
+    "exchange": "perp",
+    "base": "immutable-x",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "LDO-USD": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MANA-USD": {
+    "exchange": "perp",
+    "base": "decentraland",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "PENGU-USD": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "RUNE-USD": {
+    "exchange": "perp",
+    "base": "thorchain",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SYRUP-USD": {
+    "exchange": "perp",
+    "base": "syrup",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TRUMP-USD": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "WIF-USD": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   }
