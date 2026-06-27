@@ -47,6 +47,7 @@ class ExternalIds(TypedDict, total=False):
   coingecko: str
   coinmarketcap: str
   twelvedata: str
+  alphavantage: str
 
 class AssetPeg(TypedDict):
   asset: str

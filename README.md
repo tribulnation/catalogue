@@ -106,6 +106,7 @@ Canonical records keyed by slug (e.g. `bitcoin`, `usd-coin`). Each asset has a `
 | `coingecko` | CoinGecko asset ID |
 | `coinmarketcap` | CoinMarketCap asset ID |
 | `twelvedata` | Twelve Data symbol (e.g. `XAU/USD`) |
+| `alphavantage` | Alpha Vantage function or forex pair (e.g. `WTI`, `EUR/USD`) |
 
 ### Platforms
 Trading venues and networks keyed by slug (e.g. `binance`, `ethereum`). Covers CEX, DEX, and blockchain platforms. Blockchains carry `namespace`, `chain_id`, `native_asset`, and EVM/SVM `category`.

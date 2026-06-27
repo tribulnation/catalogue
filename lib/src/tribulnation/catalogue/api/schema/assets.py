@@ -8,6 +8,8 @@ class ExternalIds(BaseModel):
   """Coinmarketcap asset ID"""
   twelvedata: str | None = None
   """Twelve Data symbol"""
+  alphavantage: str | None = None
+  """Alpha Vantage function or forex pair"""
 
 class AssetPeg(BaseModel):
   asset: str
