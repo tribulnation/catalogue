@@ -29,6 +29,7 @@
 		<a href="/assets">Assets</a>
 		<a href="/platforms">Platforms</a>
 		<a href="/instruments">Instruments</a>
+		<a href="/market-data" class="secondary">Market Data</a>
 		<a href="/api" class="secondary">API</a>
 	</div>
 </nav>
@@ -54,6 +55,7 @@
 		<a href="/assets" onclick={close}>Assets</a>
 		<a href="/platforms" onclick={close}>Platforms</a>
 		<a href="/instruments" onclick={close}>Instruments</a>
+		<a href="/market-data" onclick={close} class="drawer-secondary">Market Data</a>
 		<a href="/api" onclick={close} class="drawer-secondary">API</a>
 	</nav>
 	<div class="drawer-footer">
