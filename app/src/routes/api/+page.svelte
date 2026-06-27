@@ -217,6 +217,9 @@
 							</summary>
 
 							<div class="expanded-panel">
+								{#if route.description}
+									<p class="mobile-desc">{route.description}</p>
+								{/if}
 								{#if route.schema}
 									<div class="schema-panel">
 										<span class="schema-type">{typeLabel(route.schema)}</span>
@@ -522,5 +525,57 @@
 		color: #333;
 		border-color: #1e1e24;
 		cursor: default;
+	}
+
+	.mobile-desc {
+		display: none;
+		font-size: 0.8rem;
+		color: #666;
+		padding: 0.5rem 0.75rem;
+		margin: 0;
+	}
+
+	@media (max-width: 600px) {
+		header {
+			flex-wrap: wrap;
+		}
+
+		.route-row {
+			grid-template-columns: auto 1fr auto;
+			gap: 0.35rem;
+		}
+
+		.route-desc {
+			display: none;
+		}
+
+		.mobile-desc {
+			display: block;
+		}
+
+		.route-path {
+			white-space: normal;
+			word-break: break-all;
+		}
+
+		.expanded-panel {
+			margin: 0.1rem 0 0.5rem 0;
+			border-left: none;
+			border-top: 2px solid #1e1e24;
+		}
+
+		.prop-row {
+			grid-template-columns: 8rem 1fr;
+		}
+
+		.param-input {
+			width: 100%;
+		}
+
+		.param-field {
+			flex-direction: column;
+			align-items: flex-start;
+			width: 100%;
+		}
 	}
 </style>

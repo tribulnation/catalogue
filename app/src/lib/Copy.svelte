@@ -35,6 +35,9 @@
 		cursor: pointer;
 		color: inherit;
 		transition: background 0.1s;
+		flex: 1;
+		min-width: 0;
+		max-width: 100%;
 	}
 
 	.copy:hover {
@@ -45,6 +48,8 @@
 		font-family: ui-monospace, 'Cascadia Code', monospace;
 		font-size: 0.85rem;
 		color: #8888a8;
+		min-width: 0;
+		word-break: break-all;
 	}
 
 	.icon {

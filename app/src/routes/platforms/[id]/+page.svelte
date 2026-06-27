@@ -294,4 +294,14 @@
 		letter-spacing: 0.05em;
 		font-size: 0.72rem;
 	}
+
+	@media (max-width: 600px) {
+		h1 {
+			font-size: 1.4rem;
+		}
+
+		.detail-row {
+			align-items: flex-start;
+		}
+	}
 </style>

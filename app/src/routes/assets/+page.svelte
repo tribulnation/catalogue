@@ -191,4 +191,10 @@
 		padding: 3rem 0;
 		text-align: center;
 	}
+
+	@media (max-width: 600px) {
+		.search {
+			width: 100%;
+		}
+	}
 </style>

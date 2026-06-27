@@ -244,4 +244,16 @@
 		padding: 3rem 0;
 		text-align: center;
 	}
+
+	@media (max-width: 640px) {
+		.search {
+			width: 100%;
+		}
+
+		table {
+			display: block;
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+		}
+	}
 </style>

@@ -236,6 +236,7 @@
 	@media (max-width: 600px) {
 		h1 { font-size: 1.75rem; }
 		.sections { grid-template-columns: 1fr; }
-		.stat { min-width: 80px; }
+		.stat { flex: 1 1 calc(33.33% - 2px); min-width: 0; padding: 1rem; }
+		.stat-value { font-size: 1.4rem; }
 	}
 </style>

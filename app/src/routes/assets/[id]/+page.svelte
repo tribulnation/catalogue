@@ -404,4 +404,23 @@
 		color: #3a3a58;
 		font-size: 0.72rem;
 	}
+
+	@media (max-width: 600px) {
+		h1 {
+			font-size: 1.4rem;
+		}
+
+		.detail-row {
+			align-items: flex-start;
+		}
+
+		.instrument-list li {
+			flex-wrap: wrap;
+			gap: 0.4rem;
+		}
+
+		.inst-id {
+			flex: 1 1 100%;
+		}
+	}
 </style>
