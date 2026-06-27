@@ -134,9 +134,6 @@ class TwelveDataPricing(Pricing):
           out[symbol] = round_price(TdPrice.model_validate(entry).price)
     return out
 
-  async def current_price(self, id: str) -> Decimal | None:
-    return await super().current_price(id)
-
   @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
     date_str = time.strftime('%Y-%m-%d')
@@ -158,11 +155,5 @@ class TwelveDataPricing(Pricing):
     entry = data.values[0]
     return Price(price=round_price(entry.close), time=_parse_dt(entry.datetime))
 
-  async def historical_prices(self, ids: Sequence[str], time: datetime) -> Mapping[str, Price]:
-    return await super().historical_prices(ids, time)
-
   async def market_cap(self, id: str) -> Decimal | None:
     raise NotImplementedError
-
-  async def market_caps(self, ids: Sequence[str]) -> Mapping[str, Decimal]:
-    return await super().market_caps(ids)

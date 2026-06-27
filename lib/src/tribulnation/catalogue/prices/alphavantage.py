@@ -128,9 +128,6 @@ class AlphaVantagePricing(Pricing):
           return round_price(Decimal(value))
       return None
 
-  async def current_price(self, id: str) -> Decimal | None:
-    return await super().current_price(id)
-
   @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
     date_str = time.strftime('%Y-%m-%d')
@@ -166,11 +163,5 @@ class AlphaVantagePricing(Pricing):
             return Price(price=round_price(Decimal(value)), time=dt)
       return None
 
-  async def historical_prices(self, ids: Sequence[str], time: datetime) -> Mapping[str, Price]:
-    return await super().historical_prices(ids, time)
-
   async def market_cap(self, id: str) -> Decimal | None:
     raise NotImplementedError
-
-  async def market_caps(self, ids: Sequence[str]) -> Mapping[str, Decimal]:
-    return await super().market_caps(ids)
