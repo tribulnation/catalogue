@@ -3,4 +3,4 @@ twine
 ipykernel
 pyright
 fastapi
--e lib
+-e lib[cli,api,prices]
