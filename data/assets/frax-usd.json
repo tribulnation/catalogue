@@ -1,0 +1,24 @@
+{
+  "display_name": "Frax USD",
+  "symbol": "FRXUSD",
+  "about": {
+    "en": "Frax USD is a US dollar-pegged stablecoin from the Frax ecosystem. FRXUSD is designed as a dollar-denominated on-chain asset for transfers, liquidity, and DeFi use, with the broader Frax protocol focused on stable assets, lending, and liquidity infrastructure. It is part of Frax's stablecoin stack alongside other Frax ecosystem dollar products.",
+    "es": "Frax USD es una stablecoin (stablecoin) vinculada al dolar estadounidense del ecosistema Frax. FRXUSD esta disenada como un activo on-chain denominado en dolares para transferencias, liquidez y uso en DeFi, mientras que el protocolo Frax se centra en activos estables, prestamo e infraestructura de liquidez. Forma parte de la familia de stablecoins del ecosistema Frax junto a otros productos en dolares.",
+    "ca": "Frax USD es una stablecoin (stablecoin) vinculada al dolar nord-america de l'ecosistema Frax. FRXUSD esta dissenyada com un actiu on-chain denominat en dolars per a transferencies, liquiditat i us en DeFi, mentre que el protocol Frax se centra en actius estables, prestec i infraestructura de liquiditat. Forma part de la familia de stablecoins de l'ecosistema Frax juntament amb altres productes en dolars."
+  },
+  "external": {
+    "coingecko": "frax-usd"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "icon": "icons/asset/frax-usd.svg",
+  "urls": {
+    "Website": "https://frax.finance/"
+  }
+}
