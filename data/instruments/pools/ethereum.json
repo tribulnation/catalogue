@@ -1,16 +1,62 @@
 {
+  "0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7": {
+    "name": "Curve 3pool",
+    "assets": ["dai", "usd-coin", "tether"]
+  },
+  "0xDC24316b9AE028F1497c275EB9192a3Ea0f67022": {
+    "name": "Curve stETH Pool",
+    "assets": ["ethereum", "lido-staked-ether"]
+  },
+  "0xf5f5B97624542D72A9E06f04804Bf81baA15e2B4": {
+    "name": "Curve TricryptoUSDT",
+    "assets": ["tether", "wrapped-bitcoin", "ethereum"]
+  },
+  "0x4DEcE678ceceb27446b35C672dC7d61F30bAD69E": {
+    "name": "Curve crvUSD/USDC",
+    "assets": ["curve-usd", "usd-coin"]
+  },
+  "0x390f3595bCa2Df7d23783dFd126427CCeb997BF4": {
+    "name": "Curve crvUSD/USDT",
+    "assets": ["curve-usd", "tether"]
+  },
+  "0x313698667d7FDD6789a9BC70821309ff891E729A": {
+    "name": "Curve crvUSD/WBTC",
+    "assets": ["curve-usd", "wrapped-bitcoin"]
+  },
+  "0x6e5492F8ea2370844EE098A56DD88e1717e4A9C2": {
+    "name": "Curve crvUSD/WETH",
+    "assets": ["curve-usd", "ethereum"]
+  },
+  "0x862CB4E988FB66E72f128d1183829f8c05B6c6A0": {
+    "name": "Curve Yield Basis cbBTC",
+    "assets": ["curve-usd", "coinbase-wrapped-bitcoin"]
+  },
+  "0x83f24023d15d835a213df24fd309c47dAb5BEb32": {
+    "name": "Curve Yield Basis cbBTC (2)",
+    "assets": ["curve-usd", "coinbase-wrapped-bitcoin"]
+  },
+  "0x13e12BB0E6A2f1A3d6901a59a9d585e89A6243e1": {
+    "name": "Curve crvUSD/frxUSD",
+    "assets": ["curve-usd", "frax-usd"]
+  },
+  "0xD001aE433f254283FeCE51d4ACcE8c53263aa186": {
+    "name": "Curve RLUSD/USDC",
+    "assets": ["ripple-usd", "usd-coin"]
+  },
+  "0x383E6b4437b59fff47B619CBA855CA29342A8559": {
+    "name": "Curve PayPool",
+    "assets": ["paypal-usd", "usd-coin"]
+  },
+  "0x5dc1BF6f1e983C0b21EfB003c105133736fA0743": {
+    "name": "Curve FRAX/USDe",
+    "assets": ["frax", "ethena-usde"]
+  },
   "0x99f5aCc8EC2Da2BC0771c32814EFF52b712de1E5": {
     "name": "Curve/Yearn Curve",
-    "assets": [
-      "curve-dao",
-      "yearn-curve-dao"
-    ]
+    "assets": ["curve-dao", "yearn-curve-dao"]
   },
   "0x4f493B7dE8aAC7d55F71853688b1F7C8F0243C85": {
     "name": "Curve.fi Strategic USD Reserves",
-    "assets": [
-      "tether",
-      "usd-coin"
-    ]
+    "assets": ["tether", "usd-coin"]
   }
 }

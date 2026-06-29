@@ -1,0 +1,21 @@
+{
+  "display_name": "Coinbase Wrapped Bitcoin",
+  "symbol": "cbBTC",
+  "about": {
+    "en": "Coinbase Wrapped Bitcoin is a tokenized representation of Bitcoin issued by Coinbase, backed 1:1 by BTC held in Coinbase custody. cbBTC is designed for use across DeFi protocols on Ethereum, Base, and other compatible networks, giving Bitcoin holders direct access to smart-contract applications without leaving tokenized form.",
+    "es": "Coinbase Wrapped Bitcoin es una representación tokenizada de Bitcoin emitida por Coinbase, respaldada 1:1 por BTC mantenido en custodia de Coinbase. cbBTC está diseñado para su uso en protocolos DeFi en Ethereum, Base y otras redes compatibles, dando a los tenedores de Bitcoin acceso directo a aplicaciones de contratos inteligentes sin salir del formato tokenizado.",
+    "ca": "Coinbase Wrapped Bitcoin és una representació tokenitzada de Bitcoin emesa per Coinbase, recolzada 1:1 per BTC mantingut en custòdia de Coinbase. cbBTC està dissenyat per al seu ús en protocols DeFi a Ethereum, Base i altres xarxes compatibles, donant als titulars de Bitcoin accés directe a aplicacions de contractes intel·ligents sense sortir del format tokenitzat."
+  },
+  "external": {
+    "coingecko": "coinbase-wrapped-btc"
+  },
+  "pegged_to": {
+    "asset": "bitcoin"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://www.coinbase.com/cbbtc"
+  }
+}
