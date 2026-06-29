@@ -1,19 +1,29 @@
 <script lang="ts">
+	import MultiSelect from '$lib/MultiSelect.svelte';
+	import type { MultiSelectOption } from '$lib/MultiSelect.svelte';
+
 	let { data } = $props();
 
 	let query = $state('');
+	let selectedTags = $state<string[]>([]);
+
+	const tagOptions = $derived<MultiSelectOption[]>(
+		[...new Set(data.assets.flatMap((a: { tags?: string[] }) => a.tags ?? []))].sort()
+			.map((tag: string) => ({ value: tag, label: tag }))
+	);
 
 	const filtered = $derived(
-		query.trim() === ''
-			? data.assets
-			: data.assets.filter((a: { display_name: string; symbol: string; id: string }) => {
-					const q = query.toLowerCase();
-					return (
-						a.display_name.toLowerCase().includes(q) ||
-						a.symbol.toLowerCase().includes(q) ||
-						a.id.toLowerCase().includes(q)
-					);
-				})
+		data.assets.filter((a: { display_name: string; symbol: string; id: string; tags?: string[] }) => {
+			const q = query.trim().toLowerCase();
+			const matchesQuery =
+				q === '' ||
+				a.display_name.toLowerCase().includes(q) ||
+				a.symbol.toLowerCase().includes(q) ||
+				a.id.toLowerCase().includes(q);
+			const matchesTag =
+				selectedTags.length === 0 || selectedTags.every((t) => (a.tags ?? []).includes(t));
+			return matchesQuery && matchesTag;
+		})
 	);
 </script>
 
@@ -27,12 +37,19 @@
 			<h1>Assets</h1>
 			<p class="subtitle">{data.assets.length} assets</p>
 		</div>
-		<input
-			type="search"
-			placeholder="Search by name or symbol…"
-			bind:value={query}
-			class="search"
-		/>
+		<div class="controls">
+			<MultiSelect
+				options={tagOptions}
+				bind:value={selectedTags}
+				placeholder="Filter by tag…"
+			/>
+			<input
+				type="search"
+				placeholder="Search by name or symbol…"
+				bind:value={query}
+				class="search"
+			/>
+		</div>
 	</div>
 
 	{#if filtered.length === 0}
@@ -89,6 +106,13 @@
 		margin-top: 0.1rem;
 	}
 
+	.controls {
+		display: flex;
+		gap: 0.5rem;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
 	.search {
 		background: #111116;
 		border: 1px solid #2a2a38;
@@ -96,7 +120,7 @@
 		color: #e4e4eb;
 		padding: 0.5rem 0.875rem;
 		font-size: 0.875rem;
-		width: 240px;
+		width: 220px;
 		outline: none;
 		font-family: inherit;
 	}
@@ -193,6 +217,10 @@
 	}
 
 	@media (max-width: 600px) {
+		.controls {
+			width: 100%;
+		}
+
 		.search {
 			width: 100%;
 		}
