@@ -5,27 +5,40 @@
 	const asset = $derived(data.asset);
 	const locales = $derived(asset.about ? Object.keys(asset.about).sort() : []);
 
-	const kindLabel: Record<string, string> = {
-		spot: 'Spot',
-		perpetual: 'Perpetual',
-		debt: 'Debt',
-		collateral: 'Collateral',
-		pools: 'Liquidity Pools',
-		pool: 'Liquidity Pools'
-	};
-
-	// The index uses 'pool' (singular) but the route uses 'pools'
-	const kindUrl = (kind: string) => (kind === 'pool' ? 'pools' : kind);
-
 	type InstrumentRef = { kind: string; platform: string; id: string; role: string };
+	type PlatformSummary = { id: string; display_name: string; kind: string; icon?: string };
 
-	const instrumentsByKind = $derived(() => {
+	const platformMap = $derived(
+		new Map<string, PlatformSummary>((data.platforms as PlatformSummary[]).map((p) => [p.id, p]))
+	);
+
+	const markets = $derived(
+		(data.instruments as InstrumentRef[]).filter(
+			(r) => (r.kind === 'spot' || r.kind === 'perpetual') && r.role === 'base'
+		)
+	);
+
+	const spotMarkets = $derived(markets.filter((r) => r.kind === 'spot'));
+	const perpMarkets = $derived(markets.filter((r) => r.kind === 'perpetual'));
+
+	const otherInstruments = $derived(
+		(data.instruments as InstrumentRef[]).filter(
+			(r) => r.kind !== 'spot' && r.kind !== 'perpetual'
+		)
+	);
+
+	const otherByKind = $derived(() => {
 		const groups: Record<string, InstrumentRef[]> = {};
-		for (const ref of data.instruments as InstrumentRef[]) {
+		for (const ref of otherInstruments) {
 			(groups[ref.kind] ??= []).push(ref);
 		}
 		return groups;
 	});
+
+	const kindLabel: Record<string, string> = {
+		debt: 'Debt',
+		pool: 'Liquidity Pools'
+	};
 
 	let iconCopied = $state(false);
 
@@ -125,18 +138,67 @@
 		</div>
 	</div>
 
-	{#if data.instruments.length > 0}
+	{#if markets.length > 0}
+		<div class="markets">
+			<h2>Markets</h2>
+
+			{#if spotMarkets.length > 0}
+				<div class="market-group">
+					<span class="market-kind-label">Spot</span>
+					<ul class="market-list">
+						{#each spotMarkets as ref}
+							{@const platform = platformMap.get(ref.platform)}
+							<li class="market-row">
+								<a href={`/platforms/${ref.platform}`} class="market-platform">
+									{#if platform?.icon}
+										<img src={platform.icon} alt={platform.display_name} width="20" height="20" class="platform-icon" />
+									{:else}
+										<span class="platform-icon-fallback">{ref.platform.charAt(0).toUpperCase()}</span>
+									{/if}
+									<span>{platform?.display_name ?? ref.platform}</span>
+								</a>
+								<code class="market-ticker">{ref.id}</code>
+							</li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
+
+			{#if perpMarkets.length > 0}
+				<div class="market-group">
+					<span class="market-kind-label">Perpetual</span>
+					<ul class="market-list">
+						{#each perpMarkets as ref}
+							{@const platform = platformMap.get(ref.platform)}
+							<li class="market-row">
+								<a href={`/platforms/${ref.platform}`} class="market-platform">
+									{#if platform?.icon}
+										<img src={platform.icon} alt={platform.display_name} width="20" height="20" class="platform-icon" />
+									{:else}
+										<span class="platform-icon-fallback">{ref.platform.charAt(0).toUpperCase()}</span>
+									{/if}
+									<span>{platform?.display_name ?? ref.platform}</span>
+								</a>
+								<code class="market-ticker">{ref.id}</code>
+							</li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
+		</div>
+	{/if}
+
+	{#if otherInstruments.length > 0}
 		<div class="instruments">
-			<h2>Instruments</h2>
-			{#each Object.entries(instrumentsByKind()) as [kind, refs]}
+			<h2>Other instruments</h2>
+			{#each Object.entries(otherByKind()) as [kind, refs]}
 				<div class="instrument-group">
-					<a href={`/instruments/${kindUrl(kind)}`} class="instrument-kind">{kindLabel[kind] ?? kind}</a>
+					<span class="instrument-kind">{kindLabel[kind] ?? kind}</span>
 					<ul class="instrument-list">
 						{#each refs as ref}
 							<li>
 								<code class="inst-id">{ref.id}</code>
 								<a href={`/platforms/${ref.platform}`} class="inst-platform">{ref.platform}</a>
-								<span class="inst-role">{ref.role}</span>
 							</li>
 						{/each}
 					</ul>
@@ -339,10 +401,12 @@
 		font-size: 0.72rem;
 	}
 
+	.markets,
 	.instruments {
 		margin-bottom: 1.5rem;
 	}
 
+	.markets h2,
 	.instruments h2 {
 		font-size: 0.75rem;
 		font-weight: 600;
@@ -354,22 +418,102 @@
 		border-bottom: 1px solid #1a1a22;
 	}
 
+	.market-group {
+		margin-bottom: 1rem;
+	}
+
+	.market-kind-label {
+		font-size: 0.72rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: #55556a;
+		display: block;
+		margin-bottom: 0.4rem;
+	}
+
+	.market-list {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	.market-row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		padding: 0.5rem 0.875rem;
+		background: #111116;
+		border: 1px solid #1a1a22;
+		border-radius: 6px;
+		font-size: 0.875rem;
+		transition: border-color 0.1s;
+	}
+
+	.market-row:hover {
+		border-color: #2a2a3a;
+	}
+
+	.market-platform {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		color: #c0c0d8;
+		text-decoration: none;
+		font-weight: 500;
+		min-width: 0;
+	}
+
+	.market-platform:hover {
+		color: #e4e4eb;
+		text-decoration: none;
+	}
+
+	.platform-icon {
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		object-fit: contain;
+		flex-shrink: 0;
+	}
+
+	.platform-icon-fallback {
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background: #1e1e30;
+		border: 1px solid #2a2a40;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 0.65rem;
+		font-weight: 700;
+		color: #6666a0;
+		flex-shrink: 0;
+	}
+
+	.market-ticker {
+		font-family: ui-monospace, 'Cascadia Code', monospace;
+		font-size: 0.8rem;
+		color: #55556a;
+		flex-shrink: 0;
+	}
+
 	.instrument-group {
 		margin-bottom: 0.75rem;
 	}
 
 	.instrument-kind {
-		font-size: 0.8rem;
+		font-size: 0.72rem;
 		font-weight: 600;
-		color: #7a7a94;
-		text-decoration: none;
+		color: #55556a;
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
 		display: block;
 		margin-bottom: 0.3rem;
 	}
-
-	.instrument-kind:hover { color: #a5a3ff; }
 
 	.instrument-list {
 		list-style: none;
@@ -397,12 +541,6 @@
 
 	.inst-platform {
 		color: #55556a;
-		font-family: ui-monospace, 'Cascadia Code', monospace;
-	}
-
-	.inst-role {
-		color: #3a3a58;
-		font-size: 0.72rem;
 	}
 
 	@media (max-width: 600px) {
@@ -414,12 +552,12 @@
 			align-items: flex-start;
 		}
 
-		.instrument-list li {
+		.market-row {
 			flex-wrap: wrap;
 			gap: 0.4rem;
 		}
 
-		.inst-id {
+		.market-ticker {
 			flex: 1 1 100%;
 		}
 	}
