@@ -1,0 +1,49 @@
+# Tribulnation Catalogue
+
+> A static JSON API and web catalogue for crypto assets, trading platforms,
+> and instruments. Covers 500+ assets across CEX, DEX, and blockchain
+> platforms with canonical stable IDs, spot/perpetual/debt instruments,
+> and platform-specific ID translation.
+
+Base URL: `https://catalogue.tribulnation.com/api/v1`
+No authentication required. All responses are JSON.
+Asset and platform IDs are stable kebab-case strings (e.g. `bitcoin`, `binance`, `ethereum`).
+
+## Assets
+
+- [All assets](https://catalogue.tribulnation.com/api/v1/assets.json): List with ID, display name, symbol, icon, tags, and optional peg.
+- [Asset detail](https://catalogue.tribulnation.com/api/v1/assets/bitcoin.json): Full metadata — URLs, external IDs, localized descriptions. Replace `bitcoin` with any asset ID.
+
+## Platforms
+
+- [All platforms](https://catalogue.tribulnation.com/api/v1/platforms.json): Blockchains, CEX, and DEX with ID, display name, kind, and icon.
+- [Platform detail](https://catalogue.tribulnation.com/api/v1/platforms/binance.json): Full metadata for one platform. Replace `binance` with any platform ID.
+
+## Translate
+
+- [Translate ID](https://catalogue.tribulnation.com/api/v1/translate/binance/BTC.json): Resolve a platform-specific ticker or token address to a canonical catalogue entry. Returns `{"kind":"asset","id":"bitcoin"}` or `{"kind":"debt","instrument_id":"0x..."}`. Returns 404 if unknown.
+
+## Instruments
+
+- [Spot pairs](https://catalogue.tribulnation.com/api/v1/instruments/spot/binance.json): Spot trading pairs for a platform, each with `base` and `quote` asset IDs.
+- [Perpetual markets](https://catalogue.tribulnation.com/api/v1/instruments/perpetual/dydx.json): Perpetual markets with `base`, `quote`, and `settlement` asset IDs.
+- [Debt instruments](https://catalogue.tribulnation.com/api/v1/instruments/debt/ethereum.json): Borrow positions (e.g. Aave variable debt tokens) keyed by token address.
+- [Asset instrument index](https://catalogue.tribulnation.com/api/v1/instruments/index/bitcoin.json): All instruments where a given asset appears, with `kind`, `platform`, `id`, `role`.
+
+## Indexes
+
+- [Symbol index](https://catalogue.tribulnation.com/api/v1/indexes/symbols.json): Maps ticker symbols (e.g. `BTC`) to arrays of canonical asset IDs.
+- [CoinGecko index](https://catalogue.tribulnation.com/api/v1/indexes/external/coingecko.json): Maps CoinGecko IDs to canonical asset IDs.
+- [Peg index](https://catalogue.tribulnation.com/api/v1/indexes/pegs.json): Maps target asset IDs to assets that track or represent them (stablecoins, wrapped tokens, receipt tokens).
+
+## Translations
+
+- [Asset translations](https://catalogue.tribulnation.com/api/v1/translations/assets/binance.json): Full map of platform-specific IDs to canonical asset IDs for a platform.
+- [Network translations](https://catalogue.tribulnation.com/api/v1/translations/networks/binance.json): Full map of platform-specific network strings to canonical platform IDs.
+
+## Optional
+
+- [OpenAPI spec](https://catalogue.tribulnation.com/api/v1/openapi.json): Full OpenAPI 3.x specification.
+- [Stats](https://catalogue.tribulnation.com/api/v1/stats.json): Asset, platform, and instrument counts.
+- [Spam addresses](https://catalogue.tribulnation.com/api/v1/spam/ethereum.json): Known spam/scam token addresses per platform.
+- [JS client on npm](https://www.npmjs.com/package/@tribulnation/catalogue): TypeScript client — `catalogue.translate(platform, id)`, `catalogue.fetchAsset(id)`, etc.
