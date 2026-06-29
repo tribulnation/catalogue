@@ -1,0 +1,16 @@
+{
+  "display_name": "Aave PYUSD",
+  "symbol": "aPYUSD",
+  "icon": "icons/asset/aave-paypal-usd.svg",
+  "pegged_to": {
+    "asset": "paypal-usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}

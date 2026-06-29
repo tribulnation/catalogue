@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="aave" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B6509E"/>
+      <stop offset="100%" stop-color="#2EBAC6"/>
+    </linearGradient>
+    <mask id="frame">
+      <rect width="200" height="200" fill="white"/>
+      <circle cx="100" cy="100" r="88" fill="black"/>
+    </mask>
+    <clipPath id="inner">
+      <circle cx="100" cy="100" r="82"/>
+    </clipPath>
+  </defs>
+  <rect width="200" height="200" fill="url(#aave)" mask="url(#frame)"/>
+  <circle cx="100" cy="100" r="82" fill="white"/>
+  <g clip-path="url(#inner)">
+  <svg x="18" y="18" width="164" height="164" viewBox="0 0 513 513">
+    <path d="M512.8 0H0v512.8h512.8V0Z"/>
+  <path fill="#fff" d="M169.7 383.7h172.9V347h-63.8V128.3H241c-1.5 30.6-10.3 38.3-52.1 38.3h-19.2v34.6h63.8V347h-63.8v36.7ZM360.7 201.2v-72.9H324v72.9h36.7ZM425.1 201.2v-72.9h-36.7v72.9h36.7Z"/>
+  </svg>
+  </g>
+</svg>

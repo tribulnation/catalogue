@@ -1,0 +1,16 @@
+{
+  "display_name": "Aave USDT",
+  "symbol": "aUSDT",
+  "icon": "icons/asset/aave-tether.svg",
+  "pegged_to": {
+    "asset": "tether"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}

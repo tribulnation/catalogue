@@ -1,0 +1,16 @@
+{
+  "display_name": "Aave USDC",
+  "symbol": "aUSDC",
+  "icon": "icons/asset/aave-usd-coin.svg",
+  "pegged_to": {
+    "asset": "usd-coin"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}

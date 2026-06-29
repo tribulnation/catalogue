@@ -1,0 +1,16 @@
+{
+  "display_name": "Aave crvUSD",
+  "symbol": "acrvUSD",
+  "icon": "icons/asset/aave-curve-usd.svg",
+  "pegged_to": {
+    "asset": "curve-usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}

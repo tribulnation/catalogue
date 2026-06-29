@@ -1,0 +1,16 @@
+{
+  "display_name": "Aave RLUSD",
+  "symbol": "aRLUSD",
+  "icon": "icons/asset/aave-ripple-usd.svg",
+  "pegged_to": {
+    "asset": "ripple-usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}
