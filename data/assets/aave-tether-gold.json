@@ -1,6 +1,11 @@
 {
   "display_name": "Aave XAUt",
   "symbol": "aXAUt",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Tether Gold (XAUT) in the Aave lending protocol. aXAUt holders earn interest continuously and can redeem their tokens for XAUT at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Tether Gold (XAUT) en el protocolo de préstamos Aave. Los titulares de aXAUt acumulan intereses continuamente y pueden canjear sus tokens por XAUT en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Tether Gold (XAUT) en el protocol de préstecs Aave. Els titulars de aXAUt acumulen interessos de manera contínua i poden bescanviar els seus tokens per XAUT en qualsevol moment."
+  },
   "icon": "icons/asset/aave-tether-gold.svg",
   "pegged_to": {
     "asset": "tether-gold"

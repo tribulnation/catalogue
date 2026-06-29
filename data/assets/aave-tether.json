@@ -1,6 +1,11 @@
 {
   "display_name": "Aave USDT",
   "symbol": "aUSDT",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Tether USD (USDT) in the Aave lending protocol. aUSDT holders earn interest continuously and can redeem their tokens for USDT at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Tether USD (USDT) en el protocolo de préstamos Aave. Los titulares de aUSDT acumulan intereses continuamente y pueden canjear sus tokens por USDT en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Tether USD (USDT) en el protocol de préstecs Aave. Els titulars de aUSDT acumulen interessos de manera contínua i poden bescanviar els seus tokens per USDT en qualsevol moment."
+  },
   "icon": "icons/asset/aave-tether.svg",
   "pegged_to": {
     "asset": "tether"

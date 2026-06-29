@@ -1,6 +1,11 @@
 {
   "display_name": "Aave USDC",
   "symbol": "aUSDC",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of USD Coin (USDC) in the Aave lending protocol. aUSDC holders earn interest continuously and can redeem their tokens for USDC at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de USD Coin (USDC) en el protocolo de préstamos Aave. Los titulares de aUSDC acumulan intereses continuamente y pueden canjear sus tokens por USDC en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de USD Coin (USDC) en el protocol de préstecs Aave. Els titulars de aUSDC acumulen interessos de manera contínua i poden bescanviar els seus tokens per USDC en qualsevol moment."
+  },
   "icon": "icons/asset/aave-usd-coin.svg",
   "pegged_to": {
     "asset": "usd-coin"

@@ -1,6 +1,11 @@
 {
   "display_name": "Aave LDO",
   "symbol": "aLDO",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Lido DAO (LDO) in the Aave lending protocol. aLDO holders earn interest continuously and can redeem their tokens for LDO at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Lido DAO (LDO) en el protocolo de préstamos Aave. Los titulares de aLDO acumulan intereses continuamente y pueden canjear sus tokens por LDO en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Lido DAO (LDO) en el protocol de préstecs Aave. Els titulars de aLDO acumulen interessos de manera contínua i poden bescanviar els seus tokens per LDO en qualsevol moment."
+  },
   "icon": "icons/asset/aave-lido-dao.svg",
   "pegged_to": {
     "asset": "lido-dao"

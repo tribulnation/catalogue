@@ -1,6 +1,11 @@
 {
   "display_name": "Aave USDe",
   "symbol": "aUSDe",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Ethena USDe (USDE) in the Aave lending protocol. aUSDe holders earn interest continuously and can redeem their tokens for USDE at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Ethena USDe (USDE) en el protocolo de préstamos Aave. Los titulares de aUSDe acumulan intereses continuamente y pueden canjear sus tokens por USDE en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Ethena USDe (USDE) en el protocol de préstecs Aave. Els titulars de aUSDe acumulen interessos de manera contínua i poden bescanviar els seus tokens per USDE en qualsevol moment."
+  },
   "icon": "icons/asset/aave-ethena-usde.svg",
   "pegged_to": {
     "asset": "ethena-usde"

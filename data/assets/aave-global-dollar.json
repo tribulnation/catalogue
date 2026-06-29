@@ -1,6 +1,11 @@
 {
   "display_name": "Aave USDG",
   "symbol": "aUSDG",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Global Dollar (USDG) in the Aave lending protocol. aUSDG holders earn interest continuously and can redeem their tokens for USDG at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Global Dollar (USDG) en el protocolo de préstamos Aave. Los titulares de aUSDG acumulan intereses continuamente y pueden canjear sus tokens por USDG en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Global Dollar (USDG) en el protocol de préstecs Aave. Els titulars de aUSDG acumulen interessos de manera contínua i poden bescanviar els seus tokens per USDG en qualsevol moment."
+  },
   "icon": "icons/asset/aave-global-dollar.svg",
   "pegged_to": {
     "asset": "global-dollar"

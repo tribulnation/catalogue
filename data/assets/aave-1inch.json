@@ -1,6 +1,11 @@
 {
   "display_name": "Aave 1INCH",
   "symbol": "a1INCH",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of 1inch (1INCH) in the Aave lending protocol. a1INCH holders earn interest continuously and can redeem their tokens for 1INCH at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de 1inch (1INCH) en el protocolo de préstamos Aave. Los titulares de a1INCH acumulan intereses continuamente y pueden canjear sus tokens por 1INCH en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de 1inch (1INCH) en el protocol de préstecs Aave. Els titulars de a1INCH acumulen interessos de manera contínua i poden bescanviar els seus tokens per 1INCH en qualsevol moment."
+  },
   "icon": "icons/asset/aave-1inch.svg",
   "pegged_to": {
     "asset": "1inch"

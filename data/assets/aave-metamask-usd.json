@@ -1,6 +1,11 @@
 {
   "display_name": "Aave mUSD",
   "symbol": "amUSD",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of MetaMask USD (MUSD) in the Aave lending protocol. amUSD holders earn interest continuously and can redeem their tokens for MUSD at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de MetaMask USD (MUSD) en el protocolo de préstamos Aave. Los titulares de amUSD acumulan intereses continuamente y pueden canjear sus tokens por MUSD en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de MetaMask USD (MUSD) en el protocol de préstecs Aave. Els titulars de amUSD acumulen interessos de manera contínua i poden bescanviar els seus tokens per MUSD en qualsevol moment."
+  },
   "icon": "icons/asset/aave-metamask-usd.svg",
   "pegged_to": {
     "asset": "metamask-usd"

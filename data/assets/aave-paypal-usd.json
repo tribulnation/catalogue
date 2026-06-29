@@ -1,6 +1,11 @@
 {
   "display_name": "Aave PYUSD",
   "symbol": "aPYUSD",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of PayPal USD (PYUSD) in the Aave lending protocol. aPYUSD holders earn interest continuously and can redeem their tokens for PYUSD at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de PayPal USD (PYUSD) en el protocolo de préstamos Aave. Los titulares de aPYUSD acumulan intereses continuamente y pueden canjear sus tokens por PYUSD en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de PayPal USD (PYUSD) en el protocol de préstecs Aave. Els titulars de aPYUSD acumulen interessos de manera contínua i poden bescanviar els seus tokens per PYUSD en qualsevol moment."
+  },
   "icon": "icons/asset/aave-paypal-usd.svg",
   "pegged_to": {
     "asset": "paypal-usd"
