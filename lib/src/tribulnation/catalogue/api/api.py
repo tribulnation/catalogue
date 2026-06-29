@@ -9,6 +9,7 @@ from .schema import (
   SpotInstrument, PerpetualInstrument,
   DebtInstrument, PoolInstrument,
   InstrumentReference,
+  AssetTranslation, DebtTranslation, TranslateResult,
   SpamAddress,
   SymbolsIndex, ExternalIndex, PegsIndex,
 )
@@ -74,6 +75,14 @@ def get_cexs() -> list[CexSummary]:
 @app.get('/api/v1/dexs.json')
 def get_dexs() -> list[DexSummary]:
   """List of all decentralized exchanges."""
+  raise NotImplementedError
+
+
+# Translate
+
+@app.get('/api/v1/translate/{platform}/{id}.json')
+def translate(platform: str, id: str) -> TranslateResult:
+  """Translate a platform-specific asset ID or token address to a canonical catalogue entry."""
   raise NotImplementedError
 
 

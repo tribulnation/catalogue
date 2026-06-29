@@ -82,6 +82,10 @@ export type InstrumentReference = {
   role: InstrumentRole
 }
 
+export type TranslateResult =
+  | { kind: 'asset'; id: string }
+  | { kind: 'debt'; instrument_id: string }
+
 export type SpamAddress = {
   reason?: string
   source?: string

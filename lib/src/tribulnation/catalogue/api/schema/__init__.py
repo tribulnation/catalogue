@@ -10,6 +10,7 @@ from .instruments import (
   SpotInstrument, PerpetualInstrument,
   DebtInstrument, PoolInstrument,
   InstrumentReference,
+  AssetTranslation, DebtTranslation, TranslateResult,
 )
 from .spam import SpamAddress
 from .indexes import SymbolsIndex, ExternalIndex, PegsIndex
