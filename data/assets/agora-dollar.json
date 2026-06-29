@@ -1,0 +1,23 @@
+{
+  "display_name": "AUSD",
+  "symbol": "AUSD",
+  "about": {
+    "en": "AUSD is Agora's US dollar stablecoin. It is designed as a reserve-backed digital dollar for on-chain payments, liquidity, settlement, and DeFi integrations across supported networks. AUSD targets a one dollar value while focusing on institutional-grade issuance and broad multi-chain distribution.",
+    "es": "AUSD es la stablecoin en dolares estadounidenses de Agora. Esta disenada como un dolar digital respaldado por reservas para pagos on-chain, liquidez, liquidacion e integraciones DeFi en redes compatibles. AUSD busca mantener un valor de un dolar, con foco en emision de nivel institucional y distribucion multi-chain amplia.",
+    "ca": "AUSD es la stablecoin en dolars nord-americans d'Agora. Esta dissenyada com un dolar digital recolzat per reserves per a pagaments on-chain, liquiditat, liquidacio i integracions DeFi en xarxes compatibles. AUSD busca mantenir un valor d'un dolar, amb focus en emissio de nivell institucional i distribucio multi-chain amplia."
+  },
+  "external": {
+    "coingecko": "agora-dollar",
+    "coinmarketcap": "32864"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD"
+  ],
+  "urls": {
+    "Website": "https://agora.finance/"
+  }
+}

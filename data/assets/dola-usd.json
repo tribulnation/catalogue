@@ -1,0 +1,24 @@
+{
+  "display_name": "DOLA",
+  "symbol": "DOLA",
+  "about": {
+    "en": "DOLA is Inverse Finance's US dollar stablecoin. It is issued through borrowing markets and backed by debt positions secured with accepted collateral, making it closer to a DeFi credit stablecoin than a conventional fiat-reserve token. DOLA is used for borrowing, liquidity, payments, and yield strategies across supported DeFi venues.",
+    "es": "DOLA es la stablecoin en dolares estadounidenses de Inverse Finance. Se emite mediante mercados de prestamo y esta respaldada por posiciones de deuda aseguradas con colateral aceptado, por lo que se parece mas a una stablecoin de credito DeFi que a un token convencional con reservas fiat. DOLA se usa para prestamos, liquidez, pagos y estrategias de rendimiento en venues DeFi compatibles.",
+    "ca": "DOLA es la stablecoin en dolars nord-americans d'Inverse Finance. S'emet mitjancant mercats de prestec i esta recolzada per posicions de deute assegurades amb colateral acceptat, de manera que s'assembla mes a una stablecoin de credit DeFi que a un token convencional amb reserves fiat. DOLA s'usa per a prestecs, liquiditat, pagaments i estrategies de rendiment en venues DeFi compatibles."
+  },
+  "external": {
+    "coingecko": "dola-usd",
+    "coinmarketcap": "19191"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://www.inverse.finance/"
+  }
+}

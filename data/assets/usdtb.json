@@ -1,0 +1,23 @@
+{
+  "display_name": "USDtb",
+  "symbol": "USDtb",
+  "about": {
+    "en": "USDtb is a US dollar stablecoin from Ethena Labs. Unlike Ethena's crypto-native USDe design, USDtb is positioned as a reserve-backed dollar asset with exposure to traditional money-market infrastructure such as tokenized Treasury fund products. It is used for transfers, liquidity, and collateral across supported crypto markets and DeFi venues.",
+    "es": "USDtb es una stablecoin en dolares estadounidenses de Ethena Labs. A diferencia del diseno cripto-nativo de USDe, USDtb se presenta como un activo en dolares respaldado por reservas con exposicion a infraestructura tradicional de money markets, como productos tokenizados de fondos de Treasuries. Se usa para transferencias, liquidez y colateral en mercados cripto y venues DeFi compatibles.",
+    "ca": "USDtb es una stablecoin en dolars nord-americans d'Ethena Labs. A diferencia del disseny cripto-natiu d'USDe, USDtb es presenta com un actiu en dolars recolzat per reserves amb exposicio a infraestructura tradicional de money markets, com productes tokenitzats de fons de Treasuries. S'usa per a transferencies, liquiditat i colateral en mercats cripto i venues DeFi compatibles."
+  },
+  "external": {
+    "coingecko": "usdtb",
+    "coinmarketcap": "34691"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD"
+  ],
+  "urls": {
+    "Website": "https://usdtb.money/"
+  }
+}

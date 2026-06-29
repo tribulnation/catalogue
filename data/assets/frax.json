@@ -1,0 +1,24 @@
+{
+  "display_name": "Legacy Frax Dollar",
+  "symbol": "FRAX",
+  "about": {
+    "en": "Legacy Frax Dollar is the original Frax ecosystem US dollar stablecoin. It was designed as a crypto-backed and algorithmic stable asset for payments, liquidity, and DeFi use before the ecosystem introduced newer Frax dollar products such as frxUSD. FRAX remains tracked as a legacy dollar-denominated asset within the Frax stablecoin stack.",
+    "es": "Legacy Frax Dollar es la stablecoin original en dolares estadounidenses del ecosistema Frax. Fue disenada como un activo estable cripto-colateralizado y algoritmico para pagos, liquidez y uso en DeFi antes de que el ecosistema introdujera productos en dolares mas recientes como frxUSD. FRAX sigue registrandose como un activo legado denominado en dolares dentro de la familia de stablecoins de Frax.",
+    "ca": "Legacy Frax Dollar es la stablecoin original en dolars nord-americans de l'ecosistema Frax. Va ser dissenyada com un actiu estable cripto-colateralitzat i algoritmic per a pagaments, liquiditat i us en DeFi abans que l'ecosistema introduis productes en dolars mes recents com frxUSD. FRAX continua registrant-se com un actiu llegat denominat en dolars dins de la familia de stablecoins de Frax."
+  },
+  "external": {
+    "coingecko": "frax",
+    "coinmarketcap": "6952"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://frax.finance"
+  }
+}

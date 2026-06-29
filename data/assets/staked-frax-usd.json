@@ -1,0 +1,24 @@
+{
+  "display_name": "Staked Frax USD",
+  "symbol": "SFRXUSD",
+  "about": {
+    "en": "Staked Frax USD is the yield-bearing staked version of frxUSD in the Frax ecosystem. It functions like a vault receipt for deposited Frax USD, with the token's exchange rate intended to reflect protocol-defined yield over time. SFRXUSD is used in DeFi as a dollar-denominated asset with staking and yield characteristics.",
+    "es": "Staked Frax USD es la version staked con rendimiento de frxUSD dentro del ecosistema Frax. Funciona como un recibo de vault por Frax USD depositado, con una tasa de intercambio pensada para reflejar el rendimiento definido por el protocolo con el tiempo. SFRXUSD se usa en DeFi como activo denominado en dolares con caracteristicas de staking y rendimiento.",
+    "ca": "Staked Frax USD es la versio staked amb rendiment de frxUSD dins de l'ecosistema Frax. Funciona com un rebut de vault per Frax USD dipositat, amb una taxa d'intercanvi pensada per reflectir el rendiment definit pel protocol amb el temps. SFRXUSD s'usa en DeFi com a actiu denominat en dolars amb caracteristiques de staking i rendiment."
+  },
+  "external": {
+    "coingecko": "staked-frax-usd",
+    "coinmarketcap": "36038"
+  },
+  "pegged_to": {
+    "asset": "frax-usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://frax.com"
+  }
+}

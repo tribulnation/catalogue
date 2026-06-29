@@ -1,0 +1,23 @@
+{
+  "display_name": "BUSD",
+  "symbol": "BUSD",
+  "about": {
+    "en": "BUSD is a US dollar-backed stablecoin originally associated with Binance and issued by Paxos. New issuance was halted after regulatory action, so BUSD is best treated as a legacy fiat-backed stablecoin rather than an expanding dollar asset. It remains tracked on markets where existing supply continues to trade.",
+    "es": "BUSD es una stablecoin respaldada por dolares estadounidenses originalmente asociada con Binance y emitida por Paxos. La nueva emision se detuvo tras acciones regulatorias, por lo que BUSD debe tratarse como una stablecoin fiat-backed legada en lugar de un activo en dolares en expansion. Sigue registrandose en mercados donde la oferta existente continua negociandose.",
+    "ca": "BUSD es una stablecoin recolzada per dolars nord-americans originalment associada amb Binance i emesa per Paxos. La nova emissio es va aturar despres d'accions regulatories, de manera que BUSD s'ha de tractar com una stablecoin fiat-backed llegada en lloc d'un actiu en dolars en expansio. Continua registrant-se en mercats on l'oferta existent segueix negociant-se."
+  },
+  "external": {
+    "coingecko": "binance-usd",
+    "coinmarketcap": "4687"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD"
+  ],
+  "urls": {
+    "Website": "https://www.paxos.com/busd/"
+  }
+}
