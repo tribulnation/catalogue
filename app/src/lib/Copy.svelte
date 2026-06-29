@@ -38,12 +38,6 @@
 		min-width: 0;
 	}
 
-	@media (max-width: 600px) {
-		.copy {
-			flex: 1;
-			max-width: 100%;
-		}
-	}
 
 	.copy:hover {
 		background: #1a1a2a;
