@@ -17,7 +17,7 @@
 	<ul>
 		{#each data.platforms as platform}
 			<li>
-				<a href={`/api/v1/platforms/${platform.id}`}>{platform.display_name}</a>
+				<a href={`/api/platforms/${platform.id}`}>{platform.display_name}</a>
 				<span>{platform.kind}</span>
 			</li>
 		{/each}

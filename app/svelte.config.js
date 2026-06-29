@@ -11,7 +11,7 @@ const config = {
 		prerender: {
 			handleHttpError: ({ path, message }) => {
 				// Instrument index files only exist for assets that appear in instruments.
-				if (path.startsWith('/api/instruments/index/')) return;
+				if (path.startsWith('/api/v1/instruments/index/')) return;
 				throw new Error(message);
 			}
 		}

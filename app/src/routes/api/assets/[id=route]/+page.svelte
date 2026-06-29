@@ -11,7 +11,7 @@
 </svelte:head>
 
 <main class="api-main">
-	<p><a href="/api/v1/assets">Assets</a></p>
+	<p><a href="/api/assets">Assets</a></p>
 	<h1>{data.asset.display_name}</h1>
 	<p>{data.asset.symbol}</p>
 

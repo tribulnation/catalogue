@@ -138,13 +138,13 @@
 		{
 			label: 'Assets',
 			stat: `${s.assets} assets`,
-			browse: '/api/v1/assets',
+			browse: '/api/assets',
 			prefix: '/api/v1/assets'
 		},
 		{
 			label: 'Platforms',
 			stat: `${s.platforms} platforms (${s.blockchains} blockchains, ${s.cexs} CEX, ${s.dexs} DEX)`,
-			browse: '/api/v1/platforms',
+			browse: '/api/platforms',
 			prefix: '/api/v1/platforms'
 		},
 		{
@@ -156,25 +156,25 @@
 		{
 			label: 'Translations',
 			stat: `${s.asset_translations} asset · ${s.network_translations} network`,
-			browse: '/api/v1/translations',
+			browse: '/api/translations',
 			prefix: '/api/v1/translations'
 		},
 		{
 			label: 'Instruments',
 			stat: `${s.spot_instruments} spot · ${s.perpetual_instruments} perpetual`,
-			browse: '/api/v1/instruments',
+			browse: '/api/instruments',
 			prefix: '/api/v1/instruments'
 		},
 		{
 			label: 'Spam',
 			stat: `${s.spam_addresses} addresses`,
-			browse: '/api/v1/spam',
+			browse: '/api/spam',
 			prefix: '/api/v1/spam'
 		},
 		{
 			label: 'Indexes',
 			stat: '',
-			browse: '/api/v1/indexes',
+			browse: '/api/indexes',
 			prefix: '/api/v1/indexes'
 		},
 		{

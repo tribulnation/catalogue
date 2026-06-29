@@ -12,7 +12,7 @@
 	<ul>
 		{#each data.assets as asset}
 			<li>
-				<a href={`/api/v1/assets/${asset.id}`}>{asset.display_name}</a>
+				<a href={`/api/assets/${asset.id}`}>{asset.display_name}</a>
 				<span>{asset.symbol}</span>
 			</li>
 		{/each}
