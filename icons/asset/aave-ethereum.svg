@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="aave" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B6509E"/>
+      <stop offset="100%" stop-color="#2EBAC6"/>
+    </linearGradient>
+    <mask id="frame">
+      <rect width="200" height="200" fill="white"/>
+      <circle cx="100" cy="100" r="88" fill="black"/>
+    </mask>
+  </defs>
+
+  <!-- Gradient fills only outside the gap -->
+  <rect width="200" height="200" fill="url(#aave)" mask="url(#frame)"/>
+  <!-- White inner circle (gap is r=82–88, transparent) -->
+  <circle cx="100" cy="100" r="82" fill="white"/>
+
+  <!-- ETH diamond, trimmed to just the diamond region -->
+  <svg x="65" y="43" width="70" height="114" viewBox="325 128 627 1022">
+    <g transform="translate(127.739, 127.739) scale(0.8)">
+      <g transform="translate(246.51, 0)">
+        <polygon fill="#343434" fill-rule="nonzero" points="392.07,0 383.5,29.11 383.5,873.74 392.07,882.29 784.13,650.54"/>
+        <polygon fill="#8C8C8C" fill-rule="nonzero" points="392.07,0 -0,650.54 392.07,882.29 392.07,472.33"/>
+        <polygon fill="#3C3C3B" fill-rule="nonzero" points="392.07,956.52 387.24,962.41 387.24,1263.28 392.07,1277.38 784.37,724.89"/>
+        <polygon fill="#8C8C8C" fill-rule="nonzero" points="392.07,1277.38 392.07,956.52 -0,724.89"/>
+        <polygon fill="#141414" fill-rule="nonzero" points="392.07,882.29 784.13,650.54 392.07,472.33"/>
+        <polygon fill="#393939" fill-rule="nonzero" points="0,650.54 392.07,882.29 392.07,472.33"/>
+      </g>
+    </g>
+  </svg>
+</svg>
