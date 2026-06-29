@@ -1,0 +1,23 @@
+{
+  "display_name": "Ethena Staked USDe",
+  "symbol": "sUSDe",
+  "about": {
+    "en": "Ethena Staked USDe is the yield-bearing form of Ethena's USDe stablecoin. By staking USDe, holders receive sUSDe, which accrues the protocol's funding rate and staking rewards over time. sUSDe can be redeemed for an increasing amount of USDe as yield accumulates.",
+    "es": "Ethena Staked USDe es la forma generadora de rendimiento de la stablecoin USDe de Ethena. Al hacer staking de USDe, los titulares reciben sUSDe, que acumula la tasa de financiación del protocolo y las recompensas de staking con el tiempo. sUSDe puede canjearse por una cantidad creciente de USDe a medida que se acumula el rendimiento.",
+    "ca": "Ethena Staked USDe és la forma generadora de rendiment de la stablecoin USDe d'Ethena. En fer staking de USDe, els titulars reben sUSDe, que acumula la taxa de finançament del protocol i les recompenses d'staking amb el temps. sUSDe es pot bescanviar per una quantitat creixent de USDe a mesura que s'acumula el rendiment."
+  },
+  "external": {
+    "coingecko": "ethena-staked-usde"
+  },
+  "pegged_to": {
+    "asset": "ethena-usde"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://ethena.fi"
+  }
+}
