@@ -1,0 +1,24 @@
+{
+  "display_name": "GHO",
+  "symbol": "GHO",
+  "about": {
+    "en": "GHO is Aave's decentralized US dollar stablecoin. It is minted through Aave-governed facilitators, including overcollateralized borrowing against assets supplied in the Aave ecosystem. GHO is used for DeFi liquidity, borrowing, payments, and settlement, with risk parameters and minting capacity controlled by Aave governance.",
+    "es": "GHO es la stablecoin descentralizada en dolares estadounidenses de Aave. Se emite mediante facilitadores gobernados por Aave, incluido prestamo sobrecolateralizado contra activos aportados en el ecosistema Aave. GHO se usa para liquidez DeFi, prestamos, pagos y liquidacion, con parametros de riesgo y capacidad de emision controlados por la gobernanza de Aave.",
+    "ca": "GHO es la stablecoin descentralitzada en dolars nord-americans d'Aave. S'emet mitjancant facilitadors governats per Aave, inclos prestec sobrecolateralitzat contra actius aportats en l'ecosistema Aave. GHO s'usa per a liquiditat DeFi, prestecs, pagaments i liquidacio, amb parametres de risc i capacitat d'emissio controlats per la governanca d'Aave."
+  },
+  "external": {
+    "coingecko": "gho",
+    "coinmarketcap": "23508"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://gho.xyz/"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display_name": "Gemini Dollar",
+  "symbol": "GUSD",
+  "about": {
+    "en": "Gemini Dollar is a US dollar-backed stablecoin issued by Gemini. It is designed for 1:1 dollar redemption and use in payments, transfers, trading, and DeFi integrations. GUSD is a fiat-backed stablecoin intended to track the value of the US dollar.",
+    "es": "Gemini Dollar es una stablecoin respaldada por dolares estadounidenses emitida por Gemini. Esta disenada para canje 1:1 por dolares y para uso en pagos, transferencias, trading e integraciones DeFi. GUSD es una stablecoin fiat-backed pensada para seguir el valor del dolar estadounidense.",
+    "ca": "Gemini Dollar es una stablecoin recolzada per dolars nord-americans emesa per Gemini. Esta dissenyada per al bescanvi 1:1 per dolars i per a us en pagaments, transferencies, trading i integracions DeFi. GUSD es una stablecoin fiat-backed pensada per seguir el valor del dolar nord-america."
+  },
+  "external": {
+    "coingecko": "gemini-dollar",
+    "coinmarketcap": "3306"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD"
+  ],
+  "urls": {
+    "Website": "https://gemini.com/dollar/"
+  }
+}
