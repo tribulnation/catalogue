@@ -1,6 +1,7 @@
 {
   "display_name": "CoW Protocol",
   "symbol": "COW",
+  "icon": "icons/asset/cow-protocol.svg",
   "about": {
     "en": "CoW Protocol is a decentralized trading protocol that batches orders and uses solvers to find prices with MEV protection and efficient execution. It powers interfaces such as CoW Swap and settles trades through intents rather than traditional direct swaps. COW is used for governance and protocol incentives.",
     "es": "CoW Protocol es un protocolo de trading descentralizado que agrupa ordenes y usa solvers para encontrar precios con proteccion MEV y ejecucion eficiente. Impulsa interfaces como CoW Swap y liquida operaciones mediante intents en lugar de swaps directos tradicionales. COW se usa para gobernanza e incentivos del protocolo.",
