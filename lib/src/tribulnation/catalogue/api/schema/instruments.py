@@ -54,6 +54,19 @@ class PoolInstrument(BaseModel):
   """Pool name"""
 
 
+class AssetTranslation(BaseModel):
+  kind: Literal['asset']
+  id: str
+  """Canonical asset ID"""
+
+class DebtTranslation(BaseModel):
+  kind: Literal['debt']
+  instrument_id: str
+  """Platform-specific instrument ID (token address)"""
+
+TranslateResult = AssetTranslation | DebtTranslation
+
+
 class InstrumentReference(BaseModel):
   kind: InstrumentKind
   """Instrument type"""

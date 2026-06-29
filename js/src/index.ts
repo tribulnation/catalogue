@@ -3,6 +3,7 @@ export type {
   PlatformKind, PlatformSummary, PlatformDetail,
   InstrumentPlatformEntry, InstrumentKind, InstrumentRole, InstrumentReference,
   SpotInstrument, PerpetualInstrument, DebtInstrument, PoolInstrument,
+  TranslateResult,
   SpamAddress, Stats,
 } from './types.js';
 
@@ -11,6 +12,7 @@ import type {
   PlatformSummary, PlatformDetail,
   InstrumentPlatformEntry, InstrumentReference,
   SpotInstrument, PerpetualInstrument, DebtInstrument, PoolInstrument,
+  TranslateResult,
   SpamAddress, Stats,
 } from './types.js';
 
@@ -107,6 +109,15 @@ export class Catalogue {
 
   getAssetInstruments(assetId: string): Promise<InstrumentReference[]> {
     return get(`${this.base}/instruments/index/${assetId}.json`);
+  }
+
+  // ── Translate ─────────────────────────────────────────────────────
+
+  async translate(platform: string, id: string): Promise<TranslateResult | null> {
+    const res = await fetch(`${this.base}/translate/${encodeURIComponent(platform)}/${encodeURIComponent(id)}.json`);
+    if (res.status === 404) return null;
+    if (!res.ok) throw new Error(`GET → ${res.status} ${res.statusText}`);
+    return res.json();
   }
 
   // ── Spam ──────────────────────────────────────────────────────────

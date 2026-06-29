@@ -93,12 +93,12 @@
 		'/api/v1/assets/{id}/{locale}.json': { id: 'bitcoin', locale: 'en' },
 		'/api/v1/platforms/{id}.json': { id: 'ethereum' },
 		'/api/v1/platforms/{id}/{locale}.json': { id: 'ethereum', locale: 'en' },
+		'/api/v1/translate/{platform}/{id}.json': { platform: 'binance', id: 'BTC' },
 		'/api/v1/translations/assets/{platform}.json': { platform: 'arbitrum' },
 		'/api/v1/translations/networks/{platform}.json': { platform: 'arbitrum' },
 		'/api/v1/instruments/spot/{platform}.json': { platform: 'mexc' },
 		'/api/v1/instruments/perpetual/{platform}.json': { platform: 'dydx' },
 		'/api/v1/instruments/debt/{platform}.json': { platform: 'ethereum' },
-		'/api/v1/instruments/collateral/{platform}.json': { platform: 'ethereum' },
 		'/api/v1/instruments/pools/{platform}.json': { platform: 'ethereum' },
 		'/api/v1/instruments/index/{asset}.json': { asset: 'aave' },
 		'/api/v1/spam/{platform}.json': { platform: 'arbitrum' },
@@ -146,6 +146,12 @@
 			stat: `${s.platforms} platforms (${s.blockchains} blockchains, ${s.cexs} CEX, ${s.dexs} DEX)`,
 			browse: '/api/v1/platforms',
 			prefix: '/api/v1/platforms'
+		},
+		{
+			label: 'Translate',
+			stat: `${s.asset_translations} entries`,
+			browse: null,
+			prefix: '/api/v1/translate'
 		},
 		{
 			label: 'Translations',

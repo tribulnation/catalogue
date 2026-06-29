@@ -21,6 +21,7 @@ from tribulnation.catalogue.api.schema import (
   InstrumentPlatformEntry,
   SpotInstrument, PerpetualInstrument, DebtInstrument, PoolInstrument,
   InstrumentReference,
+  AssetTranslation, DebtTranslation,
   SpamAddress,
 )
 
@@ -550,6 +551,13 @@ def build(args: argparse.Namespace) -> None:
     write_json(api / 'translations' / 'assets' / f'{platform}.json', dict(sorted(translations.items())))
   for platform, translations in sorted(catalogue.network_translations.items()):
     write_json(api / 'translations' / 'networks' / f'{platform}.json', dict(sorted(translations.items())))
+
+  for platform, translations in sorted(catalogue.asset_translations.items()):
+    for raw_id, asset_id in sorted(translations.items()):
+      write_json(api / 'translate' / platform / f'{raw_id}.json', AssetTranslation(kind='asset', id=asset_id))
+  for platform, instruments in sorted(catalogue.debt_instruments.items()):
+    for instrument_id in sorted(instruments):
+      write_json(api / 'translate' / platform / f'{instrument_id}.json', DebtTranslation(kind='debt', instrument_id=instrument_id))
 
   write_json(api / 'instruments' / 'spot.json', platform_index(catalogue.spot_instruments))
   write_json(api / 'instruments' / 'perpetual.json', platform_index(catalogue.perpetual_instruments))
