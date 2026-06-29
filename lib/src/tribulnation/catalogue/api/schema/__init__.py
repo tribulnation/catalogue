@@ -8,7 +8,7 @@ from .platforms import (
 from .instruments import (
   InstrumentKind, InstrumentRole, InstrumentPlatformEntry,
   SpotInstrument, PerpetualInstrument,
-  DebtInstrument, CollateralInstrument, PoolInstrument,
+  DebtInstrument, PoolInstrument,
   InstrumentReference,
 )
 from .spam import SpamAddress

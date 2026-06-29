@@ -152,7 +152,7 @@ Canonical records keyed by slug (e.g. `bitcoin`, `usd-coin`). Each asset has a `
 Trading venues and networks keyed by slug (e.g. `binance`, `ethereum`). Covers CEX, DEX, and blockchain platforms. Blockchains carry `namespace`, `chain_id`, `native_asset`, and EVM/SVM `category`.
 
 ### Instruments
-Spot pairs, perpetual futures, debt positions, collateral positions, and liquidity pools — each referencing canonical asset IDs. Maps exchange-specific tickers to the catalogue's canonical identifiers.
+Spot pairs, perpetual futures, debt positions, and liquidity pools — each referencing canonical asset IDs. Maps exchange-specific tickers to the catalogue's canonical identifiers.
 
 ### Translations
 Per-platform display-name mappings for assets and networks. Resolves what a given exchange calls `BTC/USDT` into `('bitcoin', 'tether')`.

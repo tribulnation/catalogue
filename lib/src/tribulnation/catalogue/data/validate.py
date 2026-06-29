@@ -1,7 +1,7 @@
 import os as _os
 import re as _re
 from typing import Mapping
-from .schema import Asset, Platform, Spot, Perpetual, Debt, Collateral, Pool
+from .schema import Asset, Platform, Spot, Perpetual, Debt, Pool
 from .main import Catalogue
 
 _id_pattern = _re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
@@ -147,15 +147,6 @@ def debt_instruments(debt_instruments: Mapping[str, Mapping[str, Debt]], assets:
         errors.append(f'[DEBT INSTRUMENT ERROR] Debt instrument "{id}" on "{platform}" has inexistent asset "{asset}"')
   return errors
 
-def collateral_instruments(collateral_instruments: Mapping[str, Mapping[str, Collateral]], assets: Mapping[str, Asset]):
-  errors: list[str] = []
-  for platform, instruments in collateral_instruments.items():
-    for id, instrument in instruments.items():
-      asset = instrument['asset']
-      if asset not in assets:
-        errors.append(f'[COLLATERAL INSTRUMENT ERROR] Collateral instrument "{id}" on "{platform}" has inexistent asset "{asset}"')
-  return errors
-
 def pools(pools: Mapping[str, Mapping[str, Pool]], assets: Mapping[str, Asset]):
   errors: list[str] = []
   for platform, platform_pools in pools.items():
@@ -179,7 +170,6 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(platform_keys('SPOT INSTRUMENT', catalogue.platforms, catalogue.spot_instruments))
   errors.extend(platform_keys('PERPETUAL INSTRUMENT', catalogue.platforms, catalogue.perpetual_instruments))
   errors.extend(platform_keys('DEBT INSTRUMENT', catalogue.platforms, catalogue.debt_instruments))
-  errors.extend(platform_keys('COLLATERAL INSTRUMENT', catalogue.platforms, catalogue.collateral_instruments))
   errors.extend(platform_keys('POOL', catalogue.platforms, catalogue.pools))
   errors.extend(platform_keys('SPAM', catalogue.platforms, catalogue.spam))
   errors.extend(asset_translations(catalogue.assets, catalogue.asset_translations))
@@ -187,6 +177,5 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(spot_instruments(catalogue.spot_instruments, catalogue.assets))
   errors.extend(perpetual_instruments(catalogue.perpetual_instruments, catalogue.assets))
   errors.extend(debt_instruments(catalogue.debt_instruments, catalogue.assets))
-  errors.extend(collateral_instruments(catalogue.collateral_instruments, catalogue.assets))
   errors.extend(pools(catalogue.pools, catalogue.assets))
   return errors

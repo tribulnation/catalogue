@@ -20,7 +20,6 @@ data/
     spot/             spot pairs per platform
     perpetual/        perpetual futures per platform
     debt/             debt positions per platform
-    collateral/       collateral positions per platform
     pools/            liquidity pools per platform
   asset_translations/ per-platform display name overrides for assets
   network_translations/ per-platform display name overrides for networks

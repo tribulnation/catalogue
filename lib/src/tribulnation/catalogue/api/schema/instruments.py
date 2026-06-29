@@ -1,7 +1,7 @@
 from typing import Literal
 from pydantic import BaseModel
 
-InstrumentKind = Literal['spot', 'perpetual', 'debt', 'collateral', 'pool']
+InstrumentKind = Literal['spot', 'perpetual', 'debt', 'pool']
 InstrumentRole = Literal['base', 'quote', 'settlement', 'asset']
 
 
@@ -37,15 +37,6 @@ class PerpetualInstrument(BaseModel):
 
 
 class DebtInstrument(BaseModel):
-  id: str
-  """Platform-specific token address"""
-  asset: str
-  """Underlying asset ID"""
-  name: str
-  """Token name"""
-
-
-class CollateralInstrument(BaseModel):
   id: str
   """Platform-specific token address"""
   asset: str

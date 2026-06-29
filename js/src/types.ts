@@ -66,19 +66,13 @@ export type DebtInstrument = {
   name: string
 }
 
-export type CollateralInstrument = {
-  id: string
-  asset: string
-  name: string
-}
-
 export type PoolInstrument = {
   id: string
   assets: string[]
   name: string
 }
 
-export type InstrumentKind = 'spot' | 'perpetual' | 'debt' | 'collateral' | 'pool'
+export type InstrumentKind = 'spot' | 'perpetual' | 'debt' | 'pool'
 export type InstrumentRole = 'base' | 'quote' | 'settlement' | 'asset'
 
 export type InstrumentReference = {

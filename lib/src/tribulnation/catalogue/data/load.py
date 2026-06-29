@@ -1,7 +1,7 @@
 from collections import defaultdict
 from pathlib import Path
 from pydantic import TypeAdapter
-from .schema import Asset, Platform, Spot, Perpetual, Debt, Collateral, SpamAddress, Pool
+from .schema import Asset, Platform, Spot, Perpetual, Debt, SpamAddress, Pool
 from .main import Catalogue
 
 _asset_adapter = TypeAdapter(Asset)
@@ -11,7 +11,6 @@ _network_translation_adapter = TypeAdapter(dict[str, str])
 _spot_instruments_adapter = TypeAdapter(dict[str, Spot])
 _perpetual_instruments_adapter = TypeAdapter(dict[str, Perpetual])
 _debt_instruments_adapter = TypeAdapter(dict[str, Debt])
-_collateral_instruments_adapter = TypeAdapter(dict[str, Collateral])
 _spam_adapter = TypeAdapter(dict[str, SpamAddress])
 _pools_adapter = TypeAdapter(dict[str, Pool])
 
@@ -71,13 +70,6 @@ def debt_instruments(folder: Path) -> dict[str, dict[str, Debt]]:
     debt_instruments[platform].update(_debt_instruments_adapter.validate_json(file.read_bytes(), extra='forbid'))
   return dict(debt_instruments)
 
-def collateral_instruments(folder: Path) -> dict[str, dict[str, Collateral]]:
-  collateral_instruments = defaultdict[str, dict[str, Collateral]](dict)
-  for file in folder.glob('*.json'):
-    platform = file.stem
-    collateral_instruments[platform].update(_collateral_instruments_adapter.validate_json(file.read_bytes(), extra='forbid'))
-  return dict(collateral_instruments)
-
 def spam(folder: Path) -> dict[str, dict[str, SpamAddress]]:
   spam = defaultdict[str, dict[str, SpamAddress]](dict)
   for file in folder.glob('*.json'):
@@ -103,7 +95,6 @@ def all(folder: Path | str) -> Catalogue:
     spot_instruments=spot_instruments(folder / 'instruments' / 'spot'),
     perpetual_instruments=perpetual_instruments(folder / 'instruments' / 'perpetual'),
     debt_instruments=debt_instruments(folder / 'instruments' / 'debt'),
-    collateral_instruments=collateral_instruments(folder / 'instruments' / 'collateral'),
     pools=pools(folder / 'instruments' / 'pools'),
     spam=spam(folder / 'spam'),
   )

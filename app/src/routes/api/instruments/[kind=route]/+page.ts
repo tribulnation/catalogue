@@ -1,4 +1,4 @@
-const allowed = new Set(['spot', 'perpetual', 'debt', 'collateral', 'pools']);
+const allowed = new Set(['spot', 'perpetual', 'debt', 'pools']);
 
 export async function load({ fetch, params }) {
 	if (!allowed.has(params.kind)) {

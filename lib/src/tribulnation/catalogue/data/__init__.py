@@ -6,6 +6,6 @@ from .schema import (
   Asset, AssetPeg, ExternalIds,
   BasePlatform, CexPlatform, DexPlatform, Blockchain, BlockchainCategory,
   BlockchainNamespace, Platform,
-  Spot, Perpetual, Debt, Collateral, Pool, SpamAddress,
+  Spot, Perpetual, Debt, Pool, SpamAddress,
 )
 from .main import Catalogue

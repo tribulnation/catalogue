@@ -59,7 +59,6 @@ catalogue.dexs             # filtered view: kind == 'dex'
 catalogue.spot_instruments        # dict[platform, dict[id, Spot]]
 catalogue.perpetual_instruments   # dict[platform, dict[id, Perpetual]]
 catalogue.debt_instruments        # dict[platform, dict[id, Debt]]
-catalogue.collateral_instruments  # dict[platform, dict[id, Collateral]]
 catalogue.pools                   # dict[platform, dict[id, Pool]]
 
 catalogue.asset_translations      # dict[platform, dict[exchange_id, asset_id]]
@@ -76,7 +75,7 @@ All types are available from the package root:
 from tribulnation.catalogue import (
     Asset, AssetPeg, ExternalIds,
     Platform, Blockchain, CexPlatform, DexPlatform,
-    Spot, Perpetual, Debt, Collateral, Pool,
+    Spot, Perpetual, Debt, Pool,
     SpamAddress,
 )
 ```

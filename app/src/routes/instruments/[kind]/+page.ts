@@ -1,4 +1,4 @@
-const kinds = ['spot', 'perpetual', 'debt', 'collateral', 'pools'];
+const kinds = ['spot', 'perpetual', 'debt', 'pools'];
 
 export const entries = () => kinds.map((kind) => ({ kind }));
 

@@ -6,7 +6,7 @@ import zipfile
 from dataclasses import dataclass
 from pathlib import Path
 
-from .schema import Asset, Platform, Spot, Perpetual, Debt, Collateral, Pool, SpamAddress
+from .schema import Asset, Platform, Spot, Perpetual, Debt, Pool, SpamAddress
 
 DEFAULT_URL = 'https://catalogue.tribulnation.com/data.zip'
 DEFAULT_CACHE = Path.home() / '.cache' / 'tribulnation' / 'catalogue'
@@ -39,8 +39,6 @@ class Catalogue:
   """`platform id -> instrument id -> perpetual instrument`"""
   debt_instruments: dict[str, dict[str, Debt]]
   """`platform id -> instrument id -> debt instrument`"""
-  collateral_instruments: dict[str, dict[str, Collateral]]
-  """`platform id -> instrument id -> collateral instrument`"""
   pools: dict[str, dict[str, Pool]]
   """`platform id -> instrument id -> pool`"""
   spam: dict[str, dict[str, SpamAddress]]

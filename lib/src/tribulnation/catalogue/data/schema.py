@@ -27,11 +27,6 @@ class Debt(TypedDict):
   """Underlying asset ID"""
   name: str
 
-class Collateral(TypedDict):
-  asset: str
-  """Underlying asset ID"""
-  name: str
-
 class Pool(TypedDict):
   assets: list[str]
   """List of asset IDs"""

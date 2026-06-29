@@ -19,7 +19,7 @@ from tribulnation.catalogue.api.schema import (
   AssetPeg, ExternalIds, AssetSummary, AssetDetail, LocalizedAssetDetail,
   PlatformSummary, PlatformDetail, BlockchainSummary, CexSummary, DexSummary,
   InstrumentPlatformEntry,
-  SpotInstrument, PerpetualInstrument, DebtInstrument, CollateralInstrument, PoolInstrument,
+  SpotInstrument, PerpetualInstrument, DebtInstrument, PoolInstrument,
   InstrumentReference,
   SpamAddress,
 )
@@ -200,10 +200,6 @@ def debt_instruments(items: dict[str, data.Debt]) -> dict[str, DebtInstrument]:
   return {id: DebtInstrument(id=id, **item) for id, item in sorted(items.items())}
 
 
-def collateral_instruments(items: dict[str, data.Collateral]) -> dict[str, CollateralInstrument]:
-  return {id: CollateralInstrument(id=id, **item) for id, item in sorted(items.items())}
-
-
 def pool_instruments(items: dict[str, data.Pool]) -> dict[str, PoolInstrument]:
   return {id: PoolInstrument(id=id, **item) for id, item in sorted(items.items())}
 
@@ -228,10 +224,6 @@ def instrument_index(catalogue: data.Catalogue) -> dict[str, list[InstrumentRefe
   for platform, instruments in catalogue.debt_instruments.items():
     for id, inst in instruments.items():
       add(inst['asset'], InstrumentReference(kind='debt', platform=platform, id=id, role='asset'))
-
-  for platform, instruments in catalogue.collateral_instruments.items():
-    for id, inst in instruments.items():
-      add(inst['asset'], InstrumentReference(kind='collateral', platform=platform, id=id, role='asset'))
 
   for platform, pools in catalogue.pools.items():
     for id, pool in pools.items():
@@ -562,7 +554,6 @@ def build(args: argparse.Namespace) -> None:
   write_json(api / 'instruments' / 'spot.json', platform_index(catalogue.spot_instruments))
   write_json(api / 'instruments' / 'perpetual.json', platform_index(catalogue.perpetual_instruments))
   write_json(api / 'instruments' / 'debt.json', platform_index(catalogue.debt_instruments))
-  write_json(api / 'instruments' / 'collateral.json', platform_index(catalogue.collateral_instruments))
   write_json(api / 'instruments' / 'pools.json', platform_index(catalogue.pools))
 
   for platform, items in sorted(catalogue.spot_instruments.items()):
@@ -571,8 +562,6 @@ def build(args: argparse.Namespace) -> None:
     write_json(api / 'instruments' / 'perpetual' / f'{platform}.json', perpetual_instruments(items))
   for platform, items in sorted(catalogue.debt_instruments.items()):
     write_json(api / 'instruments' / 'debt' / f'{platform}.json', debt_instruments(items))
-  for platform, items in sorted(catalogue.collateral_instruments.items()):
-    write_json(api / 'instruments' / 'collateral' / f'{platform}.json', collateral_instruments(items))
   for platform, items in sorted(catalogue.pools.items()):
     write_json(api / 'instruments' / 'pools' / f'{platform}.json', pool_instruments(items))
 

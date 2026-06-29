@@ -7,7 +7,7 @@ from .schema import (
   BlockchainSummary, CexSummary, DexSummary,
   InstrumentPlatformEntry,
   SpotInstrument, PerpetualInstrument,
-  DebtInstrument, CollateralInstrument, PoolInstrument,
+  DebtInstrument, PoolInstrument,
   InstrumentReference,
   SpamAddress,
   SymbolsIndex, ExternalIndex, PegsIndex,
@@ -120,16 +120,6 @@ def get_debt_platforms() -> list[InstrumentPlatformEntry]:
 @app.get('/api/instruments/debt/{platform}.json')
 def get_debt_instruments(platform: str) -> dict[str, DebtInstrument]:
   """Debt assets for a platform, keyed by address."""
-  raise NotImplementedError
-
-@app.get('/api/instruments/collateral.json')
-def get_collateral_platforms() -> list[InstrumentPlatformEntry]:
-  """Platforms with collateral asset data."""
-  raise NotImplementedError
-
-@app.get('/api/instruments/collateral/{platform}.json')
-def get_collateral_instruments(platform: str) -> dict[str, CollateralInstrument]:
-  """Collateral assets for a platform, keyed by address."""
   raise NotImplementedError
 
 @app.get('/api/instruments/pools.json')
