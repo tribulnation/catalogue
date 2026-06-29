@@ -113,7 +113,7 @@
 
 	<div class="api-links">
 		<span class="api-links-label">JSON</span>
-		<a href={`/api/platforms/${platform.id}.json`}>full</a>
+		<a href={`/api/v1/platforms/${platform.id}.json`}>full</a>
 	</div>
 </main>
 

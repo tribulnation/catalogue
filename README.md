@@ -19,17 +19,17 @@ Every record in this catalogue is available as a static JSON API — no auth, no
 **Browse: [catalogue.tribulnation.com](https://catalogue.tribulnation.com)**
 
 ```
-GET /api/stats.json
-GET /api/assets.json
-GET /api/assets/{id}.json
-GET /api/platforms.json
-GET /api/platforms/{id}.json
-GET /api/instruments/spot/{platform}.json
-GET /api/instruments/perpetual/{platform}.json
-GET /api/instruments/index/{asset}.json
-GET /api/indexes/symbols.json
-GET /api/indexes/external/coingecko.json
-GET /api/openapi.json
+GET /api/v1/stats.json
+GET /api/v1/assets.json
+GET /api/v1/assets/{id}.json
+GET /api/v1/platforms.json
+GET /api/v1/platforms/{id}.json
+GET /api/v1/instruments/spot/{platform}.json
+GET /api/v1/instruments/perpetual/{platform}.json
+GET /api/v1/instruments/index/{asset}.json
+GET /api/v1/indexes/symbols.json
+GET /api/v1/indexes/external/coingecko.json
+GET /api/v1/openapi.json
 ```
 
 Full route list and interactive 'try it' at [catalogue.tribulnation.com/api](https://catalogue.tribulnation.com/api).
@@ -134,6 +134,8 @@ Provider errors are logged via Python's standard `logging` module. Pass `logger=
 sdk = MarketData.new('usd', 'coingecko', logger=None)
 ```
 
+Provider IDs have provider-specific semantics, especially for forex, commodities, and stock symbols. See [External IDs](docs/external.md) for the conventions.
+
 ---
 
 ## What's inside
@@ -146,7 +148,7 @@ Canonical records keyed by slug (e.g. `bitcoin`, `usd-coin`). Each asset has a `
 | `coingecko` | CoinGecko asset ID |
 | `coinmarketcap` | CoinMarketCap asset ID |
 | `twelvedata` | Twelve Data symbol (e.g. `XAU/USD`) |
-| `alphavantage` | Alpha Vantage function or forex pair (e.g. `WTI`, `EUR/USD`) |
+| `alphavantage` | Alpha Vantage typed ID (e.g. `stock:TSLA`, `forex:EUR`, `commodity:WTI`) |
 
 ### Platforms
 Trading venues and networks keyed by slug (e.g. `binance`, `ethereum`). Covers CEX, DEX, and blockchain platforms. Blockchains carry `namespace`, `chain_id`, `native_asset`, and EVM/SVM `category`.

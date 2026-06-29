@@ -14,7 +14,7 @@ import type {
   SpamAddress, Stats,
 } from './types.js';
 
-export const DEFAULT_BASE_URL = 'https://catalogue.tribulnation.com/api';
+export const DEFAULT_BASE_URL = 'https://catalogue.tribulnation.com/api/v1';
 
 async function get<T>(url: string): Promise<T> {
   const res = await fetch(url);

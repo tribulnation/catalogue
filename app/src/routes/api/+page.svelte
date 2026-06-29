@@ -89,20 +89,20 @@
 	// ── Try it ───────────────────────────────────────────────────────
 
 	const EXAMPLES: Record<string, Record<string, string>> = {
-		'/api/assets/{id}.json': { id: 'bitcoin' },
-		'/api/assets/{id}/{locale}.json': { id: 'bitcoin', locale: 'en' },
-		'/api/platforms/{id}.json': { id: 'ethereum' },
-		'/api/platforms/{id}/{locale}.json': { id: 'ethereum', locale: 'en' },
-		'/api/translations/assets/{platform}.json': { platform: 'arbitrum' },
-		'/api/translations/networks/{platform}.json': { platform: 'arbitrum' },
-		'/api/instruments/spot/{platform}.json': { platform: 'mexc' },
-		'/api/instruments/perpetual/{platform}.json': { platform: 'dydx' },
-		'/api/instruments/debt/{platform}.json': { platform: 'ethereum' },
-		'/api/instruments/collateral/{platform}.json': { platform: 'ethereum' },
-		'/api/instruments/pools/{platform}.json': { platform: 'ethereum' },
-		'/api/instruments/index/{asset}.json': { asset: 'aave' },
-		'/api/spam/{platform}.json': { platform: 'arbitrum' },
-		'/api/indexes/external/{provider}.json': { provider: 'coingecko' }
+		'/api/v1/assets/{id}.json': { id: 'bitcoin' },
+		'/api/v1/assets/{id}/{locale}.json': { id: 'bitcoin', locale: 'en' },
+		'/api/v1/platforms/{id}.json': { id: 'ethereum' },
+		'/api/v1/platforms/{id}/{locale}.json': { id: 'ethereum', locale: 'en' },
+		'/api/v1/translations/assets/{platform}.json': { platform: 'arbitrum' },
+		'/api/v1/translations/networks/{platform}.json': { platform: 'arbitrum' },
+		'/api/v1/instruments/spot/{platform}.json': { platform: 'mexc' },
+		'/api/v1/instruments/perpetual/{platform}.json': { platform: 'dydx' },
+		'/api/v1/instruments/debt/{platform}.json': { platform: 'ethereum' },
+		'/api/v1/instruments/collateral/{platform}.json': { platform: 'ethereum' },
+		'/api/v1/instruments/pools/{platform}.json': { platform: 'ethereum' },
+		'/api/v1/instruments/index/{asset}.json': { asset: 'aave' },
+		'/api/v1/spam/{platform}.json': { platform: 'arbitrum' },
+		'/api/v1/indexes/external/{provider}.json': { provider: 'coingecko' }
 	};
 
 	function initialParams(): Record<string, string> {
@@ -138,44 +138,44 @@
 		{
 			label: 'Assets',
 			stat: `${s.assets} assets`,
-			browse: '/api/assets',
-			prefix: '/api/assets'
+			browse: '/api/v1/assets',
+			prefix: '/api/v1/assets'
 		},
 		{
 			label: 'Platforms',
 			stat: `${s.platforms} platforms (${s.blockchains} blockchains, ${s.cexs} CEX, ${s.dexs} DEX)`,
-			browse: '/api/platforms',
-			prefix: '/api/platforms'
+			browse: '/api/v1/platforms',
+			prefix: '/api/v1/platforms'
 		},
 		{
 			label: 'Translations',
 			stat: `${s.asset_translations} asset · ${s.network_translations} network`,
-			browse: '/api/translations',
-			prefix: '/api/translations'
+			browse: '/api/v1/translations',
+			prefix: '/api/v1/translations'
 		},
 		{
 			label: 'Instruments',
 			stat: `${s.spot_instruments} spot · ${s.perpetual_instruments} perpetual`,
-			browse: '/api/instruments',
-			prefix: '/api/instruments'
+			browse: '/api/v1/instruments',
+			prefix: '/api/v1/instruments'
 		},
 		{
 			label: 'Spam',
 			stat: `${s.spam_addresses} addresses`,
-			browse: '/api/spam',
-			prefix: '/api/spam'
+			browse: '/api/v1/spam',
+			prefix: '/api/v1/spam'
 		},
 		{
 			label: 'Indexes',
 			stat: '',
-			browse: '/api/indexes',
-			prefix: '/api/indexes'
+			browse: '/api/v1/indexes',
+			prefix: '/api/v1/indexes'
 		},
 		{
 			label: 'Stats',
 			stat: '',
 			browse: null,
-			prefix: '/api/stats'
+			prefix: '/api/v1/stats'
 		}
 	]);
 </script>
@@ -276,7 +276,7 @@
 			<details class="route-item">
 				<summary class="route-row">
 					<span class="method">GET</span>
-					<code class="route-path">/api/openapi.json</code>
+					<code class="route-path">/api/v1/openapi.json</code>
 					<span class="route-desc">OpenAPI 3.x specification for this API.</span>
 					<span class="toggle">▾</span>
 				</summary>
@@ -286,7 +286,7 @@
 						<button
 							type="button"
 							class="try-btn"
-							onclick={() => window.open('/api/openapi.json', '_blank', 'noopener')}
+							onclick={() => window.open('/api/v1/openapi.json', '_blank', 'noopener')}
 						>Open ↗</button>
 					</div>
 				</div>

@@ -148,9 +148,9 @@
 	{#if locales.length > 0}
 		<div class="api-links">
 			<span class="api-links-label">JSON</span>
-			<a href={`/api/assets/${asset.id}.json`}>full</a>
+			<a href={`/api/v1/assets/${asset.id}.json`}>full</a>
 			{#each locales as locale}
-				<a href={`/api/assets/${asset.id}/${locale}.json`}>{locale}</a>
+				<a href={`/api/v1/assets/${asset.id}/${locale}.json`}>{locale}</a>
 			{/each}
 		</div>
 	{/if}

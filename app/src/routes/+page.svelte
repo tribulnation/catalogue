@@ -4,7 +4,7 @@
 	let stats = $state<Record<string, number> | null>(null);
 
 	onMount(async () => {
-		stats = await fetch('/api/stats.json').then((r) => r.json());
+		stats = await fetch('/api/v1/stats.json').then((r) => r.json());
 	});
 </script>
 

@@ -497,7 +497,7 @@ def build(args: argparse.Namespace) -> None:
   root = Path.cwd()
   data = Path(args.data)
   output = Path(args.output) if args.output else default_output(root)
-  api = output / 'api'
+  api = output / 'api' / 'v1'
   public_url = clean_public_url(args.public_url)
 
   catalogue = load.all(data)
