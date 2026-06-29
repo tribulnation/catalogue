@@ -1,6 +1,11 @@
 {
   "display_name": "Aave DAI",
   "symbol": "aDAI",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Dai (DAI) in the Aave lending protocol. aDAI holders earn interest continuously and can redeem their tokens for DAI at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Dai (DAI) en el protocolo de préstamos Aave. Los titulares de aDAI acumulan intereses continuamente y pueden canjear sus tokens por DAI en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Dai (DAI) en el protocol de préstecs Aave. Els titulars de aDAI acumulen interessos de manera contínua i poden bescanviar els seus tokens per DAI en qualsevol moment."
+  },
   "icon": "icons/asset/aave-dai.svg",
   "pegged_to": {
     "asset": "dai"

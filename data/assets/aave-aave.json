@@ -1,6 +1,11 @@
 {
   "display_name": "Aave AAVE",
   "symbol": "aAAVE",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Aave (AAVE) in the Aave lending protocol. aAAVE holders earn interest continuously and can redeem their tokens for AAVE at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Aave (AAVE) en el protocolo de préstamos Aave. Los titulares de aAAVE acumulan intereses continuamente y pueden canjear sus tokens por AAVE en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Aave (AAVE) en el protocol de préstecs Aave. Els titulars de aAAVE acumulen interessos de manera contínua i poden bescanviar els seus tokens per AAVE en qualsevol moment."
+  },
   "icon": "icons/asset/aave-aave.svg",
   "pegged_to": {
     "asset": "aave"

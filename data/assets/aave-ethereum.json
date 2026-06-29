@@ -1,6 +1,11 @@
 {
   "display_name": "Aave ETH",
   "symbol": "aETH",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Ethereum (ETH) in the Aave lending protocol. aETH holders earn interest continuously and can redeem their tokens for ETH at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Ethereum (ETH) en el protocolo de préstamos Aave. Los titulares de aETH acumulan intereses continuamente y pueden canjear sus tokens por ETH en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Ethereum (ETH) en el protocol de préstecs Aave. Els titulars de aETH acumulen interessos de manera contínua i poden bescanviar els seus tokens per ETH en qualsevol moment."
+  },
   "icon": "icons/asset/aave-ethereum.svg",
   "pegged_to": {
     "asset": "ethereum"

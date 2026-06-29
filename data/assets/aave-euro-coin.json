@@ -1,6 +1,11 @@
 {
   "display_name": "Aave EURC",
   "symbol": "aEURC",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Euro Coin (EURC) in the Aave lending protocol. aEURC holders earn interest continuously and can redeem their tokens for EURC at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Euro Coin (EURC) en el protocolo de préstamos Aave. Los titulares de aEURC acumulan intereses continuamente y pueden canjear sus tokens por EURC en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Euro Coin (EURC) en el protocol de préstecs Aave. Els titulars de aEURC acumulen interessos de manera contínua i poden bescanviar els seus tokens per EURC en qualsevol moment."
+  },
   "icon": "icons/asset/aave-euro-coin.svg",
   "pegged_to": {
     "asset": "euro-coin"

@@ -1,6 +1,11 @@
 {
   "display_name": "Aave CRV",
   "symbol": "aCRV",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Curve DAO (CRV) in the Aave lending protocol. aCRV holders earn interest continuously and can redeem their tokens for CRV at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Curve DAO (CRV) en el protocolo de préstamos Aave. Los titulares de aCRV acumulan intereses continuamente y pueden canjear sus tokens por CRV en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Curve DAO (CRV) en el protocol de préstecs Aave. Els titulars de aCRV acumulen interessos de manera contínua i poden bescanviar els seus tokens per CRV en qualsevol moment."
+  },
   "icon": "icons/asset/aave-curve-dao.svg",
   "pegged_to": {
     "asset": "curve-dao"

@@ -1,6 +1,11 @@
 {
   "display_name": "Aave RLUSD",
   "symbol": "aRLUSD",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Ripple USD (RLUSD) in the Aave lending protocol. aRLUSD holders earn interest continuously and can redeem their tokens for RLUSD at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Ripple USD (RLUSD) en el protocolo de préstamos Aave. Los titulares de aRLUSD acumulan intereses continuamente y pueden canjear sus tokens por RLUSD en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Ripple USD (RLUSD) en el protocol de préstecs Aave. Els titulars de aRLUSD acumulen interessos de manera contínua i poden bescanviar els seus tokens per RLUSD en qualsevol moment."
+  },
   "icon": "icons/asset/aave-ripple-usd.svg",
   "pegged_to": {
     "asset": "ripple-usd"

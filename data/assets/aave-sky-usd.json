@@ -1,6 +1,11 @@
 {
   "display_name": "Aave USDS",
   "symbol": "aUSDS",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Sky USD (USDS) in the Aave lending protocol. aUSDS holders earn interest continuously and can redeem their tokens for USDS at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Sky USD (USDS) en el protocolo de préstamos Aave. Los titulares de aUSDS acumulan intereses continuamente y pueden canjear sus tokens por USDS en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Sky USD (USDS) en el protocol de préstecs Aave. Els titulars de aUSDS acumulen interessos de manera contínua i poden bescanviar els seus tokens per USDS en qualsevol moment."
+  },
   "icon": "icons/asset/aave-sky-usd.svg",
   "pegged_to": {
     "asset": "sky-usd"
