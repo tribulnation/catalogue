@@ -118,7 +118,7 @@ Each provider reads its API key from the environment:
 | CoinGecko | `'coingecko'` | `COINGECKO_PRO_API_KEY` or `COINGECKO_DEMO_API_KEY` | Crypto — price, market cap, history |
 | CoinMarketCap | `'coinmarketcap'` | `COINMARKETCAP_API_KEY` | Crypto — price, market cap, history |
 | Twelve Data | `'twelvedata'` | `TWELVEDATA_API_KEY` | Precious metals (XAU, XAG†), forex |
-| Alpha Vantage | `'alphavantage'` | `ALPHAVANTAGE_API_KEY` | Energy & agricultural commodities (WTI, BRENT, …), forex |
+| Alpha Vantage | `'alphavantage'` | `ALPHAVANTAGE_API_KEY` | US stocks, USD forex, energy & agricultural commodities |
 
 † XAG requires a paid Twelve Data plan.
 
