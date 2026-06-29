@@ -10,6 +10,9 @@
     "coingecko": "wrapped-steth",
     "coinmarketcap": "12409"
   },
+  "pegged_to": {
+    "asset": "lido-staked-ether"
+  },
   "icon": "icons/asset/wrapped-staked-ether.svg",
   "urls": {
     "Website": "https://www.lido.fi/"
