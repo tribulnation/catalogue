@@ -1,0 +1,16 @@
+{
+  "display_name": "Chinese Yuan",
+  "symbol": "CNY",
+  "about": {
+    "en": "The Chinese yuan is the official currency of the People's Republic of China. In trading contexts, CNY is used as a fiat reference asset for yuan-denominated prices, balances, and currency exposure.",
+    "es": "El yuan chino es la moneda oficial de la Republica Popular China. En contextos de trading, CNY se usa como activo fiat de referencia para precios, saldos y exposicion cambiaria denominados en yuanes.",
+    "ca": "El iuan xines es la moneda oficial de la Republica Popular de la Xina. En contextos de trading, CNY s'utilitza com a actiu fiat de referencia per a preus, saldos i exposicio canviaria denominats en iuans."
+  },
+  "external": {
+    "twelvedata": "USD/CNY"
+  },
+  "tags": [
+    "Fiat"
+  ],
+  "icon": "icons/asset/chinese-yuan.svg"
+}
