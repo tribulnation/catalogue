@@ -71,7 +71,7 @@ class CoingeckoPricing(Pricing):
     usd = (await self.client.coins.markets.get(vs_currency='usd', ids=reference_asset))[0].current_price
     other = (await self.client.coins.markets.get(vs_currency=currency, ids=reference_asset))[0].current_price
     if usd and other:
-      return  round_price(Decimal(other) / Decimal(usd))
+      return  round_price(Decimal(usd) / Decimal(other))
       
     
   @wrap_exceptions

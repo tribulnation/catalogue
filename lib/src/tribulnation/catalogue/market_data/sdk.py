@@ -3,7 +3,6 @@ from dataclasses import dataclass
 from abc import ABC, abstractmethod
 from decimal import Decimal
 from datetime import datetime
-import asyncio
 
 from tribulnation.sdk import SDK
 from tribulnation.catalogue import ExternalSource
