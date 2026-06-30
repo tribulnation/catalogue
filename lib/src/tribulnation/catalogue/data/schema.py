@@ -1,4 +1,4 @@
-from typing_extensions import TypedDict, NotRequired, Literal
+from typing_extensions import TypedDict, NotRequired, Literal, Mapping
 from datetime import datetime
 
 Locale = Literal['ca', 'es', 'en']
@@ -38,11 +38,8 @@ class SpamAddress(TypedDict, total=False):
   source: str
   reported_at: datetime
 
-class ExternalIds(TypedDict, total=False):
-  coingecko: str
-  coinmarketcap: str
-  twelvedata: str
-  alphavantage: str
+ExternalSource = Literal['coingecko', 'coinmarketcap', 'twelvedata', 'alphavantage']
+ExternalIds = Mapping[ExternalSource, str]
 
 class AssetPeg(TypedDict):
   asset: str
