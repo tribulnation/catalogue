@@ -8,6 +8,10 @@ Use the CoinGecko asset ID.
 
 Example: `bitcoin`
 
+Also supports currencies listed in https://docs.coingecko.com/reference/simple-supported-currencies, using the `currency:` prefix.
+
+Example: `currency:gbp`
+
 ## CoinMarketCap
 
 Use the CoinMarketCap numeric asset ID as a string.
