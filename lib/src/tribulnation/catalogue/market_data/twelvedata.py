@@ -1,4 +1,4 @@
-from typing_extensions import Literal, Sequence, Mapping, Any
+from typing_extensions import Literal, Collection, Mapping, Any
 from dataclasses import dataclass, field
 from datetime import datetime
 from decimal import Decimal
@@ -11,7 +11,7 @@ from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
 from typed_core import HttpClient
 
 from .coingecko import round_price
-from .sdk import Pricing, Price
+from .sdk import Pricing, Price, Stats
 
 
 BASE_URL = 'https://api.twelvedata.com'
@@ -108,7 +108,7 @@ class TwelveDataPricing(Pricing):
     return cls(quote=quote, params=params)
 
   @wrap_exceptions
-  async def current_prices(self, ids: Sequence[str]) -> dict[str, Decimal]:
+  async def current_stats(self, ids: Collection[str]) -> dict[str, Stats]:
     if not ids:
       return {}
     r = await self.client.request(
@@ -118,21 +118,23 @@ class TwelveDataPricing(Pricing):
     r.raise_for_status()
     data: Any = r.json()
 
-    out: dict[str, Decimal] = {}
+    out: dict[str, Stats] = {}
     if len(ids) == 1:
+      id = next(iter(ids))
       # Single symbol: response is {price: "..."} or {code, message, status}
       if data.get('status') == 'error':
         _raise_body_error(data)
       if 'price' in data:
-        out[ids[0]] = round_price(TdPrice.model_validate(data).price)
+        out[id] = Stats(price=round_price(TdPrice.model_validate(data).price))
     else:
       # Multiple symbols: response is {symbol: {price: "..."}, ...}
       # Symbols with errors have {code, message, status} instead — skip them
       for symbol in ids:
         entry = data.get(symbol)
         if isinstance(entry, Mapping) and 'price' in entry:
-          out[symbol] = round_price(TdPrice.model_validate(entry).price)
+          out[symbol] = Stats(price=round_price(TdPrice.model_validate(entry).price))
     return out
+
 
   @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
@@ -154,6 +156,3 @@ class TwelveDataPricing(Pricing):
       return None
     entry = data.values[0]
     return Price(price=round_price(entry.close), time=_parse_dt(entry.datetime))
-
-  async def market_cap(self, id: str) -> Decimal | None:
-    raise NotImplementedError

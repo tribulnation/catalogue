@@ -1,3 +1,6 @@
+from typing import Collection
+
+from tribulnation.catalogue.market_data.sdk import Stats
 from typing_extensions import Literal, Mapping, Any
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -142,6 +145,13 @@ class AlphaVantagePricing(Pricing):
         point_value = point.get('value', '.')
         if point_value != '.':
           return round_price(Decimal(point_value))
+        
+  async def current_stats(self, ids: Collection[str]) -> Mapping[str, Stats]:
+    results: dict[str, Stats] = {}
+    for id in ids:
+      price = await self.current_price(id)
+      results[id] = Stats(price=price)
+    return results
 
   @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
@@ -193,5 +203,3 @@ class AlphaVantagePricing(Pricing):
             dt = datetime.strptime(date_str, '%Y-%m-%d')
             return Price(price=round_price(Decimal(point_value)), time=dt)
 
-  async def market_cap(self, id: str) -> Decimal | None:
-    raise NotImplementedError

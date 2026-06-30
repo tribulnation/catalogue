@@ -1,6 +1,7 @@
-from typing_extensions import Iterable, TypeVar, Literal, Sequence
+from typing_extensions import Iterable, TypeVar, Literal, Collection
 from dataclasses import dataclass
 from datetime import datetime, timedelta
+
 from decimal import Decimal
 import itertools
 import functools
@@ -9,7 +10,7 @@ import httpx
 import coingecko_sdk
 from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
 
-from .sdk import Pricing, Price
+from .sdk import Pricing, Price, Stats
 
 T = TypeVar('T')
 
@@ -64,31 +65,58 @@ class CoingeckoPricing(Pricing):
     client = coingecko_sdk.AsyncCoingecko() if env is None else coingecko_sdk.AsyncCoingecko(environment=env)
     return cls(client=client, quote=quote)
   
-  @Pricing.method
   @wrap_exceptions
-  async def current_prices(self, ids: Sequence[str]) -> dict[str, Decimal]:
-    out: dict[str, Decimal] = {}
-    for ids_batch in batch(ids, 100):
+  async def currency_price(self, currency: str, *, reference_asset: str = 'bitcoin') -> Decimal | None:
+    """Deduce the price of a currency by comparing price of a given reference asset in both the currency and USD"""
+    usd = (await self.client.coins.markets.get(vs_currency='usd', ids=reference_asset))[0].current_price
+    other = (await self.client.coins.markets.get(vs_currency=currency, ids=reference_asset))[0].current_price
+    if usd and other:
+      return  round_price(Decimal(other) / Decimal(usd))
+      
+    
+  @wrap_exceptions
+  async def currency_historical_price(self, currency: str, time: datetime, *, reference_asset: str = 'bitcoin') -> Price | None:
+    """Deduce the historical price of a currency by comparing price of a given reference asset in both the currency and USD"""
+    date = round_date(time)
+    r = await self.client.coins.history.get(reference_asset, date=date.strftime('%Y-%m-%d'))
+    if price := r.market_data.current_price:
+      usd = price.get('usd')
+      other = price.get(currency)
+      if usd and other:
+        price = round_price(Decimal(other) / Decimal(usd))
+        return Price(price=price, time=date)
+
+
+  @wrap_exceptions
+  async def current_stats(self, ids: Collection[str]) -> dict[str, Stats]:
+    out: dict[str, Stats] = {}
+    currency_ids = {id for id in ids if id.startswith('currency:')}
+    normal_ids = [id for id in ids if id not in currency_ids]
+
+    for ids_batch in batch(normal_ids, 100):
       r = await self.client.coins.markets.get(vs_currency=self.quote, ids=','.join(ids_batch))
       for coin in r:
+        s = out.setdefault(coin.id, Stats())
         if (p := coin.current_price) is not None:
-          out[coin.id] = round_price(Decimal(p))
+          s.price = round_price(Decimal(p))
+        if (c := coin.market_cap) is not None:
+          s.market_cap = round(Decimal(c), 2)
+
+    for currency in currency_ids:
+      if price := await self.currency_price(currency.removeprefix('currency:')):
+        out[currency] = Stats(price=price)
+
     return out
+  
 
   @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
-    date = round_date(time)
-    r = await self.client.coins.history.get(id, date=date.strftime('%Y-%m-%d'))
-    if price := (r.market_data.current_price or {}).get(self.quote):
-      return Price(price=round_price(Decimal(price)), time=date)
+    if id.startswith('currency:'):
+      return await self.currency_historical_price(id.removeprefix('currency:'), time)
+    else:
+      date = round_date(time)
+      r = await self.client.coins.history.get(id, date=date.strftime('%Y-%m-%d'))
+      if price := (r.market_data.current_price or {}).get(self.quote):
+        return Price(price=round_price(Decimal(price)), time=date)
 
-  @wrap_exceptions
-  async def market_caps(self, ids: Sequence[str]) -> dict[str, Decimal]:
-    out: dict[str, Decimal] = {}
-    for ids_batch in batch(ids, 100):
-      r = await self.client.coins.markets.get(vs_currency=self.quote, ids=','.join(ids_batch))
-      for coin in r:
-        if (c := coin.market_cap) is not None:
-          out[coin.id] = round(Decimal(c), 2)
-    return out
 

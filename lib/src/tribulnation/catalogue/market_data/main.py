@@ -1,144 +1,124 @@
-from typing_extensions import Mapping, Literal, TYPE_CHECKING, TypeVar, TypedDict, Unpack
-from dataclasses import dataclass
-from decimal import Decimal
+from typing_extensions import Any, Mapping
+from dataclasses import dataclass, field
 from datetime import datetime
+import asyncio
 
-from tribulnation.sdk import SDK
-from tribulnation.catalogue import Asset
-from .sdk import Pricing
-import logging
-
-default_logger = logging.getLogger(__name__)
-
-S = TypeVar('S', bound=SDK)
-
-class RetryConfig(TypedDict, total=False):
-  max_retries: int | None
-  base_delay: float
-  max_delay: float | None
-
-def retried(sdk: S, **kwargs: Unpack[RetryConfig]) -> S:
-  from tribulnation.sdk.core import instrument, exponential_retry, NetworkError, RateLimited
-  return instrument(sdk, exponential_retry(NetworkError, RateLimited, **kwargs))
-
-if TYPE_CHECKING:
-  from .coingecko import CoingeckoQuote
-  from .coinmarketcap import CoinMarketCapQuote
-  from .twelvedata import TwelveDataQuote
-  from .alphavantage import AlphaVantageQuote
-
-Quote = Literal['eur', 'usd']
-Source = Literal['coingecko', 'coinmarketcap', 'twelvedata', 'alphavantage']
+from tribulnation.sdk import Context, Error
+from tribulnation.catalogue import Asset, ExternalSource
+from .sdk import Pricing, Price, Stats, Quote
 
 @dataclass
 class MarketData:
-  sources: Mapping[str, Pricing]
-  logger: logging.Logger | None = default_logger
+  Context = Context
+  Quote = Quote
+  Source = ExternalSource
+  
+  sources: Mapping[Source, Pricing]
+  ctx: Context = field(default_factory=Context)
 
   @classmethod
   def new(
-    cls, quote: Quote, *sources: Source,
-    logger: logging.Logger | None = default_logger,
-    **retry: Unpack[RetryConfig],
+    cls, *sources: Source,
+    quote: Quote = 'usd',
+    ctx: Context | None = None,
   ):
+    """Construct a new `MarketData` instance with multiple sources."""
     if not sources:
       raise ValueError('Must specify at least one source')
 
-    built: dict[str, Pricing] = {}
-    for source in sources:
-      if source == 'coingecko':
-        from .coingecko import CoingeckoPricing
-        built['coingecko'] = CoingeckoPricing.new(quote=quote)
-      elif source == 'coinmarketcap':
-        from .coinmarketcap import CoinMarketCapPricing
-        built['coinmarketcap'] = CoinMarketCapPricing.new(quote=quote)
-      elif source == 'twelvedata':
-        from .twelvedata import TwelveDataPricing
-        q = 'USD' if quote == 'usd' else 'EUR'
-        built['twelvedata'] = TwelveDataPricing.new(quote=q)
-      elif source == 'alphavantage':
-        from .alphavantage import AlphaVantagePricing
-        q = 'USD' if quote == 'usd' else 'EUR'
-        built['alphavantage'] = AlphaVantagePricing.new(quote=q)
-      else:
-        raise ValueError(f'Unknown source: {source!r}')
-
-    built = {k: retried(v, **retry) for k, v in built.items()}
-    return cls(sources=built, logger=logger)
+    sdks: dict[ExternalSource, Pricing] = {source: Pricing.of(source, quote=quote) for source in sources}
+    return cls(sources=sdks, ctx=ctx or Context())
 
 
-  @classmethod
-  def coingecko(cls, quote: 'CoingeckoQuote', *, demo: bool):
-    from .coingecko import CoingeckoPricing
-    coingecko = CoingeckoPricing.new(env='demo' if demo else 'pro', quote=quote)
-    return cls(sources={
-      'coingecko': coingecko,
-    })
+  async def historical_price(self, asset: Asset, time: datetime) -> tuple[Price|None, Mapping[Source, Error]]:
+    """Fetch the historical price of an asset at a specific time from the first available source.
+    
+    Returns:
+      (price, errors):
+        - `price`: the historical price of the asset at the specified time (or `None` if not found), and
+        - `errors`: a mapping of sources to any errors encountered while fetching the price.
+    """
+    errors: dict[ExternalSource, Error] = {}
+    with self.ctx.use():
+      for source, id in asset.get('external', {}).items():
+        if sdk := self.sources.get(source):
+          try:
+            if (price := await sdk.historical_price(id, time)) is not None:
+              return price, errors
+          except Error as e:
+            errors[source] = e
+      
+    return None, errors
+
+
+  async def current_stats(self, assets: Mapping[str, Asset]) -> tuple[Mapping[str, Stats], Mapping[Source, Error]]:
+    """Fetch the current stats of multiple assets from all available sources.
+
+    Returns:
+      (stats, errors):
+        - `stats`: a mapping of asset IDs to their current stats, and
+        - `errors`: a mapping of sources to any errors encountered while fetching the prices.
+    """
+    async def source_stats(src: MarketData.Source, map: dict[str, str]) -> tuple[dict[str, Stats], Mapping[ExternalSource, Error]]:
+      sdk = self.sources[src]
+      try:
+        stats = await sdk.current_stats(list(map))
+        result = {map[ext_id]: s for ext_id, s in stats.items()}
+        return result, {}
+      except Error as e:
+        return {}, {src: e}
+
+    remaining = dict(assets)
+    all_stats: dict[str, Stats] = {}
+    all_errors: dict[ExternalSource, Error] = {}
+    failed_sources: set[ExternalSource] = set()
+
+    while remaining:
+      available: dict[ExternalSource, Pricing] = {src: sdk for src, sdk in self.sources.items() if src not in failed_sources}
+      source_maps = classify_sources(remaining, available)
+      if not any(source_maps.values()):
+        break
+
+      with self.ctx.use():
+        results = await asyncio.gather(*[
+          source_stats(src, map)
+          for src, map in source_maps.items() if map
+        ])
+
+      had_failure = False
+      for (src, map), (result, error) in zip(
+        ((s, m) for s, m in source_maps.items() if m), results
+      ):
+        all_stats.update(result)
+        if error:
+          all_errors.update(error)
+          failed_sources.add(src) # type: ignore
+          had_failure = True
+        else:
+          for asset_id in map.values():
+            remaining.pop(asset_id, None)
+
+      if not had_failure:
+        break
+
+    for id, asset in assets.items():
+      if id not in all_stats:
+        if (peg := asset.get('pegged_to')) and (peg_stats := all_stats.get(peg['asset'])):
+          all_stats[id] = Stats(price=peg_stats.price)
+
+    return all_stats, all_errors
+    
+
+def classify_sources(assets: Mapping[str, Asset], sources: Mapping[ExternalSource, Any]) -> dict[ExternalSource, dict[str, str]]:
+  external: dict[ExternalSource, dict[str, str]] = {
+    src: {}
+    for src in sources
+  }
+
+  for id, asset in assets.items():
+    for src, external_id in asset.get('external', {}).items():
+      if src in external:
+        external[src][external_id] = id
+        break
   
-  @classmethod
-  def coinmarketcap(cls, quote: 'CoinMarketCapQuote'):
-    from .coinmarketcap import CoinMarketCapPricing
-    coinmarketcap = CoinMarketCapPricing.new(quote=quote)
-    return cls(sources={
-      'coinmarketcap': coinmarketcap,
-    })
-
-  @classmethod
-  def twelvedata(cls, quote: 'TwelveDataQuote' = 'USD'):
-    from .twelvedata import TwelveDataPricing
-    pricing = TwelveDataPricing.new(quote=quote)
-    return cls(sources={
-      'twelvedata': pricing,
-    })
-
-  @classmethod
-  def alphavantage(cls, quote: 'AlphaVantageQuote' = 'USD'):
-    from .alphavantage import AlphaVantagePricing
-    pricing = AlphaVantagePricing.new(quote=quote)
-    return cls(sources={
-      'alphavantage': pricing,
-    })
-
-  async def current_price(self, asset: Asset) -> Decimal | None:
-    exc: Exception | None = None
-    for source, id in asset.get('external', {}).items():
-      if sdk := self.sources.get(source):
-        try:
-          if (price := await sdk.current_price(id)) is not None: # type: ignore
-            return price
-        except Exception as e:
-          if self.logger is not None:
-            self.logger.error(f"Error fetching price from {source}: {e}")
-          exc = e
-    if exc is not None:
-      raise exc
-
-
-  async def historical_price(self, asset: Asset, time: datetime):
-    exc: Exception | None = None
-    for source, id in asset.get('external', {}).items():
-      if sdk := self.sources.get(source):
-        try:
-          if (price := await sdk.historical_price(id, time)) is not None: # type: ignore
-            return price
-        except Exception as e:
-          if self.logger is not None:
-            self.logger.error(f"Error fetching historical price from {source}: {e}")
-          exc = e
-    if exc is not None:
-      raise exc
-
-
-  async def market_cap(self, asset: Asset) -> Decimal | None:
-    exc: Exception | None = None
-    for source, id in asset.get('external', {}).items():
-      if sdk := self.sources.get(source):
-        try:
-          if (market_cap := await sdk.market_cap(id)) is not None: # type: ignore
-            return market_cap
-        except Exception as e:
-          if self.logger is not None:
-            self.logger.error(f"Error fetching market cap from {source}: {e}")
-          exc = e
-    if exc is not None:
-      raise exc
+  return external

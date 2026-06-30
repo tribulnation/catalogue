@@ -1,4 +1,4 @@
-from typing_extensions import Any, Literal, Mapping, Sequence
+from typing_extensions import Any, Collection, Literal, Mapping, Sequence
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from decimal import Decimal
@@ -11,7 +11,7 @@ from typed_core import HttpClient
 from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
 
 from .coingecko import batch, round_date, round_price
-from .sdk import Pricing, Price
+from .sdk import Pricing, Price, Stats
 
 
 def _quote_symbol(quote: str) -> str:
@@ -167,8 +167,8 @@ class CoinMarketCapPricing(Pricing):
     return cls(quote=quote, headers=headers)
 
   @wrap_exceptions
-  async def current_prices(self, ids: Sequence[str]) -> dict[str, Decimal]:
-    out: dict[str, Decimal] = {}
+  async def current_stats(self, ids: Collection[str]) -> dict[str, Stats]:
+    out: dict[str, Stats] = {}
     for ids_batch in batch(ids, 100):
       r = await self.client.request(
         'GET', f'{self.base_url}/v3/cryptocurrency/quotes/latest',
@@ -183,31 +183,12 @@ class CoinMarketCapPricing(Pricing):
       data = CmcLatestResponse.model_validate(r.json())
 
       for coin in data.data:
-        quote = coin.quote.get(_quote_symbol(self.quote))
-        if quote is not None:
-          out[str(coin.id)] = round_price(quote.price)
-    return out
-
-  @wrap_exceptions
-  async def market_caps(self, ids: Sequence[str]) -> dict[str, Decimal]:
-    out: dict[str, Decimal] = {}
-    for ids_batch in batch(ids, 100):
-      r = await self.client.request(
-        'GET', f'{self.base_url}/v3/cryptocurrency/quotes/latest',
-        headers=self.headers,
-        params={
-          'id': ','.join(ids_batch),
-          'convert': _quote_symbol(self.quote),
-          'skip_invalid': 'true',
-        },
-      )
-      r.raise_for_status()
-      data = CmcLatestResponse.model_validate(r.json())
-
-      for coin in data.data:
-        quote = coin.quote.get(_quote_symbol(self.quote))
-        if quote is not None and quote.market_cap is not None:
-          out[str(coin.id)] = round(quote.market_cap, 2)
+        q = coin.quote.get(_quote_symbol(self.quote))
+        if q is not None:
+          out[str(coin.id)] = Stats(
+            price=round_price(q.price),
+            market_cap=round(q.market_cap, 2) if q.market_cap is not None else None,
+          )
     return out
 
   @wrap_exceptions
