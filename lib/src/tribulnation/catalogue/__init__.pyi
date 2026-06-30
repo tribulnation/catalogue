@@ -3,17 +3,17 @@
 Central catalogue of (crypto-)assets, platforms and networks.
 """
 from .data import (
-  Asset, AssetPeg, ExternalIds,
+  Asset, AssetPeg, ExternalIds, ExternalSource,
   BasePlatform, CexPlatform, DexPlatform, Blockchain, BlockchainCategory,
   BlockchainNamespace, Platform,
-  Catalogue, Spot, Perpetual, Debt, Collateral, Pool, SpamAddress,
+  Catalogue, Spot, Perpetual, Debt, Pool, SpamAddress,
 )
-from .market_data import MarketData
+from .market_data import MarketData, Pricing
 
 __all__ = [
-  'Asset', 'AssetPeg', 'ExternalIds',
+  'Asset', 'AssetPeg', 'ExternalIds', 'ExternalSource',
   'BasePlatform', 'CexPlatform', 'DexPlatform', 'Blockchain', 'BlockchainCategory',
   'BlockchainNamespace', 'Platform',
-  'Catalogue', 'Spot', 'Perpetual', 'Debt', 'Collateral', 'Pool', 'SpamAddress',
-  'MarketData',
+  'Catalogue', 'Spot', 'Perpetual', 'Debt', 'Pool', 'SpamAddress',
+  'MarketData', 'Pricing',
 ]
