@@ -7,10 +7,14 @@
     "ca": "L'euro \u00e9s la moneda oficial de la zona euro i una de les principals monedes fiat del m\u00f3n. En contextos cripto i de trading, EUR s'utilitza com a actiu fiat de refer\u00e8ncia per a saldos, preus, dip\u00f2sits, retirades i productes recolzats per euros."
   },
   "external": {
-    "twelvedata": "EUR/USD"
+    "twelvedata": "EUR/USD",
+    "coingecko": "currency:eur"
   },
   "tags": [
     "Fiat"
   ],
-  "icon": "icons/asset/euro.svg"
+  "icon": "icons/asset/euro.svg",
+  "urls": {
+    "Website": "https://www.ecb.europa.eu/"
+  }
 }

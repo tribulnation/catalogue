@@ -7,10 +7,14 @@
     "ca": "La lliura esterlina es la moneda oficial del Regne Unit i una de les principals monedes fiat del mon. En contextos cripto i de trading, GBP s'utilitza com a actiu fiat de referencia per a saldos, preus, diposits, retirades i productes recolzats per lliures."
   },
   "external": {
-    "twelvedata": "GBP/USD"
+    "twelvedata": "GBP/USD",
+    "coingecko": "currency:gbp"
   },
   "tags": [
     "Fiat"
   ],
-  "icon": "icons/asset/british-pound.svg"
+  "icon": "icons/asset/british-pound.svg",
+  "urls": {
+    "Website": "https://www.bankofengland.co.uk/"
+  }
 }

@@ -7,10 +7,14 @@
     "ca": "El franc suis es la moneda oficial de Suissa i Liechtenstein i una moneda fiat global important. En contextos cripto i de trading, CHF s'utilitza com a actiu fiat de referencia per a saldos, preus, diposits, retirades i productes recolzats per francs."
   },
   "external": {
-    "twelvedata": "CHF/USD"
+    "twelvedata": "CHF/USD",
+    "coingecko": "currency:chf"
   },
   "tags": [
     "Fiat"
   ],
-  "icon": "icons/asset/swiss-franc.svg"
+  "icon": "icons/asset/swiss-franc.svg",
+  "urls": {
+    "Website": "https://www.snb.ch/"
+  }
 }

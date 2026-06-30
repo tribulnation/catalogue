@@ -9,5 +9,11 @@
   "tags": [
     "Fiat"
   ],
-  "icon": "icons/asset/turkish-lira.svg"
+  "icon": "icons/asset/turkish-lira.svg",
+  "external": {
+    "coingecko": "currency:try"
+  },
+  "urls": {
+    "Website": "https://www.tcmb.gov.tr/"
+  }
 }

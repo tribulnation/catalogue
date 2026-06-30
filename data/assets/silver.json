@@ -8,7 +8,11 @@
   },
   "external": {
     "coinmarketcap": "39343",
-    "twelvedata": "XAG/USD"
+    "twelvedata": "XAG/USD",
+    "coingecko": "currency:xag"
   },
-  "icon": "icons/asset/silver.svg"
+  "icon": "icons/asset/silver.svg",
+  "urls": {
+    "Website": "https://www.lbma.org.uk/"
+  }
 }

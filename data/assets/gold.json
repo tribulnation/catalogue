@@ -7,10 +7,14 @@
     "ca": "L'or és un metall preciós i una de les reserves de valor més antigues del món, negociat globalment sota el símbol XAU. És utilitzat com a actiu de reserva pels bancs centrals, cobertura contra la inflació i la devaluació de divises, i com a matèria primera de referència als mercats financers. En contextos cripto, XAU és l'actiu de referència per a tokens vinculats a l'or, stablecoins recolzades per or i derivats sobre matèries primeres."
   },
   "external": {
-    "twelvedata": "XAU/USD"
+    "twelvedata": "XAU/USD",
+    "coingecko": "currency:xau"
   },
   "tags": [
     "Commodity"
   ],
-  "icon": "icons/asset/gold.svg"
+  "icon": "icons/asset/gold.svg",
+  "urls": {
+    "Website": "https://www.lbma.org.uk/"
+  }
 }
