@@ -96,20 +96,25 @@ catalogue = Catalogue.load('data')       # explicit local folder
 
 ### Pricing
 
-`MarketData` resolves prices for catalogue assets using one or more external providers. Providers are selected by flag and picked in order — the first one that returns a price wins.
+`MarketData` fetches prices and market caps for catalogue assets using one or more external providers. Requests are batched per provider and run in parallel. If a provider fails, assets fall back to the next configured provider that covers them.
 
 ```python
 from tribulnation.catalogue import Catalogue, MarketData
 
 catalogue = Catalogue.load()
-sdk = MarketData.new('usd', 'coingecko', 'twelvedata')
+sdk = MarketData.new('coingecko', 'twelvedata', quote='usd')
 
-btc   = catalogue.assets['bitcoin']
-gold  = catalogue.assets['gold']
+# Fetch all assets in one batched call
+stats, errors = await sdk.current_stats(catalogue.assets)
 
-price     = await sdk.current_price(btc)   # via CoinGecko
-xau_price = await sdk.current_price(gold)  # via Twelve Data
+btc = stats.get('bitcoin')  # Stats(price=Decimal('...'), market_cap=Decimal('...'))
+xau = stats.get('gold')     # Stats(price=Decimal('...')) — via Twelve Data
+
+# Historical price for a single asset
+price, errors = await sdk.historical_price(catalogue.assets['bitcoin'], datetime(2024, 1, 1))
 ```
+
+Assets with a `pegged_to` field (e.g. XAUT → gold, cbBTC → bitcoin) automatically inherit the pegged asset's price if no direct price is found.
 
 Each provider reads its API key from the environment:
 
@@ -121,18 +126,6 @@ Each provider reads its API key from the environment:
 | Alpha Vantage | `'alphavantage'` | `ALPHAVANTAGE_API_KEY` | US stocks, USD forex, energy & agricultural commodities |
 
 † XAG requires a paid Twelve Data plan.
-
-Retry on network errors and rate limits is on by default. Configure with `max_retries`, `base_delay`, and `max_delay`:
-
-```python
-sdk = MarketData.new('usd', 'coingecko', max_retries=3, base_delay=2.0)
-```
-
-Provider errors are logged via Python's standard `logging` module. Pass `logger=None` to silence them:
-
-```python
-sdk = MarketData.new('usd', 'coingecko', logger=None)
-```
 
 Provider IDs have provider-specific semantics, especially for forex, commodities, and stock symbols. See [External IDs](docs/external.md) for the conventions.
 

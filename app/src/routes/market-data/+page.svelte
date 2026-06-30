@@ -13,8 +13,9 @@
 		<h1>Market Data</h1>
 		<p class="intro">
 			Fetch current prices, historical prices, and market caps for any catalogue asset — crypto,
-			forex, commodities — via third-party providers. Configure one or more sources and
-			<code>MarketData</code> handles routing, fallback, and retries automatically.
+			forex, commodities — via third-party providers. <code>MarketData</code> batches requests per
+			provider and runs them in parallel. If a provider fails, assets fall back to the next
+			configured source automatically.
 		</p>
 
 		<section>
@@ -69,20 +70,6 @@
 				</table>
 			</div>
 			<p class="footnote">† XAG requires a paid Twelve Data plan.</p>
-		</section>
-
-		<section>
-			<h2>Retry &amp; logging</h2>
-			<p>
-				Retries on network errors and rate limits are on by default. Configure with
-				<code>max_retries</code>, <code>base_delay</code>, and <code>max_delay</code>:
-			</p>
-			<CodeBlock {...blocks.retry} />
-			<p>
-				Provider errors are logged via Python's standard <code>logging</code> module. Pass
-				<code>logger=None</code> to silence them:
-			</p>
-			<CodeBlock {...blocks.logger} />
 		</section>
 
 		<section>

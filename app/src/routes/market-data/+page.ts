@@ -6,19 +6,16 @@ const QUICKSTART = `\
 from tribulnation.catalogue import Catalogue, MarketData
 
 catalogue = Catalogue.load()
-sdk = MarketData.new('usd', 'coingecko', 'twelvedata')
+sdk = MarketData.new('coingecko', 'twelvedata', quote='usd')
 
-btc  = catalogue.assets['bitcoin']
-gold = catalogue.assets['gold']
+# Fetch all assets in one batched call
+stats, errors = await sdk.current_stats(catalogue.assets)
 
-price     = await sdk.current_price(btc)    # via CoinGecko
-xau_price = await sdk.current_price(gold)   # via Twelve Data
-mc        = await sdk.market_cap(btc)       # market cap in USD
-hist      = await sdk.historical_price(btc, datetime(2024, 1, 1))`;
+btc = stats.get('bitcoin')  # Stats(price=Decimal('...'), market_cap=Decimal('...'))
+xau = stats.get('gold')     # Stats(price=Decimal('...')) — via Twelve Data
 
-const RETRY = `sdk = MarketData.new('usd', 'coingecko', max_retries=3, base_delay=2.0)`;
-
-const LOGGER = `sdk = MarketData.new('usd', 'coingecko', logger=None)`;
+# Historical price for a single asset
+price, errors = await sdk.historical_price(catalogue.assets['bitcoin'], datetime(2024, 1, 1))`;
 
 const EXTERNAL_IDS = `\
 # data/assets/bitcoin.json
@@ -39,8 +36,6 @@ export async function load() {
 		blocks: {
 			install: await h(INSTALL, 'bash'),
 			quickstart: await h(QUICKSTART, 'python'),
-			retry: await h(RETRY, 'python'),
-			logger: await h(LOGGER, 'python'),
 			externalIds: await h(EXTERNAL_IDS, 'jsonc')
 		}
 	};
