@@ -1,6 +1,7 @@
 from typing_extensions import Any, Mapping
 from dataclasses import dataclass, field
 from datetime import datetime
+from decimal import Decimal
 import asyncio
 
 from tribulnation.sdk import Context, Error
@@ -50,6 +51,19 @@ class MarketData:
       
     return None, errors
 
+  async def current_price(self, asset: Asset) -> tuple[Decimal|None, Mapping[Source, Error]]:
+    """Fetch the current price of an asset from the first available source.
+    
+    Returns:
+      (price, errors):
+        - `price`: the current price of the asset (or `None` if not found), and
+        - `errors`: a mapping of sources to any errors encountered while fetching the price.
+    """
+    stats, errors = await self.current_stats({'': asset})
+    if (s := stats.get('')) is not None:
+      return s.price, errors
+    else:
+      return None, errors
 
   async def current_stats(self, assets: Mapping[str, Asset]) -> tuple[Mapping[str, Stats], Mapping[Source, Error]]:
     """Fetch the current stats of multiple assets from all available sources.
