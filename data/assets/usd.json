@@ -10,6 +10,9 @@
     "Fiat"
   ],
   "icon": "icons/asset/usd.svg",
+  "external": {
+    "coingecko": "currency:usd"
+  },
   "urls": {
     "Website": "https://www.federalreserve.gov/"
   }
