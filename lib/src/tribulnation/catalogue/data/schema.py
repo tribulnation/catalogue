@@ -38,7 +38,7 @@ class SpamAddress(TypedDict, total=False):
   source: str
   reported_at: datetime
 
-ExternalSource = Literal['coingecko', 'coinmarketcap', 'twelvedata', 'alphavantage']
+ExternalSource = Literal['coingecko', 'coinmarketcap', 'twelvedata', 'alphavantage', 'fred']
 ExternalIds = Mapping[ExternalSource, str]
 
 class AssetPeg(TypedDict):
@@ -77,4 +77,3 @@ class Blockchain(BasePlatform):
   namespace: NotRequired[BlockchainNamespace]
 
 Platform = CexPlatform | DexPlatform | Blockchain
-

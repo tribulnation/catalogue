@@ -42,3 +42,15 @@ Only USD quotes are supported.
 Historical forex uses `FX_DAILY` with `from_symbol=<currency>` and `to_symbol=USD`.
 
 Stocks must be USD-listed symbols. Commodities must be Alpha Vantage commodity functions whose series is treated as USD-denominated.
+
+## FRED
+
+Use the FRED series ID directly when the series value is already USD per asset.
+
+Examples: `DCOILWTICO`, `DCOILBRENTEU`, `DHHNGSP`, `DEXUSEU`
+
+Use the `inverse:` prefix when FRED reports asset units per USD and the SDK should return USD per asset.
+
+Examples: `inverse:DEXJPUS`, `inverse:DEXCAUS`, `inverse:DEXSZUS`
+
+FRED is daily reference data, not real-time market data. Current pricing uses the latest published non-empty observation. Historical pricing returns exact-date observations only and does not forward-fill weekends or holidays.

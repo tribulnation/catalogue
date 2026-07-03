@@ -8,7 +8,8 @@
   },
   "external": {
     "coingecko": "currency:jpy",
-    "twelvedata": "JPY/USD"
+    "twelvedata": "JPY/USD",
+    "fred": "inverse:DEXJPUS"
   },
   "tags": [
     "Fiat"

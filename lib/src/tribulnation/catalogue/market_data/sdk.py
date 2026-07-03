@@ -37,6 +37,10 @@ class Pricing(SDK, ABC):
       from .alphavantage import AlphaVantagePricing
       q = 'USD' if quote == 'usd' else 'EUR'
       return AlphaVantagePricing.new(quote=q)
+    elif source == 'fred':
+      from .fred import FredPricing
+      q = 'USD' if quote == 'usd' else 'EUR'
+      return FredPricing.new(quote=q)
     else:
       raise ValueError(f'Unknown source: {source!r}')
 

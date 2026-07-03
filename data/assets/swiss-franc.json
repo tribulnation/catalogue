@@ -8,7 +8,8 @@
   },
   "external": {
     "twelvedata": "CHF/USD",
-    "coingecko": "currency:chf"
+    "coingecko": "currency:chf",
+    "fred": "inverse:DEXSZUS"
   },
   "tags": [
     "Fiat"

@@ -10,6 +10,8 @@ class ExternalIds(BaseModel):
   """Twelve Data symbol"""
   alphavantage: str | None = None
   """Alpha Vantage function or forex pair"""
+  fred: str | None = None
+  """FRED series ID"""
 
 class AssetPeg(BaseModel):
   asset: str
