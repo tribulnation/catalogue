@@ -96,7 +96,7 @@ class FredPricing(Pricing):
       if value in {None, '', '.'}:
         continue
       try:
-        price = _apply_transform(Decimal(value), transform)
+        price = _apply_transform(Decimal(value), transform) # type: ignore
       except Exception as e:
         raise ApiError(f'Invalid FRED observation for {series_id}: {value!r}') from e
       rows.append((datetime.strptime(row['observation_date'], '%Y-%m-%d'), round_price(price)))
