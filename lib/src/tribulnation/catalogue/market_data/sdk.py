@@ -1,4 +1,4 @@
-from typing_extensions import Collection, Mapping, Literal, overload
+from typing_extensions import Collection, Mapping, Literal
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
 from decimal import Decimal
@@ -7,6 +7,7 @@ from datetime import datetime
 from tribulnation.sdk import SDK
 from tribulnation.catalogue import ExternalSource
 
+Source = ExternalSource | Literal['catalogue-pro']
 Quote = Literal['eur', 'usd']
 
 @dataclass
@@ -21,7 +22,7 @@ class Stats:
 
 class Pricing(SDK, ABC):
   @staticmethod
-  def of(source: ExternalSource, *, quote: Quote = 'usd') -> 'Pricing':
+  def of(source: Source, *, quote: Quote = 'usd') -> 'Pricing':
     """"""
     if source == 'coingecko':
       from .coingecko import CoingeckoPricing
@@ -41,6 +42,9 @@ class Pricing(SDK, ABC):
       from .fred import FredPricing
       q = 'USD' if quote == 'usd' else 'EUR'
       return FredPricing.new(quote=q)
+    elif source == 'catalogue-pro':
+      from .catalogue_pro import CatalogueProPricing
+      return CatalogueProPricing.new()
     else:
       raise ValueError(f'Unknown source: {source!r}')
 
