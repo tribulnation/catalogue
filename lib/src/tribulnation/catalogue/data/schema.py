@@ -45,6 +45,7 @@ class AssetPeg(TypedDict):
   asset: str
 
 class Asset(TypedDict):
+  id: str
   display_name: str
   symbol: str
   about: NotRequired[Translations]
