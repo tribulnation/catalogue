@@ -1,9 +1,8 @@
-from typing_extensions import Iterable, TypeVar, Literal, Collection
+from typing_extensions import Literal, Collection
 from dataclasses import dataclass
-from datetime import datetime, timedelta
+from datetime import datetime
 
 from decimal import Decimal
-import itertools
 import functools
 
 import httpx
@@ -11,31 +10,7 @@ import coingecko_sdk
 from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
 
 from .sdk import Pricing, Price, Stats
-
-T = TypeVar('T')
-
-def batch(iterable: Iterable[T], size: int) -> Iterable[list[T]]:
-  it = iter(iterable)
-  batch = list(itertools.islice(it, size))
-  while batch:
-    yield batch
-    batch = list(itertools.islice(it, size))
-
-def round_price(price: Decimal):
-  if price >= 0.1:
-    return round(price, 2)
-  else:
-    _, digits, exp = price.as_tuple()
-    if not isinstance(exp, int):
-      raise ValueError(f'{price} has non-integer exponent')
-    first_digit_exp = abs(exp) - len(digits) + 1
-    digits = first_digit_exp + 2
-    return round(price, digits)
-
-def round_date(date: datetime):
-  if date.hour > 12:
-    date = date + timedelta(days=1)
-  return date
+from .util import round_price, round_date, batch
 
 
 def wrap_exceptions(f):

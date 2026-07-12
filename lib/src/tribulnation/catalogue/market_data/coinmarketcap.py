@@ -10,7 +10,7 @@ import httpx
 from typed_core import HttpClient
 from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
 
-from .coingecko import batch, round_date, round_price
+from .util import batch, round_date, round_price
 from .sdk import Pricing, Price, Stats
 
 

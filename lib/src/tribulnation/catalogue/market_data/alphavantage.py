@@ -13,7 +13,7 @@ from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
 from typed_core import HttpClient
 from typed_core import exceptions as core_exc
 
-from .coingecko import round_price
+from .util import round_price
 from .sdk import Pricing, Price
 
 

@@ -10,7 +10,7 @@ from pydantic import BaseModel, ConfigDict, ValidationError
 from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
 from typed_core import HttpClient
 
-from .coingecko import round_price
+from .util import round_price
 from .sdk import Pricing, Price, Stats
 
 
