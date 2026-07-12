@@ -1,18 +1,18 @@
-from typing_extensions import Any, Mapping
+from typing_extensions import Any, Mapping, Literal
 from dataclasses import dataclass, field
 from datetime import datetime
 from decimal import Decimal
 import asyncio
 
 from tribulnation.sdk import Context, Error
-from tribulnation.catalogue import Asset, ExternalSource
-from .sdk import Pricing, Price, Stats, Quote
+from tribulnation.catalogue import Asset
+from .sdk import Pricing, Price, Stats, Quote, Source
 
 @dataclass
 class MarketData:
   Context = Context
   Quote = Quote
-  Source = ExternalSource
+  Source = Source
   
   sources: Mapping[Source, Pricing]
   ctx: Context = field(default_factory=Context)
@@ -27,7 +27,7 @@ class MarketData:
     if not sources:
       raise ValueError('Must specify at least one source')
 
-    sdks: dict[ExternalSource, Pricing] = {source: Pricing.of(source, quote=quote) for source in sources}
+    sdks: dict[Source, Pricing] = {source: Pricing.of(source, quote=quote) for source in sources}
     return cls(sources=sdks, ctx=ctx or Context())
 
 
@@ -39,8 +39,14 @@ class MarketData:
         - `price`: the historical price of the asset at the specified time (or `None` if not found), and
         - `errors`: a mapping of sources to any errors encountered while fetching the price.
     """
-    errors: dict[ExternalSource, Error] = {}
+    errors: dict[Source, Error] = {}
     with self.ctx.use():
+      if (sdk := self.sources.get('catalogue-pro')) is not None:
+        try:
+          if (price := await sdk.historical_price(asset['id'], time)) is not None:
+            return price, errors
+        except Error as e:
+          errors['catalogue-pro'] = e
       for source, id in asset.get('external', {}).items():
         if sdk := self.sources.get(source):
           try:
@@ -59,8 +65,9 @@ class MarketData:
         - `price`: the current price of the asset (or `None` if not found), and
         - `errors`: a mapping of sources to any errors encountered while fetching the price.
     """
-    stats, errors = await self.current_stats({'': asset})
-    if (s := stats.get('')) is not None:
+    id = asset['id']
+    stats, errors = await self.current_stats({id: asset})
+    if (s := stats.get(id)) is not None:
       return s.price, errors
     else:
       return None, errors
@@ -73,7 +80,7 @@ class MarketData:
         - `stats`: a mapping of asset IDs to their current stats, and
         - `errors`: a mapping of sources to any errors encountered while fetching the prices.
     """
-    async def source_stats(src: MarketData.Source, map: dict[str, str]) -> tuple[dict[str, Stats], Mapping[ExternalSource, Error]]:
+    async def source_stats(src: MarketData.Source, map: dict[str, str]) -> tuple[dict[str, Stats], Mapping[Source, Error]]:
       sdk = self.sources[src]
       try:
         stats = await sdk.current_stats(list(map))
@@ -84,11 +91,21 @@ class MarketData:
 
     remaining = dict(assets)
     all_stats: dict[str, Stats] = {}
-    all_errors: dict[ExternalSource, Error] = {}
-    failed_sources: set[ExternalSource] = set()
+    all_errors: dict[Source, Error] = {}
+    failed_sources: set[Source] = set()
+
+    if (sdk := self.sources.get('catalogue-pro')) is not None:
+      try:
+        stats = await sdk.current_stats(assets)
+        all_stats.update(stats)
+        for asset_id in stats:
+          remaining.pop(asset_id, None)
+      except Error as e:
+        all_errors['catalogue-pro'] = e
+        failed_sources.add('catalogue-pro')
 
     while remaining:
-      available: dict[ExternalSource, Pricing] = {src: sdk for src, sdk in self.sources.items() if src not in failed_sources}
+      available: dict[Source, Pricing] = {src: sdk for src, sdk in self.sources.items() if src not in failed_sources}
       source_maps = classify_sources(remaining, available)
       if not any(source_maps.values()):
         break
@@ -123,8 +140,8 @@ class MarketData:
     return all_stats, all_errors
     
 
-def classify_sources(assets: Mapping[str, Asset], sources: Mapping[ExternalSource, Any]) -> dict[ExternalSource, dict[str, str]]:
-  external: dict[ExternalSource, dict[str, str]] = {
+def classify_sources(assets: Mapping[str, Asset], sources: Mapping[Source, Any]) -> dict[Source, dict[str, str]]:
+  external: dict[Source, dict[str, str]] = {
     src: {}
     for src in sources
   }
