@@ -6,7 +6,7 @@ import csv
 import functools
 
 import httpx
-from tribulnation.sdk import NetworkError, RateLimited, ApiError
+from tribulnation.sdk import SDK, NetworkError, RateLimited, ApiError
 from typed_core import HttpClient
 from typed_core import exceptions as core_exc
 
@@ -82,6 +82,8 @@ class FredPricing(Pricing):
       raise ValueError('FRED pricing only supports USD quotes')
     return cls(quote='USD')
 
+  @SDK.method
+  @wrap_exceptions
   async def _observations(self, id: str) -> list[tuple[datetime, Decimal]]:
     transform, series_id = _parse_id(id)
     r = await self.client.request('GET', BASE_URL, params={'id': series_id})
@@ -102,7 +104,6 @@ class FredPricing(Pricing):
       rows.append((datetime.strptime(row['observation_date'], '%Y-%m-%d'), round_price(price)))
     return rows
 
-  @wrap_exceptions
   async def current_stats(self, ids: Collection[str]) -> Mapping[str, Stats]:
     out: dict[str, Stats] = {}
     for id in ids:
@@ -111,7 +112,6 @@ class FredPricing(Pricing):
         out[id] = Stats(price=observations[-1][1])
     return out
 
-  @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
     date = time.date()
     for observation_time, price in await self._observations(id):

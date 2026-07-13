@@ -54,12 +54,10 @@ class Pricing(SDK, ABC):
     else:
       raise ValueError(f'Unknown source: {source!r}')
 
-  @SDK.method
   @abstractmethod
   async def current_stats(self, ids: Collection[str]) -> Mapping[str, Stats]:
     """Fetch the current price and market cap of an asset by its external ID."""
-    
-  @SDK.method
+
   @abstractmethod
   async def historical_price(self, id: str, time: datetime) -> Price | None:
     """Fetch the historical price of an asset by its external ID at a specific time."""

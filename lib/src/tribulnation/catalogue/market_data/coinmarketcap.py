@@ -8,7 +8,7 @@ import os
 from pydantic import BaseModel, ConfigDict, ValidationError, field_validator
 import httpx
 from typed_core import HttpClient
-from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
+from tribulnation.sdk import SDK, NetworkError, AuthError, RateLimited, ApiError
 
 from .util import batch, round_date, round_price
 from .sdk import Pricing, Price, Stats
@@ -166,31 +166,39 @@ class CoinMarketCapPricing(Pricing):
       headers['X-CMC_PRO_API_KEY'] = api_key
     return cls(quote=quote, headers=headers)
 
+  @SDK.method
   @wrap_exceptions
-  async def current_stats(self, ids: Collection[str]) -> dict[str, Stats]:
+  async def _fetch_quotes(self, ids_batch: Sequence[str]) -> dict[str, Stats]:
+    """Fetch quotes for a single batch of IDs."""
+    r = await self.client.request(
+      'GET', f'{self.base_url}/v3/cryptocurrency/quotes/latest',
+      headers=self.headers,
+      params={
+        'id': ','.join(ids_batch),
+        'convert': _quote_symbol(self.quote),
+        'skip_invalid': 'true',
+      },
+    )
+    r.raise_for_status()
+    data = CmcLatestResponse.model_validate(r.json())
     out: dict[str, Stats] = {}
-    for ids_batch in batch(ids, 100):
-      r = await self.client.request(
-        'GET', f'{self.base_url}/v3/cryptocurrency/quotes/latest',
-        headers=self.headers,
-        params={
-          'id': ','.join(ids_batch),
-          'convert': _quote_symbol(self.quote),
-          'skip_invalid': 'true',
-        },
-      )
-      r.raise_for_status()
-      data = CmcLatestResponse.model_validate(r.json())
-
-      for coin in data.data:
-        q = coin.quote.get(_quote_symbol(self.quote))
-        if q is not None:
-          out[str(coin.id)] = Stats(
-            price=round_price(q.price),
-            market_cap=round(q.market_cap, 2) if q.market_cap is not None else None,
-          )
+    for coin in data.data:
+      q = coin.quote.get(_quote_symbol(self.quote))
+      if q is not None:
+        out[str(coin.id)] = Stats(
+          price=round_price(q.price),
+          market_cap=round(q.market_cap, 2) if q.market_cap is not None else None,
+        )
     return out
 
+  async def current_stats(self, ids: Collection[str]) -> dict[str, Stats]:
+    """Fetch current quotes in batches of 100."""
+    out: dict[str, Stats] = {}
+    for ids_batch in batch(ids, 100):
+      out.update(await self._fetch_quotes(list(ids_batch)))
+    return out
+
+  @SDK.method
   @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
     date = round_date(time)

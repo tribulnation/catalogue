@@ -7,7 +7,7 @@ import functools
 
 import httpx
 import coingecko_sdk
-from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
+from tribulnation.sdk import SDK, NetworkError, AuthError, RateLimited, ApiError
 
 from .sdk import Pricing, Price, Stats
 from .util import round_price, round_date, batch
@@ -40,6 +40,7 @@ class CoingeckoPricing(Pricing):
     client = coingecko_sdk.AsyncCoingecko() if env is None else coingecko_sdk.AsyncCoingecko(environment=env)
     return cls(client=client, quote=quote)
   
+  @SDK.method
   @wrap_exceptions
   async def currency_price(self, currency: str, *, reference_asset: str = 'bitcoin') -> Decimal | None:
     """Deduce the price of a currency by comparing price of a given reference asset in both the currency and USD"""
@@ -49,6 +50,7 @@ class CoingeckoPricing(Pricing):
       return  round_price(Decimal(usd) / Decimal(other))
       
     
+  @SDK.method
   @wrap_exceptions
   async def currency_historical_price(self, currency: str, time: datetime, *, reference_asset: str = 'bitcoin') -> Price | None:
     """Deduce the historical price of a currency by comparing price of a given reference asset in both the currency and USD"""
@@ -62,36 +64,45 @@ class CoingeckoPricing(Pricing):
         return Price(price=price, time=date)
 
 
+  @SDK.method
   @wrap_exceptions
+  async def _fetch_markets(self, ids: list[str]) -> dict[str, Stats]:
+    """Fetch market data for a batch of coin IDs."""
+    out: dict[str, Stats] = {}
+    r = await self.client.coins.markets.get(vs_currency=self.quote, ids=','.join(ids))
+    for coin in r:
+      s = out.setdefault(coin.id, Stats())
+      if (p := coin.current_price) is not None:
+        s.price = round_price(Decimal(p))
+      if (c := coin.market_cap) is not None:
+        s.market_cap = round(Decimal(c), 2)
+    return out
+
   async def current_stats(self, ids: Collection[str]) -> dict[str, Stats]:
+    """Fetch current stats, batching normal IDs and resolving currencies."""
     out: dict[str, Stats] = {}
     currency_ids = {id for id in ids if id.startswith('currency:')}
     normal_ids = [id for id in ids if id not in currency_ids]
-
     for ids_batch in batch(normal_ids, 100):
-      r = await self.client.coins.markets.get(vs_currency=self.quote, ids=','.join(ids_batch))
-      for coin in r:
-        s = out.setdefault(coin.id, Stats())
-        if (p := coin.current_price) is not None:
-          s.price = round_price(Decimal(p))
-        if (c := coin.market_cap) is not None:
-          s.market_cap = round(Decimal(c), 2)
-
+      out.update(await self._fetch_markets(ids_batch))
     for currency in currency_ids:
       if price := await self.currency_price(currency.removeprefix('currency:')):
         out[currency] = Stats(price=price)
-
     return out
-  
 
+  @SDK.method
   @wrap_exceptions
+  async def _fetch_coin_history(self, id: str, time: datetime) -> Price | None:
+    """Fetch historical price for a single coin."""
+    date = round_date(time)
+    r = await self.client.coins.history.get(id, date=date.strftime('%Y-%m-%d'))
+    if price := (r.market_data.current_price or {}).get(self.quote):
+      return Price(price=round_price(Decimal(price)), time=date)
+
   async def historical_price(self, id: str, time: datetime) -> Price | None:
+    """Fetch historical price, dispatching currencies vs coins."""
     if id.startswith('currency:'):
       return await self.currency_historical_price(id.removeprefix('currency:'), time)
-    else:
-      date = round_date(time)
-      r = await self.client.coins.history.get(id, date=date.strftime('%Y-%m-%d'))
-      if price := (r.market_data.current_price or {}).get(self.quote):
-        return Price(price=round_price(Decimal(price)), time=date)
+    return await self._fetch_coin_history(id, time)
 
 

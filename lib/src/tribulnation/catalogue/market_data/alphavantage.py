@@ -10,7 +10,7 @@ import functools
 import os
 
 import httpx
-from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
+from tribulnation.sdk import SDK, NetworkError, AuthError, RateLimited, ApiError
 from typed_core import HttpClient
 from typed_core import exceptions as core_exc
 
@@ -118,6 +118,7 @@ class AlphaVantagePricing(Pricing):
       params['apikey'] = api_key
     return cls(quote='USD', params=params, requests_per_minute=requests_per_minute)
 
+  @SDK.method
   @wrap_exceptions
   async def current_price(self, id: str) -> Decimal | None:
     kind, value = _parse_id(id)
@@ -172,6 +173,7 @@ class AlphaVantagePricing(Pricing):
       results[id] = Stats(price=price)
     return results
 
+  @SDK.method
   @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
     date_str = time.strftime('%Y-%m-%d')

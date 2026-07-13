@@ -1,4 +1,4 @@
-from typing_extensions import Literal, Collection, Mapping, Any
+from typing_extensions import Literal, Collection, Mapping, Sequence, Any
 from dataclasses import dataclass, field
 from datetime import datetime
 from decimal import Decimal
@@ -8,7 +8,7 @@ import os
 
 import httpx
 from pydantic import BaseModel, ConfigDict, ValidationError
-from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
+from tribulnation.sdk import SDK, NetworkError, AuthError, RateLimited, ApiError
 from typed_core import HttpClient
 
 from .util import batch, round_price
@@ -122,7 +122,30 @@ class TwelveDataPricing(Pricing):
       params['apikey'] = api_key
     return cls(quote=quote, params=params, credits_per_minute=credits_per_minute)
 
+  @SDK.method
   @wrap_exceptions
+  async def _fetch_prices(self, symbols: Sequence[str]) -> dict[str, Stats]:
+    """Fetch prices for a single batch of symbols."""
+    r = await self.client.request(
+      'GET', f'{BASE_URL}/price',
+      params={**self.params, 'symbol': ','.join(symbols)},
+    )
+    r.raise_for_status()
+    data: Any = r.json()
+    out: dict[str, Stats] = {}
+    if len(symbols) == 1:
+      symbol = symbols[0]
+      if data.get('status') == 'error':
+        _raise_body_error(data)
+      if 'price' in data:
+        out[symbol] = Stats(price=round_price(TdPrice.model_validate(data).price))
+    else:
+      for symbol in symbols:
+        entry = data.get(symbol)
+        if isinstance(entry, Mapping) and 'price' in entry:
+          out[symbol] = Stats(price=round_price(TdPrice.model_validate(entry).price))
+    return out
+
   async def current_stats(self, ids: Collection[str]) -> dict[str, Stats]:
     """Fetch prices in batches sized to the per-minute credit limit."""
     if not ids:
@@ -131,26 +154,10 @@ class TwelveDataPricing(Pricing):
     for i, ids_batch in enumerate(batch(list(ids), self.credits_per_minute)):
       if i > 0:
         await asyncio.sleep(60)
-      r = await self.client.request(
-        'GET', f'{BASE_URL}/price',
-        params={**self.params, 'symbol': ','.join(ids_batch)},
-      )
-      r.raise_for_status()
-      data: Any = r.json()
-      if len(ids_batch) == 1:
-        symbol = ids_batch[0]
-        if data.get('status') == 'error':
-          _raise_body_error(data)
-        if 'price' in data:
-          out[symbol] = Stats(price=round_price(TdPrice.model_validate(data).price))
-      else:
-        for symbol in ids_batch:
-          entry = data.get(symbol)
-          if isinstance(entry, Mapping) and 'price' in entry:
-            out[symbol] = Stats(price=round_price(TdPrice.model_validate(entry).price))
+      out.update(await self._fetch_prices(ids_batch))
     return out
 
-
+  @SDK.method
   @wrap_exceptions
   async def historical_price(self, id: str, time: datetime) -> Price | None:
     date_str = time.strftime('%Y-%m-%d')
