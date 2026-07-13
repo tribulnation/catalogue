@@ -68,22 +68,17 @@ class Catalogue:
     refresh: bool = False,
     silent: bool = False,
     url: str = DEFAULT_URL,
-    cache_dir: Path | str = DEFAULT_CACHE,
   ) -> 'Catalogue':
     """Load the catalogue.
 
     Args:
-      path: Local folder to load from directly. If omitted, uses the cache.
+      path: Local folder to load from directly. If omitted, uses `~/.cache/tribulnation/catalogue`.
       refresh: Re-download even if a cached copy exists.
       silent: Suppress the download progress message.
       url: Archive URL to download from. Defaults to the public catalogue.
-      cache_dir: Where to store the downloaded archive. Defaults to
-        ``~/.cache/tribulnation/catalogue``.
     """
-    from . import load as _load
-    if path is not None:
-      return _load.all(path)
-    cache = Path(cache_dir)
-    if refresh or not cache.exists():
-      _download(url, cache, silent=silent)
-    return _load.all(cache)
+    from . import load
+    path = Path(path or DEFAULT_CACHE)
+    if refresh or not path.exists():
+      _download(url, path, silent=silent)
+    return load.all(path)
