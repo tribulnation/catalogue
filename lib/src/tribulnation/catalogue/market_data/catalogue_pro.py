@@ -10,7 +10,7 @@ from typed_core import HttpClient
 import httpx
 
 from .sdk import Pricing, Price, Stats
-from .coingecko import round_date
+from .util import round_date, batch
 
 CATALOGUE_PRO_API_BASE_URL = 'https://catalogue-pro.tribulnation.com'
 
@@ -58,7 +58,7 @@ class CatalogueProPricing(Pricing):
     return cls(base_url=base_url, api_key=api_key)
 
   @SDK.method
-  async def current_stats(self, ids: Collection[str]) -> Mapping[str, Stats]:
+  async def current_stats_batch(self, ids: Collection[str]) -> Mapping[str, Stats]:
     ids_param = ','.join(ids)
     r = await self.client.request(
       'GET', f'{self.base_url.rstrip("/")}/api/v1/latest/{ids_param}',
@@ -75,6 +75,13 @@ class CatalogueProPricing(Pricing):
       )
       for asset_id, values in data.items()
     }
+
+  async def current_stats(self, ids: Collection[str]) -> Mapping[str, Stats]:
+    out: dict[str, Stats] = {}
+    for id_batch in batch(ids, 100):
+      stats = await self.current_stats_batch(id_batch)
+      out.update(stats)
+    return out
 
   @SDK.method
   async def historical_price(self, id: str, time: datetime) -> Price | None:
