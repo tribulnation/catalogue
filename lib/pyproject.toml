@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tribulnation-catalogue"
-version = "0.1.14"
+version = "0.1.16"
 authors = [
   {name="Marcel Claramunt", email="marcel@tribulnation.com"}
 ]
@@ -29,7 +29,7 @@ Repository = "https://github.com/tribulnation/catalogue.git"
 cli = ["typer"]
 api = ["fastapi"]
 prices = [
-  "coingecko-sdk", "httpx", "tribulnation-sdk",
+  "coingecko-sdk", "httpx", "tribulnation-sdk", "typed-core"
 ]
 
 [project.scripts]
