@@ -1,4 +1,4 @@
-from typing_extensions import Collection, Mapping, Literal
+from typing_extensions import Collection, Mapping, Literal, TypedDict
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
 from decimal import Decimal
@@ -20,9 +20,15 @@ class Stats:
   price: Decimal | None = None
   market_cap: Decimal | None = None
 
+class Config(TypedDict, total=False):
+  twelvedata_credits_per_minute: int
+  """TwelveData API credits per minute (free=8, basic=800)."""
+  alphavantage_requests_per_minute: int
+  """Alpha Vantage API requests per minute (free=5, premium=75)."""
+
 class Pricing(SDK, ABC):
   @staticmethod
-  def of(source: Source, *, quote: Quote = 'usd') -> 'Pricing':
+  def of(source: Source, *, quote: Quote = 'usd', config: Config = {}) -> 'Pricing':
     """"""
     if source == 'coingecko':
       from .coingecko import CoingeckoPricing
@@ -33,11 +39,11 @@ class Pricing(SDK, ABC):
     elif source == 'twelvedata':
       from .twelvedata import TwelveDataPricing
       q = 'USD' if quote == 'usd' else 'EUR'
-      return TwelveDataPricing.new(quote=q)
+      return TwelveDataPricing.new(quote=q, credits_per_minute=config.get('twelvedata_credits_per_minute'))
     elif source == 'alphavantage':
       from .alphavantage import AlphaVantagePricing
       q = 'USD' if quote == 'usd' else 'EUR'
-      return AlphaVantagePricing.new(quote=q)
+      return AlphaVantagePricing.new(quote=q, requests_per_minute=config.get('alphavantage_requests_per_minute'))
     elif source == 'fred':
       from .fred import FredPricing
       q = 'USD' if quote == 'usd' else 'EUR'

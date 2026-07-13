@@ -5,6 +5,7 @@ from typing_extensions import Literal, Mapping, Any
 from dataclasses import dataclass, field
 from datetime import datetime
 from decimal import Decimal
+import asyncio
 import functools
 import os
 
@@ -85,6 +86,8 @@ class AlphaVantagePricing(Pricing):
   quote: AlphaVantageQuote
   params: dict[str, str] = field(kw_only=True, repr=False)
   client: HttpClient = field(kw_only=True, default_factory=HttpClient)
+  requests_per_minute: int = field(kw_only=True, default=5)
+  """API requests allowed per minute (free=5, premium=75)."""
 
   async def __aenter__(self):
     await self.client.__aenter__()
@@ -94,14 +97,26 @@ class AlphaVantagePricing(Pricing):
     await self.client.__aexit__(exc_type, exc_value, traceback)
 
   @classmethod
-  def new(cls, *, api_key: str | None = None, quote: str = 'USD'):
+  def new(
+    cls, *, api_key: str | None = None,
+    quote: str = 'USD', requests_per_minute: int | None = None,
+  ):
+    """Create a new Alpha Vantage pricing client.
+
+    Args:
+      api_key: API key. Falls back to ALPHAVANTAGE_API_KEY env var.
+      quote: Quote currency (only USD supported).
+      requests_per_minute: Requests per minute. Falls back to ALPHAVANTAGE_REQUESTS_PER_MINUTE env var, then 5.
+    """
     if quote != 'USD':
       raise ValueError('Alpha Vantage pricing only supports USD quotes')
     api_key = api_key or os.environ.get('ALPHAVANTAGE_API_KEY')
+    if requests_per_minute is None:
+      requests_per_minute = int(os.environ.get('ALPHAVANTAGE_REQUESTS_PER_MINUTE', '5'))
     params: dict[str, str] = {}
     if api_key:
       params['apikey'] = api_key
-    return cls(quote='USD', params=params)
+    return cls(quote='USD', params=params, requests_per_minute=requests_per_minute)
 
   @wrap_exceptions
   async def current_price(self, id: str) -> Decimal | None:
@@ -147,8 +162,12 @@ class AlphaVantagePricing(Pricing):
           return round_price(Decimal(point_value))
         
   async def current_stats(self, ids: Collection[str]) -> Mapping[str, Stats]:
+    """Fetch prices one at a time with a delay to respect the per-minute limit."""
+    delay = 60.0 / self.requests_per_minute
     results: dict[str, Stats] = {}
-    for id in ids:
+    for i, id in enumerate(ids):
+      if i > 0:
+        await asyncio.sleep(delay)
       price = await self.current_price(id)
       results[id] = Stats(price=price)
     return results

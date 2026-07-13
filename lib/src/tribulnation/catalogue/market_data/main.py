@@ -6,7 +6,7 @@ import asyncio
 
 from tribulnation.sdk import Context, Error
 from tribulnation.catalogue import Asset
-from .sdk import Pricing, Price, Stats, Quote, Source
+from .sdk import Pricing, Price, Stats, Quote, Source, Config
 
 @dataclass
 class MarketData:
@@ -22,12 +22,13 @@ class MarketData:
     cls, *sources: Source,
     quote: Quote = 'usd',
     ctx: Context | None = None,
+    config: Config = {}
   ):
     """Construct a new `MarketData` instance with multiple sources."""
     if not sources:
       raise ValueError('Must specify at least one source')
 
-    sdks: dict[Source, Pricing] = {source: Pricing.of(source, quote=quote) for source in sources}
+    sdks: dict[Source, Pricing] = {source: Pricing.of(source, quote=quote, config=config) for source in sources}
     return cls(sources=sdks, ctx=ctx or Context())
 
 

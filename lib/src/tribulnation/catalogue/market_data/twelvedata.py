@@ -2,6 +2,7 @@ from typing_extensions import Literal, Collection, Mapping, Any
 from dataclasses import dataclass, field
 from datetime import datetime
 from decimal import Decimal
+import asyncio
 import functools
 import os
 
@@ -10,7 +11,7 @@ from pydantic import BaseModel, ConfigDict, ValidationError
 from tribulnation.sdk import NetworkError, AuthError, RateLimited, ApiError
 from typed_core import HttpClient
 
-from .util import round_price
+from .util import batch, round_price
 from .sdk import Pricing, Price, Stats
 
 
@@ -91,6 +92,8 @@ class TwelveDataPricing(Pricing):
   quote: TwelveDataQuote
   params: dict[str, str] = field(kw_only=True, repr=False)
   client: HttpClient = field(kw_only=True, default_factory=HttpClient)
+  credits_per_minute: int = field(kw_only=True, default=8)
+  """API credits allowed per minute. Each symbol costs 1 credit."""
 
   async def __aenter__(self):
     await self.client.__aenter__()
@@ -100,39 +103,51 @@ class TwelveDataPricing(Pricing):
     await self.client.__aexit__(exc_type, exc_value, traceback)
 
   @classmethod
-  def new(cls, *, api_key: str | None = None, quote: TwelveDataQuote = 'USD'):
+  def new(
+    cls, *, api_key: str | None = None,
+    quote: TwelveDataQuote = 'USD', credits_per_minute: int | None = None,
+  ):
+    """Create a new TwelveData pricing client.
+
+    Args:
+      api_key: API key. Falls back to TWELVEDATA_API_KEY env var.
+      quote: Quote currency.
+      credits_per_minute: Credits per minute. Falls back to TWELVEDATA_CREDITS_PER_MINUTE env var, then 8.
+    """
     api_key = api_key or os.environ.get('TWELVEDATA_API_KEY')
+    if credits_per_minute is None:
+      credits_per_minute = int(os.environ.get('TWELVEDATA_CREDITS_PER_MINUTE', '8'))
     params: dict[str, str] = {}
     if api_key:
       params['apikey'] = api_key
-    return cls(quote=quote, params=params)
+    return cls(quote=quote, params=params, credits_per_minute=credits_per_minute)
 
   @wrap_exceptions
   async def current_stats(self, ids: Collection[str]) -> dict[str, Stats]:
+    """Fetch prices in batches sized to the per-minute credit limit."""
     if not ids:
       return {}
-    r = await self.client.request(
-      'GET', f'{BASE_URL}/price',
-      params={**self.params, 'symbol': ','.join(ids)},
-    )
-    r.raise_for_status()
-    data: Any = r.json()
-
     out: dict[str, Stats] = {}
-    if len(ids) == 1:
-      id = next(iter(ids))
-      # Single symbol: response is {price: "..."} or {code, message, status}
-      if data.get('status') == 'error':
-        _raise_body_error(data)
-      if 'price' in data:
-        out[id] = Stats(price=round_price(TdPrice.model_validate(data).price))
-    else:
-      # Multiple symbols: response is {symbol: {price: "..."}, ...}
-      # Symbols with errors have {code, message, status} instead — skip them
-      for symbol in ids:
-        entry = data.get(symbol)
-        if isinstance(entry, Mapping) and 'price' in entry:
-          out[symbol] = Stats(price=round_price(TdPrice.model_validate(entry).price))
+    for i, ids_batch in enumerate(batch(list(ids), self.credits_per_minute)):
+      if i > 0:
+        await asyncio.sleep(60)
+      r = await self.client.request(
+        'GET', f'{BASE_URL}/price',
+        params={**self.params, 'symbol': ','.join(ids_batch)},
+      )
+      r.raise_for_status()
+      data: Any = r.json()
+      if len(ids_batch) == 1:
+        symbol = ids_batch[0]
+        if data.get('status') == 'error':
+          _raise_body_error(data)
+        if 'price' in data:
+          out[symbol] = Stats(price=round_price(TdPrice.model_validate(data).price))
+      else:
+        for symbol in ids_batch:
+          entry = data.get(symbol)
+          if isinstance(entry, Mapping) and 'price' in entry:
+            out[symbol] = Stats(price=round_price(TdPrice.model_validate(entry).price))
     return out
 
 
