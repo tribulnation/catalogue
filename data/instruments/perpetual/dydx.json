@@ -221,6 +221,18 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "SHIB-USD": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "FLOKI-USD": {
+    "exchange": "perp",
+    "base": "floki",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "TRX-USD": {
     "exchange": "perp",
     "base": "tron",
