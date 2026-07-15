@@ -6,6 +6,7 @@ import json
 import shutil
 import sys
 import zipfile
+from decimal import Decimal
 from html import escape
 from pathlib import Path
 from urllib.parse import quote, urljoin
@@ -39,7 +40,9 @@ def parse_args() -> argparse.Namespace:
 
 def _serializable(data: object) -> object:
   if isinstance(data, BaseModel):
-    return data.model_dump(exclude_none=True)
+    return _serializable(data.model_dump(exclude_none=True))
+  if isinstance(data, Decimal):
+    return int(data) if data == data.to_integral_value() else float(data)
   if isinstance(data, list):
     return [_serializable(item) for item in data]
   if isinstance(data, dict):

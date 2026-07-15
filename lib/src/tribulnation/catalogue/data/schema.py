@@ -1,4 +1,5 @@
 from typing_extensions import TypedDict, NotRequired, Literal, Mapping
+from decimal import Decimal
 from datetime import datetime
 
 Locale = Literal['ca', 'es', 'en']
@@ -21,6 +22,8 @@ class Perpetual(TypedDict):
   """Quote asset ID"""
   settlement: str
   """Settlement asset ID"""
+  multiplier: NotRequired[Decimal]
+  """Contract multiplier for the base asset. E.g. a `10` multiplier means that the index price tracks 10x the base asset price."""
 
 class Debt(TypedDict):
   asset: str

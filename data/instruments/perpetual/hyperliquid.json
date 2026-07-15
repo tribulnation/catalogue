@@ -730,5 +730,19 @@
     "base": "axie-infinity",
     "quote": "tether",
     "settlement": "usd-coin"
+  },
+  "kSHIB": {
+    "exchange": "",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "multiplier": 1000
+  },
+  "kFLOKI": {
+    "exchange": "",
+    "base": "floki",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "multiplier": 1000
   }
 }

@@ -49,6 +49,7 @@ const pairs = await client.getSpotInstruments('mexc');
 
 const perps = await client.getPerpetualInstruments('dydx');
 // → Record<string, PerpetualInstrument>
+// PerpetualInstrument includes optional multiplier for contracts tracking Nx base.
 
 // All instruments referencing a given asset
 const refs = await client.getAssetInstruments('bitcoin');

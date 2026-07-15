@@ -57,6 +57,7 @@ export type PerpetualInstrument = {
   base: string
   quote: string
   settlement: string
+  multiplier?: number
   exchange?: string
 }
 

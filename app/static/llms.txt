@@ -26,7 +26,7 @@ Asset and platform IDs are stable kebab-case strings (e.g. `bitcoin`, `binance`,
 ## Instruments
 
 - [Spot pairs](https://catalogue.tribulnation.com/api/v1/instruments/spot/binance.json): Spot trading pairs for a platform, each with `base` and `quote` asset IDs.
-- [Perpetual markets](https://catalogue.tribulnation.com/api/v1/instruments/perpetual/dydx.json): Perpetual markets with `base`, `quote`, and `settlement` asset IDs.
+- [Perpetual markets](https://catalogue.tribulnation.com/api/v1/instruments/perpetual/dydx.json): Perpetual markets with `base`, `quote`, `settlement`, and optional `multiplier` fields.
 - [Debt instruments](https://catalogue.tribulnation.com/api/v1/instruments/debt/ethereum.json): Borrow positions (e.g. Aave variable debt tokens) keyed by token address.
 - [Asset instrument index](https://catalogue.tribulnation.com/api/v1/instruments/index/bitcoin.json): All instruments where a given asset appears, with `kind`, `platform`, `id`, `role`.
 

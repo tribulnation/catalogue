@@ -1,4 +1,5 @@
 from typing import Literal
+from decimal import Decimal
 from pydantic import BaseModel
 
 InstrumentKind = Literal['spot', 'perpetual', 'debt', 'pool']
@@ -32,6 +33,8 @@ class PerpetualInstrument(BaseModel):
   """Quote asset ID"""
   settlement: str
   """Settlement asset ID"""
+  multiplier: Decimal | None = None
+  """Contract multiplier for the base asset"""
   exchange: str | None = None
   """Exchange sub-account identifier"""
 

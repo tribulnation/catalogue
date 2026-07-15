@@ -14,15 +14,15 @@
 
 	let query = $state('');
 
-	type Instrument = Record<string, unknown>;
+	type Instrument = Record<string, any> & { _platform: string };
 
-	const allInstruments = $derived(
+	const allInstruments: Instrument[] = $derived(
 		data.instruments.flatMap(({ platform, data: items }: { platform: string; data: Record<string, Instrument> }) =>
 			Object.values(items).map((inst) => ({ ...inst, _platform: platform }))
 		)
 	);
 
-	const filtered = $derived(
+	const filtered: Instrument[] = $derived(
 		query.trim() === ''
 			? allInstruments
 			: allInstruments.filter((inst) => {
@@ -77,7 +77,7 @@
 	{:else if data.kind === 'perpetual'}
 		<table>
 			<thead>
-				<tr><th>ID</th><th>Base</th><th>Quote</th><th>Settlement</th><th>Platform</th></tr>
+				<tr><th>ID</th><th>Base</th><th>Quote</th><th>Settlement</th><th>Multiplier</th><th>Platform</th></tr>
 			</thead>
 			<tbody>
 				{#each filtered as inst}
@@ -86,6 +86,7 @@
 						<td><a href={`/assets/${inst.base}`}>{inst.base}</a></td>
 						<td><a href={`/assets/${inst.quote}`}>{inst.quote}</a></td>
 						<td><a href={`/assets/${inst.settlement}`}>{inst.settlement}</a></td>
+						<td class="mono">{inst.multiplier ?? '1'}</td>
 						<td class="mono dim"><a href={`/platforms/${inst._platform}`}>{inst._platform}</a></td>
 					</tr>
 				{/each}
