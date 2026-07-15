@@ -1,6 +1,6 @@
 from tribulnation.catalogue.data import validate, load
 
-catalogue = load.all('data')
+catalogue = load.all('data', strict=True)
 errors = validate.all(catalogue, '.')
 if errors:
   import sys
