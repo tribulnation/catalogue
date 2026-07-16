@@ -1,4 +1,5 @@
 import io
+import os
 import shutil
 import sys
 import urllib.request
@@ -13,15 +14,24 @@ DEFAULT_CACHE = Path.home() / '.cache' / 'tribulnation' / 'catalogue'
 
 
 def _download(url: str, dest: Path, *, silent: bool = False) -> None:
+  """Download and extract the catalogue archive."""
   if not silent:
     print(f'Downloading catalogue from {url} ...', file=sys.stderr)
   with urllib.request.urlopen(url) as response:
     data = response.read()
-  if dest.exists():
-    shutil.rmtree(dest)
-  dest.mkdir(parents=True)
+  # Extract to a per-process temp dir then rename in, so concurrent
+  # downloads don't corrupt each other's extractall with rmtree.
+  dest.parent.mkdir(parents=True, exist_ok=True)
+  tmp = dest.with_suffix(f'.{os.getpid()}.tmp')
+  shutil.rmtree(tmp, ignore_errors=True)
+  tmp.mkdir()
   with zipfile.ZipFile(io.BytesIO(data)) as zf:
-    zf.extractall(dest)
+    zf.extractall(tmp)
+  shutil.rmtree(dest, ignore_errors=True)
+  try:
+    tmp.rename(dest)
+  except OSError:
+    shutil.rmtree(tmp, ignore_errors=True)
 
 
 @dataclass
