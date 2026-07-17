@@ -899,6 +899,11 @@
     "base": "virtuals-protocol",
     "quote": "tether"
   },
+  "VVVUSDT": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "tether"
+  },
   "WIFEUR": {
     "exchange": "spot",
     "base": "dogwifcoin",
