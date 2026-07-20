@@ -10,7 +10,8 @@
   "external": {
     "coingecko": "currency:krw",
     "twelvedata": "KRW/USD",
-    "fred": "inverse:DEXKOUS"
+    "fred": "inverse:DEXKOUS",
+    "yahoo": "KRWUSD=X"
   },
   "tags": [
     "Fiat"

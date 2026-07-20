@@ -5,6 +5,10 @@ export type AssetPeg = {
 export type ExternalIds = {
   coingecko?: string
   coinmarketcap?: string
+  twelvedata?: string
+  alphavantage?: string
+  fred?: string
+  yahoo?: string
 }
 
 export type AssetSummary = {

@@ -4,12 +4,13 @@
   "symbol": "WTI",
   "about": {
     "en": "West Texas Intermediate is a light, sweet crude oil grade used as a benchmark for US crude oil pricing. WTI is commonly referenced in commodities markets through spot prices, futures, and derivative products tied to crude oil delivered in the United States. In crypto and perpetual trading contexts, WTI usually appears as the reference commodity for oil-tracking markets.",
-    "es": "West Texas Intermediate es una variedad de petr\u00f3leo crudo ligero y dulce utilizada como referencia para el precio del crudo estadounidense. WTI suele aparecer en los mercados de materias primas mediante precios spot, futuros y productos derivados vinculados al petr\u00f3leo entregado en Estados Unidos. En contextos cripto y de trading perpetuo, WTI suele ser la commodity de referencia para mercados indexados al petr\u00f3leo.",
-    "ca": "West Texas Intermediate \u00e9s una varietat de petroli cru lleuger i dol\u00e7 utilitzada com a refer\u00e8ncia per al preu del cru nord-americ\u00e0. WTI acostuma a apar\u00e8ixer als mercats de mat\u00e8ries primeres mitjan\u00e7ant preus spot, futurs i productes derivats vinculats al petroli lliurat als Estats Units. En contextos cripto i de trading perpetu, WTI acostuma a ser la commodity de refer\u00e8ncia per a mercats indexats al petroli."
+    "es": "West Texas Intermediate es una variedad de petróleo crudo ligero y dulce utilizada como referencia para el precio del crudo estadounidense. WTI suele aparecer en los mercados de materias primas mediante precios spot, futuros y productos derivados vinculados al petróleo entregado en Estados Unidos. En contextos cripto y de trading perpetuo, WTI suele ser la commodity de referencia para mercados indexados al petróleo.",
+    "ca": "West Texas Intermediate és una varietat de petroli cru lleuger i dolç utilitzada com a referència per al preu del cru nord-americà. WTI acostuma a aparèixer als mercats de matèries primeres mitjançant preus spot, futurs i productes derivats vinculats al petroli lliurat als Estats Units. En contextos cripto i de trading perpetu, WTI acostuma a ser la commodity de referència per a mercats indexats al petroli."
   },
   "external": {
     "alphavantage": "commodity:WTI",
-    "fred": "DCOILWTICO"
+    "fred": "DCOILWTICO",
+    "yahoo": "CL=F"
   },
   "tags": [
     "RWA",

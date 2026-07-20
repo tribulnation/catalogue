@@ -10,7 +10,8 @@
   "external": {
     "twelvedata": "CAD/USD",
     "coingecko": "currency:cad",
-    "fred": "inverse:DEXCAUS"
+    "fred": "inverse:DEXCAUS",
+    "yahoo": "CADUSD=X"
   },
   "tags": [
     "Fiat"

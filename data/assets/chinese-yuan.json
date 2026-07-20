@@ -10,7 +10,8 @@
   "external": {
     "twelvedata": "CNY/USD",
     "coingecko": "currency:cny",
-    "fred": "inverse:DEXCHUS"
+    "fred": "inverse:DEXCHUS",
+    "yahoo": "CNYUSD=X"
   },
   "tags": [
     "Fiat"

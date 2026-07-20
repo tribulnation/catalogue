@@ -48,6 +48,10 @@ class Pricing(SDK, ABC):
       from .fred import FredPricing
       q = 'USD' if quote == 'usd' else 'EUR'
       return FredPricing.new(quote=q)
+    elif source == 'yahoo':
+      from .yahoo import YahooPricing
+      q = 'USD' if quote == 'usd' else 'EUR'
+      return YahooPricing.new(quote=q)
     elif source == 'catalogue-pro':
       from .catalogue_pro import CatalogueProPricing
       return CatalogueProPricing.new()

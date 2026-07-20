@@ -4,13 +4,14 @@
   "symbol": "EUR",
   "about": {
     "en": "The euro is the official currency of the euro area and one of the world's primary fiat currencies. In crypto and trading contexts, EUR is used as a fiat reference asset for euro-denominated balances, prices, deposits, withdrawals, and fiat-backed products.",
-    "es": "El euro es la moneda oficial de la zona euro y una de las principales monedas fiat del mundo. En contextos cripto y de trading, EUR se usa como activo fiat de referencia para saldos, precios, dep\u00f3sitos, retiradas y productos respaldados por euros.",
-    "ca": "L'euro \u00e9s la moneda oficial de la zona euro i una de les principals monedes fiat del m\u00f3n. En contextos cripto i de trading, EUR s'utilitza com a actiu fiat de refer\u00e8ncia per a saldos, preus, dip\u00f2sits, retirades i productes recolzats per euros."
+    "es": "El euro es la moneda oficial de la zona euro y una de las principales monedas fiat del mundo. En contextos cripto y de trading, EUR se usa como activo fiat de referencia para saldos, precios, depósitos, retiradas y productos respaldados por euros.",
+    "ca": "L'euro és la moneda oficial de la zona euro i una de les principals monedes fiat del món. En contextos cripto i de trading, EUR s'utilitza com a actiu fiat de referència per a saldos, preus, dipòsits, retirades i productes recolzats per euros."
   },
   "external": {
     "twelvedata": "EUR/USD",
     "coingecko": "currency:eur",
-    "fred": "DEXUSEU"
+    "fred": "DEXUSEU",
+    "yahoo": "EURUSD=X"
   },
   "tags": [
     "Fiat"

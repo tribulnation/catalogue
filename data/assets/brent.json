@@ -9,7 +9,8 @@
   },
   "external": {
     "alphavantage": "commodity:BRENT",
-    "fred": "DCOILBRENTEU"
+    "fred": "DCOILBRENTEU",
+    "yahoo": "BZ=F"
   },
   "tags": [
     "Commodity"

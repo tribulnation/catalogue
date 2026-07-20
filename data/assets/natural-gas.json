@@ -9,7 +9,8 @@
   },
   "external": {
     "alphavantage": "commodity:NATURAL_GAS",
-    "fred": "DHHNGSP"
+    "fred": "DHHNGSP",
+    "yahoo": "NG=F"
   },
   "tags": [
     "Commodity"
