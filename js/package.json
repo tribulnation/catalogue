@@ -1,6 +1,6 @@
 {
   "name": "@tribulnation/catalogue",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Client for the Tribulnation crypto asset catalogue",
   "type": "module",
   "main": "dist/index.js",
@@ -15,7 +15,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
+    "prepack": "npm run build",
     "check": "tsc --noEmit",
     "lint": "eslint src"
   },
