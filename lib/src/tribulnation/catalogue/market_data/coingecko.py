@@ -4,6 +4,7 @@ from datetime import datetime
 
 from decimal import Decimal
 import functools
+import os
 
 import httpx
 import coingecko_sdk
@@ -37,6 +38,11 @@ class CoingeckoPricing(Pricing):
 
   @classmethod
   def new(cls, *, env: Literal['demo', 'pro'] | None = None, quote: CoingeckoQuote = 'eur'):
+    if env is None:
+      if os.environ.get('COINGECKO_PRO_API_KEY'):
+        env = 'pro'
+      elif os.environ.get('COINGECKO_DEMO_API_KEY'):
+        env = 'demo'
     client = coingecko_sdk.AsyncCoingecko() if env is None else coingecko_sdk.AsyncCoingecko(environment=env)
     return cls(client=client, quote=quote)
   
