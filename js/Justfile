@@ -1,22 +1,19 @@
 help:
   @just --list
 
-publish: build upload
+publish: upload
 
 # Bump patch version and publish
-republish: patch build upload
+republish: patch upload
 
 patch:
   yarn version --patch
 
 # Build and publish to npm
 upload:
-  cd dist && npm publish --access=public
+  npm publish --access=public
   rm -drf dist
 
-# Compile and copy package metadata into dist/
+# Compile the package into dist/
 build:
-  rm -drf dist
   yarn run build
-  cp package.json dist
-  cp README.md dist 2>/dev/null || :
