@@ -22,6 +22,8 @@ class SpotInstrument(BaseModel):
   """Quote asset ID"""
   exchange: str | None = None
   """Exchange sub-account identifier"""
+  delisted: bool | None = None
+  """Whether the instrument has been delisted"""
 
 
 class PerpetualInstrument(BaseModel):
@@ -37,6 +39,8 @@ class PerpetualInstrument(BaseModel):
   """Contract multiplier for the base asset"""
   exchange: str | None = None
   """Exchange sub-account identifier"""
+  delisted: bool | None = None
+  """Whether the instrument has been delisted"""
 
 
 class DebtInstrument(BaseModel):

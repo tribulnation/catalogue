@@ -12,6 +12,8 @@ class Spot(TypedDict):
   """Base asset ID"""
   quote: str
   """Quote asset ID"""
+  delisted: NotRequired[bool]
+  """Whether the instrument has been delisted"""
 
 class Perpetual(TypedDict):
   exchange: NotRequired[str]
@@ -24,6 +26,8 @@ class Perpetual(TypedDict):
   """Settlement asset ID"""
   multiplier: NotRequired[Decimal]
   """Contract multiplier for the base asset. E.g. a `10` multiplier means that the index price tracks 10x the base asset price."""
+  delisted: NotRequired[bool]
+  """Whether the instrument has been delisted"""
 
 class Debt(TypedDict):
   asset: str

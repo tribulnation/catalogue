@@ -66,7 +66,7 @@
 			<tbody>
 				{#each filtered as inst}
 					<tr>
-						<td class="mono">{inst.id}</td>
+						<td class="mono">{inst.id}{#if inst.delisted}<span class="delisted-badge">Delisted</span>{/if}</td>
 						<td><a href={`/assets/${inst.base}`}>{inst.base}</a></td>
 						<td><a href={`/assets/${inst.quote}`}>{inst.quote}</a></td>
 						<td class="mono dim"><a href={`/platforms/${inst._platform}`}>{inst._platform}</a></td>
@@ -82,7 +82,7 @@
 			<tbody>
 				{#each filtered as inst}
 					<tr>
-						<td class="mono">{inst.id}</td>
+						<td class="mono">{inst.id}{#if inst.delisted}<span class="delisted-badge">Delisted</span>{/if}</td>
 						<td><a href={`/assets/${inst.base}`}>{inst.base}</a></td>
 						<td><a href={`/assets/${inst.quote}`}>{inst.quote}</a></td>
 						<td><a href={`/assets/${inst.settlement}`}>{inst.settlement}</a></td>
@@ -239,6 +239,20 @@
 	}
 
 	.asset-tag:hover { color: #c4c2ff; text-decoration: none; }
+	.delisted-badge {
+		display: inline-block;
+		margin-left: 0.5rem;
+		padding: 0.15rem 0.4rem;
+		border: 1px solid #8d6d3f;
+		border-radius: 999px;
+		color: #e4b96a;
+		font-family: sans-serif;
+		font-size: 0.7rem;
+		font-weight: 600;
+		letter-spacing: 0.02em;
+		line-height: 1.2;
+		vertical-align: middle;
+	}
 
 	.empty {
 		color: #55556a;
