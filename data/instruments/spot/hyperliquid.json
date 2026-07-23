@@ -47,7 +47,8 @@
   "UXPL/USDH:233": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "hyperliquid-usd"
+    "quote": "hyperliquid-usd",
+    "delisted": true
   },
   "HYPE/USDE:255": {
     "exchange": "spot",
@@ -82,21 +83,25 @@
   "USDH/USDC:230": {
     "exchange": "spot",
     "base": "hyperliquid-usd",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "delisted": true
   },
   "HYPE/USDH:232": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "hyperliquid-usd"
+    "quote": "hyperliquid-usd",
+    "delisted": true
   },
   "UBTC/USDH:234": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "hyperliquid-usd"
+    "quote": "hyperliquid-usd",
+    "delisted": true
   },
   "UETH/USDH:235": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "hyperliquid-usd"
+    "quote": "hyperliquid-usd",
+    "delisted": true
   }
 }
