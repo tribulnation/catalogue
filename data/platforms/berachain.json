@@ -1,0 +1,17 @@
+{
+  "display_name": "Berachain",
+  "native_asset": "berachain",
+  "about": {
+    "en": "Berachain is an EVM-compatible Layer 1 built on the Cosmos SDK, using Proof-of-Liquidity consensus to align validators with onchain liquidity.",
+    "es": "Berachain es una capa 1 (Layer 1) compatible con EVM construida sobre Cosmos SDK, que utiliza el consenso Proof-of-Liquidity para alinear a los validadores con la liquidez onchain.",
+    "ca": "Berachain és una capa 1 (Layer 1) compatible amb EVM construïda sobre Cosmos SDK, que utilitza el consens Proof-of-Liquidity per alinear els validadors amb la liquiditat onchain."
+  },
+  "urls": {
+    "Website": "https://www.berachain.com/"
+  },
+  "icon": "icons/asset/berachain.svg",
+  "kind": "blockchain",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 80094
+}
