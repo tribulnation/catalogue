@@ -4,7 +4,7 @@ NEVER INCLUDE YOURSELF AS AUTHOR IN GIT COMMITS, OR ELSEWHERE.
 
 ## Schema
 
-The schema is defined in `lib/src/tribulnation/catalogue/schema.py`.
+The schema is defined in `lib/src/tribulnation/catalogue/data/schema.py`.
 
 ## Scope
 These instructions apply to the repository at `/home/m4rs/github/tribulnation/catalogue`.
