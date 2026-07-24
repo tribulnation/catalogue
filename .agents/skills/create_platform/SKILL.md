@@ -5,6 +5,8 @@ description: Create all catalogue data for a non-blockchain trading platform, su
 
 Use this when adding a trading platform or venue. This is different from adding a tradable asset, and different from adding a blockchain network.
 
+Follow `.agents/rules/pull_requests.md` for sourcing, validation, PR description, and branching conventions. Follow `.agents/rules/icons.md` for all icon requirements.
+
 1. Inspect the schema and nearby examples before editing:
    - Schema: `lib/src/tribulnation/catalogue/data/schema.py`
    - CEX examples: `data/platforms/binance.json`, `data/platforms/bybit.json`, `data/platforms/kraken.json`, and any similar platform.
@@ -48,9 +50,9 @@ Use this when adding a trading platform or venue. This is different from adding 
    - Do not guess platform-specific IDs. Verify them from the platform UI, API, docs, or reliable exchange listings.
 
 7. Validate with the repo virtualenv:
-   - `.venv/bin/python validate.py`
+   - `PYTHONPATH=lib/src .venv/bin/python scripts/validate.py`
 
-8. In the final response, mention:
+8. Open the PR per `.agents/rules/pull_requests.md` (summary, sources, icon preview + circle-crop check if an icon was added, test plan), then subscribe to its activity. In the description, mention:
    - The platform file created.
    - Whether the platform is `cex` or `dex`.
    - Whether an icon was added or skipped, and why.
