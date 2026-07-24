@@ -6,7 +6,7 @@ description: Create all catalogue data for a non-blockchain trading platform, su
 Use this when adding a trading platform or venue. This is different from adding a tradable asset, and different from adding a blockchain network.
 
 1. Inspect the schema and nearby examples before editing:
-   - Schema: `lib/src/tribulnation/catalogue/schema.py`
+   - Schema: `lib/src/tribulnation/catalogue/data/schema.py`
    - CEX examples: `data/platforms/binance.json`, `data/platforms/bybit.json`, `data/platforms/kraken.json`, and any similar platform.
    - DEX examples: `data/platforms/dydx.json`, `data/platforms/hyperliquid.json`, and any similar platform.
    - Platform order: `data/platforms/order.txt`
