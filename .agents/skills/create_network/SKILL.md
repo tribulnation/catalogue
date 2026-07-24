@@ -6,7 +6,7 @@ description: Create all catalogue data for a blockchain network/platform, includ
 Use this when adding a blockchain network/platform. This is different from adding a tradable asset.
 
 1. Inspect the schema and nearby examples before editing:
-   - Schema: `lib/src/tribulnation/catalogue/schema.py`
+   - Schema: `lib/src/tribulnation/catalogue/data/schema.py`
    - Platform examples: `data/platforms/ethereum.json`, `data/platforms/solana.json`, `data/platforms/base.json`, and any similar network.
    - Platform order: `data/platforms/order.txt`
    - Network translations: `data/network_translations/*.json`
