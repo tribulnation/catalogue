@@ -5,7 +5,7 @@
 - The icon must be square: use a square `viewBox`/canvas and a square background.
 - The background should be the main color of the asset/platform. The details/accent should be white/black (depending on contrast) or secondary asset/platform color.
 - The icon main glyph must be centered, vertically and horizontally.
-- The glyph should have enough padding to avoid being cropped when displayed in a circle. I.e. the icon must be maskable.
+- The glyph should have enough padding to avoid being cropped when displayed in a circle. I.e. the icon must be maskable. Concretely: the glyph's visible bounding box (ignoring the square background) must fit within a centered circle of radius ≤40% of the canvas size — i.e. the glyph occupies at most ~80% of the canvas width/height, leaving at least ~10% padding on each side. When adapting an existing icon whose content already fills the canvas, wrap it in a `<g transform="translate(x,y) scale(s)">` to shrink and center it to this safe zone.
 - Avoid layered shapes that repaint the background color over foreground details to simulate cutouts. These often create clipped or fuzzy edges where anti-aliased shapes overlap. Prefer an existing SVG where the visible foreground glyph is drawn directly, or one that uses a proper mask/clip path for real cutouts.
 
 ## SVG Format
