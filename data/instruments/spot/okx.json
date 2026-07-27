@@ -1,0 +1,3112 @@
+{
+  "1INCH-EUR": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "euro"
+  },
+  "1INCH-USD": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "usd"
+  },
+  "1INCH-USDC": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "usd-coin"
+  },
+  "1INCH-USDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether"
+  },
+  "AAVE-EUR": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "euro"
+  },
+  "AAVE-TRY": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "turkish-lira"
+  },
+  "AAVE-USD": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd"
+  },
+  "AAVE-USDC": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd-coin"
+  },
+  "AAVE-USDT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether"
+  },
+  "ACE-EUR": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "euro"
+  },
+  "ACE-USD": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "usd"
+  },
+  "ACE-USDC": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "usd-coin"
+  },
+  "ACE-USDT": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "tether"
+  },
+  "ACT-TRY": {
+    "exchange": "spot",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "turkish-lira"
+  },
+  "ACT-USD": {
+    "exchange": "spot",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "usd"
+  },
+  "ACT-USDT": {
+    "exchange": "spot",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "tether"
+  },
+  "ADA-EUR": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "euro"
+  },
+  "ADA-TRY": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "turkish-lira"
+  },
+  "ADA-USD": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd"
+  },
+  "ADA-USDC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd-coin"
+  },
+  "ADA-USDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether"
+  },
+  "ALGO-EUR": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "euro"
+  },
+  "ALGO-USD": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd"
+  },
+  "ALGO-USDC": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd-coin"
+  },
+  "ALGO-USDT": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "tether"
+  },
+  "APE-EUR": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "euro"
+  },
+  "APE-TRY": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "turkish-lira"
+  },
+  "APE-USD": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd"
+  },
+  "APE-USDC": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd-coin"
+  },
+  "APE-USDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether"
+  },
+  "APT-EUR": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "euro"
+  },
+  "APT-TRY": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "turkish-lira"
+  },
+  "APT-USD": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "usd"
+  },
+  "APT-USDC": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "usd-coin"
+  },
+  "APT-USDT": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "tether"
+  },
+  "AR-EUR": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "euro"
+  },
+  "AR-USD": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "usd"
+  },
+  "AR-USDC": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "usd-coin"
+  },
+  "AR-USDT": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "tether"
+  },
+  "ARB-EUR": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "euro"
+  },
+  "ARB-TRY": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "turkish-lira"
+  },
+  "ARB-USD": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd"
+  },
+  "ARB-USDC": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd-coin"
+  },
+  "ARB-USDT": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether"
+  },
+  "ARKM-EUR": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "euro"
+  },
+  "ARKM-TRY": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "turkish-lira"
+  },
+  "ARKM-USD": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "usd"
+  },
+  "ARKM-USDC": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "usd-coin"
+  },
+  "ARKM-USDT": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "tether"
+  },
+  "ASTER-EUR": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "euro"
+  },
+  "ASTER-TRY": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "turkish-lira"
+  },
+  "ASTER-USD": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "usd"
+  },
+  "ASTER-USDC": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "usd-coin"
+  },
+  "ASTER-USDT": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "tether"
+  },
+  "ASTR-EUR": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "euro"
+  },
+  "ASTR-USD": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "usd"
+  },
+  "ASTR-USDC": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "usd-coin"
+  },
+  "ASTR-USDT": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "tether"
+  },
+  "ATH-EUR": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "euro"
+  },
+  "ATH-TRY": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "turkish-lira"
+  },
+  "ATH-USD": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "usd"
+  },
+  "ATH-USDC": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "usd-coin"
+  },
+  "ATH-USDT": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "tether"
+  },
+  "ATOM-EUR": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "euro"
+  },
+  "ATOM-USD": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd"
+  },
+  "ATOM-USDC": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd-coin"
+  },
+  "ATOM-USDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether"
+  },
+  "AVAX-EUR": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "euro"
+  },
+  "AVAX-TRY": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "turkish-lira"
+  },
+  "AVAX-USD": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd"
+  },
+  "AVAX-USDC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd-coin"
+  },
+  "AVAX-USDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether"
+  },
+  "AVNT-EUR": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "euro"
+  },
+  "AVNT-USD": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "usd"
+  },
+  "AVNT-USDC": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "usd-coin"
+  },
+  "AVNT-USDT": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "tether"
+  },
+  "AXS-EUR": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "euro"
+  },
+  "AXS-TRY": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "turkish-lira"
+  },
+  "AXS-USD": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "usd"
+  },
+  "AXS-USDC": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "usd-coin"
+  },
+  "AXS-USDT": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "tether"
+  },
+  "BAT-EUR": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "euro"
+  },
+  "BAT-USD": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "usd"
+  },
+  "BAT-USDC": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "usd-coin"
+  },
+  "BAT-USDT": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "tether"
+  },
+  "BCH-EUR": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "euro"
+  },
+  "BCH-USD": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd"
+  },
+  "BCH-USDC": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd-coin"
+  },
+  "BCH-USDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "tether"
+  },
+  "BERA-EUR": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "euro"
+  },
+  "BERA-TRY": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "turkish-lira"
+  },
+  "BERA-USD": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "usd"
+  },
+  "BERA-USDC": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "usd-coin"
+  },
+  "BERA-USDT": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "tether"
+  },
+  "BIO-EUR": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "euro"
+  },
+  "BIO-TRY": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "turkish-lira"
+  },
+  "BIO-USD": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "usd"
+  },
+  "BIO-USDC": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "usd-coin"
+  },
+  "BIO-USDT": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "tether"
+  },
+  "BLUR-EUR": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "euro"
+  },
+  "BLUR-USD": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "usd"
+  },
+  "BLUR-USDC": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "usd-coin"
+  },
+  "BLUR-USDT": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "tether"
+  },
+  "BNB-EUR": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "euro"
+  },
+  "BNB-USD": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd"
+  },
+  "BNB-USDC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd-coin"
+  },
+  "BNB-USDT": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "tether"
+  },
+  "BONK-EUR": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "euro"
+  },
+  "BONK-TRY": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "turkish-lira"
+  },
+  "BONK-USD": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd"
+  },
+  "BONK-USDC": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd-coin"
+  },
+  "BONK-USDT": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "tether"
+  },
+  "BTC-AUD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "australian-dollar"
+  },
+  "BTC-EUR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro"
+  },
+  "BTC-TRY": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "turkish-lira"
+  },
+  "BTC-USD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd"
+  },
+  "BTC-USDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin"
+  },
+  "BTC-USDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether"
+  },
+  "CATI-EUR": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "euro"
+  },
+  "CATI-USD": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "usd"
+  },
+  "CATI-USDC": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "usd-coin"
+  },
+  "CATI-USDT": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "tether"
+  },
+  "CC-EUR": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "euro"
+  },
+  "CC-TRY": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "turkish-lira"
+  },
+  "CC-USD": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "usd"
+  },
+  "CC-USDC": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "usd-coin"
+  },
+  "CC-USDT": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "tether"
+  },
+  "CELO-EUR": {
+    "exchange": "spot",
+    "base": "celo",
+    "quote": "euro"
+  },
+  "CELO-USD": {
+    "exchange": "spot",
+    "base": "celo",
+    "quote": "usd"
+  },
+  "CELO-USDC": {
+    "exchange": "spot",
+    "base": "celo",
+    "quote": "usd-coin"
+  },
+  "CELO-USDT": {
+    "exchange": "spot",
+    "base": "celo",
+    "quote": "tether"
+  },
+  "CFX-EUR": {
+    "exchange": "spot",
+    "base": "conflux",
+    "quote": "euro"
+  },
+  "CFX-USD": {
+    "exchange": "spot",
+    "base": "conflux",
+    "quote": "usd"
+  },
+  "CFX-USDC": {
+    "exchange": "spot",
+    "base": "conflux",
+    "quote": "usd-coin"
+  },
+  "CFX-USDT": {
+    "exchange": "spot",
+    "base": "conflux",
+    "quote": "tether"
+  },
+  "CHZ-EUR": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "euro"
+  },
+  "CHZ-TRY": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "turkish-lira"
+  },
+  "CHZ-USD": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "usd"
+  },
+  "CHZ-USDC": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "usd-coin"
+  },
+  "CHZ-USDT": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether"
+  },
+  "COMP-EUR": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "euro"
+  },
+  "COMP-USD": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "usd"
+  },
+  "COMP-USDC": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "usd-coin"
+  },
+  "COMP-USDT": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "tether"
+  },
+  "CORE-EUR": {
+    "exchange": "spot",
+    "base": "core",
+    "quote": "euro"
+  },
+  "CORE-TRY": {
+    "exchange": "spot",
+    "base": "core",
+    "quote": "turkish-lira"
+  },
+  "CORE-USD": {
+    "exchange": "spot",
+    "base": "core",
+    "quote": "usd"
+  },
+  "CORE-USDC": {
+    "exchange": "spot",
+    "base": "core",
+    "quote": "usd-coin"
+  },
+  "CORE-USDT": {
+    "exchange": "spot",
+    "base": "core",
+    "quote": "tether"
+  },
+  "CRO-EUR": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "euro"
+  },
+  "CRO-TRY": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "turkish-lira"
+  },
+  "CRO-USD": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "usd"
+  },
+  "CRO-USDC": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "usd-coin"
+  },
+  "CRO-USDT": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "tether"
+  },
+  "CRV-EUR": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "euro"
+  },
+  "CRV-USD": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd"
+  },
+  "CRV-USDC": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd-coin"
+  },
+  "CRV-USDT": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether"
+  },
+  "CVX-EUR": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "euro"
+  },
+  "CVX-USD": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "usd"
+  },
+  "CVX-USDC": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "usd-coin"
+  },
+  "CVX-USDT": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "tether"
+  },
+  "DASH-EUR": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "euro"
+  },
+  "DASH-USD": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "usd"
+  },
+  "DASH-USDC": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "usd-coin"
+  },
+  "DASH-USDT": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "tether"
+  },
+  "DOGE-EUR": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "euro"
+  },
+  "DOGE-TRY": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "turkish-lira"
+  },
+  "DOGE-USD": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd"
+  },
+  "DOGE-USDC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd-coin"
+  },
+  "DOGE-USDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether"
+  },
+  "DOT-EUR": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "euro"
+  },
+  "DOT-TRY": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "turkish-lira"
+  },
+  "DOT-USD": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd"
+  },
+  "DOT-USDC": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd-coin"
+  },
+  "DOT-USDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether"
+  },
+  "DYDX-EUR": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "euro"
+  },
+  "DYDX-USD": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "usd"
+  },
+  "DYDX-USDC": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "usd-coin"
+  },
+  "DYDX-USDT": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "tether"
+  },
+  "EIGEN-EUR": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "euro"
+  },
+  "EIGEN-TRY": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "turkish-lira"
+  },
+  "EIGEN-USD": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "usd"
+  },
+  "EIGEN-USDC": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "usd-coin"
+  },
+  "EIGEN-USDT": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "tether"
+  },
+  "ENA-EUR": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "euro"
+  },
+  "ENA-TRY": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "turkish-lira"
+  },
+  "ENA-USD": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd"
+  },
+  "ENA-USDC": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd-coin"
+  },
+  "ENA-USDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether"
+  },
+  "ENS-EUR": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "euro"
+  },
+  "ENS-USD": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "usd"
+  },
+  "ENS-USDC": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "usd-coin"
+  },
+  "ENS-USDT": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "tether"
+  },
+  "ETC-EUR": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "euro"
+  },
+  "ETC-USD": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "usd"
+  },
+  "ETC-USDC": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "usd-coin"
+  },
+  "ETC-USDT": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "tether"
+  },
+  "ETH-AUD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "australian-dollar"
+  },
+  "ETH-BTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin"
+  },
+  "ETH-EUR": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro"
+  },
+  "ETH-TRY": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "turkish-lira"
+  },
+  "ETH-USD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd"
+  },
+  "ETH-USDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin"
+  },
+  "ETH-USDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether"
+  },
+  "ETHFI-EUR": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "euro"
+  },
+  "ETHFI-TRY": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "turkish-lira"
+  },
+  "ETHFI-USD": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "usd"
+  },
+  "ETHFI-USDC": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "usd-coin"
+  },
+  "ETHFI-USDT": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "tether"
+  },
+  "EURC-USD": {
+    "exchange": "spot",
+    "base": "euro-coin",
+    "quote": "usd"
+  },
+  "FET-EUR": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "euro"
+  },
+  "FET-TRY": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "turkish-lira"
+  },
+  "FET-USD": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd"
+  },
+  "FET-USDC": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd-coin"
+  },
+  "FET-USDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether"
+  },
+  "FIL-EUR": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "euro"
+  },
+  "FIL-TRY": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "turkish-lira"
+  },
+  "FIL-USD": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd"
+  },
+  "FIL-USDC": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd-coin"
+  },
+  "FIL-USDT": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "tether"
+  },
+  "FLOKI-EUR": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "euro"
+  },
+  "FLOKI-TRY": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "turkish-lira"
+  },
+  "FLOKI-USD": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "usd"
+  },
+  "FLOKI-USDC": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "usd-coin"
+  },
+  "FLOKI-USDT": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "tether"
+  },
+  "FLR-EUR": {
+    "exchange": "spot",
+    "base": "flare",
+    "quote": "euro"
+  },
+  "FLR-USD": {
+    "exchange": "spot",
+    "base": "flare",
+    "quote": "usd"
+  },
+  "FLR-USDC": {
+    "exchange": "spot",
+    "base": "flare",
+    "quote": "usd-coin"
+  },
+  "FLR-USDT": {
+    "exchange": "spot",
+    "base": "flare",
+    "quote": "tether"
+  },
+  "G-EUR": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "euro"
+  },
+  "G-USD": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "usd"
+  },
+  "G-USDC": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "usd-coin"
+  },
+  "G-USDT": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "tether"
+  },
+  "GALA-EUR": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "euro"
+  },
+  "GALA-TRY": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "turkish-lira"
+  },
+  "GALA-USD": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "usd"
+  },
+  "GALA-USDC": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "usd-coin"
+  },
+  "GALA-USDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether"
+  },
+  "GLM-EUR": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "euro"
+  },
+  "GLM-USD": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "usd"
+  },
+  "GLM-USDC": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "usd-coin"
+  },
+  "GLM-USDT": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "tether"
+  },
+  "GMT-EUR": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "euro"
+  },
+  "GMT-USD": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "usd"
+  },
+  "GMT-USDC": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "usd-coin"
+  },
+  "GMT-USDT": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "tether"
+  },
+  "GMX-USD": {
+    "exchange": "spot",
+    "base": "gmx",
+    "quote": "usd"
+  },
+  "GMX-USDT": {
+    "exchange": "spot",
+    "base": "gmx",
+    "quote": "tether"
+  },
+  "GRASS-EUR": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "euro"
+  },
+  "GRASS-TRY": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "turkish-lira"
+  },
+  "GRASS-USD": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "usd"
+  },
+  "GRASS-USDC": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "usd-coin"
+  },
+  "GRASS-USDT": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "tether"
+  },
+  "GRT-EUR": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "euro"
+  },
+  "GRT-USD": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "usd"
+  },
+  "GRT-USDC": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "usd-coin"
+  },
+  "GRT-USDT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "tether"
+  },
+  "HBAR-EUR": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "euro"
+  },
+  "HBAR-TRY": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "turkish-lira"
+  },
+  "HBAR-USD": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "usd"
+  },
+  "HBAR-USDC": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "usd-coin"
+  },
+  "HBAR-USDT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "tether"
+  },
+  "HYPE-EUR": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "euro"
+  },
+  "HYPE-TRY": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "turkish-lira"
+  },
+  "HYPE-USD": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd"
+  },
+  "HYPE-USDC": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd-coin"
+  },
+  "HYPE-USDT": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether"
+  },
+  "ICP-EUR": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "euro"
+  },
+  "ICP-TRY": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "turkish-lira"
+  },
+  "ICP-USD": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "usd"
+  },
+  "ICP-USDC": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "usd-coin"
+  },
+  "ICP-USDT": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "tether"
+  },
+  "IMX-EUR": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "euro"
+  },
+  "IMX-USD": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "usd"
+  },
+  "IMX-USDC": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "usd-coin"
+  },
+  "IMX-USDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether"
+  },
+  "INJ-EUR": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "euro"
+  },
+  "INJ-USD": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd"
+  },
+  "INJ-USDC": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd-coin"
+  },
+  "INJ-USDT": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "tether"
+  },
+  "IOST-EUR": {
+    "exchange": "spot",
+    "base": "iost",
+    "quote": "euro"
+  },
+  "IOST-USD": {
+    "exchange": "spot",
+    "base": "iost",
+    "quote": "usd"
+  },
+  "IOST-USDC": {
+    "exchange": "spot",
+    "base": "iost",
+    "quote": "usd-coin"
+  },
+  "IOST-USDT": {
+    "exchange": "spot",
+    "base": "iost",
+    "quote": "tether"
+  },
+  "IOTA-EUR": {
+    "exchange": "spot",
+    "base": "iota",
+    "quote": "euro"
+  },
+  "IOTA-USD": {
+    "exchange": "spot",
+    "base": "iota",
+    "quote": "usd"
+  },
+  "IOTA-USDC": {
+    "exchange": "spot",
+    "base": "iota",
+    "quote": "usd-coin"
+  },
+  "IOTA-USDT": {
+    "exchange": "spot",
+    "base": "iota",
+    "quote": "tether"
+  },
+  "JTO-EUR": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "euro"
+  },
+  "JTO-USD": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "usd"
+  },
+  "JTO-USDC": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "usd-coin"
+  },
+  "JTO-USDT": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "tether"
+  },
+  "JUP-EUR": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "euro"
+  },
+  "JUP-TRY": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "turkish-lira"
+  },
+  "JUP-USD": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd"
+  },
+  "JUP-USDC": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd-coin"
+  },
+  "JUP-USDT": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "tether"
+  },
+  "KAIA-EUR": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "euro"
+  },
+  "KAIA-USD": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "usd"
+  },
+  "KAIA-USDC": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "usd-coin"
+  },
+  "KAIA-USDT": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "tether"
+  },
+  "KAITO-EUR": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "euro"
+  },
+  "KAITO-USD": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "usd"
+  },
+  "KAITO-USDC": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "usd-coin"
+  },
+  "KAITO-USDT": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "tether"
+  },
+  "LAYER-EUR": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "euro"
+  },
+  "LAYER-TRY": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "turkish-lira"
+  },
+  "LAYER-USD": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "usd"
+  },
+  "LAYER-USDC": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "usd-coin"
+  },
+  "LAYER-USDT": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "tether"
+  },
+  "LDO-EUR": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "euro"
+  },
+  "LDO-USD": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "usd"
+  },
+  "LDO-USDC": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "usd-coin"
+  },
+  "LDO-USDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether"
+  },
+  "LEO-EUR": {
+    "exchange": "spot",
+    "base": "leo-token",
+    "quote": "euro"
+  },
+  "LEO-USD": {
+    "exchange": "spot",
+    "base": "leo-token",
+    "quote": "usd"
+  },
+  "LEO-USDC": {
+    "exchange": "spot",
+    "base": "leo-token",
+    "quote": "usd-coin"
+  },
+  "LEO-USDT": {
+    "exchange": "spot",
+    "base": "leo-token",
+    "quote": "tether"
+  },
+  "LINEA-EUR": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "euro"
+  },
+  "LINEA-TRY": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "turkish-lira"
+  },
+  "LINEA-USD": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "usd"
+  },
+  "LINEA-USDC": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "usd-coin"
+  },
+  "LINEA-USDT": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "tether"
+  },
+  "LINK-EUR": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "euro"
+  },
+  "LINK-TRY": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "turkish-lira"
+  },
+  "LINK-USD": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd"
+  },
+  "LINK-USDC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd-coin"
+  },
+  "LINK-USDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether"
+  },
+  "LIT-TRY": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "turkish-lira"
+  },
+  "LIT-USD": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "usd"
+  },
+  "LIT-USDT": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "tether"
+  },
+  "LTC-EUR": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "euro"
+  },
+  "LTC-TRY": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "turkish-lira"
+  },
+  "LTC-USD": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd"
+  },
+  "LTC-USDC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd-coin"
+  },
+  "LTC-USDT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether"
+  },
+  "MANA-EUR": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "euro"
+  },
+  "MANA-USD": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "usd"
+  },
+  "MANA-USDC": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "usd-coin"
+  },
+  "MANA-USDT": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "tether"
+  },
+  "MASK-EUR": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "euro"
+  },
+  "MASK-USD": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "usd"
+  },
+  "MASK-USDC": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "usd-coin"
+  },
+  "MASK-USDT": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "tether"
+  },
+  "ME-EUR": {
+    "exchange": "spot",
+    "base": "magic-eden",
+    "quote": "euro"
+  },
+  "ME-USD": {
+    "exchange": "spot",
+    "base": "magic-eden",
+    "quote": "usd"
+  },
+  "ME-USDC": {
+    "exchange": "spot",
+    "base": "magic-eden",
+    "quote": "usd-coin"
+  },
+  "ME-USDT": {
+    "exchange": "spot",
+    "base": "magic-eden",
+    "quote": "tether"
+  },
+  "MON-EUR": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "euro"
+  },
+  "MON-TRY": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "turkish-lira"
+  },
+  "MON-USD": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "usd"
+  },
+  "MON-USDC": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "usd-coin"
+  },
+  "MON-USDT": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "tether"
+  },
+  "MORPHO-EUR": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "euro"
+  },
+  "MORPHO-USD": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "usd"
+  },
+  "MORPHO-USDC": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "usd-coin"
+  },
+  "MORPHO-USDT": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "tether"
+  },
+  "NEAR-EUR": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "euro"
+  },
+  "NEAR-TRY": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "turkish-lira"
+  },
+  "NEAR-USD": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd"
+  },
+  "NEAR-USDC": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd-coin"
+  },
+  "NEAR-USDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether"
+  },
+  "NEO-EUR": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "euro"
+  },
+  "NEO-USD": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "usd"
+  },
+  "NEO-USDC": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "usd-coin"
+  },
+  "NEO-USDT": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "tether"
+  },
+  "NOT-EUR": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "euro"
+  },
+  "NOT-USD": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "usd"
+  },
+  "NOT-USDC": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "usd-coin"
+  },
+  "NOT-USDT": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "tether"
+  },
+  "OKB-BTC": {
+    "exchange": "spot",
+    "base": "okb",
+    "quote": "bitcoin"
+  },
+  "OKB-EUR": {
+    "exchange": "spot",
+    "base": "okb",
+    "quote": "euro"
+  },
+  "OKB-TRY": {
+    "exchange": "spot",
+    "base": "okb",
+    "quote": "turkish-lira"
+  },
+  "OKB-USDC": {
+    "exchange": "spot",
+    "base": "okb",
+    "quote": "usd-coin"
+  },
+  "OKB-USDT": {
+    "exchange": "spot",
+    "base": "okb",
+    "quote": "tether"
+  },
+  "ONDO-EUR": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "euro"
+  },
+  "ONDO-TRY": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "turkish-lira"
+  },
+  "ONDO-USD": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "usd"
+  },
+  "ONDO-USDC": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "usd-coin"
+  },
+  "ONDO-USDT": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "tether"
+  },
+  "OP-EUR": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "euro"
+  },
+  "OP-TRY": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "turkish-lira"
+  },
+  "OP-USD": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd"
+  },
+  "OP-USDC": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd-coin"
+  },
+  "OP-USDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether"
+  },
+  "ORDI-EUR": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "euro"
+  },
+  "ORDI-TRY": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "turkish-lira"
+  },
+  "ORDI-USD": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "usd"
+  },
+  "ORDI-USDC": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "usd-coin"
+  },
+  "ORDI-USDT": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "tether"
+  },
+  "PAXG-TRY": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "turkish-lira"
+  },
+  "PAXG-USD": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "usd"
+  },
+  "PAXG-USDT": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "tether"
+  },
+  "PENDLE-EUR": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "euro"
+  },
+  "PENDLE-USD": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "usd"
+  },
+  "PENDLE-USDC": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "usd-coin"
+  },
+  "PENDLE-USDT": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "tether"
+  },
+  "PENGU-EUR": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "euro"
+  },
+  "PENGU-TRY": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "turkish-lira"
+  },
+  "PENGU-USD": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd"
+  },
+  "PENGU-USDC": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin"
+  },
+  "PENGU-USDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether"
+  },
+  "PEPE-EUR": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "euro"
+  },
+  "PEPE-TRY": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "turkish-lira"
+  },
+  "PEPE-USD": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd"
+  },
+  "PEPE-USDC": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd-coin"
+  },
+  "PEPE-USDT": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether"
+  },
+  "PI-EUR": {
+    "exchange": "spot",
+    "base": "pi",
+    "quote": "euro"
+  },
+  "PI-TRY": {
+    "exchange": "spot",
+    "base": "pi",
+    "quote": "turkish-lira"
+  },
+  "PI-USD": {
+    "exchange": "spot",
+    "base": "pi",
+    "quote": "usd"
+  },
+  "PI-USDC": {
+    "exchange": "spot",
+    "base": "pi",
+    "quote": "usd-coin"
+  },
+  "PI-USDT": {
+    "exchange": "spot",
+    "base": "pi",
+    "quote": "tether"
+  },
+  "PIXEL-TRY": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "turkish-lira"
+  },
+  "PIXEL-USD": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "usd"
+  },
+  "PIXEL-USDT": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "tether"
+  },
+  "PNUT-EUR": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "euro"
+  },
+  "PNUT-TRY": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "turkish-lira"
+  },
+  "PNUT-USD": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "usd"
+  },
+  "PNUT-USDC": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "usd-coin"
+  },
+  "PNUT-USDT": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "tether"
+  },
+  "POL-EUR": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "euro"
+  },
+  "POL-TRY": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "turkish-lira"
+  },
+  "POL-USD": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd"
+  },
+  "POL-USDC": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd-coin"
+  },
+  "POL-USDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether"
+  },
+  "PUMP-EUR": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "euro"
+  },
+  "PUMP-TRY": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "turkish-lira"
+  },
+  "PUMP-USD": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "usd"
+  },
+  "PUMP-USDC": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "usd-coin"
+  },
+  "PUMP-USDT": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "tether"
+  },
+  "PYTH-EUR": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "euro"
+  },
+  "PYTH-USD": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "usd"
+  },
+  "PYTH-USDC": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "usd-coin"
+  },
+  "PYTH-USDT": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "tether"
+  },
+  "PYUSD-USDT": {
+    "exchange": "spot",
+    "base": "paypal-usd",
+    "quote": "tether"
+  },
+  "RAY-EUR": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "euro"
+  },
+  "RAY-USD": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "usd"
+  },
+  "RAY-USDC": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "usd-coin"
+  },
+  "RAY-USDT": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "tether"
+  },
+  "RENDER-EUR": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "euro"
+  },
+  "RENDER-TRY": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "turkish-lira"
+  },
+  "RENDER-USD": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "usd"
+  },
+  "RENDER-USDC": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "usd-coin"
+  },
+  "RENDER-USDT": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "tether"
+  },
+  "RLUSD-USDT": {
+    "exchange": "spot",
+    "base": "ripple-usd",
+    "quote": "tether"
+  },
+  "S-EUR": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "euro"
+  },
+  "S-USD": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "usd"
+  },
+  "S-USDC": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "usd-coin"
+  },
+  "S-USDT": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "tether"
+  },
+  "SAND-EUR": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "euro"
+  },
+  "SAND-TRY": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "turkish-lira"
+  },
+  "SAND-USD": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "usd"
+  },
+  "SAND-USDC": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "usd-coin"
+  },
+  "SAND-USDT": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "tether"
+  },
+  "SEI-EUR": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "euro"
+  },
+  "SEI-TRY": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "turkish-lira"
+  },
+  "SEI-USD": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "usd"
+  },
+  "SEI-USDC": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "usd-coin"
+  },
+  "SEI-USDT": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "tether"
+  },
+  "SHIB-EUR": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "euro"
+  },
+  "SHIB-TRY": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "turkish-lira"
+  },
+  "SHIB-USD": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd"
+  },
+  "SHIB-USDC": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd-coin"
+  },
+  "SHIB-USDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether"
+  },
+  "SKY-EUR": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "euro"
+  },
+  "SKY-USD": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd"
+  },
+  "SKY-USDC": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd-coin"
+  },
+  "SKY-USDT": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "tether"
+  },
+  "SNX-EUR": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "euro"
+  },
+  "SNX-TRY": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "turkish-lira"
+  },
+  "SNX-USD": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "usd"
+  },
+  "SNX-USDC": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "usd-coin"
+  },
+  "SNX-USDT": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "tether"
+  },
+  "SOL-AUD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "australian-dollar"
+  },
+  "SOL-BTC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "bitcoin"
+  },
+  "SOL-EUR": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "euro"
+  },
+  "SOL-TRY": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "turkish-lira"
+  },
+  "SOL-USD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd"
+  },
+  "SOL-USDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin"
+  },
+  "SOL-USDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether"
+  },
+  "STETH-ETH": {
+    "exchange": "spot",
+    "base": "lido-staked-ether",
+    "quote": "ethereum"
+  },
+  "STETH-USD": {
+    "exchange": "spot",
+    "base": "lido-staked-ether",
+    "quote": "usd"
+  },
+  "STETH-USDT": {
+    "exchange": "spot",
+    "base": "lido-staked-ether",
+    "quote": "tether"
+  },
+  "STRK-EUR": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "euro"
+  },
+  "STRK-TRY": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "turkish-lira"
+  },
+  "STRK-USD": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "usd"
+  },
+  "STRK-USDC": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "usd-coin"
+  },
+  "STRK-USDT": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "tether"
+  },
+  "STX-EUR": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "euro"
+  },
+  "STX-TRY": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "turkish-lira"
+  },
+  "STX-USD": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "usd"
+  },
+  "STX-USDC": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "usd-coin"
+  },
+  "STX-USDT": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "tether"
+  },
+  "SUI-EUR": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "euro"
+  },
+  "SUI-TRY": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "turkish-lira"
+  },
+  "SUI-USD": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd"
+  },
+  "SUI-USDC": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd-coin"
+  },
+  "SUI-USDT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether"
+  },
+  "T-EUR": {
+    "exchange": "spot",
+    "base": "threshold-network",
+    "quote": "euro"
+  },
+  "T-USD": {
+    "exchange": "spot",
+    "base": "threshold-network",
+    "quote": "usd"
+  },
+  "T-USDC": {
+    "exchange": "spot",
+    "base": "threshold-network",
+    "quote": "usd-coin"
+  },
+  "T-USDT": {
+    "exchange": "spot",
+    "base": "threshold-network",
+    "quote": "tether"
+  },
+  "TAO-EUR": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "euro"
+  },
+  "TAO-TRY": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "turkish-lira"
+  },
+  "TAO-USD": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "usd"
+  },
+  "TAO-USDC": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "usd-coin"
+  },
+  "TAO-USDT": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "tether"
+  },
+  "THETA-EUR": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "euro"
+  },
+  "THETA-USD": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "usd"
+  },
+  "THETA-USDC": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "usd-coin"
+  },
+  "THETA-USDT": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "tether"
+  },
+  "TIA-EUR": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "euro"
+  },
+  "TIA-TRY": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "turkish-lira"
+  },
+  "TIA-USD": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "usd"
+  },
+  "TIA-USDC": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "usd-coin"
+  },
+  "TIA-USDT": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "tether"
+  },
+  "TRB-EUR": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "euro"
+  },
+  "TRB-USD": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "usd"
+  },
+  "TRB-USDC": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "usd-coin"
+  },
+  "TRB-USDT": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "tether"
+  },
+  "TRUMP-AUD": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "australian-dollar"
+  },
+  "TRUMP-EUR": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "euro"
+  },
+  "TRUMP-TRY": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "turkish-lira"
+  },
+  "TRUMP-USD": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd"
+  },
+  "TRUMP-USDC": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd-coin"
+  },
+  "TRUMP-USDT": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "tether"
+  },
+  "TRX-EUR": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "euro"
+  },
+  "TRX-TRY": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "turkish-lira"
+  },
+  "TRX-USD": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd"
+  },
+  "TRX-USDC": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd-coin"
+  },
+  "TRX-USDT": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "tether"
+  },
+  "UMA-EUR": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "euro"
+  },
+  "UMA-USD": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "usd"
+  },
+  "UMA-USDC": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "usd-coin"
+  },
+  "UMA-USDT": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "tether"
+  },
+  "UNI-EUR": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "euro"
+  },
+  "UNI-TRY": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "turkish-lira"
+  },
+  "UNI-USD": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd"
+  },
+  "UNI-USDC": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd-coin"
+  },
+  "UNI-USDT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether"
+  },
+  "USD1-USDT": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "tether"
+  },
+  "USDC-AUD": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "australian-dollar"
+  },
+  "USDC-EUR": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "euro"
+  },
+  "USDC-TRY": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "turkish-lira"
+  },
+  "USDC-USDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether"
+  },
+  "USDG-EUR": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "euro"
+  },
+  "USDG-USDT": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "tether"
+  },
+  "USDS-USD": {
+    "exchange": "spot",
+    "base": "sky-usd",
+    "quote": "usd"
+  },
+  "USDS-USDT": {
+    "exchange": "spot",
+    "base": "sky-usd",
+    "quote": "tether"
+  },
+  "USDT-AUD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "australian-dollar"
+  },
+  "USDT-EUR": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "euro"
+  },
+  "USDT-TRY": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "turkish-lira"
+  },
+  "USDT-USD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd"
+  },
+  "VIRTUAL-EUR": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "euro"
+  },
+  "VIRTUAL-USD": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "usd"
+  },
+  "VIRTUAL-USDC": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "usd-coin"
+  },
+  "VIRTUAL-USDT": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "tether"
+  },
+  "W-EUR": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "euro"
+  },
+  "W-TRY": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "turkish-lira"
+  },
+  "W-USD": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "usd"
+  },
+  "W-USDC": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "usd-coin"
+  },
+  "W-USDT": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "tether"
+  },
+  "WIF-EUR": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "euro"
+  },
+  "WIF-TRY": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "turkish-lira"
+  },
+  "WIF-USD": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd"
+  },
+  "WIF-USDC": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd-coin"
+  },
+  "WIF-USDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether"
+  },
+  "WIN-EUR": {
+    "exchange": "spot",
+    "base": "winklink",
+    "quote": "euro"
+  },
+  "WIN-USD": {
+    "exchange": "spot",
+    "base": "winklink",
+    "quote": "usd"
+  },
+  "WIN-USDC": {
+    "exchange": "spot",
+    "base": "winklink",
+    "quote": "usd-coin"
+  },
+  "WIN-USDT": {
+    "exchange": "spot",
+    "base": "winklink",
+    "quote": "tether"
+  },
+  "WLD-EUR": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "euro"
+  },
+  "WLD-TRY": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "turkish-lira"
+  },
+  "WLD-USD": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "usd"
+  },
+  "WLD-USDC": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "usd-coin"
+  },
+  "WLD-USDT": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "tether"
+  },
+  "WLFI-EUR": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "euro"
+  },
+  "WLFI-TRY": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "turkish-lira"
+  },
+  "WLFI-USD": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "usd"
+  },
+  "WLFI-USDC": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "usd-coin"
+  },
+  "WLFI-USDT": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "tether"
+  },
+  "XAUT-TRY": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "turkish-lira"
+  },
+  "XAUT-USDT": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "tether"
+  },
+  "XLM-EUR": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "euro"
+  },
+  "XLM-TRY": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "turkish-lira"
+  },
+  "XLM-USD": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "usd"
+  },
+  "XLM-USDC": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "usd-coin"
+  },
+  "XLM-USDT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether"
+  },
+  "XPL-EUR": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "euro"
+  },
+  "XPL-TRY": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "turkish-lira"
+  },
+  "XPL-USD": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "usd"
+  },
+  "XPL-USDC": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "usd-coin"
+  },
+  "XPL-USDT": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "tether"
+  },
+  "XRP-AUD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "australian-dollar"
+  },
+  "XRP-EUR": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "euro"
+  },
+  "XRP-TRY": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "turkish-lira"
+  },
+  "XRP-USD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd"
+  },
+  "XRP-USDC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd-coin"
+  },
+  "XRP-USDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether"
+  },
+  "XTZ-EUR": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "euro"
+  },
+  "XTZ-USD": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "usd"
+  },
+  "XTZ-USDC": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "usd-coin"
+  },
+  "XTZ-USDT": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "tether"
+  },
+  "YFI-EUR": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "euro"
+  },
+  "YFI-USD": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "usd"
+  },
+  "YFI-USDC": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "usd-coin"
+  },
+  "YFI-USDT": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "tether"
+  },
+  "ZEC-EUR": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "euro"
+  },
+  "ZEC-USD": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "usd"
+  },
+  "ZEC-USDC": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "usd-coin"
+  },
+  "ZEC-USDT": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "tether"
+  },
+  "ZK-EUR": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "euro"
+  },
+  "ZK-TRY": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "turkish-lira"
+  },
+  "ZK-USD": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "usd"
+  },
+  "ZK-USDC": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "usd-coin"
+  },
+  "ZK-USDT": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "tether"
+  },
+  "ZRO-EUR": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "euro"
+  },
+  "ZRO-TRY": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "turkish-lira"
+  },
+  "ZRO-USD": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "usd"
+  },
+  "ZRO-USDC": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "usd-coin"
+  },
+  "ZRO-USDT": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "tether"
+  }
+}

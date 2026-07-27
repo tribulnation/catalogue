@@ -1,0 +1,926 @@
+{
+  "1INCH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "1inch",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AAPL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AAVE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ACT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ADA-USD-SWAP": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd",
+    "settlement": "cardano"
+  },
+  "ADA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AERO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "aerodrome",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ALGO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "algorand",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AMZN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "APE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "apecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "APT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "arweave",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ARB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ARKM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "arkham",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ASTER-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ATH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "aethir",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ATOM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "cosmos",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AVAX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AVNT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "avantis",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AXS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BAT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BCH-USD-SWAP": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "usd",
+    "settlement": "bitcoin-cash"
+  },
+  "BCH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BERA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "berachain",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BIO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "bio-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BLUR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "blur",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BNB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BONK-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BTC-USD-SWAP": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd",
+    "settlement": "bitcoin"
+  },
+  "BTC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "canton",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CELO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "celo",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CFX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "conflux",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CHZ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "chiliz",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "COIN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "coinbase",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "COMP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "compound",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CORE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "core",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CRO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "cronos",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CRV-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CVX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "convex-finance",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DASH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "dash",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DOGE-USD-SWAP": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd",
+    "settlement": "dogecoin"
+  },
+  "DOGE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DOT-USD-SWAP": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "usd",
+    "settlement": "polkadot"
+  },
+  "DOT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DYDX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "dydx",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "EIGEN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ENA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ENS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ETC-USD-SWAP": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "usd",
+    "settlement": "ethereum-classic"
+  },
+  "ETC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ETH-USD-SWAP": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd",
+    "settlement": "ethereum"
+  },
+  "ETH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ETHFI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "FARTCOIN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "FIL-USD-SWAP": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "usd",
+    "settlement": "filecoin"
+  },
+  "FIL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "FLOKI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "floki",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GALA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "gala",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GLM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "golem",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GMT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GMX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "gmx",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GOOGL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GRASS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "grass",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GRT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "the-graph",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "HBAR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "HYPE-USD-SWAP": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "usd",
+    "settlement": "hyperliquid"
+  },
+  "HYPE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ICP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "IMX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "immutable-x",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "INJ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "IOST-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "iost",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "IOTA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "iota",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "JTO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "JUP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "KAITO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LAYER-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "solayer",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LDO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LINEA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "linea",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LINK-USD-SWAP": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd",
+    "settlement": "chainlink"
+  },
+  "LINK-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LIT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LTC-USD-SWAP": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd",
+    "settlement": "litecoin"
+  },
+  "LTC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MANA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "decentraland",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MASK-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "mask-network",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ME-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "magic-eden",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "META-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MON-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MORPHO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "morpho",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MSFT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MSTR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NEAR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NEO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "neo",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NG-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NOT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "notcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NVDA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "OKB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "okb",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ONDO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "OP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ORDI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ordi",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PENDLE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PENGU-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PEPE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "pi",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PNUT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "POL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PUMP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PYTH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "QNT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "quant",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "RAY-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "raydium",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "RENDER-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "S-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SAND-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SEI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SHIB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SKY-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sky",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SNX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "synthetix",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SOL-USD-SWAP": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd",
+    "settlement": "solana"
+  },
+  "SOL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "STRK-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "STX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "stacks",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SUI-USD-SWAP": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd",
+    "settlement": "sui"
+  },
+  "SUI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SYRUP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "syrup",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TAO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "THETA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "theta-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TIA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TRB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "tellor",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TRUMP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TRX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TSLA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "UMA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "uma",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "UNI-USD-SWAP": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "usd",
+    "settlement": "uniswap"
+  },
+  "UNI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "USDC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "usd-coin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "VANA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "vana",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "VIRTUAL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "VVV-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "W-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "WIF-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "WLD-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "WLFI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XAG-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XAU-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XLM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XPL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XRP-USD-SWAP": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd",
+    "settlement": "xrp"
+  },
+  "XRP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XTZ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "tezos",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "YFI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ZEC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ZK-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "zksync",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ZRO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "tether",
+    "settlement": "tether"
+  }
+}
