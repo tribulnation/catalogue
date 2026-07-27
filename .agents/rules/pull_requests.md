@@ -34,6 +34,14 @@ Every PR must include:
 - Call `subscribe_pr_activity` on the PR so review comments and CI failures are delivered automatically.
 - When addressing a review comment about an icon change, reply with an updated circle-cropped preview using the same scratch-file-then-delete technique, so the fix can be visually confirmed in the same comment thread.
 
+## Multiplier / rebased symbols
+
+Some exchanges list an asset under a scaled ticker (e.g. `1000BONK`, `1000PEPE`, `kSHIB`) where the traded contract tracks N× the underlying asset's price. Never add these to `data/asset_translations/<platform>.json` — a translation entry means "this symbol IS this asset" (1:1), and a `1000BONK: bonk` mapping loses the multiplier for any other consumer of that translation.
+
+Instead, resolve the underlying asset directly when building the instrument, and set the `Perpetual` schema's `multiplier` field on the instrument itself (e.g. `{"base": "bonk", ..., "multiplier": 1000}`). See `data/instruments/perpetual/hyperliquid.json`'s `kBONK`/`kSHIB`/`kFLOKI` entries for the reference convention — note `data/asset_translations/hyperliquid.json` has no entries for these tickers at all.
+
+The `Spot` schema currently has no `multiplier` field. If a multiplier-scaled symbol only appears as a spot pair (no equivalent perpetual), skip it rather than adding a misleading 1:1 translation, and flag it in the PR description as a schema gap rather than working around it.
+
 ## Branching
 
 - Only push to the designated branch for this repo/session. If the branch's prior PR has already been merged, restart it from the latest default branch before adding new work (`git fetch origin main && git checkout -B <branch> origin/main`) rather than stacking on merged history.
