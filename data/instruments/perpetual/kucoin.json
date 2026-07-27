@@ -1,0 +1,917 @@
+{
+  "1INCHUSDTM": {
+    "base": "1inch",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AAPLUSDTM": {
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AAVEUSDTM": {
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ACEUSDTM": {
+    "base": "fusionist",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ADAUSDTM": {
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AEROUSDTM": {
+    "base": "aerodrome",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ALGOUSDTM": {
+    "base": "algorand",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ALTUSDTM": {
+    "base": "altlayer",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AMZNUSDTM": {
+    "base": "amazon",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ANKRUSDTM": {
+    "base": "ankr",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "APEUSDTM": {
+    "base": "apecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "APTUSDTM": {
+    "base": "aptos",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ARBUSDTM": {
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ARKMUSDTM": {
+    "base": "arkham",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ARUSDTM": {
+    "base": "arweave",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ASTERUSDTM": {
+    "base": "aster",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ASTRUSDTM": {
+    "base": "astar",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ATHUSDTM": {
+    "base": "aethir",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ATOMUSDTM": {
+    "base": "cosmos",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AVAUSDTM": {
+    "base": "travala",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AVAXUSDTM": {
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AVNTUSDTM": {
+    "base": "avantis",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AXLUSDTM": {
+    "base": "axelar",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AXSUSDTM": {
+    "base": "axie-infinity",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BATUSDTM": {
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BCHUSDTM": {
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BERAUSDTM": {
+    "base": "berachain",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BIOUSDTM": {
+    "base": "bio-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BLASTUSDTM": {
+    "base": "blast",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BLURUSDTM": {
+    "base": "blur",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BNBUSDTM": {
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BPUSDTM": {
+    "base": "backpack",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BSVUSDTM": {
+    "base": "bitcoin-cash-sv",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CAKEUSDTM": {
+    "base": "pancakeswap",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CATIUSDTM": {
+    "base": "catizen",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CCUSDTM": {
+    "base": "canton",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CELOUSDTM": {
+    "base": "celo",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CFXUSDTM": {
+    "base": "conflux",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CHZUSDTM": {
+    "base": "chiliz",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "COINUSDTM": {
+    "base": "coinbase",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "COMPUSDTM": {
+    "base": "compound",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "COWUSDTM": {
+    "base": "cow-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CROUSDTM": {
+    "base": "cronos",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CRVUSDTM": {
+    "base": "curve-dao",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CVXUSDTM": {
+    "base": "convex-finance",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DASHUSDTM": {
+    "base": "dash",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DOGEUSDCM": {
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "DOGEUSDM": {
+    "base": "dogecoin",
+    "quote": "usd",
+    "settlement": "dogecoin"
+  },
+  "DOGEUSDTM": {
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DOTUSDM": {
+    "base": "polkadot",
+    "quote": "usd",
+    "settlement": "polkadot"
+  },
+  "DOTUSDTM": {
+    "base": "polkadot",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DYDXUSDTM": {
+    "base": "dydx",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DYMUSDTM": {
+    "base": "dymension",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "EIGENUSDTM": {
+    "base": "eigen-layer",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ENAUSDTM": {
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ENSUSDTM": {
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ETCUSDTM": {
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ETHFIUSDTM": {
+    "base": "ether-fi",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ETHUSDCM": {
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ETHUSDM": {
+    "base": "ethereum",
+    "quote": "usd",
+    "settlement": "ethereum"
+  },
+  "ETHUSDTM": {
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "FARTCOINUSDTM": {
+    "base": "fartcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "FETUSDTM": {
+    "base": "fetch-ai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "FILUSDTM": {
+    "base": "filecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "FLOKIUSDTM": {
+    "base": "floki",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "FRAXUSDTM": {
+    "base": "frax",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GALAUSDTM": {
+    "base": "gala",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GMTUSDTM": {
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GMXUSDTM": {
+    "base": "gmx",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GOOGLUSDTM": {
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GRASSUSDTM": {
+    "base": "grass",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GRTUSDTM": {
+    "base": "the-graph",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GUSDTM": {
+    "base": "gravity",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "HBARUSDTM": {
+    "base": "hedera",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "HYPEUSDTM": {
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ICPUSDTM": {
+    "base": "internet-computer",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "IMXUSDTM": {
+    "base": "immutable-x",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "INJUSDTM": {
+    "base": "injective",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "IOTAUSDTM": {
+    "base": "iota",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "IOUSDTM": {
+    "base": "io-net",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "JASMYUSDTM": {
+    "base": "jasmycoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "JTOUSDTM": {
+    "base": "jito",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "JUPUSDTM": {
+    "base": "jupiter",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "KAIAUSDTM": {
+    "base": "kaia",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "KAITOUSDTM": {
+    "base": "kaito",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "KASUSDTM": {
+    "base": "kaspa",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "KCSUSDTM": {
+    "base": "kucoin-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LDOUSDTM": {
+    "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LINEAUSDTM": {
+    "base": "linea",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LINKUSDTM": {
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LITUSDTM": {
+    "base": "lighter",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LTCUSDTM": {
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MANAUSDTM": {
+    "base": "decentraland",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MANTAUSDTM": {
+    "base": "manta-network",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MASKUSDTM": {
+    "base": "mask-network",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "METAUSDTM": {
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MEUSDTM": {
+    "base": "magic-eden",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MONUSDTM": {
+    "base": "monad",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MORPHOUSDTM": {
+    "base": "morpho",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MSFTUSDTM": {
+    "base": "microsoft",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MSTRUSDTM": {
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NEARUSDTM": {
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NEOUSDTM": {
+    "base": "neo",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NILUSDTM": {
+    "base": "nillion",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NOTUSDTM": {
+    "base": "notcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NVDAUSDTM": {
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ONDOUSDTM": {
+    "base": "ondo",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "OPUSDTM": {
+    "base": "optimism",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ORDIUSDTM": {
+    "base": "ordi",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PAXGUSDTM": {
+    "base": "pax-gold",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PENDLEUSDTM": {
+    "base": "pendle",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PENGUUSDTM": {
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PEPEUSDCM": {
+    "base": "pepe",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "PEPEUSDTM": {
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PIXELUSDTM": {
+    "base": "pixels",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PNUTUSDTM": {
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "POLUSDTM": {
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PUMPUSDTM": {
+    "base": "pump",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PYTHUSDTM": {
+    "base": "pyth-network",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "QNTUSDTM": {
+    "base": "quant",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "RAYUSDTM": {
+    "base": "raydium",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "RENDERUSDTM": {
+    "base": "render",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "REZUSDTM": {
+    "base": "renzo",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "RUNEUSDTM": {
+    "base": "thorchain",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SANDUSDTM": {
+    "base": "the-sandbox",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SEIUSDTM": {
+    "base": "sei",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SFPUSDTM": {
+    "base": "safepal",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SHIBUSDTM": {
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SKYUSDTM": {
+    "base": "sky",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SNXUSDTM": {
+    "base": "synthetix",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SOLUSDCM": {
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SOLUSDM": {
+    "base": "solana",
+    "quote": "usd",
+    "settlement": "solana"
+  },
+  "SOLUSDTM": {
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SOLVUSDTM": {
+    "base": "solv-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "STRKUSDTM": {
+    "base": "starknet",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "STXUSDTM": {
+    "base": "stacks",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SUIUSDCM": {
+    "base": "sui",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SUIUSDM": {
+    "base": "sui",
+    "quote": "usd",
+    "settlement": "sui"
+  },
+  "SUIUSDTM": {
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SUNUSDTM": {
+    "base": "sun-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SUSDTM": {
+    "base": "sonic",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SYRUPUSDTM": {
+    "base": "syrup",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TAOUSDTM": {
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "THETAUSDTM": {
+    "base": "theta-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "THEUSDTM": {
+    "base": "thena",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TIAUSDTM": {
+    "base": "celestia",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TRBUSDTM": {
+    "base": "tellor",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TRUMPUSDTM": {
+    "base": "official-trump",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TRXUSDTM": {
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TSLAUSDTM": {
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TUSDTM": {
+    "base": "threshold-network",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TWTUSDTM": {
+    "base": "trust-wallet-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "UMAUSDTM": {
+    "base": "uma",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "UNIUSDTM": {
+    "base": "uniswap",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "USDCUSDTM": {
+    "base": "usd-coin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "USDGUSDTM": {
+    "base": "global-dollar",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "USUALUSDTM": {
+    "base": "usual",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "VANAUSDTM": {
+    "base": "vana",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "VETUSDTM": {
+    "base": "vechain",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "VIRTUALUSDTM": {
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "VVVUSDTM": {
+    "base": "venice-token",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "WIFUSDTM": {
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "WLDUSDTM": {
+    "base": "worldcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "WLFIUSDTM": {
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "WUSDTM": {
+    "base": "wormhole",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XAGUSDTM": {
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XAUTUSDTM": {
+    "base": "tether-gold",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XBTMU26": {
+    "base": "bitcoin",
+    "quote": "usd",
+    "settlement": "bitcoin"
+  },
+  "XBTUSDCM": {
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "XBTUSDM": {
+    "base": "bitcoin",
+    "quote": "usd",
+    "settlement": "bitcoin"
+  },
+  "XBTUSDTM": {
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XECUSDTM": {
+    "base": "ecash",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XLMUSDTM": {
+    "base": "stellar",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XMRUSDTM": {
+    "base": "monero",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XPLUSDTM": {
+    "base": "plasma",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XRPUSDCM": {
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "XRPUSDM": {
+    "base": "xrp",
+    "quote": "usd",
+    "settlement": "xrp"
+  },
+  "XRPUSDTM": {
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XTZUSDTM": {
+    "base": "tezos",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "YFIUSDTM": {
+    "base": "yearn-finance",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ZECUSDTM": {
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ZKUSDTM": {
+    "base": "zksync",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ZROUSDTM": {
+    "base": "layer-zero",
+    "quote": "tether",
+    "settlement": "tether"
+  }
+}
