@@ -34,6 +34,20 @@ Every PR must include:
 - Call `subscribe_pr_activity` on the PR so review comments and CI failures are delivered automatically.
 - When addressing a review comment about an icon change, reply with an updated circle-cropped preview using the same scratch-file-then-delete technique, so the fix can be visually confirmed in the same comment thread.
 
+## `1000X`-style tickers: multiplier contract vs. real distinct asset
+
+Exchanges use `1000X`/`kX`-style ticker prefixes (`1000BONK`, `1000PEPE`, `kSHIB`, `1000SATS`, ...) for two unrelated reasons. Telling them apart matters — treating one as the other either loses information or invents a fake asset:
+
+1. **Synthetic contract multiplier** (only ever seen on **perpetual/derivatives** contracts): the exchange scales the contract's quoted price/size by N (usually 1000x) purely because the real token's unit price is a tiny fraction of a cent — there is no separate token to hold, it is purely a derivatives-contract convention. Example: Binance/Bybit's `1000BONKUSDT`/`1000PEPEUSDT` perpetuals — Binance's own docs classify these as "Multiplier Denominated Token" contracts tracking the real BONK/PEPE price.
+   - Resolve the real underlying asset as `base`, and set the `Perpetual` schema's `multiplier` field on the instrument (e.g. `{"base": "bonk", ..., "multiplier": 1000}`). See `data/instruments/perpetual/hyperliquid.json`'s `kBONK`/`kSHIB`/`kFLOKI` entries for the reference convention.
+   - Never add these to `data/asset_translations/<platform>.json` — a translation entry means "this symbol IS this asset" (1:1), and e.g. `1000BONK: bonk` would silently lose the multiplier for any other consumer of that translation.
+   - There is no `multiplier` field on `Spot` — spot markets always trade the real, deliverable unit, so a genuine contract-multiplier concept doesn't apply there. If you think you've found a spot instrument that needs one, you've almost certainly found case 2 instead.
+
+2. **A real, distinct, holdable token** whose name happens to include a number: e.g. Binance's spot `1000SATS` is an actual BRC-20 token ("SATS (Ordinals)") with its own supply and its own independent CoinGecko/CoinMarketCap listing — the "1000" is part of its identity, not a multiplier of some other asset.
+   - This is a normal asset. Add it to `data/assets/<id>.json` like any other and reference it directly as `base`/`quote` — no multiplier involved.
+
+**How to tell which case you're in:** check whether the ticker has its own independent CoinGecko/CoinMarketCap listing distinct from the "unscaled" asset. If yes, it's case 2 (a real asset — add it). If the ticker only ever appears as a derivatives contract and there's no separate coin listing, it's case 1 (a multiplier — use the `Perpetual.multiplier` field, do not create a new asset or translation).
+
 ## Branching
 
 - Only push to the designated branch for this repo/session. If the branch's prior PR has already been merged, restart it from the latest default branch before adding new work (`git fetch origin main && git checkout -B <branch> origin/main`) rather than stacking on merged history.
