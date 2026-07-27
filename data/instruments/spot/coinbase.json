@@ -1,0 +1,1257 @@
+{
+  "1INCH-EUR": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "euro"
+  },
+  "1INCH-GBP": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "british-pound"
+  },
+  "1INCH-USD": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "usd"
+  },
+  "AAVE-BTC": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "bitcoin"
+  },
+  "AAVE-EUR": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "euro"
+  },
+  "AAVE-GBP": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "british-pound"
+  },
+  "AAVE-USD": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd"
+  },
+  "ADA-BTC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "bitcoin"
+  },
+  "ADA-ETH": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "ethereum"
+  },
+  "ADA-EUR": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "euro"
+  },
+  "ADA-GBP": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "british-pound"
+  },
+  "ADA-USD": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd"
+  },
+  "ADA-USDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether"
+  },
+  "AERO-USD": {
+    "exchange": "spot",
+    "base": "aerodrome",
+    "quote": "usd"
+  },
+  "AKT-USD": {
+    "exchange": "spot",
+    "base": "akash-network",
+    "quote": "usd"
+  },
+  "ALEPH-USD": {
+    "exchange": "spot",
+    "base": "aleph",
+    "quote": "usd"
+  },
+  "ALGO-BTC": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "bitcoin"
+  },
+  "ALGO-EUR": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "euro"
+  },
+  "ALGO-GBP": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "british-pound"
+  },
+  "ALGO-USD": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd"
+  },
+  "ALT-USD": {
+    "exchange": "spot",
+    "base": "altlayer",
+    "quote": "usd"
+  },
+  "ANKR-EUR": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "euro"
+  },
+  "ANKR-USD": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "usd"
+  },
+  "APE-EUR": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "euro"
+  },
+  "APE-USD": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd"
+  },
+  "APE-USDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether"
+  },
+  "APT-USD": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "usd"
+  },
+  "ARB-USD": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd"
+  },
+  "ARKM-USD": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "usd"
+  },
+  "ASTER-USD": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "usd"
+  },
+  "ATH-USD": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "usd"
+  },
+  "ATOM-BTC": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "bitcoin"
+  },
+  "ATOM-EUR": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "euro"
+  },
+  "ATOM-GBP": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "british-pound"
+  },
+  "ATOM-USD": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd"
+  },
+  "ATOM-USDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether"
+  },
+  "AVAX-BTC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "bitcoin"
+  },
+  "AVAX-EUR": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "euro"
+  },
+  "AVAX-USD": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd"
+  },
+  "AVAX-USDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether"
+  },
+  "AVNT-USD": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "usd"
+  },
+  "AXL-USD": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "usd"
+  },
+  "AXS-USD": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "usd"
+  },
+  "BAT-BTC": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "bitcoin"
+  },
+  "BAT-ETH": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "ethereum"
+  },
+  "BAT-EUR": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "euro"
+  },
+  "BAT-USD": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "usd"
+  },
+  "BCH-BTC": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "bitcoin"
+  },
+  "BCH-EUR": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "euro"
+  },
+  "BCH-GBP": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "british-pound"
+  },
+  "BCH-USD": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd"
+  },
+  "BERA-USD": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "usd"
+  },
+  "BIO-USD": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "usd"
+  },
+  "BLAST-USD": {
+    "exchange": "spot",
+    "base": "blast",
+    "quote": "usd"
+  },
+  "BLUR-USD": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "usd"
+  },
+  "BNB-USD": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd"
+  },
+  "BONK-USD": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd"
+  },
+  "BTC-EUR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro"
+  },
+  "BTC-GBP": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "british-pound"
+  },
+  "BTC-USD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd"
+  },
+  "BTC-USDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether"
+  },
+  "CAKE-USD": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "usd"
+  },
+  "CGLD-USD": {
+    "exchange": "spot",
+    "base": "celo",
+    "quote": "usd"
+  },
+  "CHZ-EUR": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "euro"
+  },
+  "CHZ-GBP": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "british-pound"
+  },
+  "CHZ-USD": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "usd"
+  },
+  "CHZ-USDT": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether"
+  },
+  "COMP-BTC": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "bitcoin"
+  },
+  "COMP-USD": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "usd"
+  },
+  "COW-USD": {
+    "exchange": "spot",
+    "base": "cow-protocol",
+    "quote": "usd"
+  },
+  "CRO-EUR": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "euro"
+  },
+  "CRO-USD": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "usd"
+  },
+  "CRO-USDT": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "tether"
+  },
+  "CRV-BTC": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "bitcoin"
+  },
+  "CRV-EUR": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "euro"
+  },
+  "CRV-GBP": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "british-pound"
+  },
+  "CRV-USD": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd"
+  },
+  "CVX-USD": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "usd"
+  },
+  "DASH-BTC": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "bitcoin"
+  },
+  "DASH-USD": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "usd"
+  },
+  "DBR-USD": {
+    "exchange": "spot",
+    "base": "debridge",
+    "quote": "usd"
+  },
+  "DOGE-BTC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "bitcoin"
+  },
+  "DOGE-EUR": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "euro"
+  },
+  "DOGE-GBP": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "british-pound"
+  },
+  "DOGE-USD": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd"
+  },
+  "DOGE-USDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether"
+  },
+  "DOT-BTC": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "bitcoin"
+  },
+  "DOT-EUR": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "euro"
+  },
+  "DOT-GBP": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "british-pound"
+  },
+  "DOT-USD": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd"
+  },
+  "DOT-USDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether"
+  },
+  "EIGEN-USD": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "usd"
+  },
+  "ENA-USD": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd"
+  },
+  "ENS-EUR": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "euro"
+  },
+  "ENS-USD": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "usd"
+  },
+  "ETC-BTC": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "bitcoin"
+  },
+  "ETC-EUR": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "euro"
+  },
+  "ETC-GBP": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "british-pound"
+  },
+  "ETC-USD": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "usd"
+  },
+  "ETH-BTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin"
+  },
+  "ETH-EUR": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro"
+  },
+  "ETH-GBP": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "british-pound"
+  },
+  "ETH-USD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd"
+  },
+  "ETH-USDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether"
+  },
+  "ETHFI-USD": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "usd"
+  },
+  "EURC-USDC": {
+    "exchange": "spot",
+    "base": "euro-coin",
+    "quote": "usd-coin"
+  },
+  "FARTCOIN-USD": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "usd"
+  },
+  "FET-USD": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd"
+  },
+  "FET-USDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether"
+  },
+  "FIL-BTC": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "bitcoin"
+  },
+  "FIL-EUR": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "euro"
+  },
+  "FIL-GBP": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "british-pound"
+  },
+  "FIL-USD": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd"
+  },
+  "FLOKI-USD": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "usd"
+  },
+  "FLR-USD": {
+    "exchange": "spot",
+    "base": "flare",
+    "quote": "usd"
+  },
+  "G-USD": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "usd"
+  },
+  "GLM-USD": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "usd"
+  },
+  "GMT-USD": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "usd"
+  },
+  "GNO-USD": {
+    "exchange": "spot",
+    "base": "gnosis",
+    "quote": "usd"
+  },
+  "GRT-BTC": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "bitcoin"
+  },
+  "GRT-EUR": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "euro"
+  },
+  "GRT-GBP": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "british-pound"
+  },
+  "GRT-USD": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "usd"
+  },
+  "HBAR-USD": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "usd"
+  },
+  "HBAR-USDT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "tether"
+  },
+  "HYPE-USD": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd"
+  },
+  "ICP-BTC": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "bitcoin"
+  },
+  "ICP-EUR": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "euro"
+  },
+  "ICP-USD": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "usd"
+  },
+  "IMX-USD": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "usd"
+  },
+  "IMX-USDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether"
+  },
+  "INJ-USD": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd"
+  },
+  "IO-USD": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "usd"
+  },
+  "JASMY-USD": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "usd"
+  },
+  "JASMY-USDT": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "tether"
+  },
+  "JTO-USD": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "usd"
+  },
+  "JUPITER-USD": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd"
+  },
+  "KAITO-USD": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "usd"
+  },
+  "LAYER-USD": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "usd"
+  },
+  "LDO-USD": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "usd"
+  },
+  "LIGHTER-USD": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "usd"
+  },
+  "LINEA-USD": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "usd"
+  },
+  "LINK-BTC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "bitcoin"
+  },
+  "LINK-ETH": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "ethereum"
+  },
+  "LINK-EUR": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "euro"
+  },
+  "LINK-GBP": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "british-pound"
+  },
+  "LINK-USD": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd"
+  },
+  "LINK-USDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether"
+  },
+  "LTC-BTC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "bitcoin"
+  },
+  "LTC-EUR": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "euro"
+  },
+  "LTC-GBP": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "british-pound"
+  },
+  "LTC-USD": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd"
+  },
+  "MANA-EUR": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "euro"
+  },
+  "MANA-USD": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "usd"
+  },
+  "MANTLE-USD": {
+    "exchange": "spot",
+    "base": "mantle",
+    "quote": "usd"
+  },
+  "MASK-GBP": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "british-pound"
+  },
+  "MASK-USD": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "usd"
+  },
+  "ME-USD": {
+    "exchange": "spot",
+    "base": "magic-eden",
+    "quote": "usd"
+  },
+  "META-USD": {
+    "exchange": "spot",
+    "base": "meta-platforms",
+    "quote": "usd"
+  },
+  "MON-USD": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "usd"
+  },
+  "MORPHO-USD": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "usd"
+  },
+  "NEAR-USD": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd"
+  },
+  "NEAR-USDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether"
+  },
+  "ONDO-USD": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "usd"
+  },
+  "OP-USD": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd"
+  },
+  "OP-USDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether"
+  },
+  "OSMO-USD": {
+    "exchange": "spot",
+    "base": "osmosis",
+    "quote": "usd"
+  },
+  "PAXG-USD": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "usd"
+  },
+  "PENDLE-USD": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "usd"
+  },
+  "PENGU-USD": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd"
+  },
+  "PEPE-USD": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd"
+  },
+  "PNUT-USD": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "usd"
+  },
+  "POL-USD": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd"
+  },
+  "PUMP-USD": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "usd"
+  },
+  "PYTH-USD": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "usd"
+  },
+  "QNT-USD": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "usd"
+  },
+  "QNT-USDT": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "tether"
+  },
+  "RAY-USD": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "usd"
+  },
+  "RED-USD": {
+    "exchange": "spot",
+    "base": "redstone",
+    "quote": "usd"
+  },
+  "RENDER-USD": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "usd"
+  },
+  "REQ-USD": {
+    "exchange": "spot",
+    "base": "request",
+    "quote": "usd"
+  },
+  "REZ-USD": {
+    "exchange": "spot",
+    "base": "renzo",
+    "quote": "usd"
+  },
+  "S-USD": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "usd"
+  },
+  "SAND-USD": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "usd"
+  },
+  "SEI-USD": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "usd"
+  },
+  "SHIB-EUR": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "euro"
+  },
+  "SHIB-GBP": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "british-pound"
+  },
+  "SHIB-USD": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd"
+  },
+  "SHIB-USDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether"
+  },
+  "SKY-USD": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd"
+  },
+  "SNX-EUR": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "euro"
+  },
+  "SNX-GBP": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "british-pound"
+  },
+  "SNX-USD": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "usd"
+  },
+  "SOL-BTC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "bitcoin"
+  },
+  "SOL-ETH": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "ethereum"
+  },
+  "SOL-EUR": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "euro"
+  },
+  "SOL-GBP": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "british-pound"
+  },
+  "SOL-USD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd"
+  },
+  "SOL-USDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether"
+  },
+  "STRK-USD": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "usd"
+  },
+  "STX-USD": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "usd"
+  },
+  "STX-USDT": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "tether"
+  },
+  "SUI-USD": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd"
+  },
+  "SYRUP-USD": {
+    "exchange": "spot",
+    "base": "syrup",
+    "quote": "usd"
+  },
+  "T-USD": {
+    "exchange": "spot",
+    "base": "threshold-network",
+    "quote": "usd"
+  },
+  "TAO-USD": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "usd"
+  },
+  "TIA-USD": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "usd"
+  },
+  "TON-USD": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "usd"
+  },
+  "TRAC-USD": {
+    "exchange": "spot",
+    "base": "origintrail",
+    "quote": "usd"
+  },
+  "TRB-USD": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "usd"
+  },
+  "TRUMP-USD": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd"
+  },
+  "UMA-USD": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "usd"
+  },
+  "UNI-BTC": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "bitcoin"
+  },
+  "UNI-EUR": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "euro"
+  },
+  "UNI-GBP": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "british-pound"
+  },
+  "UNI-USD": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd"
+  },
+  "USD1-USD": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "usd"
+  },
+  "USDC-AUD": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "australian-dollar"
+  },
+  "USDC-CAD": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "canadian-dollar"
+  },
+  "USDC-EUR": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "euro"
+  },
+  "USDC-GBP": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "british-pound"
+  },
+  "USDS-USD": {
+    "exchange": "spot",
+    "base": "sky-usd",
+    "quote": "usd"
+  },
+  "USDT-EUR": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "euro"
+  },
+  "USDT-GBP": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "british-pound"
+  },
+  "USDT-USD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd"
+  },
+  "USDT-USDC": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd-coin"
+  },
+  "VET-USD": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "usd"
+  },
+  "VIRTUAL-USD": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "usd"
+  },
+  "VVV-USD": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "usd"
+  },
+  "W-USD": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "usd"
+  },
+  "WIF-USD": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd"
+  },
+  "WLD-USD": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "usd"
+  },
+  "WLFI-USD": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "usd"
+  },
+  "XCN-USD": {
+    "exchange": "spot",
+    "base": "onyxcoin",
+    "quote": "usd"
+  },
+  "XLM-BTC": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "bitcoin"
+  },
+  "XLM-EUR": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "euro"
+  },
+  "XLM-USD": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "usd"
+  },
+  "XLM-USDT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether"
+  },
+  "XPL-USD": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "usd"
+  },
+  "XRP-EUR": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "euro"
+  },
+  "XRP-USD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd"
+  },
+  "XRP-USDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether"
+  },
+  "XTZ-BTC": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "bitcoin"
+  },
+  "XTZ-EUR": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "euro"
+  },
+  "XTZ-GBP": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "british-pound"
+  },
+  "XTZ-USD": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "usd"
+  },
+  "YFI-BTC": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "bitcoin"
+  },
+  "YFI-USD": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "usd"
+  },
+  "ZEC-USD": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "usd"
+  },
+  "ZK-USD": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "usd"
+  },
+  "ZRO-USD": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "usd"
+  }
+}
