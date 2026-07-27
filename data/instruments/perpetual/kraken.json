@@ -1,0 +1,896 @@
+{
+  "PF_1INCHUSD": {
+    "exchange": "perp",
+    "base": "1inch",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_AAVEUSD": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ACEUSD": {
+    "exchange": "perp",
+    "base": "fusionist",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ADAUSD": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_AKTUSD": {
+    "exchange": "perp",
+    "base": "akash-network",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ALGOUSD": {
+    "exchange": "perp",
+    "base": "algorand",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ALTUSD": {
+    "exchange": "perp",
+    "base": "altlayer",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ANKRUSD": {
+    "exchange": "perp",
+    "base": "ankr",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_APEUSD": {
+    "exchange": "perp",
+    "base": "apecoin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_APTUSD": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ARBUSD": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ARKMUSD": {
+    "exchange": "perp",
+    "base": "arkham",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ARUSD": {
+    "exchange": "perp",
+    "base": "arweave",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ASTERUSD": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ASTRUSD": {
+    "exchange": "perp",
+    "base": "astar",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ATHUSD": {
+    "exchange": "perp",
+    "base": "aethir",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ATOMUSD": {
+    "exchange": "perp",
+    "base": "cosmos",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_AVAXUSD": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_AXSUSD": {
+    "exchange": "perp",
+    "base": "axie-infinity",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_BATUSD": {
+    "exchange": "perp",
+    "base": "basic-attention-token",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_BCHUSD": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_BERAUSD": {
+    "exchange": "perp",
+    "base": "berachain",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_BIOUSD": {
+    "exchange": "perp",
+    "base": "bio-protocol",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_BLURUSD": {
+    "exchange": "perp",
+    "base": "blur",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_BNBUSD": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_BONKUSD": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_CAKEUSD": {
+    "exchange": "perp",
+    "base": "pancakeswap",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_CATIUSD": {
+    "exchange": "perp",
+    "base": "catizen",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_CELOUSD": {
+    "exchange": "perp",
+    "base": "celo",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_CFXUSD": {
+    "exchange": "perp",
+    "base": "conflux",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_CHFUSD": {
+    "exchange": "perp",
+    "base": "swiss-franc",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_CHZUSD": {
+    "exchange": "perp",
+    "base": "chiliz",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_COMPUSD": {
+    "exchange": "perp",
+    "base": "compound",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_COWUSD": {
+    "exchange": "perp",
+    "base": "cow-protocol",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_CROUSD": {
+    "exchange": "perp",
+    "base": "cronos",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_CRVUSD": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_CVXUSD": {
+    "exchange": "perp",
+    "base": "convex-finance",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_DASHUSD": {
+    "exchange": "perp",
+    "base": "dash",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_DEXEUSD": {
+    "exchange": "perp",
+    "base": "dexe",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_DOGEUSD": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_DOTUSD": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_DYDXUSD": {
+    "exchange": "perp",
+    "base": "dydx",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_DYMUSD": {
+    "exchange": "perp",
+    "base": "dymension",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_EIGENUSD": {
+    "exchange": "perp",
+    "base": "eigen-layer",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ENAUSD": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ENSUSD": {
+    "exchange": "perp",
+    "base": "ethereum-name-service",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ETCUSD": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ETHFIUSD": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ETHUSD": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_EURUSD": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_FARTCOINUSD": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_FETUSD": {
+    "exchange": "perp",
+    "base": "fetch-ai",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_FILUSD": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_FLOKIUSD": {
+    "exchange": "perp",
+    "base": "floki",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_GALAUSD": {
+    "exchange": "perp",
+    "base": "gala",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_GBPUSD": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_GMTUSD": {
+    "exchange": "perp",
+    "base": "green-metaverse-token",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_GMXUSD": {
+    "exchange": "perp",
+    "base": "gmx",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_GRASSUSD": {
+    "exchange": "perp",
+    "base": "grass",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_GRTUSD": {
+    "exchange": "perp",
+    "base": "the-graph",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_HBARUSD": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_HYPEUSD": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ICPUSD": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_IMXUSD": {
+    "exchange": "perp",
+    "base": "immutable-x",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_INJUSD": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_IOSTUSD": {
+    "exchange": "perp",
+    "base": "iost",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_IOTAUSD": {
+    "exchange": "perp",
+    "base": "iota",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_IOUSD": {
+    "exchange": "perp",
+    "base": "io-net",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_JASMYUSD": {
+    "exchange": "perp",
+    "base": "jasmycoin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_JTOUSD": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_JUPUSD": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_KAIAUSD": {
+    "exchange": "perp",
+    "base": "kaia",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_KAITOUSD": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_KASUSD": {
+    "exchange": "perp",
+    "base": "kaspa",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_LAYERUSD": {
+    "exchange": "perp",
+    "base": "solayer",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_LDOUSD": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_LINKUSD": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_LTCUSD": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_MANAUSD": {
+    "exchange": "perp",
+    "base": "decentraland",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_MNTUSD": {
+    "exchange": "perp",
+    "base": "mantle",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_MONUSD": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_MORPHOUSD": {
+    "exchange": "perp",
+    "base": "morpho",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_NEARUSD": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_NEOUSD": {
+    "exchange": "perp",
+    "base": "neo",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_NOTUSD": {
+    "exchange": "perp",
+    "base": "notcoin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ONDOUSD": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_OPUSD": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ORDIUSD": {
+    "exchange": "perp",
+    "base": "ordi",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_PAXGUSD": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_PENDLEUSD": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_PENGUUSD": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_PEPEUSD": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_PIXELUSD": {
+    "exchange": "perp",
+    "base": "pixels",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_PNUTUSD": {
+    "exchange": "perp",
+    "base": "peanut-the-squirrel",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_POLUSD": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_PUMPUSD": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_PYTHUSD": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_QNTUSD": {
+    "exchange": "perp",
+    "base": "quant",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_RAYUSD": {
+    "exchange": "perp",
+    "base": "raydium",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_RENDERUSD": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_REZUSD": {
+    "exchange": "perp",
+    "base": "renzo",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_RUNEUSD": {
+    "exchange": "perp",
+    "base": "thorchain",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_SANDUSD": {
+    "exchange": "perp",
+    "base": "the-sandbox",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_SEIUSD": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_SHIBUSD": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_SNXUSD": {
+    "exchange": "perp",
+    "base": "synthetix",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_SOLUSD": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_STRKUSD": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_STXUSD": {
+    "exchange": "perp",
+    "base": "stacks",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_SUIUSD": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_SUNUSD": {
+    "exchange": "perp",
+    "base": "sun-token",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_SUSD": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_SYNUSD": {
+    "exchange": "perp",
+    "base": "synapse",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_SYRUPUSD": {
+    "exchange": "perp",
+    "base": "syrup",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_TAOUSD": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_THETAUSD": {
+    "exchange": "perp",
+    "base": "theta-token",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_TIAUSD": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_TRBUSD": {
+    "exchange": "perp",
+    "base": "tellor",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_TRUMPUSD": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_TRXUSD": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_TUSD": {
+    "exchange": "perp",
+    "base": "threshold-network",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_UMAUSD": {
+    "exchange": "perp",
+    "base": "uma",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_UNIUSD": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_USDCUSD": {
+    "exchange": "perp",
+    "base": "usd-coin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_USDTUSD": {
+    "exchange": "perp",
+    "base": "tether",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_USUALUSD": {
+    "exchange": "perp",
+    "base": "usual",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_VETUSD": {
+    "exchange": "perp",
+    "base": "vechain",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_VIRTUALUSD": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_WIFUSD": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_WLDUSD": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_WLFIUSD": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_WUSD": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_XAGUSD": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_XAUTUSD": {
+    "exchange": "perp",
+    "base": "tether-gold",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_XBTUSD": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_XCNUSD": {
+    "exchange": "perp",
+    "base": "onyxcoin",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_XLMUSD": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_XMRUSD": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_XPLUSD": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_XRPUSD": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_XTZUSD": {
+    "exchange": "perp",
+    "base": "tezos",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_YFIUSD": {
+    "exchange": "perp",
+    "base": "yearn-finance",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ZECUSD": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ZKUSD": {
+    "exchange": "perp",
+    "base": "zksync",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PF_ZROUSD": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "usd",
+    "settlement": "usd"
+  },
+  "PI_ETHUSD": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd",
+    "settlement": "ethereum"
+  },
+  "PI_LTCUSD": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd",
+    "settlement": "litecoin"
+  },
+  "PI_XBTUSD": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd",
+    "settlement": "bitcoin"
+  },
+  "PI_XRPUSD": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd",
+    "settlement": "xrp"
+  }
+}
