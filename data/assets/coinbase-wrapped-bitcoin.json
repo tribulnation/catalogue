@@ -2,10 +2,11 @@
   "id": "coinbase-wrapped-bitcoin",
   "display_name": "Coinbase Wrapped Bitcoin",
   "symbol": "cbBTC",
+  "category": "crypto",
   "about": {
     "en": "Coinbase Wrapped Bitcoin is a tokenized representation of Bitcoin issued by Coinbase, backed 1:1 by BTC held in Coinbase custody. cbBTC is designed for use across DeFi protocols on Ethereum, Base, and other compatible networks, giving Bitcoin holders direct access to smart-contract applications without leaving tokenized form.",
-    "es": "Coinbase Wrapped Bitcoin es una representación tokenizada de Bitcoin emitida por Coinbase, respaldada 1:1 por BTC mantenido en custodia de Coinbase. cbBTC está diseñado para su uso en protocolos DeFi en Ethereum, Base y otras redes compatibles, dando a los tenedores de Bitcoin acceso directo a aplicaciones de contratos inteligentes sin salir del formato tokenizado.",
-    "ca": "Coinbase Wrapped Bitcoin és una representació tokenitzada de Bitcoin emesa per Coinbase, recolzada 1:1 per BTC mantingut en custòdia de Coinbase. cbBTC està dissenyat per al seu ús en protocols DeFi a Ethereum, Base i altres xarxes compatibles, donant als titulars de Bitcoin accés directe a aplicacions de contractes intel·ligents sense sortir del format tokenitzat."
+    "es": "Coinbase Wrapped Bitcoin es una representaci\u00f3n tokenizada de Bitcoin emitida por Coinbase, respaldada 1:1 por BTC mantenido en custodia de Coinbase. cbBTC est\u00e1 dise\u00f1ado para su uso en protocolos DeFi en Ethereum, Base y otras redes compatibles, dando a los tenedores de Bitcoin acceso directo a aplicaciones de contratos inteligentes sin salir del formato tokenizado.",
+    "ca": "Coinbase Wrapped Bitcoin \u00e9s una representaci\u00f3 tokenitzada de Bitcoin emesa per Coinbase, recolzada 1:1 per BTC mantingut en cust\u00f2dia de Coinbase. cbBTC est\u00e0 dissenyat per al seu \u00fas en protocols DeFi a Ethereum, Base i altres xarxes compatibles, donant als titulars de Bitcoin acc\u00e9s directe a aplicacions de contractes intel\u00b7ligents sense sortir del format tokenitzat."
   },
   "external": {
     "coingecko": "coinbase-wrapped-btc"

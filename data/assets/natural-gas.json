@@ -2,10 +2,11 @@
   "id": "natural-gas",
   "display_name": "Natural Gas",
   "symbol": "NG",
+  "category": "commodity",
   "about": {
     "en": "Natural Gas is a fossil fuel commodity traded globally under the symbol NG, priced in US dollars per million British thermal units (MMBtu). It is a major energy source for heating, electricity generation, and industrial use, and one of the most actively traded commodity futures in the world. In trading contexts, NG is the standard reference for natural gas price exposure.",
-    "es": "El Gas Natural es una materia prima energética fósil negociada globalmente bajo el símbolo NG, cotizada en dólares estadounidenses por millón de unidades térmicas británicas (MMBtu). Es una de las principales fuentes de energía para calefacción, generación de electricidad y uso industrial, y uno de los futuros sobre materias primas más activamente negociados del mundo. En contextos de trading, NG es la referencia estándar para la exposición al precio del gas natural.",
-    "ca": "El Gas Natural és una matèria primera energètica fòssil negociada globalment sota el símbol NG, cotitzada en dòlars nord-americans per milió d'unitats tèrmiques britàniques (MMBtu). És una de les principals fonts d'energia per a calefacció, generació d'electricitat i ús industrial, i un dels futurs sobre matèries primeres més activament negociats del món. En contextos de trading, NG és la referència estàndard per a l'exposició al preu del gas natural."
+    "es": "El Gas Natural es una materia prima energ\u00e9tica f\u00f3sil negociada globalmente bajo el s\u00edmbolo NG, cotizada en d\u00f3lares estadounidenses por mill\u00f3n de unidades t\u00e9rmicas brit\u00e1nicas (MMBtu). Es una de las principales fuentes de energ\u00eda para calefacci\u00f3n, generaci\u00f3n de electricidad y uso industrial, y uno de los futuros sobre materias primas m\u00e1s activamente negociados del mundo. En contextos de trading, NG es la referencia est\u00e1ndar para la exposici\u00f3n al precio del gas natural.",
+    "ca": "El Gas Natural \u00e9s una mat\u00e8ria primera energ\u00e8tica f\u00f2ssil negociada globalment sota el s\u00edmbol NG, cotitzada en d\u00f2lars nord-americans per mili\u00f3 d'unitats t\u00e8rmiques brit\u00e0niques (MMBtu). \u00c9s una de les principals fonts d'energia per a calefacci\u00f3, generaci\u00f3 d'electricitat i \u00fas industrial, i un dels futurs sobre mat\u00e8ries primeres m\u00e9s activament negociats del m\u00f3n. En contextos de trading, NG \u00e9s la refer\u00e8ncia est\u00e0ndard per a l'exposici\u00f3 al preu del gas natural."
   },
   "external": {
     "alphavantage": "commodity:NATURAL_GAS",
