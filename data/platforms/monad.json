@@ -1,0 +1,17 @@
+{
+  "display_name": "Monad",
+  "native_asset": "monad",
+  "about": {
+    "en": "Monad is a high-performance, EVM-compatible Layer 1 blockchain designed to deliver low fees, high throughput, and sub-second finality while remaining fully compatible with Ethereum tooling.",
+    "es": "Monad es una blockchain de capa 1 (Layer 1) compatible con la EVM y de alto rendimiento, diseñada para ofrecer bajas comisiones, alto rendimiento y finalidad inferior al segundo, manteniéndose totalmente compatible con las herramientas de Ethereum.",
+    "ca": "Monad és una blockchain de capa 1 (Layer 1) compatible amb l'EVM i d'alt rendiment, dissenyada per oferir baixes comissions, alt rendiment i finalitat inferior al segon, mantenint-se totalment compatible amb les eines d'Ethereum."
+  },
+  "urls": {
+    "Website": "https://monad.xyz/"
+  },
+  "icon": "icons/asset/monad.svg",
+  "kind": "blockchain",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 143
+}
