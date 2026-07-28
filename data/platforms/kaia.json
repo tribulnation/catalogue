@@ -1,0 +1,17 @@
+{
+  "display_name": "Kaia",
+  "native_asset": "kaia",
+  "about": {
+    "en": "Kaia is an EVM-compatible Layer 1 blockchain formed by the 2024 merger of Klaytn and Finschia, offering 1-second block times, instant finality, and high throughput for consumer and DeFi applications.",
+    "es": "Kaia es una blockchain de capa 1 (Layer 1) compatible con EVM formada en 2024 por la fusión de Klaytn y Finschia, con bloques de 1 segundo, finalización instantánea y alto rendimiento para aplicaciones de consumo y DeFi.",
+    "ca": "Kaia és una blockchain de capa 1 (Layer 1) compatible amb EVM formada el 2024 per la fusió de Klaytn i Finschia, amb blocs d'1 segon, finalització instantània i alt rendiment per a aplicacions de consum i DeFi."
+  },
+  "urls": {
+    "Website": "https://www.kaia.io/"
+  },
+  "icon": "icons/asset/kaia.svg",
+  "kind": "blockchain",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 8217
+}

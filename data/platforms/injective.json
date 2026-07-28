@@ -1,0 +1,16 @@
+{
+  "display_name": "Injective",
+  "native_asset": "injective",
+  "about": {
+    "en": "Injective is a Layer 1 blockchain built with the Cosmos SDK and optimized for decentralized finance, including on-chain order books for spot, derivatives, and prediction markets. It offers fast, near-instant finality via a Tendermint-based proof-of-stake consensus and is IBC-enabled, allowing interoperability with other Cosmos chains, alongside an EVM-compatible execution environment (inEVM). INJ is the native asset used for staking, governance, transaction fees, and ecosystem incentives.",
+    "es": "Injective es una blockchain de capa 1 (Layer 1) construida con Cosmos SDK y optimizada para finanzas descentralizadas, incluyendo libros de órdenes on-chain (on-chain) para mercados spot, derivados y de predicción. Ofrece finalidad rápida y casi instantánea mediante un consenso de prueba de participación (proof-of-stake) basado en Tendermint, y está habilitada para IBC, permitiendo interoperabilidad con otras cadenas de Cosmos, además de un entorno de ejecución compatible con EVM (inEVM). INJ es el activo nativo utilizado para staking (staking), gobernanza, comisiones de transacción e incentivos del ecosistema.",
+    "ca": "Injective és una blockchain de capa 1 (Layer 1) construïda amb Cosmos SDK i optimitzada per a finances descentralitzades, incloent llibres d'ordres on-chain (on-chain) per a mercats spot, derivats i de predicció. Ofereix finalitat ràpida i gairebé instantània mitjançant un consens de prova de participació (proof-of-stake) basat en Tendermint, i està habilitada per a IBC, permetent interoperabilitat amb altres cadenes de Cosmos, a més d'un entorn d'execució compatible amb EVM (inEVM). INJ és l'actiu natiu utilitzat per a staking (staking), governança, comissions de transacció i incentius de l'ecosistema."
+  },
+  "urls": {
+    "Website": "https://injective.com/"
+  },
+  "icon": "icons/asset/injective.svg",
+  "kind": "blockchain",
+  "namespace": "cosmos",
+  "chain_id": "injective-1"
+}
