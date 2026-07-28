@@ -22,7 +22,7 @@
 <nav>
 	<a class="brand" href="/">
 		<img src={favicon} alt="Tribulnation" width="28" height="28" class="brand-icon" />
-		Catalogue
+		<span class="brand-name">Tribulnation <span>Catalogue</span></span>
 	</a>
 	<div class="links">
 		<a href="/">Home</a>
@@ -47,7 +47,7 @@
 	<div class="drawer-header">
 		<a class="drawer-brand" href="/" onclick={close}>
 			<img src={favicon} alt="Tribulnation" width="24" height="24" class="brand-icon" />
-			Catalogue
+			<span class="brand-name">Tribulnation <span>Catalogue</span></span>
 		</a>
 	</div>
 	<nav class="drawer-nav">
@@ -146,6 +146,11 @@
 	.brand-icon {
 		border-radius: 6px;
 		flex-shrink: 0;
+	}
+
+	.brand-name span {
+		color: #8888a0;
+		font-weight: 400;
 	}
 
 	.brand:hover {
