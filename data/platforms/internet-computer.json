@@ -1,0 +1,14 @@
+{
+  "display_name": "Internet Computer",
+  "native_asset": "internet-computer",
+  "about": {
+    "en": "Internet Computer is a Layer 1 blockchain developed by the DFINITY Foundation that runs smart contracts and web applications directly on-chain using a network of independent data centers organized into subnets. Unlike most blockchains, computation and storage are handled by \"canisters\" (smart contracts that can serve web content and store data), removing the need for traditional cloud infrastructure. ICP is used for governance via neurons, staking, and for converting into cycles that pay for computation and storage on the network.",
+    "es": "Internet Computer es una blockchain de capa 1 (Layer 1) desarrollada por la DFINITY Foundation que ejecuta contratos inteligentes y aplicaciones web directamente on-chain (on-chain) mediante una red de centros de datos independientes organizados en subnets. A diferencia de la mayoría de blockchains, la computación y el almacenamiento los gestionan los \"canisters\" (contratos inteligentes que pueden servir contenido web y almacenar datos), eliminando la necesidad de infraestructura cloud tradicional. ICP se utiliza para gobernanza mediante neurons, staking (staking) y para convertirse en cycles que pagan la computación y el almacenamiento en la red.",
+    "ca": "Internet Computer és una blockchain de capa 1 (Layer 1) desenvolupada per la DFINITY Foundation que executa contractes intel·ligents i aplicacions web directament on-chain (on-chain) mitjançant una xarxa de centres de dades independents organitzats en subnets. A diferència de la majoria de blockchains, la computació i l'emmagatzematge els gestionen els \"canisters\" (contractes intel·ligents que poden servir contingut web i emmagatzemar dades), eliminant la necessitat d'infraestructura cloud tradicional. ICP s'utilitza per a governança mitjançant neurons, staking (staking) i per convertir-se en cycles que paguen la computació i l'emmagatzematge a la xarxa."
+  },
+  "urls": {
+    "Website": "https://internetcomputer.org/"
+  },
+  "icon": "icons/asset/internet-computer.svg",
+  "kind": "blockchain"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "kusama",
+  "display_name": "Kusama",
+  "symbol": "KSM",
+  "about": {
+    "en": "Kusama is Polkadot's canary network, running the same Substrate-based codebase to let developers test parachains and runtime upgrades under real economic conditions before deploying to Polkadot. KSM is used for staking, governance, and parachain slot auctions on the network.",
+    "es": "Kusama es la red canario (canary network) de Polkadot, que ejecuta la misma base de código basada en Substrate para permitir a los desarrolladores probar parachains y actualizaciones de runtime bajo condiciones económicas reales antes de desplegarlas en Polkadot. KSM se utiliza para staking (staking), gobernanza y subastas de espacios de parachain en la red.",
+    "ca": "Kusama és la xarxa canari (canary network) de Polkadot, que executa la mateixa base de codi basada en Substrate per permetre als desenvolupadors provar parachains i actualitzacions de runtime sota condicions econòmiques reals abans de desplegar-les a Polkadot. KSM s'utilitza per a staking (staking), governança i subhastes d'espais de parachain a la xarxa."
+  },
+  "external": {
+    "coingecko": "kusama"
+  },
+  "icon": "icons/asset/kusama.svg",
+  "urls": {
+    "Website": "https://kusama.network/"
+  }
+}
