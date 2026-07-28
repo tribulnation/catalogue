@@ -6,14 +6,21 @@
 
 	let query = $state('');
 	let selectedTags = $state<string[]>([]);
+	let selectedCategories = $state<string[]>([]);
 
 	const tagOptions = $derived<MultiSelectOption[]>(
 		[...new Set(data.assets.flatMap((a: { tags?: string[] }) => a.tags ?? []))].sort()
 			.map((tag: string) => ({ value: tag, label: tag }))
 	);
 
+	const categoryOptions = $derived<MultiSelectOption[]>(
+		Array.from(new Set(data.assets.map((a: { category?: string }) => a.category).filter((c: string | undefined): c is string => !!c)))
+			.sort()
+			.map((category: string) => ({ value: category, label: category.charAt(0).toUpperCase() + category.slice(1) }))
+	);
+
 	const filtered = $derived(
-		data.assets.filter((a: { display_name: string; symbol: string; id: string; tags?: string[] }) => {
+		data.assets.filter((a: { display_name: string; symbol: string; id: string; tags?: string[]; category?: string }) => {
 			const q = query.trim().toLowerCase();
 			const matchesQuery =
 				q === '' ||
@@ -22,7 +29,9 @@
 				a.id.toLowerCase().includes(q);
 			const matchesTag =
 				selectedTags.length === 0 || selectedTags.every((t) => (a.tags ?? []).includes(t));
-			return matchesQuery && matchesTag;
+			const matchesCategory =
+				selectedCategories.length === 0 || (!!a.category && selectedCategories.includes(a.category));
+			return matchesQuery && matchesTag && matchesCategory;
 		})
 	);
 </script>
@@ -38,6 +47,11 @@
 			<p class="subtitle">{data.assets.length} assets</p>
 		</div>
 		<div class="controls">
+			<MultiSelect
+				options={categoryOptions}
+				bind:value={selectedCategories}
+				placeholder="Filter by category…"
+			/>
 			<MultiSelect
 				options={tagOptions}
 				bind:value={selectedTags}
