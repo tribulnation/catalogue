@@ -11,10 +11,13 @@ export type ExternalIds = {
   yahoo?: string
 }
 
+export type AssetCategory = 'crypto' | 'stock' | 'fiat' | 'stablecoin' | 'commodity'
+
 export type AssetSummary = {
   id: string
   display_name: string
   symbol: string
+  category?: AssetCategory
   icon?: string
   tags?: string[]
   pegged_to?: AssetPeg

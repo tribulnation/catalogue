@@ -51,10 +51,13 @@ ExternalIds = Mapping[ExternalSource, str]
 class AssetPeg(TypedDict):
   asset: str
 
+AssetCategory = Literal['crypto', 'stock', 'fiat', 'stablecoin', 'commodity']
+
 class Asset(TypedDict):
   id: str
   display_name: str
   symbol: str
+  category: NotRequired[AssetCategory]
   about: NotRequired[Translations]
   tags: NotRequired[list[str]]
   urls: NotRequired[dict[str, str]]

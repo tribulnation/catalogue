@@ -2,10 +2,11 @@
   "id": "brent",
   "display_name": "Brent Crude",
   "symbol": "BRENT",
+  "category": "commodity",
   "about": {
     "en": "Brent Crude is the primary international benchmark for oil prices, sourced from the North Sea and used as a reference for roughly two-thirds of the world's traded crude oil. It is priced in US dollars per barrel and widely used in energy markets, hedging, and commodity derivatives. In trading contexts, BRENT is the standard reference for global oil exposure.",
-    "es": "Brent Crude es el principal índice de referencia internacional para los precios del petróleo, extraído del Mar del Norte y utilizado como referencia para aproximadamente dos tercios del crudo negociado en el mundo. Se cotiza en dólares estadounidenses por barril y se usa ampliamente en mercados energéticos, coberturas y derivados sobre materias primas. En contextos de trading, BRENT es la referencia estándar para la exposición al petróleo global.",
-    "ca": "Brent Crude és el principal índex de referència internacional per als preus del petroli, extret del Mar del Nord i utilitzat com a referència per a aproximadament dos terços del cru negociat al món. Es cotitza en dòlars nord-americans per barril i s'utilitza àmpliament en mercats energètics, cobertures i derivats sobre matèries primeres. En contextos de trading, BRENT és la referència estàndard per a l'exposició al petroli global."
+    "es": "Brent Crude es el principal \u00edndice de referencia internacional para los precios del petr\u00f3leo, extra\u00eddo del Mar del Norte y utilizado como referencia para aproximadamente dos tercios del crudo negociado en el mundo. Se cotiza en d\u00f3lares estadounidenses por barril y se usa ampliamente en mercados energ\u00e9ticos, coberturas y derivados sobre materias primas. En contextos de trading, BRENT es la referencia est\u00e1ndar para la exposici\u00f3n al petr\u00f3leo global.",
+    "ca": "Brent Crude \u00e9s el principal \u00edndex de refer\u00e8ncia internacional per als preus del petroli, extret del Mar del Nord i utilitzat com a refer\u00e8ncia per a aproximadament dos ter\u00e7os del cru negociat al m\u00f3n. Es cotitza en d\u00f2lars nord-americans per barril i s'utilitza \u00e0mpliament en mercats energ\u00e8tics, cobertures i derivats sobre mat\u00e8ries primeres. En contextos de trading, BRENT \u00e9s la refer\u00e8ncia est\u00e0ndard per a l'exposici\u00f3 al petroli global."
   },
   "external": {
     "alphavantage": "commodity:BRENT",

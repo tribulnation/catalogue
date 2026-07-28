@@ -2,10 +2,11 @@
   "id": "aave-ethereum-name-service",
   "display_name": "Aave ENS",
   "symbol": "aENS",
+  "category": "crypto",
   "about": {
     "en": "An Aave receipt token representing a deposit of Ethereum Name Service (ENS) in the Aave lending protocol. aENS holders earn interest continuously and can redeem their tokens for ENS at any time.",
-    "es": "Un token de recibo de Aave que representa un depósito de Ethereum Name Service (ENS) en el protocolo de préstamos Aave. Los titulares de aENS acumulan intereses continuamente y pueden canjear sus tokens por ENS en cualquier momento.",
-    "ca": "Un token de rebut d'Aave que representa un dipòsit de Ethereum Name Service (ENS) en el protocol de préstecs Aave. Els titulars de aENS acumulen interessos de manera contínua i poden bescanviar els seus tokens per ENS en qualsevol moment."
+    "es": "Un token de recibo de Aave que representa un dep\u00f3sito de Ethereum Name Service (ENS) en el protocolo de pr\u00e9stamos Aave. Los titulares de aENS acumulan intereses continuamente y pueden canjear sus tokens por ENS en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dip\u00f2sit de Ethereum Name Service (ENS) en el protocol de pr\u00e9stecs Aave. Els titulars de aENS acumulen interessos de manera cont\u00ednua i poden bescanviar els seus tokens per ENS en qualsevol moment."
   },
   "icon": "icons/asset/aave-ethereum-name-service.svg",
   "pegged_to": {

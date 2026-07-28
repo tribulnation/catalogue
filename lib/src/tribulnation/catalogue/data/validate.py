@@ -1,16 +1,25 @@
 import os as _os
 import re as _re
-from typing import Mapping
-from .schema import Asset, Platform, Spot, Perpetual, Debt, Pool
+from typing import Mapping, get_args
+from .schema import Asset, Platform, Spot, Perpetual, Debt, Pool, AssetCategory
 from .main import Catalogue
 
 _id_pattern = _re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
+_valid_asset_categories = get_args(AssetCategory)
 
 def ids(kind: str, items: Mapping[str, object]):
   errors: list[str] = []
   for id in items:
     if not _id_pattern.fullmatch(id):
       errors.append(f'[{kind} ID ERROR] Invalid id "{id}". IDs must be lowercase kebab-case')
+  return errors
+
+def asset_categories(assets: Mapping[str, Asset]):
+  errors: list[str] = []
+  for id, asset in assets.items():
+    if (category := asset.get('category')) is not None:
+      if category not in _valid_asset_categories:
+        errors.append(f'[ASSET CATEGORY ERROR] Asset "{id}" has invalid category "{category}". Must be one of {_valid_asset_categories}')
   return errors
 
 def platform_keys(kind: str, platforms: Mapping[str, Platform], items: Mapping[str, object]):
@@ -165,6 +174,7 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(platform_order(catalogue.platforms, base_folder))
   errors.extend(native_assets(catalogue.assets, catalogue.platforms))
   errors.extend(asset_pegs(catalogue.assets))
+  errors.extend(asset_categories(catalogue.assets))
   errors.extend(platform_keys('ASSET TRANSLATION', catalogue.platforms, catalogue.asset_translations))
   errors.extend(platform_keys('NETWORK TRANSLATION', catalogue.platforms, catalogue.network_translations))
   errors.extend(platform_keys('SPOT INSTRUMENT', catalogue.platforms, catalogue.spot_instruments))
