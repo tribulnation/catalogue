@@ -10,5 +10,7 @@
     "Website": "https://celestia.org/"
   },
   "icon": "icons/asset/celestia.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "cosmos",
+  "chain_id": "celestia"
 }
