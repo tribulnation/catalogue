@@ -1,0 +1,23 @@
+{
+  "id": "movement",
+  "display_name": "Movement",
+  "symbol": "MOVE",
+  "category": "crypto",
+  "about": {
+    "en": "Movement is a Layer 1 blockchain built with the Move programming language, focused on secure, institutional-grade settlement and cross-border payments. MOVE is the native token used to pay gas fees and compensate validators on the network.",
+    "es": "Movement es una blockchain de capa 1 (Layer 1) construida con el lenguaje de programacion Move, centrada en liquidacion segura de nivel institucional y pagos transfronterizos. MOVE es el token nativo usado para pagar comisiones de gas y compensar a los validadores de la red.",
+    "ca": "Movement es una blockchain de capa 1 (Layer 1) construida amb el llenguatge de programacio Move, centrada en liquidacio segura de nivell institucional i pagaments transfronterers. MOVE es el token natiu usat per pagar comissions de gas i compensar els validadors de la xarxa."
+  },
+  "external": {
+    "coingecko": "movement",
+    "coinmarketcap": "32452"
+  },
+  "icon": "icons/asset/movement.svg",
+  "tags": [
+    "L1",
+    "Move"
+  ],
+  "urls": {
+    "Website": "https://www.movementnetwork.xyz/"
+  }
+}
