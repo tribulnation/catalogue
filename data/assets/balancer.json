@@ -1,0 +1,23 @@
+{
+  "id": "balancer",
+  "display_name": "Balancer",
+  "symbol": "BAL",
+  "category": "crypto",
+  "about": {
+    "en": "Balancer is the governance token of Balancer, a programmable liquidity protocol that lets pools hold up to eight assets with custom weights and AMM logic. BAL is used for protocol governance and to incentivize liquidity providers.",
+    "es": "Balancer es el token de gobernanza de Balancer, un protocolo de liquidez programable que permite que los pools contengan hasta ocho activos con pesos personalizados y logica AMM. BAL se usa para la gobernanza del protocolo e incentivar a los proveedores de liquidez.",
+    "ca": "Balancer es el token de governanca de Balancer, un protocol de liquiditat programable que permet que els pools continguin fins a vuit actius amb pesos personalitzats i logica AMM. BAL s'usa per a la governanca del protocol i incentivar els proveidors de liquiditat."
+  },
+  "external": {
+    "coingecko": "balancer",
+    "coinmarketcap": "5728"
+  },
+  "icon": "icons/asset/balancer.svg",
+  "tags": [
+    "DeFi",
+    "DEX"
+  ],
+  "urls": {
+    "Website": "https://balancer.fi/"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "taiko",
+  "display_name": "Taiko",
+  "symbol": "TAIKO",
+  "category": "crypto",
+  "about": {
+    "en": "Taiko is the native token of Taiko Alethia, an Ethereum-equivalent Type 1 ZK-rollup that uses a based-sequencing design where Ethereum validators also sequence Taiko blocks. TAIKO is used for governance, staking, and incentives within the Taiko ecosystem; gas fees on the network itself are paid in ETH.",
+    "es": "Taiko es el token nativo de Taiko Alethia, un rollup ZK Tipo 1 equivalente a Ethereum que usa un diseno de secuenciacion \"based\" donde los validadores de Ethereum tambien secuencian los bloques de Taiko. TAIKO se usa para gobernanza, staking (staking) e incentivos dentro del ecosistema Taiko; las comisiones de gas en la propia red se pagan en ETH.",
+    "ca": "Taiko es el token natiu de Taiko Alethia, un rollup ZK Tipus 1 equivalent a Ethereum que usa un disseny de sequenciacio \"based\" on els validadors d'Ethereum tambe sequencien els blocs de Taiko. TAIKO s'usa per a governanca, staking (staking) i incentius dins de l'ecosistema Taiko; les comissions de gas a la propia xarxa es paguen en ETH."
+  },
+  "external": {
+    "coingecko": "taiko",
+    "coinmarketcap": "31525"
+  },
+  "icon": "icons/asset/taiko.svg",
+  "tags": [
+    "L2",
+    "ZK"
+  ],
+  "urls": {
+    "Website": "https://taiko.xyz/"
+  }
+}
