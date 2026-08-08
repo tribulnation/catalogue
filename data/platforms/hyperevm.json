@@ -1,0 +1,17 @@
+{
+  "display_name": "HyperEVM",
+  "native_asset": "hyperliquid",
+  "about": {
+    "en": "HyperEVM is an EVM-compatible execution environment built into the Hyperliquid Layer 1, letting developers deploy standard Ethereum-tooling-compatible smart contracts that interact directly with Hyperliquid's native on-chain order book and trading infrastructure. It shares state and consensus with the rest of Hyperliquid's L1, using the HyperBFT consensus mechanism.",
+    "es": "HyperEVM es un entorno de ejecucion compatible con EVM integrado en la Layer 1 de Hyperliquid, que permite a los desarrolladores desplegar contratos inteligentes compatibles con las herramientas estandar de Ethereum que interactuan directamente con el libro de ordenes on-chain nativo y la infraestructura de trading de Hyperliquid. Comparte estado y consenso con el resto de la L1 de Hyperliquid, usando el mecanismo de consenso HyperBFT.",
+    "ca": "HyperEVM es un entorn d'execucio compatible amb EVM integrat a la Layer 1 de Hyperliquid, que permet als desenvolupadors desplegar contractes intel·ligents compatibles amb les eines estandard d'Ethereum que interactuen directament amb el llibre d'ordres on-chain natiu i la infraestructura de trading de Hyperliquid. Comparteix estat i consens amb la resta de la L1 de Hyperliquid, usant el mecanisme de consens HyperBFT."
+  },
+  "urls": {
+    "Website": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm"
+  },
+  "icon": "icons/asset/hyperliquid.svg",
+  "kind": "blockchain",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 999
+}
