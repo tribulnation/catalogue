@@ -155,6 +155,10 @@ Per-platform display-name mappings for assets and networks. Resolves what a give
 ### Icons
 SVG icons for assets, platforms, and networks, organized under `icons/asset/`, `icons/platform/`, and `icons/network/`. All icons are **square and maskable** — they include a full square background and are designed to be displayed cropped to a circle or rounded square. API responses include absolute icon URLs.
 
+Icons that support light/dark mode do so with plain CSS, no build step or variant files required:
+- Loaded as `<img src="...">` (or any other non-inlined way), an icon follows the OS-level `prefers-color-scheme` automatically.
+- Inlined into the DOM, an icon can be forced into a specific mode regardless of OS preference by setting `data-theme="light"` or `data-theme="dark"` on the `<svg>` root or any ancestor element — a mode switch, not an arbitrary color override. This works the same way in any framework (React, Svelte, Vue, plain JS): inline the raw SVG markup and set the attribute from your own theme state.
+
 ### Spam
 Known spam token addresses per chain, with optional source and reported timestamp.
 

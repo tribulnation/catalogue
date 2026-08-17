@@ -9,6 +9,16 @@
 - **Verify maskability before opening the PR**: render a copy of the icon clipped to the circle inscribed in the square canvas (`<circle cx="W/2" cy="H/2" r="W/2"/>` used as a `clip-path`). The glyph must not be cut by this circle. Include this circle-cropped render in the PR description (and in any follow-up comment after adjusting padding) so it can be checked visually without opening an editor.
 - Avoid layered shapes that repaint the background color over foreground details to simulate cutouts. These often create clipped or fuzzy edges where anti-aliased shapes overlap. Prefer an existing SVG where the visible foreground glyph is drawn directly, or one that uses a proper mask/clip path for real cutouts.
 
+## Light/dark mode (optional)
+
+An icon can support both light and dark mode purely with CSS, with no variant files or build step. This is opt-in per icon, not required — add it opportunistically or when asked, not as a blocker for a normal icon PR.
+
+- Use classes (e.g. `.bg`, `.fg`, or `.c1`/`.c2`/... for multi-tone icons) instead of inline `fill="..."` attributes, and set the colors in a `<style>` block.
+- Define the light-mode colors as the default (unscoped) rules, override them under `@media (prefers-color-scheme: dark)` for the OS-driven fallback, then repeat both palettes under `:root[data-theme="dark"] .cN, svg[data-theme="dark"] .cN` and `:root[data-theme="light"] .cN, svg[data-theme="light"] .cN` selectors so an explicit `data-theme` attribute set on the `<svg>` root (or any ancestor, when the icon is inlined into the DOM) wins over the OS preference in either direction.
+- Never expose a raw color as something a consumer can set — only expose the light/dark **mode** via the `data-theme` attribute. The actual color values stay owned by the icon file.
+- See `icons/asset/ethereum.svg`, `icons/platform/binance.svg`, and `icons/asset/hyperliquid.svg` for the reference pattern.
+- This only helps consumers who inline the SVG markup into their own DOM (React `dangerouslySetInnerHTML`, Svelte `{@html}`, Vue `v-html`, etc.) — a plain `<img src="icon.svg">` can't receive an ancestor's `data-theme` attribute (or inherit CSS custom properties), so it always falls back to `prefers-color-scheme`.
+
 ## SVG Format
 
 - Use an XML formatter to automatically format the content
