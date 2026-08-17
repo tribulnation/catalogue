@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.8 141.8" data-theme="light">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="70.9" cy="70.9" r="70.9"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circleClip)">
+    
+  <style>
+    .bg{fill:#fff;}
+    .fg{fill:#0a0a0a;}
+    @media (prefers-color-scheme: dark) {
+      .bg{fill:#000;}
+      .fg{fill:#fff;}
+    }
+    :root[data-theme="dark"] .bg,
+    svg[data-theme="dark"] .bg{fill:#000;}
+    :root[data-theme="dark"] .fg,
+    svg[data-theme="dark"] .fg{fill:#fff;}
+    :root[data-theme="light"] .bg,
+    svg[data-theme="light"] .bg{fill:#fff;}
+    :root[data-theme="light"] .fg,
+    svg[data-theme="light"] .fg{fill:#0a0a0a;}
+  </style>
+  <rect width="141.8" height="141.8" class="bg"/>
+<g transform="translate(70.9,70.9) scale(0.7748184019370461) translate(-70.9,-70.9)">
+  <g transform="translate(96.43495 -.68691) scale(1.24272)">
+    <polygon class="fg" points="9.8 49 9.8 62.4 -27 62.4 -27 27.4 9.8 27.4 9.8 40.8 -11.8 40.8 -11.8 49"/>
+    <rect x="-55.4" y="70.2" width="45.8" height="19.1" fill="#00E98D"/>
+  </g>
+</g>
+
+  </g>
+</svg>
