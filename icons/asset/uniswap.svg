@@ -4,16 +4,16 @@
     .st0 { fill: #D6006A; }
     .st1 { fill-rule: evenodd; clip-rule: evenodd; fill: #D6006A; }
     @media (prefers-color-scheme: dark) {
-      .bg { fill: #16161a; }
-      .st0 { fill: #FF007A; }
-      .st1 { fill-rule: evenodd; clip-rule: evenodd; fill: #FF007A; }
+      .bg { fill: #FF007A; }
+      .st0 { fill: #fff; }
+      .st1 { fill-rule: evenodd; clip-rule: evenodd; fill: #fff; }
     }
     :root[data-theme="dark"] .bg,
-    svg[data-theme="dark"] .bg { fill: #16161a; }
+    svg[data-theme="dark"] .bg { fill: #FF007A; }
     :root[data-theme="dark"] .st0,
-    svg[data-theme="dark"] .st0 { fill: #FF007A; }
+    svg[data-theme="dark"] .st0 { fill: #fff; }
     :root[data-theme="dark"] .st1,
-    svg[data-theme="dark"] .st1 { fill-rule: evenodd; clip-rule: evenodd; fill: #FF007A; }
+    svg[data-theme="dark"] .st1 { fill-rule: evenodd; clip-rule: evenodd; fill: #fff; }
     :root[data-theme="light"] .bg,
     svg[data-theme="light"] .bg { fill: #fff; }
     :root[data-theme="light"] .st0,
