@@ -1,20 +1,8 @@
 <svg viewBox="0 0 184 184" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .bg{fill:#fff}
-    .fg{fill:#6E54FF}
-    @media (prefers-color-scheme: dark){
-      .bg{fill:#16161a}
-      .fg{fill:#8b76ff}
-    }
-    :root[data-theme="dark"] .bg, svg[data-theme="dark"] .bg{fill:#16161a}
-    :root[data-theme="dark"] .fg, svg[data-theme="dark"] .fg{fill:#8b76ff}
-    :root[data-theme="light"] .bg, svg[data-theme="light"] .bg{fill:#fff}
-    :root[data-theme="light"] .fg, svg[data-theme="light"] .fg{fill:#6E54FF}
-  </style>
-  <rect width="184" height="184" class="bg" />
+  <rect width="184" height="184" fill="#fff" />
   <g transform="translate(91,92) scale(0.498) translate(-91,-92)">
     <path
-      class="fg"
+      fill="#6E54FF"
       d="M90.5358 0C64.3911 0 0 65.2598 0 91.7593C0 118.259 64.3911 183.52 90.5358 183.52C116.681 183.52 181.073 118.258 181.073 91.7593C181.073 65.2609 116.682 0 90.5358 0ZM76.4273 144.23C65.4024 141.185 35.7608 88.634 38.7655 77.4599C41.7703 66.2854 93.62 36.2439 104.645 39.2892C115.67 42.3341 145.312 94.8846 142.307 106.059C139.302 117.234 87.4522 147.276 76.4273 144.23Z"
     />
   </g>

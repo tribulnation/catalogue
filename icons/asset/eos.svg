@@ -1,23 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
-  <style>
-    .bg{fill:#fff;}
-    .fg{stroke:#0a0a0a;}
-    @media (prefers-color-scheme: dark) {
-      .bg{fill:#000;}
-      .fg{stroke:#fff;}
-    }
-    :root[data-theme="dark"] .bg,
-    svg[data-theme="dark"] .bg{fill:#000;}
-    :root[data-theme="dark"] .fg,
-    svg[data-theme="dark"] .fg{stroke:#fff;}
-    :root[data-theme="light"] .bg,
-    svg[data-theme="light"] .bg{fill:#fff;}
-    :root[data-theme="light"] .fg,
-    svg[data-theme="light"] .fg{stroke:#0a0a0a;}
-  </style>
-  <rect x="0" y="0" width="2000" height="2000" class="bg" />
+  <rect x="0" y="0" width="2000" height="2000" fill="#fff" />
 <g transform="translate(1000.0,1000.0) scale(0.6926609852448233) translate(-1000.0,-1000.0)">
-  <path fill="none" class="fg" stroke-linecap="round" stroke-linejoin="round" stroke-width="80"
+  <path fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="80"
   d="m680.39 725.61l319.58 1003.6-474.21-297.14 154.63-706.46 319.58-436.61v306.23l-474.21 836.84h948.9l-474.21-836.84v-306.23l319.58 436.61 154.63 706.46-474.21 297.14 319.58-1003.6" />
 </g>
 </svg>

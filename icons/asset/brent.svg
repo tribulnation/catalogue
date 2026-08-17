@@ -1,22 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <style>
-    .bg{fill:#fff;}
-    .fg{fill:#0a0a0a;}
-    @media (prefers-color-scheme: dark) {
-      .bg{fill:#000;}
-      .fg{fill:#fff;}
-    }
-    :root[data-theme="dark"] .bg,
-    svg[data-theme="dark"] .bg{fill:#000;}
-    :root[data-theme="dark"] .fg,
-    svg[data-theme="dark"] .fg{fill:#fff;}
-    :root[data-theme="light"] .bg,
-    svg[data-theme="light"] .bg{fill:#fff;}
-    :root[data-theme="light"] .fg,
-    svg[data-theme="light"] .fg{fill:#0a0a0a;}
-  </style>
-  <rect width="64" height="64" class="bg"/>
+  <rect width="64" height="64" fill="#000"/>
 <g transform="translate(32.0,32.0) scale(0.745920745920746) translate(-32.0,-32.0)">
-  <path class="fg" d="M32 10c-6.8 9.1-15 19.7-15 29.1C17 48.2 23.3 55 32 55s15-6.8 15-15.9C47 29.7 38.8 19.1 32 10Z"/>
+  <path fill="#fff" d="M32 10c-6.8 9.1-15 19.7-15 29.1C17 48.2 23.3 55 32 55s15-6.8 15-15.9C47 29.7 38.8 19.1 32 10Z"/>
 </g>
 </svg>
