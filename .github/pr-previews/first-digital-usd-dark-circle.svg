@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.8 141.8">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.8 141.8" data-theme="dark">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="70.9" cy="70.9" r="70.9"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circleClip)">
+    
   <style>
     .bg{fill:#fff;}
     .fg{fill:#0a0a0a;}
@@ -22,4 +29,6 @@
     <rect x="-55.4" y="70.2" width="45.8" height="19.1" fill="#00E98D"/>
   </g>
 </g>
+
+  </g>
 </svg>

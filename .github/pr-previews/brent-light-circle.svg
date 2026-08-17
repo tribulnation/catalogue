@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.0 64.0" data-theme="light">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="32.0" cy="32.0" r="32.0"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circleClip)">
+    
   <style>
     .bg{fill:#fff;}
     .fg{fill:#0a0a0a;}
@@ -19,4 +26,6 @@
 <g transform="translate(32.0,32.0) scale(0.745920745920746) translate(-32.0,-32.0)">
   <path class="fg" d="M32 10c-6.8 9.1-15 19.7-15 29.1C17 48.2 23.3 55 32 55s15-6.8 15-15.9C47 29.7 38.8 19.1 32 10Z"/>
 </g>
+
+  </g>
 </svg>
