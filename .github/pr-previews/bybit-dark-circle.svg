@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" data-theme="dark">
+<defs><clipPath id="clip"><circle cx="200.0" cy="200.0" r="200.0"/></clipPath></defs>
+<g clip-path="url(#clip)">
+
   <style>
     .bg { fill: #fff; }
     .fg { fill: #1a1a1a; }
@@ -35,4 +38,6 @@
       </g>
     </g>
   </g>
+
+</g>
 </svg>

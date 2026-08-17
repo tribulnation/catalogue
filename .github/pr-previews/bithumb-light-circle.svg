@@ -1,4 +1,7 @@
-<svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" data-theme="light">
+<defs><clipPath id="clip"><circle cx="48.0" cy="48.0" r="48.0"/></clipPath></defs>
+<g clip-path="url(#clip)">
+
   <style>
     .bg { fill: #fff; }
     @media (prefers-color-scheme: dark) {
@@ -26,4 +29,6 @@
       <stop offset=".81" stop-color="#d53127" />
     </linearGradient>
   </defs>
+
+</g>
 </svg>
