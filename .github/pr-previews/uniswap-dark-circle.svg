@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 193.8 193.8">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs><clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath></defs>
+  <g clip-path="url(#c)">
+<svg data-theme="dark" width="200" height="200" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 193.8 193.8">
   <style>
     .bg { fill: #fff; }
     .st0 { fill: #D6006A; }
@@ -69,5 +72,8 @@
       </g>
     </g>
   </g>
+  </g>
+</svg>
+
   </g>
 </svg>
