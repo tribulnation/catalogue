@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-theme="light">
+  <defs><clipPath id="cc"><circle cx="256.0" cy="256.0" r="256.0"/></clipPath></defs>
+  <g clip-path="url(#cc)">
+
   <style>
     .bg { fill: #000; }
     .fg { fill: #fff; }
@@ -37,5 +40,7 @@
       class="fg" stroke-width="0" />
     <polygon points="336.645 233.03232 352.12884 280.5161 305.67732 314.83861 265.16127 284.90319 336.645 233.03232"
       class="fg" stroke-width="0" />
+  </g>
+
   </g>
 </svg>
