@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-theme="dark">
+<defs>
+  <clipPath id="circleClip"><circle cx="256" cy="256" r="256"/></clipPath>
+</defs>
+<g clip-path="url(#circleClip)">
+  <svg x="0" y="0" width="512" height="512" viewBox="0 0 100 100" data-theme="dark">
+    
   <style>
     .bg{fill:#fff}
     @media (prefers-color-scheme: dark){
@@ -13,4 +19,7 @@
     <polygon points="90.595 137.17 90.595 381.93999 249.515 438.98 249.515 192.18 421.345 128.87 265.405 73.02 90.595 137.17" fill="#00e599"/>
     <polygon points="262.44501 199.22001 262.44501 333.12001 421.405 390.05999 421.33499 140.47001 262.44501 199.22001" fill="#00af92"/>
   </g>
+
+  </svg>
+</g>
 </svg>
