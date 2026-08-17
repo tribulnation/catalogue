@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236.36 236.36">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs><clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath></defs>
+  <g clip-path="url(#c)">
+<svg data-theme="light" width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236.36 236.36">
   <style>
     .bg { fill: #fff; }
     .fg { fill: #0a0a0a; }
@@ -25,5 +28,8 @@
           d="M236.36,50,49.78,145,33.5,153.31,0,170.38v20.41l33.27-16.95,28.46-14.5L199.3,89.24A83.45,83.45,0,0,1,200,100,81.87,81.87,0,0,1,78.09,171.36l-1,.53-17.66,9A100,100,0,0,0,218.18,100c0-2.57-.1-5.14-.29-7.68a18.2,18.2,0,0,1,9.87-17.58l8.6-4.38Z" />
       </g>
     </g>
+  </g>
+</svg>
+
   </g>
 </svg>
