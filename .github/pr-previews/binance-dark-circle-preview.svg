@@ -1,7 +1,7 @@
 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" data-theme="dark"><clipPath id="c"><circle cx="512.0" cy="512.0" r="512.0"/></clipPath><g clip-path="url(#c)">
   <style>
-    .bg { fill: #f3ba2f; }
-    .fg { fill: #fff; }
+    .bg { fill: #fff; }
+    .fg { fill: #000; }
     @media (prefers-color-scheme: dark) {
       .bg { fill: #000; }
       .fg { fill: #f3ba2f; }
@@ -11,9 +11,9 @@
     :root[data-theme="dark"] .fg,
     svg[data-theme="dark"] .fg { fill: #f3ba2f; }
     :root[data-theme="light"] .bg,
-    svg[data-theme="light"] .bg { fill: #f3ba2f; }
+    svg[data-theme="light"] .bg { fill: #fff; }
     :root[data-theme="light"] .fg,
-    svg[data-theme="light"] .fg { fill: #fff; }
+    svg[data-theme="light"] .fg { fill: #000; }
   </style>
   <rect x="0" y="0" width="1024" height="1024" class="bg"/>
   <path class="fg" d="M404.9 468 512 360.9l107.1 107.2 62.3-62.3L512 236.3 342.6 405.7z"/>
