@@ -1,15 +1,5 @@
 <svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .bg { fill: #fff; }
-    @media (prefers-color-scheme: dark) {
-      .bg { fill: #16161a; }
-    }
-    :root[data-theme="dark"] .bg,
-    svg[data-theme="dark"] .bg { fill: #16161a; }
-    :root[data-theme="light"] .bg,
-    svg[data-theme="light"] .bg { fill: #fff; }
-  </style>
-  <rect width="96" height="96" class="bg" />
+  <rect width="96" height="96" fill="#fff" />
   <g transform="translate(48, 48) scale(0.794) translate(-48, -48)">
     <g transform="translate(23 15) scale(0.42)">
       <path d="m7.59 37.83h22.61l-17.58 43s-9.19-.15-12-8.18a12.76 12.76 0 0 1 -.19-7.37z" fill="#d53127" />

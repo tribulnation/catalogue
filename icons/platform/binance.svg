@@ -1,24 +1,8 @@
 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .bg { fill: #fff; }
-    .fg { fill: #000; }
-    @media (prefers-color-scheme: dark) {
-      .bg { fill: #000; }
-      .fg { fill: #f3ba2f; }
-    }
-    :root[data-theme="dark"] .bg,
-    svg[data-theme="dark"] .bg { fill: #000; }
-    :root[data-theme="dark"] .fg,
-    svg[data-theme="dark"] .fg { fill: #f3ba2f; }
-    :root[data-theme="light"] .bg,
-    svg[data-theme="light"] .bg { fill: #fff; }
-    :root[data-theme="light"] .fg,
-    svg[data-theme="light"] .fg { fill: #000; }
-  </style>
-  <rect x="0" y="0" width="1024" height="1024" class="bg"/>
-  <path class="fg" d="M404.9 468 512 360.9l107.1 107.2 62.3-62.3L512 236.3 342.6 405.7z"/>
-  <path class="fg" transform="rotate(-45.001 298.629 511.998)" d="M254.6 467.9h88.1V556h-88.1z"/>
-  <path class="fg" d="M404.9 556 512 663.1l107.1-107.2 62.4 62.3h-.1L512 787.7 342.6 618.3l-.1-.1z"/>
-  <path class="fg" transform="rotate(-45.001 725.364 512.032)" d="M681.3 468h88.1v88.1h-88.1z"/>
-  <path class="fg" d="M575.2 512 512 448.7l-46.7 46.8-5.4 5.3-11.1 11.1-.1.1.1.1 63.2 63.2 63.2-63.3z"/>
+  <rect x="0" y="0" width="1024" height="1024" fill="#000"/>
+  <path fill="#f3ba2f" d="M404.9 468 512 360.9l107.1 107.2 62.3-62.3L512 236.3 342.6 405.7z"/>
+  <path fill="#f3ba2f" transform="rotate(-45.001 298.629 511.998)" d="M254.6 467.9h88.1V556h-88.1z"/>
+  <path fill="#f3ba2f" d="M404.9 556 512 663.1l107.1-107.2 62.4 62.3h-.1L512 787.7 342.6 618.3l-.1-.1z"/>
+  <path fill="#f3ba2f" transform="rotate(-45.001 725.364 512.032)" d="M681.3 468h88.1v88.1h-88.1z"/>
+  <path fill="#f3ba2f" d="M575.2 512 512 448.7l-46.7 46.8-5.4 5.3-11.1 11.1-.1.1.1.1 63.2 63.2 63.2-63.3z"/>
 </svg>

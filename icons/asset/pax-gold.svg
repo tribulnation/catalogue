@@ -1,15 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.98 71.98">
-  <style>
-    .bg { fill: #fff; }
-    @media (prefers-color-scheme: dark) {
-      .bg { fill: #000; }
-    }
-    :root[data-theme="dark"] .bg,
-    svg[data-theme="dark"] .bg { fill: #000; }
-    :root[data-theme="light"] .bg,
-    svg[data-theme="light"] .bg { fill: #fff; }
-  </style>
-  <rect x="0" y="0" width="71.98" height="71.98" class="bg"/>
+  <rect x="0" y="0" width="71.98" height="71.98" fill="#000"/>
   <g transform="translate(15.12, 15.12) scale(0.58)">
     <g transform="translate(7.198, 7.198) scale(0.8)">
       <defs>

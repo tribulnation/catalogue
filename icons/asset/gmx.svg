@@ -7,15 +7,7 @@
       <stop offset="1" stop-color="#4e09f8" />
     </linearGradient>
   </defs>
-  <style>
-    .bg{fill:#fff}
-    @media (prefers-color-scheme: dark){
-      .bg{fill:#16161a}
-    }
-    :root[data-theme="dark"] .bg, svg[data-theme="dark"] .bg{fill:#16161a}
-    :root[data-theme="light"] .bg, svg[data-theme="light"] .bg{fill:#fff}
-  </style>
-  <rect width="512" height="512" class="bg" />
+  <rect width="512" height="512" fill="#fff" />
   <g transform="translate(256, 256) scale(0.68) translate(-256, -256)">
     <path
       d="m451.80047,362.9369L256.29882,78.18252,60.19953,362.9369h273.21141l-77.11293-108.67672-38.25117,56.46775h-40.65305l78.93013-113.53313,114.10323,165.75506,81.37332-.01296Z"
