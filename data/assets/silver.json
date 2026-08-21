@@ -2,7 +2,7 @@
   "id": "silver",
   "display_name": "Silver",
   "symbol": "XAG",
-  "category": "crypto",
+  "category": "commodity",
   "about": {
     "en": "Silver is a precious metal commonly referenced in financial markets under the symbol XAG. It is used both as an industrial commodity and as a store-of-value asset, with demand tied to sectors such as electronics, solar manufacturing, jewelry, and bullion investment. In crypto and trading contexts, XAG often appears as the reference commodity for silver-pegged or silver-tracking products.",
     "es": "La plata es un metal precioso que suele referenciarse en los mercados financieros con el s\u00edmbolo XAG. Se utiliza tanto como materia prima industrial como activo de reserva de valor, con una demanda ligada a sectores como la electr\u00f3nica, la fabricaci\u00f3n solar, la joyer\u00eda y la inversi\u00f3n en bullion (bullion). En contextos cripto y de trading, XAG suele aparecer como la commodity de referencia para productos vinculados o indexados a la plata.",
@@ -14,6 +14,9 @@
     "coingecko": "currency:xag",
     "yahoo": "SI=F"
   },
+  "tags": [
+    "Commodity"
+  ],
   "icon": "icons/asset/silver.svg",
   "urls": {
     "Website": "https://www.lbma.org.uk/"
