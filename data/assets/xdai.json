@@ -2,7 +2,7 @@
   "id": "xdai",
   "display_name": "xDAI",
   "symbol": "xDAI",
-  "category": "crypto",
+  "category": "stablecoin",
   "about": {
     "en": "xDAI is the stable gas asset used on Gnosis Chain. It is designed to track the value of DAI while serving as the native transaction-fee token for the network. xDAI is mainly used for payments, gas, and application activity on Gnosis Chain.",
     "es": "xDAI es el activo estable de gas utilizado en Gnosis Chain. Est\u00e1 dise\u00f1ado para seguir el valor de DAI mientras sirve como token nativo de comisiones de la red. xDAI se utiliza principalmente para pagos, gas y actividad de aplicaciones en Gnosis Chain.",
@@ -11,6 +11,9 @@
   "external": {
     "coingecko": "xdai",
     "coinmarketcap": "8635"
+  },
+  "pegged_to": {
+    "asset": "dai"
   },
   "urls": {
     "Website": "https://www.gnosischain.com/"
