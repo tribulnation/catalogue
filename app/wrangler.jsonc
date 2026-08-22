@@ -1,0 +1,18 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "catalogue",
+	"compatibility_date": "2026-08-22",
+	"assets": {
+		"directory": "./build",
+		"html_handling": "auto-trailing-slash",
+		"not_found_handling": "404-page"
+	},
+	"routes": [
+		{
+			"pattern": "catalogue.tribulnation.com",
+			"custom_domain": true
+		}
+	],
+	"workers_dev": true,
+	"preview_urls": true
+}
