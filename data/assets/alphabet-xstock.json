@@ -1,0 +1,25 @@
+{
+  "id": "alphabet-xstock",
+  "display_name": "Alphabet xStock",
+  "symbol": "GOOGLx",
+  "category": "rwa",
+  "about": {
+    "en": "Alphabet xStock (GOOGLx) is a tokenized share of Alphabet, Google's US parent company, issued by Backed under the xStocks brand. Each token is backed 1:1 by GOOGL shares bought through regulated brokers and held with qualified custodians, and tracks the share price on-chain across Solana, BNB Chain, Ethereum and other supported networks. xStocks are offered to non-US investors and carry a legal claim to the value of the underlying stock.",
+    "es": "Alphabet xStock (GOOGLx) es una acci\u00f3n tokenizada de Alphabet, la matriz estadounidense de Google, emitida por Backed bajo la marca xStocks. Cada token est\u00e1 respaldado 1:1 por acciones GOOGL compradas a trav\u00e9s de br\u00f3kers regulados y depositadas en custodios cualificados, y sigue el precio de la acci\u00f3n on-chain en Solana, BNB Chain, Ethereum y otras redes compatibles. Los xStocks se ofrecen a inversores no estadounidenses y otorgan un derecho legal sobre el valor de la acci\u00f3n subyacente.",
+    "ca": "Alphabet xStock (GOOGLx) \u00e9s una acci\u00f3 tokenitzada de Alphabet, la matriu estatunidenca de Google, emesa per Backed sota la marca xStocks. Cada token est\u00e0 recolzat 1:1 per accions GOOGL comprades a trav\u00e9s de br\u00f3kers regulats i dipositades en custodis qualificats, i segueix el preu de l'acci\u00f3 on-chain a Solana, BNB Chain, Ethereum i altres xarxes compatibles. Els xStocks s'ofereixen a inversors no estatunidencs i atorguen un dret legal sobre el valor de l'acci\u00f3 subjacent."
+  },
+  "external": {
+    "coingecko": "alphabet-xstock"
+  },
+  "pegged_to": {
+    "asset": "alphabet"
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "icon": "icons/asset/alphabet-xstock.svg",
+  "urls": {
+    "Website": "https://xstocks.com/"
+  }
+}

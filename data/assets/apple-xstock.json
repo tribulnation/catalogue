@@ -1,0 +1,25 @@
+{
+  "id": "apple-xstock",
+  "display_name": "Apple xStock",
+  "symbol": "AAPLx",
+  "category": "rwa",
+  "about": {
+    "en": "Apple xStock (AAPLx) is a tokenized share of Apple, the US consumer-technology company, issued by Backed under the xStocks brand. Each token is backed 1:1 by AAPL shares bought through regulated brokers and held with qualified custodians, and tracks the share price on-chain across Solana, BNB Chain, Ethereum and other supported networks. xStocks are offered to non-US investors and carry a legal claim to the value of the underlying stock.",
+    "es": "Apple xStock (AAPLx) es una acci\u00f3n tokenizada de Apple, la empresa estadounidense de tecnolog\u00eda de consumo, emitida por Backed bajo la marca xStocks. Cada token est\u00e1 respaldado 1:1 por acciones AAPL compradas a trav\u00e9s de br\u00f3kers regulados y depositadas en custodios cualificados, y sigue el precio de la acci\u00f3n on-chain en Solana, BNB Chain, Ethereum y otras redes compatibles. Los xStocks se ofrecen a inversores no estadounidenses y otorgan un derecho legal sobre el valor de la acci\u00f3n subyacente.",
+    "ca": "Apple xStock (AAPLx) \u00e9s una acci\u00f3 tokenitzada de Apple, l'empresa estatunidenca de tecnologia de consum, emesa per Backed sota la marca xStocks. Cada token est\u00e0 recolzat 1:1 per accions AAPL comprades a trav\u00e9s de br\u00f3kers regulats i dipositades en custodis qualificats, i segueix el preu de l'acci\u00f3 on-chain a Solana, BNB Chain, Ethereum i altres xarxes compatibles. Els xStocks s'ofereixen a inversors no estatunidencs i atorguen un dret legal sobre el valor de l'acci\u00f3 subjacent."
+  },
+  "external": {
+    "coingecko": "apple-xstock"
+  },
+  "pegged_to": {
+    "asset": "apple"
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "icon": "icons/asset/apple-xstock.svg",
+  "urls": {
+    "Website": "https://xstocks.com/"
+  }
+}
