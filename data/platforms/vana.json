@@ -11,5 +11,7 @@
   },
   "icon": "icons/asset/vana.svg",
   "kind": "blockchain",
-  "category": "evm"
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 1480
 }
