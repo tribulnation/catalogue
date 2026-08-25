@@ -1,0 +1,23 @@
+{
+  "id": "horizen",
+  "display_name": "Horizen",
+  "symbol": "ZEN",
+  "category": "crypto",
+  "about": {
+    "en": "Horizen is a privacy-focused blockchain project that launched in 2017 as ZenCash, a proof-of-work chain derived from Zclassic that offered shielded transactions and a distributed node network. It later pivoted toward zero-knowledge infrastructure with the Zendoo sidechain protocol and the EON smart-contract sidechain. With Horizen 2.0 the project changed direction again, relaunching as an Ethereum-aligned Layer 3 appchain deployed on Base and focusing on privacy-enhancing technologies such as zero-knowledge proofs and trusted execution environments. ZEN is the network's native token and is now issued on Base among other networks.",
+    "es": "Horizen es un proyecto blockchain centrado en la privacidad que se lanz\u00f3 en 2017 como ZenCash, una cadena de prueba de trabajo derivada de Zclassic con transacciones blindadas y una red distribuida de nodos. Despu\u00e9s se orient\u00f3 hacia la infraestructura de conocimiento cero con el protocolo de sidechains Zendoo y la sidechain de contratos inteligentes EON. Con Horizen 2.0 el proyecto volvi\u00f3 a cambiar de rumbo y se relanz\u00f3 como una appchain de capa 3 alineada con Ethereum desplegada sobre Base, centrada en tecnolog\u00edas de privacidad como las pruebas de conocimiento cero y los entornos de ejecuci\u00f3n confiables. ZEN es el token nativo de la red y ahora se emite en Base, entre otras redes.",
+    "ca": "Horizen \u00e9s un projecte blockchain centrat en la privacitat que es va llan\u00e7ar el 2017 com a ZenCash, una cadena de prova de treball derivada de Zclassic amb transaccions blindades i una xarxa distribu\u00efda de nodes. M\u00e9s endavant es va orientar cap a la infraestructura de coneixement zero amb el protocol de sidechains Zendoo i la sidechain de contractes intel\u00b7ligents EON. Amb Horizen 2.0 el projecte va tornar a canviar de rumb i es va rellan\u00e7ar com una appchain de capa 3 alineada amb Ethereum desplegada sobre Base, centrada en tecnologies de privacitat com les proves de coneixement zero i els entorns d'execuci\u00f3 de confian\u00e7a. ZEN \u00e9s el token natiu de la xarxa i ara s'emet a Base, entre altres xarxes."
+  },
+  "external": {
+    "coingecko": "zencash"
+  },
+  "tags": [
+    "ZK",
+    "Privacy",
+    "Base Ecosystem"
+  ],
+  "icon": "icons/asset/horizen.svg",
+  "urls": {
+    "Website": "https://www.horizen.io"
+  }
+}
