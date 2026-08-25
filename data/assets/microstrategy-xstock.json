@@ -1,0 +1,25 @@
+{
+  "id": "microstrategy-xstock",
+  "display_name": "MicroStrategy xStock",
+  "symbol": "MSTRx",
+  "category": "rwa",
+  "about": {
+    "en": "MicroStrategy xStock (MSTRx) is a tokenized share of Strategy (formerly MicroStrategy), the US software company known for its bitcoin treasury, issued by Backed under the xStocks brand. Each token is backed 1:1 by MSTR shares bought through regulated brokers and held with qualified custodians, and tracks the share price on-chain across Solana, BNB Chain, Ethereum and other supported networks. xStocks are offered to non-US investors and carry a legal claim to the value of the underlying stock.",
+    "es": "MicroStrategy xStock (MSTRx) es una acci\u00f3n tokenizada de Strategy (antes MicroStrategy), la empresa estadounidense de software conocida por su tesorer\u00eda en bitcoin, emitida por Backed bajo la marca xStocks. Cada token est\u00e1 respaldado 1:1 por acciones MSTR compradas a trav\u00e9s de br\u00f3kers regulados y depositadas en custodios cualificados, y sigue el precio de la acci\u00f3n on-chain en Solana, BNB Chain, Ethereum y otras redes compatibles. Los xStocks se ofrecen a inversores no estadounidenses y otorgan un derecho legal sobre el valor de la acci\u00f3n subyacente.",
+    "ca": "MicroStrategy xStock (MSTRx) \u00e9s una acci\u00f3 tokenitzada de Strategy (abans MicroStrategy), l'empresa estatunidenca de software coneguda per la seva tresoreria en bitcoin, emesa per Backed sota la marca xStocks. Cada token est\u00e0 recolzat 1:1 per accions MSTR comprades a trav\u00e9s de br\u00f3kers regulats i dipositades en custodis qualificats, i segueix el preu de l'acci\u00f3 on-chain a Solana, BNB Chain, Ethereum i altres xarxes compatibles. Els xStocks s'ofereixen a inversors no estatunidencs i atorguen un dret legal sobre el valor de l'acci\u00f3 subjacent."
+  },
+  "external": {
+    "coingecko": "microstrategy-xstock"
+  },
+  "pegged_to": {
+    "asset": "microstrategy"
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "icon": "icons/asset/microstrategy-xstock.svg",
+  "urls": {
+    "Website": "https://xstocks.com/"
+  }
+}
