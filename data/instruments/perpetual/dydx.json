@@ -588,5 +588,119 @@
     "base": "dogwifcoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
+  },
+  "ATH-USD": {
+    "exchange": "perp",
+    "base": "aethir",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "COMP-USD": {
+    "exchange": "perp",
+    "base": "compound",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "EIGEN-USD": {
+    "exchange": "perp",
+    "base": "eigen-layer",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "EUR-USD": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "FIL-USD": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "GRT-USD": {
+    "exchange": "perp",
+    "base": "the-graph",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ICP-USD": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "INJ-USD": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "IO-USD": {
+    "exchange": "perp",
+    "base": "io-net",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "JTO-USD": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "JUP-USD": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MORPHO-USD": {
+    "exchange": "perp",
+    "base": "morpho",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MOVE-USD": {
+    "exchange": "perp",
+    "base": "movement",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ORDI-USD": {
+    "exchange": "perp",
+    "base": "ordi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "PYTH-USD": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "STRK-USD": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "STX-USD": {
+    "exchange": "perp",
+    "base": "stacks",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TSLAX-USD": {
+    "exchange": "perp",
+    "base": "tesla-xstock",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "WLD-USD": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
   }
 }
