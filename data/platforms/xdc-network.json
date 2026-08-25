@@ -10,5 +10,8 @@
     "Website": "https://xinfin.org/"
   },
   "icon": "icons/asset/xdc-network.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 50
 }

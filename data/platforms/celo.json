@@ -10,5 +10,8 @@
     "Website": "https://celo.org/"
   },
   "icon": "icons/asset/celo.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 42220
 }
