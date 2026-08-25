@@ -702,5 +702,35 @@
     "base": "worldcoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
+  },
+  "2Z-USD": {
+    "exchange": "perp",
+    "base": "doublezero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SPX-USD": {
+    "exchange": "perp",
+    "base": "spx6900",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "WOO-USD": {
+    "exchange": "perp",
+    "base": "woo-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ZEN-USD": {
+    "exchange": "perp",
+    "base": "horizen",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ZORA-USD": {
+    "exchange": "perp",
+    "base": "zora",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
   }
 }
