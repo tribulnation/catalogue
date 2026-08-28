@@ -65,6 +65,32 @@ def asset_pegs(assets: Mapping[str, Asset]):
         errors.append(f'[ASSET PEG ERROR] Asset "{id}" is pegged to inexistent asset "{target}"')
   return errors
 
+def _normalized_url(url: str) -> str:
+  """Normalize a URL for duplicate detection.
+
+  Ignores the scheme, a leading "www.", the host casing and a trailing slash,
+  so that e.g. "http://www.Example.com/" and "https://example.com" compare
+  equal. The path, query and fragment are compared as-is.
+  """
+  normalized = url.strip()
+  normalized = _re.sub(r'^[a-zA-Z][a-zA-Z0-9+.-]*://', '', normalized)
+  normalized = _re.sub(r'^www\.', '', normalized, flags=_re.IGNORECASE)
+  host, sep, rest = normalized.partition('/')
+  normalized = host.lower() + sep + rest
+  return normalized.rstrip('/')
+
+def urls(kind: str, items: Mapping[str, Mapping]):
+  errors: list[str] = []
+  for id, item in items.items():
+    seen: dict[str, str] = {}
+    for label, url in (item.get('urls') or {}).items():
+      normalized = _normalized_url(url)
+      if (other := seen.get(normalized)) is not None:
+        errors.append(f'[{kind} URL ERROR] {kind.capitalize()} "{id}" has duplicate URL "{url}" under labels "{other}" and "{label}"')
+      else:
+        seen[normalized] = label
+  return errors
+
 def asset_translations(assets: Mapping[str, Asset], asset_translations: Mapping[str, Mapping[str, str]]):
   errors: list[str] = []
   for platform, translations in asset_translations.items():
@@ -175,6 +201,8 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(native_assets(catalogue.assets, catalogue.platforms))
   errors.extend(asset_pegs(catalogue.assets))
   errors.extend(asset_categories(catalogue.assets))
+  errors.extend(urls('ASSET', catalogue.assets))
+  errors.extend(urls('PLATFORM', catalogue.platforms))
   errors.extend(platform_keys('ASSET TRANSLATION', catalogue.platforms, catalogue.asset_translations))
   errors.extend(platform_keys('NETWORK TRANSLATION', catalogue.platforms, catalogue.network_translations))
   errors.extend(platform_keys('SPOT INSTRUMENT', catalogue.platforms, catalogue.spot_instruments))
