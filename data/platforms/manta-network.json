@@ -10,5 +10,8 @@
   "urls": {
     "Website": "https://manta.network/"
   },
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 169
 }

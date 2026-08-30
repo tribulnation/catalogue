@@ -3,7 +3,8 @@
     "exchange": "perp",
     "base": "astar",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "ASTER-USD": {
     "exchange": "perp",
@@ -21,7 +22,8 @@
     "exchange": "perp",
     "base": "avantis",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "PI-USD": {
     "exchange": "perp",
@@ -33,7 +35,8 @@
     "exchange": "perp",
     "base": "sky",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "XAG-USD": {
     "exchange": "perp",
@@ -57,7 +60,8 @@
     "exchange": "perp",
     "base": "pancakeswap",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "ENA-USD": {
     "exchange": "perp",
@@ -105,13 +109,15 @@
     "exchange": "perp",
     "base": "renzo",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "FARTCOIN,RAYDIUM,9BB6NFECJBCTNNLFKO2FQVQBQ8HHM13KCYYCDQBGPUMP-USD": {
     "exchange": "perp",
     "base": "fartcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "PUMP-USD": {
     "exchange": "perp",
@@ -231,7 +237,8 @@
     "exchange": "perp",
     "base": "floki",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "TRX-USD": {
     "exchange": "perp",
@@ -303,7 +310,8 @@
     "exchange": "perp",
     "base": "toncoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "ZK-USD": {
     "exchange": "perp",
@@ -333,7 +341,8 @@
     "exchange": "perp",
     "base": "tezos",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "MNT-USD": {
     "exchange": "perp",
@@ -351,19 +360,22 @@
     "exchange": "perp",
     "base": "euro-coin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "WBTC-USD": {
     "exchange": "perp",
     "base": "wrapped-bitcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "USDE-USD": {
     "exchange": "perp",
     "base": "ethena-usde",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "POL-USD": {
     "exchange": "perp",
@@ -387,13 +399,15 @@
     "exchange": "perp",
     "base": "sonic",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "WSTETH-USD": {
     "exchange": "perp",
     "base": "wrapped-staked-ether",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "CRO-USD": {
     "exchange": "perp",
@@ -405,7 +419,8 @@
     "exchange": "perp",
     "base": "tether-gold",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "CRV-USD": {
     "exchange": "perp",
@@ -465,7 +480,8 @@
     "exchange": "perp",
     "base": "convex-finance",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "PENDLE-USD": {
     "exchange": "perp",
@@ -477,13 +493,15 @@
     "exchange": "perp",
     "base": "core",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "GMX-USD": {
     "exchange": "perp",
     "base": "gmx",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "MON-USD": {
     "exchange": "perp",
@@ -513,7 +531,8 @@
     "exchange": "perp",
     "base": "axie-infinity",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "ETHFI-USD": {
     "exchange": "perp",
@@ -555,7 +574,8 @@
     "exchange": "perp",
     "base": "syrup",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "delisted": true
   },
   "TRUMP-USD": {
     "exchange": "perp",
@@ -566,6 +586,120 @@
   "WIF-USD": {
     "exchange": "perp",
     "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ATH-USD": {
+    "exchange": "perp",
+    "base": "aethir",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "COMP-USD": {
+    "exchange": "perp",
+    "base": "compound",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "EIGEN-USD": {
+    "exchange": "perp",
+    "base": "eigen-layer",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "EUR-USD": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "FIL-USD": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "GRT-USD": {
+    "exchange": "perp",
+    "base": "the-graph",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ICP-USD": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "INJ-USD": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "IO-USD": {
+    "exchange": "perp",
+    "base": "io-net",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "JTO-USD": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "JUP-USD": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MORPHO-USD": {
+    "exchange": "perp",
+    "base": "morpho",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MOVE-USD": {
+    "exchange": "perp",
+    "base": "movement",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ORDI-USD": {
+    "exchange": "perp",
+    "base": "ordi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "PYTH-USD": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "STRK-USD": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "STX-USD": {
+    "exchange": "perp",
+    "base": "stacks",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TSLAX-USD": {
+    "exchange": "perp",
+    "base": "tesla-xstock",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "WLD-USD": {
+    "exchange": "perp",
+    "base": "worldcoin",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },

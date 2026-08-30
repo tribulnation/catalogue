@@ -10,5 +10,8 @@
     "Website": "https://www.plasma.to/"
   },
   "icon": "icons/asset/plasma.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 9745
 }

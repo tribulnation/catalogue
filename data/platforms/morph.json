@@ -10,5 +10,8 @@
     "Website": "https://morph.network/"
   },
   "icon": "icons/asset/bitget-token.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 2818
 }

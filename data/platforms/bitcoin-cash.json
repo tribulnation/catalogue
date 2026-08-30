@@ -10,5 +10,7 @@
     "Website": "https://bch.info/"
   },
   "icon": "icons/asset/bitcoin-cash.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "bip122",
+  "chain_id": "000000000000000000651ef99cb9fcbe"
 }

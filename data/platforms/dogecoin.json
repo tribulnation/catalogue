@@ -10,5 +10,7 @@
     "Website": "https://dogecoin.com/"
   },
   "icon": "icons/asset/dogecoin.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "bip122",
+  "chain_id": "1a91e3dace36e2be3bf030a65679fe82"
 }
