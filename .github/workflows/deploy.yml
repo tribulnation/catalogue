@@ -3,21 +3,21 @@ name: Deploy
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
-# Required for GitHub Pages deployment
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
-# Only one deploy at a time; don't cancel in-progress deploys
 concurrency:
-  group: pages
+  group: cloudflare-production
   cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: cloudflare-production
+      url: https://catalogue.tribulnation.com
     steps:
       - uses: actions/checkout@v4
 
@@ -43,21 +43,10 @@ jobs:
 
       - name: Build site
         run: yarn --cwd app build
-        # If deploying to https://tribulnation.github.io/catalogue/ (no custom domain),
-        # uncomment the following and set kit.paths.base in svelte.config.js:
-        # env:
-        #   BASE_PATH: /catalogue
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Deploy to Cloudflare
+        uses: cloudflare/wrangler-action@v4
         with:
-          path: app/build
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/deploy-pages@v4
-        id: deployment
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: app
