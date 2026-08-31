@@ -60,7 +60,7 @@
 	</nav>
 	<div class="drawer-footer">
 		<a href="https://tribulnation.com" target="_blank" rel="noopener noreferrer">tribulnation.com ↗</a>
-		<a href="https://github.com/tribulnation/catalogue" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+		<a href="https://github.com/tribulnationx/catalogue" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
 	</div>
 </aside>
 
@@ -87,7 +87,7 @@
 		<span class="foot-copy">© {new Date().getFullYear()} <a href="https://tribulnation.com">Tribulnation Labs</a> · Barcelona</span>
 		<div class="foot-links">
 			<a href="https://tribulnation.com" target="_blank" rel="noopener noreferrer">tribulnation.com ↗</a>
-			<a href="https://github.com/tribulnation/catalogue" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+			<a href="https://github.com/tribulnationx/catalogue" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
 			<a href="https://www.npmjs.com/package/@tribulnation/catalogue" target="_blank" rel="noopener noreferrer">npm ↗</a>
 			<a href="https://pypi.org/project/tribulnation-catalogue/" target="_blank" rel="noopener noreferrer">PyPI ↗</a>
 		</div>
