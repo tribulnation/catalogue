@@ -77,11 +77,13 @@ jobs:
             Published to [npm](https://www.npmjs.com/package/@tribulnation/catalogue/v/${{ needs.check.outputs.version }}) as `@tribulnation/catalogue@${{ needs.check.outputs.version }}`.
 
             ${{ github.event.pull_request.body }}
+      # First js release: no js-v* tag to diff against, and GitHub would fall back to
+      # the newest release of *any* package (python-v*), listing unrelated commits.
+      # The pull request body is a hand-written changelog, so use it alone.
       - if: steps.previous_tag.outputs.previous == ''
         uses: softprops/action-gh-release@v2
         with:
           tag_name: js-v${{ needs.check.outputs.version }}
-          generate_release_notes: true
           body: |
             Published to [npm](https://www.npmjs.com/package/@tribulnation/catalogue/v/${{ needs.check.outputs.version }}) as `@tribulnation/catalogue@${{ needs.check.outputs.version }}`.
 
