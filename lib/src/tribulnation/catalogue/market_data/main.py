@@ -42,12 +42,6 @@ class MarketData:
     """
     errors: dict[Source, Error] = {}
     with self.ctx.use():
-      if (sdk := self.sources.get('catalogue-pro')) is not None:
-        try:
-          if (price := await sdk.historical_price(asset['id'], time)) is not None:
-            return price, errors
-        except Error as e:
-          errors['catalogue-pro'] = e
       for source, id in asset.get('external', {}).items():
         if sdk := self.sources.get(source):
           try:
@@ -94,16 +88,6 @@ class MarketData:
     all_stats: dict[str, Stats] = {}
     all_errors: dict[Source, Error] = {}
     failed_sources: set[Source] = set()
-
-    if (sdk := self.sources.get('catalogue-pro')) is not None:
-      try:
-        stats = await sdk.current_stats(assets)
-        all_stats.update(stats)
-        for asset_id in stats:
-          remaining.pop(asset_id, None)
-      except Error as e:
-        all_errors['catalogue-pro'] = e
-        failed_sources.add('catalogue-pro')
 
     while remaining:
       available: dict[Source, Pricing] = {src: sdk for src, sdk in self.sources.items() if src not in failed_sources}
