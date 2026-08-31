@@ -1,7 +1,7 @@
 # Tribulnation Catalogue
 
-[![Validate](https://github.com/tribulnationx/catalogue/actions/workflows/validate.yml/badge.svg)](https://github.com/tribulnationx/catalogue/actions/workflows/validate.yml)
-[![Deploy](https://github.com/tribulnationx/catalogue/actions/workflows/deploy.yml/badge.svg)](https://github.com/tribulnationx/catalogue/actions/workflows/deploy.yml)
+[![Validate](https://github.com/tribulnation/catalogue2/actions/workflows/validate.yml/badge.svg)](https://github.com/tribulnation/catalogue2/actions/workflows/validate.yml)
+[![Deploy](https://github.com/tribulnation/catalogue2/actions/workflows/deploy.yml/badge.svg)](https://github.com/tribulnation/catalogue2/actions/workflows/deploy.yml)
 [![PyPI](https://img.shields.io/pypi/v/tribulnation-catalogue)](https://pypi.org/project/tribulnation-catalogue/)
 [![npm](https://img.shields.io/npm/v/@tribulnation/catalogue)](https://www.npmjs.com/package/@tribulnation/catalogue)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
@@ -165,7 +165,7 @@ Known spam token addresses per chain, with optional source and reported timestam
 Contributions are welcome — new assets, platforms, icons, translations, and corrections.
 
 ```bash
-git clone https://github.com/tribulnationx/catalogue.git
+git clone https://github.com/tribulnation/catalogue2.git
 cd catalogue
 python -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```

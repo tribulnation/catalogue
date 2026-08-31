@@ -5,7 +5,7 @@ Contributions are welcome — new assets, platforms, icons, translations, instru
 ## Setup
 
 ```bash
-git clone https://github.com/tribulnationx/catalogue.git
+git clone https://github.com/tribulnation/catalogue2.git
 cd catalogue
 python -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```

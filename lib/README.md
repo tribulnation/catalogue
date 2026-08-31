@@ -2,9 +2,9 @@
 
 [![PyPI](https://img.shields.io/pypi/v/tribulnation-catalogue)](https://pypi.org/project/tribulnation-catalogue/)
 [![Python](https://img.shields.io/pypi/pyversions/tribulnation-catalogue)](https://pypi.org/project/tribulnation-catalogue/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/tribulnationx/catalogue/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/tribulnation/catalogue2/blob/main/LICENSE)
 
-Python client for the [Tribulnation Catalogue](https://github.com/tribulnationx/catalogue) — a typed, open catalogue of crypto assets, trading platforms, and instrument mappings.
+Python client for the [Tribulnation Catalogue](https://github.com/tribulnation/catalogue2) — a typed, open catalogue of crypto assets, trading platforms, and instrument mappings.
 
 ## Install
 
@@ -83,5 +83,5 @@ from tribulnation.catalogue import (
 ## Links
 
 - [Full catalogue & API](https://catalogue.tribulnation.com)
-- [GitHub](https://github.com/tribulnationx/catalogue)
+- [GitHub](https://github.com/tribulnation/catalogue2)
 - [JavaScript package](https://www.npmjs.com/package/@tribulnation/catalogue)
