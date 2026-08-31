@@ -1,0 +1,88 @@
+name: Release JS
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+    paths: ['js/**']
+
+permissions:
+  id-token: write
+  contents: write
+
+jobs:
+  check:
+    if: github.event.pull_request.merged == true && github.head_ref == 'release/js'
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      published: ${{ steps.check.outputs.published }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - id: version
+        run: |
+          version=$(node -p "require('./js/package.json').version")
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+      - id: check
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" "https://registry.npmjs.org/@tribulnation%2Fcatalogue/${{ steps.version.outputs.version }}")
+          if [ "$code" = "200" ]; then
+            echo "published=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "published=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  release:
+    needs: check
+    if: needs.check.outputs.published == 'false'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+          fetch-tags: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          registry-url: 'https://registry.npmjs.org'
+      # Node 22 bundles npm 10, but trusted publishing (OIDC) needs npm >= 11.5.1.
+      - run: npm install -g npm@latest
+      # `npm install`, not `npm ci`: js/ ships no committed lockfile.
+      - run: npm install
+        working-directory: js
+      - run: npm run lint
+        working-directory: js
+      - run: npm run check
+        working-directory: js
+      - run: npm run build
+        working-directory: js
+      - run: npm publish --access=public
+        working-directory: js
+      - id: previous_tag
+        run: |
+          previous=$(git tag -l 'js-v*' | sort -V | tail -1)
+          echo "previous=$previous" >> "$GITHUB_OUTPUT"
+      - run: git tag js-v${{ needs.check.outputs.version }}
+      - run: git push origin js-v${{ needs.check.outputs.version }}
+      - if: steps.previous_tag.outputs.previous != ''
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: js-v${{ needs.check.outputs.version }}
+          previous_tag: ${{ steps.previous_tag.outputs.previous }}
+          generate_release_notes: true
+          body: |
+            Published to [npm](https://www.npmjs.com/package/@tribulnation/catalogue/v/${{ needs.check.outputs.version }}) as `@tribulnation/catalogue@${{ needs.check.outputs.version }}`.
+
+            ${{ github.event.pull_request.body }}
+      - if: steps.previous_tag.outputs.previous == ''
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: js-v${{ needs.check.outputs.version }}
+          generate_release_notes: true
+          body: |
+            Published to [npm](https://www.npmjs.com/package/@tribulnation/catalogue/v/${{ needs.check.outputs.version }}) as `@tribulnation/catalogue@${{ needs.check.outputs.version }}`.
+
+            ${{ github.event.pull_request.body }}

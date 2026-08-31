@@ -90,4 +90,22 @@ To check the release gate locally before opening the pull request:
 .venv/bin/pyright lib && .venv/bin/python -m build lib
 ```
 
-The npm package under `js/` is still released manually via `js/Justfile`.
+## Releasing the npm package
+
+`@tribulnation/catalogue` follows the same pattern, on its own branch and tag namespace:
+merge a pull request from `release/js` touching `js/`, and
+`.github/workflows/release-js.yml` checks the npm registry, then lints, typechecks,
+builds, publishes, tags `js-v<version>`, and drafts the GitHub Release.
+
+1. Bump `version` in `js/package.json`.
+2. Open a pull request from `release/js` into `main`, with the body written as a changelog.
+3. Merge it.
+
+To check the release gate locally:
+
+```bash
+cd js && npm install && npm run lint && npm run check && npm run build
+```
+
+The two packages release independently — a `release/python` pull request never triggers
+the npm workflow, and vice versa, since each filters on its own directory.
