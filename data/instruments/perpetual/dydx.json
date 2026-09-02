@@ -4,733 +4,852 @@
     "base": "astar",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/ASTR-USD"
   },
   "ASTER-USD": {
     "exchange": "perp",
     "base": "aster",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ASTER-USD"
   },
   "AXL-USD": {
     "exchange": "perp",
     "base": "axelar",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/AXL-USD"
   },
   "AVNT-USD": {
     "exchange": "perp",
     "base": "avantis",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/AVNT-USD"
   },
   "PI-USD": {
     "exchange": "perp",
     "base": "pi",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/PI-USD"
   },
   "SKY-USD": {
     "exchange": "perp",
     "base": "sky",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/SKY-USD"
   },
   "XAG-USD": {
     "exchange": "perp",
     "base": "silver",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/XAG-USD"
   },
   "WTI-USD": {
     "exchange": "perp",
     "base": "west-texas-intermediate",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/WTI-USD"
   },
   "BTC-USD": {
     "exchange": "perp",
     "base": "bitcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/BTC-USD"
   },
   "CAKE-USD": {
     "exchange": "perp",
     "base": "pancakeswap",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/CAKE-USD"
   },
   "ENA-USD": {
     "exchange": "perp",
     "base": "ethena",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ENA-USD"
   },
   "LIT-USD": {
     "exchange": "perp",
     "base": "lighter",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/LIT-USD"
   },
   "ETC-USD": {
     "exchange": "perp",
     "base": "ethereum-classic",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ETC-USD"
   },
   "SNX-USD": {
     "exchange": "perp",
     "base": "synthetix",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/SNX-USD"
   },
   "XPL-USD": {
     "exchange": "perp",
     "base": "plasma",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/XPL-USD"
   },
   "RENDER-USD": {
     "exchange": "perp",
     "base": "render",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/RENDER-USD"
   },
   "BLAST-USD": {
     "exchange": "perp",
     "base": "blast",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/BLAST-USD"
   },
   "REZ-USD": {
     "exchange": "perp",
     "base": "renzo",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/REZ-USD"
   },
   "FARTCOIN,RAYDIUM,9BB6NFECJBCTNNLFKO2FQVQBQ8HHM13KCYYCDQBGPUMP-USD": {
     "exchange": "perp",
     "base": "fartcoin",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/FARTCOIN,RAYDIUM,9BB6NFECJBCTNNLFKO2FQVQBQ8HHM13KCYYCDQBGPUMP-USD"
   },
   "PUMP-USD": {
     "exchange": "perp",
     "base": "pump",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/PUMP-USD"
   },
   "W-USD": {
     "exchange": "perp",
     "base": "wormhole",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/W-USD"
   },
   "ETH-USD": {
     "exchange": "perp",
     "base": "ethereum",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ETH-USD"
   },
   "ARKM-USD": {
     "exchange": "perp",
     "base": "arkham",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ARKM-USD"
   },
   "LINK-USD": {
     "exchange": "perp",
     "base": "chainlink",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/LINK-USD"
   },
   "SOL-USD": {
     "exchange": "perp",
     "base": "solana",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/SOL-USD"
   },
   "ONDO-USD": {
     "exchange": "perp",
     "base": "ondo",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ONDO-USD"
   },
   "ADA-USD": {
     "exchange": "perp",
     "base": "cardano",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ADA-USD"
   },
   "AVAX-USD": {
     "exchange": "perp",
     "base": "avalanche",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/AVAX-USD"
   },
   "ALGO-USD": {
     "exchange": "perp",
     "base": "algorand",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ALGO-USD"
   },
   "LTC-USD": {
     "exchange": "perp",
     "base": "litecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/LTC-USD"
   },
   "DOGE-USD": {
     "exchange": "perp",
     "base": "dogecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/DOGE-USD"
   },
   "HBAR-USD": {
     "exchange": "perp",
     "base": "hedera",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/HBAR-USD"
   },
   "ATOM-USD": {
     "exchange": "perp",
     "base": "cosmos",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ATOM-USD"
   },
   "DOT-USD": {
     "exchange": "perp",
     "base": "polkadot",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/DOT-USD"
   },
   "DYM-USD": {
     "exchange": "perp",
     "base": "dymension",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/DYM-USD"
   },
   "UNI-USD": {
     "exchange": "perp",
     "base": "uniswap",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/UNI-USD"
   },
   "BCH-USD": {
     "exchange": "perp",
     "base": "bitcoin-cash",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/BCH-USD"
   },
   "SHIB-USD": {
     "exchange": "perp",
     "base": "shiba-inu",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/SHIB-USD"
   },
   "FLOKI-USD": {
     "exchange": "perp",
     "base": "floki",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/FLOKI-USD"
   },
   "TRX-USD": {
     "exchange": "perp",
     "base": "tron",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/TRX-USD"
   },
   "NEAR-USD": {
     "exchange": "perp",
     "base": "near",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/NEAR-USD"
   },
   "XLM-USD": {
     "exchange": "perp",
     "base": "stellar",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/XLM-USD"
   },
   "APT-USD": {
     "exchange": "perp",
     "base": "aptos",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/APT-USD"
   },
   "SEI-USD": {
     "exchange": "perp",
     "base": "sei",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/SEI-USD"
   },
   "SUI-USD": {
     "exchange": "perp",
     "base": "sui",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/SUI-USD"
   },
   "XRP-USD": {
     "exchange": "perp",
     "base": "xrp",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/XRP-USD"
   },
   "AAVE-USD": {
     "exchange": "perp",
     "base": "aave",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/AAVE-USD"
   },
   "VVV-USD": {
     "exchange": "perp",
     "base": "venice-token",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/VVV-USD"
   },
   "BNB-USD": {
     "exchange": "perp",
     "base": "bnb",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/BNB-USD"
   },
   "DYDX-USD": {
     "exchange": "perp",
     "base": "dydx",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/DYDX-USD"
   },
   "TON-USD": {
     "exchange": "perp",
     "base": "toncoin",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/TON-USD"
   },
   "ZK-USD": {
     "exchange": "perp",
     "base": "zksync",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ZK-USD"
   },
   "TAO-USD": {
     "exchange": "perp",
     "base": "bittensor",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/TAO-USD"
   },
   "XMR-USD": {
     "exchange": "perp",
     "base": "monero",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/XMR-USD"
   },
   "WLFI-USD": {
     "exchange": "perp",
     "base": "world-liberty-financial",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/WLFI-USD"
   },
   "XTZ-USD": {
     "exchange": "perp",
     "base": "tezos",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/XTZ-USD"
   },
   "MNT-USD": {
     "exchange": "perp",
     "base": "mantle",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/MNT-USD"
   },
   "PAXG-USD": {
     "exchange": "perp",
     "base": "pax-gold",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/PAXG-USD"
   },
   "EURC-USD": {
     "exchange": "perp",
     "base": "euro-coin",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/EURC-USD"
   },
   "WBTC-USD": {
     "exchange": "perp",
     "base": "wrapped-bitcoin",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/WBTC-USD"
   },
   "USDE-USD": {
     "exchange": "perp",
     "base": "ethena-usde",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/USDE-USD"
   },
   "POL-USD": {
     "exchange": "perp",
     "base": "polygon",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/POL-USD"
   },
   "ZEC-USD": {
     "exchange": "perp",
     "base": "zcash",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ZEC-USD"
   },
   "HYPE-USD": {
     "exchange": "perp",
     "base": "hyperliquid",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/HYPE-USD"
   },
   "S-USD": {
     "exchange": "perp",
     "base": "sonic",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/S-USD"
   },
   "WSTETH-USD": {
     "exchange": "perp",
     "base": "wrapped-staked-ether",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/WSTETH-USD"
   },
   "CRO-USD": {
     "exchange": "perp",
     "base": "cronos",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/CRO-USD"
   },
   "XAUT-USD": {
     "exchange": "perp",
     "base": "tether-gold",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/XAUT-USD"
   },
   "CRV-USD": {
     "exchange": "perp",
     "base": "curve-dao",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/CRV-USD"
   },
   "PEPE-USD": {
     "exchange": "perp",
     "base": "pepe",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/PEPE-USD"
   },
   "CHZ-USD": {
     "exchange": "perp",
     "base": "chiliz",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/CHZ-USD"
   },
   "USUAL-USD": {
     "exchange": "perp",
     "base": "usual",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/USUAL-USD"
   },
   "OP-USD": {
     "exchange": "perp",
     "base": "optimism",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/OP-USD"
   },
   "ARB-USD": {
     "exchange": "perp",
     "base": "arbitrum",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ARB-USD"
   },
   "BLUR-USD": {
     "exchange": "perp",
     "base": "blur",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/BLUR-USD"
   },
   "TIA-USD": {
     "exchange": "perp",
     "base": "celestia",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/TIA-USD"
   },
   "BONK-USD": {
     "exchange": "perp",
     "base": "bonk",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/BONK-USD"
   },
   "CVX-USD": {
     "exchange": "perp",
     "base": "convex-finance",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/CVX-USD"
   },
   "PENDLE-USD": {
     "exchange": "perp",
     "base": "pendle",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/PENDLE-USD"
   },
   "CORE-USD": {
     "exchange": "perp",
     "base": "core",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/CORE-USD"
   },
   "GMX-USD": {
     "exchange": "perp",
     "base": "gmx",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/GMX-USD"
   },
   "MON-USD": {
     "exchange": "perp",
     "base": "monad",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/MON-USD"
   },
   "ZRO-USD": {
     "exchange": "perp",
     "base": "layer-zero",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ZRO-USD"
   },
   "1INCH-USD": {
     "exchange": "perp",
     "base": "1inch",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/1INCH-USD"
   },
   "APE-USD": {
     "exchange": "perp",
     "base": "apecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/APE-USD"
   },
   "AXS-USD": {
     "exchange": "perp",
     "base": "axie-infinity",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/AXS-USD"
   },
   "ETHFI-USD": {
     "exchange": "perp",
     "base": "ether-fi",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ETHFI-USD"
   },
   "IMX-USD": {
     "exchange": "perp",
     "base": "immutable-x",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/IMX-USD"
   },
   "LDO-USD": {
     "exchange": "perp",
     "base": "lido-dao",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/LDO-USD"
   },
   "MANA-USD": {
     "exchange": "perp",
     "base": "decentraland",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/MANA-USD"
   },
   "PENGU-USD": {
     "exchange": "perp",
     "base": "pudgy-penguins",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/PENGU-USD"
   },
   "RUNE-USD": {
     "exchange": "perp",
     "base": "thorchain",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/RUNE-USD"
   },
   "SYRUP-USD": {
     "exchange": "perp",
     "base": "syrup",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "url": "https://dydx.trade/trade/SYRUP-USD"
   },
   "TRUMP-USD": {
     "exchange": "perp",
     "base": "official-trump",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/TRUMP-USD"
   },
   "WIF-USD": {
     "exchange": "perp",
     "base": "dogwifcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/WIF-USD"
   },
   "ATH-USD": {
     "exchange": "perp",
     "base": "aethir",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ATH-USD"
   },
   "COMP-USD": {
     "exchange": "perp",
     "base": "compound",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/COMP-USD"
   },
   "EIGEN-USD": {
     "exchange": "perp",
     "base": "eigen-layer",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/EIGEN-USD"
   },
   "EUR-USD": {
     "exchange": "perp",
     "base": "euro",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/EUR-USD"
   },
   "FIL-USD": {
     "exchange": "perp",
     "base": "filecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/FIL-USD"
   },
   "GRT-USD": {
     "exchange": "perp",
     "base": "the-graph",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/GRT-USD"
   },
   "ICP-USD": {
     "exchange": "perp",
     "base": "internet-computer",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ICP-USD"
   },
   "INJ-USD": {
     "exchange": "perp",
     "base": "injective",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/INJ-USD"
   },
   "IO-USD": {
     "exchange": "perp",
     "base": "io-net",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/IO-USD"
   },
   "JTO-USD": {
     "exchange": "perp",
     "base": "jito",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/JTO-USD"
   },
   "JUP-USD": {
     "exchange": "perp",
     "base": "jupiter",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/JUP-USD"
   },
   "MORPHO-USD": {
     "exchange": "perp",
     "base": "morpho",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/MORPHO-USD"
   },
   "MOVE-USD": {
     "exchange": "perp",
     "base": "movement",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/MOVE-USD"
   },
   "ORDI-USD": {
     "exchange": "perp",
     "base": "ordi",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ORDI-USD"
   },
   "PYTH-USD": {
     "exchange": "perp",
     "base": "pyth-network",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/PYTH-USD"
   },
   "STRK-USD": {
     "exchange": "perp",
     "base": "starknet",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/STRK-USD"
   },
   "STX-USD": {
     "exchange": "perp",
     "base": "stacks",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/STX-USD"
   },
   "TSLAX-USD": {
     "exchange": "perp",
     "base": "tesla-xstock",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/TSLAX-USD"
   },
   "WLD-USD": {
     "exchange": "perp",
     "base": "worldcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/WLD-USD"
   },
   "2Z-USD": {
     "exchange": "perp",
     "base": "doublezero",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/2Z-USD"
   },
   "SPX-USD": {
     "exchange": "perp",
     "base": "spx6900",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/SPX-USD"
   },
   "WOO-USD": {
     "exchange": "perp",
     "base": "woo-network",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/WOO-USD"
   },
   "ZEN-USD": {
     "exchange": "perp",
     "base": "horizen",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ZEN-USD"
   },
   "ZORA-USD": {
     "exchange": "perp",
     "base": "zora",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://dydx.trade/trade/ZORA-USD"
   }
 }

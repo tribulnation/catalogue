@@ -149,6 +149,14 @@ def ranks(kind: str, items: Mapping[str, Mapping]):
     errors.append(f'[{kind} RANK ERROR] Ranks must be consecutive starting at 1. Found:\n{display}')
   return errors
 
+def _instrument_url_errors(kind: str, platform: str, id: str, instrument: Mapping) -> list[str]:
+  url = instrument.get('url')
+  if url is None:
+    return []
+  if not url.startswith(('http://', 'https://')):
+    return [f'[{kind} INSTRUMENT ERROR] {kind.capitalize()} instrument "{id}" on "{platform}" has non-absolute URL "{url}"']
+  return []
+
 def spot_instruments(spot_instruments: Mapping[str, Mapping[str, Spot]], assets: Mapping[str, Asset]):
   errors: list[str] = []
   for platform, instruments in spot_instruments.items():
@@ -158,6 +166,7 @@ def spot_instruments(spot_instruments: Mapping[str, Mapping[str, Spot]], assets:
         errors.append(f'[SPOT INSTRUMENT ERROR] Spot instrument "{id}" on "{platform}" has inexistent base asset "{base}"')
       if quote not in assets:
         errors.append(f'[SPOT INSTRUMENT ERROR] Spot instrument "{id}" on "{platform}" has inexistent quote asset "{quote}"')
+      errors.extend(_instrument_url_errors('SPOT', platform, id, instrument))
   return errors
 
 def perpetual_instruments(perpetual_instruments: Mapping[str, Mapping[str, Perpetual]], assets: Mapping[str, Asset]):
@@ -171,6 +180,7 @@ def perpetual_instruments(perpetual_instruments: Mapping[str, Mapping[str, Perpe
         errors.append(f'[PERPETUAL INSTRUMENT ERROR] Perpetual instrument "{id}" on "{platform}" has inexistent quote asset "{quote}"')
       if settlement not in assets:
         errors.append(f'[PERPETUAL INSTRUMENT ERROR] Perpetual instrument "{id}" on "{platform}" has inexistent settlement asset "{settlement}"')
+      errors.extend(_instrument_url_errors('PERPETUAL', platform, id, instrument))
   return errors
 
 def debt_instruments(debt_instruments: Mapping[str, Mapping[str, Debt]], assets: Mapping[str, Asset]):

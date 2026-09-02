@@ -12,6 +12,18 @@ These instructions apply to the repository at `/home/m4rs/github/tribulnation/ca
 ## Local guidance
 - When running validation (or other local scripts), use the repo virtualenv: `PYTHONPATH=lib/src .venv/bin/python scripts/validate.py`.
 
+## Instrument URLs
+
+Spot and perpetual instruments carry a `url` field pointing at the platform's trading page for that instrument, e.g. `https://app.hyperliquid.xyz/trade/BTC` for Hyperliquid's BTC perpetual. It is optional in the schema, but every instrument on a supported platform should have one.
+
+Do not write them by hand. `scripts/instrument_urls.py` derives them from the instrument ID (splitting concatenated IDs such as `1INCHUSDT` into base/quote symbols where the platform's URLs need them). Run it after adding instruments:
+
+```sh
+PYTHONPATH=lib/src .venv/bin/python scripts/instrument_urls.py
+```
+
+It only fills in missing URLs, so hand-written ones survive; pass `--overwrite` to regenerate everything. When adding a platform, add its URL rule to `SPOT_RULES` / `PERPETUAL_RULES` in that script; instruments on platforms without a rule are left without a `url`.
+
 ## Searching Instruments
 
 Use the guides below to find instrument IDs for supported platforms:
