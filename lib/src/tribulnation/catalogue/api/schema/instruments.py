@@ -24,6 +24,8 @@ class SpotInstrument(BaseModel):
   """Exchange sub-account identifier"""
   delisted: bool | None = None
   """Whether the instrument has been delisted"""
+  url: str | None = None
+  """Trading page URL for the instrument on the platform"""
 
 
 class PerpetualInstrument(BaseModel):
@@ -41,6 +43,8 @@ class PerpetualInstrument(BaseModel):
   """Exchange sub-account identifier"""
   delisted: bool | None = None
   """Whether the instrument has been delisted"""
+  url: str | None = None
+  """Trading page URL for the instrument on the platform"""
 
 
 class DebtInstrument(BaseModel):
