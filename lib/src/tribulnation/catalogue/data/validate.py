@@ -153,6 +153,8 @@ def _instrument_url_errors(kind: str, platform: str, id: str, instrument: Mappin
   url = instrument.get('url')
   if url is None:
     return []
+  if instrument.get('delisted'):
+    return [f'[{kind} INSTRUMENT ERROR] {kind.capitalize()} instrument "{id}" on "{platform}" is delisted, so it must not have a URL']
   if not url.startswith(('http://', 'https://')):
     return [f'[{kind} INSTRUMENT ERROR] {kind.capitalize()} instrument "{id}" on "{platform}" has non-absolute URL "{url}"']
   return []

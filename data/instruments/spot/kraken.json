@@ -363,8 +363,7 @@
     "exchange": "spot",
     "base": "agora-dollar",
     "quote": "euro",
-    "delisted": true,
-    "url": "https://pro.kraken.com/app/trade/ausd-eur"
+    "delisted": true
   },
   "AUSDUSD": {
     "exchange": "spot",
@@ -1084,29 +1083,25 @@
     "exchange": "spot",
     "base": "stablr-euro",
     "quote": "euro",
-    "delisted": true,
-    "url": "https://pro.kraken.com/app/trade/eurr-eur"
+    "delisted": true
   },
   "EURRUSD": {
     "exchange": "spot",
     "base": "stablr-euro",
     "quote": "usd",
-    "delisted": true,
-    "url": "https://pro.kraken.com/app/trade/eurr-usd"
+    "delisted": true
   },
   "EURRUSDC": {
     "exchange": "spot",
     "base": "stablr-euro",
     "quote": "usd-coin",
-    "delisted": true,
-    "url": "https://pro.kraken.com/app/trade/eurr-usdc"
+    "delisted": true
   },
   "EURRUSDT": {
     "exchange": "spot",
     "base": "stablr-euro",
     "quote": "tether",
-    "delisted": true,
-    "url": "https://pro.kraken.com/app/trade/eurr-usdt"
+    "delisted": true
   },
   "EURUSD": {
     "exchange": "spot",
@@ -2018,8 +2013,7 @@
     "exchange": "spot",
     "base": "ripple-usd",
     "quote": "euro",
-    "delisted": true,
-    "url": "https://pro.kraken.com/app/trade/rlusd-eur"
+    "delisted": true
   },
   "RLUSDUSD": {
     "exchange": "spot",

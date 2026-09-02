@@ -57,8 +57,7 @@
     "exchange": "spot",
     "base": "plasma",
     "quote": "hyperliquid-usd",
-    "delisted": true,
-    "url": "https://app.hyperliquid.xyz/trade/UXPL/USDH"
+    "delisted": true
   },
   "HYPE/USDE:255": {
     "exchange": "spot",
@@ -100,28 +99,24 @@
     "exchange": "spot",
     "base": "hyperliquid-usd",
     "quote": "usd-coin",
-    "delisted": true,
-    "url": "https://app.hyperliquid.xyz/trade/USDH/USDC"
+    "delisted": true
   },
   "HYPE/USDH:232": {
     "exchange": "spot",
     "base": "hyperliquid",
     "quote": "hyperliquid-usd",
-    "delisted": true,
-    "url": "https://app.hyperliquid.xyz/trade/HYPE/USDH"
+    "delisted": true
   },
   "UBTC/USDH:234": {
     "exchange": "spot",
     "base": "bitcoin",
     "quote": "hyperliquid-usd",
-    "delisted": true,
-    "url": "https://app.hyperliquid.xyz/trade/UBTC/USDH"
+    "delisted": true
   },
   "UETH/USDH:235": {
     "exchange": "spot",
     "base": "ethereum",
     "quote": "hyperliquid-usd",
-    "delisted": true,
-    "url": "https://app.hyperliquid.xyz/trade/UETH/USDH"
+    "delisted": true
   }
 }

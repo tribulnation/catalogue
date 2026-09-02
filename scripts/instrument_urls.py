@@ -8,7 +8,8 @@ base/quote symbols parsed out of the ID). Run it after adding instruments:
     PYTHONPATH=lib/src .venv/bin/python scripts/instrument_urls.py
 
 Existing URLs are kept as-is unless `--overwrite` is passed, so hand-written
-URLs survive a regeneration.
+URLs survive a regeneration. Delisted instruments are left without a URL: their
+trading pages are gone.
 """
 from __future__ import annotations
 
@@ -110,7 +111,7 @@ RULES = {'spot': SPOT_RULES, 'perpetual': PERPETUAL_RULES}
 
 
 def fill(folder: Path, rules: dict[str, Rule], symbols: Symbols, *, overwrite: bool) -> tuple[int, int]:
-  """Write URLs into every instrument file in `folder`. Returns (filled, skipped)."""
+  """Write URLs into every listed instrument in `folder`. Returns (filled, skipped)."""
   filled = skipped = 0
   for file in sorted(folder.glob('*.json')):
     rule = rules.get(file.stem)
@@ -119,6 +120,9 @@ def fill(folder: Path, rules: dict[str, Rule], symbols: Symbols, *, overwrite: b
       skipped += len(instruments)
       continue
     for id, instrument in instruments.items():
+      if instrument.get('delisted'):
+        instrument.pop('url', None)
+        continue
       if 'url' in instrument and not overwrite:
         continue
       instrument['url'] = rule(id, instrument, symbols)

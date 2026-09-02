@@ -14,7 +14,7 @@ These instructions apply to the repository at `/home/m4rs/github/tribulnation/ca
 
 ## Instrument URLs
 
-Spot and perpetual instruments carry a `url` field pointing at the platform's trading page for that instrument, e.g. `https://app.hyperliquid.xyz/trade/BTC` for Hyperliquid's BTC perpetual. It is optional in the schema, but every instrument on a supported platform should have one.
+Spot and perpetual instruments carry a `url` field pointing at the platform's trading page for that instrument, e.g. `https://app.hyperliquid.xyz/trade/BTC` for Hyperliquid's BTC perpetual. It is optional in the schema, but every listed instrument on a supported platform should have one. Delisted instruments must not have one — their trading pages are gone — and validation enforces that.
 
 Do not write them by hand. `scripts/instrument_urls.py` derives them from the instrument ID (splitting concatenated IDs such as `1INCHUSDT` into base/quote symbols where the platform's URLs need them). Run it after adding instruments:
 
