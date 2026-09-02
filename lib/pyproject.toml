@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tribulnation-catalogue"
-version = "0.2.0"
+version = "0.3.0"
 authors = [
   {name="Marcel Claramunt", email="marcel@tribulnation.com"}
 ]
@@ -24,7 +24,7 @@ classifiers = [
 
 [project.urls]
 Website = "https://catalogue.tribulnation.com/"
-Repository = "https://github.com/tribulnation/catalogue2.git"
+Repository = "https://github.com/tribulnation/catalogue.git"
 NPM = "https://www.npmjs.com/package/@tribulnation/catalogue"
 
 [project.optional-dependencies]
