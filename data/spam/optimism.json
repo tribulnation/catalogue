@@ -31,5 +31,9 @@
   "0x808080Fedd7D1787D5b99b2EC385283B475D617c": {},
   "0x30eC33dCb261B62fE973FE539274412F64DcC398": {},
   "0xc35Ef221Fc19748B3b1975D3c42ab6c041Ae0AFC": {},
-  "0xD8f5900479eFF70985111B00547Ab7C87feFa902": {}
+  "0xD8f5900479eFF70985111B00547Ab7C87feFa902": {},
+  "0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": {
+    "reason": "Impersonates Polkadot (DOT). Mints the entire uint256 supply space on Ethereum and inconsistent amounts elsewhere from byte-identical bytecode, with no bridge, custodian or admin interface.",
+    "source": "https://claude.ai/code/session_01XBDpM5JzpAmErzYQVPioAK"
+  }
 }
