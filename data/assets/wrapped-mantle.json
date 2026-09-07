@@ -1,0 +1,21 @@
+{
+  "id": "wrapped-mantle",
+  "display_name": "Wrapped Mantle",
+  "symbol": "WMNT",
+  "category": "crypto",
+  "about": {
+    "en": "Wrapped Mantle is the ERC-20 representation of MNT, Mantle's gas coin, produced by a wrapper contract that holds the coin one-for-one. Smart contracts cannot handle a native coin directly, so WMNT is what decentralised exchanges and lending markets on Mantle actually trade. It has no custodian: the wrapper contract itself holds the backing.",
+    "es": "Wrapped Mantle es la representación ERC-20 de MNT, la moneda de gas de Mantle, emitida por un contrato de envoltura que mantiene la moneda uno a uno. Los contratos inteligentes no pueden manejar una moneda nativa directamente, por lo que WMNT es lo que realmente negocian los exchanges descentralizados y los mercados de préstamo en Mantle. No tiene custodio: el propio contrato de envoltura mantiene el respaldo.",
+    "ca": "Wrapped Mantle és la representació ERC-20 de MNT, la moneda de gas de Mantle, emesa per un contracte d'embolcall que manté la moneda un a un. Els contractes intel·ligents no poden gestionar una moneda nativa directament, de manera que WMNT és el que realment negocien els exchanges descentralitzats i els mercats de préstec a Mantle. No té custodi: el mateix contracte d'embolcall manté el suport."
+  },
+  "external": {
+    "coingecko": "wrapped-mantle"
+  },
+  "pegged_to": {
+    "asset": "mantle"
+  },
+  "tags": [
+    "Wrapped",
+    "DeFi"
+  ]
+}
