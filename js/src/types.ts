@@ -58,6 +58,7 @@ export type SpotInstrument = {
   quote: string
   exchange?: string
   delisted?: boolean
+  url?: string
 }
 
 export type PerpetualInstrument = {
@@ -68,6 +69,7 @@ export type PerpetualInstrument = {
   multiplier?: number
   exchange?: string
   delisted?: boolean
+  url?: string
 }
 
 export type DebtInstrument = {

@@ -2,921 +2,1105 @@
   "GOLD(XAUT)USDC": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/GOLD(XAUT)_USDC"
   },
   "GOLD(XAUT)USDT": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/GOLD(XAUT)_USDT"
   },
   "PIUSDC": {
     "exchange": "spot",
     "base": "pi",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/PI_USDC"
   },
   "PIUSDT": {
     "exchange": "spot",
     "base": "pi",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/PI_USDT"
   },
   "USUALUSDC": {
     "exchange": "spot",
     "base": "usual",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/USUAL_USDC"
   },
   "USUALUSDT": {
     "exchange": "spot",
     "base": "usual",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/USUAL_USDT"
   },
   "TUSDUSDT": {
     "exchange": "spot",
     "base": "true-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/TUSD_USDT"
   },
   "SKYUSDC": {
     "exchange": "spot",
     "base": "sky",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/SKY_USDC"
   },
   "SKYUSDT": {
     "exchange": "spot",
     "base": "sky",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/SKY_USDT"
   },
   "POLUSDC": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/POL_USDC"
   },
   "POLUSDT": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/POL_USDT"
   },
   "BONKUSDC": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/BONK_USDC"
   },
   "BONKUSDT": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/BONK_USDT"
   },
   "XRPUSDC": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/XRP_USDC"
   },
   "XRPUSDT": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/XRP_USDT"
   },
   "TONUSDC": {
     "exchange": "spot",
     "base": "toncoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/TON_USDC"
   },
   "TONUSDT": {
     "exchange": "spot",
     "base": "toncoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/TON_USDT"
   },
   "CCUSDC": {
     "exchange": "spot",
     "base": "canton",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/CC_USDC"
   },
   "CCUSDT": {
     "exchange": "spot",
     "base": "canton",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/CC_USDT"
   },
   "HYPEUSDC": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/HYPE_USDC"
   },
   "HYPEUSDT": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/HYPE_USDT"
   },
   "PURRUSDT": {
     "exchange": "spot",
     "base": "purr",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/PURR_USDT"
   },
   "HBARUSDC": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/HBAR_USDC"
   },
   "HBARUSDT": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/HBAR_USDT"
   },
   "PENDLEUSDC": {
     "exchange": "spot",
     "base": "pendle",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/PENDLE_USDC"
   },
   "PENDLEUSDT": {
     "exchange": "spot",
     "base": "pendle",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/PENDLE_USDT"
   },
   "AVNTUSDC": {
     "exchange": "spot",
     "base": "avantis",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/AVNT_USDC"
   },
   "AVNTUSDT": {
     "exchange": "spot",
     "base": "avantis",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/AVNT_USDT"
   },
   "DYDXUSDC": {
     "exchange": "spot",
     "base": "dydx",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/DYDX_USDC"
   },
   "DYDXUSDT": {
     "exchange": "spot",
     "base": "dydx",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/DYDX_USDT"
   },
   "VANAUSDT": {
     "exchange": "spot",
     "base": "vana",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/VANA_USDT"
   },
   "DYMUSDT": {
     "exchange": "spot",
     "base": "dymension",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/DYM_USDT"
   },
   "ASTRUSDT": {
     "exchange": "spot",
     "base": "astar",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ASTR_USDT"
   },
   "WAXLUSDT": {
     "exchange": "spot",
     "base": "axelar",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/WAXL_USDT"
   },
   "ENAUSDC": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/ENA_USDC"
   },
   "ENAUSDT": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ENA_USDT"
   },
   "XMRUSDC": {
     "exchange": "spot",
     "base": "monero",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/XMR_USDC"
   },
   "XMRUSDT": {
     "exchange": "spot",
     "base": "monero",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/XMR_USDT"
   },
   "NEARUSDC": {
     "exchange": "spot",
     "base": "near",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/NEAR_USDC"
   },
   "NEARUSDT": {
     "exchange": "spot",
     "base": "near",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/NEAR_USDT"
   },
   "EURIUSDC": {
     "exchange": "spot",
     "base": "eurite",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/EURI_USDC"
   },
   "EURIUSDT": {
     "exchange": "spot",
     "base": "eurite",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/EURI_USDT"
   },
   "ASTERUSDT": {
     "exchange": "spot",
     "base": "aster",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ASTER_USDT"
   },
   "ASTERUSDC": {
     "exchange": "spot",
     "base": "aster",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/ASTER_USDC"
   },
   "CHZUSDC": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/CHZ_USDC"
   },
   "CHZUSDT": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/CHZ_USDT"
   },
   "LINKUSDC": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/LINK_USDC"
   },
   "LINKUSDT": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/LINK_USDT"
   },
   "BTCUSDC": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/BTC_USDC"
   },
   "BTCUSDT": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/BTC_USDT"
   },
   "UNIUSDC": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/UNI_USDC"
   },
   "UNIUSDT": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/UNI_USDT"
   },
   "ETHUSDC": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/ETH_USDC"
   },
   "ETHUSDT": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ETH_USDT"
   },
   "MNTUSDC": {
     "exchange": "spot",
     "base": "mantle",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/MNT_USDC"
   },
   "MNTUSDT": {
     "exchange": "spot",
     "base": "mantle",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/MNT_USDT"
   },
   "DOTUSDC": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/DOT_USDC"
   },
   "DOTUSDT": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/DOT_USDT"
   },
   "AAVEUSDC": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/AAVE_USDC"
   },
   "AAVEUSDT": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/AAVE_USDT"
   },
   "GOLD(PAXG)USDC": {
     "exchange": "spot",
     "base": "pax-gold",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/GOLD(PAXG)_USDC"
   },
   "GOLD(PAXG)USDT": {
     "exchange": "spot",
     "base": "pax-gold",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/GOLD(PAXG)_USDT"
   },
   "USDEUSDC": {
     "exchange": "spot",
     "base": "ethena-usde",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/USDE_USDC"
   },
   "USDEUSDT": {
     "exchange": "spot",
     "base": "ethena-usde",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/USDE_USDT"
   },
   "TRXUSDC": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/TRX_USDC"
   },
   "TRXUSDT": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/TRX_USDT"
   },
   "BGBUSDC": {
     "exchange": "spot",
     "base": "bitget-token",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/BGB_USDC"
   },
   "BGBUSDT": {
     "exchange": "spot",
     "base": "bitget-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/BGB_USDT"
   },
   "XLMUSDC": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/XLM_USDC"
   },
   "XLMUSDT": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/XLM_USDT"
   },
   "EURRUSDC": {
     "exchange": "spot",
     "base": "stablr-euro",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/EURR_USDC"
   },
   "EURRUSDT": {
     "exchange": "spot",
     "base": "stablr-euro",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/EURR_USDT"
   },
   "LTCUSDC": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/LTC_USDC"
   },
   "LTCUSDT": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/LTC_USDT"
   },
   "TAOUSDC": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/TAO_USDC"
   },
   "TAOUSDT": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/TAO_USDT"
   },
   "AVAXUSDC": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/AVAX_USDC"
   },
   "AVAXUSDT": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/AVAX_USDT"
   },
   "ALGOUSDT": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ALGO_USDT"
   },
   "ALGOUSDC": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/ALGO_USDC"
   },
   "SOLUSDC": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/SOL_USDC"
   },
   "SOLUSDT": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/SOL_USDT"
   },
   "SUIUSDC": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/SUI_USDC"
   },
   "SUIUSDT": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/SUI_USDT"
   },
   "DOGEUSDC": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/DOGE_USDC"
   },
   "DOGEUSDT": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/DOGE_USDT"
   },
   "BCHUSDC": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/BCH_USDC"
   },
   "BCHUSDT": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/BCH_USDT"
   },
   "BNBUSDC": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/BNB_USDC"
   },
   "BNBUSDT": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/BNB_USDT"
   },
   "CAKEUSDC": {
     "exchange": "spot",
     "base": "pancakeswap",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/CAKE_USDC"
   },
   "CAKEUSDT": {
     "exchange": "spot",
     "base": "pancakeswap",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/CAKE_USDT"
   },
   "CROUSDC": {
     "exchange": "spot",
     "base": "cronos",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/CRO_USDC"
   },
   "CROUSDT": {
     "exchange": "spot",
     "base": "cronos",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/CRO_USDT"
   },
   "WBTCUSDC": {
     "exchange": "spot",
     "base": "wrapped-bitcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/WBTC_USDC"
   },
   "WBTCUSDT": {
     "exchange": "spot",
     "base": "wrapped-bitcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/WBTC_USDT"
   },
   "ZECUSDC": {
     "exchange": "spot",
     "base": "zcash",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/ZEC_USDC"
   },
   "ZECUSDT": {
     "exchange": "spot",
     "base": "zcash",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ZEC_USDT"
   },
   "ZKUSDC": {
     "exchange": "spot",
     "base": "zksync",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/ZK_USDC"
   },
   "ZKUSDT": {
     "exchange": "spot",
     "base": "zksync",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ZK_USDT"
   },
   "STETHUSDC": {
     "exchange": "spot",
     "base": "lido-staked-ether",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/STETH_USDC"
   },
   "STETHUSDT": {
     "exchange": "spot",
     "base": "lido-staked-ether",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/STETH_USDT"
   },
   "USD1USDC": {
     "exchange": "spot",
     "base": "usd1",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/USD1_USDC"
   },
   "USD1USDT": {
     "exchange": "spot",
     "base": "usd1",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/USD1_USDT"
   },
   "ADAUSDC": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/ADA_USDC"
   },
   "ADAUSDT": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ADA_USDT"
   },
   "PUMPUSDC": {
     "exchange": "spot",
     "base": "pump",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/PUMP_USDC"
   },
   "PUMPUSDT": {
     "exchange": "spot",
     "base": "pump",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/PUMP_USDT"
   },
   "XOUSDT": {
     "exchange": "spot",
     "base": "xociety",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/XO_USDT"
   },
   "WUSDC": {
     "exchange": "spot",
     "base": "wormhole",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/W_USDC"
   },
   "WUSDT": {
     "exchange": "spot",
     "base": "wormhole",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/W_USDT"
   },
   "SNXUSDC": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/SNX_USDC"
   },
   "SNXUSDT": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/SNX_USDT"
   },
   "RENDERUSDC": {
     "exchange": "spot",
     "base": "render",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/RENDER_USDC"
   },
   "RENDERUSDT": {
     "exchange": "spot",
     "base": "render",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/RENDER_USDT"
   },
   "BLASTUSDC": {
     "exchange": "spot",
     "base": "blast",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/BLAST_USDC"
   },
   "BLASTUSDT": {
     "exchange": "spot",
     "base": "blast",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/BLAST_USDT"
   },
   "REZUSDC": {
     "exchange": "spot",
     "base": "renzo",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/REZ_USDC"
   },
   "REZUSDT": {
     "exchange": "spot",
     "base": "renzo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/REZ_USDT"
   },
   "FARTCOINUSDC": {
     "exchange": "spot",
     "base": "fartcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/FARTCOIN_USDC"
   },
   "FARTCOINUSDT": {
     "exchange": "spot",
     "base": "fartcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/FARTCOIN_USDT"
   },
   "XPLUSDC": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/XPL_USDC"
   },
   "XPLUSDT": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/XPL_USDT"
   },
   "ARKMUSDC": {
     "exchange": "spot",
     "base": "arkham",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/ARKM_USDC"
   },
   "ARKMUSDT": {
     "exchange": "spot",
     "base": "arkham",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ARKM_USDT"
   },
   "ONDOUSDC": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/ONDO_USDC"
   },
   "ONDOUSDT": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ONDO_USDT"
   },
   "ZROUSDC": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/ZRO_USDC"
   },
   "ZROUSDT": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ZRO_USDT"
   },
   "1INCHUSDC": {
     "exchange": "spot",
     "base": "1inch",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/1INCH_USDC"
   },
   "1INCHUSDT": {
     "exchange": "spot",
     "base": "1inch",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/1INCH_USDT"
   },
   "APEUSDC": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/APE_USDC"
   },
   "APEUSDT": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/APE_USDT"
   },
   "ARETH": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.mexc.com/exchange/AR_ETH"
   },
   "ARUSDC": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/AR_USDC"
   },
   "ARUSDT": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/AR_USDT"
   },
   "AXSUSDC": {
     "exchange": "spot",
     "base": "axie-infinity",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/AXS_USDC"
   },
   "AXSUSDT": {
     "exchange": "spot",
     "base": "axie-infinity",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/AXS_USDT"
   },
   "BATUSDT": {
     "exchange": "spot",
     "base": "basic-attention-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/BAT_USDT"
   },
   "BSVUSDT": {
     "exchange": "spot",
     "base": "bitcoin-cash-sv",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/BSV_USDT"
   },
   "BTTUSDT": {
     "exchange": "spot",
     "base": "bittorrent",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/BTT_USDT"
   },
   "DCRUSDT": {
     "exchange": "spot",
     "base": "decred",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/DCR_USDT"
   },
   "ETHFIUSD1": {
     "exchange": "spot",
     "base": "ether-fi",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/ETHFI_USD1"
   },
   "ETHFIUSDC": {
     "exchange": "spot",
     "base": "ether-fi",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/ETHFI_USDC"
   },
   "ETHFIUSDE": {
     "exchange": "spot",
     "base": "ether-fi",
-    "quote": "ethena-usde"
+    "quote": "ethena-usde",
+    "url": "https://www.mexc.com/exchange/ETHFI_USDE"
   },
   "ETHFIUSDT": {
     "exchange": "spot",
     "base": "ether-fi",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ETHFI_USDT"
   },
   "FETUSDC": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/FET_USDC"
   },
   "FETUSDT": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/FET_USDT"
   },
   "GALAUSDC": {
     "exchange": "spot",
     "base": "gala",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/GALA_USDC"
   },
   "GALAUSDT": {
     "exchange": "spot",
     "base": "gala",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/GALA_USDT"
   },
   "GNOUSDT": {
     "exchange": "spot",
     "base": "gnosis",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/GNO_USDT"
   },
   "GRASSUSDT": {
     "exchange": "spot",
     "base": "grass",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/GRASS_USDT"
   },
   "IMXUSDC": {
     "exchange": "spot",
     "base": "immutable-x",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/IMX_USDC"
   },
   "IMXUSDT": {
     "exchange": "spot",
     "base": "immutable-x",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/IMX_USDT"
   },
   "KAIAUSDC": {
     "exchange": "spot",
     "base": "kaia",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/KAIA_USDC"
   },
   "KAIAUSDT": {
     "exchange": "spot",
     "base": "kaia",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/KAIA_USDT"
   },
   "LDOUSDC": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/LDO_USDC"
   },
   "LDOUSDT": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/LDO_USDT"
   },
   "MANAUSDT": {
     "exchange": "spot",
     "base": "decentraland",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/MANA_USDT"
   },
   "NEOBTC": {
     "exchange": "spot",
     "base": "neo",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.mexc.com/exchange/NEO_BTC"
   },
   "NEOUSDC": {
     "exchange": "spot",
     "base": "neo",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/NEO_USDC"
   },
   "NEOUSDT": {
     "exchange": "spot",
     "base": "neo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/NEO_USDT"
   },
   "PENGUUSDC": {
     "exchange": "spot",
     "base": "pudgy-penguins",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/PENGU_USDC"
   },
   "PENGUUSDT": {
     "exchange": "spot",
     "base": "pudgy-penguins",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/PENGU_USDT"
   },
   "RUNEUSDC": {
     "exchange": "spot",
     "base": "thorchain",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/RUNE_USDC"
   },
   "RUNEUSDT": {
     "exchange": "spot",
     "base": "thorchain",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/RUNE_USDT"
   },
   "SANDUSDC": {
     "exchange": "spot",
     "base": "the-sandbox",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/SAND_USDC"
   },
   "SANDUSDT": {
     "exchange": "spot",
     "base": "the-sandbox",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/SAND_USDT"
   },
   "SUNUSDT": {
     "exchange": "spot",
     "base": "sun-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/SUN_USDT"
   },
   "SYRUPUSDC": {
     "exchange": "spot",
     "base": "syrup",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/SYRUP_USDC"
   },
   "SYRUPUSDT": {
     "exchange": "spot",
     "base": "syrup",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/SYRUP_USDT"
   },
   "TRUMPUSD1": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/TRUMP_USD1"
   },
   "TRUMPUSDC": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/TRUMP_USDC"
   },
   "TRUMPUSDT": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/TRUMP_USDT"
   },
   "TWTUSDC": {
     "exchange": "spot",
     "base": "trust-wallet-token",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/TWT_USDC"
   },
   "TWTUSDT": {
     "exchange": "spot",
     "base": "trust-wallet-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/TWT_USDT"
   },
   "VETUSDC": {
     "exchange": "spot",
     "base": "vechain",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/VET_USDC"
   },
   "VETUSDT": {
     "exchange": "spot",
     "base": "vechain",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/VET_USDT"
   },
   "VIRTUALUSDC": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/VIRTUAL_USDC"
   },
   "VIRTUALUSDT": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/VIRTUAL_USDT"
   },
   "VVVUSDT": {
     "exchange": "spot",
     "base": "venice-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/VVV_USDT"
   },
   "WIFEUR": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.mexc.com/exchange/WIF_EUR"
   },
   "WIFUSDC": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/WIF_USDC"
   },
   "WIFUSDT": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/WIF_USDT"
   }
 }

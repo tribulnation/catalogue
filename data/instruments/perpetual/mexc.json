@@ -2,456 +2,547 @@
   "XAUT_USDC": {
     "base": "tether-gold",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/XAUT_USDC"
   },
   "XAUT_USDT": {
     "base": "tether-gold",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/XAUT_USDT"
   },
   "XRP_USDC": {
     "base": "xrp",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/XRP_USDC"
   },
   "XRP_USDT": {
     "base": "xrp",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/XRP_USDT"
   },
   "TON_USDC": {
     "base": "toncoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/TON_USDC"
   },
   "TON_USDT": {
     "base": "toncoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TON_USDT"
   },
   "CC_USDT": {
     "base": "canton",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CC_USDT"
   },
   "HYPE_USDC": {
     "base": "hyperliquid",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/HYPE_USDC"
   },
   "HYPE_USDT": {
     "base": "hyperliquid",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/HYPE_USDT"
   },
   "XMR_USDT": {
     "base": "monero",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/XMR_USDT"
   },
   "NEAR_USDC": {
     "base": "near",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/NEAR_USDC"
   },
   "NEAR_USDT": {
     "base": "near",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/NEAR_USDT"
   },
   "LINK_USDC": {
     "base": "chainlink",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/LINK_USDC"
   },
   "LINK_USDT": {
     "base": "chainlink",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/LINK_USDT"
   },
   "BTC_USDC": {
     "base": "bitcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/BTC_USDC"
   },
   "BTC_USDT": {
     "base": "bitcoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BTC_USDT"
   },
   "UNI_USDC": {
     "base": "uniswap",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/UNI_USDC"
   },
   "UNI_USDT": {
     "base": "uniswap",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/UNI_USDT"
   },
   "ETH_USDC": {
     "base": "ethereum",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/ETH_USDC"
   },
   "ETH_USDT": {
     "base": "ethereum",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ETH_USDT"
   },
   "MNT_USDC": {
     "base": "mantle",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/MNT_USDC"
   },
   "MNT_USDT": {
     "base": "mantle",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MNT_USDT"
   },
   "DOT_USDC": {
     "base": "polkadot",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/DOT_USDC"
   },
   "DOT_USDT": {
     "base": "polkadot",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/DOT_USDT"
   },
   "AAVE_USDC": {
     "base": "aave",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/AAVE_USDC"
   },
   "AAVE_USDT": {
     "base": "aave",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AAVE_USDT"
   },
   "PAXG_USDC": {
     "base": "pax-gold",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/PAXG_USDC"
   },
   "PAXG_USDT": {
     "base": "pax-gold",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PAXG_USDT"
   },
   "USDE_USDT": {
     "base": "ethena-usde",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/USDE_USDT"
   },
   "TRX_USDC": {
     "base": "tron",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/TRX_USDC"
   },
   "TRX_USDT": {
     "base": "tron",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TRX_USDT"
   },
   "XLM_USDC": {
     "base": "stellar",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/XLM_USDC"
   },
   "XLM_USDT": {
     "base": "stellar",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/XLM_USDT"
   },
   "LTC_USDC": {
     "base": "litecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/LTC_USDC"
   },
   "LTC_USDT": {
     "base": "litecoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/LTC_USDT"
   },
   "TAO_USDC": {
     "base": "bittensor",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/TAO_USDC"
   },
   "TAO_USDT": {
     "base": "bittensor",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TAO_USDT"
   },
   "AVAX_USDC": {
     "base": "avalanche",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/AVAX_USDC"
   },
   "AVAX_USDT": {
     "base": "avalanche",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AVAX_USDT"
   },
   "SOL_USDC": {
     "base": "solana",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/SOL_USDC"
   },
   "SOL_USDT": {
     "base": "solana",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SOL_USDT"
   },
   "SUI_USDC": {
     "base": "sui",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/SUI_USDC"
   },
   "SUI_USDT": {
     "base": "sui",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SUI_USDT"
   },
   "DOGE_USDC": {
     "base": "dogecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/DOGE_USDC"
   },
   "DOGE_USDT": {
     "base": "dogecoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/DOGE_USDT"
   },
   "BCH_USDC": {
     "base": "bitcoin-cash",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/BCH_USDC"
   },
   "BCH_USDT": {
     "base": "bitcoin-cash",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BCH_USDT"
   },
   "BNB_USDC": {
     "base": "bnb",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/BNB_USDC"
   },
   "BNB_USDT": {
     "base": "bnb",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BNB_USDT"
   },
   "CRO_USDT": {
     "base": "cronos",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CRO_USDT"
   },
   "WBTC_USDT": {
     "base": "wrapped-bitcoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/WBTC_USDT"
   },
   "ZEC_USDC": {
     "base": "zcash",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/ZEC_USDC"
   },
   "ZEC_USDT": {
     "base": "zcash",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ZEC_USDT"
   },
   "STETH_USDT": {
     "base": "lido-staked-ether",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/STETH_USDT"
   },
   "ADA_USDC": {
     "base": "cardano",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/ADA_USDC"
   },
   "ADA_USDT": {
     "base": "cardano",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ADA_USDT"
   },
   "PI_USDT": {
     "base": "pi",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PI_USDT"
   },
   "1INCH_USDT": {
     "base": "1inch",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/1INCH_USDT"
   },
   "AKT_USDT": {
     "base": "akash-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AKT_USDT"
   },
   "APE_USDT": {
     "base": "apecoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/APE_USDT"
   },
   "AR_USDT": {
     "base": "arweave",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AR_USDT"
   },
   "AXS_USDT": {
     "base": "axie-infinity",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AXS_USDT"
   },
   "BAT_USDT": {
     "base": "basic-attention-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BAT_USDT"
   },
   "BSV_USDT": {
     "base": "bitcoin-cash-sv",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BSV_USDT"
   },
   "ETHFI_USDC": {
     "base": "ether-fi",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/ETHFI_USDC"
   },
   "ETHFI_USDT": {
     "base": "ether-fi",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ETHFI_USDT"
   },
   "FET_USDT": {
     "base": "fetch-ai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/FET_USDT"
   },
   "GALA_USDT": {
     "base": "gala",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/GALA_USDT"
   },
   "GLM_USDT": {
     "base": "golem",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/GLM_USDT"
   },
   "GRASS_USDT": {
     "base": "grass",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/GRASS_USDT"
   },
   "IMX_USDT": {
     "base": "immutable-x",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/IMX_USDT"
   },
   "KAIA_USDT": {
     "base": "kaia",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/KAIA_USDT"
   },
   "LDO_USDT": {
     "base": "lido-dao",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/LDO_USDT"
   },
   "MANA_USDT": {
     "base": "decentraland",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MANA_USDT"
   },
   "NEO_USDC": {
     "base": "neo",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/NEO_USDC"
   },
   "NEO_USDT": {
     "base": "neo",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/NEO_USDT"
   },
   "PENGU_USDC": {
     "base": "pudgy-penguins",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/PENGU_USDC"
   },
   "PENGU_USDT": {
     "base": "pudgy-penguins",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PENGU_USDT"
   },
   "RUNE_USDT": {
     "base": "thorchain",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/RUNE_USDT"
   },
   "SAND_USDT": {
     "base": "the-sandbox",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SAND_USDT"
   },
   "SUN_USDT": {
     "base": "sun-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SUN_USDT"
   },
   "SYRUP_USDT": {
     "base": "syrup",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SYRUP_USDT"
   },
   "THETA_USDT": {
     "base": "theta-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/THETA_USDT"
   },
   "TRUMP_USDC": {
     "base": "official-trump",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/TRUMP_USDC"
   },
   "TWT_USDT": {
     "base": "trust-wallet-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TWT_USDT"
   },
   "VET_USDT": {
     "base": "vechain",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/VET_USDT"
   },
   "VIRTUAL_USDC": {
     "base": "virtuals-protocol",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/VIRTUAL_USDC"
   },
   "VIRTUAL_USDT": {
     "base": "virtuals-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/VIRTUAL_USDT"
   },
   "VVV_USDT": {
     "base": "venice-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/VVV_USDT"
   },
   "WIF_USDC": {
     "base": "dogwifcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.mexc.com/futures/WIF_USDC"
   },
   "WIF_USDT": {
     "base": "dogwifcoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/WIF_USDT"
   }
 }
