@@ -1,0 +1,21 @@
+{
+  "id": "wrapped-sonic",
+  "display_name": "Wrapped Sonic",
+  "symbol": "wS",
+  "category": "crypto",
+  "about": {
+    "en": "Wrapped Sonic is the ERC-20 representation of S, Sonic's gas coin, produced by a wrapper contract that holds the coin one-for-one. Smart contracts cannot handle a native coin directly, so wS is what decentralised exchanges and lending markets on Sonic actually trade. It has no custodian: the wrapper contract itself holds the backing.",
+    "es": "Wrapped Sonic es la representación ERC-20 de S, la moneda de gas de Sonic, emitida por un contrato de envoltura que mantiene la moneda uno a uno. Los contratos inteligentes no pueden manejar una moneda nativa directamente, por lo que wS es lo que realmente negocian los exchanges descentralizados y los mercados de préstamo en Sonic. No tiene custodio: el propio contrato de envoltura mantiene el respaldo.",
+    "ca": "Wrapped Sonic és la representació ERC-20 de S, la moneda de gas de Sonic, emesa per un contracte d'embolcall que manté la moneda un a un. Els contractes intel·ligents no poden gestionar una moneda nativa directament, de manera que wS és el que realment negocien els exchanges descentralitzats i els mercats de préstec a Sonic. No té custodi: el mateix contracte d'embolcall manté el suport."
+  },
+  "external": {
+    "coingecko": "wrapped-sonic"
+  },
+  "pegged_to": {
+    "asset": "sonic"
+  },
+  "tags": [
+    "Wrapped",
+    "DeFi"
+  ]
+}
