@@ -2,1566 +2,1879 @@
   "1INCH-USDT": {
     "exchange": "spot",
     "base": "1inch",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/1INCH-USDT"
   },
   "AAVE-BTC": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/AAVE-BTC"
   },
   "AAVE-USDT": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/AAVE-USDT"
   },
   "ADA-BTC": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/ADA-BTC"
   },
   "ADA-USD1": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.kucoin.com/trade/ADA-USD1"
   },
   "ADA-USDC": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/ADA-USDC"
   },
   "ADA-USDT": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ADA-USDT"
   },
   "AERO-USDT": {
     "exchange": "spot",
     "base": "aerodrome",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/AERO-USDT"
   },
   "AKT-USDT": {
     "exchange": "spot",
     "base": "akash-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/AKT-USDT"
   },
   "ALEPH-USDT": {
     "exchange": "spot",
     "base": "aleph",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ALEPH-USDT"
   },
   "ALGO-BTC": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/ALGO-BTC"
   },
   "ALGO-ETH": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/ALGO-ETH"
   },
   "ALGO-USDC": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/ALGO-USDC"
   },
   "ALGO-USDT": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ALGO-USDT"
   },
   "ANKR-BTC": {
     "exchange": "spot",
     "base": "ankr",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/ANKR-BTC"
   },
   "ANKR-USDT": {
     "exchange": "spot",
     "base": "ankr",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ANKR-USDT"
   },
   "APE-USDC": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/APE-USDC"
   },
   "APE-USDT": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/APE-USDT"
   },
   "APT-USDT": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/APT-USDT"
   },
   "AR-BTC": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/AR-BTC"
   },
   "AR-USDT": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/AR-USDT"
   },
   "ARB-USDT": {
     "exchange": "spot",
     "base": "arbitrum",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ARB-USDT"
   },
   "ARKM-USDT": {
     "exchange": "spot",
     "base": "arkham",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ARKM-USDT"
   },
   "ASTER-USDT": {
     "exchange": "spot",
     "base": "aster",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ASTER-USDT"
   },
   "ASTR-USDT": {
     "exchange": "spot",
     "base": "astar",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ASTR-USDT"
   },
   "ATH-USDT": {
     "exchange": "spot",
     "base": "aethir",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ATH-USDT"
   },
   "ATOM-BTC": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/ATOM-BTC"
   },
   "ATOM-ETH": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/ATOM-ETH"
   },
   "ATOM-USDC": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/ATOM-USDC"
   },
   "ATOM-USDT": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ATOM-USDT"
   },
   "AVA-BTC": {
     "exchange": "spot",
     "base": "travala",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/AVA-BTC"
   },
   "AVA-ETH": {
     "exchange": "spot",
     "base": "travala",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/AVA-ETH"
   },
   "AVA-USDT": {
     "exchange": "spot",
     "base": "travala",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/AVA-USDT"
   },
   "AVAX-BTC": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/AVAX-BTC"
   },
   "AVAX-USDC": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/AVAX-USDC"
   },
   "AVAX-USDT": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/AVAX-USDT"
   },
   "AVNT-USDT": {
     "exchange": "spot",
     "base": "avantis",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/AVNT-USDT"
   },
   "AXS-USDT": {
     "exchange": "spot",
     "base": "axie-infinity",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/AXS-USDT"
   },
   "BAT-USDT": {
     "exchange": "spot",
     "base": "basic-attention-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/BAT-USDT"
   },
   "BCH-BTC": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/BCH-BTC"
   },
   "BCH-USDC": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/BCH-USDC"
   },
   "BCH-USDT": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/BCH-USDT"
   },
   "BERA-USDT": {
     "exchange": "spot",
     "base": "berachain",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/BERA-USDT"
   },
   "BIO-USDT": {
     "exchange": "spot",
     "base": "bio-protocol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/BIO-USDT"
   },
   "BLAST-USDT": {
     "exchange": "spot",
     "base": "blast",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/BLAST-USDT"
   },
   "BLUR-USDT": {
     "exchange": "spot",
     "base": "blur",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/BLUR-USDT"
   },
   "BMX-USDT": {
     "exchange": "spot",
     "base": "bitmart-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/BMX-USDT"
   },
   "BNB-BTC": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/BNB-BTC"
   },
   "BNB-KCS": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "kucoin-token"
+    "quote": "kucoin-token",
+    "url": "https://www.kucoin.com/trade/BNB-KCS"
   },
   "BNB-USDC": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/BNB-USDC"
   },
   "BNB-USDT": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/BNB-USDT"
   },
   "BONK-USDT": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/BONK-USDT"
   },
   "BTC-EUR": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.kucoin.com/trade/BTC-EUR"
   },
   "BTC-USD1": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.kucoin.com/trade/BTC-USD1"
   },
   "BTC-USDC": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/BTC-USDC"
   },
   "BTC-USDG": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "global-dollar"
+    "quote": "global-dollar",
+    "url": "https://www.kucoin.com/trade/BTC-USDG"
   },
   "BTC-USDT": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/BTC-USDT"
   },
   "BTT-USDT": {
     "exchange": "spot",
     "base": "bittorrent",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/BTT-USDT"
   },
   "CAKE-USDT": {
     "exchange": "spot",
     "base": "pancakeswap",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/CAKE-USDT"
   },
   "CATI-USDT": {
     "exchange": "spot",
     "base": "catizen",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/CATI-USDT"
   },
   "CC-USDT": {
     "exchange": "spot",
     "base": "canton",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/CC-USDT"
   },
   "CELO-USDT": {
     "exchange": "spot",
     "base": "celo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/CELO-USDT"
   },
   "CFX-USDT": {
     "exchange": "spot",
     "base": "conflux",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/CFX-USDT"
   },
   "CHZ-BTC": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/CHZ-BTC"
   },
   "CHZ-USDT": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/CHZ-USDT"
   },
   "COMP-USDT": {
     "exchange": "spot",
     "base": "compound",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/COMP-USDT"
   },
   "COW-USDT": {
     "exchange": "spot",
     "base": "cow-protocol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/COW-USDT"
   },
   "CRO-BTC": {
     "exchange": "spot",
     "base": "cronos",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/CRO-BTC"
   },
   "CRO-USDT": {
     "exchange": "spot",
     "base": "cronos",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/CRO-USDT"
   },
   "CRV-USDT": {
     "exchange": "spot",
     "base": "curve-dao",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/CRV-USDT"
   },
   "CVX-USDT": {
     "exchange": "spot",
     "base": "convex-finance",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/CVX-USDT"
   },
   "DASH-BTC": {
     "exchange": "spot",
     "base": "dash",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/DASH-BTC"
   },
   "DASH-ETH": {
     "exchange": "spot",
     "base": "dash",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/DASH-ETH"
   },
   "DASH-USDT": {
     "exchange": "spot",
     "base": "dash",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/DASH-USDT"
   },
   "DBR-USDT": {
     "exchange": "spot",
     "base": "debridge",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/DBR-USDT"
   },
   "DCR-USDT": {
     "exchange": "spot",
     "base": "decred",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/DCR-USDT"
   },
   "DEXE-USDT": {
     "exchange": "spot",
     "base": "dexe",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/DEXE-USDT"
   },
   "DOGE-BTC": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/DOGE-BTC"
   },
   "DOGE-KCS": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "kucoin-token"
+    "quote": "kucoin-token",
+    "url": "https://www.kucoin.com/trade/DOGE-KCS"
   },
   "DOGE-USD1": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.kucoin.com/trade/DOGE-USD1"
   },
   "DOGE-USDC": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/DOGE-USDC"
   },
   "DOGE-USDT": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/DOGE-USDT"
   },
   "DOT-BTC": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/DOT-BTC"
   },
   "DOT-USDC": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/DOT-USDC"
   },
   "DOT-USDT": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/DOT-USDT"
   },
   "DYDX-USDT": {
     "exchange": "spot",
     "base": "dydx",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/DYDX-USDT"
   },
   "DYM-USDT": {
     "exchange": "spot",
     "base": "dymension",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/DYM-USDT"
   },
   "EIGEN-USDT": {
     "exchange": "spot",
     "base": "eigen-layer",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/EIGEN-USDT"
   },
   "ENA-USDC": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/ENA-USDC"
   },
   "ENA-USDT": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ENA-USDT"
   },
   "ENS-USDT": {
     "exchange": "spot",
     "base": "ethereum-name-service",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ENS-USDT"
   },
   "ETC-BTC": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/ETC-BTC"
   },
   "ETC-ETH": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/ETC-ETH"
   },
   "ETC-USDC": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/ETC-USDC"
   },
   "ETC-USDT": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ETC-USDT"
   },
   "ETH-BTC": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/ETH-BTC"
   },
   "ETH-EUR": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.kucoin.com/trade/ETH-EUR"
   },
   "ETH-USD1": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.kucoin.com/trade/ETH-USD1"
   },
   "ETH-USDC": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/ETH-USDC"
   },
   "ETH-USDT": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ETH-USDT"
   },
   "ETHFI-USDT": {
     "exchange": "spot",
     "base": "ether-fi",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ETHFI-USDT"
   },
   "FARTCOIN-USDC": {
     "exchange": "spot",
     "base": "fartcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/FARTCOIN-USDC"
   },
   "FARTCOIN-USDT": {
     "exchange": "spot",
     "base": "fartcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/FARTCOIN-USDT"
   },
   "FET-BTC": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/FET-BTC"
   },
   "FET-ETH": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/FET-ETH"
   },
   "FET-USDC": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/FET-USDC"
   },
   "FET-USDT": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/FET-USDT"
   },
   "FIL-USDT": {
     "exchange": "spot",
     "base": "filecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/FIL-USDT"
   },
   "FLOKI-USDC": {
     "exchange": "spot",
     "base": "floki",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/FLOKI-USDC"
   },
   "FLOKI-USDT": {
     "exchange": "spot",
     "base": "floki",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/FLOKI-USDT"
   },
   "FLR-USDC": {
     "exchange": "spot",
     "base": "flare",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/FLR-USDC"
   },
   "FLR-USDT": {
     "exchange": "spot",
     "base": "flare",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/FLR-USDT"
   },
   "FRAX-USDT": {
     "exchange": "spot",
     "base": "frax",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/FRAX-USDT"
   },
   "G-USDT": {
     "exchange": "spot",
     "base": "gravity",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/G-USDT"
   },
   "GLM-USDT": {
     "exchange": "spot",
     "base": "golem",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/GLM-USDT"
   },
   "GMT-USDC": {
     "exchange": "spot",
     "base": "green-metaverse-token",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/GMT-USDC"
   },
   "GMT-USDT": {
     "exchange": "spot",
     "base": "green-metaverse-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/GMT-USDT"
   },
   "GMX-USDT": {
     "exchange": "spot",
     "base": "gmx",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/GMX-USDT"
   },
   "GRASS-USDT": {
     "exchange": "spot",
     "base": "grass",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/GRASS-USDT"
   },
   "GRT-USDT": {
     "exchange": "spot",
     "base": "the-graph",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/GRT-USDT"
   },
   "HBAR-BTC": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/HBAR-BTC"
   },
   "HBAR-USDC": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/HBAR-USDC"
   },
   "HBAR-USDT": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/HBAR-USDT"
   },
   "HTX-USDT": {
     "exchange": "spot",
     "base": "htx-dao",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/HTX-USDT"
   },
   "HYPE-USDC": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/HYPE-USDC"
   },
   "HYPE-USDT": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/HYPE-USDT"
   },
   "ICP-BTC": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/ICP-BTC"
   },
   "ICP-USDT": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ICP-USDT"
   },
   "IMX-USDT": {
     "exchange": "spot",
     "base": "immutable-x",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/IMX-USDT"
   },
   "INJ-BTC": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/INJ-BTC"
   },
   "INJ-USDC": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/INJ-USDC"
   },
   "INJ-USDT": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/INJ-USDT"
   },
   "IO-USDT": {
     "exchange": "spot",
     "base": "io-net",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/IO-USDT"
   },
   "IOST-ETH": {
     "exchange": "spot",
     "base": "iost",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/IOST-ETH"
   },
   "IOST-USDT": {
     "exchange": "spot",
     "base": "iost",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/IOST-USDT"
   },
   "IOTA-BTC": {
     "exchange": "spot",
     "base": "iota",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/IOTA-BTC"
   },
   "IOTA-USDT": {
     "exchange": "spot",
     "base": "iota",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/IOTA-USDT"
   },
   "JASMY-USDC": {
     "exchange": "spot",
     "base": "jasmycoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/JASMY-USDC"
   },
   "JASMY-USDT": {
     "exchange": "spot",
     "base": "jasmycoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/JASMY-USDT"
   },
   "JST-USDT": {
     "exchange": "spot",
     "base": "just",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/JST-USDT"
   },
   "JTO-USDT": {
     "exchange": "spot",
     "base": "jito",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/JTO-USDT"
   },
   "JUP-USDC": {
     "exchange": "spot",
     "base": "jupiter",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/JUP-USDC"
   },
   "JUP-USDT": {
     "exchange": "spot",
     "base": "jupiter",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/JUP-USDT"
   },
   "KAIA-USDT": {
     "exchange": "spot",
     "base": "kaia",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/KAIA-USDT"
   },
   "KAITO-USDT": {
     "exchange": "spot",
     "base": "kaito",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/KAITO-USDT"
   },
   "KAS-BTC": {
     "exchange": "spot",
     "base": "kaspa",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/KAS-BTC"
   },
   "KAS-USDC": {
     "exchange": "spot",
     "base": "kaspa",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/KAS-USDC"
   },
   "KAS-USDT": {
     "exchange": "spot",
     "base": "kaspa",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/KAS-USDT"
   },
   "KCS-BTC": {
     "exchange": "spot",
     "base": "kucoin-token",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/KCS-BTC"
   },
   "KCS-ETH": {
     "exchange": "spot",
     "base": "kucoin-token",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/KCS-ETH"
   },
   "KCS-USDC": {
     "exchange": "spot",
     "base": "kucoin-token",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/KCS-USDC"
   },
   "KCS-USDT": {
     "exchange": "spot",
     "base": "kucoin-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/KCS-USDT"
   },
   "LAYER-USDT": {
     "exchange": "spot",
     "base": "solayer",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/LAYER-USDT"
   },
   "LDO-USDC": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/LDO-USDC"
   },
   "LDO-USDT": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/LDO-USDT"
   },
   "LINEA-USDT": {
     "exchange": "spot",
     "base": "linea",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/LINEA-USDT"
   },
   "LINK-BTC": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/LINK-BTC"
   },
   "LINK-USDC": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/LINK-USDC"
   },
   "LINK-USDT": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/LINK-USDT"
   },
   "LIT-USDT": {
     "exchange": "spot",
     "base": "lighter",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/LIT-USDT"
   },
   "LTC-BTC": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/LTC-BTC"
   },
   "LTC-ETH": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/LTC-ETH"
   },
   "LTC-USDC": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/LTC-USDC"
   },
   "LTC-USDT": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/LTC-USDT"
   },
   "MANA-ETH": {
     "exchange": "spot",
     "base": "decentraland",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/MANA-ETH"
   },
   "MANA-USDT": {
     "exchange": "spot",
     "base": "decentraland",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/MANA-USDT"
   },
   "MANTA-USDT": {
     "exchange": "spot",
     "base": "manta-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/MANTA-USDT"
   },
   "MASK-USDT": {
     "exchange": "spot",
     "base": "mask-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/MASK-USDT"
   },
   "ME-USDT": {
     "exchange": "spot",
     "base": "magic-eden",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ME-USDT"
   },
   "MNT-USDT": {
     "exchange": "spot",
     "base": "mantle",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/MNT-USDT"
   },
   "MON-USDT": {
     "exchange": "spot",
     "base": "monad",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/MON-USDT"
   },
   "MORPHO-USDT": {
     "exchange": "spot",
     "base": "morpho",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/MORPHO-USDT"
   },
   "NEAR-BTC": {
     "exchange": "spot",
     "base": "near",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/NEAR-BTC"
   },
   "NEAR-USDC": {
     "exchange": "spot",
     "base": "near",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/NEAR-USDC"
   },
   "NEAR-USDT": {
     "exchange": "spot",
     "base": "near",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/NEAR-USDT"
   },
   "NEO-BTC": {
     "exchange": "spot",
     "base": "neo",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/NEO-BTC"
   },
   "NEO-USDT": {
     "exchange": "spot",
     "base": "neo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/NEO-USDT"
   },
   "NIL-USDT": {
     "exchange": "spot",
     "base": "nillion",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/NIL-USDT"
   },
   "NOT-USDT": {
     "exchange": "spot",
     "base": "notcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/NOT-USDT"
   },
   "ONDO-USDC": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/ONDO-USDC"
   },
   "ONDO-USDT": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ONDO-USDT"
   },
   "OP-USDC": {
     "exchange": "spot",
     "base": "optimism",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/OP-USDC"
   },
   "OP-USDT": {
     "exchange": "spot",
     "base": "optimism",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/OP-USDT"
   },
   "ORDI-USDT": {
     "exchange": "spot",
     "base": "ordi",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ORDI-USDT"
   },
   "OSMO-USDT": {
     "exchange": "spot",
     "base": "osmosis",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/OSMO-USDT"
   },
   "PAXG-BTC": {
     "exchange": "spot",
     "base": "pax-gold",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/PAXG-BTC"
   },
   "PAXG-USDT": {
     "exchange": "spot",
     "base": "pax-gold",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/PAXG-USDT"
   },
   "PENDLE-USDT": {
     "exchange": "spot",
     "base": "pendle",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/PENDLE-USDT"
   },
   "PENGU-USDT": {
     "exchange": "spot",
     "base": "pudgy-penguins",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/PENGU-USDT"
   },
   "PEPE-USDC": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/PEPE-USDC"
   },
   "PEPE-USDT": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/PEPE-USDT"
   },
   "PIXEL-USDT": {
     "exchange": "spot",
     "base": "pixels",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/PIXEL-USDT"
   },
   "PNUT-USDT": {
     "exchange": "spot",
     "base": "peanut-the-squirrel",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/PNUT-USDT"
   },
   "POL-USDT": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/POL-USDT"
   },
   "PUMP-USDT": {
     "exchange": "spot",
     "base": "pump",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/PUMP-USDT"
   },
   "PVT-USDT": {
     "exchange": "spot",
     "base": "punkvism",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/PVT-USDT"
   },
   "PYTH-USDT": {
     "exchange": "spot",
     "base": "pyth-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/PYTH-USDT"
   },
   "PYUSD-USDT": {
     "exchange": "spot",
     "base": "paypal-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/PYUSD-USDT"
   },
   "QNT-USDT": {
     "exchange": "spot",
     "base": "quant",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/QNT-USDT"
   },
   "RAY-USDT": {
     "exchange": "spot",
     "base": "raydium",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/RAY-USDT"
   },
   "RENDER-USDT": {
     "exchange": "spot",
     "base": "render",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/RENDER-USDT"
   },
   "REQ-USDT": {
     "exchange": "spot",
     "base": "request",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/REQ-USDT"
   },
   "REZ-USDT": {
     "exchange": "spot",
     "base": "renzo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/REZ-USDT"
   },
   "RUNE-BTC": {
     "exchange": "spot",
     "base": "thorchain",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/RUNE-BTC"
   },
   "RUNE-USDC": {
     "exchange": "spot",
     "base": "thorchain",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/RUNE-USDC"
   },
   "RUNE-USDT": {
     "exchange": "spot",
     "base": "thorchain",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/RUNE-USDT"
   },
   "S-USDC": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/S-USDC"
   },
   "S-USDT": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/S-USDT"
   },
   "SAND-USDT": {
     "exchange": "spot",
     "base": "the-sandbox",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SAND-USDT"
   },
   "SEI-USDT": {
     "exchange": "spot",
     "base": "sei",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SEI-USDT"
   },
   "SFP-USDT": {
     "exchange": "spot",
     "base": "safepal",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SFP-USDT"
   },
   "SHIB-DOGE": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "dogecoin"
+    "quote": "dogecoin",
+    "url": "https://www.kucoin.com/trade/SHIB-DOGE"
   },
   "SHIB-USDC": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/SHIB-USDC"
   },
   "SHIB-USDT": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SHIB-USDT"
   },
   "SHM-USDT": {
     "exchange": "spot",
     "base": "shardeum",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SHM-USDT"
   },
   "SKY-USDT": {
     "exchange": "spot",
     "base": "sky",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SKY-USDT"
   },
   "SNX-BTC": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/SNX-BTC"
   },
   "SNX-ETH": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/SNX-ETH"
   },
   "SNX-USDT": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SNX-USDT"
   },
   "SOL-KCS": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "kucoin-token"
+    "quote": "kucoin-token",
+    "url": "https://www.kucoin.com/trade/SOL-KCS"
   },
   "SOL-USD1": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.kucoin.com/trade/SOL-USD1"
   },
   "SOL-USDC": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/SOL-USDC"
   },
   "SOL-USDT": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SOL-USDT"
   },
   "SOLV-USDT": {
     "exchange": "spot",
     "base": "solv-protocol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SOLV-USDT"
   },
   "STRK-USDT": {
     "exchange": "spot",
     "base": "starknet",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/STRK-USDT"
   },
   "STX-BTC": {
     "exchange": "spot",
     "base": "stacks",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/STX-BTC"
   },
   "STX-USDT": {
     "exchange": "spot",
     "base": "stacks",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/STX-USDT"
   },
   "SUI-USDC": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/SUI-USDC"
   },
   "SUI-USDT": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SUI-USDT"
   },
   "SUN-USDT": {
     "exchange": "spot",
     "base": "sun-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SUN-USDT"
   },
   "SYN-USDT": {
     "exchange": "spot",
     "base": "synapse",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SYN-USDT"
   },
   "SYRUP-USDT": {
     "exchange": "spot",
     "base": "syrup",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/SYRUP-USDT"
   },
   "T-USDT": {
     "exchange": "spot",
     "base": "threshold-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/T-USDT"
   },
   "TAO-USDC": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/TAO-USDC"
   },
   "TAO-USDT": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/TAO-USDT"
   },
   "TEL-BTC": {
     "exchange": "spot",
     "base": "telcoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/TEL-BTC"
   },
   "TEL-ETH": {
     "exchange": "spot",
     "base": "telcoin",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/TEL-ETH"
   },
   "TEL-USDC": {
     "exchange": "spot",
     "base": "telcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/TEL-USDC"
   },
   "TEL-USDT": {
     "exchange": "spot",
     "base": "telcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/TEL-USDT"
   },
   "THETA-USDT": {
     "exchange": "spot",
     "base": "theta-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/THETA-USDT"
   },
   "TIA-USDT": {
     "exchange": "spot",
     "base": "celestia",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/TIA-USDT"
   },
   "TRAC-ETH": {
     "exchange": "spot",
     "base": "origintrail",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/TRAC-ETH"
   },
   "TRAC-USDT": {
     "exchange": "spot",
     "base": "origintrail",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/TRAC-USDT"
   },
   "TRB-USDT": {
     "exchange": "spot",
     "base": "tellor",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/TRB-USDT"
   },
   "TRUMP-USD1": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.kucoin.com/trade/TRUMP-USD1"
   },
   "TRUMP-USDC": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/TRUMP-USDC"
   },
   "TRUMP-USDT": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/TRUMP-USDT"
   },
   "TRX-BTC": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/TRX-BTC"
   },
   "TRX-ETH": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/TRX-ETH"
   },
   "TRX-USDC": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/TRX-USDC"
   },
   "TRX-USDT": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/TRX-USDT"
   },
   "TUSD-USDT": {
     "exchange": "spot",
     "base": "true-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/TUSD-USDT"
   },
   "TWT-BTC": {
     "exchange": "spot",
     "base": "trust-wallet-token",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/TWT-BTC"
   },
   "TWT-USDT": {
     "exchange": "spot",
     "base": "trust-wallet-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/TWT-USDT"
   },
   "UMA-USDT": {
     "exchange": "spot",
     "base": "uma",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/UMA-USDT"
   },
   "UNI-USDT": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/UNI-USDT"
   },
   "USD1-USDT": {
     "exchange": "spot",
     "base": "usd1",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/USD1-USDT"
   },
   "USDC-EUR": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.kucoin.com/trade/USDC-EUR"
   },
   "USDC-USDT": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/USDC-USDT"
   },
   "USDD-TRX": {
     "exchange": "spot",
     "base": "decentralized-usd",
-    "quote": "tron"
+    "quote": "tron",
+    "url": "https://www.kucoin.com/trade/USDD-TRX"
   },
   "USDD-USDC": {
     "exchange": "spot",
     "base": "decentralized-usd",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/USDD-USDC"
   },
   "USDD-USDT": {
     "exchange": "spot",
     "base": "decentralized-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/USDD-USDT"
   },
   "USDE-USDT": {
     "exchange": "spot",
     "base": "ethena-usde",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/USDE-USDT"
   },
   "USDG-USDT": {
     "exchange": "spot",
     "base": "global-dollar",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/USDG-USDT"
   },
   "USDS-USDT": {
     "exchange": "spot",
     "base": "sky-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/USDS-USDT"
   },
   "USDT-EUR": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.kucoin.com/trade/USDT-EUR"
   },
   "USDT-USDC": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/USDT-USDC"
   },
   "USUAL-USDT": {
     "exchange": "spot",
     "base": "usual",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/USUAL-USDT"
   },
   "VANA-USDT": {
     "exchange": "spot",
     "base": "vana",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/VANA-USDT"
   },
   "VET-BTC": {
     "exchange": "spot",
     "base": "vechain",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/VET-BTC"
   },
   "VET-ETH": {
     "exchange": "spot",
     "base": "vechain",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/VET-ETH"
   },
   "VET-USDT": {
     "exchange": "spot",
     "base": "vechain",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/VET-USDT"
   },
   "VIRTUAL-USDT": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/VIRTUAL-USDT"
   },
   "VVV-USDT": {
     "exchange": "spot",
     "base": "venice-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/VVV-USDT"
   },
   "W-USDT": {
     "exchange": "spot",
     "base": "wormhole",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/W-USDT"
   },
   "WBTC-BTC": {
     "exchange": "spot",
     "base": "wrapped-bitcoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/WBTC-BTC"
   },
   "WBTC-USDT": {
     "exchange": "spot",
     "base": "wrapped-bitcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/WBTC-USDT"
   },
   "WIF-USDC": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/WIF-USDC"
   },
   "WIF-USDT": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/WIF-USDT"
   },
   "WIN-BTC": {
     "exchange": "spot",
     "base": "winklink",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/WIN-BTC"
   },
   "WIN-TRX": {
     "exchange": "spot",
     "base": "winklink",
-    "quote": "tron"
+    "quote": "tron",
+    "url": "https://www.kucoin.com/trade/WIN-TRX"
   },
   "WIN-USDT": {
     "exchange": "spot",
     "base": "winklink",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/WIN-USDT"
   },
   "WLD-USDT": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/WLD-USDT"
   },
   "WLFI-USD1": {
     "exchange": "spot",
     "base": "world-liberty-financial",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.kucoin.com/trade/WLFI-USD1"
   },
   "WLFI-USDT": {
     "exchange": "spot",
     "base": "world-liberty-financial",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/WLFI-USDT"
   },
   "XAUT-USDT": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/XAUT-USDT"
   },
   "XCN-USDT": {
     "exchange": "spot",
     "base": "onyxcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/XCN-USDT"
   },
   "XDC-BTC": {
     "exchange": "spot",
     "base": "xdc-network",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/XDC-BTC"
   },
   "XDC-ETH": {
     "exchange": "spot",
     "base": "xdc-network",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/XDC-ETH"
   },
   "XDC-USDT": {
     "exchange": "spot",
     "base": "xdc-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/XDC-USDT"
   },
   "XEC-USDT": {
     "exchange": "spot",
     "base": "ecash",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/XEC-USDT"
   },
   "XLM-BTC": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/XLM-BTC"
   },
   "XLM-ETH": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/XLM-ETH"
   },
   "XLM-USDC": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/XLM-USDC"
   },
   "XLM-USDT": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/XLM-USDT"
   },
   "XMR-BTC": {
     "exchange": "spot",
     "base": "monero",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/XMR-BTC"
   },
   "XMR-ETH": {
     "exchange": "spot",
     "base": "monero",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/XMR-ETH"
   },
   "XMR-USDC": {
     "exchange": "spot",
     "base": "monero",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/XMR-USDC"
   },
   "XMR-USDT": {
     "exchange": "spot",
     "base": "monero",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/XMR-USDT"
   },
   "XPL-USDT": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/XPL-USDT"
   },
   "XRP-BTC": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/XRP-BTC"
   },
   "XRP-ETH": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.kucoin.com/trade/XRP-ETH"
   },
   "XRP-KCS": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "kucoin-token"
+    "quote": "kucoin-token",
+    "url": "https://www.kucoin.com/trade/XRP-KCS"
   },
   "XRP-USD1": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.kucoin.com/trade/XRP-USD1"
   },
   "XRP-USDC": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.kucoin.com/trade/XRP-USDC"
   },
   "XRP-USDT": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/XRP-USDT"
   },
   "XTZ-BTC": {
     "exchange": "spot",
     "base": "tezos",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/XTZ-BTC"
   },
   "XTZ-USDT": {
     "exchange": "spot",
     "base": "tezos",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/XTZ-USDT"
   },
   "YFI-USDT": {
     "exchange": "spot",
     "base": "yearn-finance",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/YFI-USDT"
   },
   "ZEC-BTC": {
     "exchange": "spot",
     "base": "zcash",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.kucoin.com/trade/ZEC-BTC"
   },
   "ZEC-USDT": {
     "exchange": "spot",
     "base": "zcash",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ZEC-USDT"
   },
   "ZK-USDT": {
     "exchange": "spot",
     "base": "zksync",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ZK-USDT"
   },
   "ZRO-USDT": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.kucoin.com/trade/ZRO-USDT"
   }
 }
