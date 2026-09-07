@@ -1,0 +1,23 @@
+{
+  "id": "binance-peg-polkadot",
+  "display_name": "Binance-Peg Polkadot",
+  "symbol": "DOT",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg Polkadot is a BEP-20 token on BNB Chain backed by DOT that Binance holds on the Polkadot relay chain. It tracks DOT's price and is used as collateral and trading pair on BNB Chain, but redemption runs through Binance alone.",
+    "es": "Binance-Peg Polkadot es un token BEP-20 en BNB Chain respaldado por DOT que Binance mantiene en la relay chain de Polkadot. Sigue el precio de DOT y se usa como colateral y par de trading en BNB Chain, pero el canje pasa únicamente por Binance.",
+    "ca": "Binance-Peg Polkadot és un token BEP-20 a BNB Chain recolzat per DOT que Binance manté a la relay chain de Polkadot. Segueix el preu de DOT i s'utilitza com a col·lateral i parell de trading a BNB Chain, però el bescanvi passa únicament per Binance."
+  },
+  "external": {
+    "coingecko": "binance-peg-polkadot"
+  },
+  "pegged_to": {
+    "asset": "polkadot"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}

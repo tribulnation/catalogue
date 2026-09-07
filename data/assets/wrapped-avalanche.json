@@ -1,0 +1,24 @@
+{
+  "id": "wrapped-avalanche",
+  "display_name": "Wrapped AVAX",
+  "symbol": "WAVAX",
+  "category": "crypto",
+  "about": {
+    "en": "Wrapped AVAX is the ERC-20 form of AVAX on the Avalanche C-Chain. The wrapper contract holds the deposited AVAX and returns it on unwrap, so WAVAX is redeemable at any time without a counterparty. Avalanche DEXes and money markets route through it because native AVAX cannot be moved by an ERC-20 transfer.",
+    "es": "Wrapped AVAX es la forma ERC-20 de AVAX en la C-Chain de Avalanche. El contrato de envoltura guarda el AVAX depositado y lo devuelve al desenvolver, así que WAVAX es canjeable en cualquier momento sin contraparte. Los DEX y mercados monetarios de Avalanche pasan por él porque el AVAX nativo no se puede mover con una transferencia ERC-20.",
+    "ca": "Wrapped AVAX és la forma ERC-20 d'AVAX a la C-Chain d'Avalanche. El contracte d'embolcall guarda l'AVAX dipositat i el retorna en desembolcallar-lo, així que WAVAX és bescanviable en qualsevol moment sense contrapart. Els DEX i mercats monetaris d'Avalanche hi passen perquè l'AVAX natiu no es pot moure amb una transferència ERC-20."
+  },
+  "external": {
+    "coingecko": "wrapped-avax"
+  },
+  "pegged_to": {
+    "asset": "avalanche"
+  },
+  "tags": [
+    "Wrapped",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://avalanche.network/"
+  }
+}

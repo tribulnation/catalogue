@@ -1,0 +1,23 @@
+{
+  "id": "binance-peg-cardano",
+  "display_name": "Binance-Peg Cardano",
+  "symbol": "ADA",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg Cardano is a BEP-20 token on BNB Chain backed by ADA that Binance custodies on the Cardano network. Cardano is not an EVM chain and issues nothing on BNB Chain, so this token is a claim on Binance, not on Cardano, and it can lose its peg if that claim ever fails.",
+    "es": "Binance-Peg Cardano es un token BEP-20 en BNB Chain respaldado por ADA que Binance custodia en la red Cardano. Cardano no es una cadena EVM ni emite nada en BNB Chain, por lo que este token es un derecho frente a Binance, no frente a Cardano, y puede perder la paridad si ese derecho falla.",
+    "ca": "Binance-Peg Cardano és un token BEP-20 a BNB Chain recolzat per ADA que Binance custodia a la xarxa Cardano. Cardano no és una cadena EVM ni emet res a BNB Chain, per tant aquest token és un dret davant Binance, no davant Cardano, i pot perdre la paritat si aquest dret falla."
+  },
+  "external": {
+    "coingecko": "binance-peg-cardano"
+  },
+  "pegged_to": {
+    "asset": "cardano"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}
