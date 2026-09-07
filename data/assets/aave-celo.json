@@ -1,0 +1,20 @@
+{
+  "id": "aave-celo",
+  "display_name": "Aave CELO",
+  "symbol": "aCELO",
+  "category": "crypto",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Celo (CELO) in the Aave lending protocol. aCELO holders earn interest continuously and can redeem their tokens for CELO at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Celo (CELO) en el protocolo de préstamos Aave. Los titulares de aCELO acumulan intereses continuamente y pueden canjear sus tokens por CELO en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Celo (CELO) en el protocol de préstecs Aave. Els titulars de aCELO acumulen interessos de manera contínua i poden bescanviar els seus tokens per CELO en qualsevol moment."
+  },
+  "pegged_to": {
+    "asset": "celo"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}

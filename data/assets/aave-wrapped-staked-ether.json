@@ -1,0 +1,23 @@
+{
+  "id": "aave-wrapped-staked-ether",
+  "display_name": "Aave wstETH",
+  "symbol": "awstETH",
+  "category": "crypto",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Wrapped Staked Ether (wstETH) in the Aave lending protocol. awstETH holders earn interest continuously and can redeem their tokens for wstETH at any time. wstETH accrues Lido staking rewards through its exchange rate, so the deposit earns that on top of Aave supply interest.",
+    "es": "Un token de recibo de Aave que representa un depósito de Wrapped Staked Ether (wstETH) en el protocolo de préstamos Aave. Los titulares de awstETH acumulan intereses continuamente y pueden canjear sus tokens por wstETH en cualquier momento. wstETH acumula las recompensas de staking de Lido a través de su tipo de cambio, de modo que el depósito las suma al interés de suministro de Aave.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Wrapped Staked Ether (wstETH) en el protocol de préstecs Aave. Els titulars de awstETH acumulen interessos de manera contínua i poden bescanviar els seus tokens per wstETH en qualsevol moment. wstETH acumula les recompenses d'staking de Lido a través del seu tipus de canvi, de manera que el dipòsit les suma a l'interès de subministrament d'Aave."
+  },
+  "pegged_to": {
+    "asset": "wrapped-staked-ether"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  },
+  "external": {
+    "coingecko": "aave-v3-wsteth"
+  }
+}

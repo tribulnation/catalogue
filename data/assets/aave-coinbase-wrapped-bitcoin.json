@@ -1,0 +1,20 @@
+{
+  "id": "aave-coinbase-wrapped-bitcoin",
+  "display_name": "Aave cbBTC",
+  "symbol": "acbBTC",
+  "category": "crypto",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Coinbase Wrapped Bitcoin (cbBTC) in the Aave lending protocol. acbBTC holders earn interest continuously and can redeem their tokens for cbBTC at any time. cbBTC is bitcoin held by Coinbase and issued as an ERC-20, so the position carries Coinbase's custody risk on top of Aave's.",
+    "es": "Un token de recibo de Aave que representa un depósito de Coinbase Wrapped Bitcoin (cbBTC) en el protocolo de préstamos Aave. Los titulares de acbBTC acumulan intereses continuamente y pueden canjear sus tokens por cbBTC en cualquier momento. cbBTC es bitcoin custodiado por Coinbase y emitido como ERC-20, por lo que la posición asume el riesgo de custodia de Coinbase además del de Aave.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Coinbase Wrapped Bitcoin (cbBTC) en el protocol de préstecs Aave. Els titulars de acbBTC acumulen interessos de manera contínua i poden bescanviar els seus tokens per cbBTC en qualsevol moment. cbBTC és bitcoin custodiat per Coinbase i emès com a ERC-20, de manera que la posició assumeix el risc de custòdia de Coinbase a més del d'Aave."
+  },
+  "pegged_to": {
+    "asset": "coinbase-wrapped-bitcoin"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}

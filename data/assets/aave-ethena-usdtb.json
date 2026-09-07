@@ -1,0 +1,22 @@
+{
+  "id": "aave-ethena-usdtb",
+  "display_name": "Aave USDtb",
+  "symbol": "aUSDtb",
+  "category": "stablecoin",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Ethena USDtb (USDtb) in the Aave lending protocol. aUSDtb holders earn interest continuously and can redeem their tokens for USDtb at any time. USDtb is Ethena's stablecoin backed by tokenised US Treasury bills rather than by a delta-neutral basis position.",
+    "es": "Un token de recibo de Aave que representa un depósito de Ethena USDtb (USDtb) en el protocolo de préstamos Aave. Los titulares de aUSDtb acumulan intereses continuamente y pueden canjear sus tokens por USDtb en cualquier momento. USDtb es la stablecoin de Ethena respaldada por letras del Tesoro estadounidense tokenizadas en lugar de por una posición base delta neutral.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Ethena USDtb (USDtb) en el protocol de préstecs Aave. Els titulars de aUSDtb acumulen interessos de manera contínua i poden bescanviar els seus tokens per USDtb en qualsevol moment. USDtb és la stablecoin d'Ethena garantida per lletres del Tresor dels EUA tokenitzades en lloc d'una posició base delta neutral."
+  },
+  "pegged_to": {
+    "asset": "ethena-usdtb"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}
