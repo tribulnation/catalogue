@@ -1,0 +1,23 @@
+{
+  "id": "aave-balancer",
+  "display_name": "Aave BAL",
+  "symbol": "aBAL",
+  "category": "crypto",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Balancer (BAL) in the Aave lending protocol. aBAL holders earn interest continuously and can redeem their tokens for BAL at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Balancer (BAL) en el protocolo de préstamos Aave. Los titulares de aBAL acumulan intereses continuamente y pueden canjear sus tokens por BAL en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Balancer (BAL) en el protocol de préstecs Aave. Els titulars de aBAL acumulen interessos de manera contínua i poden bescanviar els seus tokens per BAL en qualsevol moment."
+  },
+  "pegged_to": {
+    "asset": "balancer"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  },
+  "external": {
+    "coingecko": "aave-v3-bal"
+  }
+}

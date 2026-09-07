@@ -1,0 +1,20 @@
+{
+  "id": "aave-binance-bitcoin",
+  "display_name": "Aave BTCB",
+  "symbol": "aBTCB",
+  "category": "crypto",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Binance Bitcoin (BTCB) in the Aave lending protocol. aBTCB holders earn interest continuously and can redeem their tokens for BTCB at any time. BTCB is Binance's BNB Chain representation of bitcoin, so the position carries Binance's custody risk on top of Aave's.",
+    "es": "Un token de recibo de Aave que representa un depósito de Binance Bitcoin (BTCB) en el protocolo de préstamos Aave. Los titulares de aBTCB acumulan intereses continuamente y pueden canjear sus tokens por BTCB en cualquier momento. BTCB es la representación de bitcoin de Binance en BNB Chain, por lo que la posición asume el riesgo de custodia de Binance además del de Aave.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Binance Bitcoin (BTCB) en el protocol de préstecs Aave. Els titulars de aBTCB acumulen interessos de manera contínua i poden bescanviar els seus tokens per BTCB en qualsevol moment. BTCB és la representació de bitcoin de Binance a BNB Chain, de manera que la posició assumeix el risc de custòdia de Binance a més del d'Aave."
+  },
+  "pegged_to": {
+    "asset": "binance-bitcoin"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}

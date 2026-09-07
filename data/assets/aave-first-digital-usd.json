@@ -1,0 +1,22 @@
+{
+  "id": "aave-first-digital-usd",
+  "display_name": "Aave FDUSD",
+  "symbol": "aFDUSD",
+  "category": "stablecoin",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of First Digital USD (FDUSD) in the Aave lending protocol. aFDUSD holders earn interest continuously and can redeem their tokens for FDUSD at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de First Digital USD (FDUSD) en el protocolo de préstamos Aave. Los titulares de aFDUSD acumulan intereses continuamente y pueden canjear sus tokens por FDUSD en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de First Digital USD (FDUSD) en el protocol de préstecs Aave. Els titulars de aFDUSD acumulen interessos de manera contínua i poden bescanviar els seus tokens per FDUSD en qualsevol moment."
+  },
+  "pegged_to": {
+    "asset": "first-digital-usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "aave-frax",
+  "display_name": "Aave FRAX",
+  "symbol": "aFRAX",
+  "category": "stablecoin",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Legacy Frax Dollar (FRAX) in the Aave lending protocol. aFRAX holders earn interest continuously and can redeem their tokens for FRAX at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Legacy Frax Dollar (FRAX) en el protocolo de préstamos Aave. Los titulares de aFRAX acumulan intereses continuamente y pueden canjear sus tokens por FRAX en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Legacy Frax Dollar (FRAX) en el protocol de préstecs Aave. Els titulars de aFRAX acumulen interessos de manera contínua i poden bescanviar els seus tokens per FRAX en qualsevol moment."
+  },
+  "pegged_to": {
+    "asset": "frax"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  },
+  "external": {
+    "coingecko": "aave-v3-frax"
+  }
+}

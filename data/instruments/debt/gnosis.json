@@ -1,5 +1,30 @@
 {
-  "0x0c0fce05F2314540EcB095bF4D069e5E0ED90fF8": { "asset": "ethereum", "name": "Aave WETH Debt" },
-  "0x9D881f67F20B49243c98f53d2B9E91E39d02Ae09": { "asset": "wrapped-staked-ether", "name": "Aave wstETH Debt" },
-  "0x5F6f7B0a87CA3CF3d0b431Ae03EF3305180BFf4d": { "asset": "usd-coin", "name": "Aave USDC Debt" }
+  "0x0c0fce05F2314540EcB095bF4D069e5E0ED90fF8": {
+    "asset": "wrapped-ether",
+    "name": "Aave WETH Debt"
+  },
+  "0x9D881f67F20B49243c98f53d2B9E91E39d02Ae09": {
+    "asset": "wrapped-staked-ether",
+    "name": "Aave wstETH Debt"
+  },
+  "0x5F6f7B0a87CA3CF3d0b431Ae03EF3305180BFf4d": {
+    "asset": "usd-coin",
+    "name": "Aave USDC Debt"
+  },
+  "0xBc59E99198DbA71985A66E1713cC89FFEC53f7FC": {
+    "asset": "gnosis",
+    "name": "Aave GNO Debt"
+  },
+  "0x281963D7471eCdC3A2Bd4503e24e89691cfe420D": {
+    "asset": "xdai",
+    "name": "Aave WXDAI Debt"
+  },
+  "0x37B9Ad6b5DC8Ad977AD716e92F49e9D200e58431": {
+    "asset": "bridged-usd-coin",
+    "name": "Aave USDC.e Debt"
+  },
+  "0x2766EEFE0311Bf7421cC30155b03d210BCE30dF8": {
+    "asset": "gho",
+    "name": "Aave GHO Debt"
+  }
 }
