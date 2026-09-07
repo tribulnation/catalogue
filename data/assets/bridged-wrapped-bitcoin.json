@@ -1,0 +1,25 @@
+{
+  "id": "bridged-wrapped-bitcoin",
+  "display_name": "Bridged Wrapped Bitcoin",
+  "symbol": "WBTC.e",
+  "category": "crypto",
+  "about": {
+    "en": "WBTC.e is Wrapped Bitcoin that reached Avalanche over the Avalanche Bridge. A separately issued WBTC also circulates on Avalanche, so the two are distinct tokens backed through different routes.",
+    "es": "WBTC.e es Wrapped Bitcoin que llegó a Avalanche a través del Avalanche Bridge. En Avalanche también circula un WBTC emitido por separado, por lo que son tokens distintos respaldados por vías diferentes.",
+    "ca": "WBTC.e és Wrapped Bitcoin que va arribar a Avalanche a través de l'Avalanche Bridge. A Avalanche també circula un WBTC emès per separat, per la qual cosa són tokens diferents recolzats per vies diferents."
+  },
+  "external": {
+    "coingecko": "avalanche-old-bridged-wbtc-avalanche"
+  },
+  "pegged_to": {
+    "asset": "wrapped-bitcoin"
+  },
+  "tags": [
+    "Wrapped",
+    "Bridged",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://core.app/bridge"
+  }
+}
