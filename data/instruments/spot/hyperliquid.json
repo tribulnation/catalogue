@@ -2,47 +2,56 @@
   "PURR/USDC:0": {
     "exchange": "spot",
     "base": "purr",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/PURR/USDC"
   },
   "PEPE/USDC:11": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/PEPE/USDC"
   },
   "HYPE/USDC:107": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/HYPE/USDC"
   },
   "MON/USDC:129": {
     "exchange": "spot",
     "base": "monad",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/MON/USDC"
   },
   "UBTC/USDC:142": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/UBTC/USDC"
   },
   "USDE/USDC:150": {
     "exchange": "spot",
     "base": "ethena-usde",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/USDE/USDC"
   },
   "UETH/USDC:151": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/UETH/USDC"
   },
   "UFART/USDC:162": {
     "exchange": "spot",
     "base": "fartcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/UFART/USDC"
   },
   "UXPL/USDC:210": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/UXPL/USDC"
   },
   "UXPL/USDH:233": {
     "exchange": "spot",
@@ -53,32 +62,38 @@
   "HYPE/USDE:255": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "ethena-usde"
+    "quote": "ethena-usde",
+    "url": "https://app.hyperliquid.xyz/trade/HYPE/USDE"
   },
   "XAUT0/USDC:182": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/XAUT0/USDC"
   },
   "XAUT0/USDT0:209": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://app.hyperliquid.xyz/trade/XAUT0/USDT0"
   },
   "UENA/USDC:206": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/UENA/USDC"
   },
   "USDT0/USDC:166": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/USDT0/USDC"
   },
   "HYPE/USDT0:207": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://app.hyperliquid.xyz/trade/HYPE/USDT0"
   },
   "USDH/USDC:230": {
     "exchange": "spot",
