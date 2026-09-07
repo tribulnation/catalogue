@@ -2,3061 +2,3673 @@
   "1INCHUSDC": {
     "exchange": "spot",
     "base": "1inch",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/1INCH_USDC"
   },
   "1INCHUSDT": {
     "exchange": "spot",
     "base": "1inch",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/1INCH_USDT"
   },
   "AAVEBTC": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/AAVE_BTC"
   },
   "AAVEETH": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.binance.com/en/trade/AAVE_ETH"
   },
   "AAVETRY": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/AAVE_TRY"
   },
   "AAVEUSDC": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/AAVE_USDC"
   },
   "AAVEUSDT": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/AAVE_USDT"
   },
   "ACETRY": {
     "exchange": "spot",
     "base": "fusionist",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ACE_TRY"
   },
   "ACEUSDT": {
     "exchange": "spot",
     "base": "fusionist",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ACE_USDT"
   },
   "ACTTRY": {
     "exchange": "spot",
     "base": "act-i-the-ai-prophecy",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ACT_TRY"
   },
   "ACTUSDC": {
     "exchange": "spot",
     "base": "act-i-the-ai-prophecy",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ACT_USDC"
   },
   "ACTUSDT": {
     "exchange": "spot",
     "base": "act-i-the-ai-prophecy",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ACT_USDT"
   },
   "ADABTC": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/ADA_BTC"
   },
   "ADAETH": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.binance.com/en/trade/ADA_ETH"
   },
   "ADAEUR": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/ADA_EUR"
   },
   "ADAFDUSD": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/ADA_FDUSD"
   },
   "ADAJPY": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/ADA_JPY"
   },
   "ADATRY": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ADA_TRY"
   },
   "ADAUSD1": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/ADA_USD1"
   },
   "ADAUSDC": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ADA_USDC"
   },
   "ADAUSDT": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ADA_USDT"
   },
   "AEROTRY": {
     "exchange": "spot",
     "base": "aerodrome",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/AERO_TRY"
   },
   "AEROUSDC": {
     "exchange": "spot",
     "base": "aerodrome",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/AERO_USDC"
   },
   "AEROUSDT": {
     "exchange": "spot",
     "base": "aerodrome",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/AERO_USDT"
   },
   "ALGOTRY": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ALGO_TRY"
   },
   "ALGOUSDC": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ALGO_USDC"
   },
   "ALGOUSDT": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ALGO_USDT"
   },
   "ALTTRY": {
     "exchange": "spot",
     "base": "altlayer",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ALT_TRY"
   },
   "ALTUSDC": {
     "exchange": "spot",
     "base": "altlayer",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ALT_USDC"
   },
   "ALTUSDT": {
     "exchange": "spot",
     "base": "altlayer",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ALT_USDT"
   },
   "ANKRTRY": {
     "exchange": "spot",
     "base": "ankr",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ANKR_TRY"
   },
   "ANKRUSDT": {
     "exchange": "spot",
     "base": "ankr",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ANKR_USDT"
   },
   "APETRY": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/APE_TRY"
   },
   "APEUSDC": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/APE_USDC"
   },
   "APEUSDT": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/APE_USDT"
   },
   "APTBTC": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/APT_BTC"
   },
   "APTEUR": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/APT_EUR"
   },
   "APTFDUSD": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/APT_FDUSD"
   },
   "APTJPY": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/APT_JPY"
   },
   "APTTRY": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/APT_TRY"
   },
   "APTUSDC": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/APT_USDC"
   },
   "APTUSDT": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/APT_USDT"
   },
   "ARBBTC": {
     "exchange": "spot",
     "base": "arbitrum",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/ARB_BTC"
   },
   "ARBETH": {
     "exchange": "spot",
     "base": "arbitrum",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.binance.com/en/trade/ARB_ETH"
   },
   "ARBTC": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/AR_BTC"
   },
   "ARBTRY": {
     "exchange": "spot",
     "base": "arbitrum",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ARB_TRY"
   },
   "ARBUSDC": {
     "exchange": "spot",
     "base": "arbitrum",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ARB_USDC"
   },
   "ARBUSDT": {
     "exchange": "spot",
     "base": "arbitrum",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ARB_USDT"
   },
   "ARKMTRY": {
     "exchange": "spot",
     "base": "arkham",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ARKM_TRY"
   },
   "ARKMUSDC": {
     "exchange": "spot",
     "base": "arkham",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ARKM_USDC"
   },
   "ARKMUSDT": {
     "exchange": "spot",
     "base": "arkham",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ARKM_USDT"
   },
   "ARTRY": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/AR_TRY"
   },
   "ARUSDC": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/AR_USDC"
   },
   "ARUSDT": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/AR_USDT"
   },
   "ASTERTRY": {
     "exchange": "spot",
     "base": "aster",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ASTER_TRY"
   },
   "ASTERUSD1": {
     "exchange": "spot",
     "base": "aster",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/ASTER_USD1"
   },
   "ASTERUSDC": {
     "exchange": "spot",
     "base": "aster",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ASTER_USDC"
   },
   "ASTERUSDT": {
     "exchange": "spot",
     "base": "aster",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ASTER_USDT"
   },
   "ASTRUSDT": {
     "exchange": "spot",
     "base": "astar",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ASTR_USDT"
   },
   "ATOMBTC": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/ATOM_BTC"
   },
   "ATOMEUR": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/ATOM_EUR"
   },
   "ATOMTRY": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ATOM_TRY"
   },
   "ATOMUSDC": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ATOM_USDC"
   },
   "ATOMUSDT": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ATOM_USDT"
   },
   "AVAUSDT": {
     "exchange": "spot",
     "base": "travala",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/AVA_USDT"
   },
   "AVAXBTC": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/AVAX_BTC"
   },
   "AVAXEUR": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/AVAX_EUR"
   },
   "AVAXFDUSD": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/AVAX_FDUSD"
   },
   "AVAXTRY": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/AVAX_TRY"
   },
   "AVAXUSD1": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/AVAX_USD1"
   },
   "AVAXUSDC": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/AVAX_USDC"
   },
   "AVAXUSDT": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/AVAX_USDT"
   },
   "AVNTTRY": {
     "exchange": "spot",
     "base": "avantis",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/AVNT_TRY"
   },
   "AVNTUSDC": {
     "exchange": "spot",
     "base": "avantis",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/AVNT_USDC"
   },
   "AVNTUSDT": {
     "exchange": "spot",
     "base": "avantis",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/AVNT_USDT"
   },
   "AXLTRY": {
     "exchange": "spot",
     "base": "axelar",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/AXL_TRY"
   },
   "AXLUSDT": {
     "exchange": "spot",
     "base": "axelar",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/AXL_USDT"
   },
   "AXSTRY": {
     "exchange": "spot",
     "base": "axie-infinity",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/AXS_TRY"
   },
   "AXSUSDC": {
     "exchange": "spot",
     "base": "axie-infinity",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/AXS_USDC"
   },
   "AXSUSDT": {
     "exchange": "spot",
     "base": "axie-infinity",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/AXS_USDT"
   },
   "BATUSDT": {
     "exchange": "spot",
     "base": "basic-attention-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/BAT_USDT"
   },
   "BCHBTC": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/BCH_BTC"
   },
   "BCHEUR": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/BCH_EUR"
   },
   "BCHFDUSD": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/BCH_FDUSD"
   },
   "BCHJPY": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/BCH_JPY"
   },
   "BCHTRY": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/BCH_TRY"
   },
   "BCHUSD1": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/BCH_USD1"
   },
   "BCHUSDC": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/BCH_USDC"
   },
   "BCHUSDT": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/BCH_USDT"
   },
   "BERATRY": {
     "exchange": "spot",
     "base": "berachain",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/BERA_TRY"
   },
   "BERAUSDC": {
     "exchange": "spot",
     "base": "berachain",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/BERA_USDC"
   },
   "BERAUSDT": {
     "exchange": "spot",
     "base": "berachain",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/BERA_USDT"
   },
   "BIOTRY": {
     "exchange": "spot",
     "base": "bio-protocol",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/BIO_TRY"
   },
   "BIOUSDC": {
     "exchange": "spot",
     "base": "bio-protocol",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/BIO_USDC"
   },
   "BIOUSDT": {
     "exchange": "spot",
     "base": "bio-protocol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/BIO_USDT"
   },
   "BLURTRY": {
     "exchange": "spot",
     "base": "blur",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/BLUR_TRY"
   },
   "BLURUSDC": {
     "exchange": "spot",
     "base": "blur",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/BLUR_USDC"
   },
   "BLURUSDT": {
     "exchange": "spot",
     "base": "blur",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/BLUR_USDT"
   },
   "BNBBTC": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/BNB_BTC"
   },
   "BNBETH": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.binance.com/en/trade/BNB_ETH"
   },
   "BNBEUR": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/BNB_EUR"
   },
   "BNBFDUSD": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/BNB_FDUSD"
   },
   "BNBJPY": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/BNB_JPY"
   },
   "BNBTRY": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/BNB_TRY"
   },
   "BNBUSD": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.binance.com/en/trade/BNB_USD"
   },
   "BNBUSD1": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/BNB_USD1"
   },
   "BNBUSDC": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/BNB_USDC"
   },
   "BNBUSDT": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/BNB_USDT"
   },
   "BNSOLSOL": {
     "exchange": "spot",
     "base": "binance-staked-sol",
-    "quote": "solana"
+    "quote": "solana",
+    "url": "https://www.binance.com/en/trade/BNSOL_SOL"
   },
   "BNSOLUSDT": {
     "exchange": "spot",
     "base": "binance-staked-sol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/BNSOL_USDT"
   },
   "BONKFDUSD": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/BONK_FDUSD"
   },
   "BONKTRY": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/BONK_TRY"
   },
   "BONKUSDC": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/BONK_USDC"
   },
   "BONKUSDT": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/BONK_USDT"
   },
   "BTCEUR": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/BTC_EUR"
   },
   "BTCFDUSD": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/BTC_FDUSD"
   },
   "BTCJPY": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/BTC_JPY"
   },
   "BTCTRY": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/BTC_TRY"
   },
   "BTCUSD": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.binance.com/en/trade/BTC_USD"
   },
   "BTCUSD1": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/BTC_USD1"
   },
   "BTCUSDC": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/BTC_USDC"
   },
   "BTCUSDS": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "sky-usd"
+    "quote": "sky-usd",
+    "url": "https://www.binance.com/en/trade/BTC_USDS"
   },
   "BTCUSDT": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/BTC_USDT"
   },
   "CAKEBNB": {
     "exchange": "spot",
     "base": "pancakeswap",
-    "quote": "bnb"
+    "quote": "bnb",
+    "url": "https://www.binance.com/en/trade/CAKE_BNB"
   },
   "CAKEBTC": {
     "exchange": "spot",
     "base": "pancakeswap",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/CAKE_BTC"
   },
   "CAKETRY": {
     "exchange": "spot",
     "base": "pancakeswap",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/CAKE_TRY"
   },
   "CAKEUSDC": {
     "exchange": "spot",
     "base": "pancakeswap",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/CAKE_USDC"
   },
   "CAKEUSDT": {
     "exchange": "spot",
     "base": "pancakeswap",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/CAKE_USDT"
   },
   "CATITRY": {
     "exchange": "spot",
     "base": "catizen",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/CATI_TRY"
   },
   "CATIUSDC": {
     "exchange": "spot",
     "base": "catizen",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/CATI_USDC"
   },
   "CATIUSDT": {
     "exchange": "spot",
     "base": "catizen",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/CATI_USDT"
   },
   "CELOTRY": {
     "exchange": "spot",
     "base": "celo",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/CELO_TRY"
   },
   "CELOUSDT": {
     "exchange": "spot",
     "base": "celo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/CELO_USDT"
   },
   "CFXTRY": {
     "exchange": "spot",
     "base": "conflux",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/CFX_TRY"
   },
   "CFXUSDC": {
     "exchange": "spot",
     "base": "conflux",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/CFX_USDC"
   },
   "CFXUSDT": {
     "exchange": "spot",
     "base": "conflux",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/CFX_USDT"
   },
   "CHZTRY": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/CHZ_TRY"
   },
   "CHZUSDC": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/CHZ_USDC"
   },
   "CHZUSDT": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/CHZ_USDT"
   },
   "COMPTRY": {
     "exchange": "spot",
     "base": "compound",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/COMP_TRY"
   },
   "COMPUSDC": {
     "exchange": "spot",
     "base": "compound",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/COMP_USDC"
   },
   "COMPUSDT": {
     "exchange": "spot",
     "base": "compound",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/COMP_USDT"
   },
   "COWTRY": {
     "exchange": "spot",
     "base": "cow-protocol",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/COW_TRY"
   },
   "COWUSDC": {
     "exchange": "spot",
     "base": "cow-protocol",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/COW_USDC"
   },
   "COWUSDT": {
     "exchange": "spot",
     "base": "cow-protocol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/COW_USDT"
   },
   "CRVTRY": {
     "exchange": "spot",
     "base": "curve-dao",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/CRV_TRY"
   },
   "CRVUSDC": {
     "exchange": "spot",
     "base": "curve-dao",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/CRV_USDC"
   },
   "CRVUSDT": {
     "exchange": "spot",
     "base": "curve-dao",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/CRV_USDT"
   },
   "CVXUSDC": {
     "exchange": "spot",
     "base": "convex-finance",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/CVX_USDC"
   },
   "CVXUSDT": {
     "exchange": "spot",
     "base": "convex-finance",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/CVX_USDT"
   },
   "DASHBTC": {
     "exchange": "spot",
     "base": "dash",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/DASH_BTC"
   },
   "DASHTRY": {
     "exchange": "spot",
     "base": "dash",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/DASH_TRY"
   },
   "DASHUSDC": {
     "exchange": "spot",
     "base": "dash",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/DASH_USDC"
   },
   "DASHUSDT": {
     "exchange": "spot",
     "base": "dash",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/DASH_USDT"
   },
   "DCRUSDT": {
     "exchange": "spot",
     "base": "decred",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/DCR_USDT"
   },
   "DEXEUSDT": {
     "exchange": "spot",
     "base": "dexe",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/DEXE_USDT"
   },
   "DOGEBTC": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/DOGE_BTC"
   },
   "DOGEEUR": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/DOGE_EUR"
   },
   "DOGEFDUSD": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/DOGE_FDUSD"
   },
   "DOGEJPY": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/DOGE_JPY"
   },
   "DOGETRY": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/DOGE_TRY"
   },
   "DOGEUSD1": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/DOGE_USD1"
   },
   "DOGEUSDC": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/DOGE_USDC"
   },
   "DOGEUSDT": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/DOGE_USDT"
   },
   "DOTBTC": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/DOT_BTC"
   },
   "DOTEUR": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/DOT_EUR"
   },
   "DOTFDUSD": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/DOT_FDUSD"
   },
   "DOTTRY": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/DOT_TRY"
   },
   "DOTUSDC": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/DOT_USDC"
   },
   "DOTUSDT": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/DOT_USDT"
   },
   "DYDXTRY": {
     "exchange": "spot",
     "base": "dydx",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/DYDX_TRY"
   },
   "DYDXUSDC": {
     "exchange": "spot",
     "base": "dydx",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/DYDX_USDC"
   },
   "DYDXUSDT": {
     "exchange": "spot",
     "base": "dydx",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/DYDX_USDT"
   },
   "DYMTRY": {
     "exchange": "spot",
     "base": "dymension",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/DYM_TRY"
   },
   "DYMUSDC": {
     "exchange": "spot",
     "base": "dymension",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/DYM_USDC"
   },
   "DYMUSDT": {
     "exchange": "spot",
     "base": "dymension",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/DYM_USDT"
   },
   "EIGENFDUSD": {
     "exchange": "spot",
     "base": "eigen-layer",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/EIGEN_FDUSD"
   },
   "EIGENTRY": {
     "exchange": "spot",
     "base": "eigen-layer",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/EIGEN_TRY"
   },
   "EIGENUSDC": {
     "exchange": "spot",
     "base": "eigen-layer",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/EIGEN_USDC"
   },
   "EIGENUSDT": {
     "exchange": "spot",
     "base": "eigen-layer",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/EIGEN_USDT"
   },
   "ENAFDUSD": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/ENA_FDUSD"
   },
   "ENATRY": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ENA_TRY"
   },
   "ENAUSDC": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ENA_USDC"
   },
   "ENAUSDT": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ENA_USDT"
   },
   "ENSTRY": {
     "exchange": "spot",
     "base": "ethereum-name-service",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ENS_TRY"
   },
   "ENSUSDC": {
     "exchange": "spot",
     "base": "ethereum-name-service",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ENS_USDC"
   },
   "ENSUSDT": {
     "exchange": "spot",
     "base": "ethereum-name-service",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ENS_USDT"
   },
   "ETCBTC": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/ETC_BTC"
   },
   "ETCFDUSD": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/ETC_FDUSD"
   },
   "ETCTRY": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ETC_TRY"
   },
   "ETCUSDC": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ETC_USDC"
   },
   "ETCUSDT": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ETC_USDT"
   },
   "ETHBTC": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/ETH_BTC"
   },
   "ETHEUR": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/ETH_EUR"
   },
   "ETHFDUSD": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/ETH_FDUSD"
   },
   "ETHFITRY": {
     "exchange": "spot",
     "base": "ether-fi",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ETHFI_TRY"
   },
   "ETHFIUSDC": {
     "exchange": "spot",
     "base": "ether-fi",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ETHFI_USDC"
   },
   "ETHFIUSDT": {
     "exchange": "spot",
     "base": "ether-fi",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ETHFI_USDT"
   },
   "ETHJPY": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/ETH_JPY"
   },
   "ETHTRY": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ETH_TRY"
   },
   "ETHUSD": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.binance.com/en/trade/ETH_USD"
   },
   "ETHUSD1": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/ETH_USD1"
   },
   "ETHUSDC": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ETH_USDC"
   },
   "ETHUSDS": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "sky-usd"
+    "quote": "sky-usd",
+    "url": "https://www.binance.com/en/trade/ETH_USDS"
   },
   "ETHUSDT": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ETH_USDT"
   },
   "EUREURI": {
     "exchange": "spot",
     "base": "euro",
-    "quote": "eurite"
+    "quote": "eurite",
+    "url": "https://www.binance.com/en/trade/EUR_EURI"
   },
   "EURIUSDC": {
     "exchange": "spot",
     "base": "eurite",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/EURI_USDC"
   },
   "EURIUSDT": {
     "exchange": "spot",
     "base": "eurite",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/EURI_USDT"
   },
   "EURUSDC": {
     "exchange": "spot",
     "base": "euro",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/EUR_USDC"
   },
   "EURUSDT": {
     "exchange": "spot",
     "base": "euro",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/EUR_USDT"
   },
   "FDUSDTRY": {
     "exchange": "spot",
     "base": "first-digital-usd",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/FDUSD_TRY"
   },
   "FDUSDUSDC": {
     "exchange": "spot",
     "base": "first-digital-usd",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/FDUSD_USDC"
   },
   "FDUSDUSDT": {
     "exchange": "spot",
     "base": "first-digital-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/FDUSD_USDT"
   },
   "FETBTC": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/FET_BTC"
   },
   "FETJPY": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/FET_JPY"
   },
   "FETTRY": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/FET_TRY"
   },
   "FETUSDC": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/FET_USDC"
   },
   "FETUSDT": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/FET_USDT"
   },
   "FILBTC": {
     "exchange": "spot",
     "base": "filecoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/FIL_BTC"
   },
   "FILFDUSD": {
     "exchange": "spot",
     "base": "filecoin",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/FIL_FDUSD"
   },
   "FILTRY": {
     "exchange": "spot",
     "base": "filecoin",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/FIL_TRY"
   },
   "FILUSDC": {
     "exchange": "spot",
     "base": "filecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/FIL_USDC"
   },
   "FILUSDT": {
     "exchange": "spot",
     "base": "filecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/FIL_USDT"
   },
   "FLOKITRY": {
     "exchange": "spot",
     "base": "floki",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/FLOKI_TRY"
   },
   "FLOKIUSDC": {
     "exchange": "spot",
     "base": "floki",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/FLOKI_USDC"
   },
   "FLOKIUSDT": {
     "exchange": "spot",
     "base": "floki",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/FLOKI_USDT"
   },
   "FRAXUSDT": {
     "exchange": "spot",
     "base": "frax",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/FRAX_USDT"
   },
   "GALATRY": {
     "exchange": "spot",
     "base": "gala",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/GALA_TRY"
   },
   "GALAUSDC": {
     "exchange": "spot",
     "base": "gala",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/GALA_USDC"
   },
   "GALAUSDT": {
     "exchange": "spot",
     "base": "gala",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/GALA_USDT"
   },
   "GLMUSDT": {
     "exchange": "spot",
     "base": "golem",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/GLM_USDT"
   },
   "GMTTRY": {
     "exchange": "spot",
     "base": "green-metaverse-token",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/GMT_TRY"
   },
   "GMTUSDC": {
     "exchange": "spot",
     "base": "green-metaverse-token",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/GMT_USDC"
   },
   "GMTUSDT": {
     "exchange": "spot",
     "base": "green-metaverse-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/GMT_USDT"
   },
   "GMXUSDT": {
     "exchange": "spot",
     "base": "gmx",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/GMX_USDT"
   },
   "GNOUSDT": {
     "exchange": "spot",
     "base": "gnosis",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/GNO_USDT"
   },
   "GRTTRY": {
     "exchange": "spot",
     "base": "the-graph",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/GRT_TRY"
   },
   "GRTUSDC": {
     "exchange": "spot",
     "base": "the-graph",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/GRT_USDC"
   },
   "GRTUSDT": {
     "exchange": "spot",
     "base": "the-graph",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/GRT_USDT"
   },
   "GTRY": {
     "exchange": "spot",
     "base": "gravity",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/G_TRY"
   },
   "GUSDT": {
     "exchange": "spot",
     "base": "gravity",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/G_USDT"
   },
   "HBARBNB": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "bnb"
+    "quote": "bnb",
+    "url": "https://www.binance.com/en/trade/HBAR_BNB"
   },
   "HBARBTC": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/HBAR_BTC"
   },
   "HBARTRY": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/HBAR_TRY"
   },
   "HBARUSDC": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/HBAR_USDC"
   },
   "HBARUSDT": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/HBAR_USDT"
   },
   "ICPBTC": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/ICP_BTC"
   },
   "ICPEUR": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/ICP_EUR"
   },
   "ICPTRY": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ICP_TRY"
   },
   "ICPUSDC": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ICP_USDC"
   },
   "ICPUSDT": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ICP_USDT"
   },
   "IMXUSDC": {
     "exchange": "spot",
     "base": "immutable-x",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/IMX_USDC"
   },
   "IMXUSDT": {
     "exchange": "spot",
     "base": "immutable-x",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/IMX_USDT"
   },
   "INJBTC": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/INJ_BTC"
   },
   "INJFDUSD": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/INJ_FDUSD"
   },
   "INJTRY": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/INJ_TRY"
   },
   "INJUSDC": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/INJ_USDC"
   },
   "INJUSDT": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/INJ_USDT"
   },
   "IOSTUSDT": {
     "exchange": "spot",
     "base": "iost",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/IOST_USDT"
   },
   "IOTATRY": {
     "exchange": "spot",
     "base": "iota",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/IOTA_TRY"
   },
   "IOTAUSDC": {
     "exchange": "spot",
     "base": "iota",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/IOTA_USDC"
   },
   "IOTAUSDT": {
     "exchange": "spot",
     "base": "iota",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/IOTA_USDT"
   },
   "IOTRY": {
     "exchange": "spot",
     "base": "io-net",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/IO_TRY"
   },
   "IOUSDC": {
     "exchange": "spot",
     "base": "io-net",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/IO_USDC"
   },
   "IOUSDT": {
     "exchange": "spot",
     "base": "io-net",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/IO_USDT"
   },
   "JASMYTRY": {
     "exchange": "spot",
     "base": "jasmycoin",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/JASMY_TRY"
   },
   "JASMYUSDT": {
     "exchange": "spot",
     "base": "jasmycoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/JASMY_USDT"
   },
   "JSTUSDT": {
     "exchange": "spot",
     "base": "just",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/JST_USDT"
   },
   "JTOTRY": {
     "exchange": "spot",
     "base": "jito",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/JTO_TRY"
   },
   "JTOUSDC": {
     "exchange": "spot",
     "base": "jito",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/JTO_USDC"
   },
   "JTOUSDT": {
     "exchange": "spot",
     "base": "jito",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/JTO_USDT"
   },
   "JUPFDUSD": {
     "exchange": "spot",
     "base": "jupiter",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/JUP_FDUSD"
   },
   "JUPTRY": {
     "exchange": "spot",
     "base": "jupiter",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/JUP_TRY"
   },
   "JUPUSDC": {
     "exchange": "spot",
     "base": "jupiter",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/JUP_USDC"
   },
   "JUPUSDT": {
     "exchange": "spot",
     "base": "jupiter",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/JUP_USDT"
   },
   "KAIAUSDC": {
     "exchange": "spot",
     "base": "kaia",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/KAIA_USDC"
   },
   "KAIAUSDT": {
     "exchange": "spot",
     "base": "kaia",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/KAIA_USDT"
   },
   "KAITOTRY": {
     "exchange": "spot",
     "base": "kaito",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/KAITO_TRY"
   },
   "KAITOUSDC": {
     "exchange": "spot",
     "base": "kaito",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/KAITO_USDC"
   },
   "KAITOUSDT": {
     "exchange": "spot",
     "base": "kaito",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/KAITO_USDT"
   },
   "LAYERTRY": {
     "exchange": "spot",
     "base": "solayer",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/LAYER_TRY"
   },
   "LAYERUSDC": {
     "exchange": "spot",
     "base": "solayer",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/LAYER_USDC"
   },
   "LAYERUSDT": {
     "exchange": "spot",
     "base": "solayer",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/LAYER_USDT"
   },
   "LDOFDUSD": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/LDO_FDUSD"
   },
   "LDOTRY": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/LDO_TRY"
   },
   "LDOUSDC": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/LDO_USDC"
   },
   "LDOUSDT": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/LDO_USDT"
   },
   "LINEATRY": {
     "exchange": "spot",
     "base": "linea",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/LINEA_TRY"
   },
   "LINEAUSDC": {
     "exchange": "spot",
     "base": "linea",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/LINEA_USDC"
   },
   "LINEAUSDT": {
     "exchange": "spot",
     "base": "linea",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/LINEA_USDT"
   },
   "LINKBTC": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/LINK_BTC"
   },
   "LINKETH": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.binance.com/en/trade/LINK_ETH"
   },
   "LINKEUR": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/LINK_EUR"
   },
   "LINKFDUSD": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/LINK_FDUSD"
   },
   "LINKJPY": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/LINK_JPY"
   },
   "LINKTRY": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/LINK_TRY"
   },
   "LINKUSD1": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/LINK_USD1"
   },
   "LINKUSDC": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/LINK_USDC"
   },
   "LINKUSDT": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/LINK_USDT"
   },
   "LTCBNB": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "bnb"
+    "quote": "bnb",
+    "url": "https://www.binance.com/en/trade/LTC_BNB"
   },
   "LTCBTC": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/LTC_BTC"
   },
   "LTCETH": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.binance.com/en/trade/LTC_ETH"
   },
   "LTCEUR": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/LTC_EUR"
   },
   "LTCFDUSD": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/LTC_FDUSD"
   },
   "LTCJPY": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/LTC_JPY"
   },
   "LTCTRY": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/LTC_TRY"
   },
   "LTCUSD1": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/LTC_USD1"
   },
   "LTCUSDC": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/LTC_USDC"
   },
   "LTCUSDT": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/LTC_USDT"
   },
   "MANATRY": {
     "exchange": "spot",
     "base": "decentraland",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/MANA_TRY"
   },
   "MANAUSDT": {
     "exchange": "spot",
     "base": "decentraland",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/MANA_USDT"
   },
   "MANTATRY": {
     "exchange": "spot",
     "base": "manta-network",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/MANTA_TRY"
   },
   "MANTAUSDC": {
     "exchange": "spot",
     "base": "manta-network",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/MANTA_USDC"
   },
   "MANTAUSDT": {
     "exchange": "spot",
     "base": "manta-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/MANTA_USDT"
   },
   "MASKTRY": {
     "exchange": "spot",
     "base": "mask-network",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/MASK_TRY"
   },
   "MASKUSDC": {
     "exchange": "spot",
     "base": "mask-network",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/MASK_USDC"
   },
   "MASKUSDT": {
     "exchange": "spot",
     "base": "mask-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/MASK_USDT"
   },
   "METRY": {
     "exchange": "spot",
     "base": "magic-eden",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ME_TRY"
   },
   "MEUSDT": {
     "exchange": "spot",
     "base": "magic-eden",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ME_USDT"
   },
   "MORPHOTRY": {
     "exchange": "spot",
     "base": "morpho",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/MORPHO_TRY"
   },
   "MORPHOUSDC": {
     "exchange": "spot",
     "base": "morpho",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/MORPHO_USDC"
   },
   "MORPHOUSDT": {
     "exchange": "spot",
     "base": "morpho",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/MORPHO_USDT"
   },
   "NEARBTC": {
     "exchange": "spot",
     "base": "near",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/NEAR_BTC"
   },
   "NEAREUR": {
     "exchange": "spot",
     "base": "near",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/NEAR_EUR"
   },
   "NEARJPY": {
     "exchange": "spot",
     "base": "near",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/NEAR_JPY"
   },
   "NEARTRY": {
     "exchange": "spot",
     "base": "near",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/NEAR_TRY"
   },
   "NEARUSD1": {
     "exchange": "spot",
     "base": "near",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/NEAR_USD1"
   },
   "NEARUSDC": {
     "exchange": "spot",
     "base": "near",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/NEAR_USDC"
   },
   "NEARUSDT": {
     "exchange": "spot",
     "base": "near",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/NEAR_USDT"
   },
   "NEOTRY": {
     "exchange": "spot",
     "base": "neo",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/NEO_TRY"
   },
   "NEOUSDC": {
     "exchange": "spot",
     "base": "neo",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/NEO_USDC"
   },
   "NEOUSDT": {
     "exchange": "spot",
     "base": "neo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/NEO_USDT"
   },
   "NEXOBTC": {
     "exchange": "spot",
     "base": "nexo",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/NEXO_BTC"
   },
   "NEXOUSDT": {
     "exchange": "spot",
     "base": "nexo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/NEXO_USDT"
   },
   "NILTRY": {
     "exchange": "spot",
     "base": "nillion",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/NIL_TRY"
   },
   "NILUSDC": {
     "exchange": "spot",
     "base": "nillion",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/NIL_USDC"
   },
   "NILUSDT": {
     "exchange": "spot",
     "base": "nillion",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/NIL_USDT"
   },
   "NOTTRY": {
     "exchange": "spot",
     "base": "notcoin",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/NOT_TRY"
   },
   "NOTUSDC": {
     "exchange": "spot",
     "base": "notcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/NOT_USDC"
   },
   "NOTUSDT": {
     "exchange": "spot",
     "base": "notcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/NOT_USDT"
   },
   "ONDOTRY": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ONDO_TRY"
   },
   "ONDOUSDC": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ONDO_USDC"
   },
   "ONDOUSDT": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ONDO_USDT"
   },
   "OPTRY": {
     "exchange": "spot",
     "base": "optimism",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/OP_TRY"
   },
   "OPUSDC": {
     "exchange": "spot",
     "base": "optimism",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/OP_USDC"
   },
   "OPUSDT": {
     "exchange": "spot",
     "base": "optimism",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/OP_USDT"
   },
   "ORDITRY": {
     "exchange": "spot",
     "base": "ordi",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ORDI_TRY"
   },
   "ORDIUSDC": {
     "exchange": "spot",
     "base": "ordi",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ORDI_USDC"
   },
   "ORDIUSDT": {
     "exchange": "spot",
     "base": "ordi",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ORDI_USDT"
   },
   "OSMOUSDC": {
     "exchange": "spot",
     "base": "osmosis",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/OSMO_USDC"
   },
   "OSMOUSDT": {
     "exchange": "spot",
     "base": "osmosis",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/OSMO_USDT"
   },
   "PAXGBTC": {
     "exchange": "spot",
     "base": "pax-gold",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/PAXG_BTC"
   },
   "PAXGTRY": {
     "exchange": "spot",
     "base": "pax-gold",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/PAXG_TRY"
   },
   "PAXGUSD1": {
     "exchange": "spot",
     "base": "pax-gold",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/PAXG_USD1"
   },
   "PAXGUSDC": {
     "exchange": "spot",
     "base": "pax-gold",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/PAXG_USDC"
   },
   "PAXGUSDT": {
     "exchange": "spot",
     "base": "pax-gold",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/PAXG_USDT"
   },
   "PENDLEBTC": {
     "exchange": "spot",
     "base": "pendle",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/PENDLE_BTC"
   },
   "PENDLETRY": {
     "exchange": "spot",
     "base": "pendle",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/PENDLE_TRY"
   },
   "PENDLEUSDC": {
     "exchange": "spot",
     "base": "pendle",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/PENDLE_USDC"
   },
   "PENDLEUSDT": {
     "exchange": "spot",
     "base": "pendle",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/PENDLE_USDT"
   },
   "PENGUTRY": {
     "exchange": "spot",
     "base": "pudgy-penguins",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/PENGU_TRY"
   },
   "PENGUUSDC": {
     "exchange": "spot",
     "base": "pudgy-penguins",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/PENGU_USDC"
   },
   "PENGUUSDT": {
     "exchange": "spot",
     "base": "pudgy-penguins",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/PENGU_USDT"
   },
   "PEPEEUR": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/PEPE_EUR"
   },
   "PEPEFDUSD": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/PEPE_FDUSD"
   },
   "PEPEJPY": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/PEPE_JPY"
   },
   "PEPETRY": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/PEPE_TRY"
   },
   "PEPEUSD1": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/PEPE_USD1"
   },
   "PEPEUSDC": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/PEPE_USDC"
   },
   "PEPEUSDT": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/PEPE_USDT"
   },
   "PIXELTRY": {
     "exchange": "spot",
     "base": "pixels",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/PIXEL_TRY"
   },
   "PIXELUSDC": {
     "exchange": "spot",
     "base": "pixels",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/PIXEL_USDC"
   },
   "PIXELUSDT": {
     "exchange": "spot",
     "base": "pixels",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/PIXEL_USDT"
   },
   "PNUTTRY": {
     "exchange": "spot",
     "base": "peanut-the-squirrel",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/PNUT_TRY"
   },
   "PNUTUSDC": {
     "exchange": "spot",
     "base": "peanut-the-squirrel",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/PNUT_USDC"
   },
   "PNUTUSDT": {
     "exchange": "spot",
     "base": "peanut-the-squirrel",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/PNUT_USDT"
   },
   "POLBNB": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "bnb"
+    "quote": "bnb",
+    "url": "https://www.binance.com/en/trade/POL_BNB"
   },
   "POLBTC": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/POL_BTC"
   },
   "POLEUR": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/POL_EUR"
   },
   "POLFDUSD": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/POL_FDUSD"
   },
   "POLJPY": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/POL_JPY"
   },
   "POLTRY": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/POL_TRY"
   },
   "POLUSDC": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/POL_USDC"
   },
   "POLUSDT": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/POL_USDT"
   },
   "PUMPTRY": {
     "exchange": "spot",
     "base": "pump",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/PUMP_TRY"
   },
   "PUMPUSDC": {
     "exchange": "spot",
     "base": "pump",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/PUMP_USDC"
   },
   "PUMPUSDT": {
     "exchange": "spot",
     "base": "pump",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/PUMP_USDT"
   },
   "PYTHTRY": {
     "exchange": "spot",
     "base": "pyth-network",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/PYTH_TRY"
   },
   "PYTHUSDC": {
     "exchange": "spot",
     "base": "pyth-network",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/PYTH_USDC"
   },
   "PYTHUSDT": {
     "exchange": "spot",
     "base": "pyth-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/PYTH_USDT"
   },
   "QNTBTC": {
     "exchange": "spot",
     "base": "quant",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/QNT_BTC"
   },
   "QNTUSDC": {
     "exchange": "spot",
     "base": "quant",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/QNT_USDC"
   },
   "QNTUSDT": {
     "exchange": "spot",
     "base": "quant",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/QNT_USDT"
   },
   "RAYTRY": {
     "exchange": "spot",
     "base": "raydium",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/RAY_TRY"
   },
   "RAYUSDC": {
     "exchange": "spot",
     "base": "raydium",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/RAY_USDC"
   },
   "RAYUSDT": {
     "exchange": "spot",
     "base": "raydium",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/RAY_USDT"
   },
   "REDTRY": {
     "exchange": "spot",
     "base": "redstone",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/RED_TRY"
   },
   "REDUSDC": {
     "exchange": "spot",
     "base": "redstone",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/RED_USDC"
   },
   "REDUSDT": {
     "exchange": "spot",
     "base": "redstone",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/RED_USDT"
   },
   "RENDERBTC": {
     "exchange": "spot",
     "base": "render",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/RENDER_BTC"
   },
   "RENDEREUR": {
     "exchange": "spot",
     "base": "render",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/RENDER_EUR"
   },
   "RENDERTRY": {
     "exchange": "spot",
     "base": "render",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/RENDER_TRY"
   },
   "RENDERUSDC": {
     "exchange": "spot",
     "base": "render",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/RENDER_USDC"
   },
   "RENDERUSDT": {
     "exchange": "spot",
     "base": "render",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/RENDER_USDT"
   },
   "REQUSDT": {
     "exchange": "spot",
     "base": "request",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/REQ_USDT"
   },
   "REZTRY": {
     "exchange": "spot",
     "base": "renzo",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/REZ_TRY"
   },
   "REZUSDC": {
     "exchange": "spot",
     "base": "renzo",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/REZ_USDC"
   },
   "REZUSDT": {
     "exchange": "spot",
     "base": "renzo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/REZ_USDT"
   },
   "RLUSDUSDT": {
     "exchange": "spot",
     "base": "ripple-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/RLUSD_USDT"
   },
   "RUNEUSDC": {
     "exchange": "spot",
     "base": "thorchain",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/RUNE_USDC"
   },
   "RUNEUSDT": {
     "exchange": "spot",
     "base": "thorchain",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/RUNE_USDT"
   },
   "SANDTRY": {
     "exchange": "spot",
     "base": "the-sandbox",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/SAND_TRY"
   },
   "SANDUSDC": {
     "exchange": "spot",
     "base": "the-sandbox",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/SAND_USDC"
   },
   "SANDUSDT": {
     "exchange": "spot",
     "base": "the-sandbox",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SAND_USDT"
   },
   "SEIJPY": {
     "exchange": "spot",
     "base": "sei",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/SEI_JPY"
   },
   "SEITRY": {
     "exchange": "spot",
     "base": "sei",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/SEI_TRY"
   },
   "SEIUSDC": {
     "exchange": "spot",
     "base": "sei",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/SEI_USDC"
   },
   "SEIUSDT": {
     "exchange": "spot",
     "base": "sei",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SEI_USDT"
   },
   "SEUR": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/S_EUR"
   },
   "SFPUSDT": {
     "exchange": "spot",
     "base": "safepal",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SFP_USDT"
   },
   "SHIBEUR": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/SHIB_EUR"
   },
   "SHIBFDUSD": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/SHIB_FDUSD"
   },
   "SHIBJPY": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/SHIB_JPY"
   },
   "SHIBTRY": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/SHIB_TRY"
   },
   "SHIBUSDC": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/SHIB_USDC"
   },
   "SHIBUSDT": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SHIB_USDT"
   },
   "SKYTRY": {
     "exchange": "spot",
     "base": "sky",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/SKY_TRY"
   },
   "SKYUSDC": {
     "exchange": "spot",
     "base": "sky",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/SKY_USDC"
   },
   "SKYUSDT": {
     "exchange": "spot",
     "base": "sky",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SKY_USDT"
   },
   "SNXTRY": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/SNX_TRY"
   },
   "SNXUSDC": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/SNX_USDC"
   },
   "SNXUSDT": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SNX_USDT"
   },
   "SOLBNB": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "bnb"
+    "quote": "bnb",
+    "url": "https://www.binance.com/en/trade/SOL_BNB"
   },
   "SOLBTC": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/SOL_BTC"
   },
   "SOLETH": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.binance.com/en/trade/SOL_ETH"
   },
   "SOLEUR": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/SOL_EUR"
   },
   "SOLFDUSD": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/SOL_FDUSD"
   },
   "SOLJPY": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/SOL_JPY"
   },
   "SOLTRY": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/SOL_TRY"
   },
   "SOLUSD": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.binance.com/en/trade/SOL_USD"
   },
   "SOLUSD1": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/SOL_USD1"
   },
   "SOLUSDC": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/SOL_USDC"
   },
   "SOLUSDT": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SOL_USDT"
   },
   "SOLVTRY": {
     "exchange": "spot",
     "base": "solv-protocol",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/SOLV_TRY"
   },
   "SOLVUSDC": {
     "exchange": "spot",
     "base": "solv-protocol",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/SOLV_USDC"
   },
   "SOLVUSDT": {
     "exchange": "spot",
     "base": "solv-protocol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SOLV_USDT"
   },
   "STRKTRY": {
     "exchange": "spot",
     "base": "starknet",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/STRK_TRY"
   },
   "STRKUSDC": {
     "exchange": "spot",
     "base": "starknet",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/STRK_USDC"
   },
   "STRKUSDT": {
     "exchange": "spot",
     "base": "starknet",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/STRK_USDT"
   },
   "STRY": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/S_TRY"
   },
   "STXBTC": {
     "exchange": "spot",
     "base": "stacks",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/STX_BTC"
   },
   "STXTRY": {
     "exchange": "spot",
     "base": "stacks",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/STX_TRY"
   },
   "STXUSDC": {
     "exchange": "spot",
     "base": "stacks",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/STX_USDC"
   },
   "STXUSDT": {
     "exchange": "spot",
     "base": "stacks",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/STX_USDT"
   },
   "SUIBNB": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "bnb"
+    "quote": "bnb",
+    "url": "https://www.binance.com/en/trade/SUI_BNB"
   },
   "SUIBTC": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/SUI_BTC"
   },
   "SUIEUR": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/SUI_EUR"
   },
   "SUIFDUSD": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/SUI_FDUSD"
   },
   "SUIJPY": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/SUI_JPY"
   },
   "SUITRY": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/SUI_TRY"
   },
   "SUIUSD1": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/SUI_USD1"
   },
   "SUIUSDC": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/SUI_USDC"
   },
   "SUIUSDT": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SUI_USDT"
   },
   "SUNTRY": {
     "exchange": "spot",
     "base": "sun-token",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/SUN_TRY"
   },
   "SUNUSDT": {
     "exchange": "spot",
     "base": "sun-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SUN_USDT"
   },
   "SUSDC": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/S_USDC"
   },
   "SUSDT": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/S_USDT"
   },
   "SYNUSDC": {
     "exchange": "spot",
     "base": "synapse",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/SYN_USDC"
   },
   "SYNUSDT": {
     "exchange": "spot",
     "base": "synapse",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SYN_USDT"
   },
   "SYRUPTRY": {
     "exchange": "spot",
     "base": "syrup",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/SYRUP_TRY"
   },
   "SYRUPUSDC": {
     "exchange": "spot",
     "base": "syrup",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/SYRUP_USDC"
   },
   "SYRUPUSDT": {
     "exchange": "spot",
     "base": "syrup",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SYRUP_USDT"
   },
   "TAOBTC": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/TAO_BTC"
   },
   "TAOFDUSD": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/TAO_FDUSD"
   },
   "TAOJPY": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/TAO_JPY"
   },
   "TAOTRY": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/TAO_TRY"
   },
   "TAOUSD1": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/TAO_USD1"
   },
   "TAOUSDC": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/TAO_USDC"
   },
   "TAOUSDT": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/TAO_USDT"
   },
   "THETABTC": {
     "exchange": "spot",
     "base": "theta-token",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/THETA_BTC"
   },
   "THETATRY": {
     "exchange": "spot",
     "base": "theta-token",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/THETA_TRY"
   },
   "THETAUSDC": {
     "exchange": "spot",
     "base": "theta-token",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/THETA_USDC"
   },
   "THETAUSDT": {
     "exchange": "spot",
     "base": "theta-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/THETA_USDT"
   },
   "THETRY": {
     "exchange": "spot",
     "base": "thena",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/THE_TRY"
   },
   "THEUSDC": {
     "exchange": "spot",
     "base": "thena",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/THE_USDC"
   },
   "THEUSDT": {
     "exchange": "spot",
     "base": "thena",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/THE_USDT"
   },
   "TIATRY": {
     "exchange": "spot",
     "base": "celestia",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/TIA_TRY"
   },
   "TIAUSDC": {
     "exchange": "spot",
     "base": "celestia",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/TIA_USDC"
   },
   "TIAUSDT": {
     "exchange": "spot",
     "base": "celestia",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/TIA_USDT"
   },
   "TRBJPY": {
     "exchange": "spot",
     "base": "tellor",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/TRB_JPY"
   },
   "TRBTRY": {
     "exchange": "spot",
     "base": "tellor",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/TRB_TRY"
   },
   "TRBUSDC": {
     "exchange": "spot",
     "base": "tellor",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/TRB_USDC"
   },
   "TRBUSDT": {
     "exchange": "spot",
     "base": "tellor",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/TRB_USDT"
   },
   "TRUMPFDUSD": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/TRUMP_FDUSD"
   },
   "TRUMPJPY": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/TRUMP_JPY"
   },
   "TRUMPTRY": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/TRUMP_TRY"
   },
   "TRUMPUSD1": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/TRUMP_USD1"
   },
   "TRUMPUSDC": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/TRUMP_USDC"
   },
   "TRUMPUSDT": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/TRUMP_USDT"
   },
   "TRXBNB": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "bnb"
+    "quote": "bnb",
+    "url": "https://www.binance.com/en/trade/TRX_BNB"
   },
   "TRXBTC": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/TRX_BTC"
   },
   "TRXETH": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.binance.com/en/trade/TRX_ETH"
   },
   "TRXEUR": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/TRX_EUR"
   },
   "TRXJPY": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/TRX_JPY"
   },
   "TRXTRY": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/TRX_TRY"
   },
   "TRXUSD1": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/TRX_USD1"
   },
   "TRXUSDC": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/TRX_USDC"
   },
   "TRXUSDT": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/TRX_USDT"
   },
   "TRXXRP": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "xrp"
+    "quote": "xrp",
+    "url": "https://www.binance.com/en/trade/TRX_XRP"
   },
   "TUSDT": {
     "exchange": "spot",
     "base": "threshold-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/T_USDT"
   },
   "TUSDUSDT": {
     "exchange": "spot",
     "base": "true-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/TUSD_USDT"
   },
   "TWTTRY": {
     "exchange": "spot",
     "base": "trust-wallet-token",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/TWT_TRY"
   },
   "TWTUSDC": {
     "exchange": "spot",
     "base": "trust-wallet-token",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/TWT_USDC"
   },
   "TWTUSDT": {
     "exchange": "spot",
     "base": "trust-wallet-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/TWT_USDT"
   },
   "UMATRY": {
     "exchange": "spot",
     "base": "uma",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/UMA_TRY"
   },
   "UMAUSDC": {
     "exchange": "spot",
     "base": "uma",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/UMA_USDC"
   },
   "UMAUSDT": {
     "exchange": "spot",
     "base": "uma",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/UMA_USDT"
   },
   "UNIBTC": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/UNI_BTC"
   },
   "UNITRY": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/UNI_TRY"
   },
   "UNIUSD1": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/UNI_USD1"
   },
   "UNIUSDC": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/UNI_USDC"
   },
   "UNIUSDT": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/UNI_USDT"
   },
   "USD1TRY": {
     "exchange": "spot",
     "base": "usd1",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/USD1_TRY"
   },
   "USD1USDC": {
     "exchange": "spot",
     "base": "usd1",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/USD1_USDC"
   },
   "USD1USDT": {
     "exchange": "spot",
     "base": "usd1",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/USD1_USDT"
   },
   "USDCTRY": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/USDC_TRY"
   },
   "USDCUSD": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.binance.com/en/trade/USDC_USD"
   },
   "USDCUSDT": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/USDC_USDT"
   },
   "USDEUSDC": {
     "exchange": "spot",
     "base": "ethena-usde",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/USDE_USDC"
   },
   "USDEUSDT": {
     "exchange": "spot",
     "base": "ethena-usde",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/USDE_USDT"
   },
   "USDSUSDT": {
     "exchange": "spot",
     "base": "sky-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/USDS_USDT"
   },
   "USDTTRY": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/USDT_TRY"
   },
   "USDTUSD": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.binance.com/en/trade/USDT_USD"
   },
   "USUALTRY": {
     "exchange": "spot",
     "base": "usual",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/USUAL_TRY"
   },
   "USUALUSDC": {
     "exchange": "spot",
     "base": "usual",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/USUAL_USDC"
   },
   "USUALUSDT": {
     "exchange": "spot",
     "base": "usual",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/USUAL_USDT"
   },
   "VANATRY": {
     "exchange": "spot",
     "base": "vana",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/VANA_TRY"
   },
   "VANAUSDC": {
     "exchange": "spot",
     "base": "vana",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/VANA_USDC"
   },
   "VANAUSDT": {
     "exchange": "spot",
     "base": "vana",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/VANA_USDT"
   },
   "VETEUR": {
     "exchange": "spot",
     "base": "vechain",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/VET_EUR"
   },
   "VETTRY": {
     "exchange": "spot",
     "base": "vechain",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/VET_TRY"
   },
   "VETUSDC": {
     "exchange": "spot",
     "base": "vechain",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/VET_USDC"
   },
   "VETUSDT": {
     "exchange": "spot",
     "base": "vechain",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/VET_USDT"
   },
   "VIRTUALTRY": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/VIRTUAL_TRY"
   },
   "VIRTUALUSDC": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/VIRTUAL_USDC"
   },
   "VIRTUALUSDT": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/VIRTUAL_USDT"
   },
   "WBTCBTC": {
     "exchange": "spot",
     "base": "wrapped-bitcoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/WBTC_BTC"
   },
   "WBTCUSDT": {
     "exchange": "spot",
     "base": "wrapped-bitcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/WBTC_USDT"
   },
   "WIFTRY": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/WIF_TRY"
   },
   "WIFUSDC": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/WIF_USDC"
   },
   "WIFUSDT": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/WIF_USDT"
   },
   "WINEUR": {
     "exchange": "spot",
     "base": "winklink",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/WIN_EUR"
   },
   "WINUSDT": {
     "exchange": "spot",
     "base": "winklink",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/WIN_USDT"
   },
   "WLDBTC": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/WLD_BTC"
   },
   "WLDEUR": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/WLD_EUR"
   },
   "WLDFDUSD": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/WLD_FDUSD"
   },
   "WLDTRY": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/WLD_TRY"
   },
   "WLDUSDC": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/WLD_USDC"
   },
   "WLDUSDT": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/WLD_USDT"
   },
   "WLFIEUR": {
     "exchange": "spot",
     "base": "world-liberty-financial",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/WLFI_EUR"
   },
   "WLFITRY": {
     "exchange": "spot",
     "base": "world-liberty-financial",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/WLFI_TRY"
   },
   "WLFIUSD1": {
     "exchange": "spot",
     "base": "world-liberty-financial",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/WLFI_USD1"
   },
   "WLFIUSDC": {
     "exchange": "spot",
     "base": "world-liberty-financial",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/WLFI_USDC"
   },
   "WLFIUSDT": {
     "exchange": "spot",
     "base": "world-liberty-financial",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/WLFI_USDT"
   },
   "WTRY": {
     "exchange": "spot",
     "base": "wormhole",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/W_TRY"
   },
   "WUSDC": {
     "exchange": "spot",
     "base": "wormhole",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/W_USDC"
   },
   "WUSDT": {
     "exchange": "spot",
     "base": "wormhole",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/W_USDT"
   },
   "XAUTBTC": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/XAUT_BTC"
   },
   "XAUTTRY": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/XAUT_TRY"
   },
   "XAUTUSD1": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/XAUT_USD1"
   },
   "XAUTUSDC": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/XAUT_USDC"
   },
   "XAUTUSDT": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/XAUT_USDT"
   },
   "XECTRY": {
     "exchange": "spot",
     "base": "ecash",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/XEC_TRY"
   },
   "XECUSDT": {
     "exchange": "spot",
     "base": "ecash",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/XEC_USDT"
   },
   "XLMETH": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.binance.com/en/trade/XLM_ETH"
   },
   "XLMEUR": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/XLM_EUR"
   },
   "XLMJPY": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/XLM_JPY"
   },
   "XLMTRY": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/XLM_TRY"
   },
   "XLMUSD1": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/XLM_USD1"
   },
   "XLMUSDC": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/XLM_USDC"
   },
   "XLMUSDT": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/XLM_USDT"
   },
   "XPLTRY": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/XPL_TRY"
   },
   "XPLUSD1": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/XPL_USD1"
   },
   "XPLUSDC": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/XPL_USDC"
   },
   "XPLUSDT": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/XPL_USDT"
   },
   "XRPBTC": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/XRP_BTC"
   },
   "XRPETH": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.binance.com/en/trade/XRP_ETH"
   },
   "XRPEUR": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.binance.com/en/trade/XRP_EUR"
   },
   "XRPFDUSD": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/XRP_FDUSD"
   },
   "XRPJPY": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "japanese-yen"
+    "quote": "japanese-yen",
+    "url": "https://www.binance.com/en/trade/XRP_JPY"
   },
   "XRPRLUSD": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "ripple-usd"
+    "quote": "ripple-usd",
+    "url": "https://www.binance.com/en/trade/XRP_RLUSD"
   },
   "XRPTRY": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/XRP_TRY"
   },
   "XRPUSD1": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/XRP_USD1"
   },
   "XRPUSDC": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/XRP_USDC"
   },
   "XRPUSDT": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/XRP_USDT"
   },
   "XTZBTC": {
     "exchange": "spot",
     "base": "tezos",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/XTZ_BTC"
   },
   "XTZTRY": {
     "exchange": "spot",
     "base": "tezos",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/XTZ_TRY"
   },
   "XTZUSDC": {
     "exchange": "spot",
     "base": "tezos",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/XTZ_USDC"
   },
   "XTZUSDT": {
     "exchange": "spot",
     "base": "tezos",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/XTZ_USDT"
   },
   "YFIUSDT": {
     "exchange": "spot",
     "base": "yearn-finance",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/YFI_USDT"
   },
   "ZECBTC": {
     "exchange": "spot",
     "base": "zcash",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.binance.com/en/trade/ZEC_BTC"
   },
   "ZECETH": {
     "exchange": "spot",
     "base": "zcash",
-    "quote": "ethereum"
+    "quote": "ethereum",
+    "url": "https://www.binance.com/en/trade/ZEC_ETH"
   },
   "ZECUSD1": {
     "exchange": "spot",
     "base": "zcash",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/ZEC_USD1"
   },
   "ZECUSDC": {
     "exchange": "spot",
     "base": "zcash",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ZEC_USDC"
   },
   "ZECUSDT": {
     "exchange": "spot",
     "base": "zcash",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ZEC_USDT"
   },
   "ZKTRY": {
     "exchange": "spot",
     "base": "zksync",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ZK_TRY"
   },
   "ZKUSDC": {
     "exchange": "spot",
     "base": "zksync",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ZK_USDC"
   },
   "ZKUSDT": {
     "exchange": "spot",
     "base": "zksync",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ZK_USDT"
   },
   "ZROFDUSD": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "first-digital-usd"
+    "quote": "first-digital-usd",
+    "url": "https://www.binance.com/en/trade/ZRO_FDUSD"
   },
   "ZROTRY": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ZRO_TRY"
   },
   "ZROUSDC": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ZRO_USDC"
   },
   "ZROUSDT": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ZRO_USDT"
   }
 }

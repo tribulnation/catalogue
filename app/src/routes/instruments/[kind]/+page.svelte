@@ -66,7 +66,10 @@
 			<tbody>
 				{#each filtered as inst}
 					<tr>
-						<td class="mono">{inst.id}{#if inst.delisted}<span class="delisted-badge">Delisted</span>{/if}</td>
+						<td class="mono">
+							{#if inst.url}<a href={inst.url} target="_blank" rel="noopener noreferrer">{inst.id}</a>{:else}{inst.id}{/if}
+							{#if inst.delisted}<span class="delisted-badge">Delisted</span>{/if}
+						</td>
 						<td><a href={`/assets/${inst.base}`}>{inst.base}</a></td>
 						<td><a href={`/assets/${inst.quote}`}>{inst.quote}</a></td>
 						<td class="mono dim"><a href={`/platforms/${inst._platform}`}>{inst._platform}</a></td>
@@ -82,7 +85,10 @@
 			<tbody>
 				{#each filtered as inst}
 					<tr>
-						<td class="mono">{inst.id}{#if inst.delisted}<span class="delisted-badge">Delisted</span>{/if}</td>
+						<td class="mono">
+							{#if inst.url}<a href={inst.url} target="_blank" rel="noopener noreferrer">{inst.id}</a>{:else}{inst.id}{/if}
+							{#if inst.delisted}<span class="delisted-badge">Delisted</span>{/if}
+						</td>
 						<td><a href={`/assets/${inst.base}`}>{inst.base}</a></td>
 						<td><a href={`/assets/${inst.quote}`}>{inst.quote}</a></td>
 						<td><a href={`/assets/${inst.settlement}`}>{inst.settlement}</a></td>

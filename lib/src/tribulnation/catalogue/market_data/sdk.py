@@ -7,7 +7,7 @@ from datetime import datetime
 from tribulnation.sdk import SDK
 from tribulnation.catalogue import ExternalSource
 
-Source = ExternalSource | Literal['catalogue-pro']
+Source = ExternalSource
 Quote = Literal['eur', 'usd']
 
 @dataclass
@@ -52,9 +52,6 @@ class Pricing(SDK, ABC):
       from .yahoo import YahooPricing
       q = 'USD' if quote == 'usd' else 'EUR'
       return YahooPricing.new(quote=q)
-    elif source == 'catalogue-pro':
-      from .catalogue_pro import CatalogueProPricing
-      return CatalogueProPricing.new()
     else:
       raise ValueError(f'Unknown source: {source!r}')
 
