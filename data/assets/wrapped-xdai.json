@@ -1,0 +1,22 @@
+{
+  "id": "wrapped-xdai",
+  "display_name": "Wrapped xDAI",
+  "symbol": "WXDAI",
+  "category": "stablecoin",
+  "about": {
+    "en": "WXDAI is the ERC-20 wrapper for xDAI, the native gas coin of Gnosis Chain, and is what most Gnosis applications trade and hold instead of the bare coin. The wrapper contract holds the xDAI itself and can be unwrapped one-for-one at any time, so it carries no custodian beyond the chain.",
+    "es": "WXDAI es el envoltorio ERC-20 de xDAI, la moneda nativa de gas de Gnosis Chain, y es lo que la mayoría de aplicaciones de Gnosis negocian y custodian en lugar de la moneda desnuda. El contrato del envoltorio guarda el propio xDAI y puede desenvolverse uno a uno en cualquier momento, así que no añade ningún custodio más allá de la cadena.",
+    "ca": "WXDAI és l'embolcall ERC-20 de xDAI, la moneda nativa de gas de Gnosis Chain, i és el que la majoria d'aplicacions de Gnosis negocien i mantenen en lloc de la moneda nua. El contracte de l'embolcall guarda el mateix xDAI i es pot desembolcallar un a un en qualsevol moment, de manera que no afegeix cap custodi més enllà de la cadena."
+  },
+  "pegged_to": {
+    "asset": "xdai"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.gnosischain.com/"
+  }
+}

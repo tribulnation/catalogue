@@ -1,0 +1,22 @@
+{
+  "id": "aave-xdai",
+  "display_name": "Aave xDAI",
+  "symbol": "aXDAI",
+  "category": "stablecoin",
+  "about": {
+    "en": "aGnoWXDAI is the receipt Aave v3 issues for WXDAI supplied to its Gnosis Chain market. It is a claim on xDAI, the chain's own gas coin, rather than on Dai held on Ethereum, so it is kept apart from Aave DAI.",
+    "es": "aGnoWXDAI es el recibo que Aave v3 emite por el WXDAI depositado en su mercado de Gnosis Chain. Es un derecho sobre xDAI, la moneda de gas de la propia cadena, y no sobre el Dai depositado en Ethereum, por lo que se mantiene separado de Aave DAI.",
+    "ca": "aGnoWXDAI és el rebut que Aave v3 emet pel WXDAI dipositat al seu mercat de Gnosis Chain. És un dret sobre xDAI, la moneda de gas de la mateixa cadena, i no sobre el Dai dipositat a Ethereum, per això es manté separat d'Aave DAI."
+  },
+  "pegged_to": {
+    "asset": "xdai"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}
