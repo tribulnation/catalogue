@@ -1,0 +1,25 @@
+{
+  "id": "avalanche-bridged-bitcoin",
+  "display_name": "Avalanche Bridged Bitcoin",
+  "symbol": "BTC.b",
+  "category": "crypto",
+  "about": {
+    "en": "BTC.b is bitcoin bridged directly from the Bitcoin network to Avalanche by the Avalanche Bridge, which holds the BTC that backs it. It is not wrapped BTC arriving from Ethereum, and its backing depends on that bridge rather than on the Bitcoin network.",
+    "es": "BTC.b es bitcoin transferido directamente desde la red Bitcoin a Avalanche mediante el Avalanche Bridge, que custodia el BTC que lo respalda. No es BTC envuelto procedente de Ethereum, y su respaldo depende de ese puente y no de la red Bitcoin.",
+    "ca": "BTC.b és bitcoin transferit directament des de la xarxa Bitcoin a Avalanche mitjançant l'Avalanche Bridge, que custodia el BTC que el recolza. No és BTC embolcallat procedent d'Ethereum, i el seu suport depèn d'aquest pont i no de la xarxa Bitcoin."
+  },
+  "external": {
+    "coingecko": "bitcoin-avalanche-bridged-btc-b"
+  },
+  "pegged_to": {
+    "asset": "bitcoin"
+  },
+  "tags": [
+    "Wrapped",
+    "Bridged",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://core.app/bridge"
+  }
+}

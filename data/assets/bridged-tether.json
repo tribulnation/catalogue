@@ -1,0 +1,25 @@
+{
+  "id": "bridged-tether",
+  "display_name": "Bridged Tether",
+  "symbol": "USDT.e",
+  "category": "stablecoin",
+  "about": {
+    "en": "USDT.e is Tether that reached Avalanche over the Avalanche Bridge rather than being issued there by Tether. Native USDt now exists on the same chain, so the two circulate side by side as separate tokens and can trade apart.",
+    "es": "USDT.e es Tether que llegó a Avalanche a través del Avalanche Bridge en lugar de ser emitido allí por Tether. El USDt nativo ya existe en la misma cadena, por lo que ambos circulan en paralelo como tokens distintos y pueden cotizar por separado.",
+    "ca": "USDT.e és Tether que va arribar a Avalanche a través de l'Avalanche Bridge en lloc de ser emès allà per Tether. L'USDt natiu ja existeix a la mateixa cadena, de manera que tots dos circulen en paral·lel com a tokens diferents i poden cotitzar per separat."
+  },
+  "external": {
+    "coingecko": "tether-avalanche-bridged-usdt-e"
+  },
+  "pegged_to": {
+    "asset": "tether"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "Bridged"
+  ],
+  "urls": {
+    "Website": "https://tether.to"
+  }
+}
