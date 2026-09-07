@@ -1,0 +1,44 @@
+{
+  "0xFF4aF8b7046D17D7bc16e125fC736B85605b1AfB": {
+    "name": "Balancer v2 Set It and Forget ETH (USDC/WETH)",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0x3849AD7f879f8b8F5f41807dC2a6940765d8F14E": {
+    "name": "Balancer v2 Sonic Cruise Control (wS/USDC)",
+    "assets": [
+      "wrapped-sonic",
+      "usd-coin"
+    ]
+  },
+  "0x7a2284a1f44Fe05dB25CbE382475D02ee8F339a7": {
+    "name": "Balancer v2 The Old Guard (WBTC/WETH)",
+    "assets": [
+      "wrapped-bitcoin",
+      "wrapped-ether"
+    ]
+  },
+  "0xfC127Dfc32b7739a7cfFF7eD19e4c4AB3221953A": {
+    "name": "Balancer v2 Volatile Sonic Melodies (wS/USDC)",
+    "assets": [
+      "wrapped-sonic",
+      "usd-coin"
+    ]
+  },
+  "0x1DCC33704eb019bA2AcE6705210195BaBF138a0E": {
+    "name": "Balancer v2 Volatile Sonic Melodies 0.35-0.65 (wS/USDC)",
+    "assets": [
+      "wrapped-sonic",
+      "usd-coin"
+    ]
+  },
+  "0xA4c937817f99829aC4003a3475f17a2F0d6eAF7c": {
+    "name": "Balancer v3 Hope Floats, Liquidity Readjusts (wS/USDC)",
+    "assets": [
+      "wrapped-sonic",
+      "usd-coin"
+    ]
+  }
+}

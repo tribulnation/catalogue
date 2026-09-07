@@ -1,4 +1,111 @@
 {
+  "0x3de27EFa2F1AA663Ae5D458857e731c129069F29": {
+    "name": "Balancer v2 20wstETH-80AAVE",
+    "assets": [
+      "wrapped-staked-ether",
+      "aave"
+    ]
+  },
+  "0x96646936b91d6B9D7D0c47C496AfBF3D6ec7B6f8": {
+    "name": "Balancer v2 50 USDC 50 WETH",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0xA6F548DF93de924d73be7D25dC02554c6bD66dB5": {
+    "name": "Balancer v2 50 WBTC 50 WETH",
+    "assets": [
+      "wrapped-bitcoin",
+      "wrapped-ether"
+    ]
+  },
+  "0x92762B42A06dCDDDc5B7362Cfb01E631c4D44B40": {
+    "name": "Balancer v2 50COW-50GNO",
+    "assets": [
+      "gnosis",
+      "cow-protocol"
+    ]
+  },
+  "0xde8C195Aa41C11a0c4787372deFBbDdAa31306D2": {
+    "name": "Balancer v2 50COW-50WETH",
+    "assets": [
+      "wrapped-ether",
+      "cow-protocol"
+    ]
+  },
+  "0x0b09deA16768f0799065C475bE02919503cB2a35": {
+    "name": "Balancer v2 60 WETH 40 DAI",
+    "assets": [
+      "dai",
+      "wrapped-ether"
+    ]
+  },
+  "0x5c6Ee304399DBdB9C8Ef030aB642B10820DB8F56": {
+    "name": "Balancer v2 80 BAL 20 WETH",
+    "assets": [
+      "balancer",
+      "wrapped-ether"
+    ]
+  },
+  "0x8353157092ED8Be69a9DF8F95af097bbF33Cb2aF": {
+    "name": "Balancer v2 GHO/USDT/USDC",
+    "assets": [
+      "gho",
+      "usd-coin",
+      "tether"
+    ]
+  },
+  "0xbDA917A67c7d9AE67DA92C4Ea87E10e5D6C11b54": {
+    "name": "Balancer v3 50WETH 50EIGEN",
+    "assets": [
+      "wrapped-ether",
+      "eigen-layer"
+    ]
+  },
+  "0x84f2195dC84d540a3AB92e659603D770014F0440": {
+    "name": "Balancer v3 AutoRange WETH-USDC - C",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0x6B61D8680C4F9E560c8306807908553f95c749C5": {
+    "name": "Balancer v3 Safe Haven-BTC:PAXG:USDC",
+    "assets": [
+      "wrapped-bitcoin",
+      "pax-gold",
+      "usd-coin"
+    ]
+  },
+  "0x9Dd1C8738D3A0f74EC4dDdf2C68540dD5e5D3d11": {
+    "name": "Balancer v3 WETH EIGEN 0.1%",
+    "assets": [
+      "wrapped-ether",
+      "eigen-layer"
+    ]
+  },
+  "0x16e60237392B98cc59684b5b9D75eFa9CA67ddD4": {
+    "name": "Balancer v3 WETH EIGEN 0.1% (2)",
+    "assets": [
+      "wrapped-ether",
+      "eigen-layer"
+    ]
+  },
+  "0x290326804Eaa35CAeDd506b6Ea27CD96573cD16E": {
+    "name": "Balancer v3 WETH EIGEN 0.1% (3)",
+    "assets": [
+      "wrapped-ether",
+      "eigen-layer"
+    ]
+  },
+  "0x45a77496170E66B5E5bd283bba0D0420e21A8fea": {
+    "name": "Balancer v3 WETH EIGEN 0.1% (4)",
+    "assets": [
+      "wrapped-ether",
+      "eigen-layer"
+    ]
+  },
   "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490": {
     "name": "Curve 3pool",
     "assets": [
@@ -7,19 +114,11 @@
       "tether"
     ]
   },
-  "0x06325440D014e39736583c165C2963BA99fAf14E": {
-    "name": "Curve stETH Pool",
+  "0x13e12BB0E6A2f1A3d6901a59a9d585e89A6243e1": {
+    "name": "Curve crvUSD/frxUSD",
     "assets": [
-      "ethereum",
-      "lido-staked-ether"
-    ]
-  },
-  "0xf5f5B97624542D72A9E06f04804Bf81baA15e2B4": {
-    "name": "Curve TricryptoUSDT",
-    "assets": [
-      "tether",
-      "wrapped-bitcoin",
-      "ethereum"
+      "curve-usd",
+      "frax-usd"
     ]
   },
   "0x4DEcE678ceceb27446b35C672dC7d61F30bAD69E": {
@@ -47,42 +146,14 @@
     "name": "Curve crvUSD/WETH",
     "assets": [
       "curve-usd",
-      "ethereum"
+      "wrapped-ether"
     ]
   },
-  "0x862CB4E988FB66E72f128d1183829f8c05B6c6A0": {
-    "name": "Curve Yield Basis cbBTC",
+  "0x3A283D9c08E8b55966afb64C515f5143cf907611": {
+    "name": "Curve CVX-ETH",
     "assets": [
-      "curve-usd",
-      "coinbase-wrapped-bitcoin"
-    ]
-  },
-  "0x83f24023d15d835a213df24fd309c47dAb5BEb32": {
-    "name": "Curve Yield Basis cbBTC (2)",
-    "assets": [
-      "curve-usd",
-      "coinbase-wrapped-bitcoin"
-    ]
-  },
-  "0x13e12BB0E6A2f1A3d6901a59a9d585e89A6243e1": {
-    "name": "Curve crvUSD/frxUSD",
-    "assets": [
-      "curve-usd",
-      "frax-usd"
-    ]
-  },
-  "0xD001aE433f254283FeCE51d4ACcE8c53263aa186": {
-    "name": "Curve RLUSD/USDC",
-    "assets": [
-      "ripple-usd",
-      "usd-coin"
-    ]
-  },
-  "0x383E6b4437b59fff47B619CBA855CA29342A8559": {
-    "name": "Curve PayPool",
-    "assets": [
-      "paypal-usd",
-      "usd-coin"
+      "wrapped-ether",
+      "convex-finance"
     ]
   },
   "0x744793B5110f6ca9cC7CDfe1CE16677c3Eb192ef": {
@@ -99,11 +170,97 @@
       "ethena-usde"
     ]
   },
-  "0x99f5aCc8EC2Da2BC0771c32814EFF52b712de1E5": {
-    "name": "Curve/Yearn Curve",
+  "0x383E6b4437b59fff47B619CBA855CA29342A8559": {
+    "name": "Curve PayPool",
     "assets": [
-      "curve-dao",
-      "yearn-curve-dao"
+      "paypal-usd",
+      "usd-coin"
+    ]
+  },
+  "0xD001aE433f254283FeCE51d4ACcE8c53263aa186": {
+    "name": "Curve RLUSD/USDC",
+    "assets": [
+      "ripple-usd",
+      "usd-coin"
+    ]
+  },
+  "0xF292eB6c5dcb693Eaaf392D0562a01C3710E5978": {
+    "name": "Curve sfrxUSD/frxUSD",
+    "assets": [
+      "staked-frax-usd",
+      "frax-usd"
+    ]
+  },
+  "0x06325440D014e39736583c165C2963BA99fAf14E": {
+    "name": "Curve stETH Pool",
+    "assets": [
+      "ethereum",
+      "lido-staked-ether"
+    ]
+  },
+  "0x21E27a5E5513D6e65C4f830167390997aA84843a": {
+    "name": "Curve stETH-ng",
+    "assets": [
+      "ethereum",
+      "lido-staked-ether"
+    ]
+  },
+  "0xf5f5B97624542D72A9E06f04804Bf81baA15e2B4": {
+    "name": "Curve TricryptoUSDT",
+    "assets": [
+      "tether",
+      "wrapped-bitcoin",
+      "wrapped-ether"
+    ]
+  },
+  "0xc4AD29ba4B3c580e6D59105FFf484999997675Ff": {
+    "name": "Curve USD-BTC-ETH (USDT/WBTC/WETH)",
+    "assets": [
+      "tether",
+      "wrapped-bitcoin",
+      "wrapped-ether"
+    ]
+  },
+  "0xc061caa073f3d95F80f8e5428d32D2d76F5e1622": {
+    "name": "Curve USDG/USDC",
+    "assets": [
+      "global-dollar",
+      "usd-coin"
+    ]
+  },
+  "0xC2921134073151490193AC7369313c8e0b08e1E7": {
+    "name": "Curve USDtb-USDC",
+    "assets": [
+      "usd-coin",
+      "ethena-usdtb"
+    ]
+  },
+  "0xD9FF8396554A0d18B2CFbeC53e1979b7ecCe8373": {
+    "name": "Curve YB WBTC (crvUSD/WBTC)",
+    "assets": [
+      "curve-usd",
+      "wrapped-bitcoin"
+    ]
+  },
+  "0x862CB4E988FB66E72f128d1183829f8c05B6c6A0": {
+    "name": "Curve Yield Basis cbBTC",
+    "assets": [
+      "curve-usd",
+      "coinbase-wrapped-bitcoin"
+    ]
+  },
+  "0x83f24023d15d835a213df24fd309c47dAb5BEb32": {
+    "name": "Curve Yield Basis cbBTC (2)",
+    "assets": [
+      "curve-usd",
+      "coinbase-wrapped-bitcoin"
+    ]
+  },
+  "0x656341Ef90b622c6634e0573772FfB7f3669b9f3": {
+    "name": "Curve Yield Basis WETH (crvUSD/WETH)",
+    "assets": [
+      "curve-usd",
+      "wrapped-ether"
     ]
   },
   "0x4f493B7dE8aAC7d55F71853688b1F7C8F0243C85": {
@@ -111,6 +268,209 @@
     "assets": [
       "tether",
       "usd-coin"
+    ]
+  },
+  "0x99f5aCc8EC2Da2BC0771c32814EFF52b712de1E5": {
+    "name": "Curve/Yearn Curve",
+    "assets": [
+      "curve-dao",
+      "yearn-curve-dao"
+    ]
+  },
+  "0x2E8135bE71230c6B1B4045696d41C09Db0414226": {
+    "name": "PancakeSwap v2 USDC/WETH",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0x4AB6702B3Ed3877e9b1f203f90cbEF13d663B0e8": {
+    "name": "PancakeSwap v2 WBTC/WETH",
+    "assets": [
+      "wrapped-bitcoin",
+      "wrapped-ether"
+    ]
+  },
+  "0x17C1Ae82D99379240059940093762c5e4539aba5": {
+    "name": "PancakeSwap v2 WETH/USDT",
+    "assets": [
+      "wrapped-ether",
+      "tether"
+    ]
+  },
+  "0xD75EA151a61d06868E31F8988D28DFE5E9df57B4": {
+    "name": "SushiSwap v2 AAVE/WETH",
+    "assets": [
+      "aave",
+      "wrapped-ether"
+    ]
+  },
+  "0x31503dcb60119A812feE820bb7042752019F2355": {
+    "name": "SushiSwap v2 COMP/WETH",
+    "assets": [
+      "compound",
+      "wrapped-ether"
+    ]
+  },
+  "0x05767d9EF41dC40689678fFca0608878fb3dE906": {
+    "name": "SushiSwap v2 CVX/WETH",
+    "assets": [
+      "convex-finance",
+      "wrapped-ether"
+    ]
+  },
+  "0xC3D03e4F041Fd4cD388c549Ee2A29a9E5075882f": {
+    "name": "SushiSwap v2 DAI/WETH",
+    "assets": [
+      "dai",
+      "wrapped-ether"
+    ]
+  },
+  "0x6469B34a2a4723163C4902dbBdEa728D20693C12": {
+    "name": "SushiSwap v2 NEAR/WETH",
+    "assets": [
+      "near",
+      "wrapped-ether"
+    ]
+  },
+  "0x37922C69b08BABcCEaE735A31235c81f1d1e8E43": {
+    "name": "SushiSwap v2 PENDLE/WETH",
+    "assets": [
+      "pendle",
+      "wrapped-ether"
+    ]
+  },
+  "0x795065dCc9f64b5614C407a6EFDC400DA6221FB0": {
+    "name": "SushiSwap v2 SUSHI/WETH",
+    "assets": [
+      "sushi",
+      "wrapped-ether"
+    ]
+  },
+  "0x4A86C01d67965f8cB3d0AAA2c655705E64097C31": {
+    "name": "SushiSwap v2 SYN/WETH",
+    "assets": [
+      "synapse",
+      "wrapped-ether"
+    ]
+  },
+  "0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4": {
+    "name": "SushiSwap v2 UMA/WETH",
+    "assets": [
+      "uma",
+      "wrapped-ether"
+    ]
+  },
+  "0x397FF1542f962076d0BFE58eA045FfA2d347ACa0": {
+    "name": "SushiSwap v2 USDC/WETH",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0xCEfF51756c56CeFFCA006cD410B03FFC46dd3a58": {
+    "name": "SushiSwap v2 WBTC/WETH",
+    "assets": [
+      "wrapped-bitcoin",
+      "wrapped-ether"
+    ]
+  },
+  "0xa1181481bEb2dc5De0DaF2c85392d81C704BF75D": {
+    "name": "SushiSwap v2 WETH/ENS",
+    "assets": [
+      "wrapped-ether",
+      "ethereum-name-service"
+    ]
+  },
+  "0x06da0fd433C1A5d7a4faa01111c044910A184553": {
+    "name": "SushiSwap v2 WETH/USDT",
+    "assets": [
+      "wrapped-ether",
+      "tether"
+    ]
+  },
+  "0x088ee5007C98a9677165D78dD2109AE4a3D04d0C": {
+    "name": "SushiSwap v2 YFI/WETH",
+    "assets": [
+      "yearn-finance",
+      "wrapped-ether"
+    ]
+  },
+  "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11": {
+    "name": "Uniswap v2 DAI/WETH",
+    "assets": [
+      "dai",
+      "wrapped-ether"
+    ]
+  },
+  "0xa2107FA5B38d9bbd2C461D6EDf11B11A50F6b974": {
+    "name": "Uniswap v2 LINK/WETH",
+    "assets": [
+      "chainlink",
+      "wrapped-ether"
+    ]
+  },
+  "0x9C4Fe5FFD9A9fC5678cFBd93Aa2D4FD684b67C4C": {
+    "name": "Uniswap v2 PAXG/WETH",
+    "assets": [
+      "pax-gold",
+      "wrapped-ether"
+    ]
+  },
+  "0xA43fe16908251ee70EF74718545e4FE6C5cCEc9f": {
+    "name": "Uniswap v2 PEPE/WETH",
+    "assets": [
+      "pepe",
+      "wrapped-ether"
+    ]
+  },
+  "0xd3d2E2692501A5c9Ca623199D38826e513033a17": {
+    "name": "Uniswap v2 UNI/WETH",
+    "assets": [
+      "uniswap",
+      "wrapped-ether"
+    ]
+  },
+  "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f": {
+    "name": "Uniswap v2 USDC/USDT",
+    "assets": [
+      "usd-coin",
+      "tether"
+    ]
+  },
+  "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc": {
+    "name": "Uniswap v2 USDC/WETH",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0xBb2b8038a1640196FbE3e38816F3e67Cba72D940": {
+    "name": "Uniswap v2 WBTC/WETH",
+    "assets": [
+      "wrapped-bitcoin",
+      "wrapped-ether"
+    ]
+  },
+  "0xca7c2771D248dCBe09EABE0CE57A62e18dA178c0": {
+    "name": "Uniswap v2 WETH/FLOKI",
+    "assets": [
+      "wrapped-ether",
+      "floki"
+    ]
+  },
+  "0x52c77b0CB827aFbAD022E6d6CAF2C44452eDbc39": {
+    "name": "Uniswap v2 WETH/SPX",
+    "assets": [
+      "wrapped-ether",
+      "spx6900"
+    ]
+  },
+  "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852": {
+    "name": "Uniswap v2 WETH/USDT",
+    "assets": [
+      "wrapped-ether",
+      "tether"
     ]
   }
 }

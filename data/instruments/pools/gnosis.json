@@ -1,0 +1,66 @@
+{
+  "0x21d4c792Ea7E38e0D0819c2011A2b1Cb7252Bd99": {
+    "name": "Balancer v2 50COW-50GNO",
+    "assets": [
+      "cow-protocol",
+      "gnosis"
+    ]
+  },
+  "0x4cdABE9E07ca393943AcFB9286bBbd0D0a310Ff6": {
+    "name": "Balancer v2 50wstETH-50COW",
+    "assets": [
+      "cow-protocol",
+      "wrapped-staked-ether"
+    ]
+  },
+  "0x4683e340a8049261057D5aB1b29C8d840E75695e": {
+    "name": "Balancer v2 50wstETH-50GNO",
+    "assets": [
+      "wrapped-staked-ether",
+      "gnosis"
+    ]
+  },
+  "0x8DD4df4Ce580b9644437f3375e54f1ab09808228": {
+    "name": "Balancer v2 Gyroscope ECLP wstETH/WETH",
+    "assets": [
+      "wrapped-ether",
+      "wrapped-staked-ether"
+    ]
+  },
+  "0x8189c4c96826D016A99986394103DFa9aE41e7ee": {
+    "name": "Balancer v2 WXDAI-GNO",
+    "assets": [
+      "gnosis",
+      "wrapped-xdai"
+    ]
+  },
+  "0x71663f74490673706D7b8860B7D02b7c76160bAe": {
+    "name": "CoW AMM 50GNO-50COW",
+    "assets": [
+      "gnosis",
+      "cow-protocol"
+    ]
+  },
+  "0x9C9DDda2a6bda693856b9081BAeBBe1444fFCC37": {
+    "name": "Curve USDCe/WXDAI",
+    "assets": [
+      "bridged-usd-coin",
+      "wrapped-xdai"
+    ]
+  },
+  "0x85d62Ba914912803588FCD5A722483235B785263": {
+    "name": "Curve WETH/wstETH",
+    "assets": [
+      "wrapped-ether",
+      "wrapped-staked-ether"
+    ]
+  },
+  "0x1337BedC9D22ecbe766dF105c9623922A27963EC": {
+    "name": "Curve wxDAI/USDC/USDT",
+    "assets": [
+      "wrapped-xdai",
+      "usd-coin",
+      "tether"
+    ]
+  }
+}

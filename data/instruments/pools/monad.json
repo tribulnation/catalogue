@@ -1,0 +1,23 @@
+{
+  "0x696e219bc37954154291EbcD66b40BA0b1A26148": {
+    "name": "Balancer v3 AutoRange WMON-USDC",
+    "assets": [
+      "wrapped-monad",
+      "usd-coin"
+    ]
+  },
+  "0xAD4779c425FeFdf8c0FddF72EC53BE34BAe0809d": {
+    "name": "Balancer v3 AutoRange WMON-WBTC",
+    "assets": [
+      "wrapped-bitcoin",
+      "wrapped-monad"
+    ]
+  },
+  "0x067AbD928147282Fb06475a09f6BE22Cee933EA3": {
+    "name": "Balancer v3 AutoRange WMON-WETH",
+    "assets": [
+      "wrapped-monad",
+      "wrapped-ether"
+    ]
+  }
+}

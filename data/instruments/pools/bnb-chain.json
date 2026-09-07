@@ -1,0 +1,199 @@
+{
+  "0xA5E0E46462970C9Ee8C2ECadcde254c483748Ec4": {
+    "name": "Curve b3pool (USDT/USDC/FDUSD)",
+    "assets": [
+      "tether",
+      "usd-coin",
+      "first-digital-usd"
+    ]
+  },
+  "0x47232815af999BC552bc323e8030346C55FC04cB": {
+    "name": "Curve WBNB/USDT",
+    "assets": [
+      "wrapped-bnb",
+      "tether"
+    ]
+  },
+  "0x28415ff2C35b65B9E5c7de82126b4015ab9d031F": {
+    "name": "PancakeSwap v2 ADA/WBNB",
+    "assets": [
+      "binance-peg-cardano",
+      "wrapped-bnb"
+    ]
+  },
+  "0xF45cd219aEF8618A92BAa7aD848364a158a24F33": {
+    "name": "PancakeSwap v2 BTCB/BUSD",
+    "assets": [
+      "binance-bitcoin",
+      "binance-usd"
+    ]
+  },
+  "0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082": {
+    "name": "PancakeSwap v2 BTCB/WBNB",
+    "assets": [
+      "binance-bitcoin",
+      "wrapped-bnb"
+    ]
+  },
+  "0x804678fa97d91B974ec2af3c843270886528a9E6": {
+    "name": "PancakeSwap v2 Cake/BUSD",
+    "assets": [
+      "pancakeswap",
+      "binance-usd"
+    ]
+  },
+  "0xA39Af17CE4a8eb807E076805Da1e2B8EA7D0755b": {
+    "name": "PancakeSwap v2 Cake/USDT",
+    "assets": [
+      "pancakeswap",
+      "tether"
+    ]
+  },
+  "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0": {
+    "name": "PancakeSwap v2 Cake/WBNB",
+    "assets": [
+      "pancakeswap",
+      "wrapped-bnb"
+    ]
+  },
+  "0x66FDB2eCCfB58cF098eaa419e5EfDe841368e489": {
+    "name": "PancakeSwap v2 DAI/BUSD",
+    "assets": [
+      "dai",
+      "binance-usd"
+    ]
+  },
+  "0xac109C8025F272414fd9e2faA805a583708A017f": {
+    "name": "PancakeSwap v2 DOGE/WBNB",
+    "assets": [
+      "binance-peg-dogecoin",
+      "wrapped-bnb"
+    ]
+  },
+  "0xDd5bAd8f8b360d76d12FdA230F8BAF42fe0022CF": {
+    "name": "PancakeSwap v2 DOT/WBNB",
+    "assets": [
+      "binance-peg-polkadot",
+      "wrapped-bnb"
+    ]
+  },
+  "0xD171B26E4484402de70e3Ea256bE5A2630d7e88D": {
+    "name": "PancakeSwap v2 ETH/BTCB",
+    "assets": [
+      "binance-peg-ethereum",
+      "binance-bitcoin"
+    ]
+  },
+  "0xEa26B78255Df2bBC31C1eBf60010D78670185bD0": {
+    "name": "PancakeSwap v2 ETH/USDC",
+    "assets": [
+      "binance-peg-ethereum",
+      "usd-coin"
+    ]
+  },
+  "0x74E4716E431f45807DCF19f284c7aA99F18a4fbc": {
+    "name": "PancakeSwap v2 ETH/WBNB",
+    "assets": [
+      "binance-peg-ethereum",
+      "wrapped-bnb"
+    ]
+  },
+  "0x007EC643C7Cc33a70C083fC305c283dd009C8b94": {
+    "name": "PancakeSwap v2 GMT/USDC",
+    "assets": [
+      "green-metaverse-token",
+      "usd-coin"
+    ]
+  },
+  "0x1BdCebcA3b93af70b58C41272AEa2231754B23ca": {
+    "name": "PancakeSwap v2 INJ/WBNB",
+    "assets": [
+      "binance-peg-injective",
+      "wrapped-bnb"
+    ]
+  },
+  "0x71b01eBdDD797c8E9E0b003ea2f4FD207fBF46cC": {
+    "name": "PancakeSwap v2 LTC/WBNB",
+    "assets": [
+      "binance-peg-litecoin",
+      "wrapped-bnb"
+    ]
+  },
+  "0x3DcB1787a95D2ea0Eb7d00887704EeBF0D79bb13": {
+    "name": "PancakeSwap v2 TWT/WBNB",
+    "assets": [
+      "trust-wallet-token",
+      "wrapped-bnb"
+    ]
+  },
+  "0x2354ef4DF11afacb85a5C7f98B624072ECcddbB1": {
+    "name": "PancakeSwap v2 USDC/BUSD",
+    "assets": [
+      "usd-coin",
+      "binance-usd"
+    ]
+  },
+  "0x7EFaEf62fDdCCa950418312c6C91Aef321375A00": {
+    "name": "PancakeSwap v2 USDT/BUSD",
+    "assets": [
+      "tether",
+      "binance-usd"
+    ]
+  },
+  "0xEc6557348085Aa57C72514D67070dC863C0a5A8c": {
+    "name": "PancakeSwap v2 USDT/USDC",
+    "assets": [
+      "tether",
+      "usd-coin"
+    ]
+  },
+  "0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE": {
+    "name": "PancakeSwap v2 USDT/WBNB",
+    "assets": [
+      "tether",
+      "wrapped-bnb"
+    ]
+  },
+  "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16": {
+    "name": "PancakeSwap v2 WBNB/BUSD",
+    "assets": [
+      "wrapped-bnb",
+      "binance-usd"
+    ]
+  },
+  "0x824eb9faDFb377394430d2744fa7C42916DE3eCe": {
+    "name": "PancakeSwap v2 WBNB/LINK",
+    "assets": [
+      "wrapped-bnb",
+      "chainlink"
+    ]
+  },
+  "0x942b294e59a8c47a0F7F20DF105B082710F7C305": {
+    "name": "PancakeSwap v2 WBNB/SFP",
+    "assets": [
+      "wrapped-bnb",
+      "safepal"
+    ]
+  },
+  "0x014608E87AF97a054C9a49f81E1473076D51d9a3": {
+    "name": "PancakeSwap v2 WBNB/UNI",
+    "assets": [
+      "wrapped-bnb",
+      "uniswap"
+    ]
+  },
+  "0x6a445cEB72c8B1751755386c3990055ff92e14A0": {
+    "name": "PancakeSwap v2 WIN/BUSD",
+    "assets": [
+      "winklink",
+      "binance-usd"
+    ]
+  },
+  "0x03F18135c44C64ebFdCBad8297fe5bDafdBbdd86": {
+    "name": "PancakeSwap v2 XRP/WBNB",
+    "assets": [
+      "binance-peg-xrp",
+      "wrapped-bnb"
+    ]
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "0xf213F2D02837012dC0236cC105061e121bB03e37": {
+    "name": "Aerodrome Stable DOLA/USDC",
+    "assets": [
+      "dola-usd",
+      "usd-coin"
+    ]
+  },
+  "0x7A034374C89C463DD65D8C9BCfe63BcBCED41f4F": {
+    "name": "Aerodrome Stable eUSD/USDC",
+    "assets": [
+      "usd-coin",
+      "electronic-usd"
+    ]
+  },
+  "0x2223F9FE624F69Da4D8256A7bCc9104FBA7F8f75": {
+    "name": "Aerodrome Volatile AERO/USDbC",
+    "assets": [
+      "aerodrome",
+      "bridged-usd-coin"
+    ]
+  },
+  "0x6cDcb1C4A4D1C3C6d054b27AC5B77e89eAFb971d": {
+    "name": "Aerodrome Volatile USDC/AERO",
+    "assets": [
+      "usd-coin",
+      "aerodrome"
+    ]
+  },
+  "0xb909F567c5c2Bb1A4271349708CC4637D7318b4A": {
+    "name": "Aerodrome Volatile VIRTUAL/cbBTC",
+    "assets": [
+      "virtuals-protocol",
+      "coinbase-wrapped-bitcoin"
+    ]
+  },
+  "0x21594b992F68495dD28d605834b58889d0a727c7": {
+    "name": "Aerodrome Volatile VIRTUAL/WETH",
+    "assets": [
+      "virtuals-protocol",
+      "wrapped-ether"
+    ]
+  },
+  "0x7f670f78B17dEC44d5Ef68a48740b6f8849cc2e6": {
+    "name": "Aerodrome Volatile WETH/AERO",
+    "assets": [
+      "wrapped-ether",
+      "aerodrome"
+    ]
+  },
+  "0x2578365B3dfA7FfE60108e181EFb79FeDdec2319": {
+    "name": "Aerodrome Volatile WETH/cbBTC",
+    "assets": [
+      "wrapped-ether",
+      "coinbase-wrapped-bitcoin"
+    ]
+  },
+  "0xe96a4E9EA3a2C6Db214174738a19Eb7Dbb8A3069": {
+    "name": "Aerodrome Volatile WETH/SPX",
+    "assets": [
+      "wrapped-ether",
+      "spx6900"
+    ]
+  },
+  "0xB4885Bc63399BF5518b994c1d0C153334Ee579D0": {
+    "name": "Aerodrome Volatile WETH/USDbC",
+    "assets": [
+      "wrapped-ether",
+      "bridged-usd-coin"
+    ]
+  },
+  "0xcDAC0d6c6C59727a65F871236188350531885C43": {
+    "name": "Aerodrome Volatile WETH/USDC",
+    "assets": [
+      "wrapped-ether",
+      "usd-coin"
+    ]
+  },
+  "0x01784ef301D79e4B2DF3a21ad9a536d4cF09A5Ce": {
+    "name": "Aerodrome Volatile WETH/VVV",
+    "assets": [
+      "wrapped-ether",
+      "venice-token"
+    ]
+  },
+  "0xA6385c73961dd9C58db2EF0c4EB98cE4B60651e8": {
+    "name": "Aerodrome Volatile WETH/wstETH",
+    "assets": [
+      "wrapped-ether",
+      "wrapped-staked-ether"
+    ]
+  },
+  "0x1524a14C55f097bb54F0b24383f3ae3e3743804A": {
+    "name": "Aerodrome Volatile YFI/wstETH",
+    "assets": [
+      "yearn-finance",
+      "wrapped-staked-ether"
+    ]
+  },
+  "0x007bb7a4bfc214DF06474E39142288E99540f2b3": {
+    "name": "Balancer v2 20WETH-80IMO",
+    "assets": [
+      "wrapped-ether",
+      "imo"
+    ]
+  },
+  "0x6FbFcf88DB1aADA31F34215b2a1Df7fafb4883e9": {
+    "name": "Balancer v2 DAI-USDbC Stable Pool",
+    "assets": [
+      "dai",
+      "bridged-usd-coin"
+    ]
+  },
+  "0x97a3ecE859d9C1C41E225fbD6F10359dae7a73c9": {
+    "name": "Balancer v2 Gyroscope Dyn ECLP WETH/USDC",
+    "assets": [
+      "wrapped-ether",
+      "usd-coin"
+    ]
+  },
+  "0x8670583BF7106c0Cf850552C027fFa2C21be0607": {
+    "name": "Balancer v2 Gyroscope Dyn ECLP WETH/USDC (2)",
+    "assets": [
+      "wrapped-ether",
+      "usd-coin"
+    ]
+  },
+  "0x2C0Ea123a2C7E2175f8204a8Ff2a37187eED24Ff": {
+    "name": "Balancer v2 Gyroscope Dyn ECLP WETH/USDC (3)",
+    "assets": [
+      "wrapped-ether",
+      "usd-coin"
+    ]
+  },
+  "0x3f31e580Eb590DaB16a10A0808D33bCbc5d3D608": {
+    "name": "Balancer v3 AutoRange WETH-USDC",
+    "assets": [
+      "wrapped-ether",
+      "usd-coin"
+    ]
+  },
+  "0xb4161AeA25BD6C5c8590aD50deB4Ca752532F05D": {
+    "name": "Balancer v3 BASE MACRO - WETH:USDC:AERO:cbBTC",
+    "assets": [
+      "wrapped-ether",
+      "usd-coin",
+      "aerodrome",
+      "coinbase-wrapped-bitcoin"
+    ]
+  },
+  "0x608382D1627c1F2F939c87d14Fdb62D5bCBF561F": {
+    "name": "Balancer v3 USDC EURC",
+    "assets": [
+      "euro-coin",
+      "usd-coin"
+    ]
+  },
+  "0xb42a745C8B3Af214000c31b8EeFCf4F682c8B31e": {
+    "name": "Curve BTC/USD (cbBTC/USDC)",
+    "assets": [
+      "coinbase-wrapped-bitcoin",
+      "usd-coin"
+    ]
+  },
+  "0x4aC0d61413DdF98c39147Ac28e1D25318a0234f5": {
+    "name": "Curve cbbtc/weth StableNG",
+    "assets": [
+      "coinbase-wrapped-bitcoin",
+      "wrapped-ether"
+    ]
+  },
+  "0x6DfE79cecE4f64c1a34F48cF5802492aB595257E": {
+    "name": "Curve CRV/crvUSD",
+    "assets": [
+      "curve-dao",
+      "curve-usd"
+    ]
+  },
+  "0x8bb3d81Aabb1361Bf639bB07c53abe1C7fE53f2D": {
+    "name": "Curve frxUSD/USDC",
+    "assets": [
+      "frax-usd",
+      "usd-coin"
+    ]
+  },
+  "0x3CeA080D303bD105c48cA4C24D8426da99f75524": {
+    "name": "Curve USDC/AERO A20-15",
+    "assets": [
+      "usd-coin",
+      "aerodrome"
+    ]
+  },
+  "0x1C53971800C111a32B7889177C56E3488cfe0BE0": {
+    "name": "Curve USDC/EURC A50-5",
+    "assets": [
+      "usd-coin",
+      "euro-coin"
+    ]
+  },
+  "0xf96A0eC41AE502d2Bc58B7D5838ED39A33Ae1d9f": {
+    "name": "Curve USDC/WETH A10-5 ng",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0xb387837E3E9Ff063bF407632f18ff9232dC66ea7": {
+    "name": "Curve USDC/WETH A20-5 ng",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0xF2EcC3A2dEFB4ECC1Ac510CBbc405a539A990BE4": {
+    "name": "Curve USDC/WETH A3-5 ng",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0xbc2c6645431F7C4A96748f2c9f290B909F8A1113": {
+    "name": "Curve USDC/WETH A40-5 ng",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0x1090a57182746d1b4Dad650459d474fe8a023cec": {
+    "name": "Curve USDC/WETH A5-5 ng",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0x335BE1a364eA7f5DA30AaaF062103AB91bF44dD0": {
+    "name": "Curve USDPOOL (USDC/USDT)",
+    "assets": [
+      "usd-coin",
+      "tether"
+    ]
+  },
+  "0xcF846b006925F9E60A52373fbfA81595663A2ee4": {
+    "name": "Curve VVV/WBTC",
+    "assets": [
+      "venice-token",
+      "wrapped-bitcoin"
+    ]
+  },
+  "0xb9F3725202eEc10B2a126d1245182b25F6Ed3795": {
+    "name": "Curve weth/usd StableNG (WETH/USDC)",
+    "assets": [
+      "wrapped-ether",
+      "usd-coin"
+    ]
+  },
+  "0x8AD02D9Dd1705098cf22724390e62DfA6a2dce76": {
+    "name": "PancakeSwap v2 WETH/COW",
+    "assets": [
+      "wrapped-ether",
+      "cow-protocol"
+    ]
+  },
+  "0xE5947c01fb3A4B6703f9416c29Ff736285BFd403": {
+    "name": "Uniswap v2 USDC/cbBTC",
+    "assets": [
+      "usd-coin",
+      "coinbase-wrapped-bitcoin"
+    ]
+  },
+  "0xE31c372a7Af875b3B5E0F3713B17ef51556da667": {
+    "name": "Uniswap v2 VIRTUAL/WETH",
+    "assets": [
+      "virtuals-protocol",
+      "wrapped-ether"
+    ]
+  },
+  "0x88A43bbDF9D098eEC7bCEda4e2494615dfD9bB9C": {
+    "name": "Uniswap v2 WETH/USDC",
+    "assets": [
+      "wrapped-ether",
+      "usd-coin"
+    ]
+  }
+}

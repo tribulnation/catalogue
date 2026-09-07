@@ -1,0 +1,259 @@
+{
+  "0x385Fd3414AfB52D5cD60E22f17826cF992060244": {
+    "name": "Balancer v2 20APE-80TEL",
+    "assets": [
+      "apecoin",
+      "telcoin"
+    ]
+  },
+  "0xCF354603A9AEbD2Ff9f33E1B04246d8Ea204ae95": {
+    "name": "Balancer v2 50 WBTC 50 WETH",
+    "assets": [
+      "wrapped-bitcoin",
+      "wrapped-ether"
+    ]
+  },
+  "0x10f21C9bD8128a29Aa785Ab2dE0d044DCdd79436": {
+    "name": "Balancer v2 50 WETH 50 USDC",
+    "assets": [
+      "bridged-usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0xdAC42eeb17758Daa38CAF9A3540c808247527aE3": {
+    "name": "Balancer v2 Gyroscope 2-CLP USDC/DAI",
+    "assets": [
+      "bridged-usd-coin",
+      "dai"
+    ]
+  },
+  "0x17f1Ef81707811eA15d9eE7c741179bbE2A63887": {
+    "name": "Balancer v2 Gyroscope 3CLP BUSD/USDC/USDT",
+    "assets": [
+      "bridged-usd-coin",
+      "binance-usd",
+      "tether"
+    ]
+  },
+  "0x3F9D253d96cb39028Bee65f5632EE62d6E059cc3": {
+    "name": "Balancer v2 Gyroscope ECLP DAI/USDC",
+    "assets": [
+      "usd-coin",
+      "dai"
+    ]
+  },
+  "0x0297e37f1873D2DAb4487Aa67cD56B58E2F27875": {
+    "name": "Balancer v2 Polygon Base Pool (WPOL/USDC/WETH/BAL)",
+    "assets": [
+      "wrapped-polygon",
+      "bridged-usd-coin",
+      "wrapped-ether",
+      "balancer"
+    ]
+  },
+  "0xce66904B68f1f070332Cbc631DE7ee98B650b499": {
+    "name": "Balancer v2 Polygon DeFi Index (LINK/WETH/BAL/AAVE)",
+    "assets": [
+      "chainlink",
+      "wrapped-ether",
+      "balancer",
+      "aave"
+    ]
+  },
+  "0x36128D5436d2d70cab39C9AF9CcE146C38554ff0": {
+    "name": "Balancer v2 Polygon DeFi Index (USDC/LINK/WETH/BAL/AAVE)",
+    "assets": [
+      "bridged-usd-coin",
+      "chainlink",
+      "wrapped-ether",
+      "balancer",
+      "aave"
+    ]
+  },
+  "0x4E7f40cD37CEE710f5e87AD72959d30ef8a01A5D": {
+    "name": "Balancer v2 Polygon SNX-GRT-USDC-WETH",
+    "assets": [
+      "bridged-usd-coin",
+      "synthetix",
+      "the-graph",
+      "wrapped-ether"
+    ]
+  },
+  "0x03cD191F589d12b0582a99808cf19851E468E6B5": {
+    "name": "Balancer v2 Polygon Tricrypto (WBTC/USDC/WETH)",
+    "assets": [
+      "wrapped-bitcoin",
+      "bridged-usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0x3bd8a254163f8328efCC4F8c36da566753462433": {
+    "name": "Balancer v2 TELxUSDC",
+    "assets": [
+      "usd-coin",
+      "telcoin"
+    ]
+  },
+  "0xE1E09ce7aAC2740846d9B6D9D56f588c65314eCB": {
+    "name": "Balancer v2 TELxWBTC",
+    "assets": [
+      "wrapped-bitcoin",
+      "telcoin"
+    ]
+  },
+  "0xcA6EFA5704f1Ae445e0EE24D9c3Ddde34c5be1C2": {
+    "name": "Balancer v2 TELxWETH",
+    "assets": [
+      "wrapped-ether",
+      "telcoin"
+    ]
+  },
+  "0x702605F43471183158938C1a3e5f5A359d7b31ba": {
+    "name": "Balancer v2 Trustbar Bitcoin Weth Usdc Pool (WBTC/USDC/WETH)",
+    "assets": [
+      "wrapped-bitcoin",
+      "bridged-usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0x5225010A0AE133B357861782B0B865a48471b2C5": {
+    "name": "Curve crvUSD/USDC",
+    "assets": [
+      "curve-usd",
+      "usd-coin"
+    ]
+  },
+  "0x864490Cf55dc2Dee3f0ca4D06F5f80b2BB154a03": {
+    "name": "Curve crvUSD/USDC.e",
+    "assets": [
+      "curve-usd",
+      "bridged-usd-coin"
+    ]
+  },
+  "0xA70Af99bFF6b168327f9D1480e29173e757c7904": {
+    "name": "Curve crvUSD/USDT",
+    "assets": [
+      "curve-usd",
+      "tether"
+    ]
+  },
+  "0x25777cbc3673E7eDFB4f4DC4359c5Ea6Ab07Af3E": {
+    "name": "Curve FrxUSD USDT0 v0",
+    "assets": [
+      "tether",
+      "frax-usd"
+    ]
+  },
+  "0x5BC930b8f81F4cEEE3E3527159C3bDF453BcaAe9": {
+    "name": "Curve FrxUSD USDT0 v1",
+    "assets": [
+      "tether",
+      "frax-usd"
+    ]
+  },
+  "0xD5fAC46705cD3455eFCD71694258226c0e37038b": {
+    "name": "Curve SDT/ETH",
+    "assets": [
+      "stakedao-token",
+      "wrapped-ether"
+    ]
+  },
+  "0x396E655C309676cAF0acf4607a868e0CDed876dB": {
+    "name": "SushiSwap v2 CRV/WETH",
+    "assets": [
+      "curve-dao",
+      "wrapped-ether"
+    ]
+  },
+  "0x1cedA73C034218255F50eF8a2c282E6B4c301d60": {
+    "name": "SushiSwap v2 GRT/WETH",
+    "assets": [
+      "the-graph",
+      "wrapped-ether"
+    ]
+  },
+  "0x74D23F21F780CA26B47Db16B0504F2e3832b9321": {
+    "name": "SushiSwap v2 LINK/WETH",
+    "assets": [
+      "chainlink",
+      "wrapped-ether"
+    ]
+  },
+  "0xCD578F016888B57F1b1e3f887f392F0159E26747": {
+    "name": "SushiSwap v2 USDC/DAI",
+    "assets": [
+      "bridged-usd-coin",
+      "dai"
+    ]
+  },
+  "0x4B1F1e2435A9C96f7330FAea190Ef6A7C8D70001": {
+    "name": "SushiSwap v2 USDC/USDT0",
+    "assets": [
+      "bridged-usd-coin",
+      "tether"
+    ]
+  },
+  "0x34965ba0ac2451A34a0471F04CCa3F990b8dea27": {
+    "name": "SushiSwap v2 USDC/WETH",
+    "assets": [
+      "bridged-usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0xE62Ec2e799305E0D367b0Cc3ee2CdA135bF89816": {
+    "name": "SushiSwap v2 WBTC/WETH",
+    "assets": [
+      "wrapped-bitcoin",
+      "wrapped-ether"
+    ]
+  },
+  "0x2813D43463C374a680f235c428FB1D7f08dE0B69": {
+    "name": "SushiSwap v2 WETH/AAVE",
+    "assets": [
+      "wrapped-ether",
+      "aave"
+    ]
+  },
+  "0x6FF62bfb8c12109E8000935A6De54daD83a4f39f": {
+    "name": "SushiSwap v2 WETH/DAI",
+    "assets": [
+      "wrapped-ether",
+      "dai"
+    ]
+  },
+  "0xc48AE82ca34C63887b975F20ABA91a38f2a900B8": {
+    "name": "SushiSwap v2 WETH/MANA",
+    "assets": [
+      "wrapped-ether",
+      "decentraland"
+    ]
+  },
+  "0xc2755915a85C6f6c1C0F3a86ac8C058F11Caa9C9": {
+    "name": "SushiSwap v2 WETH/USDT0",
+    "assets": [
+      "wrapped-ether",
+      "tether"
+    ]
+  },
+  "0xcd353F79d9FADe311fC3119B841e1f456b54e858": {
+    "name": "SushiSwap v2 WPOL/USDC",
+    "assets": [
+      "wrapped-polygon",
+      "bridged-usd-coin"
+    ]
+  },
+  "0x55FF76BFFC3Cdd9D5FdbBC2ece4528ECcE45047e": {
+    "name": "SushiSwap v2 WPOL/USDT0",
+    "assets": [
+      "wrapped-polygon",
+      "tether"
+    ]
+  },
+  "0xc4e595acDD7d12feC385E5dA5D43160e8A0bAC0E": {
+    "name": "SushiSwap v2 WPOL/WETH",
+    "assets": [
+      "wrapped-polygon",
+      "wrapped-ether"
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "0x731290da2FA9970304E270940a91F3244B4637c9": {
+    "name": "Balancer v2 99USDC/1USDT",
+    "assets": [
+      "usd-coin",
+      "tether"
+    ]
+  },
+  "0x9FF36E48edbF6cb910Ebf9ef70f6Aeba41391fCE": {
+    "name": "Balancer v2 Gyroscope Dynamic ECLP WETH/USDC",
+    "assets": [
+      "usd-coin",
+      "wrapped-ether"
+    ]
+  },
+  "0x7Ca75bdEa9dEde97F8B13C6641B768650CB83782": {
+    "name": "Balancer v2 Gyroscope ECLP wstETH/WETH",
+    "assets": [
+      "wrapped-staked-ether",
+      "wrapped-ether"
+    ]
+  },
+  "0x39965c9dAb5448482Cf7e002F583c812Ceb53046": {
+    "name": "Balancer v2 Happy Road (WETH/OP/USDC)",
+    "assets": [
+      "wrapped-ether",
+      "optimism",
+      "bridged-usd-coin"
+    ]
+  },
+  "0x03771e24b7C9172d163Bf447490B142a15be3485": {
+    "name": "Curve crvUSD/USDC",
+    "assets": [
+      "curve-usd",
+      "usd-coin"
+    ]
+  },
+  "0x05FA06D4Fb883F67f1cfEA0889edBff9e8358101": {
+    "name": "Curve crvUSD/USDC.e",
+    "assets": [
+      "curve-usd",
+      "bridged-usd-coin"
+    ]
+  },
+  "0xD1b30BA128573fcd7D141C8A987961b40e047BB6": {
+    "name": "Curve crvUSD/USDT",
+    "assets": [
+      "curve-usd",
+      "tether"
+    ]
+  },
+  "0x1337BedC9D22ecbe766dF105c9623922A27963EC": {
+    "name": "Curve DAI/USDC/USDT",
+    "assets": [
+      "dai",
+      "bridged-usd-coin",
+      "tether"
+    ]
+  },
+  "0xEfDE221f306152971D8e9f181bFe998447975810": {
+    "name": "Curve ETH/wstETH",
+    "assets": [
+      "ethereum",
+      "wrapped-staked-ether"
+    ]
+  },
+  "0xd8dD9a8b2AcA88E68c46aF9008259d0EC04b7751": {
+    "name": "Curve TriCRV-OPTIMISM (crvUSD/OP/CRV)",
+    "assets": [
+      "curve-usd",
+      "optimism",
+      "curve-dao"
+    ]
+  },
+  "0x4456d13Fc6736e8e8330394c0C622103E06ea419": {
+    "name": "Curve Tricrypto-crvUSD (crvUSD/WBTC/WETH)",
+    "assets": [
+      "curve-usd",
+      "wrapped-bitcoin",
+      "wrapped-ether"
+    ]
+  },
+  "0x0df083de449F75691fc5A36477a6f3284C269108": {
+    "name": "Velodrome Volatile OP/USDC",
+    "assets": [
+      "optimism",
+      "bridged-usd-coin"
+    ]
+  },
+  "0xe9581d0F1A628B038fC8B2a7F5A7d904f0e2f937": {
+    "name": "Velodrome Volatile OP/VELO",
+    "assets": [
+      "optimism",
+      "velodrome"
+    ]
+  },
+  "0xa0A215dE234276CAc1b844fD58901351a50fec8A": {
+    "name": "Velodrome Volatile USDC/VELO",
+    "assets": [
+      "usd-coin",
+      "velodrome"
+    ]
+  },
+  "0x8134A2fDC127549480865fB8E5A9E8A8a95a54c5": {
+    "name": "Velodrome Volatile USDC/VELO (2)",
+    "assets": [
+      "bridged-usd-coin",
+      "velodrome"
+    ]
+  },
+  "0x23b7b0D25D657Da460CCf2e038988a70eE78D1be": {
+    "name": "Velodrome Volatile WETH/ETHFI",
+    "assets": [
+      "wrapped-ether",
+      "ether-fi"
+    ]
+  },
+  "0xd25711EdfBf747efCE181442Cc1D8F5F8fc8a0D3": {
+    "name": "Velodrome Volatile WETH/OP",
+    "assets": [
+      "wrapped-ether",
+      "optimism"
+    ]
+  },
+  "0x0493Bf8b6DBB159Ce2Db2E0E8403E753Abd1235b": {
+    "name": "Velodrome Volatile WETH/USDC",
+    "assets": [
+      "wrapped-ether",
+      "bridged-usd-coin"
+    ]
+  },
+  "0x58e6433A6903886E440Ddf519eCC573c4046a6b2": {
+    "name": "Velodrome Volatile WETH/VELO",
+    "assets": [
+      "wrapped-ether",
+      "velodrome"
+    ]
+  },
+  "0x6dA98Bde0068d10DDD11b468b197eA97D96F96Bc": {
+    "name": "Velodrome Volatile wstETH/WETH",
+    "assets": [
+      "wrapped-staked-ether",
+      "wrapped-ether"
+    ]
+  }
+}
