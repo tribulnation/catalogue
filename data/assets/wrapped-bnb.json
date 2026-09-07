@@ -1,0 +1,24 @@
+{
+  "id": "wrapped-bnb",
+  "display_name": "Wrapped BNB",
+  "symbol": "WBNB",
+  "category": "crypto",
+  "about": {
+    "en": "Wrapped BNB is the ERC-20 form of BNB, BNB Chain's gas coin. The contract mints one WBNB for each BNB deposited and burns it on withdrawal, holding the coins itself, so there is no custodian to trust. Nearly every BNB Chain DEX pair and lending market quotes WBNB rather than native BNB.",
+    "es": "Wrapped BNB es la forma ERC-20 de BNB, la moneda de gas de BNB Chain. El contrato emite un WBNB por cada BNB depositado y lo quema al retirar, guardando las monedas él mismo, así que no hay custodio en quien confiar. Casi todos los pares de DEX y mercados de préstamo de BNB Chain cotizan WBNB y no BNB nativo.",
+    "ca": "Wrapped BNB és la forma ERC-20 de BNB, la moneda de gas de BNB Chain. El contracte emet un WBNB per cada BNB dipositat i el crema en retirar-lo, guardant les monedes ell mateix, així que no hi ha cap custodi en qui confiar. Gairebé tots els parells de DEX i mercats de préstec de BNB Chain cotitzen WBNB i no BNB natiu."
+  },
+  "external": {
+    "coingecko": "wbnb"
+  },
+  "pegged_to": {
+    "asset": "bnb"
+  },
+  "tags": [
+    "Wrapped",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}

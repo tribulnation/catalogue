@@ -1,0 +1,23 @@
+{
+  "id": "binance-peg-dogecoin",
+  "display_name": "Binance-Peg Dogecoin",
+  "symbol": "DOGE",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg Dogecoin is a BEP-20 token on BNB Chain backed 1:1 by DOGE held by Binance. It keeps Dogecoin's eight decimals and lets DOGE be traded and lent in BNB Chain DeFi, at the cost of trusting Binance to keep the backing and honour redemption.",
+    "es": "Binance-Peg Dogecoin es un token BEP-20 en BNB Chain respaldado 1:1 por DOGE en poder de Binance. Conserva los ocho decimales de Dogecoin y permite operar y prestar DOGE en el DeFi de BNB Chain, a cambio de confiar en que Binance conserve el respaldo y atienda el canje.",
+    "ca": "Binance-Peg Dogecoin és un token BEP-20 a BNB Chain recolzat 1:1 per DOGE en poder de Binance. Conserva els vuit decimals de Dogecoin i permet operar i prestar DOGE al DeFi de BNB Chain, a canvi de confiar que Binance conservi el suport i atengui el bescanvi."
+  },
+  "external": {
+    "coingecko": "binance-peg-dogecoin"
+  },
+  "pegged_to": {
+    "asset": "dogecoin"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "binance-peg-eos",
+  "display_name": "Binance-Peg EOS",
+  "symbol": "EOS",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg EOS is a BEP-20 token on BNB Chain backed by EOS that Binance holds on the EOS network. It is the practical way to hold EOS exposure inside BNB Chain contracts, but it is Binance's IOU rather than the coin itself.",
+    "es": "Binance-Peg EOS es un token BEP-20 en BNB Chain respaldado por EOS que Binance mantiene en la red EOS. Es la forma práctica de tener exposición a EOS dentro de los contratos de BNB Chain, pero es un pagaré de Binance y no la moneda en sí.",
+    "ca": "Binance-Peg EOS és un token BEP-20 a BNB Chain recolzat per EOS que Binance manté a la xarxa EOS. És la manera pràctica de tenir exposició a EOS dins dels contractes de BNB Chain, però és un pagaré de Binance i no pas la moneda mateixa."
+  },
+  "external": {
+    "coingecko": "binance-peg-eos"
+  },
+  "pegged_to": {
+    "asset": "eos"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}

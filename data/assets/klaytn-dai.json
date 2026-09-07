@@ -1,0 +1,25 @@
+{
+  "id": "klaytn-dai",
+  "display_name": "Klaytn Dai",
+  "symbol": "KDAI",
+  "category": "stablecoin",
+  "about": {
+    "en": "KDAI is DAI brought to Kaia, formerly Klaytn, through Orbit Bridge, and it is the DAI leg of KLAYswap's pools. It is not interchangeable with DAI on Ethereum: since the January 2024 Orbit Bridge exploit drained the bridge's Ethereum vault, Orbit lists KDAI's underlying as its own post-hack claim token rather than DAI, and KDAI trades at a fraction of a dollar.",
+    "es": "KDAI es DAI llevado a Kaia, antes Klaytn, a través de Orbit Bridge, y es la pata en DAI de los pools de KLAYswap. No es intercambiable con el DAI de Ethereum: desde que el exploit de Orbit Bridge de enero de 2024 vació la bóveda de Ethereum del puente, Orbit declara como subyacente de KDAI su propio token de reclamación posterior al hackeo en lugar de DAI, y KDAI cotiza a una fracción del dólar.",
+    "ca": "KDAI és DAI portat a Kaia, abans Klaytn, a través d'Orbit Bridge, i és la pota en DAI dels pools de KLAYswap. No és intercanviable amb el DAI d'Ethereum: des que l'exploit d'Orbit Bridge del gener de 2024 va buidar la bóveda d'Ethereum del pont, Orbit declara com a subjacent de KDAI el seu propi token de reclamació posterior al hackeig en lloc de DAI, i KDAI cotitza a una fracció del dòlar."
+  },
+  "external": {
+    "coingecko": "klaytn-dai"
+  },
+  "pegged_to": {
+    "asset": "dai"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "Bridge"
+  ],
+  "urls": {
+    "Website": "https://bridge.orbitchain.io/"
+  }
+}

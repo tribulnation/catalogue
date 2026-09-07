@@ -1,0 +1,23 @@
+{
+  "id": "binance-peg-bitcoin-cash",
+  "display_name": "Binance-Peg Bitcoin Cash",
+  "symbol": "BCH",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg Bitcoin Cash is a BEP-20 token on BNB Chain backed 1:1 by BCH that Binance holds on the Bitcoin Cash chain. Bitcoin Cash has no issuer of its own, so every EVM token representing it is somebody's custody promise; here that somebody is Binance, and redemption depends on Binance honouring it.",
+    "es": "Binance-Peg Bitcoin Cash es un token BEP-20 en BNB Chain respaldado 1:1 por BCH que Binance mantiene en la cadena Bitcoin Cash. Bitcoin Cash no tiene emisor propio, así que todo token EVM que lo represente es la promesa de custodia de alguien; aquí ese alguien es Binance, y el canje depende de que lo atienda.",
+    "ca": "Binance-Peg Bitcoin Cash és un token BEP-20 a BNB Chain recolzat 1:1 per BCH que Binance manté a la cadena Bitcoin Cash. Bitcoin Cash no té emissor propi, així que tot token EVM que el representi és la promesa de custòdia d'algú; aquí aquest algú és Binance, i el bescanvi depèn que l'atengui."
+  },
+  "external": {
+    "coingecko": "binance-peg-bitcoin-cash"
+  },
+  "pegged_to": {
+    "asset": "bitcoin-cash"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}

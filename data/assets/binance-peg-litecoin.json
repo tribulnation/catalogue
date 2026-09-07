@@ -1,0 +1,23 @@
+{
+  "id": "binance-peg-litecoin",
+  "display_name": "Binance-Peg Litecoin",
+  "symbol": "LTC",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg Litecoin is a BEP-20 token on BNB Chain backed 1:1 by LTC held by Binance. Litecoin, like Bitcoin, has no issuer able to deploy an official token, so this is a custodial wrapper and not LTC itself.",
+    "es": "Binance-Peg Litecoin es un token BEP-20 en BNB Chain respaldado 1:1 por LTC en poder de Binance. Litecoin, como Bitcoin, no tiene un emisor que pueda desplegar un token oficial, así que esto es una envoltura con custodio y no LTC en sí.",
+    "ca": "Binance-Peg Litecoin és un token BEP-20 a BNB Chain recolzat 1:1 per LTC en poder de Binance. Litecoin, com Bitcoin, no té cap emissor que pugui desplegar un token oficial, així que això és un embolcall amb custodi i no pas LTC mateix."
+  },
+  "external": {
+    "coingecko": "binance-peg-litecoin"
+  },
+  "pegged_to": {
+    "asset": "litecoin"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}

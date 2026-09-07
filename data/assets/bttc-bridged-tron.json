@@ -1,0 +1,24 @@
+{
+  "id": "bttc-bridged-tron",
+  "display_name": "BTTC Bridged TRX",
+  "symbol": "TRX",
+  "category": "crypto",
+  "about": {
+    "en": "The TRX representation on BNB Chain, minted by the BitTorrent Chain bridge against TRX locked on the Tron network. Binance adopted it in the 2023 contract swap that retired its own eighteen-decimal Binance-Peg TRX, so it is now what BEP-20 TRX means, but the mint authority is BitTorrent Chain's predicate contract rather than Binance or the TRON DAO, and the backing is whatever that bridge still holds.",
+    "es": "La representación de TRX en BNB Chain, emitida por el puente de BitTorrent Chain contra TRX bloqueado en la red Tron. Binance la adoptó en el canje de contrato de 2023 que retiró su propio TRX Binance-Peg de dieciocho decimales, así que hoy es lo que significa TRX BEP-20, pero la autoridad de emisión es el contrato predicate de BitTorrent Chain y no Binance ni la TRON DAO, y el respaldo es lo que ese puente aún conserve.",
+    "ca": "La representació de TRX a BNB Chain, emesa pel pont de BitTorrent Chain contra TRX bloquejat a la xarxa Tron. Binance la va adoptar en el bescanvi de contracte del 2023 que va retirar el seu propi TRX Binance-Peg de divuit decimals, així que avui és el que significa TRX BEP-20, però l'autoritat d'emissió és el contracte predicate de BitTorrent Chain i no Binance ni la TRON DAO, i el suport és allò que aquest pont encara conservi."
+  },
+  "external": {
+    "coingecko": "tron-bsc"
+  },
+  "pegged_to": {
+    "asset": "tron"
+  },
+  "tags": [
+    "Wrapped",
+    "Bridge"
+  ],
+  "urls": {
+    "Website": "https://bt.io/"
+  }
+}

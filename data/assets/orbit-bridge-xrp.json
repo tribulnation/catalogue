@@ -1,0 +1,24 @@
+{
+  "id": "orbit-bridge-xrp",
+  "display_name": "Orbit Bridge XRP",
+  "symbol": "oXRP",
+  "category": "crypto",
+  "about": {
+    "en": "oXRP is XRP bridged to Kaia by Orbit Bridge, operated by Ozys. Ripple issues nothing on Kaia, so the only backing is the XRP that Orbit's validator multisig holds in an XRP Ledger vault. That vault was untouched by the January 2024 exploit, which hit the bridge's Ethereum side, and oXRP still tracks XRP closely, but it trades almost only on KLAYswap and remains a federated custody claim rather than XRP itself.",
+    "es": "oXRP es XRP puenteado a Kaia por Orbit Bridge, operado por Ozys. Ripple no emite nada en Kaia, así que el único respaldo es el XRP que el multifirma de validadores de Orbit guarda en una bóveda del XRP Ledger. Esa bóveda no se vio afectada por el exploit de enero de 2024, que golpeó el lado Ethereum del puente, y oXRP sigue de cerca a XRP, pero cotiza casi solo en KLAYswap y sigue siendo un derecho de custodia federada y no XRP en sí.",
+    "ca": "oXRP és XRP pontejat a Kaia per Orbit Bridge, operat per Ozys. Ripple no emet res a Kaia, així que l'únic suport és l'XRP que la multisignatura de validadors d'Orbit guarda en una bóveda de l'XRP Ledger. Aquesta bóveda no es va veure afectada per l'exploit del gener de 2024, que va colpejar el costat Ethereum del pont, i oXRP continua seguint de prop l'XRP, però cotitza gairebé només a KLAYswap i continua sent un dret de custòdia federada i no pas XRP mateix."
+  },
+  "external": {
+    "coingecko": "orbit-bridge-klaytn-ripple"
+  },
+  "pegged_to": {
+    "asset": "xrp"
+  },
+  "tags": [
+    "Wrapped",
+    "Bridge"
+  ],
+  "urls": {
+    "Website": "https://bridge.orbitchain.io/"
+  }
+}
