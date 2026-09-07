@@ -1,0 +1,25 @@
+{
+  "id": "aave-wrapped-agora-dollar",
+  "display_name": "Wrapped Aave AUSD",
+  "symbol": "waAUSD",
+  "category": "stablecoin",
+  "about": {
+    "en": "A non-rebasing Aave receipt token: the ERC-4626 wrapped form of the aToken issued for a deposit of AUSD in the Aave lending protocol. An aToken balance grows as supply interest accrues; a waAUSD balance stays fixed and the redemption rate rises instead, so one share comes back as a growing amount of AUSD. Protocols that cannot handle a rebasing balance need it in that shape, which is why this is what sits inside Balancer's Aave-boosted pools. Aave deploys one wrapper per market; this asset covers them all, on every chain.",
+    "es": "Un token de recibo de Aave no rebasing: la forma envuelta ERC-4626 del aToken emitido a cambio de un depósito de AUSD en el protocolo de préstamos Aave. El saldo de un aToken crece a medida que se acumulan los intereses de suministro; el de waAUSD permanece fijo y lo que sube es su tipo de canje, de modo que cada participación se canjea por una cantidad creciente de AUSD. Los protocolos que no admiten un saldo rebasing lo necesitan en esa forma, y por eso es la que se mantiene dentro de las pools boosted de Aave en Balancer. Aave despliega un envoltorio por mercado; este activo los cubre todos, en todas las cadenas.",
+    "ca": "Un token de rebut d'Aave no rebasing: la forma embolcallada ERC-4626 de l'aToken emès a canvi d'un dipòsit de AUSD en el protocol de préstecs Aave. El saldo d'un aToken creix a mesura que s'acumulen els interessos de subministrament; el de waAUSD es manté fix i el que puja és el seu tipus de bescanvi, de manera que cada participació es bescanvia per una quantitat creixent de AUSD. Els protocols que no admeten un saldo rebasing el necessiten en aquesta forma, i per això és la que es manté dins de les pools boosted d'Aave a Balancer. Aave desplega un embolcall per mercat; aquest actiu els cobreix tots, a totes les cadenes."
+  },
+  "pegged_to": {
+    "asset": "agora-dollar"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  },
+  "external": {
+    "coingecko": "wrapped-aave-avalanche-ausd"
+  }
+}
