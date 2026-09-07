@@ -1,5 +1,5 @@
 {
-  "id": "aave-wrapped-gho",
+  "id": "wrapped-aave-gho",
   "display_name": "Wrapped Aave GHO",
   "symbol": "waGHO",
   "category": "stablecoin",
@@ -9,7 +9,7 @@
     "ca": "Un token de rebut d'Aave no rebasing: la forma embolcallada ERC-4626 de l'aToken emès a canvi d'un dipòsit de GHO en el protocol de préstecs Aave. El saldo d'un aToken creix a mesura que s'acumulen els interessos de subministrament; el de waGHO es manté fix i el que puja és el seu tipus de bescanvi, de manera que cada participació es bescanvia per una quantitat creixent de GHO. Els protocols que no admeten un saldo rebasing el necessiten en aquesta forma, i per això és la que es manté dins de les pools boosted d'Aave a Balancer. Aave desplega un embolcall per mercat; aquest actiu els cobreix tots, a totes les cadenes."
   },
   "pegged_to": {
-    "asset": "gho"
+    "asset": "aave-gho"
   },
   "tags": [
     "Stablecoin",

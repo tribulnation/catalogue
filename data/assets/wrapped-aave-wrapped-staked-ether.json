@@ -1,5 +1,5 @@
 {
-  "id": "aave-wrapped-wrapped-staked-ether",
+  "id": "wrapped-aave-wrapped-staked-ether",
   "display_name": "Wrapped Aave wstETH",
   "symbol": "wawstETH",
   "category": "crypto",
@@ -9,7 +9,7 @@
     "ca": "Un token de rebut d'Aave no rebasing: la forma embolcallada ERC-4626 de l'aToken emès a canvi d'un dipòsit de Wrapped Staked Ether (wstETH) en el protocol de préstecs Aave. El saldo d'un aToken creix a mesura que s'acumulen els interessos de subministrament; el de wawstETH es manté fix i el que puja és el seu tipus de bescanvi, de manera que cada participació es bescanvia per una quantitat creixent de wstETH. Els protocols que no admeten un saldo rebasing el necessiten en aquesta forma, i per això és la que es manté dins de les pools boosted d'Aave a Balancer. Aave desplega un embolcall per mercat; aquest actiu els cobreix tots, a totes les cadenes. wstETH acumula les recompenses d'staking de Lido a través del seu propi tipus de canvi, de manera que el dipòsit les suma a l'interès de subministrament d'Aave."
   },
   "pegged_to": {
-    "asset": "wrapped-staked-ether"
+    "asset": "aave-wrapped-staked-ether"
   },
   "tags": [
     "DeFi"
