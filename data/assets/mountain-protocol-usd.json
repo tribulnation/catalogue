@@ -1,0 +1,25 @@
+{
+  "id": "mountain-protocol-usd",
+  "display_name": "Mountain Protocol USD",
+  "symbol": "USDM",
+  "category": "stablecoin",
+  "about": {
+    "en": "USDM is Mountain Protocol's yield-bearing dollar token, backed by short-dated US Treasury bills held with a regulated custodian and redeemable at a dollar by whitelisted institutions. It rebases daily, so a holder's balance grows with the bill yield while each unit stays worth a dollar.",
+    "es": "USDM es el token en dólares con rendimiento de Mountain Protocol, respaldado por letras del Tesoro estadounidense a corto plazo custodiadas por una entidad regulada y canjeable a un dólar por instituciones autorizadas. Hace rebase a diario, de modo que el saldo del tenedor crece con el rendimiento de las letras mientras cada unidad sigue valiendo un dólar.",
+    "ca": "USDM és el token en dòlars amb rendiment de Mountain Protocol, recolzat per lletres del Tresor nord-americà a curt termini custodiades per una entitat regulada i bescanviable a un dòlar per institucions autoritzades. Fa rebase diàriament, de manera que el saldo de qui el té creix amb el rendiment de les lletres mentre cada unitat continua valent un dòlar."
+  },
+  "external": {
+    "coingecko": "mountain-protocol-usdm"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "RWA"
+  ],
+  "urls": {
+    "Website": "https://mountainprotocol.com/"
+  }
+}

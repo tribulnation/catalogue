@@ -5,5 +5,19 @@
       "ethena-staked-usde",
       "ethena-usde"
     ]
+  },
+  "0x3CA81ba994C523948dAE48E8f2E7F327f9218029": {
+    "name": "Curve USH/USDC",
+    "assets": [
+      "hyperstable",
+      "usd-coin"
+    ]
+  },
+  "0x3Bee53e887D52d9CBa177396AA44810904D501fF": {
+    "name": "Curve USH/USDe",
+    "assets": [
+      "hyperstable",
+      "ethena-usde"
+    ]
   }
 }

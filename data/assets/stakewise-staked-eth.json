@@ -1,0 +1,21 @@
+{
+  "id": "stakewise-staked-eth",
+  "display_name": "StakeWise Staked ETH",
+  "symbol": "osETH",
+  "category": "crypto",
+  "about": {
+    "en": "osETH is the staked-ETH token of StakeWise v3, minted against ether that a user has delegated to a StakeWise vault. Unlike a custodial wrapper it is overcollateralized by the vault's stake and accrues rewards through a rising exchange rate rather than holding a fixed parity with ETH.",
+    "es": "osETH es el token de ETH en staking de StakeWise v3, emitido contra ether que el usuario ha delegado a una bóveda de StakeWise. A diferencia de una envoltura con custodio, está sobrecolateralizado por el stake de la bóveda y acumula recompensas mediante un tipo de cambio creciente, no manteniendo una paridad fija con ETH.",
+    "ca": "osETH és el token d'ETH en staking de StakeWise v3, emès contra ether que l'usuari ha delegat a una volta de StakeWise. A diferència d'un embolcall amb custodi, està sobrecol·lateralitzat per l'stake de la volta i acumula recompenses mitjançant un tipus de canvi creixent, no mantenint una paritat fixa amb ETH."
+  },
+  "external": {
+    "coingecko": "stakewise-v3-oseth"
+  },
+  "tags": [
+    "DeFi",
+    "Liquid Staking"
+  ],
+  "urls": {
+    "Website": "https://www.stakewise.io/"
+  }
+}

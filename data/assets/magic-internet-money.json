@@ -1,0 +1,25 @@
+{
+  "id": "magic-internet-money",
+  "display_name": "Magic Internet Money",
+  "symbol": "MIM",
+  "category": "stablecoin",
+  "about": {
+    "en": "MIM is Abracadabra.money's dollar stablecoin, borrowed against interest-bearing collateral in isolated lending cauldrons. It is overcollateralized and targets a dollar, held there by liquidations and by the protocol's own peg-stability modules; it has depegged in the past when a large collateral type failed.",
+    "es": "MIM es la stablecoin en dólares de Abracadabra.money, tomada en préstamo contra colateral con rendimiento en calderos de préstamo aislados. Está sobrecolateralizada y apunta al dólar, sostenida por liquidaciones y por los módulos de estabilidad del propio protocolo; ha perdido la paridad en el pasado cuando un colateral grande falló.",
+    "ca": "MIM és la stablecoin en dòlars d'Abracadabra.money, presa en préstec contra col·lateral amb rendiment en calderes de préstec aïllades. Està sobrecol·lateralitzada i apunta al dòlar, sostinguda per liquidacions i pels mòduls d'estabilitat del mateix protocol; ha perdut la paritat en el passat quan un col·lateral gran va fallar."
+  },
+  "external": {
+    "coingecko": "magic-internet-money"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://abracadabra.money/"
+  }
+}

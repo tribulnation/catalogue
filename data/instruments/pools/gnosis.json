@@ -6,6 +6,21 @@
       "gnosis"
     ]
   },
+  "0x79C872Ed3Acb3fc5770dd8a0cD9Cd5dB3B3Ac985": {
+    "name": "Balancer v2 50OLAS-50WXDAI",
+    "assets": [
+      "autonolas",
+      "wrapped-xdai"
+    ]
+  },
+  "0x00dF7f58e1Cf932eBe5f54De5970Fb2Bdf0ef06D": {
+    "name": "Balancer v2 50wstETH-25BAL-25AURA",
+    "assets": [
+      "aura-finance",
+      "wrapped-staked-ether",
+      "balancer"
+    ]
+  },
   "0x4cdABE9E07ca393943AcFB9286bBbd0D0a310Ff6": {
     "name": "Balancer v2 50wstETH-50COW",
     "assets": [
@@ -20,11 +35,25 @@
       "gnosis"
     ]
   },
+  "0x71E1179C5e197FA551BEEC85ca2EF8693c61b85b": {
+    "name": "Balancer v2 Gyroscope ECLP rETH/WETH",
+    "assets": [
+      "wrapped-ether",
+      "rocket-pool-eth"
+    ]
+  },
   "0x8DD4df4Ce580b9644437f3375e54f1ab09808228": {
     "name": "Balancer v2 Gyroscope ECLP wstETH/WETH",
     "assets": [
       "wrapped-ether",
       "wrapped-staked-ether"
+    ]
+  },
+  "0x3220C83e953186f2B9dDFc0B5dD69483354EDCA2": {
+    "name": "Balancer v2 osGNO/GNO StablePool",
+    "assets": [
+      "gnosis",
+      "stakewise-staked-gno"
     ]
   },
   "0x8189c4c96826D016A99986394103DFa9aE41e7ee": {
@@ -39,6 +68,20 @@
     "assets": [
       "gnosis",
       "cow-protocol"
+    ]
+  },
+  "0xfb8b95Fb2296a0Ad4b6b1419fdAA5AA5F13e4009": {
+    "name": "Curve BRLA/USDC.e",
+    "assets": [
+      "brla",
+      "bridged-usd-coin"
+    ]
+  },
+  "0xb5814811dC4fC2aC127A1F8Fb708460bF9Fad619": {
+    "name": "Curve GNO/osGNO",
+    "assets": [
+      "gnosis",
+      "stakewise-staked-gno"
     ]
   },
   "0x9C9DDda2a6bda693856b9081BAeBBe1444fFCC37": {

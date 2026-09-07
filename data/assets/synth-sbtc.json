@@ -1,0 +1,17 @@
+{
+  "id": "synth-sbtc",
+  "display_name": "Synth sBTC",
+  "symbol": "sBTC",
+  "category": "crypto",
+  "about": {
+    "en": "sBTC is Synthetix's bitcoin synthetic: a token whose price tracks BTC through the protocol's oracle and debt pool, with no bitcoin held in custody behind it. It was collateralized by staked SNX rather than by BTC, so it is a derivative exposure and not a wrapped coin.",
+    "es": "sBTC es el sintético de bitcoin de Synthetix: un token cuyo precio sigue al BTC mediante el oráculo y el pool de deuda del protocolo, sin bitcoin en custodia detrás. Estaba colateralizado por SNX en staking y no por BTC, así que es una exposición derivada y no una moneda envuelta.",
+    "ca": "sBTC és el sintètic de bitcoin de Synthetix: un token el preu del qual segueix el BTC mitjançant l'oracle i el pool de deute del protocol, sense bitcoin en custòdia al darrere. Estava col·lateralitzat per SNX en staking i no per BTC, així que és una exposició derivada i no pas una moneda embolcallada."
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://synthetix.io/"
+  }
+}

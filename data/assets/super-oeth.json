@@ -1,0 +1,24 @@
+{
+  "id": "super-oeth",
+  "display_name": "Super OETH",
+  "symbol": "superOETHb",
+  "category": "crypto",
+  "about": {
+    "en": "Super OETH is Origin Protocol's ETH product on Base. It is fully backed by ETH and ETH derivatives and holds parity with ether by design; the yield is delivered by a rebase that grows the holder's balance, and comes mostly from concentrated AMM positions Origin runs around the ETH price.",
+    "es": "Super OETH es el producto en ETH de Origin Protocol en Base. Está totalmente respaldado por ETH y derivados de ETH y mantiene la paridad con el ether por diseño; el rendimiento se entrega mediante un rebase que hace crecer el saldo del tenedor y procede sobre todo de posiciones concentradas en AMM que Origin gestiona en torno al precio del ETH.",
+    "ca": "Super OETH és el producte en ETH d'Origin Protocol a Base. Està totalment recolzat per ETH i derivats d'ETH i manté la paritat amb l'ether per disseny; el rendiment es lliura mitjançant un rebase que fa créixer el saldo de qui el té i prové sobretot de posicions concentrades en AMM que Origin gestiona al voltant del preu de l'ETH."
+  },
+  "external": {
+    "coingecko": "super-oeth"
+  },
+  "pegged_to": {
+    "asset": "ethereum"
+  },
+  "tags": [
+    "DeFi",
+    "Liquid Staking"
+  ],
+  "urls": {
+    "Website": "https://www.originprotocol.com/oeth"
+  }
+}

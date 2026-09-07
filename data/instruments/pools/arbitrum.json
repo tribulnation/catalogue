@@ -1,10 +1,31 @@
 {
+  "0x542F16DA0efB162D20bF4358EfA095B70A100f9E": {
+    "name": "Balancer v2 2BTC (WBTC/tBTC)",
+    "assets": [
+      "wrapped-bitcoin",
+      "threshold-bitcoin"
+    ]
+  },
   "0x64541216bAFFFEec8ea535BB71Fbc927831d0595": {
     "name": "Balancer v2 33 WETH 33 WBTC 33 USDC",
     "assets": [
       "wrapped-bitcoin",
       "wrapped-ether",
       "bridged-usd-coin"
+    ]
+  },
+  "0xAF8912a3C4f55a8584B67DF30ee0dDf0e60e01f8": {
+    "name": "Balancer v2 50OLAS-50WETH",
+    "assets": [
+      "autonolas",
+      "wrapped-ether"
+    ]
+  },
+  "0xc9f52540976385A84BF416903e1Ca3983c539E34": {
+    "name": "Balancer v2 50tBTC-50WETH",
+    "assets": [
+      "threshold-bitcoin",
+      "wrapped-ether"
     ]
   },
   "0xcC65A812ce382aB909a11E434dbf75B34f1cc59D": {
@@ -28,6 +49,13 @@
       "chainlink"
     ]
   },
+  "0x64ABEAe398961c10cBB50eF359f1dB41fc3129ff": {
+    "name": "Balancer v2 80AURA-20WETH",
+    "assets": [
+      "aura-finance",
+      "wrapped-ether"
+    ]
+  },
   "0x0adeb25cb5920d4f7447af4a0428072EdC2cEE22": {
     "name": "Balancer v2 80GMX-20WETH",
     "assets": [
@@ -47,6 +75,13 @@
     "assets": [
       "wrapped-ether",
       "usd-coin"
+    ]
+  },
+  "0x32dF62dc3aEd2cD6224193052Ce665DC18165841": {
+    "name": "Balancer v2 RDNT-WETH",
+    "assets": [
+      "radiant-capital",
+      "wrapped-ether"
     ]
   },
   "0x423A1323c871aBC9d89EB06855bF5347048Fc4A5": {
@@ -101,6 +136,34 @@
       "usd-coin"
     ]
   },
+  "0x167266f419f414b565BAa734ee3ADA81d7953805": {
+    "name": "CoW AMM Balancer CoW AMM 50 WETH 50 tBTC",
+    "assets": [
+      "wrapped-ether",
+      "threshold-bitcoin"
+    ]
+  },
+  "0x186cF879186986A20aADFb7eAD50e3C20cb26CeC": {
+    "name": "Curve 2BTC-ng (WBTC/tBTC)",
+    "assets": [
+      "wrapped-bitcoin",
+      "threshold-bitcoin"
+    ]
+  },
+  "0xBeb177D05ac67330224291B259c401366C0974B4": {
+    "name": "Curve alETH-WETH",
+    "assets": [
+      "alchemix-eth",
+      "wrapped-ether"
+    ]
+  },
+  "0x78483d06a82ae76E0FF9C72AFd80E5B2CEA3b2A0": {
+    "name": "Curve alUSD/USDC",
+    "assets": [
+      "alchemix-usd",
+      "usd-coin"
+    ]
+  },
   "0x2FE7AE43591E534C256A1594D326e5779E302Ff4": {
     "name": "Curve crvUSD/Frax",
     "assets": [
@@ -129,6 +192,20 @@
       "tether"
     ]
   },
+  "0x1Fb84Fa6D252762e8367eA607A6586E09dceBe3D": {
+    "name": "Curve ETH+/WETH",
+    "assets": [
+      "reserve-eth-plus",
+      "wrapped-ether"
+    ]
+  },
+  "0x95F425c7d730Eb7673fca272c2c305f48Ed546c3": {
+    "name": "Curve ETH+/WETH (2)",
+    "assets": [
+      "reserve-eth-plus",
+      "wrapped-ether"
+    ]
+  },
   "0xDbcD16e622c95AcB2650b38eC799f76BFC557a0b": {
     "name": "Curve ETH/wstETH",
     "assets": [
@@ -150,12 +227,27 @@
       "bridged-usd-coin"
     ]
   },
+  "0x1DeB3b1cA6afca0FF9C5cE9301950dC98Ac0D523": {
+    "name": "Curve frxETH/WETH",
+    "assets": [
+      "wrapped-ether",
+      "frax-ether"
+    ]
+  },
   "0x845C8bc94610807fCbaB5dd2bc7aC9DAbaFf3c55": {
     "name": "Curve TriCRV-ARBITRUM (crvUSD/ARB/CRV)",
     "assets": [
       "curve-usd",
       "arbitrum",
       "curve-dao"
+    ]
+  },
+  "0x6041631c566Eb8dc6258A75Fa5370761d4873990": {
+    "name": "Curve Tricrypto - MIM (WBTC/WETH/MIM)",
+    "assets": [
+      "wrapped-bitcoin",
+      "wrapped-ether",
+      "magic-internet-money"
     ]
   },
   "0x82670f35306253222F8a165869B28c64739ac62e": {
@@ -174,6 +266,13 @@
       "wrapped-ether"
     ]
   },
+  "0x4bD135524897333bec344e50ddD85126554E58B4": {
+    "name": "Curve USDC/USDM",
+    "assets": [
+      "usd-coin",
+      "mountain-protocol-usd"
+    ]
+  },
   "0x7f90122BF0700F9E7e1F688fe926940E8839F353": {
     "name": "Curve USDC/USDT",
     "assets": [
@@ -186,6 +285,13 @@
     "assets": [
       "usd-coin",
       "tether"
+    ]
+  },
+  "0x3E01dD8a5E1fb3481F0F589056b428Fc308AF0Fb": {
+    "name": "Curve WBTC/renBTC",
+    "assets": [
+      "wrapped-bitcoin",
+      "ren-bitcoin"
     ]
   },
   "0x93a416206B4ae3204cFE539edfeE6BC05a62963e": {

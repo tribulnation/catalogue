@@ -1,0 +1,25 @@
+{
+  "id": "rings-scbtc",
+  "display_name": "Rings Sonic BTC",
+  "symbol": "scBTC",
+  "category": "crypto",
+  "about": {
+    "en": "scBTC is the bitcoin token of Rings on Sonic, minted one for one against deposits of wrapped bitcoin that the protocol deploys into vault strategies. It is a claim on those deposits, several custody layers removed from bitcoin itself, with the yield paid to stakers rather than reflected in the token's rate.",
+    "es": "scBTC es el token de bitcoin de Rings en Sonic, emitido uno a uno contra depósitos de bitcoin envuelto que el protocolo destina a estrategias de bóveda. Es un derecho sobre esos depósitos, a varias capas de custodia de distancia del bitcoin en sí, con el rendimiento pagado a quienes hacen staking y no reflejado en el tipo del token.",
+    "ca": "scBTC és el token de bitcoin de Rings a Sonic, emès un a un contra dipòsits de bitcoin embolcallat que el protocol destina a estratègies de volta. És un dret sobre aquests dipòsits, a diverses capes de custòdia de distància del bitcoin mateix, amb el rendiment pagat a qui fa staking i no reflectit en el tipus del token."
+  },
+  "external": {
+    "coingecko": "rings-scbtc"
+  },
+  "pegged_to": {
+    "asset": "bitcoin"
+  },
+  "tags": [
+    "DeFi",
+    "Wrapped",
+    "BTCfi"
+  ],
+  "urls": {
+    "Website": "https://www.rings.money/"
+  }
+}

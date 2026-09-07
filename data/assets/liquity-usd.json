@@ -1,0 +1,25 @@
+{
+  "id": "liquity-usd",
+  "display_name": "Liquity USD",
+  "symbol": "LUSD",
+  "category": "stablecoin",
+  "about": {
+    "en": "LUSD is the stablecoin of Liquity v1, minted as interest-free debt against ether collateral in a system with no governance and no upgradeable contracts. Its dollar peg is held by direct redemption: anyone may swap LUSD for the underlying ETH at face value, which caps how far below a dollar it can trade.",
+    "es": "LUSD es la stablecoin de Liquity v1, emitida como deuda sin intereses contra colateral en ether en un sistema sin gobernanza ni contratos actualizables. Su paridad con el dólar se sostiene por canje directo: cualquiera puede cambiar LUSD por el ETH subyacente a valor nominal, lo que limita cuánto puede caer por debajo del dólar.",
+    "ca": "LUSD és la stablecoin de Liquity v1, emesa com a deute sense interessos contra col·lateral en ether en un sistema sense governança ni contractes actualitzables. La seva paritat amb el dòlar se sosté per bescanvi directe: qualsevol pot canviar LUSD pel ETH subjacent a valor nominal, cosa que limita fins on pot caure per sota del dòlar."
+  },
+  "external": {
+    "coingecko": "liquity-usd"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://www.liquity.org/"
+  }
+}

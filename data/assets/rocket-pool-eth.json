@@ -1,0 +1,21 @@
+{
+  "id": "rocket-pool-eth",
+  "display_name": "Rocket Pool ETH",
+  "symbol": "rETH",
+  "category": "crypto",
+  "about": {
+    "en": "Rocket Pool ETH is the liquid staking token of Rocket Pool, Ethereum's permissionless staking protocol run by independent node operators. rETH is not pegged to ether: it is minted below one ETH and its redemption rate grows as validator rewards accrue, so a holder's ETH balance rises over time rather than the token trading at par. It circulates on Ethereum and on the L2s and sidechains it has been bridged to.",
+    "es": "Rocket Pool ETH es el liquid staking token de Rocket Pool, el protocolo de staking sin permisos de Ethereum operado por nodos independientes. rETH no mantiene paridad con el ether: se emite por debajo de un ETH y su tipo de canje crece a medida que se acumulan las recompensas de validación, de modo que el saldo en ETH del tenedor aumenta con el tiempo en lugar de cotizar a la par. Circula en Ethereum y en las L2 y cadenas laterales a las que se ha puenteado.",
+    "ca": "Rocket Pool ETH és el liquid staking token de Rocket Pool, el protocol d'staking sense permisos d'Ethereum operat per nodes independents. rETH no manté paritat amb l'ether: s'emet per sota d'un ETH i el seu tipus de bescanvi creix a mesura que s'acumulen les recompenses de validació, de manera que el saldo en ETH de qui el té augmenta amb el temps en lloc de cotitzar a la par. Circula a Ethereum i a les L2 i cadenes laterals on s'ha pontejat."
+  },
+  "external": {
+    "coingecko": "rocket-pool-eth"
+  },
+  "tags": [
+    "DeFi",
+    "Liquid Staking"
+  ],
+  "urls": {
+    "Website": "https://rocketpool.net/"
+  }
+}

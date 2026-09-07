@@ -1,0 +1,25 @@
+{
+  "id": "hyperstable",
+  "display_name": "Hyperstable",
+  "symbol": "USH",
+  "category": "stablecoin",
+  "about": {
+    "en": "USH is the stablecoin of Hyperstable, a collateralized-debt protocol native to HyperEVM. Users lock HYPE and other supported collateral to borrow USH, which targets a dollar through overcollateralization, liquidations and a stability pool rather than through fiat reserves.",
+    "es": "USH es la stablecoin de Hyperstable, un protocolo de deuda colateralizada nativo de HyperEVM. Los usuarios bloquean HYPE y otros colaterales admitidos para pedir prestado USH, que apunta al dólar mediante sobrecolateralización, liquidaciones y un fondo de estabilidad, no mediante reservas en moneda fiat.",
+    "ca": "USH és la stablecoin d'Hyperstable, un protocol de deute col·lateralitzat natiu d'HyperEVM. Els usuaris bloquegen HYPE i altres col·laterals admesos per demanar prestat USH, que apunta al dòlar mitjançant sobrecol·lateralització, liquidacions i un fons d'estabilitat, no pas mitjançant reserves en moneda fiat."
+  },
+  "external": {
+    "coingecko": "hyperstable"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://hyperstable.xyz/"
+  }
+}
