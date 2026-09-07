@@ -1,0 +1,24 @@
+{
+  "id": "binance-peg-ethereum",
+  "display_name": "Binance-Peg Ethereum",
+  "symbol": "ETH",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg Ethereum Token is a BEP-20 representation of ether on BNB Chain, backed 1:1 by ETH held by Binance. It tracks the price of ether but depends on Binance honouring redemption, unlike native ETH.",
+    "es": "Binance-Peg Ethereum Token es una representación BEP-20 de ether en BNB Chain, respaldada 1:1 por ETH en poder de Binance. Sigue el precio de ether, pero depende de que Binance atienda el canje, a diferencia del ETH nativo.",
+    "ca": "Binance-Peg Ethereum Token és una representació BEP-20 d'ether a BNB Chain, recolzada 1:1 per ETH en poder de Binance. Segueix el preu d'ether, però depèn que Binance atengui el bescanvi, a diferència de l'ETH natiu."
+  },
+  "external": {
+    "coingecko": "binance-peg-weth"
+  },
+  "pegged_to": {
+    "asset": "ethereum"
+  },
+  "tags": [
+    "Wrapped",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "binance-peg-toncoin",
+  "display_name": "Binance-Peg Toncoin",
+  "symbol": "TONCOIN",
+  "category": "crypto",
+  "about": {
+    "en": "Wrapped TON Coin is a BEP-20 representation of Toncoin on BNB Chain, backed by TON held by Binance rather than on the TON network.",
+    "es": "Wrapped TON Coin es una representación BEP-20 de Toncoin en BNB Chain, respaldada por TON en poder de Binance y no en la red TON.",
+    "ca": "Wrapped TON Coin és una representació BEP-20 de Toncoin a BNB Chain, recolzada per TON en poder de Binance i no a la xarxa TON."
+  },
+  "pegged_to": {
+    "asset": "toncoin"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}

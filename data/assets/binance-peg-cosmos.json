@@ -1,0 +1,20 @@
+{
+  "id": "binance-peg-cosmos",
+  "display_name": "Binance-Peg Cosmos",
+  "symbol": "ATOM",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg Cosmos Token is a BEP-20 representation of ATOM on BNB Chain, backed by ATOM held by Binance rather than by the Cosmos Hub itself.",
+    "es": "Binance-Peg Cosmos Token es una representación BEP-20 de ATOM en BNB Chain, respaldada por ATOM en poder de Binance y no por el propio Cosmos Hub.",
+    "ca": "Binance-Peg Cosmos Token és una representació BEP-20 d'ATOM a BNB Chain, recolzada per ATOM en poder de Binance i no pel mateix Cosmos Hub."
+  },
+  "pegged_to": {
+    "asset": "cosmos"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}
