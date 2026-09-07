@@ -4,584 +4,681 @@
     "base": "bonk",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/1000BONK-PERP"
   },
   "1000PEPE-PERP": {
     "exchange": "perp",
     "base": "pepe",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/1000PEPE-PERP"
   },
   "1000SHIB-PERP": {
     "exchange": "perp",
     "base": "shiba-inu",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/1000SHIB-PERP"
   },
   "AAPL-PERP": {
     "exchange": "perp",
     "base": "apple",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/AAPL-PERP"
   },
   "AAVE-PERP": {
     "exchange": "perp",
     "base": "aave",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/AAVE-PERP"
   },
   "ADA-PERP": {
     "exchange": "perp",
     "base": "cardano",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ADA-PERP"
   },
   "AERO-PERP": {
     "exchange": "perp",
     "base": "aerodrome",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/AERO-PERP"
   },
   "ALGO-PERP": {
     "exchange": "perp",
     "base": "algorand",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ALGO-PERP"
   },
   "ALT-PERP": {
     "exchange": "perp",
     "base": "altlayer",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ALT-PERP"
   },
   "AMZN-PERP": {
     "exchange": "perp",
     "base": "amazon",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/AMZN-PERP"
   },
   "APE-PERP": {
     "exchange": "perp",
     "base": "apecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/APE-PERP"
   },
   "APT-PERP": {
     "exchange": "perp",
     "base": "aptos",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/APT-PERP"
   },
   "ARB-PERP": {
     "exchange": "perp",
     "base": "arbitrum",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ARB-PERP"
   },
   "ASTER-PERP": {
     "exchange": "perp",
     "base": "aster",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ASTER-PERP"
   },
   "ATH-PERP": {
     "exchange": "perp",
     "base": "aethir",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ATH-PERP"
   },
   "ATOM-PERP": {
     "exchange": "perp",
     "base": "cosmos",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ATOM-PERP"
   },
   "AVAX-PERP": {
     "exchange": "perp",
     "base": "avalanche",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/AVAX-PERP"
   },
   "AVNT-PERP": {
     "exchange": "perp",
     "base": "avantis",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/AVNT-PERP"
   },
   "AXS-PERP": {
     "exchange": "perp",
     "base": "axie-infinity",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/AXS-PERP"
   },
   "BCH-PERP": {
     "exchange": "perp",
     "base": "bitcoin-cash",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/BCH-PERP"
   },
   "BERA-PERP": {
     "exchange": "perp",
     "base": "berachain",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/BERA-PERP"
   },
   "BLUR-PERP": {
     "exchange": "perp",
     "base": "blur",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/BLUR-PERP"
   },
   "BNB-PERP": {
     "exchange": "perp",
     "base": "bnb",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/BNB-PERP"
   },
   "BTC-PERP": {
     "exchange": "perp",
     "base": "bitcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/BTC-PERP"
   },
   "CFX-PERP": {
     "exchange": "perp",
     "base": "conflux",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/CFX-PERP"
   },
   "COMP-PERP": {
     "exchange": "perp",
     "base": "compound",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/COMP-PERP"
   },
   "CRV-PERP": {
     "exchange": "perp",
     "base": "curve-dao",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/CRV-PERP"
   },
   "DASH-PERP": {
     "exchange": "perp",
     "base": "dash",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/DASH-PERP"
   },
   "DOGE-PERP": {
     "exchange": "perp",
     "base": "dogecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/DOGE-PERP"
   },
   "DOT-PERP": {
     "exchange": "perp",
     "base": "polkadot",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/DOT-PERP"
   },
   "DYDX-PERP": {
     "exchange": "perp",
     "base": "dydx",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/DYDX-PERP"
   },
   "EIGEN-PERP": {
     "exchange": "perp",
     "base": "eigen-layer",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/EIGEN-PERP"
   },
   "ENA-PERP": {
     "exchange": "perp",
     "base": "ethena",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ENA-PERP"
   },
   "ETC-PERP": {
     "exchange": "perp",
     "base": "ethereum-classic",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ETC-PERP"
   },
   "ETH-PERP": {
     "exchange": "perp",
     "base": "ethereum",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ETH-PERP"
   },
   "ETHFI-PERP": {
     "exchange": "perp",
     "base": "ether-fi",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ETHFI-PERP"
   },
   "EURC-PERP": {
     "exchange": "perp",
     "base": "euro-coin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/EURC-PERP"
   },
   "FARTCOIN-PERP": {
     "exchange": "perp",
     "base": "fartcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/FARTCOIN-PERP"
   },
   "FET-PERP": {
     "exchange": "perp",
     "base": "fetch-ai",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/FET-PERP"
   },
   "FIL-PERP": {
     "exchange": "perp",
     "base": "filecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/FIL-PERP"
   },
   "GOLD-PERP": {
     "exchange": "perp",
     "base": "gold",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/GOLD-PERP"
   },
   "GOOGL-PERP": {
     "exchange": "perp",
     "base": "alphabet",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/GOOGL-PERP"
   },
   "HBAR-PERP": {
     "exchange": "perp",
     "base": "hedera",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/HBAR-PERP"
   },
   "HYPE-PERP": {
     "exchange": "perp",
     "base": "hyperliquid",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/HYPE-PERP"
   },
   "ICP-PERP": {
     "exchange": "perp",
     "base": "internet-computer",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ICP-PERP"
   },
   "INJ-PERP": {
     "exchange": "perp",
     "base": "injective",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/INJ-PERP"
   },
   "JASMY-PERP": {
     "exchange": "perp",
     "base": "jasmycoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/JASMY-PERP"
   },
   "JTO-PERP": {
     "exchange": "perp",
     "base": "jito",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/JTO-PERP"
   },
   "JUP-PERP": {
     "exchange": "perp",
     "base": "jupiter",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/JUP-PERP"
   },
   "KAS-PERP": {
     "exchange": "perp",
     "base": "kaspa",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/KAS-PERP"
   },
   "LDO-PERP": {
     "exchange": "perp",
     "base": "lido-dao",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/LDO-PERP"
   },
   "LINK-PERP": {
     "exchange": "perp",
     "base": "chainlink",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/LINK-PERP"
   },
   "LIT-PERP": {
     "exchange": "perp",
     "base": "lighter",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/LIT-PERP"
   },
   "LTC-PERP": {
     "exchange": "perp",
     "base": "litecoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/LTC-PERP"
   },
   "META-PERP": {
     "exchange": "perp",
     "base": "meta-platforms",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/META-PERP"
   },
   "MON-PERP": {
     "exchange": "perp",
     "base": "monad",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/MON-PERP"
   },
   "MORPHO-PERP": {
     "exchange": "perp",
     "base": "morpho",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/MORPHO-PERP"
   },
   "MSFT-PERP": {
     "exchange": "perp",
     "base": "microsoft",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/MSFT-PERP"
   },
   "MSTR-PERP": {
     "exchange": "perp",
     "base": "microstrategy",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/MSTR-PERP"
   },
   "NEAR-PERP": {
     "exchange": "perp",
     "base": "near",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/NEAR-PERP"
   },
   "NVDA-PERP": {
     "exchange": "perp",
     "base": "nvidia",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/NVDA-PERP"
   },
   "ONDO-PERP": {
     "exchange": "perp",
     "base": "ondo",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ONDO-PERP"
   },
   "OP-PERP": {
     "exchange": "perp",
     "base": "optimism",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/OP-PERP"
   },
   "PAXG-PERP": {
     "exchange": "perp",
     "base": "pax-gold",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/PAXG-PERP"
   },
   "PENDLE-PERP": {
     "exchange": "perp",
     "base": "pendle",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/PENDLE-PERP"
   },
   "PENGU-PERP": {
     "exchange": "perp",
     "base": "pudgy-penguins",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/PENGU-PERP"
   },
   "PNUT-PERP": {
     "exchange": "perp",
     "base": "peanut-the-squirrel",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/PNUT-PERP"
   },
   "POL-PERP": {
     "exchange": "perp",
     "base": "polygon",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/POL-PERP"
   },
   "PUMP-PERP": {
     "exchange": "perp",
     "base": "pump",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/PUMP-PERP"
   },
   "PYTH-PERP": {
     "exchange": "perp",
     "base": "pyth-network",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/PYTH-PERP"
   },
   "RED-PERP": {
     "exchange": "perp",
     "base": "redstone",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/RED-PERP"
   },
   "RENDER-PERP": {
     "exchange": "perp",
     "base": "render",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/RENDER-PERP"
   },
   "RUNE-PERP": {
     "exchange": "perp",
     "base": "thorchain",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/RUNE-PERP"
   },
   "S-PERP": {
     "exchange": "perp",
     "base": "sonic",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/S-PERP"
   },
   "SAND-PERP": {
     "exchange": "perp",
     "base": "the-sandbox",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/SAND-PERP"
   },
   "SEI-PERP": {
     "exchange": "perp",
     "base": "sei",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/SEI-PERP"
   },
   "SILVER-PERP": {
     "exchange": "perp",
     "base": "silver",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/SILVER-PERP"
   },
   "SKY-PERP": {
     "exchange": "perp",
     "base": "sky",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/SKY-PERP"
   },
   "SOL-PERP": {
     "exchange": "perp",
     "base": "solana",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/SOL-PERP"
   },
   "STRK-PERP": {
     "exchange": "perp",
     "base": "starknet",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/STRK-PERP"
   },
   "SUI-PERP": {
     "exchange": "perp",
     "base": "sui",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/SUI-PERP"
   },
   "TAO-PERP": {
     "exchange": "perp",
     "base": "bittensor",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/TAO-PERP"
   },
   "TIA-PERP": {
     "exchange": "perp",
     "base": "celestia",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/TIA-PERP"
   },
   "TRUMP-PERP": {
     "exchange": "perp",
     "base": "official-trump",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/TRUMP-PERP"
   },
   "TSLA-PERP": {
     "exchange": "perp",
     "base": "tesla",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/TSLA-PERP"
   },
   "UNI-PERP": {
     "exchange": "perp",
     "base": "uniswap",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/UNI-PERP"
   },
   "VIRTUAL-PERP": {
     "exchange": "perp",
     "base": "virtuals-protocol",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/VIRTUAL-PERP"
   },
   "VVV-PERP": {
     "exchange": "perp",
     "base": "venice-token",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/VVV-PERP"
   },
   "W-PERP": {
     "exchange": "perp",
     "base": "wormhole",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/W-PERP"
   },
   "WIF-PERP": {
     "exchange": "perp",
     "base": "dogwifcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/WIF-PERP"
   },
   "WLD-PERP": {
     "exchange": "perp",
     "base": "worldcoin",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/WLD-PERP"
   },
   "WLFI-PERP": {
     "exchange": "perp",
     "base": "world-liberty-financial",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/WLFI-PERP"
   },
   "XLM-PERP": {
     "exchange": "perp",
     "base": "stellar",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/XLM-PERP"
   },
   "XPL-PERP": {
     "exchange": "perp",
     "base": "plasma",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/XPL-PERP"
   },
   "XRP-PERP": {
     "exchange": "perp",
     "base": "xrp",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/XRP-PERP"
   },
   "ZEC-PERP": {
     "exchange": "perp",
     "base": "zcash",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ZEC-PERP"
   },
   "ZRO-PERP": {
     "exchange": "perp",
     "base": "layer-zero",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ZRO-PERP"
   }
 }
