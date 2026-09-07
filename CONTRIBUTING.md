@@ -5,7 +5,7 @@ Contributions are welcome — new assets, platforms, icons, translations, instru
 ## Setup
 
 ```bash
-git clone https://github.com/tribulnation/catalogue2.git
+git clone https://github.com/tribulnation/catalogue.git
 cd catalogue
 python -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```
@@ -67,3 +67,45 @@ Always run before opening a pull request:
 ```
 
 The CI will run this automatically on every push and pull request.
+
+## Releasing the Python package
+
+`tribulnation-catalogue` publishes to PyPI from CI, triggered by merging a pull request
+from the `release/python` branch. Nothing is published from a developer machine.
+
+1. Bump `version` in `lib/pyproject.toml`. This is deliberately manual — a version bump
+   is a decision, not a side effect of merging.
+2. Open a pull request from `release/python` into `main`. Its body becomes the GitHub
+   Release notes, so write it as a changelog.
+3. Merge it. `.github/workflows/release-python.yml` then checks whether that version is
+   already on PyPI, and if not runs `pyright`, builds, publishes, tags `python-v<version>`,
+   and drafts the GitHub Release.
+
+The branch name is the gate: an ordinary pull request touching `lib/` publishes nothing.
+Re-merging an already-published version is a no-op, so a re-run is safe.
+
+To check the release gate locally before opening the pull request:
+
+```bash
+.venv/bin/pyright lib && .venv/bin/python -m build lib
+```
+
+## Releasing the npm package
+
+`@tribulnation/catalogue` follows the same pattern, on its own branch and tag namespace:
+merge a pull request from `release/js` touching `js/`, and
+`.github/workflows/release-js.yml` checks the npm registry, then lints, typechecks,
+builds, publishes, tags `js-v<version>`, and drafts the GitHub Release.
+
+1. Bump `version` in `js/package.json`.
+2. Open a pull request from `release/js` into `main`, with the body written as a changelog.
+3. Merge it.
+
+To check the release gate locally:
+
+```bash
+cd js && npm install && npm run lint && npm run check && npm run build
+```
+
+The two packages release independently — a `release/python` pull request never triggers
+the npm workflow, and vice versa, since each filters on its own directory.

@@ -2,1381 +2,1657 @@
   "1INCHUSDT": {
     "exchange": "spot",
     "base": "1inch",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/1INCH/USDT"
   },
   "AAVEUSDC": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/AAVE/USDC"
   },
   "AAVEUSDT": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AAVE/USDT"
   },
   "ADAEUR": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/ADA/EUR"
   },
   "ADAMNT": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "mantle"
+    "quote": "mantle",
+    "url": "https://www.bybit.com/en/trade/spot/ADA/MNT"
   },
   "ADAUSDC": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ADA/USDC"
   },
   "ADAUSDT": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ADA/USDT"
   },
   "AEROUSDT": {
     "exchange": "spot",
     "base": "aerodrome",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AERO/USDT"
   },
   "ALGOUSDC": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ALGO/USDC"
   },
   "ALGOUSDT": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ALGO/USDT"
   },
   "ALTUSDT": {
     "exchange": "spot",
     "base": "altlayer",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ALT/USDT"
   },
   "ANKRUSDT": {
     "exchange": "spot",
     "base": "ankr",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ANKR/USDT"
   },
   "APEUSDC": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/APE/USDC"
   },
   "APEUSDT": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/APE/USDT"
   },
   "APTUSDC": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/APT/USDC"
   },
   "APTUSDT": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/APT/USDT"
   },
   "ARBUSDC": {
     "exchange": "spot",
     "base": "arbitrum",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ARB/USDC"
   },
   "ARBUSDT": {
     "exchange": "spot",
     "base": "arbitrum",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ARB/USDT"
   },
   "ARKMUSDT": {
     "exchange": "spot",
     "base": "arkham",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ARKM/USDT"
   },
   "ARUSDC": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/AR/USDC"
   },
   "ARUSDT": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AR/USDT"
   },
   "ASTERUSDT": {
     "exchange": "spot",
     "base": "aster",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ASTER/USDT"
   },
   "ATHUSDT": {
     "exchange": "spot",
     "base": "aethir",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ATH/USDT"
   },
   "ATOMUSDC": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ATOM/USDC"
   },
   "ATOMUSDT": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ATOM/USDT"
   },
   "AVAUSDT": {
     "exchange": "spot",
     "base": "travala",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AVA/USDT"
   },
   "AVAXEUR": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/AVAX/EUR"
   },
   "AVAXUSDC": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/AVAX/USDC"
   },
   "AVAXUSDT": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AVAX/USDT"
   },
   "AVNTUSDT": {
     "exchange": "spot",
     "base": "avantis",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AVNT/USDT"
   },
   "AXLUSDT": {
     "exchange": "spot",
     "base": "axelar",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AXL/USDT"
   },
   "AXSUSDT": {
     "exchange": "spot",
     "base": "axie-infinity",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AXS/USDT"
   },
   "BATUSDT": {
     "exchange": "spot",
     "base": "basic-attention-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BAT/USDT"
   },
   "BCHUSDC": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/BCH/USDC"
   },
   "BCHUSDT": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BCH/USDT"
   },
   "BERAUSDT": {
     "exchange": "spot",
     "base": "berachain",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BERA/USDT"
   },
   "BLASTUSDT": {
     "exchange": "spot",
     "base": "blast",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BLAST/USDT"
   },
   "BLURUSDT": {
     "exchange": "spot",
     "base": "blur",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BLUR/USDT"
   },
   "BNBUSDC": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/BNB/USDC"
   },
   "BNBUSDT": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BNB/USDT"
   },
   "BONKUSDC": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/BONK/USDC"
   },
   "BONKUSDT": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BONK/USDT"
   },
   "BTCEUR": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/EUR"
   },
   "BTCGBP": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "british-pound"
+    "quote": "british-pound",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/GBP"
   },
   "BTCRLUSD": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "ripple-usd"
+    "quote": "ripple-usd",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/RLUSD"
   },
   "BTCTRY": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/TRY"
   },
   "BTCUSD": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/USD"
   },
   "BTCUSD1": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/USD1"
   },
   "BTCUSDC": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/USDC"
   },
   "BTCUSDE": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "ethena-usde"
+    "quote": "ethena-usde",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/USDE"
   },
   "BTCUSDT": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/USDT"
   },
   "BTTUSDT": {
     "exchange": "spot",
     "base": "bittorrent",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BTT/USDT"
   },
   "CAKEUSDT": {
     "exchange": "spot",
     "base": "pancakeswap",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CAKE/USDT"
   },
   "CATIEUR": {
     "exchange": "spot",
     "base": "catizen",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/CATI/EUR"
   },
   "CATIUSDC": {
     "exchange": "spot",
     "base": "catizen",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/CATI/USDC"
   },
   "CATIUSDT": {
     "exchange": "spot",
     "base": "catizen",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CATI/USDT"
   },
   "CCUSDC": {
     "exchange": "spot",
     "base": "canton",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/CC/USDC"
   },
   "CCUSDT": {
     "exchange": "spot",
     "base": "canton",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CC/USDT"
   },
   "CELOUSDT": {
     "exchange": "spot",
     "base": "celo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CELO/USDT"
   },
   "CHZUSDC": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/CHZ/USDC"
   },
   "CHZUSDT": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CHZ/USDT"
   },
   "COMPUSDT": {
     "exchange": "spot",
     "base": "compound",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/COMP/USDT"
   },
   "COREUSDT": {
     "exchange": "spot",
     "base": "core",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CORE/USDT"
   },
   "CRVUSDC": {
     "exchange": "spot",
     "base": "curve-dao",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/CRV/USDC"
   },
   "CRVUSDT": {
     "exchange": "spot",
     "base": "curve-dao",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CRV/USDT"
   },
   "DBRUSDT": {
     "exchange": "spot",
     "base": "debridge",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DBR/USDT"
   },
   "DOGEEUR": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/DOGE/EUR"
   },
   "DOGEMNT": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "mantle"
+    "quote": "mantle",
+    "url": "https://www.bybit.com/en/trade/spot/DOGE/MNT"
   },
   "DOGEUSDC": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/DOGE/USDC"
   },
   "DOGEUSDT": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DOGE/USDT"
   },
   "DOTUSDC": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/DOT/USDC"
   },
   "DOTUSDT": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DOT/USDT"
   },
   "DYDXUSDC": {
     "exchange": "spot",
     "base": "dydx",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/DYDX/USDC"
   },
   "DYDXUSDT": {
     "exchange": "spot",
     "base": "dydx",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DYDX/USDT"
   },
   "DYMUSDT": {
     "exchange": "spot",
     "base": "dymension",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DYM/USDT"
   },
   "EIGENUSDC": {
     "exchange": "spot",
     "base": "eigen-layer",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/EIGEN/USDC"
   },
   "EIGENUSDT": {
     "exchange": "spot",
     "base": "eigen-layer",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/EIGEN/USDT"
   },
   "ENAEUR": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/ENA/EUR"
   },
   "ENAUSDC": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ENA/USDC"
   },
   "ENAUSDT": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ENA/USDT"
   },
   "ENSUSDC": {
     "exchange": "spot",
     "base": "ethereum-name-service",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ENS/USDC"
   },
   "ENSUSDT": {
     "exchange": "spot",
     "base": "ethereum-name-service",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ENS/USDT"
   },
   "ETCUSDT": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ETC/USDT"
   },
   "ETHBTC": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/BTC"
   },
   "ETHEUR": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/EUR"
   },
   "ETHFIUSDT": {
     "exchange": "spot",
     "base": "ether-fi",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ETHFI/USDT"
   },
   "ETHGBP": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "british-pound"
+    "quote": "british-pound",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/GBP"
   },
   "ETHMNT": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "mantle"
+    "quote": "mantle",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/MNT"
   },
   "ETHRLUSD": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "ripple-usd"
+    "quote": "ripple-usd",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/RLUSD"
   },
   "ETHTRY": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/TRY"
   },
   "ETHUSD": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/USD"
   },
   "ETHUSD1": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/USD1"
   },
   "ETHUSDC": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/USDC"
   },
   "ETHUSDE": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "ethena-usde"
+    "quote": "ethena-usde",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/USDE"
   },
   "ETHUSDT": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/USDT"
   },
   "FETUSDC": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/FET/USDC"
   },
   "FETUSDT": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FET/USDT"
   },
   "FILUSDC": {
     "exchange": "spot",
     "base": "filecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/FIL/USDC"
   },
   "FILUSDT": {
     "exchange": "spot",
     "base": "filecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FIL/USDT"
   },
   "FLOKIUSDC": {
     "exchange": "spot",
     "base": "floki",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/FLOKI/USDC"
   },
   "FLOKIUSDT": {
     "exchange": "spot",
     "base": "floki",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FLOKI/USDT"
   },
   "FLRUSDT": {
     "exchange": "spot",
     "base": "flare",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FLR/USDT"
   },
   "FRAXUSDT": {
     "exchange": "spot",
     "base": "frax",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FRAX/USDT"
   },
   "GALAUSDT": {
     "exchange": "spot",
     "base": "gala",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GALA/USDT"
   },
   "GMTUSDC": {
     "exchange": "spot",
     "base": "green-metaverse-token",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/GMT/USDC"
   },
   "GMTUSDT": {
     "exchange": "spot",
     "base": "green-metaverse-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GMT/USDT"
   },
   "GMXUSDT": {
     "exchange": "spot",
     "base": "gmx",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GMX/USDT"
   },
   "GRASSUSDT": {
     "exchange": "spot",
     "base": "grass",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GRASS/USDT"
   },
   "GRTUSDT": {
     "exchange": "spot",
     "base": "the-graph",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GRT/USDT"
   },
   "GUSDT": {
     "exchange": "spot",
     "base": "gravity",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/G/USDT"
   },
   "HBARUSDC": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/HBAR/USDC"
   },
   "HBARUSDT": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/HBAR/USDT"
   },
   "HTXUSDT": {
     "exchange": "spot",
     "base": "htx-dao",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/HTX/USDT"
   },
   "HYPEUSDT": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/HYPE/USDT"
   },
   "ICPUSDC": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ICP/USDC"
   },
   "ICPUSDT": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ICP/USDT"
   },
   "IMXUSDT": {
     "exchange": "spot",
     "base": "immutable-x",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/IMX/USDT"
   },
   "INJUSDC": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/INJ/USDC"
   },
   "INJUSDT": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/INJ/USDT"
   },
   "IOUSDT": {
     "exchange": "spot",
     "base": "io-net",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/IO/USDT"
   },
   "JASMYUSDC": {
     "exchange": "spot",
     "base": "jasmycoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/JASMY/USDC"
   },
   "JASMYUSDT": {
     "exchange": "spot",
     "base": "jasmycoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/JASMY/USDT"
   },
   "JSTUSDT": {
     "exchange": "spot",
     "base": "just",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/JST/USDT"
   },
   "JTOUSDC": {
     "exchange": "spot",
     "base": "jito",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/JTO/USDC"
   },
   "JTOUSDT": {
     "exchange": "spot",
     "base": "jito",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/JTO/USDT"
   },
   "JUPUSDC": {
     "exchange": "spot",
     "base": "jupiter",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/JUP/USDC"
   },
   "JUPUSDT": {
     "exchange": "spot",
     "base": "jupiter",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/JUP/USDT"
   },
   "KAIAUSDT": {
     "exchange": "spot",
     "base": "kaia",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/KAIA/USDT"
   },
   "KASUSDC": {
     "exchange": "spot",
     "base": "kaspa",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/KAS/USDC"
   },
   "KASUSDT": {
     "exchange": "spot",
     "base": "kaspa",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/KAS/USDT"
   },
   "KCSUSDT": {
     "exchange": "spot",
     "base": "kucoin-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/KCS/USDT"
   },
   "LAYERUSDT": {
     "exchange": "spot",
     "base": "solayer",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LAYER/USDT"
   },
   "LDOUSDC": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/LDO/USDC"
   },
   "LDOUSDT": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LDO/USDT"
   },
   "LINEAUSDT": {
     "exchange": "spot",
     "base": "linea",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LINEA/USDT"
   },
   "LINKEUR": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/LINK/EUR"
   },
   "LINKUSDC": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/LINK/USDC"
   },
   "LINKUSDT": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LINK/USDT"
   },
   "LITUSDT": {
     "exchange": "spot",
     "base": "lighter",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LIT/USDT"
   },
   "LTCBTC": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.bybit.com/en/trade/spot/LTC/BTC"
   },
   "LTCEUR": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/LTC/EUR"
   },
   "LTCMNT": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "mantle"
+    "quote": "mantle",
+    "url": "https://www.bybit.com/en/trade/spot/LTC/MNT"
   },
   "LTCUSDC": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/LTC/USDC"
   },
   "LTCUSDT": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LTC/USDT"
   },
   "MANAUSDC": {
     "exchange": "spot",
     "base": "decentraland",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/MANA/USDC"
   },
   "MANAUSDT": {
     "exchange": "spot",
     "base": "decentraland",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MANA/USDT"
   },
   "MANTAUSDT": {
     "exchange": "spot",
     "base": "manta-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MANTA/USDT"
   },
   "MASKUSDT": {
     "exchange": "spot",
     "base": "mask-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MASK/USDT"
   },
   "MEUSDT": {
     "exchange": "spot",
     "base": "magic-eden",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ME/USDT"
   },
   "MNTBTC": {
     "exchange": "spot",
     "base": "mantle",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.bybit.com/en/trade/spot/MNT/BTC"
   },
   "MNTUSD1": {
     "exchange": "spot",
     "base": "mantle",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.bybit.com/en/trade/spot/MNT/USD1"
   },
   "MNTUSDC": {
     "exchange": "spot",
     "base": "mantle",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/MNT/USDC"
   },
   "MNTUSDE": {
     "exchange": "spot",
     "base": "mantle",
-    "quote": "ethena-usde"
+    "quote": "ethena-usde",
+    "url": "https://www.bybit.com/en/trade/spot/MNT/USDE"
   },
   "MNTUSDT": {
     "exchange": "spot",
     "base": "mantle",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MNT/USDT"
   },
   "MONUSDT": {
     "exchange": "spot",
     "base": "monad",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MON/USDT"
   },
   "MORPHOUSDT": {
     "exchange": "spot",
     "base": "morpho",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MORPHO/USDT"
   },
   "MXUSDT": {
     "exchange": "spot",
     "base": "mx-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MX/USDT"
   },
   "NEARUSDC": {
     "exchange": "spot",
     "base": "near",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/NEAR/USDC"
   },
   "NEARUSDT": {
     "exchange": "spot",
     "base": "near",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NEAR/USDT"
   },
   "NEXOUSDT": {
     "exchange": "spot",
     "base": "nexo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NEXO/USDT"
   },
   "NOTUSDC": {
     "exchange": "spot",
     "base": "notcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/NOT/USDC"
   },
   "NOTUSDT": {
     "exchange": "spot",
     "base": "notcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NOT/USDT"
   },
   "ONDOEUR": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/ONDO/EUR"
   },
   "ONDOUSDC": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ONDO/USDC"
   },
   "ONDOUSDT": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ONDO/USDT"
   },
   "OPUSDC": {
     "exchange": "spot",
     "base": "optimism",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/OP/USDC"
   },
   "OPUSDT": {
     "exchange": "spot",
     "base": "optimism",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/OP/USDT"
   },
   "ORDIUSDC": {
     "exchange": "spot",
     "base": "ordi",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ORDI/USDC"
   },
   "ORDIUSDT": {
     "exchange": "spot",
     "base": "ordi",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ORDI/USDT"
   },
   "PENDLEUSDT": {
     "exchange": "spot",
     "base": "pendle",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PENDLE/USDT"
   },
   "PENGUUSDT": {
     "exchange": "spot",
     "base": "pudgy-penguins",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PENGU/USDT"
   },
   "PEPEEUR": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/PEPE/EUR"
   },
   "PEPEUSDC": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/PEPE/USDC"
   },
   "PEPEUSDT": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PEPE/USDT"
   },
   "PNUTUSDT": {
     "exchange": "spot",
     "base": "peanut-the-squirrel",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PNUT/USDT"
   },
   "POLUSDC": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/POL/USDC"
   },
   "POLUSDT": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/POL/USDT"
   },
   "PUMPUSDC": {
     "exchange": "spot",
     "base": "pump",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/PUMP/USDC"
   },
   "PUMPUSDT": {
     "exchange": "spot",
     "base": "pump",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PUMP/USDT"
   },
   "PYTHUSDC": {
     "exchange": "spot",
     "base": "pyth-network",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/PYTH/USDC"
   },
   "PYTHUSDT": {
     "exchange": "spot",
     "base": "pyth-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PYTH/USDT"
   },
   "PYUSDUSDT": {
     "exchange": "spot",
     "base": "paypal-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PYUSD/USDT"
   },
   "QNTUSDT": {
     "exchange": "spot",
     "base": "quant",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/QNT/USDT"
   },
   "REDUSDT": {
     "exchange": "spot",
     "base": "redstone",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/RED/USDT"
   },
   "RENDERUSDC": {
     "exchange": "spot",
     "base": "render",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/RENDER/USDC"
   },
   "RENDERUSDT": {
     "exchange": "spot",
     "base": "render",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/RENDER/USDT"
   },
   "RLUSDUSDT": {
     "exchange": "spot",
     "base": "ripple-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/RLUSD/USDT"
   },
   "RUNEUSDT": {
     "exchange": "spot",
     "base": "thorchain",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/RUNE/USDT"
   },
   "SANDUSDC": {
     "exchange": "spot",
     "base": "the-sandbox",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/SAND/USDC"
   },
   "SANDUSDT": {
     "exchange": "spot",
     "base": "the-sandbox",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SAND/USDT"
   },
   "SEIUSDC": {
     "exchange": "spot",
     "base": "sei",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/SEI/USDC"
   },
   "SEIUSDT": {
     "exchange": "spot",
     "base": "sei",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SEI/USDT"
   },
   "SHIBEUR": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/SHIB/EUR"
   },
   "SHIBUSDC": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/SHIB/USDC"
   },
   "SHIBUSDT": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SHIB/USDT"
   },
   "SKYUSDT": {
     "exchange": "spot",
     "base": "sky",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SKY/USDT"
   },
   "SNXUSDT": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SNX/USDT"
   },
   "SOLBTC": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.bybit.com/en/trade/spot/SOL/BTC"
   },
   "SOLEUR": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/SOL/EUR"
   },
   "SOLGBP": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "british-pound"
+    "quote": "british-pound",
+    "url": "https://www.bybit.com/en/trade/spot/SOL/GBP"
   },
   "SOLMNT": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "mantle"
+    "quote": "mantle",
+    "url": "https://www.bybit.com/en/trade/spot/SOL/MNT"
   },
   "SOLUSDC": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/SOL/USDC"
   },
   "SOLUSDE": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "ethena-usde"
+    "quote": "ethena-usde",
+    "url": "https://www.bybit.com/en/trade/spot/SOL/USDE"
   },
   "SOLUSDT": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SOL/USDT"
   },
   "SOLVUSDT": {
     "exchange": "spot",
     "base": "solv-protocol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SOLV/USDT"
   },
   "SONICUSDT": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SONIC/USDT"
   },
   "STETHEUR": {
     "exchange": "spot",
     "base": "lido-staked-ether",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/STETH/EUR"
   },
   "STETHUSDT": {
     "exchange": "spot",
     "base": "lido-staked-ether",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/STETH/USDT"
   },
   "STRKUSDC": {
     "exchange": "spot",
     "base": "starknet",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/STRK/USDC"
   },
   "STRKUSDT": {
     "exchange": "spot",
     "base": "starknet",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/STRK/USDT"
   },
   "STXUSDC": {
     "exchange": "spot",
     "base": "stacks",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/STX/USDC"
   },
   "STXUSDT": {
     "exchange": "spot",
     "base": "stacks",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/STX/USDT"
   },
   "SUIMNT": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "mantle"
+    "quote": "mantle",
+    "url": "https://www.bybit.com/en/trade/spot/SUI/MNT"
   },
   "SUIUSDC": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/SUI/USDC"
   },
   "SUIUSDT": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SUI/USDT"
   },
   "SUNUSDT": {
     "exchange": "spot",
     "base": "sun-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SUN/USDT"
   },
   "SUSDC": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/S/USDC"
   },
   "SUSDT": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/S/USDT"
   },
   "TELUSDT": {
     "exchange": "spot",
     "base": "telcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TEL/USDT"
   },
   "THETAUSDT": {
     "exchange": "spot",
     "base": "theta-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/THETA/USDT"
   },
   "TIAUSDC": {
     "exchange": "spot",
     "base": "celestia",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/TIA/USDC"
   },
   "TIAUSDT": {
     "exchange": "spot",
     "base": "celestia",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TIA/USDT"
   },
   "TRUMPUSDC": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/TRUMP/USDC"
   },
   "TRUMPUSDT": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TRUMP/USDT"
   },
   "TRXUSDC": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/TRX/USDC"
   },
   "TRXUSDT": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TRX/USDT"
   },
   "TUSDUSDT": {
     "exchange": "spot",
     "base": "true-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TUSD/USDT"
   },
   "TWTUSDT": {
     "exchange": "spot",
     "base": "trust-wallet-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TWT/USDT"
   },
   "UMAUSDT": {
     "exchange": "spot",
     "base": "uma",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/UMA/USDT"
   },
   "UNIUSDC": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/UNI/USDC"
   },
   "UNIUSDT": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/UNI/USDT"
   },
   "USD1USDT": {
     "exchange": "spot",
     "base": "usd1",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/USD1/USDT"
   },
   "USDCEUR": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/USDC/EUR"
   },
   "USDCGBP": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "british-pound"
+    "quote": "british-pound",
+    "url": "https://www.bybit.com/en/trade/spot/USDC/GBP"
   },
   "USDCUSD1": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "usd1"
+    "quote": "usd1",
+    "url": "https://www.bybit.com/en/trade/spot/USDC/USD1"
   },
   "USDCUSDT": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/USDC/USDT"
   },
   "USDEUSDC": {
     "exchange": "spot",
     "base": "ethena-usde",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/USDE/USDC"
   },
   "USDEUSDT": {
     "exchange": "spot",
     "base": "ethena-usde",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/USDE/USDT"
   },
   "USDSUSDT": {
     "exchange": "spot",
     "base": "sky-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/USDS/USDT"
   },
   "USDTBUSDT": {
     "exchange": "spot",
     "base": "ethena-usdtb",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/USDTB/USDT"
   },
   "USDTEUR": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/USDT/EUR"
   },
   "USDTGBP": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "british-pound"
+    "quote": "british-pound",
+    "url": "https://www.bybit.com/en/trade/spot/USDT/GBP"
   },
   "USDTTRY": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "turkish-lira"
+    "quote": "turkish-lira",
+    "url": "https://www.bybit.com/en/trade/spot/USDT/TRY"
   },
   "USDTUSD": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bybit.com/en/trade/spot/USDT/USD"
   },
   "VANAUSDT": {
     "exchange": "spot",
     "base": "vana",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/VANA/USDT"
   },
   "VETUSDT": {
     "exchange": "spot",
     "base": "vechain",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/VET/USDT"
   },
   "VIRTUALMNT": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "mantle"
+    "quote": "mantle",
+    "url": "https://www.bybit.com/en/trade/spot/VIRTUAL/MNT"
   },
   "VIRTUALUSDC": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/VIRTUAL/USDC"
   },
   "VIRTUALUSDT": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/VIRTUAL/USDT"
   },
   "VVVUSDT": {
     "exchange": "spot",
     "base": "venice-token",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/VVV/USDT"
   },
   "WBTCBTC": {
     "exchange": "spot",
     "base": "wrapped-bitcoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.bybit.com/en/trade/spot/WBTC/BTC"
   },
   "WBTCUSDT": {
     "exchange": "spot",
     "base": "wrapped-bitcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WBTC/USDT"
   },
   "WIFUSDC": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/WIF/USDC"
   },
   "WIFUSDT": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WIF/USDT"
   },
   "WLDUSDC": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/WLD/USDC"
   },
   "WLDUSDT": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WLD/USDT"
   },
   "WLFIUSDT": {
     "exchange": "spot",
     "base": "world-liberty-financial",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WLFI/USDT"
   },
   "WUSDT": {
     "exchange": "spot",
     "base": "wormhole",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/W/USDT"
   },
   "XAUTUSDT": {
     "exchange": "spot",
     "base": "tether-gold",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/XAUT/USDT"
   },
   "XDCUSDT": {
     "exchange": "spot",
     "base": "xdc-network",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/XDC/USDT"
   },
   "XLMBTC": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.bybit.com/en/trade/spot/XLM/BTC"
   },
   "XLMUSDC": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/XLM/USDC"
   },
   "XLMUSDT": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/XLM/USDT"
   },
   "XPLUSDT": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/XPL/USDT"
   },
   "XRPBTC": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.bybit.com/en/trade/spot/XRP/BTC"
   },
   "XRPEUR": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/XRP/EUR"
   },
   "XRPMNT": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "mantle"
+    "quote": "mantle",
+    "url": "https://www.bybit.com/en/trade/spot/XRP/MNT"
   },
   "XRPRLUSD": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "ripple-usd"
+    "quote": "ripple-usd",
+    "url": "https://www.bybit.com/en/trade/spot/XRP/RLUSD"
   },
   "XRPUSDC": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/XRP/USDC"
   },
   "XRPUSDT": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/XRP/USDT"
   },
   "XTZUSDT": {
     "exchange": "spot",
     "base": "tezos",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/XTZ/USDT"
   },
   "YFIUSDT": {
     "exchange": "spot",
     "base": "yearn-finance",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/YFI/USDT"
   },
   "ZKUSDC": {
     "exchange": "spot",
     "base": "zksync",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ZK/USDC"
   },
   "ZKUSDT": {
     "exchange": "spot",
     "base": "zksync",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZK/USDT"
   },
   "ZROUSDC": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/ZRO/USDC"
   },
   "ZROUSDT": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZRO/USDT"
   }
 }

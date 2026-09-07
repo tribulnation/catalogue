@@ -1,9 +1,9 @@
 # @tribulnation/catalogue
 
 [![npm](https://img.shields.io/npm/v/@tribulnation/catalogue)](https://www.npmjs.com/package/@tribulnation/catalogue)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/tribulnation/catalogue2/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/tribulnation/catalogue/blob/main/LICENSE)
 
-JavaScript / TypeScript client for the [Tribulnation Catalogue](https://github.com/tribulnation/catalogue2) — a typed, open catalogue of crypto assets, trading platforms, and instrument mappings.
+JavaScript / TypeScript client for the [Tribulnation Catalogue](https://github.com/tribulnation/catalogue) — a typed, open catalogue of crypto assets, trading platforms, and instrument mappings.
 
 ## Install
 
@@ -92,5 +92,5 @@ import type {
 ## Links
 
 - [Full catalogue & API](https://catalogue.tribulnation.com)
-- [GitHub](https://github.com/tribulnation/catalogue2)
+- [GitHub](https://github.com/tribulnation/catalogue)
 - [Python package](https://pypi.org/project/tribulnation-catalogue/)

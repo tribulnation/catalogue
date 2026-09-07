@@ -3,894 +3,1043 @@
     "exchange": "perp",
     "base": "1inch",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_1INCHUSD"
   },
   "PF_AAVEUSD": {
     "exchange": "perp",
     "base": "aave",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_AAVEUSD"
   },
   "PF_ACEUSD": {
     "exchange": "perp",
     "base": "fusionist",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ACEUSD"
   },
   "PF_ADAUSD": {
     "exchange": "perp",
     "base": "cardano",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ADAUSD"
   },
   "PF_AKTUSD": {
     "exchange": "perp",
     "base": "akash-network",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_AKTUSD"
   },
   "PF_ALGOUSD": {
     "exchange": "perp",
     "base": "algorand",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ALGOUSD"
   },
   "PF_ALTUSD": {
     "exchange": "perp",
     "base": "altlayer",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ALTUSD"
   },
   "PF_ANKRUSD": {
     "exchange": "perp",
     "base": "ankr",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ANKRUSD"
   },
   "PF_APEUSD": {
     "exchange": "perp",
     "base": "apecoin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_APEUSD"
   },
   "PF_APTUSD": {
     "exchange": "perp",
     "base": "aptos",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_APTUSD"
   },
   "PF_ARBUSD": {
     "exchange": "perp",
     "base": "arbitrum",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ARBUSD"
   },
   "PF_ARKMUSD": {
     "exchange": "perp",
     "base": "arkham",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ARKMUSD"
   },
   "PF_ARUSD": {
     "exchange": "perp",
     "base": "arweave",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ARUSD"
   },
   "PF_ASTERUSD": {
     "exchange": "perp",
     "base": "aster",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ASTERUSD"
   },
   "PF_ASTRUSD": {
     "exchange": "perp",
     "base": "astar",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ASTRUSD"
   },
   "PF_ATHUSD": {
     "exchange": "perp",
     "base": "aethir",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ATHUSD"
   },
   "PF_ATOMUSD": {
     "exchange": "perp",
     "base": "cosmos",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ATOMUSD"
   },
   "PF_AVAXUSD": {
     "exchange": "perp",
     "base": "avalanche",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_AVAXUSD"
   },
   "PF_AXSUSD": {
     "exchange": "perp",
     "base": "axie-infinity",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_AXSUSD"
   },
   "PF_BATUSD": {
     "exchange": "perp",
     "base": "basic-attention-token",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_BATUSD"
   },
   "PF_BCHUSD": {
     "exchange": "perp",
     "base": "bitcoin-cash",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_BCHUSD"
   },
   "PF_BERAUSD": {
     "exchange": "perp",
     "base": "berachain",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_BERAUSD"
   },
   "PF_BIOUSD": {
     "exchange": "perp",
     "base": "bio-protocol",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_BIOUSD"
   },
   "PF_BLURUSD": {
     "exchange": "perp",
     "base": "blur",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_BLURUSD"
   },
   "PF_BNBUSD": {
     "exchange": "perp",
     "base": "bnb",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_BNBUSD"
   },
   "PF_BONKUSD": {
     "exchange": "perp",
     "base": "bonk",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_BONKUSD"
   },
   "PF_CAKEUSD": {
     "exchange": "perp",
     "base": "pancakeswap",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_CAKEUSD"
   },
   "PF_CATIUSD": {
     "exchange": "perp",
     "base": "catizen",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_CATIUSD"
   },
   "PF_CELOUSD": {
     "exchange": "perp",
     "base": "celo",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_CELOUSD"
   },
   "PF_CFXUSD": {
     "exchange": "perp",
     "base": "conflux",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_CFXUSD"
   },
   "PF_CHFUSD": {
     "exchange": "perp",
     "base": "swiss-franc",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_CHFUSD"
   },
   "PF_CHZUSD": {
     "exchange": "perp",
     "base": "chiliz",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_CHZUSD"
   },
   "PF_COMPUSD": {
     "exchange": "perp",
     "base": "compound",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_COMPUSD"
   },
   "PF_COWUSD": {
     "exchange": "perp",
     "base": "cow-protocol",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_COWUSD"
   },
   "PF_CROUSD": {
     "exchange": "perp",
     "base": "cronos",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_CROUSD"
   },
   "PF_CRVUSD": {
     "exchange": "perp",
     "base": "curve-dao",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_CRVUSD"
   },
   "PF_CVXUSD": {
     "exchange": "perp",
     "base": "convex-finance",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_CVXUSD"
   },
   "PF_DASHUSD": {
     "exchange": "perp",
     "base": "dash",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_DASHUSD"
   },
   "PF_DEXEUSD": {
     "exchange": "perp",
     "base": "dexe",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_DEXEUSD"
   },
   "PF_DOGEUSD": {
     "exchange": "perp",
     "base": "dogecoin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_DOGEUSD"
   },
   "PF_DOTUSD": {
     "exchange": "perp",
     "base": "polkadot",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_DOTUSD"
   },
   "PF_DYDXUSD": {
     "exchange": "perp",
     "base": "dydx",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_DYDXUSD"
   },
   "PF_DYMUSD": {
     "exchange": "perp",
     "base": "dymension",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_DYMUSD"
   },
   "PF_EIGENUSD": {
     "exchange": "perp",
     "base": "eigen-layer",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_EIGENUSD"
   },
   "PF_ENAUSD": {
     "exchange": "perp",
     "base": "ethena",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ENAUSD"
   },
   "PF_ENSUSD": {
     "exchange": "perp",
     "base": "ethereum-name-service",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ENSUSD"
   },
   "PF_ETCUSD": {
     "exchange": "perp",
     "base": "ethereum-classic",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ETCUSD"
   },
   "PF_ETHFIUSD": {
     "exchange": "perp",
     "base": "ether-fi",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ETHFIUSD"
   },
   "PF_ETHUSD": {
     "exchange": "perp",
     "base": "ethereum",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ETHUSD"
   },
   "PF_EURUSD": {
     "exchange": "perp",
     "base": "euro",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_EURUSD"
   },
   "PF_FARTCOINUSD": {
     "exchange": "perp",
     "base": "fartcoin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_FARTCOINUSD"
   },
   "PF_FETUSD": {
     "exchange": "perp",
     "base": "fetch-ai",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_FETUSD"
   },
   "PF_FILUSD": {
     "exchange": "perp",
     "base": "filecoin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_FILUSD"
   },
   "PF_FLOKIUSD": {
     "exchange": "perp",
     "base": "floki",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_FLOKIUSD"
   },
   "PF_GALAUSD": {
     "exchange": "perp",
     "base": "gala",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_GALAUSD"
   },
   "PF_GBPUSD": {
     "exchange": "perp",
     "base": "british-pound",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_GBPUSD"
   },
   "PF_GMTUSD": {
     "exchange": "perp",
     "base": "green-metaverse-token",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_GMTUSD"
   },
   "PF_GMXUSD": {
     "exchange": "perp",
     "base": "gmx",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_GMXUSD"
   },
   "PF_GRASSUSD": {
     "exchange": "perp",
     "base": "grass",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_GRASSUSD"
   },
   "PF_GRTUSD": {
     "exchange": "perp",
     "base": "the-graph",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_GRTUSD"
   },
   "PF_HBARUSD": {
     "exchange": "perp",
     "base": "hedera",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_HBARUSD"
   },
   "PF_HYPEUSD": {
     "exchange": "perp",
     "base": "hyperliquid",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_HYPEUSD"
   },
   "PF_ICPUSD": {
     "exchange": "perp",
     "base": "internet-computer",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ICPUSD"
   },
   "PF_IMXUSD": {
     "exchange": "perp",
     "base": "immutable-x",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_IMXUSD"
   },
   "PF_INJUSD": {
     "exchange": "perp",
     "base": "injective",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_INJUSD"
   },
   "PF_IOSTUSD": {
     "exchange": "perp",
     "base": "iost",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_IOSTUSD"
   },
   "PF_IOTAUSD": {
     "exchange": "perp",
     "base": "iota",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_IOTAUSD"
   },
   "PF_IOUSD": {
     "exchange": "perp",
     "base": "io-net",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_IOUSD"
   },
   "PF_JASMYUSD": {
     "exchange": "perp",
     "base": "jasmycoin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_JASMYUSD"
   },
   "PF_JTOUSD": {
     "exchange": "perp",
     "base": "jito",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_JTOUSD"
   },
   "PF_JUPUSD": {
     "exchange": "perp",
     "base": "jupiter",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_JUPUSD"
   },
   "PF_KAIAUSD": {
     "exchange": "perp",
     "base": "kaia",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_KAIAUSD"
   },
   "PF_KAITOUSD": {
     "exchange": "perp",
     "base": "kaito",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_KAITOUSD"
   },
   "PF_KASUSD": {
     "exchange": "perp",
     "base": "kaspa",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_KASUSD"
   },
   "PF_LAYERUSD": {
     "exchange": "perp",
     "base": "solayer",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_LAYERUSD"
   },
   "PF_LDOUSD": {
     "exchange": "perp",
     "base": "lido-dao",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_LDOUSD"
   },
   "PF_LINKUSD": {
     "exchange": "perp",
     "base": "chainlink",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_LINKUSD"
   },
   "PF_LTCUSD": {
     "exchange": "perp",
     "base": "litecoin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_LTCUSD"
   },
   "PF_MANAUSD": {
     "exchange": "perp",
     "base": "decentraland",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_MANAUSD"
   },
   "PF_MNTUSD": {
     "exchange": "perp",
     "base": "mantle",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_MNTUSD"
   },
   "PF_MONUSD": {
     "exchange": "perp",
     "base": "monad",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_MONUSD"
   },
   "PF_MORPHOUSD": {
     "exchange": "perp",
     "base": "morpho",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_MORPHOUSD"
   },
   "PF_NEARUSD": {
     "exchange": "perp",
     "base": "near",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_NEARUSD"
   },
   "PF_NEOUSD": {
     "exchange": "perp",
     "base": "neo",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_NEOUSD"
   },
   "PF_NOTUSD": {
     "exchange": "perp",
     "base": "notcoin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_NOTUSD"
   },
   "PF_ONDOUSD": {
     "exchange": "perp",
     "base": "ondo",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ONDOUSD"
   },
   "PF_OPUSD": {
     "exchange": "perp",
     "base": "optimism",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_OPUSD"
   },
   "PF_ORDIUSD": {
     "exchange": "perp",
     "base": "ordi",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ORDIUSD"
   },
   "PF_PAXGUSD": {
     "exchange": "perp",
     "base": "pax-gold",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_PAXGUSD"
   },
   "PF_PENDLEUSD": {
     "exchange": "perp",
     "base": "pendle",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_PENDLEUSD"
   },
   "PF_PENGUUSD": {
     "exchange": "perp",
     "base": "pudgy-penguins",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_PENGUUSD"
   },
   "PF_PEPEUSD": {
     "exchange": "perp",
     "base": "pepe",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_PEPEUSD"
   },
   "PF_PIXELUSD": {
     "exchange": "perp",
     "base": "pixels",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_PIXELUSD"
   },
   "PF_PNUTUSD": {
     "exchange": "perp",
     "base": "peanut-the-squirrel",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_PNUTUSD"
   },
   "PF_POLUSD": {
     "exchange": "perp",
     "base": "polygon",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_POLUSD"
   },
   "PF_PUMPUSD": {
     "exchange": "perp",
     "base": "pump",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_PUMPUSD"
   },
   "PF_PYTHUSD": {
     "exchange": "perp",
     "base": "pyth-network",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_PYTHUSD"
   },
   "PF_QNTUSD": {
     "exchange": "perp",
     "base": "quant",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_QNTUSD"
   },
   "PF_RAYUSD": {
     "exchange": "perp",
     "base": "raydium",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_RAYUSD"
   },
   "PF_RENDERUSD": {
     "exchange": "perp",
     "base": "render",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_RENDERUSD"
   },
   "PF_REZUSD": {
     "exchange": "perp",
     "base": "renzo",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_REZUSD"
   },
   "PF_RUNEUSD": {
     "exchange": "perp",
     "base": "thorchain",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_RUNEUSD"
   },
   "PF_SANDUSD": {
     "exchange": "perp",
     "base": "the-sandbox",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SANDUSD"
   },
   "PF_SEIUSD": {
     "exchange": "perp",
     "base": "sei",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SEIUSD"
   },
   "PF_SHIBUSD": {
     "exchange": "perp",
     "base": "shiba-inu",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SHIBUSD"
   },
   "PF_SNXUSD": {
     "exchange": "perp",
     "base": "synthetix",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SNXUSD"
   },
   "PF_SOLUSD": {
     "exchange": "perp",
     "base": "solana",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SOLUSD"
   },
   "PF_STRKUSD": {
     "exchange": "perp",
     "base": "starknet",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_STRKUSD"
   },
   "PF_STXUSD": {
     "exchange": "perp",
     "base": "stacks",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_STXUSD"
   },
   "PF_SUIUSD": {
     "exchange": "perp",
     "base": "sui",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SUIUSD"
   },
   "PF_SUNUSD": {
     "exchange": "perp",
     "base": "sun-token",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SUNUSD"
   },
   "PF_SUSD": {
     "exchange": "perp",
     "base": "sonic",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SUSD"
   },
   "PF_SYNUSD": {
     "exchange": "perp",
     "base": "synapse",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SYNUSD"
   },
   "PF_SYRUPUSD": {
     "exchange": "perp",
     "base": "syrup",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SYRUPUSD"
   },
   "PF_TAOUSD": {
     "exchange": "perp",
     "base": "bittensor",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_TAOUSD"
   },
   "PF_THETAUSD": {
     "exchange": "perp",
     "base": "theta-token",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_THETAUSD"
   },
   "PF_TIAUSD": {
     "exchange": "perp",
     "base": "celestia",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_TIAUSD"
   },
   "PF_TRBUSD": {
     "exchange": "perp",
     "base": "tellor",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_TRBUSD"
   },
   "PF_TRUMPUSD": {
     "exchange": "perp",
     "base": "official-trump",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_TRUMPUSD"
   },
   "PF_TRXUSD": {
     "exchange": "perp",
     "base": "tron",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_TRXUSD"
   },
   "PF_TUSD": {
     "exchange": "perp",
     "base": "threshold-network",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_TUSD"
   },
   "PF_UMAUSD": {
     "exchange": "perp",
     "base": "uma",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_UMAUSD"
   },
   "PF_UNIUSD": {
     "exchange": "perp",
     "base": "uniswap",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_UNIUSD"
   },
   "PF_USDCUSD": {
     "exchange": "perp",
     "base": "usd-coin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_USDCUSD"
   },
   "PF_USDTUSD": {
     "exchange": "perp",
     "base": "tether",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_USDTUSD"
   },
   "PF_USUALUSD": {
     "exchange": "perp",
     "base": "usual",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_USUALUSD"
   },
   "PF_VETUSD": {
     "exchange": "perp",
     "base": "vechain",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_VETUSD"
   },
   "PF_VIRTUALUSD": {
     "exchange": "perp",
     "base": "virtuals-protocol",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_VIRTUALUSD"
   },
   "PF_WIFUSD": {
     "exchange": "perp",
     "base": "dogwifcoin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_WIFUSD"
   },
   "PF_WLDUSD": {
     "exchange": "perp",
     "base": "worldcoin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_WLDUSD"
   },
   "PF_WLFIUSD": {
     "exchange": "perp",
     "base": "world-liberty-financial",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_WLFIUSD"
   },
   "PF_WUSD": {
     "exchange": "perp",
     "base": "wormhole",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_WUSD"
   },
   "PF_XAGUSD": {
     "exchange": "perp",
     "base": "silver",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_XAGUSD"
   },
   "PF_XAUTUSD": {
     "exchange": "perp",
     "base": "tether-gold",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_XAUTUSD"
   },
   "PF_XBTUSD": {
     "exchange": "perp",
     "base": "bitcoin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_XBTUSD"
   },
   "PF_XCNUSD": {
     "exchange": "perp",
     "base": "onyxcoin",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_XCNUSD"
   },
   "PF_XLMUSD": {
     "exchange": "perp",
     "base": "stellar",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_XLMUSD"
   },
   "PF_XMRUSD": {
     "exchange": "perp",
     "base": "monero",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_XMRUSD"
   },
   "PF_XPLUSD": {
     "exchange": "perp",
     "base": "plasma",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_XPLUSD"
   },
   "PF_XRPUSD": {
     "exchange": "perp",
     "base": "xrp",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_XRPUSD"
   },
   "PF_XTZUSD": {
     "exchange": "perp",
     "base": "tezos",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_XTZUSD"
   },
   "PF_YFIUSD": {
     "exchange": "perp",
     "base": "yearn-finance",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_YFIUSD"
   },
   "PF_ZECUSD": {
     "exchange": "perp",
     "base": "zcash",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ZECUSD"
   },
   "PF_ZKUSD": {
     "exchange": "perp",
     "base": "zksync",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ZKUSD"
   },
   "PF_ZROUSD": {
     "exchange": "perp",
     "base": "layer-zero",
     "quote": "usd",
-    "settlement": "usd"
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ZROUSD"
   },
   "PI_ETHUSD": {
     "exchange": "perp",
     "base": "ethereum",
     "quote": "usd",
-    "settlement": "ethereum"
+    "settlement": "ethereum",
+    "url": "https://futures.kraken.com/trade/futures/PI_ETHUSD"
   },
   "PI_LTCUSD": {
     "exchange": "perp",
     "base": "litecoin",
     "quote": "usd",
-    "settlement": "litecoin"
+    "settlement": "litecoin",
+    "url": "https://futures.kraken.com/trade/futures/PI_LTCUSD"
   },
   "PI_XBTUSD": {
     "exchange": "perp",
     "base": "bitcoin",
     "quote": "usd",
-    "settlement": "bitcoin"
+    "settlement": "bitcoin",
+    "url": "https://futures.kraken.com/trade/futures/PI_XBTUSD"
   },
   "PI_XRPUSD": {
     "exchange": "perp",
     "base": "xrp",
     "quote": "usd",
-    "settlement": "xrp"
+    "settlement": "xrp",
+    "url": "https://futures.kraken.com/trade/futures/PI_XRPUSD"
   }
 }
