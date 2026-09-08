@@ -1,0 +1,23 @@
+{
+  "id": "aave-gnosis",
+  "display_name": "Aave GNO",
+  "symbol": "aGNO",
+  "category": "crypto",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Gnosis (GNO) in the Aave lending protocol. aGNO holders earn interest continuously and can redeem their tokens for GNO at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Gnosis (GNO) en el protocolo de préstamos Aave. Los titulares de aGNO acumulan intereses continuamente y pueden canjear sus tokens por GNO en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Gnosis (GNO) en el protocol de préstecs Aave. Els titulars de aGNO acumulen interessos de manera contínua i poden bescanviar els seus tokens per GNO en qualsevol moment."
+  },
+  "pegged_to": {
+    "asset": "gnosis"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  },
+  "external": {
+    "coingecko": "aave-v3-gno"
+  }
+}

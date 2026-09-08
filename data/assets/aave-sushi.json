@@ -1,0 +1,23 @@
+{
+  "id": "aave-sushi",
+  "display_name": "Aave SUSHI",
+  "symbol": "aSUSHI",
+  "category": "crypto",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Sushi (SUSHI) in the Aave lending protocol. aSUSHI holders earn interest continuously and can redeem their tokens for SUSHI at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Sushi (SUSHI) en el protocolo de préstamos Aave. Los titulares de aSUSHI acumulan intereses continuamente y pueden canjear sus tokens por SUSHI en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Sushi (SUSHI) en el protocol de préstecs Aave. Els titulars de aSUSHI acumulen interessos de manera contínua i poden bescanviar els seus tokens per SUSHI en qualsevol moment."
+  },
+  "pegged_to": {
+    "asset": "sushi"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  },
+  "external": {
+    "coingecko": "aave-v3-sushi"
+  }
+}

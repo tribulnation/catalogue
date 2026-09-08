@@ -1,7 +1,34 @@
 {
-  "0x24e6e0795b3c7c71D965fCc4f371803d1c1DcA1E": { "asset": "ethereum", "name": "Aave WETH Debt" },
-  "0x59dca05b6c26dbd64b5381374aAaC5CD05644C28": { "asset": "usd-coin", "name": "Aave USDC Debt" },
-  "0x41A7C3f5904ad176dACbb1D99101F59ef0811DC1": { "asset": "wrapped-staked-ether", "name": "Aave wstETH Debt" },
-  "0x03D01595769333174036832e18fA2f17C74f8161": { "asset": "euro-coin", "name": "Aave EURC Debt" },
-  "0xcEC1Ea95dDEF7CFC27D3D9615E05b035af460978": { "asset": "aave", "name": "Aave AAVE Debt" }
+  "0x24e6e0795b3c7c71D965fCc4f371803d1c1DcA1E": {
+    "asset": "wrapped-ether",
+    "name": "Aave WETH Debt"
+  },
+  "0x59dca05b6c26dbd64b5381374aAaC5CD05644C28": {
+    "asset": "usd-coin",
+    "name": "Aave USDC Debt"
+  },
+  "0x41A7C3f5904ad176dACbb1D99101F59ef0811DC1": {
+    "asset": "wrapped-staked-ether",
+    "name": "Aave wstETH Debt"
+  },
+  "0x03D01595769333174036832e18fA2f17C74f8161": {
+    "asset": "euro-coin",
+    "name": "Aave EURC Debt"
+  },
+  "0xcEC1Ea95dDEF7CFC27D3D9615E05b035af460978": {
+    "asset": "aave",
+    "name": "Aave AAVE Debt"
+  },
+  "0x7376b2F323dC56fCd4C191B34163ac8a84702DAB": {
+    "asset": "bridged-usd-coin",
+    "name": "Aave USDbC Debt"
+  },
+  "0x05e08702028de6AaD395DC6478b554a56920b9AD": {
+    "asset": "coinbase-wrapped-bitcoin",
+    "name": "Aave cbBTC Debt"
+  },
+  "0x38e59ADE183BbEb94583d44213c8f3297e9933e9": {
+    "asset": "gho",
+    "name": "Aave GHO Debt"
+  }
 }

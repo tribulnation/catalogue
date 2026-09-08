@@ -1,0 +1,20 @@
+{
+  "id": "aave-pancakeswap",
+  "display_name": "Aave CAKE",
+  "symbol": "aCake",
+  "category": "crypto",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of PancakeSwap (CAKE) in the Aave lending protocol. aCake holders earn interest continuously and can redeem their tokens for CAKE at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de PancakeSwap (CAKE) en el protocolo de préstamos Aave. Los titulares de aCake acumulan intereses continuamente y pueden canjear sus tokens por CAKE en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de PancakeSwap (CAKE) en el protocol de préstecs Aave. Els titulars de aCake acumulen interessos de manera contínua i poden bescanviar els seus tokens per CAKE en qualsevol moment."
+  },
+  "pegged_to": {
+    "asset": "pancakeswap"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}
