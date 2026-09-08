@@ -1,0 +1,25 @@
+{
+  "id": "aave-bridged-usd-coin",
+  "display_name": "Aave Bridged USDC",
+  "symbol": "aUSDC.e",
+  "category": "stablecoin",
+  "about": {
+    "en": "The Aave v3 receipt token for supplying bridged USDC (USDC.e). It is a distinct reserve from the native USDC market on the same chain, so the two aTokens are not interchangeable.",
+    "es": "El token de recibo de Aave v3 por suministrar USDC puenteado (USDC.e). Es una reserva distinta del mercado de USDC nativo en la misma cadena, por lo que ambos aTokens no son intercambiables.",
+    "ca": "El token de rebut d'Aave v3 per subministrar USDC pontejat (USDC.e). És una reserva diferent del mercat d'USDC natiu a la mateixa cadena, de manera que els dos aTokens no són intercanviables."
+  },
+  "external": {
+    "coingecko": "aave-v3-usdc-e"
+  },
+  "pegged_to": {
+    "asset": "bridged-usd-coin"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}

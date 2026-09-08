@@ -23,6 +23,83 @@ PYTHONPATH=lib/src .venv/bin/python scripts/instrument_urls.py
 ```
 
 It only fills in missing URLs, so hand-written ones survive; pass `--overwrite` to regenerate everything. When adding a platform, add its URL rule to `SPOT_RULES` / `PERPETUAL_RULES` in that script; instruments on platforms without a rule are left without a `url`.
+## EVM addresses
+
+`data/asset_translations/<chain>.json` maps an on-chain identifier to a catalogue
+asset id. For an EVM chain the key is the token's **EIP-55 checksummed contract
+address**, or the literal `native` for the chain's gas coin. Two rules decide
+which asset an address maps to. They exist because a portfolio has to be able to
+tell apart things that can lose their peg to each other.
+
+### 1. An issuerless coin is only ever reachable as `native`
+
+BTC and ETH have no issuer. Nobody can deploy an official ERC-20 for them, so
+**every** EVM token claiming to represent one is somebody else's IOU, backed by a
+custodian who can fail. Those never map to `bitcoin` or `ethereum` — each gets its
+own asset, with `pegged_to` naming what it tracks:
+
+| Address | Asset | Not |
+| --- | --- | --- |
+| `0x2260FAC5…` WBTC on ethereum | `wrapped-bitcoin` | ~~`bitcoin`~~ |
+| `0xcbB7C000…` cbBTC on ethereum | `coinbase-wrapped-bitcoin` | ~~`bitcoin`~~ |
+| `0x7130d2A1…` BTCB on bnb-chain | `binance-bitcoin` | ~~`bitcoin`~~ |
+| `0xC02aaA39…` WETH on ethereum | `wrapped-ether` | ~~`ethereum`~~ |
+| `0x2170Ed08…` ETH on bnb-chain | `binance-peg-ethereum` | ~~`ethereum`~~ |
+
+`native` is the only key that may name them, and only where the coin really is the
+gas token: `"native": "ethereum"` is right on ethereum, arbitrum, base and optimism.
+
+For a coin that *does* have an issuer — VANA, POL, CRO, MNT, ATOM, XRP, ADA — ask
+who deployed the token. The issuer's own canonical deployment is the same credit as
+the coin, so it collapses into the coin's asset: the VANA OFT at
+`0x7ff7fa94…`, live at that one address on six chains, is `vana` everywhere. A
+third party's wrapper is a different credit and splits off:
+
+| Address | Asset | Not |
+| --- | --- | --- |
+| `0x0eb3a705…` Cosmos Token on bnb-chain | `binance-peg-cosmos` | ~~`cosmos`~~ |
+| `0x76a797a5…` Wrapped TON Coin on bnb-chain | `binance-peg-toncoin` | ~~`toncoin`~~ |
+| `0x1D2F0da1…` XRP on bnb-chain | `binance-peg-xrp` | ~~`xrp`~~ |
+
+The test is *who is on the hook if the backing goes missing*, not which bridge the
+token crossed.
+
+### 2. A token spans its deployments, unless two of them coexist
+
+An asset that is *already* an ERC-20 keeps **one** asset id across every chain and
+every bridge. Circle's USDC on ethereum, the OP-stack bridged USDC on base and the
+Binance-Peg USDC on bnb-chain are all `usd-coin`. Likewise bridged WETH, DAI, WBTC
+and wstETH on every L2 stay `wrapped-ether`, `dai`, `wrapped-bitcoin`,
+`wrapped-staked-ether` — the chain's own bridge is the only custodian, so there is
+nothing for a holder to choose between.
+
+The exception is **coexistence**: when a chain carries two deployments of the same
+asset at once, a holder can hold either, they trade separately, and they can
+depeg from each other. Then the non-canonical one splits off:
+
+| Chain | Address | Asset |
+| --- | --- | --- |
+| arbitrum | `0xaf88d065…` USDC | `usd-coin` |
+| arbitrum | `0xFF970A61…` USDC.e | `bridged-usd-coin` |
+
+Note what this rule is **not**. CoinGecko issues a separate coin id per
+*deployment* (`l2-standard-bridged-weth-base`, `polygon-pos-bridged-dai`), which is
+finer than this catalogue wants: a portfolio should show one WETH balance, not one
+per chain. Use CoinGecko to discover addresses, not to decide asset identity.
+
+### Verifying an address
+
+Never take an address from a data feed alone — feeds carry stale, renamed and
+plain wrong entries. Read it back from the chain before it lands:
+
+- `eth_getCode` must return bytecode. A feed pointing at an address with nothing
+  deployed on that chain is a copied-from-another-chain error.
+- `symbol()` and `decimals()` must return sane values.
+- The symbol must relate to the asset. `W`/`w` prefixes, `.e`/`0`/`b` suffixes and
+  chain-prefixed Aave names are expected; anything else needs a human.
+
+Decimals are per-address, not per-asset — the same asset can have different
+decimals on different chains.
 
 ## Searching Instruments
 

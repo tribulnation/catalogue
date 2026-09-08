@@ -1,0 +1,25 @@
+{
+  "id": "bridged-usd-coin",
+  "display_name": "Bridged USD Coin",
+  "symbol": "USDC.e",
+  "category": "stablecoin",
+  "about": {
+    "en": "USDC.e is USD Coin that reached a chain through that chain's canonical bridge rather than being issued there by Circle. It coexists with native USDC on Arbitrum, Optimism, Polygon and Avalanche, trades as a separate token, and depends on the bridge holding the USDC that backs it.",
+    "es": "USDC.e es USD Coin que llegó a una cadena a través de su puente canónico en lugar de ser emitido allí por Circle. Convive con el USDC nativo en Arbitrum, Optimism, Polygon y Avalanche, cotiza como un token aparte y depende de que el puente conserve el USDC que lo respalda.",
+    "ca": "USDC.e és USD Coin que va arribar a una cadena a través del seu pont canònic en lloc de ser emès allà per Circle. Conviu amb l'USDC natiu a Arbitrum, Optimism, Polygon i Avalanche, cotitza com un token a part i depèn que el pont conservi l'USDC que el recolza."
+  },
+  "external": {
+    "coingecko": "usd-coin-ethereum-bridged"
+  },
+  "pegged_to": {
+    "asset": "usd-coin"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "Bridged"
+  ],
+  "urls": {
+    "Website": "https://www.circle.com/usdc"
+  }
+}

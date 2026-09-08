@@ -1,0 +1,20 @@
+{
+  "id": "binance-peg-injective",
+  "display_name": "Binance-Peg Injective",
+  "symbol": "INJ",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg Injective is a BEP-20 representation of INJ on BNB Chain, backed by INJ held by Binance rather than on the Injective chain.",
+    "es": "Binance-Peg Injective es una representación BEP-20 de INJ en BNB Chain, respaldada por INJ en poder de Binance y no en la cadena Injective.",
+    "ca": "Binance-Peg Injective és una representació BEP-20 d'INJ a BNB Chain, recolzada per INJ en poder de Binance i no a la cadena Injective."
+  },
+  "pegged_to": {
+    "asset": "injective"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}
