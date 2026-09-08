@@ -1,0 +1,25 @@
+{
+  "id": "alchemix-usd",
+  "display_name": "Alchemix USD",
+  "symbol": "alUSD",
+  "category": "stablecoin",
+  "about": {
+    "en": "alUSD is Alchemix's synthetic dollar, minted when a user borrows against a yield-bearing stablecoin deposit in a self-repaying vault. Each alUSD stands for a dollar of that deposit's future yield, so it targets a dollar; it is a debt token rather than a reserve-backed one and has traded below par when the vaults' redemption capacity is stretched.",
+    "es": "alUSD es el dólar sintético de Alchemix, emitido cuando alguien pide prestado contra un depósito de stablecoin con rendimiento en una bóveda autoamortizable. Cada alUSD representa un dólar del rendimiento futuro de ese depósito, así que apunta al dólar; es un token de deuda y no uno respaldado por reservas, y ha cotizado por debajo de la par cuando la capacidad de canje de las bóvedas se tensa.",
+    "ca": "alUSD és el dòlar sintètic d'Alchemix, emès quan algú demana prestat contra un dipòsit de stablecoin amb rendiment en una volta autoamortitzable. Cada alUSD representa un dòlar del rendiment futur d'aquest dipòsit, de manera que apunta al dòlar; és un token de deute i no pas un de recolzat per reserves, i ha cotitzat per sota de la par quan la capacitat de bescanvi de les voltes es tensa."
+  },
+  "external": {
+    "coingecko": "alchemix-usd"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://alchemix.fi/"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "axelar-wrapped-usdc",
+  "display_name": "Axelar Wrapped USDC",
+  "symbol": "axlUSDC",
+  "category": "stablecoin",
+  "about": {
+    "en": "axlUSDC is USD Coin that reached a chain through the Axelar network rather than being issued there by Circle. The USDC backing it is locked in Axelar's gateway contracts, so a holder is exposed to Axelar's validator set and bridge design on top of Circle, which is why it is kept apart from native USDC.",
+    "es": "axlUSDC es USD Coin que llegó a una cadena a través de la red Axelar en vez de ser emitido allí por Circle. El USDC que lo respalda queda bloqueado en los contratos de pasarela de Axelar, así que el tenedor se expone al conjunto de validadores y al diseño del puente de Axelar además de a Circle, y por eso se mantiene separado del USDC nativo.",
+    "ca": "axlUSDC és USD Coin que va arribar a una cadena a través de la xarxa Axelar en lloc de ser emès allà per Circle. El USDC que el recolza queda bloquejat als contractes de passarel·la d'Axelar, així que qui el té s'exposa al conjunt de validadors i al disseny del pont d'Axelar a més de a Circle, i per això es manté separat del USDC natiu."
+  },
+  "external": {
+    "coingecko": "axlusdc"
+  },
+  "pegged_to": {
+    "asset": "usd-coin"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "Bridge"
+  ],
+  "urls": {
+    "Website": "https://www.axelar.network/"
+  }
+}

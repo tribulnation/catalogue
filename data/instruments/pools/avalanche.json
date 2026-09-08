@@ -1,0 +1,77 @@
+{
+  "0x7A1A919c033eBc0d9F23cBF2Aa41c24AEf826ca2": {
+    "name": "Balancer v2 LP-EURC-USDC",
+    "assets": [
+      "usd-coin",
+      "euro-coin"
+    ]
+  },
+  "0x0099111Ed107BDF0B05162356aEe433514AaC440": {
+    "name": "Balancer v2 LP-VCHF-USDC",
+    "assets": [
+      "vnx-franc",
+      "usd-coin"
+    ]
+  },
+  "0x383C46887a1d5f3867664091aE5D6aD3Ad3369F5": {
+    "name": "Balancer v2 LP-XSGD-USDC",
+    "assets": [
+      "xsgd",
+      "usd-coin"
+    ]
+  },
+  "0x495452fc7bF44F49e40095E9F19B3FEc5f7FB717": {
+    "name": "Balancer v3 usdt-wavax-usdc",
+    "assets": [
+      "tether",
+      "wrapped-avalanche",
+      "usd-coin"
+    ]
+  },
+  "0xD79138c49c49200a1Afc935171D1bDAd084FDc95": {
+    "name": "Curve 3pool (UST/USDC/USDt)",
+    "assets": [
+      "terrausd-wormhole",
+      "usd-coin",
+      "tether"
+    ]
+  },
+  "0xAEA2E71b631fA93683BCF256A8689dFa0e094fcD": {
+    "name": "Curve 3poolV2 (MIM/USDT.e/USDC.e)",
+    "assets": [
+      "magic-internet-money",
+      "bridged-tether",
+      "bridged-usd-coin"
+    ]
+  },
+  "0xd7bB79aeE866672419999a0496D99c54741D67B5": {
+    "name": "Curve axlUSDC/USDC",
+    "assets": [
+      "axelar-wrapped-usdc",
+      "usd-coin"
+    ]
+  },
+  "0x3a43A5851A3e3E0e25A3c1089670269786be1577": {
+    "name": "Curve USD Coin (USDC.e/USDC)",
+    "assets": [
+      "bridged-usd-coin",
+      "usd-coin"
+    ]
+  },
+  "0xB89B080Bb9fb489516FC7Fc98bC4eb3f5A92c54E": {
+    "name": "Curve UST (wormhole) (UST/DAI.e/USDC.e/USDT.e)",
+    "assets": [
+      "terrausd-wormhole",
+      "dai",
+      "bridged-usd-coin",
+      "bridged-tether"
+    ]
+  },
+  "0xc82c535Ac8a665b8a2c1A414A8bb0A3Cc7923c77": {
+    "name": "SushiSwap v2 USDC.e/USDC",
+    "assets": [
+      "bridged-usd-coin",
+      "usd-coin"
+    ]
+  }
+}

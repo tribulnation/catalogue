@@ -1,0 +1,25 @@
+{
+  "id": "mai",
+  "display_name": "MAI",
+  "symbol": "MAI",
+  "category": "stablecoin",
+  "about": {
+    "en": "MAI, originally launched as miMATIC, is QiDao's overcollateralized dollar stablecoin. It is borrowed against deposited crypto collateral across many chains and redeemable through the protocol's vaults, which is what anchors it to a dollar. The polygon deployment still carries the old miMATIC symbol on-chain.",
+    "es": "MAI, lanzada originalmente como miMATIC, es la stablecoin en dólares sobrecolateralizada de QiDao. Se toma en préstamo contra colateral cripto depositado en muchas cadenas y es canjeable a través de las bóvedas del protocolo, que es lo que la ancla al dólar. El despliegue en polygon todavía lleva el símbolo antiguo miMATIC on-chain.",
+    "ca": "MAI, llançada originalment com a miMATIC, és la stablecoin en dòlars sobrecol·lateralitzada de QiDao. Es pren en préstec contra col·lateral cripto dipositat en moltes cadenes i és bescanviable a través de les voltes del protocol, que és el que l'ancora al dòlar. El desplegament a polygon encara duu el símbol antic miMATIC on-chain."
+  },
+  "external": {
+    "coingecko": "mimatic"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://www.mai.finance/"
+  }
+}

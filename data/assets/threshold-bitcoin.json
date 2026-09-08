@@ -1,0 +1,25 @@
+{
+  "id": "threshold-bitcoin",
+  "display_name": "Threshold tBTC",
+  "symbol": "tBTC",
+  "category": "crypto",
+  "about": {
+    "en": "tBTC is the tokenized bitcoin of the Threshold Network. Deposits are held by a randomly selected, rotating group of signers who must reach a threshold of signatures to move them, so no single custodian controls the reserve. Bitcoin has no issuer that could deploy an official ERC-20, so tBTC is a claim on that signer set rather than on BTC itself, and it is minted and redeemed 1:1.",
+    "es": "tBTC es el bitcoin tokenizado de Threshold Network. Los depósitos los custodia un grupo rotatorio de firmantes elegidos al azar que necesitan alcanzar un umbral de firmas para moverlos, de modo que ningún custodio único controla la reserva. Bitcoin no tiene un emisor que pueda desplegar un ERC-20 oficial, así que tBTC es un derecho frente a ese conjunto de firmantes y no frente al BTC en sí, y se emite y canjea 1:1.",
+    "ca": "tBTC és el bitcoin tokenitzat de Threshold Network. Els dipòsits els custodia un grup rotatori de signants triats a l'atzar que necessiten assolir un llindar de signatures per moure'ls, de manera que cap custodi únic no controla la reserva. Bitcoin no té cap emissor que pugui desplegar un ERC-20 oficial, així que tBTC és un dret davant aquest conjunt de signants i no davant el BTC mateix, i s'emet i es bescanvia 1:1."
+  },
+  "external": {
+    "coingecko": "tbtc"
+  },
+  "pegged_to": {
+    "asset": "bitcoin"
+  },
+  "tags": [
+    "DeFi",
+    "Wrapped",
+    "BTCfi"
+  ],
+  "urls": {
+    "Website": "https://threshold.network/"
+  }
+}

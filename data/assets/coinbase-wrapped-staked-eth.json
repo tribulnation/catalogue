@@ -1,0 +1,21 @@
+{
+  "id": "coinbase-wrapped-staked-eth",
+  "display_name": "Coinbase Wrapped Staked ETH",
+  "symbol": "cbETH",
+  "category": "crypto",
+  "about": {
+    "en": "Coinbase Wrapped Staked ETH is Coinbase's liquid staking token: a transferable claim on ether staked through Coinbase's institutional validators. cbETH is deliberately not a 1:1 wrapper — its conversion rate against ETH climbs as staking rewards accumulate, and it can trade below that rate because exiting depends on Coinbase. It is the main staked-ETH asset on Base.",
+    "es": "Coinbase Wrapped Staked ETH es el liquid staking token de Coinbase: un derecho transferible sobre ether en staking a través de los validadores institucionales de Coinbase. cbETH no es deliberadamente una envoltura 1:1 — su tipo de conversión frente a ETH sube conforme se acumulan las recompensas, y puede cotizar por debajo de ese tipo porque la salida depende de Coinbase. Es el principal activo de ETH en staking en Base.",
+    "ca": "Coinbase Wrapped Staked ETH és el liquid staking token de Coinbase: un dret transferible sobre ether en staking mitjançant els validadors institucionals de Coinbase. cbETH no és deliberadament un embolcall 1:1 — el seu tipus de conversió respecte a ETH puja a mesura que s'acumulen les recompenses, i pot cotitzar per sota d'aquest tipus perquè la sortida depèn de Coinbase. És el principal actiu d'ETH en staking a Base."
+  },
+  "external": {
+    "coingecko": "coinbase-wrapped-staked-eth"
+  },
+  "tags": [
+    "DeFi",
+    "Liquid Staking"
+  ],
+  "urls": {
+    "Website": "https://www.coinbase.com/earn/staking/cbeth"
+  }
+}

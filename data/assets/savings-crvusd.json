@@ -1,0 +1,21 @@
+{
+  "id": "savings-crvusd",
+  "display_name": "Savings crvUSD",
+  "symbol": "scrvUSD",
+  "category": "crypto",
+  "about": {
+    "en": "scrvUSD is the yield-bearing wrapper around Curve's crvUSD stablecoin. Depositing crvUSD mints scrvUSD, which is redeemable for a share of a vault that receives part of the revenue Curve's lending markets generate, so its crvUSD value climbs over time rather than staying at one.",
+    "es": "scrvUSD es la envoltura con rendimiento de la stablecoin crvUSD de Curve. Depositar crvUSD emite scrvUSD, canjeable por una parte de una bóveda que recibe parte de los ingresos que generan los mercados de préstamo de Curve, de modo que su valor en crvUSD sube con el tiempo en vez de quedarse en uno.",
+    "ca": "scrvUSD és l'embolcall amb rendiment de la stablecoin crvUSD de Curve. Dipositar crvUSD emet scrvUSD, bescanviable per una part d'una volta que rep part dels ingressos que generen els mercats de préstec de Curve, de manera que el seu valor en crvUSD puja amb el temps en lloc de quedar-se en un."
+  },
+  "external": {
+    "coingecko": "savings-crvusd"
+  },
+  "tags": [
+    "DeFi",
+    "USD"
+  ],
+  "urls": {
+    "Website": "https://curve.finance/"
+  }
+}

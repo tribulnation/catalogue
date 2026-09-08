@@ -1,0 +1,22 @@
+{
+  "id": "wrapped-eeth",
+  "display_name": "Wrapped eETH",
+  "symbol": "weETH",
+  "category": "crypto",
+  "about": {
+    "en": "Wrapped eETH is the non-rebasing form of ether.fi's liquid restaking token eETH. Where eETH grows a holder's balance, weETH keeps the balance fixed and lets the exchange rate against ETH rise, which is what most lending markets and AMMs need. Behind it sits ether.fi's staked and EigenLayer-restaked ether.",
+    "es": "Wrapped eETH es la forma no rebasing del liquid restaking token eETH de ether.fi. Mientras eETH hace crecer el saldo del tenedor, weETH mantiene el saldo fijo y deja subir el tipo de cambio frente a ETH, que es lo que necesitan la mayoría de mercados de préstamo y AMMs. Detrás hay ether en staking de ether.fi y restaking en EigenLayer.",
+    "ca": "Wrapped eETH és la forma no rebasing del liquid restaking token eETH d'ether.fi. Mentre que eETH fa créixer el saldo de qui el té, weETH manté el saldo fix i deixa pujar el tipus de canvi respecte a ETH, que és el que necessiten la majoria de mercats de préstec i AMMs. Al darrere hi ha ether en staking d'ether.fi i restaking a EigenLayer."
+  },
+  "external": {
+    "coingecko": "wrapped-eeth"
+  },
+  "tags": [
+    "DeFi",
+    "Liquid Staking",
+    "Restaking"
+  ],
+  "urls": {
+    "Website": "https://www.ether.fi/"
+  }
+}

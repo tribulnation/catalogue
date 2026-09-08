@@ -2,6 +2,7 @@ import os as _os
 import re as _re
 from typing import Mapping, get_args
 from .schema import Asset, Platform, Spot, Perpetual, Debt, Pool, AssetCategory
+from .eip55 import is_checksummed
 from .main import Catalogue
 
 _id_pattern = _re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
@@ -203,6 +204,47 @@ def pools(pools: Mapping[str, Mapping[str, Pool]], assets: Mapping[str, Asset]):
           errors.append(f'[POOL ERROR] Pool "{id}" on "{platform}" has inexistent asset "{asset}"')
   return errors
 
+def evm_addresses(
+  platforms: Mapping[str, Platform], *,
+  asset_translations: Mapping[str, Mapping[str, str]],
+  debt_instruments: Mapping[str, Mapping[str, Debt]],
+  pools: Mapping[str, Mapping[str, Pool]],
+  spam: Mapping[str, Mapping[str, object]],
+):
+  """Every EVM contract address used as a key must be EIP-55 checksummed.
+
+  Applies only to platforms declared `category: 'evm'`, since other platforms
+  key their translations by symbol or token index. The literal `native` key is
+  exempt: it names a gas coin rather than a contract.
+
+  Casing carries no meaning to a consumer -- they lowercase before lookup -- but
+  a single stored form is what stops the same address appearing twice in two
+  spellings, and makes a mistyped address visible instead of silent.
+  """
+  errors: list[str] = []
+  evm = {
+    id for id, platform in platforms.items()
+    if platform['kind'] == 'blockchain' and platform.get('category') == 'evm'  # type: ignore[union-attr]
+  }
+  sources = (
+    ('ASSET TRANSLATION', asset_translations),
+    ('DEBT INSTRUMENT', debt_instruments),
+    ('POOL', pools),
+    ('SPAM', spam),
+  )
+  for kind, items in sources:
+    for platform, entries in items.items():
+      if platform not in evm:
+        continue
+      for key in entries:
+        if key == 'native':
+          continue
+        if not is_checksummed(key):
+          errors.append(
+            f'[{kind} ADDRESS ERROR] "{platform}" key "{key}" is not EIP-55 checksummed'
+          )
+  return errors
+
 def all(catalogue: Catalogue, base_folder: str):
   errors: list[str] = []
   errors.extend(ids('ASSET', catalogue.assets))
@@ -228,4 +270,11 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(perpetual_instruments(catalogue.perpetual_instruments, catalogue.assets))
   errors.extend(debt_instruments(catalogue.debt_instruments, catalogue.assets))
   errors.extend(pools(catalogue.pools, catalogue.assets))
+  errors.extend(evm_addresses(
+    catalogue.platforms,
+    asset_translations=catalogue.asset_translations,
+    debt_instruments=catalogue.debt_instruments,
+    pools=catalogue.pools,
+    spam=catalogue.spam,
+  ))
   return errors

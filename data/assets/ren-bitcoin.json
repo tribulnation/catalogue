@@ -1,0 +1,20 @@
+{
+  "id": "ren-bitcoin",
+  "display_name": "renBTC",
+  "symbol": "renBTC",
+  "category": "crypto",
+  "about": {
+    "en": "renBTC was the tokenized bitcoin of RenVM, minted against BTC held by the network's darknodes. Ren shut its bridge down after the collapse of Alameda Research, which funded it, so renBTC can no longer be minted or redeemed for bitcoin and the remaining supply is a stranded claim rather than a live peg.",
+    "es": "renBTC era el bitcoin tokenizado de RenVM, emitido contra BTC en manos de los darknodes de la red. Ren cerró su puente tras el colapso de Alameda Research, que lo financiaba, así que renBTC ya no puede emitirse ni canjearse por bitcoin y el suministro restante es un derecho varado y no una paridad viva.",
+    "ca": "renBTC era el bitcoin tokenitzat de RenVM, emès contra BTC en mans dels darknodes de la xarxa. Ren va tancar el seu pont després del col·lapse d'Alameda Research, que el finançava, així que renBTC ja no es pot emetre ni bescanviar per bitcoin i el subministrament restant és un dret encallat i no pas una paritat viva."
+  },
+  "external": {
+    "coingecko": "renbtc"
+  },
+  "tags": [
+    "Bridge"
+  ],
+  "urls": {
+    "Website": "https://renproject.io/"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "savings-usds",
+  "display_name": "Savings USDS",
+  "symbol": "sUSDS",
+  "category": "crypto",
+  "about": {
+    "en": "sUSDS is the savings token of the Sky protocol, the successor to MakerDAO. Depositing USDS into the Sky Savings Rate mints sUSDS, whose redemption value against USDS rises as the rate accrues; it is not a dollar-pegged token but a growing claim on a dollar-pegged one.",
+    "es": "sUSDS es el token de ahorro del protocolo Sky, sucesor de MakerDAO. Depositar USDS en el Sky Savings Rate emite sUSDS, cuyo valor de canje frente a USDS sube conforme se acumula el tipo; no es un token con paridad al dólar, sino un derecho creciente sobre uno que sí la tiene.",
+    "ca": "sUSDS és el token d'estalvi del protocol Sky, successor de MakerDAO. Dipositar USDS al Sky Savings Rate emet sUSDS, el valor de bescanvi del qual respecte a USDS puja a mesura que s'acumula el tipus; no és un token amb paritat al dòlar, sinó un dret creixent sobre un que sí que la té."
+  },
+  "external": {
+    "coingecko": "susds"
+  },
+  "tags": [
+    "DeFi",
+    "USD"
+  ],
+  "urls": {
+    "Website": "https://sky.money/"
+  }
+}
