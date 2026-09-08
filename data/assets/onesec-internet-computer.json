@@ -1,0 +1,20 @@
+{
+  "id": "onesec-internet-computer",
+  "display_name": "OneSec Internet Computer",
+  "symbol": "ICP",
+  "category": "crypto",
+  "about": {
+    "en": "An ERC-20 representation of ICP minted by OneSec, a third-party bridge that holds the ICP backing it. The DFINITY Foundation sanctions the bridge but neither deployed nor controls the contract, whose mint authority rests with a single externally owned account, so it is a separate credit from ICP itself.",
+    "es": "Representación ERC-20 de ICP emitida por OneSec, un puente de terceros que custodia el ICP que la respalda. La DFINITY Foundation avala el puente, pero ni desplegó ni controla el contrato, cuya facultad de emisión depende de una única cuenta externa, por lo que es un crédito distinto del propio ICP.",
+    "ca": "Representació ERC-20 d'ICP emesa per OneSec, un pont de tercers que custodia l'ICP que la respalda. La DFINITY Foundation avala el pont, però ni va desplegar ni controla el contracte, la facultat d'emissió del qual depèn d'un únic compte extern, de manera que és un crèdit diferent del mateix ICP."
+  },
+  "pegged_to": {
+    "asset": "internet-computer"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://onesec.to/"
+  }
+}
