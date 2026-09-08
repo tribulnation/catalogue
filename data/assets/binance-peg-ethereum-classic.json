@@ -1,0 +1,20 @@
+{
+  "id": "binance-peg-ethereum-classic",
+  "display_name": "Binance-Peg Ethereum Classic",
+  "symbol": "ETC",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg Ethereum Classic is a BEP-20 token on BNB Chain backed by ETC that Binance holds on the Ethereum Classic chain. Ethereum Classic is a proof-of-work chain with no issuer, so an ETC token on another chain can only be a custodian's promise, and this one is Binance's.",
+    "es": "Binance-Peg Ethereum Classic es un token BEP-20 en BNB Chain respaldado por ETC que Binance mantiene en la cadena Ethereum Classic. Ethereum Classic es una cadena de prueba de trabajo sin emisor, así que un token ETC en otra cadena solo puede ser la promesa de un custodio, y esta es la de Binance.",
+    "ca": "Binance-Peg Ethereum Classic és un token BEP-20 a BNB Chain recolzat per ETC que Binance manté a la cadena Ethereum Classic. Ethereum Classic és una cadena de prova de treball sense emissor, així que un token ETC en una altra cadena només pot ser la promesa d'un custodi, i aquesta és la de Binance."
+  },
+  "pegged_to": {
+    "asset": "ethereum-classic"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}

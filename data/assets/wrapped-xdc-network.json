@@ -1,0 +1,24 @@
+{
+  "id": "wrapped-xdc-network",
+  "display_name": "Wrapped XDC",
+  "symbol": "WXDC",
+  "category": "crypto",
+  "about": {
+    "en": "Wrapped XDC is the ERC-20 form of XDC, the gas coin of the XDC Network. The wrapper holds the deposited XDC and releases it on unwrap, giving XDC the token interface that XDC Network DEXes and lending contracts need.",
+    "es": "Wrapped XDC es la forma ERC-20 de XDC, la moneda de gas de XDC Network. La envoltura guarda el XDC depositado y lo libera al desenvolver, dando a XDC la interfaz de token que necesitan los DEX y contratos de préstamo de XDC Network.",
+    "ca": "Wrapped XDC és la forma ERC-20 d'XDC, la moneda de gas d'XDC Network. L'embolcall guarda l'XDC dipositat i l'allibera en desembolcallar-lo, donant a XDC la interfície de token que necessiten els DEX i contractes de préstec d'XDC Network."
+  },
+  "external": {
+    "coingecko": "wrapped-xdc"
+  },
+  "pegged_to": {
+    "asset": "xdc-network"
+  },
+  "tags": [
+    "Wrapped",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://xinfin.org/"
+  }
+}

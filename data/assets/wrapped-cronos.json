@@ -1,0 +1,24 @@
+{
+  "id": "wrapped-cronos",
+  "display_name": "Wrapped CRO",
+  "symbol": "WCRO",
+  "category": "crypto",
+  "about": {
+    "en": "Wrapped CRO is the ERC-20 form of CRO, the gas coin of the Cronos chain. Deposits are held by the wrapper contract and can be unwrapped one-for-one at any time. VVS Finance and the rest of Cronos DeFi price their pools in WCRO.",
+    "es": "Wrapped CRO es la forma ERC-20 de CRO, la moneda de gas de la cadena Cronos. Los depósitos quedan en el contrato de envoltura y se pueden desenvolver uno a uno en cualquier momento. VVS Finance y el resto del DeFi de Cronos cotizan sus pools en WCRO.",
+    "ca": "Wrapped CRO és la forma ERC-20 de CRO, la moneda de gas de la cadena Cronos. Els dipòsits queden al contracte d'embolcall i es poden desembolcallar un a un en qualsevol moment. VVS Finance i la resta del DeFi de Cronos cotitzen els seus pools en WCRO."
+  },
+  "external": {
+    "coingecko": "wrapped-cro"
+  },
+  "pegged_to": {
+    "asset": "cronos"
+  },
+  "tags": [
+    "Wrapped",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://cronos.org/"
+  }
+}

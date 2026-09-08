@@ -1,0 +1,21 @@
+{
+  "id": "synapse-bridged-avalanche",
+  "display_name": "Synapse Bridged AVAX",
+  "symbol": "AVAX",
+  "category": "crypto",
+  "about": {
+    "en": "The AVAX representation on Kaia, minted by Synapse Protocol against WAVAX escrowed in its Avalanche bridge and released by Synapse's validator set. AVAX is a gas coin with no issuer who could honour redemption on Kaia, so the escrow and that validator set are the whole of the backing.",
+    "es": "La representación de AVAX en Kaia, emitida por Synapse Protocol contra WAVAX depositado en su puente de Avalanche y liberado por el conjunto de validadores de Synapse. AVAX es una moneda de gas sin un emisor que pueda atender el canje en Kaia, así que ese depósito y esos validadores son todo el respaldo que hay.",
+    "ca": "La representació d'AVAX a Kaia, emesa per Synapse Protocol contra WAVAX dipositat al seu pont d'Avalanche i alliberat pel conjunt de validadors de Synapse. AVAX és una moneda de gas sense cap emissor que pugui atendre el bescanvi a Kaia, així que aquest dipòsit i aquests validadors són tot el suport que hi ha."
+  },
+  "pegged_to": {
+    "asset": "avalanche"
+  },
+  "tags": [
+    "Wrapped",
+    "Bridge"
+  ],
+  "urls": {
+    "Website": "https://synapseprotocol.com/"
+  }
+}

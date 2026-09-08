@@ -1,0 +1,23 @@
+{
+  "id": "binance-peg-xrp",
+  "display_name": "Binance-Peg XRP",
+  "symbol": "XRP",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg XRP is a BEP-20 token on BNB Chain backed by XRP that Binance holds on the XRP Ledger. Ripple issues nothing on BNB Chain, so this token is Binance's own liability and is not interchangeable with XRP on its native ledger.",
+    "es": "Binance-Peg XRP es un token BEP-20 en BNB Chain respaldado por XRP que Binance mantiene en el XRP Ledger. Ripple no emite nada en BNB Chain, por lo que este token es un pasivo propio de Binance y no es intercambiable con el XRP de su ledger nativo.",
+    "ca": "Binance-Peg XRP és un token BEP-20 a BNB Chain recolzat per XRP que Binance manté a l'XRP Ledger. Ripple no emet res a BNB Chain, de manera que aquest token és un passiu propi de Binance i no és intercanviable amb l'XRP del seu ledger natiu."
+  },
+  "external": {
+    "coingecko": "binance-peg-xrp"
+  },
+  "pegged_to": {
+    "asset": "xrp"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}

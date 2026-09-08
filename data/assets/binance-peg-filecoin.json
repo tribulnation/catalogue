@@ -1,0 +1,23 @@
+{
+  "id": "binance-peg-filecoin",
+  "display_name": "Binance-Peg Filecoin",
+  "symbol": "FIL",
+  "category": "crypto",
+  "about": {
+    "en": "Binance-Peg Filecoin is a BEP-20 token on BNB Chain backed by FIL that Binance custodies on the Filecoin network. Filecoin's own FEVM issues nothing on BNB Chain, so this representation stands or falls with Binance.",
+    "es": "Binance-Peg Filecoin es un token BEP-20 en BNB Chain respaldado por FIL que Binance custodia en la red Filecoin. La propia FEVM de Filecoin no emite nada en BNB Chain, por lo que esta representación depende enteramente de Binance.",
+    "ca": "Binance-Peg Filecoin és un token BEP-20 a BNB Chain recolzat per FIL que Binance custodia a la xarxa Filecoin. La mateixa FEVM de Filecoin no emet res a BNB Chain, de manera que aquesta representació depèn enterament de Binance."
+  },
+  "external": {
+    "coingecko": "binance-peg-filecoin"
+  },
+  "pegged_to": {
+    "asset": "filecoin"
+  },
+  "tags": [
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.bnbchain.org"
+  }
+}

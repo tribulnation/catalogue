@@ -1,0 +1,24 @@
+{
+  "id": "wrapped-kaia",
+  "display_name": "Wrapped KLAY",
+  "symbol": "WKLAY",
+  "category": "crypto",
+  "about": {
+    "en": "Wrapped KLAY is the ERC-20 form of the Kaia gas coin. The contract still carries the Klaytn-era name after the Klaytn and Finschia merger, but it wraps the same native coin the chain now calls KAIA, holding deposits itself and unwrapping on demand.",
+    "es": "Wrapped KLAY es la forma ERC-20 de la moneda de gas de Kaia. El contrato conserva el nombre de la época de Klaytn tras la fusión de Klaytn y Finschia, pero envuelve la misma moneda nativa que la cadena llama ahora KAIA, guardando los depósitos él mismo y devolviéndolos a demanda.",
+    "ca": "Wrapped KLAY és la forma ERC-20 de la moneda de gas de Kaia. El contracte conserva el nom de l'època de Klaytn després de la fusió de Klaytn i Finschia, però embolcalla la mateixa moneda nativa que la cadena ara anomena KAIA, guardant ell mateix els dipòsits i retornant-los a demanda."
+  },
+  "external": {
+    "coingecko": "wrapped-klay"
+  },
+  "pegged_to": {
+    "asset": "kaia"
+  },
+  "tags": [
+    "Wrapped",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://www.kaia.io/"
+  }
+}
