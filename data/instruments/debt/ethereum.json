@@ -8,8 +8,8 @@
     "name": "Aave USDC Debt"
   },
   "0xeA51d7853EEFb32b6ee06b1C12E6dcCA88Be0fFE": {
-    "asset": "ethereum",
-    "name": "Aave ETH Debt"
+    "asset": "wrapped-ether",
+    "name": "Aave WETH Debt"
   },
   "0x40aAbEf1aa8f0eEc637E0E7d92fbfFB2F26A8b7B": {
     "asset": "wrapped-bitcoin",
@@ -86,5 +86,81 @@
   "0x4f97B950a30321c181E974971E156E19fAD184A3": {
     "asset": "global-dollar",
     "name": "Aave USDG Debt"
+  },
+  "0xC96113eED8cAB59cD8A66813bCB0cEb29F06D2e4": {
+    "asset": "wrapped-staked-ether",
+    "name": "Aave wstETH Debt"
+  },
+  "0x3D3efceb4Ff0966D34d9545D3A2fa2dcdBf451f2": {
+    "asset": "balancer",
+    "name": "Aave BAL Debt"
+  },
+  "0x88B8358F5BC87c2D7E116cCA5b65A9eEb2c5EA3F": {
+    "asset": "frax",
+    "name": "Aave FRAX Debt"
+  },
+  "0x786dBff3f1292ae8F92ea68Cf93c30b34B1ed04B": {
+    "asset": "gho",
+    "name": "Aave GHO Debt"
+  },
+  "0xeFFDE9BFA8EC77c14C364055a200746d6e12BeD6": {
+    "asset": "ethena-staked-usde",
+    "name": "Aave sUSDe Debt"
+  },
+  "0xeB284A70557EFe3591b9e6D9D720040E02c54a4d": {
+    "asset": "coinbase-wrapped-bitcoin",
+    "name": "Aave cbBTC Debt"
+  },
+  "0xeA85a065F87FE28Aa8Fbf0D6C7deC472b106252C": {
+    "asset": "ethena-usdtb",
+    "name": "Aave USDtb Debt"
+  },
+  "0xE439edd2625772AA635B437C099C607B6eb7d35f": {
+    "asset": "wrapped-staked-ether",
+    "name": "Aave Prime wstETH Debt"
+  },
+  "0x91b7d78BF92db564221f6B5AeE744D1727d1Dd1e": {
+    "asset": "wrapped-ether",
+    "name": "Aave Prime WETH Debt"
+  },
+  "0x2D9fe18b6c35FE439cC15D932cc5C943bf2d901E": {
+    "asset": "sky-usd",
+    "name": "Aave Prime USDS Debt"
+  },
+  "0xeD90dE2D824Ee766c6Fd22E90b12e598f681dc9F": {
+    "asset": "usd-coin",
+    "name": "Aave Prime USDC Debt"
+  },
+  "0x2ABbAab3EF4e4A899d39e7EC996b5715E76b399a": {
+    "asset": "ethena-staked-usde",
+    "name": "Aave Prime sUSDe Debt"
+  },
+  "0x18577F0f4A0B2Ee6F4048dB51c7acd8699F97DB8": {
+    "asset": "gho",
+    "name": "Aave Prime GHO Debt"
+  },
+  "0x9355032d747f1e08F8720CD01950E652eE15cdB7": {
+    "asset": "usd-coin",
+    "name": "Aave EtherFi USDC Debt"
+  },
+  "0xD2cf07dEE40d3D530D15b88d689f5cd97A31FC3D": {
+    "asset": "paypal-usd",
+    "name": "Aave EtherFi PYUSD Debt"
+  },
+  "0xfd3aDA5AAbdc6531C7C2AC46c00eBf870f5a0E6B": {
+    "asset": "frax",
+    "name": "Aave EtherFi FRAX Debt"
+  },
+  "0xdec2401c9B0B2E480e627E2a712C11AdDbf46E3e": {
+    "asset": "gho",
+    "name": "Aave Horizon GHO Debt"
+  },
+  "0x4139EcBe83d78ef5EFF0A6eDA6f894Be9D590FC7": {
+    "asset": "usd-coin",
+    "name": "Aave Horizon USDC Debt"
+  },
+  "0xACE8a1c0eC12aE81814377491265b47F4eE5D3dD": {
+    "asset": "ripple-usd",
+    "name": "Aave Horizon RLUSD Debt"
   }
 }

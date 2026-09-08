@@ -1,0 +1,18 @@
+{
+  "id": "wrapped-vana",
+  "display_name": "Wrapped VANA",
+  "symbol": "WVANA",
+  "category": "crypto",
+  "about": {
+    "en": "Wrapped VANA is the ERC-20 representation of VANA, Vana's gas coin, produced by a wrapper contract that holds the coin one-for-one. Smart contracts cannot handle a native coin directly, so WVANA is what decentralised exchanges and lending markets on Vana actually trade. It has no custodian: the wrapper contract itself holds the backing.",
+    "es": "Wrapped VANA es la representación ERC-20 de VANA, la moneda de gas de Vana, emitida por un contrato de envoltura que mantiene la moneda uno a uno. Los contratos inteligentes no pueden manejar una moneda nativa directamente, por lo que WVANA es lo que realmente negocian los exchanges descentralizados y los mercados de préstamo en Vana. No tiene custodio: el propio contrato de envoltura mantiene el respaldo.",
+    "ca": "Wrapped VANA és la representació ERC-20 de VANA, la moneda de gas de Vana, emesa per un contracte d'embolcall que manté la moneda un a un. Els contractes intel·ligents no poden gestionar una moneda nativa directament, de manera que WVANA és el que realment negocien els exchanges descentralitzats i els mercats de préstec a Vana. No té custodi: el mateix contracte d'embolcall manté el suport."
+  },
+  "pegged_to": {
+    "asset": "vana"
+  },
+  "tags": [
+    "Wrapped",
+    "DeFi"
+  ]
+}
