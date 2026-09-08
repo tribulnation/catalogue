@@ -1,0 +1,25 @@
+{
+  "id": "stasis-eurs",
+  "display_name": "STASIS EURS",
+  "symbol": "EURS",
+  "category": "stablecoin",
+  "about": {
+    "en": "EURS is STASIS's euro stablecoin, issued against euro reserves held with European banking partners and redeemable at par by verified users. It is one of the older euro tokens on Ethereum and keeps an unusual two-decimal precision that mirrors euro cents.",
+    "es": "EURS es la stablecoin en euros de STASIS, emitida contra reservas en euros depositadas en socios bancarios europeos y canjeable a la par por usuarios verificados. Es uno de los tokens en euros más antiguos de Ethereum y conserva una precisión inusual de dos decimales que refleja los céntimos.",
+    "ca": "EURS és la stablecoin en euros de STASIS, emesa contra reserves en euros dipositades en socis bancaris europeus i bescanviable a la par per usuaris verificats. És un dels tokens en euros més antics d'Ethereum i conserva una precisió inusual de dos decimals que reflecteix els cèntims."
+  },
+  "external": {
+    "coingecko": "stasis-eurs"
+  },
+  "pegged_to": {
+    "asset": "euro"
+  },
+  "tags": [
+    "Stablecoin",
+    "EUR",
+    "Fiat"
+  ],
+  "urls": {
+    "Website": "https://stasis.net/"
+  }
+}

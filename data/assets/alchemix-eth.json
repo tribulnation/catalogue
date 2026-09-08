@@ -1,0 +1,23 @@
+{
+  "id": "alchemix-eth",
+  "display_name": "Alchemix ETH",
+  "symbol": "alETH",
+  "category": "crypto",
+  "about": {
+    "en": "alETH is Alchemix's synthetic ether, minted when a user borrows against ETH-denominated collateral in a self-repaying Alchemix vault. Each alETH is a claim on one ETH of future yield from that collateral, so it targets parity with ETH; in practice it has often traded at a discount when redemption capacity is tight.",
+    "es": "alETH es el ether sintético de Alchemix, emitido cuando alguien pide prestado contra colateral denominado en ETH en una bóveda autoamortizable de Alchemix. Cada alETH es un derecho sobre un ETH de rendimiento futuro de ese colateral, por lo que apunta a la paridad con ETH; en la práctica ha cotizado a menudo con descuento cuando la capacidad de canje escasea.",
+    "ca": "alETH és l'ether sintètic d'Alchemix, emès quan algú demana prestat contra col·lateral denominat en ETH en una volta autoamortitzable d'Alchemix. Cada alETH és un dret sobre un ETH de rendiment futur d'aquest col·lateral, de manera que apunta a la paritat amb ETH; a la pràctica sovint ha cotitzat amb descompte quan la capacitat de bescanvi escasseja."
+  },
+  "external": {
+    "coingecko": "alchemix-eth"
+  },
+  "pegged_to": {
+    "asset": "ethereum"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://alchemix.fi/"
+  }
+}

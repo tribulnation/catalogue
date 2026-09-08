@@ -1,0 +1,24 @@
+{
+  "id": "rings-sceth",
+  "display_name": "Rings Sonic ETH",
+  "symbol": "scETH",
+  "category": "crypto",
+  "about": {
+    "en": "scETH is the ether token of Rings on Sonic, minted one for one against WETH deposits that the protocol puts to work in vault strategies. As with scUSD the yield accrues to stakers rather than to the token, so scETH is designed to track one ether and is redeemable for the deposit rather than appreciating against it.",
+    "es": "scETH es el token en ether de Rings en Sonic, emitido uno a uno contra depósitos de WETH que el protocolo pone a trabajar en estrategias de bóveda. Igual que con scUSD, el rendimiento se acumula para quienes hacen staking y no para el token, así que scETH está diseñado para seguir a un ether y es canjeable por el depósito en vez de revalorizarse frente a él.",
+    "ca": "scETH és el token en ether de Rings a Sonic, emès un a un contra dipòsits de WETH que el protocol posa a treballar en estratègies de volta. Igual que amb scUSD, el rendiment s'acumula per a qui fa staking i no per al token, així que scETH està dissenyat per seguir un ether i és bescanviable pel dipòsit en lloc de revaloritzar-se respecte a ell."
+  },
+  "external": {
+    "coingecko": "rings-sc-eth"
+  },
+  "pegged_to": {
+    "asset": "ethereum"
+  },
+  "tags": [
+    "DeFi",
+    "Wrapped"
+  ],
+  "urls": {
+    "Website": "https://www.rings.money/"
+  }
+}

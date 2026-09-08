@@ -1,0 +1,23 @@
+{
+  "id": "euro-tether",
+  "display_name": "Euro Tether",
+  "symbol": "EURT",
+  "category": "stablecoin",
+  "about": {
+    "en": "EURT was Tether's euro-denominated stablecoin. Tether ceased EURT redemptions across all chains on 27 November 2025, so there is no longer any path to redeem it for euros at any price, and it trades far below face value. It is catalogued so that legacy balances can still be identified, not as a euro-pegged asset.",
+    "es": "EURT era la stablecoin de Tether denominada en euros. Tether cesó los canjes de EURT en todas las cadenas el 27 de noviembre de 2025, por lo que ya no existe ninguna vía para canjearlo por euros a ningún precio, y cotiza muy por debajo de su valor nominal. Se cataloga para poder identificar saldos heredados, no como un activo vinculado al euro.",
+    "ca": "EURT era la stablecoin de Tether denominada en euros. Tether va cessar els bescanvis d'EURT a totes les cadenes el 27 de novembre de 2025, de manera que ja no hi ha cap via per bescanviar-lo per euros a cap preu, i cotitza molt per sota del seu valor nominal. Es cataloga per poder identificar saldos heretats, no com un actiu vinculat a l'euro."
+  },
+  "external": {
+    "coingecko": "tether-eurt"
+  },
+  "tags": [
+    "Deprecated",
+    "EUR",
+    "Fiat",
+    "Stablecoin"
+  ],
+  "urls": {
+    "Website": "https://tether.to/"
+  }
+}

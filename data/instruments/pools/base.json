@@ -13,11 +13,46 @@
       "electronic-usd"
     ]
   },
+  "0xcEFC8B799a8EE5D9b312aeca73262645D664AaF7": {
+    "name": "Aerodrome Stable msUSD/USDC",
+    "assets": [
+      "metronome-synth-usd",
+      "usd-coin"
+    ]
+  },
+  "0x488d6ea6064eEE9352fdCDB7BC50d98A7fF3AD4E": {
+    "name": "Aerodrome Stable tBTC/cbBTC",
+    "assets": [
+      "threshold-bitcoin",
+      "coinbase-wrapped-bitcoin"
+    ]
+  },
+  "0x2a1463CeBE85315224c536AfD389b381B43F3206": {
+    "name": "Aerodrome Stable USDC/MAI",
+    "assets": [
+      "usd-coin",
+      "mai-base"
+    ]
+  },
+  "0xDE4FB30cCC2f1210FcE2c8aD66410C586C8D1f9A": {
+    "name": "Aerodrome Stable WETH/msETH",
+    "assets": [
+      "wrapped-ether",
+      "metronome-synth-eth"
+    ]
+  },
   "0x2223F9FE624F69Da4D8256A7bCc9104FBA7F8f75": {
     "name": "Aerodrome Volatile AERO/USDbC",
     "assets": [
       "aerodrome",
       "bridged-usd-coin"
+    ]
+  },
+  "0x889339213a0CC0a795F69cae5b1Db2223f944A4E": {
+    "name": "Aerodrome Volatile OVER/USDC",
+    "assets": [
+      "overtime",
+      "usd-coin"
     ]
   },
   "0x6cDcb1C4A4D1C3C6d054b27AC5B77e89eAFb971d": {
@@ -41,6 +76,13 @@
       "wrapped-ether"
     ]
   },
+  "0x91F0f34916Ca4E2cCe120116774b0e4fA0cdcaA8": {
+    "name": "Aerodrome Volatile weETH.base/WETH",
+    "assets": [
+      "wrapped-eeth",
+      "wrapped-ether"
+    ]
+  },
   "0x7f670f78B17dEC44d5Ef68a48740b6f8849cc2e6": {
     "name": "Aerodrome Volatile WETH/AERO",
     "assets": [
@@ -53,6 +95,27 @@
     "assets": [
       "wrapped-ether",
       "coinbase-wrapped-bitcoin"
+    ]
+  },
+  "0xaC4e562d7C6108f971321F14238E24AE2cC398ac": {
+    "name": "Aerodrome Volatile WETH/DRV",
+    "assets": [
+      "wrapped-ether",
+      "derive"
+    ]
+  },
+  "0x0DFb9Cb66A18468850d6216fCc691aa20ad1e091": {
+    "name": "Aerodrome Volatile WETH/GHST",
+    "assets": [
+      "wrapped-ether",
+      "aavegotchi"
+    ]
+  },
+  "0xF91E0Dfe1265B914182De54E08C9CA2068bedDDE": {
+    "name": "Aerodrome Volatile WETH/MET",
+    "assets": [
+      "wrapped-ether",
+      "metronome"
     ]
   },
   "0xe96a4E9EA3a2C6Db214174738a19Eb7Dbb8A3069": {
@@ -104,6 +167,34 @@
       "imo"
     ]
   },
+  "0x44d46A43ceb5A1e04Ef12B5731de5F9917f0eC8A": {
+    "name": "Balancer v2 20WETH/80VLR",
+    "assets": [
+      "wrapped-ether",
+      "velora"
+    ]
+  },
+  "0x5332584890D6E415a6dc910254d6430b8aaB7E69": {
+    "name": "Balancer v2 50OLAS-50USDC",
+    "assets": [
+      "autonolas",
+      "usd-coin"
+    ]
+  },
+  "0x2da6e67C45aF2aaA539294D9FA27ea50CE4e2C5f": {
+    "name": "Balancer v2 50OLAS-50WETH",
+    "assets": [
+      "wrapped-ether",
+      "autonolas"
+    ]
+  },
+  "0xCB470dA0902e6c548F0e8161042f624599286E9B": {
+    "name": "Balancer v2 80AURA-20WETH",
+    "assets": [
+      "aura-finance",
+      "wrapped-ether"
+    ]
+  },
   "0x6FbFcf88DB1aADA31F34215b2a1Df7fafb4883e9": {
     "name": "Balancer v2 DAI-USDbC Stable Pool",
     "assets": [
@@ -132,6 +223,14 @@
       "usd-coin"
     ]
   },
+  "0x0C659734f1eEF9C63B7Ebdf78a164CDd745586Db": {
+    "name": "Balancer v2 USDC/USDbC/axlUSDC",
+    "assets": [
+      "usd-coin",
+      "bridged-usd-coin",
+      "axelar-wrapped-usdc"
+    ]
+  },
   "0x3f31e580Eb590DaB16a10A0808D33bCbc5d3D608": {
     "name": "Balancer v3 AutoRange WETH-USDC",
     "assets": [
@@ -155,6 +254,29 @@
       "usd-coin"
     ]
   },
+  "0xfF2113C58b6d0b6f59C5E6ebCCb6eCA35538190b": {
+    "name": "CoW AMM Balancer CoW AMM 50 cbETH 50 cbBTC",
+    "assets": [
+      "coinbase-wrapped-staked-eth",
+      "coinbase-wrapped-bitcoin"
+    ]
+  },
+  "0xf6C5F01C7F3148891ad0e19DF78743D31E390D1f": {
+    "name": "Curve 4pool (USDC/USDbC/axlUSDC/crvUSD)",
+    "assets": [
+      "usd-coin",
+      "bridged-usd-coin",
+      "axelar-wrapped-usdc",
+      "curve-usd"
+    ]
+  },
+  "0x6771Bb9ec8da900eeBa738599c3CC4f8Fc07aEa7": {
+    "name": "Curve BRZ FX DFB (USDC/BRZ)",
+    "assets": [
+      "usd-coin",
+      "brz"
+    ]
+  },
   "0xb42a745C8B3Af214000c31b8EeFCf4F682c8B31e": {
     "name": "Curve BTC/USD (cbBTC/USDC)",
     "assets": [
@@ -169,6 +291,13 @@
       "wrapped-ether"
     ]
   },
+  "0x98244d93D42b42aB3E3A4D12A5dc0B3e7f8F32f9": {
+    "name": "Curve cbETH/WETH",
+    "assets": [
+      "wrapped-ether",
+      "coinbase-wrapped-staked-eth"
+    ]
+  },
   "0x6DfE79cecE4f64c1a34F48cF5802492aB595257E": {
     "name": "Curve CRV/crvUSD",
     "assets": [
@@ -176,11 +305,41 @@
       "curve-usd"
     ]
   },
+  "0x09bF787B9AB2D52D7836272A41e9809481795AB0": {
+    "name": "Curve DFB Tesouro BRL Base v1 (TESOURO/BRZ)",
+    "assets": [
+      "etherfuse-tesouro",
+      "brz"
+    ]
+  },
   "0x8bb3d81Aabb1361Bf639bB07c53abe1C7fE53f2D": {
     "name": "Curve frxUSD/USDC",
     "assets": [
       "frax-usd",
       "usd-coin"
+    ]
+  },
+  "0x302A94E3C28c290EAF2a4605FC52e11Eb915f378": {
+    "name": "Curve superOETHb/WETH",
+    "assets": [
+      "wrapped-ether",
+      "super-oeth"
+    ]
+  },
+  "0xfac15A759d0F887Bc7F5ab874491258CF6EC8acE": {
+    "name": "Curve TriBitcoin (cbBTC/tBTC/WBTC)",
+    "assets": [
+      "coinbase-wrapped-bitcoin",
+      "threshold-bitcoin",
+      "wrapped-bitcoin"
+    ]
+  },
+  "0x6e53131F68a034873b6bFA15502aF094Ef0c5854": {
+    "name": "Curve tricrypto (crvUSD/tBTC/WETH)",
+    "assets": [
+      "curve-usd",
+      "threshold-bitcoin",
+      "wrapped-ether"
     ]
   },
   "0x3CeA080D303bD105c48cA4C24D8426da99f75524": {
@@ -195,6 +354,20 @@
     "assets": [
       "usd-coin",
       "euro-coin"
+    ]
+  },
+  "0x5aB01ee6208596f2204B85bDFA39d34c2aDD98F6": {
+    "name": "Curve USDC/Savings crvUSD (USDC/scrvUSD)",
+    "assets": [
+      "usd-coin",
+      "savings-crvusd"
+    ]
+  },
+  "0x63Eb7846642630456707C3efBb50A03c79B89D81": {
+    "name": "Curve USDC/USDM",
+    "assets": [
+      "usd-coin",
+      "mountain-protocol-usd"
     ]
   },
   "0xf96A0eC41AE502d2Bc58B7D5838ED39A33Ae1d9f": {
@@ -258,6 +431,13 @@
     "assets": [
       "wrapped-ether",
       "cow-protocol"
+    ]
+  },
+  "0x14D92a7E0b39594A24e1433af564B47D7F1354f0": {
+    "name": "SushiSwap v2 WETH/OMNI",
+    "assets": [
+      "wrapped-ether",
+      "omnicat"
     ]
   },
   "0xE5947c01fb3A4B6703f9416c29Ff736285BFd403": {

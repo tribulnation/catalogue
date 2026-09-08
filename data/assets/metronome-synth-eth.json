@@ -1,0 +1,23 @@
+{
+  "id": "metronome-synth-eth",
+  "display_name": "Metronome Synth ETH",
+  "symbol": "msETH",
+  "category": "crypto",
+  "about": {
+    "en": "msETH is Metronome Synth's ether-denominated synthetic, minted as debt against collateral in the protocol's smart vaults. Each unit tracks one ETH and is backed by overcollateralized borrowing positions rather than by ether held in reserve.",
+    "es": "msETH es el sintético denominado en ether de Metronome Synth, emitido como deuda contra colateral en las bóvedas del protocolo. Cada unidad sigue a un ETH y está respaldada por posiciones de préstamo sobrecolateralizadas, no por ether guardado en reserva.",
+    "ca": "msETH és el sintètic denominat en ether de Metronome Synth, emès com a deute contra col·lateral a les voltes del protocol. Cada unitat segueix un ETH i està recolzada per posicions de préstec sobrecol·lateralitzades, no pas per ether guardat en reserva."
+  },
+  "external": {
+    "coingecko": "metronome-synth-eth"
+  },
+  "pegged_to": {
+    "asset": "ethereum"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://metronome.io/"
+  }
+}

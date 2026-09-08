@@ -1,0 +1,20 @@
+{
+  "id": "terrausd-wormhole",
+  "display_name": "TerraUSD (Wormhole)",
+  "symbol": "UST",
+  "category": "crypto",
+  "about": {
+    "en": "UST (Wormhole) is TerraUSD bridged off the original Terra chain through Wormhole. The algorithmic peg that was supposed to hold it at a dollar collapsed in May 2022 and the underlying chain was abandoned, so the token no longer tracks a dollar and the remaining supply is a stranded position rather than a stablecoin.",
+    "es": "UST (Wormhole) es TerraUSD puenteado fuera de la cadena Terra original a través de Wormhole. La paridad algorítmica que debía mantenerlo en un dólar colapsó en mayo de 2022 y la cadena subyacente quedó abandonada, así que el token ya no sigue al dólar y el suministro restante es una posición varada y no una stablecoin.",
+    "ca": "UST (Wormhole) és TerraUSD pontejat fora de la cadena Terra original a través de Wormhole. La paritat algorítmica que l'havia de mantenir en un dòlar va col·lapsar el maig de 2022 i la cadena subjacent va quedar abandonada, així que el token ja no segueix el dòlar i el subministrament restant és una posició encallada i no pas una stablecoin."
+  },
+  "external": {
+    "coingecko": "terrausd-wormhole"
+  },
+  "tags": [
+    "Bridge"
+  ],
+  "urls": {
+    "Website": "https://wormhole.com/"
+  }
+}

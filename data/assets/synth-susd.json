@@ -1,0 +1,22 @@
+{
+  "id": "synth-susd",
+  "display_name": "Synth sUSD",
+  "symbol": "sUSD",
+  "category": "stablecoin",
+  "about": {
+    "en": "sUSD is Synthetix's dollar synthetic, historically minted against staked SNX and used as the settlement currency of the protocol's derivatives markets. Synthetix has moved to newer collateral designs and the legacy Optimism deployment is marked retired on-chain, so this token now trades mostly as a legacy position.",
+    "es": "sUSD es el sintético en dólares de Synthetix, emitido históricamente contra SNX en staking y usado como moneda de liquidación de los mercados de derivados del protocolo. Synthetix ha pasado a nuevos diseños de colateral y el despliegue heredado en Optimism aparece como retirado on-chain, así que este token se negocia hoy sobre todo como posición heredada.",
+    "ca": "sUSD és el sintètic en dòlars de Synthetix, emès històricament contra SNX en staking i usat com a moneda de liquidació dels mercats de derivats del protocol. Synthetix ha passat a nous dissenys de col·lateral i el desplegament heretat a Optimism apareix com a retirat on-chain, així que aquest token es negocia avui sobretot com a posició heretada."
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://synthetix.io/"
+  }
+}

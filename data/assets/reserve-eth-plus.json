@@ -1,0 +1,20 @@
+{
+  "id": "reserve-eth-plus",
+  "display_name": "ETHPlus",
+  "symbol": "ETH+",
+  "category": "crypto",
+  "about": {
+    "en": "ETH+ is an RToken issued by the Reserve Protocol: an ETH index whose backing is a governed basket of liquid staking tokens rather than a single issuer's receipt. It aims to hold at least one ETH of collateral per token and pays the basket's staking yield to stakers of its governance token, with overcollateralization absorbing a collateral failure.",
+    "es": "ETH+ es un RToken emitido por el Reserve Protocol: un índice de ETH cuyo respaldo es una cesta gobernada de liquid staking tokens y no el recibo de un único emisor. Aspira a mantener al menos un ETH de colateral por token y paga el rendimiento de la cesta a quienes hacen staking de su token de gobernanza, con sobrecolateralización para absorber el fallo de un colateral.",
+    "ca": "ETH+ és un RToken emès pel Reserve Protocol: un índex d'ETH el suport del qual és una cistella governada de liquid staking tokens i no pas el rebut d'un únic emissor. Aspira a mantenir com a mínim un ETH de col·lateral per token i paga el rendiment de la cistella a qui fa staking del seu token de governança, amb sobrecol·lateralització per absorbir la fallida d'un col·lateral."
+  },
+  "external": {
+    "coingecko": "reserve-protocol-eth-plus"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://reserve.org/"
+  }
+}

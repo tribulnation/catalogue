@@ -1,4 +1,11 @@
 {
+  "0xCB0e14e96f2cEFA8550ad8e4aeA344F211E5061d": {
+    "name": "Balancer v2 20WETH-80PSP",
+    "assets": [
+      "wrapped-ether",
+      "paraswap"
+    ]
+  },
   "0x3de27EFa2F1AA663Ae5D458857e731c129069F29": {
     "name": "Balancer v2 20wstETH-80AAVE",
     "assets": [
@@ -48,6 +55,21 @@
       "wrapped-ether"
     ]
   },
+  "0x4446d101E91D042b5d08b62fdE126E307F1aCD57": {
+    "name": "Balancer v2 80VLR/20WETH",
+    "assets": [
+      "velora",
+      "wrapped-ether"
+    ]
+  },
+  "0xFeadd389a5c427952D8fdb8057D6C8ba1156cC56": {
+    "name": "Balancer v2 BTC Stable Pool (WBTC/renBTC/sBTC)",
+    "assets": [
+      "wrapped-bitcoin",
+      "ren-bitcoin",
+      "synth-sbtc"
+    ]
+  },
   "0x8353157092ED8Be69a9DF8F95af097bbF33Cb2aF": {
     "name": "Balancer v2 GHO/USDT/USDC",
     "assets": [
@@ -61,6 +83,13 @@
     "assets": [
       "wrapped-ether",
       "eigen-layer"
+    ]
+  },
+  "0x1535D7CA00323Aa32BD62AEDdf7ca651e4b95966": {
+    "name": "Balancer v3 Alchemix 80ALCX-20WETH",
+    "assets": [
+      "wrapped-ether",
+      "alchemix"
     ]
   },
   "0x84f2195dC84d540a3AB92e659603D770014F0440": {
@@ -114,6 +143,20 @@
       "tether"
     ]
   },
+  "0xB657B895B265C38c53FFF00166cF7F6A3C70587d": {
+    "name": "Curve alETHfrxETH",
+    "assets": [
+      "alchemix-eth",
+      "frax-ether"
+    ]
+  },
+  "0xEFc6516323FbD28e80B85A497B65A86243a54B3E": {
+    "name": "Curve BOLD/USDC Pool",
+    "assets": [
+      "liquity-bold",
+      "usd-coin"
+    ]
+  },
   "0x13e12BB0E6A2f1A3d6901a59a9d585e89A6243e1": {
     "name": "Curve crvUSD/frxUSD",
     "assets": [
@@ -163,11 +206,53 @@
       "ethena-staked-usde"
     ]
   },
+  "0x8b83c4aA949254895507D09365229BC3a8c7f710": {
+    "name": "Curve DOLA/sUSDS",
+    "assets": [
+      "dola-usd",
+      "savings-usds"
+    ]
+  },
+  "0x2c683fAd51da2cd17793219CC86439C1875c353e": {
+    "name": "Curve ETH+/ETH",
+    "assets": [
+      "reserve-eth-plus",
+      "wrapped-ether"
+    ]
+  },
   "0x5dc1BF6f1e983C0b21EfB003c105133736fA0743": {
     "name": "Curve FRAX/USDe",
     "assets": [
       "frax",
       "ethena-usde"
+    ]
+  },
+  "0x9c3B46C0Ceb5B9e304FCd6D88Fc50f7DD24B31Bc": {
+    "name": "Curve frxETH/WETH",
+    "assets": [
+      "wrapped-ether",
+      "frax-ether"
+    ]
+  },
+  "0x9A9e2e70919c75D80aAaA1D483c46CdBb8ac4d1b": {
+    "name": "Curve frxUSD/msUSD",
+    "assets": [
+      "frax-usd",
+      "metronome-synth-usd"
+    ]
+  },
+  "0xa4c567c662349BeC3D0fB94C4e7f85bA95E208e4": {
+    "name": "Curve msETH/WETH",
+    "assets": [
+      "metronome-synth-eth",
+      "wrapped-ether"
+    ]
+  },
+  "0xe080027Bd47353b5D1639772b4a75E9Ed3658A0d": {
+    "name": "Curve osETH/rETH",
+    "assets": [
+      "stakewise-staked-eth",
+      "rocket-pool-eth"
     ]
   },
   "0x383E6b4437b59fff47B619CBA855CA29342A8559": {
@@ -182,6 +267,13 @@
     "assets": [
       "ripple-usd",
       "usd-coin"
+    ]
+  },
+  "0x76A962BA6770068bCF454D34dDE17175611e6637": {
+    "name": "Curve SaveDola (scrvUSD/sDOLA)",
+    "assets": [
+      "savings-crvusd",
+      "staked-dola"
     ]
   },
   "0xF292eB6c5dcb693Eaaf392D0562a01C3710E5978": {
@@ -203,6 +295,28 @@
     "assets": [
       "ethereum",
       "lido-staked-ether"
+    ]
+  },
+  "0x4d9f9D15101EEC665F77210cB999639f760F831E": {
+    "name": "Curve stETH/frxETH",
+    "assets": [
+      "lido-staked-ether",
+      "frax-ether"
+    ]
+  },
+  "0xB7ECB2AA52AA64a717180E030241bC75Cd946726": {
+    "name": "Curve tBTC/WBTC",
+    "assets": [
+      "wrapped-bitcoin",
+      "threshold-bitcoin"
+    ]
+  },
+  "0x2889302a794dA87fBF1D6Db415C1492194663D13": {
+    "name": "Curve TricryptoLLAMA (crvUSD/tBTC/wstETH)",
+    "assets": [
+      "curve-usd",
+      "threshold-bitcoin",
+      "wrapped-staked-ether"
     ]
   },
   "0xf5f5B97624542D72A9E06f04804Bf81baA15e2B4": {
@@ -235,6 +349,20 @@
       "ethena-usdtb"
     ]
   },
+  "0xDB74dfDD3BB46bE8Ce6C33dC9D82777BCFc3dEd5": {
+    "name": "Curve weETH/WETH-ng",
+    "assets": [
+      "wrapped-ether",
+      "wrapped-eeth"
+    ]
+  },
+  "0xf1F435B05D255a5dBdE37333C0f61DA6F69c6127": {
+    "name": "Curve YB tBTC (crvUSD/tBTC)",
+    "assets": [
+      "curve-usd",
+      "threshold-bitcoin"
+    ]
+  },
   "0xD9FF8396554A0d18B2CFbeC53e1979b7ecCe8373": {
     "name": "Curve YB WBTC (crvUSD/WBTC)",
     "assets": [
@@ -254,6 +382,13 @@
     "assets": [
       "curve-usd",
       "coinbase-wrapped-bitcoin"
+    ]
+  },
+  "0x4F52C3a81E33521e5a9A47FD9D3BE475D2279c2e": {
+    "name": "Curve Yield Basis tBTC (crvUSD/tBTC)",
+    "assets": [
+      "curve-usd",
+      "threshold-bitcoin"
     ]
   },
   "0x656341Ef90b622c6634e0573772FfB7f3669b9f3": {
@@ -319,11 +454,25 @@
       "wrapped-ether"
     ]
   },
+  "0x7F517657496C09c43CC28D0cA131E35dCD557E02": {
+    "name": "SushiSwap v2 DAI/RAIL",
+    "assets": [
+      "dai",
+      "railgun"
+    ]
+  },
   "0xC3D03e4F041Fd4cD388c549Ee2A29a9E5075882f": {
     "name": "SushiSwap v2 DAI/WETH",
     "assets": [
       "dai",
       "wrapped-ether"
+    ]
+  },
+  "0x55D31F68975E446a40a2d02FfA4B0E1bFb233c2F": {
+    "name": "SushiSwap v2 LON/USDT",
+    "assets": [
+      "tokenlon",
+      "tether"
     ]
   },
   "0x6469B34a2a4723163C4902dbBdEa728D20693C12": {
@@ -375,11 +524,25 @@
       "wrapped-ether"
     ]
   },
+  "0xC3f279090a47e80990Fe3a9c30d24Cb117EF91a8": {
+    "name": "SushiSwap v2 WETH/ALCX",
+    "assets": [
+      "wrapped-ether",
+      "alchemix"
+    ]
+  },
   "0xa1181481bEb2dc5De0DaF2c85392d81C704BF75D": {
     "name": "SushiSwap v2 WETH/ENS",
     "assets": [
       "wrapped-ether",
       "ethereum-name-service"
+    ]
+  },
+  "0x7cF6A842e72c4bD7Bc92e0C17EBDaa95AC1e7825": {
+    "name": "SushiSwap v2 WETH/RAIL",
+    "assets": [
+      "wrapped-ether",
+      "railgun"
     ]
   },
   "0x06da0fd433C1A5d7a4faa01111c044910A184553": {
@@ -407,6 +570,20 @@
     "name": "Uniswap v2 LINK/WETH",
     "assets": [
       "chainlink",
+      "wrapped-ether"
+    ]
+  },
+  "0x7924a818013f39cf800F5589fF1f1f0DEF54F31F": {
+    "name": "Uniswap v2 LON/WETH",
+    "assets": [
+      "tokenlon",
+      "wrapped-ether"
+    ]
+  },
+  "0x09D1d767eDF8Fa23A64C51fa559E0688E526812F": {
+    "name": "Uniswap v2 OLAS/WETH",
+    "assets": [
+      "autonolas",
       "wrapped-ether"
     ]
   },
@@ -457,6 +634,20 @@
     "assets": [
       "wrapped-ether",
       "floki"
+    ]
+  },
+  "0x470e8de2eBaef52014A47Cb5E6aF86884947F08c": {
+    "name": "Uniswap v2 WETH/FOX",
+    "assets": [
+      "wrapped-ether",
+      "shapeshift-fox"
+    ]
+  },
+  "0xac86903cdDA380F20a06Cc8a2DEA7749F1558c68": {
+    "name": "Uniswap v2 WETH/RAIL",
+    "assets": [
+      "wrapped-ether",
+      "railgun"
     ]
   },
   "0x52c77b0CB827aFbAD022E6d6CAF2C44452eDbc39": {

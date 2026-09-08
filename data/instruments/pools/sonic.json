@@ -1,4 +1,39 @@
 {
+  "0xBcda4860646e315d48625446Efae96cD00d56923": {
+    "name": "Balancer v2 Concentrated Ringing Notes 2100-2900 (scETH/scUSD)",
+    "assets": [
+      "rings-sceth",
+      "rings-scusd"
+    ]
+  },
+  "0xE54DD58a6d4e04687f2034dd4dDAb49da55F8afF": {
+    "name": "Balancer v2 Echoes of Ether (scETH/WETH)",
+    "assets": [
+      "rings-sceth",
+      "wrapped-ether"
+    ]
+  },
+  "0x10ac2F9DaE6539E77e372aDB14B1BF8fBD16b3e8": {
+    "name": "Balancer v2 Fresh Beets (BEETS/stS)",
+    "assets": [
+      "beets",
+      "beets-staked-sonic"
+    ]
+  },
+  "0x25ca5451CD5a50AB1d324B5E64F32C0799661891": {
+    "name": "Balancer v2 Put A Ring On It (scUSD/stS)",
+    "assets": [
+      "rings-scusd",
+      "beets-staked-sonic"
+    ]
+  },
+  "0xCd4D2b142235D5650fFA6A38787eD0b7d7A51c0C": {
+    "name": "Balancer v2 Ringing Stable Beets (USDC/scUSD)",
+    "assets": [
+      "usd-coin",
+      "rings-scusd"
+    ]
+  },
   "0xFF4aF8b7046D17D7bc16e125fC736B85605b1AfB": {
     "name": "Balancer v2 Set It and Forget ETH (USDC/WETH)",
     "assets": [
@@ -11,6 +46,29 @@
     "assets": [
       "wrapped-sonic",
       "usd-coin"
+    ]
+  },
+  "0xbd4a2ecdcd7acb0d2b20744AC4Cc1368Dd8fdC41": {
+    "name": "Balancer v2 Sonic Quartet Audition - Act II (scETH/scBTC/scUSD/stS)",
+    "assets": [
+      "rings-sceth",
+      "rings-scbtc",
+      "rings-scusd",
+      "beets-staked-sonic"
+    ]
+  },
+  "0x34b883E1D8D8B7750Fb2311202564c5396DC8A9F": {
+    "name": "Balancer v2 Sons of Sonic (wS/stS)",
+    "assets": [
+      "wrapped-sonic",
+      "beets-staked-sonic"
+    ]
+  },
+  "0x713FB5036dC70012588d77a5B066f1Dd05c712d7": {
+    "name": "Balancer v2 Staked Sonic & Circle Concerto (USDC/stS)",
+    "assets": [
+      "usd-coin",
+      "beets-staked-sonic"
     ]
   },
   "0x7a2284a1f44Fe05dB25CbE382475D02ee8F339a7": {
@@ -39,6 +97,50 @@
     "assets": [
       "wrapped-sonic",
       "usd-coin"
+    ]
+  },
+  "0x75b000584a7d86Fb3ef5E15ba26F4C52b41be0E9": {
+    "name": "Balancer v3 Liquid Alignment (wS/stS)",
+    "assets": [
+      "wrapped-sonic",
+      "beets-staked-sonic"
+    ]
+  },
+  "0x74dc857D5567a3B087E79b96B91CDc8099B2FA34": {
+    "name": "Balancer v3 SONIC MACRO BTF (wS/USDC/WETH/scBTC)",
+    "assets": [
+      "wrapped-sonic",
+      "usd-coin",
+      "wrapped-ether",
+      "rings-scbtc"
+    ]
+  },
+  "0xD3Dc6b2c947F1BCa4D4a85114b34a71985606cd2": {
+    "name": "Curve 2Pool (USDT/USDC)",
+    "assets": [
+      "tether",
+      "usd-coin"
+    ]
+  },
+  "0x346704605c72d9f5f9F02D651e5A3DccE6964F3d": {
+    "name": "Curve CrossCurve frxETH (scETH/frxETH)",
+    "assets": [
+      "rings-sceth",
+      "frax-ether"
+    ]
+  },
+  "0xF1232a1aB5661aBdD6E02c6D8Ac9940a23Bb0b84": {
+    "name": "Curve CrossCurve frxUSD (scUSD/frxUSD)",
+    "assets": [
+      "rings-scusd",
+      "frax-usd"
+    ]
+  },
+  "0xdA212dd27F531A9F888B7cdF31Ee3b5A4771793D": {
+    "name": "Curve crvUSD/USDT",
+    "assets": [
+      "curve-usd",
+      "tether"
     ]
   }
 }
