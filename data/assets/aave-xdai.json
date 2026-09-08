@@ -1,0 +1,22 @@
+{
+  "id": "aave-xdai",
+  "display_name": "Aave WXDAI",
+  "symbol": "aWXDAI",
+  "category": "stablecoin",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of xDAI (WXDAI) in the Aave lending protocol. aWXDAI holders earn interest continuously and can redeem their tokens for WXDAI at any time. WXDAI is the ERC-20 form of xDAI, the gas coin of Gnosis Chain.",
+    "es": "Un token de recibo de Aave que representa un depósito de xDAI (WXDAI) en el protocolo de préstamos Aave. Los titulares de aWXDAI acumulan intereses continuamente y pueden canjear sus tokens por WXDAI en cualquier momento. WXDAI es la forma ERC-20 de xDAI, la moneda de gas de Gnosis Chain.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de xDAI (WXDAI) en el protocol de préstecs Aave. Els titulars de aWXDAI acumulen interessos de manera contínua i poden bescanviar els seus tokens per WXDAI en qualsevol moment. WXDAI és la forma ERC-20 de xDAI, la moneda de gas de Gnosis Chain."
+  },
+  "pegged_to": {
+    "asset": "xdai"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}

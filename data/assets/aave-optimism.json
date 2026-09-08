@@ -1,0 +1,23 @@
+{
+  "id": "aave-optimism",
+  "display_name": "Aave OP",
+  "symbol": "aOP",
+  "category": "crypto",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of Optimism (OP) in the Aave lending protocol. aOP holders earn interest continuously and can redeem their tokens for OP at any time.",
+    "es": "Un token de recibo de Aave que representa un depósito de Optimism (OP) en el protocolo de préstamos Aave. Los titulares de aOP acumulan intereses continuamente y pueden canjear sus tokens por OP en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de Optimism (OP) en el protocol de préstecs Aave. Els titulars de aOP acumulen interessos de manera contínua i poden bescanviar els seus tokens per OP en qualsevol moment."
+  },
+  "pegged_to": {
+    "asset": "optimism"
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  },
+  "external": {
+    "coingecko": "aave-v3-op"
+  }
+}

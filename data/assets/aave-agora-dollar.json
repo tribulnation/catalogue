@@ -1,0 +1,22 @@
+{
+  "id": "aave-agora-dollar",
+  "display_name": "Aave AUSD",
+  "symbol": "aAUSD",
+  "category": "stablecoin",
+  "about": {
+    "en": "An Aave receipt token representing a deposit of AUSD (AUSD) in the Aave lending protocol. aAUSD holders earn interest continuously and can redeem their tokens for AUSD at any time. AUSD is Agora's fully reserved dollar stablecoin, and Aave lists it on Avalanche and Monad.",
+    "es": "Un token de recibo de Aave que representa un depósito de AUSD (AUSD) en el protocolo de préstamos Aave. Los titulares de aAUSD acumulan intereses continuamente y pueden canjear sus tokens por AUSD en cualquier momento. AUSD es la stablecoin en dólares totalmente respaldada de Agora, y Aave la lista en Avalanche y Monad.",
+    "ca": "Un token de rebut d'Aave que representa un dipòsit de AUSD (AUSD) en el protocol de préstecs Aave. Els titulars de aAUSD acumulen interessos de manera contínua i poden bescanviar els seus tokens per AUSD en qualsevol moment. AUSD és la stablecoin en dòlars totalment garantida d'Agora, i Aave la llista a Avalanche i Monad."
+  },
+  "pegged_to": {
+    "asset": "agora-dollar"
+  },
+  "tags": [
+    "Stablecoin",
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://aave.com"
+  }
+}

@@ -1,4 +1,14 @@
 {
-  "0xDbe517c0FA6467873B684eCcbED77217E471E862": { "asset": "usd-coin", "name": "Aave USDC Debt" },
-  "0xE15324a9887999803b931Ac45aa89a94A9750052": { "asset": "tether", "name": "Aave USDT Debt" }
+  "0xDbe517c0FA6467873B684eCcbED77217E471E862": {
+    "asset": "usd-coin",
+    "name": "Aave USDC Debt"
+  },
+  "0xE15324a9887999803b931Ac45aa89a94A9750052": {
+    "asset": "tether",
+    "name": "Aave USDT Debt"
+  },
+  "0xaEa37B42955De2Ba2E4AF6581E46349bCD3Ea2d6": {
+    "asset": "celo",
+    "name": "Aave CELO Debt"
+  }
 }
