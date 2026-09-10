@@ -29,24 +29,26 @@ on September 17, 2026](https://www.bitget.com/support/articles/12560603893788).
 The accepted correction is coexistence: `bitget:coin` uses UTA native `*_CM` IDs;
 `bitget:coin-classic` uses the Classic symbols. Catalogue entries preserve both
 identities. Mark the Classic entries delisted after confirmed retirement, removing
-any trading URLs; do not rename their historical IDs into UTA IDs. The SDK adapters
-still need implementation and qualification before coordinated deployment.
+any trading URLs; do not rename their historical IDs into UTA IDs.
 
-The UTA listing currently fails Typed validation on delivery rows with an empty
-`fundInterval`; the upstream correction is pending. UTA coin order quantities are
-in quote units, not base units, so the SDK's fixed base-unit `Rules.step_size`
-also needs an explicit contract decision. Neither issue is resolved by renaming.
+UTA SDK support is explicitly deferred in [SDK issue #32](https://github.com/tribulnation/sdk/issues/32):
+its native USD-sized quantities do not fit the current base-unit Rules contract.
+The `coin` Catalogue identity remains reserved for UTA, but the SDK does not
+advertise it. Classic `coin-classic` support remains in scope. The separate Typed
+delivery validation fix is prepared for release in [Typed PR #124](https://github.com/tribulnation/typed/pull/124).
 
-The SDK release checks validate exchange/kind and native ID conventions. Rules
-base/quote are checked for shared instruments; missing Catalogue instruments are
-reported as deferred coverage, not passing observations or release blockers.
+The SDK release checks validate exchange/kind and native ID conventions. Base/quote
+identity is Catalogue-owned: `Rules.base/quote` and their translated-rules check
+are retired. Independent upstream asset checks belong to a later Catalogue pass.
+Missing instruments are deferred coverage; UTA coin is a distinct explicit capability
+exclusion. Neither is a passing observation or an inferred delisting.
 
 Consumer migration must update stored qualified IDs together with SDK deployment.
 No SDK aliases, asset changes or automatic production-data migration are introduced.
 
 It also adds 48 previously checked native symbol mappings to existing assets:
-23 dYdX, 14 Bitget, and 11 MEXC. These let shared instruments' rules base/quote
-translate without inventing new asset identities. dYdX uses USDC for quote and
+23 dYdX, 14 Bitget, and 11 MEXC. These preserve verified native symbol mappings
+without inventing new asset identities. dYdX uses USDC for quote and
 fees, while retaining native `*-USD` market names. No global USD-to-USDC mapping
 is introduced.
 
