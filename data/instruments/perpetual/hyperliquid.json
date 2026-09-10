@@ -39,7 +39,7 @@
     "base": "fartcoin",
     "quote": "tether",
     "settlement": "ethena-usde",
-    "url": "https://app.hyperliquid.xyz/trade/hyna:FARTCOIN"
+    "delisted": true
   },
   "xyz:SILVER": {
     "exchange": "xyz",
@@ -88,7 +88,7 @@
     "base": "plasma",
     "quote": "tether",
     "settlement": "ethena-usde",
-    "url": "https://app.hyperliquid.xyz/trade/hyna:XPL"
+    "delisted": true
   },
   "ATOM": {
     "exchange": "",
@@ -116,7 +116,7 @@
     "base": "solana",
     "quote": "tether",
     "settlement": "ethena-usde",
-    "url": "https://app.hyperliquid.xyz/trade/hyna:SOL"
+    "delisted": true
   },
   "LIT": {
     "exchange": "",
@@ -158,7 +158,7 @@
     "base": "pump",
     "quote": "tether",
     "settlement": "ethena-usde",
-    "url": "https://app.hyperliquid.xyz/trade/hyna:PUMP"
+    "delisted": true
   },
   "BNB": {
     "exchange": "",
@@ -368,7 +368,7 @@
     "base": "hyperliquid",
     "quote": "tether",
     "settlement": "ethena-usde",
-    "url": "https://app.hyperliquid.xyz/trade/hyna:HYPE"
+    "delisted": true
   },
   "ONDO": {
     "exchange": "",
@@ -438,7 +438,7 @@
     "base": "zcash",
     "quote": "tether",
     "settlement": "ethena-usde",
-    "url": "https://app.hyperliquid.xyz/trade/hyna:ZEC"
+    "delisted": true
   },
   "ENA": {
     "exchange": "",
@@ -452,7 +452,7 @@
     "base": "ethena",
     "quote": "tether",
     "settlement": "ethena-usde",
-    "url": "https://app.hyperliquid.xyz/trade/hyna:ENA"
+    "delisted": true
   },
   "W": {
     "exchange": "",
@@ -487,28 +487,28 @@
     "base": "monero",
     "quote": "tether",
     "settlement": "ethena-usde",
-    "url": "https://app.hyperliquid.xyz/trade/hyna:XMR"
+    "delisted": true
   },
   "flx:XMR": {
     "exchange": "flx",
     "base": "monero",
     "quote": "tether",
     "settlement": "hyperliquid-usd",
-    "url": "https://app.hyperliquid.xyz/trade/flx:XMR"
+    "delisted": true
   },
   "flx:OIL": {
     "exchange": "flx",
     "base": "west-texas-intermediate",
     "quote": "tether",
     "settlement": "hyperliquid-usd",
-    "url": "https://app.hyperliquid.xyz/trade/flx:OIL"
+    "delisted": true
   },
   "cash:WTI": {
     "exchange": "cash",
     "base": "west-texas-intermediate",
     "quote": "tether",
     "settlement": "usd-coin",
-    "url": "https://app.hyperliquid.xyz/trade/cash:WTI"
+    "delisted": true
   },
   "APE": {
     "exchange": "",
