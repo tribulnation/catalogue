@@ -105,7 +105,7 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'binance': lambda id, inst, sym: f'https://www.binance.com/en/futures/{id}',
   'bitget': bitget_perpetual_url,
   'bybit': lambda id, inst, sym: f'https://www.bybit.com/trade/usdt/{id}',
-  'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/perpetuals/{id}',
+  'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/perpetuals/{id.removesuffix("-INTX")}',
   'dydx': lambda id, inst, sym: f'https://dydx.trade/trade/{id}',
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{id}',
   'kraken': lambda id, inst, sym: f'https://futures.kraken.com/trade/futures/{id}',

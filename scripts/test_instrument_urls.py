@@ -26,5 +26,18 @@ class BitgetUrlsTest(unittest.TestCase):
         )
 
 
+class CoinbaseUrlsTest(unittest.TestCase):
+  """Advanced Trade API IDs retain the separate International Exchange web ID."""
+
+  def test_intx_suffix_is_not_in_the_web_url(self):
+    """Native SDK and legacy Catalogue names address the same trading page."""
+    symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+    for id in ('BTC-PERP', 'BTC-PERP-INTX'):
+      self.assertEqual(
+        PERPETUAL_RULES['coinbase'](id, {}, symbols),
+        'https://www.coinbase.com/advanced-trade/perpetuals/BTC-PERP',
+      )
+
+
 if __name__ == '__main__':
   unittest.main()

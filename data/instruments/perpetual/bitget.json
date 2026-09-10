@@ -1273,7 +1273,7 @@
     "settlement": "usd-coin",
     "url": "https://www.bitget.com/futures/usdc/XRPPERP"
   },
-  "AAVEUSD_CM": {
+  "AAVEUSD": {
     "exchange": "coin",
     "base": "aave",
     "quote": "usd",
@@ -1287,7 +1287,7 @@
     "settlement": "cardano",
     "url": "https://www.bitget.com/futures/coin/ADAUSD_CM"
   },
-  "APTUSD_CM": {
+  "APTUSD": {
     "exchange": "coin",
     "base": "aptos",
     "quote": "usd",
@@ -1301,7 +1301,7 @@
     "settlement": "avalanche",
     "url": "https://www.bitget.com/futures/coin/AVAXUSD_CM"
   },
-  "BCHUSD_CM": {
+  "BCHUSD": {
     "exchange": "coin",
     "base": "bitcoin-cash",
     "quote": "usd",
@@ -1322,14 +1322,14 @@
     "settlement": "dogecoin",
     "url": "https://www.bitget.com/futures/coin/DOGEUSD_CM"
   },
-  "DOTUSD_CM": {
+  "DOTUSD": {
     "exchange": "coin",
     "base": "polkadot",
     "quote": "usd",
     "settlement": "polkadot",
     "url": "https://www.bitget.com/futures/coin/DOTUSD_CM"
   },
-  "ETCUSD_CM": {
+  "ETCUSD": {
     "exchange": "coin",
     "base": "ethereum-classic",
     "quote": "usd",
@@ -1343,7 +1343,7 @@
     "settlement": "ethereum",
     "url": "https://www.bitget.com/futures/coin/ETHUSD_CM"
   },
-  "FILUSD_CM": {
+  "FILUSD": {
     "exchange": "coin",
     "base": "filecoin",
     "quote": "usd",
@@ -1357,7 +1357,7 @@
     "settlement": "chainlink",
     "url": "https://www.bitget.com/futures/coin/LINKUSD_CM"
   },
-  "LTCUSD_CM": {
+  "LTCUSD": {
     "exchange": "coin",
     "base": "litecoin",
     "quote": "usd",
@@ -1378,21 +1378,21 @@
     "settlement": "solana",
     "url": "https://www.bitget.com/futures/coin/SOLUSD_CM"
   },
-  "SUIUSD_CM": {
+  "SUIUSD": {
     "exchange": "coin",
     "base": "sui",
     "quote": "usd",
     "settlement": "sui",
     "url": "https://www.bitget.com/futures/coin/SUIUSD_CM"
   },
-  "UNIUSD_CM": {
+  "UNIUSD": {
     "exchange": "coin",
     "base": "uniswap",
     "quote": "usd",
     "settlement": "uniswap",
     "url": "https://www.bitget.com/futures/coin/UNIUSD_CM"
   },
-  "XLMUSD_CM": {
+  "XLMUSD": {
     "exchange": "coin",
     "base": "stellar",
     "quote": "usd",
