@@ -1,6 +1,6 @@
 # SDK native exchange and market IDs
 
-This migration aligns namespaces, not current listing coverage. It adds no markets,
+This migration aligns namespaces and missing asset-symbol translations, not current listing coverage. It adds no markets,
 infers no delistings, and does not claim every existing entry is currently available.
 
 | Venue | Exchange migration | Market-ID migration | Entries |
@@ -26,3 +26,9 @@ reported as deferred coverage, not passing observations or release blockers.
 
 Consumer migration must update stored qualified IDs together with SDK deployment.
 No SDK aliases, asset changes or automatic production-data migration are introduced.
+
+It also adds 48 previously checked native symbol mappings to existing assets:
+23 dYdX, 14 Bitget, and 11 MEXC. These let shared instruments' rules base/quote
+translate without inventing new asset identities. dYdX uses USDC for quote and
+fees, while retaining native `*-USD` market names. No global USD-to-USDC mapping
+is introduced, and Catalogue quote/settlement fields are unchanged.
