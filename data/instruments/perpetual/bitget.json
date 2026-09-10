@@ -1280,12 +1280,18 @@
     "settlement": "aave",
     "url": "https://www.bitget.com/futures/coin/AAVEUSD_CM"
   },
-  "ADAUSD": {
+  "ADAUSD_CM": {
     "exchange": "coin",
     "base": "cardano",
     "quote": "usd",
     "settlement": "cardano",
     "url": "https://www.bitget.com/futures/coin/ADAUSD_CM"
+  },
+  "ADAUSD": {
+    "exchange": "coin-classic",
+    "base": "cardano",
+    "quote": "usd",
+    "settlement": "cardano"
   },
   "APTUSD_CM": {
     "exchange": "coin",
@@ -1294,12 +1300,18 @@
     "settlement": "aptos",
     "url": "https://www.bitget.com/futures/coin/APTUSD_CM"
   },
-  "AVAXUSD": {
+  "AVAXUSD_CM": {
     "exchange": "coin",
     "base": "avalanche",
     "quote": "usd",
     "settlement": "avalanche",
     "url": "https://www.bitget.com/futures/coin/AVAXUSD_CM"
+  },
+  "AVAXUSD": {
+    "exchange": "coin-classic",
+    "base": "avalanche",
+    "quote": "usd",
+    "settlement": "avalanche"
   },
   "BCHUSD_CM": {
     "exchange": "coin",
@@ -1308,19 +1320,31 @@
     "settlement": "bitcoin-cash",
     "url": "https://www.bitget.com/futures/coin/BCHUSD_CM"
   },
-  "BTCUSD": {
+  "BTCUSD_CM": {
     "exchange": "coin",
     "base": "bitcoin",
     "quote": "usd",
     "settlement": "bitcoin",
     "url": "https://www.bitget.com/futures/coin/BTCUSD_CM"
   },
-  "DOGEUSD": {
+  "BTCUSD": {
+    "exchange": "coin-classic",
+    "base": "bitcoin",
+    "quote": "usd",
+    "settlement": "bitcoin"
+  },
+  "DOGEUSD_CM": {
     "exchange": "coin",
     "base": "dogecoin",
     "quote": "usd",
     "settlement": "dogecoin",
     "url": "https://www.bitget.com/futures/coin/DOGEUSD_CM"
+  },
+  "DOGEUSD": {
+    "exchange": "coin-classic",
+    "base": "dogecoin",
+    "quote": "usd",
+    "settlement": "dogecoin"
   },
   "DOTUSD_CM": {
     "exchange": "coin",
@@ -1336,12 +1360,18 @@
     "settlement": "ethereum-classic",
     "url": "https://www.bitget.com/futures/coin/ETCUSD_CM"
   },
-  "ETHUSD": {
+  "ETHUSD_CM": {
     "exchange": "coin",
     "base": "ethereum",
     "quote": "usd",
     "settlement": "ethereum",
     "url": "https://www.bitget.com/futures/coin/ETHUSD_CM"
+  },
+  "ETHUSD": {
+    "exchange": "coin-classic",
+    "base": "ethereum",
+    "quote": "usd",
+    "settlement": "ethereum"
   },
   "FILUSD_CM": {
     "exchange": "coin",
@@ -1350,12 +1380,18 @@
     "settlement": "filecoin",
     "url": "https://www.bitget.com/futures/coin/FILUSD_CM"
   },
-  "LINKUSD": {
+  "LINKUSD_CM": {
     "exchange": "coin",
     "base": "chainlink",
     "quote": "usd",
     "settlement": "chainlink",
     "url": "https://www.bitget.com/futures/coin/LINKUSD_CM"
+  },
+  "LINKUSD": {
+    "exchange": "coin-classic",
+    "base": "chainlink",
+    "quote": "usd",
+    "settlement": "chainlink"
   },
   "LTCUSD_CM": {
     "exchange": "coin",
@@ -1364,19 +1400,31 @@
     "settlement": "litecoin",
     "url": "https://www.bitget.com/futures/coin/LTCUSD_CM"
   },
-  "NEARUSD": {
+  "NEARUSD_CM": {
     "exchange": "coin",
     "base": "near",
     "quote": "usd",
     "settlement": "near",
     "url": "https://www.bitget.com/futures/coin/NEARUSD_CM"
   },
-  "SOLUSD": {
+  "NEARUSD": {
+    "exchange": "coin-classic",
+    "base": "near",
+    "quote": "usd",
+    "settlement": "near"
+  },
+  "SOLUSD_CM": {
     "exchange": "coin",
     "base": "solana",
     "quote": "usd",
     "settlement": "solana",
     "url": "https://www.bitget.com/futures/coin/SOLUSD_CM"
+  },
+  "SOLUSD": {
+    "exchange": "coin-classic",
+    "base": "solana",
+    "quote": "usd",
+    "settlement": "solana"
   },
   "SUIUSD_CM": {
     "exchange": "coin",
@@ -1399,11 +1447,17 @@
     "settlement": "stellar",
     "url": "https://www.bitget.com/futures/coin/XLMUSD_CM"
   },
-  "XRPUSD": {
+  "XRPUSD_CM": {
     "exchange": "coin",
     "base": "xrp",
     "quote": "usd",
     "settlement": "xrp",
     "url": "https://www.bitget.com/futures/coin/XRPUSD_CM"
+  },
+  "XRPUSD": {
+    "exchange": "coin-classic",
+    "base": "xrp",
+    "quote": "usd",
+    "settlement": "xrp"
   }
 }

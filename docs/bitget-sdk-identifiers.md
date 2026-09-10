@@ -1,5 +1,12 @@
 # Bitget product identities
 
+**Historical Classic-only decision, amended by the subsequent
+[native-ID alignment](sdk-native-market-ids.md).** The accepted IDs are now
+`coin-classic` for Classic (`BTCUSD`) and `coin` for UTA (`BTCUSD_CM`). Both are
+preserved independently. All ten previously unresolved entries are online in UTA.
+The listing verification and original decision below are historical, not the final
+migration instructions.
+
 The SDK uses Bitget Classic public API symbols, qualified by product line:
 
 | Exchange ID | Bitget product type | Example market ID |
@@ -37,4 +44,6 @@ This migration does not add every market from the venue, certify SDK release
 readiness, or alter private-account coverage. In particular, the live Typed client
 currently rejects empty numeric fields in delivery rows from the coin contract
 listing, before the SDK can filter them. That response-validation blocker and the
-ten unresolved Catalogue IDs must remain visible during qualification.
+ten unresolved Catalogue IDs must remain visible during qualification. The Typed
+validation correction is prepared in typed release PR #123; exact Catalogue
+coverage is now explicitly deferred, separately from response correctness.
