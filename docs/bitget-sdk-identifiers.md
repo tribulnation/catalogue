@@ -1,8 +1,11 @@
 # Bitget product identities
 
-The subsequent [native-ID alignment](sdk-native-market-ids.md) applies the same
-Classic symbol convention to the ten unresolved entries. Their coverage remains
-deferred rather than release-blocking; the listing verification below is historical.
+**Historical Classic-only decision, amended by the subsequent
+[native-ID alignment](sdk-native-market-ids.md).** The accepted IDs are now
+`coin-classic` for Classic (`BTCUSD`) and `coin` for UTA (`BTCUSD_CM`). Both are
+preserved independently. All ten previously unresolved entries are online in UTA.
+The listing verification and original decision below are historical, not the final
+migration instructions.
 
 The SDK uses Bitget Classic public API symbols, qualified by product line:
 

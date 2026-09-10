@@ -78,14 +78,17 @@ def _bitget_margin(instrument: Instrument) -> str:
   return 'coin'
 
 
-def bitget_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
-  """Keep Bitget's web-only coin suffix separate from Classic API symbols."""
+def bitget_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str | None:
+  """Use UTA coin pages without misdirecting a distinct Classic instrument."""
+  if instrument.get('exchange') == 'coin-classic':
+    # A Classic-specific route has not been verified; the `_CM` page is UTA.
+    return None
   margin = _bitget_margin(instrument)
   web_id = f'{id.removesuffix("_CM")}_CM' if margin == 'coin' else id
   return f'https://www.bitget.com/futures/{margin}/{web_id}'
 
 
-Rule = Callable[[str, Instrument, Symbols], str]
+Rule = Callable[[str, Instrument, Symbols], str | None]
 
 SPOT_RULES: dict[str, Rule] = {
   'binance': lambda id, inst, sym: 'https://www.binance.com/en/trade/{}_{}'.format(*sym.split('binance', id, inst)),
@@ -132,7 +135,12 @@ def fill(folder: Path, rules: dict[str, Rule], symbols: Symbols, *, overwrite: b
         continue
       if 'url' in instrument and not overwrite:
         continue
-      instrument['url'] = rule(id, instrument, symbols)
+      url = rule(id, instrument, symbols)
+      if url is None:
+        instrument.pop('url', None)
+        skipped += 1
+        continue
+      instrument['url'] = url
       filled += 1
     file.write_text(json.dumps(instruments, ensure_ascii=False, indent=2) + '\n')
   return filled, skipped
@@ -148,7 +156,7 @@ def main() -> None:
   symbols = Symbols(data)
   for kind, rules in RULES.items():
     filled, skipped = fill(data / 'instruments' / kind, rules, symbols, overwrite=args.overwrite)
-    print(f'{kind}: {filled} URLs written' + (f', {skipped} on platforms without a rule' if skipped else ''))
+    print(f'{kind}: {filled} URLs written' + (f', {skipped} without a verified URL rule' if skipped else ''))
 
 
 if __name__ == '__main__':
