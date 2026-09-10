@@ -78,6 +78,13 @@ def _bitget_margin(instrument: Instrument) -> str:
   return 'coin'
 
 
+def bitget_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
+  """Keep Bitget's web-only coin suffix separate from Classic API symbols."""
+  margin = _bitget_margin(instrument)
+  web_id = f'{id.removesuffix("_CM")}_CM' if margin == 'coin' else id
+  return f'https://www.bitget.com/futures/{margin}/{web_id}'
+
+
 Rule = Callable[[str, Instrument, Symbols], str]
 
 SPOT_RULES: dict[str, Rule] = {
@@ -96,7 +103,7 @@ SPOT_RULES: dict[str, Rule] = {
 
 PERPETUAL_RULES: dict[str, Rule] = {
   'binance': lambda id, inst, sym: f'https://www.binance.com/en/futures/{id}',
-  'bitget': lambda id, inst, sym: f'https://www.bitget.com/futures/{_bitget_margin(inst)}/{id}',
+  'bitget': bitget_perpetual_url,
   'bybit': lambda id, inst, sym: f'https://www.bybit.com/trade/usdt/{id}',
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/perpetuals/{id}',
   'dydx': lambda id, inst, sym: f'https://dydx.trade/trade/{id}',
