@@ -11,14 +11,22 @@ infers no delistings, and does not claim every existing entry is currently avail
 | Bitget coin | Already `coin` | Remaining `*_CM` → Classic API symbol without `_CM` | 10 |
 
 Coinbase IDs are Advanced Trade product IDs, not the bare International Exchange
-instrument IDs. Its trading-page URLs continue to use the latter. Bitget coin page
-URLs likewise retain the web-only `_CM` suffix. The URL generator implements these
-differences; a URL is not an API market ID.
+instrument IDs. Its trading-page URLs also require the full `-PERP-INTX` product ID;
+the previous suffix-stripping URL rule was incorrect. Bitget coin page
+URLs retain `_CM`, which is also part of UTA native symbols, though absent from
+Classic API symbols. The URL generator currently handles the Classic convention.
 
-The ten Bitget entries absent from the prior Classic listing are still unresolved
-coverage findings. Their names now follow the same API convention as the verified
-entries; this is not a claim that they have become listed. Coverage across these
-venues will be investigated separately, as agreed with the SDK maintainer.
+**Bitget coin migration needs revision before merging.** Live checks on September
+10, 2026 found all ten entries missing from Classic in the UTA public instruments
+listing, online with native `*_CM` symbols. UTA includes all 19 Catalogue coin
+perpetuals. These are not stale Catalogue entries.
+
+Bitget has [scheduled the remaining nine Classic coin perpetuals for retirement
+on September 17, 2026](https://www.bitget.com/support/articles/12560603893788).
+The proposed correction is to source SDK `bitget:coin` public market data from UTA
+and restore its native `*_CM` Catalogue IDs. That SDK/source decision and ID
+revision are pending; the table above describes the current diff, not the final
+recommended Bitget migration. Exact listing coverage remains a separate pass.
 
 The SDK release checks validate exchange/kind and native ID conventions. Rules
 base/quote are checked for shared instruments; missing Catalogue instruments are
