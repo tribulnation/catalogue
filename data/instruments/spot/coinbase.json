@@ -1504,5 +1504,71 @@
     "base": "layer-zero",
     "quote": "usd",
     "url": "https://www.coinbase.com/advanced-trade/spot/ZRO-USD"
+  },
+  "ZORA-USD": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "usd",
+    "url": "https://www.coinbase.com/advanced-trade/spot/ZORA-USD"
+  },
+  "GRASS-USD": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "usd",
+    "url": "https://www.coinbase.com/advanced-trade/spot/GRASS-USD"
+  },
+  "KSM-USD": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "usd",
+    "url": "https://www.coinbase.com/advanced-trade/spot/KSM-USD"
+  },
+  "USELESS-USD": {
+    "exchange": "spot",
+    "base": "useless-coin",
+    "quote": "usd",
+    "url": "https://www.coinbase.com/advanced-trade/spot/USELESS-USD"
+  },
+  "BAL-USD": {
+    "exchange": "spot",
+    "base": "balancer",
+    "quote": "usd",
+    "url": "https://www.coinbase.com/advanced-trade/spot/BAL-USD"
+  },
+  "2Z-USD": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "usd",
+    "url": "https://www.coinbase.com/advanced-trade/spot/2Z-USD"
+  },
+  "ZEN-USD": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "usd",
+    "url": "https://www.coinbase.com/advanced-trade/spot/ZEN-USD"
+  },
+  "VELO-USD": {
+    "exchange": "spot",
+    "base": "velodrome",
+    "quote": "usd",
+    "url": "https://www.coinbase.com/advanced-trade/spot/VELO-USD"
+  },
+  "SUSHI-USD": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "usd",
+    "url": "https://www.coinbase.com/advanced-trade/spot/SUSHI-USD"
+  },
+  "SPX-USD": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "usd",
+    "url": "https://www.coinbase.com/advanced-trade/spot/SPX-USD"
+  },
+  "ORCA-USD": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "usd",
+    "url": "https://www.coinbase.com/advanced-trade/spot/ORCA-USD"
   }
 }

@@ -1459,5 +1459,61 @@
     "base": "xrp",
     "quote": "usd",
     "settlement": "xrp"
+  },
+  "CFXUSDT": {
+    "exchange": "usdt",
+    "base": "conflux",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/CFXUSDT"
+  },
+  "COWUSDT": {
+    "exchange": "usdt",
+    "base": "cow-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/COWUSDT"
+  },
+  "DASHUSDT": {
+    "exchange": "usdt",
+    "base": "dash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/DASHUSDT"
+  },
+  "JASMYUSDT": {
+    "exchange": "usdt",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/JASMYUSDT"
+  },
+  "KAITOUSDT": {
+    "exchange": "usdt",
+    "base": "kaito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/KAITOUSDT"
+  },
+  "KSMUSDT": {
+    "exchange": "usdt",
+    "base": "kusama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/KSMUSDT"
+  },
+  "MASKUSDT": {
+    "exchange": "usdt",
+    "base": "mask-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/MASKUSDT"
+  },
+  "MOVEUSDT": {
+    "exchange": "usdt",
+    "base": "movement",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/MOVEUSDT"
   }
 }
