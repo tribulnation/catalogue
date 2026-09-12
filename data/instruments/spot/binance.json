@@ -3670,5 +3670,95 @@
     "base": "layer-zero",
     "quote": "tether",
     "url": "https://www.binance.com/en/trade/ZRO_USDT"
+  },
+  "ZENUSDT": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ZEN_USDT"
+  },
+  "SUSHIUSDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SUSHI_USDT"
+  },
+  "KSMUSDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/KSM_USDT"
+  },
+  "WOOUSDT": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/WOO_USDT"
+  },
+  "ORCAUSDT": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ORCA_USDT"
+  },
+  "MOVEUSDT": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/MOVE_USDT"
+  },
+  "ORCAUSDC": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ORCA_USDC"
+  },
+  "ORCATRY": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/ORCA_TRY"
+  },
+  "KSMTRY": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/KSM_TRY"
+  },
+  "SUSHITRY": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/SUSHI_TRY"
+  },
+  "ZENUSDC": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ZEN_USDC"
+  },
+  "2ZUSDT": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/2Z_USDT"
+  },
+  "2ZUSDC": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/2Z_USDC"
+  },
+  "2ZTRY": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/2Z_TRY"
+  },
+  "ACEUSDC": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/ACE_USDC"
   }
 }

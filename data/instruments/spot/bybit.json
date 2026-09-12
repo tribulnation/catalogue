@@ -1654,5 +1654,41 @@
     "base": "layer-zero",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ZRO/USDT"
+  },
+  "KSMUSDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/KSM/USDT"
+  },
+  "MOVEUSDC": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/MOVE/USDC"
+  },
+  "MOVEUSDT": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MOVE/USDT"
+  },
+  "SUSHIUSDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SUSHI/USDT"
+  },
+  "TAIKOUSDT": {
+    "exchange": "spot",
+    "base": "taiko",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TAIKO/USDT"
+  },
+  "WOOUSDT": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WOO/USDT"
   }
 }

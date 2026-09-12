@@ -1,0 +1,52 @@
+{
+  "B2M/EUR": {
+    "exchange": "spot",
+    "base": "bit2me",
+    "quote": "euro"
+  },
+  "B2M/USDC": {
+    "exchange": "spot",
+    "base": "bit2me",
+    "quote": "usd-coin"
+  },
+  "BTC/EUR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro"
+  },
+  "BTC/EURR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "stablr-euro"
+  },
+  "BTC/USDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin"
+  },
+  "ETH/EUR": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro"
+  },
+  "ETH/USDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin"
+  },
+  "EURC/EUR": {
+    "exchange": "spot",
+    "base": "euro-coin",
+    "quote": "euro"
+  },
+  "EUR/EURR": {
+    "exchange": "spot",
+    "base": "euro",
+    "quote": "stablr-euro"
+  },
+  "USDC/EUR": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "euro"
+  }
+}
