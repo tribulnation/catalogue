@@ -12,16 +12,14 @@ def batch(iterable: Iterable[T], size: int) -> Iterable[list[T]]:
     yield batch
     batch = list(itertools.islice(it, size))
 
-def round_price(price: Decimal):
-  if price >= 0.1:
-    return round(price, 2)
-  else:
-    _, digits, exp = price.as_tuple()
-    if not isinstance(exp, int):
-      return price # shouldn't happen, but just in case
-    first_digit_exp = abs(exp) - len(digits) + 1
-    digits = first_digit_exp + 2
-    return round(price, digits)
+def parse_price(value: Decimal | float | str) -> Decimal:
+  """
+  Convert a provider price to `Decimal` without losing or inventing precision.
+
+  Floats go through their shortest repr, so `1.15914` stays `1.15914` instead of
+  `1.1591400000000000591...`. Prices are never rounded here: round for display only.
+  """
+  return Decimal(str(value))
 
 def round_date(date: datetime):
   if date.hour > 12:

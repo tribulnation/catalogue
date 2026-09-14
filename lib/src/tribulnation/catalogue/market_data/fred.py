@@ -10,7 +10,6 @@ from tribulnation.sdk import SDK, NetworkError, RateLimited, ApiError
 from typed_core import HttpClient
 from typed_core import exceptions as core_exc
 
-from .util import round_price
 from .sdk import Pricing, Price, Stats
 
 
@@ -101,7 +100,7 @@ class FredPricing(Pricing):
         price = _apply_transform(Decimal(value), transform) # type: ignore
       except Exception as e:
         raise ApiError(f'Invalid FRED observation for {series_id}: {value!r}') from e
-      rows.append((datetime.strptime(row['observation_date'], '%Y-%m-%d'), round_price(price)))
+      rows.append((datetime.strptime(row['observation_date'], '%Y-%m-%d'), price))
     return rows
 
   async def current_stats(self, ids: Collection[str]) -> Mapping[str, Stats]:

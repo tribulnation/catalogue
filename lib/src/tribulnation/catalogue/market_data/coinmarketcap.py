@@ -10,7 +10,7 @@ import httpx
 from typed_core import HttpClient
 from tribulnation.sdk import SDK, NetworkError, AuthError, RateLimited, ApiError
 
-from .util import batch, round_date, round_price
+from .util import batch, round_date
 from .sdk import Pricing, Price, Stats
 
 
@@ -186,7 +186,7 @@ class CoinMarketCapPricing(Pricing):
       q = coin.quote.get(_quote_symbol(self.quote))
       if q is not None:
         out[str(coin.id)] = Stats(
-          price=round_price(q.price),
+          price=q.price,
           market_cap=round(q.market_cap, 2) if q.market_cap is not None else None,
         )
     return out
@@ -231,5 +231,5 @@ class CoinMarketCapPricing(Pricing):
     if value is None:
       return None
 
-    return Price(price=round_price(value.price), time=value.timestamp or quote.timestamp)
+    return Price(price=value.price, time=value.timestamp or quote.timestamp)
 

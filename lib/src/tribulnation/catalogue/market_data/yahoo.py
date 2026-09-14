@@ -13,7 +13,7 @@ from tribulnation.sdk import SDK, NetworkError, RateLimited, ApiError
 from typed_core import HttpClient
 from typed_core import exceptions as core_exc
 
-from .util import batch, round_price
+from .util import batch
 from .sdk import Pricing, Price, Stats
 
 COOKIE_URL = 'https://fc.yahoo.com'
@@ -168,7 +168,7 @@ class YahooPricing(Pricing):
     for item in response.result:
       market_cap = Decimal(item.marketCap) if item.marketCap is not None else None
       out[item.symbol] = Stats(
-        price=round_price(item.regularMarketPrice),
+        price=item.regularMarketPrice,
         market_cap=round(market_cap, 2) if market_cap is not None else None,
       )
     return out
@@ -225,5 +225,5 @@ class YahooPricing(Pricing):
       close = closes[i] if i < len(closes) else None
       price = adj or close
       if price is not None:
-        return Price(price=round_price(price), time=datetime(obs_date.year, obs_date.month, obs_date.day))
+        return Price(price=price, time=datetime(obs_date.year, obs_date.month, obs_date.day))
     return None
