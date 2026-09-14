@@ -11,7 +11,7 @@ from pydantic import BaseModel, ConfigDict, ValidationError
 from tribulnation.sdk import SDK, NetworkError, AuthError, RateLimited, ApiError
 from typed_core import HttpClient
 
-from .util import batch, round_price
+from .util import batch
 from .sdk import Pricing, Price, Stats
 
 
@@ -138,12 +138,12 @@ class TwelveDataPricing(Pricing):
       if data.get('status') == 'error':
         _raise_body_error(data)
       if 'price' in data:
-        out[symbol] = Stats(price=round_price(TdPrice.model_validate(data).price))
+        out[symbol] = Stats(price=TdPrice.model_validate(data).price)
     else:
       for symbol in symbols:
         entry = data.get(symbol)
         if isinstance(entry, Mapping) and 'price' in entry:
-          out[symbol] = Stats(price=round_price(TdPrice.model_validate(entry).price))
+          out[symbol] = Stats(price=TdPrice.model_validate(entry).price)
     return out
 
   async def current_stats(self, ids: Collection[str]) -> dict[str, Stats]:
@@ -177,4 +177,4 @@ class TwelveDataPricing(Pricing):
     if not data.values:
       return None
     entry = data.values[0]
-    return Price(price=round_price(entry.close), time=_parse_dt(entry.datetime))
+    return Price(price=entry.close, time=_parse_dt(entry.datetime))

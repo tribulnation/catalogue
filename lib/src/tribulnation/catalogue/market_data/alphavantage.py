@@ -14,7 +14,6 @@ from tribulnation.sdk import SDK, NetworkError, AuthError, RateLimited, ApiError
 from typed_core import HttpClient
 from typed_core import exceptions as core_exc
 
-from .util import round_price
 from .sdk import Pricing, Price
 
 
@@ -135,7 +134,7 @@ class AlphaVantagePricing(Pricing):
       _check_body_error(data)
       rate = data.get('Realtime Currency Exchange Rate', {}).get('5. Exchange Rate')
       if rate:
-        return round_price(Decimal(rate))
+        return Decimal(rate)
 
     elif kind == 'stock':
       r = await self.client.request(
@@ -147,7 +146,7 @@ class AlphaVantagePricing(Pricing):
       _check_body_error(data)
       price = data.get('Global Quote', {}).get('05. price')
       if price:
-        return round_price(Decimal(price))
+        return Decimal(price)
 
     else:
       r = await self.client.request(
@@ -160,7 +159,7 @@ class AlphaVantagePricing(Pricing):
       for point in data.get('data', []):
         point_value = point.get('value', '.')
         if point_value != '.':
-          return round_price(Decimal(point_value))
+          return Decimal(point_value)
         
   async def current_stats(self, ids: Collection[str]) -> Mapping[str, Stats]:
     """Fetch prices one at a time with a delay to respect the per-minute limit."""
@@ -193,7 +192,7 @@ class AlphaVantagePricing(Pricing):
       series = data.get('Time Series FX (Daily)', {})
       if entry := series.get(date_str):
         dt = datetime.strptime(date_str, '%Y-%m-%d')
-        return Price(price=round_price(Decimal(entry['4. close'])), time=dt)
+        return Price(price=Decimal(entry['4. close']), time=dt)
 
     elif kind == 'stock':
       r = await self.client.request(
@@ -207,7 +206,7 @@ class AlphaVantagePricing(Pricing):
       series = data.get('Time Series (Daily)', {})
       if entry := series.get(date_str):
         dt = datetime.strptime(date_str, '%Y-%m-%d')
-        return Price(price=round_price(Decimal(entry['4. close'])), time=dt)
+        return Price(price=Decimal(entry['4. close']), time=dt)
 
     else:
       r = await self.client.request(
@@ -222,5 +221,5 @@ class AlphaVantagePricing(Pricing):
           point_value = point.get('value', '.')
           if point_value != '.':
             dt = datetime.strptime(date_str, '%Y-%m-%d')
-            return Price(price=round_price(Decimal(point_value)), time=dt)
+            return Price(price=Decimal(point_value), time=dt)
 

@@ -11,7 +11,7 @@ import coingecko_sdk
 from tribulnation.sdk import SDK, NetworkError, AuthError, RateLimited, ApiError
 
 from .sdk import Pricing, Price, Stats
-from .util import round_price, round_date, batch
+from .util import parse_price, round_date, batch
 
 
 def wrap_exceptions(f):
@@ -53,7 +53,7 @@ class CoingeckoPricing(Pricing):
     usd = (await self.client.coins.markets.get(vs_currency='usd', ids=reference_asset))[0].current_price
     other = (await self.client.coins.markets.get(vs_currency=currency, ids=reference_asset))[0].current_price
     if usd and other:
-      return  round_price(Decimal(usd) / Decimal(other))
+      return parse_price(usd) / parse_price(other)
       
     
   @SDK.method
@@ -66,7 +66,7 @@ class CoingeckoPricing(Pricing):
       usd = price.get('usd')
       other = price.get(currency)
       if usd and other:
-        price = round_price(Decimal(other) / Decimal(usd))
+        price = parse_price(other) / parse_price(usd)
         return Price(price=price, time=date)
 
 
@@ -79,7 +79,7 @@ class CoingeckoPricing(Pricing):
     for coin in r:
       s = out.setdefault(coin.id, Stats())
       if (p := coin.current_price) is not None:
-        s.price = round_price(Decimal(p))
+        s.price = parse_price(p)
       if (c := coin.market_cap) is not None:
         s.market_cap = round(Decimal(c), 2)
     return out
@@ -103,7 +103,7 @@ class CoingeckoPricing(Pricing):
     date = round_date(time)
     r = await self.client.coins.history.get(id, date=date.strftime('%Y-%m-%d'))
     if price := (r.market_data.current_price or {}).get(self.quote):
-      return Price(price=round_price(Decimal(price)), time=date)
+      return Price(price=parse_price(price), time=date)
 
   async def historical_price(self, id: str, time: datetime) -> Price | None:
     """Fetch historical price, dispatching currencies vs coins."""
