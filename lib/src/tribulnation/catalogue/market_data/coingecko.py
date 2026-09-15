@@ -50,8 +50,12 @@ class CoingeckoPricing(Pricing):
   @wrap_exceptions
   async def currency_price(self, currency: str, *, reference_asset: str = 'bitcoin') -> Decimal | None:
     """Deduce the price of a currency by comparing price of a given reference asset in both the currency and USD"""
-    usd = (await self.client.coins.markets.get(vs_currency='usd', ids=reference_asset))[0].current_price
-    other = (await self.client.coins.markets.get(vs_currency=currency, ids=reference_asset))[0].current_price
+    usd = (await self.client.coins.markets.get(
+      vs_currency='usd', ids=reference_asset, precision='full',
+    ))[0].current_price
+    other = (await self.client.coins.markets.get(
+      vs_currency=currency, ids=reference_asset, precision='full',
+    ))[0].current_price
     if usd and other:
       return parse_price(usd) / parse_price(other)
       
@@ -75,7 +79,9 @@ class CoingeckoPricing(Pricing):
   async def _fetch_markets(self, ids: list[str]) -> dict[str, Stats]:
     """Fetch market data for a batch of coin IDs."""
     out: dict[str, Stats] = {}
-    r = await self.client.coins.markets.get(vs_currency=self.quote, ids=','.join(ids))
+    r = await self.client.coins.markets.get(
+      vs_currency=self.quote, ids=','.join(ids), precision='full',
+    )
     for coin in r:
       s = out.setdefault(coin.id, Stats())
       if (p := coin.current_price) is not None:
