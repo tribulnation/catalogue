@@ -5,8 +5,8 @@
   "category": "crypto",
   "about": {
     "en": "oXRP is XRP bridged to Kaia by Orbit Bridge, operated by Ozys. Ripple issues nothing on Kaia, so the only backing is the XRP that Orbit's validator multisig holds in an XRP Ledger vault. That vault was untouched by the January 2024 exploit, which hit the bridge's Ethereum side, and oXRP still tracks XRP closely, but it trades almost only on KLAYswap and remains a federated custody claim rather than XRP itself.",
-    "es": "oXRP es XRP puenteado a Kaia por Orbit Bridge, operado por Ozys. Ripple no emite nada en Kaia, así que el único respaldo es el XRP que el multifirma de validadores de Orbit guarda en una bóveda del XRP Ledger. Esa bóveda no se vio afectada por el exploit de enero de 2024, que golpeó el lado Ethereum del puente, y oXRP sigue de cerca a XRP, pero cotiza casi solo en KLAYswap y sigue siendo un derecho de custodia federada y no XRP en sí.",
-    "ca": "oXRP és XRP pontejat a Kaia per Orbit Bridge, operat per Ozys. Ripple no emet res a Kaia, així que l'únic suport és l'XRP que la multisignatura de validadors d'Orbit guarda en una bóveda de l'XRP Ledger. Aquesta bóveda no es va veure afectada per l'exploit del gener de 2024, que va colpejar el costat Ethereum del pont, i oXRP continua seguint de prop l'XRP, però cotitza gairebé només a KLAYswap i continua sent un dret de custòdia federada i no pas XRP mateix."
+    "es": "oXRP es XRP puenteado a Kaia por Orbit Bridge, operado por Ozys. Ripple no emite nada en Kaia, as\u00ed que el \u00fanico respaldo es el XRP que el multifirma de validadores de Orbit guarda en una b\u00f3veda del XRP Ledger. Esa b\u00f3veda no se vio afectada por el exploit de enero de 2024, que golpe\u00f3 el lado Ethereum del puente, y oXRP sigue de cerca a XRP, pero cotiza casi solo en KLAYswap y sigue siendo un derecho de custodia federada y no XRP en s\u00ed.",
+    "ca": "oXRP \u00e9s XRP pontejat a Kaia per Orbit Bridge, operat per Ozys. Ripple no emet res a Kaia, aix\u00ed que l'\u00fanic suport \u00e9s l'XRP que la multisignatura de validadors d'Orbit guarda en una b\u00f3veda de l'XRP Ledger. Aquesta b\u00f3veda no es va veure afectada per l'exploit del gener de 2024, que va colpejar el costat Ethereum del pont, i oXRP continua seguint de prop l'XRP, per\u00f2 cotitza gaireb\u00e9 nom\u00e9s a KLAYswap i continua sent un dret de cust\u00f2dia federada i no pas XRP mateix."
   },
   "external": {
     "coingecko": "orbit-bridge-klaytn-ripple"
@@ -18,6 +18,7 @@
     "Wrapped",
     "Bridge"
   ],
+  "icon": "icons/asset/xrp.svg",
   "urls": {
     "Website": "https://bridge.orbitchain.io/"
   }

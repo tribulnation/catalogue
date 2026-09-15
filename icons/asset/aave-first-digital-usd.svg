@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="aave" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B6509E"/>
+      <stop offset="100%" stop-color="#2EBAC6"/>
+    </linearGradient>
+    <mask id="frame">
+      <rect width="200" height="200" fill="white"/>
+      <circle cx="100" cy="100" r="88" fill="black"/>
+    </mask>
+    <clipPath id="inner">
+      <circle cx="100" cy="100" r="82"/>
+    </clipPath>
+  </defs>
+  <rect width="200" height="200" fill="url(#aave)" mask="url(#frame)"/>
+  <circle cx="100" cy="100" r="82" fill="white"/>
+  <g clip-path="url(#inner)">
+  <svg x="18" y="18" width="164" height="164" viewBox="0 0 141.8 141.8">
+    <rect width="141.8" height="141.8" fill="#000"/>
+  <g transform="translate(70.9,70.9) scale(0.7748184019370461) translate(-70.9,-70.9)">
+    <g transform="translate(96.43495 -.68691) scale(1.24272)">
+      <polygon fill="#fff" points="9.8 49 9.8 62.4 -27 62.4 -27 27.4 9.8 27.4 9.8 40.8 -11.8 40.8 -11.8 49"/>
+      <rect x="-55.4" y="70.2" width="45.8" height="19.1" fill="#00E98D"/>
+    </g>
+  </g>
+  </svg>
+  </g>
+</svg>

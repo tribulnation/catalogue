@@ -5,8 +5,8 @@
   "category": "crypto",
   "about": {
     "en": "Wrapped POL is the ERC-20 form of POL, the gas coin of Polygon PoS, and was called WMATIC before the MATIC-to-POL migration. The contract custodies the deposited coins itself and unwraps on demand. It is the quote asset of most Polygon liquidity pools.",
-    "es": "Wrapped POL es la forma ERC-20 de POL, la moneda de gas de Polygon PoS, y se llamaba WMATIC antes de la migración de MATIC a POL. El contrato custodia él mismo las monedas depositadas y las devuelve a demanda. Es el activo de cotización de la mayoría de pools de liquidez de Polygon.",
-    "ca": "Wrapped POL és la forma ERC-20 de POL, la moneda de gas de Polygon PoS, i es deia WMATIC abans de la migració de MATIC a POL. El contracte custodia ell mateix les monedes dipositades i les retorna a demanda. És l'actiu de cotització de la majoria de pools de liquiditat de Polygon."
+    "es": "Wrapped POL es la forma ERC-20 de POL, la moneda de gas de Polygon PoS, y se llamaba WMATIC antes de la migraci\u00f3n de MATIC a POL. El contrato custodia \u00e9l mismo las monedas depositadas y las devuelve a demanda. Es el activo de cotizaci\u00f3n de la mayor\u00eda de pools de liquidez de Polygon.",
+    "ca": "Wrapped POL \u00e9s la forma ERC-20 de POL, la moneda de gas de Polygon PoS, i es deia WMATIC abans de la migraci\u00f3 de MATIC a POL. El contracte custodia ell mateix les monedes dipositades i les retorna a demanda. \u00c9s l'actiu de cotitzaci\u00f3 de la majoria de pools de liquiditat de Polygon."
   },
   "external": {
     "coingecko": "wmatic"
@@ -18,6 +18,7 @@
     "Wrapped",
     "DeFi"
   ],
+  "icon": "icons/asset/polygon.svg",
   "urls": {
     "Website": "https://polygon.technology/"
   }

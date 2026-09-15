@@ -5,8 +5,8 @@
   "category": "crypto",
   "about": {
     "en": "An Aave receipt token representing a deposit of Binance-Peg Ethereum (ETH) in the Aave lending protocol. aETH holders earn interest continuously and can redeem their tokens for ETH at any time. The underlying is Binance's BNB Chain ETH token, not ether itself, so the position carries Binance's custody risk on top of Aave's.",
-    "es": "Un token de recibo de Aave que representa un depósito de Binance-Peg Ethereum (ETH) en el protocolo de préstamos Aave. Los titulares de aETH acumulan intereses continuamente y pueden canjear sus tokens por ETH en cualquier momento. El subyacente es el token ETH de Binance en BNB Chain, no el ether en sí, por lo que la posición asume el riesgo de custodia de Binance además del de Aave.",
-    "ca": "Un token de rebut d'Aave que representa un dipòsit de Binance-Peg Ethereum (ETH) en el protocol de préstecs Aave. Els titulars de aETH acumulen interessos de manera contínua i poden bescanviar els seus tokens per ETH en qualsevol moment. El subjacent és el token ETH de Binance a BNB Chain, no l'ether en si, de manera que la posició assumeix el risc de custòdia de Binance a més del d'Aave."
+    "es": "Un token de recibo de Aave que representa un dep\u00f3sito de Binance-Peg Ethereum (ETH) en el protocolo de pr\u00e9stamos Aave. Los titulares de aETH acumulan intereses continuamente y pueden canjear sus tokens por ETH en cualquier momento. El subyacente es el token ETH de Binance en BNB Chain, no el ether en s\u00ed, por lo que la posici\u00f3n asume el riesgo de custodia de Binance adem\u00e1s del de Aave.",
+    "ca": "Un token de rebut d'Aave que representa un dip\u00f2sit de Binance-Peg Ethereum (ETH) en el protocol de pr\u00e9stecs Aave. Els titulars de aETH acumulen interessos de manera cont\u00ednua i poden bescanviar els seus tokens per ETH en qualsevol moment. El subjacent \u00e9s el token ETH de Binance a BNB Chain, no l'ether en si, de manera que la posici\u00f3 assumeix el risc de cust\u00f2dia de Binance a m\u00e9s del d'Aave."
   },
   "pegged_to": {
     "asset": "binance-peg-ethereum"
@@ -14,6 +14,7 @@
   "tags": [
     "DeFi"
   ],
+  "icon": "icons/asset/aave-binance-peg-ethereum.svg",
   "urls": {
     "Website": "https://aave.com"
   }

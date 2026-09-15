@@ -5,8 +5,8 @@
   "category": "crypto",
   "about": {
     "en": "Binance-Peg Avalanche is a BEP-20 token on BNB Chain that represents AVAX held in custody by Binance. It tracks the price of AVAX, but the coin backing it sits in Binance's own accounts on the Avalanche network, so a holder is exposed to Binance rather than to Avalanche.",
-    "es": "Binance-Peg Avalanche es un token BEP-20 en BNB Chain que representa AVAX bajo custodia de Binance. Sigue el precio de AVAX, pero la moneda que lo respalda está en cuentas propias de Binance en la red Avalanche, así que el tenedor se expone a Binance y no a Avalanche.",
-    "ca": "Binance-Peg Avalanche és un token BEP-20 a BNB Chain que representa AVAX sota custòdia de Binance. Segueix el preu d'AVAX, però la moneda que el recolza és en comptes propis de Binance a la xarxa Avalanche, de manera que qui el té s'exposa a Binance i no a Avalanche."
+    "es": "Binance-Peg Avalanche es un token BEP-20 en BNB Chain que representa AVAX bajo custodia de Binance. Sigue el precio de AVAX, pero la moneda que lo respalda est\u00e1 en cuentas propias de Binance en la red Avalanche, as\u00ed que el tenedor se expone a Binance y no a Avalanche.",
+    "ca": "Binance-Peg Avalanche \u00e9s un token BEP-20 a BNB Chain que representa AVAX sota cust\u00f2dia de Binance. Segueix el preu d'AVAX, per\u00f2 la moneda que el recolza \u00e9s en comptes propis de Binance a la xarxa Avalanche, de manera que qui el t\u00e9 s'exposa a Binance i no a Avalanche."
   },
   "external": {
     "coingecko": "binance-peg-avalanche"
@@ -17,6 +17,7 @@
   "tags": [
     "Wrapped"
   ],
+  "icon": "icons/asset/avalanche.svg",
   "urls": {
     "Website": "https://www.bnbchain.org"
   }
