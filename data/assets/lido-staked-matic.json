@@ -5,8 +5,8 @@
   "category": "crypto",
   "about": {
     "en": "stMATIC was Lido's liquid staking token for Polygon's MATIC, representing MATIC delegated to Polygon validators through Lido. Its rate against MATIC rose with staking rewards rather than holding parity. Lido wound the Polygon product down, so stMATIC now trades mainly as a legacy position.",
-    "es": "stMATIC era el liquid staking token de Lido para el MATIC de Polygon, que representaba MATIC delegado a validadores de Polygon a través de Lido. Su tipo frente a MATIC subía con las recompensas de staking en vez de mantener la paridad. Lido cerró el producto en Polygon, así que stMATIC se negocia hoy sobre todo como posición heredada.",
-    "ca": "stMATIC era el liquid staking token de Lido per al MATIC de Polygon, que representava MATIC delegat a validadors de Polygon a través de Lido. El seu tipus respecte a MATIC pujava amb les recompenses d'staking en lloc de mantenir la paritat. Lido va tancar el producte a Polygon, així que stMATIC es negocia avui sobretot com a posició heretada."
+    "es": "stMATIC era el liquid staking token de Lido para el MATIC de Polygon, que representaba MATIC delegado a validadores de Polygon a trav\u00e9s de Lido. Su tipo frente a MATIC sub\u00eda con las recompensas de staking en vez de mantener la paridad. Lido cerr\u00f3 el producto en Polygon, as\u00ed que stMATIC se negocia hoy sobre todo como posici\u00f3n heredada.",
+    "ca": "stMATIC era el liquid staking token de Lido per al MATIC de Polygon, que representava MATIC delegat a validadors de Polygon a trav\u00e9s de Lido. El seu tipus respecte a MATIC pujava amb les recompenses d'staking en lloc de mantenir la paritat. Lido va tancar el producte a Polygon, aix\u00ed que stMATIC es negocia avui sobretot com a posici\u00f3 heretada."
   },
   "external": {
     "coingecko": "lido-staked-matic"
@@ -15,6 +15,7 @@
     "DeFi",
     "Liquid Staking"
   ],
+  "icon": "icons/asset/lido-staked-matic.svg",
   "urls": {
     "Website": "https://lido.fi/"
   }

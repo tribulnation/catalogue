@@ -5,8 +5,8 @@
   "category": "stablecoin",
   "about": {
     "en": "BOLD is the stablecoin of Liquity v2, borrowed against ETH and liquid staking tokens at a rate each borrower sets themselves. Redemptions at face value against the riskiest collateral positions keep it near a dollar, and the interest paid by borrowers is routed to a stability pool rather than to a treasury.",
-    "es": "BOLD es la stablecoin de Liquity v2, tomada en préstamo contra ETH y liquid staking tokens a un tipo que fija cada prestatario. Los canjes a valor nominal contra las posiciones de colateral más arriesgadas la mantienen cerca del dólar, y el interés que pagan los prestatarios va a un fondo de estabilidad y no a una tesorería.",
-    "ca": "BOLD és la stablecoin de Liquity v2, presa en préstec contra ETH i liquid staking tokens a un tipus que fixa cada prestatari. Els bescanvis a valor nominal contra les posicions de col·lateral més arriscades la mantenen a prop del dòlar, i l'interès que paguen els prestataris va a un fons d'estabilitat i no pas a una tresoreria."
+    "es": "BOLD es la stablecoin de Liquity v2, tomada en pr\u00e9stamo contra ETH y liquid staking tokens a un tipo que fija cada prestatario. Los canjes a valor nominal contra las posiciones de colateral m\u00e1s arriesgadas la mantienen cerca del d\u00f3lar, y el inter\u00e9s que pagan los prestatarios va a un fondo de estabilidad y no a una tesorer\u00eda.",
+    "ca": "BOLD \u00e9s la stablecoin de Liquity v2, presa en pr\u00e9stec contra ETH i liquid staking tokens a un tipus que fixa cada prestatari. Els bescanvis a valor nominal contra les posicions de col\u00b7lateral m\u00e9s arriscades la mantenen a prop del d\u00f2lar, i l'inter\u00e8s que paguen els prestataris va a un fons d'estabilitat i no pas a una tresoreria."
   },
   "external": {
     "coingecko": "liquity-bold-2"
@@ -19,6 +19,7 @@
     "USD",
     "DeFi"
   ],
+  "icon": "icons/asset/liquity-bold.svg",
   "urls": {
     "Website": "https://www.liquity.org/"
   }
