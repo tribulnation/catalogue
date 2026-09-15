@@ -1,0 +1,24 @@
+{
+  "id": "monerium-eure",
+  "display_name": "Monerium EURe",
+  "symbol": "EURe",
+  "category": "stablecoin",
+  "about": {
+    "en": "EURe is a euro e-money token issued by Monerium EMI ehf, an authorised Icelandic electronic money institution, redeemable one-for-one for euro. It is deployed on Ethereum, Gnosis, Polygon, Arbitrum, Linea and Scroll. Each chain also carries an older V1 front-end contract that shares the same balance ledger rather than holding separate funds, so only the current V2 address is mapped here; treating both as holdings would double-count the same euro.",
+    "es": "EURe es un token de dinero electr\u00f3nico en euros emitido por Monerium EMI ehf, entidad de dinero electr\u00f3nico autorizada en Islandia, reembolsable uno a uno por euros. Est\u00e1 desplegado en Ethereum, Gnosis, Polygon, Arbitrum, Linea y Scroll. Cada cadena tiene adem\u00e1s un contrato de interfaz V1 m\u00e1s antiguo que comparte el mismo libro de saldos en lugar de mantener fondos separados, as\u00ed que aqu\u00ed solo se mapea la direcci\u00f3n V2 actual; contar ambas como posiciones duplicar\u00eda los mismos euros.",
+    "ca": "EURe \u00e9s un token de diner electr\u00f2nic en euros em\u00e8s per Monerium EMI ehf, entitat de diner electr\u00f2nic autoritzada a Isl\u00e0ndia, reemborsable un a un per euros. Est\u00e0 desplegat a Ethereum, Gnosis, Polygon, Arbitrum, Linea i Scroll. Cada cadena t\u00e9 a m\u00e9s un contracte d'interf\u00edcie V1 m\u00e9s antic que comparteix el mateix llibre de saldos en lloc de mantenir fons separats, aix\u00ed que aqu\u00ed nom\u00e9s es mapeja l'adre\u00e7a V2 actual; comptar totes dues com a posicions duplicaria els mateixos euros."
+  },
+  "external": {
+    "coingecko": "monerium-eur-money-2"
+  },
+  "pegged_to": {
+    "asset": "euro"
+  },
+  "tags": [
+    "Stablecoin",
+    "EUR"
+  ],
+  "urls": {
+    "Website": "https://monerium.com/"
+  }
+}

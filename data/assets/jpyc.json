@@ -1,0 +1,24 @@
+{
+  "id": "jpyc",
+  "display_name": "JPY Coin",
+  "symbol": "JPYC",
+  "category": "stablecoin",
+  "about": {
+    "en": "JPYC is a yen-pegged stablecoin issued by JPYC Inc. as a registered Japanese Funds Transfer Service Provider (Kanto Local Finance Bureau No. 00099), which carries a statutory obligation to redeem it for yen. It is deployed at the same address on Ethereum, Polygon, Avalanche and Kaia. Two earlier JPYC contracts also report the symbol JPYC but are a discontinued prepaid instrument with no cash redemption right, and they quote far above the yen on dust liquidity; only the address recorded here is the redeemable token.",
+    "es": "JPYC es una stablecoin vinculada al yen emitida por JPYC Inc. como Proveedor de Servicios de Transferencia de Fondos registrado en Jap\u00f3n (Oficina Financiera Local de Kanto n.\u00ba 00099), con la obligaci\u00f3n legal de reembolsarla en yenes. Est\u00e1 desplegada en la misma direcci\u00f3n en Ethereum, Polygon, Avalanche y Kaia. Otros dos contratos JPYC anteriores tambi\u00e9n muestran el s\u00edmbolo JPYC, pero son un instrumento prepago discontinuado sin derecho de reembolso en efectivo y cotizan muy por encima del yen sobre liquidez residual; solo la direcci\u00f3n registrada aqu\u00ed es el token reembolsable.",
+    "ca": "JPYC \u00e9s una stablecoin vinculada al ien emesa per JPYC Inc. com a Prove\u00efdor de Serveis de Transfer\u00e8ncia de Fons registrat al Jap\u00f3 (Oficina Financera Local de Kanto n\u00fam. 00099), amb l'obligaci\u00f3 legal de reemborsar-la en iens. Est\u00e0 desplegada a la mateixa adre\u00e7a a Ethereum, Polygon, Avalanche i Kaia. Dos contractes JPYC anteriors tamb\u00e9 mostren el s\u00edmbol JPYC, per\u00f2 s\u00f3n un instrument prepagament discontinuat sense dret de reemborsament en efectiu i cotitzen molt per sobre del ien sobre liquiditat residual; nom\u00e9s l'adre\u00e7a registrada aqu\u00ed \u00e9s el token reemborsable."
+  },
+  "external": {
+    "coingecko": "jpycoin"
+  },
+  "pegged_to": {
+    "asset": "japanese-yen"
+  },
+  "tags": [
+    "Stablecoin",
+    "JPY"
+  ],
+  "urls": {
+    "Website": "https://jpyc.co.jp/"
+  }
+}
