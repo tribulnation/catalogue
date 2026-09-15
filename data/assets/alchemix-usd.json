@@ -5,8 +5,8 @@
   "category": "stablecoin",
   "about": {
     "en": "alUSD is Alchemix's synthetic dollar, minted when a user borrows against a yield-bearing stablecoin deposit in a self-repaying vault. Each alUSD stands for a dollar of that deposit's future yield, so it targets a dollar; it is a debt token rather than a reserve-backed one and has traded below par when the vaults' redemption capacity is stretched.",
-    "es": "alUSD es el dólar sintético de Alchemix, emitido cuando alguien pide prestado contra un depósito de stablecoin con rendimiento en una bóveda autoamortizable. Cada alUSD representa un dólar del rendimiento futuro de ese depósito, así que apunta al dólar; es un token de deuda y no uno respaldado por reservas, y ha cotizado por debajo de la par cuando la capacidad de canje de las bóvedas se tensa.",
-    "ca": "alUSD és el dòlar sintètic d'Alchemix, emès quan algú demana prestat contra un dipòsit de stablecoin amb rendiment en una volta autoamortitzable. Cada alUSD representa un dòlar del rendiment futur d'aquest dipòsit, de manera que apunta al dòlar; és un token de deute i no pas un de recolzat per reserves, i ha cotitzat per sota de la par quan la capacitat de bescanvi de les voltes es tensa."
+    "es": "alUSD es el d\u00f3lar sint\u00e9tico de Alchemix, emitido cuando alguien pide prestado contra un dep\u00f3sito de stablecoin con rendimiento en una b\u00f3veda autoamortizable. Cada alUSD representa un d\u00f3lar del rendimiento futuro de ese dep\u00f3sito, as\u00ed que apunta al d\u00f3lar; es un token de deuda y no uno respaldado por reservas, y ha cotizado por debajo de la par cuando la capacidad de canje de las b\u00f3vedas se tensa.",
+    "ca": "alUSD \u00e9s el d\u00f2lar sint\u00e8tic d'Alchemix, em\u00e8s quan alg\u00fa demana prestat contra un dip\u00f2sit de stablecoin amb rendiment en una volta autoamortitzable. Cada alUSD representa un d\u00f2lar del rendiment futur d'aquest dip\u00f2sit, de manera que apunta al d\u00f2lar; \u00e9s un token de deute i no pas un de recolzat per reserves, i ha cotitzat per sota de la par quan la capacitat de bescanvi de les voltes es tensa."
   },
   "external": {
     "coingecko": "alchemix-usd"
@@ -19,6 +19,7 @@
     "USD",
     "DeFi"
   ],
+  "icon": "icons/asset/alchemix-usd.svg",
   "urls": {
     "Website": "https://alchemix.fi/"
   }

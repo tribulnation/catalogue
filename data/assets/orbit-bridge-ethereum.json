@@ -5,8 +5,8 @@
   "category": "crypto",
   "about": {
     "en": "oETH is ether bridged to Kaia by Orbit Bridge, operated by Ozys. Ether has no issuer, so the token is only worth what the bridge still custodies, and after the January 2024 Orbit Bridge exploit it has traded far below ETH. It is kept apart from ether for exactly that reason.",
-    "es": "oETH es ether puenteado a Kaia por Orbit Bridge, operado por Ozys. Ether no tiene emisor, así que el token vale solo lo que el puente aún custodia, y desde el exploit de Orbit Bridge de enero de 2024 cotiza muy por debajo de ETH. Se mantiene separado de ether precisamente por eso.",
-    "ca": "oETH és ether pontejat a Kaia per Orbit Bridge, operat per Ozys. Ether no té emissor, així que el token val només allò que el pont encara custodia, i des de l'exploit d'Orbit Bridge del gener de 2024 cotitza molt per sota d'ETH. Es manté separat d'ether precisament per això."
+    "es": "oETH es ether puenteado a Kaia por Orbit Bridge, operado por Ozys. Ether no tiene emisor, as\u00ed que el token vale solo lo que el puente a\u00fan custodia, y desde el exploit de Orbit Bridge de enero de 2024 cotiza muy por debajo de ETH. Se mantiene separado de ether precisamente por eso.",
+    "ca": "oETH \u00e9s ether pontejat a Kaia per Orbit Bridge, operat per Ozys. Ether no t\u00e9 emissor, aix\u00ed que el token val nom\u00e9s all\u00f2 que el pont encara custodia, i des de l'exploit d'Orbit Bridge del gener de 2024 cotitza molt per sota d'ETH. Es mant\u00e9 separat d'ether precisament per aix\u00f2."
   },
   "external": {
     "coingecko": "orbit-bridge-klaytn-ethereum"
@@ -18,6 +18,7 @@
     "Wrapped",
     "Bridge"
   ],
+  "icon": "icons/asset/ethereum.svg",
   "urls": {
     "Website": "https://bridge.orbitchain.io/"
   }

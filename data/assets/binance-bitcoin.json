@@ -5,8 +5,8 @@
   "category": "crypto",
   "about": {
     "en": "BTCB is a BEP-20 token on BNB Chain that represents bitcoin held in custody by Binance, redeemable 1:1. Because the backing sits with a single custodian rather than on the Bitcoin network, BTCB carries counterparty risk that BTC itself does not.",
-    "es": "BTCB es un token BEP-20 en BNB Chain que representa bitcoin bajo custodia de Binance, canjeable 1:1. Como el respaldo depende de un único custodio y no de la red Bitcoin, BTCB conlleva un riesgo de contraparte que BTC no tiene.",
-    "ca": "BTCB és un token BEP-20 a BNB Chain que representa bitcoin sota custòdia de Binance, bescanviable 1:1. Com que el suport depèn d'un únic custodi i no de la xarxa Bitcoin, BTCB comporta un risc de contrapart que BTC no té."
+    "es": "BTCB es un token BEP-20 en BNB Chain que representa bitcoin bajo custodia de Binance, canjeable 1:1. Como el respaldo depende de un \u00fanico custodio y no de la red Bitcoin, BTCB conlleva un riesgo de contraparte que BTC no tiene.",
+    "ca": "BTCB \u00e9s un token BEP-20 a BNB Chain que representa bitcoin sota cust\u00f2dia de Binance, bescanviable 1:1. Com que el suport dep\u00e8n d'un \u00fanic custodi i no de la xarxa Bitcoin, BTCB comporta un risc de contrapart que BTC no t\u00e9."
   },
   "external": {
     "coingecko": "binance-bitcoin"
@@ -18,6 +18,7 @@
     "Wrapped",
     "DeFi"
   ],
+  "icon": "icons/asset/bitcoin.svg",
   "urls": {
     "Website": "https://www.bnbchain.org"
   }

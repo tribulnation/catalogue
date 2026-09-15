@@ -5,8 +5,8 @@
   "category": "stablecoin",
   "about": {
     "en": "scUSD is the dollar token of Rings, a Sonic-native protocol that takes stablecoin deposits, routes them into vault strategies and returns a token redeemable one for one for the deposit. The yield goes to holders who stake scUSD rather than into its price, so the token itself is meant to sit at a dollar; the backing is the strategies Rings runs, not fiat reserves.",
-    "es": "scUSD es el token en dólares de Rings, un protocolo nativo de Sonic que recibe depósitos en stablecoins, los canaliza a estrategias de bóveda y devuelve un token canjeable uno a uno por el depósito. El rendimiento va a quienes hacen staking de scUSD y no a su precio, así que el token en sí debe mantenerse en un dólar; el respaldo son las estrategias que gestiona Rings, no reservas en moneda fiat.",
-    "ca": "scUSD és el token en dòlars de Rings, un protocol natiu de Sonic que rep dipòsits en stablecoins, els canalitza cap a estratègies de volta i retorna un token bescanviable un a un pel dipòsit. El rendiment va a qui fa staking de scUSD i no pas al seu preu, així que el token mateix ha de mantenir-se en un dòlar; el suport són les estratègies que gestiona Rings, no reserves en moneda fiat."
+    "es": "scUSD es el token en d\u00f3lares de Rings, un protocolo nativo de Sonic que recibe dep\u00f3sitos en stablecoins, los canaliza a estrategias de b\u00f3veda y devuelve un token canjeable uno a uno por el dep\u00f3sito. El rendimiento va a quienes hacen staking de scUSD y no a su precio, as\u00ed que el token en s\u00ed debe mantenerse en un d\u00f3lar; el respaldo son las estrategias que gestiona Rings, no reservas en moneda fiat.",
+    "ca": "scUSD \u00e9s el token en d\u00f2lars de Rings, un protocol natiu de Sonic que rep dip\u00f2sits en stablecoins, els canalitza cap a estrat\u00e8gies de volta i retorna un token bescanviable un a un pel dip\u00f2sit. El rendiment va a qui fa staking de scUSD i no pas al seu preu, aix\u00ed que el token mateix ha de mantenir-se en un d\u00f2lar; el suport s\u00f3n les estrat\u00e8gies que gestiona Rings, no reserves en moneda fiat."
   },
   "external": {
     "coingecko": "rings-scusd"
@@ -19,6 +19,7 @@
     "USD",
     "DeFi"
   ],
+  "icon": "icons/asset/rings-scusd.svg",
   "urls": {
     "Website": "https://www.rings.money/"
   }

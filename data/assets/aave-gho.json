@@ -5,8 +5,8 @@
   "category": "stablecoin",
   "about": {
     "en": "An Aave receipt token representing a deposit of GHO (GHO) in the Aave lending protocol. aGHO holders earn interest continuously and can redeem their tokens for GHO at any time. GHO is Aave's own overcollateralised stablecoin, minted against collateral in the same protocol.",
-    "es": "Un token de recibo de Aave que representa un depósito de GHO (GHO) en el protocolo de préstamos Aave. Los titulares de aGHO acumulan intereses continuamente y pueden canjear sus tokens por GHO en cualquier momento. GHO es la stablecoin sobrecolateralizada del propio Aave, acuñada contra colateral en el mismo protocolo.",
-    "ca": "Un token de rebut d'Aave que representa un dipòsit de GHO (GHO) en el protocol de préstecs Aave. Els titulars de aGHO acumulen interessos de manera contínua i poden bescanviar els seus tokens per GHO en qualsevol moment. GHO és la stablecoin sobrecol·lateralitzada del mateix Aave, encunyada contra col·lateral en el mateix protocol."
+    "es": "Un token de recibo de Aave que representa un dep\u00f3sito de GHO (GHO) en el protocolo de pr\u00e9stamos Aave. Los titulares de aGHO acumulan intereses continuamente y pueden canjear sus tokens por GHO en cualquier momento. GHO es la stablecoin sobrecolateralizada del propio Aave, acu\u00f1ada contra colateral en el mismo protocolo.",
+    "ca": "Un token de rebut d'Aave que representa un dip\u00f2sit de GHO (GHO) en el protocol de pr\u00e9stecs Aave. Els titulars de aGHO acumulen interessos de manera cont\u00ednua i poden bescanviar els seus tokens per GHO en qualsevol moment. GHO \u00e9s la stablecoin sobrecol\u00b7lateralitzada del mateix Aave, encunyada contra col\u00b7lateral en el mateix protocol."
   },
   "pegged_to": {
     "asset": "gho"
@@ -16,6 +16,7 @@
     "USD",
     "DeFi"
   ],
+  "icon": "icons/asset/aave-gho.svg",
   "urls": {
     "Website": "https://aave.com"
   }

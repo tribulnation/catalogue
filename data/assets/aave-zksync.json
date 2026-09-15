@@ -5,8 +5,8 @@
   "category": "crypto",
   "about": {
     "en": "An Aave receipt token representing a deposit of ZKsync (ZK) in the Aave lending protocol. aZK holders earn interest continuously and can redeem their tokens for ZK at any time.",
-    "es": "Un token de recibo de Aave que representa un depósito de ZKsync (ZK) en el protocolo de préstamos Aave. Los titulares de aZK acumulan intereses continuamente y pueden canjear sus tokens por ZK en cualquier momento.",
-    "ca": "Un token de rebut d'Aave que representa un dipòsit de ZKsync (ZK) en el protocol de préstecs Aave. Els titulars de aZK acumulen interessos de manera contínua i poden bescanviar els seus tokens per ZK en qualsevol moment."
+    "es": "Un token de recibo de Aave que representa un dep\u00f3sito de ZKsync (ZK) en el protocolo de pr\u00e9stamos Aave. Los titulares de aZK acumulan intereses continuamente y pueden canjear sus tokens por ZK en cualquier momento.",
+    "ca": "Un token de rebut d'Aave que representa un dip\u00f2sit de ZKsync (ZK) en el protocol de pr\u00e9stecs Aave. Els titulars de aZK acumulen interessos de manera cont\u00ednua i poden bescanviar els seus tokens per ZK en qualsevol moment."
   },
   "pegged_to": {
     "asset": "zksync"
@@ -14,6 +14,7 @@
   "tags": [
     "DeFi"
   ],
+  "icon": "icons/asset/aave-zksync.svg",
   "urls": {
     "Website": "https://aave.com"
   }

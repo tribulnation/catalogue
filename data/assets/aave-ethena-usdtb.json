@@ -5,8 +5,8 @@
   "category": "stablecoin",
   "about": {
     "en": "An Aave receipt token representing a deposit of Ethena USDtb (USDtb) in the Aave lending protocol. aUSDtb holders earn interest continuously and can redeem their tokens for USDtb at any time. USDtb is Ethena's stablecoin backed by tokenised US Treasury bills rather than by a delta-neutral basis position.",
-    "es": "Un token de recibo de Aave que representa un depósito de Ethena USDtb (USDtb) en el protocolo de préstamos Aave. Los titulares de aUSDtb acumulan intereses continuamente y pueden canjear sus tokens por USDtb en cualquier momento. USDtb es la stablecoin de Ethena respaldada por letras del Tesoro estadounidense tokenizadas en lugar de por una posición base delta neutral.",
-    "ca": "Un token de rebut d'Aave que representa un dipòsit de Ethena USDtb (USDtb) en el protocol de préstecs Aave. Els titulars de aUSDtb acumulen interessos de manera contínua i poden bescanviar els seus tokens per USDtb en qualsevol moment. USDtb és la stablecoin d'Ethena garantida per lletres del Tresor dels EUA tokenitzades en lloc d'una posició base delta neutral."
+    "es": "Un token de recibo de Aave que representa un dep\u00f3sito de Ethena USDtb (USDtb) en el protocolo de pr\u00e9stamos Aave. Los titulares de aUSDtb acumulan intereses continuamente y pueden canjear sus tokens por USDtb en cualquier momento. USDtb es la stablecoin de Ethena respaldada por letras del Tesoro estadounidense tokenizadas en lugar de por una posici\u00f3n base delta neutral.",
+    "ca": "Un token de rebut d'Aave que representa un dip\u00f2sit de Ethena USDtb (USDtb) en el protocol de pr\u00e9stecs Aave. Els titulars de aUSDtb acumulen interessos de manera cont\u00ednua i poden bescanviar els seus tokens per USDtb en qualsevol moment. USDtb \u00e9s la stablecoin d'Ethena garantida per lletres del Tresor dels EUA tokenitzades en lloc d'una posici\u00f3 base delta neutral."
   },
   "pegged_to": {
     "asset": "ethena-usdtb"
@@ -16,6 +16,7 @@
     "USD",
     "DeFi"
   ],
+  "icon": "icons/asset/aave-ethena-usdtb.svg",
   "urls": {
     "Website": "https://aave.com"
   }

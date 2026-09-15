@@ -5,8 +5,8 @@
   "category": "crypto",
   "about": {
     "en": "The TRX representation on BNB Chain, minted by the BitTorrent Chain bridge against TRX locked on the Tron network. Binance adopted it in the 2023 contract swap that retired its own eighteen-decimal Binance-Peg TRX, so it is now what BEP-20 TRX means, but the mint authority is BitTorrent Chain's predicate contract rather than Binance or the TRON DAO, and the backing is whatever that bridge still holds.",
-    "es": "La representación de TRX en BNB Chain, emitida por el puente de BitTorrent Chain contra TRX bloqueado en la red Tron. Binance la adoptó en el canje de contrato de 2023 que retiró su propio TRX Binance-Peg de dieciocho decimales, así que hoy es lo que significa TRX BEP-20, pero la autoridad de emisión es el contrato predicate de BitTorrent Chain y no Binance ni la TRON DAO, y el respaldo es lo que ese puente aún conserve.",
-    "ca": "La representació de TRX a BNB Chain, emesa pel pont de BitTorrent Chain contra TRX bloquejat a la xarxa Tron. Binance la va adoptar en el bescanvi de contracte del 2023 que va retirar el seu propi TRX Binance-Peg de divuit decimals, així que avui és el que significa TRX BEP-20, però l'autoritat d'emissió és el contracte predicate de BitTorrent Chain i no Binance ni la TRON DAO, i el suport és allò que aquest pont encara conservi."
+    "es": "La representaci\u00f3n de TRX en BNB Chain, emitida por el puente de BitTorrent Chain contra TRX bloqueado en la red Tron. Binance la adopt\u00f3 en el canje de contrato de 2023 que retir\u00f3 su propio TRX Binance-Peg de dieciocho decimales, as\u00ed que hoy es lo que significa TRX BEP-20, pero la autoridad de emisi\u00f3n es el contrato predicate de BitTorrent Chain y no Binance ni la TRON DAO, y el respaldo es lo que ese puente a\u00fan conserve.",
+    "ca": "La representaci\u00f3 de TRX a BNB Chain, emesa pel pont de BitTorrent Chain contra TRX bloquejat a la xarxa Tron. Binance la va adoptar en el bescanvi de contracte del 2023 que va retirar el seu propi TRX Binance-Peg de divuit decimals, aix\u00ed que avui \u00e9s el que significa TRX BEP-20, per\u00f2 l'autoritat d'emissi\u00f3 \u00e9s el contracte predicate de BitTorrent Chain i no Binance ni la TRON DAO, i el suport \u00e9s all\u00f2 que aquest pont encara conservi."
   },
   "external": {
     "coingecko": "tron-bsc"
@@ -18,6 +18,7 @@
     "Wrapped",
     "Bridge"
   ],
+  "icon": "icons/asset/tron.svg",
   "urls": {
     "Website": "https://bt.io/"
   }

@@ -5,8 +5,8 @@
   "category": "crypto",
   "about": {
     "en": "UST (Wormhole) is TerraUSD bridged off the original Terra chain through Wormhole. The algorithmic peg that was supposed to hold it at a dollar collapsed in May 2022 and the underlying chain was abandoned, so the token no longer tracks a dollar and the remaining supply is a stranded position rather than a stablecoin.",
-    "es": "UST (Wormhole) es TerraUSD puenteado fuera de la cadena Terra original a través de Wormhole. La paridad algorítmica que debía mantenerlo en un dólar colapsó en mayo de 2022 y la cadena subyacente quedó abandonada, así que el token ya no sigue al dólar y el suministro restante es una posición varada y no una stablecoin.",
-    "ca": "UST (Wormhole) és TerraUSD pontejat fora de la cadena Terra original a través de Wormhole. La paritat algorítmica que l'havia de mantenir en un dòlar va col·lapsar el maig de 2022 i la cadena subjacent va quedar abandonada, així que el token ja no segueix el dòlar i el subministrament restant és una posició encallada i no pas una stablecoin."
+    "es": "UST (Wormhole) es TerraUSD puenteado fuera de la cadena Terra original a trav\u00e9s de Wormhole. La paridad algor\u00edtmica que deb\u00eda mantenerlo en un d\u00f3lar colaps\u00f3 en mayo de 2022 y la cadena subyacente qued\u00f3 abandonada, as\u00ed que el token ya no sigue al d\u00f3lar y el suministro restante es una posici\u00f3n varada y no una stablecoin.",
+    "ca": "UST (Wormhole) \u00e9s TerraUSD pontejat fora de la cadena Terra original a trav\u00e9s de Wormhole. La paritat algor\u00edtmica que l'havia de mantenir en un d\u00f2lar va col\u00b7lapsar el maig de 2022 i la cadena subjacent va quedar abandonada, aix\u00ed que el token ja no segueix el d\u00f2lar i el subministrament restant \u00e9s una posici\u00f3 encallada i no pas una stablecoin."
   },
   "external": {
     "coingecko": "terrausd-wormhole"
@@ -14,6 +14,7 @@
   "tags": [
     "Bridge"
   ],
+  "icon": "icons/asset/terrausd-wormhole.svg",
   "urls": {
     "Website": "https://wormhole.com/"
   }

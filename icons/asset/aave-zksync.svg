@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="aave" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B6509E"/>
+      <stop offset="100%" stop-color="#2EBAC6"/>
+    </linearGradient>
+    <mask id="frame">
+      <rect width="200" height="200" fill="white"/>
+      <circle cx="100" cy="100" r="88" fill="black"/>
+    </mask>
+    <clipPath id="inner">
+      <circle cx="100" cy="100" r="82"/>
+    </clipPath>
+  </defs>
+  <rect width="200" height="200" fill="url(#aave)" mask="url(#frame)"/>
+  <circle cx="100" cy="100" r="82" fill="white"/>
+  <g clip-path="url(#inner)">
+  <svg x="18" y="18" width="164" height="164" viewBox="0 0 24 24">
+    <rect x="0" y="0" width="24" height="24" fill="#fff"/>
+    <g transform="translate(12, 12) scale(0.938) translate(-12, -12)">
+      <path fill="#1a1a1a" fill-rule="evenodd"
+        d="m20 12l-4.539-3.998v2.93l-4.506 2.931l4.506.002V16zM4 12l4.539 4v-2.9l4.475-2.933l-4.473-.002V8z"
+        clip-rule="evenodd" />
+    </g>
+  </svg>
+  </g>
+</svg>

@@ -5,8 +5,8 @@
   "category": "crypto",
   "about": {
     "en": "An ERC-20 representation of ICP minted by OneSec, a third-party bridge that holds the ICP backing it. The DFINITY Foundation sanctions the bridge but neither deployed nor controls the contract, whose mint authority rests with a single externally owned account, so it is a separate credit from ICP itself.",
-    "es": "Representación ERC-20 de ICP emitida por OneSec, un puente de terceros que custodia el ICP que la respalda. La DFINITY Foundation avala el puente, pero ni desplegó ni controla el contrato, cuya facultad de emisión depende de una única cuenta externa, por lo que es un crédito distinto del propio ICP.",
-    "ca": "Representació ERC-20 d'ICP emesa per OneSec, un pont de tercers que custodia l'ICP que la respalda. La DFINITY Foundation avala el pont, però ni va desplegar ni controla el contracte, la facultat d'emissió del qual depèn d'un únic compte extern, de manera que és un crèdit diferent del mateix ICP."
+    "es": "Representaci\u00f3n ERC-20 de ICP emitida por OneSec, un puente de terceros que custodia el ICP que la respalda. La DFINITY Foundation avala el puente, pero ni despleg\u00f3 ni controla el contrato, cuya facultad de emisi\u00f3n depende de una \u00fanica cuenta externa, por lo que es un cr\u00e9dito distinto del propio ICP.",
+    "ca": "Representaci\u00f3 ERC-20 d'ICP emesa per OneSec, un pont de tercers que custodia l'ICP que la respalda. La DFINITY Foundation avala el pont, per\u00f2 ni va desplegar ni controla el contracte, la facultat d'emissi\u00f3 del qual dep\u00e8n d'un \u00fanic compte extern, de manera que \u00e9s un cr\u00e8dit diferent del mateix ICP."
   },
   "pegged_to": {
     "asset": "internet-computer"
@@ -14,6 +14,7 @@
   "tags": [
     "Wrapped"
   ],
+  "icon": "icons/asset/internet-computer.svg",
   "urls": {
     "Website": "https://onesec.to/"
   }

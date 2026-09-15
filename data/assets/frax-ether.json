@@ -4,9 +4,9 @@
   "symbol": "frxETH",
   "category": "crypto",
   "about": {
-    "en": "Frax Ether is the Frax ecosystem's ether-denominated token, minted 1:1 against ETH deposited with the protocol. frxETH itself carries no staking yield — that goes to holders of the separate sfrxETH vault — so it behaves as a plain ETH wrapper whose value depends on Frax honouring redemption.",
-    "es": "Frax Ether es el token denominado en ether del ecosistema Frax, emitido 1:1 contra el ETH depositado en el protocolo. frxETH por sí solo no reparte rendimiento de staking — ese va a los tenedores de la bóveda sfrxETH — así que se comporta como una envoltura simple de ETH cuyo valor depende de que Frax atienda el canje.",
-    "ca": "Frax Ether és el token denominat en ether de l'ecosistema Frax, emès 1:1 contra l'ETH dipositat al protocol. frxETH per si sol no reparteix rendiment d'staking — aquest va als titulars de la volta sfrxETH — així que es comporta com un embolcall simple d'ETH el valor del qual depèn que Frax atengui el bescanvi."
+    "en": "Frax Ether is the Frax ecosystem's ether-denominated token, minted 1:1 against ETH deposited with the protocol. frxETH itself carries no staking yield \u2014 that goes to holders of the separate sfrxETH vault \u2014 so it behaves as a plain ETH wrapper whose value depends on Frax honouring redemption.",
+    "es": "Frax Ether es el token denominado en ether del ecosistema Frax, emitido 1:1 contra el ETH depositado en el protocolo. frxETH por s\u00ed solo no reparte rendimiento de staking \u2014 ese va a los tenedores de la b\u00f3veda sfrxETH \u2014 as\u00ed que se comporta como una envoltura simple de ETH cuyo valor depende de que Frax atienda el canje.",
+    "ca": "Frax Ether \u00e9s el token denominat en ether de l'ecosistema Frax, em\u00e8s 1:1 contra l'ETH dipositat al protocol. frxETH per si sol no reparteix rendiment d'staking \u2014 aquest va als titulars de la volta sfrxETH \u2014 aix\u00ed que es comporta com un embolcall simple d'ETH el valor del qual dep\u00e8n que Frax atengui el bescanvi."
   },
   "external": {
     "coingecko": "frax-ether"
@@ -18,6 +18,7 @@
     "DeFi",
     "Wrapped"
   ],
+  "icon": "icons/asset/frax-ether.svg",
   "urls": {
     "Website": "https://frax.finance/"
   }

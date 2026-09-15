@@ -5,8 +5,8 @@
   "category": "stablecoin",
   "about": {
     "en": "An Aave receipt token representing a deposit of Ethena Staked USDe (sUSDe) in the Aave lending protocol. asUSDe holders earn interest continuously and can redeem their tokens for sUSDe at any time. sUSDe accrues Ethena's yield through its exchange rate, so the deposit earns that on top of Aave supply interest.",
-    "es": "Un token de recibo de Aave que representa un depósito de Ethena Staked USDe (sUSDe) en el protocolo de préstamos Aave. Los titulares de asUSDe acumulan intereses continuamente y pueden canjear sus tokens por sUSDe en cualquier momento. sUSDe acumula el rendimiento de Ethena a través de su tipo de cambio, de modo que el depósito lo suma al interés de suministro de Aave.",
-    "ca": "Un token de rebut d'Aave que representa un dipòsit de Ethena Staked USDe (sUSDe) en el protocol de préstecs Aave. Els titulars de asUSDe acumulen interessos de manera contínua i poden bescanviar els seus tokens per sUSDe en qualsevol moment. sUSDe acumula el rendiment d'Ethena a través del seu tipus de canvi, de manera que el dipòsit el suma a l'interès de subministrament d'Aave."
+    "es": "Un token de recibo de Aave que representa un dep\u00f3sito de Ethena Staked USDe (sUSDe) en el protocolo de pr\u00e9stamos Aave. Los titulares de asUSDe acumulan intereses continuamente y pueden canjear sus tokens por sUSDe en cualquier momento. sUSDe acumula el rendimiento de Ethena a trav\u00e9s de su tipo de cambio, de modo que el dep\u00f3sito lo suma al inter\u00e9s de suministro de Aave.",
+    "ca": "Un token de rebut d'Aave que representa un dip\u00f2sit de Ethena Staked USDe (sUSDe) en el protocol de pr\u00e9stecs Aave. Els titulars de asUSDe acumulen interessos de manera cont\u00ednua i poden bescanviar els seus tokens per sUSDe en qualsevol moment. sUSDe acumula el rendiment d'Ethena a trav\u00e9s del seu tipus de canvi, de manera que el dip\u00f2sit el suma a l'inter\u00e8s de subministrament d'Aave."
   },
   "pegged_to": {
     "asset": "ethena-staked-usde"
@@ -16,6 +16,7 @@
     "USD",
     "DeFi"
   ],
+  "icon": "icons/asset/aave-ethena-staked-usde.svg",
   "urls": {
     "Website": "https://aave.com"
   }
