@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41">
+  <defs>
+    <linearGradient id="b1" x1="0" y1="0" x2="41" y2="41" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#596aec" />
+      <stop offset="1" stop-color="#60e2e9" />
+    </linearGradient>
+  </defs>
+  <rect id="bg" x="0" y="0" width="41" height="41" fill="url(#b1)" />
+  <g id="g" transform="translate(20.500, 20.500) scale(1.0009) translate(-20.500, -20.500) translate(20.500, 20.500) scale(1.0664) translate(-21.241, -20.880)">
+    <path fill="#fff" fill-opacity="0.602" d="m21.2578,5.90663l0,11.08747l9.3713,4.1875l-9.3713,-15.27497z" />
+    <path fill="#fff" d="m21.2582,5.90663l-9.3725,15.27497l9.3725,-4.1875l0,-11.08747z" />
+    <path fill="#fff" fill-opacity="0.602" d="m21.2578,28.3669l0,7.5337l9.3775,-12.9738l-9.3775,5.4401z" />
+    <path fill="#fff" d="m21.2582,35.9006l0,-7.535l-9.3725,-5.4388l9.3725,12.9738z" />
+    <path fill="#fff" fill-opacity="0.2" d="m21.2578,26.623l9.3713,-5.4413l-9.3713,-4.185l0,9.6263z" />
+    <path fill="#fff" fill-opacity="0.602" d="m11.8857,21.1817l9.3725,5.4413l0,-9.6263l-9.3725,4.185z" />
+  </g>
+</svg>

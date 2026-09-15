@@ -5,8 +5,8 @@
   "category": "rwa",
   "about": {
     "en": "bCSPX is a tokenized share of the iShares Core S&P 500 UCITS ETF, issued by Backed Finance under Swiss DLT rules. Each token is collateralized by the underlying ETF share held with a regulated custodian and is redeemable by qualified investors, so it tracks the S&P 500 rather than any crypto asset.",
-    "es": "bCSPX es una participación tokenizada del ETF iShares Core S&P 500 UCITS, emitida por Backed Finance bajo la normativa suiza de DLT. Cada token está colateralizado por la participación subyacente del ETF depositada en un custodio regulado y es canjeable por inversores cualificados, así que sigue al S&P 500 y no a un activo cripto.",
-    "ca": "bCSPX és una participació tokenitzada de l'ETF iShares Core S&P 500 UCITS, emesa per Backed Finance sota la normativa suïssa de DLT. Cada token està col·lateralitzat per la participació subjacent de l'ETF dipositada en un custodi regulat i és bescanviable per inversors qualificats, així que segueix l'S&P 500 i no pas un actiu cripto."
+    "es": "bCSPX es una participaci\u00f3n tokenizada del ETF iShares Core S&P 500 UCITS, emitida por Backed Finance bajo la normativa suiza de DLT. Cada token est\u00e1 colateralizado por la participaci\u00f3n subyacente del ETF depositada en un custodio regulado y es canjeable por inversores cualificados, as\u00ed que sigue al S&P 500 y no a un activo cripto.",
+    "ca": "bCSPX \u00e9s una participaci\u00f3 tokenitzada de l'ETF iShares Core S&P 500 UCITS, emesa per Backed Finance sota la normativa su\u00efssa de DLT. Cada token est\u00e0 col\u00b7lateralitzat per la participaci\u00f3 subjacent de l'ETF dipositada en un custodi regulat i \u00e9s bescanviable per inversors qualificats, aix\u00ed que segueix l'S&P 500 i no pas un actiu cripto."
   },
   "external": {
     "coingecko": "backed-cspx-core-s-p-500"
@@ -15,6 +15,7 @@
     "RWA",
     "Stock"
   ],
+  "icon": "icons/asset/backed-cspx.svg",
   "urls": {
     "Website": "https://backed.fi/"
   }

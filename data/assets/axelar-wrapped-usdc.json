@@ -5,8 +5,8 @@
   "category": "stablecoin",
   "about": {
     "en": "axlUSDC is USD Coin that reached a chain through the Axelar network rather than being issued there by Circle. The USDC backing it is locked in Axelar's gateway contracts, so a holder is exposed to Axelar's validator set and bridge design on top of Circle, which is why it is kept apart from native USDC.",
-    "es": "axlUSDC es USD Coin que llegó a una cadena a través de la red Axelar en vez de ser emitido allí por Circle. El USDC que lo respalda queda bloqueado en los contratos de pasarela de Axelar, así que el tenedor se expone al conjunto de validadores y al diseño del puente de Axelar además de a Circle, y por eso se mantiene separado del USDC nativo.",
-    "ca": "axlUSDC és USD Coin que va arribar a una cadena a través de la xarxa Axelar en lloc de ser emès allà per Circle. El USDC que el recolza queda bloquejat als contractes de passarel·la d'Axelar, així que qui el té s'exposa al conjunt de validadors i al disseny del pont d'Axelar a més de a Circle, i per això es manté separat del USDC natiu."
+    "es": "axlUSDC es USD Coin que lleg\u00f3 a una cadena a trav\u00e9s de la red Axelar en vez de ser emitido all\u00ed por Circle. El USDC que lo respalda queda bloqueado en los contratos de pasarela de Axelar, as\u00ed que el tenedor se expone al conjunto de validadores y al dise\u00f1o del puente de Axelar adem\u00e1s de a Circle, y por eso se mantiene separado del USDC nativo.",
+    "ca": "axlUSDC \u00e9s USD Coin que va arribar a una cadena a trav\u00e9s de la xarxa Axelar en lloc de ser em\u00e8s all\u00e0 per Circle. El USDC que el recolza queda bloquejat als contractes de passarel\u00b7la d'Axelar, aix\u00ed que qui el t\u00e9 s'exposa al conjunt de validadors i al disseny del pont d'Axelar a m\u00e9s de a Circle, i per aix\u00f2 es mant\u00e9 separat del USDC natiu."
   },
   "external": {
     "coingecko": "axlusdc"
@@ -19,6 +19,7 @@
     "USD",
     "Bridge"
   ],
+  "icon": "icons/asset/axelar-wrapped-usdc.svg",
   "urls": {
     "Website": "https://www.axelar.network/"
   }

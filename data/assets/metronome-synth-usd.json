@@ -5,8 +5,8 @@
   "category": "stablecoin",
   "about": {
     "en": "msUSD is a synthetic dollar from Metronome Synth, minted as debt against collateral deposited in the protocol's smart vaults. It is not reserve-backed: it targets a dollar through overcollateralization and liquidation, and holders are exposed to the collateral behind the outstanding debt.",
-    "es": "msUSD es un dólar sintético de Metronome Synth, emitido como deuda contra colateral depositado en las bóvedas del protocolo. No está respaldado por reservas: apunta al dólar mediante sobrecolateralización y liquidaciones, y sus tenedores quedan expuestos al colateral que respalda la deuda viva.",
-    "ca": "msUSD és un dòlar sintètic de Metronome Synth, emès com a deute contra col·lateral dipositat a les voltes del protocol. No està recolzat per reserves: apunta al dòlar mitjançant sobrecol·lateralització i liquidacions, i qui el té queda exposat al col·lateral que recolza el deute viu."
+    "es": "msUSD es un d\u00f3lar sint\u00e9tico de Metronome Synth, emitido como deuda contra colateral depositado en las b\u00f3vedas del protocolo. No est\u00e1 respaldado por reservas: apunta al d\u00f3lar mediante sobrecolateralizaci\u00f3n y liquidaciones, y sus tenedores quedan expuestos al colateral que respalda la deuda viva.",
+    "ca": "msUSD \u00e9s un d\u00f2lar sint\u00e8tic de Metronome Synth, em\u00e8s com a deute contra col\u00b7lateral dipositat a les voltes del protocol. No est\u00e0 recolzat per reserves: apunta al d\u00f2lar mitjan\u00e7ant sobrecol\u00b7lateralitzaci\u00f3 i liquidacions, i qui el t\u00e9 queda exposat al col\u00b7lateral que recolza el deute viu."
   },
   "external": {
     "coingecko": "metronome-synth-usd"
@@ -19,6 +19,7 @@
     "USD",
     "DeFi"
   ],
+  "icon": "icons/asset/metronome-synth-usd.svg",
   "urls": {
     "Website": "https://metronome.io/"
   }

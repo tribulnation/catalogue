@@ -5,8 +5,8 @@
   "category": "stablecoin",
   "about": {
     "en": "BRLA is a Brazilian real stablecoin issued by BRLA Digital, a Brazilian payments company that mints and burns it against real deposits and settles redemptions through the Pix instant payment system.",
-    "es": "BRLA es una stablecoin del real brasileño emitida por BRLA Digital, una empresa brasileña de pagos que la emite y quema contra depósitos en reales y liquida los canjes a través del sistema de pagos instantáneos Pix.",
-    "ca": "BRLA és una stablecoin del real brasiler emesa per BRLA Digital, una empresa brasilera de pagaments que l'emet i la crema contra dipòsits en reals i liquida els bescanvis a través del sistema de pagaments instantanis Pix."
+    "es": "BRLA es una stablecoin del real brasile\u00f1o emitida por BRLA Digital, una empresa brasile\u00f1a de pagos que la emite y quema contra dep\u00f3sitos en reales y liquida los canjes a trav\u00e9s del sistema de pagos instant\u00e1neos Pix.",
+    "ca": "BRLA \u00e9s una stablecoin del real brasiler emesa per BRLA Digital, una empresa brasilera de pagaments que l'emet i la crema contra dip\u00f2sits en reals i liquida els bescanvis a trav\u00e9s del sistema de pagaments instantanis Pix."
   },
   "external": {
     "coingecko": "brla-digital-brla"
@@ -16,6 +16,7 @@
     "Fiat",
     "Payment"
   ],
+  "icon": "icons/asset/brla.svg",
   "urls": {
     "Website": "https://brla.digital/"
   }
