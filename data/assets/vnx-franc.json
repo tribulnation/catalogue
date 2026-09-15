@@ -5,8 +5,8 @@
   "category": "stablecoin",
   "about": {
     "en": "VCHF is a Swiss franc stablecoin issued by VNX, a Liechtenstein-regulated issuer, backed by franc-denominated reserves and redeemable at par by onboarded clients. It gives on-chain exposure to CHF alongside VNX's euro and gold tokens.",
-    "es": "VCHF es una stablecoin del franco suizo emitida por VNX, un emisor regulado en Liechtenstein, respaldada por reservas denominadas en francos y canjeable a la par por clientes registrados. Da exposición on-chain al CHF junto a los tokens en euros y oro de VNX.",
-    "ca": "VCHF és una stablecoin del franc suís emesa per VNX, un emissor regulat a Liechtenstein, recolzada per reserves denominades en francs i bescanviable a la par per clients registrats. Dona exposició on-chain al CHF al costat dels tokens en euros i or de VNX."
+    "es": "VCHF es una stablecoin del franco suizo emitida por VNX, un emisor regulado en Liechtenstein, respaldada por reservas denominadas en francos y canjeable a la par por clientes registrados. Da exposici\u00f3n on-chain al CHF junto a los tokens en euros y oro de VNX.",
+    "ca": "VCHF \u00e9s una stablecoin del franc su\u00eds emesa per VNX, un emissor regulat a Liechtenstein, recolzada per reserves denominades en francs i bescanviable a la par per clients registrats. Dona exposici\u00f3 on-chain al CHF al costat dels tokens en euros i or de VNX."
   },
   "external": {
     "coingecko": "vnx-swiss-franc"
@@ -18,6 +18,7 @@
     "Stablecoin",
     "Fiat"
   ],
+  "icon": "icons/asset/vnx-franc.svg",
   "urls": {
     "Website": "https://vnx.io/"
   }

@@ -5,8 +5,8 @@
   "category": "stablecoin",
   "about": {
     "en": "USDm is the dollar stablecoin of Mento, the reserve-backed issuance protocol on Celo. It is the token formerly known as Celo Dollar (cUSD), renamed when Mento separated from Celo governance, and it keeps its dollar target by minting and burning against a diversified on-chain reserve.",
-    "es": "USDm es la stablecoin en dólares de Mento, el protocolo de emisión respaldado por reservas de Celo. Es el token antes conocido como Celo Dollar (cUSD), renombrado cuando Mento se separó de la gobernanza de Celo, y mantiene su objetivo en dólares emitiendo y quemando contra una reserva on-chain diversificada.",
-    "ca": "USDm és la stablecoin en dòlars de Mento, el protocol d'emissió recolzat per reserves de Celo. És el token abans conegut com a Celo Dollar (cUSD), reanomenat quan Mento es va separar de la governança de Celo, i manté el seu objectiu en dòlars emetent i cremant contra una reserva on-chain diversificada."
+    "es": "USDm es la stablecoin en d\u00f3lares de Mento, el protocolo de emisi\u00f3n respaldado por reservas de Celo. Es el token antes conocido como Celo Dollar (cUSD), renombrado cuando Mento se separ\u00f3 de la gobernanza de Celo, y mantiene su objetivo en d\u00f3lares emitiendo y quemando contra una reserva on-chain diversificada.",
+    "ca": "USDm \u00e9s la stablecoin en d\u00f2lars de Mento, el protocol d'emissi\u00f3 recolzat per reserves de Celo. \u00c9s el token abans conegut com a Celo Dollar (cUSD), reanomenat quan Mento es va separar de la governan\u00e7a de Celo, i mant\u00e9 el seu objectiu en d\u00f2lars emetent i cremant contra una reserva on-chain diversificada."
   },
   "external": {
     "coingecko": "celo-dollar"
@@ -18,6 +18,7 @@
     "Stablecoin",
     "USD"
   ],
+  "icon": "icons/asset/mento-dollar.svg",
   "urls": {
     "Website": "https://www.mento.org/"
   }
