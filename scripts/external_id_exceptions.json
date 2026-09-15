@@ -1,0 +1,29 @@
+{
+  "_README": [
+    "Symbol mismatches reviewed by a human and accepted, for scripts/check_external_ids.py.",
+    "A mismatch is accepted when the provider's symbol differs by naming convention rather",
+    "than identity: provider-side rebrands that keep the ID, and wrapper assets where the",
+    "catalogue uses a short symbol and the provider spells out the full deployment.",
+    "",
+    "Each key is '<asset>:<provider>:<external_id>'. If the catalogue ever repoints that",
+    "asset at a different ID the key stops matching and the mismatch is reported again,",
+    "so an acknowledgement can never outlive the mapping it was granted for."
+  ],
+
+  "binance-peg-ethereum:coingecko:binance-peg-weth": "Catalogue tracks Binance-Peg ETH; CoinGecko lists the same token as WETH.",
+  "bridged-tether:coingecko:tether-avalanche-bridged-usdt-e": "Same token; CoinGecko spells USDT.e as USDTE.",
+
+  "mai:coingecko:mimatic": "MAI's CoinGecko symbol is the legacy miMATIC ticker.",
+  "mai-avalanche:coingecko:mai-avalanche": "Per-chain MAI deployment; CoinGecko keeps the miMATIC symbol.",
+  "mai-base:coingecko:mai-base": "Per-chain MAI deployment; CoinGecko keeps the miMATIC symbol.",
+
+  "wrapped-aave-agora-dollar:coingecko:wrapped-aave-avalanche-ausd": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
+  "wrapped-aave-avalanche-bridged-bitcoin:coingecko:wrapped-aave-avalanche-btcb": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
+  "wrapped-aave-ethereum:coingecko:wrapped-aave-ethereum-weth": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
+  "wrapped-aave-euro-coin:coingecko:wrapped-aave-base-eurc": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
+  "wrapped-aave-gho:coingecko:wrapped-aave-ethereum-lido-gho": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
+  "wrapped-aave-tether:coingecko:wrapped-aave-ethereum-usdt": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
+  "wrapped-aave-usd-coin:coingecko:wrapped-aave-ethereum-usdc": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
+  "wrapped-aave-wrapped-avalanche:coingecko:wrapped-aave-avalanche-wavax": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
+  "wrapped-aave-wrapped-staked-ether:coingecko:wrapped-aave-ethereum-lido-wsteth": "Aave wrapper; CoinGecko spells out the chain in the symbol."
+}
