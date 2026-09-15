@@ -1,0 +1,21 @@
+{
+  "id": "frax-share",
+  "display_name": "Frax",
+  "symbol": "FRAX",
+  "category": "crypto",
+  "about": {
+    "en": "Frax is the governance and value-accrual token of the Frax protocol, traded as FXS until the project renamed it to FRAX in January 2026. It is a volatile crypto asset, not a stablecoin: it captures protocol fees and carries governance rights over Frax's stablecoin system. The ERC-20 contract still reports the FXS symbol on-chain. It must not be confused with Legacy Frax Dollar (also FRAX), the dollar-pegged stablecoin the protocol issued first, nor with Frax USD (FRXUSD), its current dollar stablecoin.",
+    "es": "Frax es el token de gobernanza y captura de valor del protocolo Frax, negociado como FXS hasta que el proyecto lo renombr\u00f3 a FRAX en enero de 2026. Es un criptoactivo vol\u00e1til, no una stablecoin: capta comisiones del protocolo y otorga derechos de gobernanza sobre el sistema de stablecoins de Frax. El contrato ERC-20 sigue mostrando el s\u00edmbolo FXS on-chain. No debe confundirse con Legacy Frax Dollar (tambi\u00e9n FRAX), la stablecoin vinculada al d\u00f3lar que el protocolo emiti\u00f3 primero, ni con Frax USD (FRXUSD), su stablecoin en d\u00f3lares actual.",
+    "ca": "Frax \u00e9s el token de governan\u00e7a i captura de valor del protocol Frax, negociat com a FXS fins que el projecte el va reanomenar FRAX el gener de 2026. \u00c9s un criptoactiu vol\u00e0til, no una stablecoin: capta comissions del protocol i atorga drets de governan\u00e7a sobre el sistema d'stablecoins de Frax. El contracte ERC-20 continua mostrant el s\u00edmbol FXS on-chain. No s'ha de confondre amb Legacy Frax Dollar (tamb\u00e9 FRAX), l'stablecoin vinculada al d\u00f2lar que el protocol va emetre primer, ni amb Frax USD (FRXUSD), la seva stablecoin en d\u00f2lars actual."
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://frax.finance"
+  },
+  "external": {
+    "coingecko": "frax-share",
+    "coinmarketcap": "6953"
+  }
+}
