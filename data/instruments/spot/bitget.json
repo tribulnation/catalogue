@@ -201,13 +201,13 @@
     "exchange": "spot",
     "base": "blast",
     "quote": "tether",
-    "url": "https://www.bitget.com/spot/BLASTUSDT"
+    "delisted": true
   },
   "BLURUSDT": {
     "exchange": "spot",
     "base": "blur",
     "quote": "tether",
-    "url": "https://www.bitget.com/spot/BLURUSDT"
+    "delisted": true
   },
   "BNBUSDC": {
     "exchange": "spot",
@@ -321,7 +321,7 @@
     "exchange": "spot",
     "base": "cronos",
     "quote": "tether",
-    "url": "https://www.bitget.com/spot/CROUSDT"
+    "delisted": true
   },
   "CRVUSDT": {
     "exchange": "spot",
@@ -369,7 +369,7 @@
     "exchange": "spot",
     "base": "dymension",
     "quote": "tether",
-    "url": "https://www.bitget.com/spot/DYMUSDT"
+    "delisted": true
   },
   "EIGENUSDT": {
     "exchange": "spot",
@@ -513,7 +513,7 @@
     "exchange": "spot",
     "base": "the-graph",
     "quote": "tether",
-    "url": "https://www.bitget.com/spot/GRTUSDT"
+    "delisted": true
   },
   "GUSDT": {
     "exchange": "spot",
@@ -837,7 +837,7 @@
     "exchange": "spot",
     "base": "thorchain",
     "quote": "tether",
-    "url": "https://www.bitget.com/spot/RUNEUSDT"
+    "delisted": true
   },
   "SANDUSDT": {
     "exchange": "spot",
