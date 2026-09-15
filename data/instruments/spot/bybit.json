@@ -27,7 +27,7 @@
     "exchange": "spot",
     "base": "cardano",
     "quote": "mantle",
-    "url": "https://www.bybit.com/en/trade/spot/ADA/MNT"
+    "delisted": true
   },
   "ADAUSDC": {
     "exchange": "spot",
@@ -261,7 +261,7 @@
     "exchange": "spot",
     "base": "bitcoin",
     "quote": "british-pound",
-    "url": "https://www.bybit.com/en/trade/spot/BTC/GBP"
+    "delisted": true
   },
   "BTCRLUSD": {
     "exchange": "spot",
@@ -405,7 +405,7 @@
     "exchange": "spot",
     "base": "dogecoin",
     "quote": "mantle",
-    "url": "https://www.bybit.com/en/trade/spot/DOGE/MNT"
+    "delisted": true
   },
   "DOGEUSDC": {
     "exchange": "spot",
@@ -519,13 +519,13 @@
     "exchange": "spot",
     "base": "ethereum",
     "quote": "british-pound",
-    "url": "https://www.bybit.com/en/trade/spot/ETH/GBP"
+    "delisted": true
   },
   "ETHMNT": {
     "exchange": "spot",
     "base": "ethereum",
     "quote": "mantle",
-    "url": "https://www.bybit.com/en/trade/spot/ETH/MNT"
+    "delisted": true
   },
   "ETHRLUSD": {
     "exchange": "spot",
@@ -849,7 +849,7 @@
     "exchange": "spot",
     "base": "litecoin",
     "quote": "mantle",
-    "url": "https://www.bybit.com/en/trade/spot/LTC/MNT"
+    "delisted": true
   },
   "LTCUSDC": {
     "exchange": "spot",
@@ -915,7 +915,7 @@
     "exchange": "spot",
     "base": "mantle",
     "quote": "ethena-usde",
-    "url": "https://www.bybit.com/en/trade/spot/MNT/USDE"
+    "delisted": true
   },
   "MNTUSDT": {
     "exchange": "spot",
@@ -1197,13 +1197,13 @@
     "exchange": "spot",
     "base": "solana",
     "quote": "british-pound",
-    "url": "https://www.bybit.com/en/trade/spot/SOL/GBP"
+    "delisted": true
   },
   "SOLMNT": {
     "exchange": "spot",
     "base": "solana",
     "quote": "mantle",
-    "url": "https://www.bybit.com/en/trade/spot/SOL/MNT"
+    "delisted": true
   },
   "SOLUSDC": {
     "exchange": "spot",
@@ -1275,7 +1275,7 @@
     "exchange": "spot",
     "base": "sui",
     "quote": "mantle",
-    "url": "https://www.bybit.com/en/trade/spot/SUI/MNT"
+    "delisted": true
   },
   "SUIUSDC": {
     "exchange": "spot",
@@ -1359,7 +1359,7 @@
     "exchange": "spot",
     "base": "true-usd",
     "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/TUSD/USDT"
+    "delisted": true
   },
   "TWTUSDT": {
     "exchange": "spot",
@@ -1401,7 +1401,7 @@
     "exchange": "spot",
     "base": "usd-coin",
     "quote": "british-pound",
-    "url": "https://www.bybit.com/en/trade/spot/USDC/GBP"
+    "delisted": true
   },
   "USDCUSD1": {
     "exchange": "spot",
@@ -1449,7 +1449,7 @@
     "exchange": "spot",
     "base": "tether",
     "quote": "british-pound",
-    "url": "https://www.bybit.com/en/trade/spot/USDT/GBP"
+    "delisted": true
   },
   "USDTTRY": {
     "exchange": "spot",
@@ -1479,7 +1479,7 @@
     "exchange": "spot",
     "base": "virtuals-protocol",
     "quote": "mantle",
-    "url": "https://www.bybit.com/en/trade/spot/VIRTUAL/MNT"
+    "delisted": true
   },
   "VIRTUALUSDC": {
     "exchange": "spot",
@@ -1599,7 +1599,7 @@
     "exchange": "spot",
     "base": "xrp",
     "quote": "mantle",
-    "url": "https://www.bybit.com/en/trade/spot/XRP/MNT"
+    "delisted": true
   },
   "XRPRLUSD": {
     "exchange": "spot",

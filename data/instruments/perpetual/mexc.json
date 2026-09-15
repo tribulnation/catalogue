@@ -31,15 +31,15 @@
     "base": "toncoin",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.mexc.com/futures/TON_USDC",
-    "exchange": "perp"
+    "exchange": "perp",
+    "delisted": true
   },
   "TON_USDT": {
     "base": "toncoin",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/TON_USDT",
-    "exchange": "perp"
+    "exchange": "perp",
+    "delisted": true
   },
   "CC_USDT": {
     "base": "canton",
@@ -199,8 +199,8 @@
     "base": "ethena-usde",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/USDE_USDT",
-    "exchange": "perp"
+    "exchange": "perp",
+    "delisted": true
   },
   "TRX_USDC": {
     "base": "tron",
@@ -353,8 +353,8 @@
     "base": "wrapped-bitcoin",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/WBTC_USDT",
-    "exchange": "perp"
+    "exchange": "perp",
+    "delisted": true
   },
   "ZEC_USDC": {
     "base": "zcash",
@@ -374,8 +374,8 @@
     "base": "lido-staked-ether",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/STETH_USDT",
-    "exchange": "perp"
+    "exchange": "perp",
+    "delisted": true
   },
   "ADA_USDC": {
     "base": "cardano",
