@@ -1,12 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
-  <rect width="56" height="56" fill="url(#g1)" />
-  <path fill-rule="evenodd" d="M9.201 28.097l18.695 18.695 18.896-18.896L28.097 9.201 9.2 28.097zm-1.06-.354a.5.5 0 000 .708l19.402 19.402a.5.5 0 00.707 0L47.853 28.25a.5.5 0 000-.707L28.451 8.14a.5.5 0 00-.708 0L8.14 27.743z" fill="#4B514E" />
-  <path d="M28 18.5a.5.5 0 01.5.5v8.5H35a.5.5 0 010 1h-6.5V37a.5.5 0 01-1 0V19a.5.5 0 01.5-.5z" fill="#4B514E" />
-  <path d="M28 21.25a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM20.25 28a7.75 7.75 0 1115.5 0 7.75 7.75 0 01-15.5 0z" fill="#4B514E" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
-    <linearGradient id="g1" x1="0" y1="0" x2="55.5" y2="56.5" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#BCDDBE"/>
-      <stop offset="1" stop-color="#9ED0C9"/>
+    <linearGradient id="g1" x1="19.6292" y1="15.2735" x2="26.9563" y2="44.4148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFDC00" />
+      <stop offset="1" stop-color="#07E58A" />
     </linearGradient>
   </defs>
+  <rect x="0" y="0" width="64" height="64" fill="#170636" />
+  <g transform="translate(32, 32) scale(0.85) translate(-32, -35.898)">
+    <path fill="#14B23D" d="M48.4963 19.4266L40.2479 27.675L48.4963 35.9234L56.7447 27.675L48.4963 19.4266Z" />
+    <path fill="#FFC100" d="M15.5044 19.3766L7.25598 27.625L15.5044 35.8734L23.7528 27.625L15.5044 19.3766Z" />
+    <path fill="#14B23D" d="M32.0483 35.9218L23.7999 44.1702L32.0483 52.4186L40.2967 44.1702L32.0483 35.9218Z" />
+    <path fill="url(#g1)" d="M15.504 19.3782L32.055 35.9292H48.505L31.954 19.3782H15.504Z" />
+  </g>
 </svg>
