@@ -9,7 +9,8 @@
     "ca": "BERA \u00e9s el token natiu de gas de Berachain, una capa 1 (Layer 1) compatible amb EVM constru\u00efda sobre Cosmos SDK i CometBFT. Berachain introdueix Proof-of-Liquidity, un mecanisme de consens que alinea els incentius dels validadors amb la liquiditat onchain, juntament amb un model de tres tokens que tamb\u00e9 inclou el token de governan\u00e7a no transferible BGT i l'stablecoin nativa HONEY."
   },
   "external": {
-    "coingecko": "berachain"
+    "coingecko": "berachain-bera",
+    "coinmarketcap": "24647"
   },
   "icon": "icons/asset/berachain.svg",
   "urls": {
