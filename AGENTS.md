@@ -101,6 +101,10 @@ plain wrong entries. Read it back from the chain before it lands:
 Decimals are per-address, not per-asset — the same asset can have different
 decimals on different chains.
 
+Cases where the obvious mapping produces a wrong price or a double-counted
+balance are recorded in [docs/asset-traps.md](docs/asset-traps.md). Check it
+before adding a stablecoin or a tokenised RWA.
+
 ## Searching Instruments
 
 Use the guides below to find instrument IDs for supported platforms:
