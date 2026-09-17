@@ -1457,6 +1457,12 @@
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/ldo-usd"
   },
+  "LIGHTERUSD": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lighter-usd"
+  },
   "LINEAEUR": {
     "exchange": "spot",
     "base": "linea",
@@ -1525,13 +1531,13 @@
   },
   "LITEUR": {
     "exchange": "spot",
-    "base": "lighter",
+    "base": "heima",
     "quote": "euro",
     "url": "https://pro.kraken.com/app/trade/lit-eur"
   },
   "LITUSD": {
     "exchange": "spot",
-    "base": "lighter",
+    "base": "heima",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/lit-usd"
   },
