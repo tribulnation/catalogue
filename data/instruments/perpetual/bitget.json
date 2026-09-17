@@ -1291,7 +1291,8 @@
     "exchange": "coin-classic",
     "base": "cardano",
     "quote": "usd",
-    "settlement": "cardano"
+    "settlement": "cardano",
+    "delisted": true
   },
   "APTUSD_CM": {
     "exchange": "coin",
@@ -1311,7 +1312,8 @@
     "exchange": "coin-classic",
     "base": "avalanche",
     "quote": "usd",
-    "settlement": "avalanche"
+    "settlement": "avalanche",
+    "delisted": true
   },
   "BCHUSD_CM": {
     "exchange": "coin",
@@ -1331,7 +1333,8 @@
     "exchange": "coin-classic",
     "base": "bitcoin",
     "quote": "usd",
-    "settlement": "bitcoin"
+    "settlement": "bitcoin",
+    "delisted": true
   },
   "DOGEUSD_CM": {
     "exchange": "coin",
@@ -1344,7 +1347,8 @@
     "exchange": "coin-classic",
     "base": "dogecoin",
     "quote": "usd",
-    "settlement": "dogecoin"
+    "settlement": "dogecoin",
+    "delisted": true
   },
   "DOTUSD_CM": {
     "exchange": "coin",
@@ -1371,7 +1375,8 @@
     "exchange": "coin-classic",
     "base": "ethereum",
     "quote": "usd",
-    "settlement": "ethereum"
+    "settlement": "ethereum",
+    "delisted": true
   },
   "FILUSD_CM": {
     "exchange": "coin",
@@ -1391,7 +1396,8 @@
     "exchange": "coin-classic",
     "base": "chainlink",
     "quote": "usd",
-    "settlement": "chainlink"
+    "settlement": "chainlink",
+    "delisted": true
   },
   "LTCUSD_CM": {
     "exchange": "coin",
@@ -1411,7 +1417,8 @@
     "exchange": "coin-classic",
     "base": "near",
     "quote": "usd",
-    "settlement": "near"
+    "settlement": "near",
+    "delisted": true
   },
   "SOLUSD_CM": {
     "exchange": "coin",
@@ -1424,7 +1431,8 @@
     "exchange": "coin-classic",
     "base": "solana",
     "quote": "usd",
-    "settlement": "solana"
+    "settlement": "solana",
+    "delisted": true
   },
   "SUIUSD_CM": {
     "exchange": "coin",
@@ -1458,7 +1466,8 @@
     "exchange": "coin-classic",
     "base": "xrp",
     "quote": "usd",
-    "settlement": "xrp"
+    "settlement": "xrp",
+    "delisted": true
   },
   "CFXUSDT": {
     "exchange": "usdt",
