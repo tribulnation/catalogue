@@ -1,0 +1,447 @@
+<title>Catalogue Icon Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --ground:#e9ecf1; --surface:#ffffff; --surface-2:#f4f6f9;
+    --ink:#141920; --muted:#5d6775; --line:#d3d9e2;
+    --accent:#1d4ed8; --accent-soft:#e4ebfd;
+    --flag:#a8200f; --flag-soft:#fbe6e2;
+    --ok:#14663f; --ok-soft:#dcefe4;
+    --warn:#7a5200; --warn-soft:#f6ecd4;
+    --check-a:#ffffff; --check-b:#e4e8ee;
+    --shadow:0 1px 2px rgba(18,24,33,.06), 0 6px 18px -12px rgba(18,24,33,.35);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#0f1216; --surface:#171c23; --surface-2:#1e242c;
+      --ink:#e7eaef; --muted:#98a3b2; --line:#2a323c;
+      --accent:#7ea2ff; --accent-soft:#1c2740;
+      --flag:#ff9c8a; --flag-soft:#3a1d18;
+      --ok:#7fd3a7; --ok-soft:#142a20;
+      --warn:#e9c169; --warn-soft:#2e2413;
+      --check-a:#2a313a; --check-b:#222831;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0f1216; --surface:#171c23; --surface-2:#1e242c;
+    --ink:#e7eaef; --muted:#98a3b2; --line:#2a323c;
+    --accent:#7ea2ff; --accent-soft:#1c2740;
+    --flag:#ff9c8a; --flag-soft:#3a1d18;
+    --ok:#7fd3a7; --ok-soft:#142a20;
+    --warn:#e9c169; --warn-soft:#2e2413;
+    --check-a:#2a313a; --check-b:#222831;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--ground); color:var(--ink);
+    font-family:"Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+    font-size:15px; line-height:1.5;
+  }
+  .wrap{max-width:1240px; margin:0 auto; padding-inline:16px; padding-block:0 56px}
+
+  header.top{
+    position:sticky; top:env(safe-area-inset-top, 0px); z-index:20;
+    background:color-mix(in srgb, var(--ground) 88%, transparent);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .top-inner{max-width:1240px; margin:0 auto; padding-inline:16px; padding-block:14px 12px;
+    display:flex; flex-direction:column; gap:12px}
+  .titles{display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 14px}
+  h1{font-family:Archivo, ui-sans-serif, sans-serif; font-weight:700; font-size:20px; margin:0; letter-spacing:-.01em}
+  .sub{color:var(--muted); font-size:14px}
+  .tally{margin-left:auto; display:flex; gap:8px; align-items:center; font-variant-numeric:tabular-nums}
+  .tally b{font-family:Archivo; font-size:18px}
+
+  .controls{display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+  .chip{
+    font:inherit; font-size:13px; padding:5px 11px; border-radius:999px; cursor:pointer;
+    border:1px solid var(--line); background:var(--surface); color:var(--muted);
+  }
+  .chip[aria-pressed="true"]{background:var(--accent-soft); border-color:color-mix(in srgb, var(--accent) 45%, var(--line)); color:var(--accent); font-weight:600}
+  .chip .n{font-variant-numeric:tabular-nums; opacity:.7; margin-left:5px}
+  input[type="search"]{
+    font:inherit; font-size:14px; padding:6px 10px; min-width:170px; flex:1 1 170px; max-width:280px;
+    border:1px solid var(--line); border-radius:8px; background:var(--surface); color:var(--ink);
+  }
+  .spacer{flex:1 1 auto}
+  button.primary{
+    font:inherit; font-weight:600; font-size:14px; padding:7px 14px; border-radius:8px; cursor:pointer;
+    border:1px solid transparent; background:var(--accent); color:#fff;
+  }
+  button.ghost{
+    font:inherit; font-size:13px; padding:6px 11px; border-radius:8px; cursor:pointer;
+    border:1px solid var(--line); background:transparent; color:var(--muted);
+  }
+  button:focus-visible, input:focus-visible, a:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+  .grid{display:grid; gap:14px; margin-top:20px;
+    grid-template-columns:repeat(auto-fill, minmax(290px, 1fr))}
+  .card{
+    background:var(--surface); border:1px solid var(--line); border-radius:12px;
+    box-shadow:var(--shadow); padding:14px; display:flex; flex-direction:column; gap:12px;
+    border-left:3px solid transparent;
+  }
+  .card[data-flagged="1"]{border-left-color:var(--flag); background:color-mix(in srgb, var(--flag-soft) 45%, var(--surface))}
+  .head{display:flex; gap:12px; align-items:flex-start}
+  .renders{display:flex; gap:8px; flex:0 0 auto}
+  .swatch{
+    width:60px; height:60px; border:1px solid var(--line); overflow:hidden;
+    background-image:
+      linear-gradient(45deg, var(--check-b) 25%, transparent 25%),
+      linear-gradient(-45deg, var(--check-b) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, var(--check-b) 75%),
+      linear-gradient(-45deg, transparent 75%, var(--check-b) 75%);
+    background-size:12px 12px;
+    background-position:0 0, 0 6px, 6px -6px, -6px 0;
+    background-color:var(--check-a);
+    border-radius:4px;
+  }
+  .swatch.round{border-radius:50%}
+  .swatch img{width:100%; height:100%; display:block}
+  .swatch.empty{display:grid; place-items:center; color:var(--muted); font-size:11px; letter-spacing:.06em; text-transform:uppercase}
+  .idblock{min-width:0; flex:1 1 auto}
+  .name{font-family:Archivo; font-weight:600; font-size:15px; line-height:1.3; overflow-wrap:anywhere}
+  .sym{font-family:"JetBrains Mono", ui-monospace, monospace; font-size:12px; color:var(--muted)}
+  code.aid{
+    display:inline-block; margin-top:5px; font-family:"JetBrains Mono", ui-monospace, monospace;
+    font-size:11.5px; color:var(--ink); background:var(--surface-2); border:1px solid var(--line);
+    border-radius:5px; padding:1px 6px; overflow-wrap:anywhere;
+  }
+  .tags{display:flex; flex-wrap:wrap; gap:6px; align-items:center}
+  .badge{font-size:11px; font-weight:600; letter-spacing:.03em; text-transform:uppercase;
+    padding:2px 7px; border-radius:5px}
+  .b-sourced{background:var(--ok-soft); color:var(--ok)}
+  .b-shared{background:var(--accent-soft); color:var(--accent)}
+  .b-aave-frame{background:var(--warn-soft); color:var(--warn)}
+  .b-missing{background:var(--flag-soft); color:var(--flag)}
+  .b-revised{background:var(--accent); color:#fff}
+  .card[data-revised="1"]{border-left-color:var(--accent)}
+  .revised-note{margin:0; font-size:13px; color:var(--ink)}
+  .note{margin:0; font-size:13px; color:var(--muted); overflow-wrap:anywhere}
+  .note a{color:var(--accent)}
+  .src{font-size:12.5px; overflow-wrap:anywhere}
+  .src a{color:var(--accent); text-decoration:none; border-bottom:1px solid color-mix(in srgb, var(--accent) 35%, transparent)}
+  .actions{display:flex; flex-direction:column; gap:8px; margin-top:auto; padding-top:10px; border-top:1px dashed var(--line)}
+  .reject{
+    font:inherit; font-size:13.5px; font-weight:600; padding:7px 10px; border-radius:8px; cursor:pointer;
+    border:1px solid var(--line); background:var(--surface-2); color:var(--muted); text-align:left;
+  }
+  .reject[aria-pressed="true"]{background:var(--flag); border-color:var(--flag); color:#fff}
+  :root[data-theme="dark"] .reject[aria-pressed="true"], :root:not([data-theme="light"]) .reject[aria-pressed="true"]{color:#20100c}
+  @media (prefers-color-scheme: light){:root:not([data-theme="dark"]) .reject[aria-pressed="true"]{color:#fff}}
+  .notes-field{
+    font:inherit; font-size:13.5px; padding:7px 9px; width:100%; min-height:38px; resize:vertical;
+    border:1px solid var(--line); border-radius:8px; background:var(--surface); color:var(--ink);
+    font-family:"Source Sans 3", sans-serif;
+  }
+  .notes-field::placeholder{color:color-mix(in srgb, var(--muted) 75%, transparent)}
+  .empty-state{padding:40px 0; text-align:center; color:var(--muted)}
+
+  dialog{border:1px solid var(--line); border-radius:12px; background:var(--surface); color:var(--ink);
+    max-width:min(640px, 92vw); width:100%; padding:18px; box-shadow:var(--shadow)}
+  dialog::backdrop{background:rgba(10,13,18,.5)}
+  dialog h2{font-family:Archivo; font-size:16px; margin:0 0 8px}
+  dialog textarea{width:100%; min-height:240px; font-family:"JetBrains Mono", monospace; font-size:12px;
+    border:1px solid var(--line); border-radius:8px; background:var(--surface-2); color:var(--ink); padding:10px}
+  .dialog-actions{display:flex; gap:8px; justify-content:flex-end; margin-top:10px}
+  @media (prefers-reduced-motion: reduce){*{transition:none!important; animation:none!important}}
+</style>
+
+<header class="top">
+  <div class="top-inner">
+    <div class="titles">
+      <h1>Catalogue Icon Review</h1>
+      <span class="sub">__SUBTITLE__</span>
+      <span class="tally"><b id="flagCount">0</b> <span class="sub">not accepted</span></span>
+    </div>
+    <div class="controls" id="controls">
+      <button class="chip" data-filter="all" aria-pressed="true">All <span class="n" id="n-all"></span></button>
+      <button class="chip" data-filter="sourced" aria-pressed="false">Sourced <span class="n" id="n-sourced"></span></button>
+      <button class="chip" data-filter="aave-frame" aria-pressed="false">Aave frame <span class="n" id="n-aave-frame"></span></button>
+      <button class="chip" data-filter="shared" aria-pressed="false">Shared <span class="n" id="n-shared"></span></button>
+      <button class="chip" data-filter="missing" aria-pressed="false">No icon <span class="n" id="n-missing"></span></button>
+      <button class="chip" data-filter="revised" aria-pressed="false">Revised <span class="n" id="n-revised"></span></button>
+      <button class="chip" data-filter="flagged" aria-pressed="false">Marked <span class="n" id="n-flagged"></span></button>
+      <input type="search" id="q" placeholder="Filter by name, symbol or id">
+      <span class="spacer"></span>
+      <button class="ghost" id="clear">Clear marks</button>
+      <button class="primary" id="copy">Copy results</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="grid" id="grid"></div>
+  <p class="empty-state" id="empty" hidden>Nothing matches that filter.</p>
+</main>
+
+<dialog id="fallback">
+  <h2>Copy the results</h2>
+  <p class="note">Your browser blocked the clipboard, so here is the text &mdash; select it and copy.</p>
+  <textarea id="fallbackText" readonly></textarea>
+  <div class="dialog-actions"><button class="primary" id="fallbackClose">Done</button></div>
+</dialog>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+(function(){
+  var DATA = JSON.parse(document.getElementById('data').textContent);
+  var KEY = 'catalogue-icon-review-v1';
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { state = {}; }
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+  function entry(id){ return state[id] || (state[id] = {flagged:false, note:''}); }
+
+  var REVISED_ROUND = '__ROUND__';
+  if (!state.__rounds || state.__rounds.indexOf(REVISED_ROUND) === -1){
+    DATA.forEach(function(a){ if (a.revised) delete state[a.id]; });
+    state.__rounds = (state.__rounds || []).concat([REVISED_ROUND]);
+    save();
+  }
+  var LABEL = {sourced:'sourced', shared:'shared icon', 'aave-frame':'aave frame', missing:'no icon'};
+
+  function dataUri(svg){ return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg); }
+
+  var grid = document.getElementById('grid');
+  var frag = document.createDocumentFragment();
+
+  DATA.forEach(function(a){
+    var st = entry(a.id);
+    var card = document.createElement('article');
+    card.className = 'card';
+    card.dataset.id = a.id;
+    card.dataset.method = a.method;
+    card.dataset.revised = a.revised ? '1' : '0';
+    card.dataset.flagged = st.flagged ? '1' : '0';
+    card.dataset.search = (a.name + ' ' + (a.symbol||'') + ' ' + a.id).toLowerCase();
+
+    var head = document.createElement('div');
+    head.className = 'head';
+
+    var renders = document.createElement('div');
+    renders.className = 'renders';
+    if (a.svg){
+      var uri = dataUri(a.svg);
+      ['', 'round'].forEach(function(mod){
+        var box = document.createElement('div');
+        box.className = 'swatch ' + mod;
+        var img = document.createElement('img');
+        img.src = uri;
+        img.alt = a.name + (mod ? ' icon, circle-masked' : ' icon');
+        img.loading = 'lazy';
+        box.appendChild(img);
+        renders.appendChild(box);
+      });
+    } else {
+      var box2 = document.createElement('div');
+      box2.className = 'swatch empty';
+      box2.textContent = 'none';
+      renders.appendChild(box2);
+    }
+
+    var idblock = document.createElement('div');
+    idblock.className = 'idblock';
+    var name = document.createElement('div');
+    name.className = 'name';
+    name.textContent = a.name;
+    var sym = document.createElement('div');
+    sym.className = 'sym';
+    sym.textContent = a.symbol || '';
+    var aid = document.createElement('code');
+    aid.className = 'aid';
+    aid.textContent = a.id;
+    idblock.appendChild(name); idblock.appendChild(sym); idblock.appendChild(aid);
+
+    head.appendChild(renders); head.appendChild(idblock);
+    card.appendChild(head);
+
+    var tags = document.createElement('div');
+    tags.className = 'tags';
+    var badge = document.createElement('span');
+    badge.className = 'badge b-' + a.method;
+    badge.textContent = LABEL[a.method] || a.method;
+    tags.appendChild(badge);
+    if (a.revised){
+      var rb = document.createElement('span');
+      rb.className = 'badge b-revised';
+      rb.textContent = 'revised';
+      tags.appendChild(rb);
+    }
+    card.appendChild(tags);
+    if (a.revised){
+      var rn = document.createElement('p');
+      rn.className = 'revised-note';
+      rn.textContent = a.revised;
+      card.appendChild(rn);
+    }
+
+    if (a.note){
+      var note = document.createElement('p');
+      note.className = 'note';
+      note.textContent = a.note;
+      card.appendChild(note);
+    }
+    if (a.source){
+      var src = document.createElement('div');
+      src.className = 'src';
+      var link = document.createElement('a');
+      link.href = a.source; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      var short = a.source.replace(/^https?:\/\//, '');
+      link.textContent = short.length > 52 ? short.slice(0, 52) + '…' : short;
+      src.appendChild(link);
+      card.appendChild(src);
+    }
+
+    var actions = document.createElement('div');
+    actions.className = 'actions';
+    var btn = document.createElement('button');
+    btn.className = 'reject';
+    btn.id = 'flag-' + a.id;
+    btn.setAttribute('aria-pressed', st.flagged ? 'true' : 'false');
+    btn.textContent = st.flagged ? '✗ Not accepted' : 'Mark not accepted';
+    btn.addEventListener('click', function(){
+      var s = entry(a.id);
+      s.flagged = !s.flagged;
+      btn.setAttribute('aria-pressed', s.flagged ? 'true' : 'false');
+      btn.textContent = s.flagged ? '✗ Not accepted' : 'Mark not accepted';
+      card.dataset.flagged = s.flagged ? '1' : '0';
+      save(); refresh();
+    });
+    var ta = document.createElement('textarea');
+    ta.className = 'notes-field';
+    ta.id = 'note-' + a.id;
+    ta.rows = 1;
+    ta.placeholder = 'Notes (optional)';
+    ta.value = st.note || '';
+    ta.addEventListener('input', function(){ entry(a.id).note = ta.value; save(); refresh(); });
+    actions.appendChild(btn); actions.appendChild(ta);
+    card.appendChild(actions);
+
+    frag.appendChild(card);
+  });
+  grid.appendChild(frag);
+
+  var counts = {all: DATA.length, sourced:0, shared:0, 'aave-frame':0, missing:0, revised:0};
+  DATA.forEach(function(a){ counts[a.method] = (counts[a.method]||0) + 1; if (a.revised) counts.revised++; });
+  Object.keys(counts).forEach(function(k){
+    var el = document.getElementById('n-' + k);
+    if (el) el.textContent = counts[k];
+  });
+
+  var filter = 'all', query = '';
+  var cards = Array.prototype.slice.call(grid.children);
+
+  function refresh(){
+    var flagged = 0, noted = 0;
+    DATA.forEach(function(a){
+      var s = state[a.id];
+      if (!s) return;
+      if (s.flagged) flagged++;
+      if (s.note && s.note.trim()) noted++;
+    });
+    document.getElementById('flagCount').textContent = flagged;
+    document.getElementById('n-flagged').textContent = flagged;
+    var shown = 0;
+    cards.forEach(function(c){
+      var s = state[c.dataset.id] || {};
+      var okFilter = filter === 'all' ? true
+        : filter === 'revised' ? c.dataset.revised === '1'
+        : filter === 'flagged' ? !!s.flagged
+        : c.dataset.method === filter;
+      var okQuery = !query || c.dataset.search.indexOf(query) !== -1;
+      var show = okFilter && okQuery;
+      c.hidden = !show;
+      if (show) shown++;
+    });
+    document.getElementById('empty').hidden = shown !== 0;
+  }
+
+  document.getElementById('controls').addEventListener('click', function(ev){
+    var chip = ev.target.closest('.chip');
+    if (!chip) return;
+    filter = chip.dataset.filter;
+    Array.prototype.forEach.call(document.querySelectorAll('.chip'), function(c){
+      c.setAttribute('aria-pressed', c === chip ? 'true' : 'false');
+    });
+    refresh();
+  });
+  document.getElementById('q').addEventListener('input', function(ev){
+    query = ev.target.value.trim().toLowerCase();
+    refresh();
+  });
+
+  document.getElementById('clear').addEventListener('click', function(){
+    if (!confirm('Clear every mark and note on this page?')) return;
+    state = {}; save();
+    cards.forEach(function(c){
+      c.dataset.flagged = '0';
+      var b = c.querySelector('.reject');
+      b.setAttribute('aria-pressed', 'false');
+      b.textContent = 'Mark not accepted';
+      c.querySelector('.notes-field').value = '';
+    });
+    refresh();
+  });
+
+  function buildReport(){
+    var rejected = [], notesOnly = [];
+    DATA.forEach(function(a){
+      var s = state[a.id];
+      if (!s) return;
+      var note = (s.note || '').trim();
+      if (s.flagged) rejected.push({a:a, note:note});
+      else if (note) notesOnly.push({a:a, note:note});
+    });
+    var lines = [];
+    lines.push('# Icon review results');
+    lines.push('');
+    lines.push(rejected.length + ' not accepted, ' + notesOnly.length + ' with notes only, out of ' + DATA.length + ' reviewed.');
+    lines.push('');
+    lines.push('## Not accepted');
+    if (!rejected.length) lines.push('(none)');
+    rejected.forEach(function(r){
+      lines.push('- `' + r.a.id + '` — ' + r.a.name + ' [' + (LABEL[r.a.method] || r.a.method) + ']' + (r.note ? ' — ' + r.note : ''));
+    });
+    lines.push('');
+    lines.push('## Notes only (icon kept)');
+    if (!notesOnly.length) lines.push('(none)');
+    notesOnly.forEach(function(r){
+      lines.push('- `' + r.a.id + '` — ' + r.a.name + ' — ' + r.note);
+    });
+    lines.push('');
+    return lines.join('\n');
+  }
+
+  var copyBtn = document.getElementById('copy');
+  copyBtn.addEventListener('click', function(){
+    var text = buildReport();
+    var done = function(){
+      copyBtn.textContent = 'Copied';
+      setTimeout(function(){ copyBtn.textContent = 'Copy results'; }, 1600);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done, function(){ showFallback(text); });
+    } else {
+      showFallback(text);
+    }
+  });
+  function showFallback(text){
+    var dlg = document.getElementById('fallback');
+    var ta = document.getElementById('fallbackText');
+    ta.value = text;
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+    ta.select();
+  }
+  document.getElementById('fallbackClose').addEventListener('click', function(){
+    var dlg = document.getElementById('fallback');
+    if (dlg.close) dlg.close(); else dlg.removeAttribute('open');
+  });
+
+  refresh();
+})();
+</script>
