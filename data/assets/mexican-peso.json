@@ -1,0 +1,23 @@
+{
+  "id": "mexican-peso",
+  "display_name": "Mexican Peso",
+  "symbol": "MXN",
+  "category": "fiat",
+  "about": {
+    "en": "The Mexican peso is the official currency of Mexico, issued by the Banco de M\u00e9xico, and one of the most traded emerging-market currencies. In crypto and trading contexts, MXN is used as a fiat reference asset for peso-denominated balances, prices, deposits, withdrawals, and fiat-backed products.",
+    "es": "El peso mexicano es la moneda oficial de M\u00e9xico, emitida por el Banco de M\u00e9xico, y una de las divisas de mercados emergentes m\u00e1s negociadas. En contextos cripto y de trading, MXN se usa como activo fiat de referencia para saldos, precios, dep\u00f3sitos, retiradas y productos respaldados por pesos.",
+    "ca": "El peso mexic\u00e0 \u00e9s la moneda oficial de M\u00e8xic, emesa pel Banc de M\u00e8xic, i una de les divises de mercats emergents m\u00e9s negociades. En contextos cripto i de trading, MXN s'utilitza com a actiu fiat de refer\u00e8ncia per a saldos, preus, dip\u00f2sits, retirades i productes recolzats per pesos."
+  },
+  "external": {
+    "twelvedata": "MXN/USD",
+    "coingecko": "currency:mxn",
+    "yahoo": "MXNUSD=X"
+  },
+  "tags": [
+    "Fiat"
+  ],
+  "icon": "icons/asset/mexican-peso.svg",
+  "urls": {
+    "Website": "https://www.banxico.org.mx/indexen.html"
+  }
+}

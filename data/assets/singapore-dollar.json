@@ -1,0 +1,24 @@
+{
+  "id": "singapore-dollar",
+  "display_name": "Singapore Dollar",
+  "symbol": "SGD",
+  "category": "fiat",
+  "about": {
+    "en": "The Singapore dollar is the official currency of Singapore, issued by the Monetary Authority of Singapore. In crypto and trading contexts, SGD is used as a fiat reference asset for Singapore dollar-denominated balances, prices, deposits, withdrawals, and fiat-backed products.",
+    "es": "El d\u00f3lar de Singapur es la moneda oficial de Singapur, emitida por la Autoridad Monetaria de Singapur. En contextos cripto y de trading, SGD se usa como activo fiat de referencia para saldos, precios, dep\u00f3sitos, retiradas y productos respaldados por d\u00f3lares singapurenses.",
+    "ca": "El d\u00f2lar de Singapur \u00e9s la moneda oficial de Singapur, emesa per l'Autoritat Monet\u00e0ria de Singapur. En contextos cripto i de trading, SGD s'utilitza com a actiu fiat de refer\u00e8ncia per a saldos, preus, dip\u00f2sits, retirades i productes recolzats per d\u00f2lars singapuresos."
+  },
+  "external": {
+    "twelvedata": "SGD/USD",
+    "coingecko": "currency:sgd",
+    "fred": "inverse:DEXSIUS",
+    "yahoo": "SGDUSD=X"
+  },
+  "tags": [
+    "Fiat"
+  ],
+  "icon": "icons/asset/singapore-dollar.svg",
+  "urls": {
+    "Website": "https://www.mas.gov.sg/"
+  }
+}

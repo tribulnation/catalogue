@@ -11,6 +11,9 @@
   "external": {
     "coingecko": "tether-eurt"
   },
+  "pegged_to": {
+    "asset": "euro"
+  },
   "tags": [
     "Deprecated",
     "EUR",

@@ -1,0 +1,24 @@
+{
+  "id": "brazilian-real",
+  "display_name": "Brazilian Real",
+  "symbol": "BRL",
+  "category": "fiat",
+  "about": {
+    "en": "The Brazilian real is the official currency of Brazil, issued by the Banco Central do Brasil. In crypto and trading contexts, BRL is used as a fiat reference asset for real-denominated balances, prices, deposits, withdrawals, and fiat-backed products.",
+    "es": "El real brasile\u00f1o es la moneda oficial de Brasil, emitida por el Banco Central do Brasil. En contextos cripto y de trading, BRL se usa como activo fiat de referencia para saldos, precios, dep\u00f3sitos, retiradas y productos respaldados por reales.",
+    "ca": "El real brasiler \u00e9s la moneda oficial del Brasil, emesa pel Banco Central do Brasil. En contextos cripto i de trading, BRL s'utilitza com a actiu fiat de refer\u00e8ncia per a saldos, preus, dip\u00f2sits, retirades i productes recolzats per reals."
+  },
+  "external": {
+    "twelvedata": "BRL/USD",
+    "coingecko": "currency:brl",
+    "fred": "inverse:DEXBZUS",
+    "yahoo": "BRLUSD=X"
+  },
+  "tags": [
+    "Fiat"
+  ],
+  "icon": "icons/asset/brazilian-real.svg",
+  "urls": {
+    "Website": "https://www.bcb.gov.br/en"
+  }
+}

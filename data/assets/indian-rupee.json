@@ -1,0 +1,23 @@
+{
+  "id": "indian-rupee",
+  "display_name": "Indian Rupee",
+  "symbol": "INR",
+  "category": "fiat",
+  "about": {
+    "en": "The Indian rupee is the official currency of India, issued by the Reserve Bank of India. In crypto and trading contexts, INR is used as a fiat reference asset for rupee-denominated balances, prices, deposits, withdrawals, and fiat-backed products.",
+    "es": "La rupia india es la moneda oficial de la India, emitida por el Banco de la Reserva de la India. En contextos cripto y de trading, INR se usa como activo fiat de referencia para saldos, precios, dep\u00f3sitos, retiradas y productos respaldados por rupias.",
+    "ca": "La rupia \u00edndia \u00e9s la moneda oficial de l'\u00cdndia, emesa pel Banc de la Reserva de l'\u00cdndia. En contextos cripto i de trading, INR s'utilitza com a actiu fiat de refer\u00e8ncia per a saldos, preus, dip\u00f2sits, retirades i productes recolzats per rupies."
+  },
+  "external": {
+    "twelvedata": "INR/USD",
+    "coingecko": "currency:inr",
+    "yahoo": "INRUSD=X"
+  },
+  "tags": [
+    "Fiat"
+  ],
+  "icon": "icons/asset/indian-rupee.svg",
+  "urls": {
+    "Website": "https://www.rbi.org.in/"
+  }
+}
