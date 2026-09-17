@@ -1,0 +1,23 @@
+{
+  "id": "argentine-peso",
+  "display_name": "Argentine Peso",
+  "symbol": "ARS",
+  "category": "fiat",
+  "about": {
+    "en": "The Argentine peso is the official currency of Argentina, issued by the Banco Central de la Rep\u00fablica Argentina. Persistent inflation and capital controls have made stablecoins a common savings and payment channel there, so ARS is used as a fiat reference asset for peso-denominated balances, prices, deposits, withdrawals, and fiat-backed products.",
+    "es": "El peso argentino es la moneda oficial de Argentina, emitida por el Banco Central de la Rep\u00fablica Argentina. La inflaci\u00f3n persistente y los controles de capital han convertido a las stablecoins en un canal habitual de ahorro y pago, por lo que ARS se usa como activo fiat de referencia para saldos, precios, dep\u00f3sitos, retiradas y productos respaldados por pesos.",
+    "ca": "El peso argent\u00ed \u00e9s la moneda oficial de l'Argentina, em\u00e8s pel Banc Central de la Rep\u00fablica Argentina. La inflaci\u00f3 persistent i els controls de capital han convertit les stablecoins en un canal habitual d'estalvi i pagament, de manera que ARS s'utilitza com a actiu fiat de refer\u00e8ncia per a saldos, preus, dip\u00f2sits, retirades i productes recolzats per pesos."
+  },
+  "external": {
+    "twelvedata": "ARS/USD",
+    "coingecko": "currency:ars",
+    "yahoo": "ARSUSD=X"
+  },
+  "tags": [
+    "Fiat"
+  ],
+  "icon": "icons/asset/argentine-peso.svg",
+  "urls": {
+    "Website": "https://www.bcra.gob.ar/"
+  }
+}
