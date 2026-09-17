@@ -11,6 +11,9 @@
   "external": {
     "coingecko": "brz"
   },
+  "pegged_to": {
+    "asset": "brazilian-real"
+  },
   "tags": [
     "Stablecoin",
     "Fiat"
