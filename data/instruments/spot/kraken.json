@@ -3430,5 +3430,65 @@
     "base": "layer-zero",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/zro-usd"
+  },
+  "FLOWEUR": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/flow-eur"
+  },
+  "FLOWUSD": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/flow-usd"
+  },
+  "KAVAEUR": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/kava-eur"
+  },
+  "KAVAUSD": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/kava-usd"
+  },
+  "MINAEUR": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/mina-eur"
+  },
+  "MINAGBP": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "british-pound",
+    "url": "https://pro.kraken.com/app/trade/mina-gbp"
+  },
+  "MINAUSD": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mina-usd"
+  },
+  "MINAXBT": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "bitcoin",
+    "url": "https://pro.kraken.com/app/trade/mina-btc"
+  },
+  "SCRTEUR": {
+    "exchange": "spot",
+    "base": "secret-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/scrt-eur"
+  },
+  "SCRTUSD": {
+    "exchange": "spot",
+    "base": "secret-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/scrt-usd"
   }
 }
