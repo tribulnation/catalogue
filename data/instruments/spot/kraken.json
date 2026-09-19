@@ -11,6 +11,18 @@
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/1inch-usd"
   },
+  "2ZEUR": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/2z-eur"
+  },
+  "2ZUSD": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/2z-usd"
+  },
   "AAVEETH": {
     "exchange": "spot",
     "base": "aave",
@@ -124,6 +136,18 @@
     "base": "akash-network",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/akt-usd"
+  },
+  "ALCXEUR": {
+    "exchange": "spot",
+    "base": "alchemix",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/alcx-eur"
+  },
+  "ALCXUSD": {
+    "exchange": "spot",
+    "base": "alchemix",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/alcx-usd"
   },
   "ALGOETH": {
     "exchange": "spot",
@@ -430,6 +454,18 @@
     "base": "axie-infinity",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/axs-usd"
+  },
+  "BALEUR": {
+    "exchange": "spot",
+    "base": "balancer",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/bal-eur"
+  },
+  "BALUSD": {
+    "exchange": "spot",
+    "base": "balancer",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bal-usd"
   },
   "BATEUR": {
     "exchange": "spot",
@@ -851,6 +887,18 @@
     "quote": "bitcoin",
     "url": "https://pro.kraken.com/app/trade/dot-btc"
   },
+  "DRVEUR": {
+    "exchange": "spot",
+    "base": "derive",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/drv-eur"
+  },
+  "DRVUSD": {
+    "exchange": "spot",
+    "base": "derive",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/drv-usd"
+  },
   "DYDXEUR": {
     "exchange": "spot",
     "base": "dydx",
@@ -1199,6 +1247,18 @@
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/flr-usd"
   },
+  "FXSEUR": {
+    "exchange": "spot",
+    "base": "frax-share",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/fxs-eur"
+  },
+  "FXSUSD": {
+    "exchange": "spot",
+    "base": "frax-share",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/fxs-usd"
+  },
   "GALAEUR": {
     "exchange": "spot",
     "base": "gala",
@@ -1216,6 +1276,18 @@
     "base": "british-pound",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/gbp-usd"
+  },
+  "GHSTEUR": {
+    "exchange": "spot",
+    "base": "aavegotchi",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ghst-eur"
+  },
+  "GHSTUSD": {
+    "exchange": "spot",
+    "base": "aavegotchi",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ghst-usd"
   },
   "GMTEUR": {
     "exchange": "spot",
@@ -1432,6 +1504,24 @@
     "base": "kaspa",
     "quote": "tether",
     "url": "https://pro.kraken.com/app/trade/kas-usdt"
+  },
+  "KSMEUR": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ksm-eur"
+  },
+  "KSMGBP": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "british-pound",
+    "url": "https://pro.kraken.com/app/trade/ksm-gbp"
+  },
+  "KSMUSD": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ksm-usd"
   },
   "LAYEREUR": {
     "exchange": "spot",
@@ -1768,6 +1858,18 @@
     "base": "optimism",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/op-usd"
+  },
+  "ORCAEUR": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/orca-eur"
+  },
+  "ORCAUSD": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/orca-usd"
   },
   "OSMOEUR": {
     "exchange": "spot",
@@ -2225,6 +2327,36 @@
     "quote": "bitcoin",
     "url": "https://pro.kraken.com/app/trade/sol-btc"
   },
+  "SONICUSD": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sonic-usd"
+  },
+  "SPXEUR": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/spx-eur"
+  },
+  "SPXUSD": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/spx-usd"
+  },
+  "STGEUR": {
+    "exchange": "spot",
+    "base": "stargate-finance",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/stg-eur"
+  },
+  "STGUSD": {
+    "exchange": "spot",
+    "base": "stargate-finance",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/stg-usd"
+  },
   "STRKEUR": {
     "exchange": "spot",
     "base": "starknet",
@@ -2297,6 +2429,18 @@
     "quote": "tether",
     "url": "https://pro.kraken.com/app/trade/s-usdt"
   },
+  "SUSHIEUR": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sushi-eur"
+  },
+  "SUSHIUSD": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sushi-usd"
+  },
   "SYNEUR": {
     "exchange": "spot",
     "base": "synapse",
@@ -2332,6 +2476,24 @@
     "base": "bittensor",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/tao-usd"
+  },
+  "TBTCEUR": {
+    "exchange": "spot",
+    "base": "threshold-bitcoin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/tbtc-eur"
+  },
+  "TBTCUSD": {
+    "exchange": "spot",
+    "base": "threshold-bitcoin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/tbtc-usd"
+  },
+  "TBTCXBT": {
+    "exchange": "spot",
+    "base": "threshold-bitcoin",
+    "quote": "bitcoin",
+    "url": "https://pro.kraken.com/app/trade/tbtc-btc"
   },
   "TELEUR": {
     "exchange": "spot",
@@ -2675,6 +2837,18 @@
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/usdt-usd"
   },
+  "USELESSEUR": {
+    "exchange": "spot",
+    "base": "useless-coin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/useless-eur"
+  },
+  "USELESSUSD": {
+    "exchange": "spot",
+    "base": "useless-coin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/useless-usd"
+  },
   "USUALEUR": {
     "exchange": "spot",
     "base": "usual",
@@ -2746,6 +2920,18 @@
     "base": "venice-token",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/vvv-usd"
+  },
+  "WAXLEUR": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/waxl-eur"
+  },
+  "WAXLUSD": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/waxl-usd"
   },
   "WBTCEUR": {
     "exchange": "spot",
@@ -2836,6 +3022,18 @@
     "base": "world-liberty-financial",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/wlfi-usd"
+  },
+  "WOOEUR": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/woo-eur"
+  },
+  "WOOUSD": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/woo-usd"
   },
   "WUSD": {
     "exchange": "spot",
@@ -3208,6 +3406,18 @@
     "base": "zksync",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/zk-usd"
+  },
+  "ZORAEUR": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zora-eur"
+  },
+  "ZORAUSD": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zora-usd"
   },
   "ZROEUR": {
     "exchange": "spot",
