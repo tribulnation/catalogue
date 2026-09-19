@@ -111,3 +111,18 @@ NAV on about $0.18 of daily volume.
   venue is unreachable. Treat them as corroboration, not as the venue's own word
   — they carry stale rows (a renamed MEXC `TON_USDT` was still listed there
   after MEXC itself returned "Contract not exists").
+
+## Kraken symbol and name collisions
+
+Kraken's [official asset table](https://support.kraken.com/articles/360000678446-cryptocurrencies-available-on-kraken)
+uses `MET` for Meteora, `OMNI` for Omni and `VELO` for Velo. Those symbols must not
+be mapped to the Catalogue's Metronome, OmniCat or Velodrome Finance records.
+
+`MIM` is an even closer collision: Kraken lists Magic Internet Money on Bitcoin,
+while `magic-internet-money` in Catalogue is Abracadabra's USD stablecoin. A
+2026-09-19 live `MIMUSD` ticker returned `0.0005371000 USD`, corroborating the
+mismatch. Matching both name and symbol is insufficient here. Leave these native
+IDs untranslated until the actual project has its own verified Catalogue identity.
+
+The [Kraken Spot qualification report](reports/kraken-spot-2026-09-19.md) records
+the verified additions and remaining gaps.
