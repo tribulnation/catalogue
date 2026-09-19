@@ -1,0 +1,2279 @@
+{
+  "asset_additions": {
+    "CHZ": "chiliz",
+    "AXS": "axie-infinity",
+    "MANA": "decentraland",
+    "DYDX": "dydx",
+    "COMP": "compound",
+    "YFI": "yearn-finance",
+    "ICP": "internet-computer",
+    "ETC": "ethereum-classic",
+    "XTZ": "tezos",
+    "QNT": "quant",
+    "GRT": "the-graph",
+    "FIL": "filecoin",
+    "BAT": "basic-attention-token",
+    "CRV": "curve-dao",
+    "ANKR": "ankr",
+    "SHIB": "shiba-inu",
+    "ATOM": "cosmos",
+    "ALGO": "algorand",
+    "SAND": "the-sandbox",
+    "IMX": "immutable-x",
+    "ENS": "ethereum-name-service",
+    "CAKE": "pancakeswap",
+    "STETH": "lido-staked-ether",
+    "AVA": "travala",
+    "JASMY": "jasmycoin",
+    "GALA": "gala",
+    "UMA": "uma",
+    "NEXO": "nexo",
+    "SNX": "synthetix",
+    "1INCH": "1inch",
+    "TEL": "telcoin",
+    "LDO": "lido-dao",
+    "THETA": "theta-token",
+    "MX": "mx-token",
+    "RUNE": "thorchain",
+    "XDC": "xdc-network",
+    "HBAR": "hedera",
+    "STX": "stacks",
+    "GMX": "gmx",
+    "JST": "just",
+    "SUN": "sun-token",
+    "BTT": "bittorrent",
+    "APE": "apecoin",
+    "WBTC": "wrapped-bitcoin",
+    "GMT": "green-metaverse-token",
+    "CELO": "celo",
+    "OP": "optimism",
+    "FLOKI": "floki",
+    "AR": "arweave",
+    "INJ": "injective",
+    "APT": "aptos",
+    "MASK": "mask-network",
+    "TWT": "trust-wallet-token",
+    "BONK": "bonk",
+    "FLR": "flare",
+    "CORE": "core",
+    "BLUR": "blur",
+    "ARB": "arbitrum",
+    "AXL": "axelar",
+    "PEPE": "pepe",
+    "PENDLE": "pendle",
+    "ARKM": "arkham",
+    "WLD": "worldcoin",
+    "SEI": "sei",
+    "ORDI": "ordi",
+    "PYUSD": "paypal-usd",
+    "KAS": "kaspa",
+    "FET": "fetch-ai",
+    "POL": "polygon",
+    "TIA": "celestia",
+    "PYTH": "pyth-network",
+    "KCS": "kucoin-token",
+    "JTO": "jito",
+    "ONDO": "ondo",
+    "MANTA": "manta-network",
+    "DYM": "dymension",
+    "JUP": "jupiter",
+    "ALT": "altlayer",
+    "HTX": "htx-dao",
+    "STRK": "starknet",
+    "ETHFI": "ether-fi",
+    "ENA": "ethena",
+    "W": "wormhole",
+    "WIF": "dogwifcoin",
+    "NOT": "notcoin",
+    "IO": "io-net",
+    "ATH": "aethir",
+    "ZK": "zksync",
+    "ZRO": "layer-zero",
+    "BLAST": "blast",
+    "RENDER": "render",
+    "G": "gravity",
+    "CATI": "catizen",
+    "EIGEN": "eigen-layer",
+    "DBR": "debridge",
+    "GRASS": "grass",
+    "KAIA": "kaia",
+    "MORPHO": "morpho",
+    "VIRTUAL": "virtuals-protocol",
+    "PNUT": "peanut-the-squirrel",
+    "ME": "magic-eden",
+    "AERO": "aerodrome",
+    "VANA": "vana",
+    "PENGU": "pudgy-penguins",
+    "S": "sonic",
+    "SOLV": "solv-protocol",
+    "TRUMP": "official-trump",
+    "LAYER": "solayer",
+    "BERA": "berachain",
+    "USDTB": "ethena-usdtb",
+    "RED": "redstone",
+    "VVV": "venice-token",
+    "XAUT": "tether-gold",
+    "VET": "vechain",
+    "USD1": "usd1",
+    "HYPE": "hyperliquid",
+    "PUMP": "pump",
+    "WLFI": "world-liberty-financial",
+    "SKY": "sky",
+    "AVNT": "avantis",
+    "LINEA": "linea",
+    "ASTER": "aster",
+    "XPL": "plasma",
+    "RLUSD": "ripple-usd",
+    "CC": "canton",
+    "MON": "monad",
+    "LIT": "lighter",
+    "FRAX": "frax-share",
+    "USDS": "sky-usd",
+    "T": "threshold-network",
+    "BBSOL": "bybit-staked-sol",
+    "METH": "mantle-staked-ether",
+    "CMETH": "mantle-restaked-ether"
+  },
+  "witnesses": {
+    "CHZ": {
+      "asset": "chiliz",
+      "witnesses": [
+        "spot:CHZUSDT",
+        "spot:CHZUSDC",
+        "perpetual:CHZUSDT"
+      ]
+    },
+    "AXS": {
+      "asset": "axie-infinity",
+      "witnesses": [
+        "spot:AXSUSDT",
+        "perpetual:AXSUSDT"
+      ]
+    },
+    "MANA": {
+      "asset": "decentraland",
+      "witnesses": [
+        "spot:MANAUSDT",
+        "spot:MANAUSDC",
+        "perpetual:MANAUSDT"
+      ]
+    },
+    "DYDX": {
+      "asset": "dydx",
+      "witnesses": [
+        "spot:DYDXUSDT",
+        "spot:DYDXUSDC",
+        "perpetual:DYDXUSDT"
+      ]
+    },
+    "COMP": {
+      "asset": "compound",
+      "witnesses": [
+        "spot:COMPUSDT",
+        "perpetual:COMPUSDT"
+      ]
+    },
+    "YFI": {
+      "asset": "yearn-finance",
+      "witnesses": [
+        "spot:YFIUSDT",
+        "perpetual:YFIUSDT"
+      ]
+    },
+    "ICP": {
+      "asset": "internet-computer",
+      "witnesses": [
+        "spot:ICPUSDT",
+        "spot:ICPUSDC",
+        "perpetual:ICPPERP",
+        "perpetual:ICPUSDT"
+      ]
+    },
+    "ETC": {
+      "asset": "ethereum-classic",
+      "witnesses": [
+        "spot:ETCUSDT",
+        "perpetual:ETCPERP",
+        "perpetual:ETCUSDT"
+      ]
+    },
+    "XTZ": {
+      "asset": "tezos",
+      "witnesses": [
+        "spot:XTZUSDT",
+        "perpetual:XTZUSDT"
+      ]
+    },
+    "QNT": {
+      "asset": "quant",
+      "witnesses": [
+        "spot:QNTUSDT",
+        "perpetual:QNTUSDT"
+      ]
+    },
+    "GRT": {
+      "asset": "the-graph",
+      "witnesses": [
+        "spot:GRTUSDT",
+        "perpetual:GRTUSDT"
+      ]
+    },
+    "FIL": {
+      "asset": "filecoin",
+      "witnesses": [
+        "spot:FILUSDT",
+        "spot:FILUSDC",
+        "perpetual:FILPERP",
+        "perpetual:FILUSDT"
+      ]
+    },
+    "BAT": {
+      "asset": "basic-attention-token",
+      "witnesses": [
+        "spot:BATUSDT",
+        "perpetual:BATUSDT"
+      ]
+    },
+    "CRV": {
+      "asset": "curve-dao",
+      "witnesses": [
+        "spot:CRVUSDT",
+        "spot:CRVUSDC",
+        "perpetual:CRVPERP",
+        "perpetual:CRVUSDT"
+      ]
+    },
+    "ANKR": {
+      "asset": "ankr",
+      "witnesses": [
+        "spot:ANKRUSDT",
+        "perpetual:ANKRUSDT"
+      ]
+    },
+    "SHIB": {
+      "asset": "shiba-inu",
+      "witnesses": [
+        "spot:SHIBUSDT",
+        "spot:SHIBUSDC",
+        "spot:SHIBEUR"
+      ]
+    },
+    "ATOM": {
+      "asset": "cosmos",
+      "witnesses": [
+        "spot:ATOMUSDT",
+        "spot:ATOMUSDC",
+        "perpetual:ATOMUSDT"
+      ]
+    },
+    "ALGO": {
+      "asset": "algorand",
+      "witnesses": [
+        "spot:ALGOUSDT",
+        "spot:ALGOUSDC",
+        "perpetual:ALGOUSDT"
+      ]
+    },
+    "SAND": {
+      "asset": "the-sandbox",
+      "witnesses": [
+        "spot:SANDUSDT",
+        "spot:SANDUSDC",
+        "perpetual:SANDUSDT"
+      ]
+    },
+    "IMX": {
+      "asset": "immutable-x",
+      "witnesses": [
+        "spot:IMXUSDT",
+        "perpetual:IMXUSDT"
+      ]
+    },
+    "ENS": {
+      "asset": "ethereum-name-service",
+      "witnesses": [
+        "spot:ENSUSDT",
+        "spot:ENSUSDC",
+        "perpetual:ENSUSDT"
+      ]
+    },
+    "CAKE": {
+      "asset": "pancakeswap",
+      "witnesses": [
+        "spot:CAKEUSDT",
+        "perpetual:CAKEUSDT"
+      ]
+    },
+    "STETH": {
+      "asset": "lido-staked-ether",
+      "witnesses": [
+        "spot:STETHUSDT",
+        "spot:STETHEUR"
+      ]
+    },
+    "AVA": {
+      "asset": "travala",
+      "witnesses": [
+        "spot:AVAUSDT",
+        "perpetual:AVAUSDT"
+      ]
+    },
+    "JASMY": {
+      "asset": "jasmycoin",
+      "witnesses": [
+        "spot:JASMYUSDT",
+        "spot:JASMYUSDC",
+        "perpetual:JASMYUSDT"
+      ]
+    },
+    "GALA": {
+      "asset": "gala",
+      "witnesses": [
+        "spot:GALAUSDT",
+        "perpetual:GALAUSDT"
+      ]
+    },
+    "UMA": {
+      "asset": "uma",
+      "witnesses": [
+        "spot:UMAUSDT",
+        "perpetual:UMAUSDT"
+      ]
+    },
+    "NEXO": {
+      "asset": "nexo",
+      "witnesses": [
+        "spot:NEXOUSDT"
+      ]
+    },
+    "SNX": {
+      "asset": "synthetix",
+      "witnesses": [
+        "spot:SNXUSDT",
+        "perpetual:SNXUSDT"
+      ]
+    },
+    "1INCH": {
+      "asset": "1inch",
+      "witnesses": [
+        "spot:1INCHUSDT",
+        "perpetual:1INCHUSDT"
+      ]
+    },
+    "TEL": {
+      "asset": "telcoin",
+      "witnesses": [
+        "spot:TELUSDT"
+      ]
+    },
+    "LDO": {
+      "asset": "lido-dao",
+      "witnesses": [
+        "spot:LDOUSDT",
+        "spot:LDOUSDC",
+        "perpetual:LDOUSDT"
+      ]
+    },
+    "THETA": {
+      "asset": "theta-token",
+      "witnesses": [
+        "spot:THETAUSDT",
+        "perpetual:THETAUSDT"
+      ]
+    },
+    "MX": {
+      "asset": "mx-token",
+      "witnesses": [
+        "spot:MXUSDT"
+      ]
+    },
+    "RUNE": {
+      "asset": "thorchain",
+      "witnesses": [
+        "spot:RUNEUSDT",
+        "perpetual:RUNEUSDT"
+      ]
+    },
+    "XDC": {
+      "asset": "xdc-network",
+      "witnesses": [
+        "spot:XDCUSDT",
+        "perpetual:XDCUSDT"
+      ]
+    },
+    "HBAR": {
+      "asset": "hedera",
+      "witnesses": [
+        "spot:HBARUSDT",
+        "spot:HBARUSDC",
+        "perpetual:HBARPERP",
+        "perpetual:HBARUSDT"
+      ]
+    },
+    "STX": {
+      "asset": "stacks",
+      "witnesses": [
+        "spot:STXUSDT",
+        "spot:STXUSDC",
+        "perpetual:STXUSDT"
+      ]
+    },
+    "GMX": {
+      "asset": "gmx",
+      "witnesses": [
+        "spot:GMXUSDT",
+        "perpetual:GMXUSDT"
+      ]
+    },
+    "JST": {
+      "asset": "just",
+      "witnesses": [
+        "spot:JSTUSDT",
+        "perpetual:JSTUSDT"
+      ]
+    },
+    "SUN": {
+      "asset": "sun-token",
+      "witnesses": [
+        "spot:SUNUSDT",
+        "perpetual:SUNUSDT"
+      ]
+    },
+    "BTT": {
+      "asset": "bittorrent",
+      "witnesses": [
+        "spot:BTTUSDT"
+      ]
+    },
+    "APE": {
+      "asset": "apecoin",
+      "witnesses": [
+        "spot:APEUSDT",
+        "spot:APEUSDC",
+        "perpetual:APEUSDT"
+      ]
+    },
+    "WBTC": {
+      "asset": "wrapped-bitcoin",
+      "witnesses": [
+        "spot:WBTCUSDT",
+        "spot:WBTCBTC"
+      ]
+    },
+    "GMT": {
+      "asset": "green-metaverse-token",
+      "witnesses": [
+        "spot:GMTUSDT",
+        "spot:GMTUSDC",
+        "perpetual:GMTUSDT"
+      ]
+    },
+    "CELO": {
+      "asset": "celo",
+      "witnesses": [
+        "spot:CELOUSDT",
+        "perpetual:CELOUSDT"
+      ]
+    },
+    "OP": {
+      "asset": "optimism",
+      "witnesses": [
+        "spot:OPUSDT",
+        "spot:OPUSDC",
+        "perpetual:OPPERP",
+        "perpetual:OPUSDT"
+      ]
+    },
+    "FLOKI": {
+      "asset": "floki",
+      "witnesses": [
+        "spot:FLOKIUSDT",
+        "spot:FLOKIUSDC"
+      ]
+    },
+    "AR": {
+      "asset": "arweave",
+      "witnesses": [
+        "spot:ARUSDT",
+        "spot:ARUSDC",
+        "perpetual:ARUSDT"
+      ]
+    },
+    "INJ": {
+      "asset": "injective",
+      "witnesses": [
+        "spot:INJUSDT",
+        "spot:INJUSDC",
+        "perpetual:INJPERP",
+        "perpetual:INJUSDT"
+      ]
+    },
+    "APT": {
+      "asset": "aptos",
+      "witnesses": [
+        "spot:APTUSDT",
+        "spot:APTUSDC",
+        "perpetual:APTUSDT"
+      ]
+    },
+    "MASK": {
+      "asset": "mask-network",
+      "witnesses": [
+        "spot:MASKUSDT",
+        "perpetual:MASKUSDT"
+      ]
+    },
+    "TWT": {
+      "asset": "trust-wallet-token",
+      "witnesses": [
+        "spot:TWTUSDT",
+        "perpetual:TWTPERP",
+        "perpetual:TWTUSDT"
+      ]
+    },
+    "BONK": {
+      "asset": "bonk",
+      "witnesses": [
+        "spot:BONKUSDT",
+        "spot:BONKUSDC"
+      ]
+    },
+    "FLR": {
+      "asset": "flare",
+      "witnesses": [
+        "spot:FLRUSDT",
+        "perpetual:FLRUSDT"
+      ]
+    },
+    "CORE": {
+      "asset": "core",
+      "witnesses": [
+        "spot:COREUSDT",
+        "perpetual:COREUSDT"
+      ]
+    },
+    "BLUR": {
+      "asset": "blur",
+      "witnesses": [
+        "spot:BLURUSDT",
+        "perpetual:BLURUSDT"
+      ]
+    },
+    "ARB": {
+      "asset": "arbitrum",
+      "witnesses": [
+        "spot:ARBUSDC",
+        "spot:ARBUSDT",
+        "perpetual:ARBPERP",
+        "perpetual:ARBUSDT"
+      ]
+    },
+    "AXL": {
+      "asset": "axelar",
+      "witnesses": [
+        "spot:AXLUSDT",
+        "perpetual:AXLUSDT"
+      ]
+    },
+    "PEPE": {
+      "asset": "pepe",
+      "witnesses": [
+        "spot:PEPEUSDT",
+        "spot:PEPEEUR",
+        "spot:PEPEUSDC"
+      ]
+    },
+    "PENDLE": {
+      "asset": "pendle",
+      "witnesses": [
+        "spot:PENDLEUSDT",
+        "perpetual:PENDLEPERP",
+        "perpetual:PENDLEUSDT"
+      ]
+    },
+    "ARKM": {
+      "asset": "arkham",
+      "witnesses": [
+        "spot:ARKMUSDT",
+        "perpetual:ARKMUSDT"
+      ]
+    },
+    "WLD": {
+      "asset": "worldcoin",
+      "witnesses": [
+        "spot:WLDUSDC",
+        "spot:WLDUSDT",
+        "perpetual:WLDPERP",
+        "perpetual:WLDUSDT"
+      ]
+    },
+    "SEI": {
+      "asset": "sei",
+      "witnesses": [
+        "spot:SEIUSDT",
+        "spot:SEIUSDC",
+        "perpetual:SEIPERP",
+        "perpetual:SEIUSDT"
+      ]
+    },
+    "ORDI": {
+      "asset": "ordi",
+      "witnesses": [
+        "spot:ORDIUSDT",
+        "spot:ORDIUSDC",
+        "perpetual:ORDIPERP",
+        "perpetual:ORDIUSDT"
+      ]
+    },
+    "PYUSD": {
+      "asset": "paypal-usd",
+      "witnesses": [
+        "spot:PYUSDUSDT"
+      ]
+    },
+    "KAS": {
+      "asset": "kaspa",
+      "witnesses": [
+        "spot:KASUSDT",
+        "spot:KASUSDC",
+        "perpetual:KASPERP",
+        "perpetual:KASUSDT"
+      ]
+    },
+    "FET": {
+      "asset": "fetch-ai",
+      "witnesses": [
+        "spot:FETUSDT",
+        "spot:FETUSDC"
+      ]
+    },
+    "POL": {
+      "asset": "polygon",
+      "witnesses": [
+        "spot:POLUSDT",
+        "spot:POLUSDC",
+        "perpetual:POLPERP",
+        "perpetual:POLUSDT"
+      ]
+    },
+    "TIA": {
+      "asset": "celestia",
+      "witnesses": [
+        "spot:TIAUSDT",
+        "spot:TIAUSDC",
+        "perpetual:TIAPERP",
+        "perpetual:TIAUSDT"
+      ]
+    },
+    "PYTH": {
+      "asset": "pyth-network",
+      "witnesses": [
+        "spot:PYTHUSDT",
+        "spot:PYTHUSDC",
+        "perpetual:PYTHUSDT"
+      ]
+    },
+    "KCS": {
+      "asset": "kucoin-token",
+      "witnesses": [
+        "spot:KCSUSDT"
+      ]
+    },
+    "JTO": {
+      "asset": "jito",
+      "witnesses": [
+        "spot:JTOUSDT",
+        "spot:JTOUSDC",
+        "perpetual:JTOUSDT"
+      ]
+    },
+    "ONDO": {
+      "asset": "ondo",
+      "witnesses": [
+        "spot:ONDOUSDT",
+        "spot:ONDOEUR",
+        "spot:ONDOUSDC",
+        "perpetual:ONDOPERP",
+        "perpetual:ONDOUSDT"
+      ]
+    },
+    "MANTA": {
+      "asset": "manta-network",
+      "witnesses": [
+        "spot:MANTAUSDT",
+        "perpetual:MANTAUSDT"
+      ]
+    },
+    "DYM": {
+      "asset": "dymension",
+      "witnesses": [
+        "spot:DYMUSDT",
+        "perpetual:DYMUSDT"
+      ]
+    },
+    "JUP": {
+      "asset": "jupiter",
+      "witnesses": [
+        "spot:JUPUSDT",
+        "spot:JUPUSDC",
+        "perpetual:JUPUSDT"
+      ]
+    },
+    "ALT": {
+      "asset": "altlayer",
+      "witnesses": [
+        "spot:ALTUSDT",
+        "perpetual:ALTUSDT"
+      ]
+    },
+    "HTX": {
+      "asset": "htx-dao",
+      "witnesses": [
+        "spot:HTXUSDT"
+      ]
+    },
+    "STRK": {
+      "asset": "starknet",
+      "witnesses": [
+        "spot:STRKUSDC",
+        "spot:STRKUSDT",
+        "perpetual:STRKPERP",
+        "perpetual:STRKUSDT"
+      ]
+    },
+    "ETHFI": {
+      "asset": "ether-fi",
+      "witnesses": [
+        "spot:ETHFIUSDT",
+        "perpetual:ETHFIPERP",
+        "perpetual:ETHFIUSDT"
+      ]
+    },
+    "ENA": {
+      "asset": "ethena",
+      "witnesses": [
+        "spot:ENAUSDT",
+        "spot:ENAEUR",
+        "spot:ENAUSDC",
+        "perpetual:ENAPERP",
+        "perpetual:ENAUSDT"
+      ]
+    },
+    "W": {
+      "asset": "wormhole",
+      "witnesses": [
+        "spot:WUSDT",
+        "perpetual:WUSDT"
+      ]
+    },
+    "WIF": {
+      "asset": "dogwifcoin",
+      "witnesses": [
+        "spot:WIFUSDT",
+        "spot:WIFUSDC",
+        "perpetual:WIFPERP",
+        "perpetual:WIFUSDT"
+      ]
+    },
+    "NOT": {
+      "asset": "notcoin",
+      "witnesses": [
+        "spot:NOTUSDT",
+        "spot:NOTUSDC",
+        "perpetual:NOTPERP",
+        "perpetual:NOTUSDT"
+      ]
+    },
+    "IO": {
+      "asset": "io-net",
+      "witnesses": [
+        "spot:IOUSDT",
+        "perpetual:IOUSDT"
+      ]
+    },
+    "ATH": {
+      "asset": "aethir",
+      "witnesses": [
+        "spot:ATHUSDT",
+        "perpetual:ATHUSDT"
+      ]
+    },
+    "ZK": {
+      "asset": "zksync",
+      "witnesses": [
+        "spot:ZKUSDC",
+        "spot:ZKUSDT",
+        "perpetual:ZKUSDT"
+      ]
+    },
+    "ZRO": {
+      "asset": "layer-zero",
+      "witnesses": [
+        "spot:ZROUSDC",
+        "spot:ZROUSDT",
+        "perpetual:ZROUSDT"
+      ]
+    },
+    "BLAST": {
+      "asset": "blast",
+      "witnesses": [
+        "spot:BLASTUSDT",
+        "perpetual:BLASTUSDT"
+      ]
+    },
+    "RENDER": {
+      "asset": "render",
+      "witnesses": [
+        "spot:RENDERUSDT",
+        "spot:RENDERUSDC",
+        "perpetual:RENDERUSDT"
+      ]
+    },
+    "G": {
+      "asset": "gravity",
+      "witnesses": [
+        "spot:GUSDT"
+      ]
+    },
+    "CATI": {
+      "asset": "catizen",
+      "witnesses": [
+        "spot:CATIUSDT",
+        "spot:CATIUSDC",
+        "spot:CATIEUR",
+        "perpetual:CATIUSDT"
+      ]
+    },
+    "EIGEN": {
+      "asset": "eigen-layer",
+      "witnesses": [
+        "spot:EIGENUSDT",
+        "spot:EIGENUSDC",
+        "perpetual:EIGENPERP",
+        "perpetual:EIGENUSDT"
+      ]
+    },
+    "DBR": {
+      "asset": "debridge",
+      "witnesses": [
+        "spot:DBRUSDT",
+        "perpetual:DBRUSDT"
+      ]
+    },
+    "GRASS": {
+      "asset": "grass",
+      "witnesses": [
+        "spot:GRASSUSDT",
+        "perpetual:GRASSUSDT"
+      ]
+    },
+    "KAIA": {
+      "asset": "kaia",
+      "witnesses": [
+        "spot:KAIAUSDT",
+        "perpetual:KAIAUSDT"
+      ]
+    },
+    "MORPHO": {
+      "asset": "morpho",
+      "witnesses": [
+        "spot:MORPHOUSDT",
+        "perpetual:MORPHOUSDT"
+      ]
+    },
+    "VIRTUAL": {
+      "asset": "virtuals-protocol",
+      "witnesses": [
+        "spot:VIRTUALUSDT",
+        "spot:VIRTUALUSDC",
+        "perpetual:VIRTUALPERP",
+        "perpetual:VIRTUALUSDT"
+      ]
+    },
+    "PNUT": {
+      "asset": "peanut-the-squirrel",
+      "witnesses": [
+        "spot:PNUTUSDT",
+        "perpetual:PNUTPERP",
+        "perpetual:PNUTUSDT"
+      ]
+    },
+    "ME": {
+      "asset": "magic-eden",
+      "witnesses": [
+        "spot:MEUSDT",
+        "perpetual:MEUSDT"
+      ]
+    },
+    "AERO": {
+      "asset": "aerodrome",
+      "witnesses": [
+        "spot:AEROUSDT",
+        "perpetual:AEROUSDT"
+      ]
+    },
+    "VANA": {
+      "asset": "vana",
+      "witnesses": [
+        "spot:VANAUSDT",
+        "perpetual:VANAUSDT"
+      ]
+    },
+    "PENGU": {
+      "asset": "pudgy-penguins",
+      "witnesses": [
+        "spot:PENGUUSDT",
+        "perpetual:PENGUPERP",
+        "perpetual:PENGUUSDT"
+      ]
+    },
+    "S": {
+      "asset": "sonic",
+      "witnesses": [
+        "spot:SUSDT",
+        "spot:SUSDC",
+        "perpetual:SUSDT"
+      ]
+    },
+    "SOLV": {
+      "asset": "solv-protocol",
+      "witnesses": [
+        "spot:SOLVUSDT"
+      ]
+    },
+    "TRUMP": {
+      "asset": "official-trump",
+      "witnesses": [
+        "spot:TRUMPUSDT",
+        "spot:TRUMPUSDC",
+        "perpetual:TRUMPPERP",
+        "perpetual:TRUMPUSDT"
+      ]
+    },
+    "LAYER": {
+      "asset": "solayer",
+      "witnesses": [
+        "spot:LAYERUSDT"
+      ]
+    },
+    "BERA": {
+      "asset": "berachain",
+      "witnesses": [
+        "spot:BERAUSDT",
+        "perpetual:BERAUSDT"
+      ]
+    },
+    "USDTB": {
+      "asset": "ethena-usdtb",
+      "witnesses": [
+        "spot:USDTBUSDT"
+      ]
+    },
+    "RED": {
+      "asset": "redstone",
+      "witnesses": [
+        "spot:REDUSDT",
+        "perpetual:REDUSDT"
+      ]
+    },
+    "VVV": {
+      "asset": "venice-token",
+      "witnesses": [
+        "spot:VVVUSDT",
+        "perpetual:VVVUSDT"
+      ]
+    },
+    "XAUT": {
+      "asset": "tether-gold",
+      "witnesses": [
+        "spot:XAUTUSDT",
+        "perpetual:XAUTPERP",
+        "perpetual:XAUTUSDT"
+      ]
+    },
+    "VET": {
+      "asset": "vechain",
+      "witnesses": [
+        "spot:VETUSDT",
+        "perpetual:VETUSDT"
+      ]
+    },
+    "USD1": {
+      "asset": "usd1",
+      "witnesses": [
+        "spot:USD1USDT",
+        "spot:MNTUSD1",
+        "spot:USDCUSD1",
+        "spot:ETHUSD1",
+        "spot:BTCUSD1",
+        "perpetual:USD1USDT"
+      ]
+    },
+    "HYPE": {
+      "asset": "hyperliquid",
+      "witnesses": [
+        "spot:HYPEUSDT",
+        "perpetual:HYPEPERP",
+        "perpetual:HYPEUSDT"
+      ]
+    },
+    "PUMP": {
+      "asset": "pump",
+      "witnesses": [
+        "spot:PUMPUSDT",
+        "spot:PUMPUSDC"
+      ]
+    },
+    "WLFI": {
+      "asset": "world-liberty-financial",
+      "witnesses": [
+        "spot:WLFIUSDT",
+        "perpetual:WLFIPERP",
+        "perpetual:WLFIUSDT"
+      ]
+    },
+    "SKY": {
+      "asset": "sky",
+      "witnesses": [
+        "spot:SKYUSDT",
+        "perpetual:SKYUSDT"
+      ]
+    },
+    "AVNT": {
+      "asset": "avantis",
+      "witnesses": [
+        "spot:AVNTUSDT",
+        "perpetual:AVNTPERP",
+        "perpetual:AVNTUSDT"
+      ]
+    },
+    "LINEA": {
+      "asset": "linea",
+      "witnesses": [
+        "spot:LINEAUSDT",
+        "perpetual:LINEAUSDT"
+      ]
+    },
+    "ASTER": {
+      "asset": "aster",
+      "witnesses": [
+        "spot:ASTERUSDT",
+        "perpetual:ASTERPERP",
+        "perpetual:ASTERUSDT"
+      ]
+    },
+    "XPL": {
+      "asset": "plasma",
+      "witnesses": [
+        "spot:XPLUSDT",
+        "perpetual:XPLPERP",
+        "perpetual:XPLUSDT"
+      ]
+    },
+    "RLUSD": {
+      "asset": "ripple-usd",
+      "witnesses": [
+        "spot:RLUSDUSDT",
+        "spot:BTCRLUSD",
+        "spot:XRPRLUSD",
+        "spot:ETHRLUSD",
+        "perpetual:RLUSDUSDT"
+      ]
+    },
+    "CC": {
+      "asset": "canton",
+      "witnesses": [
+        "spot:CCUSDT",
+        "spot:CCUSDC",
+        "perpetual:CCUSDT"
+      ]
+    },
+    "MON": {
+      "asset": "monad",
+      "witnesses": [
+        "spot:MONUSDT",
+        "perpetual:MONUSDT"
+      ]
+    },
+    "LIT": {
+      "asset": "lighter",
+      "witnesses": [
+        "spot:LITUSDT",
+        "perpetual:LITUSDT"
+      ]
+    },
+    "FRAX": {
+      "asset": "frax-share",
+      "witnesses": [
+        "spot:FRAXUSDT"
+      ]
+    },
+    "USDS": {
+      "asset": "sky-usd",
+      "witnesses": [
+        "spot:USDSUSDT"
+      ]
+    },
+    "T": {
+      "asset": "threshold-network",
+      "witnesses": [
+        "perpetual:TUSDT"
+      ]
+    }
+  },
+  "network_additions": {
+    "BERA": {
+      "platform": "berachain",
+      "chainType": "Berachain"
+    },
+    "BLAST": {
+      "platform": "blast",
+      "chainType": "Blast"
+    },
+    "CELO": {
+      "platform": "celo",
+      "chainType": "CELO"
+    },
+    "CELESTIA": {
+      "platform": "celestia",
+      "chainType": "Celestia"
+    },
+    "FIL": {
+      "platform": "filecoin",
+      "chainType": "Filecoin"
+    },
+    "HYPEREVM": {
+      "platform": "hyperevm",
+      "chainType": "HyperEVM"
+    },
+    "ICP": {
+      "platform": "internet-computer",
+      "chainType": "ICP"
+    },
+    "INJ": {
+      "platform": "injective",
+      "chainType": "INJ"
+    },
+    "KLAY": {
+      "platform": "kaia",
+      "chainType": "KAIA"
+    },
+    "MANTA": {
+      "platform": "manta-network",
+      "chainType": "Manta Pacific Mainnet"
+    },
+    "MONAD": {
+      "platform": "monad",
+      "chainType": "Monad"
+    },
+    "MOVE": {
+      "platform": "movement",
+      "chainType": "Movement Network"
+    },
+    "SCROLL": {
+      "platform": "scroll",
+      "chainType": "Scroll"
+    },
+    "STX": {
+      "platform": "stacks",
+      "chainType": "Stacks"
+    },
+    "TAIKO": {
+      "platform": "taiko",
+      "chainType": "Taiko Chain"
+    },
+    "VANA": {
+      "platform": "vana",
+      "chainType": "VANA"
+    },
+    "VECHAIN": {
+      "platform": "vechain",
+      "chainType": "VeChain"
+    },
+    "XDC": {
+      "platform": "xdc-network",
+      "chainType": "XDC"
+    },
+    "XTZ": {
+      "platform": "tezos",
+      "chainType": "tezos"
+    }
+  },
+  "base_commit": "720d172",
+  "observed_date": "2026-09-19",
+  "raw_coverage": {
+    "earn_instruments": {
+      "observations": 285,
+      "before": {
+        "resolved_observations": 54,
+        "asset_miss_observations": 231,
+        "missing_distinct_assets": 226,
+        "missing_distinct_networks": 0
+      },
+      "after": {
+        "resolved_observations": 177,
+        "asset_miss_observations": 108,
+        "missing_assets": [
+          "0G",
+          "2Z",
+          "A",
+          "ACH",
+          "AEVO",
+          "AGLD",
+          "AIXBT",
+          "ANIME",
+          "BARD",
+          "BASED",
+          "BB",
+          "BICO",
+          "BILL",
+          "BMT",
+          "BOME",
+          "BREV",
+          "BSB",
+          "CFG",
+          "CGPT",
+          "CHIP",
+          "COOKIE",
+          "CYBER",
+          "DATA",
+          "DEEP",
+          "DOGS",
+          "EDGE",
+          "EGLD",
+          "ENJ",
+          "ENSO",
+          "F",
+          "FF",
+          "FLOW",
+          "FOGO",
+          "GPS",
+          "GRAM",
+          "GRVT",
+          "H",
+          "HMSTR",
+          "HNT",
+          "HOLO",
+          "HOME",
+          "HUMA",
+          "HYPER",
+          "ID",
+          "INIT",
+          "KAVA",
+          "KMNO",
+          "LUNA",
+          "LUNC",
+          "MAGIC",
+          "MEGA",
+          "MEME",
+          "MERL",
+          "MET",
+          "MEW",
+          "MINA",
+          "MMT",
+          "NEIROCTO",
+          "NEWT",
+          "NIGHT",
+          "NXPC",
+          "OPG",
+          "OPN",
+          "PARTI",
+          "PEOPLE",
+          "PLUME",
+          "POPCAT",
+          "PROVE",
+          "QTUM",
+          "RECALL",
+          "RESOLV",
+          "ROBO",
+          "ROSE",
+          "RPL",
+          "RVN",
+          "SAFE",
+          "SATS",
+          "SC",
+          "SCR",
+          "SENT",
+          "SIGN",
+          "SKR",
+          "SLX",
+          "SOMI",
+          "SPK",
+          "SPX",
+          "SSV",
+          "SXT",
+          "TNSR",
+          "TOWNS",
+          "TREE",
+          "VELO",
+          "VTHO",
+          "WAL",
+          "WAXP",
+          "WCT",
+          "XAI",
+          "YB",
+          "ZAMA",
+          "ZBT",
+          "ZEN",
+          "ZETA",
+          "ZIG",
+          "ZKC",
+          "ZKP",
+          "ZORA",
+          "ZRX"
+        ],
+        "missing_networks": []
+      }
+    },
+    "deposit_methods": {
+      "observations": 569,
+      "before": {
+        "resolved_observations": 62,
+        "asset_miss_observations": 491,
+        "missing_distinct_assets": 370,
+        "missing_distinct_networks": 73
+      },
+      "after": {
+        "resolved_observations": 228,
+        "asset_miss_observations": 321,
+        "missing_assets": [
+          "0G",
+          "2Z",
+          "A",
+          "A8",
+          "AAPLX",
+          "ACH",
+          "ACS",
+          "AEDZ",
+          "AEVO",
+          "AGI",
+          "AGLD",
+          "AIOZ",
+          "AIXBT",
+          "ALCH",
+          "AMZNX",
+          "ANIME",
+          "APEX",
+          "ARX",
+          "AURORA",
+          "AVAIL",
+          "AVL",
+          "AZTEC",
+          "B3",
+          "BABY1",
+          "BABYDOGE",
+          "BAN",
+          "BARD",
+          "BASED",
+          "BB",
+          "BEAM",
+          "BEL",
+          "BICO",
+          "BILL",
+          "BIRB",
+          "BLEND",
+          "BMT",
+          "BOBA",
+          "BOME",
+          "BR",
+          "BRETT",
+          "BREV",
+          "BSB",
+          "C98",
+          "CAP",
+          "CARV",
+          "CAT",
+          "CFG",
+          "CGPT",
+          "CHILLGUY",
+          "CHIP",
+          "CITY",
+          "CLOUD",
+          "COINX",
+          "COOK",
+          "COOKIE",
+          "CORN",
+          "CPOOL",
+          "CRCLX",
+          "CSPR",
+          "CTC",
+          "CYBER",
+          "DATA",
+          "DEEP",
+          "DEGEN",
+          "DIAM",
+          "DOGS",
+          "DOLO",
+          "DOOD",
+          "DRIFT",
+          "EDGE",
+          "ELSA",
+          "ENJ",
+          "ENSO",
+          "ERA",
+          "ESE",
+          "ETHW",
+          "F",
+          "FBTC",
+          "FF",
+          "FHE",
+          "FIDA",
+          "FIGHT",
+          "FLOCK",
+          "FLOW",
+          "FLUID",
+          "FOGO",
+          "FORT",
+          "FTT",
+          "GAIB",
+          "GLMR",
+          "GOAT",
+          "GOOGLX",
+          "GPS",
+          "GPTOLD",
+          "GRAM",
+          "GROVE",
+          "GRVT",
+          "H",
+          "HAEDAL",
+          "HFT",
+          "HMSTR",
+          "HNT",
+          "HOLO",
+          "HOME",
+          "HOODX",
+          "HUMA",
+          "HYPER",
+          "ICNT",
+          "ID",
+          "INIT",
+          "JUV",
+          "KAVA",
+          "KII",
+          "KMNO",
+          "KUB",
+          "LA",
+          "LAVA",
+          "LMWR",
+          "LRC",
+          "LUNA",
+          "LUNC",
+          "MAGIC",
+          "MAJOR",
+          "MANTRA",
+          "MAVIA",
+          "MBX",
+          "MCDX",
+          "MCRT",
+          "MEE",
+          "MEGA",
+          "MEME",
+          "MERL",
+          "MET",
+          "METAX",
+          "MEW",
+          "MINA",
+          "MMT",
+          "MOCA",
+          "MOG",
+          "MOVR",
+          "MPLX",
+          "NAVX",
+          "NEIROCTO",
+          "NEON",
+          "NEWT",
+          "NFT",
+          "NIGHT",
+          "NOM",
+          "NS",
+          "NVDAX",
+          "NXPC",
+          "NYM",
+          "OBT",
+          "OPG",
+          "OPN",
+          "ORDER",
+          "PARTI",
+          "PEOPLE",
+          "PIEVERSE",
+          "PLUME",
+          "POPCAT",
+          "PORTAL",
+          "PRIME",
+          "PROVE",
+          "PSG",
+          "PUFFER",
+          "PYBOBO",
+          "QTUM",
+          "RATS",
+          "RECALL",
+          "RESOLV",
+          "ROAM",
+          "ROBO",
+          "ROSE",
+          "RPL",
+          "RVN",
+          "SAFE",
+          "SAHARA",
+          "SATS",
+          "SC",
+          "SCOR",
+          "SCR",
+          "SD",
+          "SENT",
+          "SIGN",
+          "SKR",
+          "SLX",
+          "SOMI",
+          "SOSO",
+          "SPCXX",
+          "SPK",
+          "SPX",
+          "SQD",
+          "SSV",
+          "STABLE",
+          "SUNDOG",
+          "SUPRA",
+          "SWELL",
+          "SXT",
+          "TA",
+          "TAC",
+          "TNSR",
+          "TOSHI",
+          "TOWNS",
+          "TREE",
+          "TRIA",
+          "TSLAX",
+          "USAT",
+          "USDCX",
+          "USDPT",
+          "USDY",
+          "USTC",
+          "VELO",
+          "VERONA",
+          "VOOI",
+          "VTHO",
+          "WAL",
+          "WAVES",
+          "WAXP",
+          "WCT",
+          "WEMIX",
+          "WET",
+          "WMNT",
+          "XAI",
+          "XAN",
+          "XUSD",
+          "YB",
+          "ZAMA",
+          "ZBT",
+          "ZEN",
+          "ZENT",
+          "ZEREBRO",
+          "ZETA",
+          "ZIG",
+          "ZKC",
+          "ZKJ",
+          "ZKP",
+          "ZORA",
+          "ZRX"
+        ],
+        "missing_networks": [
+          "AR",
+          "ARC",
+          "AVAIL",
+          "AXL",
+          "BBN",
+          "CANTON",
+          "CHILIZ",
+          "CODEX",
+          "CORE",
+          "CSPR",
+          "DOTAH",
+          "DYDX",
+          "DYM",
+          "DYMEVM",
+          "ENJIN",
+          "EOS",
+          "ETC",
+          "ETHW",
+          "FLOW",
+          "FLR",
+          "FOGO",
+          "FRAXTAL",
+          "INIT",
+          "KAS",
+          "KAVA",
+          "KAVAEVM",
+          "LUNA",
+          "LUNANEW",
+          "MANTRA",
+          "MATIC.E",
+          "MEGAETH",
+          "MERLIN",
+          "MINA",
+          "PLUME",
+          "QTUM",
+          "ROSE",
+          "RUNE",
+          "RVN",
+          "SC",
+          "SOMNIA",
+          "STABLE",
+          "STORY",
+          "SUPRA",
+          "THETA",
+          "WAVES",
+          "WAXP",
+          "WEMIX",
+          "XAI",
+          "XAVAX",
+          "XION",
+          "ZEROGRAVITY",
+          "ZETA",
+          "ZETAEVM",
+          "ZIG"
+        ]
+      }
+    },
+    "withdrawal_methods": {
+      "observations": 848,
+      "before": {
+        "resolved_observations": 64,
+        "asset_miss_observations": 770,
+        "missing_distinct_assets": 681,
+        "missing_distinct_networks": 80
+      },
+      "after": {
+        "resolved_observations": 224,
+        "asset_miss_observations": 606,
+        "missing_assets": [
+          "0G",
+          "1SOL",
+          "2Z",
+          "3P",
+          "5IRE",
+          "A",
+          "A8",
+          "AAPLX",
+          "AARK",
+          "ACH",
+          "ACS",
+          "AEDZ",
+          "AEG",
+          "AEVO",
+          "AFC",
+          "AFG",
+          "AGI",
+          "AGLA",
+          "AGLD",
+          "AIDOGE",
+          "AIOZ",
+          "AIXBT",
+          "AKI",
+          "ALCH",
+          "ALMANAK",
+          "AMI",
+          "AMZNX",
+          "ANIME",
+          "AO",
+          "APEX",
+          "APP",
+          "APRS",
+          "APTR",
+          "ART",
+          "ARTY",
+          "ARX",
+          "ASRR",
+          "AURORA",
+          "AURY",
+          "AVAIL",
+          "AVAOLD",
+          "AVL",
+          "AZTEC",
+          "B3",
+          "B3TR",
+          "BABY1",
+          "BABYDOGE",
+          "BAN",
+          "BANA",
+          "BARD",
+          "BASED",
+          "BB",
+          "BBL",
+          "BBQ",
+          "BCUT",
+          "BDXN",
+          "BEAM",
+          "BEL",
+          "BICO",
+          "BILL",
+          "BIRB",
+          "BLEND",
+          "BLOCK",
+          "BMT",
+          "BNT",
+          "BOBA",
+          "BOMB",
+          "BOME",
+          "BONUS",
+          "BR",
+          "BRAWL",
+          "BRETT",
+          "BREV",
+          "BRZ",
+          "BRZOLD",
+          "BSB",
+          "BUBBLE",
+          "C98",
+          "CAMP",
+          "CAP",
+          "CAPS",
+          "CARV",
+          "CAT",
+          "CATS",
+          "CBK",
+          "CBX",
+          "CEL",
+          "CFG",
+          "CGPT",
+          "CHILLGUY",
+          "CHIP",
+          "CHRP",
+          "CITY",
+          "CLEAR",
+          "CLOUD",
+          "COA",
+          "COINX",
+          "COMMON",
+          "COOK",
+          "COOKIE",
+          "COQ",
+          "CORN",
+          "COT",
+          "CPOOL",
+          "CRCLX",
+          "CSPR",
+          "CTA",
+          "CTC",
+          "CTT",
+          "CUDIS",
+          "CUSD",
+          "CYBER",
+          "DAPP",
+          "DATA",
+          "DEEP",
+          "DEFI",
+          "DEFY",
+          "DEGEN",
+          "DIAM",
+          "DICE",
+          "DLC",
+          "DMAIL",
+          "DOGS",
+          "DOLO",
+          "DOME",
+          "DOOD",
+          "DOP1",
+          "DRIFT",
+          "DSRUN",
+          "DUEL",
+          "EAT",
+          "EDGE",
+          "EGO",
+          "EGP1",
+          "ELDA",
+          "ELDE",
+          "ELIX",
+          "ELIZAOS",
+          "ELON",
+          "ELSA",
+          "ELX",
+          "ENJ",
+          "ENSO",
+          "EPT",
+          "ERA",
+          "ERTHA",
+          "ES",
+          "ESE",
+          "ETHW",
+          "EVER",
+          "EVERY",
+          "EXVG",
+          "F",
+          "FAME",
+          "FAR",
+          "FB",
+          "FBTC",
+          "FF",
+          "FHE",
+          "FIDA",
+          "FIGHT",
+          "FIRE",
+          "FLIP",
+          "FLOCK",
+          "FLOW",
+          "FLT",
+          "FLUID",
+          "FMB",
+          "FMC",
+          "FOGO",
+          "FORT",
+          "FOXY",
+          "FRAG",
+          "FTT",
+          "FUEL",
+          "G3",
+          "G7",
+          "GAIB",
+          "GALAXIS",
+          "GALFT",
+          "GAME",
+          "GCAKE",
+          "GENE",
+          "GG",
+          "GLMR",
+          "GMRX",
+          "GOAT",
+          "GODS",
+          "GOOGLX",
+          "GPS",
+          "GPTOLD",
+          "GRAM",
+          "GRAPE",
+          "GROVE",
+          "GRVT",
+          "GST",
+          "GSTS",
+          "GSWIFT",
+          "GTAI",
+          "GUMMY",
+          "H",
+          "HAEDAL",
+          "HAT",
+          "HFT",
+          "HLG",
+          "HMSTR",
+          "HNT",
+          "HOLO",
+          "HOME",
+          "HOODX",
+          "HOOK",
+          "HOT",
+          "HPOS10I",
+          "HUMA",
+          "HVH",
+          "HYPER",
+          "ICNT",
+          "ICX",
+          "ID",
+          "IMU",
+          "INIT",
+          "INSP",
+          "INTER",
+          "IRL",
+          "IZI",
+          "J",
+          "JEFF",
+          "JUV",
+          "K",
+          "KARATE",
+          "KASTA",
+          "KAVA",
+          "KII",
+          "KILO",
+          "KMNO",
+          "KMON",
+          "KUB",
+          "KUNCI",
+          "L3",
+          "LA",
+          "LADYS",
+          "LAI",
+          "LAVA",
+          "LBTC",
+          "LEVER",
+          "LFT",
+          "LGX",
+          "LIS",
+          "LITKEY",
+          "LL",
+          "LMWR",
+          "LOOKS",
+          "LRC",
+          "LUCE",
+          "LUNA",
+          "LUNAI",
+          "LUNC",
+          "MAGIC",
+          "MAJOR",
+          "MAK",
+          "MAKOLD",
+          "MANTRA",
+          "MASA",
+          "MAVIA",
+          "MBOX",
+          "MBS",
+          "MBX",
+          "MCDX",
+          "MCG",
+          "MCRT",
+          "MDAO",
+          "MEE",
+          "MEGA",
+          "MELOS",
+          "MEME",
+          "MEMEFI",
+          "MERL",
+          "MET",
+          "METAX",
+          "MEW",
+          "MFER",
+          "MILK",
+          "MINA",
+          "MIX",
+          "MMT",
+          "MNRY",
+          "MNZ",
+          "MOCA",
+          "MOG",
+          "MOJO",
+          "MONG",
+          "MONPRO",
+          "MOVR",
+          "MOZ",
+          "MPLX",
+          "MSTAR",
+          "MUSD",
+          "MV",
+          "MVL",
+          "MXM",
+          "MYRIA",
+          "N3",
+          "NAKA",
+          "NAVX",
+          "NEIRO",
+          "NEIROCTO",
+          "NEON",
+          "NESS",
+          "NEWT",
+          "NFT",
+          "NGL",
+          "NIGHT",
+          "NLK",
+          "NOM",
+          "NRN",
+          "NS",
+          "NUTS",
+          "NVDAX",
+          "NXPC",
+          "NYAN",
+          "NYM",
+          "OAS",
+          "OBOL",
+          "OBT",
+          "OBX",
+          "ODOS",
+          "OIK",
+          "OL",
+          "OMG",
+          "OPG",
+          "OPN",
+          "ORDER",
+          "ORT",
+          "PAAL",
+          "PARAM",
+          "PARTI",
+          "PAWS",
+          "PBUX",
+          "PELL",
+          "PENGUIN",
+          "PEOPLE",
+          "PEPE2NEW",
+          "PERP",
+          "PFVS",
+          "PIEVERSE",
+          "PINEYE",
+          "PIP",
+          "PIRATE",
+          "PIXFI",
+          "PLANET",
+          "PLAYOLD",
+          "PLT",
+          "PLUME",
+          "POKT",
+          "PONKE",
+          "POPCAT",
+          "PORT3",
+          "PORTAL",
+          "PORTALS",
+          "PPT",
+          "PRCL",
+          "PRIME",
+          "PROVE",
+          "PSG",
+          "PSTAKE",
+          "PTC",
+          "PTU",
+          "PUFF",
+          "PUFFER",
+          "PUMLX",
+          "PUMPBTC",
+          "PURSE",
+          "PYBOBO",
+          "QMALL",
+          "QORPO",
+          "QTUM",
+          "RACA",
+          "RAIN",
+          "RATS",
+          "RDNT",
+          "RDNTOLD",
+          "REAL",
+          "RECALL",
+          "REN",
+          "RESOLV",
+          "ROAM",
+          "ROBO",
+          "ROND",
+          "ROOT",
+          "ROSE",
+          "RPK",
+          "RPL",
+          "RSS3",
+          "RVN",
+          "SAFE",
+          "SAHARA",
+          "SAIL",
+          "SALD",
+          "SAROS",
+          "SATS",
+          "SC",
+          "SCA",
+          "SCOR",
+          "SCR",
+          "SCRT",
+          "SD",
+          "SEILOR",
+          "SEND",
+          "SENT",
+          "SEOR",
+          "SERAPH",
+          "SFUND",
+          "SHARDS",
+          "SHRAP",
+          "SIDUS",
+          "SIGN",
+          "SIS",
+          "SKATE",
+          "SKR",
+          "SLP",
+          "SLX",
+          "SMILE",
+          "SOCIAL",
+          "SOLO",
+          "SOMI",
+          "SON",
+          "SOSO",
+          "SPARTA",
+          "SPCXX",
+          "SPEC",
+          "SPELL",
+          "SPK",
+          "SPONGE",
+          "SPX",
+          "SQD",
+          "SQR",
+          "SQT",
+          "SSV",
+          "STABLE",
+          "STAR",
+          "STAT",
+          "STC",
+          "STG",
+          "STOP",
+          "STREAM",
+          "SUNDOG",
+          "SUPRA",
+          "SVL",
+          "SWEAT",
+          "SWELL",
+          "SXT",
+          "SYND",
+          "TA",
+          "TAC",
+          "TAI",
+          "TAP",
+          "TAVA",
+          "TESTBOB",
+          "TGT",
+          "THN",
+          "THRUST",
+          "TIME",
+          "TNSR",
+          "TOKEN",
+          "TOMI",
+          "TOSHI",
+          "TOWNS",
+          "TRC",
+          "TREE",
+          "TRIA",
+          "TRVL",
+          "TSLAX",
+          "TST",
+          "TUNA",
+          "TURBO",
+          "TURBOS",
+          "TUSD",
+          "U",
+          "ULTI",
+          "USAT",
+          "USDC.E",
+          "USDCX",
+          "USDD",
+          "USDPT",
+          "USDQ",
+          "USDR",
+          "USDT.E",
+          "USDY",
+          "USTC",
+          "UXLINK",
+          "VANRY",
+          "VELA",
+          "VELAR",
+          "VELO",
+          "VERONA",
+          "VEXT",
+          "VIC",
+          "VINU",
+          "VOOI",
+          "VPAD",
+          "VPR",
+          "VRA",
+          "VRTX",
+          "VTHO",
+          "WAL",
+          "WAVES",
+          "WAXP",
+          "WCT",
+          "WEETH",
+          "WELL",
+          "WEMIX",
+          "WEN",
+          "WET",
+          "WHITEWHALE",
+          "WLKN",
+          "WMNT",
+          "WOJAK",
+          "WWY",
+          "X",
+          "XAI",
+          "XAN",
+          "XAR",
+          "XAVA",
+          "XCAD",
+          "XETA",
+          "XTER",
+          "XUSD",
+          "XZK",
+          "YB",
+          "ZAMA",
+          "ZAP",
+          "ZBT",
+          "ZEN",
+          "ZEND",
+          "ZENT",
+          "ZEREBRO",
+          "ZERO",
+          "ZETA",
+          "ZEX",
+          "ZIG",
+          "ZKC",
+          "ZKJ",
+          "ZKL",
+          "ZKP",
+          "ZORA",
+          "ZRC",
+          "ZRX",
+          "ZTX"
+        ],
+        "missing_networks": [
+          "AO",
+          "AR",
+          "ARC",
+          "AVAIL",
+          "AXL",
+          "BBN",
+          "CAMP",
+          "CANTON",
+          "CHILIZ",
+          "CODEX",
+          "CORE",
+          "CSPR",
+          "DOTAH",
+          "DYDX",
+          "DYM",
+          "ECLIPSE",
+          "ENJIN",
+          "EOS",
+          "ETC",
+          "ETHW",
+          "FLOW",
+          "FLR",
+          "FOGO",
+          "FRAXTAL",
+          "ICX",
+          "IMMUTABLE",
+          "INIT",
+          "KAS",
+          "KAVA",
+          "KAVAEVM",
+          "LUNA",
+          "LUNANEW",
+          "MANTRA",
+          "MATIC.E",
+          "MEGAETH",
+          "MERLIN",
+          "MINA",
+          "OAS",
+          "PLUME",
+          "QTUM",
+          "ROSE",
+          "RUNE",
+          "RVN",
+          "SC",
+          "SCRT",
+          "SOMNIA",
+          "STABLE",
+          "STORY",
+          "SUPRA",
+          "THETA",
+          "VIC",
+          "WAVES",
+          "WAXP",
+          "WEMIX",
+          "XAI",
+          "XAVAX",
+          "XION",
+          "ZEROGRAVITY",
+          "ZETA",
+          "ZETAEVM",
+          "ZIG",
+          "ZIRCUIT"
+        ]
+      }
+    }
+  },
+  "source_urls": [
+    "https://api.bybit.com/v5/market/instruments-info?category=spot",
+    "https://api.bybit.com/v5/market/instruments-info?category=linear&limit=1000",
+    "https://api.bybit.com/v5/asset/coin/query-info"
+  ],
+  "consistency_validation": {
+    "statuses": {
+      "pass": 1041
+    },
+    "policy_satisfied": true,
+    "offline_verifier_passed": true,
+    "coverage_is_exhaustive": false
+  }
+}
