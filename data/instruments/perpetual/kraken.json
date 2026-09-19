@@ -1041,5 +1041,68 @@
     "quote": "usd",
     "settlement": "xrp",
     "url": "https://futures.kraken.com/trade/futures/PI_XRPUSD"
+  },
+  "PF_KAVAUSD": {
+    "exchange": "perp",
+    "base": "kava",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_KAVAUSD"
+  },
+  "PF_KSMUSD": {
+    "exchange": "perp",
+    "base": "kusama",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_KSMUSD"
+  },
+  "PF_FLOWUSD": {
+    "exchange": "perp",
+    "base": "flow",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_FLOWUSD"
+  },
+  "PF_SUSHIUSD": {
+    "exchange": "perp",
+    "base": "sushi",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SUSHIUSD"
+  },
+  "PF_MINAUSD": {
+    "exchange": "perp",
+    "base": "mina-protocol",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_MINAUSD"
+  },
+  "PF_STGUSD": {
+    "exchange": "perp",
+    "base": "stargate-finance",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_STGUSD"
+  },
+  "PF_ORCAUSD": {
+    "exchange": "perp",
+    "base": "orca",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ORCAUSD"
+  },
+  "PF_SPXUSD": {
+    "exchange": "perp",
+    "base": "spx6900",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SPXUSD"
+  },
+  "PF_2ZUSD": {
+    "exchange": "perp",
+    "base": "doublezero",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_2ZUSD"
   }
 }
