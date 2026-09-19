@@ -1,0 +1,635 @@
+{
+  "1000BONK_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.deribit.com/futures/1000BONK_USDC-PERPETUAL"
+  },
+  "1000PEPE_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.deribit.com/futures/1000PEPE_USDC-PERPETUAL"
+  },
+  "1000SHIB_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.deribit.com/futures/1000SHIB_USDC-PERPETUAL"
+  },
+  "AAPL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/AAPL_USDC-PERPETUAL"
+  },
+  "AAVE_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/AAVE_USDC-PERPETUAL"
+  },
+  "ADA_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ADA_USDC-PERPETUAL"
+  },
+  "AERO_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "aerodrome",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/AERO_USDC-PERPETUAL"
+  },
+  "ALGO_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "algorand",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ALGO_USDC-PERPETUAL"
+  },
+  "ALT_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "altlayer",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ALT_USDC-PERPETUAL"
+  },
+  "AMZN_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/AMZN_USDC-PERPETUAL"
+  },
+  "APE_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "apecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/APE_USDC-PERPETUAL"
+  },
+  "APT_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/APT_USDC-PERPETUAL"
+  },
+  "ARB_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ARB_USDC-PERPETUAL"
+  },
+  "ASTER_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ASTER_USDC-PERPETUAL"
+  },
+  "ATOM_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "cosmos",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ATOM_USDC-PERPETUAL"
+  },
+  "AVAX_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/AVAX_USDC-PERPETUAL"
+  },
+  "AVNT_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "avantis",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/AVNT_USDC-PERPETUAL"
+  },
+  "BCH_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/BCH_USDC-PERPETUAL"
+  },
+  "BERA_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "berachain",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/BERA_USDC-PERPETUAL"
+  },
+  "BNB_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/BNB_USDC-PERPETUAL"
+  },
+  "BRENTOIL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/BRENTOIL_USDC-PERPETUAL"
+  },
+  "BTC_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/BTC_USDC-PERPETUAL"
+  },
+  "CFX_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "conflux",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/CFX_USDC-PERPETUAL"
+  },
+  "COMP_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "compound",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/COMP_USDC-PERPETUAL"
+  },
+  "CRV_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/CRV_USDC-PERPETUAL"
+  },
+  "DASH_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "dash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/DASH_USDC-PERPETUAL"
+  },
+  "DOGE_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/DOGE_USDC-PERPETUAL"
+  },
+  "DOT_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/DOT_USDC-PERPETUAL"
+  },
+  "DYDX_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "dydx",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/DYDX_USDC-PERPETUAL"
+  },
+  "EIGEN_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "eigen-layer",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/EIGEN_USDC-PERPETUAL"
+  },
+  "ENA_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ENA_USDC-PERPETUAL"
+  },
+  "ETC_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ETC_USDC-PERPETUAL"
+  },
+  "ETH_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ETH_USDC-PERPETUAL"
+  },
+  "ETHFI_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ETHFI_USDC-PERPETUAL"
+  },
+  "FARTCOIN_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/FARTCOIN_USDC-PERPETUAL"
+  },
+  "FET_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "fetch-ai",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/FET_USDC-PERPETUAL"
+  },
+  "FIL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/FIL_USDC-PERPETUAL"
+  },
+  "GOLD_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/GOLD_USDC-PERPETUAL"
+  },
+  "GOOGL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/GOOGL_USDC-PERPETUAL"
+  },
+  "HBAR_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/HBAR_USDC-PERPETUAL"
+  },
+  "HYPE_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/HYPE_USDC-PERPETUAL"
+  },
+  "ICP_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ICP_USDC-PERPETUAL"
+  },
+  "INJ_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/INJ_USDC-PERPETUAL"
+  },
+  "JASMY_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "jasmycoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/JASMY_USDC-PERPETUAL"
+  },
+  "JTO_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/JTO_USDC-PERPETUAL"
+  },
+  "JUP_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/JUP_USDC-PERPETUAL"
+  },
+  "LDO_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/LDO_USDC-PERPETUAL"
+  },
+  "LINK_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/LINK_USDC-PERPETUAL"
+  },
+  "LIT_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/LIT_USDC-PERPETUAL"
+  },
+  "LTC_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/LTC_USDC-PERPETUAL"
+  },
+  "META_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/META_USDC-PERPETUAL"
+  },
+  "MON_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/MON_USDC-PERPETUAL"
+  },
+  "MORPHO_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "morpho",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/MORPHO_USDC-PERPETUAL"
+  },
+  "MSFT_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/MSFT_USDC-PERPETUAL"
+  },
+  "MSTR_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/MSTR_USDC-PERPETUAL"
+  },
+  "NEAR_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/NEAR_USDC-PERPETUAL"
+  },
+  "NVDA_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/NVDA_USDC-PERPETUAL"
+  },
+  "ONDO_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ONDO_USDC-PERPETUAL"
+  },
+  "OP_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/OP_USDC-PERPETUAL"
+  },
+  "PAXG_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/PAXG_USDC-PERPETUAL"
+  },
+  "PENDLE_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/PENDLE_USDC-PERPETUAL"
+  },
+  "PENGU_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/PENGU_USDC-PERPETUAL"
+  },
+  "PNUT_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "peanut-the-squirrel",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/PNUT_USDC-PERPETUAL"
+  },
+  "PUMP_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/PUMP_USDC-PERPETUAL"
+  },
+  "PYTH_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/PYTH_USDC-PERPETUAL"
+  },
+  "RENDER_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/RENDER_USDC-PERPETUAL"
+  },
+  "RUNE_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "thorchain",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/RUNE_USDC-PERPETUAL"
+  },
+  "S_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/S_USDC-PERPETUAL"
+  },
+  "SEI_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SEI_USDC-PERPETUAL"
+  },
+  "SILVER_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SILVER_USDC-PERPETUAL"
+  },
+  "SOL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SOL_USDC-PERPETUAL"
+  },
+  "STRK_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/STRK_USDC-PERPETUAL"
+  },
+  "SUI_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SUI_USDC-PERPETUAL"
+  },
+  "TAO_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/TAO_USDC-PERPETUAL"
+  },
+  "TIA_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/TIA_USDC-PERPETUAL"
+  },
+  "TRUMP_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/TRUMP_USDC-PERPETUAL"
+  },
+  "TRX_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/TRX_USDC-PERPETUAL"
+  },
+  "TSLA_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/TSLA_USDC-PERPETUAL"
+  },
+  "UNI_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/UNI_USDC-PERPETUAL"
+  },
+  "VIRTUAL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/VIRTUAL_USDC-PERPETUAL"
+  },
+  "VVV_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/VVV_USDC-PERPETUAL"
+  },
+  "W_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/W_USDC-PERPETUAL"
+  },
+  "WIF_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/WIF_USDC-PERPETUAL"
+  },
+  "WLD_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/WLD_USDC-PERPETUAL"
+  },
+  "WLFI_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/WLFI_USDC-PERPETUAL"
+  },
+  "WTIOIL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/WTIOIL_USDC-PERPETUAL"
+  },
+  "XLM_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/XLM_USDC-PERPETUAL"
+  },
+  "XPL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/XPL_USDC-PERPETUAL"
+  },
+  "XRP_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/XRP_USDC-PERPETUAL"
+  },
+  "ZEC_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ZEC_USDC-PERPETUAL"
+  }
+}

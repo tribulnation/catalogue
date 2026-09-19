@@ -1,0 +1,116 @@
+{
+  "BNB_USDC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/BNB_USDC"
+  },
+  "BTC_USDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/BTC_USDC"
+  },
+  "BTC_USDE": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "ethena-usde",
+    "url": "https://www.deribit.com/spot/BTC_USDE"
+  },
+  "BTC_USDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://www.deribit.com/spot/BTC_USDT"
+  },
+  "BUIDL_USDC": {
+    "exchange": "spot",
+    "base": "blackrock-buidl",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/BUIDL_USDC"
+  },
+  "ETH_BTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://www.deribit.com/spot/ETH_BTC"
+  },
+  "ETH_USDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/ETH_USDC"
+  },
+  "ETH_USDE": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "ethena-usde",
+    "url": "https://www.deribit.com/spot/ETH_USDE"
+  },
+  "ETH_USDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://www.deribit.com/spot/ETH_USDT"
+  },
+  "PAXG_USDC": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/PAXG_USDC"
+  },
+  "SOL_ETH": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "ethereum",
+    "url": "https://www.deribit.com/spot/SOL_ETH"
+  },
+  "SOL_USDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/SOL_USDC"
+  },
+  "STETH_ETH": {
+    "exchange": "spot",
+    "base": "lido-staked-ether",
+    "quote": "ethereum",
+    "url": "https://www.deribit.com/spot/STETH_ETH"
+  },
+  "STETH_USDC": {
+    "exchange": "spot",
+    "base": "lido-staked-ether",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/STETH_USDC"
+  },
+  "USDC_USDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://www.deribit.com/spot/USDC_USDT"
+  },
+  "USDE_USDC": {
+    "exchange": "spot",
+    "base": "ethena-usde",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/USDE_USDC"
+  },
+  "USDE_USDT": {
+    "exchange": "spot",
+    "base": "ethena-usde",
+    "quote": "tether",
+    "url": "https://www.deribit.com/spot/USDE_USDT"
+  },
+  "USYC_USDC": {
+    "exchange": "spot",
+    "base": "hashnote-usyc",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/USYC_USDC"
+  },
+  "XRP_USDC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/XRP_USDC"
+  }
+}
