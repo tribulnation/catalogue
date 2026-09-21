@@ -3490,5 +3490,4211 @@
     "base": "secret-network",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/scrt-usd"
+  },
+  "0GEUR": {
+    "exchange": "spot",
+    "base": "zero-gravity",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/0g-eur"
+  },
+  "0GUSD": {
+    "exchange": "spot",
+    "base": "zero-gravity",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/0g-usd"
+  },
+  "ABEUR": {
+    "exchange": "spot",
+    "base": "newton-project",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ab-eur"
+  },
+  "ABUSD": {
+    "exchange": "spot",
+    "base": "newton-project",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ab-usd"
+  },
+  "ACHEUR": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ach-eur"
+  },
+  "ACHUSD": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ach-usd"
+  },
+  "ACUEUR": {
+    "exchange": "spot",
+    "base": "acurast",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/acu-eur"
+  },
+  "ACUUSD": {
+    "exchange": "spot",
+    "base": "acurast",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/acu-usd"
+  },
+  "ADIEUR": {
+    "exchange": "spot",
+    "base": "adi-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/adi-eur"
+  },
+  "ADIUSD": {
+    "exchange": "spot",
+    "base": "adi-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/adi-usd"
+  },
+  "ADXEUR": {
+    "exchange": "spot",
+    "base": "adex",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/adx-eur"
+  },
+  "ADXUSD": {
+    "exchange": "spot",
+    "base": "adex",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/adx-usd"
+  },
+  "AEUR": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/a-eur"
+  },
+  "AEVOEUR": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/aevo-eur"
+  },
+  "AEVOUSD": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/aevo-usd"
+  },
+  "AINUSD": {
+    "exchange": "spot",
+    "base": "infinity-ground",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ain-usd"
+  },
+  "AIOUSD": {
+    "exchange": "spot",
+    "base": "olaxbt",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/aio-usd"
+  },
+  "AIOZEUR": {
+    "exchange": "spot",
+    "base": "aioz-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/aioz-eur"
+  },
+  "AIOZUSD": {
+    "exchange": "spot",
+    "base": "aioz-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/aioz-usd"
+  },
+  "AIXBTEUR": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/aixbt-eur"
+  },
+  "AIXBTUSD": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/aixbt-usd"
+  },
+  "AKEUSD": {
+    "exchange": "spot",
+    "base": "akedo",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ake-usd"
+  },
+  "ALCHEUR": {
+    "exchange": "spot",
+    "base": "alchemist-ai",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/alch-eur"
+  },
+  "ALCHUSD": {
+    "exchange": "spot",
+    "base": "alchemist-ai",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/alch-usd"
+  },
+  "ALEOUSD": {
+    "exchange": "spot",
+    "base": "aleo",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/aleo-usd"
+  },
+  "ALEOUSDT": {
+    "exchange": "spot",
+    "base": "aleo",
+    "quote": "tether",
+    "url": "https://pro.kraken.com/app/trade/aleo-usdt"
+  },
+  "ALICEEUR": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/alice-eur"
+  },
+  "ALICEUSD": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/alice-usd"
+  },
+  "ALIGNUSD": {
+    "exchange": "spot",
+    "base": "aligned-layer",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/align-usd"
+  },
+  "ALKIMIEUR": {
+    "exchange": "spot",
+    "base": "alkimi-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/alkimi-eur"
+  },
+  "ALKIMIUSD": {
+    "exchange": "spot",
+    "base": "alkimi-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/alkimi-usd"
+  },
+  "ALLOUSD": {
+    "exchange": "spot",
+    "base": "allora",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/allo-usd"
+  },
+  "ALPHAEUR": {
+    "exchange": "spot",
+    "base": "alpha-finance",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/alpha-eur"
+  },
+  "ALPHAUSD": {
+    "exchange": "spot",
+    "base": "alpha-finance",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/alpha-usd"
+  },
+  "ALTHEAEUR": {
+    "exchange": "spot",
+    "base": "althea",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/althea-eur"
+  },
+  "ALTHEAUSD": {
+    "exchange": "spot",
+    "base": "althea",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/althea-usd"
+  },
+  "AMIUSD": {
+    "exchange": "spot",
+    "base": "ami",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ami-usd"
+  },
+  "ANIMEEUR": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/anime-eur"
+  },
+  "ANIMEUSD": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/anime-usd"
+  },
+  "ANONEUR": {
+    "exchange": "spot",
+    "base": "heyanon",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/anon-eur"
+  },
+  "ANONUSD": {
+    "exchange": "spot",
+    "base": "heyanon",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/anon-usd"
+  },
+  "APENFTEUR": {
+    "exchange": "spot",
+    "base": "apenft",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/apenft-eur"
+  },
+  "APENFTUSD": {
+    "exchange": "spot",
+    "base": "apenft",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/apenft-usd"
+  },
+  "API3EUR": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/api3-eur"
+  },
+  "API3USD": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/api3-usd"
+  },
+  "APREUR": {
+    "exchange": "spot",
+    "base": "apriori",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/apr-eur"
+  },
+  "APRUSD": {
+    "exchange": "spot",
+    "base": "apriori",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/apr-usd"
+  },
+  "ARCEUR": {
+    "exchange": "spot",
+    "base": "ai-rig-complex",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/arc-eur"
+  },
+  "ARCUSD": {
+    "exchange": "spot",
+    "base": "ai-rig-complex",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/arc-usd"
+  },
+  "ARPAEUR": {
+    "exchange": "spot",
+    "base": "arpa-chain",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/arpa-eur"
+  },
+  "ARPAUSD": {
+    "exchange": "spot",
+    "base": "arpa-chain",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/arpa-usd"
+  },
+  "ARXUSD": {
+    "exchange": "spot",
+    "base": "arcium",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/arx-usd"
+  },
+  "ASSETUSD": {
+    "exchange": "spot",
+    "base": "asset",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/asset-usd"
+  },
+  "ATLASUSD": {
+    "exchange": "spot",
+    "base": "star-atlas",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/atlas-usd"
+  },
+  "AUCTIONEUR": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/auction-eur"
+  },
+  "AUCTIONUSD": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/auction-usd"
+  },
+  "AUDIOEUR": {
+    "exchange": "spot",
+    "base": "audius",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/audio-eur"
+  },
+  "AUDIOUSD": {
+    "exchange": "spot",
+    "base": "audius",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/audio-usd"
+  },
+  "AUSD": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/a-usd"
+  },
+  "AVAAIUSD": {
+    "exchange": "spot",
+    "base": "ava-ai",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/avaai-usd"
+  },
+  "AZTECEUR": {
+    "exchange": "spot",
+    "base": "aztec",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/aztec-eur"
+  },
+  "AZTECUSD": {
+    "exchange": "spot",
+    "base": "aztec",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/aztec-usd"
+  },
+  "B2EUR": {
+    "exchange": "spot",
+    "base": "bsquared-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/b2-eur"
+  },
+  "B2USD": {
+    "exchange": "spot",
+    "base": "bsquared-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/b2-usd"
+  },
+  "B3EUR": {
+    "exchange": "spot",
+    "base": "b3",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/b3-eur"
+  },
+  "B3USD": {
+    "exchange": "spot",
+    "base": "b3",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/b3-usd"
+  },
+  "BABYEUR": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/baby-eur"
+  },
+  "BABYSHARKUSD": {
+    "exchange": "spot",
+    "base": "babyshark-universe",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/babyshark-usd"
+  },
+  "BABYUSD": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/baby-usd"
+  },
+  "BADGEREUR": {
+    "exchange": "spot",
+    "base": "badger-dao",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/badger-eur"
+  },
+  "BADGERUSD": {
+    "exchange": "spot",
+    "base": "badger-dao",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/badger-usd"
+  },
+  "BANANAS31EUR": {
+    "exchange": "spot",
+    "base": "banana-for-scale-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/bananas31-eur"
+  },
+  "BANANAS31USD": {
+    "exchange": "spot",
+    "base": "banana-for-scale-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bananas31-usd"
+  },
+  "BANDEUR": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/band-eur"
+  },
+  "BANDUSD": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/band-usd"
+  },
+  "BDXNEUR": {
+    "exchange": "spot",
+    "base": "bondex",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/bdxn-eur"
+  },
+  "BDXNUSD": {
+    "exchange": "spot",
+    "base": "bondex",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bdxn-usd"
+  },
+  "BERTEUR": {
+    "exchange": "spot",
+    "base": "bertram-the-pomeranian",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/bert-eur"
+  },
+  "BERTUSD": {
+    "exchange": "spot",
+    "base": "bertram-the-pomeranian",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bert-usd"
+  },
+  "BICOEUR": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/bico-eur"
+  },
+  "BICOUSD": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bico-usd"
+  },
+  "BIGTIMEEUR": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/bigtime-eur"
+  },
+  "BIGTIMEUSD": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bigtime-usd"
+  },
+  "BILLEUR": {
+    "exchange": "spot",
+    "base": "billions-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/bill-eur"
+  },
+  "BILLUSD": {
+    "exchange": "spot",
+    "base": "billions-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bill-usd"
+  },
+  "BLENDEUR": {
+    "exchange": "spot",
+    "base": "fluent-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/blend-eur"
+  },
+  "BLENDUSD": {
+    "exchange": "spot",
+    "base": "fluent-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/blend-usd"
+  },
+  "BLESSUSD": {
+    "exchange": "spot",
+    "base": "bless-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bless-usd"
+  },
+  "BLUAIEUR": {
+    "exchange": "spot",
+    "base": "bluwhale",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/bluai-eur"
+  },
+  "BLUAIUSD": {
+    "exchange": "spot",
+    "base": "bluwhale",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bluai-usd"
+  },
+  "BLUEEUR": {
+    "exchange": "spot",
+    "base": "bluefin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/blue-eur"
+  },
+  "BLUEUSD": {
+    "exchange": "spot",
+    "base": "bluefin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/blue-usd"
+  },
+  "BLZUSD": {
+    "exchange": "spot",
+    "base": "bluzelle",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/blz-usd"
+  },
+  "BMBUSD": {
+    "exchange": "spot",
+    "base": "beamable-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bmb-usd"
+  },
+  "BMTEUR": {
+    "exchange": "spot",
+    "base": "bubblemaps",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/bmt-eur"
+  },
+  "BMTUSD": {
+    "exchange": "spot",
+    "base": "bubblemaps",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bmt-usd"
+  },
+  "BNKRUSD": {
+    "exchange": "spot",
+    "base": "bankercoin-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bnkr-usd"
+  },
+  "BNTEUR": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/bnt-eur"
+  },
+  "BNTUSD": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bnt-usd"
+  },
+  "BOBAEUR": {
+    "exchange": "spot",
+    "base": "boba-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/boba-eur"
+  },
+  "BOBAUSD": {
+    "exchange": "spot",
+    "base": "boba-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/boba-usd"
+  },
+  "BOBEUR": {
+    "exchange": "spot",
+    "base": "build-on-bitcoin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/bob-eur"
+  },
+  "BOBUSD": {
+    "exchange": "spot",
+    "base": "build-on-bitcoin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bob-usd"
+  },
+  "BODENEUR": {
+    "exchange": "spot",
+    "base": "jeo-boden",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/boden-eur"
+  },
+  "BODENUSD": {
+    "exchange": "spot",
+    "base": "jeo-boden",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/boden-usd"
+  },
+  "BONZOUSD": {
+    "exchange": "spot",
+    "base": "bonzo-finance",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bonzo-usd"
+  },
+  "BOSUSD": {
+    "exchange": "spot",
+    "base": "bos-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/bos-usd"
+  },
+  "BREVEUR": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/brev-eur"
+  },
+  "BREVUSD": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/brev-usd"
+  },
+  "BTREUR": {
+    "exchange": "spot",
+    "base": "bitlayer-bitvm",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/btr-eur"
+  },
+  "BTRUSD": {
+    "exchange": "spot",
+    "base": "bitlayer-bitvm",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/btr-usd"
+  },
+  "C98USD": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/c98-usd"
+  },
+  "CAMPEUR": {
+    "exchange": "spot",
+    "base": "camp-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/camp-eur"
+  },
+  "CAMPUSD": {
+    "exchange": "spot",
+    "base": "camp-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/camp-usd"
+  },
+  "CAPUSD": {
+    "exchange": "spot",
+    "base": "cap",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cap-usd"
+  },
+  "CARVEUR": {
+    "exchange": "spot",
+    "base": "carv",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/carv-eur"
+  },
+  "CARVUSD": {
+    "exchange": "spot",
+    "base": "carv",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/carv-usd"
+  },
+  "CATEUR": {
+    "exchange": "spot",
+    "base": "simon-s-cat",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/cat-eur"
+  },
+  "CATUSD": {
+    "exchange": "spot",
+    "base": "simon-s-cat",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cat-usd"
+  },
+  "CCDEUR": {
+    "exchange": "spot",
+    "base": "concordium",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ccd-eur"
+  },
+  "CCDUSD": {
+    "exchange": "spot",
+    "base": "concordium",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ccd-usd"
+  },
+  "CELREUR": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/celr-eur"
+  },
+  "CELRUSD": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/celr-usd"
+  },
+  "CFGEUR": {
+    "exchange": "spot",
+    "base": "centrifuge-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/cfg-eur"
+  },
+  "CFGUSD": {
+    "exchange": "spot",
+    "base": "centrifuge-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cfg-usd"
+  },
+  "CHECKUSD": {
+    "exchange": "spot",
+    "base": "checkmate-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/check-usd"
+  },
+  "CHEEMSEUR": {
+    "exchange": "spot",
+    "base": "cheems-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/cheems-eur"
+  },
+  "CHEEMSUSD": {
+    "exchange": "spot",
+    "base": "cheems-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cheems-usd"
+  },
+  "CHEXEUR": {
+    "exchange": "spot",
+    "base": "chex-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/chex-eur"
+  },
+  "CHEXUSD": {
+    "exchange": "spot",
+    "base": "chex-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/chex-usd"
+  },
+  "CHILLHOUSEEUR": {
+    "exchange": "spot",
+    "base": "chill-house",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/chillhouse-eur"
+  },
+  "CHILLHOUSEUSD": {
+    "exchange": "spot",
+    "base": "chill-house",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/chillhouse-usd"
+  },
+  "CHIPEUR": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/chip-eur"
+  },
+  "CHIPUSD": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/chip-usd"
+  },
+  "CHREUR": {
+    "exchange": "spot",
+    "base": "chromaway",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/chr-eur"
+  },
+  "CHRUSD": {
+    "exchange": "spot",
+    "base": "chromaway",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/chr-usd"
+  },
+  "CLANKEREUR": {
+    "exchange": "spot",
+    "base": "tokenbot-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/clanker-eur"
+  },
+  "CLANKERUSD": {
+    "exchange": "spot",
+    "base": "tokenbot-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/clanker-usd"
+  },
+  "CLOUDUSD": {
+    "exchange": "spot",
+    "base": "sanctum",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cloud-usd"
+  },
+  "CMETHETH": {
+    "exchange": "spot",
+    "base": "mantle-restaked-ether",
+    "quote": "ethereum",
+    "url": "https://pro.kraken.com/app/trade/cmeth-eth"
+  },
+  "CMETHUSD": {
+    "exchange": "spot",
+    "base": "mantle-restaked-ether",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cmeth-usd"
+  },
+  "COOKIEEUR": {
+    "exchange": "spot",
+    "base": "cookie",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/cookie-eur"
+  },
+  "COOKIEUSD": {
+    "exchange": "spot",
+    "base": "cookie",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cookie-usd"
+  },
+  "COQEUR": {
+    "exchange": "spot",
+    "base": "coq-inu",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/coq-eur"
+  },
+  "COQUSD": {
+    "exchange": "spot",
+    "base": "coq-inu",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/coq-usd"
+  },
+  "COTIEUR": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/coti-eur"
+  },
+  "COTIUSD": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/coti-usd"
+  },
+  "CPOOLEUR": {
+    "exchange": "spot",
+    "base": "clearpool",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/cpool-eur"
+  },
+  "CPOOLUSD": {
+    "exchange": "spot",
+    "base": "clearpool",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cpool-usd"
+  },
+  "CSPRUSD": {
+    "exchange": "spot",
+    "base": "casper",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cspr-usd"
+  },
+  "CTCEUR": {
+    "exchange": "spot",
+    "base": "creditcoin-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ctc-eur"
+  },
+  "CTCUSD": {
+    "exchange": "spot",
+    "base": "creditcoin-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ctc-usd"
+  },
+  "CTRUSD": {
+    "exchange": "spot",
+    "base": "citrea",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ctr-usd"
+  },
+  "CTSIEUR": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ctsi-eur"
+  },
+  "CTSIUSD": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ctsi-usd"
+  },
+  "CVCEUR": {
+    "exchange": "spot",
+    "base": "civic",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/cvc-eur"
+  },
+  "CVCUSD": {
+    "exchange": "spot",
+    "base": "civic",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cvc-usd"
+  },
+  "CYBEREUR": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/cyber-eur"
+  },
+  "CYBERUSD": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cyber-usd"
+  },
+  "DAGEUR": {
+    "exchange": "spot",
+    "base": "constellation-labs",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/dag-eur"
+  },
+  "DAGUSD": {
+    "exchange": "spot",
+    "base": "constellation-labs",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/dag-usd"
+  },
+  "DEEPEUR": {
+    "exchange": "spot",
+    "base": "deep",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/deep-eur"
+  },
+  "DEEPUSD": {
+    "exchange": "spot",
+    "base": "deep",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/deep-usd"
+  },
+  "DEGENEUR": {
+    "exchange": "spot",
+    "base": "degen-base",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/degen-eur"
+  },
+  "DEGENUSD": {
+    "exchange": "spot",
+    "base": "degen-base",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/degen-usd"
+  },
+  "DENTEUR": {
+    "exchange": "spot",
+    "base": "dent",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/dent-eur"
+  },
+  "DENTUSD": {
+    "exchange": "spot",
+    "base": "dent",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/dent-usd"
+  },
+  "DMCEUR": {
+    "exchange": "spot",
+    "base": "delorean",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/dmc-eur"
+  },
+  "DMCUSD": {
+    "exchange": "spot",
+    "base": "delorean",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/dmc-usd"
+  },
+  "DOGEUR": {
+    "exchange": "spot",
+    "base": "dog-4",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/dog-eur"
+  },
+  "DOGSEUR": {
+    "exchange": "spot",
+    "base": "dogs-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/dogs-eur"
+  },
+  "DOGSUSD": {
+    "exchange": "spot",
+    "base": "dogs-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/dogs-usd"
+  },
+  "DOGUSD": {
+    "exchange": "spot",
+    "base": "dog-4",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/dog-usd"
+  },
+  "DOLOEUR": {
+    "exchange": "spot",
+    "base": "dolomite",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/dolo-eur"
+  },
+  "DOLOUSD": {
+    "exchange": "spot",
+    "base": "dolomite",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/dolo-usd"
+  },
+  "DOSUSD": {
+    "exchange": "spot",
+    "base": "dappos",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/dos-usd"
+  },
+  "DOVUUSD": {
+    "exchange": "spot",
+    "base": "dovu-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/dovu-usd"
+  },
+  "DRIFTEUR": {
+    "exchange": "spot",
+    "base": "drift-protocol",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/drift-eur"
+  },
+  "DRIFTUSD": {
+    "exchange": "spot",
+    "base": "drift-protocol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/drift-usd"
+  },
+  "DUALEUR": {
+    "exchange": "spot",
+    "base": "dual",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/dual-eur"
+  },
+  "DUALUSD": {
+    "exchange": "spot",
+    "base": "dual",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/dual-usd"
+  },
+  "DUCKEUR": {
+    "exchange": "spot",
+    "base": "duckchain",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/duck-eur"
+  },
+  "DUCKUSD": {
+    "exchange": "spot",
+    "base": "duckchain",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/duck-usd"
+  },
+  "EATEUR": {
+    "exchange": "spot",
+    "base": "375ai",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/eat-eur"
+  },
+  "EATUSD": {
+    "exchange": "spot",
+    "base": "375ai",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/eat-usd"
+  },
+  "EDGEEUR": {
+    "exchange": "spot",
+    "base": "definitive",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/edge-eur"
+  },
+  "EDGEUSD": {
+    "exchange": "spot",
+    "base": "definitive",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/edge-usd"
+  },
+  "EDGEXEUR": {
+    "exchange": "spot",
+    "base": "edgex",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/edgex-eur"
+  },
+  "EDGEXUSD": {
+    "exchange": "spot",
+    "base": "edgex",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/edgex-usd"
+  },
+  "EDUEUR": {
+    "exchange": "spot",
+    "base": "edu-coin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/edu-eur"
+  },
+  "EDUUSD": {
+    "exchange": "spot",
+    "base": "edu-coin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/edu-usd"
+  },
+  "ELIZAOSEUR": {
+    "exchange": "spot",
+    "base": "elizaos",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/elizaos-eur"
+  },
+  "ELIZAOSUSD": {
+    "exchange": "spot",
+    "base": "elizaos",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/elizaos-usd"
+  },
+  "ELXEUR": {
+    "exchange": "spot",
+    "base": "elixir-finance",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/elx-eur"
+  },
+  "ELXUSD": {
+    "exchange": "spot",
+    "base": "elixir-finance",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/elx-usd"
+  },
+  "ENJEUR": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/enj-eur"
+  },
+  "ENJUSD": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/enj-usd"
+  },
+  "ENSOEUR": {
+    "exchange": "spot",
+    "base": "enso",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/enso-eur"
+  },
+  "ENSOUSD": {
+    "exchange": "spot",
+    "base": "enso",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/enso-usd"
+  },
+  "ESEUR": {
+    "exchange": "spot",
+    "base": "eclipse-3",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/es-eur"
+  },
+  "ESPEUR": {
+    "exchange": "spot",
+    "base": "espresso",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/esp-eur"
+  },
+  "ESPORTSUSD": {
+    "exchange": "spot",
+    "base": "yooldo-games",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/esports-usd"
+  },
+  "ESPUSD": {
+    "exchange": "spot",
+    "base": "espresso",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/esp-usd"
+  },
+  "ESUSD": {
+    "exchange": "spot",
+    "base": "eclipse-3",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/es-usd"
+  },
+  "EULEUR": {
+    "exchange": "spot",
+    "base": "euler",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/eul-eur"
+  },
+  "EULUSD": {
+    "exchange": "spot",
+    "base": "euler",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/eul-usd"
+  },
+  "EVAAUSD": {
+    "exchange": "spot",
+    "base": "evaa-protocol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/evaa-usd"
+  },
+  "EVEUR": {
+    "exchange": "spot",
+    "base": "everything",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ev-eur"
+  },
+  "EVUSD": {
+    "exchange": "spot",
+    "base": "everything",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ev-usd"
+  },
+  "EWTEUR": {
+    "exchange": "spot",
+    "base": "energy-web-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ewt-eur"
+  },
+  "EWTUSD": {
+    "exchange": "spot",
+    "base": "energy-web-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ewt-usd"
+  },
+  "FFUSD": {
+    "exchange": "spot",
+    "base": "falcon-finance-ff",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ff-usd"
+  },
+  "FHEEUR": {
+    "exchange": "spot",
+    "base": "mind-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/fhe-eur"
+  },
+  "FHEUSD": {
+    "exchange": "spot",
+    "base": "mind-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/fhe-usd"
+  },
+  "FIDAEUR": {
+    "exchange": "spot",
+    "base": "bonfida",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/fida-eur"
+  },
+  "FIDAUSD": {
+    "exchange": "spot",
+    "base": "bonfida",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/fida-usd"
+  },
+  "FISEUR": {
+    "exchange": "spot",
+    "base": "stafi",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/fis-eur"
+  },
+  "FISUSD": {
+    "exchange": "spot",
+    "base": "stafi",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/fis-usd"
+  },
+  "FLOCKEUR": {
+    "exchange": "spot",
+    "base": "flock-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/flock-eur"
+  },
+  "FLOCKUSD": {
+    "exchange": "spot",
+    "base": "flock-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/flock-usd"
+  },
+  "FLUXEUR": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/flux-eur"
+  },
+  "FLUXUSD": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/flux-usd"
+  },
+  "FOLKSUSD": {
+    "exchange": "spot",
+    "base": "folks",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/folks-usd"
+  },
+  "FORESTUSD": {
+    "exchange": "spot",
+    "base": "forest-protocol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/forest-usd"
+  },
+  "FORTHEUR": {
+    "exchange": "spot",
+    "base": "ampleforth-governance-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/forth-eur"
+  },
+  "FORTHUSD": {
+    "exchange": "spot",
+    "base": "ampleforth-governance-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/forth-usd"
+  },
+  "FUNEUR": {
+    "exchange": "spot",
+    "base": "football-fun",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/fun-eur"
+  },
+  "FUNUSD": {
+    "exchange": "spot",
+    "base": "football-fun",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/fun-usd"
+  },
+  "FWOGEUR": {
+    "exchange": "spot",
+    "base": "fwog",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/fwog-eur"
+  },
+  "FWOGUSD": {
+    "exchange": "spot",
+    "base": "fwog",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/fwog-usd"
+  },
+  "GAIBUSD": {
+    "exchange": "spot",
+    "base": "gaib",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/gaib-usd"
+  },
+  "GAME2EUR": {
+    "exchange": "spot",
+    "base": "gamebuild",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/game2-eur"
+  },
+  "GAME2USD": {
+    "exchange": "spot",
+    "base": "gamebuild",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/game2-usd"
+  },
+  "GFIEUR": {
+    "exchange": "spot",
+    "base": "goldfinch",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/gfi-eur"
+  },
+  "GFIUSD": {
+    "exchange": "spot",
+    "base": "goldfinch",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/gfi-usd"
+  },
+  "GIBUSD": {
+    "exchange": "spot",
+    "base": "gib-3",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/gib-usd"
+  },
+  "GIGAEUR": {
+    "exchange": "spot",
+    "base": "gigachad-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/giga-eur"
+  },
+  "GIGAUSD": {
+    "exchange": "spot",
+    "base": "gigachad-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/giga-usd"
+  },
+  "GLMREUR": {
+    "exchange": "spot",
+    "base": "moonbeam",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/glmr-eur"
+  },
+  "GLMRUSD": {
+    "exchange": "spot",
+    "base": "moonbeam",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/glmr-usd"
+  },
+  "GOMININGEUR": {
+    "exchange": "spot",
+    "base": "gmt-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/gomining-eur"
+  },
+  "GOMININGUSD": {
+    "exchange": "spot",
+    "base": "gmt-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/gomining-usd"
+  },
+  "GRIFFAINEUR": {
+    "exchange": "spot",
+    "base": "griffain",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/griffain-eur"
+  },
+  "GRIFFAINUSD": {
+    "exchange": "spot",
+    "base": "griffain",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/griffain-usd"
+  },
+  "GTCEUR": {
+    "exchange": "spot",
+    "base": "gitcoin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/gtc-eur"
+  },
+  "GTCUSD": {
+    "exchange": "spot",
+    "base": "gitcoin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/gtc-usd"
+  },
+  "GUNEUR": {
+    "exchange": "spot",
+    "base": "gunz",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/gun-eur"
+  },
+  "GUNUSD": {
+    "exchange": "spot",
+    "base": "gunz",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/gun-usd"
+  },
+  "GWEIUSD": {
+    "exchange": "spot",
+    "base": "ethgas-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/gwei-usd"
+  },
+  "HFTEUR": {
+    "exchange": "spot",
+    "base": "hashflow",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/hft-eur"
+  },
+  "HFTUSD": {
+    "exchange": "spot",
+    "base": "hashflow",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/hft-usd"
+  },
+  "HMSTREUR": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/hmstr-eur"
+  },
+  "HMSTRUSD": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/hmstr-usd"
+  },
+  "HNTEUR": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/hnt-eur"
+  },
+  "HNTUSD": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/hnt-usd"
+  },
+  "HOLOUSD": {
+    "exchange": "spot",
+    "base": "holoworld",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/holo-usd"
+  },
+  "HONEYEUR": {
+    "exchange": "spot",
+    "base": "hivemapper",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/honey-eur"
+  },
+  "HONEYUSD": {
+    "exchange": "spot",
+    "base": "hivemapper",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/honey-usd"
+  },
+  "HSKEUR": {
+    "exchange": "spot",
+    "base": "hashkey-ecopoints",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/hsk-eur"
+  },
+  "HSKUSD": {
+    "exchange": "spot",
+    "base": "hashkey-ecopoints",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/hsk-usd"
+  },
+  "IAGEUR": {
+    "exchange": "spot",
+    "base": "iagon",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/iag-eur"
+  },
+  "IAGUSD": {
+    "exchange": "spot",
+    "base": "iagon",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/iag-usd"
+  },
+  "ICNTEUR": {
+    "exchange": "spot",
+    "base": "impossible-cloud-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/icnt-eur"
+  },
+  "ICNTUSD": {
+    "exchange": "spot",
+    "base": "impossible-cloud-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/icnt-usd"
+  },
+  "IDEXEUR": {
+    "exchange": "spot",
+    "base": "aurora-dao",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/idex-eur"
+  },
+  "IDEXUSD": {
+    "exchange": "spot",
+    "base": "aurora-dao",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/idex-usd"
+  },
+  "IDOSEUR": {
+    "exchange": "spot",
+    "base": "idos",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/idos-eur"
+  },
+  "IDOSUSD": {
+    "exchange": "spot",
+    "base": "idos",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/idos-usd"
+  },
+  "INEUR": {
+    "exchange": "spot",
+    "base": "infinit",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/in-eur"
+  },
+  "INITEUR": {
+    "exchange": "spot",
+    "base": "initia",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/init-eur"
+  },
+  "INITUSD": {
+    "exchange": "spot",
+    "base": "initia",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/init-usd"
+  },
+  "INUSD": {
+    "exchange": "spot",
+    "base": "infinit",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/in-usd"
+  },
+  "INXEUR": {
+    "exchange": "spot",
+    "base": "infinex",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/inx-eur"
+  },
+  "INXUSD": {
+    "exchange": "spot",
+    "base": "infinex",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/inx-usd"
+  },
+  "IPEUR": {
+    "exchange": "spot",
+    "base": "story",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ip-eur"
+  },
+  "IPUSD": {
+    "exchange": "spot",
+    "base": "story",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ip-usd"
+  },
+  "JAILSTOOLUSD": {
+    "exchange": "spot",
+    "base": "stool-prisondente",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/jailstool-usd"
+  },
+  "KATEUR": {
+    "exchange": "spot",
+    "base": "katana-network-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/kat-eur"
+  },
+  "KATUSD": {
+    "exchange": "spot",
+    "base": "katana-network-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/kat-usd"
+  },
+  "KEEPUSD": {
+    "exchange": "spot",
+    "base": "keep-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/keep-usd"
+  },
+  "KERNELEUR": {
+    "exchange": "spot",
+    "base": "kernel",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/kernel-eur"
+  },
+  "KERNELUSD": {
+    "exchange": "spot",
+    "base": "kernel",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/kernel-usd"
+  },
+  "KGENUSD": {
+    "exchange": "spot",
+    "base": "kgen",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/kgen-usd"
+  },
+  "KIIUSD": {
+    "exchange": "spot",
+    "base": "kiichain",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/kii-usd"
+  },
+  "KMNOEUR": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/kmno-eur"
+  },
+  "KMNOUSD": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/kmno-usd"
+  },
+  "KNCEUR": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/knc-eur"
+  },
+  "KNCUSD": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/knc-usd"
+  },
+  "KNTQEUR": {
+    "exchange": "spot",
+    "base": "kinetiq",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/kntq-eur"
+  },
+  "KNTQUSD": {
+    "exchange": "spot",
+    "base": "kinetiq",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/kntq-usd"
+  },
+  "KTAEUR": {
+    "exchange": "spot",
+    "base": "keeta",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/kta-eur"
+  },
+  "KTAUSD": {
+    "exchange": "spot",
+    "base": "keeta",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/kta-usd"
+  },
+  "KULAEUR": {
+    "exchange": "spot",
+    "base": "kula",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/kula-eur"
+  },
+  "KULAUSD": {
+    "exchange": "spot",
+    "base": "kula",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/kula-usd"
+  },
+  "L3USD": {
+    "exchange": "spot",
+    "base": "layer3",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/l3-usd"
+  },
+  "LAVAEUR": {
+    "exchange": "spot",
+    "base": "lava-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/lava-eur"
+  },
+  "LAVAUSD": {
+    "exchange": "spot",
+    "base": "lava-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lava-usd"
+  },
+  "LCXEUR": {
+    "exchange": "spot",
+    "base": "lcx",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/lcx-eur"
+  },
+  "LCXUSD": {
+    "exchange": "spot",
+    "base": "lcx",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lcx-usd"
+  },
+  "LIONEUR": {
+    "exchange": "spot",
+    "base": "loaded-lions",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/lion-eur"
+  },
+  "LIONUSD": {
+    "exchange": "spot",
+    "base": "loaded-lions",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lion-usd"
+  },
+  "LMWREUR": {
+    "exchange": "spot",
+    "base": "limewire",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/lmwr-eur"
+  },
+  "LMWRUSD": {
+    "exchange": "spot",
+    "base": "limewire",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lmwr-usd"
+  },
+  "LOFIEUR": {
+    "exchange": "spot",
+    "base": "lofi-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/lofi-eur"
+  },
+  "LOFIUSD": {
+    "exchange": "spot",
+    "base": "lofi-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lofi-usd"
+  },
+  "LPTEUR": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/lpt-eur"
+  },
+  "LPTUSD": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lpt-usd"
+  },
+  "LQTYEUR": {
+    "exchange": "spot",
+    "base": "liquity",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/lqty-eur"
+  },
+  "LQTYUSD": {
+    "exchange": "spot",
+    "base": "liquity",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lqty-usd"
+  },
+  "LRCEUR": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/lrc-eur"
+  },
+  "LRCUSD": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lrc-usd"
+  },
+  "LSKEUR": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/lsk-eur"
+  },
+  "LSKUSD": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lsk-usd"
+  },
+  "LUNAEUR": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/luna-eur"
+  },
+  "LUNAUSD": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/luna-usd"
+  },
+  "MEGAEUR": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/mega-eur"
+  },
+  "MEGAUSD": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mega-usd"
+  },
+  "MELANIAEUR": {
+    "exchange": "spot",
+    "base": "melania-meme",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/melania-eur"
+  },
+  "MELANIAUSD": {
+    "exchange": "spot",
+    "base": "melania-meme",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/melania-usd"
+  },
+  "MELANIAUSDC": {
+    "exchange": "spot",
+    "base": "melania-meme",
+    "quote": "usd-coin",
+    "url": "https://pro.kraken.com/app/trade/melania-usdc"
+  },
+  "MELANIAUSDT": {
+    "exchange": "spot",
+    "base": "melania-meme",
+    "quote": "tether",
+    "url": "https://pro.kraken.com/app/trade/melania-usdt"
+  },
+  "MEMEEUR": {
+    "exchange": "spot",
+    "base": "memecoin-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/meme-eur"
+  },
+  "MEMEUSD": {
+    "exchange": "spot",
+    "base": "memecoin-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/meme-usd"
+  },
+  "MERLEUR": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/merl-eur"
+  },
+  "MERLUSD": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/merl-usd"
+  },
+  "METEUR": {
+    "exchange": "spot",
+    "base": "meteora",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/met-eur"
+  },
+  "METHETH": {
+    "exchange": "spot",
+    "base": "mantle-staked-ether",
+    "quote": "ethereum",
+    "url": "https://pro.kraken.com/app/trade/meth-eth"
+  },
+  "METHUSD": {
+    "exchange": "spot",
+    "base": "mantle-staked-ether",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/meth-usd"
+  },
+  "METISEUR": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/metis-eur"
+  },
+  "METISUSD": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/metis-usd"
+  },
+  "METUSD": {
+    "exchange": "spot",
+    "base": "meteora",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/met-usd"
+  },
+  "MEWEUR": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/mew-eur"
+  },
+  "MEWUSD": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mew-usd"
+  },
+  "MEZOUSD": {
+    "exchange": "spot",
+    "base": "mezo",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mezo-usd"
+  },
+  "MFEUR": {
+    "exchange": "spot",
+    "base": "moonwalk",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/mf-eur"
+  },
+  "MFUSD": {
+    "exchange": "spot",
+    "base": "moonwalk",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mf-usd"
+  },
+  "MOCAEUR": {
+    "exchange": "spot",
+    "base": "mocaverse",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/moca-eur"
+  },
+  "MOCAUSD": {
+    "exchange": "spot",
+    "base": "mocaverse",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/moca-usd"
+  },
+  "MOGEUR": {
+    "exchange": "spot",
+    "base": "mog-coin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/mog-eur"
+  },
+  "MOGUSD": {
+    "exchange": "spot",
+    "base": "mog-coin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mog-usd"
+  },
+  "MOVREUR": {
+    "exchange": "spot",
+    "base": "moonriver",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/movr-eur"
+  },
+  "MOVRUSD": {
+    "exchange": "spot",
+    "base": "moonriver",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/movr-usd"
+  },
+  "MUBARAKUSD": {
+    "exchange": "spot",
+    "base": "mubarak",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mubarak-usd"
+  },
+  "MYXEUR": {
+    "exchange": "spot",
+    "base": "myx-finance",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/myx-eur"
+  },
+  "MYXUSD": {
+    "exchange": "spot",
+    "base": "myx-finance",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/myx-usd"
+  },
+  "NANOEUR": {
+    "exchange": "spot",
+    "base": "nano",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/nano-eur"
+  },
+  "NANOUSD": {
+    "exchange": "spot",
+    "base": "nano",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/nano-usd"
+  },
+  "NESUSD": {
+    "exchange": "spot",
+    "base": "nesa",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/nes-usd"
+  },
+  "NIGHTEUR": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/night-eur"
+  },
+  "NIGHTUSD": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/night-usd"
+  },
+  "NMREUR": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/nmr-eur"
+  },
+  "NMRUSD": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/nmr-usd"
+  },
+  "NOBODYEUR": {
+    "exchange": "spot",
+    "base": "nobody-sausage",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/nobody-eur"
+  },
+  "NOBODYUSD": {
+    "exchange": "spot",
+    "base": "nobody-sausage",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/nobody-usd"
+  },
+  "NOCKUSD": {
+    "exchange": "spot",
+    "base": "nockchain",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/nock-usd"
+  },
+  "NODEUSD": {
+    "exchange": "spot",
+    "base": "node-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/node-usd"
+  },
+  "NOSEUR": {
+    "exchange": "spot",
+    "base": "nosana",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/nos-eur"
+  },
+  "NOSUSD": {
+    "exchange": "spot",
+    "base": "nosana",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/nos-usd"
+  },
+  "NPCEUR": {
+    "exchange": "spot",
+    "base": "non-playable-coin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/npc-eur"
+  },
+  "NPCUSD": {
+    "exchange": "spot",
+    "base": "non-playable-coin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/npc-usd"
+  },
+  "OBOLEUR": {
+    "exchange": "spot",
+    "base": "obol-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/obol-eur"
+  },
+  "OBOLUSD": {
+    "exchange": "spot",
+    "base": "obol-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/obol-usd"
+  },
+  "OBOLUSDT": {
+    "exchange": "spot",
+    "base": "obol-2",
+    "quote": "tether",
+    "url": "https://pro.kraken.com/app/trade/obol-usdt"
+  },
+  "ODOSUSD": {
+    "exchange": "spot",
+    "base": "odos",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/odos-usd"
+  },
+  "OGNEUR": {
+    "exchange": "spot",
+    "base": "origin-protocol",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ogn-eur"
+  },
+  "OGNUSD": {
+    "exchange": "spot",
+    "base": "origin-protocol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ogn-usd"
+  },
+  "OMGEUR": {
+    "exchange": "spot",
+    "base": "omisego",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/omg-eur"
+  },
+  "OMGUSD": {
+    "exchange": "spot",
+    "base": "omisego",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/omg-usd"
+  },
+  "OMIEUR": {
+    "exchange": "spot",
+    "base": "ecomi",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/omi-eur"
+  },
+  "OMIUSD": {
+    "exchange": "spot",
+    "base": "ecomi",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/omi-usd"
+  },
+  "OOBEUR": {
+    "exchange": "spot",
+    "base": "oobit-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/oob-eur"
+  },
+  "OOBUSD": {
+    "exchange": "spot",
+    "base": "oobit-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/oob-usd"
+  },
+  "OPENEUR": {
+    "exchange": "spot",
+    "base": "openledger",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/open-eur"
+  },
+  "OPENUSD": {
+    "exchange": "spot",
+    "base": "openledger",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/open-usd"
+  },
+  "OPNUSD": {
+    "exchange": "spot",
+    "base": "opinion",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/opn-usd"
+  },
+  "ORDERUSD": {
+    "exchange": "spot",
+    "base": "orderly-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/order-usd"
+  },
+  "OXTEUR": {
+    "exchange": "spot",
+    "base": "orchid",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/oxt-eur"
+  },
+  "OXTUSD": {
+    "exchange": "spot",
+    "base": "orchid",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/oxt-usd"
+  },
+  "PACKUSD": {
+    "exchange": "spot",
+    "base": "hashpack",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pack-usd"
+  },
+  "PACTUSD": {
+    "exchange": "spot",
+    "base": "pact-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pact-usd"
+  },
+  "PARTIEUR": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/parti-eur"
+  },
+  "PARTIUSD": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/parti-usd"
+  },
+  "PEAQEUR": {
+    "exchange": "spot",
+    "base": "peaq-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/peaq-eur"
+  },
+  "PEAQUSD": {
+    "exchange": "spot",
+    "base": "peaq-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/peaq-usd"
+  },
+  "PEAQUSDC": {
+    "exchange": "spot",
+    "base": "peaq-2",
+    "quote": "usd-coin",
+    "url": "https://pro.kraken.com/app/trade/peaq-usdc"
+  },
+  "PEPECOINUSD": {
+    "exchange": "spot",
+    "base": "pepecoin-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pepecoin-usd"
+  },
+  "PEPEUR": {
+    "exchange": "spot",
+    "base": "pepecoin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/pep-eur"
+  },
+  "PEPUSD": {
+    "exchange": "spot",
+    "base": "pepecoin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pep-usd"
+  },
+  "PERPEUR": {
+    "exchange": "spot",
+    "base": "perpetual-protocol",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/perp-eur"
+  },
+  "PERPUSD": {
+    "exchange": "spot",
+    "base": "perpetual-protocol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/perp-usd"
+  },
+  "PHAEUR": {
+    "exchange": "spot",
+    "base": "pha",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/pha-eur"
+  },
+  "PHAUSD": {
+    "exchange": "spot",
+    "base": "pha",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pha-usd"
+  },
+  "PIEVERSEUSD": {
+    "exchange": "spot",
+    "base": "pieverse",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pieverse-usd"
+  },
+  "PIPEEUR": {
+    "exchange": "spot",
+    "base": "pipe-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/pipe-eur"
+  },
+  "PIPEUSD": {
+    "exchange": "spot",
+    "base": "pipe-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pipe-usd"
+  },
+  "PLAYEUR": {
+    "exchange": "spot",
+    "base": "playsout",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/play-eur"
+  },
+  "PLAYUSD": {
+    "exchange": "spot",
+    "base": "playsout",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/play-usd"
+  },
+  "PLUMEEUR": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/plume-eur"
+  },
+  "PLUMEUSD": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/plume-usd"
+  },
+  "POLISEUR": {
+    "exchange": "spot",
+    "base": "star-atlas-dao",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/polis-eur"
+  },
+  "POLISUSD": {
+    "exchange": "spot",
+    "base": "star-atlas-dao",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/polis-usd"
+  },
+  "POLSEUR": {
+    "exchange": "spot",
+    "base": "polkastarter",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/pols-eur"
+  },
+  "POLSUSD": {
+    "exchange": "spot",
+    "base": "polkastarter",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pols-usd"
+  },
+  "PONDEUR": {
+    "exchange": "spot",
+    "base": "marlin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/pond-eur"
+  },
+  "PONDUSD": {
+    "exchange": "spot",
+    "base": "marlin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pond-usd"
+  },
+  "PONKEEUR": {
+    "exchange": "spot",
+    "base": "ponke",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ponke-eur"
+  },
+  "PONKEUSD": {
+    "exchange": "spot",
+    "base": "ponke",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ponke-usd"
+  },
+  "POPCATEUR": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/popcat-eur"
+  },
+  "POPCATGBP": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "british-pound",
+    "url": "https://pro.kraken.com/app/trade/popcat-gbp"
+  },
+  "POPCATUSD": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/popcat-usd"
+  },
+  "PORTALEUR": {
+    "exchange": "spot",
+    "base": "portal-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/portal-eur"
+  },
+  "PORTALUSD": {
+    "exchange": "spot",
+    "base": "portal-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/portal-usd"
+  },
+  "POWREUR": {
+    "exchange": "spot",
+    "base": "power-ledger",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/powr-eur"
+  },
+  "POWRUSD": {
+    "exchange": "spot",
+    "base": "power-ledger",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/powr-usd"
+  },
+  "PRCLEUR": {
+    "exchange": "spot",
+    "base": "parcl",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/prcl-eur"
+  },
+  "PRCLUSD": {
+    "exchange": "spot",
+    "base": "parcl",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/prcl-usd"
+  },
+  "PRIMEEUR": {
+    "exchange": "spot",
+    "base": "echelon-prime",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/prime-eur"
+  },
+  "PRIMEUSD": {
+    "exchange": "spot",
+    "base": "echelon-prime",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/prime-usd"
+  },
+  "PROEUR": {
+    "exchange": "spot",
+    "base": "propy",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/pro-eur"
+  },
+  "PROMPTEUR": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/prompt-eur"
+  },
+  "PROMPTUSD": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/prompt-usd"
+  },
+  "PROSEUR": {
+    "exchange": "spot",
+    "base": "pharos-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/pros-eur"
+  },
+  "PROSUSD": {
+    "exchange": "spot",
+    "base": "pharos-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pros-usd"
+  },
+  "PROUSD": {
+    "exchange": "spot",
+    "base": "propy",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pro-usd"
+  },
+  "PROVEEUR": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/prove-eur"
+  },
+  "PROVEUSD": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/prove-usd"
+  },
+  "PTBEUR": {
+    "exchange": "spot",
+    "base": "portal-to-bitcoin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ptb-eur"
+  },
+  "PTBUSD": {
+    "exchange": "spot",
+    "base": "portal-to-bitcoin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ptb-usd"
+  },
+  "PUFFEREUR": {
+    "exchange": "spot",
+    "base": "puffer",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/puffer-eur"
+  },
+  "PUFFERUSD": {
+    "exchange": "spot",
+    "base": "puffer",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/puffer-usd"
+  },
+  "QEUR": {
+    "exchange": "spot",
+    "base": "quack-ai",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/q-eur"
+  },
+  "QIUSD": {
+    "exchange": "spot",
+    "base": "benqi",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/qi-usd"
+  },
+  "QTUMEUR": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/qtum-eur"
+  },
+  "QTUMUSD": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/qtum-usd"
+  },
+  "QUAIEUR": {
+    "exchange": "spot",
+    "base": "quai-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/quai-eur"
+  },
+  "QUAIUSD": {
+    "exchange": "spot",
+    "base": "quai-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/quai-usd"
+  },
+  "QUIDUSD": {
+    "exchange": "spot",
+    "base": "squid-3",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/quid-usd"
+  },
+  "QUSD": {
+    "exchange": "spot",
+    "base": "quack-ai",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/q-usd"
+  },
+  "RADEUR": {
+    "exchange": "spot",
+    "base": "radicle",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/rad-eur"
+  },
+  "RADUSD": {
+    "exchange": "spot",
+    "base": "radicle",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rad-usd"
+  },
+  "RAILSEUR": {
+    "exchange": "spot",
+    "base": "rails",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/rails-eur"
+  },
+  "RAILSUSD": {
+    "exchange": "spot",
+    "base": "rails",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rails-usd"
+  },
+  "RAREEUR": {
+    "exchange": "spot",
+    "base": "superrare",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/rare-eur"
+  },
+  "RAREUSD": {
+    "exchange": "spot",
+    "base": "superrare",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rare-usd"
+  },
+  "RARIEUR": {
+    "exchange": "spot",
+    "base": "rarible",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/rari-eur"
+  },
+  "RARIUSD": {
+    "exchange": "spot",
+    "base": "rarible",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rari-usd"
+  },
+  "RENEUR": {
+    "exchange": "spot",
+    "base": "ren",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ren-eur"
+  },
+  "RENUSD": {
+    "exchange": "spot",
+    "base": "ren",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ren-usd"
+  },
+  "REPPOEUR": {
+    "exchange": "spot",
+    "base": "reppo",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/reppo-eur"
+  },
+  "REPPOUSD": {
+    "exchange": "spot",
+    "base": "reppo",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/reppo-usd"
+  },
+  "REUSD": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/re-usd"
+  },
+  "RIVEREUR": {
+    "exchange": "spot",
+    "base": "river",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/river-eur"
+  },
+  "RIVERUSD": {
+    "exchange": "spot",
+    "base": "river",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/river-usd"
+  },
+  "RLCEUR": {
+    "exchange": "spot",
+    "base": "iexec-rlc",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/rlc-eur"
+  },
+  "RLCUSD": {
+    "exchange": "spot",
+    "base": "iexec-rlc",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rlc-usd"
+  },
+  "RLSEUR": {
+    "exchange": "spot",
+    "base": "rayls",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/rls-eur"
+  },
+  "RLSUSD": {
+    "exchange": "spot",
+    "base": "rayls",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rls-usd"
+  },
+  "RNBWUSD": {
+    "exchange": "spot",
+    "base": "rainbow-3-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rnbw-usd"
+  },
+  "ROLLEUR": {
+    "exchange": "spot",
+    "base": "rollx",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/roll-eur"
+  },
+  "ROLLUSD": {
+    "exchange": "spot",
+    "base": "rollx",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/roll-usd"
+  },
+  "RPLEUR": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/rpl-eur"
+  },
+  "RPLUSD": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rpl-usd"
+  },
+  "RSCEUR": {
+    "exchange": "spot",
+    "base": "researchcoin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/rsc-eur"
+  },
+  "RSCUSD": {
+    "exchange": "spot",
+    "base": "researchcoin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rsc-usd"
+  },
+  "RSREUR": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/rsr-eur"
+  },
+  "RSRUSD": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rsr-usd"
+  },
+  "RUJIEUR": {
+    "exchange": "spot",
+    "base": "rujira",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ruji-eur"
+  },
+  "RUJIUSD": {
+    "exchange": "spot",
+    "base": "rujira",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ruji-usd"
+  },
+  "RVVUSD": {
+    "exchange": "spot",
+    "base": "astra-nova",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rvv-usd"
+  },
+  "SAGAEUR": {
+    "exchange": "spot",
+    "base": "saga-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/saga-eur"
+  },
+  "SAGAUSD": {
+    "exchange": "spot",
+    "base": "saga-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/saga-usd"
+  },
+  "SAHARAEUR": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sahara-eur"
+  },
+  "SAHARAUSD": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sahara-usd"
+  },
+  "SAMOEUR": {
+    "exchange": "spot",
+    "base": "samoyedcoin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/samo-eur"
+  },
+  "SAMOUSD": {
+    "exchange": "spot",
+    "base": "samoyedcoin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/samo-usd"
+  },
+  "SAPIENEUR": {
+    "exchange": "spot",
+    "base": "sapien-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sapien-eur"
+  },
+  "SAPIENUSD": {
+    "exchange": "spot",
+    "base": "sapien-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sapien-usd"
+  },
+  "SAUCEEUR": {
+    "exchange": "spot",
+    "base": "saucerswap",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sauce-eur"
+  },
+  "SAUCEUSD": {
+    "exchange": "spot",
+    "base": "saucerswap",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sauce-usd"
+  },
+  "SCEUR": {
+    "exchange": "spot",
+    "base": "siacoin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sc-eur"
+  },
+  "SCOREUR": {
+    "exchange": "spot",
+    "base": "scor",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/scor-eur"
+  },
+  "SCORUSD": {
+    "exchange": "spot",
+    "base": "scor",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/scor-usd"
+  },
+  "SCUSD": {
+    "exchange": "spot",
+    "base": "siacoin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sc-usd"
+  },
+  "SCXBT": {
+    "exchange": "spot",
+    "base": "siacoin",
+    "quote": "bitcoin",
+    "url": "https://pro.kraken.com/app/trade/sc-btc"
+  },
+  "SENTEUR": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sent-eur"
+  },
+  "SENTUSD": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sent-usd"
+  },
+  "SGBEUR": {
+    "exchange": "spot",
+    "base": "songbird",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sgb-eur"
+  },
+  "SGBUSD": {
+    "exchange": "spot",
+    "base": "songbird",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sgb-usd"
+  },
+  "SHAPEUSD": {
+    "exchange": "spot",
+    "base": "shape",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/shape-usd"
+  },
+  "SHXEUR": {
+    "exchange": "spot",
+    "base": "stronghold-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/shx-eur"
+  },
+  "SHXUSD": {
+    "exchange": "spot",
+    "base": "stronghold-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/shx-usd"
+  },
+  "SIGNEUR": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sign-eur"
+  },
+  "SIGNUSD": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sign-usd"
+  },
+  "SKREUR": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/skr-eur"
+  },
+  "SKRUSD": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/skr-usd"
+  },
+  "SLXEUR": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/slx-eur"
+  },
+  "SLXUSD": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/slx-usd"
+  },
+  "SN44USD": {
+    "exchange": "spot",
+    "base": "score",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sn44-usd"
+  },
+  "SN51USD": {
+    "exchange": "spot",
+    "base": "celium",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sn51-usd"
+  },
+  "SN62USD": {
+    "exchange": "spot",
+    "base": "ridges-ai",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sn62-usd"
+  },
+  "SN64USD": {
+    "exchange": "spot",
+    "base": "chutes",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sn64-usd"
+  },
+  "SN75USD": {
+    "exchange": "spot",
+    "base": "hippius",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sn75-usd"
+  },
+  "SNEKEUR": {
+    "exchange": "spot",
+    "base": "snek",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/snek-eur"
+  },
+  "SNEKUSD": {
+    "exchange": "spot",
+    "base": "snek",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/snek-usd"
+  },
+  "SODAUSD": {
+    "exchange": "spot",
+    "base": "sodax",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/soda-usd"
+  },
+  "SOMIEUR": {
+    "exchange": "spot",
+    "base": "somnia",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/somi-eur"
+  },
+  "SOMIUSD": {
+    "exchange": "spot",
+    "base": "somnia",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/somi-usd"
+  },
+  "SOONEUR": {
+    "exchange": "spot",
+    "base": "soon-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/soon-eur"
+  },
+  "SOONUSD": {
+    "exchange": "spot",
+    "base": "soon-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/soon-usd"
+  },
+  "SOSOEUR": {
+    "exchange": "spot",
+    "base": "sosovalue",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/soso-eur"
+  },
+  "SOSOUSD": {
+    "exchange": "spot",
+    "base": "sosovalue",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/soso-usd"
+  },
+  "SPACEEUR": {
+    "exchange": "spot",
+    "base": "spacecoin-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/space-eur"
+  },
+  "SPACEUSD": {
+    "exchange": "spot",
+    "base": "spacecoin-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/space-usd"
+  },
+  "SPELLEUR": {
+    "exchange": "spot",
+    "base": "spell-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/spell-eur"
+  },
+  "SPELLUSD": {
+    "exchange": "spot",
+    "base": "spell-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/spell-usd"
+  },
+  "SPKEUR": {
+    "exchange": "spot",
+    "base": "spark-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/spk-eur"
+  },
+  "SPKUSD": {
+    "exchange": "spot",
+    "base": "spark-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/spk-usd"
+  },
+  "SRMEUR": {
+    "exchange": "spot",
+    "base": "serum",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/srm-eur"
+  },
+  "SRMUSD": {
+    "exchange": "spot",
+    "base": "serum",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/srm-usd"
+  },
+  "SSVEUR": {
+    "exchange": "spot",
+    "base": "ssv-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ssv-eur"
+  },
+  "SSVUSD": {
+    "exchange": "spot",
+    "base": "ssv-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ssv-usd"
+  },
+  "STBLEUR": {
+    "exchange": "spot",
+    "base": "stbl",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/stbl-eur"
+  },
+  "STBLUSD": {
+    "exchange": "spot",
+    "base": "stbl",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/stbl-usd"
+  },
+  "STEUR": {
+    "exchange": "spot",
+    "base": "sentio",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/st-eur"
+  },
+  "STORJEUR": {
+    "exchange": "spot",
+    "base": "storj",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/storj-eur"
+  },
+  "STORJUSD": {
+    "exchange": "spot",
+    "base": "storj",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/storj-usd"
+  },
+  "STUSD": {
+    "exchange": "spot",
+    "base": "sentio",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/st-usd"
+  },
+  "SUKUEUR": {
+    "exchange": "spot",
+    "base": "suku",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/suku-eur"
+  },
+  "SUKUUSD": {
+    "exchange": "spot",
+    "base": "suku",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/suku-usd"
+  },
+  "SUNDOGEUR": {
+    "exchange": "spot",
+    "base": "sundog",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sundog-eur"
+  },
+  "SUNDOGUSD": {
+    "exchange": "spot",
+    "base": "sundog",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sundog-usd"
+  },
+  "SUPEREUR": {
+    "exchange": "spot",
+    "base": "superfarm",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/super-eur"
+  },
+  "SUPERUSD": {
+    "exchange": "spot",
+    "base": "superfarm",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/super-usd"
+  },
+  "SUPEUR": {
+    "exchange": "spot",
+    "base": "superp",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sup-eur"
+  },
+  "SUPUSD": {
+    "exchange": "spot",
+    "base": "superp",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sup-usd"
+  },
+  "SWARMSEUR": {
+    "exchange": "spot",
+    "base": "swarms",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/swarms-eur"
+  },
+  "SWARMSUSD": {
+    "exchange": "spot",
+    "base": "swarms",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/swarms-usd"
+  },
+  "SWEATEUR": {
+    "exchange": "spot",
+    "base": "sweat-economy",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sweat-eur"
+  },
+  "SWEATUSD": {
+    "exchange": "spot",
+    "base": "sweat-economy",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sweat-usd"
+  },
+  "SWELLEUR": {
+    "exchange": "spot",
+    "base": "swell",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/swell-eur"
+  },
+  "SWELLUSD": {
+    "exchange": "spot",
+    "base": "swell",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/swell-usd"
+  },
+  "SXTEUR": {
+    "exchange": "spot",
+    "base": "space-and-time",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/sxt-eur"
+  },
+  "SXTUSD": {
+    "exchange": "spot",
+    "base": "space-and-time",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/sxt-usd"
+  },
+  "SYNDEUR": {
+    "exchange": "spot",
+    "base": "syndicate-3",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/synd-eur"
+  },
+  "SYNDUSD": {
+    "exchange": "spot",
+    "base": "syndicate-3",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/synd-usd"
+  },
+  "TACUSD": {
+    "exchange": "spot",
+    "base": "tac",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/tac-usd"
+  },
+  "TAKEEUR": {
+    "exchange": "spot",
+    "base": "overtake",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/take-eur"
+  },
+  "TAKEUSD": {
+    "exchange": "spot",
+    "base": "overtake",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/take-usd"
+  },
+  "THQEUR": {
+    "exchange": "spot",
+    "base": "theoriq",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/thq-eur"
+  },
+  "THQUSD": {
+    "exchange": "spot",
+    "base": "theoriq",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/thq-usd"
+  },
+  "TLMEUR": {
+    "exchange": "spot",
+    "base": "alien-worlds",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/tlm-eur"
+  },
+  "TLMUSD": {
+    "exchange": "spot",
+    "base": "alien-worlds",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/tlm-usd"
+  },
+  "TNSREUR": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/tnsr-eur"
+  },
+  "TNSRUSD": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/tnsr-usd"
+  },
+  "TOKENEUR": {
+    "exchange": "spot",
+    "base": "tokenfi",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/token-eur"
+  },
+  "TOKENUSD": {
+    "exchange": "spot",
+    "base": "tokenfi",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/token-usd"
+  },
+  "TREEEUR": {
+    "exchange": "spot",
+    "base": "treehouse",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/tree-eur"
+  },
+  "TREEUSD": {
+    "exchange": "spot",
+    "base": "treehouse",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/tree-usd"
+  },
+  "TRIAEUR": {
+    "exchange": "spot",
+    "base": "tria",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/tria-eur"
+  },
+  "TRIAUSD": {
+    "exchange": "spot",
+    "base": "tria",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/tria-usd"
+  },
+  "TRUEUR": {
+    "exchange": "spot",
+    "base": "truefi",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/tru-eur"
+  },
+  "TRUSTEUR": {
+    "exchange": "spot",
+    "base": "intuition",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/trust-eur"
+  },
+  "TRUSTUSD": {
+    "exchange": "spot",
+    "base": "intuition",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/trust-usd"
+  },
+  "TRUUSD": {
+    "exchange": "spot",
+    "base": "truefi",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/tru-usd"
+  },
+  "TURBOEUR": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/turbo-eur"
+  },
+  "TURBOUSD": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/turbo-usd"
+  },
+  "TXEUR": {
+    "exchange": "spot",
+    "base": "tx",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/tx-eur"
+  },
+  "TXUSD": {
+    "exchange": "spot",
+    "base": "tx",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/tx-usd"
+  },
+  "UAIEUR": {
+    "exchange": "spot",
+    "base": "unifai-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/uai-eur"
+  },
+  "UAIUSD": {
+    "exchange": "spot",
+    "base": "unifai-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/uai-usd"
+  },
+  "UEUR": {
+    "exchange": "spot",
+    "base": "union-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/u-eur"
+  },
+  "UFDEUR": {
+    "exchange": "spot",
+    "base": "unicorn-fart-dust",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ufd-eur"
+  },
+  "UFDUSD": {
+    "exchange": "spot",
+    "base": "unicorn-fart-dust",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ufd-usd"
+  },
+  "UMXMUSD": {
+    "exchange": "spot",
+    "base": "manadia",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/umxm-usd"
+  },
+  "UNFIEUR": {
+    "exchange": "spot",
+    "base": "unifi-protocol-dao",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/unfi-eur"
+  },
+  "UNFIUSD": {
+    "exchange": "spot",
+    "base": "unifi-protocol-dao",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/unfi-usd"
+  },
+  "UPEUR": {
+    "exchange": "spot",
+    "base": "superform",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/up-eur"
+  },
+  "UPUSD": {
+    "exchange": "spot",
+    "base": "superform",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/up-usd"
+  },
+  "USDUCEUR": {
+    "exchange": "spot",
+    "base": "unstable-coin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/usduc-eur"
+  },
+  "USDUCUSD": {
+    "exchange": "spot",
+    "base": "unstable-coin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/usduc-usd"
+  },
+  "USEUR": {
+    "exchange": "spot",
+    "base": "talus",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/us-eur"
+  },
+  "USUSD": {
+    "exchange": "spot",
+    "base": "talus",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/us-usd"
+  },
+  "UUSD": {
+    "exchange": "spot",
+    "base": "union-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/u-usd"
+  },
+  "UXLINKUSD": {
+    "exchange": "spot",
+    "base": "uxlink",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/uxlink-usd"
+  },
+  "VELODROMEEUR": {
+    "exchange": "spot",
+    "base": "velodrome",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/velodrome-eur"
+  },
+  "VELODROMEUSD": {
+    "exchange": "spot",
+    "base": "velodrome",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/velodrome-usd"
+  },
+  "VELOEUR": {
+    "exchange": "spot",
+    "base": "velo",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/velo-eur"
+  },
+  "VELOUSD": {
+    "exchange": "spot",
+    "base": "velo",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/velo-usd"
+  },
+  "VELVETUSD": {
+    "exchange": "spot",
+    "base": "velvet",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/velvet-usd"
+  },
+  "VFYEUR": {
+    "exchange": "spot",
+    "base": "zkverify",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/vfy-eur"
+  },
+  "VFYUSD": {
+    "exchange": "spot",
+    "base": "zkverify",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/vfy-usd"
+  },
+  "VINEEUR": {
+    "exchange": "spot",
+    "base": "vine",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/vine-eur"
+  },
+  "VINEUSD": {
+    "exchange": "spot",
+    "base": "vine",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/vine-usd"
+  },
+  "VOOIUSD": {
+    "exchange": "spot",
+    "base": "vooi",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/vooi-usd"
+  },
+  "VSNEUR": {
+    "exchange": "spot",
+    "base": "vision-3",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/vsn-eur"
+  },
+  "VSNUSD": {
+    "exchange": "spot",
+    "base": "vision-3",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/vsn-usd"
+  },
+  "VTHOEUR": {
+    "exchange": "spot",
+    "base": "vethor-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/vtho-eur"
+  },
+  "VTHOUSD": {
+    "exchange": "spot",
+    "base": "vethor-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/vtho-usd"
+  },
+  "WALEUR": {
+    "exchange": "spot",
+    "base": "walrus-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/wal-eur"
+  },
+  "WALUSD": {
+    "exchange": "spot",
+    "base": "walrus-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/wal-usd"
+  },
+  "WARDEUR": {
+    "exchange": "spot",
+    "base": "warden-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ward-eur"
+  },
+  "WARDUSD": {
+    "exchange": "spot",
+    "base": "warden-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ward-usd"
+  },
+  "WARUSD": {
+    "exchange": "spot",
+    "base": "war-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/war-usd"
+  },
+  "WCTEUR": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/wct-eur"
+  },
+  "WCTUSD": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/wct-usd"
+  },
+  "WELLEUR": {
+    "exchange": "spot",
+    "base": "moonwell-artemis",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/well-eur"
+  },
+  "WELLUSD": {
+    "exchange": "spot",
+    "base": "moonwell-artemis",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/well-usd"
+  },
+  "WEMIXUSD": {
+    "exchange": "spot",
+    "base": "wemix-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/wemix-usd"
+  },
+  "WINGSUSD": {
+    "exchange": "spot",
+    "base": "wingbits",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/wings-usd"
+  },
+  "XANEUR": {
+    "exchange": "spot",
+    "base": "anoma",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/xan-eur"
+  },
+  "XANUSD": {
+    "exchange": "spot",
+    "base": "anoma",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/xan-usd"
+  },
+  "XIONEUR": {
+    "exchange": "spot",
+    "base": "xion-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/xion-eur"
+  },
+  "XIONUSD": {
+    "exchange": "spot",
+    "base": "xion-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/xion-usd"
+  },
+  "XL1EUR": {
+    "exchange": "spot",
+    "base": "xyo-layer-one",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/xl1-eur"
+  },
+  "XL1USD": {
+    "exchange": "spot",
+    "base": "xyo-layer-one",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/xl1-usd"
+  },
+  "XMNEUR": {
+    "exchange": "spot",
+    "base": "xmoney-2",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/xmn-eur"
+  },
+  "XMNUSD": {
+    "exchange": "spot",
+    "base": "xmoney-2",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/xmn-usd"
+  },
+  "XNYEUR": {
+    "exchange": "spot",
+    "base": "codatta",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/xny-eur"
+  },
+  "XNYUSD": {
+    "exchange": "spot",
+    "base": "codatta",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/xny-usd"
+  },
+  "XYOEUR": {
+    "exchange": "spot",
+    "base": "xyo",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/xyo-eur"
+  },
+  "XYOUSD": {
+    "exchange": "spot",
+    "base": "xyo",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/xyo-usd"
+  },
+  "YBEUR": {
+    "exchange": "spot",
+    "base": "yield-basis",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/yb-eur"
+  },
+  "YBUSD": {
+    "exchange": "spot",
+    "base": "yield-basis",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/yb-usd"
+  },
+  "YGGEUR": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ygg-eur"
+  },
+  "YGGUSD": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ygg-usd"
+  },
+  "YOMUSD": {
+    "exchange": "spot",
+    "base": "yom",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/yom-usd"
+  },
+  "ZBCNEUR": {
+    "exchange": "spot",
+    "base": "zebec-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zbcn-eur"
+  },
+  "ZBCNUSD": {
+    "exchange": "spot",
+    "base": "zebec-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zbcn-usd"
+  },
+  "ZBTEUR": {
+    "exchange": "spot",
+    "base": "zerobase",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zbt-eur"
+  },
+  "ZBTUSD": {
+    "exchange": "spot",
+    "base": "zerobase",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zbt-usd"
+  },
+  "ZEREBROEUR": {
+    "exchange": "spot",
+    "base": "zerebro",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zerebro-eur"
+  },
+  "ZEREBROUSD": {
+    "exchange": "spot",
+    "base": "zerebro",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zerebro-usd"
+  },
+  "ZETAEUR": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zeta-eur"
+  },
+  "ZETAUSD": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zeta-usd"
+  },
+  "ZEUSEUR": {
+    "exchange": "spot",
+    "base": "zeus-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zeus-eur"
+  },
+  "ZEUSUSD": {
+    "exchange": "spot",
+    "base": "zeus-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zeus-usd"
+  },
+  "ZEXEUR": {
+    "exchange": "spot",
+    "base": "zeta",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zex-eur"
+  },
+  "ZEXUSD": {
+    "exchange": "spot",
+    "base": "zeta",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zex-usd"
+  },
+  "ZIGEUR": {
+    "exchange": "spot",
+    "base": "zignaly",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zig-eur"
+  },
+  "ZIGUSD": {
+    "exchange": "spot",
+    "base": "zignaly",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zig-usd"
+  },
+  "ZKPEUR": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zkp-eur"
+  },
+  "ZKPUSD": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zkp-usd"
+  },
+  "ZRCEUR": {
+    "exchange": "spot",
+    "base": "zircuit",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zrc-eur"
+  },
+  "ZRCUSD": {
+    "exchange": "spot",
+    "base": "zircuit",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zrc-usd"
+  },
+  "ZRXEUR": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zrx-eur"
+  },
+  "ZRXUSD": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zrx-usd"
+  },
+  "ZRXXBT": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "bitcoin",
+    "url": "https://pro.kraken.com/app/trade/zrx-btc"
+  },
+  "BRL1USD": {
+    "exchange": "spot",
+    "base": "brl1",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/brl1-usd"
+  },
+  "CASHUSD": {
+    "exchange": "spot",
+    "base": "phantom-cash",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/cash-usd"
+  },
+  "CASHUSDC": {
+    "exchange": "spot",
+    "base": "phantom-cash",
+    "quote": "usd-coin",
+    "url": "https://pro.kraken.com/app/trade/cash-usdc"
+  },
+  "COPMUSD": {
+    "exchange": "spot",
+    "base": "minteo-copm",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/copm-usd"
+  },
+  "ETHEUROP": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "schuman-europ",
+    "url": "https://pro.kraken.com/app/trade/eth-europ"
+  },
+  "ETHFIDD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "fidelity-digital-dollar",
+    "url": "https://pro.kraken.com/app/trade/eth-fidd"
+  },
+  "EUROPEUR": {
+    "exchange": "spot",
+    "base": "schuman-europ",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/europ-eur"
+  },
+  "EUROPUSD": {
+    "exchange": "spot",
+    "base": "schuman-europ",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/europ-usd"
+  },
+  "EUROPUSDC": {
+    "exchange": "spot",
+    "base": "schuman-europ",
+    "quote": "usd-coin",
+    "url": "https://pro.kraken.com/app/trade/europ-usdc"
+  },
+  "EURQEUR": {
+    "exchange": "spot",
+    "base": "quantoz-eurq",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/eurq-eur"
+  },
+  "EURQUSD": {
+    "exchange": "spot",
+    "base": "quantoz-eurq",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/eurq-usd"
+  },
+  "FIDDUSD": {
+    "exchange": "spot",
+    "base": "fidelity-digital-dollar",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/fidd-usd"
+  },
+  "FIDDUSDC": {
+    "exchange": "spot",
+    "base": "fidelity-digital-dollar",
+    "quote": "usd-coin",
+    "url": "https://pro.kraken.com/app/trade/fidd-usdc"
+  },
+  "FIDDUSDT": {
+    "exchange": "spot",
+    "base": "fidelity-digital-dollar",
+    "quote": "tether",
+    "url": "https://pro.kraken.com/app/trade/fidd-usdt"
+  },
+  "FRNTUSD": {
+    "exchange": "spot",
+    "base": "frontier-stable-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/frnt-usd"
+  },
+  "FRNTUSDC": {
+    "exchange": "spot",
+    "base": "frontier-stable-token",
+    "quote": "usd-coin",
+    "url": "https://pro.kraken.com/app/trade/frnt-usdc"
+  },
+  "GOATEUR": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/goat-eur"
+  },
+  "GOATUSD": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/goat-usd"
+  },
+  "GSTEUR": {
+    "exchange": "spot",
+    "base": "green-satoshi-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/gst-eur"
+  },
+  "GSTUSD": {
+    "exchange": "spot",
+    "base": "green-satoshi-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/gst-usd"
+  },
+  "JITOSOLEUR": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/jitosol-eur"
+  },
+  "JITOSOLSOL": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "solana",
+    "url": "https://pro.kraken.com/app/trade/jitosol-sol"
+  },
+  "JITOSOLUSD": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/jitosol-usd"
+  },
+  "LSETHETH": {
+    "exchange": "spot",
+    "base": "liquid-staked-ethereum",
+    "quote": "ethereum",
+    "url": "https://pro.kraken.com/app/trade/lseth-eth"
+  },
+  "LSETHUSD": {
+    "exchange": "spot",
+    "base": "liquid-staked-ethereum",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lseth-usd"
+  },
+  "LSSOLEUR": {
+    "exchange": "spot",
+    "base": "liquid-staked-sol",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/lssol-eur"
+  },
+  "LSSOLSOL": {
+    "exchange": "spot",
+    "base": "liquid-staked-sol",
+    "quote": "solana",
+    "url": "https://pro.kraken.com/app/trade/lssol-sol"
+  },
+  "LSSOLUSD": {
+    "exchange": "spot",
+    "base": "liquid-staked-sol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/lssol-usd"
+  },
+  "MIMEUR": {
+    "exchange": "spot",
+    "base": "magic-internet-money-bitcoin",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/mim-eur"
+  },
+  "MIMUSD": {
+    "exchange": "spot",
+    "base": "magic-internet-money-bitcoin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mim-usd"
+  },
+  "MSOLEUR": {
+    "exchange": "spot",
+    "base": "marinade-staked-sol",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/msol-eur"
+  },
+  "MSOLUSD": {
+    "exchange": "spot",
+    "base": "marinade-staked-sol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/msol-usd"
+  },
+  "MXNBUSD": {
+    "exchange": "spot",
+    "base": "mxnb",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mxnb-usd"
+  },
+  "QCADUSD": {
+    "exchange": "spot",
+    "base": "qcad",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/qcad-usd"
+  },
+  "SAFEEUR": {
+    "exchange": "spot",
+    "base": "safe",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/safe-eur"
+  },
+  "SAFEUSD": {
+    "exchange": "spot",
+    "base": "safe",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/safe-usd"
+  },
+  "TGBPUSD": {
+    "exchange": "spot",
+    "base": "tokenised-gbp",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/tgbp-usd"
+  },
+  "TOSHIEUR": {
+    "exchange": "spot",
+    "base": "toshi",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/toshi-eur"
+  },
+  "TOSHIUSD": {
+    "exchange": "spot",
+    "base": "toshi",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/toshi-usd"
+  },
+  "USATUSD": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/usat-usd"
+  },
+  "USATUSDT": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "tether",
+    "url": "https://pro.kraken.com/app/trade/usat-usdt"
+  },
+  "USDGOUSD": {
+    "exchange": "spot",
+    "base": "usdgo",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/usdgo-usd"
+  },
+  "USDQUSD": {
+    "exchange": "spot",
+    "base": "quantoz-usdq",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/usdq-usd"
+  },
+  "USDQUSDC": {
+    "exchange": "spot",
+    "base": "quantoz-usdq",
+    "quote": "usd-coin",
+    "url": "https://pro.kraken.com/app/trade/usdq-usdc"
+  },
+  "USDQUSDT": {
+    "exchange": "spot",
+    "base": "quantoz-usdq",
+    "quote": "tether",
+    "url": "https://pro.kraken.com/app/trade/usdq-usdt"
+  },
+  "XBTFIDD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "fidelity-digital-dollar",
+    "url": "https://pro.kraken.com/app/trade/btc-fidd"
+  },
+  "XBTEUROP": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "schuman-europ",
+    "url": "https://pro.kraken.com/app/trade/btc-europ"
+  },
+  "XBTUSDQ": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "quantoz-usdq",
+    "url": "https://pro.kraken.com/app/trade/btc-usdq"
+  },
+  "ZAMAEUR": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/zama-eur"
+  },
+  "ZAMAUSD": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/zama-usd"
+  },
+  "ROBOUSD": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/robo-usd"
+  },
+  "MLNXBT": {
+    "exchange": "spot",
+    "base": "enzyme",
+    "quote": "bitcoin",
+    "url": "https://pro.kraken.com/app/trade/mln-btc"
+  },
+  "MLNEUR": {
+    "exchange": "spot",
+    "base": "enzyme",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/mln-eur"
+  },
+  "MLNUSD": {
+    "exchange": "spot",
+    "base": "enzyme",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mln-usd"
   }
 }
