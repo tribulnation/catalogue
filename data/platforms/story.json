@@ -1,5 +1,11 @@
 {
   "display_name": "Story",
   "kind": "blockchain",
-  "native_asset": "story"
+  "native_asset": "story",
+  "about": {
+    "en": "Story is a blockchain designed for registering intellectual property and attaching programmable licensing terms. The project subsequently adopted the Data Network branding, expanding its focus on provenance for AI datasets."
+  },
+  "urls": {
+    "Documentation": "https://docs.story.foundation/docs/wip-client"
+  }
 }

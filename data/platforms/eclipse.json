@@ -1,4 +1,10 @@
 {
   "display_name": "Eclipse",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Eclipse is an Ethereum layer-two network that uses the Solana Virtual Machine for transaction execution. Its modular design combines that execution environment with separate settlement and data-availability infrastructure."
+  },
+  "urls": {
+    "Website": "https://www.eclipse.xyz/"
+  }
 }

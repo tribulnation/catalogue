@@ -1,4 +1,10 @@
 {
   "display_name": "Dymension",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Dymension is a Cosmos-based blockchain that provides settlement infrastructure for application-specific rollups called RollApps. It connects rollup execution environments with liquidity and interoperability services."
+  },
+  "urls": {
+    "Website": "https://dymension.xyz/"
+  }
 }

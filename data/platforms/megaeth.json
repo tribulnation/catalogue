@@ -1,4 +1,10 @@
 {
   "display_name": "MegaETH",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "MegaETH is an Ethereum scaling network designed for low-latency applications and high transaction throughput. It provides an EVM-compatible execution environment and settles on Ethereum."
+  },
+  "urls": {
+    "Website": "https://www.megaeth.com/"
+  }
 }

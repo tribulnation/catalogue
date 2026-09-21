@@ -4,6 +4,15 @@ Adds 350 asset translations, 59 network translations, 219 spot instruments and
 171 linear perpetual instruments, backed by 324 new canonical assets and 57
 blockchain records. Base: `2ad44d5`. Related: [Catalogue #130](https://github.com/tribulnation/catalogue/issues/130).
 
+## Descriptions and official links
+
+All 324 new assets and 57 new blockchain records include a
+project-specific English description and at least one project, issuer,
+documentation, source-code, community or verified token-contract link. Link labels identify their purpose.
+Source review excludes parked domains and distinguishes similarly named projects;
+shared records have identical metadata across all four venue PRs. This correction
+changes no asset identity, translation or instrument fields.
+
 ## Identity evidence
 
 1. Current [Bybit currency metadata](https://bybit-exchange.github.io/docs/v5/asset/coin-info)

@@ -1,5 +1,11 @@
 {
   "display_name": "THORChain",
   "kind": "blockchain",
-  "native_asset": "thorchain"
+  "native_asset": "thorchain",
+  "about": {
+    "en": "THORChain is a blockchain that coordinates liquidity pools for swapping native assets across different networks. Its protocol uses validators and vaults to manage cross-chain transactions."
+  },
+  "urls": {
+    "Website": "https://thorchain.org/"
+  }
 }

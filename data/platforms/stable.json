@@ -1,4 +1,10 @@
 {
   "display_name": "Stable",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Stable is a blockchain designed around USDT transfers and payments. Its network uses stablecoin-denominated fees to support applications built around digital-dollar transactions."
+  },
+  "urls": {
+    "Website": "https://www.stable.xyz/"
+  }
 }

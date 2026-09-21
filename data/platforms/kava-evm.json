@@ -6,6 +6,9 @@
   "namespace": "eip155",
   "chain_id": 2222,
   "urls": {
-    "Documentation": "https://docs.kava.io/docs/ethereum/overview/"
+    "Website": "https://www.kava.io/"
+  },
+  "about": {
+    "en": "Kava's EVM environment supports Ethereum-compatible smart contracts and hexadecimal addresses. It operates alongside the Cosmos SDK environment on the Kava network."
   }
 }

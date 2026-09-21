@@ -1,4 +1,10 @@
 {
   "display_name": "Core",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Core is an EVM-compatible blockchain that combines delegated proof of stake with Bitcoin-related security participation. Its network supports smart-contract applications and Bitcoin-focused decentralized finance."
+  },
+  "urls": {
+    "Website": "https://coredao.org/"
+  }
 }

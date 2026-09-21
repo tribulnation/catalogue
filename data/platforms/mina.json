@@ -1,5 +1,11 @@
 {
   "display_name": "Mina",
   "kind": "blockchain",
-  "native_asset": "mina-protocol"
+  "native_asset": "mina-protocol",
+  "about": {
+    "en": "Mina is a proof-of-stake blockchain that uses recursive zero-knowledge proofs to keep chain verification compact. Its application framework supports proving computations without publishing all underlying data."
+  },
+  "urls": {
+    "Website": "https://minaprotocol.com/"
+  }
 }

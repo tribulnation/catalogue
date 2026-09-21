@@ -1,5 +1,11 @@
 {
   "display_name": "Qtum",
   "kind": "blockchain",
-  "native_asset": "qtum"
+  "native_asset": "qtum",
+  "about": {
+    "en": "Qtum is a proof-of-stake blockchain that combines a UTXO ledger with an Ethereum-compatible smart-contract environment. Its account abstraction layer connects contract execution with the transaction model."
+  },
+  "urls": {
+    "Website": "https://qtum.org/"
+  }
 }

@@ -2,5 +2,11 @@
   "id": "eigenpie",
   "display_name": "Eigenpie",
   "symbol": "EGP1",
-  "category": "crypto"
+  "category": "crypto",
+  "about": {
+    "en": "Eigenpie is a liquid-restaking protocol that accepts liquid-staking tokens. EGP is its governance token, identified as EGP1 on Bybit, and is separate from restaking receipt tokens."
+  },
+  "urls": {
+    "Documentation": "https://docs.eigenpiexyz.io/"
+  }
 }
