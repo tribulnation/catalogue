@@ -101,3 +101,17 @@ Reproduce the SDK checks from its checkout:
 .venv/bin/sdk-dev test consistency bybit --catalogue ../catalogue-bybit-gaps/data --output /tmp/bybit-catalogue-review
 .venv/bin/sdk-dev results verify /tmp/bybit-catalogue-review --catalogue ../catalogue-bybit-gaps/data
 ```
+
+## External identifiers
+
+324 of 324 new assets have at least one external ID.
+The companion JSON records provider endpoints and identity checks for added IDs.
+CI now checks new assets for descriptions, URLs and external IDs against the PR base.
+
+## Pending identity consolidation
+
+The external-ID audit found the following duplicate canonical records. Their consolidation is pending approval; no records have been deleted or references rewritten in this correction.
+
+1. `radiant` → `radiant-capital`.
+
+Resolve these before merging the venue PRs together to avoid duplicate external-provider identities.
