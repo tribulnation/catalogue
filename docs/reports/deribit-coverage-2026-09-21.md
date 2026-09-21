@@ -42,6 +42,14 @@ mapped; EURC and COIN50 are additional current listings. Supported spot coverage
    corroborated; other new records omit provider IDs. The asset register's linked
    CoinGecko slugs are not treated as infallible identifiers.
 
+## Asset descriptions and project links
+
+All 37 new reference assets include an English description and an official
+project, company, fund issuer or index publisher link. Documentation and
+community links are labeled accordingly. Descriptions distinguish token utility,
+fund shares and equity references; shared records use identical metadata across
+the venue follow-ups. This correction changes no identity or instrument fields.
+
 ## Retained earn and transfer coverage
 
 | Dataset | Observations | Fully resolved |
