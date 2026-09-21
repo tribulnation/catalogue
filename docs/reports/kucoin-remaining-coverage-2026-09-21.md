@@ -109,3 +109,23 @@ Reproduce SDK checks from the SDK checkout:
 .venv/bin/sdk-dev test consistency kucoin --catalogue ../catalogue-kucoin-gaps/data --output /tmp/kucoin-gaps/consistency-final
 .venv/bin/sdk-dev results verify /tmp/kucoin-gaps/consistency-final --catalogue ../catalogue-kucoin-gaps/data
 ```
+
+## External identifiers
+
+641 of 641 new assets have at least one external ID.
+The companion JSON records provider endpoints and identity checks for added IDs.
+CI now checks new assets for descriptions, URLs and external IDs against the PR base.
+
+KuCoin ksETH uses CoinGecko `eth2-staking-by-poolx`, corroborated by KuCoin's ETH2-to-ksETH rename announcement. The provider listing has no active tickers at audit time; an external identity does not guarantee an available live price.
+
+## Pending identity consolidation
+
+The external-ID audit found the following duplicate canonical records. Their consolidation is pending approval; no records have been deleted or references rewritten in this correction.
+
+1. `bless-2` → `bless-network`.
+2. `enjincoin` → `enjin`.
+3. `gaia-3` → `gaia`.
+4. `kernel-2` → `kernel`.
+5. `xyo-network` → `xyo`.
+
+Resolve these before merging the venue PRs together to avoid duplicate external-provider identities.
