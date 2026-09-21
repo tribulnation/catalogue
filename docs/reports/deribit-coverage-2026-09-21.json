@@ -1,0 +1,690 @@
+{
+  "date": "2026-09-21",
+  "base_commit": "2ad44d55da87fc660db24aff153fa4f49690aed2",
+  "sources": {
+    "deribit_instruments": "https://www.deribit.com/api/v2/public/get_instruments?currency=any&expired=false",
+    "coinbase_instruments": "https://api.international.coinbase.com/api/v1/instruments",
+    "asset_register": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+  },
+  "metadata_sha256": {
+    "deribit-instruments": "ebb69a04db50cfce18ab6cacb5c4a1e2b557a397d4eff78cbd32d6d8610fe169",
+    "coinbase-instruments": "c481449536679675c1d59a22e1af0dec1554f9ededd324aeb48dc85eacc3305e",
+    "deribit-details": "5d7c97f40a8e7a9d08cbead5d23617e20dcbcddd7dd04e1b5d4cae70cde433aa"
+  },
+  "before_perpetual_count": 90,
+  "after_perpetual_count": 127,
+  "added_asset_aliases": {
+    "AMD": "advanced-micro-devices",
+    "ARM": "arm-holdings-adr",
+    "BE": "bloom-energy",
+    "CBRS": "cerebras-systems",
+    "CRCL": "circle-internet-group",
+    "DRAM": "roundhill-memory-etf",
+    "EWY": "ishares-msci-south-korea-etf",
+    "HOOD": "robinhood-markets",
+    "INTC": "intel",
+    "LITE": "lumentum-holdings",
+    "MRVL": "marvell-technology",
+    "MU": "micron-technology",
+    "NBIS": "nebius-group",
+    "QQQ": "invesco-qqq",
+    "SKHY": "sk-hynix-adr",
+    "SNDK": "sandisk",
+    "SOXL": "direxion-daily-semiconductor-bull-3x",
+    "SPCX": "spacex",
+    "SPY": "spdr-sp500-etf-trust",
+    "TSM": "taiwan-semiconductor-adr",
+    "BASED1": "based",
+    "BOME": "book-of-meme",
+    "EDGEX": "edgex",
+    "INX": "infinex",
+    "NIGHT": "midnight",
+    "PRL": "perle",
+    "RESOLV": "resolv",
+    "TOWNS": "towns",
+    "MERL": "merlin-chain",
+    "SAGA": "saga-2",
+    "BILL": "billions-network",
+    "MEGA": "megaeth",
+    "OPN": "opinion",
+    "CHIP": "usd-ai",
+    "ROBO": "fabric-protocol"
+  },
+  "added_assets": {
+    "AMD": {
+      "asset": "advanced-micro-devices",
+      "venue_name": "Advanced Micro Devices Inc."
+    },
+    "ARM": {
+      "asset": "arm-holdings-adr",
+      "venue_name": "Arm Holdings plc"
+    },
+    "BE": {
+      "asset": "bloom-energy",
+      "venue_name": "Bloom Energy Corporation"
+    },
+    "CBRS": {
+      "asset": "cerebras-systems",
+      "venue_name": "Cerebras Systems Inc."
+    },
+    "CRCL": {
+      "asset": "circle-internet-group",
+      "venue_name": "Circle Internet Financial Inc."
+    },
+    "DRAM": {
+      "asset": "roundhill-memory-etf",
+      "venue_name": "Roundhill Memory ETF"
+    },
+    "EWY": {
+      "asset": "ishares-msci-south-korea-etf",
+      "venue_name": "iShares MSCI South Korea ETF"
+    },
+    "HOOD": {
+      "asset": "robinhood-markets",
+      "venue_name": "Robinhood Markets Inc."
+    },
+    "INTC": {
+      "asset": "intel",
+      "venue_name": "Intel Corporation"
+    },
+    "LITE": {
+      "asset": "lumentum-holdings",
+      "venue_name": "Lumentum Holdings Inc."
+    },
+    "MRVL": {
+      "asset": "marvell-technology",
+      "venue_name": "Marvell Technology Inc."
+    },
+    "MU": {
+      "asset": "micron-technology",
+      "venue_name": "Micron Technology Inc."
+    },
+    "NBIS": {
+      "asset": "nebius-group",
+      "venue_name": "Nebius Group N.V."
+    },
+    "QQQ": {
+      "asset": "invesco-qqq",
+      "venue_name": "Invesco QQQ Trust"
+    },
+    "SKHY": {
+      "asset": "sk-hynix-adr",
+      "venue_name": "SK Hynix Inc. (ADR)"
+    },
+    "SNDK": {
+      "asset": "sandisk",
+      "venue_name": "SanDisk Corp."
+    },
+    "SOXL": {
+      "asset": "direxion-daily-semiconductor-bull-3x",
+      "venue_name": "Direxion Daily Semiconductor Bull 3X Shares ETF"
+    },
+    "SPCX": {
+      "asset": "spacex",
+      "venue_name": "Space Exploration Technologies Corp. (SpaceX)"
+    },
+    "SPY": {
+      "asset": "spdr-sp500-etf-trust",
+      "venue_name": "SPDR S&P 500 ETF Trust"
+    },
+    "TSM": {
+      "asset": "taiwan-semiconductor-adr",
+      "venue_name": "Taiwan Semiconductor Manufacturing Company"
+    },
+    "BASED1": {
+      "asset": "based"
+    },
+    "BOME": {
+      "asset": "book-of-meme"
+    },
+    "EDGEX": {
+      "asset": "edgex"
+    },
+    "INX": {
+      "asset": "infinex"
+    },
+    "NIGHT": {
+      "asset": "midnight"
+    },
+    "PRL": {
+      "asset": "perle"
+    },
+    "RESOLV": {
+      "asset": "resolv"
+    },
+    "TOWNS": {
+      "asset": "towns"
+    },
+    "MOG": {
+      "asset": "mog-coin"
+    },
+    "MERL": {
+      "asset": "merlin-chain"
+    },
+    "SAGA": {
+      "asset": "saga-2"
+    },
+    "BILL": {
+      "asset": "billions-network"
+    },
+    "MEGA": {
+      "asset": "megaeth"
+    },
+    "OPN": {
+      "asset": "opinion"
+    },
+    "CHIP": {
+      "asset": "usd-ai"
+    },
+    "ROBO": {
+      "asset": "fabric-protocol"
+    }
+  },
+  "added_markets": [
+    {
+      "instrument": "1000MOG_USDC-PERPETUAL",
+      "base": "mog-coin",
+      "native_base": "1000MOG",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "6eba8923-0fc8-48f8-9ca5-bdb85aa3548d",
+      "coinbase_symbol": "1000MOG-PERP",
+      "base_asset_multiplier": "1000.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "AMD_USDC-PERPETUAL",
+      "base": "advanced-micro-devices",
+      "native_base": "AMD",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "2daf1f85-d755-4ad7-4cd5-bdb4ef562538",
+      "coinbase_symbol": "AMD-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "ARM_USDC-PERPETUAL",
+      "base": "arm-holdings-adr",
+      "native_base": "ARM",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "66d9e5fb-44c9-5a0f-47db-9824cf627225",
+      "coinbase_symbol": "ARM-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "BASED1_USDC-PERPETUAL",
+      "base": "based",
+      "native_base": "BASED1",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "959c0064-397e-49b5-9cfd-99216b70852e",
+      "coinbase_symbol": "BASED1-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "BE_USDC-PERPETUAL",
+      "base": "bloom-energy",
+      "native_base": "BE",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "70dadad4-d0da-4c62-bacf-20fc286ea97b",
+      "coinbase_symbol": "BE-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "BILL_USDC-PERPETUAL",
+      "base": "billions-network",
+      "native_base": "BILL",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "c882d61c-bead-4228-a5a2-55505a1ff2fb",
+      "coinbase_symbol": "BILL-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "BOME_USDC-PERPETUAL",
+      "base": "book-of-meme",
+      "native_base": "BOME",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "13322136-6f93-431c-ab4f-fece5569f103",
+      "coinbase_symbol": "BOME-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "CBRS_USDC-PERPETUAL",
+      "base": "cerebras-systems",
+      "native_base": "CBRS",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "4d5da01d-8e1c-418a-a6f4-4031b3e510d6",
+      "coinbase_symbol": "CBRS-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "CHIP_USDC-PERPETUAL",
+      "base": "usd-ai",
+      "native_base": "CHIP",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "934e9582-b98f-4353-b746-2506e9938bed",
+      "coinbase_symbol": "CHIP-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "CRCL_USDC-PERPETUAL",
+      "base": "circle-internet-group",
+      "native_base": "CRCL",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "413a5230-81a8-496f-931f-2171888dab92",
+      "coinbase_symbol": "CRCL-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "DRAM_USDC-PERPETUAL",
+      "base": "roundhill-memory-etf",
+      "native_base": "DRAM",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity_etf",
+      "base_asset_uuid": "54e3701f-15f3-4018-8d5d-3052dcc8003a",
+      "coinbase_symbol": "DRAM-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "EDGEX_USDC-PERPETUAL",
+      "base": "edgex",
+      "native_base": "EDGEX",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "4c4a7511-68dd-4944-9cbb-652158b66087",
+      "coinbase_symbol": "EDGEX-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "EURC_USDC-PERPETUAL",
+      "base": "euro-coin",
+      "native_base": "EURC",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "674c6343-41a8-4b79-8914-21762877e907",
+      "coinbase_symbol": "EURC-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "EWY_USDC-PERPETUAL",
+      "base": "ishares-msci-south-korea-etf",
+      "native_base": "EWY",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity_etf",
+      "base_asset_uuid": "448e3a53-2949-4895-94f8-1910b8badd08",
+      "coinbase_symbol": "EWY-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "HOOD_USDC-PERPETUAL",
+      "base": "robinhood-markets",
+      "native_base": "HOOD",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "4e284433-1c45-41a2-8409-a4ad31348ac4",
+      "coinbase_symbol": "HOOD-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "INTC_USDC-PERPETUAL",
+      "base": "intel",
+      "native_base": "INTC",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "58406982-b999-fc2e-854d-94fb2cde5dfa",
+      "coinbase_symbol": "INTC-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "INX_USDC-PERPETUAL",
+      "base": "infinex",
+      "native_base": "INX",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "5b46e497-e1cf-4b78-8b84-8e3c05071fff",
+      "coinbase_symbol": "INX-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "LITE_USDC-PERPETUAL",
+      "base": "lumentum-holdings",
+      "native_base": "LITE",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "8d5926ea-1fd2-462e-a49e-e08855141526",
+      "coinbase_symbol": "LITE-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "MEGA_USDC-PERPETUAL",
+      "base": "megaeth",
+      "native_base": "MEGA",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "9dbb1a43-246e-405b-bf25-80376c59d70b",
+      "coinbase_symbol": "MEGA-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "MERL_USDC-PERPETUAL",
+      "base": "merlin-chain",
+      "native_base": "MERL",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "528dfb95-8bee-4627-9aef-00cf8ba04e64",
+      "coinbase_symbol": "MERL-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "MRVL_USDC-PERPETUAL",
+      "base": "marvell-technology",
+      "native_base": "MRVL",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "d0b87e99-484b-4f0e-aaac-b84d4d1d7ccd",
+      "coinbase_symbol": "MRVL-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "MU_USDC-PERPETUAL",
+      "base": "micron-technology",
+      "native_base": "MU",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "6539435c-601a-6c42-e5fb-c097e0c7c212",
+      "coinbase_symbol": "MU-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "NBIS_USDC-PERPETUAL",
+      "base": "nebius-group",
+      "native_base": "NBIS",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "128a4b50-2f1c-4a9b-a6d1-fc76f72974dd",
+      "coinbase_symbol": "NBIS-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "NIGHT_USDC-PERPETUAL",
+      "base": "midnight",
+      "native_base": "NIGHT",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "6cc7a9dd-de98-4be1-b4ff-fe867d3ad353",
+      "coinbase_symbol": "NIGHT-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "OPN_USDC-PERPETUAL",
+      "base": "opinion",
+      "native_base": "OPN",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "3df06bb0-a145-462c-9227-c12c39eb425d",
+      "coinbase_symbol": "OPN-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "PRL_USDC-PERPETUAL",
+      "base": "perle",
+      "native_base": "PRL",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "ddd531de-6863-4866-bb95-f1393e44660d",
+      "coinbase_symbol": "PRL-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "QQQ_USDC-PERPETUAL",
+      "base": "invesco-qqq",
+      "native_base": "QQQ",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity_etf",
+      "base_asset_uuid": "638ca6d7-3ae6-495f-98ec-d32f6d52d473",
+      "coinbase_symbol": "QQQ-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "RESOLV_USDC-PERPETUAL",
+      "base": "resolv",
+      "native_base": "RESOLV",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "1f62102d-38ba-4093-a626-af9c15bcbdec",
+      "coinbase_symbol": "RESOLV-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "ROBO_USDC-PERPETUAL",
+      "base": "fabric-protocol",
+      "native_base": "ROBO",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "ab304bf8-95dc-4b1c-9718-91e07314b267",
+      "coinbase_symbol": "ROBO-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "SAGA_USDC-PERPETUAL",
+      "base": "saga-2",
+      "native_base": "SAGA",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "b2a8c4d4-2b15-46cc-920a-02cfef4d6a4c",
+      "coinbase_symbol": "SAGA-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "SKHY_USDC-PERPETUAL",
+      "base": "sk-hynix-adr",
+      "native_base": "SKHY",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "68f8b379-1b49-4728-a8d3-233562c6fe00",
+      "coinbase_symbol": "SKHY-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "SNDK_USDC-PERPETUAL",
+      "base": "sandisk",
+      "native_base": "SNDK",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "03f1a994-e995-ce74-e520-21f2b1d83d57",
+      "coinbase_symbol": "SNDK-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "SOXL_USDC-PERPETUAL",
+      "base": "direxion-daily-semiconductor-bull-3x",
+      "native_base": "SOXL",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity_etf",
+      "base_asset_uuid": "2ccdf665-4223-4028-80dd-010eac0ab5e4",
+      "coinbase_symbol": "SOXL-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "SPCX_USDC-PERPETUAL",
+      "base": "spacex",
+      "native_base": "SPCX",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "24fb7abf-0ecf-4197-aac3-8b12ee7cdbbb",
+      "coinbase_symbol": "SPCX-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "SPY_USDC-PERPETUAL",
+      "base": "spdr-sp500-etf-trust",
+      "native_base": "SPY",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity_etf",
+      "base_asset_uuid": "74f696a7-0799-4def-914a-bb9be7629523",
+      "coinbase_symbol": "SPY-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "TOWNS_USDC-PERPETUAL",
+      "base": "towns",
+      "native_base": "TOWNS",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto",
+      "base_asset_uuid": "1e0f3e50-8854-48f1-92f8-c719e4db0a3a",
+      "coinbase_symbol": "TOWNS-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "TSM_USDC-PERPETUAL",
+      "base": "taiwan-semiconductor-adr",
+      "native_base": "TSM",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "equity",
+      "base_asset_uuid": "49501df7-fdc1-44da-8d64-4ce044cee0b4",
+      "coinbase_symbol": "TSM-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    }
+  ],
+  "remaining_markets": [
+    {
+      "instrument": "COIN50_USDC-PERPETUAL",
+      "type": "crypto_index",
+      "reason": "Needs a separate index/pre-IPO reference identity and valuation-model review."
+    },
+    {
+      "instrument": "OPENAI_USDC-PERPETUAL",
+      "type": "preipo",
+      "reason": "Needs a separate index/pre-IPO reference identity and valuation-model review."
+    }
+  ],
+  "retained_raw_coverage": {
+    "coinbase/earn_instruments": {
+      "observations": 2,
+      "missing_assets": [],
+      "missing_networks": [],
+      "fully_resolved_observations": 2
+    },
+    "deribit/earn_instruments": {
+      "observations": 52,
+      "missing_assets": [],
+      "missing_networks": [],
+      "fully_resolved_observations": 52
+    },
+    "deribit/deposit_methods": {
+      "observations": 61,
+      "missing_assets": [],
+      "missing_networks": [
+        "BUIDL",
+        "EURR",
+        "MATIC",
+        "SEI",
+        "STETH",
+        "USDE",
+        "USYC"
+      ],
+      "fully_resolved_observations": 54
+    },
+    "deribit/withdrawal_methods": {
+      "observations": 61,
+      "missing_assets": [],
+      "missing_networks": [
+        "BUIDL",
+        "EURR",
+        "MATIC",
+        "SEI",
+        "STETH",
+        "USDE",
+        "USYC"
+      ],
+      "fully_resolved_observations": 54
+    }
+  },
+  "validation": {
+    "catalogue": "pass",
+    "sdk_consistency": {
+      "pass": 315
+    },
+    "sdk_fingerprint_policy_verifier": "pass"
+  }
+}
