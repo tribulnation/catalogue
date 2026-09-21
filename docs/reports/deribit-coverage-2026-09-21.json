@@ -1136,6 +1136,8 @@
       }
     },
     "validation": "Catalogue validation and seven metadata-guard tests pass; PR guard requires about.en, urls and external.",
-    "pending_duplicate_consolidation": {}
+    "canonical_consolidations": {},
+    "combined_asset_count": 1313,
+    "combined_duplicate_provider_ids": 0
   }
 }

@@ -48,7 +48,7 @@ All 37 new reference assets include an English description and an official
 project, company, fund issuer or index publisher link. Documentation and
 community links are labeled accordingly. Descriptions distinguish token utility,
 fund shares and equity references; shared records use identical metadata across
-the venue follow-ups. This correction changes no identity or instrument fields.
+the venue follow-ups. Instrument price units remain unchanged.
 
 ## Retained earn and transfer coverage
 
@@ -106,3 +106,5 @@ The companion JSON records provider endpoints and identity checks for added IDs.
 CI now checks new assets for descriptions, URLs and external IDs against the PR base.
 
 COIN50 is the sole exception, tracked in [#152](https://github.com/tribulnation/catalogue/issues/152). Yahoo search and the `^COIN50` chart returned no match; MarketVector publisher identifiers are recorded in that issue.
+
+The combined venue catalogue contains 1,313 assets, with no duplicate external-provider IDs or conflicting shared asset metadata. COIN50 remains the sole new-asset external-ID exception tracked in #152.
