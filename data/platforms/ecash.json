@@ -1,4 +1,10 @@
 {
   "display_name": "eCash",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "eCash is the payments network that evolved from Bitcoin Cash ABC. It combines a Bitcoin-derived transaction model with additional consensus infrastructure and uses XEC as its native currency."
+  },
+  "urls": {
+    "Website": "https://e.cash/"
+  }
 }

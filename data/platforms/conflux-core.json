@@ -1,5 +1,11 @@
 {
   "display_name": "Conflux Core Space",
   "kind": "blockchain",
-  "native_asset": "conflux"
+  "native_asset": "conflux",
+  "about": {
+    "en": "Conflux Core Space is the native transaction and smart-contract environment of Conflux. It is separate from the network's EVM-compatible eSpace and uses Conflux-specific addresses."
+  },
+  "urls": {
+    "Website": "https://confluxnetwork.org/"
+  }
 }

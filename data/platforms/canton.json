@@ -1,4 +1,10 @@
 {
   "display_name": "Canton",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Canton is a blockchain network designed for financial applications that require privacy and interoperability. Its synchronization infrastructure connects applications while allowing participants to control access to transaction data."
+  },
+  "urls": {
+    "Website": "https://www.canton.network/"
+  }
 }

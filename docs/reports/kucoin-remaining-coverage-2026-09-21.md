@@ -7,6 +7,15 @@ reusing byte-identical records from the parallel Kraken and Bybit reviews where
 identities overlap. These are reviewable additions, not a claim of exhaustive
 coverage or a Terminal deployment.
 
+## Descriptions and official links
+
+All 641 new assets and 100 new blockchain records include a
+project-specific English description and at least one project, issuer,
+documentation, source-code, community or verified token-contract link. Link labels identify their purpose.
+Source review excludes parked domains and distinguishes similarly named projects;
+shared records have identical metadata across all four venue PRs. This correction
+changes no asset identity, translation or instrument fields.
+
 ## Identity evidence
 
 1. The current public [currency inventory](https://api.kucoin.com/api/v3/currencies)

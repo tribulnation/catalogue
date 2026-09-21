@@ -2,5 +2,11 @@
   "id": "navi-protocol",
   "display_name": "NAVI Protocol",
   "symbol": "NAVX",
-  "category": "crypto"
+  "category": "crypto",
+  "about": {
+    "en": "NAVI is a decentralized liquidity protocol on Sui offering lending and borrowing. NAVX is its governance token."
+  },
+  "urls": {
+    "Documentation": "https://naviprotocol.gitbook.io/navi-protocol-developer-docs/"
+  }
 }

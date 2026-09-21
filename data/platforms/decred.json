@@ -1,4 +1,10 @@
 {
   "display_name": "Decred",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Decred is a cryptocurrency network that combines proof-of-work mining with proof-of-stake voting. Stakeholders participate in consensus and governance, including decisions about development funding."
+  },
+  "urls": {
+    "Website": "https://decred.org/"
+  }
 }

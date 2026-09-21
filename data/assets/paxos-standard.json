@@ -2,5 +2,11 @@
   "id": "paxos-standard",
   "display_name": "Pax Dollar",
   "symbol": "USDP",
-  "category": "stablecoin"
+  "category": "stablecoin",
+  "about": {
+    "en": "Pax Dollar is a U.S. dollar-denominated stablecoin issued by Paxos. USDP is backed by cash and cash-equivalent reserves and is redeemable through the issuer subject to its terms."
+  },
+  "urls": {
+    "Documentation": "https://docs.paxos.com/guides/stablecoin/usdp"
+  }
 }

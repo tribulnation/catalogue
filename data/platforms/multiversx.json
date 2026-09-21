@@ -1,5 +1,11 @@
 {
   "display_name": "MultiversX",
   "kind": "blockchain",
-  "native_asset": "multiversx"
+  "native_asset": "multiversx",
+  "about": {
+    "en": "MultiversX is a proof-of-stake blockchain that uses adaptive state sharding to distribute network work. Its ecosystem supports smart contracts and applications using the EGLD currency."
+  },
+  "urls": {
+    "Website": "https://multiversx.com/"
+  }
 }

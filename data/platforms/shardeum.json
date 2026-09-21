@@ -1,4 +1,10 @@
 {
   "display_name": "Shardeum",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Shardeum is an EVM-compatible blockchain that uses dynamic state sharding. Its design distributes transaction processing across nodes as network demand changes."
+  },
+  "urls": {
+    "Website": "https://shardeum.org/"
+  }
 }

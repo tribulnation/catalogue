@@ -1,4 +1,10 @@
 {
   "display_name": "Nervos CKB",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Nervos CKB is a proof-of-work blockchain that stores application state using a cell-based model. It acts as the base layer of the Nervos ecosystem and supports flexible transaction validation."
+  },
+  "urls": {
+    "Website": "https://www.nervos.org/"
+  }
 }

@@ -1,4 +1,10 @@
 {
   "display_name": "Avail",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Avail provides data-availability infrastructure for rollups and other blockchains. Its network allows applications to publish transaction data so that independent participants can verify its availability."
+  },
+  "urls": {
+    "Website": "https://www.availproject.org/"
+  }
 }

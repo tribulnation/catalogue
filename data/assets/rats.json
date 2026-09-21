@@ -2,5 +2,11 @@
   "id": "rats",
   "display_name": "Rats",
   "symbol": "RATS",
-  "category": "crypto"
+  "category": "crypto",
+  "about": {
+    "en": "RATS is an animal-themed community meme token issued using the BRC-20 standard on Bitcoin. Its balances and transfers are tracked through Bitcoin inscriptions and BRC-20 indexing."
+  },
+  "urls": {
+    "Explorer": "https://unisat.io/brc20/rats"
+  }
 }

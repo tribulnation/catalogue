@@ -2,5 +2,11 @@
   "id": "nervos-network",
   "display_name": "Nervos Network",
   "symbol": "CKB",
-  "category": "crypto"
+  "category": "crypto",
+  "about": {
+    "en": "Nervos CKB is a proof-of-work blockchain that stores assets and application state using a cell model. CKB is its native coin and represents capacity to occupy state on the chain."
+  },
+  "urls": {
+    "Documentation": "https://github.com/nervosnetwork/rfcs/blob/master/rfcs/0002-ckb/0002-ckb.md"
+  }
 }

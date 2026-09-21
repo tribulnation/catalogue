@@ -2,5 +2,11 @@
   "id": "dusk-network",
   "display_name": "Dusk",
   "symbol": "DUSK",
-  "category": "crypto"
+  "category": "crypto",
+  "about": {
+    "en": "Dusk is a proof-of-stake blockchain designed for financial applications with privacy and compliance requirements. DUSK is its native token, used for transaction fees and validator staking."
+  },
+  "urls": {
+    "Documentation": "https://docs.dusk.network/learn/guides/staking-basics/"
+  }
 }

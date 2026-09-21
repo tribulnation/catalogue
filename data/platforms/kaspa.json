@@ -1,5 +1,11 @@
 {
   "display_name": "Kaspa",
   "kind": "blockchain",
-  "native_asset": "kaspa"
+  "native_asset": "kaspa",
+  "about": {
+    "en": "Kaspa is a proof-of-work network that organizes blocks in a directed acyclic graph rather than a single linear chain. Its consensus design allows blocks to be produced and processed in parallel."
+  },
+  "urls": {
+    "Website": "https://kaspa.org/"
+  }
 }

@@ -1,5 +1,11 @@
 {
   "display_name": "Conflux eSpace",
   "kind": "blockchain",
-  "native_asset": "conflux"
+  "native_asset": "conflux",
+  "about": {
+    "en": "Conflux eSpace is the EVM-compatible execution environment within Conflux. It supports Ethereum-style contracts and addresses and is distinct from Conflux Core Space."
+  },
+  "urls": {
+    "Website": "https://confluxnetwork.org/"
+  }
 }
