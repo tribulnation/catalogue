@@ -3661,7 +3661,7 @@
   },
   "ALIGNUSD": {
     "exchange": "spot",
-    "base": "aligned-layer",
+    "base": "aligned",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/align-usd"
   },
@@ -4129,7 +4129,7 @@
   },
   "BOSUSD": {
     "exchange": "spot",
-    "base": "bos-token",
+    "base": "bitcoinos",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/bos-usd"
   },
@@ -5497,13 +5497,13 @@
   },
   "MFEUR": {
     "exchange": "spot",
-    "base": "moonwalk",
+    "base": "moonwalk-fitness",
     "quote": "euro",
     "url": "https://pro.kraken.com/app/trade/mf-eur"
   },
   "MFUSD": {
     "exchange": "spot",
-    "base": "moonwalk",
+    "base": "moonwalk-fitness",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/mf-usd"
   },

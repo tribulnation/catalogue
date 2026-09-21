@@ -34,7 +34,7 @@
     "alchemy-pay",
     "aleo",
     "alien-worlds",
-    "aligned-layer",
+    "aligned",
     "alkimi-2",
     "allora",
     "alpha-finance",
@@ -82,7 +82,7 @@
     "bondex",
     "bonfida",
     "bonzo-finance",
-    "bos-token",
+    "bitcoinos",
     "brevis",
     "brl1",
     "bsquared-network",
@@ -242,7 +242,7 @@
     "mog-coin",
     "moonbeam",
     "moonriver",
-    "moonwalk",
+    "moonwalk-fitness",
     "moonwell-artemis",
     "mubarak",
     "multichain",
@@ -846,7 +846,7 @@
     "ADX": "adex",
     "ADI": "adi-token",
     "AIXBT": "aixbt",
-    "ALIGN": "aligned-layer",
+    "ALIGN": "aligned",
     "FORTH": "ampleforth-governance-token",
     "APENFT": "apenft",
     "APR": "apriori",
@@ -860,7 +860,7 @@
     "BMB": "beamable-network",
     "BLESS": "bless-network",
     "BLUAI": "bluwhale",
-    "BOS": "bos-token",
+    "BOS": "bitcoinos",
     "BOB": "build-on-bitcoin",
     "CAP": "cap",
     "CSPR": "casper",
@@ -877,7 +877,7 @@
     "LCX": "lcx",
     "LMWR": "limewire",
     "KOBAN": "lucky-kat",
-    "MF": "moonwalk",
+    "MF": "moonwalk-fitness",
     "NANO": "nano",
     "OXT": "orchid",
     "ORDER": "orderly-network",
@@ -3931,7 +3931,7 @@
       "symbol": "ALIGN",
       "name": "Aligned Layer",
       "networks": "Ethereum (ERC-20)",
-      "asset": "aligned-layer",
+      "asset": "aligned",
       "source": "https://support.kraken.com/en-us/articles/360000678446-cryptocurrencies-available-on-kraken",
       "method": "Explicit official project name and network; no inferred external identifier"
     },
@@ -4043,7 +4043,7 @@
       "symbol": "BOS",
       "name": "BOS Token",
       "networks": "Ethereum (ERC-20)",
-      "asset": "bos-token",
+      "asset": "bitcoinos",
       "source": "https://support.kraken.com/en-us/articles/360000678446-cryptocurrencies-available-on-kraken",
       "method": "Explicit official project name and network; no inferred external identifier"
     },
@@ -4179,7 +4179,7 @@
       "symbol": "MF",
       "name": "Moonwalk",
       "networks": "Solana",
-      "asset": "moonwalk",
+      "asset": "moonwalk-fitness",
       "source": "https://support.kraken.com/en-us/articles/360000678446-cryptocurrencies-available-on-kraken",
       "method": "Explicit official project name and network; no inferred external identifier"
     },
@@ -5289,7 +5289,7 @@
       },
       "ALIGNUSD": {
         "exchange": "spot",
-        "base": "aligned-layer",
+        "base": "aligned",
         "quote": "usd",
         "url": "https://pro.kraken.com/app/trade/align-usd"
       },
@@ -5757,7 +5757,7 @@
       },
       "BOSUSD": {
         "exchange": "spot",
-        "base": "bos-token",
+        "base": "bitcoinos",
         "quote": "usd",
         "url": "https://pro.kraken.com/app/trade/bos-usd"
       },
@@ -7125,13 +7125,13 @@
       },
       "MFEUR": {
         "exchange": "spot",
-        "base": "moonwalk",
+        "base": "moonwalk-fitness",
         "quote": "euro",
         "url": "https://pro.kraken.com/app/trade/mf-eur"
       },
       "MFUSD": {
         "exchange": "spot",
-        "base": "moonwalk",
+        "base": "moonwalk-fitness",
         "quote": "usd",
         "url": "https://pro.kraken.com/app/trade/mf-usd"
       },
@@ -13538,10 +13538,12 @@
       }
     },
     "validation": "Catalogue validation and seven metadata-guard tests pass; PR guard requires about.en, urls and external.",
-    "pending_duplicate_consolidation": {
+    "canonical_consolidations": {
       "aligned-layer": "aligned",
       "bos-token": "bitcoinos",
       "moonwalk": "moonwalk-fitness"
-    }
+    },
+    "combined_asset_count": 1313,
+    "combined_duplicate_provider_ids": 0
   }
 }

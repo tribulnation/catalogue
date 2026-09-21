@@ -10,8 +10,7 @@ All 421 new assets and 71 new blockchain records include a
 project-specific English description and at least one project, issuer,
 documentation, source-code, community or verified token-contract link. Link labels identify their purpose.
 Source review excludes parked domains and distinguishes similarly named projects;
-shared records have identical metadata across all four venue PRs. This correction
-changes no asset identity, translation or instrument fields.
+shared records have identical metadata across all four venue PRs. Instrument price units remain unchanged; canonical identity consolidations are listed below.
 
 ## Identity evidence
 
@@ -110,12 +109,12 @@ CI now checks new assets for descriptions, URLs and external IDs against the PR 
 
 COPM uses its issuer-verified Polygon contract as a DefiLlama ID. The public pricing adapter supports USD and historical observations; EUR conversion uses the latest published daily FRED USD-per-EUR rate on or before the observation date, which can lag market FX. Missing prices or required FX data produce no quote.
 
-## Pending identity consolidation
+## Canonical identity consolidation
 
-The external-ID audit found the following duplicate canonical records. Their consolidation is pending approval; no records have been deleted or references rewritten in this correction.
+Verified duplicate records now share one canonical asset across the venue PRs; all market references are retained under that identity.
 
 1. `aligned-layer` → `aligned`.
 2. `bos-token` → `bitcoinos`.
 3. `moonwalk` → `moonwalk-fitness`.
 
-Resolve these before merging the venue PRs together to avoid duplicate external-provider identities.
+The combined venue catalogue contains 1,313 assets, with no duplicate external-provider IDs or conflicting shared asset metadata. COIN50 remains the sole new-asset external-ID exception tracked in #152.
