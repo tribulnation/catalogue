@@ -891,5 +891,12 @@
     "settlement": "usd-coin",
     "multiplier": 1000,
     "url": "https://app.hyperliquid.xyz/trade/kPEPE"
+  },
+  "ZETA": {
+    "exchange": "",
+    "base": "zetachain",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/ZETA"
   }
 }

@@ -631,5 +631,272 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://www.deribit.com/futures/ZEC_USDC-PERPETUAL"
+  },
+  "1000MOG_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "mog-coin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.deribit.com/futures/1000MOG_USDC-PERPETUAL"
+  },
+  "AMD_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/AMD_USDC-PERPETUAL"
+  },
+  "ARM_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "arm-holdings-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ARM_USDC-PERPETUAL"
+  },
+  "BASED1_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "based",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/BASED1_USDC-PERPETUAL"
+  },
+  "BE_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "bloom-energy",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/BE_USDC-PERPETUAL"
+  },
+  "BILL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "billions-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/BILL_USDC-PERPETUAL"
+  },
+  "BOME_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "book-of-meme",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/BOME_USDC-PERPETUAL"
+  },
+  "CBRS_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/CBRS_USDC-PERPETUAL"
+  },
+  "CHIP_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "usd-ai",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/CHIP_USDC-PERPETUAL"
+  },
+  "CRCL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/CRCL_USDC-PERPETUAL"
+  },
+  "DRAM_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/DRAM_USDC-PERPETUAL"
+  },
+  "EDGEX_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "edgex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/EDGEX_USDC-PERPETUAL"
+  },
+  "EURC_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "euro-coin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/EURC_USDC-PERPETUAL"
+  },
+  "EWY_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/EWY_USDC-PERPETUAL"
+  },
+  "HOOD_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/HOOD_USDC-PERPETUAL"
+  },
+  "INTC_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/INTC_USDC-PERPETUAL"
+  },
+  "INX_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "infinex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/INX_USDC-PERPETUAL"
+  },
+  "LITE_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/LITE_USDC-PERPETUAL"
+  },
+  "MEGA_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "megaeth",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/MEGA_USDC-PERPETUAL"
+  },
+  "MERL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "merlin-chain",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/MERL_USDC-PERPETUAL"
+  },
+  "MRVL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/MRVL_USDC-PERPETUAL"
+  },
+  "MU_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/MU_USDC-PERPETUAL"
+  },
+  "NBIS_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "nebius-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/NBIS_USDC-PERPETUAL"
+  },
+  "NIGHT_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "midnight",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/NIGHT_USDC-PERPETUAL"
+  },
+  "OPN_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "opinion",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/OPN_USDC-PERPETUAL"
+  },
+  "PRL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "perle",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/PRL_USDC-PERPETUAL"
+  },
+  "QQQ_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/QQQ_USDC-PERPETUAL"
+  },
+  "RESOLV_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "resolv",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/RESOLV_USDC-PERPETUAL"
+  },
+  "ROBO_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "fabric-protocol",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ROBO_USDC-PERPETUAL"
+  },
+  "SAGA_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "saga-2",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SAGA_USDC-PERPETUAL"
+  },
+  "SKHY_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "sk-hynix-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SKHY_USDC-PERPETUAL"
+  },
+  "SNDK_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SNDK_USDC-PERPETUAL"
+  },
+  "SOXL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SOXL_USDC-PERPETUAL"
+  },
+  "SPCX_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SPCX_USDC-PERPETUAL"
+  },
+  "SPY_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SPY_USDC-PERPETUAL"
+  },
+  "TOWNS_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "towns",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/TOWNS_USDC-PERPETUAL"
+  },
+  "TSM_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/TSM_USDC-PERPETUAL"
+  },
+  "COIN50_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "coinbase-50-index",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/COIN50_USDC-PERPETUAL"
   }
 }
