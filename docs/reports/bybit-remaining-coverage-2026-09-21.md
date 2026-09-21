@@ -1,17 +1,16 @@
 # Bybit remaining market, earn and transfer coverage — 2026-09-21
 
 Adds 350 asset translations, 59 network translations, 219 spot instruments and
-171 linear perpetual instruments, backed by 324 new canonical assets and 57
+171 linear perpetual instruments, backed by 323 new canonical assets and 57
 blockchain records. Base: `2ad44d5`. Related: [Catalogue #130](https://github.com/tribulnation/catalogue/issues/130).
 
 ## Descriptions and official links
 
-All 324 new assets and 57 new blockchain records include a
+All 323 new assets and 57 new blockchain records include a
 project-specific English description and at least one project, issuer,
 documentation, source-code, community or verified token-contract link. Link labels identify their purpose.
 Source review excludes parked domains and distinguishes similarly named projects;
-shared records have identical metadata across all four venue PRs. This correction
-changes no asset identity, translation or instrument fields.
+shared records have identical metadata across all four venue PRs. Instrument price units remain unchanged; canonical identity consolidations are listed below.
 
 ## Identity evidence
 
@@ -104,14 +103,14 @@ Reproduce the SDK checks from its checkout:
 
 ## External identifiers
 
-324 of 324 new assets have at least one external ID.
+323 of 323 new assets have at least one external ID.
 The companion JSON records provider endpoints and identity checks for added IDs.
 CI now checks new assets for descriptions, URLs and external IDs against the PR base.
 
-## Pending identity consolidation
+## Canonical identity consolidation
 
-The external-ID audit found the following duplicate canonical records. Their consolidation is pending approval; no records have been deleted or references rewritten in this correction.
+Verified duplicate records now share one canonical asset across the venue PRs; all market references are retained under that identity.
 
 1. `radiant` → `radiant-capital`.
 
-Resolve these before merging the venue PRs together to avoid duplicate external-provider identities.
+The combined venue catalogue contains 1,313 assets, with no duplicate external-provider IDs or conflicting shared asset metadata. COIN50 remains the sole new-asset external-ID exception tracked in #152.

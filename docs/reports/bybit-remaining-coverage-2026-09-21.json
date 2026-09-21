@@ -2642,7 +2642,7 @@
       ]
     },
     "RDNT": {
-      "asset": "radiant",
+      "asset": "radiant-capital",
       "method": "exact_chain_contract",
       "witnesses": [
         {
@@ -14851,7 +14851,7 @@
   },
   "metadata_audit": {
     "checked_on": "2026-09-21",
-    "new_assets": 324,
+    "new_assets": 323,
     "new_platforms": 57,
     "missing_english_descriptions": 0,
     "missing_urls": 0,
@@ -14859,8 +14859,8 @@
     "source_links": "See urls in each asset/platform JSON; labels distinguish project websites, documentation, code, community sources and exact token contracts."
   },
   "external_id_audit": {
-    "new_assets": 324,
-    "with_external_id": 324,
+    "new_assets": 323,
+    "with_external_id": 323,
     "missing_external_ids": [],
     "exception_issue": null,
     "verified_additions": {
@@ -19191,8 +19191,10 @@
       }
     },
     "validation": "Catalogue validation and seven metadata-guard tests pass; PR guard requires about.en, urls and external.",
-    "pending_duplicate_consolidation": {
+    "canonical_consolidations": {
       "radiant": "radiant-capital"
-    }
+    },
+    "combined_asset_count": 1313,
+    "combined_duplicate_provider_ids": 0
   }
 }
