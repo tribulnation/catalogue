@@ -4,12 +4,21 @@ Adds 421 canonical assets, 427 Kraken asset aliases, 701 spot instruments,
 70 USD-settled perpetual instruments, 71 blockchain records and 77 network
 aliases against Catalogue `2ad44d5`. Related: [#130](https://github.com/tribulnation/catalogue/issues/130).
 
+## Descriptions and official links
+
+All 421 new assets and 71 new blockchain records include a
+project-specific English description and at least one project, issuer,
+documentation, source-code, community or verified token-contract link. Link labels identify their purpose.
+Source review excludes parked domains and distinguishes similarly named projects;
+shared records have identical metadata across all four venue PRs. This correction
+changes no asset identity, translation or instrument fields.
+
 ## Identity evidence
 
 1. Kraken's current [supported-asset registry](https://support.kraken.com/en-us/articles/360000678446-cryptocurrencies-available-on-kraken)
    supplies explicit full project names, native codes and networks. Exact full-name
    and symbol matches against the retained September 19 CoinGecko registry corroborate
-   external IDs where unambiguous. Other explicitly named projects get minimal
+   external IDs where unambiguous. Other explicitly named projects get
    canonical records without guessed external IDs, token contracts or pegs.
 2. [Assets](https://api.kraken.com/0/public/Assets) establishes exact native-key to
    `altname` joins. For example, `XMLN` resolves through `MLN` to Enzyme.
@@ -31,7 +40,7 @@ aliases against Catalogue `2ad44d5`. Related: [#130](https://github.com/tribulna
    Kraken listing. It gets `magic-internet-money-bitcoin`, distinct from the
    existing Abracadabra dollar stablecoin.
 6. Exact plain blockchain names from retained Kraken WithdrawMethods responses
-   become network aliases, with minimal blockchain records where necessary.
+   become network aliases, with documented blockchain records where necessary.
    Asset Hubs, Enjin Relaychain, Bifrost Kusama and Arbitrum Nova stay distinct
    from their parent or similarly named networks. No EVM IDs, namespaces or
    gas assets are guessed. Existing shared chain definitions are reused.

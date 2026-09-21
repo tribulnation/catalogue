@@ -1,4 +1,10 @@
 {
   "display_name": "Arbitrum Nova",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Arbitrum Nova is an Ethereum scaling network built with Arbitrum's AnyTrust technology. It uses a data availability committee to reduce transaction costs and is separate from Arbitrum One."
+  },
+  "urls": {
+    "Documentation": "https://docs.arbitrum.io/how-arbitrum-works/deep-dives/anytrust-protocol"
+  }
 }

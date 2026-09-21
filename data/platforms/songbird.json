@@ -1,5 +1,11 @@
 {
   "display_name": "Songbird",
   "kind": "blockchain",
-  "native_asset": "songbird"
+  "native_asset": "songbird",
+  "about": {
+    "en": "Songbird is the canary network for Flare, used to deploy and test network features before wider adoption. It has its own SGB token and operates separately from Flare's main network."
+  },
+  "urls": {
+    "Website": "https://flare.network/"
+  }
 }

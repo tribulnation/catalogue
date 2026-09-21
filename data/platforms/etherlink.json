@@ -1,4 +1,10 @@
 {
   "display_name": "Etherlink",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Etherlink is an EVM-compatible layer-two network built on Tezos Smart Rollups. It provides an Ethereum-style application environment with settlement and governance tied to Tezos."
+  },
+  "urls": {
+    "Website": "https://www.etherlink.com/"
+  }
 }

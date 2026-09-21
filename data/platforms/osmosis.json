@@ -1,5 +1,11 @@
 {
   "display_name": "Osmosis",
   "kind": "blockchain",
-  "native_asset": "osmosis"
+  "native_asset": "osmosis",
+  "about": {
+    "en": "Osmosis is a Cosmos SDK blockchain focused on decentralized exchange and liquidity applications. IBC connects its trading environment with other compatible chains."
+  },
+  "urls": {
+    "Website": "https://osmosis.zone/"
+  }
 }

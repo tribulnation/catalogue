@@ -2,5 +2,11 @@
   "id": "jito-staked-sol",
   "display_name": "Jito Staked SOL",
   "symbol": "JITOSOL",
-  "category": "crypto"
+  "category": "crypto",
+  "about": {
+    "en": "JitoSOL is a liquid staking receipt for SOL deposited through Jito. It represents a claim associated with staked SOL and accrued staking and MEV rewards, and is distinct from both SOL and the JTO governance token."
+  },
+  "urls": {
+    "Source code": "https://github.com/jito-foundation"
+  }
 }

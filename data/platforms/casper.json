@@ -1,5 +1,11 @@
 {
   "display_name": "Casper Network",
   "kind": "blockchain",
-  "native_asset": "casper"
+  "native_asset": "casper",
+  "about": {
+    "en": "Casper is a proof-of-stake blockchain for smart contracts and tokenized assets. Its network supports upgradeable contracts and applications that require controlled changes over time."
+  },
+  "urls": {
+    "Website": "https://casper.network/"
+  }
 }

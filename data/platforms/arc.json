@@ -1,4 +1,10 @@
 {
   "display_name": "Arc",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "Arc is a blockchain developed for stablecoin payments and financial applications. Its design uses USDC as the denomination for network transaction fees."
+  },
+  "urls": {
+    "Website": "https://www.arc.network/"
+  }
 }

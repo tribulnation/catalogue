@@ -1,4 +1,10 @@
 {
   "display_name": "EthereumPoW",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "EthereumPoW is the proof-of-work continuation of Ethereum created when Ethereum switched to proof of stake in 2022. It operates as a separate network with the native ETHW coin."
+  },
+  "urls": {
+    "Source code": "https://github.com/ethereumpow/go-ethereum"
+  }
 }

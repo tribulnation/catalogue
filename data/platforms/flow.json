@@ -1,5 +1,11 @@
 {
   "display_name": "Flow",
   "kind": "blockchain",
-  "native_asset": "flow"
+  "native_asset": "flow",
+  "about": {
+    "en": "Flow is a proof-of-stake blockchain designed for consumer applications and digital assets. Its architecture separates validator responsibilities and supports smart contracts written in Cadence alongside an EVM environment."
+  },
+  "urls": {
+    "Website": "https://flow.com/"
+  }
 }

@@ -1,5 +1,11 @@
 {
   "display_name": "Aleo",
   "kind": "blockchain",
-  "native_asset": "aleo"
+  "native_asset": "aleo",
+  "about": {
+    "en": "Aleo is a layer-one blockchain that uses zero-knowledge proofs to support applications with private data and verifiable execution. Developers can build programs that prove their results without revealing all underlying inputs."
+  },
+  "urls": {
+    "Website": "https://aleo.org/"
+  }
 }

@@ -1,4 +1,10 @@
 {
   "display_name": "KILT",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "about": {
+    "en": "KILT is a blockchain protocol for issuing and verifying decentralized digital credentials. Its infrastructure supports identity claims that users can present without exposing unnecessary personal information."
+  },
+  "urls": {
+    "Source code": "https://github.com/KILTprotocol/kilt-parachain"
+  }
 }

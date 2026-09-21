@@ -11317,5 +11317,14 @@
       }
     ]
   },
-  "remaining_reason_policy": "Unknown observations remain native and unresolved. Stablecoins and staking tokens are supported as separate assets when issuer identity is established; remaining cases need the specific evidence recorded per identifier."
+  "remaining_reason_policy": "Unknown observations remain native and unresolved. Stablecoins and staking tokens are supported as separate assets when issuer identity is established; remaining cases need the specific evidence recorded per identifier.",
+  "metadata_audit": {
+    "checked_on": "2026-09-21",
+    "new_assets": 421,
+    "new_platforms": 71,
+    "missing_english_descriptions": 0,
+    "missing_urls": 0,
+    "identity_fields_changed": false,
+    "source_links": "See urls in each asset/platform JSON; labels distinguish project websites, documentation, code, community sources and exact token contracts."
+  }
 }

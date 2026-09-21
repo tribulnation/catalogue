@@ -1,5 +1,11 @@
 {
   "display_name": "Ethereum Classic",
   "kind": "blockchain",
-  "native_asset": "ethereum-classic"
+  "native_asset": "ethereum-classic",
+  "about": {
+    "en": "Ethereum Classic is a proof-of-work blockchain supporting Ethereum-style smart contracts. It continues the chain that retained the original transaction history after Ethereum's 2016 DAO fork."
+  },
+  "urls": {
+    "Website": "https://ethereumclassic.org/"
+  }
 }

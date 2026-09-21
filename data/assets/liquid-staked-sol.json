@@ -2,5 +2,11 @@
   "id": "liquid-staked-sol",
   "display_name": "Liquid Staked SOL",
   "symbol": "LSSOL",
-  "category": "crypto"
+  "category": "crypto",
+  "about": {
+    "en": "LsSOL is Liquid Collective's liquid staking receipt for SOL. It represents a position in the protocol's Solana staking system and is distinct from unstaked SOL."
+  },
+  "urls": {
+    "Website": "https://liquidcollective.io/"
+  }
 }

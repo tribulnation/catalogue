@@ -1,5 +1,11 @@
 {
   "display_name": "Siacoin",
   "kind": "blockchain",
-  "native_asset": "siacoin"
+  "native_asset": "siacoin",
+  "about": {
+    "en": "Sia is a decentralized storage network whose blockchain records storage contracts and payments. Independent hosts rent out disk capacity to users rather than relying on one centralized storage operator."
+  },
+  "urls": {
+    "Website": "https://sia.tech/"
+  }
 }
