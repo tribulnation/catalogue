@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -17,6 +19,15 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Test new asset metadata guard
+        run: python -m unittest discover -s scripts -p 'test_check_new_assets.py'
+
+      - name: Check new asset metadata
+        if: github.event_name == 'pull_request'
+        env:
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python scripts/check_new_assets.py --base "$PR_BASE_SHA"
 
       - name: Validate catalogue
         run: python scripts/validate.py
