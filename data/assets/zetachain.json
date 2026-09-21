@@ -1,15 +1,18 @@
 {
   "id": "zetachain",
-  "display_name": "Zetachain",
+  "display_name": "ZetaChain",
   "symbol": "ZETA",
   "category": "crypto",
+  "about": {
+    "en": "ZETA is the native asset of ZetaChain, a proof-of-stake Layer 1 blockchain that connects applications across multiple blockchains. It is used to pay transaction and cross-chain gas fees, secure the network through staking, and participate in protocol governance.",
+    "es": "ZETA es el activo nativo de ZetaChain, una blockchain de capa 1 con prueba de participación que conecta aplicaciones entre múltiples blockchains. Se utiliza para pagar comisiones de transacción y de gas entre cadenas, proteger la red mediante staking y participar en la gobernanza del protocolo.",
+    "ca": "ZETA és l'actiu natiu de ZetaChain, una blockchain de capa 1 amb prova de participació que connecta aplicacions entre múltiples blockchains. S'utilitza per pagar comissions de transacció i de gas entre cadenes, protegir la xarxa mitjançant staking i participar en la governança del protocol."
+  },
   "external": {
     "coingecko": "zetachain"
   },
-  "about": {
-    "en": "ZetaChain is a blockchain supporting smart contracts that interact with assets and applications across multiple chains. ZETA is its native asset for fees and staking."
-  },
+  "icon": "icons/asset/zetachain.svg",
   "urls": {
-    "Documentation": "https://docs.zetachain.com/"
+    "Website": "https://www.zetachain.com/"
   }
 }
