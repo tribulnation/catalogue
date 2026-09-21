@@ -2801,7 +2801,7 @@
   },
   "BLESSUSDTM": {
     "exchange": "perp",
-    "base": "bless-2",
+    "base": "bless-network",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/BLESSUSDTM"
@@ -2871,7 +2871,7 @@
   },
   "ENJUSDTM": {
     "exchange": "perp",
-    "base": "enjincoin",
+    "base": "enjin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/ENJUSDTM"
@@ -2927,7 +2927,7 @@
   },
   "KERNELUSDTM": {
     "exchange": "perp",
-    "base": "kernel-2",
+    "base": "kernel",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/KERNELUSDTM"

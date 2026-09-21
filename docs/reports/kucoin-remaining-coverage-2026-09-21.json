@@ -6608,7 +6608,7 @@
       ]
     },
     "KERNEL": {
-      "asset": "kernel-2",
+      "asset": "kernel",
       "currency_full_name": "KernelDao",
       "deployments": [
         {
@@ -6799,7 +6799,7 @@
       ]
     },
     "GAIA": {
-      "asset": "gaia-3",
+      "asset": "gaia",
       "currency_full_name": "Gaia",
       "deployments": [
         {
@@ -7555,7 +7555,7 @@
       ]
     },
     "BLESS": {
-      "asset": "bless-2",
+      "asset": "bless-network",
       "currency_full_name": "Bless",
       "deployments": [
         {
@@ -7637,7 +7637,7 @@
       ]
     },
     "ENJ": {
-      "asset": "enjincoin",
+      "asset": "enjin",
       "currency_full_name": "Enjin Coin",
       "deployments": [
         {
@@ -7681,7 +7681,7 @@
       ]
     },
     "XYO": {
-      "asset": "xyo-network",
+      "asset": "xyo",
       "currency_full_name": "XYO Network",
       "deployments": [
         {
@@ -44055,11 +44055,11 @@
       }
     },
     "KERNEL": {
-      "asset": "kernel-2",
+      "asset": "kernel",
       "currency_full_name": "KernelDao",
       "method": "Reviewed official currency full name and deployment/network context; unique CoinGecko name/symbol corroboration, no external price ID or peg inferred",
       "corroborating_coin": {
-        "id": "kernel-2",
+        "id": "kernel",
         "symbol": "kernel",
         "name": "KernelDAO"
       }
@@ -44215,11 +44215,11 @@
       }
     },
     "GAIA": {
-      "asset": "gaia-3",
+      "asset": "gaia",
       "currency_full_name": "Gaia",
       "method": "Reviewed official currency full name and deployment/network context; unique CoinGecko name/symbol corroboration, no external price ID or peg inferred",
       "corroborating_coin": {
-        "id": "gaia-3",
+        "id": "gaia",
         "symbol": "gaia",
         "name": "Gaia"
       }
@@ -44875,11 +44875,11 @@
       }
     },
     "BLESS": {
-      "asset": "bless-2",
+      "asset": "bless-network",
       "currency_full_name": "Bless",
       "method": "Reviewed official currency full name and deployment/network context; unique CoinGecko name/symbol corroboration, no external price ID or peg inferred",
       "corroborating_coin": {
-        "id": "bless-2",
+        "id": "bless-network",
         "symbol": "bless",
         "name": "Bless"
       }
@@ -44945,11 +44945,11 @@
       }
     },
     "ENJ": {
-      "asset": "enjincoin",
+      "asset": "enjin",
       "currency_full_name": "Enjin Coin",
       "method": "Reviewed official currency full name and deployment/network context; unique CoinGecko name/symbol corroboration, no external price ID or peg inferred",
       "corroborating_coin": {
-        "id": "enjincoin",
+        "id": "enjin",
         "symbol": "enj",
         "name": "Enjin Coin"
       }
@@ -44985,11 +44985,11 @@
       }
     },
     "XYO": {
-      "asset": "xyo-network",
+      "asset": "xyo",
       "currency_full_name": "XYO Network",
       "method": "Reviewed official currency full name and deployment/network context; unique CoinGecko name/symbol corroboration, no external price ID or peg inferred",
       "corroborating_coin": {
-        "id": "xyo-network",
+        "id": "xyo",
         "symbol": "xyo",
         "name": "XYO Network"
       }
@@ -56831,12 +56831,14 @@
       }
     },
     "validation": "Catalogue validation and seven metadata-guard tests pass; PR guard requires about.en, urls and external.",
-    "pending_duplicate_consolidation": {
+    "canonical_consolidations": {
       "bless-2": "bless-network",
       "enjincoin": "enjin",
       "gaia-3": "gaia",
       "kernel-2": "kernel",
       "xyo-network": "xyo"
-    }
+    },
+    "combined_asset_count": 1313,
+    "combined_duplicate_provider_ids": 0
   }
 }

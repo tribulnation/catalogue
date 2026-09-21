@@ -4147,7 +4147,7 @@
   },
   "XYO-ETH": {
     "exchange": "spot",
-    "base": "xyo-network",
+    "base": "xyo",
     "quote": "ethereum",
     "url": "https://www.kucoin.com/trade/XYO-ETH"
   },
@@ -4159,7 +4159,7 @@
   },
   "XYO-BTC": {
     "exchange": "spot",
-    "base": "xyo-network",
+    "base": "xyo",
     "quote": "bitcoin",
     "url": "https://www.kucoin.com/trade/XYO-BTC"
   },
@@ -4201,7 +4201,7 @@
   },
   "ENJ-USDT": {
     "exchange": "spot",
-    "base": "enjincoin",
+    "base": "enjin",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/ENJ-USDT"
   },
@@ -4321,7 +4321,7 @@
   },
   "XYO-USDT": {
     "exchange": "spot",
-    "base": "xyo-network",
+    "base": "xyo",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/XYO-USDT"
   },
@@ -4777,7 +4777,7 @@
   },
   "KERNEL-USDT": {
     "exchange": "spot",
-    "base": "kernel-2",
+    "base": "kernel",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/KERNEL-USDT"
   },
@@ -4867,7 +4867,7 @@
   },
   "GAIA-USDT": {
     "exchange": "spot",
-    "base": "gaia-3",
+    "base": "gaia",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/GAIA-USDT"
   },
@@ -5257,7 +5257,7 @@
   },
   "BLESS-USDT": {
     "exchange": "spot",
-    "base": "bless-2",
+    "base": "bless-network",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/BLESS-USDT"
   },

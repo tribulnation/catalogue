@@ -13,8 +13,7 @@ All 641 new assets and 100 new blockchain records include a
 project-specific English description and at least one project, issuer,
 documentation, source-code, community or verified token-contract link. Link labels identify their purpose.
 Source review excludes parked domains and distinguishes similarly named projects;
-shared records have identical metadata across all four venue PRs. This correction
-changes no asset identity, translation or instrument fields.
+shared records have identical metadata across all four venue PRs. Instrument price units remain unchanged; canonical identity consolidations are listed below.
 
 ## Identity evidence
 
@@ -118,9 +117,9 @@ CI now checks new assets for descriptions, URLs and external IDs against the PR 
 
 KuCoin ksETH uses CoinGecko `eth2-staking-by-poolx`, corroborated by KuCoin's ETH2-to-ksETH rename announcement. The provider listing has no active tickers at audit time; an external identity does not guarantee an available live price.
 
-## Pending identity consolidation
+## Canonical identity consolidation
 
-The external-ID audit found the following duplicate canonical records. Their consolidation is pending approval; no records have been deleted or references rewritten in this correction.
+Verified duplicate records now share one canonical asset across the venue PRs; all market references are retained under that identity.
 
 1. `bless-2` → `bless-network`.
 2. `enjincoin` → `enjin`.
@@ -128,4 +127,4 @@ The external-ID audit found the following duplicate canonical records. Their con
 4. `kernel-2` → `kernel`.
 5. `xyo-network` → `xyo`.
 
-Resolve these before merging the venue PRs together to avoid duplicate external-provider identities.
+The combined venue catalogue contains 1,313 assets, with no duplicate external-provider IDs or conflicting shared asset metadata. COIN50 remains the sole new-asset external-ID exception tracked in #152.
