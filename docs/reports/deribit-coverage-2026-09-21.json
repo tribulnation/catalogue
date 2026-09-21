@@ -12,7 +12,7 @@
     "deribit-details": "5d7c97f40a8e7a9d08cbead5d23617e20dcbcddd7dd04e1b5d4cae70cde433aa"
   },
   "before_perpetual_count": 90,
-  "after_perpetual_count": 127,
+  "after_perpetual_count": 128,
   "added_asset_aliases": {
     "AMD": "advanced-micro-devices",
     "ARM": "arm-holdings-adr",
@@ -48,7 +48,8 @@
     "MEGA": "megaeth",
     "OPN": "opinion",
     "CHIP": "usd-ai",
-    "ROBO": "fabric-protocol"
+    "ROBO": "fabric-protocol",
+    "COIN50": "coinbase-50-index"
   },
   "added_assets": {
     "AMD": {
@@ -178,6 +179,9 @@
     },
     "ROBO": {
       "asset": "fabric-protocol"
+    },
+    "COIN50": {
+      "asset": "coinbase-50-index"
     }
   },
   "added_markets": [
@@ -624,18 +628,25 @@
       "coinbase_symbol": "TSM-PERP",
       "base_asset_multiplier": "1.0",
       "source": "https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details"
+    },
+    {
+      "instrument": "COIN50_USDC-PERPETUAL",
+      "base": "coinbase-50-index",
+      "native_base": "COIN50",
+      "native_quote": "USDC",
+      "native_settlement": "USDC",
+      "underlying_type": "crypto_index",
+      "base_asset_uuid": "5df70404-be78-454c-b959-517ca00cd298",
+      "coinbase_symbol": "COIN50-PERP",
+      "base_asset_multiplier": "1.0",
+      "source": "https://www.coinbase.com/coin50"
     }
   ],
   "remaining_markets": [
     {
-      "instrument": "COIN50_USDC-PERPETUAL",
-      "type": "crypto_index",
-      "reason": "Needs a separate index/pre-IPO reference identity and valuation-model review."
-    },
-    {
       "instrument": "OPENAI_USDC-PERPETUAL",
       "type": "preipo",
-      "reason": "Needs a separate index/pre-IPO reference identity and valuation-model review."
+      "reason": "Pre-IPO synthetic reference needs explicit share-unit/valuation and lifecycle modeling; not ordinary listed OpenAI stock."
     }
   ],
   "retained_raw_coverage": {
@@ -683,7 +694,7 @@
   "validation": {
     "catalogue": "pass",
     "sdk_consistency": {
-      "pass": 315
+      "pass": 317
     },
     "sdk_fingerprint_policy_verifier": "pass"
   }

@@ -891,5 +891,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://www.deribit.com/futures/TSM_USDC-PERPETUAL"
+  },
+  "COIN50_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "coinbase-50-index",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/COIN50_USDC-PERPETUAL"
   }
 }

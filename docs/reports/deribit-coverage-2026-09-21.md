@@ -1,16 +1,16 @@
 # Deribit remaining market coverage — 2026-09-21
 
-Adds 37 linear perpetuals, 36 canonical reference assets and 35 asset aliases on
+Adds 38 linear perpetuals, 37 canonical reference assets and 36 asset aliases on
 Catalogue `2ad44d5`. All 36 market omissions recorded on September 19 are now
-mapped; EURC is an additional current listing. Supported spot coverage remains
-19/19. Current perpetual discovery coverage rises from 90/129 to 127/129.
+mapped; EURC and COIN50 are additional current listings. Supported spot coverage remains
+19/19. Current perpetual discovery coverage rises from 90/129 to 128/129.
 
 ## Identity evidence
 
 1. [Deribit's named asset register](https://support.deribit.com/hc/en-us/articles/25944547269277-Listed-Virtual-Asset-Details)
    identifies the crypto projects and equity/ETF references. The companion JSON
    records each accepted native symbol, canonical ID and instrument. New records
-   include 16 crypto assets and 20 equity/ETF references.
+   include 16 crypto assets, 20 equity/ETF references and one index reference.
 2. Each added perpetual has an exact base-asset UUID match in
    [Coinbase International's instrument metadata](https://api.international.coinbase.com/api/v1/instruments),
    the index source named in [Deribit's specifications](https://support.deribit.com/hc/en-us/articles/31424969384605-Linear-Perpetual).
@@ -62,10 +62,16 @@ Coinbase ETH/CBETH earn coverage is already complete on the merged baseline.
 
 ## Explicit remaining market work
 
-Current discovery also includes `COIN50_USDC-PERPETUAL` (`crypto_index`) and
-`OPENAI_USDC-PERPETUAL` (`preipo`). These need explicit canonical reference and
-valuation-model decisions. They are recorded as unresolved rather than represented
-as an ordinary token or publicly traded share. See [Deribit's RWA specifications](https://support.deribit.com/hc/en-us/articles/38325634622493-RWA-Perpetual).
+COIN50 has a distinct `coinbase-50-index` record, confirmed by the
+[index publisher](https://www.coinbase.com/coin50), the native asset UUID and
+[Coinbase's product specifications](https://help.coinbase.com/en/international-exchange/perpetual-futures-basics/perpetual-futures-product-specifications).
+The optional category is omitted because the current enum has no index value;
+the record uses an Index tag and does not claim to be a token or fund share.
+
+`OPENAI_USDC-PERPETUAL` remains unresolved: its synthetic pre-IPO reference needs
+explicit share-unit/valuation and lifecycle modeling before it can share a
+canonical price identity. It is not represented as ordinary publicly traded
+OpenAI stock. See [Deribit's RWA specifications](https://support.deribit.com/hc/en-us/articles/38325634622493-RWA-Perpetual).
 
 ## Validation
 
@@ -77,7 +83,7 @@ as an ordinary token or publicly traded share. See [Deribit's RWA specifications
    these PRs merge. This branch does not modify Terminal or its local database.
 
 The live SDK consistency run and its offline fingerprint/policy verifier pass.
-Check statuses: `{"pass": 315}`. Policy deferrals do not represent
+Check statuses: `{"pass": 317}`. Policy deferrals do not represent
 resolved mappings. Reproduce from the SDK checkout:
 
 ```sh
