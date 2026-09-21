@@ -697,5 +697,445 @@
       "pass": 317
     },
     "sdk_fingerprint_policy_verifier": "pass"
+  },
+  "external_id_audit": {
+    "new_assets": 37,
+    "with_external_id": 36,
+    "missing_external_ids": [
+      "coinbase-50-index"
+    ],
+    "exception_issue": "https://github.com/tribulnation/catalogue/issues/152",
+    "verified_additions": {
+      "data/assets/advanced-micro-devices.json": {
+        "external": {
+          "yahoo": "AMD"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=5d&interval=1d",
+          "provider_name": "Advanced Micro Devices, Inc.",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/arm-holdings-adr.json": {
+        "external": {
+          "yahoo": "ARM"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/ARM?range=5d&interval=1d",
+          "provider_name": "Arm Holdings plc",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/based.json": {
+        "external": {
+          "coinmarketcap": "39812"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39812",
+          "provider_name": "Based",
+          "provider_symbol": "BASED",
+          "websites": [
+            "https://based.one/"
+          ],
+          "contracts": [
+            "https://bscscan.com/token/0x1d28d989f9e3ccb8b15d0cec601734514f958e4d",
+            "https://etherscan.io/address/0x4f2b33840227ddd0e28da8d4185d6fa07adfed87"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/bloom-energy.json": {
+        "external": {
+          "yahoo": "BE"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/BE?range=5d&interval=1d",
+          "provider_name": "Bloom Energy Corporation",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/book-of-meme.json": {
+        "external": {
+          "coinmarketcap": "29870"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=29870",
+          "provider_name": "BOOK OF MEME",
+          "provider_symbol": "BOME",
+          "websites": [
+            "https://llwapirxnupqu7xw2fspfidormcfar7ek2yp65nu7k5opjwhdywq.arweave.net/WuwHojdtHwp-9tFk8qBuiwRQR-RWsP91tPq656bHHi0"
+          ],
+          "contracts": [
+            "https://solscan.io/token/ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82",
+            "https://solscan.io/address/ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/cerebras-systems.json": {
+        "external": {
+          "yahoo": "CBRS"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/CBRS?range=5d&interval=1d",
+          "provider_name": "Cerebras Systems Inc.",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/circle-internet-group.json": {
+        "external": {
+          "yahoo": "CRCL"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/CRCL?range=5d&interval=1d",
+          "provider_name": "Circle Internet Group",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/direxion-daily-semiconductor-bull-3x.json": {
+        "external": {
+          "yahoo": "SOXL"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=5d&interval=1d",
+          "provider_name": "Direxion Daily Semiconductor Bull 3X Shares",
+          "instrument_type": "ETF",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/edgex.json": {
+        "external": {
+          "coinmarketcap": "39720"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39720",
+          "provider_name": "edgeX",
+          "provider_symbol": "EDGE",
+          "websites": [
+            "https://www.edgex.exchange/en-US"
+          ],
+          "contracts": [
+            "https://etherscan.io/token/0xB0076DE78Dc50581770BBa1D211dDc0aD4F2a241",
+            "http://bscscan.com/token/0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/fabric-protocol.json": {
+        "external": {
+          "coinmarketcap": "39595"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39595",
+          "provider_name": "Fabric Protocol",
+          "provider_symbol": "ROBO",
+          "websites": [
+            "https://fabric.foundation/"
+          ],
+          "contracts": [
+            "https://etherscan.io/token/0x32b4d049fe4c888d2b92eecaf729f44df6b1f36e",
+            "https://bscscan.com/token/0x475cbf5919608e0c6Af00e7bf87FaB83bF3Ef6e2"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/infinex.json": {
+        "external": {
+          "coinmarketcap": "39461"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39461",
+          "provider_name": "Infinex",
+          "provider_symbol": "INX",
+          "websites": [
+            "https://infinex.xyz/"
+          ],
+          "contracts": [
+            "https://etherscan.io/token/0xdeF1b2D939EdC0E4d35806c59b3166F790175afe",
+            "https://bscscan.com/token/0x45f55b46689402583073ff227b6ac20520052a24",
+            "https://solscan.io/token/inxKXw9V2NDZE7hDijzpJaKKUb97NEPJDTCEEiYg4yY"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/intel.json": {
+        "external": {
+          "yahoo": "INTC"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=5d&interval=1d",
+          "provider_name": "Intel Corporation",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/invesco-qqq.json": {
+        "external": {
+          "yahoo": "QQQ"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=5d&interval=1d",
+          "provider_name": "Invesco QQQ Trust",
+          "instrument_type": "ETF",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/ishares-msci-south-korea-etf.json": {
+        "external": {
+          "yahoo": "EWY"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/EWY?range=5d&interval=1d",
+          "provider_name": "iShares MSCI South Korea ETF",
+          "instrument_type": "ETF",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/lumentum-holdings.json": {
+        "external": {
+          "yahoo": "LITE"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=5d&interval=1d",
+          "provider_name": "Lumentum Holdings Inc.",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/marvell-technology.json": {
+        "external": {
+          "yahoo": "MRVL"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=5d&interval=1d",
+          "provider_name": "Marvell Technology, Inc.",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/micron-technology.json": {
+        "external": {
+          "yahoo": "MU"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=5d&interval=1d",
+          "provider_name": "Micron Technology, Inc.",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/midnight.json": {
+        "external": {
+          "coinmarketcap": "39064"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39064",
+          "provider_name": "Midnight",
+          "provider_symbol": "NIGHT",
+          "websites": [
+            "https://midnight.network/",
+            "https://midnight.foundation"
+          ],
+          "contracts": [
+            "https://cardanoscan.io/token/0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854",
+            "https://bscscan.com/token/0xfe930c2d63aed9b82fc4dbc801920dd2c1a3224f"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/nebius-group.json": {
+        "external": {
+          "yahoo": "NBIS"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS?range=5d&interval=1d",
+          "provider_name": "Nebius Group N.V.",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/perle.json": {
+        "external": {
+          "coinmarketcap": "39797"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39797",
+          "provider_name": "Perle",
+          "provider_symbol": "PRL",
+          "websites": [
+            "https://www.perle.xyz/"
+          ],
+          "contracts": [
+            "https://solscan.io/token/PERLEQKUNUp1dgFZ8EvyXHdN9d6ZQqfGxALDvfs6pDs",
+            "https://bscscan.com/token/0xd20fb09a49a8e75fef536a2dbc68222900287bac"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/resolv.json": {
+        "external": {
+          "coinmarketcap": "36713"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=36713",
+          "provider_name": "Resolv",
+          "provider_symbol": "RESOLV",
+          "websites": [
+            "https://resolv.xyz/",
+            "https://app.resolv.xyz/"
+          ],
+          "contracts": [
+            "https://etherscan.io/token/0x259338656198eC7A76c729514D3CB45Dfbf768A1",
+            "https://etherscan.io/address/0x259338656198eC7A76c729514D3CB45Dfbf768A1",
+            "https://bscscan.com/token/0xdA6CEF7F667d992A60EB823Ab215493aA0c6b360"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/robinhood-markets.json": {
+        "external": {
+          "yahoo": "HOOD"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/HOOD?range=5d&interval=1d",
+          "provider_name": "Robinhood Markets, Inc.",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/roundhill-memory-etf.json": {
+        "external": {
+          "yahoo": "DRAM"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/DRAM?range=5d&interval=1d",
+          "provider_name": "Roundhill Memory ETF",
+          "instrument_type": "ETF",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/sandisk.json": {
+        "external": {
+          "yahoo": "SNDK"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=5d&interval=1d",
+          "provider_name": "Sandisk Corporation",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/sk-hynix-adr.json": {
+        "external": {
+          "yahoo": "SKHY"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/SKHY?range=5d&interval=1d",
+          "provider_name": "SK hynix Inc.",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/spacex.json": {
+        "external": {
+          "yahoo": "SPCX"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPCX?range=5d&interval=1d",
+          "provider_name": "Space Exploration Technologies Corp.",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/spdr-sp500-etf-trust.json": {
+        "external": {
+          "yahoo": "SPY"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=5d&interval=1d",
+          "provider_name": "State Street SPDR S&P 500 ETF Trust",
+          "instrument_type": "ETF",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/taiwan-semiconductor-adr.json": {
+        "external": {
+          "yahoo": "TSM"
+        },
+        "evidence": {
+          "provider_url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?range=5d&interval=1d",
+          "provider_name": "Taiwan Semiconductor Manufacturing Company Limited",
+          "instrument_type": "EQUITY",
+          "currency": "USD",
+          "verified_against": "Issuer/share class and listed reference identity in Deribit coverage report."
+        }
+      },
+      "data/assets/towns.json": {
+        "external": {
+          "coinmarketcap": "37571"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=37571",
+          "provider_name": "Towns",
+          "provider_symbol": "TOWNS",
+          "websites": [
+            "https://www.towns.com/"
+          ],
+          "contracts": [
+            "https://basescan.org/token/0x00000000a22c618fd6b4d7e9a335c4b96b189a38",
+            "https://etherscan.io/token/0x000000Fa00b200406de700041CFc6b19BbFB4d13",
+            "https://bscscan.com/token/0x00000000bcA93b25a6694ca3d2109d545988b13B",
+            "https://explorer.towns.com/"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/usd-ai.json": {
+        "external": {
+          "coinmarketcap": "39870"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39870",
+          "provider_name": "USD.AI",
+          "provider_symbol": "CHIP",
+          "websites": [
+            "https://usd.ai/"
+          ],
+          "contracts": [
+            "https://arbiscan.io/token/0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e",
+            "https://solscan.io/token/chipCAT7vi5CZtbZsn9z7iMPXvFwyAnKz3QFu8XVuHm",
+            "https://etherscan.io/token/0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e",
+            "https://basescan.org/token/0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      }
+    },
+    "validation": "Catalogue validation and seven metadata-guard tests pass; PR guard requires about.en, urls and external.",
+    "pending_duplicate_consolidation": {}
   }
 }

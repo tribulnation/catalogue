@@ -98,3 +98,11 @@ resolved mappings. Reproduce from the SDK checkout:
 .venv/bin/sdk-dev test consistency deribit --catalogue ../catalogue-deribit-gaps/data --output /tmp/deribit-remaining-review
 .venv/bin/sdk-dev results verify /tmp/deribit-remaining-review --catalogue ../catalogue-deribit-gaps/data
 ```
+
+## External identifiers
+
+36 of 37 new assets have at least one external ID.
+The companion JSON records provider endpoints and identity checks for added IDs.
+CI now checks new assets for descriptions, URLs and external IDs against the PR base.
+
+COIN50 is the sole exception, tracked in [#152](https://github.com/tribulnation/catalogue/issues/152). Yahoo search and the `^COIN50` chart returned no match; MarketVector publisher identifiers are recorded in that issue.

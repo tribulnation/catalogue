@@ -22,6 +22,12 @@ community links when no usable homepage exists. Do not use guessed domains,
 aggregator listing pages, or generic exchange-listing descriptions as substitutes.
 Keep metadata identical when the same record appears in multiple venue PRs.
 
+Every new asset must also have at least one verified supported provider ID in
+`external`, matched by project identity, issuer or contract rather than ticker alone.
+Run `scripts/check_new_assets.py --base <base-commit>` to check new assets.
+COIN50 is the sole temporary external-ID exception, tracked in
+[issue #152](https://github.com/tribulnation/catalogue/issues/152).
+
 ## Instrument URLs
 
 Spot and perpetual instruments carry a `url` field pointing at the platform's trading page for that instrument, e.g. `https://app.hyperliquid.xyz/trade/BTC` for Hyperliquid's BTC perpetual. It is optional in the schema, but every listed instrument on a supported platform should have one. Delisted instruments must not have one — their trading pages are gone — and validation enforces that.
