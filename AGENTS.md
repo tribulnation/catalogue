@@ -12,6 +12,22 @@ These instructions apply to the repository at `/home/m4rs/github/tribulnation/ca
 ## Local guidance
 - When running validation (or other local scripts), use the repo virtualenv: `PYTHONPATH=lib/src .venv/bin/python scripts/validate.py`.
 
+## Asset and platform metadata
+
+Every new asset and platform record must include a meaningful English description
+in `about.en` and at least one official project or issuer link in `urls`. Verify
+the project identity and the page content; a successful HTTP response alone is
+not enough. Use accurately labeled documentation, source-code or official
+community links when no usable homepage exists. Do not use guessed domains,
+aggregator listing pages, or generic exchange-listing descriptions as substitutes.
+Keep metadata identical when the same record appears in multiple venue PRs.
+
+Every new asset must also have at least one verified supported provider ID in
+`external`, matched by project identity, issuer or contract rather than ticker alone.
+Run `scripts/check_new_assets.py --base <base-commit>` to check new assets.
+COIN50 is the sole temporary external-ID exception, tracked in
+[issue #152](https://github.com/tribulnation/catalogue/issues/152).
+
 ## Instrument URLs
 
 Spot and perpetual instruments carry a `url` field pointing at the platform's trading page for that instrument, e.g. `https://app.hyperliquid.xyz/trade/BTC` for Hyperliquid's BTC perpetual. It is optional in the schema, but every listed instrument on a supported platform should have one. Delisted instruments must not have one — their trading pages are gone — and validation enforces that.

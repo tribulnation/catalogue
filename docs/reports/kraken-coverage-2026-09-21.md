@@ -101,3 +101,21 @@ Reproduce the live and offline checks from the SDK checkout:
 .venv/bin/sdk-dev test consistency kraken --catalogue ../catalogue-kraken-gaps/data --output /tmp/kraken-remaining-review
 .venv/bin/sdk-dev results verify /tmp/kraken-remaining-review --catalogue ../catalogue-kraken-gaps/data
 ```
+
+## External identifiers
+
+421 of 421 new assets have at least one external ID.
+The companion JSON records provider endpoints and identity checks for added IDs.
+CI now checks new assets for descriptions, URLs and external IDs against the PR base.
+
+COPM uses its issuer-verified Polygon contract as a DefiLlama ID. The public pricing adapter supports USD and historical observations; EUR conversion uses the latest published daily FRED USD-per-EUR rate on or before the observation date, which can lag market FX. Missing prices or required FX data produce no quote.
+
+## Pending identity consolidation
+
+The external-ID audit found the following duplicate canonical records. Their consolidation is pending approval; no records have been deleted or references rewritten in this correction.
+
+1. `aligned-layer` → `aligned`.
+2. `bos-token` → `bitcoinos`.
+3. `moonwalk` → `moonwalk-fitness`.
+
+Resolve these before merging the venue PRs together to avoid duplicate external-provider identities.

@@ -49,7 +49,7 @@ class SpamAddress(TypedDict, total=False):
   source: str
   reported_at: datetime
 
-ExternalSource = Literal['coingecko', 'coinmarketcap', 'twelvedata', 'alphavantage', 'fred', 'yahoo']
+ExternalSource = Literal['coingecko', 'coinmarketcap', 'twelvedata', 'alphavantage', 'fred', 'yahoo', 'defillama']
 ExternalIds = Mapping[ExternalSource, str]
 
 class AssetPeg(TypedDict):

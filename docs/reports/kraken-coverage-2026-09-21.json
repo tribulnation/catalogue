@@ -11326,5 +11326,2222 @@
     "missing_urls": 0,
     "identity_fields_changed": false,
     "source_links": "See urls in each asset/platform JSON; labels distinguish project websites, documentation, code, community sources and exact token contracts."
+  },
+  "external_id_audit": {
+    "new_assets": 421,
+    "with_external_id": 421,
+    "missing_external_ids": [],
+    "exception_issue": null,
+    "verified_additions": {
+      "data/assets/0x.json": {
+        "external": {
+          "coinmarketcap": "1896"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=1896",
+          "provider_name": "0x Protocol",
+          "provider_symbol": "ZRX",
+          "provider_websites": [
+            "http://0xprotocol.org/"
+          ],
+          "primary_sources": {
+            "Website": "https://0xprotocol.org/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/375ai.json": {
+        "external": {
+          "coinmarketcap": "38815"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38815",
+          "provider_name": "375ai",
+          "provider_symbol": "EAT",
+          "provider_slug": "375ai",
+          "matching_contracts": [
+            "375aiuqzerlrb9shtsarkr4nuwcgbrtqibudbmgelvzc"
+          ],
+          "matching_official_domains": [
+            "375.ai"
+          ],
+          "verified_asset_urls": [
+            "https://375.ai/"
+          ]
+        }
+      },
+      "data/assets/adex.json": {
+        "external": {
+          "coinmarketcap": "1768"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=1768",
+          "provider_name": "heyAura",
+          "provider_symbol": "ADX",
+          "provider_websites": [
+            "https://www.heyaura.com/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.heyaura.com/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/adi-token.json": {
+        "external": {
+          "coinmarketcap": "38185"
+        },
+        "evidence": {
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38185",
+          "provider_name": "ADI",
+          "provider_symbol": "ADI",
+          "checks": {
+            "native_contracts": [
+              "0x8b1484d57abbe239bb280661377363b03c89caea"
+            ],
+            "provider_contracts": [
+              "0x8b1484d57abbe239bb280661377363b03c89caea"
+            ],
+            "exact_contract_matches": [
+              "0x8b1484d57abbe239bb280661377363b03c89caea"
+            ],
+            "exact_urls": [
+              "https://token.adi.foundation/"
+            ],
+            "same_project_host": [
+              [
+                "https://token.adi.foundation/",
+                "https://token.adi.foundation/"
+              ]
+            ],
+            "venue_asset_identifiers": [
+              "ADI"
+            ]
+          },
+          "primary_reference": "https://token.adi.foundation/",
+          "note": "Project identity corroborated against reviewed primary reference and/or exact venue contract; no price-series assumptions."
+        }
+      },
+      "data/assets/aixbt.json": {
+        "external": {
+          "coinmarketcap": "34103"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=34103",
+          "provider_name": "aixbt",
+          "provider_symbol": "AIXBT",
+          "provider_websites": [
+            "https://aixbt.tech"
+          ],
+          "primary_sources": {
+            "Website": "https://aixbt.tech/rankings?entity=topics"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/aligned-layer.json": {
+        "external": {
+          "coinmarketcap": "35068"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=35068",
+          "provider_name": "Aligned",
+          "provider_symbol": "ALIGN",
+          "provider_websites": [
+            "https://alignedlayer.com/"
+          ],
+          "primary_sources": {
+            "Website": "https://alignedlayer.com/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/ampleforth-governance-token.json": {
+        "external": {
+          "coinmarketcap": "9421"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=9421",
+          "provider_name": "Ampleforth Governance Token",
+          "provider_symbol": "FORTH",
+          "provider_websites": [
+            "https://www.ampleforth.org/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.ampleforth.org/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/animecoin.json": {
+        "external": {
+          "coinmarketcap": "35319"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=35319",
+          "provider_name": "Animecoin",
+          "provider_symbol": "ANIME",
+          "websites": [
+            "https://www.anime.xyz"
+          ],
+          "contracts": [
+            "https://etherscan.io/token/0x4dc26fc5854e7648a064a4abd590bbe71724c277",
+            "https://arbiscan.io/token/0x37a645648df29205c6261289983fb04ecd70b4b3"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/apenft.json": {
+        "external": {
+          "coinmarketcap": "9816"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=9816",
+          "provider_name": "AINFT",
+          "provider_symbol": "NFT",
+          "provider_slug": "apenft",
+          "matching_contracts": [
+            "tfczxzphnthnsqr5by8tvxsdcfrrz6cpnq"
+          ],
+          "matching_official_domains": [
+            "ainft.com"
+          ],
+          "verified_asset_urls": [
+            "https://ainft.com/"
+          ]
+        }
+      },
+      "data/assets/api3.json": {
+        "external": {
+          "coinmarketcap": "7737"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=7737",
+          "provider_name": "API3",
+          "provider_symbol": "API3",
+          "provider_websites": [
+            "https://api3.org/"
+          ],
+          "primary_sources": {
+            "Website": "https://api3.org/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/apriori.json": {
+        "external": {
+          "coinmarketcap": "38569"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38569",
+          "provider_name": "Capricorn",
+          "provider_symbol": "APR",
+          "provider_websites": [
+            "https://www.capricorn.tech/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.capricorn.tech/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/arpa-chain.json": {
+        "external": {
+          "coinmarketcap": "4039"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=4039",
+          "provider_name": "ARPA",
+          "provider_symbol": "ARPA",
+          "provider_websites": [
+            "https://arpanetwork.io"
+          ],
+          "primary_sources": {
+            "Website": "https://www.arpanetwork.io/en-US"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/autonomys.json": {
+        "external": {
+          "coinmarketcap": "38267"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38267",
+          "provider_name": "Autonomys Network",
+          "provider_symbol": "AI3",
+          "provider_websites": [
+            "https://www.autonomys.xyz/",
+            "https://subspace.foundation/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.autonomys.xyz/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/ava-ai.json": {
+        "external": {
+          "coinmarketcap": "34116"
+        },
+        "evidence": {
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=34116",
+          "provider_name": "AVA",
+          "provider_symbol": "AVA",
+          "checks": {
+            "native_contracts": [
+              "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump"
+            ],
+            "provider_contracts": [
+              "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump"
+            ],
+            "exact_contract_matches": [
+              "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump"
+            ],
+            "exact_urls": [],
+            "same_project_host": [
+              [
+                "https://www.holoworld.com/",
+                "https://holoworld.com"
+              ]
+            ],
+            "venue_asset_identifiers": [
+              "AVAAI"
+            ]
+          },
+          "primary_reference": "https://www.holoworld.com/",
+          "note": "Project identity corroborated against reviewed primary reference and/or exact venue contract; no price-series assumptions."
+        }
+      },
+      "data/assets/babyshark-universe.json": {
+        "external": {
+          "coinmarketcap": "37672"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=37672",
+          "provider_name": "BabyShark",
+          "provider_symbol": "BABYSHARK",
+          "provider_websites": [
+            "https://www.babysharkuniverse.io"
+          ],
+          "primary_sources": {
+            "Community": "https://linktr.ee/BSUniverse"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/badger-dao.json": {
+        "external": {
+          "coinmarketcap": "7859"
+        },
+        "evidence": {
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=7859",
+          "provider_name": "Badger DAO",
+          "provider_symbol": "BADGER",
+          "checks": {
+            "native_contracts": [
+              "0x3472a5a71965499acd81997a54bba8d852c6e53d"
+            ],
+            "provider_contracts": [
+              "0x3472a5a71965499acd81997a54bba8d852c6e53d",
+              "0xbfa641051ba0a0ad1b0acf549a89536a0d76472e",
+              "0xdfc20ae04ed70bd9c7d720f449eedae19f659d65"
+            ],
+            "exact_contract_matches": [
+              "0x3472a5a71965499acd81997a54bba8d852c6e53d"
+            ],
+            "exact_urls": [],
+            "same_project_host": [],
+            "venue_asset_identifiers": [
+              "BADGER"
+            ]
+          },
+          "primary_reference": "https://badger.com/",
+          "note": "Project identity corroborated against reviewed primary reference and/or exact venue contract; no price-series assumptions."
+        }
+      },
+      "data/assets/bancor.json": {
+        "external": {
+          "coinmarketcap": "1727"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=1727",
+          "provider_name": "Bancor",
+          "provider_symbol": "BNT",
+          "provider_slug": "bancor",
+          "matching_contracts": [
+            "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c"
+          ],
+          "matching_official_domains": [
+            "bancor.network"
+          ],
+          "verified_asset_urls": [
+            "https://www.bancor.network/"
+          ]
+        }
+      },
+      "data/assets/band-protocol.json": {
+        "external": {
+          "coinmarketcap": "4679"
+        },
+        "evidence": {
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=4679",
+          "provider_name": "Band",
+          "provider_symbol": "BAND",
+          "checks": {
+            "native_contracts": [
+              "0xad6caeb32cd2c308980a548bd0bc5aa4306c6c18",
+              "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55"
+            ],
+            "provider_contracts": [
+              "0x46e7628e8b4350b2716ab470ee0ba1fa9e76c6c5",
+              "0xad6caeb32cd2c308980a548bd0bc5aa4306c6c18",
+              "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+              "0xe154a435408211ac89757b76c4fbe4dc9ed2ef27"
+            ],
+            "exact_contract_matches": [
+              "0xad6caeb32cd2c308980a548bd0bc5aa4306c6c18",
+              "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55"
+            ],
+            "exact_urls": [
+              "https://bandprotocol.com/"
+            ],
+            "same_project_host": [
+              [
+                "https://bandprotocol.com/",
+                "https://bandprotocol.com/"
+              ],
+              [
+                "https://bandprotocol.com/",
+                "https://bandprotocol.com/whitepaper-3.0.1.pdf"
+              ]
+            ],
+            "venue_asset_identifiers": [
+              "BAND"
+            ]
+          },
+          "primary_reference": "https://bandprotocol.com/",
+          "note": "Project identity corroborated against reviewed primary reference and/or exact venue contract; no price-series assumptions."
+        }
+      },
+      "data/assets/beamable-network.json": {
+        "external": {
+          "coingecko": "beamable-network-token"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://www.coingecko.com/en/coins/beamable-network-token",
+          "identity_verification": "Provider page explicitly names Beamable Network Token/BMB and links beamable.network; BTCMobick/BMB CMC candidate rejected.",
+          "primary_sources": {
+            "Website": "https://beamable.network/"
+          },
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/bless-network.json": {
+        "external": {
+          "coinmarketcap": "38466"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38466",
+          "provider_name": "Bless",
+          "provider_symbol": "BLESS",
+          "provider_websites": [
+            "https://bless.network/"
+          ],
+          "primary_sources": {
+            "Website": "https://bless.network/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/bluwhale.json": {
+        "external": {
+          "coinmarketcap": "38717"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38717",
+          "provider_name": "Bluwhale",
+          "provider_symbol": "BLUAI",
+          "provider_websites": [
+            "https://www.bluwhale.com/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.bluwhale.com/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/bos-token.json": {
+        "external": {
+          "coinmarketcap": "38784"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38784",
+          "provider_name": "BitcoinOS",
+          "provider_symbol": "BOS",
+          "provider_websites": [
+            "https://bitcoinos.build/"
+          ],
+          "primary_sources": {
+            "Website": "https://bitcoinos.build/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/brl1.json": {
+        "external": {
+          "coinmarketcap": "36330"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=36330",
+          "provider_name": "BRL1",
+          "provider_symbol": "BRL1",
+          "provider_websites": [
+            "https://brl1.io/"
+          ],
+          "primary_sources": {
+            "Website": "https://brl1.io/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/build-on-bitcoin.json": {
+        "external": {
+          "coinmarketcap": "38970"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38970",
+          "provider_name": "BOB (Build on Bitcoin)",
+          "provider_symbol": "BOB",
+          "provider_websites": [
+            "https://www.gobob.xyz/",
+            "https://app.gobob.xyz/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.gobob.xyz/en"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/cap.json": {
+        "external": {
+          "coinmarketcap": "40531"
+        },
+        "evidence": {
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=40531",
+          "provider_name": "Cap",
+          "provider_symbol": "CAP",
+          "checks": {
+            "native_contracts": [
+              "0x99991c6aabba5a096f24f250b73580f5179b9999"
+            ],
+            "provider_contracts": [
+              "0x99991c6aabba5a096f24f250b73580f5179b9999"
+            ],
+            "exact_contract_matches": [
+              "0x99991c6aabba5a096f24f250b73580f5179b9999"
+            ],
+            "exact_urls": [
+              "https://docs.cap.app/resources/whitepaper"
+            ],
+            "same_project_host": [
+              [
+                "https://docs.cap.app/resources/whitepaper",
+                "https://docs.cap.app/resources/whitepaper"
+              ]
+            ],
+            "venue_asset_identifiers": [
+              "CAP"
+            ]
+          },
+          "primary_reference": "https://docs.cap.app/resources/whitepaper",
+          "note": "Project identity corroborated against reviewed primary reference and/or exact venue contract; no price-series assumptions."
+        }
+      },
+      "data/assets/casper.json": {
+        "external": {
+          "coinmarketcap": "5899"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=5899",
+          "provider_name": "Casper",
+          "provider_symbol": "CSPR",
+          "provider_slug": "casper",
+          "matching_contracts": [],
+          "matching_official_domains": [
+            "casper.network"
+          ],
+          "verified_asset_urls": [
+            "https://casper.network/"
+          ]
+        }
+      },
+      "data/assets/cat-in-a-dogs-world.json": {
+        "external": {
+          "coinmarketcap": "30126"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=30126",
+          "provider_name": "cat in a dogs world",
+          "provider_symbol": "MEW",
+          "provider_websites": [
+            "https://mew.xyz/"
+          ],
+          "primary_sources": {
+            "Website": "https://mew.xyz/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/concordium.json": {
+        "external": {
+          "coinmarketcap": "18031"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=18031",
+          "provider_name": "Concordium",
+          "provider_symbol": "CCD",
+          "provider_websites": [
+            "https://www.concordium.com"
+          ],
+          "primary_sources": {
+            "Website": "https://www.concordium.com"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/coti.json": {
+        "external": {
+          "coinmarketcap": "3992"
+        },
+        "evidence": {
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=3992",
+          "provider_name": "COTI",
+          "provider_symbol": "COTI",
+          "checks": {
+            "native_contracts": [
+              "0xddb3422497e61e13543bea06989c0789117555c5"
+            ],
+            "provider_contracts": [
+              "0xadbaf88b39d37dc68775ed1541f1bf83a5a45feb",
+              "0xddb3422497e61e13543bea06989c0789117555c5"
+            ],
+            "exact_contract_matches": [
+              "0xddb3422497e61e13543bea06989c0789117555c5"
+            ],
+            "exact_urls": [
+              "https://coti.io/"
+            ],
+            "same_project_host": [
+              [
+                "https://coti.io/",
+                "https://coti.io/"
+              ],
+              [
+                "https://coti.io/",
+                "https://coti.io/files/coti_v2_whitepaper.pdf"
+              ]
+            ],
+            "venue_asset_identifiers": [
+              "COTI"
+            ]
+          },
+          "primary_reference": "https://coti.io/",
+          "note": "Project identity corroborated against reviewed primary reference and/or exact venue contract; no price-series assumptions."
+        }
+      },
+      "data/assets/duckchain.json": {
+        "external": {
+          "coinmarketcap": "35298"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=35298",
+          "provider_name": "DuckChain",
+          "provider_symbol": "DUCK",
+          "provider_websites": [
+            "https://duckchain.io/"
+          ],
+          "primary_sources": {
+            "Website": "https://duckchain.io/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/edgex.json": {
+        "external": {
+          "coinmarketcap": "39720"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39720",
+          "provider_name": "edgeX",
+          "provider_symbol": "EDGE",
+          "websites": [
+            "https://www.edgex.exchange/en-US"
+          ],
+          "contracts": [
+            "https://etherscan.io/token/0xB0076DE78Dc50581770BBa1D211dDc0aD4F2a241",
+            "http://bscscan.com/token/0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/enjin.json": {
+        "external": {
+          "coinmarketcap": "2130"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=2130",
+          "provider_name": "Enjin Coin",
+          "provider_symbol": "ENJ",
+          "provider_websites": [
+            "https://enjin.io/"
+          ],
+          "primary_sources": {
+            "Documentation": "https://docs.enjin.io/enjin-products/enjin-coin"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/enzyme.json": {
+        "external": {
+          "coinmarketcap": "1552"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=1552",
+          "provider_name": "Enzyme",
+          "provider_symbol": "MLN",
+          "provider_websites": [
+            "https://enzyme.finance/"
+          ],
+          "primary_sources": {
+            "Website": "https://enzyme.finance/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/fabric-protocol.json": {
+        "external": {
+          "coinmarketcap": "39595"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39595",
+          "provider_name": "Fabric Protocol",
+          "provider_symbol": "ROBO",
+          "websites": [
+            "https://fabric.foundation/"
+          ],
+          "contracts": [
+            "https://etherscan.io/token/0x32b4d049fe4c888d2b92eecaf729f44df6b1f36e",
+            "https://bscscan.com/token/0x475cbf5919608e0c6Af00e7bf87FaB83bF3Ef6e2"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/fidelity-digital-dollar.json": {
+        "external": {
+          "coinmarketcap": "39549"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39549",
+          "provider_name": "Fidelity Digital Dollar",
+          "provider_symbol": "FIDD",
+          "provider_websites": [
+            "https://www.fidelitydigitalassets.com/"
+          ],
+          "primary_sources": {
+            "Website": "https://fidelitydigitalassets.com/stablecoin"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/frontier-stable-token.json": {
+        "external": {
+          "coingecko": "frontier-stable-token"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://www.coingecko.com/en/coins/frontier-stable-token",
+          "identity_verification": "Provider page explicitly gives API ID frontier-stable-token and FRNT/USD Kraken market; name and networks match Wyoming-issued Frontier Stable Token.",
+          "primary_sources": {
+            "Documentation": "https://stabletoken.wyo.gov/assets/media/Listing%20Exchange%20Policy.pdf"
+          },
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/gaia.json": {
+        "external": {
+          "coinmarketcap": "37473"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=37473",
+          "provider_name": "GAIA",
+          "provider_symbol": "GAIA",
+          "provider_websites": [
+            "https://www.gaianet.ai/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.gaianet.ai/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/gamebuild.json": {
+        "external": {
+          "coinmarketcap": "31246"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=31246",
+          "provider_name": "GameBuild",
+          "provider_symbol": "GAME",
+          "provider_websites": [
+            "https://gamebuild.xyz/"
+          ],
+          "primary_sources": {
+            "Website": "https://gamebuild.xyz/"
+          },
+          "identity_verification": "Provider GameBuild/GAME points to gamebuild.xyz; venue uses GAME2 to disambiguate same project. No canonical symbol changed.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/goatseus-maximus.json": {
+        "external": {
+          "coinmarketcap": "33440"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=33440",
+          "provider_name": "Goatseus Maximus",
+          "provider_symbol": "GOAT",
+          "provider_slug": "goatseus-maximus",
+          "matching_contracts": [
+            "czlsujwblfssjncfkh59rufqvafwcy5tzedwjsuypump"
+          ],
+          "matching_official_domains": [
+            "goatchan.xyz"
+          ],
+          "verified_asset_urls": [
+            "https://goatchan.xyz/"
+          ]
+        }
+      },
+      "data/assets/green-satoshi-token.json": {
+        "external": {
+          "coinmarketcap": "16352"
+        },
+        "evidence": {
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=16352",
+          "provider_name": "Green Satoshi Token (SOL)",
+          "provider_symbol": "GST",
+          "checks": {
+            "native_contracts": [
+              "AFbX8oGjGpmVFywbVouvhQSRmiW2aR1mohfahi4Y2AdB"
+            ],
+            "provider_contracts": [
+              "AFbX8oGjGpmVFywbVouvhQSRmiW2aR1mohfahi4Y2AdB"
+            ],
+            "exact_contract_matches": [
+              "AFbX8oGjGpmVFywbVouvhQSRmiW2aR1mohfahi4Y2AdB"
+            ],
+            "exact_urls": [
+              "https://stepn.com/"
+            ],
+            "same_project_host": [
+              [
+                "https://stepn.com/",
+                "https://stepn.com/"
+              ],
+              [
+                "https://stepn.com/",
+                "https://stepn.com/litePaper"
+              ]
+            ],
+            "venue_asset_identifiers": [
+              "GST"
+            ]
+          },
+          "primary_reference": "https://stepn.com/",
+          "note": "Project identity corroborated against reviewed primary reference and/or exact venue contract; no price-series assumptions."
+        }
+      },
+      "data/assets/iagon.json": {
+        "external": {
+          "coinmarketcap": "11078"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=11078",
+          "provider_name": "IAGON",
+          "provider_symbol": "IAG",
+          "provider_websites": [
+            "http://iagon.com/"
+          ],
+          "primary_sources": {
+            "Website": "https://iagon.com"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/iexec-rlc.json": {
+        "external": {
+          "coinmarketcap": "1637"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=1637",
+          "provider_name": "iExec RLC",
+          "provider_symbol": "RLC",
+          "provider_websites": [
+            "https://iex.ec/",
+            "https://docs.iex.ec/"
+          ],
+          "primary_sources": {
+            "Website": "https://iex.ec/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/impossible-cloud-network.json": {
+        "external": {
+          "coinmarketcap": "37070"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=37070",
+          "provider_name": "Impossible Cloud Network",
+          "provider_symbol": "ICNT",
+          "provider_websites": [
+            "https://www.icn.global/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.icn.global/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/infinex.json": {
+        "external": {
+          "coinmarketcap": "39461"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39461",
+          "provider_name": "Infinex",
+          "provider_symbol": "INX",
+          "websites": [
+            "https://infinex.xyz/"
+          ],
+          "contracts": [
+            "https://etherscan.io/token/0xdeF1b2D939EdC0E4d35806c59b3166F790175afe",
+            "https://bscscan.com/token/0x45f55b46689402583073ff227b6ac20520052a24",
+            "https://solscan.io/token/inxKXw9V2NDZE7hDijzpJaKKUb97NEPJDTCEEiYg4yY"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/infrared.json": {
+        "external": {
+          "coinmarketcap": "39113"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39113",
+          "provider_name": "Infrared",
+          "provider_symbol": "IR",
+          "provider_websites": [
+            "https://infrared.finance/"
+          ],
+          "primary_sources": {
+            "Website": "https://infrared.finance/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/intuition.json": {
+        "external": {
+          "coinmarketcap": "38863"
+        },
+        "evidence": {
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38863",
+          "provider_name": "Intuition",
+          "provider_symbol": "TRUST",
+          "checks": {
+            "native_contracts": [
+              "0x6cd905df2ed214b22e0d48ff17cd4200c1c6d8a3"
+            ],
+            "provider_contracts": [
+              "0x6cd905df2ed214b22e0d48ff17cd4200c1c6d8a3"
+            ],
+            "exact_contract_matches": [
+              "0x6cd905df2ed214b22e0d48ff17cd4200c1c6d8a3"
+            ],
+            "exact_urls": [
+              "https://www.intuition.systems/"
+            ],
+            "same_project_host": [
+              [
+                "https://www.intuition.systems/",
+                "https://www.intuition.systems/"
+              ]
+            ],
+            "venue_asset_identifiers": [
+              "TRUST"
+            ]
+          },
+          "primary_reference": "https://www.intuition.systems/",
+          "note": "Project identity corroborated against reviewed primary reference and/or exact venue contract; no price-series assumptions."
+        }
+      },
+      "data/assets/jito-staked-sol.json": {
+        "external": {
+          "coinmarketcap": "22533"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=22533",
+          "provider_name": "Jito Staked SOL",
+          "provider_symbol": "JITOSOL",
+          "provider_websites": [
+            "https://www.jito.network/"
+          ],
+          "primary_sources": {
+            "Source code": "https://github.com/jito-foundation"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/keep3r-network.json": {
+        "external": {
+          "coinmarketcap": "7535"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=7535",
+          "provider_name": "Keep3rV1",
+          "provider_symbol": "KP3R",
+          "provider_websites": [
+            "https://keep3r.network/"
+          ],
+          "primary_sources": {
+            "Website": "https://keep3r.network/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/kernel.json": {
+        "external": {
+          "coinmarketcap": "36180"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=36180",
+          "provider_name": "KernelDAO",
+          "provider_symbol": "KERNEL",
+          "provider_websites": [
+            "https://kerneldao.com/"
+          ],
+          "primary_sources": {
+            "Website": "https://kerneldao.com/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/kgen.json": {
+        "external": {
+          "coinmarketcap": "38554"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38554",
+          "provider_name": "KGeN",
+          "provider_symbol": "KGEN",
+          "provider_websites": [
+            "https://kgen.io/"
+          ],
+          "primary_sources": {
+            "Website": "https://kgen.io/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/kyber-network.json": {
+        "external": {
+          "coinmarketcap": "9444"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=9444",
+          "provider_name": "Kyber Network Crystal v2",
+          "provider_symbol": "KNC",
+          "provider_websites": [
+            "https://kyberswap.com/",
+            "https://kyber.network/"
+          ],
+          "primary_sources": {
+            "Website": "https://kyberswap.com/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/lcx.json": {
+        "external": {
+          "coinmarketcap": "4950"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=4950",
+          "provider_name": "LCX",
+          "provider_symbol": "LCX",
+          "provider_websites": [
+            "https://www.lcx.com",
+            "http://t.me/LCXNews"
+          ],
+          "primary_sources": {
+            "Community": "https://lcx.com/es"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/limewire.json": {
+        "external": {
+          "coinmarketcap": "24476"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=24476",
+          "provider_name": "LimeWire",
+          "provider_symbol": "LMWR",
+          "provider_slug": "limewire",
+          "matching_contracts": [
+            "0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88"
+          ],
+          "matching_official_domains": [
+            "lmwr.com"
+          ],
+          "verified_asset_urls": [
+            "https://lmwr.com/"
+          ]
+        }
+      },
+      "data/assets/liquid-staked-ethereum.json": {
+        "external": {
+          "coinmarketcap": "23782"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=23782",
+          "provider_name": "Liquid Staked ETH",
+          "provider_symbol": "LSETH",
+          "provider_websites": [
+            "https://liquidcollective.io/"
+          ],
+          "primary_sources": {
+            "Website": "https://liquidcollective.io/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/liquid-staked-sol.json": {
+        "external": {
+          "coingecko": "liquid-staked-sol"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://www.coingecko.com/en/coins/liquid-staked-sol",
+          "identity_verification": "Provider page explicitly gives API ID liquid-staked-sol, Liquid Staked SOL/LSSOL, official liquidcollective.io and Kraken LSSOL/USD market.",
+          "primary_sources": {
+            "Website": "https://liquidcollective.io/"
+          },
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/lucky-kat.json": {
+        "external": {
+          "coingecko": "koban"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://www.coingecko.com/en/coins/koban-2",
+          "identity_verification": "Provider page URL is koban-2 but API ID explicitly koban; page names Lucky Kat gaming ecosystem and links lucky-kat.com. Issuer parent Fragbite announcement links this listing.",
+          "primary_sources": {
+            "Website": "https://lucky-kat.com/"
+          },
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/magic-internet-money-bitcoin.json": {
+        "external": {
+          "coinmarketcap": "36621"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=36621",
+          "provider_name": "MAGIC•INTERNET•MONEY (Bitcoin)",
+          "provider_symbol": "MIM",
+          "provider_websites": [
+            "https://mimwizards.com",
+            "https://bitcoinwizard.com"
+          ],
+          "primary_sources": {
+            "Website": "https://mimwizards.com/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/marinade-staked-sol.json": {
+        "external": {
+          "coinmarketcap": "11461"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=11461",
+          "provider_name": "Marinade Staked SOL",
+          "provider_symbol": "MSOL",
+          "provider_websites": [
+            "https://marinade.finance/"
+          ],
+          "primary_sources": {
+            "Website": "https://marinade.finance/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/metis.json": {
+        "external": {
+          "coinmarketcap": "9640"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=9640",
+          "provider_name": "Metis",
+          "provider_symbol": "METIS",
+          "provider_websites": [
+            "https://www.metis.io"
+          ],
+          "primary_sources": {
+            "Website": "https://www.metis.io"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/midnight.json": {
+        "external": {
+          "coinmarketcap": "39064"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39064",
+          "provider_name": "Midnight",
+          "provider_symbol": "NIGHT",
+          "websites": [
+            "https://midnight.network/",
+            "https://midnight.foundation"
+          ],
+          "contracts": [
+            "https://cardanoscan.io/token/0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854",
+            "https://bscscan.com/token/0xfe930c2d63aed9b82fc4dbc801920dd2c1a3224f"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/minteo-copm.json": {
+        "external": {
+          "defillama": "polygon:0x12050c705152931cfee3dd56c52fb09dea816c23"
+        },
+        "evidence": {
+          "provider_url": "https://coins.llama.fi/prices/current/polygon:0x12050c705152931cfee3dd56c52fb09dea816c23",
+          "issuer_contract_directory": "https://transparency.minteo.com/contract-directory",
+          "identity": "Minteo COPM on Polygon, matched by exact issuer contract."
+        }
+      },
+      "data/assets/moonwalk.json": {
+        "external": {
+          "coinmarketcap": "38578"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38578",
+          "provider_name": "Moonwalk Fitness",
+          "provider_symbol": "MF",
+          "provider_websites": [
+            "https://moonwalk.fit/"
+          ],
+          "primary_sources": {
+            "Website": "https://moonwalk.fit/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/multiversx.json": {
+        "external": {
+          "coinmarketcap": "6892"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=6892",
+          "provider_name": "MultiversX",
+          "provider_symbol": "EGLD",
+          "provider_slug": "multiversx-egld",
+          "matching_contracts": [],
+          "matching_official_domains": [
+            "multiversx.com"
+          ],
+          "verified_asset_urls": [
+            "https://multiversx.com/"
+          ]
+        }
+      },
+      "data/assets/mxnb.json": {
+        "external": {
+          "coinmarketcap": "32323"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=32323",
+          "provider_name": "MXNB",
+          "provider_symbol": "MXNB",
+          "provider_websites": [
+            "https://mxnb.mx/"
+          ],
+          "primary_sources": {
+            "Website": "https://mxnb.mx/es-MX"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/nano.json": {
+        "external": {
+          "coinmarketcap": "1567"
+        },
+        "evidence": {
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=1567",
+          "provider_name": "Nano",
+          "provider_symbol": "XNO",
+          "checks": {
+            "native_contracts": [],
+            "provider_contracts": [],
+            "exact_contract_matches": [],
+            "exact_urls": [
+              "http://nano.org/en"
+            ],
+            "same_project_host": [
+              [
+                "http://nano.org/en",
+                "http://nano.org/en"
+              ],
+              [
+                "http://nano.org/en",
+                "https://nano.org/en/whitepaper"
+              ]
+            ],
+            "venue_asset_identifiers": [
+              "NANO",
+              "XNO"
+            ]
+          },
+          "primary_reference": "http://nano.org/en",
+          "note": "Project identity corroborated against reviewed primary reference and/or exact venue contract; no price-series assumptions."
+        }
+      },
+      "data/assets/openledger.json": {
+        "external": {
+          "coinmarketcap": "37456"
+        },
+        "evidence": {
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=37456",
+          "provider_name": "OpenLedger",
+          "provider_symbol": "OPEN",
+          "checks": {
+            "native_contracts": [
+              "0xa227cc36938f0c9e09ce0e64dfab226cad739447"
+            ],
+            "provider_contracts": [
+              "0xa227cc36938f0c9e09ce0e64dfab226cad739447"
+            ],
+            "exact_contract_matches": [
+              "0xa227cc36938f0c9e09ce0e64dfab226cad739447"
+            ],
+            "exact_urls": [
+              "https://www.openledger.xyz/"
+            ],
+            "same_project_host": [
+              [
+                "https://www.openledger.xyz/",
+                "https://www.openledger.xyz/"
+              ]
+            ],
+            "venue_asset_identifiers": [
+              "OPEN"
+            ]
+          },
+          "primary_reference": "https://www.openledger.xyz/",
+          "note": "Project identity corroborated against reviewed primary reference and/or exact venue contract; no price-series assumptions."
+        }
+      },
+      "data/assets/orchid.json": {
+        "external": {
+          "coinmarketcap": "5026"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=5026",
+          "provider_name": "Orchid",
+          "provider_symbol": "OXT",
+          "provider_websites": [
+            "https://www.orchid.com/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.orchid.com/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/orderly-network.json": {
+        "external": {
+          "coinmarketcap": "32809"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=32809",
+          "provider_name": "Orderly",
+          "provider_symbol": "ORDER",
+          "provider_slug": "orderly-network",
+          "matching_contracts": [
+            "0xabd4c63d2616a5201454168269031355f4764337"
+          ],
+          "matching_official_domains": [
+            "orderly.network"
+          ],
+          "verified_asset_urls": [
+            "https://orderly.network/"
+          ]
+        }
+      },
+      "data/assets/origin-protocol.json": {
+        "external": {
+          "coinmarketcap": "5117"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=5117",
+          "provider_name": "Origin Protocol",
+          "provider_symbol": "OGN",
+          "provider_websites": [
+            "https://www.originprotocol.com",
+            "https://www.story.xyz"
+          ],
+          "primary_sources": {
+            "Website": "https://www.originprotocol.com"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/pepecoin.json": {
+        "external": {
+          "coinmarketcap": "31806"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=31806",
+          "provider_name": "Pepecoin",
+          "provider_symbol": "PEP",
+          "provider_websites": [
+            "https://pepecoin.com"
+          ],
+          "primary_sources": {
+            "Website": "https://pepecoin.org/"
+          },
+          "identity_verification": "Provider Pepecoin/PEP at pepecoin.com is standalone chain; rejected CMC24835 PepeCoin/PEPECOIN ERC20 collision.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/phantom-cash.json": {
+        "external": {
+          "coinmarketcap": "38760"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38760",
+          "provider_name": "Cash",
+          "provider_symbol": "CASH",
+          "provider_websites": [
+            "https://www.usecash.xyz/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.usecash.xyz/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/pharos-network.json": {
+        "external": {
+          "coinmarketcap": "39682"
+        },
+        "evidence": {
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39682",
+          "provider_name": "Pharos",
+          "provider_symbol": "PROS",
+          "checks": {
+            "native_contracts": [],
+            "provider_contracts": [
+              "0x8b7dde054be9d180c1be7fae0874697374a49832",
+              "0xb197e02499e6502733c6bce2eb39013c39a03147"
+            ],
+            "exact_contract_matches": [],
+            "exact_urls": [
+              "https://www.pharos.xyz/"
+            ],
+            "same_project_host": [
+              [
+                "https://www.pharos.xyz/",
+                "https://www.pharos.xyz/"
+              ]
+            ],
+            "venue_asset_identifiers": [
+              "PROS"
+            ]
+          },
+          "primary_reference": "https://www.pharos.xyz/",
+          "note": "Project identity corroborated against reviewed primary reference and/or exact venue contract; no price-series assumptions."
+        }
+      },
+      "data/assets/prompt.json": {
+        "external": {
+          "coinmarketcap": "36223"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=36223",
+          "provider_name": "Wayfinder",
+          "provider_symbol": "PROMPT",
+          "provider_websites": [
+            "https://www.wayfinder.ai/",
+            "https://app.wayfinder.ai/"
+          ],
+          "primary_sources": {
+            "Website": "https://wayfinder.ai"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/puffer.json": {
+        "external": {
+          "coinmarketcap": "32325"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=32325",
+          "provider_name": "Puffer",
+          "provider_symbol": "PUFFER",
+          "provider_slug": "puffer",
+          "matching_contracts": [
+            "0x4d1c297d39c5c1277964d0e3f8aa901493664530"
+          ],
+          "matching_official_domains": [
+            "puffer.fi"
+          ],
+          "verified_asset_urls": [
+            "https://www.puffer.fi/"
+          ]
+        }
+      },
+      "data/assets/qcad.json": {
+        "external": {
+          "coinmarketcap": "25252"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=25252",
+          "provider_name": "QCAD",
+          "provider_symbol": "QCAD",
+          "provider_websites": [
+            "https://www.stablecorp.ca/"
+          ],
+          "primary_sources": {
+            "Website": "https://stablecorp.ca/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/quantoz-eurq.json": {
+        "external": {
+          "coinmarketcap": "34176"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=34176",
+          "provider_name": "Quantoz EURQ",
+          "provider_symbol": "EURQ",
+          "provider_websites": [
+            "https://www.quantoz.com/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.quantoz.com/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/quantoz-usdq.json": {
+        "external": {
+          "coinmarketcap": "34177"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=34177",
+          "provider_name": "Quantoz USDQ",
+          "provider_symbol": "USDQ",
+          "provider_websites": [
+            "https://www.quantoz.com/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.quantoz.com/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/radicle.json": {
+        "external": {
+          "coinmarketcap": "6843"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=6843",
+          "provider_name": "Radworks",
+          "provider_symbol": "RAD",
+          "provider_websites": [
+            "https://radworks.org/"
+          ],
+          "primary_sources": {
+            "Website": "https://radworks.org/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/rarible.json": {
+        "external": {
+          "coinmarketcap": "5877"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=5877",
+          "provider_name": "Rarible",
+          "provider_symbol": "RARI",
+          "provider_websites": [
+            "https://rari.foundation"
+          ],
+          "primary_sources": {
+            "Website": "https://rari.foundation"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/ren.json": {
+        "external": {
+          "coinmarketcap": "2539"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=2539",
+          "provider_name": "Ren",
+          "provider_symbol": "REN",
+          "provider_slug": "ren",
+          "matching_contracts": [
+            "0x408e41876cccdc0f92210600ef50372656052a38"
+          ],
+          "matching_official_domains": [],
+          "verified_asset_urls": [
+            "https://github.com/renprotocol"
+          ]
+        }
+      },
+      "data/assets/rizenet.json": {
+        "external": {
+          "coinmarketcap": "36539"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=36539",
+          "provider_name": "RIZE",
+          "provider_symbol": "RIZE",
+          "provider_websites": [
+            "https://www.t-rize.io/",
+            "https://rizenet.io/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.t-rize.io/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/rollx.json": {
+        "external": {
+          "coinmarketcap": "39355"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39355",
+          "provider_name": "RollX",
+          "provider_symbol": "ROLL",
+          "provider_websites": [
+            "https://rollx.trade",
+            "https://rolldex.io"
+          ],
+          "primary_sources": {
+            "Website": "https://rollx.trade"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/safe.json": {
+        "external": {
+          "coinmarketcap": "21585"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=21585",
+          "provider_name": "Safe",
+          "provider_symbol": "SAFE",
+          "provider_slug": "safe1",
+          "matching_contracts": [
+            "0x5afe3855358e112b5647b952709e6165e1c1eeee"
+          ],
+          "matching_official_domains": [
+            "safe.global"
+          ],
+          "verified_asset_urls": [
+            "https://safe.global/"
+          ]
+        }
+      },
+      "data/assets/sanctum.json": {
+        "external": {
+          "coinmarketcap": "32299"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=32299",
+          "provider_name": "Cloud",
+          "provider_symbol": "CLOUD",
+          "provider_slug": "sanctum-cloud",
+          "matching_contracts": [
+            "cloudkc4ane7heqcppe3yhnznrxhmimj4myauqyhfzau"
+          ],
+          "matching_official_domains": [
+            "sanctum.so"
+          ],
+          "verified_asset_urls": [
+            "https://sanctum.so/"
+          ]
+        }
+      },
+      "data/assets/schuman-europ.json": {
+        "external": {
+          "coinmarketcap": "36748"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=36748",
+          "provider_name": "EURØP",
+          "provider_symbol": "EUROP",
+          "provider_websites": [
+            "https://schuman.io/"
+          ],
+          "primary_sources": {
+            "Website": "https://schuman.io/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/sentio.json": {
+        "external": {
+          "coinmarketcap": "39802"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39802",
+          "provider_name": "Sentio",
+          "provider_symbol": "ST",
+          "provider_websites": [
+            "https://www.sentio.xyz/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.sentio.xyz/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/sidekick.json": {
+        "external": {
+          "coinmarketcap": "37617"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=37617",
+          "provider_name": "Sidekick",
+          "provider_symbol": "K",
+          "provider_slug": "sidekick-fans",
+          "matching_contracts": [
+            "0xfb072b42907da2bf7a8e8cb5dcaa790d45fd81a8"
+          ],
+          "matching_official_domains": [
+            "sidekick.fans"
+          ],
+          "verified_asset_urls": [
+            "https://sidekick.fans/"
+          ]
+        }
+      },
+      "data/assets/spell-token.json": {
+        "external": {
+          "coinmarketcap": "11289"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=11289",
+          "provider_name": "Spell Token",
+          "provider_symbol": "SPELL",
+          "provider_websites": [
+            "https://abracadabra.money/"
+          ],
+          "primary_sources": {
+            "Website": "https://abracadabra.money/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/stafi.json": {
+        "external": {
+          "coinmarketcap": "5882"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=5882",
+          "provider_name": "StaFi",
+          "provider_symbol": "FIS",
+          "provider_websites": [
+            "https://www.stafi.io/"
+          ],
+          "primary_sources": {
+            "Website": "https://www.stafi.io/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/story.json": {
+        "external": {
+          "coinmarketcap": "35626"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=35626",
+          "provider_name": "Data Network",
+          "provider_symbol": "DATA",
+          "provider_slug": "data-network",
+          "identity_verification": "Verified issuer domain datafdn.org is shared with CMC Data Network metadata. Bybit official 1:1 IP-to-DATA announcement establishes rebrand despite changed provider name/symbol.",
+          "primary_sources": [
+            "https://announcements.bybit.com/en/article/-story-ip-data-network-data--blt2eb534d1e37d3aad/",
+            "https://datafdn.org/"
+          ]
+        }
+      },
+      "data/assets/sweat-economy.json": {
+        "external": {
+          "coinmarketcap": "21351"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=21351",
+          "provider_name": "SWEAT",
+          "provider_symbol": "SWEAT",
+          "provider_slug": "sweat-economy",
+          "matching_contracts": [
+            "0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35"
+          ],
+          "matching_official_domains": [
+            "swe.at"
+          ],
+          "verified_asset_urls": [
+            "https://sweateconomy.com/"
+          ]
+        }
+      },
+      "data/assets/swell.json": {
+        "external": {
+          "coinmarketcap": "24924"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=24924",
+          "provider_name": "Swell Network",
+          "provider_symbol": "SWELL",
+          "provider_slug": "swell-network",
+          "matching_contracts": [
+            "0x0a6e7ba5042b38349e437ec6db6214aec7b35676"
+          ],
+          "matching_official_domains": [
+            "swellnetwork.io"
+          ],
+          "verified_asset_urls": [
+            "https://www.swellnetwork.io/"
+          ]
+        }
+      },
+      "data/assets/talus.json": {
+        "external": {
+          "coinmarketcap": "38869"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38869",
+          "provider_name": "Talus",
+          "provider_symbol": "US",
+          "provider_websites": [
+            "https://talus.foundation",
+            "https://talus.network"
+          ],
+          "primary_sources": {
+            "Source code": "https://github.com/Talus-Network"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/terra-classic.json": {
+        "external": {
+          "coinmarketcap": "4172"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=4172",
+          "provider_name": "Terra Classic",
+          "provider_symbol": "LUNC",
+          "provider_websites": [
+            "https://www.terra-classic.io"
+          ],
+          "primary_sources": {
+            "Website": "https://www.terra-classic.io"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/terra.json": {
+        "external": {
+          "coinmarketcap": "20314"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=20314",
+          "provider_name": "Terra",
+          "provider_symbol": "LUNA",
+          "provider_slug": "terra-luna-v2",
+          "matching_contracts": [],
+          "matching_official_domains": [
+            "docs.terra.money"
+          ],
+          "verified_asset_urls": [
+            "https://docs.terra.money/"
+          ]
+        }
+      },
+      "data/assets/tether-america-usd.json": {
+        "external": {
+          "coinmarketcap": "38386"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38386",
+          "provider_name": "USAT",
+          "provider_symbol": "USAT",
+          "provider_websites": [
+            "https://usat.io/"
+          ],
+          "primary_sources": {
+            "Website": "https://usat.io/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/tokenised-gbp.json": {
+        "external": {
+          "coinmarketcap": "38935"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38935",
+          "provider_name": "Tokenised GBP",
+          "provider_symbol": "TGBP",
+          "provider_websites": [
+            "https://tokenisedgbp.com"
+          ],
+          "primary_sources": {
+            "Website": "https://www.tokenisedgbp.com/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/toshi.json": {
+        "external": {
+          "coinmarketcap": "27750"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=27750",
+          "provider_name": "Toshi",
+          "provider_symbol": "TOSHI",
+          "provider_slug": "toshithecat",
+          "matching_contracts": [
+            "0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4"
+          ],
+          "matching_official_domains": [
+            "toshithecat.com"
+          ],
+          "verified_asset_urls": [
+            "https://www.toshithecat.com/"
+          ]
+        }
+      },
+      "data/assets/usd-ai.json": {
+        "external": {
+          "coinmarketcap": "39870"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39870",
+          "provider_name": "USD.AI",
+          "provider_symbol": "CHIP",
+          "websites": [
+            "https://usd.ai/"
+          ],
+          "contracts": [
+            "https://arbiscan.io/token/0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e",
+            "https://solscan.io/token/chipCAT7vi5CZtbZsn9z7iMPXvFwyAnKz3QFu8XVuHm",
+            "https://etherscan.io/token/0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e",
+            "https://basescan.org/token/0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e"
+          ],
+          "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
+        }
+      },
+      "data/assets/usdgo.json": {
+        "external": {
+          "coinmarketcap": "39683"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39683",
+          "provider_name": "USDGO",
+          "provider_symbol": "USDGO",
+          "provider_websites": [
+            "https://www.usdgo.com/en/home"
+          ],
+          "primary_sources": {
+            "Website": "https://www.usdgo.com/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/vanar-chain.json": {
+        "external": {
+          "coinmarketcap": "8037"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=8037",
+          "provider_name": "Vanar Chain",
+          "provider_symbol": "VANRY",
+          "provider_slug": "vanar",
+          "matching_contracts": [],
+          "matching_official_domains": [
+            "vanarchain.com"
+          ],
+          "verified_asset_urls": [
+            "https://vanarchain.com/"
+          ]
+        }
+      },
+      "data/assets/walletconnect.json": {
+        "external": {
+          "coinmarketcap": "33152"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=33152",
+          "provider_name": "WalletConnect Token",
+          "provider_symbol": "WCT",
+          "provider_slug": "walletconnect-token",
+          "matching_contracts": [
+            "0xef4461891dfb3ac8572ccf7c794664a8dd927945"
+          ],
+          "matching_official_domains": [
+            "walletconnect.network"
+          ],
+          "verified_asset_urls": [
+            "https://walletconnect.network/"
+          ]
+        }
+      },
+      "data/assets/wen.json": {
+        "external": {
+          "coinmarketcap": "29175"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=29175",
+          "provider_name": "Wen",
+          "provider_symbol": "WEN",
+          "provider_slug": "wen",
+          "matching_contracts": [
+            "wenwenvqqnya429ubcdr81zmd69brwqaabyy6p3lcpk"
+          ],
+          "matching_official_domains": [
+            "wenwencoin.com"
+          ],
+          "verified_asset_urls": [
+            "https://www.wenwencoin.com/"
+          ]
+        }
+      },
+      "data/assets/xyo-layer-one.json": {
+        "external": {
+          "coinmarketcap": "38234"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38234",
+          "provider_name": "XL1",
+          "provider_symbol": "XL1",
+          "provider_websites": [
+            "https://xyo.network"
+          ],
+          "primary_sources": {
+            "Website": "https://xyo.network"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/xyo.json": {
+        "external": {
+          "coinmarketcap": "2765"
+        },
+        "evidence": {
+          "status": "verified",
+          "provider_source": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=2765",
+          "provider_name": "XYO",
+          "provider_symbol": "XYO",
+          "provider_websites": [
+            "https://xyo.network/"
+          ],
+          "primary_sources": {
+            "Website": "https://xyo.network/"
+          },
+          "identity_verification": "Provider full project name, official issuer domain and token identity reviewed against retained venue evidence and primary source enrichment; not a symbol-only match.",
+          "checked_at": "2026-09-21"
+        }
+      },
+      "data/assets/zama.json": {
+        "external": {
+          "coinmarketcap": "39332"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=39332",
+          "provider_name": "Zama",
+          "provider_symbol": "ZAMA",
+          "provider_slug": "zama",
+          "matching_contracts": [
+            "0xa12cc123ba206d4031d1c7f6223d1c2ec249f4f3"
+          ],
+          "matching_official_domains": [
+            "zama.org"
+          ],
+          "verified_asset_urls": [
+            "https://www.zama.ai/"
+          ]
+        }
+      },
+      "data/assets/zero-gravity.json": {
+        "external": {
+          "coinmarketcap": "38337"
+        },
+        "evidence": {
+          "provider_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail?id=38337",
+          "provider_name": "0G",
+          "provider_symbol": "0G",
+          "provider_slug": "zero-gravity",
+          "matching_contracts": [],
+          "matching_official_domains": [
+            "0g.ai"
+          ],
+          "verified_asset_urls": [
+            "https://0g.ai/"
+          ]
+        }
+      }
+    },
+    "validation": "Catalogue validation and seven metadata-guard tests pass; PR guard requires about.en, urls and external.",
+    "pending_duplicate_consolidation": {
+      "aligned-layer": "aligned",
+      "bos-token": "bitcoinos",
+      "moonwalk": "moonwalk-fitness"
+    }
   }
 }
