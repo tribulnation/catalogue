@@ -801,7 +801,7 @@
   },
   "CTCUSDT": {
     "exchange": "perp",
-    "base": "creditcoin-2",
+    "base": "creditcoin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CTCUSDT"
@@ -1095,7 +1095,7 @@
   },
   "FLOCKUSDT": {
     "exchange": "perp",
-    "base": "flock-2",
+    "base": "flock",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/FLOCKUSDT"
@@ -1571,7 +1571,7 @@
   },
   "MEMEUSDT": {
     "exchange": "perp",
-    "base": "memecoin-2",
+    "base": "memecoin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/MEMEUSDT"
@@ -1963,7 +1963,7 @@
   },
   "PORTALUSDT": {
     "exchange": "perp",
-    "base": "portal-2",
+    "base": "portal",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/PORTALUSDT"
@@ -2236,7 +2236,7 @@
   },
   "SPKUSDT": {
     "exchange": "perp",
-    "base": "spark-2",
+    "base": "spark",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SPKUSDT"
@@ -2600,7 +2600,7 @@
   },
   "WALUSDT": {
     "exchange": "perp",
-    "base": "walrus-2",
+    "base": "walrus",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/WALUSDT"

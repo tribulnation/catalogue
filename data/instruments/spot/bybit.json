@@ -721,7 +721,7 @@
   },
   "CTCUSDT": {
     "exchange": "spot",
-    "base": "creditcoin-2",
+    "base": "creditcoin",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/CTC/USDT"
   },
@@ -787,13 +787,13 @@
   },
   "DOGSUSDC": {
     "exchange": "spot",
-    "base": "dogs-2",
+    "base": "dogs",
     "quote": "usd-coin",
     "url": "https://www.bybit.com/en/trade/spot/DOGS/USDC"
   },
   "DOGSUSDT": {
     "exchange": "spot",
-    "base": "dogs-2",
+    "base": "dogs",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/DOGS/USDT"
   },
@@ -1063,7 +1063,7 @@
   },
   "FLOCKUSDT": {
     "exchange": "spot",
-    "base": "flock-2",
+    "base": "flock",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/FLOCK/USDT"
   },
@@ -1609,7 +1609,7 @@
   },
   "MEMEUSDT": {
     "exchange": "spot",
-    "base": "memecoin-2",
+    "base": "memecoin",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/MEME/USDT"
   },
@@ -1993,7 +1993,7 @@
   },
   "PORTALUSDT": {
     "exchange": "spot",
-    "base": "portal-2",
+    "base": "portal",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/PORTAL/USDT"
   },
@@ -2317,7 +2317,7 @@
   },
   "SPKUSDT": {
     "exchange": "spot",
-    "base": "spark-2",
+    "base": "spark",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/SPK/USDT"
   },
@@ -2725,7 +2725,7 @@
   },
   "WALUSDT": {
     "exchange": "spot",
-    "base": "walrus-2",
+    "base": "walrus",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/WAL/USDT"
   },

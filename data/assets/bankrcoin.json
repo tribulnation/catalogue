@@ -1,0 +1,17 @@
+{
+  "id": "bankrcoin",
+  "display_name": "BankrCoin",
+  "symbol": "BNKR",
+  "category": "crypto",
+  "external": {
+    "coingecko": "bankercoin-2",
+    "coinmarketcap": "37545"
+  },
+  "about": {
+    "en": "BNKR is the token of Bankr, an AI agent for interacting with crypto markets through conversational and social interfaces. Bankr can assist with swaps, purchases and other trading actions."
+  },
+  "icon": "icons/asset/bankercoin-2.svg",
+  "urls": {
+    "Website": "https://bankr.bot"
+  }
+}

@@ -1205,7 +1205,7 @@
   },
   "PF_SAGAUSD": {
     "exchange": "perp",
-    "base": "saga-2",
+    "base": "saga",
     "quote": "usd",
     "settlement": "usd",
     "url": "https://futures.kraken.com/trade/futures/PF_SAGAUSD"
@@ -1303,7 +1303,7 @@
   },
   "PF_PORTALUSD": {
     "exchange": "perp",
-    "base": "portal-2",
+    "base": "portal",
     "quote": "usd",
     "settlement": "usd",
     "url": "https://futures.kraken.com/trade/futures/PF_PORTALUSD"
@@ -1359,7 +1359,7 @@
   },
   "PF_DOGSUSD": {
     "exchange": "perp",
-    "base": "dogs-2",
+    "base": "dogs",
     "quote": "usd",
     "settlement": "usd",
     "url": "https://futures.kraken.com/trade/futures/PF_DOGSUSD"
@@ -1513,14 +1513,14 @@
   },
   "PF_SPKUSD": {
     "exchange": "perp",
-    "base": "spark-2",
+    "base": "spark",
     "quote": "usd",
     "settlement": "usd",
     "url": "https://futures.kraken.com/trade/futures/PF_SPKUSD"
   },
   "PF_SOONUSD": {
     "exchange": "perp",
-    "base": "soon-2",
+    "base": "soon",
     "quote": "usd",
     "settlement": "usd",
     "url": "https://futures.kraken.com/trade/futures/PF_SOONUSD"
