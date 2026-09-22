@@ -1,7 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
   <defs><linearGradient id="a" x1="56" y1="0" x2="0" y2="56" gradientUnits="userSpaceOnUse"><stop offset=".11" stop-color="#37363B"/><stop offset=".77" stop-color="#010101"/></linearGradient><linearGradient id="b" x1="28.98" y1="42.63" x2="26.71" y2="16.71" gradientUnits="userSpaceOnUse"><stop stop-color="#E9D276"/><stop offset="1" stop-color="#A18B2F"/></linearGradient><linearGradient id="c" x1="33.05" y1="37.81" x2="30.87" y2="17.1" gradientUnits="userSpaceOnUse"><stop stop-color="#9F9FA2"/><stop offset="1" stop-color="#D7D7D7"/></linearGradient></defs>
   <rect x="0" y="0" width="56" height="56" fill="url(#a)" />
-  <g>
-    <path d="M31.6 39.4a8.75 8.75 0 0 1-8.6-8.58V16.6c0-.33-.07-.6-.4-.6h-6a.6.6 0 0 0-.6.6v14.17c0 6.64 5.43 12.27 12.07 12.23A12 12 0 0 0 40 31.43a8.4 8.4 0 0 1-8.4 7.97Z" fill="url(#b)"/><path d="M39.4 16h-6c-.33 0-.4.27-.4.6v14.26c0 2.6-2.19 4.81-4.77 4.93C25.47 35.92 23 33.73 23 31c0 4.64 3.96 8.4 8.6 8.4A8.3 8.3 0 0 0 40 31V16.6a.6.6 0 0 0-.6-.6Z" fill="url(#c)"/>
+  <g transform="translate(-6.20,-8.07) scale(1.2216)">
+    <g>
+      <path d="M31.6 39.4a8.75 8.75 0 0 1-8.6-8.58V16.6c0-.33-.07-.6-.4-.6h-6a.6.6 0 0 0-.6.6v14.17c0 6.64 5.43 12.27 12.07 12.23A12 12 0 0 0 40 31.43a8.4 8.4 0 0 1-8.4 7.97Z" fill="url(#b)"/><path d="M39.4 16h-6c-.33 0-.4.27-.4.6v14.26c0 2.6-2.19 4.81-4.77 4.93C25.47 35.92 23 33.73 23 31c0 4.64 3.96 8.4 8.6 8.4A8.3 8.3 0 0 0 40 31V16.6a.6.6 0 0 0-.6-.6Z" fill="url(#c)"/>
+    </g>
   </g>
 </svg>
