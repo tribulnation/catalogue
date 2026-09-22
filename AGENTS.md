@@ -26,8 +26,9 @@ Every new asset must also have at least one verified supported provider ID in
 `external`, matched by project identity, issuer or contract rather than ticker alone.
 Run `scripts/check_new_assets.py --base <base-commit>` to check new assets.
 Do not stop after finding the first external ID. For crypto, stablecoin and tokenized-asset records, check both CoinGecko and CoinMarketCap and include every independently verified exact identity. A missing provider is acceptable when it has no exact listing; never substitute the underlying asset for a wrapper, bridge claim or receipt.
-COIN50 is the sole temporary external-ID exception, tracked in
-[issue #152](https://github.com/tribulnation/catalogue/issues/152).
+Temporary external-ID exceptions are COIN50, tracked in
+[issue #152](https://github.com/tribulnation/catalogue/issues/152), and Minteo COPM,
+tracked in [issue #130](https://github.com/tribulnation/catalogue/issues/130).
 
 ## Instrument URLs
 
