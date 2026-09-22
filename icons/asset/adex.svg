@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204 204">
+  <rect x="0" y="0" width="204" height="204" fill="#F1F1F1"/>
+  <g transform="translate(10.27,10.27) scale(0.8993)">
+  <mask id="i5" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="100" y="40" width="61" height="90">
+    <path d="M158.623 41.9375C166.958 50.2688 147.574 83.0774 115.333 115.305C110.293 120.342 105.253 125.057 100.278 129.449V71.1294C122.117 52.0126 142.405 40 153.002 40C155.392 40 157.331 40.6458 158.623 41.9375Z" fill="white"/>
+    </mask>
+    <g mask="url(#i5)">
+    <path d="M-4036.68 -1024.47V6564.12H2048.21V-1024.47H-4036.68Z" fill="url(#i2)"/>
+    </g>
+    <mask id="i7" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="40" y="40" width="61" height="90">
+    <path d="M100.279 71.1294V129.449C95.3041 125.057 90.2643 120.342 85.2246 115.305C52.983 83.0774 33.5993 50.2688 41.9343 41.9375C43.2265 40.6458 45.165 40 47.5557 40C58.1521 40 78.4403 52.0126 100.279 71.1294Z" fill="white"/>
+    </mask>
+    <g mask="url(#i7)">
+    <path d="M2048.21 -1024.47V6564.13H-4036.68V-1024.47H2048.21Z" fill="url(#i3)"/>
+    </g>
+    <path d="M162.075 45.3966L158.629 41.9523C166.942 50.263 147.561 83.1096 115.338 115.318C83.1163 147.526 50.2551 166.899 41.9407 158.589L45.3865 162.034C53.7008 170.344 86.562 150.971 118.784 118.762C151.007 86.5545 170.389 53.7072 162.075 45.3966Z" fill="black"/>
+    <mask id="i4" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="103" y="103" width="61" height="61">
+    <path d="M162.049 162.063C155.071 169.038 130.144 156.658 103.329 133.214C108.305 128.823 113.783 123.765 118.759 118.792C123.798 113.755 128.445 108.685 132.839 103.777C156.293 130.579 169.092 155.024 162.049 162.063Z" fill="white"/>
+    </mask>
+    <g mask="url(#i4)">
+    <path d="M-1005.87 -4065.55L5844.16 2755.32L-982.596 9605.2L-7832.62 2784.34L-1005.87 -4065.55Z" fill="url(#i1)"/>
+    </g>
+    <mask id="i6" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="40" y="100" width="61" height="61">
+    <path d="M85.2246 115.305C90.2643 120.342 95.3041 125.057 100.279 129.449C73.4652 152.893 48.977 165.616 41.9343 158.576C34.9562 151.601 47.6203 127.124 71.1392 100.257C75.4682 105.23 80.1848 110.267 85.2246 115.305Z" fill="white"/>
+    </mask>
+    <g mask="url(#i6)">
+    <path d="M-982.598 -4065.55L-7832.63 2755.32L-1005.87 9605.2L5844.16 2784.34L-982.598 -4065.55Z" fill="url(#i0)"/>
+    </g>
+    <defs>
+    <linearGradient id="i2" x1="130.421" y1="-45.5285" x2="130.421" y2="101.603" gradientUnits="userSpaceOnUse">
+    <stop/>
+    <stop offset="0.335714" stop-color="#555555"/>
+    <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="i3" x1="70.1489" y1="-56.9585" x2="70.1489" y2="90.1728" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"/>
+    <stop offset="0.335714" stop-color="#AAAAAA"/>
+    <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="i1" x1="48.8701" y1="49.5732" x2="162.305" y2="162.626" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"/>
+    <stop offset="0.335714" stop-color="#AAAAAA"/>
+    <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="i0" x1="105.914" y1="94.7198" x2="-7.51885" y2="207.77" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"/>
+    <stop offset="1"/>
+    </linearGradient>
+    </defs>
+  </g>
+</svg>

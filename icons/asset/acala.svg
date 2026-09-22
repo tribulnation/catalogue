@@ -1,11 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
   <rect x="0" y="0" width="56" height="56" fill="#ffffff"/>
+  <g transform="translate(2.66,2.66) scale(0.9051)">
   <path fill-rule="evenodd" d="M28 43a15 15 0 1 0 0-30 15 15 0 0 0 0 30Zm0 2a17 17 0 1 0 0-34 17 17 0 0 0 0 34Zm0-5a12 12 0 1 0 0-24 12 12 0 0 0 0 24Zm0 2a14 14 0 1 0 0-28 14 14 0 0 0 0 28Zm-.88-24 8.81 16.11L37 32.26 29.2 18h-2.08Zm-.64.45L35.53 35h-2.08l-2.49-4.54c-1.05-.2-2.8-.45-4.47-.18l1.08-2c.8-.03 1.58.02 2.25.1l-3.33-6.11-6.44 11.83L19 32.21l7.48-13.76ZM23.26 35h-2.47l5.8-10.6 1.05 1.88-3.15 5.77c1.48-.57 3.4-.78 6-.4l1.15 2.2-1.08-.28c-3.27-.54-5.18-.03-6.36.7-.37.22-.67.47-.94.73Z" fill="url(#g1)"/>
-  <defs>
-  <linearGradient id="g1" x1="17.61" y1="14.78" x2="37.92" y2="42.17" gradientUnits="userSpaceOnUse">
-  <stop offset="0" stop-color="#FE4A3C"/>
-  <stop offset=".5" stop-color="#E81457"/>
-  <stop offset="1" stop-color="#8260D0"/>
-  </linearGradient>
-  </defs>
+    <defs>
+    <linearGradient id="g1" x1="17.61" y1="14.78" x2="37.92" y2="42.17" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FE4A3C"/>
+    <stop offset=".5" stop-color="#E81457"/>
+    <stop offset="1" stop-color="#8260D0"/>
+    </linearGradient>
+    </defs>
+  </g>
 </svg>
