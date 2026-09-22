@@ -9,7 +9,8 @@
     "ca": "EURT era la stablecoin de Tether denominada en euros. Tether va cessar els bescanvis d'EURT a totes les cadenes el 27 de novembre de 2025, de manera que ja no hi ha cap via per bescanviar-lo per euros a cap preu, i cotitza molt per sota del seu valor nominal. Es cataloga per poder identificar saldos heretats, no com un actiu vinculat a l'euro."
   },
   "external": {
-    "coingecko": "tether-eurt"
+    "coingecko": "tether-eurt",
+    "coinmarketcap": "10789"
   },
   "pegged_to": {
     "asset": "euro"

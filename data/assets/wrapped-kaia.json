@@ -9,7 +9,8 @@
     "ca": "Wrapped KLAY \u00e9s la forma ERC-20 de la moneda de gas de Kaia. El contracte conserva el nom de l'\u00e8poca de Klaytn despr\u00e9s de la fusi\u00f3 de Klaytn i Finschia, per\u00f2 embolcalla la mateixa moneda nativa que la cadena ara anomena KAIA, guardant ell mateix els dip\u00f2sits i retornant-los a demanda."
   },
   "external": {
-    "coingecko": "wrapped-klay"
+    "coingecko": "wrapped-klay",
+    "coinmarketcap": "39383"
   },
   "pegged_to": {
     "asset": "kaia"

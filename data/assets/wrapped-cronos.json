@@ -9,7 +9,8 @@
     "ca": "Wrapped CRO \u00e9s la forma ERC-20 de CRO, la moneda de gas de la cadena Cronos. Els dip\u00f2sits queden al contracte d'embolcall i es poden desembolcallar un a un en qualsevol moment. VVS Finance i la resta del DeFi de Cronos cotitzen els seus pools en WCRO."
   },
   "external": {
-    "coingecko": "wrapped-cro"
+    "coingecko": "wrapped-cro",
+    "coinmarketcap": "14532"
   },
   "pegged_to": {
     "asset": "cronos"

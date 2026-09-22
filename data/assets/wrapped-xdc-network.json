@@ -9,7 +9,8 @@
     "ca": "Wrapped XDC \u00e9s la forma ERC-20 d'XDC, la moneda de gas d'XDC Network. L'embolcall guarda l'XDC dipositat i l'allibera en desembolcallar-lo, donant a XDC la interf\u00edcie de token que necessiten els DEX i contractes de pr\u00e9stec d'XDC Network."
   },
   "external": {
-    "coingecko": "wrapped-xdc"
+    "coingecko": "wrapped-xdc",
+    "coinmarketcap": "29189"
   },
   "pegged_to": {
     "asset": "xdc-network"

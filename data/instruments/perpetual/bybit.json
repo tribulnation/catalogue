@@ -703,7 +703,7 @@
   },
   "CFGUSDT": {
     "exchange": "perp",
-    "base": "centrifuge-2",
+    "base": "centrifuge",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CFGUSDT"

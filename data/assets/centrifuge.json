@@ -1,10 +1,11 @@
 {
-  "id": "centrifuge-2",
+  "id": "centrifuge",
   "display_name": "Centrifuge",
   "symbol": "CFG",
   "category": "crypto",
   "external": {
-    "coingecko": "centrifuge-2"
+    "coingecko": "centrifuge-2",
+    "coinmarketcap": "6748"
   },
   "about": {
     "en": "CFG is the token of Centrifuge, a platform for tokenizing investment funds and managing real-world assets on-chain. The current Ethereum token consolidates the earlier CFG and WCFG tokens following the protocol migration."
