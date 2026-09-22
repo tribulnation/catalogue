@@ -9,7 +9,8 @@
     "ca": "Wrapped BNB \u00e9s la forma ERC-20 de BNB, la moneda de gas de BNB Chain. El contracte emet un WBNB per cada BNB dipositat i el crema en retirar-lo, guardant les monedes ell mateix, aix\u00ed que no hi ha cap custodi en qui confiar. Gaireb\u00e9 tots els parells de DEX i mercats de pr\u00e9stec de BNB Chain cotitzen WBNB i no BNB natiu."
   },
   "external": {
-    "coingecko": "wbnb"
+    "coingecko": "wbnb",
+    "coinmarketcap": "7192"
   },
   "pegged_to": {
     "asset": "bnb"

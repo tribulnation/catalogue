@@ -9,7 +9,8 @@
     "ca": "Wrapped AVAX \u00e9s la forma ERC-20 d'AVAX a la C-Chain d'Avalanche. El contracte d'embolcall guarda l'AVAX dipositat i el retorna en desembolcallar-lo, aix\u00ed que WAVAX \u00e9s bescanviable en qualsevol moment sense contrapart. Els DEX i mercats monetaris d'Avalanche hi passen perqu\u00e8 l'AVAX natiu no es pot moure amb una transfer\u00e8ncia ERC-20."
   },
   "external": {
-    "coingecko": "wrapped-avax"
+    "coingecko": "wrapped-avax",
+    "coinmarketcap": "9462"
   },
   "pegged_to": {
     "asset": "avalanche"

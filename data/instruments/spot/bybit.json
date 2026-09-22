@@ -1,9 +1,27 @@
 {
+  "0GUSDT": {
+    "exchange": "spot",
+    "base": "zero-gravity",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/0G/USDT"
+  },
   "1INCHUSDT": {
     "exchange": "spot",
     "base": "1inch",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/1INCH/USDT"
+  },
+  "2ZUSDC": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/2Z/USDC"
+  },
+  "2ZUSDT": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/2Z/USDT"
   },
   "AAVEUSDC": {
     "exchange": "spot",
@@ -16,6 +34,18 @@
     "base": "aave",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/AAVE/USDT"
+  },
+  "ACHUSDT": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ACH/USDT"
+  },
+  "ACSUSDT": {
+    "exchange": "spot",
+    "base": "access-protocol",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ACS/USDT"
   },
   "ADAEUR": {
     "exchange": "spot",
@@ -47,6 +77,48 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/AERO/USDT"
   },
+  "AEVOUSDT": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AEVO/USDT"
+  },
+  "AGIUSDT": {
+    "exchange": "spot",
+    "base": "delysium",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AGI/USDT"
+  },
+  "AGLDUSDT": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AGLD/USDT"
+  },
+  "AIOZUSDT": {
+    "exchange": "spot",
+    "base": "aioz-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AIOZ/USDT"
+  },
+  "AIXBTUSDC": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/AIXBT/USDC"
+  },
+  "AIXBTUSDT": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AIXBT/USDT"
+  },
+  "ALCHUSDT": {
+    "exchange": "spot",
+    "base": "alchemist-ai",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ALCH/USDT"
+  },
   "ALGOUSDC": {
     "exchange": "spot",
     "base": "algorand",
@@ -65,6 +137,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ALT/USDT"
   },
+  "AMZNXUSDT": {
+    "exchange": "spot",
+    "base": "amazon-xstock",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AMZNX/USDT"
+  },
+  "ANIMEUSDT": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ANIME/USDT"
+  },
   "ANKRUSDT": {
     "exchange": "spot",
     "base": "ankr",
@@ -82,6 +166,18 @@
     "base": "apecoin",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/APE/USDT"
+  },
+  "APEXUSDC": {
+    "exchange": "spot",
+    "base": "apex-token",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/APEX/USDC"
+  },
+  "APEXUSDT": {
+    "exchange": "spot",
+    "base": "apex-token",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/APEX/USDT"
   },
   "APTUSDC": {
     "exchange": "spot",
@@ -125,6 +221,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/AR/USDT"
   },
+  "ARXUSDT": {
+    "exchange": "spot",
+    "base": "arcium",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ARX/USDT"
+  },
   "ASTERUSDT": {
     "exchange": "spot",
     "base": "aster",
@@ -148,6 +250,18 @@
     "base": "cosmos",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ATOM/USDT"
+  },
+  "AUSDT": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/A/USDT"
+  },
+  "AVAILUSDT": {
+    "exchange": "spot",
+    "base": "avail",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AVAIL/USDT"
   },
   "AVAUSDT": {
     "exchange": "spot",
@@ -191,11 +305,77 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/AXS/USDT"
   },
+  "AZTECUSDT": {
+    "exchange": "spot",
+    "base": "aztec",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AZTEC/USDT"
+  },
+  "B3USDT": {
+    "exchange": "spot",
+    "base": "b3",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/B3/USDT"
+  },
+  "BABY1USDT": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BABY1/USDT"
+  },
+  "BABYDOGEUSDT": {
+    "exchange": "spot",
+    "base": "baby-doge-coin",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BABYDOGE/USDT"
+  },
+  "BANUSDT": {
+    "exchange": "spot",
+    "base": "comedian",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BAN/USDT"
+  },
+  "BARDUSDT": {
+    "exchange": "spot",
+    "base": "lombard",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BARD/USDT"
+  },
+  "BASEDUSDT": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BASED/USDT"
+  },
   "BATUSDT": {
     "exchange": "spot",
     "base": "basic-attention-token",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/BAT/USDT"
+  },
+  "BBSOLSOL": {
+    "exchange": "spot",
+    "base": "bybit-staked-sol",
+    "quote": "solana",
+    "url": "https://www.bybit.com/en/trade/spot/BBSOL/SOL"
+  },
+  "BBSOLUSDC": {
+    "exchange": "spot",
+    "base": "bybit-staked-sol",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/BBSOL/USDC"
+  },
+  "BBSOLUSDT": {
+    "exchange": "spot",
+    "base": "bybit-staked-sol",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BBSOL/USDT"
+  },
+  "BBUSDT": {
+    "exchange": "spot",
+    "base": "bouncebit",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BB/USDT"
   },
   "BCHUSDC": {
     "exchange": "spot",
@@ -209,11 +389,35 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/BCH/USDT"
   },
+  "BELUSDT": {
+    "exchange": "spot",
+    "base": "bella-protocol",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BEL/USDT"
+  },
   "BERAUSDT": {
     "exchange": "spot",
     "base": "berachain",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/BERA/USDT"
+  },
+  "BICOUSDT": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BICO/USDT"
+  },
+  "BILLUSDT": {
+    "exchange": "spot",
+    "base": "billions-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BILL/USDT"
+  },
+  "BIRBUSDT": {
+    "exchange": "spot",
+    "base": "moonbirds",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BIRB/USDT"
   },
   "BLASTUSDT": {
     "exchange": "spot",
@@ -221,11 +425,23 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/BLAST/USDT"
   },
+  "BLENDUSDT": {
+    "exchange": "spot",
+    "base": "fluent-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BLEND/USDT"
+  },
   "BLURUSDT": {
     "exchange": "spot",
     "base": "blur",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/BLUR/USDT"
+  },
+  "BMTUSDT": {
+    "exchange": "spot",
+    "base": "bubblemaps",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BMT/USDT"
   },
   "BNBUSDC": {
     "exchange": "spot",
@@ -239,6 +455,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/BNB/USDT"
   },
+  "BOBAUSDT": {
+    "exchange": "spot",
+    "base": "boba-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BOBA/USDT"
+  },
+  "BOMEUSDT": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BOME/USDT"
+  },
   "BONKUSDC": {
     "exchange": "spot",
     "base": "bonk",
@@ -250,6 +478,30 @@
     "base": "bonk",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/BONK/USDT"
+  },
+  "BRETTUSDT": {
+    "exchange": "spot",
+    "base": "brett",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BRETT/USDT"
+  },
+  "BREVUSDT": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BREV/USDT"
+  },
+  "BRUSDT": {
+    "exchange": "spot",
+    "base": "bedrock",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BR/USDT"
+  },
+  "BSBUSDT": {
+    "exchange": "spot",
+    "base": "block-street",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/BSB/USDT"
   },
   "BTCEUR": {
     "exchange": "spot",
@@ -311,11 +563,29 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/BTT/USDT"
   },
+  "C98USDT": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/C98/USDT"
+  },
   "CAKEUSDT": {
     "exchange": "spot",
     "base": "pancakeswap",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/CAKE/USDT"
+  },
+  "CAPUSDT": {
+    "exchange": "spot",
+    "base": "cap",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CAP/USDT"
+  },
+  "CARVUSDT": {
+    "exchange": "spot",
+    "base": "carv",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CARV/USDT"
   },
   "CATIEUR": {
     "exchange": "spot",
@@ -335,6 +605,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/CATI/USDT"
   },
+  "CATUSDT": {
+    "exchange": "spot",
+    "base": "simon-s-cat",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CAT/USDT"
+  },
   "CCUSDC": {
     "exchange": "spot",
     "base": "canton",
@@ -353,6 +629,30 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/CELO/USDT"
   },
+  "CFGUSDT": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CFG/USDT"
+  },
+  "CGPTUSDT": {
+    "exchange": "spot",
+    "base": "chaingpt",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CGPT/USDT"
+  },
+  "CHILLGUYUSDT": {
+    "exchange": "spot",
+    "base": "just-a-chill-guy",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CHILLGUY/USDT"
+  },
+  "CHIPUSDT": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CHIP/USDT"
+  },
   "CHZUSDC": {
     "exchange": "spot",
     "base": "chiliz",
@@ -365,17 +665,41 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/CHZ/USDT"
   },
+  "CLOUDUSDT": {
+    "exchange": "spot",
+    "base": "sanctum",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CLOUD/USDT"
+  },
   "COMPUSDT": {
     "exchange": "spot",
     "base": "compound",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/COMP/USDT"
   },
+  "COOKIEUSDT": {
+    "exchange": "spot",
+    "base": "cookie",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/COOKIE/USDT"
+  },
   "COREUSDT": {
     "exchange": "spot",
     "base": "core",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/CORE/USDT"
+  },
+  "CPOOLUSDT": {
+    "exchange": "spot",
+    "base": "clearpool",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CPOOL/USDT"
+  },
+  "CRCLXUSDT": {
+    "exchange": "spot",
+    "base": "circle-xstock",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CRCLX/USDT"
   },
   "CRVUSDC": {
     "exchange": "spot",
@@ -389,11 +713,53 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/CRV/USDT"
   },
+  "CSPRUSDT": {
+    "exchange": "spot",
+    "base": "casper",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CSPR/USDT"
+  },
+  "CTCUSDT": {
+    "exchange": "spot",
+    "base": "creditcoin-2",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CTC/USDT"
+  },
+  "CYBERUSDT": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/CYBER/USDT"
+  },
+  "DATAUSDT": {
+    "exchange": "spot",
+    "base": "story",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DATA/USDT"
+  },
   "DBRUSDT": {
     "exchange": "spot",
     "base": "debridge",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/DBR/USDT"
+  },
+  "DEEPUSDT": {
+    "exchange": "spot",
+    "base": "deep",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DEEP/USDT"
+  },
+  "DEGENUSDT": {
+    "exchange": "spot",
+    "base": "degen-base",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DEGEN/USDT"
+  },
+  "DIAMUSDT": {
+    "exchange": "spot",
+    "base": "diam",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DIAM/USDT"
   },
   "DOGEEUR": {
     "exchange": "spot",
@@ -419,6 +785,30 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/DOGE/USDT"
   },
+  "DOGSUSDC": {
+    "exchange": "spot",
+    "base": "dogs-2",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/DOGS/USDC"
+  },
+  "DOGSUSDT": {
+    "exchange": "spot",
+    "base": "dogs-2",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DOGS/USDT"
+  },
+  "DOLOUSDT": {
+    "exchange": "spot",
+    "base": "dolomite",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DOLO/USDT"
+  },
+  "DOODUSDT": {
+    "exchange": "spot",
+    "base": "doodles",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DOOD/USDT"
+  },
   "DOTUSDC": {
     "exchange": "spot",
     "base": "polkadot",
@@ -430,6 +820,12 @@
     "base": "polkadot",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/DOT/USDT"
+  },
+  "DRIFTUSDT": {
+    "exchange": "spot",
+    "base": "drift-protocol",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/DRIFT/USDT"
   },
   "DYDXUSDC": {
     "exchange": "spot",
@@ -449,6 +845,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/DYM/USDT"
   },
+  "EDGEUSDT": {
+    "exchange": "spot",
+    "base": "edgex",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/EDGE/USDT"
+  },
+  "EGLDUSDT": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/EGLD/USDT"
+  },
   "EIGENUSDC": {
     "exchange": "spot",
     "base": "eigen-layer",
@@ -460,6 +868,12 @@
     "base": "eigen-layer",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/EIGEN/USDT"
+  },
+  "ELSAUSDT": {
+    "exchange": "spot",
+    "base": "elsa",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ELSA/USDT"
   },
   "ENAEUR": {
     "exchange": "spot",
@@ -479,6 +893,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ENA/USDT"
   },
+  "ENJUSDT": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ENJ/USDT"
+  },
+  "ENSOUSDT": {
+    "exchange": "spot",
+    "base": "enso",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ENSO/USDT"
+  },
   "ENSUSDC": {
     "exchange": "spot",
     "base": "ethereum-name-service",
@@ -490,6 +916,18 @@
     "base": "ethereum-name-service",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ENS/USDT"
+  },
+  "ERAUSDT": {
+    "exchange": "spot",
+    "base": "caldera",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ERA/USDT"
+  },
+  "ESEUSDT": {
+    "exchange": "spot",
+    "base": "eesee",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ESE/USDT"
   },
   "ETCUSDT": {
     "exchange": "spot",
@@ -569,6 +1007,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ETH/USDT"
   },
+  "ETHWUSDT": {
+    "exchange": "spot",
+    "base": "ethereum-pow",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ETHW/USDT"
+  },
   "FETUSDC": {
     "exchange": "spot",
     "base": "fetch-ai",
@@ -580,6 +1024,30 @@
     "base": "fetch-ai",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/FET/USDT"
+  },
+  "FFUSDT": {
+    "exchange": "spot",
+    "base": "falcon-finance-ff",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FF/USDT"
+  },
+  "FHEUSDT": {
+    "exchange": "spot",
+    "base": "mind-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FHE/USDT"
+  },
+  "FIDAUSDT": {
+    "exchange": "spot",
+    "base": "bonfida",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FIDA/USDT"
+  },
+  "FIGHTUSDT": {
+    "exchange": "spot",
+    "base": "fight",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FIGHT/USDT"
   },
   "FILUSDC": {
     "exchange": "spot",
@@ -593,6 +1061,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/FIL/USDT"
   },
+  "FLOCKUSDT": {
+    "exchange": "spot",
+    "base": "flock-2",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FLOCK/USDT"
+  },
   "FLOKIUSDC": {
     "exchange": "spot",
     "base": "floki",
@@ -605,11 +1079,29 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/FLOKI/USDT"
   },
+  "FLOWUSDT": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FLOW/USDT"
+  },
   "FLRUSDT": {
     "exchange": "spot",
     "base": "flare",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/FLR/USDT"
+  },
+  "FOGOUSDT": {
+    "exchange": "spot",
+    "base": "fogo",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FOGO/USDT"
+  },
+  "FORTUSDT": {
+    "exchange": "spot",
+    "base": "forta",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FORT/USDT"
   },
   "FRAXUSDT": {
     "exchange": "spot",
@@ -617,11 +1109,29 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/FRAX/USDT"
   },
+  "FTTUSDT": {
+    "exchange": "spot",
+    "base": "ftx-token",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/FTT/USDT"
+  },
+  "FUSDT": {
+    "exchange": "spot",
+    "base": "synfutures",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/F/USDT"
+  },
   "GALAUSDT": {
     "exchange": "spot",
     "base": "gala",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/GALA/USDT"
+  },
+  "GLMRUSDT": {
+    "exchange": "spot",
+    "base": "moonbeam",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GLMR/USDT"
   },
   "GMTUSDC": {
     "exchange": "spot",
@@ -641,11 +1151,41 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/GMX/USDT"
   },
+  "GOATUSDT": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GOAT/USDT"
+  },
+  "GPSUSDT": {
+    "exchange": "spot",
+    "base": "goplus-security",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GPS/USDT"
+  },
+  "GRAMUSDC": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/GRAM/USDC"
+  },
+  "GRAMUSDT": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GRAM/USDT"
+  },
   "GRASSUSDT": {
     "exchange": "spot",
     "base": "grass",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/GRASS/USDT"
+  },
+  "GROVEUSDT": {
+    "exchange": "spot",
+    "base": "grove",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GROVE/USDT"
   },
   "GRTUSDT": {
     "exchange": "spot",
@@ -653,11 +1193,23 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/GRT/USDT"
   },
+  "GRVTUSDT": {
+    "exchange": "spot",
+    "base": "grvt",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GRVT/USDT"
+  },
   "GUSDT": {
     "exchange": "spot",
     "base": "gravity",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/G/USDT"
+  },
+  "HAEDALUSDT": {
+    "exchange": "spot",
+    "base": "haedal-protocol",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/HAEDAL/USDT"
   },
   "HBARUSDC": {
     "exchange": "spot",
@@ -671,17 +1223,77 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/HBAR/USDT"
   },
+  "HFTUSDT": {
+    "exchange": "spot",
+    "base": "hashflow",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/HFT/USDT"
+  },
+  "HMSTRUSDC": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/HMSTR/USDC"
+  },
+  "HMSTRUSDT": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/HMSTR/USDT"
+  },
+  "HNTUSDT": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/HNT/USDT"
+  },
+  "HOLOUSDT": {
+    "exchange": "spot",
+    "base": "holoworld",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/HOLO/USDT"
+  },
+  "HOMEUSDT": {
+    "exchange": "spot",
+    "base": "defi-app",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/HOME/USDT"
+  },
   "HTXUSDT": {
     "exchange": "spot",
     "base": "htx-dao",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/HTX/USDT"
   },
+  "HUMAUSDT": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/HUMA/USDT"
+  },
+  "HUSDT": {
+    "exchange": "spot",
+    "base": "humanity",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/H/USDT"
+  },
+  "HYPERUSDT": {
+    "exchange": "spot",
+    "base": "hyperlane",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/HYPER/USDT"
+  },
   "HYPEUSDT": {
     "exchange": "spot",
     "base": "hyperliquid",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/HYPE/USDT"
+  },
+  "ICNTUSDT": {
+    "exchange": "spot",
+    "base": "impossible-cloud-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ICNT/USDT"
   },
   "ICPUSDC": {
     "exchange": "spot",
@@ -695,11 +1307,29 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ICP/USDT"
   },
+  "ICXUSDT": {
+    "exchange": "spot",
+    "base": "icon",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ICX/USDT"
+  },
+  "IDUSDT": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ID/USDT"
+  },
   "IMXUSDT": {
     "exchange": "spot",
     "base": "immutable-x",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/IMX/USDT"
+  },
+  "INITUSDT": {
+    "exchange": "spot",
+    "base": "initia",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/INIT/USDT"
   },
   "INJUSDC": {
     "exchange": "spot",
@@ -779,11 +1409,47 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/KAS/USDT"
   },
+  "KAVAUSDT": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/KAVA/USDT"
+  },
   "KCSUSDT": {
     "exchange": "spot",
     "base": "kucoin-token",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/KCS/USDT"
+  },
+  "KIIUSDT": {
+    "exchange": "spot",
+    "base": "kiichain",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/KII/USDT"
+  },
+  "KMNOUSDT": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/KMNO/USDT"
+  },
+  "KSMUSDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/KSM/USDT"
+  },
+  "LAUSDT": {
+    "exchange": "spot",
+    "base": "lagrange",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LA/USDT"
+  },
+  "LAVAUSDT": {
+    "exchange": "spot",
+    "base": "lava-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LAVA/USDT"
   },
   "LAYERUSDT": {
     "exchange": "spot",
@@ -833,6 +1499,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/LIT/USDT"
   },
+  "LMWRUSDT": {
+    "exchange": "spot",
+    "base": "limewire",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LMWR/USDT"
+  },
+  "LRCUSDT": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LRC/USDT"
+  },
   "LTCBTC": {
     "exchange": "spot",
     "base": "litecoin",
@@ -863,6 +1541,36 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/LTC/USDT"
   },
+  "LUNAUSDT": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LUNA/USDT"
+  },
+  "LUNCUSDC": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/LUNC/USDC"
+  },
+  "LUNCUSDT": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/LUNC/USDT"
+  },
+  "MAGICUSDT": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MAGIC/USDT"
+  },
+  "MAJORUSDT": {
+    "exchange": "spot",
+    "base": "major",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MAJOR/USDT"
+  },
   "MANAUSDC": {
     "exchange": "spot",
     "base": "decentraland",
@@ -887,11 +1595,83 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/MASK/USDT"
   },
+  "MAVIAUSDT": {
+    "exchange": "spot",
+    "base": "heroes-of-mavia",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MAVIA/USDT"
+  },
+  "MEGAUSDT": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MEGA/USDT"
+  },
+  "MEMEUSDT": {
+    "exchange": "spot",
+    "base": "memecoin-2",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MEME/USDT"
+  },
+  "MERLUSDT": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MERL/USDT"
+  },
+  "METHETH": {
+    "exchange": "spot",
+    "base": "mantle-staked-ether",
+    "quote": "ethereum",
+    "url": "https://www.bybit.com/en/trade/spot/METH/ETH"
+  },
+  "METHUSDT": {
+    "exchange": "spot",
+    "base": "mantle-staked-ether",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/METH/USDT"
+  },
+  "METUSDC": {
+    "exchange": "spot",
+    "base": "meteora",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/MET/USDC"
+  },
+  "METUSDT": {
+    "exchange": "spot",
+    "base": "meteora",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MET/USDT"
+  },
   "MEUSDT": {
     "exchange": "spot",
     "base": "magic-eden",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ME/USDT"
+  },
+  "MEWUSDC": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/MEW/USDC"
+  },
+  "MEWUSDT": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MEW/USDT"
+  },
+  "MINAUSDT": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MINA/USDT"
+  },
+  "MMTUSDT": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MMT/USDT"
   },
   "MNTBTC": {
     "exchange": "spot",
@@ -923,6 +1703,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/MNT/USDT"
   },
+  "MOCAUSDT": {
+    "exchange": "spot",
+    "base": "mocaverse",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MOCA/USDT"
+  },
+  "MOGUSDT": {
+    "exchange": "spot",
+    "base": "mog-coin",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MOG/USDT"
+  },
   "MONUSDT": {
     "exchange": "spot",
     "base": "monad",
@@ -935,11 +1727,41 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/MORPHO/USDT"
   },
+  "MOVEUSDC": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/MOVE/USDC"
+  },
+  "MOVEUSDT": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MOVE/USDT"
+  },
+  "MOVRUSDT": {
+    "exchange": "spot",
+    "base": "moonriver",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MOVR/USDT"
+  },
+  "MPLXUSDT": {
+    "exchange": "spot",
+    "base": "metaplex",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/MPLX/USDT"
+  },
   "MXUSDT": {
     "exchange": "spot",
     "base": "mx-token",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/MX/USDT"
+  },
+  "NAVXUSDT": {
+    "exchange": "spot",
+    "base": "navi-protocol",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NAVX/USDT"
   },
   "NEARUSDC": {
     "exchange": "spot",
@@ -953,11 +1775,47 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/NEAR/USDT"
   },
+  "NEIROCTOUSDT": {
+    "exchange": "spot",
+    "base": "neiro",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NEIROCTO/USDT"
+  },
+  "NEONUSDT": {
+    "exchange": "spot",
+    "base": "neon-evm",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NEON/USDT"
+  },
+  "NEWTUSDT": {
+    "exchange": "spot",
+    "base": "newton-protocol",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NEWT/USDT"
+  },
   "NEXOUSDT": {
     "exchange": "spot",
     "base": "nexo",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/NEXO/USDT"
+  },
+  "NFTUSDT": {
+    "exchange": "spot",
+    "base": "apenft",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NFT/USDT"
+  },
+  "NIGHTUSDT": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NIGHT/USDT"
+  },
+  "NOMUSDT": {
+    "exchange": "spot",
+    "base": "nomina",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NOM/USDT"
   },
   "NOTUSDC": {
     "exchange": "spot",
@@ -970,6 +1828,30 @@
     "base": "notcoin",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/NOT/USDT"
+  },
+  "NSUSDT": {
+    "exchange": "spot",
+    "base": "suins",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NS/USDT"
+  },
+  "NXPCUSDT": {
+    "exchange": "spot",
+    "base": "nexpace",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NXPC/USDT"
+  },
+  "NYMUSDT": {
+    "exchange": "spot",
+    "base": "nym",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NYM/USDT"
+  },
+  "OBTUSDT": {
+    "exchange": "spot",
+    "base": "orbiter-token",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/OBT/USDT"
   },
   "ONDOEUR": {
     "exchange": "spot",
@@ -989,6 +1871,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ONDO/USDT"
   },
+  "OPGUSDT": {
+    "exchange": "spot",
+    "base": "opengradient",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/OPG/USDT"
+  },
+  "OPNUSDT": {
+    "exchange": "spot",
+    "base": "opinion",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/OPN/USDT"
+  },
   "OPUSDC": {
     "exchange": "spot",
     "base": "optimism",
@@ -1000,6 +1894,12 @@
     "base": "optimism",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/OP/USDT"
+  },
+  "ORDERUSDT": {
+    "exchange": "spot",
+    "base": "orderly-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ORDER/USDT"
   },
   "ORDIUSDC": {
     "exchange": "spot",
@@ -1013,6 +1913,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ORDI/USDT"
   },
+  "PARTIUSDT": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PARTI/USDT"
+  },
   "PENDLEUSDT": {
     "exchange": "spot",
     "base": "pendle",
@@ -1024,6 +1930,12 @@
     "base": "pudgy-penguins",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/PENGU/USDT"
+  },
+  "PEOPLEUSDT": {
+    "exchange": "spot",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PEOPLE/USDT"
   },
   "PEPEEUR": {
     "exchange": "spot",
@@ -1043,6 +1955,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/PEPE/USDT"
   },
+  "PIEVERSEUSDT": {
+    "exchange": "spot",
+    "base": "pieverse",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PIEVERSE/USDT"
+  },
+  "PLUMEUSDT": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PLUME/USDT"
+  },
   "PNUTUSDT": {
     "exchange": "spot",
     "base": "peanut-the-squirrel",
@@ -1061,6 +1985,30 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/POL/USDT"
   },
+  "POPCATUSDT": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/POPCAT/USDT"
+  },
+  "PORTALUSDT": {
+    "exchange": "spot",
+    "base": "portal-2",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PORTAL/USDT"
+  },
+  "PROVEUSDT": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PROVE/USDT"
+  },
+  "PUFFERUSDT": {
+    "exchange": "spot",
+    "base": "puffer",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PUFFER/USDT"
+  },
   "PUMPUSDC": {
     "exchange": "spot",
     "base": "pump",
@@ -1072,6 +2020,12 @@
     "base": "pump",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/PUMP/USDT"
+  },
+  "PYBOBOUSDT": {
+    "exchange": "spot",
+    "base": "capybobo",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PYBOBO/USDT"
   },
   "PYTHUSDC": {
     "exchange": "spot",
@@ -1097,6 +2051,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/QNT/USDT"
   },
+  "QTUMUSDT": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/QTUM/USDT"
+  },
+  "RECALLUSDT": {
+    "exchange": "spot",
+    "base": "recall",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/RECALL/USDT"
+  },
   "REDUSDT": {
     "exchange": "spot",
     "base": "redstone",
@@ -1115,17 +2081,65 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/RENDER/USDT"
   },
+  "RESOLVUSDT": {
+    "exchange": "spot",
+    "base": "resolv",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/RESOLV/USDT"
+  },
   "RLUSDUSDT": {
     "exchange": "spot",
     "base": "ripple-usd",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/RLUSD/USDT"
   },
+  "ROAMUSDT": {
+    "exchange": "spot",
+    "base": "roam",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ROAM/USDT"
+  },
+  "ROBOUSDT": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ROBO/USDT"
+  },
+  "ROSEUSDT": {
+    "exchange": "spot",
+    "base": "oasis-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ROSE/USDT"
+  },
+  "RPLUSDT": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/RPL/USDT"
+  },
   "RUNEUSDT": {
     "exchange": "spot",
     "base": "thorchain",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/RUNE/USDT"
+  },
+  "RVNUSDT": {
+    "exchange": "spot",
+    "base": "ravencoin",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/RVN/USDT"
+  },
+  "SAFEUSDT": {
+    "exchange": "spot",
+    "base": "safe",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SAFE/USDT"
+  },
+  "SAHARAUSDT": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SAHARA/USDT"
   },
   "SANDUSDC": {
     "exchange": "spot",
@@ -1139,6 +2153,36 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/SAND/USDT"
   },
+  "SATSUSDT": {
+    "exchange": "spot",
+    "base": "sats-ordinals",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SATS/USDT"
+  },
+  "SCORUSDT": {
+    "exchange": "spot",
+    "base": "scor",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SCOR/USDT"
+  },
+  "SCRUSDT": {
+    "exchange": "spot",
+    "base": "scroll",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SCR/USDT"
+  },
+  "SCUSDT": {
+    "exchange": "spot",
+    "base": "siacoin",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SC/USDT"
+  },
+  "SDUSDT": {
+    "exchange": "spot",
+    "base": "stader",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SD/USDT"
+  },
   "SEIUSDC": {
     "exchange": "spot",
     "base": "sei",
@@ -1150,6 +2194,12 @@
     "base": "sei",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/SEI/USDT"
+  },
+  "SENTUSDT": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SENT/USDT"
   },
   "SHIBEUR": {
     "exchange": "spot",
@@ -1169,11 +2219,29 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/SHIB/USDT"
   },
+  "SIGNUSDT": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SIGN/USDT"
+  },
+  "SKRUSDT": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SKR/USDT"
+  },
   "SKYUSDT": {
     "exchange": "spot",
     "base": "sky",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/SKY/USDT"
+  },
+  "SLXUSDT": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SLX/USDT"
   },
   "SNXUSDT": {
     "exchange": "spot",
@@ -1229,11 +2297,53 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/SOLV/USDT"
   },
+  "SOMIUSDT": {
+    "exchange": "spot",
+    "base": "somnia",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SOMI/USDT"
+  },
   "SONICUSDT": {
     "exchange": "spot",
     "base": "sonic-svm",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/SONIC/USDT"
+  },
+  "SOSOUSDT": {
+    "exchange": "spot",
+    "base": "sosovalue",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SOSO/USDT"
+  },
+  "SPKUSDT": {
+    "exchange": "spot",
+    "base": "spark-2",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SPK/USDT"
+  },
+  "SPXUSDC": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/SPX/USDC"
+  },
+  "SPXUSDT": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SPX/USDT"
+  },
+  "SQDUSDT": {
+    "exchange": "spot",
+    "base": "subsquid",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SQD/USDT"
+  },
+  "SSVUSDT": {
+    "exchange": "spot",
+    "base": "ssv-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SSV/USDT"
   },
   "STETHEUR": {
     "exchange": "spot",
@@ -1289,11 +2399,23 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/SUI/USDT"
   },
+  "SUNDOGUSDT": {
+    "exchange": "spot",
+    "base": "sundog",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SUNDOG/USDT"
+  },
   "SUNUSDT": {
     "exchange": "spot",
     "base": "sun-token",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/SUN/USDT"
+  },
+  "SUPRAUSDT": {
+    "exchange": "spot",
+    "base": "supra",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SUPRA/USDT"
   },
   "SUSDC": {
     "exchange": "spot",
@@ -1306,6 +2428,48 @@
     "base": "sonic",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/S/USDT"
+  },
+  "SUSHIUSDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SUSHI/USDT"
+  },
+  "SWELLUSDC": {
+    "exchange": "spot",
+    "base": "swell",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/SWELL/USDC"
+  },
+  "SWELLUSDT": {
+    "exchange": "spot",
+    "base": "swell",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SWELL/USDT"
+  },
+  "SXTUSDT": {
+    "exchange": "spot",
+    "base": "space-and-time",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/SXT/USDT"
+  },
+  "TACUSDT": {
+    "exchange": "spot",
+    "base": "tac",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TAC/USDT"
+  },
+  "TAIKOUSDT": {
+    "exchange": "spot",
+    "base": "taiko",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TAIKO/USDT"
+  },
+  "TAUSDT": {
+    "exchange": "spot",
+    "base": "trusta-ai",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TA/USDT"
   },
   "TELUSDT": {
     "exchange": "spot",
@@ -1331,6 +2495,42 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/TIA/USDT"
   },
+  "TNSRUSDT": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TNSR/USDT"
+  },
+  "TOSHIUSDT": {
+    "exchange": "spot",
+    "base": "toshi",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TOSHI/USDT"
+  },
+  "TOWNSUSDC": {
+    "exchange": "spot",
+    "base": "towns",
+    "quote": "usd-coin",
+    "url": "https://www.bybit.com/en/trade/spot/TOWNS/USDC"
+  },
+  "TOWNSUSDT": {
+    "exchange": "spot",
+    "base": "towns",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TOWNS/USDT"
+  },
+  "TREEUSDT": {
+    "exchange": "spot",
+    "base": "treehouse",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TREE/USDT"
+  },
+  "TRIAUSDT": {
+    "exchange": "spot",
+    "base": "tria",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TRIA/USDT"
+  },
   "TRUMPUSDC": {
     "exchange": "spot",
     "base": "official-trump",
@@ -1354,6 +2554,12 @@
     "base": "tron",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/TRX/USDT"
+  },
+  "TSLAXUSDT": {
+    "exchange": "spot",
+    "base": "tesla-xstock",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/TSLAX/USDT"
   },
   "TUSDUSDT": {
     "exchange": "spot",
@@ -1469,6 +2675,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/VANA/USDT"
   },
+  "VELOUSDT": {
+    "exchange": "spot",
+    "base": "velo",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/VELO/USDT"
+  },
   "VETUSDT": {
     "exchange": "spot",
     "base": "vechain",
@@ -1493,11 +2705,41 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/VIRTUAL/USDT"
   },
+  "VOOIUSDT": {
+    "exchange": "spot",
+    "base": "vooi",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/VOOI/USDT"
+  },
+  "VTHOUSDT": {
+    "exchange": "spot",
+    "base": "vethor-token",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/VTHO/USDT"
+  },
   "VVVUSDT": {
     "exchange": "spot",
     "base": "venice-token",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/VVV/USDT"
+  },
+  "WALUSDT": {
+    "exchange": "spot",
+    "base": "walrus-2",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WAL/USDT"
+  },
+  "WAVESUSDT": {
+    "exchange": "spot",
+    "base": "waves",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WAVES/USDT"
+  },
+  "WAXPUSDT": {
+    "exchange": "spot",
+    "base": "wax",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WAXP/USDT"
   },
   "WBTCBTC": {
     "exchange": "spot",
@@ -1510,6 +2752,24 @@
     "base": "wrapped-bitcoin",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/WBTC/USDT"
+  },
+  "WCTUSDT": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WCT/USDT"
+  },
+  "WEMIXUSDT": {
+    "exchange": "spot",
+    "base": "wemix-token",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WEMIX/USDT"
+  },
+  "WETUSDT": {
+    "exchange": "spot",
+    "base": "humidifi",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WET/USDT"
   },
   "WIFUSDC": {
     "exchange": "spot",
@@ -1541,11 +2801,29 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/WLFI/USDT"
   },
+  "WOOUSDT": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/WOO/USDT"
+  },
   "WUSDT": {
     "exchange": "spot",
     "base": "wormhole",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/W/USDT"
+  },
+  "XAIUSDT": {
+    "exchange": "spot",
+    "base": "xai",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/XAI/USDT"
+  },
+  "XANUSDT": {
+    "exchange": "spot",
+    "base": "anoma",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/XAN/USDT"
   },
   "XAUTUSDT": {
     "exchange": "spot",
@@ -1625,11 +2903,71 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/XTZ/USDT"
   },
+  "YBUSDT": {
+    "exchange": "spot",
+    "base": "yield-basis",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/YB/USDT"
+  },
   "YFIUSDT": {
     "exchange": "spot",
     "base": "yearn-finance",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/YFI/USDT"
+  },
+  "ZAMAUSDT": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZAMA/USDT"
+  },
+  "ZBTUSDT": {
+    "exchange": "spot",
+    "base": "zerobase",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZBT/USDT"
+  },
+  "ZENUSDT": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZEN/USDT"
+  },
+  "ZEREBROUSDT": {
+    "exchange": "spot",
+    "base": "zerebro",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZEREBRO/USDT"
+  },
+  "ZETAUSDT": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZETA/USDT"
+  },
+  "ZIGUSDT": {
+    "exchange": "spot",
+    "base": "zignaly",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZIG/USDT"
+  },
+  "ZKCUSDT": {
+    "exchange": "spot",
+    "base": "boundless",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZKC/USDT"
+  },
+  "ZKJUSDT": {
+    "exchange": "spot",
+    "base": "polyhedra",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZKJ/USDT"
+  },
+  "ZKPUSDT": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZKP/USDT"
   },
   "ZKUSDC": {
     "exchange": "spot",
@@ -1643,6 +2981,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ZK/USDT"
   },
+  "ZORAUSDT": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZORA/USDT"
+  },
   "ZROUSDC": {
     "exchange": "spot",
     "base": "layer-zero",
@@ -1655,40 +2999,10 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ZRO/USDT"
   },
-  "KSMUSDT": {
+  "ZRXUSDT": {
     "exchange": "spot",
-    "base": "kusama",
+    "base": "0x",
     "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/KSM/USDT"
-  },
-  "MOVEUSDC": {
-    "exchange": "spot",
-    "base": "movement",
-    "quote": "usd-coin",
-    "url": "https://www.bybit.com/en/trade/spot/MOVE/USDC"
-  },
-  "MOVEUSDT": {
-    "exchange": "spot",
-    "base": "movement",
-    "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/MOVE/USDT"
-  },
-  "SUSHIUSDT": {
-    "exchange": "spot",
-    "base": "sushi",
-    "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/SUSHI/USDT"
-  },
-  "TAIKOUSDT": {
-    "exchange": "spot",
-    "base": "taiko",
-    "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/TAIKO/USDT"
-  },
-  "WOOUSDT": {
-    "exchange": "spot",
-    "base": "woo-network",
-    "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/WOO/USDT"
+    "url": "https://www.bybit.com/en/trade/spot/ZRX/USDT"
   }
 }

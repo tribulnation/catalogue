@@ -9,7 +9,8 @@
     "ca": "USDC.e \u00e9s USD Coin que va arribar a una cadena a trav\u00e9s del seu pont can\u00f2nic en lloc de ser em\u00e8s all\u00e0 per Circle. Conviu amb l'USDC natiu a Arbitrum, Optimism, Polygon i Avalanche, cotitza com un token a part i dep\u00e8n que el pont conservi l'USDC que el recolza."
   },
   "external": {
-    "coingecko": "usd-coin-ethereum-bridged"
+    "coingecko": "usd-coin-ethereum-bridged",
+    "coinmarketcap": "18852"
   },
   "pegged_to": {
     "asset": "usd-coin"

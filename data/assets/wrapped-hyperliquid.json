@@ -9,7 +9,8 @@
     "ca": "Wrapped HYPE \u00e9s la representaci\u00f3 ERC-20 de HYPE, la moneda de gas de HyperEVM, emesa per un contracte d'embolcall que mant\u00e9 la moneda un a un. Els contractes intel\u00b7ligents no poden gestionar una moneda nativa directament, de manera que WHYPE \u00e9s el que realment negocien els exchanges descentralitzats i els mercats de pr\u00e9stec a HyperEVM. No t\u00e9 custodi: el mateix contracte d'embolcall mant\u00e9 el suport."
   },
   "external": {
-    "coingecko": "wrapped-hype"
+    "coingecko": "wrapped-hype",
+    "coinmarketcap": "35881"
   },
   "pegged_to": {
     "asset": "hyperliquid"
