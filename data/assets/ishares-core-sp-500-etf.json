@@ -1,0 +1,20 @@
+{
+  "id": "ishares-core-sp-500-etf",
+  "display_name": "iShares Core S&P 500 ETF",
+  "symbol": "IVV",
+  "category": "fund",
+  "about": {
+    "en": "IVV is the iShares Core S&P 500 ETF, sponsored by BlackRock, an exchange-traded fund designed to track the S&P 500 Index. Each share represents an interest in the fund's portfolio of large-capitalization US equities."
+  },
+  "tags": [
+    "ETF"
+  ],
+  "urls": {
+    "Website": "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf"
+  },
+  "external": {
+    "yahoo": "IVV",
+    "twelvedata": "IVV",
+    "alphavantage": "stock:IVV"
+  }
+}

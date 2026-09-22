@@ -1,0 +1,21 @@
+{
+  "id": "proshares-ultrapro-short-qqq",
+  "display_name": "ProShares UltraPro Short QQQ",
+  "symbol": "SQQQ",
+  "category": "fund",
+  "about": {
+    "en": "SQQQ is the ProShares UltraPro Short QQQ, an exchange-traded fund sponsored by ProShares that seeks daily investment results equal to -3x the daily performance of the Nasdaq-100 Index. Each share represents a leveraged inverse position that resets daily, making it structurally unsuited to being held for extended periods."
+  },
+  "tags": [
+    "ETF",
+    "Leveraged"
+  ],
+  "urls": {
+    "Website": "https://www.proshares.com/our-etfs/leveraged-and-inverse/sqqq"
+  },
+  "external": {
+    "yahoo": "SQQQ",
+    "twelvedata": "SQQQ",
+    "alphavantage": "stock:SQQQ"
+  }
+}

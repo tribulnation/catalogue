@@ -1,0 +1,21 @@
+{
+  "id": "ishares-bitcoin-trust",
+  "display_name": "iShares Bitcoin Trust ETF",
+  "symbol": "IBIT",
+  "category": "fund",
+  "about": {
+    "en": "iShares Bitcoin Trust ETF is a spot-bitcoin trust sponsored by iShares Delaware Trust Sponsor LLC, a BlackRock entity, with Coinbase Custody Trust Company as bitcoin custodian. The trust holds bitcoin directly, and each share represents a fractional undivided beneficial interest in its bitcoin holdings. It is a Delaware statutory trust whose shares trade on Nasdaq, distinct from bitcoin itself."
+  },
+  "tags": [
+    "ETF",
+    "Bitcoin"
+  ],
+  "urls": {
+    "Website": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf"
+  },
+  "external": {
+    "yahoo": "IBIT",
+    "twelvedata": "IBIT",
+    "alphavantage": "stock:IBIT"
+  }
+}

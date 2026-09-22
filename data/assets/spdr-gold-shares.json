@@ -1,0 +1,21 @@
+{
+  "id": "spdr-gold-shares",
+  "display_name": "SPDR Gold Shares",
+  "symbol": "GLD",
+  "category": "fund",
+  "about": {
+    "en": "SPDR Gold Shares are units of the SPDR Gold Trust, a commodity trust sponsored by World Gold Trust Services, LLC. The trust holds physical gold bullion, and each share represents a fractional undivided interest in the gold held by the trust, less accrued expenses. Shares trade on NYSE Arca, and are distinct from gold itself."
+  },
+  "tags": [
+    "ETF",
+    "Commodity"
+  ],
+  "urls": {
+    "Website": "https://www.spdrgoldshares.com/usa/"
+  },
+  "external": {
+    "yahoo": "GLD",
+    "twelvedata": "GLD",
+    "alphavantage": "stock:GLD"
+  }
+}

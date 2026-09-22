@@ -1,0 +1,23 @@
+{
+  "id": "astera-labs-rtoken",
+  "display_name": "Astera Labs rToken",
+  "symbol": "rALAB",
+  "category": "rwa",
+  "about": {
+    "en": "Astera Labs rToken (rALAB) is a tokenized share of Astera Labs, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by ALAB held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "astera-labs-rstock"
+  },
+  "pegged_to": {
+    "asset": "astera-labs"
+  }
+}

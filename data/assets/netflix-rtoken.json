@@ -1,0 +1,23 @@
+{
+  "id": "netflix-rtoken",
+  "display_name": "Netflix rToken",
+  "symbol": "rNFLX",
+  "category": "rwa",
+  "about": {
+    "en": "Netflix rToken (rNFLX) is a tokenized share of Netflix, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by NFLX held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "netflix-rstock"
+  },
+  "pegged_to": {
+    "asset": "netflix"
+  }
+}

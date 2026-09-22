@@ -1,0 +1,24 @@
+{
+  "id": "direxion-daily-semiconductor-bear-3x-rtoken",
+  "display_name": "Direxion Daily Semiconductor Bear 3X Shares rToken",
+  "symbol": "rSOXS",
+  "category": "rwa",
+  "about": {
+    "en": "Direxion Daily Semiconductor Bear 3X Shares rToken (rSOXS) is a tokenized share of Direxion Daily Semiconductor Bear 3X Shares, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by SOXS held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "ETF",
+    "Leveraged"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "direxion-daily-semiconductor-bear-3x-shares-etf-rstock"
+  },
+  "pegged_to": {
+    "asset": "direxion-daily-semiconductor-bear-3x"
+  }
+}
