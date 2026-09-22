@@ -1,0 +1,21 @@
+{
+  "id": "proshares-ultrapro-qqq",
+  "display_name": "ProShares UltraPro QQQ",
+  "symbol": "TQQQ",
+  "category": "fund",
+  "about": {
+    "en": "TQQQ is the ProShares UltraPro QQQ, a leveraged exchange-traded fund sponsored by ProShares that seeks daily investment results equal to three times (3x) the daily performance of the Nasdaq-100 Index. Each share represents an interest in the fund's derivatives-based portfolio, and because leverage resets daily, returns compound and can diverge significantly from 3x the index's performance over periods longer than one day."
+  },
+  "tags": [
+    "ETF",
+    "Leveraged"
+  ],
+  "urls": {
+    "Website": "https://www.proshares.com/our-etfs/leveraged-and-inverse/tqqq"
+  },
+  "external": {
+    "yahoo": "TQQQ",
+    "twelvedata": "TQQQ",
+    "alphavantage": "stock:TQQQ"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "boston-scientific-rtoken",
+  "display_name": "Boston Scientific rToken",
+  "symbol": "rBSX",
+  "category": "rwa",
+  "about": {
+    "en": "Boston Scientific rToken (rBSX) is a tokenized share of Boston Scientific, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by BSX held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "boston-scientific-rstock"
+  },
+  "pegged_to": {
+    "asset": "boston-scientific"
+  }
+}

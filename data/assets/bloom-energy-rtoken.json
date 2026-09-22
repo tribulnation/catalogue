@@ -1,0 +1,23 @@
+{
+  "id": "bloom-energy-rtoken",
+  "display_name": "Bloom Energy rToken",
+  "symbol": "rBE",
+  "category": "rwa",
+  "about": {
+    "en": "Bloom Energy rToken (rBE) is a tokenized share of Bloom Energy, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by BE held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "bloom-energy-rstock"
+  },
+  "pegged_to": {
+    "asset": "bloom-energy"
+  }
+}

@@ -5,6 +5,12 @@
     "quote": "tether",
     "url": "https://www.bitget.com/spot/1INCHUSDT"
   },
+  "2ZUSDT": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/2ZUSDT"
+  },
   "AAVEUSDC": {
     "exchange": "spot",
     "base": "aave",
@@ -53,6 +59,12 @@
     "quote": "tether",
     "url": "https://www.bitget.com/spot/ALGOUSDT"
   },
+  "ANKRUSDT": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/ANKRUSDT"
+  },
   "APEUSDT": {
     "exchange": "spot",
     "base": "apecoin",
@@ -94,6 +106,12 @@
     "base": "astar",
     "quote": "tether",
     "url": "https://www.bitget.com/spot/ASTRUSDT"
+  },
+  "ATHUSDT": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/ATHUSDT"
   },
   "ATOMUSDT": {
     "exchange": "spot",
@@ -160,6 +178,12 @@
     "base": "bitcoin-cash",
     "quote": "tether",
     "url": "https://www.bitget.com/spot/BCHUSDT"
+  },
+  "BERAUSDT": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/BERAUSDT"
   },
   "BGBBTC": {
     "exchange": "spot",
@@ -299,6 +323,12 @@
     "quote": "tether",
     "url": "https://www.bitget.com/spot/CELOUSDT"
   },
+  "CFXUSDT": {
+    "exchange": "spot",
+    "base": "conflux",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/CFXUSDT"
+  },
   "CHZUSDT": {
     "exchange": "spot",
     "base": "chiliz",
@@ -317,6 +347,12 @@
     "quote": "tether",
     "url": "https://www.bitget.com/spot/COREUSDT"
   },
+  "COWUSDT": {
+    "exchange": "spot",
+    "base": "cow-protocol",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/COWUSDT"
+  },
   "CROUSDT": {
     "exchange": "spot",
     "base": "cronos",
@@ -328,6 +364,12 @@
     "base": "curve-dao",
     "quote": "tether",
     "url": "https://www.bitget.com/spot/CRVUSDT"
+  },
+  "DBRUSDT": {
+    "exchange": "spot",
+    "base": "debridge",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/DBRUSDT"
   },
   "DOGEEUR": {
     "exchange": "spot",
@@ -569,6 +611,12 @@
     "quote": "tether",
     "url": "https://www.bitget.com/spot/IOUSDT"
   },
+  "JASMYUSDT": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/JASMYUSDT"
+  },
   "JSTUSDT": {
     "exchange": "spot",
     "base": "just",
@@ -592,6 +640,12 @@
     "base": "kaia",
     "quote": "tether",
     "url": "https://www.bitget.com/spot/KAIAUSDT"
+  },
+  "KAITOUSDT": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/KAITOUSDT"
   },
   "KASUSDT": {
     "exchange": "spot",
@@ -797,11 +851,167 @@
     "quote": "tether",
     "url": "https://www.bitget.com/spot/QNTUSDT"
   },
+  "RAAPLUSDT": {
+    "exchange": "spot",
+    "base": "apple-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RAAPLUSDT"
+  },
+  "RAEPUSDT": {
+    "exchange": "spot",
+    "base": "american-electric-power-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RAEPUSDT"
+  },
+  "RALABUSDT": {
+    "exchange": "spot",
+    "base": "astera-labs-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RALABUSDT"
+  },
+  "RAMATUSDT": {
+    "exchange": "spot",
+    "base": "applied-materials-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RAMATUSDT"
+  },
+  "RAMDUSDT": {
+    "exchange": "spot",
+    "base": "advanced-micro-devices-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RAMDUSDT"
+  },
+  "RAMGNUSDT": {
+    "exchange": "spot",
+    "base": "amgen-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RAMGNUSDT"
+  },
+  "RAMZNUSDT": {
+    "exchange": "spot",
+    "base": "amazon-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RAMZNUSDT"
+  },
+  "RAPPUSDT": {
+    "exchange": "spot",
+    "base": "applovin-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RAPPUSDT"
+  },
+  "RARMUSDT": {
+    "exchange": "spot",
+    "base": "arm-holdings-adr-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RARMUSDT"
+  },
+  "RAVGOUSDT": {
+    "exchange": "spot",
+    "base": "broadcom-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RAVGOUSDT"
+  },
   "RAYUSDT": {
     "exchange": "spot",
     "base": "raydium",
     "quote": "tether",
     "url": "https://www.bitget.com/spot/RAYUSDT"
+  },
+  "RBACUSDT": {
+    "exchange": "spot",
+    "base": "bank-of-america-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RBACUSDT"
+  },
+  "RBEUSDT": {
+    "exchange": "spot",
+    "base": "bloom-energy-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RBEUSDT"
+  },
+  "RBSXUSDT": {
+    "exchange": "spot",
+    "base": "boston-scientific-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RBSXUSDT"
+  },
+  "RCOHRUSDT": {
+    "exchange": "spot",
+    "base": "coherent-corp-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RCOHRUSDT"
+  },
+  "RCOINUSDT": {
+    "exchange": "spot",
+    "base": "coinbase-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RCOINUSDT"
+  },
+  "RCOSTUSDT": {
+    "exchange": "spot",
+    "base": "costco-wholesale-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RCOSTUSDT"
+  },
+  "RCRDOUSDT": {
+    "exchange": "spot",
+    "base": "credo-technology-group-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RCRDOUSDT"
+  },
+  "RCRMUSDT": {
+    "exchange": "spot",
+    "base": "salesforce-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RCRMUSDT"
+  },
+  "RCRWDUSDT": {
+    "exchange": "spot",
+    "base": "crowdstrike-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RCRWDUSDT"
+  },
+  "RCRWVUSDT": {
+    "exchange": "spot",
+    "base": "coreweave-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RCRWVUSDT"
+  },
+  "RCSCOUSDT": {
+    "exchange": "spot",
+    "base": "cisco-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RCSCOUSDT"
+  },
+  "RCVXUSDT": {
+    "exchange": "spot",
+    "base": "chevron-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RCVXUSDT"
+  },
+  "RDHRUSDT": {
+    "exchange": "spot",
+    "base": "danaher-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RDHRUSDT"
+  },
+  "RDIAUSDT": {
+    "exchange": "spot",
+    "base": "spdr-dow-jones-industrial-average-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RDIAUSDT"
+  },
+  "RDRAMUSDT": {
+    "exchange": "spot",
+    "base": "roundhill-memory-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RDRAMUSDT"
+  },
+  "REEMUSDT": {
+    "exchange": "spot",
+    "base": "ishares-msci-emerging-markets-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/REEMUSDT"
   },
   "RENDERUSDC": {
     "exchange": "spot",
@@ -815,11 +1025,137 @@
     "quote": "tether",
     "url": "https://www.bitget.com/spot/RENDERUSDT"
   },
+  "REWYUSDT": {
+    "exchange": "spot",
+    "base": "ishares-msci-south-korea-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/REWYUSDT"
+  },
   "REZUSDT": {
     "exchange": "spot",
     "base": "renzo",
     "quote": "tether",
     "url": "https://www.bitget.com/spot/REZUSDT"
+  },
+  "RGEVUSDT": {
+    "exchange": "spot",
+    "base": "ge-vernova-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RGEVUSDT"
+  },
+  "RGLDUSDT": {
+    "exchange": "spot",
+    "base": "spdr-gold-shares-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RGLDUSDT"
+  },
+  "RGOOGLUSDT": {
+    "exchange": "spot",
+    "base": "alphabet-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RGOOGLUSDT"
+  },
+  "RGSUSDT": {
+    "exchange": "spot",
+    "base": "goldman-sachs-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RGSUSDT"
+  },
+  "RHDUSDT": {
+    "exchange": "spot",
+    "base": "home-depot-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RHDUSDT"
+  },
+  "RHOODUSDT": {
+    "exchange": "spot",
+    "base": "robinhood-markets-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RHOODUSDT"
+  },
+  "RHYGUSDT": {
+    "exchange": "spot",
+    "base": "ishares-iboxx-usd-high-yield-corporate-bond-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RHYGUSDT"
+  },
+  "RIBITUSDT": {
+    "exchange": "spot",
+    "base": "ishares-bitcoin-trust-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RIBITUSDT"
+  },
+  "RIBMUSDT": {
+    "exchange": "spot",
+    "base": "international-business-machines-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RIBMUSDT"
+  },
+  "RINTCUSDT": {
+    "exchange": "spot",
+    "base": "intel-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RINTCUSDT"
+  },
+  "RIRENUSDT": {
+    "exchange": "spot",
+    "base": "iren-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RIRENUSDT"
+  },
+  "RIVVUSDT": {
+    "exchange": "spot",
+    "base": "ishares-core-sp-500-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RIVVUSDT"
+  },
+  "RIWMUSDT": {
+    "exchange": "spot",
+    "base": "ishares-russell-2000-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RIWMUSDT"
+  },
+  "RJNJUSDT": {
+    "exchange": "spot",
+    "base": "johnson-and-johnson-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RJNJUSDT"
+  },
+  "RJPMUSDT": {
+    "exchange": "spot",
+    "base": "jpmorgan-chase-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RJPMUSDT"
+  },
+  "RKLACUSDT": {
+    "exchange": "spot",
+    "base": "kla-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RKLACUSDT"
+  },
+  "RKOUSDT": {
+    "exchange": "spot",
+    "base": "coca-cola-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RKOUSDT"
+  },
+  "RLITEUSDT": {
+    "exchange": "spot",
+    "base": "lumentum-holdings-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RLITEUSDT"
+  },
+  "RLLYUSDT": {
+    "exchange": "spot",
+    "base": "eli-lilly-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RLLYUSDT"
+  },
+  "RLRCXUSDT": {
+    "exchange": "spot",
+    "base": "lam-research-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RLRCXUSDT"
   },
   "RLUSDUSDC": {
     "exchange": "spot",
@@ -833,11 +1169,305 @@
     "quote": "tether",
     "url": "https://www.bitget.com/spot/RLUSDUSDT"
   },
+  "RMAUSDT": {
+    "exchange": "spot",
+    "base": "mastercard-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RMAUSDT"
+  },
+  "RMELIUSDT": {
+    "exchange": "spot",
+    "base": "mercadolibre-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RMELIUSDT"
+  },
+  "RMETAUSDT": {
+    "exchange": "spot",
+    "base": "meta-platforms-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RMETAUSDT"
+  },
+  "RMPCUSDT": {
+    "exchange": "spot",
+    "base": "marathon-petroleum-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RMPCUSDT"
+  },
+  "RMRKUSDT": {
+    "exchange": "spot",
+    "base": "merck-and-co-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RMRKUSDT"
+  },
+  "RMRNAUSDT": {
+    "exchange": "spot",
+    "base": "moderna-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RMRNAUSDT"
+  },
+  "RMRVLUSDT": {
+    "exchange": "spot",
+    "base": "marvell-technology-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RMRVLUSDT"
+  },
+  "RMSFTUSDT": {
+    "exchange": "spot",
+    "base": "microsoft-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RMSFTUSDT"
+  },
+  "RMSTRUSDT": {
+    "exchange": "spot",
+    "base": "microstrategy-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RMSTRUSDT"
+  },
+  "RMUUSDT": {
+    "exchange": "spot",
+    "base": "micron-technology-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RMUUSDT"
+  },
+  "RNBISUSDT": {
+    "exchange": "spot",
+    "base": "nebius-group-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RNBISUSDT"
+  },
+  "RNFLXUSDT": {
+    "exchange": "spot",
+    "base": "netflix-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RNFLXUSDT"
+  },
+  "RNVDAUSDT": {
+    "exchange": "spot",
+    "base": "nvidia-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RNVDAUSDT"
+  },
+  "RNXPIUSDT": {
+    "exchange": "spot",
+    "base": "nxp-semiconductors-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RNXPIUSDT"
+  },
+  "RORCLUSDT": {
+    "exchange": "spot",
+    "base": "oracle-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RORCLUSDT"
+  },
+  "RPANWUSDT": {
+    "exchange": "spot",
+    "base": "palo-alto-networks-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RPANWUSDT"
+  },
+  "RPEPUSDT": {
+    "exchange": "spot",
+    "base": "pepsico-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RPEPUSDT"
+  },
+  "RPLTRUSDT": {
+    "exchange": "spot",
+    "base": "palantir-technologies-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RPLTRUSDT"
+  },
+  "RQCOMUSDT": {
+    "exchange": "spot",
+    "base": "qualcomm-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RQCOMUSDT"
+  },
+  "RQQQUSDT": {
+    "exchange": "spot",
+    "base": "invesco-qqq-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RQQQUSDT"
+  },
+  "RSGOVUSDT": {
+    "exchange": "spot",
+    "base": "ishares-0-3-month-treasury-bond-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSGOVUSDT"
+  },
+  "RSHOPUSDT": {
+    "exchange": "spot",
+    "base": "shopify-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSHOPUSDT"
+  },
+  "RSKHYUSDT": {
+    "exchange": "spot",
+    "base": "sk-hynix-adr-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSKHYUSDT"
+  },
+  "RSMHUSDT": {
+    "exchange": "spot",
+    "base": "vaneck-semiconductor-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSMHUSDT"
+  },
+  "RSNDKUSDT": {
+    "exchange": "spot",
+    "base": "sandisk-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSNDKUSDT"
+  },
+  "RSOXLUSDT": {
+    "exchange": "spot",
+    "base": "direxion-daily-semiconductor-bull-3x-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSOXLUSDT"
+  },
+  "RSOXSUSDT": {
+    "exchange": "spot",
+    "base": "direxion-daily-semiconductor-bear-3x-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSOXSUSDT"
+  },
+  "RSOXXUSDT": {
+    "exchange": "spot",
+    "base": "ishares-semiconductor-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSOXXUSDT"
+  },
+  "RSPCXUSDT": {
+    "exchange": "spot",
+    "base": "spacex-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSPCXUSDT"
+  },
+  "RSPYUSDT": {
+    "exchange": "spot",
+    "base": "spdr-sp500-etf-trust-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSPYUSDT"
+  },
+  "RSQQQUSDT": {
+    "exchange": "spot",
+    "base": "proshares-ultrapro-short-qqq-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSQQQUSDT"
+  },
+  "RSTXUSDT": {
+    "exchange": "spot",
+    "base": "seagate-technology-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RSTXUSDT"
+  },
+  "RTERUSDT": {
+    "exchange": "spot",
+    "base": "teradyne-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RTERUSDT"
+  },
+  "RTJXUSDT": {
+    "exchange": "spot",
+    "base": "tjx-companies-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RTJXUSDT"
+  },
+  "RTLTUSDT": {
+    "exchange": "spot",
+    "base": "ishares-20-year-treasury-bond-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RTLTUSDT"
+  },
+  "RTMOUSDT": {
+    "exchange": "spot",
+    "base": "thermo-fisher-scientific-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RTMOUSDT"
+  },
+  "RTQQQUSDT": {
+    "exchange": "spot",
+    "base": "proshares-ultrapro-qqq-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RTQQQUSDT"
+  },
+  "RTSLAUSDT": {
+    "exchange": "spot",
+    "base": "tesla-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RTSLAUSDT"
+  },
+  "RTSMUSDT": {
+    "exchange": "spot",
+    "base": "taiwan-semiconductor-adr-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RTSMUSDT"
+  },
+  "RTXNUSDT": {
+    "exchange": "spot",
+    "base": "texas-instruments-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RTXNUSDT"
+  },
   "RUNEUSDT": {
     "exchange": "spot",
     "base": "thorchain",
     "quote": "tether",
     "delisted": true
+  },
+  "RUNHUSDT": {
+    "exchange": "spot",
+    "base": "unitedhealth-group-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RUNHUSDT"
+  },
+  "RVLOUSDT": {
+    "exchange": "spot",
+    "base": "valero-energy-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RVLOUSDT"
+  },
+  "RVOOUSDT": {
+    "exchange": "spot",
+    "base": "vanguard-sp-500-etf-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RVOOUSDT"
+  },
+  "RVUSDT": {
+    "exchange": "spot",
+    "base": "visa-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RVUSDT"
+  },
+  "RWBDUSDT": {
+    "exchange": "spot",
+    "base": "warner-bros-discovery-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RWBDUSDT"
+  },
+  "RWDCUSDT": {
+    "exchange": "spot",
+    "base": "western-digital-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RWDCUSDT"
+  },
+  "RWMTUSDT": {
+    "exchange": "spot",
+    "base": "walmart-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RWMTUSDT"
+  },
+  "RXLKUSDT": {
+    "exchange": "spot",
+    "base": "technology-select-sector-spdr-fund-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RXLKUSDT"
+  },
+  "RXOMUSDT": {
+    "exchange": "spot",
+    "base": "exxon-mobil-rtoken",
+    "quote": "tether",
+    "url": "https://www.bitget.com/spot/RXOMUSDT"
   },
   "SANDUSDT": {
     "exchange": "spot",
@@ -1234,59 +1864,5 @@
     "base": "layer-zero",
     "quote": "tether",
     "url": "https://www.bitget.com/spot/ZROUSDT"
-  },
-  "2ZUSDT": {
-    "exchange": "spot",
-    "base": "doublezero",
-    "quote": "tether",
-    "url": "https://www.bitget.com/spot/2ZUSDT"
-  },
-  "ANKRUSDT": {
-    "exchange": "spot",
-    "base": "ankr",
-    "quote": "tether",
-    "url": "https://www.bitget.com/spot/ANKRUSDT"
-  },
-  "ATHUSDT": {
-    "exchange": "spot",
-    "base": "aethir",
-    "quote": "tether",
-    "url": "https://www.bitget.com/spot/ATHUSDT"
-  },
-  "BERAUSDT": {
-    "exchange": "spot",
-    "base": "berachain",
-    "quote": "tether",
-    "url": "https://www.bitget.com/spot/BERAUSDT"
-  },
-  "CFXUSDT": {
-    "exchange": "spot",
-    "base": "conflux",
-    "quote": "tether",
-    "url": "https://www.bitget.com/spot/CFXUSDT"
-  },
-  "COWUSDT": {
-    "exchange": "spot",
-    "base": "cow-protocol",
-    "quote": "tether",
-    "url": "https://www.bitget.com/spot/COWUSDT"
-  },
-  "DBRUSDT": {
-    "exchange": "spot",
-    "base": "debridge",
-    "quote": "tether",
-    "url": "https://www.bitget.com/spot/DBRUSDT"
-  },
-  "JASMYUSDT": {
-    "exchange": "spot",
-    "base": "jasmycoin",
-    "quote": "tether",
-    "url": "https://www.bitget.com/spot/JASMYUSDT"
-  },
-  "KAITOUSDT": {
-    "exchange": "spot",
-    "base": "kaito",
-    "quote": "tether",
-    "url": "https://www.bitget.com/spot/KAITOUSDT"
   }
 }

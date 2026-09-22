@@ -1,0 +1,23 @@
+{
+  "id": "palo-alto-networks-rtoken",
+  "display_name": "Palo Alto Networks rToken",
+  "symbol": "rPANW",
+  "category": "rwa",
+  "about": {
+    "en": "Palo Alto Networks rToken (rPANW) is a tokenized share of Palo Alto Networks, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by PANW held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "palo-alto-networks-rstock"
+  },
+  "pegged_to": {
+    "asset": "palo-alto-networks"
+  }
+}

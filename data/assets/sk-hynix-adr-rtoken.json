@@ -1,0 +1,24 @@
+{
+  "id": "sk-hynix-adr-rtoken",
+  "display_name": "SK hynix ADR rToken",
+  "symbol": "rSKHY",
+  "category": "rwa",
+  "about": {
+    "en": "SK hynix ADR rToken (rSKHY) is a tokenized share of SK hynix ADR, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by SKHY held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "Stock",
+    "ADR"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "sk-hynix-rstock"
+  },
+  "pegged_to": {
+    "asset": "sk-hynix-adr"
+  }
+}
