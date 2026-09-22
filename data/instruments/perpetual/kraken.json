@@ -1569,7 +1569,7 @@
   },
   "PF_CFGUSD": {
     "exchange": "perp",
-    "base": "centrifuge-2",
+    "base": "centrifuge",
     "quote": "usd",
     "settlement": "usd",
     "url": "https://futures.kraken.com/trade/futures/PF_CFGUSD"

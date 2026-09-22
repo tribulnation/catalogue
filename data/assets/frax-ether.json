@@ -9,7 +9,8 @@
     "ca": "Frax Ether \u00e9s el token denominat en ether de l'ecosistema Frax, em\u00e8s 1:1 contra l'ETH dipositat al protocol. frxETH per si sol no reparteix rendiment d'staking \u2014 aquest va als titulars de la volta sfrxETH \u2014 aix\u00ed que es comporta com un embolcall simple d'ETH el valor del qual dep\u00e8n que Frax atengui el bescanvi."
   },
   "external": {
-    "coingecko": "frax-ether"
+    "coingecko": "frax-ether",
+    "coinmarketcap": "23225"
   },
   "pegged_to": {
     "asset": "ethereum"

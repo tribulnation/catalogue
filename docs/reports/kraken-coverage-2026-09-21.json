@@ -96,7 +96,7 @@
     "cat-in-a-dogs-world",
     "celer-network",
     "celium",
-    "centrifuge-2",
+    "centrifuge",
     "checkmate-2",
     "cheems-token",
     "chex-token",
@@ -566,7 +566,7 @@
     "CARV": "carv",
     "MEW": "cat-in-a-dogs-world",
     "CELR": "celer-network",
-    "CFG": "centrifuge-2",
+    "CFG": "centrifuge",
     "CHECK": "checkmate-2",
     "CHEEMS": "cheems-token",
     "CHILLHOUSE": "chill-house",
@@ -1415,8 +1415,8 @@
       "symbol": "CFG",
       "name": "Centrifuge",
       "networks": "Ethereum (ERC-20)",
-      "coingecko": "centrifuge-2",
-      "asset": "centrifuge-2",
+      "coingecko": "centrifuge",
+      "asset": "centrifuge",
       "source": "https://support.kraken.com/en-us/articles/360000678446-cryptocurrencies-available-on-kraken",
       "method": "Exact official full name and symbol; unique CoinGecko full-name/symbol corroboration"
     },
@@ -5859,13 +5859,13 @@
       },
       "CFGEUR": {
         "exchange": "spot",
-        "base": "centrifuge-2",
+        "base": "centrifuge",
         "quote": "euro",
         "url": "https://pro.kraken.com/app/trade/cfg-eur"
       },
       "CFGUSD": {
         "exchange": "spot",
-        "base": "centrifuge-2",
+        "base": "centrifuge",
         "quote": "usd",
         "url": "https://pro.kraken.com/app/trade/cfg-usd"
       },
@@ -9791,7 +9791,7 @@
       },
       "PF_CFGUSD": {
         "exchange": "perp",
-        "base": "centrifuge-2",
+        "base": "centrifuge",
         "quote": "usd",
         "settlement": "usd",
         "url": "https://futures.kraken.com/trade/futures/PF_CFGUSD"

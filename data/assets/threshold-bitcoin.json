@@ -9,7 +9,8 @@
     "ca": "tBTC \u00e9s el bitcoin tokenitzat de Threshold Network. Els dip\u00f2sits els custodia un grup rotatori de signants triats a l'atzar que necessiten assolir un llindar de signatures per moure'ls, de manera que cap custodi \u00fanic no controla la reserva. Bitcoin no t\u00e9 cap emissor que pugui desplegar un ERC-20 oficial, aix\u00ed que tBTC \u00e9s un dret davant aquest conjunt de signants i no davant el BTC mateix, i s'emet i es bescanvia 1:1."
   },
   "external": {
-    "coingecko": "tbtc"
+    "coingecko": "tbtc",
+    "coinmarketcap": "26133"
   },
   "pegged_to": {
     "asset": "bitcoin"

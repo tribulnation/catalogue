@@ -9,7 +9,8 @@
     "ca": "USDT.e \u00e9s Tether que va arribar a Avalanche a trav\u00e9s de l'Avalanche Bridge en lloc de ser em\u00e8s all\u00e0 per Tether. L'USDt natiu ja existeix a la mateixa cadena, de manera que tots dos circulen en paral\u00b7lel com a tokens diferents i poden cotitzar per separat."
   },
   "external": {
-    "coingecko": "tether-avalanche-bridged-usdt-e"
+    "coingecko": "tether-avalanche-bridged-usdt-e",
+    "coinmarketcap": "21763"
   },
   "pegged_to": {
     "asset": "tether"

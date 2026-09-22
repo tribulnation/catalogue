@@ -9,7 +9,8 @@
     "ca": "axlUSDC \u00e9s USD Coin que va arribar a una cadena a trav\u00e9s de la xarxa Axelar en lloc de ser em\u00e8s all\u00e0 per Circle. El USDC que el recolza queda bloquejat als contractes de passarel\u00b7la d'Axelar, aix\u00ed que qui el t\u00e9 s'exposa al conjunt de validadors i al disseny del pont d'Axelar a m\u00e9s de a Circle, i per aix\u00f2 es mant\u00e9 separat del USDC natiu."
   },
   "external": {
-    "coingecko": "axlusdc"
+    "coingecko": "axlusdc",
+    "coinmarketcap": "21420"
   },
   "pegged_to": {
     "asset": "usd-coin"

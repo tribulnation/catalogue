@@ -4231,13 +4231,13 @@
   },
   "CFGEUR": {
     "exchange": "spot",
-    "base": "centrifuge-2",
+    "base": "centrifuge",
     "quote": "euro",
     "url": "https://pro.kraken.com/app/trade/cfg-eur"
   },
   "CFGUSD": {
     "exchange": "spot",
-    "base": "centrifuge-2",
+    "base": "centrifuge",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/cfg-usd"
   },
