@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
   <rect x="0" y="0" width="56" height="56" fill="#0a373b"/>
+  <g transform="translate(-4.05,-5.22) scale(1.1865)">
   <path fill="url(#g1)" d="M17.99 41h-2.95c-.58 0-1.04-.43-1.04-.97v-9.59c0-.76.48-1.45 1.22-1.76l2.58-1.1c.74-.3 1.21-1 1.21-1.75v-9.86c0-.54.47-.97 1.04-.97H24V25.84c0 .76-.5 1.45-1.23 1.76l-2.59 1.1A1.9 1.9 0 0 0 19 30.43v10.54l-.01.02h-1ZM22 41h5s-.03 0-.03-.02L27 30.44c0-.76.44-1.45 1.18-1.76l2.59-1.1c.74-.3 1.23-1 1.23-1.75V23.2l-.02-8.18L32 15h-5V25.83c0 .76-.46 1.45-1.2 1.76l-2.58 1.1c-.74.3-1.22 1-1.22 1.75V41Zm10.01 0H30s.02 0 .02-.02V30.17c0-.76.47-1.45 1.21-1.76l2.59-1.1A1.9 1.9 0 0 0 35 25.57V15.02l.01-.02H38.96c.58 0 1.04.43 1.04.97v9.59c0 .76-.48 1.45-1.22 1.76l-2.58 1.1c-.74.3-1.2 1-1.2 1.75v9.86c0 .54-.48.97-1.05.97h-1.94Z"/>
-  <defs>
-    <linearGradient id="g1" x1="13" y1="20.23" x2="31.08" y2="41.67" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#fee45d"/>
-      <stop offset="1" stop-color="#aefec3"/>
-    </linearGradient>
-  </defs>
+    <defs>
+      <linearGradient id="g1" x1="13" y1="20.23" x2="31.08" y2="41.67" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#fee45d"/>
+        <stop offset="1" stop-color="#aefec3"/>
+      </linearGradient>
+    </defs>
+  </g>
 </svg>
