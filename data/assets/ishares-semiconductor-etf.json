@@ -1,0 +1,20 @@
+{
+  "id": "ishares-semiconductor-etf",
+  "display_name": "iShares Semiconductor ETF",
+  "symbol": "SOXX",
+  "category": "fund",
+  "about": {
+    "en": "SOXX is the iShares Semiconductor ETF, sponsored by BlackRock, an exchange-traded fund designed to track an index of US-listed semiconductor companies. Each share represents an interest in the fund's portfolio of semiconductor-sector equities."
+  },
+  "tags": [
+    "ETF"
+  ],
+  "urls": {
+    "Website": "https://www.ishares.com/us/products/239705/ishares-phlx-semiconductor-etf"
+  },
+  "external": {
+    "yahoo": "SOXX",
+    "twelvedata": "SOXX",
+    "alphavantage": "stock:SOXX"
+  }
+}

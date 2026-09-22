@@ -1,0 +1,23 @@
+{
+  "id": "iren-rtoken",
+  "display_name": "IREN rToken",
+  "symbol": "rIREN",
+  "category": "rwa",
+  "about": {
+    "en": "IREN rToken (rIREN) is a tokenized share of IREN, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by IREN held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "iren-rstock"
+  },
+  "pegged_to": {
+    "asset": "iren"
+  }
+}

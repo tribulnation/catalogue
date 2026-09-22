@@ -1,0 +1,23 @@
+{
+  "id": "vaneck-semiconductor-etf-rtoken",
+  "display_name": "VanEck Semiconductor ETF rToken",
+  "symbol": "rSMH",
+  "category": "rwa",
+  "about": {
+    "en": "VanEck Semiconductor ETF rToken (rSMH) is a tokenized share of VanEck Semiconductor ETF, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by SMH held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "ETF"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "vaneck-semiconductor-etf-rstock"
+  },
+  "pegged_to": {
+    "asset": "vaneck-semiconductor-etf"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "marvell-technology-rtoken",
+  "display_name": "Marvell Technology rToken",
+  "symbol": "rMRVL",
+  "category": "rwa",
+  "about": {
+    "en": "Marvell Technology rToken (rMRVL) is a tokenized share of Marvell Technology, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by MRVL held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum and Morph. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "marvell-technology-rstock"
+  },
+  "pegged_to": {
+    "asset": "marvell-technology"
+  }
+}

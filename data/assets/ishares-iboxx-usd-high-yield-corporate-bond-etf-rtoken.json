@@ -1,0 +1,23 @@
+{
+  "id": "ishares-iboxx-usd-high-yield-corporate-bond-etf-rtoken",
+  "display_name": "iShares iBoxx $ High Yield Corporate Bond ETF rToken",
+  "symbol": "rHYG",
+  "category": "rwa",
+  "about": {
+    "en": "iShares iBoxx $ High Yield Corporate Bond ETF rToken (rHYG) is a tokenized share of iShares iBoxx $ High Yield Corporate Bond ETF, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by HYG held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "ETF"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "ishares-iboxx-high-yield-corporate-bond-etf-rstock"
+  },
+  "pegged_to": {
+    "asset": "ishares-iboxx-usd-high-yield-corporate-bond-etf"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "vanguard-sp-500-etf",
+  "display_name": "Vanguard S&P 500 ETF",
+  "symbol": "VOO",
+  "category": "fund",
+  "about": {
+    "en": "VOO is the Vanguard S&P 500 ETF, sponsored by Vanguard, an exchange-traded fund designed to track the S&P 500 Index. Each share represents an interest in the fund's portfolio of large-capitalization US equities."
+  },
+  "tags": [
+    "ETF"
+  ],
+  "urls": {
+    "Website": "https://investor.vanguard.com/investment-products/etfs/profile/voo"
+  },
+  "external": {
+    "yahoo": "VOO",
+    "twelvedata": "VOO",
+    "alphavantage": "stock:VOO"
+  }
+}

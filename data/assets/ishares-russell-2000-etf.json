@@ -1,0 +1,20 @@
+{
+  "id": "ishares-russell-2000-etf",
+  "display_name": "iShares Russell 2000 ETF",
+  "symbol": "IWM",
+  "category": "fund",
+  "about": {
+    "en": "IWM is the iShares Russell 2000 ETF, sponsored by BlackRock, an exchange-traded fund designed to track the Russell 2000 Index of US small-capitalization companies. Each share represents an interest in the fund's portfolio of US small-cap equities."
+  },
+  "tags": [
+    "ETF"
+  ],
+  "urls": {
+    "Website": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf"
+  },
+  "external": {
+    "yahoo": "IWM",
+    "twelvedata": "IWM",
+    "alphavantage": "stock:IWM"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "netflix",
+  "display_name": "Netflix",
+  "symbol": "NFLX",
+  "category": "stock",
+  "about": {
+    "en": "Netflix, Inc. is a US entertainment company that operates a subscription streaming service offering films, TV series, documentaries and games worldwide. In tokenized markets, NFLX is a reference equity for products tracking Netflix shares."
+  },
+  "urls": {
+    "Website": "https://ir.netflix.net"
+  },
+  "external": {
+    "yahoo": "NFLX",
+    "twelvedata": "NFLX",
+    "alphavantage": "stock:NFLX"
+  }
+}

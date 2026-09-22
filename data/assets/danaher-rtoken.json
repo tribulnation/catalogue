@@ -1,0 +1,23 @@
+{
+  "id": "danaher-rtoken",
+  "display_name": "Danaher rToken",
+  "symbol": "rDHR",
+  "category": "rwa",
+  "about": {
+    "en": "Danaher rToken (rDHR) is a tokenized share of Danaher, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by DHR held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "danaher-rstock"
+  },
+  "pegged_to": {
+    "asset": "danaher"
+  }
+}
