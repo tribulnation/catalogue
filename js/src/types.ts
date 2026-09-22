@@ -11,7 +11,7 @@ export type ExternalIds = {
   yahoo?: string
 }
 
-export type AssetCategory = 'crypto' | 'stock' | 'fiat' | 'stablecoin' | 'commodity' | 'rwa'
+export type AssetCategory = 'crypto' | 'stock' | 'fiat' | 'stablecoin' | 'commodity' | 'fund' | 'rwa'
 
 export type AssetSummary = {
   id: string
