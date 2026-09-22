@@ -7,9 +7,10 @@ import subprocess
 import sys
 
 
-# Pricing support for this index is tracked separately; other metadata remains required.
+# Missing supported pricing identities are tracked; other metadata remains required.
 EXTERNAL_ID_EXCEPTIONS = {
   'coinbase-50-index': 'https://github.com/tribulnation/catalogue/issues/152',
+  'minteo-copm': 'https://github.com/tribulnation/catalogue/issues/130',
 }
 
 
