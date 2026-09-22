@@ -2287,7 +2287,7 @@
   },
   "CTC-USDT": {
     "exchange": "spot",
-    "base": "creditcoin-2",
+    "base": "creditcoin",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/CTC-USDT"
   },
@@ -2443,7 +2443,7 @@
   },
   "MEME-USDT": {
     "exchange": "spot",
-    "base": "memecoin-2",
+    "base": "memecoin",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/MEME-USDT"
   },
@@ -2479,13 +2479,13 @@
   },
   "PORTAL-USDT": {
     "exchange": "spot",
-    "base": "portal-2",
+    "base": "portal",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/PORTAL-USDT"
   },
   "SCA-USDT": {
     "exchange": "spot",
-    "base": "scallop-2",
+    "base": "scallop",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/SCA-USDT"
   },
@@ -2587,7 +2587,7 @@
   },
   "DOGS-USDT": {
     "exchange": "spot",
-    "base": "dogs-2",
+    "base": "dogs",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/DOGS-USDT"
   },
@@ -2647,7 +2647,7 @@
   },
   "PEAQ-USDT": {
     "exchange": "spot",
-    "base": "peaq-2",
+    "base": "peaq",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/PEAQ-USDT"
   },
@@ -2671,7 +2671,7 @@
   },
   "GIGA-USDT": {
     "exchange": "spot",
-    "base": "gigachad-2",
+    "base": "gigachad",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/GIGA-USDT"
   },
@@ -2719,7 +2719,7 @@
   },
   "LOFI-USDT": {
     "exchange": "spot",
-    "base": "lofi-2",
+    "base": "lofi",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/LOFI-USDT"
   },
@@ -2767,7 +2767,7 @@
   },
   "WAL-USDT": {
     "exchange": "spot",
-    "base": "walrus-2",
+    "base": "walrus",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/WAL-USDT"
   },
@@ -2797,7 +2797,7 @@
   },
   "CLANKER-USDT": {
     "exchange": "spot",
-    "base": "tokenbot-2",
+    "base": "tokenbot",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/CLANKER-USDT"
   },
@@ -2857,7 +2857,7 @@
   },
   "FLOCK-USDT": {
     "exchange": "spot",
-    "base": "flock-2",
+    "base": "flock",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/FLOCK-USDT"
   },
@@ -2869,7 +2869,7 @@
   },
   "SPK-USDT": {
     "exchange": "spot",
-    "base": "spark-2",
+    "base": "spark",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/SPK-USDT"
   },
@@ -2887,7 +2887,7 @@
   },
   "NODE-USDT": {
     "exchange": "spot",
-    "base": "node-2",
+    "base": "nodeops",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/NODE-USDT"
   },
@@ -2905,13 +2905,13 @@
   },
   "VSN-USDT": {
     "exchange": "spot",
-    "base": "vision-3",
+    "base": "vision",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/VSN-USDT"
   },
   "ES-USDT": {
     "exchange": "spot",
-    "base": "eclipse-3",
+    "base": "eclipse",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/ES-USDT"
   },
@@ -2959,13 +2959,13 @@
   },
   "ALKIMI-USDT": {
     "exchange": "spot",
-    "base": "alkimi-2",
+    "base": "alkimi",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/ALKIMI-USDT"
   },
   "SAPIEN-USDT": {
     "exchange": "spot",
-    "base": "sapien-2",
+    "base": "sapien",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/SAPIEN-USDT"
   },
@@ -3091,7 +3091,7 @@
   },
   "XMN-USDT": {
     "exchange": "spot",
-    "base": "xmoney-2",
+    "base": "xmoney",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/XMN-USDT"
   },
@@ -3193,7 +3193,7 @@
   },
   "GWEI-USDT": {
     "exchange": "spot",
-    "base": "ethgas-2",
+    "base": "ethgas",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/GWEI-USDT"
   },
@@ -3205,13 +3205,13 @@
   },
   "SPACE-USDT": {
     "exchange": "spot",
-    "base": "spacecoin-2",
+    "base": "spacecoin",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/SPACE-USDT"
   },
   "SPACE-USD1": {
     "exchange": "spot",
-    "base": "spacecoin-2",
+    "base": "spacecoin",
     "quote": "usd1",
     "url": "https://www.kucoin.com/trade/SPACE-USD1"
   },
@@ -3229,7 +3229,7 @@
   },
   "RNBW-USDT": {
     "exchange": "spot",
-    "base": "rainbow-3-2",
+    "base": "rainbow",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/RNBW-USDT"
   },
@@ -3253,7 +3253,7 @@
   },
   "BNKR-USDT": {
     "exchange": "spot",
-    "base": "bankercoin-2",
+    "base": "bankrcoin",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/BNKR-USDT"
   },
@@ -4051,7 +4051,7 @@
   },
   "UNION-USDT": {
     "exchange": "spot",
-    "base": "union-2",
+    "base": "union",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/UNION-USDT"
   },
@@ -4141,7 +4141,7 @@
   },
   "NIM-USDT": {
     "exchange": "spot",
-    "base": "nimiq-2",
+    "base": "nimiq",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/NIM-USDT"
   },
@@ -4225,7 +4225,7 @@
   },
   "PUNDIX-USDT": {
     "exchange": "spot",
-    "base": "pundi-x-2",
+    "base": "pundi-x",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/PUNDIX-USDT"
   },
@@ -4285,7 +4285,7 @@
   },
   "ROUTE-USDT": {
     "exchange": "spot",
-    "base": "route-2",
+    "base": "route",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/ROUTE-USDT"
   },
@@ -4537,7 +4537,7 @@
   },
   "LYX-USDT": {
     "exchange": "spot",
-    "base": "lukso-token-2",
+    "base": "lukso",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/LYX-USDT"
   },
@@ -4669,7 +4669,7 @@
   },
   "HOLD-USDT": {
     "exchange": "spot",
-    "base": "holdstation-2",
+    "base": "holdstation",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/HOLD-USDT"
   },
@@ -4825,7 +4825,7 @@
   },
   "RION-USDT": {
     "exchange": "spot",
-    "base": "hyperion-2",
+    "base": "hyperion",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/RION-USDT"
   },
@@ -4903,7 +4903,7 @@
   },
   "XLAB-USDT": {
     "exchange": "spot",
-    "base": "dexlab-3",
+    "base": "dexlab",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/XLAB-USDT"
   },
@@ -5053,7 +5053,7 @@
   },
   "ZTC-USDT": {
     "exchange": "spot",
-    "base": "zenchain-2",
+    "base": "zenchain",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/ZTC-USDT"
   },
@@ -5131,7 +5131,7 @@
   },
   "SHARE-USDT": {
     "exchange": "spot",
-    "base": "sharex-2",
+    "base": "sharex",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/SHARE-USDT"
   },
@@ -5275,7 +5275,7 @@
   },
   "LAPTOP-USDT": {
     "exchange": "spot",
-    "base": "hunter-biden-s-laptop-3",
+    "base": "hunter-bidens-laptop",
     "quote": "tether",
     "url": "https://www.kucoin.com/trade/LAPTOP-USDT"
   },

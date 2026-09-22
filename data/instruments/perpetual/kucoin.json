@@ -1611,7 +1611,7 @@
   },
   "CLANKERUSDTM": {
     "exchange": "perp",
-    "base": "tokenbot-2",
+    "base": "tokenbot",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/CLANKERUSDTM"
@@ -1632,7 +1632,7 @@
   },
   "CTCUSDTM": {
     "exchange": "perp",
-    "base": "creditcoin-2",
+    "base": "creditcoin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/CTCUSDTM"
@@ -1667,7 +1667,7 @@
   },
   "DOGSUSDTM": {
     "exchange": "perp",
-    "base": "dogs-2",
+    "base": "dogs",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/DOGSUSDTM"
@@ -1744,7 +1744,7 @@
   },
   "FLOCKUSDTM": {
     "exchange": "perp",
-    "base": "flock-2",
+    "base": "flock",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/FLOCKUSDTM"
@@ -1786,7 +1786,7 @@
   },
   "GWEIUSDTM": {
     "exchange": "perp",
-    "base": "ethgas-2",
+    "base": "ethgas",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/GWEIUSDTM"
@@ -1891,7 +1891,7 @@
   },
   "MEMEUSDTM": {
     "exchange": "perp",
-    "base": "memecoin-2",
+    "base": "memecoin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/MEMEUSDTM"
@@ -2010,7 +2010,7 @@
   },
   "PORTALUSDTM": {
     "exchange": "perp",
-    "base": "portal-2",
+    "base": "portal",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/PORTALUSDTM"
@@ -2080,7 +2080,7 @@
   },
   "SAPIENUSDTM": {
     "exchange": "perp",
-    "base": "sapien-2",
+    "base": "sapien",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/SAPIENUSDTM"
@@ -2122,14 +2122,14 @@
   },
   "SPACEUSDTM": {
     "exchange": "perp",
-    "base": "spacecoin-2",
+    "base": "spacecoin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/SPACEUSDTM"
   },
   "SPKUSDTM": {
     "exchange": "perp",
-    "base": "spark-2",
+    "base": "spark",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/SPKUSDTM"
@@ -2227,7 +2227,7 @@
   },
   "WALUSDTM": {
     "exchange": "perp",
-    "base": "walrus-2",
+    "base": "walrus",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/WALUSDTM"
