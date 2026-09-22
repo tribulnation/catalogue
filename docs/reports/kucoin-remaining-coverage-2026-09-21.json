@@ -50539,11 +50539,7 @@
           "price_caveat": {
             "last_updated": "2026-08-17T19:54:00.000Z",
             "tickers": [],
-            "defillama_url": "https://coins.llama.fi/prices/current/coingecko:eth2-staking-by-poolx",
-            "defillama_response": {
-              "coins": {}
-            },
-            "note": "Genuine legacy identifier; no current active ticker or verified current DefiLlama price. Do not treat stale provider prices as current, and do not substitute ETH or another ksETH issuer."
+            "note": "Genuine legacy identifier; no current active CoinGecko ticker. Do not treat stale provider data as current, and do not substitute ETH or another ksETH issuer."
           }
         }
       },
