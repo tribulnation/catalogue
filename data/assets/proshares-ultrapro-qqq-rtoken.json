@@ -1,0 +1,24 @@
+{
+  "id": "proshares-ultrapro-qqq-rtoken",
+  "display_name": "ProShares UltraPro QQQ rToken",
+  "symbol": "rTQQQ",
+  "category": "rwa",
+  "about": {
+    "en": "ProShares UltraPro QQQ rToken (rTQQQ) is a tokenized share of ProShares UltraPro QQQ, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by TQQQ held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum and Morph. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "ETF",
+    "Leveraged"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "proshares-ultrapro-qqq-etf-rstock"
+  },
+  "pegged_to": {
+    "asset": "proshares-ultrapro-qqq"
+  }
+}

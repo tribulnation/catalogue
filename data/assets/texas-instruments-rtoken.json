@@ -1,0 +1,23 @@
+{
+  "id": "texas-instruments-rtoken",
+  "display_name": "Texas Instruments rToken",
+  "symbol": "rTXN",
+  "category": "rwa",
+  "about": {
+    "en": "Texas Instruments rToken (rTXN) is a tokenized share of Texas Instruments, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by TXN held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "texas-instruments-rstock"
+  },
+  "pegged_to": {
+    "asset": "texas-instruments"
+  }
+}

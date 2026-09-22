@@ -1,0 +1,17 @@
+{
+  "id": "mastercard",
+  "display_name": "Mastercard",
+  "symbol": "MA",
+  "category": "stock",
+  "about": {
+    "en": "Mastercard Incorporated is a US payments technology company that operates a global payment network connecting consumers, financial institutions, merchants, and governments for electronic payment transactions. In tokenized markets, MA is a common reference equity for products tracking Mastercard shares."
+  },
+  "urls": {
+    "Website": "https://investor.mastercard.com/overview/default.aspx"
+  },
+  "external": {
+    "yahoo": "MA",
+    "twelvedata": "MA",
+    "alphavantage": "stock:MA"
+  }
+}

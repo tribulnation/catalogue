@@ -1,0 +1,23 @@
+{
+  "id": "spdr-dow-jones-industrial-average-etf-rtoken",
+  "display_name": "SPDR Dow Jones Industrial Average ETF Trust rToken",
+  "symbol": "rDIA",
+  "category": "rwa",
+  "about": {
+    "en": "SPDR Dow Jones Industrial Average ETF Trust rToken (rDIA) is a tokenized share of SPDR Dow Jones Industrial Average ETF Trust, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by DIA held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "ETF"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "spdr-dow-jones-industrial-average-etf-trust-rstock"
+  },
+  "pegged_to": {
+    "asset": "spdr-dow-jones-industrial-average-etf"
+  }
+}

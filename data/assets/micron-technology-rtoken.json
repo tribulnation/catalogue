@@ -1,0 +1,23 @@
+{
+  "id": "micron-technology-rtoken",
+  "display_name": "Micron Technology rToken",
+  "symbol": "rMU",
+  "category": "rwa",
+  "about": {
+    "en": "Micron Technology rToken (rMU) is a tokenized share of Micron Technology, issued by Reality, Bitget's real-world asset issuance platform. Each token is backed 1:1 by MU held through Alpaca Securities, a FINRA-registered US broker-dealer, with daily proof-of-reserves attestations, and trades as an ERC-20 on Arbitrum. rTokens are offered only to eligible non-US persons in permitted jurisdictions."
+  },
+  "tags": [
+    "RWA",
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://realityfinance.xyz/",
+    "Documentation": "https://web3.bitget.com/rwa"
+  },
+  "external": {
+    "coingecko": "micron-technology-rstock"
+  },
+  "pegged_to": {
+    "asset": "micron-technology"
+  }
+}

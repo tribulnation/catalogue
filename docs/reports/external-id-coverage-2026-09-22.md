@@ -1,6 +1,6 @@
 # External provider coverage audit — 2026-09-22
 
-This pass adds 43 verified CoinGecko IDs and 405 verified CoinMarketCap IDs to this branch. Coverage is now 808 CoinGecko and 777 CoinMarketCap asset records.
+This pass adds 139 verified CoinGecko IDs and 203 verified CoinMarketCap IDs to this branch. Coverage is now 694 CoinGecko and 686 CoinMarketCap asset records.
 
 `centrifuge-2` is renamed to the canonical `centrifuge`; CoinGecko's provider ID remains `centrifuge-2`. The legacy Omni Network record now uses CoinGecko `omni-network` because `omni-2` currently identifies an unrelated Solana token.
 
