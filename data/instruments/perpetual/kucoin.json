@@ -1590,7 +1590,7 @@
   },
   "CFGUSDTM": {
     "exchange": "perp",
-    "base": "centrifuge-2",
+    "base": "centrifuge",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/CFGUSDTM"

@@ -9,7 +9,8 @@
     "ca": "alUSD \u00e9s el d\u00f2lar sint\u00e8tic d'Alchemix, em\u00e8s quan alg\u00fa demana prestat contra un dip\u00f2sit de stablecoin amb rendiment en una volta autoamortitzable. Cada alUSD representa un d\u00f2lar del rendiment futur d'aquest dip\u00f2sit, de manera que apunta al d\u00f2lar; \u00e9s un token de deute i no pas un de recolzat per reserves, i ha cotitzat per sota de la par quan la capacitat de bescanvi de les voltes es tensa."
   },
   "external": {
-    "coingecko": "alchemix-usd"
+    "coingecko": "alchemix-usd",
+    "coinmarketcap": "8614"
   },
   "pegged_to": {
     "asset": "usd"

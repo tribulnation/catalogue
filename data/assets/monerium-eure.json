@@ -9,7 +9,8 @@
     "ca": "EURe \u00e9s un token de diner electr\u00f2nic en euros em\u00e8s per Monerium EMI ehf, entitat de diner electr\u00f2nic autoritzada a Isl\u00e0ndia, reemborsable un a un per euros. Est\u00e0 desplegat a Ethereum, Gnosis, Polygon, Arbitrum, Linea i Scroll. Cada cadena t\u00e9 a m\u00e9s un contracte d'interf\u00edcie V1 m\u00e9s antic que comparteix el mateix llibre de saldos en lloc de mantenir fons separats, aix\u00ed que aqu\u00ed nom\u00e9s es mapeja l'adre\u00e7a V2 actual; comptar totes dues com a posicions duplicaria els mateixos euros."
   },
   "external": {
-    "coingecko": "monerium-eur-money-2"
+    "coingecko": "monerium-eur-money-2",
+    "coinmarketcap": "20920"
   },
   "pegged_to": {
     "asset": "euro"

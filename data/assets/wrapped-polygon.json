@@ -9,7 +9,8 @@
     "ca": "Wrapped POL \u00e9s la forma ERC-20 de POL, la moneda de gas de Polygon PoS, i es deia WMATIC abans de la migraci\u00f3 de MATIC a POL. El contracte custodia ell mateix les monedes dipositades i les retorna a demanda. \u00c9s l'actiu de cotitzaci\u00f3 de la majoria de pools de liquiditat de Polygon."
   },
   "external": {
-    "coingecko": "wmatic"
+    "coingecko": "wmatic",
+    "coinmarketcap": "8925"
   },
   "pegged_to": {
     "asset": "polygon"

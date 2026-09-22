@@ -9,7 +9,8 @@
     "ca": "Wrapped MON \u00e9s la representaci\u00f3 ERC-20 de MON, la moneda de gas de Monad, emesa per un contracte d'embolcall que mant\u00e9 la moneda un a un. Els contractes intel\u00b7ligents no poden gestionar una moneda nativa directament, de manera que WMON \u00e9s el que realment negocien els exchanges descentralitzats i els mercats de pr\u00e9stec a Monad. No t\u00e9 custodi: el mateix contracte d'embolcall mant\u00e9 el suport."
   },
   "external": {
-    "coingecko": "wrapped-monad"
+    "coingecko": "wrapped-monad",
+    "coinmarketcap": "35888"
   },
   "pegged_to": {
     "asset": "monad"
