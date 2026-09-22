@@ -11329,9 +11329,11 @@
   },
   "external_id_audit": {
     "new_assets": 421,
-    "with_external_id": 421,
-    "missing_external_ids": [],
-    "exception_issue": null,
+    "with_external_id": 420,
+    "missing_external_ids": [
+      "minteo-copm"
+    ],
+    "exception_issue": "https://github.com/tribulnation/catalogue/issues/130",
     "verified_additions": {
       "data/assets/0x.json": {
         "external": {
@@ -12597,16 +12599,6 @@
             "https://bscscan.com/token/0xfe930c2d63aed9b82fc4dbc801920dd2c1a3224f"
           ],
           "verified_against": "Previously reviewed issuer domain and exact token contract/creator identity."
-        }
-      },
-      "data/assets/minteo-copm.json": {
-        "external": {
-          "defillama": "polygon:0x12050c705152931cfee3dd56c52fb09dea816c23"
-        },
-        "evidence": {
-          "provider_url": "https://coins.llama.fi/prices/current/polygon:0x12050c705152931cfee3dd56c52fb09dea816c23",
-          "issuer_contract_directory": "https://transparency.minteo.com/contract-directory",
-          "identity": "Minteo COPM on Polygon, matched by exact issuer contract."
         }
       },
       "data/assets/moonwalk.json": {

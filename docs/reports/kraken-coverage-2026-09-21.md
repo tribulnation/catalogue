@@ -103,11 +103,11 @@ Reproduce the live and offline checks from the SDK checkout:
 
 ## External identifiers
 
-421 of 421 new assets have at least one external ID.
+420 of 421 new assets have at least one external ID.
 The companion JSON records provider endpoints and identity checks for added IDs.
 CI now checks new assets for descriptions, URLs and external IDs against the PR base.
 
-COPM uses its issuer-verified Polygon contract as a DefiLlama ID. The public pricing adapter supports USD and historical observations; EUR conversion uses the latest published daily FRED USD-per-EUR rate on or before the observation date, which can lag market FX. Missing prices or required FX data produce no quote.
+Minteo COPM has no verified listing in the supported pricing providers. Its temporary external-ID exception remains tracked in #130.
 
 ## Canonical identity consolidation
 

@@ -2,8 +2,6 @@ from pydantic import BaseModel
 from tribulnation.catalogue.data.schema import Locale, AssetCategory
 
 class ExternalIds(BaseModel):
-  defillama: str | None = None
-  """DefiLlama token-price ID, such as chain:contract or coingecko:coin-id."""
   coingecko: str | None = None
   """Coingecko asset ID"""
   coinmarketcap: str | None = None

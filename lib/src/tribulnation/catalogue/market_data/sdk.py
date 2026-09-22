@@ -33,9 +33,6 @@ class Pricing(SDK, ABC):
     if source == 'coingecko':
       from .coingecko import CoingeckoPricing
       return CoingeckoPricing.new(quote=quote)
-    elif source == 'defillama':
-      from .defillama import DefiLlamaPricing
-      return DefiLlamaPricing.new(quote=quote)
     elif source == 'coinmarketcap':
       from .coinmarketcap import CoinMarketCapPricing
       return CoinMarketCapPricing.new(quote=quote)
