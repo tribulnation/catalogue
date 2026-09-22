@@ -1,0 +1,14 @@
+{
+  "display_name": "KuCoin Community Chain",
+  "kind": "blockchain",
+  "native_asset": "kucoin-token",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 321,
+  "urls": {
+    "Website": "https://www.kcc.io/"
+  },
+  "about": {
+    "en": "KuCoin Community Chain is an EVM-compatible blockchain developed by the KCS community. It supports smart contracts and uses KCS for transaction fees."
+  }
+}

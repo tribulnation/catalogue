@@ -43,7 +43,7 @@
     "RESOLV": "resolv",
     "TOWNS": "towns",
     "MERL": "merlin-chain",
-    "SAGA": "saga-2",
+    "SAGA": "saga",
     "BILL": "billions-network",
     "MEGA": "megaeth",
     "OPN": "opinion",
@@ -163,7 +163,7 @@
       "asset": "merlin-chain"
     },
     "SAGA": {
-      "asset": "saga-2"
+      "asset": "saga"
     },
     "BILL": {
       "asset": "billions-network"
@@ -535,7 +535,7 @@
     },
     {
       "instrument": "SAGA_USDC-PERPETUAL",
-      "base": "saga-2",
+      "base": "saga",
       "native_base": "SAGA",
       "native_quote": "USDC",
       "native_settlement": "USDC",

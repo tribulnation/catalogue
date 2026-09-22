@@ -1,0 +1,19 @@
+{
+  "id": "united-stables",
+  "display_name": "United Stables",
+  "symbol": "U",
+  "category": "stablecoin",
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "about": {
+    "en": "U is a dollar-referenced stablecoin issued by United Stables. The issuer describes it as backed by liquid reserves and designed for transfers, payments and decentralized finance applications."
+  },
+  "urls": {
+    "Website": "https://u.tech"
+  },
+  "external": {
+    "coinmarketcap": "39120",
+    "coingecko": "united-stables"
+  }
+}
