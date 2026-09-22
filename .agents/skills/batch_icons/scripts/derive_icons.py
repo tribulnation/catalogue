@@ -63,12 +63,21 @@ def icon_of(id: str, root: str = '.') -> str | None:
   return icon if icon and os.path.exists(os.path.join(root, icon)) else None
 
 def underlying_of(id: str, prefixes, root: str = '.') -> str | None:
-  """The asset a derived id is built on, if that asset exists and has an icon."""
+  """The asset a derived id is built on, if that asset exists and has an icon.
+
+  Either the id carries one of `prefixes`, or the asset names what it tracks in
+  `pegged_to` — the latter covers representations whose id is not built from the
+  underlying's, such as Bitget's Reality rTokens (`<equity>-rtoken`, rUNH).
+  """
   for prefix in prefixes:
     if id.startswith(prefix):
       base = id[len(prefix):]
       if icon_of(base, root):
         return base
+  asset = load(id, root)
+  base = (asset or {}).get('pegged_to', {}).get('asset')
+  if base and icon_of(base, root):
+    return base
   return None
 
 def set_icon(id: str, icon: str, root: str = '.') -> bool:
