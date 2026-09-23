@@ -39,7 +39,7 @@
 						<a href={`/platforms/${platform.id}`} class="platform-card">
 							<div class="icon-wrap">
 								{#if platform.icon}
-									<img src={platform.icon} alt={platform.display_name} width="36" height="36" />
+									<img src={platform.icon} alt={platform.display_name} width="36" height="36" loading="lazy" decoding="async" />
 								{:else}
 									<div class="icon-placeholder">{platform.display_name.charAt(0)}</div>
 								{/if}

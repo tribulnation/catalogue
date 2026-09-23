@@ -151,7 +151,7 @@
 							<li class="market-row">
 								<a href={`/platforms/${ref.platform}`} class="market-platform">
 									{#if platform?.icon}
-										<img src={platform.icon} alt={platform.display_name} width="20" height="20" class="platform-icon" />
+										<img src={platform.icon} alt={platform.display_name} width="20" height="20" class="platform-icon" loading="lazy" decoding="async" />
 									{:else}
 										<span class="platform-icon-fallback">{ref.platform.charAt(0).toUpperCase()}</span>
 									{/if}
@@ -173,7 +173,7 @@
 							<li class="market-row">
 								<a href={`/platforms/${ref.platform}`} class="market-platform">
 									{#if platform?.icon}
-										<img src={platform.icon} alt={platform.display_name} width="20" height="20" class="platform-icon" />
+										<img src={platform.icon} alt={platform.display_name} width="20" height="20" class="platform-icon" loading="lazy" decoding="async" />
 									{:else}
 										<span class="platform-icon-fallback">{ref.platform.charAt(0).toUpperCase()}</span>
 									{/if}

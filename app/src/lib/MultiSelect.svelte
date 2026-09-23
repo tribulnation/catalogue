@@ -70,7 +70,7 @@
 					<label class="item">
 						<input type="checkbox" checked={value.includes(opt.value)} onchange={() => toggle(opt.value)} />
 						{#if opt.icon}
-							<img src={opt.icon} alt="" class="opt-icon" width="18" height="18" />
+							<img src={opt.icon} alt="" class="opt-icon" width="18" height="18" loading="lazy" decoding="async" />
 						{:else if opt.iconFallback}
 							<span class="opt-icon-fallback">{opt.iconFallback}</span>
 						{/if}
