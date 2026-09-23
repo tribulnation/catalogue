@@ -14,5 +14,17 @@
 		}
 	],
 	"workers_dev": true,
-	"preview_urls": true
+	"preview_urls": true,
+	"env": {
+		// Deployed from the dev branch by .github/workflows/deploy-dev.yml.
+		"dev": {
+			"name": "catalogue-dev",
+			"routes": [
+				{
+					"pattern": "dev-catalogue.tribulnation.com",
+					"custom_domain": true
+				}
+			]
+		}
+	}
 }

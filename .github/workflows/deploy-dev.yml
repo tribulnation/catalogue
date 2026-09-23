@@ -1,0 +1,57 @@
+name: Deploy dev
+
+on:
+  push:
+    branches: [dev]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-dev
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: cloudflare-production
+      url: https://dev-catalogue.tribulnation.com
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build API
+        run: python scripts/build_api.py --public-url https://dev-catalogue.tribulnation.com
+
+      # Keep the dev site out of search results; production stays crawlable.
+      - name: Disallow crawling
+        run: printf 'User-agent: *\nDisallow: /\n' > app/static/robots.txt
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: yarn
+          cache-dependency-path: app/yarn.lock
+
+      - name: Install Node dependencies
+        run: yarn --cwd app install --frozen-lockfile
+
+      - name: Build site
+        run: yarn --cwd app build
+
+      - name: Deploy to Cloudflare
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: app
+          environment: dev

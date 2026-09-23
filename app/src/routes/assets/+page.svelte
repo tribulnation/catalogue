@@ -1,27 +1,47 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import MultiSelect from '$lib/MultiSelect.svelte';
 	import type { MultiSelectOption } from '$lib/MultiSelect.svelte';
+	import Pager from '$lib/Pager.svelte';
+	import { ListState, pageCount, pageSlice } from '$lib/listState.svelte';
+	import { ASSET_PAGE_SIZE, type AssetSummary } from '$lib/assets';
 
 	let { data } = $props();
 
-	let query = $state('');
+	const list = new ListState();
 	let selectedTags = $state<string[]>([]);
 	let selectedCategories = $state<string[]>([]);
 
+	// The prerendered page only carries the first page; the full list loads after mount.
+	let allAssets = $state<AssetSummary[] | null>(null);
+	let loadError = $state(false);
+
+	onMount(() => {
+		fetch('/api/v1/assets.json')
+			.then((r) => r.json())
+			.then((assets: AssetSummary[]) => (allAssets = assets))
+			.catch(() => (loadError = true));
+	});
+
 	const tagOptions = $derived<MultiSelectOption[]>(
-		[...new Set(data.assets.flatMap((a: { tags?: string[] }) => a.tags ?? []))].sort()
-			.map((tag: string) => ({ value: tag, label: tag }))
+		data.tags.map((tag: string) => ({ value: tag, label: tag }))
 	);
 
 	const categoryOptions = $derived<MultiSelectOption[]>(
-		Array.from(new Set(data.assets.map((a: { category?: string }) => a.category).filter((c: string | undefined): c is string => !!c)))
-			.sort()
-			.map((category: string) => ({ value: category, label: category.charAt(0).toUpperCase() + category.slice(1) }))
+		data.categories.map((category: string) => ({
+			value: category,
+			label: category.charAt(0).toUpperCase() + category.slice(1)
+		}))
 	);
 
-	const filtered = $derived(
-		data.assets.filter((a: { display_name: string; symbol: string; id: string; tags?: string[]; category?: string }) => {
-			const q = query.trim().toLowerCase();
+	const filtering = $derived(
+		list.query.trim() !== '' || selectedTags.length > 0 || selectedCategories.length > 0
+	);
+
+	const filtered = $derived.by(() => {
+		if (!allAssets) return data.firstPage;
+		const q = list.query.trim().toLowerCase();
+		return allAssets.filter((a) => {
 			const matchesQuery =
 				q === '' ||
 				a.display_name.toLowerCase().includes(q) ||
@@ -32,8 +52,15 @@
 			const matchesCategory =
 				selectedCategories.length === 0 || (!!a.category && selectedCategories.includes(a.category));
 			return matchesQuery && matchesTag && matchesCategory;
-		})
-	);
+		});
+	});
+
+	// Until the full list arrives only the unfiltered first page can be shown.
+	const loading = $derived(!allAssets && (filtering || list.page > 1));
+	const matchCount = $derived(allAssets ? filtered.length : data.total);
+	const currentPage = $derived(Math.min(list.page, pageCount(matchCount, ASSET_PAGE_SIZE)));
+	const cards = $derived(allAssets ? pageSlice(filtered, currentPage, ASSET_PAGE_SIZE) : filtered);
+	const setPage = (p: number) => (list.page = p);
 </script>
 
 <svelte:head>
@@ -44,38 +71,45 @@
 	<div class="header">
 		<div>
 			<h1>Assets</h1>
-			<p class="subtitle">{data.assets.length} assets</p>
+			<p class="subtitle">{data.total} assets</p>
 		</div>
 		<div class="controls">
 			<MultiSelect
 				options={categoryOptions}
-				bind:value={selectedCategories}
+				bind:value={() => selectedCategories, (v) => ((selectedCategories = v), list.resetPage())}
 				placeholder="Filter by category…"
 			/>
 			<MultiSelect
 				options={tagOptions}
-				bind:value={selectedTags}
+				bind:value={() => selectedTags, (v) => ((selectedTags = v), list.resetPage())}
 				placeholder="Filter by tag…"
 			/>
 			<input
 				type="search"
 				placeholder="Search by name or symbol…"
-				bind:value={query}
+				bind:value={list.query}
+				oninput={list.resetPage}
 				class="search"
 			/>
 		</div>
 	</div>
 
-	{#if filtered.length === 0}
-		<p class="empty">No assets match "{query}"</p>
+	<Pager total={matchCount} size={ASSET_PAGE_SIZE} bind:page={() => currentPage, setPage} />
+
+	{#if loadError}
+		<p class="empty">Could not load assets. Try reloading the page.</p>
+	{:else if loading}
+		<p class="empty">Loading…</p>
+	{:else if cards.length === 0}
+		<p class="empty">No assets match the current filters</p>
 	{:else}
 		<ul class="grid">
-			{#each filtered as asset}
+			{#each cards as asset (asset.id)}
 				<li>
 					<a href={`/assets/${asset.id}`} class="asset-card">
 						<div class="icon-wrap">
 							{#if asset.icon}
-								<img src={asset.icon} alt={asset.display_name} width="36" height="36" />
+								<img src={asset.icon} alt={asset.display_name} width="36" height="36" loading="lazy" decoding="async" />
 							{:else}
 								<div class="icon-placeholder">{asset.symbol?.charAt(0) ?? '?'}</div>
 							{/if}
@@ -89,6 +123,8 @@
 			{/each}
 		</ul>
 	{/if}
+
+	<Pager total={matchCount} size={ASSET_PAGE_SIZE} bind:page={() => currentPage, setPage} scrollTop />
 </main>
 
 <style>
