@@ -23,6 +23,21 @@ def asset_categories(assets: Mapping[str, Asset]):
         errors.append(f'[ASSET CATEGORY ERROR] Asset "{id}" has invalid category "{category}". Must be one of {_valid_asset_categories}')
   return errors
 
+# Tags that only restate the asset's category (compared case-insensitively)
+_redundant_tags: Mapping[str, set[str]] = {
+  'stablecoin': {'stablecoin', 'fiat'},
+}
+
+def asset_tags(assets: Mapping[str, Asset]):
+  errors: list[str] = []
+  for id, asset in assets.items():
+    if (category := asset.get('category')) is not None:
+      redundant = _redundant_tags.get(category, set()) | {category}
+      for tag in asset.get('tags', []):
+        if tag.lower() in redundant:
+          errors.append(f'[ASSET TAG ERROR] Asset "{id}" has tag "{tag}", which is redundant with its category "{category}"')
+  return errors
+
 def platform_keys(kind: str, platforms: Mapping[str, Platform], items: Mapping[str, object]):
   errors: list[str] = []
   for platform in items:
@@ -255,6 +270,7 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(native_assets(catalogue.assets, catalogue.platforms))
   errors.extend(asset_pegs(catalogue.assets))
   errors.extend(asset_categories(catalogue.assets))
+  errors.extend(asset_tags(catalogue.assets))
   errors.extend(urls('ASSET', catalogue.assets))
   errors.extend(urls('PLATFORM', catalogue.platforms))
   errors.extend(platform_keys('ASSET TRANSLATION', catalogue.platforms, catalogue.asset_translations))
