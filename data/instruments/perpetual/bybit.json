@@ -757,6 +757,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/COMPUSDT"
   },
+  "CONLUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-coin-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CONLUSDT"
+  },
   "COOKIEUSDT": {
     "exchange": "perp",
     "base": "cookie",
@@ -1296,6 +1303,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/HYPEUSDT"
   },
+  "IBITUSDT": {
+    "exchange": "perp",
+    "base": "ishares-bitcoin-trust",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/IBITUSDT"
+  },
   "ICNTPERP": {
     "exchange": "perp",
     "base": "impossible-cloud-network",
@@ -1687,6 +1701,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/MSFTUSDT"
+  },
+  "MSFUUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-msft-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MSFUUSDT"
   },
   "MSTRUSDT": {
     "exchange": "perp",
