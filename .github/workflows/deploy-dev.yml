@@ -34,7 +34,11 @@ jobs:
 
       # Keep the dev site out of search results; production stays crawlable.
       - name: Disallow crawling
-        run: printf 'User-agent: *\nDisallow: /\n' > app/static/robots.txt
+        run: |
+          cat > app/static/robots.txt <<'EOF'
+          User-agent: *
+          Disallow: /
+          EOF
 
       - uses: actions/setup-node@v4
         with:
