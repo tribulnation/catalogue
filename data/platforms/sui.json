@@ -10,5 +10,8 @@
     "Website": "https://sui.io/"
   },
   "icon": "icons/asset/sui.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "category": "move",
+  "namespace": "sui",
+  "chain_id": "mainnet"
 }

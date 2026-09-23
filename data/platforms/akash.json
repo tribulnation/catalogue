@@ -8,5 +8,8 @@
   "urls": {
     "Website": "https://akash.network/"
   },
-  "icon": "icons/asset/akash-network.svg"
+  "icon": "icons/asset/akash-network.svg",
+  "category": "cosmos-sdk",
+  "namespace": "cosmos",
+  "chain_id": "akashnet-2"
 }

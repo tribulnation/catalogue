@@ -8,5 +8,8 @@
   "urls": {
     "Website": "https://digibyte.org/"
   },
-  "icon": "icons/asset/digibyte.svg"
+  "icon": "icons/asset/digibyte.svg",
+  "category": "utxo",
+  "namespace": "bip122",
+  "chain_id": "7497ea1b465eb39f1c8f507bc877078f"
 }

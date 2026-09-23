@@ -7,5 +7,8 @@
   "urls": {
     "Website": "https://www.zircuit.com/"
   },
-  "icon": "icons/asset/zircuit.svg"
+  "icon": "icons/asset/zircuit.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 48900
 }

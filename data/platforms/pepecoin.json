@@ -8,5 +8,8 @@
   "urls": {
     "Website": "https://pepecoin.com/"
   },
-  "icon": "icons/asset/pepecoin.svg"
+  "icon": "icons/asset/pepecoin.svg",
+  "category": "utxo",
+  "namespace": "bip122",
+  "chain_id": "37981c0c48b8d48965376c8a42ece9a0"
 }

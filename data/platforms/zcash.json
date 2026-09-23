@@ -10,5 +10,8 @@
     "Website": "https://z.cash/"
   },
   "icon": "icons/asset/zcash.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "category": "utxo",
+  "namespace": "bip122",
+  "chain_id": "00040fe8ec8471911baa1db1266ea15d"
 }

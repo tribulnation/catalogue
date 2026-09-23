@@ -10,5 +10,8 @@
     "Website": "https://bittensor.com/"
   },
   "icon": "icons/asset/bittensor.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "category": "substrate",
+  "namespace": "polkadot",
+  "chain_id": "2f0555cc76fc2840a25a6ea3b9637146"
 }

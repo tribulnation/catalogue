@@ -8,5 +8,8 @@
   "urls": {
     "Website": "https://confluxnetwork.org/"
   },
-  "icon": "icons/asset/conflux.svg"
+  "icon": "icons/asset/conflux.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 1030
 }

@@ -1,12 +1,18 @@
 import os as _os
 import re as _re
 from typing import Mapping, get_args
-from .schema import Asset, Platform, Spot, Perpetual, Debt, Pool, AssetCategory
+from .schema import (
+  Asset, Platform, Spot, Perpetual, Debt, Pool, AssetCategory, BlockchainCategory,
+  BlockchainNamespace,
+)
 from .eip55 import is_checksummed
 from .main import Catalogue
 
 _id_pattern = _re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 _valid_asset_categories = get_args(AssetCategory)
+_valid_blockchain_categories = get_args(BlockchainCategory)
+_valid_blockchain_namespaces = get_args(BlockchainNamespace)
+_cosmos_reference = _re.compile(r'^(?!hashed-)[-a-zA-Z0-9]{1,32}$|^hashed-[0-9a-f]{16}$')
 
 def ids(kind: str, items: Mapping[str, object]):
   errors: list[str] = []
@@ -219,6 +225,36 @@ def pools(pools: Mapping[str, Mapping[str, Pool]], assets: Mapping[str, Asset]):
           errors.append(f'[POOL ERROR] Pool "{id}" on "{platform}" has inexistent asset "{asset}"')
   return errors
 
+def blockchain_ids(platforms: Mapping[str, Platform]):
+  """`namespace:chain_id` must form a CAIP-2 chain id.
+
+  Both fields are set together. The reference is an integer only under
+  `eip155`; every other namespace uses a string. Cosmos chain ids outside
+  `[-a-zA-Z0-9]{1,32}` must be given in their `hashed-` form.
+  """
+  errors: list[str] = []
+  for id, platform in platforms.items():
+    if platform['kind'] != 'blockchain':
+      continue
+    category = platform.get('category')  # type: ignore[union-attr]
+    namespace = platform.get('namespace')  # type: ignore[union-attr]
+    chain_id = platform.get('chain_id')  # type: ignore[union-attr]
+    if category is not None and category not in _valid_blockchain_categories:
+      errors.append(f'[BLOCKCHAIN CATEGORY ERROR] Blockchain "{id}" has invalid category "{category}". Must be one of {_valid_blockchain_categories}')
+    if (namespace is None) != (chain_id is None):
+      errors.append(f'[CHAIN ID ERROR] Blockchain "{id}" must set both "namespace" and "chain_id", or neither')
+      continue
+    if namespace is None:
+      continue
+    if namespace not in _valid_blockchain_namespaces:
+      errors.append(f'[CHAIN ID ERROR] Blockchain "{id}" has invalid namespace "{namespace}". Must be one of {_valid_blockchain_namespaces}')
+    expected = int if namespace == 'eip155' else str
+    if type(chain_id) is not expected:
+      errors.append(f'[CHAIN ID ERROR] Blockchain "{id}" chain_id {chain_id!r} must be {expected.__name__} under namespace "{namespace}"')
+    elif namespace == 'cosmos' and not _cosmos_reference.fullmatch(chain_id):  # type: ignore[arg-type]
+      errors.append(f'[CHAIN ID ERROR] Blockchain "{id}" chain_id "{chain_id}" is not a CAIP-2 cosmos reference; hash it as "hashed-" + sha256(chain_id)[:16]')
+  return errors
+
 def evm_addresses(
   platforms: Mapping[str, Platform], *,
   asset_translations: Mapping[str, Mapping[str, str]],
@@ -268,6 +304,7 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(platform_icons(catalogue.platforms, base_folder))
   errors.extend(platform_order(catalogue.platforms, base_folder))
   errors.extend(native_assets(catalogue.assets, catalogue.platforms))
+  errors.extend(blockchain_ids(catalogue.platforms))
   errors.extend(asset_pegs(catalogue.assets))
   errors.extend(asset_categories(catalogue.assets))
   errors.extend(asset_tags(catalogue.assets))

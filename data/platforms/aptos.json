@@ -10,5 +10,8 @@
     "Website": "https://aptosnetwork.com/"
   },
   "icon": "icons/asset/aptos.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "category": "move",
+  "namespace": "aptos",
+  "chain_id": "1"
 }

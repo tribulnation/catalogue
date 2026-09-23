@@ -9,5 +9,8 @@
     "Website": "https://persistence.one/history/",
     "Documentation": "https://docs.persistence.one/"
   },
-  "icon": "icons/asset/persistence.svg"
+  "icon": "icons/asset/persistence.svg",
+  "category": "cosmos-sdk",
+  "namespace": "cosmos",
+  "chain_id": "core-1"
 }

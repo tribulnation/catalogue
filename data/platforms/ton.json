@@ -10,5 +10,7 @@
     "Website": "https://ton.org/"
   },
   "icon": "icons/asset/toncoin.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "tvm",
+  "chain_id": "-239"
 }

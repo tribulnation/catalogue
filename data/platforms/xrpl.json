@@ -10,5 +10,7 @@
     "Website": "https://xrpl.org/"
   },
   "icon": "icons/asset/xrp.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "xrpl",
+  "chain_id": "0"
 }

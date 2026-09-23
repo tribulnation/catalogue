@@ -1,0 +1,3703 @@
+{
+  "date": "2026-09-23",
+  "sources": [
+    "https://github.com/ChainAgnostic/namespaces",
+    "https://chainid.network/chains.json",
+    "https://github.com/cosmos/chain-registry"
+  ],
+  "method": "Candidate references from registries; each namespace:chain_id derived per the ChainAgnostic caip2.md and read back from a live RPC or explorer where reachable. status: apply = verified proposal; category-only = no CAIP-2 namespace; hold = needs verification or a decision; none = no namespace and no category.",
+  "corrections": [
+    {
+      "id": "solana",
+      "current": "solana:mainnet-beta",
+      "proposed": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp"
+    },
+    {
+      "id": "kava",
+      "current": "cosmos:kava_2222-10",
+      "proposed": "cosmos:hashed-6d4e837e169119f0"
+    }
+  ],
+  "records": [
+    {
+      "id": "ab",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 36888
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "AB Core Mainnet (EVM chain of AB, ex-Newton; kraken 'AB')",
+      "verified": "rpc.core.ab.org eth_chainId -> 0x9018 (36888)",
+      "source": "chainid.network 'AB Core Mainnet'",
+      "confidence": "high",
+      "notes": "Not the legacy Newton chain (eip155:1012, NEW). AB Core is the current AB network."
+    },
+    {
+      "id": "acala",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "fc41b9bd8ef8fe53d58c7ea67c794c7e"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Acala parachain on Polkadot (Substrate side; Kraken 'Acala')",
+      "verified": "acala-rpc-0.aca-api.network chain_getBlockHash[0] -> 0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c; system_chain -> 'Acala'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "Has Acala EVM+ (eip155:787) served via a separate eth-rpc adapter; not exposed by the node (eth_chainId: method not found). Record is the Substrate chain."
+    },
+    {
+      "id": "adi",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 36900
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "ADI Chain mainnet (kucoin 'adi')",
+      "verified": "rpc.adifoundation.ai eth_chainId -> 0x9024 (36900)",
+      "source": "chainid.network 'ADI Chain'",
+      "confidence": "high",
+      "notes": "Record icon points at icons/asset/adi-token.svg (cosmetic). chainid.network also lists 'ADI Network AB Testnet' 99999."
+    },
+    {
+      "id": "akash",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "akashnet-2"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Akash Network Cosmos SDK L1 (AKT)",
+      "verified": "https://akash.rpc.uquad.org:443 GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='akashnet-2'",
+      "source": "cosmos/chain-registry akash/chain.json (chain_id akashnet-2); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "aleo",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "aleo",
+        "chain_id": "0"
+      },
+      "status": "apply",
+      "family": "other:aleo",
+      "represents": "Aleo mainnet L1 (Kraken 'Aleo')",
+      "verified": "api.explorer.provable.com GET /v1/mainnet/latest/block -> header.metadata.network = 0",
+      "source": "namespaces/aleo/caip2.md",
+      "confidence": "high",
+      "notes": "Reference is the u16 network id as string ('0'=mainnet)."
+    },
+    {
+      "id": "aleph-zero",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "70255b4d28de0fc4e1a193d7e175ad1c"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Aleph Zero mainnet L1 (Substrate; KuCoin 'azero')",
+      "verified": "ws.azero.dev chain_getBlockHash[0] -> 0x70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e; system_chain -> 'Aleph Zero'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "Standalone Substrate chain (not a parachain) but the polkadot namespace covers solo Substrate chains. Aleph Zero EVM L2 (eip155:41455) is a separate chain, not this record. rpc.azero.dev/dwellir failed; ws.azero.dev worked over HTTP."
+    },
+    {
+      "id": "algorand",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "algorand",
+        "chain_id": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73k"
+      },
+      "status": "apply",
+      "family": "other:avm",
+      "represents": "Algorand mainnet L1 (ALGO; network codes ALGO/Algorand)",
+      "verified": "mainnet-api.algonode.cloud GET /v2/transactions/params -> genesis-hash wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8= (genesis-id mainnet-v1.0); URL-safe b64, first 32 chars",
+      "source": "namespaces/algorand/caip2.md",
+      "confidence": "high",
+      "notes": "Matches CAIP test case. Assets are ASAs (numeric ids), not EVM."
+    },
+    {
+      "id": "ao",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:ao",
+      "represents": "AO hyper-parallel compute network (processes/messages on Arweave); Bybit network code AO",
+      "verified": "unverified: no CAIP-2 namespace for AO",
+      "source": "none",
+      "confidence": "medium",
+      "notes": "AO tokens are AO processes addressed by Arweave-style 43-char ids; settles data on Arweave but is a distinct compute layer, so arweave:7wIU would be wrong for it. No native_asset set on the record."
+    },
+    {
+      "id": "aptos",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "move",
+        "namespace": "aptos",
+        "chain_id": "1"
+      },
+      "status": "apply",
+      "family": "move",
+      "represents": "Aptos mainnet L1",
+      "verified": "fullnode.mainnet.aptoslabs.com GET /v1 -> chain_id 1",
+      "source": "namespaces/aptos/caip2.md",
+      "confidence": "high",
+      "notes": "Move (Aptos flavour); assets addressed as 0x..::module::Struct or FA object addresses."
+    },
+    {
+      "id": "arbitrum-nova",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 42170
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Arbitrum Nova AnyTrust L2",
+      "verified": "nova.arbitrum.io/rpc eth_chainId -> 0xa4ba (42170)",
+      "source": "chainid.network",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "arc",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 5042
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Arc mainnet (Circle, USDC gas)",
+      "verified": "rpc.mainnet.arc.io eth_chainId -> 0x13b2 (5042)",
+      "source": "chainid.network 'Arc'",
+      "confidence": "high",
+      "notes": "Testnet is 5042002; do not confuse."
+    },
+    {
+      "id": "arweave",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "arweave",
+        "chain_id": "7wIU"
+      },
+      "status": "apply",
+      "family": "other:arweave",
+      "represents": "Arweave permaweb mainnet",
+      "verified": "arweave.net GET /block/height/0 -> indep_hash 7wIU7KolICAjClMlcZ38LZzshhI7xGkm2tD...; /info network arweave.N.1",
+      "source": "namespaces/arweave/caip2.md",
+      "confidence": "high",
+      "notes": "Reference is the 4-char genesis-hash prefix per spec."
+    },
+    {
+      "id": "astar",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "9eb76c5184c4ab8679d2d5d819fdf90b"
+      },
+      "status": "apply",
+      "family": "substrate (if native Substrate side) / evm (if Astar EVM)",
+      "represents": "AMBIGUOUS: Astar parachain; native ASTR on Kraken 'Astar'/KuCoin 'astr' (no contract). Same chain exposes Substrate (SS58) and EVM (0x, eip155:592) account spaces",
+      "verified": "rpc.astar.network + astar.api.onfinality.io chain_getBlockHash[0] -> 0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6, system_chain 'Astar'; evm.astar.network eth_chainId -> 0x250 (592)",
+      "source": "namespaces/polkadot/caip2.md; chainid.network 'Astar' 592",
+      "confidence": "medium",
+      "notes": "Exchange deposits for native ASTR typically use SS58 Substrate addresses, so suggest astar = substrate/polkadot:9eb76c5184c4ab8679d2d5d819fdf90b and, if ERC-20s on Astar EVM are ever needed, a split record 'astar-evm' = evm/eip155:592 (kava pattern). Could not confirm exchange address format without authenticated APIs."
+    },
+    {
+      "id": "autonomys",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "66455a580aabff303720aa83adbe6c44"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Autonomys (ex-Subspace) consensus chain mainnet",
+      "verified": "rpc-0.mainnet.autonomys.xyz chain_getBlockHash[0] -> 0x66455a580aabff303720aa83adbe6c44502922251c03ba73686d5245da9e21bd; system_chain -> 'Autonomys Mainnet'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "Solo Substrate chain. Auto EVM domain (eip155:870) is a separate environment; Kraken 'Autonomys' network is the consensus chain (AI3 native)."
+    },
+    {
+      "id": "avail",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "b91746b45e0346cc2f815a520b9c6cb4"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Avail DA mainnet (Substrate solo chain; Bybit AVAIL/KuCoin avail)",
+      "verified": "mainnet-rpc.avail.so/rpc chain_getBlockHash[0] -> 0xb91746b45e0346cc2f815a520b9c6cb4d5c0902af848db0a80f85932d2e8276a; system_chain -> 'Avail DA Mainnet'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "AVAIL also exists as ERC-20 on Ethereum/Base; exchange network code AVAIL is the native DA chain."
+    },
+    {
+      "id": "avalanche-x-chain",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "avax",
+        "chain_id": "imji8papUf2EhV3le337w1vgFauqkJg-"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Avalanche X-Chain (AVM, UTXO asset chain), distinct from C-Chain; Bybit XAVAX, KuCoin avax",
+      "verified": "api.avax.network/ext/info info.getBlockchainID(alias X) -> 2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM; first32(base64url(sha256(id))) computed locally = imji8papUf2EhV3le337w1vgFauqkJg-",
+      "source": "namespaces/avalanche/caip2.md (namespace prefix is 'avax', folder named avalanche)",
+      "confidence": "high",
+      "notes": "Matches CAIP test case. Family could also be labelled other:avalanche-avm; it is a UTXO DAG with its own asset ids. Namespace to add is 'avax' not 'avalanche'. KuCoin code 'avax' -> X-Chain: worth double-checking KuCoin really means X-Chain (vs C-Chain) but not in scope."
+    },
+    {
+      "id": "aventus",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "8b5c955b5c8fd7112562327e3859473d"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Aventus Network (AvN) parachain on Polkadot (system_chain 'AvN Polkadot'); Kraken 'Aventus' network",
+      "verified": "avn-parachain.mainnet.aventus.io and public-rpc.mainnet.aventus.io chain_getBlockHash[0] -> 0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+      "source": "namespaces/polkadot/caip2.md",
+      "confidence": "high",
+      "notes": "No EVM runtime on AvN; AVT on Ethereum is an ERC-20 (separate). Not EVM."
+    },
+    {
+      "id": "axelar",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "axelar-dojo-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Axelar Cosmos SDK L1 (AXL); exchange network code AXL",
+      "verified": "https://axelar-lcd.qubelabs.io:443 GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='axelar-dojo-1'",
+      "source": "cosmos/chain-registry axelar/chain.json (chain_id axelar-dojo-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "babylon",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "bbn-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Babylon Genesis Cosmos SDK L1 (BABY), bbn-1",
+      "verified": "https://babylon-api.polkachu.com GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='bbn-1'",
+      "source": "cosmos/chain-registry babylon/chain.json (chain_id bbn-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "CosmWasm enabled."
+    },
+    {
+      "id": "band",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "laozi-mainnet"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "BandChain oracle L1 (BAND)",
+      "verified": "https://laozi1.bandchain.org/api GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='laozi-mainnet'",
+      "source": "cosmos/chain-registry bandchain/chain.json (chain_id laozi-mainnet); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "beldex",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:cryptonote",
+      "represents": "Beldex L1 mainnet (CryptoNote/Monero-derived privacy chain)",
+      "verified": "explorer.beldex.io /api/block/0 -> genesis 6ea477622339f61c5fba036dc75c08b6efcf9ee09c108e5c5591fcc233d17b20 (for reference only)",
+      "source": "namespaces repo has no beldex namespace",
+      "confidence": "high",
+      "notes": "no CAIP-2 namespace. The 'monero' namespace is Monero-specific; if a namespace were proposed, the analogous reference would be 6ea477622339f61c5fba036dc75c08b6."
+    },
+    {
+      "id": "bifrost-kusama",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "9f28c6a68e0fc9646eff64935684f6ee"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Bifrost parachain on Kusama",
+      "verified": "bifrost-rpc.liebi.com chain_getBlockHash[0] -> 0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed; system_chain -> 'Bifrost'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "system_chain just says 'Bifrost'; this endpoint/genesis is the Kusama deployment (Bifrost Polkadot is a different chain with its own genesis; its RPC hk.p.bifrost-rpc.liebi.com was blocked for comparison). medium-high."
+    },
+    {
+      "id": "bitcoin",
+      "current": {
+        "category": null,
+        "namespace": "bip122",
+        "chain_id": "000000000019d6689c085ae165831e93"
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "000000000019d6689c085ae165831e93"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Bitcoin L1 mainnet",
+      "verified": "mempool.space /api/block-height/0 and api.blockcypher.com/v1/btc/main/blocks/0 and btc1.trezor.io blockbook -> 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f; bitcoin/bitcoin kernel/chainparams.cpp assert matches",
+      "source": "namespaces/bip122/caip2.md test case; BIP122",
+      "confidence": "high",
+      "notes": "EXISTING value correct."
+    },
+    {
+      "id": "bitcoin-cash",
+      "current": {
+        "category": null,
+        "namespace": "bip122",
+        "chain_id": "000000000000000000651ef99cb9fcbe"
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "000000000000000000651ef99cb9fcbe"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Bitcoin Cash (BCH) L1 mainnet",
+      "verified": "bchblockexplorer.com blockbook /api/v2/block-index/478559 and api.blockchain.info haskoin-store bch heights=478559 -> 000000000000000000651ef99cb9fcbe0dadde1d424bd9f15ff20136191a5eec; BCHN chainparams.cpp checkpoint 'UAHF fork block' 478559 matches",
+      "source": "namespaces/bip122/caip2.md test case (uses first post-fork block, since genesis is shared with BTC)",
+      "confidence": "high",
+      "notes": "EXISTING value correct. Reference is the fork block 478559, not the genesis (BCH genesis == BTC genesis)."
+    },
+    {
+      "id": "bitgert",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 32520
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Bitgert / Brise Chain mainnet (kucoin 'brise')",
+      "verified": "rpc-bitgert.icecreamswap.com eth_chainId -> 0x7f08 (32520)",
+      "source": "chainid.network 'Bitgert Mainnet'",
+      "confidence": "high",
+      "notes": "mainnet-rpc.brisescan.com returned 502."
+    },
+    {
+      "id": "bitlayer",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 200901
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Bitlayer mainnet (BTC L2, EVM execution)",
+      "verified": "rpc.bitlayer.org eth_chainId -> 0x310c5 (200901)",
+      "source": "chainid.network 'Bitlayer Mainnet'",
+      "confidence": "high",
+      "notes": "EVM account model even though BTC-secured."
+    },
+    {
+      "id": "bittensor",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "2f0555cc76fc2840a25a6ea3b9637146"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Bittensor Finney mainnet (Subtensor, Substrate side)",
+      "verified": "entrypoint-finney.opentensor.ai chain_getBlockHash[0] -> 0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03; system_chain -> 'Bittensor'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "Hybrid: node answers eth_chainId=0x3c4 (eip155:964, Bittensor EVM). Exchange TAO networks (Binance/Kraken/KuCoin/MEXC/Bitget/Deribit) use SS58 addresses -> Substrate side."
+    },
+    {
+      "id": "camp-network",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 484
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Camp Network mainnet",
+      "verified": "camp.cloud.blockscout.com/api/eth-rpc and 484.rpc.thirdweb.com eth_chainId -> 0x1e4 (484)",
+      "source": "chainid.network 'Camp Network Mainnet'",
+      "confidence": "high",
+      "notes": "Official Gelato RPC rpc.camp.raas.gelato.cloud blocked by proxy (502); verified via Blockscout eth-rpc and thirdweb."
+    },
+    {
+      "id": "canton",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:daml",
+      "represents": "Canton Network (Global Synchronizer, Daml ledger; CC coin)",
+      "verified": "unverified: no CAIP-2 namespace for Canton",
+      "source": "none",
+      "confidence": "medium",
+      "notes": "Privacy-preserving Daml ledger, party ids not addresses."
+    },
+    {
+      "id": "cardano",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "category-only",
+      "family": "utxo",
+      "represents": "Cardano mainnet L1 (ADA)",
+      "verified": "unverified for CAIP: no namespace in ChainAgnostic repo. Live api.koios.rest /api/v1/genesis -> networkmagic 764824073, networkid Mainnet",
+      "source": "none (CIP-34 'cip34:1-764824073' exists outside ChainAgnostic)",
+      "confidence": "high",
+      "notes": "eUTXO; native assets are policyId+assetName. If a namespace is proposed, CIP-34 format would be cip34:1-764824073."
+    },
+    {
+      "id": "casper",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "casper",
+        "chain_id": "casper"
+      },
+      "status": "apply",
+      "family": "other:casper",
+      "represents": "Casper Network mainnet",
+      "verified": "node.mainnet.casper.network/rpc info_get_status -> chainspec_name 'casper'",
+      "source": "namespaces/casper/caip2.md",
+      "confidence": "high",
+      "notes": "Wasm contracts; account-hash/contract-hash addressing."
+    },
+    {
+      "id": "celestia",
+      "current": {
+        "category": null,
+        "namespace": "cosmos",
+        "chain_id": "celestia"
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "celestia"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Celestia DA L1 (TIA)",
+      "verified": "https://celestia.rpc.uquad.org:443 GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='celestia'",
+      "source": "cosmos/chain-registry celestia/chain.json (chain_id celestia); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Existing cosmos:celestia correct."
+    },
+    {
+      "id": "chiliz",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 88888
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Chiliz Chain mainnet",
+      "verified": "rpc.chiliz.com eth_chainId -> 0x15b38 (88888)",
+      "source": "chainid.network",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "citrea",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 4114
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Citrea mainnet (BTC zk-rollup, EVM)",
+      "verified": "rpc.mainnet.citrea.xyz eth_chainId -> 0x1012 (4114)",
+      "source": "chainid.network 'Citrea Mainnet'",
+      "confidence": "high",
+      "notes": "Testnet 5115."
+    },
+    {
+      "id": "codex",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 81224
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Codex mainnet (stablecoin L2)",
+      "verified": "rpc.codex.xyz eth_chainId -> 0x13d48 (81224)",
+      "source": "chainid.network 'Codex'",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "concordium",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "ccd",
+        "chain_id": "9dd9ca4d19e9393877d2c44b70f89acb"
+      },
+      "status": "hold",
+      "family": "other:concordium",
+      "represents": "Concordium mainnet (KuCoin ccd)",
+      "verified": "unverified: ccdscan GraphQL (mainnet.api.ccdscan.io) returned 404/empty for genesis-block queries; wallet-proxy reachable but does not expose genesis hash; gRPC GetConsensusInfo not reachable via curl",
+      "source": "namespaces/ccd/caip2.md test case",
+      "confidence": "medium",
+      "notes": "Namespace prefix is 'ccd'. Value is first 32 hex chars of genesis block hash per spec test case."
+    },
+    {
+      "id": "conflux-core",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "conflux",
+        "chain_id": "cfx"
+      },
+      "status": "apply",
+      "family": "other:conflux-core",
+      "represents": "Conflux Core Space (native Conflux, base32 cfx: addresses); eSpace is separate record conflux-espace (eip155:1030); KuCoin cfxcore",
+      "verified": "main.confluxrpc.com cfx_getStatus -> networkId 0x405 (1029), ethereumSpaceChainId 0x406",
+      "source": "namespaces/conflux/caip2.md",
+      "confidence": "high",
+      "notes": "Spec is internally inconsistent: syntax says reference is integer network id (1029) but test cases use 'cfx' (mainnet) / 'cfxtest' / 'net<id>'. Following test cases -> 'cfx'. Core Space is EVM-like bytecode but NOT EVM addressing (CIP-37 base32), so must not be category evm."
+    },
+    {
+      "id": "conflux-espace",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 1030
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Conflux eSpace (EVM space; kucoin 'cfx'; Core Space is separate record conflux-core via 'cfxcore')",
+      "verified": "evm.confluxrpc.com eth_chainId -> 0x406 (1030)",
+      "source": "chainid.network 'Conflux eSpace'",
+      "confidence": "high",
+      "notes": "The ChainAgnostic 'conflux' namespace applies to Core Space (conflux-core), not eSpace."
+    },
+    {
+      "id": "constellation",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:constellation",
+      "represents": "Constellation Hypergraph / DAG L0 (DAG token; KuCoin dag)",
+      "verified": "unverified: no CAIP-2 namespace",
+      "source": "none",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "id": "core",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 1116
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Core (CoreDAO) mainnet",
+      "verified": "rpc.coredao.org eth_chainId -> 0x45c (1116)",
+      "source": "chainid.network 'Core Blockchain Mainnet'",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "coreum",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "coreum-mainnet-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Coreum L1 (CORE, now TX brand)",
+      "verified": "https://rest-01.mainnet-1.tx.org GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='coreum-mainnet-1'",
+      "source": "cosmos/chain-registry coreum/chain.json (chain_id coreum-mainnet-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Registry REST hosts are on tx.org (rebrand)."
+    },
+    {
+      "id": "cosmos",
+      "current": {
+        "category": null,
+        "namespace": "cosmos",
+        "chain_id": "cosmoshub-4"
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "cosmoshub-4"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Cosmos Hub (ATOM)",
+      "verified": "https://rest.cosmoshub-main.ccvalidators.com:443 GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='cosmoshub-4'",
+      "source": "cosmos/chain-registry cosmoshub/chain.json (chain_id cosmoshub-4); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Existing cosmos:cosmoshub-4 correct."
+    },
+    {
+      "id": "dash",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "00000ffd590b1485b3caadc19b22e637"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Dash L1 mainnet (core chain; Dash Platform/Evolution is separate)",
+      "verified": "api.blockcypher.com/v1/dash/main/blocks/0 -> 00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6; dashpay/dash src/chainparams.cpp assert matches",
+      "source": "BIP122 genesis-prefix rule (no Dash test case in namespaces repo)",
+      "confidence": "high",
+      "notes": "Bitcoin-codebase fork with its own genesis; bip122 applies by rule but is not listed as a test case."
+    },
+    {
+      "id": "decred",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "298e5cc3d985bfe7f81dc135f360abe0"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Decred L1 mainnet",
+      "verified": "dcrdata.decred.org /api/block/0/hash -> 298e5cc3d985bfe7f81dc135f360abe089edd4396b86d2de66b0cef42b21d980",
+      "source": "BIP122 genesis-prefix rule",
+      "confidence": "medium",
+      "notes": "Decred is a btcd-derived (Go rewrite, BLAKE-256) UTXO chain, not a Bitcoin Core fork; bip122 applicable by rule only, no precedent in the namespaces repo. Alternatively leave namespace null."
+    },
+    {
+      "id": "digibyte",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "7497ea1b465eb39f1c8f507bc877078f"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "DigiByte L1 mainnet",
+      "verified": "digiexplorer.info /api/block-height/0 -> 7497ea1b465eb39f1c8f507bc877078fe016d6fcb6dfad3a64c98dcc6e1e8496; DigiByte-Core/digibyte kernel/chainparams.cpp assert matches",
+      "source": "BIP122 genesis-prefix rule",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "dogecoin",
+      "current": {
+        "category": null,
+        "namespace": "bip122",
+        "chain_id": "1a91e3dace36e2be3bf030a65679fe82"
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "1a91e3dace36e2be3bf030a65679fe82"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Dogecoin L1 mainnet",
+      "verified": "api.blockcypher.com/v1/doge/main/blocks/0 -> 1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691; dogecoin/dogecoin chainparams.cpp assert matches",
+      "source": "namespaces/bip122/caip2.md test case",
+      "confidence": "high",
+      "notes": "EXISTING value correct."
+    },
+    {
+      "id": "dymension",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "hashed-36eafc7f1029ed04"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Dymension hub, Cosmos side (DYM)",
+      "verified": "https://api.dymension.nodestake.org GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='dymension_1100-1'",
+      "source": "cosmos/chain-registry dymension/chain.json (chain_id dymension_1100-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Chain id contains \"_\" which is outside [-a-zA-Z0-9]; per namespaces/cosmos/caip2.md must be hashed: sha256(\"dymension_1100-1\")[:16] => hashed-36eafc7f1029ed04. Has EVM side eip155:1100 (chainlist; live eth_chainId probes failed: agoranodes 502, hoodrun reset) -> a separate dymension-evm record would be needed if EVM tokens are tracked."
+    },
+    {
+      "id": "ecash",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "000000000000000004284c9d8b2c8ff7"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "eCash (XEC) L1 mainnet, split from Bitcoin Cash ABC in Nov 2020",
+      "verified": "chronik.e.cash /block/661648 (protobuf; decoded hash, height=661648) -> 000000000000000004284c9d8b2c8ff731efeaec6be50729bdc9bd07f910757d; genesis shared with BTC per Bitcoin-ABC kernel/chainparams.cpp (axionHeight=661647 = last common block)",
+      "source": "BIP122 + bip122 caip2.md fork-block convention used for BCH",
+      "confidence": "medium",
+      "notes": "eCash shares BTC/BCH genesis, so by the BCH precedent the reference is the first post-fork block (661648). No eCash test case exists in the namespaces repo, so this is an inferred convention."
+    },
+    {
+      "id": "eclipse",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "svm",
+        "namespace": "solana",
+        "chain_id": "EAQLJCV2mh23BsK2P9oYpV5CHVLDNHTx"
+      },
+      "status": "apply",
+      "family": "svm",
+      "represents": "Eclipse mainnet (SVM L2 on Ethereum; Bybit ECLIPSE)",
+      "verified": "mainnetbeta-rpc.eclipse.xyz getGenesisHash -> EAQLJCV2mh23BsK2P9oYpV5CHVLDNHTxYss3URrNmg3s (truncated to 32)",
+      "source": "namespaces/solana/caip2.md (namespace = Solana open-source platform, genesis-hash reference)",
+      "confidence": "medium",
+      "notes": "Using solana namespace for a non-Solana SVM chain is consistent with the spec wording but not explicitly endorsed; note the catalogue's own solana record uses 'mainnet-beta' instead of the genesis prefix, so choose one convention for all three. Gas token is ETH; SPL-style base58 mint addresses."
+    },
+    {
+      "id": "elastos",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "category-only",
+      "family": "utxo (other:elastos)",
+      "represents": "Elastos ELA main chain (UTXO, Bitcoin-merged-mined); KuCoin 'ela' chain carries ELA asset id a3d0eaa466df74983b5d7c543de6904f4c9418ead5ffd6d25814234a96db37b0. KuCoin 'esc' (Elastos Smart Chain, eip155:20) is NOT mapped in the catalogue",
+      "verified": "api.elastos.io/ela getblockhash 0 -> 05f458a5522851622cae2bb138498dec60a8f0b233802c97a1ca41f9f214708d; api.elastos.io/esc eth_chainId -> 0x14 (20)",
+      "source": "KuCoin /api/v3/currencies/ELA; chainid.network 'Elastos Smart Chain' 20",
+      "confidence": "high",
+      "notes": "No CAIP-2 namespace for the ELA main chain (not Bitcoin protocol, so bip122 is inappropriate). Not EVM despite being on the suspected-EVM list. If ESC is ever added, it would be a separate record elastos-smart-chain = evm/eip155:20."
+    },
+    {
+      "id": "electroneum",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 52014
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Electroneum EVM mainnet (kucoin 'etnevm')",
+      "verified": "rpc.electroneum.com eth_chainId -> 0xcb2e (52014)",
+      "source": "chainid.network 'Electroneum Mainnet'",
+      "confidence": "high",
+      "notes": "Legacy CryptoNote ETN chain is not what this record represents (display name 'Electroneum EVM')."
+    },
+    {
+      "id": "enjin",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "3af4ff48ec76d2efc8476730f423ac07"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Enjin Matrixchain (parachain of Enjin Relaychain), inferred",
+      "verified": "rpc.matrix.blockchain.enjin.io chain_getBlockHash[0] -> 0x3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615; system_chain -> 'Enjin Matrixchain'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "medium",
+      "notes": "AMBIGUOUS: record is named just 'Enjin' and only KuCoin 'enj' maps to it. Since Kraken's relaychain has its own record, 'enjin' is most plausibly Matrixchain (where ENJ exchange deposits live). Consider renaming to enjin-matrixchain. KuCoin 'enj' could historically have meant ENJ ERC-20 on Ethereum - worth checking KuCoin's contract/address field."
+    },
+    {
+      "id": "enjin-relaychain",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "d8761d3c88f26dc12875c00d3165f7d6"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Enjin Relaychain (Enjin's own relay chain)",
+      "verified": "rpc.relay.blockchain.enjin.io chain_getBlockHash[0] -> 0xd8761d3c88f26dc12875c00d3165f7d67243d56fc85b4cf19937601a7916e5a9; system_chain -> 'Enjin Relaychain'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "ergo",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "ergo",
+        "chain_id": "b0244dfc267baca974a4caee06120321"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Ergo L1 mainnet (extended UTXO)",
+      "verified": "node.ergo.watch /info -> genesisBlockId b0244dfc267baca974a4caee06120321562784303a8a688976ae56170e4d175b",
+      "source": "namespaces/ergo/caip2.md test case",
+      "confidence": "high",
+      "notes": "Requires adding 'ergo' to allowed namespaces. Tokens identified by 64-hex token id."
+    },
+    {
+      "id": "ethereum-classic",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 61
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Ethereum Classic mainnet",
+      "verified": "etc.etcdesktop.com eth_chainId -> 0x3d (61)",
+      "source": "chainid.network",
+      "confidence": "high",
+      "notes": "etc.rivet.link blocked (502)."
+    },
+    {
+      "id": "ethereum-pow",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 10001
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "EthereumPoW (ETHW) mainnet",
+      "verified": "mainnet.ethereumpow.org eth_chainId -> 0x2711 (10001)",
+      "source": "live RPC; ETHW docs",
+      "confidence": "high",
+      "notes": "DISCREPANCY: chainid.network lists 10001 as 'Smart Bitcoin Cash Testnet' and has no ETHW entry (chain id collision). Live ETHW RPC returns 10001, so eip155:10001 is right for ETHW but ambiguous as CAIP-2."
+    },
+    {
+      "id": "etherlink",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 42793
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Etherlink mainnet (Tezos smart-rollup EVM)",
+      "verified": "node.mainnet.etherlink.com eth_chainId -> 0xa729 (42793)",
+      "source": "chainid.network 'Etherlink Mainnet'",
+      "confidence": "high",
+      "notes": "EVM side, not Tezos L1 (tezos namespace not applicable)."
+    },
+    {
+      "id": "fetch-ai",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "fetchhub-4"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Fetch.ai mainnet fetchhub (FET)",
+      "verified": "https://rest-fetchhub.fetch.ai GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='fetchhub-4'",
+      "source": "cosmos/chain-registry fetchhub/chain.json (chain_id fetchhub-4); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "filecoin",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "fil",
+        "chain_id": "f"
+      },
+      "status": "apply",
+      "family": "other:filecoin",
+      "represents": "Filecoin mainnet (native FIL/f-addresses; network codes FIL/Filecoin)",
+      "verified": "api.node.glif.io/rpc/v1 Filecoin.StateNetworkName -> 'mainnet' (spec reference is address prefix 'f' for mainnet)",
+      "source": "namespaces/fil/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace is 'fil'. FEVM exists on the same chain as eip155:314; if exchanges ever route FEVM 0x deposits, that would need a separate filecoin-evm record like kava-evm."
+    },
+    {
+      "id": "flare",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 14
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Flare mainnet C-chain (EVM)",
+      "verified": "flare-api.flare.network/ext/C/rpc eth_chainId -> 0xe (14)",
+      "source": "chainid.network 'Flare Mainnet'",
+      "confidence": "high",
+      "notes": "Flare also has a P-chain (staking), but exchanges and tokens use the C-chain."
+    },
+    {
+      "id": "flow",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "flow",
+        "chain_id": "mainnet"
+      },
+      "status": "apply",
+      "family": "other:cadence",
+      "represents": "Flow mainnet, Cadence side (FLOW; network codes Flow/FLOW); about mentions EVM alongside",
+      "verified": "rest-mainnet.onflow.org GET /v1/network/parameters -> chain_id 'flow-mainnet'",
+      "source": "namespaces/flow/caip2.md",
+      "confidence": "high",
+      "notes": "Flow EVM is eip155:747; per kava split pattern it would be a separate flow-evm record. Exchange FLOW deposits are Cadence addresses (16-hex), so this record = Cadence. Consider trimming 'alongside an EVM environment' ambiguity."
+    },
+    {
+      "id": "fluent",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 25363
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Fluent mainnet (blended-execution L2, EVM-compatible accounts)",
+      "verified": "rpc.fluent.xyz eth_chainId -> 0x6313 (25363)",
+      "source": "chainid.network 'Fluent'",
+      "confidence": "high",
+      "notes": "Also supports Wasm/SVM contracts but addresses are 20-byte EVM style; evm category fits."
+    },
+    {
+      "id": "flux",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "00052461a5006c2e3b74ce48992a0869"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Flux L1 mainnet (Zcash/Equihash-derived PoW chain; not the Flux EVM parallel assets)",
+      "verified": "explorer.runonflux.io /api/block-index/0 -> 00052461a5006c2e3b74ce48992a08695607912d5604c3eb8da25749b0900444; RunOnFlux/fluxd chainparams.cpp assert matches",
+      "source": "BIP122 genesis-prefix rule",
+      "confidence": "high",
+      "notes": "KuCoin code 'flux' = native FLUX mainnet (Flux also has 'parallel asset' ERC20/BEP20 tokens on other chains, which are not this record)."
+    },
+    {
+      "id": "fogo",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "svm",
+        "namespace": "solana",
+        "chain_id": "CDLtwKnaCoK157uaHQDj4fHu72AyD251"
+      },
+      "status": "apply",
+      "family": "svm",
+      "represents": "Fogo mainnet (SVM L1; Bybit FOGO)",
+      "verified": "mainnet.fogo.io getGenesisHash -> CDLtwKnaCoK157uaHQDj4fHu72AyD2519Cphmpiq6hvT (truncated to 32)",
+      "source": "namespaces/solana/caip2.md",
+      "confidence": "medium",
+      "notes": "Same caveat as eclipse re solana namespace for SVM forks. Record has no native_asset."
+    },
+    {
+      "id": "fractal-bitcoin",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "00000000000000005a5c13fe33f6717c"
+      },
+      "status": "hold",
+      "family": "utxo",
+      "represents": "Fractal Bitcoin mainnet (separate Bitcoin-Core-codebase chain, not a sidechain/L2 of BTC state)",
+      "verified": "mempool.fractalbitcoin.io /api/block-height/0 -> 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f (same as BTC genesis!); /api/block-height/1 -> 00000000000000005a5c13fe33f6717c7ad81fc8837ae75e4693c16acbdd0f66 (differs from BTC block 1 00000000839a8e68...)",
+      "source": "BIP122 + bip122 caip2.md fork-block convention (BCH precedent)",
+      "confidence": "low",
+      "notes": "Fractal reuses Bitcoin's genesis block, so bip122:000000000019d6689c085ae165831e93 would COLLIDE with bitcoin. Following the BCH precedent the reference would be its first own block (height 1). No official/community registration found; consider leaving namespace/chain_id null. Chainparams source on GitHub not fetched (fractal-bitcoin/fractald-release path 404)."
+    },
+    {
+      "id": "genshiro",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "9b8cefc0eb5c568b527998bdd76c184e"
+      },
+      "status": "hold",
+      "family": "substrate",
+      "represents": "Genshiro parachain on Kusama (Equilibrium), Substrate; project wound down",
+      "verified": "unverified: all known RPCs dead (node.genshiro.io, onfinality, gens-mainnet.equilibrium.io 404, subscan 404). Genesis hash 0x9b8cefc0eb5c568b527998bdd76c184e2b76ae561be76e4667072230217ea243 from @polkadot/networks defaults/genesis.js",
+      "source": "@polkadot/networks knownGenesis; namespaces/polkadot/caip2.md; ss58-registry prefix 67",
+      "confidence": "medium",
+      "notes": "Reference = first 32 hex chars of genesis hash per polkadot caip2.md."
+    },
+    {
+      "id": "gensyn",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 685689
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Gensyn mainnet L2",
+      "verified": "gensyn-mainnet.g.alchemy.com/public eth_chainId -> 0xa7679 (685689)",
+      "source": "chainid.network 'Gensyn Mainnet'",
+      "confidence": "high",
+      "notes": "Testnet 685685."
+    },
+    {
+      "id": "gnoland",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "cosmos",
+        "chain_id": "gnoland-1"
+      },
+      "status": "hold",
+      "family": "other:gno (tendermint2/gnovm, not Cosmos SDK)",
+      "represents": "Gno.land mainnet (GNOT), Tendermint2 + GnoVM; mainnet genesis 2026-09-12",
+      "verified": "https://rpc.gno.land GET /status -> node_info.network='gnoland-1' (height ~273748); /genesis chain_id='gnoland-1', genesis_time 2026-09-12T15:00:00Z",
+      "source": "live RPC only (not in cosmos/chain-registry)",
+      "confidence": "medium",
+      "notes": "Gno.land runs Tendermint2 (a fork/rewrite of Tendermint), not Cosmos SDK. The cosmos CAIP-2 namespace is defined over the Tendermint genesis chain_id, so cosmos:gnoland-1 is a reasonable fit but not formally established; no dedicated gno namespace exists in ChainAgnostic. Kraken/Kucoin network codes map here."
+    },
+    {
+      "id": "hashkey",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 177
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "HashKey Chain mainnet (OP-stack L2, native HSK; kucoin 'hsk')",
+      "verified": "mainnet.hsk.xyz eth_chainId -> 0xb1 (177)",
+      "source": "chainid.network 'HSKChain'",
+      "confidence": "high",
+      "notes": "Record icon icons/asset/hashkey-ecopoints.svg looks like the wrong asset icon (HashKey EcoPoints vs HSK) - cosmetic, flag."
+    },
+    {
+      "id": "hathor",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "category-only",
+      "family": "utxo",
+      "represents": "Hathor Network mainnet (DAG of txs + chain of blocks, UTXO; tokens identified by 64-hex token UID)",
+      "verified": "node1.mainnet.hathor.network /v1a/version -> network 'mainnet'",
+      "source": "namespaces repo has no hathor namespace",
+      "confidence": "high",
+      "notes": "no CAIP-2 namespace."
+    },
+    {
+      "id": "hedera",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "hedera",
+        "chain_id": "mainnet"
+      },
+      "status": "apply",
+      "family": "other:hedera",
+      "represents": "Hedera mainnet (HBAR; account ids 0.0.x, HTS tokens)",
+      "verified": "partial: no in-protocol resolution method per spec; mainnet-public.mirrornode.hedera.com /api/v1/network/nodes responds (mainnet mirror)",
+      "source": "namespaces/hedera/caip2.md",
+      "confidence": "high",
+      "notes": "Hedera also exposes EVM JSON-RPC as eip155:295, but exchange networks use native 0.0.x accounts, so keep hedera:mainnet and non-evm category."
+    },
+    {
+      "id": "hpp",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 190415
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "HPP (House Party Protocol) mainnet, Arbitrum Orbit L2",
+      "verified": "mainnet.hpp.io eth_chainId -> 0x2e7cf (190415)",
+      "source": "chainid.network 'HPP Mainnet'",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "humanode",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "c56fa32442b2dad76f214b3ae07998e4"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Humanode mainnet, native HMND (KuCoin 'hmnd', no contract). Substrate chain with a Frontier EVM side (eHMND, eip155:5234)",
+      "verified": "explorer-rpc-http.mainnet.stages.humanode.io chain_getBlockHash[0] -> 0xc56fa32442b2dad76f214b3ae07998e4ca09736e4813724bfb0717caae2c8bee (system_chain 'Humanode Mainnet'); same host eth_chainId -> 0x1472 (5234)",
+      "source": "namespaces/polkadot/caip2.md; chainid.network 'Humanode Mainnet' 5234 (eHMND)",
+      "confidence": "medium",
+      "notes": "Hybrid. Native HMND/exchange deposits use Substrate (SS58 'hm...') accounts; EVM side uses a separate 'eHMND' balance. Suggest humanode = substrate/polkadot, with an optional 'humanode-evm' = evm/eip155:5234 split if ever needed."
+    },
+    {
+      "id": "hydration",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "afdc188f45c71dacbaa0b62e16a91f72"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Hydration (ex-HydraDX) parachain on Polkadot, Substrate side",
+      "verified": "rpc.hydradx.cloud chain_getBlockHash[0] -> 0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d; system_chain -> 'Hydration'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "Hybrid: same node also answers eth_chainId=0x3640e (eip155:222222). If an EVM record is ever needed, split as hydration-evm."
+    },
+    {
+      "id": "icon",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:icon",
+      "represents": "ICON mainnet (ICX; hx/cx addresses, Java SCORE); Bybit ICX",
+      "verified": "unverified: no CAIP-2 namespace",
+      "source": "none",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "id": "immutable-zkevm",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 13371
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Immutable zkEVM mainnet",
+      "verified": "rpc.immutable.com eth_chainId -> 0x343b (13371)",
+      "source": "chainid.network",
+      "confidence": "high",
+      "notes": "Distinct from Immutable X (StarkEx)."
+    },
+    {
+      "id": "initia",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "interwoven-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Initia L1 (INIT), Cosmos SDK + MoveVM",
+      "verified": "https://rest.initia.xyz GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='interwoven-1'",
+      "source": "cosmos/chain-registry initia/chain.json (chain_id interwoven-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Execution family: Cosmos SDK with MoveVM (Initia L1 is Move-based; tokens are bank denoms / Move fungible assets, bech32 init1 addresses). Could be categorised \"move\" or \"cosmos-sdk\"; I chose cosmos-sdk for addressing. Interwoven rollups (minievm etc.) are separate chains."
+    },
+    {
+      "id": "injective",
+      "current": {
+        "category": null,
+        "namespace": "cosmos",
+        "chain_id": "injective-1"
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "injective-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Injective Cosmos side (INJ, bech32 inj1...); exchange codes INJ/inj/\"Injective\"",
+      "verified": "https://injective-api.highstakes.ch GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='injective-1'",
+      "source": "cosmos/chain-registry injective/chain.json (chain_id injective-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Existing cosmos:injective-1 correct. Hybrid: native EVM mainnet eip155:1776 (sentry.evm-rpc.injective.network eth_chainId=0x6f0). Tokens shared via MultiVM token standard (bank-backed ERC-20s), but an EVM record (injective-evm) would be needed for EIP-55 keyed asset translations. No exchange code currently maps to Injective EVM."
+    },
+    {
+      "id": "ink",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 57073
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Ink mainnet (OP Stack)",
+      "verified": "rpc-gel.inkonchain.com eth_chainId -> 0xdef1 (57073)",
+      "source": "chainid.network",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "internet-computer",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:icp",
+      "represents": "Internet Computer (ICP ledger + ICRC tokens on canisters)",
+      "verified": "unverified: no CAIP-2 namespace in ChainAgnostic repo",
+      "source": "none",
+      "confidence": "high",
+      "notes": "Tokens are canister ids (principal text)."
+    },
+    {
+      "id": "iost",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:iost",
+      "represents": "IOST mainnet (KuCoin iost)",
+      "verified": "unverified: no CAIP-2 namespace",
+      "source": "none",
+      "confidence": "medium",
+      "notes": "Record has no native_asset."
+    },
+    {
+      "id": "iota",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "move",
+        "namespace": "iota",
+        "chain_id": "mainnet"
+      },
+      "status": "apply",
+      "family": "move",
+      "represents": "IOTA mainnet L1 (IOTA Rebased, Move-based); Binance IOTA, KuCoin iotamainnet",
+      "verified": "api.mainnet.iota.cafe iota_getChainIdentifier -> 6364aad5 (spec's iotax_ method name returned Method not found; iota_ prefix works)",
+      "source": "namespaces/iota/caip2.md",
+      "confidence": "high",
+      "notes": "Spec allows 'mainnet' or genesis digest '6364aad5'; recommend 'mainnet' (stable). IOTA EVM L2 is eip155:8822 and would be separate. Sui-style Move (object ids, 0x..::mod::TYPE coin types) - shares move family with aptos/movement/sui."
+    },
+    {
+      "id": "iotex",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 4689
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "IoTeX mainnet",
+      "verified": "babel-api.mainnet.iotex.io eth_chainId -> 0x1251 (4689)",
+      "source": "chainid.network 'IoTeX Network Mainnet'",
+      "confidence": "high",
+      "notes": "IoTeX native addresses are bech32 io1..., but they are the same 20-byte accounts as 0x EVM addresses and XRC-20 tokens are EVM contracts, so evm/eip155 fits. Kucoin 'iotex' deposits may use io1 format - consumers may need conversion."
+    },
+    {
+      "id": "kaspa",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "category-only",
+      "family": "utxo",
+      "represents": "Kaspa L1 mainnet (BlockDAG, GhostDAG)",
+      "verified": "api.kaspa.org /info/blockdag -> networkName 'kaspa-mainnet' (no genesis field exposed there)",
+      "source": "namespaces repo has no kaspa namespace",
+      "confidence": "high",
+      "notes": "no CAIP-2 namespace. UTXO model but not BIP122-style (DAG, no linear getblockhash(0)); a future namespace would likely use network name 'mainnet'."
+    },
+    {
+      "id": "katana",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 747474
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Katana mainnet (Agglayer/CDK L2)",
+      "verified": "rpc.katana.network eth_chainId -> 0xb67d2 (747474)",
+      "source": "chainid.network 'katana'",
+      "confidence": "high",
+      "notes": "Not zKatana (Astar testnet 1261120)."
+    },
+    {
+      "id": "kava",
+      "current": {
+        "category": null,
+        "namespace": "cosmos",
+        "chain_id": "kava_2222-10"
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "hashed-6d4e837e169119f0"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Kava Cosmos co-chain (kava-evm is a separate record)",
+      "verified": "https://api.data.kava.io GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='kava_2222-10'",
+      "source": "cosmos/chain-registry kava/chain.json (chain_id kava_2222-10); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "EXISTING chain_id \"kava_2222-10\" is NOT a valid CAIP-2 direct reference (underscore disallowed). Per cosmos caip2.md it should be \"hashed-6d4e837e169119f0\" (sha256(\"kava_2222-10\") first 16 hex). Live network value kava_2222-10 confirmed. EVM side already split to kava-evm (eip155:2222, evm.kava.io eth_chainId=0x8ae confirmed)."
+    },
+    {
+      "id": "kilt",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "a0453819cbf8b4df9423a5cd601f546c"
+      },
+      "status": "hold",
+      "family": "substrate",
+      "represents": "KILT Spiritnet parachain on Polkadot",
+      "verified": "unverified: all tried RPCs (kilt.ibp.network, kilt.dotters.network, spiritnet.kilt.io, kilt-rpc.dwellir.com, onfinality) failed (proxy CONNECT 502 / empty). Reference taken from the CAIP-2 polkadot caip2.md test case 'KILT Spiritnet parachain on Polkadot: polkadot:a0453819cbf8b4df9423a5cd601f546c'.",
+      "source": "namespaces/polkadot/caip2.md test cases",
+      "confidence": "medium",
+      "notes": "chain_id = a0453819cbf8b4df9423a5cd601f546c (from spec test vector; full hash in this entry is not verified, only the 32-char prefix matters). Note KILT has announced/started token migration off Spiritnet; check whether chain is still live."
+    },
+    {
+      "id": "klever",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "klv",
+        "chain_id": "108"
+      },
+      "status": "apply",
+      "family": "other:klever",
+      "represents": "Klever mainnet (KLV; KuCoin klv)",
+      "verified": "node.mainnet.klever.org GET /node/status -> data.metrics.klv_chain_id '108'",
+      "source": "namespaces/klv/caip2.md",
+      "confidence": "high",
+      "notes": "Record has no native_asset."
+    },
+    {
+      "id": "konet",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 17217
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "KONET mainnet",
+      "verified": "api.kon-wallet.com eth_chainId -> 0x4341 (17217)",
+      "source": "chainid.network 'KONET Mainnet'",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "kusama",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "b0a8d493285c2df73290dfb7e61f870f"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Kusama relay chain",
+      "verified": "kusama-rpc.publicnode.com chain_getBlockHash[0] -> 0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe; system_chain -> 'Kusama'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "Matches CAIP-2 spec test case. No exchange network translation maps to 'kusama' at all; after the Kusama Asset Hub migration (2025) KSM balances/transfers live on Asset Hub, so exchange codes may point to kusama-asset-hub."
+    },
+    {
+      "id": "kusama-asset-hub",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "48239ef607d7928874027a43a6768920"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Kusama Asset Hub (Statemine) system parachain",
+      "verified": "kusama-asset-hub-rpc.polkadot.io chain_getBlockHash[0] -> 0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a; system_chain -> 'Kusama Asset Hub'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "KuCoin 'statemine', Kraken 'Kusama Asset Hub'."
+    },
+    {
+      "id": "lightning",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:lightning",
+      "represents": "Bitcoin Lightning Network (L2 payment-channel network, off-chain)",
+      "verified": "n/a: no chain / genesis block",
+      "source": "n/a",
+      "confidence": "high",
+      "notes": "no CAIP-2 namespace; not a blockchain with its own chain id. Lightning BOLT invoices use the BTC genesis hash as chain_hash, so it would be ambiguous with bitcoin if given bip122. Leave namespace/chain_id/category null."
+    },
+    {
+      "id": "litecoin",
+      "current": {
+        "category": null,
+        "namespace": "bip122",
+        "chain_id": "12a765e31ffd4059bada1e25190f6e98"
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "12a765e31ffd4059bada1e25190f6e98"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Litecoin L1 mainnet (MWEB extension blocks are part of same chain)",
+      "verified": "litecoinspace.org /api/block-height/0 and api.blockcypher.com/v1/ltc/main/blocks/0 -> 12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2; litecoin-project chainparams.cpp matches",
+      "source": "namespaces/bip122/caip2.md test case",
+      "confidence": "high",
+      "notes": "EXISTING value correct."
+    },
+    {
+      "id": "litentry",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "2fc8bb6ed7c0051bdcf4866c322ed32b"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Litentry parachain on Polkadot, now rebranded Heima (same chain)",
+      "verified": "rpc.litentry-parachain.litentry.io chain_getBlockHash[0] -> 0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9; system_chain -> 'Heima'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "Same genesis after rebrand to Heima (system_chain now 'Heima'). Node also answers eth_chainId=0x33c2d (eip155:212013). Consider renaming display to Heima."
+    },
+    {
+      "id": "lukso",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 42
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "LUKSO L1 mainnet (EVM)",
+      "verified": "rpc.mainnet.lukso.network eth_chainId -> 0x2a (42)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "lumia",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 994873017
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Lumia mainnet (Polygon CDK EVM L2)",
+      "verified": "mainnet-rpc.lumia.org eth_chainId -> 0x3b4c8eb9 (994873017)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "mango",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "move",
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "hold",
+      "family": "move",
+      "represents": "Mango Network L1 (Move-based, Sui-derived DPoS chain; MGO native token), KuCoin 'mango' network",
+      "verified": "unverified: guessed Sui-style RPC hosts (fullnode.mainnet.mangonet.io etc.) returned nothing; docs.mangonet.io only lists devnet",
+      "source": "mangonet.io site ('supports both EVM and MoveVM'), github.com/MangoNet-Labs/mango",
+      "confidence": "low",
+      "notes": "No CAIP-2 namespace (the 'sui' namespace is Sui-specific). Mango markets an EVM layer too, but no EVM mainnet entry found in chainid.network; the MGO L1 is Move."
+    },
+    {
+      "id": "mantra",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "mantra-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "MANTRA Chain Cosmos side (OM)",
+      "verified": "https://api.mantrachain.io GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='mantra-1'",
+      "source": "cosmos/chain-registry mantrachain/chain.json (chain_id mantra-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Hybrid: MANTRA EVM eip155:5888 (evm.mantrachain.io eth_chainId=0x1700 confirmed) -> separate mantra-evm record needed if EVM tokens are tracked. CosmWasm enabled."
+    },
+    {
+      "id": "matrix",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "hold",
+      "family": "other:matrix (go-ethereum fork with 'MAN.' base58 addresses)",
+      "represents": "MATRIX AI Network mainnet, native MAN (kucoin 'man')",
+      "verified": "unverified: no CAIP-2 namespace and no reachable public RPC tried",
+      "source": "no CAIP-2 namespace",
+      "confidence": "low",
+      "notes": "No CAIP-2 namespace; not in chainid.network. MAN also existed as an ERC-20 on Ethereum pre-mainnet swap, but kucoin 'man' network presumably is the native chain. Addresses not 0x/EIP-55, so not category evm."
+    },
+    {
+      "id": "megaeth",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 4326
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "MegaETH mainnet (EVM L2)",
+      "verified": "mainnet.megaeth.com/rpc eth_chainId -> 0x10e6 (4326)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "merlin",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 4200
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Merlin Chain mainnet (EVM Bitcoin L2)",
+      "verified": "rpc.merlinchain.io eth_chainId -> 0x1068 (4200)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "Native gas token is bridged BTC."
+    },
+    {
+      "id": "metis",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 1088
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Metis Andromeda mainnet (EVM L2)",
+      "verified": "andromeda.metis.io eth_chainId -> 0x440 (1088)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "mezo",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 31612
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Mezo mainnet (EVM, Cosmos-SDK based, BTC gas)",
+      "verified": "mezo-mainnet.boar.network eth_chainId -> 0x7b7c (31612)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "Mezo is built on Cosmos SDK/Ethermint but exchanges deposit via EVM addresses; EVM side is the one users see. A cosmos-side id exists (mezo_31612-1 per Ethermint convention) but was not verified and not needed."
+    },
+    {
+      "id": "mina",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "mina",
+        "chain_id": "mainnet"
+      },
+      "status": "apply",
+      "family": "other:mina",
+      "represents": "Mina mainnet",
+      "verified": "api.minascan.io/node/mainnet/v1/graphql {networkID} -> 'mina:mainnet'",
+      "source": "namespaces/mina/caip2.md",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "monero",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "monero",
+        "chain_id": "418015bb9ae982a1975da7d79277c270"
+      },
+      "status": "apply",
+      "family": "other:cryptonote",
+      "represents": "Monero L1 mainnet",
+      "verified": "xmrchain.net /api/block/0 -> 418015bb9ae982a1975da7d79277c2705727a56894ba0fb246adaabb1f4632e3",
+      "source": "namespaces/monero/caip2.md test case",
+      "confidence": "high",
+      "notes": "Requires adding 'monero' to allowed namespaces. No tokens."
+    },
+    {
+      "id": "movement",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "move",
+        "namespace": "aptos",
+        "chain_id": "126"
+      },
+      "status": "apply",
+      "family": "move",
+      "represents": "Movement mainnet (Aptos-framework Move L1; Bybit/KuCoin MOVE)",
+      "verified": "mainnet.movementnetwork.xyz GET /v1 -> chain_id 126 (Aptos-compatible REST API)",
+      "source": "namespaces/aptos/caip2.md (spec lists only Aptos mainnet 1/testnet 2)",
+      "confidence": "medium",
+      "notes": "Aptos namespace defines reference as the numeric chain_id from an Aptos-framework node; Movement runs the Aptos stack with chain_id 126, analogous to eip155 for EVM forks, but the spec only enumerates Aptos networks. Alternative: leave namespace null."
+    },
+    {
+      "id": "multiversx",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "mvx",
+        "chain_id": "1"
+      },
+      "status": "apply",
+      "family": "other:multiversx",
+      "represents": "MultiversX (ex-Elrond) mainnet, native EGLD; kucoin 'egld'",
+      "verified": "api.multiversx.com GET /constants -> chainId \"1\" (/network/config and gateway returned internal_issue)",
+      "source": "namespaces/mvx/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'mvx' not yet allowed in schema. Wasm VM, bech32 erd1 addresses, ESDT tokens (TICKER-hex ids)."
+    },
+    {
+      "id": "nano",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:nano",
+      "represents": "Nano live network (block-lattice), kraken/kucoin 'nano'",
+      "verified": "rpc.nano.to action=version -> network \"live\" (informational only)",
+      "source": "no CAIP-2 namespace",
+      "confidence": "high",
+      "notes": "No CAIP-2 namespace exists. No tokens, no smart contracts."
+    },
+    {
+      "id": "near",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:near",
+      "represents": "NEAR Protocol mainnet (native layer, not Aurora)",
+      "verified": "rpc.mainnet.near.org status -> chain_id \"mainnet\", genesis_hash EPnLgE7iEq9s7yTkos96M3cWymH5avBAPm3qx3NXqR8H",
+      "source": "no CAIP-2 namespace in ChainAgnostic repo",
+      "confidence": "high",
+      "notes": "No CAIP-2 namespace (a 'near:mainnet' convention is used informally by some wallets, but not in the repo). Wasm contracts, named accounts; NEP-141 tokens keyed by account id (e.g. usdt.tether-token.near). chainid.network lists 397 'NEAR Protocol' but that is not a real eip155 chain for this record."
+    },
+    {
+      "id": "neo-n3",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "neo",
+        "chain_id": "860833102"
+      },
+      "status": "apply",
+      "family": "other:neo",
+      "represents": "Neo N3 MainNet (kucoin 'neon3'), distinct from Neo Legacy and Neo X",
+      "verified": "mainnet1.neo.coz.io getversion -> protocol.network 860833102",
+      "source": "namespaces/neo/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'neo' not yet allowed. Reference is decimal Network Magic (string). NEP-17 tokens keyed by script hash (0x...)."
+    },
+    {
+      "id": "neo-x",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 47763
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Neo X mainnet (EVM sidechain of Neo)",
+      "verified": "mainnet-1.rpc.banelabs.org eth_chainId -> 0xba93 (47763)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "Not Neo N3 (which has its own 'neo' CAIP-2 namespace)."
+    },
+    {
+      "id": "nervos",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:ckb-cell",
+      "represents": "Nervos CKB L1 mainnet (Layer 1; not Godwoken/Axon EVM L2s)",
+      "verified": "mainnet.ckb.dev JSON-RPC get_block_hash 0x0 -> 0x92b197aa1fba0f63633922c61c92375c9c074a93e85963554f5499fe1450d0e5; get_blockchain_info chain='ckb'",
+      "source": "namespaces repo has no ckb/nervos namespace",
+      "confidence": "high",
+      "notes": "no CAIP-2 namespace. Cell model is a generalized UTXO; could be grouped under utxo. KuCoin code 'ckb2' maps here (CKB mainnet)."
+    },
+    {
+      "id": "neutron",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "neutron-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Neutron CosmWasm consumer chain (NTRN)",
+      "verified": "https://rest.neutron.solva.solutions:443 GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='neutron-1'",
+      "source": "cosmos/chain-registry neutron/chain.json (chain_id neutron-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "CosmWasm enabled."
+    },
+    {
+      "id": "nibiru",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "cataclysm-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Nibiru Cosmos side (NIBI)",
+      "verified": "https://lcd.nibiru.fi GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='cataclysm-1'",
+      "source": "cosmos/chain-registry nibiru/chain.json (chain_id cataclysm-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Hybrid: Nibiru EVM eip155:6900 (evm-rpc.nibiru.fi eth_chainId=0x1af4 confirmed) -> separate nibiru-evm record needed if EVM tokens tracked. CosmWasm also enabled."
+    },
+    {
+      "id": "noble",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "noble-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Noble asset-issuance chain (USDC native issuance)",
+      "verified": "https://noble-api.polkachu.com GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='noble-1'",
+      "source": "cosmos/chain-registry noble/chain.json (chain_id noble-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "CosmWasm disabled; asset-issuance (bank/tokenfactory) chain."
+    },
+    {
+      "id": "numbers",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 10507
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Numbers Mainnet (Avalanche subnet EVM)",
+      "verified": "mainnetrpc.num.network eth_chainId -> 0x290b (10507)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "oasis",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:oasis",
+      "represents": "Oasis consensus layer (display 'Oasis Consensus'; bybit 'ROSE', kucoin 'oasis'), not Sapphire/Emerald ParaTimes",
+      "verified": "unverified: no namespace to verify against (nexus.oasis.io reachable, latest_block 31941273)",
+      "source": "no CAIP-2 namespace",
+      "confidence": "medium",
+      "notes": "No CAIP-2 namespace. Tendermint/CometBFT-based but NOT Cosmos-SDK (don't use cosmos namespace/category). Sapphire (eip155:23294) and Emerald (eip155:42262) would be separate evm records. Exchange 'ROSE' network is generally the consensus layer, but some exchanges' ROSE deposits may be Sapphire - ambiguity worth noting."
+    },
+    {
+      "id": "oasys",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 248
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Oasys Hub-Layer (L1, EVM)",
+      "verified": "rpc.mainnet.oasys.games eth_chainId -> 0xf8 (248)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "Oasys verse layers (L2s) have their own chain IDs; OAS lives on Hub-Layer 248 (Bybit OAS network)."
+    },
+    {
+      "id": "oraichain",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "Oraichain"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Oraichain Cosmos side (ORAI)",
+      "verified": "http://lcd.orai.io GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='Oraichain'",
+      "source": "cosmos/chain-registry oraichain/chain.json (chain_id Oraichain); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Chain id \"Oraichain\" (capitalised) is a valid direct reference. chainlist lists Oraichain EVM eip155:108160679 (evm.orai.io) - separate record if needed; not probed."
+    },
+    {
+      "id": "origintrail",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "e7e0962324a3b86c83404dbea483f25f"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "OriginTrail Parachain (NeuroWeb) on Polkadot",
+      "verified": "astrosat-parachain-rpc.origin-trail.network chain_getBlockHash[0] -> 0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174; system_chain -> 'OriginTrail Parachain'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "medium",
+      "notes": "AMBIGUOUS layer: Kraken 'OriginTrail' network presumably NeuroWeb parachain (TRAC also ERC-20 on Ethereum/Gnosis/Base). NeuroWeb is hybrid; node answers eth_chainId=0x7fb (eip155:2043). TRAC on NeuroWeb is an assets-pallet token exposed as ERC-20 precompile; whether Kraken deposits use SS58 or 0x addresses decides substrate vs evm. Record description is vague (DKG infrastructure)."
+    },
+    {
+      "id": "osmosis",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "osmosis-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Osmosis DEX chain (OSMO)",
+      "verified": "https://lcd.osmosis.zone GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='osmosis-1'",
+      "source": "cosmos/chain-registry osmosis/chain.json (chain_id osmosis-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "partisia",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "partisia",
+        "chain_id": "Partisia_Blockchain"
+      },
+      "status": "apply",
+      "family": "other:partisia",
+      "represents": "Partisia Blockchain mainnet (kucoin 'partisia')",
+      "verified": "reader.partisiablockchain.com /blockchain/chainId -> \"Partisia Blockchain\" (space replaced by '_')",
+      "source": "namespaces/partisia/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'partisia' not yet allowed."
+    },
+    {
+      "id": "peaq",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 3338
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "peaq mainnet; Substrate chain with Frontier EVM. Record ambiguous; exchange PEAQ deposits (KuCoin/Kraken) and peaq ERC-20s use the EVM (H160) side",
+      "verified": "quicknode1.peaq.xyz eth_chainId -> 0xd0a (3338); substrate side: chain_getBlockHash[0] -> 0xd2a5d385932d1f650dae03ef8e2748983779ee342c614f80854d32b8cd8fa48c (quicknode1.peaq.xyz and peaq.api.onfinality.io agree)",
+      "source": "chainid.network; namespaces/polkadot/caip2.md",
+      "confidence": "medium",
+      "notes": "Hybrid. If split like kava/kava-evm: EVM = eip155:3338; Substrate = polkadot:d2a5d385932d1f650dae03ef8e274898. PEAQ balance is shared across both address formats (same account mapping), so a single evm record is defensible; confirm exchange address format if it matters."
+    },
+    {
+      "id": "pepecoin",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "37981c0c48b8d48965376c8a42ece9a0"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Pepecoin (PEP) standalone Scrypt/AuxPoW L1 mainnet (Dogecoin fork, launched Jan 2024)",
+      "verified": "pepeblocks.com blockbook /api/v2/block-index/0 -> 37981c0c48b8d48965376c8a42ece9a0838daadb93ff975cb091f57f8c2a5faa; pepecoinppc/pepecoin src/chainparams.cpp mainnet assert matches (genesis time 1705975200)",
+      "source": "BIP122 genesis-prefix rule",
+      "confidence": "medium",
+      "notes": "Verify pepecoinppc/pepecoin is the repo linked from pepecoin.com (did not confirm the link); explorer and source agree. Not to be confused with the 2016 'Pepecoin' (MEME) chain."
+    },
+    {
+      "id": "persistence",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "core-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Persistence Core-1 (XPRT)",
+      "verified": "https://rest.core.persistence.one GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='core-1'",
+      "source": "cosmos/chain-registry persistence/chain.json (chain_id core-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "pharos",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 1672
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Pharos mainnet (EVM L1)",
+      "verified": "rpc.pharos.xyz eth_chainId -> 0x688 (1672)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "pi-network",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:stellar",
+      "represents": "Pi Network mainnet (kraken 'Pi Network'), Stellar-core fork",
+      "verified": "api.mainnet.minepi.com (Horizon) / -> network_passphrase \"Pi Network\", core stellar-core 27.1.0",
+      "source": "no CAIP-2 namespace",
+      "confidence": "high",
+      "notes": "Same technology/address format as Stellar (G... accounts, CODE:ISSUER assets) but stellar namespace only defines pubnet/testnet; no CAIP-2 namespace for Pi. If a 'stellar' family were introduced, Pi would share it."
+    },
+    {
+      "id": "picasso",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": null
+      },
+      "status": "hold",
+      "family": "substrate",
+      "represents": "Picasso parachain on Kusama (Composable)",
+      "verified": "unverified: picasso-rpc.composable.finance, rpc.composablenodes.tech, dwellir, onfinality, radiumblock all failed/empty; chain may be sunset.",
+      "source": "none verified",
+      "confidence": "low",
+      "notes": "Family substrate (Kusama parachain). Believed genesis 0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc (from memory, NOT verified) -> would be polkadot:6811a339673c9daa897944dcdac99c6e. Composable has wound down Picasso; check if Kraken still lists the network before adding."
+    },
+    {
+      "id": "plume",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 98866
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Plume mainnet (EVM, Arbitrum Orbit)",
+      "verified": "rpc.plume.org eth_chainId -> 0x18232 (98866)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "Legacy Plume chain id 98865 (ETH gas) was superseded by 98866 (PLUME gas)."
+    },
+    {
+      "id": "polkadot",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "91b171bb158e2d3848fa23a9f1c25182"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Polkadot relay chain",
+      "verified": "polkadot-rpc.publicnode.com chain_getBlockHash[0] -> 0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3; system_chain -> 'Polkadot'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "Matches CAIP-2 spec. DISCREPANCY: data/network_translations/mexc.json 'DOTASSETHUB' and bitget.json 'PolkadotAssetHub' map to 'polkadot' (relay) but clearly denote Asset Hub; they should map to 'polkadot-asset-hub' (bybit DOTAH and kraken already do). Post Nov-2025 Asset Hub migration most DOT exchange flows are on Asset Hub."
+    },
+    {
+      "id": "polkadot-asset-hub",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "68d56f15f85d3136970ec16946040bc1"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Polkadot Asset Hub (Statemint) system parachain",
+      "verified": "polkadot-asset-hub-rpc.polkadot.io chain_getBlockHash[0] -> 0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f; system_chain -> 'Polkadot Asset Hub'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "Kraken, Bybit DOTAH, KuCoin statemint. Asset Hub now also has an EVM-compatible (Revive/PolkaVM) layer, but addressing of assets is Substrate assets-pallet IDs."
+    },
+    {
+      "id": "polymesh",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "6fbd74e5e1d0a61d52ccfe9d4adaed16"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Polymesh mainnet (Substrate solo chain)",
+      "verified": "mainnet-rpc.polymesh.network chain_getBlockHash[0] -> 0x6fbd74e5e1d0a61d52ccfe9d4adaed16dd3a7caa37c6bc4d0c2fa12e8b2f4063; system_chain -> 'Polymesh Mainnet'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "POLYX also existed as ERC-20 (POLY); KuCoin 'polymesh' = native chain."
+    },
+    {
+      "id": "qtum",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "000075aef83cf2853580f8ae8ce6f8c3"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Qtum L1 mainnet (UTXO ledger with EVM via Account Abstraction Layer; exchange codes QTUM = native coin)",
+      "verified": "qtum.info /api/block/0 -> 000075aef83cf2853580f8ae8ce6f8c3096cfa21d98334d6e3f95e5582ed986c; qtumproject/qtum kernel/chainparams.cpp assert matches",
+      "source": "BIP122 genesis-prefix rule",
+      "confidence": "medium",
+      "notes": "Hybrid: QRC20 tokens are EVM contracts (40-hex addresses, but Qtum tooling does not use EIP-55 and addresses are shown without 0x), and Qtum's Janus/qtum-ethereum bridge RPC reports eip155 chainId 81 (unverified here: public RPCs 404; 81 is not in chainid.network list). Keep as single record with utxo; do not mark evm unless a separate qtum-evm record is created."
+    },
+    {
+      "id": "quai",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "quai",
+        "chain_id": "9"
+      },
+      "status": "apply",
+      "family": "evm (quai-flavored, sharded addresses)",
+      "represents": "Quai Network mainnet (kraken 'Quai Network'), Quai ledger (EVM-derived account model; also Qi UTXO ledger)",
+      "verified": "rpc.quai.network/cyprus1 quai_chainId -> 0x9",
+      "source": "namespaces/quai/caip2.md; chainid.network lists chainId 9 'Quai Network Mainnet'",
+      "confidence": "medium",
+      "notes": "quai spec says quai:9 and also allows eip155:9. Addresses are 0x 20-byte with shard prefix; unclear whether EIP-55 validation fits, so category 'evm' is debatable. Namespace 'quai' not yet allowed; eip155/9 would work with current schema. Reference would be int if eip155, string '9' if quai."
+    },
+    {
+      "id": "radix",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:radix",
+      "represents": "Radix Babylon mainnet (kucoin 'radix')",
+      "verified": "mainnet.radixdlt.com /status/network-configuration -> network_id 1, network_name mainnet",
+      "source": "no CAIP-2 namespace",
+      "confidence": "high",
+      "notes": "No CAIP-2 namespace. Scrypto/asset-oriented; resources addressed as bech32m resource_rdx1..."
+    },
+    {
+      "id": "ravencoin",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "0000006b444bc2f2ffe627be9d9e7e7a"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Ravencoin L1 mainnet",
+      "verified": "blockbook.ravencoin.org /api/v2/block-index/0 -> 0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90; RavenProject/Ravencoin chainparams.cpp matches",
+      "source": "BIP122 genesis-prefix rule",
+      "confidence": "high",
+      "notes": "Native assets are identified by asset name strings, not contract addresses."
+    },
+    {
+      "id": "robinhood-chain",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 4663
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Robinhood Chain mainnet (Arbitrum Orbit EVM L2)",
+      "verified": "rpc.mainnet.chain.robinhood.com eth_chainId -> 0x1237 (4663)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "Do not confuse with testnet 46630."
+    },
+    {
+      "id": "robonomics",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "631ccc82a078481584041656af292834"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Robonomics parachain on Kusama (inferred)",
+      "verified": "kusama.rpc.robonomics.network chain_getBlockHash[0] -> 0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc; system_chain -> 'Robonomics Kusama'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "medium",
+      "notes": "AMBIGUOUS: Robonomics runs parachains on both Kusama (genesis 631ccc82...) and Polkadot ('Robonomics Polkadot', genesis 0x29f4371dcc41045f5041489dfcd51389..., verified at polkadot.rpc.robonomics.network). Only Kraken 'Robonomics' maps here; Kusama chosen as the long-standing XRT home - confirm with Kraken's deposit docs."
+    },
+    {
+      "id": "saga",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "ssc-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Saga SSC (Saga Security Chain, SAGA token)",
+      "verified": "https://saga-rest.publicnode.com GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='ssc-1'",
+      "source": "cosmos/chain-registry saga/chain.json (chain_id ssc-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Kraken \"Saga\" maps here; SSC (ssc-1) is the SAGA token home. SagaEVM is a separate chainlet (eip155:5464, sagaevm.jsonrpc.sagarpc.io eth_chainId=0x1558 confirmed) - do not conflate."
+    },
+    {
+      "id": "secret",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "secret-4"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Secret Network (SCRT)",
+      "verified": "https://rest.lavenderfive.com:443/secretnetwork GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='secret-4'",
+      "source": "cosmos/chain-registry secretnetwork/chain.json (chain_id secret-4); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "CosmWasm (encrypted, SecretWasm)."
+    },
+    {
+      "id": "sei",
+      "current": {
+        "category": null,
+        "namespace": "cosmos",
+        "chain_id": "pacific-1"
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "pacific-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Sei Cosmos side pacific-1 -- BUT exchange codes SEIEVM/seievm/\"Sei - EVM\" also map here",
+      "verified": "https://rest.sei-apis.com GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='pacific-1'",
+      "source": "cosmos/chain-registry sei/chain.json (chain_id pacific-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Existing cosmos:pacific-1 correct for Cosmos side, but exchange network codes SEIEVM (binance/bybit/mexc/bitget), seievm (coinbase/kucoin) and \"Sei - EVM\" (kraken) all map to \"sei\" -> those deposits are EVM (0x) addresses. Needs a separate sei-evm record (evm/eip155/1329; evm-rpc.sei-apis.com eth_chainId=0x531 confirmed) and those codes re-pointed. Note Sei governance (SIP-3) is moving toward EVM-only, so the EVM record may become the primary one."
+    },
+    {
+      "id": "shape",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 360
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Shape mainnet (OP Stack EVM L2)",
+      "verified": "mainnet.shape.network eth_chainId -> 0x168 (360)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "shardeum",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 8118
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Shardeum mainnet (EVM)",
+      "verified": "api.shardeum.org eth_chainId -> 0x1fb6 (8118)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "8080/8081/8082 are old betanets."
+    },
+    {
+      "id": "shiden",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "f1cf9022c7ebb34b162d5b5e34e705a5"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "Shiden parachain on Kusama (Astar's Kusama network); Substrate side assumed",
+      "verified": "rpc.shiden.astar.network chain_getBlockHash[0] -> 0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108; system_chain -> 'Shiden'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "medium",
+      "notes": "Hybrid: same node answers eth_chainId=0x150 (eip155:336). Kraken 'Shiden' network deposits are to Substrate (SS58) addresses as far as known; description mentions EVM and Wasm. If both are needed, split like kava/kava-evm."
+    },
+    {
+      "id": "siacoin",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "category-only",
+      "family": "utxo",
+      "represents": "Sia L1 mainnet",
+      "verified": "api.siascan.com /consensus/network -> name 'mainnet'; /consensus/tip/0 -> genesis id 25f6e3b9295a61f69fcb956aca9f0076234ecf2e02d399db5448b6e22f26e81c",
+      "source": "namespaces repo has no sia namespace",
+      "confidence": "high",
+      "notes": "no CAIP-2 namespace. Siacoin/siafund outputs are UTXO-style."
+    },
+    {
+      "id": "solana",
+      "current": {
+        "category": null,
+        "namespace": "solana",
+        "chain_id": "mainnet-beta"
+      },
+      "proposed": {
+        "category": "svm",
+        "namespace": "solana",
+        "chain_id": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp"
+      },
+      "status": "apply",
+      "family": "svm",
+      "represents": "Solana mainnet-beta cluster",
+      "verified": "api.mainnet-beta.solana.com getGenesisHash -> 5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d (first 32 chars)",
+      "source": "namespaces/solana/caip2.md",
+      "confidence": "high",
+      "notes": "DISCREPANCY: existing record has chain_id 'mainnet-beta' (cluster name). CAIP-2 reference is the truncated genesis hash; solana:mainnet-beta is not a valid CAIP-2 chain id. Should be changed to '5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp'. Asset translation keys are base58 mint addresses (not EIP-55)."
+    },
+    {
+      "id": "somnia",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 5031
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Somnia mainnet (EVM L1)",
+      "verified": "api.infra.mainnet.somnia.network eth_chainId -> 0x13a7 (5031)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "songbird",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 19
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Songbird canary network C-chain (EVM)",
+      "verified": "songbird-api.flare.network/ext/C/rpc eth_chainId -> 0x13 (19)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "stable",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 988
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Stable mainnet (EVM, USDT0 gas)",
+      "verified": "rpc.stable.xyz eth_chainId -> 0x3dc (988)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "Not 'StableNet' (8282)."
+    },
+    {
+      "id": "stacks",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "stacks",
+        "chain_id": "1"
+      },
+      "status": "apply",
+      "family": "other:stacks",
+      "represents": "Stacks mainnet (Bitcoin L2, Clarity contracts)",
+      "verified": "api.hiro.so /v2/info -> network_id 1",
+      "source": "namespaces/stacks/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'stacks' not yet allowed. Reference is decimal uint32 as string. Tokens keyed as SP...contract.name."
+    },
+    {
+      "id": "starknet",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "starknet",
+        "chain_id": "SN_MAIN"
+      },
+      "status": "apply",
+      "family": "other:cairo",
+      "represents": "Starknet mainnet (Ethereum L2, Cairo VM)",
+      "verified": "api.cartridge.gg/x/starknet/mainnet and starknet-rpc.publicnode.com starknet_chainId -> 0x534e5f4d41494e = 'SN_MAIN' (blastapi, lava, drpc, nethermind unavailable)",
+      "source": "namespaces/starknet/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'starknet' not yet allowed. Not EVM: 252-bit felt addresses, not EIP-55."
+    },
+    {
+      "id": "stellar",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "stellar",
+        "chain_id": "pubnet"
+      },
+      "status": "apply",
+      "family": "other:stellar",
+      "represents": "Stellar public network",
+      "verified": "horizon.stellar.org / -> network_passphrase 'Public Global Stellar Network ; September 2015' (maps to 'pubnet')",
+      "source": "namespaces/stellar/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'stellar' not yet allowed. Reference is a named alias, not derived from passphrase text. Pi Network shares the tech."
+    },
+    {
+      "id": "story",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 1514
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Story mainnet execution layer (story-geth EVM; Cosmos-SDK/CometBFT consensus layer behind it)",
+      "verified": "mainnet.storyrpc.io eth_chainId -> 0x5ea (1514)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "chainid.network now names chain 1514 'Data Network' (DATA) matching the rebrand noted in about.en; web3_clientVersion=Geth. Assets live on the EVM side."
+    },
+    {
+      "id": "sui",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "move",
+        "namespace": "sui",
+        "chain_id": "mainnet"
+      },
+      "status": "apply",
+      "family": "move",
+      "represents": "Sui mainnet",
+      "verified": "graphql.mainnet.sui.io {chainIdentifier} -> 4btiuiMPvEENsttpZC7CZ53DruC3MAgfznDbASZ7DR6S, first 4 bytes = 35834a8a matching spec mainnet (JSON-RPC suix_getChainIdentifier deprecated on public fullnode)",
+      "source": "namespaces/sui/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'sui' not yet allowed. Reference is the alias 'mainnet', not the digest. Coin types like 0x..::usdc::USDC."
+    },
+    {
+      "id": "supra",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "move",
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "category-only",
+      "family": "move",
+      "represents": "Supra L1 mainnet (MoveVM side; bybit 'SUPRA')",
+      "verified": "rpc-mainnet.supra.com /rpc/v1/transactions/chain_id -> 8 (informational)",
+      "source": "no CAIP-2 namespace (aptos namespace is Aptos-specific)",
+      "confidence": "medium",
+      "notes": "No CAIP-2 namespace for Supra. Supra also has an EVM environment (SupraEVM); this record appears to be the Move L1 where SUPRA lives. Aptos-style Move addressing."
+    },
+    {
+      "id": "telos",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "antelope",
+        "namespace": "antelope",
+        "chain_id": "4667b205c6838ef70ff7988f6e8257e8"
+      },
+      "status": "apply",
+      "family": "antelope",
+      "represents": "Telos native Antelope chain (kucoin 'tlos'); Telos EVM would be a separate record",
+      "verified": "telos.greymass.com /v1/chain/get_info -> chain_id 4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11 (first 32)",
+      "source": "namespaces/antelope/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'antelope' not yet allowed. Telos EVM = eip155:40 (separate)."
+    },
+    {
+      "id": "telos-evm",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 40
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Telos EVM (EVM environment on Telos Antelope chain)",
+      "verified": "rpc.telos.net eth_chainId -> 0x28 (40)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "Native Telos (Antelope) side would be antelope:<genesis/chain id prefix>, a separate record."
+    },
+    {
+      "id": "terra",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "phoenix-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Terra 2.0 phoenix-1 (LUNA)",
+      "verified": "https://terra-rest.publicnode.com GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='phoenix-1'",
+      "source": "cosmos/chain-registry terra2/chain.json (chain_id phoenix-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Chain-registry folder \"terra2\" = phoenix-1."
+    },
+    {
+      "id": "terra-classic",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "columbus-5"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "Terra Classic columbus-5 (LUNC)",
+      "verified": "https://terra-classic-lcd.publicnode.com GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='columbus-5'",
+      "source": "cosmos/chain-registry terra/chain.json (chain_id columbus-5); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Chain-registry folder \"terra\" = Terra Classic (columbus-5). Note bybit maps network code \"LUNA\" to terra-classic - worth double-checking."
+    },
+    {
+      "id": "tezos",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "tezos",
+        "chain_id": "NetXdQprcVkpaWU"
+      },
+      "status": "apply",
+      "family": "other:tezos",
+      "represents": "Tezos mainnet",
+      "verified": "rpc.tzkt.io/mainnet /chains/main/chain_id -> NetXdQprcVkpaWU (also api.tzkt.io head chainId)",
+      "source": "namespaces/tezos/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'tezos' not yet allowed. Michelson; FA1.2/FA2 tokens keyed by KT1 address (+token id for FA2)."
+    },
+    {
+      "id": "theta",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 361
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Theta mainnet (native Theta ledger with Ethereum-compatible smart contract layer)",
+      "verified": "eth-rpc-api.thetatoken.org/rpc eth_chainId -> 0x169 (361)",
+      "source": "chainid.network chains.json",
+      "confidence": "medium",
+      "notes": "Medium: Theta's native chain id is the string 'mainnet' and THETA/TFUEL are native protocol coins, but accounts are 0x/secp256k1 and tokens (TNT-20) are EVM contracts, so evm/eip155:361 fits the catalogue's needs."
+    },
+    {
+      "id": "thorchain",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "thorchain-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "THORChain (RUNE)",
+      "verified": "https://gateway.liquify.com/chain/thorchain_api GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='thorchain-1'",
+      "source": "cosmos/chain-registry thorchain/chain.json (chain_id thorchain-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "Cosmos SDK based (Tendermint), not IBC-typical; chain id changed from thorchain-mainnet-v1 to thorchain-1 in the 2024 hard fork."
+    },
+    {
+      "id": "ton",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "tvm",
+        "chain_id": "-239"
+      },
+      "status": "apply",
+      "family": "other:tvm",
+      "represents": "TON mainnet (basechain/masterchain)",
+      "verified": "toncenter.com /api/v3/masterchainInfo -> global_id -239 (dton.io graphql behind Cloudflare challenge)",
+      "source": "namespaces/tvm/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace is 'tvm' (shared with Everscale tvm:42), not 'ton'. Reference is negative int as string. Not yet allowed in schema. Jettons keyed by master contract address (raw 0:hex or user-friendly EQ.../UQ... forms - needs normalization rule)."
+    },
+    {
+      "id": "tron",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "tron",
+        "chain_id": "728126428"
+      },
+      "status": "apply",
+      "family": "other:tron (TVM, EVM-derived but base58check T-addresses)",
+      "represents": "TRON mainnet (TRC-20)",
+      "verified": "api.trongrid.io/jsonrpc eth_chainId -> 0x2b6653dc = 728126428",
+      "source": "namespaces/tron/caip2.md (decimal canonical, hex deprecated)",
+      "confidence": "high",
+      "notes": "Must NOT be category 'evm': asset_translations/tron.json keys are base58 T... addresses which would fail EIP-55 validation. Namespace 'tron' not yet allowed; chainid.network also lists 728126428 under eip155 but the tron namespace is the right one."
+    },
+    {
+      "id": "ultima",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "hold",
+      "family": "other:unknown",
+      "represents": "Ultima Chain (native DPoS chain of the Ultima ecosystem), KuCoin 'ultima' network",
+      "verified": "unverified: chainid.network lists 'Ultima Mainnet' chainId 3416255149 (ULTIMA, 6 decimals) with no RPC; thirdweb RPC answers 'Invalid chain'; website is a JS app with no technical docs",
+      "source": "chainid.network",
+      "confidence": "low",
+      "notes": "Cannot confirm the chain is EVM; 6-decimal native coin and absence of any public RPC are suspicious. Do not set eip155:3416255149 until an RPC confirms it."
+    },
+    {
+      "id": "unichain",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 130
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Unichain mainnet (OP Stack EVM L2)",
+      "verified": "mainnet.unichain.org eth_chainId -> 0x82 (130)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "v-systems",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "status": "none",
+      "family": "other:vsys",
+      "represents": "V Systems mainnet (kucoin 'vsys')",
+      "verified": "unverified: no namespace; wallet.v.systems/api reachable (height 61445027)",
+      "source": "no CAIP-2 namespace",
+      "confidence": "high",
+      "notes": "No CAIP-2 namespace. Scorex/Waves-lineage address format with network byte 'M' for mainnet."
+    },
+    {
+      "id": "vaulta",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "antelope",
+        "namespace": "antelope",
+        "chain_id": "aca376f206b8fc25a6ed44dbdc66547c"
+      },
+      "status": "apply",
+      "family": "antelope",
+      "represents": "EOS/Vaulta mainnet (exchange 'EOS' networks)",
+      "verified": "eos.greymass.com /v1/chain/get_info -> chain_id aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906 (first 32); matches spec 'EOS Mainnet'",
+      "source": "namespaces/antelope/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'antelope' not yet allowed. EOS EVM (eip155:17777) would be separate."
+    },
+    {
+      "id": "vechain",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "vechain",
+        "chain_id": "b1ac3413d346d43539627e6be7ec1b4a"
+      },
+      "status": "apply",
+      "family": "evm (EVM-compatible, 0x 20-byte addresses; distinct tx format)",
+      "represents": "VeChainThor mainnet (VET/VTHO)",
+      "verified": "mainnet.vechain.org /blocks/0 -> id 0x00000000851caf3cfdb6e899cf5958bfb1ac3413d346d43539627e6be7ec1b4a (last 32 chars)",
+      "source": "namespaces/vechain/caip2.md",
+      "confidence": "medium",
+      "notes": "Namespace 'vechain' not yet allowed. Contract addresses are 0x 20-byte so EIP-55 validation would work if category 'evm' is chosen, but there is no eip155 chain id in-protocol (chainid.network lists 100009 'VeChain', not the CAIP reference). Family choice evm vs other:vechain is a judgment call."
+    },
+    {
+      "id": "viction",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 88
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Viction (ex-TomoChain) mainnet (EVM)",
+      "verified": "rpc.viction.xyz eth_chainId -> 0x58 (88)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "wanchain",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 888
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Wanchain mainnet (EVM, geth fork)",
+      "verified": "888.rpc.thirdweb.com eth_chainId -> 0x378 (888)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "gwan-ssl.wandevs.org timed out, drpc 404; verified via thirdweb RPC only."
+    },
+    {
+      "id": "waves",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "waves",
+        "chain_id": "087"
+      },
+      "status": "apply",
+      "family": "other:waves",
+      "represents": "Waves mainnet",
+      "verified": "nodes.wavesnodes.com: block-1 generator address 3P274YB5... and /addresses 3PKTQk1w... base58-decode byte[1] = 87 ('W')",
+      "source": "namespaces/waves/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'waves' not yet allowed. Reference is zero-padded 3 chars: '087' (string, not int 87)."
+    },
+    {
+      "id": "wax",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "antelope",
+        "namespace": "antelope",
+        "chain_id": "1064487b3cd1a897ce03ae5b6a865651"
+      },
+      "status": "apply",
+      "family": "antelope",
+      "represents": "WAX mainnet (bybit 'WAXP')",
+      "verified": "wax.greymass.com /v1/chain/get_info -> chain_id 1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4 (first 32); matches spec",
+      "source": "namespaces/antelope/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'antelope' not yet allowed."
+    },
+    {
+      "id": "wemix",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 1111
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "WEMIX3.0 mainnet (EVM)",
+      "verified": "api.wemix.com eth_chainId -> 0x457 (1111)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "x-layer",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 196
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "X Layer mainnet (OKX, EVM L2, OKB gas)",
+      "verified": "rpc.xlayer.tech eth_chainId -> 0xc4 (196)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "xai",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 660279
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Xai mainnet (Arbitrum Orbit L3, EVM)",
+      "verified": "xai-chain.net/rpc eth_chainId -> 0xa1337 (660279)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "xpr",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "antelope",
+        "namespace": "antelope",
+        "chain_id": "384da888112027f0321850a169f737c3"
+      },
+      "status": "apply",
+      "family": "antelope",
+      "represents": "XPR Network (ex-Proton) mainnet (kucoin 'xpr')",
+      "verified": "proton.greymass.com /v1/chain/get_info -> chain_id 384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0 (first 32)",
+      "source": "namespaces/antelope/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'antelope' not yet allowed."
+    },
+    {
+      "id": "xrpl",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": null,
+        "namespace": "xrpl",
+        "chain_id": "0"
+      },
+      "status": "apply",
+      "family": "other:xrpl",
+      "represents": "XRP Ledger mainnet (livenet), not XRPL EVM sidechain",
+      "verified": "xrplcluster.com server_info -> network_id 0",
+      "source": "namespaces/xrpl/caip2.md",
+      "confidence": "high",
+      "notes": "Namespace 'xrpl' not yet allowed. Reference '0' as string. Issued tokens keyed CURRENCY+issuer r-address. XRPL EVM sidechain (eip155:1440000) would be separate."
+    },
+    {
+      "id": "zcash",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "utxo",
+        "namespace": "bip122",
+        "chain_id": "00040fe8ec8471911baa1db1266ea15d"
+      },
+      "status": "apply",
+      "family": "utxo",
+      "represents": "Zcash L1 mainnet (transparent + shielded pools)",
+      "verified": "api.blockchair.com/zcash/raw/block/0 raw header double-SHA256 computed locally -> 00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08; zcash/zcash chainparams.cpp assert matches",
+      "source": "BIP122 genesis-prefix rule",
+      "confidence": "high",
+      "notes": "No dedicated zcash namespace in ChainAgnostic; bip122 by rule."
+    },
+    {
+      "id": "zero-gravity",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 16661
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "0G mainnet chain (EVM; reth execution client)",
+      "verified": "evmrpc.0g.ai eth_chainId -> 0x4115 (16661)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": "web3_clientVersion=reth/v1.8.1; exchanges deposit 0G via EVM addresses."
+    },
+    {
+      "id": "zetachain",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 7000
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "ZetaChain mainnet; Cosmos-SDK chain with integrated EVM. Bybit maps both ZETA and ZETAEVM network codes here",
+      "verified": "zetachain-evm.blockpi.network eth_chainId -> 0x1b58 (7000); cosmos side: zetachain-api.polkachu.com and blockpi LCD node_info network -> zetachain_7000-1",
+      "source": "chainid.network; live cosmos node_info",
+      "confidence": "medium",
+      "notes": "Hybrid like kava. Record mixes both sides (Bybit ZETA = cosmos bech32 zeta1..., ZETAEVM = 0x). Tokens (ZRC-20) are EVM contracts, so evm/eip155:7000 is the useful choice; optional split record would be cosmos:zetachain_7000-1."
+    },
+    {
+      "id": "zigchain",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "cosmos-sdk",
+        "namespace": "cosmos",
+        "chain_id": "zigchain-1"
+      },
+      "status": "apply",
+      "family": "cosmos-sdk",
+      "represents": "ZIGChain Cosmos side (ZIG)",
+      "verified": "https://public-zigchain-lcd.numia.xyz GET /cosmos/base/tendermint/v1beta1/node_info -> default_node_info.network='zigchain-1'",
+      "source": "cosmos/chain-registry zigchain/chain.json (chain_id zigchain-1); namespaces/cosmos/caip2.md",
+      "confidence": "high",
+      "notes": "chainlist lists ZIGChain EVM eip155:944 (no RPC in chainlist; zigchain evm hosts returned proxy 502, unverified). Only relevant if an EVM side is tracked."
+    },
+    {
+      "id": "zircuit",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "evm",
+        "namespace": "eip155",
+        "chain_id": 48900
+      },
+      "status": "apply",
+      "family": "evm",
+      "represents": "Zircuit mainnet (EVM L2)",
+      "verified": "mainnet.zircuit.com eth_chainId -> 0xbf04 (48900)",
+      "source": "chainid.network chains.json",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "id": "zkverify",
+      "current": {
+        "category": null,
+        "namespace": null,
+        "chain_id": null
+      },
+      "proposed": {
+        "category": "substrate",
+        "namespace": "polkadot",
+        "chain_id": "060e3dd3fa2904d031206bb913c95468"
+      },
+      "status": "apply",
+      "family": "substrate",
+      "represents": "zkVerify mainnet (Substrate solo chain / relay-style)",
+      "verified": "zkverify-rpc.zkverify.io chain_getBlockHash[0] -> 0x060e3dd3fa2904d031206bb913c954687a2bcc350e5a83d33d9e273ad21460f1; system_chain -> 'zkVerify'",
+      "source": "namespaces/polkadot/caip2.md (genesis hash prefix)",
+      "confidence": "high",
+      "notes": "VFY also exists as ERC-20 on Ethereum/Base; KuCoin 'zkverify' presumed native chain."
+    }
+  ]
+}

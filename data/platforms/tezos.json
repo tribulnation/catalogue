@@ -10,5 +10,7 @@
     "Website": "https://tezos.com/"
   },
   "icon": "icons/asset/tezos.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "tezos",
+  "chain_id": "NetXdQprcVkpaWU"
 }

@@ -7,5 +7,8 @@
   "urls": {
     "Website": "https://merlinchain.io/"
   },
-  "icon": "icons/asset/merlin-chain.svg"
+  "icon": "icons/asset/merlin-chain.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 4200
 }

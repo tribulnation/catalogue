@@ -10,5 +10,7 @@
     "Website": "https://www.vechain.org/"
   },
   "icon": "icons/asset/vechain.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "vechain",
+  "chain_id": "b1ac3413d346d43539627e6be7ec1b4a"
 }

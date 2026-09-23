@@ -8,5 +8,8 @@
   "urls": {
     "Website": "https://iotex.io/"
   },
-  "icon": "icons/asset/iotex.svg"
+  "icon": "icons/asset/iotex.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 4689
 }

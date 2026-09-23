@@ -8,5 +8,8 @@
   "urls": {
     "Website": "https://flare.network/"
   },
-  "icon": "icons/asset/flare.svg"
+  "icon": "icons/asset/flare.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 14
 }

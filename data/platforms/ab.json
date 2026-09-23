@@ -7,5 +7,8 @@
   "urls": {
     "Website": "https://www.ab.org/"
   },
-  "icon": "icons/platform/ab.svg"
+  "icon": "icons/platform/ab.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 36888
 }

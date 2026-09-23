@@ -7,5 +7,8 @@
   "urls": {
     "Website": "https://x.neo.org/"
   },
-  "icon": "icons/platform/neo-x.svg"
+  "icon": "icons/platform/neo-x.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 47763
 }

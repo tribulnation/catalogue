@@ -8,5 +8,8 @@
   "urls": {
     "Website": "https://www.peaq.network/"
   },
-  "icon": "icons/platform/peaq.svg"
+  "icon": "icons/platform/peaq.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 3338
 }

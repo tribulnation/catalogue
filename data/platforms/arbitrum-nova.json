@@ -8,5 +8,8 @@
     "Website": "https://arbitrum.io/",
     "Documentation": "https://docs.arbitrum.io/how-arbitrum-works/deep-dives/anytrust-protocol"
   },
-  "icon": "icons/platform/arbitrum-nova.svg"
+  "icon": "icons/platform/arbitrum-nova.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 42170
 }

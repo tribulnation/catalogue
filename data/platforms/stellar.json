@@ -10,5 +10,7 @@
     "Website": "https://stellar.org/"
   },
   "icon": "icons/asset/stellar.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "stellar",
+  "chain_id": "pubnet"
 }
