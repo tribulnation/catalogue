@@ -1102,5 +1102,17 @@
     "base": "dogwifcoin",
     "quote": "tether",
     "url": "https://www.mexc.com/exchange/WIF_USDT"
+  },
+  "MHAUSDT": {
+    "exchange": "spot",
+    "base": "magne-ai",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/MHA_USDT"
+  },
+  "TREADUSDT": {
+    "exchange": "spot",
+    "base": "tread-fi",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/TREAD_USDT"
   }
 }
