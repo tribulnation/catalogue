@@ -8,5 +8,7 @@
   "urls": {
     "Website": "https://minaprotocol.com/"
   },
-  "icon": "icons/asset/mina-protocol.svg"
+  "icon": "icons/asset/mina-protocol.svg",
+  "namespace": "mina",
+  "chain_id": "mainnet"
 }

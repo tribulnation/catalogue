@@ -7,5 +7,8 @@
   "urls": {
     "Source code": "https://github.com/ethereumpow/go-ethereum"
   },
-  "icon": "icons/asset/ethereum-pow.svg"
+  "icon": "icons/asset/ethereum-pow.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 10001
 }

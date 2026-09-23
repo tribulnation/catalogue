@@ -10,5 +10,7 @@
     "Website": "https://starknet.io/"
   },
   "icon": "icons/asset/starknet.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "starknet",
+  "chain_id": "SN_MAIN"
 }

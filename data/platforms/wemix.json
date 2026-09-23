@@ -8,5 +8,8 @@
   "urls": {
     "Website": "https://www.wemix.com/"
   },
-  "icon": "icons/platform/wemix.svg"
+  "icon": "icons/platform/wemix.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 1111
 }

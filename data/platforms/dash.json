@@ -8,5 +8,8 @@
   "urls": {
     "Website": "https://www.dash.org/"
   },
-  "icon": "icons/asset/dash.svg"
+  "icon": "icons/asset/dash.svg",
+  "category": "utxo",
+  "namespace": "bip122",
+  "chain_id": "00000ffd590b1485b3caadc19b22e637"
 }

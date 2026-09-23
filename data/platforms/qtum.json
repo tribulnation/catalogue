@@ -8,5 +8,8 @@
   "urls": {
     "Website": "https://qtum.org/"
   },
-  "icon": "icons/asset/qtum.svg"
+  "icon": "icons/asset/qtum.svg",
+  "category": "utxo",
+  "namespace": "bip122",
+  "chain_id": "000075aef83cf2853580f8ae8ce6f8c3"
 }

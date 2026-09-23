@@ -7,5 +7,8 @@
   "urls": {
     "Website": "https://www.wanchain.org/"
   },
-  "icon": "icons/asset/wanchain.svg"
+  "icon": "icons/asset/wanchain.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 888
 }

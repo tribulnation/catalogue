@@ -8,5 +8,8 @@
   "urls": {
     "Documentation": "https://docs.story.foundation/docs/wip-client"
   },
-  "icon": "icons/asset/story.svg"
+  "icon": "icons/asset/story.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 1514
 }

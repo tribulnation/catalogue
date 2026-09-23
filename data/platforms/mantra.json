@@ -7,5 +7,8 @@
   "urls": {
     "Website": "https://www.mantrachain.io/"
   },
-  "icon": "icons/platform/mantra.svg"
+  "icon": "icons/platform/mantra.svg",
+  "category": "cosmos-sdk",
+  "namespace": "cosmos",
+  "chain_id": "mantra-1"
 }

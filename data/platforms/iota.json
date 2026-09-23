@@ -10,5 +10,8 @@
     "Website": "https://www.iota.org/"
   },
   "icon": "icons/asset/iota.svg",
-  "native_asset": "iota"
+  "native_asset": "iota",
+  "category": "move",
+  "namespace": "iota",
+  "chain_id": "mainnet"
 }

@@ -10,5 +10,7 @@
     "Website": "https://hedera.com/"
   },
   "icon": "icons/asset/hedera.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "hedera",
+  "chain_id": "mainnet"
 }

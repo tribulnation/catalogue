@@ -10,5 +10,7 @@
     "Website": "https://filecoin.io/"
   },
   "icon": "icons/asset/filecoin.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "fil",
+  "chain_id": "f"
 }

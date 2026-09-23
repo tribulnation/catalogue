@@ -1,0 +1,16 @@
+{
+  "display_name": "Sei EVM",
+  "kind": "blockchain",
+  "native_asset": "sei",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 1329,
+  "urls": {
+    "Website": "https://www.sei.io/",
+    "Documentation": "https://docs.sei.io/evm"
+  },
+  "icon": "icons/asset/sei.svg",
+  "about": {
+    "en": "Sei's EVM environment supports Ethereum-compatible smart contracts and hexadecimal addresses. It shares state and the SEI gas token with the Cosmos SDK environment on the Sei network."
+  }
+}

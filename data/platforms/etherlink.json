@@ -7,5 +7,8 @@
   "urls": {
     "Website": "https://www.etherlink.com/"
   },
-  "icon": "icons/platform/etherlink.svg"
+  "icon": "icons/platform/etherlink.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 42793
 }

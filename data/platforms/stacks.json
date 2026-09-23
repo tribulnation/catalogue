@@ -10,5 +10,7 @@
     "Website": "https://stacks.co/"
   },
   "icon": "icons/asset/stacks.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "namespace": "stacks",
+  "chain_id": "1"
 }

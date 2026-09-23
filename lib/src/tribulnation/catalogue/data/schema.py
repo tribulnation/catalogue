@@ -81,8 +81,14 @@ class CexPlatform(BasePlatform):
 class DexPlatform(BasePlatform):
   kind: Literal['dex']
 
-BlockchainCategory = Literal['evm']
-BlockchainNamespace = Literal['bip122', 'cosmos', 'eip155', 'solana']
+BlockchainCategory = Literal['antelope', 'cosmos-sdk', 'evm', 'move', 'substrate', 'svm', 'utxo']
+BlockchainNamespace = Literal[
+  'aleo', 'algorand', 'antelope', 'aptos', 'arweave', 'avax', 'bip122',
+  'casper', 'ccd', 'conflux', 'cosmos', 'eip155', 'ergo', 'fil', 'flow',
+  'hedera', 'iota', 'klv', 'mina', 'monero', 'mvx', 'neo', 'partisia',
+  'polkadot', 'quai', 'solana', 'stacks', 'starknet', 'stellar', 'sui',
+  'tezos', 'tron', 'tvm', 'vechain', 'waves', 'xrpl'
+]
 
 class Blockchain(BasePlatform):
   kind: Literal['blockchain']

@@ -10,5 +10,8 @@
     "Website": "https://polkadot.com/"
   },
   "icon": "icons/asset/polkadot.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "category": "substrate",
+  "namespace": "polkadot",
+  "chain_id": "91b171bb158e2d3848fa23a9f1c25182"
 }

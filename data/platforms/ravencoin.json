@@ -7,5 +7,8 @@
   "urls": {
     "Website": "https://ravencoin.org/"
   },
-  "icon": "icons/asset/ravencoin.svg"
+  "icon": "icons/asset/ravencoin.svg",
+  "category": "utxo",
+  "namespace": "bip122",
+  "chain_id": "0000006b444bc2f2ffe627be9d9e7e7a"
 }

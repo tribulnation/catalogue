@@ -41,6 +41,22 @@ PYTHONPATH=lib/src .venv/bin/python scripts/instrument_urls.py
 ```
 
 It only fills in missing URLs, so hand-written ones survive; pass `--overwrite` to regenerate everything. When adding a platform, add its URL rule to `SPOT_RULES` / `PERPETUAL_RULES` in that script; instruments on platforms without a rule are left without a `url`.
+## Blockchain category and chain id
+
+`namespace` and `chain_id` together form the chain's
+[CAIP-2](https://github.com/ChainAgnostic/namespaces) id: `eip155:1`,
+`cosmos:cosmoshub-4`, `polkadot:91b171bb158e2d3848fa23a9f1c25182`. Derive the
+reference by that namespace's `caip2.md` and read it back from the live chain
+(`eth_chainId`, Cosmos `node_info.network`, block-0 hash); a registry entry alone
+is not enough. `chain_id` is an integer only under `eip155`. Cosmos chain ids
+outside `[-a-zA-Z0-9]{1,32}` use the `hashed-` form.
+
+`category` says how the chain addresses tokens and accounts (`evm`,
+`cosmos-sdk`, `substrate`, `utxo`, `move`, `svm`, `antelope`); leave it unset
+when none fits. A chain running two environments gets one record per
+environment, as with `kava` / `kava-evm` and `sei` / `sei-evm`.
+docs/reports/blockchain-network-ids-2026-09-23.md records the evidence.
+
 ## EVM addresses
 
 `data/asset_translations/<chain>.json` maps an on-chain identifier to a catalogue

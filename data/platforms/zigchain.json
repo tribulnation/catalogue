@@ -7,5 +7,8 @@
   "urls": {
     "Website": "https://zigchain.com/"
   },
-  "icon": "icons/platform/zigchain.svg"
+  "icon": "icons/platform/zigchain.svg",
+  "category": "cosmos-sdk",
+  "namespace": "cosmos",
+  "chain_id": "zigchain-1"
 }

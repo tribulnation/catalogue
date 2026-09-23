@@ -10,5 +10,8 @@
     "Website": "https://kusama.network/"
   },
   "icon": "icons/asset/kusama.svg",
-  "kind": "blockchain"
+  "kind": "blockchain",
+  "category": "substrate",
+  "namespace": "polkadot",
+  "chain_id": "b0a8d493285c2df73290dfb7e61f870f"
 }

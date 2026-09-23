@@ -1,8 +1,10 @@
 # Blockchain category and CAIP-2 audit — 2026-09-23
 
-Proposal only; no platform record is changed on this branch. 184 of 213
-blockchain records lack `category`, `namespace` or `chain_id`. Every one was
-researched; the companion JSON carries the per-record evidence.
+184 of 213 blockchain records lacked `category`, `namespace` or `chain_id`.
+Every one was researched and the verified values are applied on this branch:
+160 records updated, two existing values corrected, `sei-evm` added, and the
+schema and validation extended. The companion JSON carries the per-record
+evidence; records under [Held back](#held-back) are unchanged.
 
 ## Method
 
@@ -54,7 +56,7 @@ addresses), `vechain` (0x addresses but no eip155 id and its own tx format),
 
 ## Proposed namespaces
 
-Extend `BlockchainNamespace` with every ChainAgnostic namespace used below:
+`BlockchainNamespace` is extended with every ChainAgnostic namespace used below:
 `polkadot` (25 records), `antelope` (4), `aptos` (2), and one each of
 `algorand`, `aleo`, `arweave`, `avax`, `casper`, `ccd`, `conflux`,
 `ergo`, `fil`, `flow`, `hedera`, `iota`, `klv`, `mina`, `monero`, `mvx`, `neo`,
@@ -304,7 +306,7 @@ to; a second record would be needed for the other side.
 
 | Platform | Proposed side | Other side |
 |---|---|---|
-| sei | cosmos `pacific-1` (existing) | **Needs splitting now:** SEIEVM codes at seven exchanges map to `sei`. Add `sei-evm` (`eip155:1329`, live-checked) and repoint them. |
+| sei | cosmos `pacific-1` (existing) | **Split on this branch:** `sei-evm` (`eip155:1329`, live-checked) added; the SEIEVM codes at seven exchanges now map to it. |
 | zetachain | `eip155:7000` | `cosmos:hashed-…` of `zetachain_7000-1`; Bybit maps both ZETA and ZETAEVM here. |
 | peaq | `eip155:3338` | `polkadot:d2a5d385932d1f650dae03ef8e274898` |
 | theta | `eip155:361` | native chain id `mainnet` (no namespace) |
@@ -318,7 +320,7 @@ to; a second record would be needed for the other side.
 ## Other findings
 
 - `network_translations/mexc.json` `DOTASSETHUB` and `bitget.json`
-  `PolkadotAssetHub` map to `polkadot`; they should be `polkadot-asset-hub`.
+  `PolkadotAssetHub` mapped to `polkadot`; both now map to `polkadot-asset-hub`.
 - `litentry` now reports its chain name as Heima (same genesis).
 - `story` is listed as "Data Network" on chainid.network, matching its rebrand.
 - Missing `native_asset` on ao, canton, constellation, eclipse, fogo, icon,

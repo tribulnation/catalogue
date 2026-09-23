@@ -7,5 +7,8 @@
   "urls": {
     "Website": "https://electroneum.com/"
   },
-  "icon": "icons/asset/electroneum.svg"
+  "icon": "icons/asset/electroneum.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 52014
 }

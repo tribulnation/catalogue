@@ -8,5 +8,8 @@
   "urls": {
     "Website": "https://ethereumclassic.org/"
   },
-  "icon": "icons/asset/ethereum-classic.svg"
+  "icon": "icons/asset/ethereum-classic.svg",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 61
 }
