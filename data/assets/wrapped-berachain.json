@@ -8,6 +8,9 @@
     "es": "Wrapped BERA es la representaci\u00f3n ERC-20 de BERA, la moneda de gas de Berachain, emitida por un contrato de envoltura que mantiene la moneda uno a uno. Los contratos inteligentes no pueden manejar una moneda nativa directamente, por lo que WBERA es lo que realmente negocian los exchanges descentralizados y los mercados de pr\u00e9stamo en Berachain. No tiene custodio: el propio contrato de envoltura mantiene el respaldo.",
     "ca": "Wrapped BERA \u00e9s la representaci\u00f3 ERC-20 de BERA, la moneda de gas de Berachain, emesa per un contracte d'embolcall que mant\u00e9 la moneda un a un. Els contractes intel\u00b7ligents no poden gestionar una moneda nativa directament, de manera que WBERA \u00e9s el que realment negocien els exchanges descentralitzats i els mercats de pr\u00e9stec a Berachain. No t\u00e9 custodi: el mateix contracte d'embolcall mant\u00e9 el suport."
   },
+  "urls": {
+    "Website": "https://www.berachain.com/"
+  },
   "external": {
     "coingecko": "wrapped-bera",
     "coinmarketcap": "35608"

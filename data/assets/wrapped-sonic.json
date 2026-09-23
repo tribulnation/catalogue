@@ -8,6 +8,9 @@
     "es": "Wrapped Sonic es la representaci\u00f3n ERC-20 de S, la moneda de gas de Sonic, emitida por un contrato de envoltura que mantiene la moneda uno a uno. Los contratos inteligentes no pueden manejar una moneda nativa directamente, por lo que wS es lo que realmente negocian los exchanges descentralizados y los mercados de pr\u00e9stamo en Sonic. No tiene custodio: el propio contrato de envoltura mantiene el respaldo.",
     "ca": "Wrapped Sonic \u00e9s la representaci\u00f3 ERC-20 de S, la moneda de gas de Sonic, emesa per un contracte d'embolcall que mant\u00e9 la moneda un a un. Els contractes intel\u00b7ligents no poden gestionar una moneda nativa directament, de manera que wS \u00e9s el que realment negocien els exchanges descentralitzats i els mercats de pr\u00e9stec a Sonic. No t\u00e9 custodi: el mateix contracte d'embolcall mant\u00e9 el suport."
   },
+  "urls": {
+    "Website": "https://www.soniclabs.com/"
+  },
   "external": {
     "coingecko": "wrapped-sonic",
     "coinmarketcap": "34753"
