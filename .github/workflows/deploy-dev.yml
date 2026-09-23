@@ -16,7 +16,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     environment:
-      name: cloudflare-dev
+      name: cloudflare-production
       url: https://dev-catalogue.tribulnation.com
     steps:
       - uses: actions/checkout@v4
