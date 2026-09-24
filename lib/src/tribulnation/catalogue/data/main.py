@@ -58,6 +58,17 @@ class PerpetualInstrument:
   delisted: bool
 
 
+@dataclass(frozen=True)
+class DebtInstrument:
+  """A debt token whose balance is owed `asset`, with the asset resolved to its current id."""
+  platform: str
+  id: str
+  """Debt token key (EIP-55 contract address on EVM chains)"""
+  asset: str
+  """Asset id owed"""
+  name: str
+
+
 @dataclass
 class Catalogue:
   assets: dict[str, Asset]
@@ -167,15 +178,16 @@ class Catalogue:
 
   @cached_property
   def _evm_keys(self) -> dict[str, dict[str, str]]:
-    """`platform -> lowercased address -> stored (checksummed) key` for EVM asset translations."""
-    return {
-      platform: {key.lower(): key for key in translations}
-      for platform, translations in self.asset_translations.items()
-      if self.is_evm(platform)
-    }
+    """`platform -> lowercased address -> stored (checksummed) key` over EVM translations and debt tokens."""
+    index: dict[str, dict[str, str]] = {}
+    for source in (self.asset_translations, self.debt_instruments):
+      for platform, entries in source.items():
+        if self.is_evm(platform):
+          index.setdefault(platform, {}).update((key.lower(), key) for key in entries)
+    return index
 
   def translation_key(self, platform: str, raw_id: str | int) -> str:
-    """Normalise a native id into the key used by `asset_translations[platform]`.
+    """Normalise a native id into the key used by `asset_translations[platform]` and `debt_instruments[platform]`.
 
     - EVM chains: any casing of a contract address maps to the stored EIP-55 form, and
       any casing of `native` to `native`.
@@ -243,6 +255,18 @@ class Catalogue:
       multiplier=Decimal(instrument.get('multiplier', 1)),
       delisted=instrument.get('delisted', False),
     )
+
+  def debt_for(self, platform: str, raw_id: str) -> DebtInstrument | None:
+    """A debt token (e.g. an Aave `variableDebt…` token) with its underlying asset, or None.
+
+    Args:
+      platform: Catalogue platform id, e.g. `ethereum`.
+      raw_id: The debt token's contract address, in any casing.
+    """
+    debt = self.debt_instruments.get(platform, {}).get(self.translation_key(platform, raw_id))
+    if debt is None:
+      return None
+    return DebtInstrument(platform=platform, id=self.translation_key(platform, raw_id), asset=self.canonical_id(debt['asset']), name=debt['name'])
 
   def network_for(self, platform: str, raw_network: str) -> str | None:
     """The catalogue platform id of a venue's network code (e.g. bybit `BSC (BEP20)`), or None."""

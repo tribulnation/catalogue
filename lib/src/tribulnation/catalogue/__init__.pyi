@@ -6,7 +6,7 @@ from .data import (
   Asset, AssetPeg, ExternalIds, ExternalSource,
   BasePlatform, CexPlatform, DexPlatform, Blockchain, BlockchainCategory,
   BlockchainNamespace, Platform,
-  Catalogue, PerpetualInstrument, Spot, Perpetual, Debt, Pool, SpamAddress,
+  Catalogue, PerpetualInstrument, DebtInstrument, Spot, Perpetual, Debt, Pool, SpamAddress,
 )
 from .market_data import MarketData, Pricing, Stats
 
@@ -14,6 +14,6 @@ __all__ = [
   'Asset', 'AssetPeg', 'ExternalIds', 'ExternalSource',
   'BasePlatform', 'CexPlatform', 'DexPlatform', 'Blockchain', 'BlockchainCategory',
   'BlockchainNamespace', 'Platform',
-  'Catalogue', 'PerpetualInstrument', 'Spot', 'Perpetual', 'Debt', 'Pool', 'SpamAddress',
+  'Catalogue', 'PerpetualInstrument', 'DebtInstrument', 'Spot', 'Perpetual', 'Debt', 'Pool', 'SpamAddress',
   'MarketData', 'Pricing', 'Stats',
 ]

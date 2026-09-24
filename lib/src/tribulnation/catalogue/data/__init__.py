@@ -8,4 +8,4 @@ from .schema import (
   BlockchainNamespace, Platform,
   Spot, Perpetual, Debt, Pool, SpamAddress,
 )
-from .main import Catalogue, PerpetualInstrument
+from .main import Catalogue, PerpetualInstrument, DebtInstrument

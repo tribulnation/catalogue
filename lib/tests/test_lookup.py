@@ -95,6 +95,18 @@ class PerpetualForTest(unittest.TestCase):
     self.assertIsNone(CATALOGUE.perpetual_for('nowhere', 'BTC'))
 
 
+class DebtForTest(unittest.TestCase):
+  """`debt_for` on EVM debt tokens."""
+
+  def test_aave_debt_token(self):
+    """An Aave variable-debt token resolves to the owed asset, from any address casing."""
+    debt = CATALOGUE.debt_for('ethereum', '0x72e95b8931767c79ba4eee721354d6e99a61d004')
+    assert debt is not None
+    self.assertEqual((debt.asset, debt.id), ('usd-coin', '0x72E95b8931767C79bA4EeE721354d6E99a61D004'))
+    self.assertIsNone(CATALOGUE.asset_for('ethereum', '0x72e95b8931767c79ba4eee721354d6e99a61d004'))
+    self.assertIsNone(CATALOGUE.debt_for('ethereum', '0x' + '00' * 20))
+
+
 class NetworkForTest(unittest.TestCase):
   """`network_for` on venue network codes."""
 

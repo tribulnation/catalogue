@@ -80,6 +80,9 @@ catalogue.perpetual_for('hyperliquid', 'kPEPE')
 # PerpetualInstrument(platform='hyperliquid', id='kPEPE', base='pepe', quote='tether',
 #                     settlement='usd-coin', multiplier=Decimal('1000'), delisted=False)
 
+catalogue.debt_for('ethereum', '0x72e95b8931767c79ba4eee721354d6e99a61d004')
+# DebtInstrument(platform='ethereum', id='0x72E95b89…', asset='usd-coin', name='Aave USDC Debt')
+
 catalogue.network_for('bybit', 'BSC (BEP20)')  # 'bnb-chain'
 catalogue.canonical_id('old-id')               # follows `replaced_by` aliases
 ```
@@ -114,7 +117,7 @@ All types are available from the package root:
 from tribulnation.catalogue import (
     Asset, AssetPeg, ExternalIds,
     Platform, Blockchain, CexPlatform, DexPlatform,
-    Spot, Perpetual, PerpetualInstrument, Debt, Pool,
+    Spot, Perpetual, PerpetualInstrument, DebtInstrument, Debt, Pool,
     SpamAddress,
 )
 ```
