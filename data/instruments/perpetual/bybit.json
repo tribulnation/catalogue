@@ -2150,6 +2150,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SANDUSDT"
   },
+  "SECZUSDT": {
+    "exchange": "perp",
+    "base": "securitize",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SECZUSDT"
+  },
   "SEIPERP": {
     "exchange": "perp",
     "base": "sei",
@@ -2296,6 +2303,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/STGUSDT"
+  },
+  "STONKUSDT": {
+    "exchange": "perp",
+    "base": "stonk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/STONKUSDT"
   },
   "STRKPERP": {
     "exchange": "perp",

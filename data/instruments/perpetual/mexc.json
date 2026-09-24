@@ -635,5 +635,19 @@
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/WIF_USDT",
     "exchange": "perp"
+  },
+  "AGPUSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "axe-compute",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AGPUSTOCK_USDT"
+  },
+  "CYPHSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "cypherpunk-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CYPHSTOCK_USDT"
   }
 }
