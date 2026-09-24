@@ -86,12 +86,18 @@ btc     = catalogue.assets['bitcoin']
 binance = catalogue.platforms['binance']
 ```
 
-`Catalogue.load()` downloads the public catalogue on first use and caches it locally for later runs.
+`Catalogue.load()` downloads the public catalogue on first use and caches it locally. It checks for changes at most once a day with a conditional request, re-downloads only when the data changed, and keeps the last good copy if the site is unreachable.
 
 ```python
-catalogue = Catalogue.load()             # use cache, download if needed
+catalogue = Catalogue.load()             # use cache, refresh daily
 catalogue = Catalogue.load(refresh=True) # force fresh download
 catalogue = Catalogue.load('data')       # explicit local folder
+
+catalogue = catalogue.maybe_refresh()    # long-running processes: cheap, returns self when unchanged
+catalogue.digest                         # sha256 of the loaded data.zip
+
+catalogue.asset_for('hyperliquid', 150)  # 'hyperliquid'
+catalogue.perpetual_for('dydx', 'BTC-USD').base  # 'bitcoin'
 ```
 
 ### Pricing

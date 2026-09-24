@@ -58,6 +58,19 @@ Create `data/platforms/<slug>.json`. Required fields:
 
 `kind` is one of `cex`, `dex`, or `blockchain`. Blockchains also accept `native_asset`, `namespace`, `chain_id`, and `category`.
 
+## Ids are permanent
+
+Consumers store asset and platform ids, and read the live `data.zip` daily, so a
+published id must keep resolving. Never rename or delete an asset or platform file.
+To merge a duplicate asset, keep its file and add `"replaced_by": "<surviving id>"`;
+lookups follow the alias. Point translations, instruments and pegs at the surviving
+id — validation rejects references to an alias. CI compares ids against the published
+archive:
+
+```bash
+PYTHONPATH=lib/src .venv/bin/python scripts/check_id_stability.py
+```
+
 ## Validate
 
 Always run before opening a pull request:

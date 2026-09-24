@@ -1,16 +1,23 @@
 import io
 import os
+import re
 import shutil
 import sys
 import urllib.request
 import zipfile
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from datetime import datetime, timedelta
+from decimal import Decimal
+from functools import cached_property
 from pathlib import Path
 
 from .schema import Asset, Platform, Spot, Perpetual, Debt, Pool, SpamAddress
+from .cache import ArchiveCache, DEFAULT_URL, DEFAULT_MAX_AGE, DEFAULT_TIMEOUT
 
-DEFAULT_URL = 'https://catalogue.tribulnation.com/data.zip'
 DEFAULT_CACHE = Path.home() / '.cache' / 'tribulnation' / 'catalogue'
+"""Extraction folder used by versions up to 0.3.3 (the archive cache now lives next to it)."""
+
+_EVM_ADDRESS = re.compile(r'^0x[0-9a-fA-F]{40}$')
 
 
 def _download(url: str, dest: Path, *, silent: bool = False) -> None:
@@ -34,6 +41,23 @@ def _download(url: str, dest: Path, *, silent: bool = False) -> None:
     shutil.rmtree(tmp, ignore_errors=True)
 
 
+@dataclass(frozen=True)
+class PerpetualInstrument:
+  """A venue's perpetual contract with its assets resolved to current catalogue ids."""
+  platform: str
+  id: str
+  """Venue instrument id, e.g. `BTC` or `xyz:TSLA` on hyperliquid, `BTC-USD` on dydx"""
+  base: str
+  """Base asset id"""
+  quote: str
+  """Quote asset id"""
+  settlement: str
+  """Settlement asset id"""
+  multiplier: Decimal
+  """Units of `base` per contract unit (1 unless the venue scales it, e.g. `kPEPE`)"""
+  delisted: bool
+
+
 @dataclass
 class Catalogue:
   assets: dict[str, Asset]
@@ -53,6 +77,12 @@ class Catalogue:
   """`platform id -> instrument id -> pool`"""
   spam: dict[str, dict[str, SpamAddress]]
   """`platform id -> address -> spam address`"""
+  digest: str | None = None
+  """sha256 of the loaded `data.zip`; None when loaded from a folder"""
+  loaded_at: datetime | None = None
+  """When the data was loaded from the cached archive; None when loaded from a folder"""
+  cache: ArchiveCache | None = field(default=None, repr=False, compare=False)
+  """The archive cache this catalogue came from, used by `maybe_refresh`"""
 
   @property
   def ordered_platforms(self):
@@ -78,17 +108,142 @@ class Catalogue:
     refresh: bool = False,
     silent: bool = False,
     url: str = DEFAULT_URL,
+    max_age: timedelta = DEFAULT_MAX_AGE,
+    cache_dir: Path | str | None = None,
+    timeout: float = DEFAULT_TIMEOUT,
   ) -> 'Catalogue':
     """Load the catalogue.
 
+    Without `path`, the published `data.zip` is kept in a local cache. A cached copy
+    checked less than `max_age` ago is used as-is; otherwise one conditional request
+    (`ETag` / `Last-Modified`) asks whether it changed, and the archive is downloaded
+    again only then. A download replaces the cached copy only once it loads. When the
+    site is unreachable the last good copy is used and a warning is logged; only a
+    first run with no cached copy raises.
+
     Args:
-      path: Local folder to load from directly. If omitted, uses `~/.cache/tribulnation/catalogue`.
-      refresh: Re-download even if a cached copy exists.
-      silent: Suppress the download progress message.
+      path: Local data folder. An existing folder is read as-is and never touches the
+        network (unless `refresh`); a missing one is downloaded into, as in earlier versions.
+      refresh: Download unconditionally, ignoring the cached copy's validators.
+      silent: Suppress the download message.
       url: Archive URL to download from. Defaults to the public catalogue.
+      max_age: How long a check stays valid before the next conditional request.
+      cache_dir: Cache folder for the archive; `~/.cache/tribulnation` by default.
+      timeout: Network timeout in seconds.
+
+    Raises:
+      urllib.error.URLError: The site is unreachable and there is no cached copy.
     """
     from . import load
-    path = Path(path or DEFAULT_CACHE)
-    if refresh or not path.exists():
-      _download(url, path, silent=silent)
-    return load.all(path)
+    if path is not None:
+      path = Path(path)
+      if refresh or not path.exists():
+        _download(url, path, silent=silent)
+      return load.all(path)
+    cache = ArchiveCache(url=url, folder=cache_dir, max_age=max_age, timeout=timeout, silent=silent)
+    return cache.load(force=refresh)
+
+  def maybe_refresh(self) -> 'Catalogue':
+    """The current catalogue: `self` unless `max_age` elapsed and the published archive changed.
+
+    Cheap to call often (e.g. daily or per request): it only reads the cache sidecar until
+    `max_age` has elapsed, then sends one conditional request. Catalogues loaded from a
+    folder always return `self`. Network errors never raise; the last good copy stays.
+    """
+    if self.cache is None:
+      return self
+    return self.cache.load(self)
+
+  def refresh(self) -> 'Catalogue':
+    """Like `maybe_refresh`, but sends the conditional request regardless of `max_age`."""
+    if self.cache is None:
+      return self
+    return self.cache.load(self, check=True)
+
+  def is_evm(self, platform: str) -> bool:
+    """Whether `platform` is an EVM blockchain, whose translation keys are contract addresses."""
+    p = self.platforms.get(platform)
+    return p is not None and p['kind'] == 'blockchain' and p.get('category') == 'evm'
+
+  @cached_property
+  def _evm_keys(self) -> dict[str, dict[str, str]]:
+    """`platform -> lowercased address -> stored (checksummed) key` for EVM asset translations."""
+    return {
+      platform: {key.lower(): key for key in translations}
+      for platform, translations in self.asset_translations.items()
+      if self.is_evm(platform)
+    }
+
+  def translation_key(self, platform: str, raw_id: str | int) -> str:
+    """Normalise a native id into the key used by `asset_translations[platform]`.
+
+    - EVM chains: any casing of a contract address maps to the stored EIP-55 form, and
+      any casing of `native` to `native`.
+    - Hyperliquid spot: the token index, as `int` or `str`.
+    - Everything else (CEX and dYdX symbols, Solana/Tron addresses): exact, case-sensitive.
+    """
+    key = str(raw_id)
+    if self.is_evm(platform):
+      if key.lower() == 'native':
+        return 'native'
+      if _EVM_ADDRESS.match(key):
+        return self._evm_keys.get(platform, {}).get(key.lower(), key)
+    return key
+
+  def canonical_id(self, asset_id: str) -> str:
+    """Follow `replaced_by` aliases to the asset id currently in use."""
+    seen = {asset_id}
+    while (asset := self.assets.get(asset_id)) is not None and (target := asset.get('replaced_by')) is not None:
+      if target in seen:
+        break
+      seen.add(target)
+      asset_id = target
+    return asset_id
+
+  def asset(self, asset_id: str) -> Asset | None:
+    """The asset record for `asset_id`, following `replaced_by` aliases."""
+    return self.assets.get(self.canonical_id(asset_id))
+
+  def asset_for(self, platform: str, raw_id: str | int) -> str | None:
+    """The catalogue asset id of a platform-native asset, or None when it is not translated.
+
+    Args:
+      platform: Catalogue platform id, e.g. `hyperliquid`, `ethereum`, `arbitrum`, `bitget`, `dydx`.
+      raw_id: Native id: the spot token index on hyperliquid, the contract address or `native`
+        on EVM chains, the venue symbol on CEXs and dYdX.
+
+    Examples:
+      >>> catalogue.asset_for('hyperliquid', 150)
+      'hyperliquid'
+      >>> catalogue.asset_for('arbitrum', '0xaf88d065e77c8cc2239327c5edb3a432268e5831')
+      'usd-coin'
+    """
+    translations = self.asset_translations.get(platform)
+    if translations is None:
+      return None
+    asset_id = translations.get(self.translation_key(platform, raw_id))
+    return self.canonical_id(asset_id) if asset_id is not None else None
+
+  def perpetual_for(self, platform: str, id: str) -> PerpetualInstrument | None:
+    """A perpetual instrument with its assets resolved, or None when it is not catalogued.
+
+    Args:
+      platform: Catalogue platform id, e.g. `hyperliquid` or `dydx`.
+      id: Venue instrument id: the `meta.universe` coin on hyperliquid (`dex:COIN` for HIP-3),
+        the ticker on dYdX (`BTC-USD`). Case-sensitive.
+    """
+    instrument = self.perpetual_instruments.get(platform, {}).get(id)
+    if instrument is None:
+      return None
+    return PerpetualInstrument(
+      platform=platform, id=id,
+      base=self.canonical_id(instrument['base']),
+      quote=self.canonical_id(instrument['quote']),
+      settlement=self.canonical_id(instrument['settlement']),
+      multiplier=Decimal(instrument.get('multiplier', 1)),
+      delisted=instrument.get('delisted', False),
+    )
+
+  def network_for(self, platform: str, raw_network: str) -> str | None:
+    """The catalogue platform id of a venue's network code (e.g. bybit `BSC (BEP20)`), or None."""
+    return self.network_translations.get(platform, {}).get(raw_network)

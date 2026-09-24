@@ -21,6 +21,8 @@ export type AssetSummary = {
   icon?: string
   tags?: string[]
   pegged_to?: AssetPeg
+  /** Asset ID this one was merged into, if it is an alias */
+  replaced_by?: string
 }
 
 export type AssetDetail = AssetSummary & {

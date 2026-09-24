@@ -80,6 +80,7 @@ def asset_summary(id: str, asset: data.Asset, public_url: str | None) -> AssetSu
     icon=public_path(public_url, icon) if icon else None,
     tags=asset.get('tags'),
     pegged_to=AssetPeg(**peg) if peg else None,
+    replaced_by=asset.get('replaced_by'),
   )
 
 
@@ -98,6 +99,7 @@ def asset_detail(id: str, asset: data.Asset, public_url: str | None) -> AssetDet
     about=a if (a := asset.get('about')) else None,
     external=ExternalIds(**ext) if ext else None,
     pegged_to=AssetPeg(**peg) if peg else None,
+    replaced_by=asset.get('replaced_by'),
   )
 
 
@@ -116,6 +118,7 @@ def localized_asset(id: str, asset: data.Asset, public_url: str | None, locale: 
     about=about,
     external=ExternalIds(**ext) if ext else None,
     pegged_to=AssetPeg(**peg) if peg else None,
+    replaced_by=asset.get('replaced_by'),
   )
 
 

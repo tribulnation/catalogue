@@ -1,10 +1,13 @@
-"""Load catalogue data from JSON files."""
+"""Load catalogue data from JSON files, in a folder or inside a `data.zip` archive."""
 
-from collections import defaultdict
+import io
 from pathlib import Path
-from typing_extensions import Literal
+import logging
+from typing import Iterator, TypeVar
+from typing_extensions import Literal, Protocol
+import zipfile
 
-from pydantic import TypeAdapter
+from pydantic import TypeAdapter, ValidationError
 
 from .schema import Asset, Platform, Spot, Perpetual, Debt, SpamAddress, Pool
 from .main import Catalogue
@@ -20,112 +23,121 @@ _spam_adapter = TypeAdapter(dict[str, SpamAddress])
 _pools_adapter = TypeAdapter(dict[str, Pool])
 
 _Extra = Literal['forbid', 'ignore']
+T = TypeVar('T')
+logger = logging.getLogger('tribulnation.catalogue')
 
 def _extra(strict: bool) -> _Extra:
   """Resolve the pydantic `extra` mode."""
   return 'forbid' if strict else 'ignore'
 
-def assets(folder: Path, *, strict: bool = False) -> dict[str, Asset]:
+class Folder(Protocol):
+  """A readable directory: a `pathlib.Path` or a `zipfile.Path` inside an archive."""
+  @property
+  def name(self) -> str: ...
+  def iterdir(self) -> Iterator['Folder']: ...
+  def is_dir(self) -> bool: ...
+  def is_file(self) -> bool: ...
+  def read_bytes(self) -> bytes: ...
+  def __truediv__(self, other: str, /) -> 'Folder': ...
+
+def json_files(folder: Folder) -> Iterator[tuple[str, bytes]]:
+  """Yield `(stem, content)` for every `*.json` file directly in `folder`; nothing if it is missing."""
+  if not folder.is_dir():
+    return
+  for file in folder.iterdir():
+    if file.is_file() and file.name.endswith('.json'):
+      yield file.name.removesuffix('.json'), file.read_bytes()
+
+def records(folder: Folder, adapter: TypeAdapter[T], *, strict: bool, skip_invalid: bool) -> dict[str, T]:
+  """Validate every `*.json` file in `folder`, keyed by file stem.
+
+  Args:
+    folder: Folder holding the files.
+    adapter: Validator of one file.
+    strict: Reject unknown fields.
+    skip_invalid: Log and skip files that fail validation instead of raising, so a client
+      reading newer live data (e.g. a new enum value) keeps every record it understands.
+  """
+  extra = _extra(strict)
+  out: dict[str, T] = {}
+  for stem, content in json_files(folder):
+    try:
+      out[stem] = adapter.validate_json(content, extra=extra)
+    except ValidationError as e:
+      if not skip_invalid:
+        raise
+      logger.warning('Skipping catalogue file %s/%s.json: %d validation error(s)', folder.name, stem, e.error_count())
+  return out
+
+def assets(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, Asset]:
   """Load all asset definitions from a folder."""
-  extra = _extra(strict)
-  assets: dict[str, Asset] = {}
-  for file in folder.glob('*.json'):
-    id = file.stem
-    assets[id] = _asset_adapter.validate_json(file.read_bytes(), extra=extra)
-  return assets
+  return records(folder, _asset_adapter, strict=strict, skip_invalid=skip_invalid)
 
-def assets_order(file: Path) -> list[str]:
+def assets_order(file: Folder) -> list[str]:
   """Load asset display order."""
-  return [id for line in file.read_text().splitlines() if (id := line.strip())]
+  return [id for line in file.read_bytes().decode().splitlines() if (id := line.strip())]
 
-def platforms(folder: Path, *, strict: bool = False) -> dict[str, Platform]:
+def platforms(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, Platform]:
   """Load all platform definitions from a folder."""
-  extra = _extra(strict)
-  platforms: dict[str, Platform] = {}
-  for file in folder.glob('*.json'):
-    id = file.stem
-    platforms[id] = _platform_adapter.validate_json(file.read_bytes(), extra=extra)
-  return platforms
+  return records(folder, _platform_adapter, strict=strict, skip_invalid=skip_invalid)
 
-def platforms_order(file: Path) -> list[str]:
+def platforms_order(file: Folder) -> list[str]:
   """Load platform display order."""
-  return [id for line in file.read_text().splitlines() if (id := line.strip())]
+  return [id for line in file.read_bytes().decode().splitlines() if (id := line.strip())]
 
-def network_translations(folder: Path, *, strict: bool = False) -> dict[str, dict[str, str]]:
-  """Load network translation mappings."""
-  extra = _extra(strict)
-  network_translations = defaultdict[str, dict[str, str]](dict)
-  for file in folder.glob('*.json'):
-    platform = file.stem
-    network_translations[platform].update(_network_translation_adapter.validate_json(file.read_bytes(), extra=extra))
-  return dict(network_translations)
+def network_translations(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, dict[str, str]]:
+  """Load network translation mappings (`platform -> native network -> platform id`)."""
+  return records(folder, _network_translation_adapter, strict=strict, skip_invalid=skip_invalid)
 
-def asset_translations(folder: Path, *, strict: bool = False) -> dict[str, dict[str, str]]:
-  """Load asset translation mappings."""
-  extra = _extra(strict)
-  asset_translations = defaultdict[str, dict[str, str]](dict)
-  for file in folder.glob('*.json'):
-    platform = file.stem
-    asset_translations[platform].update(_asset_translation_adapter.validate_json(file.read_bytes(), extra=extra))
-  return dict(asset_translations)
+def asset_translations(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, dict[str, str]]:
+  """Load asset translation mappings (`platform -> native id -> asset id`)."""
+  return records(folder, _asset_translation_adapter, strict=strict, skip_invalid=skip_invalid)
 
-def spot_instruments(folder: Path, *, strict: bool = False) -> dict[str, dict[str, Spot]]:
+def spot_instruments(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, dict[str, Spot]]:
   """Load spot instrument definitions."""
-  extra = _extra(strict)
-  spot_instruments = defaultdict[str, dict[str, Spot]](dict)
-  for file in folder.glob('*.json'):
-    platform = file.stem
-    spot_instruments[platform].update(_spot_instruments_adapter.validate_json(file.read_bytes(), extra=extra))
-  return dict(spot_instruments)
+  return records(folder, _spot_instruments_adapter, strict=strict, skip_invalid=skip_invalid)
 
-def perpetual_instruments(folder: Path, *, strict: bool = False) -> dict[str, dict[str, Perpetual]]:
+def perpetual_instruments(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, dict[str, Perpetual]]:
   """Load perpetual instrument definitions."""
-  extra = _extra(strict)
-  perpetual_instruments = defaultdict[str, dict[str, Perpetual]](dict)
-  for file in folder.glob('*.json'):
-    platform = file.stem
-    perpetual_instruments[platform].update(_perpetual_instruments_adapter.validate_json(file.read_bytes(), extra=extra))
-  return dict(perpetual_instruments)
+  return records(folder, _perpetual_instruments_adapter, strict=strict, skip_invalid=skip_invalid)
 
-def debt_instruments(folder: Path, *, strict: bool = False) -> dict[str, dict[str, Debt]]:
+def debt_instruments(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, dict[str, Debt]]:
   """Load debt instrument definitions."""
-  extra = _extra(strict)
-  debt_instruments = defaultdict[str, dict[str, Debt]](dict)
-  for file in folder.glob('*.json'):
-    platform = file.stem
-    debt_instruments[platform].update(_debt_instruments_adapter.validate_json(file.read_bytes(), extra=extra))
-  return dict(debt_instruments)
+  return records(folder, _debt_instruments_adapter, strict=strict, skip_invalid=skip_invalid)
 
-def spam(folder: Path, *, strict: bool = False) -> dict[str, dict[str, SpamAddress]]:
+def spam(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, dict[str, SpamAddress]]:
   """Load spam address records."""
-  extra = _extra(strict)
-  spam = defaultdict[str, dict[str, SpamAddress]](dict)
-  for file in folder.glob('*.json'):
-    platform = file.stem
-    spam[platform].update(_spam_adapter.validate_json(file.read_bytes(), extra=extra))
-  return dict(spam)
+  return records(folder, _spam_adapter, strict=strict, skip_invalid=skip_invalid)
 
-def pools(folder: Path, *, strict: bool = False) -> dict[str, dict[str, Pool]]:
+def pools(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, dict[str, Pool]]:
   """Load pool definitions."""
-  extra = _extra(strict)
-  pools = defaultdict[str, dict[str, Pool]](dict)
-  for file in folder.glob('*.json'):
-    platform = file.stem
-    pools[platform].update(_pools_adapter.validate_json(file.read_bytes(), extra=extra))
-  return dict(pools)
+  return records(folder, _pools_adapter, strict=strict, skip_invalid=skip_invalid)
 
-def all(folder: Path | str, *, strict: bool = False) -> Catalogue:
-  """Load the full catalogue from a data folder."""
-  folder = Path(folder)
+def all(folder: Path | str | Folder, *, strict: bool = False, skip_invalid: bool = False) -> Catalogue:
+  """Load the full catalogue from a data folder (or a `zipfile.Path` at the root of `data.zip`).
+
+  Args:
+    folder: The data folder.
+    strict: Reject unknown fields.
+    skip_invalid: Log and skip files that fail validation instead of raising.
+  """
+  if isinstance(folder, str):
+    folder = Path(folder)
+  kw = dict(strict=strict, skip_invalid=skip_invalid)
   return Catalogue(
-    assets=assets(folder / 'assets', strict=strict),
-    platforms=platforms(folder / 'platforms', strict=strict),
+    assets=assets(folder / 'assets', **kw),
+    platforms=platforms(folder / 'platforms', **kw),
     platforms_order=platforms_order(folder / 'platforms' / 'order.txt'),
-    network_translations=network_translations(folder / 'network_translations', strict=strict),
-    asset_translations=asset_translations(folder / 'asset_translations', strict=strict),
-    spot_instruments=spot_instruments(folder / 'instruments' / 'spot', strict=strict),
-    perpetual_instruments=perpetual_instruments(folder / 'instruments' / 'perpetual', strict=strict),
-    debt_instruments=debt_instruments(folder / 'instruments' / 'debt', strict=strict),
-    pools=pools(folder / 'instruments' / 'pools', strict=strict),
-    spam=spam(folder / 'spam', strict=strict),
+    network_translations=network_translations(folder / 'network_translations', **kw),
+    asset_translations=asset_translations(folder / 'asset_translations', **kw),
+    spot_instruments=spot_instruments(folder / 'instruments' / 'spot', **kw),
+    perpetual_instruments=perpetual_instruments(folder / 'instruments' / 'perpetual', **kw),
+    debt_instruments=debt_instruments(folder / 'instruments' / 'debt', **kw),
+    pools=pools(folder / 'instruments' / 'pools', **kw),
+    spam=spam(folder / 'spam', **kw),
   )
+
+def archive(data: bytes, *, strict: bool = False, skip_invalid: bool = False) -> Catalogue:
+  """Load the full catalogue from the bytes of a `data.zip` archive, without extracting it."""
+  with zipfile.ZipFile(io.BytesIO(data)) as zf:
+    return all(zipfile.Path(zf), strict=strict, skip_invalid=skip_invalid)

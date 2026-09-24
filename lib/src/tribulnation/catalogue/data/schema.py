@@ -68,6 +68,8 @@ class Asset(TypedDict):
   icon: NotRequired[str]
   external: NotRequired[ExternalIds]
   pegged_to: NotRequired[AssetPeg]
+  replaced_by: NotRequired[str]
+  """Asset ID this one was merged into. Ids are never deleted; a merged asset keeps its file as an alias."""
 
 class BasePlatform(TypedDict):
   display_name: str
