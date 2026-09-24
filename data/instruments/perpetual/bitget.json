@@ -1524,5 +1524,40 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitget.com/futures/usdt/MOVEUSDT"
+  },
+  "AGPUUSDT": {
+    "exchange": "usdt",
+    "base": "axe-compute",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/AGPUUSDT"
+  },
+  "CYPHUSDT": {
+    "exchange": "usdt",
+    "base": "cypherpunk-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/CYPHUSDT"
+  },
+  "HUTUSDT": {
+    "exchange": "usdt",
+    "base": "hut-8",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/HUTUSDT"
+  },
+  "SDGRUSDT": {
+    "exchange": "usdt",
+    "base": "schrodinger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/SDGRUSDT"
+  },
+  "STONKUSDT": {
+    "exchange": "usdt",
+    "base": "stonk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/STONKUSDT"
   }
 }
