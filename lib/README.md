@@ -23,18 +23,21 @@ btc     = catalogue.assets["bitcoin"]
 binance = catalogue.platforms["binance"]
 ```
 
-On first call, `load()` downloads the catalogue and caches it at `~/.cache/tribulnation/catalogue`. Subsequent calls load from cache.
+`load()` keeps the published `data.zip` in `~/.cache/tribulnation` and loads it from there. Once a day (`max_age`) it asks the site whether the archive changed with one conditional request (`ETag` / `Last-Modified`), and downloads it again only when it did. A download replaces the cached copy only once it loads; if the site is unreachable, the last good copy is used and a warning is logged. Only a first run without any cached copy fails.
 
 ## Loading options
 
 ```python
-# Use cache, download if not present (default)
+# Cached archive, checked at most once a day (default)
 catalogue = Catalogue.load()
+
+# Check more or less often
+catalogue = Catalogue.load(max_age=timedelta(hours=6))
 
 # Force a fresh download
 catalogue = Catalogue.load(refresh=True)
 
-# Load from an explicit local folder
+# Load from an explicit local folder (never touches the network once it exists)
 catalogue = Catalogue.load("data")
 
 # Custom source URL or cache directory
@@ -46,6 +49,45 @@ catalogue = Catalogue.load(
 # Suppress the download message
 catalogue = Catalogue.load(silent=True)
 ```
+
+### Long-running processes
+
+```python
+catalogue = Catalogue.load()
+catalogue.digest     # sha256 of the loaded data.zip (None for a folder)
+catalogue.loaded_at  # when it was loaded
+
+# Call as often as you like (e.g. daily): returns the same object until max_age
+# elapsed and the published archive actually changed, then a freshly loaded one.
+catalogue = catalogue.maybe_refresh()
+
+# Check now, regardless of max_age
+catalogue = catalogue.refresh()
+```
+
+Network errors never raise from `maybe_refresh()` / `refresh()`; the last good copy stays.
+
+## Lookups
+
+```python
+catalogue.asset_for('hyperliquid', 150)        # 'hyperliquid'  (spot token index)
+catalogue.asset_for('arbitrum', '0xaf88d065e77c8cc2239327c5edb3a432268e5831')  # 'usd-coin' (any casing)
+catalogue.asset_for('ethereum', 'native')      # 'ethereum'
+catalogue.asset_for('bitget', 'rSPY')          # symbols are case-sensitive
+catalogue.asset_for('mexc', 'UNKNOWN')         # None
+
+catalogue.perpetual_for('hyperliquid', 'kPEPE')
+# PerpetualInstrument(platform='hyperliquid', id='kPEPE', base='pepe', quote='tether',
+#                     settlement='usd-coin', multiplier=Decimal('1000'), delisted=False)
+
+catalogue.debt_for('ethereum', '0x72e95b8931767c79ba4eee721354d6e99a61d004')
+# DebtInstrument(platform='ethereum', id='0x72E95b89…', asset='usd-coin', name='Aave USDC Debt')
+
+catalogue.network_for('bybit', 'BSC (BEP20)')  # 'bnb-chain'
+catalogue.canonical_id('old-id')               # follows `replaced_by` aliases
+```
+
+Every lookup follows `replaced_by`: asset ids are never deleted, and a merged asset keeps its file as an alias of the surviving one.
 
 ## What's available
 
@@ -75,7 +117,7 @@ All types are available from the package root:
 from tribulnation.catalogue import (
     Asset, AssetPeg, ExternalIds,
     Platform, Blockchain, CexPlatform, DexPlatform,
-    Spot, Perpetual, Debt, Pool,
+    Spot, Perpetual, PerpetualInstrument, DebtInstrument, Debt, Pool,
     SpamAddress,
 )
 ```

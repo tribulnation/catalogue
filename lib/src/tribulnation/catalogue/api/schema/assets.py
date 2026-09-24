@@ -32,6 +32,8 @@ class AssetSummary(BaseModel):
   """Asset tags"""
   pegged_to: AssetPeg | None = None
   """Peg target, if this is a pegged asset"""
+  replaced_by: str | None = None
+  """Asset ID this one was merged into, if it is an alias"""
 
 class BaseAssetDetail(AssetSummary):
   tags: list[str] | None = None

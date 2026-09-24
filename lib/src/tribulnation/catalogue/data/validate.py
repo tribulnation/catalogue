@@ -1,6 +1,6 @@
 import os as _os
 import re as _re
-from typing import Mapping, get_args
+from typing import Collection, Mapping, get_args
 from .schema import (
   Asset, Platform, Spot, Perpetual, Debt, Pool, AssetCategory, BlockchainCategory,
   BlockchainNamespace,
@@ -85,6 +85,63 @@ def asset_pegs(assets: Mapping[str, Asset]):
         errors.append(f'[ASSET PEG ERROR] Asset "{id}" cannot be pegged to itself')
       elif target not in assets:
         errors.append(f'[ASSET PEG ERROR] Asset "{id}" is pegged to inexistent asset "{target}"')
+  return errors
+
+def asset_aliases(assets: Mapping[str, Asset]):
+  """A `replaced_by` alias must point at an existing, non-alias asset other than itself."""
+  errors: list[str] = []
+  for id, asset in assets.items():
+    if (target := asset.get('replaced_by')) is None:
+      continue
+    if target == id:
+      errors.append(f'[ASSET ALIAS ERROR] Asset "{id}" cannot be replaced by itself')
+    elif target not in assets:
+      errors.append(f'[ASSET ALIAS ERROR] Asset "{id}" is replaced by inexistent asset "{target}"')
+    elif 'replaced_by' in assets[target]:
+      errors.append(f'[ASSET ALIAS ERROR] Asset "{id}" is replaced by "{target}", which is itself an alias; point at "{target}"\'s replacement')
+  return errors
+
+def alias_references(catalogue: Catalogue):
+  """Catalogue data must reference current asset ids, not `replaced_by` aliases."""
+  aliases = {id for id, asset in catalogue.assets.items() if 'replaced_by' in asset}
+  if not aliases:
+    return []
+  refs: list[tuple[str, str]] = []
+  for platform, translations in catalogue.asset_translations.items():
+    refs.extend((f'asset translation "{platform}" key "{key}"', asset) for key, asset in translations.items())
+  for platform, spots in catalogue.spot_instruments.items():
+    for id, spot in spots.items():
+      refs.extend((f'spot instrument "{id}" on "{platform}"', asset) for asset in (spot['base'], spot['quote']))
+  for platform, perpetuals in catalogue.perpetual_instruments.items():
+    for id, perpetual in perpetuals.items():
+      refs.extend((f'perpetual instrument "{id}" on "{platform}"', asset) for asset in (perpetual['base'], perpetual['quote'], perpetual['settlement']))
+  for id, asset in catalogue.assets.items():
+    if (peg := asset.get('pegged_to')) is not None:
+      refs.append((f'asset "{id}" pegged_to', peg['asset']))
+  for id, platform in catalogue.platforms.items():
+    if platform['kind'] == 'blockchain' and (native := platform.get('native_asset')) is not None:
+      refs.append((f'blockchain "{id}" native_asset', native))
+  return [
+    f'[ASSET ALIAS ERROR] {where} references alias "{asset}"; use "{catalogue.assets[asset].get("replaced_by")}"'
+    for where, asset in refs if asset in aliases
+  ]
+
+def id_stability(current: Mapping[str, Collection[str]], baseline: Mapping[str, Collection[str]]):
+  """Published ids are never removed: every baseline id must still exist.
+
+  A merged asset keeps its file with `replaced_by` pointing at the surviving asset, so
+  its id keeps resolving. Additions are free.
+
+  Args:
+    current: Ids per kind (e.g. `{'asset': ..., 'platform': ...}`) in the working tree.
+    baseline: Ids per kind in the published catalogue.
+  """
+  errors: list[str] = []
+  for kind, ids in baseline.items():
+    now = set(current.get(kind, ()))
+    for id in sorted(set(ids) - now):
+      hint = ' Keep its file with "replaced_by" pointing at the asset it was merged into.' if kind == 'asset' else ''
+      errors.append(f'[ID STABILITY ERROR] Published {kind} id "{id}" was removed.{hint}')
   return errors
 
 def _normalized_url(url: str) -> str:
@@ -306,6 +363,8 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(native_assets(catalogue.assets, catalogue.platforms))
   errors.extend(blockchain_ids(catalogue.platforms))
   errors.extend(asset_pegs(catalogue.assets))
+  errors.extend(asset_aliases(catalogue.assets))
+  errors.extend(alias_references(catalogue))
   errors.extend(asset_categories(catalogue.assets))
   errors.extend(asset_tags(catalogue.assets))
   errors.extend(urls('ASSET', catalogue.assets))
