@@ -3,8 +3,9 @@ import re as _re
 from typing import Collection, Mapping, get_args
 from .schema import (
   Asset, Platform, Spot, Perpetual, Debt, Pool, AssetCategory, BlockchainCategory,
-  BlockchainNamespace,
+  BlockchainNamespace, Protocol,
 )
+from .protocols import template_errors
 from .eip55 import is_checksummed
 from .main import Catalogue
 
@@ -353,6 +354,36 @@ def evm_addresses(
           )
   return errors
 
+def protocols(protocols: Mapping[str, Protocol], platforms: Mapping[str, Platform]):
+  """Protocol entries: id, metadata, a well-formed correlation template, and known networks.
+
+  The template's placeholders must be exactly the declared fields, with known types, so
+  that `format_correlation` and `parse_correlation` agree for every writer.
+  """
+  errors: list[str] = []
+  for id, protocol in protocols.items():
+    if protocol['id'] != id:
+      errors.append(f'[PROTOCOL ERROR] Protocol "{id}" has id "{protocol["id"]}"; it must match the file name')
+    if not protocol['about'].get('en', '').strip():
+      errors.append(f'[PROTOCOL ERROR] Protocol "{id}" is missing an English description in "about.en"')
+    if not protocol['urls']:
+      errors.append(f'[PROTOCOL ERROR] Protocol "{id}" has no official URL in "urls"')
+    for label, url in protocol['urls'].items():
+      if not url.startswith('https://'):
+        errors.append(f'[PROTOCOL ERROR] Protocol "{id}" URL "{label}" is not an https URL')
+    for error in template_errors(id, protocol):
+      errors.append(f'[PROTOCOL CORRELATION ERROR] Protocol "{id}": {error}')
+    seen: dict[str, int] = {}
+    for domain, network in protocol.get('domains', {}).items():
+      if domain < 0:
+        errors.append(f'[PROTOCOL DOMAIN ERROR] Protocol "{id}" has negative domain {domain}')
+      if network not in platforms:
+        errors.append(f'[PROTOCOL DOMAIN ERROR] Protocol "{id}" domain {domain} has inexistent network "{network}"')
+      elif (other := seen.get(network)) is not None:
+        errors.append(f'[PROTOCOL DOMAIN ERROR] Protocol "{id}" maps both domains {other} and {domain} to "{network}"')
+      seen.setdefault(network, domain)
+  return errors
+
 def all(catalogue: Catalogue, base_folder: str):
   errors: list[str] = []
   errors.extend(ids('ASSET', catalogue.assets))
@@ -369,6 +400,9 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(asset_tags(catalogue.assets))
   errors.extend(urls('ASSET', catalogue.assets))
   errors.extend(urls('PLATFORM', catalogue.platforms))
+  errors.extend(ids('PROTOCOL', catalogue.protocols))
+  errors.extend(urls('PROTOCOL', catalogue.protocols))
+  errors.extend(protocols(catalogue.protocols, catalogue.platforms))
   errors.extend(platform_keys('ASSET TRANSLATION', catalogue.platforms, catalogue.asset_translations))
   errors.extend(platform_keys('NETWORK TRANSLATION', catalogue.platforms, catalogue.network_translations))
   errors.extend(platform_keys('SPOT INSTRUMENT', catalogue.platforms, catalogue.spot_instruments))

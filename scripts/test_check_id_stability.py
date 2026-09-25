@@ -70,7 +70,8 @@ class IdStabilityScriptTest(unittest.TestCase):
       zf.writestr('assets/bitcoin.json', '{}')
       zf.writestr('platforms/order.txt', '')
       zf.writestr('instruments/spot/binance.json', '{}')
-    self.assertEqual(ids_in_archive(buffer.getvalue()), {'asset': {'bitcoin'}, 'platform': set()})
+      zf.writestr('protocols/cctp.json', '{}')
+    self.assertEqual(ids_in_archive(buffer.getvalue()), {'asset': {'bitcoin'}, 'platform': set(), 'protocol': {'cctp'}})
 
 
 if __name__ == '__main__':

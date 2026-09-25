@@ -1,4 +1,4 @@
-"""Fail when an asset or platform id published in the live data.zip is gone from the working tree.
+"""Fail when an asset, platform or protocol id published in the live data.zip is gone from the working tree.
 
 Ids are the catalogue's contract with its consumers, which store them: they are never
 renamed or deleted. A merged asset keeps its file with `replaced_by` pointing at the
@@ -15,7 +15,7 @@ import zipfile
 from tribulnation.catalogue.data.validate import id_stability
 
 PUBLISHED = 'https://catalogue.tribulnation.com/data.zip'
-KINDS = {'asset': 'assets', 'platform': 'platforms'}
+KINDS = {'asset': 'assets', 'platform': 'platforms', 'protocol': 'protocols'}
 """Checked id kind -> folder holding one `<id>.json` per id"""
 
 
