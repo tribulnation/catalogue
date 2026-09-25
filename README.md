@@ -98,6 +98,10 @@ catalogue.digest                         # sha256 of the loaded data.zip
 
 catalogue.asset_for('hyperliquid', 150)  # 'hyperliquid'
 catalogue.perpetual_for('dydx', 'BTC-USD').base  # 'bitcoin'
+
+catalogue.format_correlation('cctp', source_domain=4, nonce=12345)  # 'cctp:4:12345'
+catalogue.parse_correlation('ibc:dydx:channel-0:42')  # ('ibc', {'sending_chain': 'dydx', ...})
+catalogue.network_for_domain('cctp', 3)  # 'arbitrum'
 ```
 
 ### Pricing
@@ -163,6 +167,9 @@ SVG icons for assets, platforms, and networks, organized under `icons/asset/`, `
 
 ### Spam
 Known spam token addresses per chain, with optional source and reported timestamp.
+
+### Protocols
+Cross-chain protocols (`cctp`, `ibc`, `hlbridge`, `gofast`) keyed by id. Each defines a **correlation key**: a template such as `cctp:{source_domain}:{nonce}` with typed fields, which both sides of one cross-chain movement can compute independently so they can be linked. Protocol data stays in the entry, e.g. CCTP's domain → network table. Keys are built and checked with `format_correlation` / `parse_correlation`.
 
 ---
 

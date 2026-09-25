@@ -11,7 +11,8 @@ from decimal import Decimal
 from functools import cached_property
 from pathlib import Path
 
-from .schema import Asset, Platform, Spot, Perpetual, Debt, Pool, SpamAddress
+from .schema import Asset, Platform, Spot, Perpetual, Debt, Pool, SpamAddress, Protocol
+from .protocols import CorrelationError, format_key, parse_key
 from .cache import ArchiveCache, DEFAULT_URL, DEFAULT_MAX_AGE, DEFAULT_TIMEOUT
 
 DEFAULT_CACHE = Path.home() / '.cache' / 'tribulnation' / 'catalogue'
@@ -94,6 +95,8 @@ class Catalogue:
   """When the data was loaded from the cached archive; None when loaded from a folder"""
   cache: ArchiveCache | None = field(default=None, repr=False, compare=False)
   """The archive cache this catalogue came from, used by `maybe_refresh`"""
+  protocols: dict[str, Protocol] = field(default_factory=dict)
+  """`protocol id -> protocol` (cross-chain correlation key definitions)"""
 
   @property
   def ordered_platforms(self):
@@ -271,3 +274,63 @@ class Catalogue:
   def network_for(self, platform: str, raw_network: str) -> str | None:
     """The catalogue platform id of a venue's network code (e.g. bybit `BSC (BEP20)`), or None."""
     return self.network_translations.get(platform, {}).get(raw_network)
+
+  def protocol(self, protocol: str) -> Protocol | None:
+    """The protocol record for `protocol` (e.g. `cctp`), or None."""
+    return self.protocols.get(protocol)
+
+  def network_for_domain(self, protocol: str, domain: int) -> str | None:
+    """The catalogue network id of a protocol's numeric chain identifier, or None.
+
+    Examples:
+      >>> catalogue.network_for_domain('cctp', 4)
+      'noble'
+    """
+    p = self.protocols.get(protocol)
+    return p.get('domains', {}).get(domain) if p is not None else None
+
+  def domain_for_network(self, protocol: str, network: str) -> int | None:
+    """A catalogue network's numeric identifier in a protocol (e.g. its CCTP domain), or None.
+
+    Examples:
+      >>> catalogue.domain_for_network('cctp', 'arbitrum')
+      3
+    """
+    p = self.protocols.get(protocol)
+    if p is None:
+      return None
+    return next((domain for domain, id in p.get('domains', {}).items() if id == network), None)
+
+  def format_correlation(self, protocol: str, /, **fields: object) -> str:
+    """The correlation key of one cross-chain movement, in canonical form.
+
+    Args:
+      protocol: Protocol id, which is also the key's namespace (e.g. `cctp`).
+      fields: Exactly the protocol's declared correlation fields.
+
+    Raises:
+      CorrelationError: Unknown protocol, or missing, extra or mistyped fields.
+
+    Examples:
+      >>> catalogue.format_correlation('cctp', source_domain=4, nonce=12345)
+      'cctp:4:12345'
+    """
+    p = self.protocols.get(protocol)
+    if p is None:
+      raise CorrelationError(f'Unknown correlation protocol "{protocol}"')
+    return format_key(protocol, p, fields, networks=self.platforms)
+
+  def parse_correlation(self, key: str) -> tuple[str, dict[str, int | str]]:
+    """Split a correlation key into its protocol id and field values.
+
+    `int`/`uint` fields come back as `int`, the rest as their canonical `str`.
+
+    Raises:
+      CorrelationError: Unknown namespace, or a key that does not match the protocol's
+        template in canonical form.
+
+    Examples:
+      >>> catalogue.parse_correlation('ibc:dydx:channel-0:42')
+      ('ibc', {'sending_chain': 'dydx', 'channel': 'channel-0', 'sequence': 42})
+    """
+    return parse_key(key, self.protocols, networks=self.platforms)

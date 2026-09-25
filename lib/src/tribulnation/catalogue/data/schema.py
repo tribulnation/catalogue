@@ -100,3 +100,28 @@ class Blockchain(BasePlatform):
   namespace: NotRequired[BlockchainNamespace]
 
 Platform = CexPlatform | DexPlatform | Blockchain
+
+CorrelationFieldType = Literal['int', 'uint', 'hex', 'string', 'network']
+"""Type of a correlation key field, fixing its canonical text form:
+
+- `int` / `uint`: base-10 integer, no leading zeros (`uint` is non-negative)
+- `hex`: `0x` followed by lower-case hex digits, leading zeros kept (addresses, hashes)
+- `string`: any non-empty text without `:` or whitespace, kept as-is (case-sensitive)
+- `network`: a catalogue platform id, e.g. `dydx` or `noble`
+"""
+
+class Correlation(TypedDict):
+  key: str
+  """Key template: the protocol id, then `:`-separated segments, each a `{field}` placeholder or a literal, e.g. `cctp:{source_domain}:{nonce}`"""
+  fields: dict[str, CorrelationFieldType]
+  """Field name -> type. Exactly the template's placeholders."""
+
+class Protocol(TypedDict):
+  """A cross-chain protocol whose correlation keys link both sides of one movement."""
+  id: str
+  display_name: str
+  about: Translations
+  urls: dict[str, str]
+  correlation: Correlation
+  domains: NotRequired[dict[int, str]]
+  """Protocol-assigned chain identifier -> catalogue network (platform) id, e.g. CCTP domains"""

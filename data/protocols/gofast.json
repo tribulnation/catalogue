@@ -1,0 +1,17 @@
+{
+  "id": "gofast",
+  "display_name": "Skip Go Fast",
+  "about": {
+    "en": "Go Fast is Skip's intent-based transfer protocol: a user submits an order on the source chain, a solver fills it on the destination chain, and the solver is repaid through settlement. The order ID is the keccak256 hash of the encoded order, which the source gateway emits in OrderSubmitted and the destination gateway recomputes from the order passed to fillOrder, so both sides can derive it."
+  },
+  "urls": {
+    "Documentation": "https://docs.skip.build/go/advanced-transfer/go-fast",
+    "Source code": "https://github.com/skip-mev/go-fast-contracts"
+  },
+  "correlation": {
+    "key": "gofast:{order_id}",
+    "fields": {
+      "order_id": "hex"
+    }
+  }
+}

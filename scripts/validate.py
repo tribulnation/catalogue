@@ -13,3 +13,4 @@ else:
   print(f'> Platforms: {len(catalogue.platforms)}')
   print(f'> Network translations: {len(catalogue.network_translations)} platforms')
   print(f'> Asset translations: {len(catalogue.asset_translations)} platforms')
+  print(f'> Protocols: {len(catalogue.protocols)}')

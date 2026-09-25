@@ -24,6 +24,7 @@ data/
   asset_translations/ per-platform display name overrides for assets
   network_translations/ per-platform display name overrides for networks
   spam/               known spam token addresses per chain
+  protocols/          one JSON file per cross-chain protocol (e.g. cctp.json)
 
 icons/
   asset/              SVG icons for assets (e.g. bitcoin.svg)
@@ -57,6 +58,37 @@ Create `data/platforms/<slug>.json`. Required fields:
 ```
 
 `kind` is one of `cex`, `dex`, or `blockchain`. Blockchains also accept `native_asset`, `namespace`, `chain_id`, and `category`.
+
+## Adding a protocol
+
+A protocol defines a cross-chain **correlation key**: a string both sides of one
+movement can compute on their own, so a withdrawal and its deposit can be linked.
+Create `data/protocols/<id>.json`:
+
+```json
+{
+  "id": "cctp",
+  "display_name": "Circle CCTP",
+  "about": {"en": "What it is, where each side finds every key field, and what the key does not cover."},
+  "urls": {"Documentation": "https://developers.circle.com/cctp"},
+  "correlation": {
+    "key": "cctp:{source_domain}:{nonce}",
+    "fields": {"source_domain": "uint", "nonce": "uint"}
+  },
+  "domains": {"0": "ethereum", "4": "noble"}
+}
+```
+
+- The key starts with the protocol id, then `:`-separated segments, each a `{field}`
+  placeholder or a kebab-case literal. Placeholders must be exactly the `fields`.
+- Field types are `int`, `uint`, `hex`, `string` and `network`. Choose the one whose
+  canonical form both sides can reproduce: hashes and addresses are `hex`, catalogue
+  networks are `network`.
+- Only add a key both sides can derive from their own data. Cite the protocol's own
+  docs or contract source in `urls` and in the PR.
+- `domains` maps protocol-assigned chain numbers to catalogue network ids. Keep
+  protocol data in the protocol entry; never add protocol attributes to a network.
+- Protocol ids, like asset and platform ids, are permanent: published keys embed them.
 
 ## Ids are permanent
 

@@ -10,6 +10,7 @@ import zipfile
 from pydantic import TypeAdapter, ValidationError
 
 from .schema import Asset, Platform, Spot, Perpetual, Debt, SpamAddress, Pool
+from . import schema
 from .main import Catalogue
 
 _asset_adapter = TypeAdapter(Asset)
@@ -21,6 +22,7 @@ _perpetual_instruments_adapter = TypeAdapter(dict[str, Perpetual])
 _debt_instruments_adapter = TypeAdapter(dict[str, Debt])
 _spam_adapter = TypeAdapter(dict[str, SpamAddress])
 _pools_adapter = TypeAdapter(dict[str, Pool])
+_protocol_adapter = TypeAdapter(schema.Protocol)
 
 _Extra = Literal['forbid', 'ignore']
 T = TypeVar('T')
@@ -113,6 +115,10 @@ def pools(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -
   """Load pool definitions."""
   return records(folder, _pools_adapter, strict=strict, skip_invalid=skip_invalid)
 
+def protocols(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, schema.Protocol]:
+  """Load cross-chain protocol definitions (correlation keys and protocol data)."""
+  return records(folder, _protocol_adapter, strict=strict, skip_invalid=skip_invalid)
+
 def all(folder: Path | str | Folder, *, strict: bool = False, skip_invalid: bool = False) -> Catalogue:
   """Load the full catalogue from a data folder (or a `zipfile.Path` at the root of `data.zip`).
 
@@ -135,6 +141,7 @@ def all(folder: Path | str | Folder, *, strict: bool = False, skip_invalid: bool
     debt_instruments=debt_instruments(folder / 'instruments' / 'debt', **kw),
     pools=pools(folder / 'instruments' / 'pools', **kw),
     spam=spam(folder / 'spam', **kw),
+    protocols=protocols(folder / 'protocols', **kw),
   )
 
 def archive(data: bytes, *, strict: bool = False, skip_invalid: bool = False) -> Catalogue:

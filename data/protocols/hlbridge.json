@@ -1,0 +1,18 @@
+{
+  "id": "hlbridge",
+  "display_name": "Hyperliquid Bridge2",
+  "about": {
+    "en": "Bridge2 is Hyperliquid's USDC bridge contract on Arbitrum. A withdrawal is signed on Hyperliquid and paid out on Arbitrum by validators; the contract's FinalizedWithdrawal event carries the Hyperliquid user and the withdrawal nonce, which Hyperliquid's ledger also reports for the withdrawal. The key covers withdrawals only, with the user as a lower-case 0x address. Deposits are plain USDC transfers to the bridge and share the Arbitrum transaction hash instead."
+  },
+  "urls": {
+    "Documentation": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/bridge2",
+    "Source code": "https://github.com/hyperliquid-dex/contracts"
+  },
+  "correlation": {
+    "key": "hlbridge:{user}:{nonce}",
+    "fields": {
+      "user": "hex",
+      "nonce": "uint"
+    }
+  }
+}

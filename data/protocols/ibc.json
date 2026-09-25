@@ -1,0 +1,19 @@
+{
+  "id": "ibc",
+  "display_name": "IBC",
+  "about": {
+    "en": "The Inter-Blockchain Communication protocol relays packets between Cosmos SDK chains, including ICS-20 token transfers. The sending chain numbers each packet with a sequence per channel, and the receiving chain reports the same source channel and sequence, so the pair identifies one packet once it is namespaced by the sending chain: channel identifiers are local to each chain. The key's sending chain is the catalogue network id of the chain that sent the packet, and the channel is that chain's channel identifier."
+  },
+  "urls": {
+    "Documentation": "https://ibc.cosmos.network/main/",
+    "ICS-004 specification": "https://github.com/cosmos/ibc/tree/main/spec/core/ics-004-channel-and-packet-semantics"
+  },
+  "correlation": {
+    "key": "ibc:{sending_chain}:{channel}:{sequence}",
+    "fields": {
+      "sending_chain": "network",
+      "channel": "string",
+      "sequence": "uint"
+    }
+  }
+}
