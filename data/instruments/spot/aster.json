@@ -1,9 +1,57 @@
 {
+  "ALLOUSDT": {
+    "exchange": "spot",
+    "base": "allora",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/ALLOUSDT"
+  },
   "ASTERUSDT": {
     "exchange": "spot",
     "base": "aster",
     "quote": "tether",
     "url": "https://www.asterdex.com/en/trade/pro/spot/ASTERUSDT"
+  },
+  "BANANAS31USDT": {
+    "exchange": "spot",
+    "base": "banana-for-scale",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/BANANAS31USDT"
+  },
+  "BICOUSDT": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/BICOUSDT"
+  },
+  "BIOUSDT": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/BIOUSDT"
+  },
+  "BLESSUSDT": {
+    "exchange": "spot",
+    "base": "bless-network",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/BLESSUSDT"
+  },
+  "BMTUSDT": {
+    "exchange": "spot",
+    "base": "bubblemaps",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/BMTUSDT"
+  },
+  "BNBUSDT": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/BNBUSDT"
+  },
+  "BREVUSDT": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/BREVUSDT"
   },
   "BTCUSDT": {
     "exchange": "spot",
@@ -11,10 +59,154 @@
     "quote": "tether",
     "url": "https://www.asterdex.com/en/trade/pro/spot/BTCUSDT"
   },
+  "BUSD1": {
+    "exchange": "spot",
+    "base": "build-on",
+    "quote": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/BUSD1"
+  },
+  "DEXEUSDT": {
+    "exchange": "spot",
+    "base": "dexe",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/DEXEUSDT"
+  },
   "ETHUSDT": {
     "exchange": "spot",
     "base": "ethereum",
     "quote": "tether",
     "url": "https://www.asterdex.com/en/trade/pro/spot/ETHUSDT"
+  },
+  "EVAAUSDT": {
+    "exchange": "spot",
+    "base": "evaa-protocol",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/EVAAUSDT"
+  },
+  "GIGGLEUSDT": {
+    "exchange": "spot",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/GIGGLEUSDT"
+  },
+  "JCTUSDT": {
+    "exchange": "spot",
+    "base": "janction",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/JCTUSDT"
+  },
+  "LABUSDT": {
+    "exchange": "spot",
+    "base": "lab",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/LABUSDT"
+  },
+  "MMTUSDT": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/MMTUSDT"
+  },
+  "OPENUSDT": {
+    "exchange": "spot",
+    "base": "openledger",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/OPENUSDT"
+  },
+  "OUSDT": {
+    "exchange": "spot",
+    "base": "o1-exchange",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/OUSDT"
+  },
+  "RAINUSDT": {
+    "exchange": "spot",
+    "base": "rain",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/RAINUSDT"
+  },
+  "RAVEUSD1": {
+    "exchange": "spot",
+    "base": "ravedao",
+    "quote": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/RAVEUSD1"
+  },
+  "SOLUSDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/SOLUSDT"
+  },
+  "SOONUSDT": {
+    "exchange": "spot",
+    "base": "soon",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/SOONUSDT"
+  },
+  "SPACEUSD1": {
+    "exchange": "spot",
+    "base": "spacecoin",
+    "quote": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/SPACEUSD1"
+  },
+  "STARUSDT": {
+    "exchange": "spot",
+    "base": "starpower",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/STARUSDT"
+  },
+  "TAGUSDT": {
+    "exchange": "spot",
+    "base": "tagger",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/TAGUSDT"
+  },
+  "TUTUSDT": {
+    "exchange": "spot",
+    "base": "tutorial",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/TUTUSDT"
+  },
+  "USD1USDT": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/USD1USDT"
+  },
+  "USDCUSDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/USDCUSDT"
+  },
+  "USUSDT": {
+    "exchange": "spot",
+    "base": "talus",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/USUSDT"
+  },
+  "UUSDT": {
+    "exchange": "spot",
+    "base": "united-stables",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/UUSDT"
+  },
+  "VELOUSDT": {
+    "exchange": "spot",
+    "base": "velo",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/VELOUSDT"
+  },
+  "VERONAUSDT": {
+    "exchange": "spot",
+    "base": "xion",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/VERONAUSDT"
+  },
+  "WLFIUSD1": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/WLFIUSD1"
   }
 }
