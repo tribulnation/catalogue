@@ -1,5 +1,11 @@
 # Aster identifier coverage
 
+> Mainnet market coverage has since been extended to every trading spot pair and
+> linear perpetual that resolves to an existing asset (35 spot, 439 perpetuals).
+> See [the 2026-09-25 coverage report](reports/aster-coverage-2026-09-25.md) for
+> current counts and the remaining unmapped IDs. The notes below record the
+> original testnet PoC pass (#184).
+
 The SDK Aster PoCs were exercised on testnet on 2026-09-25. The added Catalogue
 records cover the identifiable subset of those native IDs, cross-checked with
 validated `typed-aster==0.1.0` mainnet exchange-information responses.
