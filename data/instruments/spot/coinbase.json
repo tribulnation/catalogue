@@ -129,7 +129,7 @@
     "exchange": "spot",
     "base": "ankr",
     "quote": "euro",
-    "url": "https://www.coinbase.com/advanced-trade/spot/ANKR-EUR"
+    "delisted": true
   },
   "ANKR-USD": {
     "exchange": "spot",
@@ -261,13 +261,13 @@
     "exchange": "spot",
     "base": "basic-attention-token",
     "quote": "bitcoin",
-    "url": "https://www.coinbase.com/advanced-trade/spot/BAT-BTC"
+    "delisted": true
   },
   "BAT-ETH": {
     "exchange": "spot",
     "base": "basic-attention-token",
     "quote": "ethereum",
-    "url": "https://www.coinbase.com/advanced-trade/spot/BAT-ETH"
+    "delisted": true
   },
   "BAT-EUR": {
     "exchange": "spot",
@@ -399,13 +399,13 @@
     "exchange": "spot",
     "base": "chiliz",
     "quote": "tether",
-    "url": "https://www.coinbase.com/advanced-trade/spot/CHZ-USDT"
+    "delisted": true
   },
   "COMP-BTC": {
     "exchange": "spot",
     "base": "compound",
     "quote": "bitcoin",
-    "url": "https://www.coinbase.com/advanced-trade/spot/COMP-BTC"
+    "delisted": true
   },
   "COMP-USD": {
     "exchange": "spot",
@@ -435,7 +435,7 @@
     "exchange": "spot",
     "base": "cronos",
     "quote": "tether",
-    "url": "https://www.coinbase.com/advanced-trade/spot/CRO-USDT"
+    "delisted": true
   },
   "CRV-BTC": {
     "exchange": "spot",
@@ -657,7 +657,7 @@
     "exchange": "spot",
     "base": "filecoin",
     "quote": "bitcoin",
-    "url": "https://www.coinbase.com/advanced-trade/spot/FIL-BTC"
+    "delisted": true
   },
   "FIL-EUR": {
     "exchange": "spot",
@@ -717,7 +717,7 @@
     "exchange": "spot",
     "base": "the-graph",
     "quote": "bitcoin",
-    "url": "https://www.coinbase.com/advanced-trade/spot/GRT-BTC"
+    "delisted": true
   },
   "GRT-EUR": {
     "exchange": "spot",
@@ -729,7 +729,7 @@
     "exchange": "spot",
     "base": "the-graph",
     "quote": "british-pound",
-    "url": "https://www.coinbase.com/advanced-trade/spot/GRT-GBP"
+    "delisted": true
   },
   "GRT-USD": {
     "exchange": "spot",
@@ -807,7 +807,7 @@
     "exchange": "spot",
     "base": "jasmycoin",
     "quote": "tether",
-    "url": "https://www.coinbase.com/advanced-trade/spot/JASMY-USDT"
+    "delisted": true
   },
   "JTO-USD": {
     "exchange": "spot",
@@ -933,7 +933,7 @@
     "exchange": "spot",
     "base": "mask-network",
     "quote": "british-pound",
-    "url": "https://www.coinbase.com/advanced-trade/spot/MASK-GBP"
+    "delisted": true
   },
   "MASK-USD": {
     "exchange": "spot",
@@ -1479,7 +1479,7 @@
     "exchange": "spot",
     "base": "yearn-finance",
     "quote": "bitcoin",
-    "url": "https://www.coinbase.com/advanced-trade/spot/YFI-BTC"
+    "delisted": true
   },
   "YFI-USD": {
     "exchange": "spot",

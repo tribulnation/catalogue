@@ -827,6 +827,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CYBERUSDT"
   },
+  "CYPHUSDT": {
+    "exchange": "perp",
+    "base": "cypherpunk-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CYPHUSDT"
+  },
   "DASHUSDT": {
     "exchange": "perp",
     "base": "dash",
@@ -1800,6 +1807,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/OKBUSDT"
   },
+  "OKLOUSDT": {
+    "exchange": "perp",
+    "base": "oklo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/OKLOUSDT"
+  },
   "ONDOPERP": {
     "exchange": "perp",
     "base": "ondo",
@@ -2149,6 +2163,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SANDUSDT"
+  },
+  "SDGRUSDT": {
+    "exchange": "perp",
+    "base": "schrodinger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SDGRUSDT"
   },
   "SECZUSDT": {
     "exchange": "perp",
@@ -2555,6 +2576,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/UNIUSDT"
+  },
+  "URNMUSDT": {
+    "exchange": "perp",
+    "base": "sprott-uranium-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/URNMUSDT"
   },
   "USD1USDT": {
     "exchange": "perp",

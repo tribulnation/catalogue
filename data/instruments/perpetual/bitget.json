@@ -1559,5 +1559,26 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitget.com/futures/usdt/STONKUSDT"
+  },
+  "CLSKUSDT": {
+    "exchange": "usdt",
+    "base": "cleanspark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/CLSKUSDT"
+  },
+  "SECZUSDT": {
+    "exchange": "usdt",
+    "base": "securitize",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/SECZUSDT"
+  },
+  "TLTUSDT": {
+    "exchange": "usdt",
+    "base": "ishares-20-year-treasury-bond-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/TLTUSDT"
   }
 }

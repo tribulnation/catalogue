@@ -649,5 +649,47 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/CYPHSTOCK_USDT"
+  },
+  "ACNSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "accenture",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ACNSTOCK_USDT"
+  },
+  "DALSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "delta-air-lines",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/DALSTOCK_USDT"
+  },
+  "HONASTOCK_USDT": {
+    "exchange": "perp",
+    "base": "honeywell-aerospace",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/HONASTOCK_USDT"
+  },
+  "KOKUSAISTOCK_USDT": {
+    "exchange": "perp",
+    "base": "kokusai-electric",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/KOKUSAISTOCK_USDT"
+  },
+  "MPWRSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "monolithic-power-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MPWRSTOCK_USDT"
+  },
+  "UBIK_USDT": {
+    "exchange": "perp",
+    "base": "ubik",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/UBIK_USDT"
   }
 }
