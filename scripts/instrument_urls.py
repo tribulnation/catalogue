@@ -91,6 +91,7 @@ def bitget_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> s
 Rule = Callable[[str, Instrument, Symbols], str | None]
 
 SPOT_RULES: dict[str, Rule] = {
+  'aster': lambda id, inst, sym: f'https://www.asterdex.com/en/trade/pro/spot/{id}',
   'deribit': lambda id, inst, sym: f'https://www.deribit.com/spot/{id}',
   'binance': lambda id, inst, sym: 'https://www.binance.com/en/trade/{}_{}'.format(*sym.split('binance', id, inst)),
   'bitget': lambda id, inst, sym: f'https://www.bitget.com/spot/{id}',
@@ -106,6 +107,7 @@ SPOT_RULES: dict[str, Rule] = {
 }
 
 PERPETUAL_RULES: dict[str, Rule] = {
+  'aster': lambda id, inst, sym: f'https://www.asterdex.com/en/trade/pro/futures/{id}',
   'deribit': lambda id, inst, sym: f'https://www.deribit.com/futures/{id}',
   'binance': lambda id, inst, sym: f'https://www.binance.com/en/futures/{id}',
   'bitget': bitget_perpetual_url,
