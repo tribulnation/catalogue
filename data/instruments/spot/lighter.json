@@ -1,0 +1,56 @@
+{
+  "2048": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ETH_USDC"
+  },
+  "2049": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/LIT_USDC"
+  },
+  "2050": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/LINK_USDC"
+  },
+  "2051": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/UNI_USDC"
+  },
+  "2052": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/AAVE_USDC"
+  },
+  "2053": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SKY_USDC"
+  },
+  "2054": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/LDO_USDC"
+  },
+  "2055": {
+    "exchange": "spot",
+    "base": "aztec",
+    "quote": "usd-coin",
+    "delisted": true
+  },
+  "2056": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/XAUT_USDC"
+  }
+}

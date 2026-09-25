@@ -1,0 +1,1121 @@
+{
+  "0": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ETH"
+  },
+  "1": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/BTC"
+  },
+  "2": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SOL"
+  },
+  "3": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/DOGE"
+  },
+  "4": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://app.lighter.xyz/trade/1000PEPE"
+  },
+  "5": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/WIF"
+  },
+  "6": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/WLD"
+  },
+  "7": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/XRP"
+  },
+  "8": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/LINK"
+  },
+  "9": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/AVAX"
+  },
+  "10": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/NEAR"
+  },
+  "11": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/DOT"
+  },
+  "12": {
+    "exchange": "perp",
+    "base": "toncoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/GRAM"
+  },
+  "13": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/TAO"
+  },
+  "14": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/POL"
+  },
+  "15": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/TRUMP"
+  },
+  "16": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SUI"
+  },
+  "17": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://app.lighter.xyz/trade/1000SHIB"
+  },
+  "18": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://app.lighter.xyz/trade/1000BONK"
+  },
+  "19": {
+    "exchange": "perp",
+    "base": "floki",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://app.lighter.xyz/trade/1000FLOKI"
+  },
+  "20": {
+    "exchange": "perp",
+    "base": "berachain",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/BERA"
+  },
+  "21": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/FARTCOIN"
+  },
+  "23": {
+    "exchange": "perp",
+    "base": "popcat",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/POPCAT"
+  },
+  "24": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/HYPE"
+  },
+  "25": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/BNB"
+  },
+  "26": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/JUP"
+  },
+  "27": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/AAVE"
+  },
+  "29": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ENA"
+  },
+  "30": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/UNI"
+  },
+  "31": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/APT"
+  },
+  "32": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SEI"
+  },
+  "33": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/KAITO"
+  },
+  "35": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/LTC"
+  },
+  "36": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/CRV"
+  },
+  "37": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/PENDLE"
+  },
+  "38": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ONDO"
+  },
+  "39": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ADA"
+  },
+  "40": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/S"
+  },
+  "41": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/VIRTUAL"
+  },
+  "42": {
+    "exchange": "perp",
+    "base": "spx6900",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SPX"
+  },
+  "43": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/TRX"
+  },
+  "44": {
+    "exchange": "perp",
+    "base": "syrup",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SYRUP"
+  },
+  "45": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/PUMP"
+  },
+  "46": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/LDO"
+  },
+  "47": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/PENGU"
+  },
+  "48": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/PAXG"
+  },
+  "49": {
+    "exchange": "perp",
+    "base": "eigen-layer",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/EIGEN"
+  },
+  "50": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ARB"
+  },
+  "51": {
+    "exchange": "perp",
+    "base": "resolv",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "52": {
+    "exchange": "perp",
+    "base": "grass",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/GRASS"
+  },
+  "53": {
+    "exchange": "perp",
+    "base": "zora",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ZORA"
+  },
+  "55": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/OP"
+  },
+  "56": {
+    "exchange": "perp",
+    "base": "zksync",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ZK"
+  },
+  "57": {
+    "exchange": "perp",
+    "base": "succinct",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/PROVE"
+  },
+  "58": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/BCH"
+  },
+  "59": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/HBAR"
+  },
+  "60": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ZRO"
+  },
+  "61": {
+    "exchange": "perp",
+    "base": "gmx",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/GMX"
+  },
+  "62": {
+    "exchange": "perp",
+    "base": "dydx",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/DYDX"
+  },
+  "63": {
+    "exchange": "perp",
+    "base": "mantle",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/MNT"
+  },
+  "64": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ETHFI"
+  },
+  "65": {
+    "exchange": "perp",
+    "base": "aerodrome",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/AERO"
+  },
+  "66": {
+    "exchange": "perp",
+    "base": "useless-coin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/USELESS"
+  },
+  "67": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/TIA"
+  },
+  "68": {
+    "exchange": "perp",
+    "base": "morpho",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/MORPHO"
+  },
+  "69": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/VVV"
+  },
+  "71": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/XPL"
+  },
+  "72": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/WLFI"
+  },
+  "73": {
+    "exchange": "perp",
+    "base": "cronos",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/CRO"
+  },
+  "74": {
+    "exchange": "perp",
+    "base": "numeraire",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/NMR"
+  },
+  "75": {
+    "exchange": "perp",
+    "base": "dolomite",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "76": {
+    "exchange": "perp",
+    "base": "linea",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/LINEA"
+  },
+  "77": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/XMR"
+  },
+  "78": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/PYTH"
+  },
+  "79": {
+    "exchange": "perp",
+    "base": "sky",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SKY"
+  },
+  "80": {
+    "exchange": "perp",
+    "base": "myx-finance",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "81": {
+    "exchange": "perp",
+    "base": "toshi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "delisted": true
+  },
+  "82": {
+    "exchange": "perp",
+    "base": "avantis",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/AVNT"
+  },
+  "83": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ASTER"
+  },
+  "84": {
+    "exchange": "perp",
+    "base": "zero-gravity",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/0G"
+  },
+  "85": {
+    "exchange": "perp",
+    "base": "stbl",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/STBL"
+  },
+  "86": {
+    "exchange": "perp",
+    "base": "apex-token",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/APEX"
+  },
+  "87": {
+    "exchange": "perp",
+    "base": "falcon-finance-ff",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/FF"
+  },
+  "88": {
+    "exchange": "perp",
+    "base": "doublezero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/2Z"
+  },
+  "89": {
+    "exchange": "perp",
+    "base": "openeden",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "90": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ZEC"
+  },
+  "91": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/MON"
+  },
+  "92": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/XAU"
+  },
+  "93": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/XAG"
+  },
+  "94": {
+    "exchange": "perp",
+    "base": "megaeth",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/MEGA"
+  },
+  "95": {
+    "exchange": "perp",
+    "base": "meteora",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/MET"
+  },
+  "101": {
+    "exchange": "perp",
+    "base": "canton",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/CC"
+  },
+  "102": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ICP"
+  },
+  "103": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/FIL"
+  },
+  "104": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/STRK"
+  },
+  "108": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/HOOD"
+  },
+  "109": {
+    "exchange": "perp",
+    "base": "coinbase",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/COIN"
+  },
+  "110": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/NVDA"
+  },
+  "111": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/PLTR"
+  },
+  "112": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/TSLA"
+  },
+  "113": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/AAPL"
+  },
+  "114": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/AMZN"
+  },
+  "115": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/MSFT"
+  },
+  "116": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/GOOGL"
+  },
+  "117": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/META"
+  },
+  "119": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/XLM"
+  },
+  "120": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/LIT"
+  },
+  "121": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/CRCL"
+  },
+  "122": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/MSTR"
+  },
+  "124": {
+    "exchange": "perp",
+    "base": "fogo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "125": {
+    "exchange": "perp",
+    "base": "dusk-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "126": {
+    "exchange": "perp",
+    "base": "river",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/RIVER"
+  },
+  "127": {
+    "exchange": "perp",
+    "base": "dash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/DASH"
+  },
+  "128": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SPY"
+  },
+  "129": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/QQQ"
+  },
+  "130": {
+    "exchange": "perp",
+    "base": "seeker",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SKR"
+  },
+  "131": {
+    "exchange": "perp",
+    "base": "axie-infinity",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/AXS"
+  },
+  "132": {
+    "exchange": "perp",
+    "base": "ai-rig-complex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ARC"
+  },
+  "133": {
+    "exchange": "perp",
+    "base": "moonbirds",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "134": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/JTO"
+  },
+  "137": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/INTC"
+  },
+  "138": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/AMD"
+  },
+  "139": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SNDK"
+  },
+  "144": {
+    "exchange": "perp",
+    "base": "aztec",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/AZTEC"
+  },
+  "153": {
+    "exchange": "perp",
+    "base": "ishares-russell-2000-etf",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/IWM"
+  },
+  "157": {
+    "exchange": "perp",
+    "base": "edgex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/EDGE"
+  },
+  "158": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/NATGAS"
+  },
+  "159": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/BRENTOIL"
+  },
+  "163": {
+    "exchange": "perp",
+    "base": "usd-ai",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/CHIP"
+  },
+  "164": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/MU"
+  },
+  "165": {
+    "exchange": "perp",
+    "base": "oracle",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ORCL"
+  },
+  "166": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/EWY"
+  },
+  "167": {
+    "exchange": "perp",
+    "base": "coreweave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/CRWV"
+  },
+  "168": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/TSM"
+  },
+  "171": {
+    "exchange": "perp",
+    "base": "bio-protocol",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/BIO"
+  },
+  "172": {
+    "exchange": "perp",
+    "base": "notcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://app.lighter.xyz/trade/1000NOT"
+  },
+  "174": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/MRVL"
+  },
+  "175": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/CBRS"
+  },
+  "178": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/LITE"
+  },
+  "183": {
+    "exchange": "perp",
+    "base": "citrea",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/CTR"
+  },
+  "188": {
+    "exchange": "perp",
+    "base": "international-business-machines",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/IBM"
+  },
+  "189": {
+    "exchange": "perp",
+    "base": "nebius-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/NBIS"
+  },
+  "194": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SPCX"
+  },
+  "195": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/DRAM"
+  },
+  "196": {
+    "exchange": "perp",
+    "base": "bloom-energy",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/BE"
+  },
+  "197": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SOXL"
+  },
+  "206": {
+    "exchange": "perp",
+    "base": "arm-holdings-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ARM"
+  },
+  "209": {
+    "exchange": "perp",
+    "base": "qualcomm",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/QCOM"
+  },
+  "210": {
+    "exchange": "perp",
+    "base": "broadcom",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/AVGO"
+  },
+  "212": {
+    "exchange": "perp",
+    "base": "cap",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/CAP"
+  },
+  "215": {
+    "exchange": "perp",
+    "base": "folks",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/FOLKS"
+  },
+  "216": {
+    "exchange": "perp",
+    "base": "sk-hynix-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SKHY"
+  },
+  "219": {
+    "exchange": "perp",
+    "base": "the-black-bull",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ANSEM"
+  },
+  "221": {
+    "exchange": "perp",
+    "base": "cash-cat",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/CASHCAT"
+  },
+  "223": {
+    "exchange": "perp",
+    "base": "western-digital",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/WDC"
+  },
+  "228": {
+    "exchange": "perp",
+    "base": "moderna",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/MRNA"
+  },
+  "231": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/PONS"
+  },
+  "233": {
+    "exchange": "perp",
+    "base": "raydium",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/RAY"
+  },
+  "4095": {
+    "exchange": "perp",
+    "base": "stonk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/STONK"
+  }
+}
