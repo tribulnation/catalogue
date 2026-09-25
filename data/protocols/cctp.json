@@ -1,0 +1,51 @@
+{
+  "id": "cctp",
+  "display_name": "Circle CCTP",
+  "about": {
+    "en": "Circle's Cross-Chain Transfer Protocol moves native USDC between blockchains by burning it on the source chain and minting it on the destination once Circle attests the burn message. Every message carries the source chain's CCTP domain and a nonce, and the destination accepts each (source domain, nonce) pair once. The correlation key uses the V1 nonce, a uint64 that the source MessageTransmitter assigns on-chain and emits in DepositForBurn and MessageReceived. CCTP V2 nonces are bytes32 values Circle assigns off-chain: a V2 burn carries no nonce on the source chain, so V2 transfers have no key both sides can compute and are not covered here."
+  },
+  "urls": {
+    "Documentation": "https://developers.circle.com/cctp",
+    "Domains": "https://developers.circle.com/cctp/concepts/supported-chains-and-domains",
+    "V1 message format": "https://developers.circle.com/cctp/v1/message-format",
+    "Source code": "https://github.com/circlefin/evm-cctp-contracts"
+  },
+  "correlation": {
+    "key": "cctp:{source_domain}:{nonce}",
+    "fields": {
+      "source_domain": "uint",
+      "nonce": "uint"
+    }
+  },
+  "domains": {
+    "0": "ethereum",
+    "1": "avalanche",
+    "2": "optimism",
+    "3": "arbitrum",
+    "4": "noble",
+    "5": "solana",
+    "6": "base",
+    "7": "polygon",
+    "8": "sui",
+    "9": "aptos",
+    "10": "unichain",
+    "11": "linea",
+    "12": "codex",
+    "13": "sonic",
+    "15": "monad",
+    "16": "sei-evm",
+    "17": "bnb-chain",
+    "18": "xdc-network",
+    "19": "hyperevm",
+    "21": "ink",
+    "22": "plume",
+    "25": "starknet",
+    "26": "arc",
+    "27": "stellar",
+    "30": "morph",
+    "31": "pharos",
+    "32": "cronos",
+    "33": "plasma",
+    "37": "x-layer"
+  }
+}

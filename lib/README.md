@@ -89,6 +89,35 @@ catalogue.canonical_id('old-id')               # follows `replaced_by` aliases
 
 Every lookup follows `replaced_by`: asset ids are never deleted, and a merged asset keeps its file as an alias of the surviving one.
 
+## Correlation keys
+
+A correlation key is a string both sides of one cross-chain movement can compute
+independently, e.g. a CCTP burn and its mint. Each key's namespace is a protocol in
+`data/protocols/`, which defines the key template and its typed fields, so two writers
+that never import each other produce the same string.
+
+```python
+catalogue.format_correlation('cctp', source_domain=4, nonce=12345)  # 'cctp:4:12345'
+catalogue.parse_correlation('ibc:dydx:channel-0:42')
+# ('ibc', {'sending_chain': 'dydx', 'channel': 'channel-0', 'sequence': 42})
+
+catalogue.network_for_domain('cctp', 3)           # 'arbitrum'
+catalogue.domain_for_network('cctp', 'noble')     # 4
+catalogue.protocol('hlbridge')                    # Protocol record, or None
+```
+
+Both raise `CorrelationError` (a `ValueError`) for an unknown namespace, missing or
+extra fields, or a value of the wrong type. Field types fix the canonical form:
+`int`/`uint` in base 10, `hex` as lower-case `0x…` (`bytes` accepted), `string` as-is
+without `:` or whitespace, and `network` as an existing catalogue platform id.
+
+| Protocol | Key |
+|---|---|
+| `cctp` | `cctp:{source_domain}:{nonce}` (CCTP V1; V2 burns have no nonce on the source chain) |
+| `ibc` | `ibc:{sending_chain}:{channel}:{sequence}` |
+| `hlbridge` | `hlbridge:{user}:{nonce}` (Hyperliquid Bridge2 withdrawals) |
+| `gofast` | `gofast:{order_id}` (Skip Go Fast) |
+
 ## What's available
 
 ```python
@@ -107,6 +136,8 @@ catalogue.asset_translations      # dict[platform, dict[exchange_id, asset_id]]
 catalogue.network_translations    # dict[platform, dict[exchange_id, network_id]]
 
 catalogue.spam                    # dict[platform, dict[address, SpamAddress]]
+
+catalogue.protocols               # dict[protocol, Protocol]
 ```
 
 ## Types
@@ -118,7 +149,7 @@ from tribulnation.catalogue import (
     Asset, AssetPeg, ExternalIds,
     Platform, Blockchain, CexPlatform, DexPlatform,
     Spot, Perpetual, PerpetualInstrument, DebtInstrument, Debt, Pool,
-    SpamAddress,
+    SpamAddress, Protocol, Correlation, CorrelationFieldType, CorrelationError,
 )
 ```
 
