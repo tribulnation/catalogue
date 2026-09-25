@@ -1114,5 +1114,17 @@
     "base": "tread-fi",
     "quote": "tether",
     "url": "https://www.mexc.com/exchange/TREAD_USDT"
+  },
+  "SCHIFFYUSDT": {
+    "exchange": "spot",
+    "base": "schiffy",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/SCHIFFY_USDT"
+  },
+  "SCHIFFYUSD1": {
+    "exchange": "spot",
+    "base": "schiffy",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/SCHIFFY_USD1"
   }
 }

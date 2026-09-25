@@ -105,7 +105,7 @@
     "base": "aethir",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ATH-PERP-INTX"
+    "delisted": true
   },
   "ATOM-PERP-INTX": {
     "exchange": "intx",
@@ -133,7 +133,7 @@
     "base": "axie-infinity",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.coinbase.com/advanced-trade/perpetuals/AXS-PERP-INTX"
+    "delisted": true
   },
   "BCH-PERP-INTX": {
     "exchange": "intx",
@@ -154,7 +154,7 @@
     "base": "blur",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.coinbase.com/advanced-trade/perpetuals/BLUR-PERP-INTX"
+    "delisted": true
   },
   "BNB-PERP-INTX": {
     "exchange": "intx",
@@ -350,7 +350,7 @@
     "base": "kaspa",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.coinbase.com/advanced-trade/perpetuals/KAS-PERP-INTX"
+    "delisted": true
   },
   "LDO-PERP-INTX": {
     "exchange": "intx",
@@ -497,7 +497,7 @@
     "base": "redstone",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.coinbase.com/advanced-trade/perpetuals/RED-PERP-INTX"
+    "delisted": true
   },
   "RENDER-PERP-INTX": {
     "exchange": "intx",
@@ -525,7 +525,7 @@
     "base": "the-sandbox",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.coinbase.com/advanced-trade/perpetuals/SAND-PERP-INTX"
+    "delisted": true
   },
   "SEI-PERP-INTX": {
     "exchange": "intx",
@@ -546,7 +546,7 @@
     "base": "sky",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.coinbase.com/advanced-trade/perpetuals/SKY-PERP-INTX"
+    "delisted": true
   },
   "SOL-PERP-INTX": {
     "exchange": "intx",
@@ -679,6 +679,6 @@
     "base": "layer-zero",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.coinbase.com/advanced-trade/perpetuals/ZRO-PERP-INTX"
+    "delisted": true
   }
 }
