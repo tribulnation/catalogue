@@ -26,6 +26,9 @@ _KRAKEN_SYMBOLS = {'XBT': 'BTC', 'XDG': 'DOGE'}
 
 _HYPERLIQUID_SPOT_INDEX = re.compile(r':\d+$')
 
+# Lighter names a few markets differently from the asset's own symbol.
+_LIGHTER_SYMBOLS = {'brent': 'BRENTOIL', 'natural-gas': 'NATGAS', 'toncoin': 'GRAM'}
+
 
 class Symbols:
   """Platform-native asset symbols, used to split concatenated instrument IDs."""
@@ -88,6 +91,20 @@ def bitget_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> s
   return f'https://www.bitget.com/futures/{margin}/{web_id}'
 
 
+def _lighter_symbol(asset: str, symbols: Symbols) -> str:
+  """Lighter's pages use the market symbol, not its numeric market ID; the catalogue
+  asset's own symbol spells it."""
+  return _LIGHTER_SYMBOLS.get(asset, str(symbols.assets[asset]['symbol']))
+
+
+def lighter_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
+  """`/trade/<SYMBOL>`, with a contract multiplier's prefix (`1000PEPE`)."""
+  symbol = _lighter_symbol(str(instrument['base']), symbols)
+  multiplier = instrument.get('multiplier')
+  prefix = str(multiplier) if multiplier is not None else ''
+  return f'https://app.lighter.xyz/trade/{prefix}{symbol}'
+
+
 Rule = Callable[[str, Instrument, Symbols], str | None]
 
 SPOT_RULES: dict[str, Rule] = {
@@ -102,6 +119,9 @@ SPOT_RULES: dict[str, Rule] = {
     *(_kraken_symbol(s) for s in sym.split('kraken', id, inst))
   ),
   'kucoin': lambda id, inst, sym: f'https://www.kucoin.com/trade/{id}',
+  'lighter': lambda id, inst, sym: 'https://app.lighter.xyz/trade/{}_{}'.format(
+    _lighter_symbol(str(inst['base']), sym), _lighter_symbol(str(inst['quote']), sym)
+  ),
   'mexc': lambda id, inst, sym: 'https://www.mexc.com/exchange/{}_{}'.format(*sym.split('mexc', id, inst)),
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-spot/{id.lower()}',
 }
@@ -117,6 +137,7 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{id}',
   'kraken': lambda id, inst, sym: f'https://futures.kraken.com/trade/futures/{id}',
   'kucoin': lambda id, inst, sym: f'https://www.kucoin.com/trade/futures/{id}',
+  'lighter': lighter_perpetual_url,
   'mexc': lambda id, inst, sym: f'https://www.mexc.com/futures/{id}',
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-swap/{id.lower()}',
 }
