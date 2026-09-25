@@ -1,0 +1,123 @@
+{
+  "1000PEPEUSDT": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.asterdex.com/en/trade/pro/futures/1000PEPEUSDT"
+  },
+  "1000SHIBUSDT": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.asterdex.com/en/trade/pro/futures/1000SHIBUSDT"
+  },
+  "ADAUSDT": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ADAUSDT"
+  },
+  "ARBUSDT": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ARBUSDT"
+  },
+  "ASTERUSDT": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ASTERUSDT"
+  },
+  "AVAXUSDT": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/AVAXUSDT"
+  },
+  "BTCUSDT": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/BTCUSDT"
+  },
+  "DOGEUSDT": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/DOGEUSDT"
+  },
+  "ETHUSDT": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ETHUSDT"
+  },
+  "FETUSDT": {
+    "exchange": "perp",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/FETUSDT"
+  },
+  "LINKUSDT": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/LINKUSDT"
+  },
+  "LTCUSDT": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/LTCUSDT"
+  },
+  "NEARUSDT": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/NEARUSDT"
+  },
+  "RENDERUSDT": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/RENDERUSDT"
+  },
+  "SOLUSDT": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/SOLUSDT"
+  },
+  "SUIUSDT": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/SUIUSDT"
+  },
+  "XRPUSDT": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/XRPUSDT"
+  }
+}
