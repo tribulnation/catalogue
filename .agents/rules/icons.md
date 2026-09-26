@@ -11,6 +11,20 @@
 
 Icons are single-mode: use plain `fill="..."`/`stroke="..."` attributes, not CSS classes or a `<style>` block. (An earlier revision of this repo experimented with a CSS-driven light/dark mode per icon; it was reverted as more complexity than it was worth — don't reintroduce it without checking with a maintainer first.)
 
+## House styles
+
+Some families of assets share one look instead of each carrying its issuer's own
+colours. Follow these instead of the general background rule above:
+
+- **Binance bStocks** (`<equity>-bstock`, e.g. `reddit-bstock`, `gopro-bstock`):
+  the underlying stock's glyph in solid black (`#000`) on a Binance-yellow
+  (`#F0B90B`) square. Never point a bStock's `icon` at the underlying stock's
+  file, and never keep the stock's own colours. Once the stock has an icon,
+  build it with `.agents/skills/batch_icons/scripts/derive_icons.py --apply`
+  rather than by hand.
+- **Aave receipt tokens** (`aave-<x>`, `wrapped-aave-<x>`): the underlying's
+  icon inside the Aave gradient frame; see `.agents/skills/create_aave_icon`.
+
 ## SVG Format
 
 - Use an XML formatter to automatically format the content

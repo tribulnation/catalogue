@@ -1,7 +1,10 @@
 """Build the icons that follow mechanically from another asset's icon.
 
-Two kinds:
+Three kinds:
 
+- **Binance bStocks** (`<equity>-bstock`) get the bStocks house style: the
+  underlying stock's glyph in black on Binance yellow (`#F0B90B`), per
+  `.agents/rules/icons.md`.
 - **Aave receipt tokens** (`aave-<x>`, `wrapped-aave-<x>`) get the Aave gradient
   frame from `.agents/skills/create_aave_icon`, wrapping `<x>`'s glyph.
 - **Wrapped / pegged / bridged representations** (`wrapped-<x>`, `binance-peg-<x>`,
@@ -14,12 +17,15 @@ Two kinds:
 """
 import collections
 import json
+import re
 import os
 import sys
 
 import icon_svg
 
 AAVE_PREFIXES = ('wrapped-aave-', 'aave-')
+BSTOCK_SUFFIX = '-bstock'
+BINANCE_YELLOW = '#F0B90B'
 SHARED_PREFIXES = (
   'binance-peg-', 'synapse-bridged-', 'avalanche-bridged-', 'bttc-bridged-',
   'orbit-bridge-', 'onesec-', 'bridged-', 'wrapped-',
@@ -110,6 +116,48 @@ def aave_frame(target: str, underlying: str, root: str = '.') -> str:
   set_icon(target, path, root)
   return f'FRAME {target} <- {source}'
 
+def bstock_underlying(id: str, root: str = '.') -> str | None:
+  if not id.endswith(BSTOCK_SUFFIX):
+    return None
+  base = ((load(id, root) or {}).get('pegged_to') or {}).get('asset') or id[:-len(BSTOCK_SUFFIX)]
+  return base if load(base, root) is not None else None
+
+def bstock(target: str, underlying: str, root: str = '.') -> str:
+  """The underlying's glyph recoloured black on Binance yellow.
+
+  Shapes painted in the underlying's background colour are cut-outs, so they
+  take the new background colour; everything else painted turns black.
+  """
+  source = icon_of(underlying, root)
+  if source is None:
+    return f'SKIP {target}: {underlying} has no icon yet'
+  svg = icon_svg.flatten_styles(open(os.path.join(root, source), encoding='utf-8').read())
+  bg_tag, bg_colour = icon_svg.background(svg)
+  if bg_tag:
+    svg = svg.replace(bg_tag, '', 1)
+  viewbox, body, extra = icon_svg.split_root(svg)
+  def paint(m):
+    value = m.group(2).strip()
+    if value.lower() in ('none', 'transparent'):
+      return m.group(0)
+    if bg_colour and value.lower() == bg_colour.lower():
+      return f'{m.group(1)}{BINANCE_YELLOW}'
+    return f'{m.group(1)}#000'
+  body = re.sub(r'((?:fill|stroke|stop-color)=")([^"]*)', paint, body)
+  body = re.sub(r'((?:fill|stroke|stop-color):\s*)([^;"]*)', paint, body)
+  extra = re.sub(r'((?:fill|stroke)=")([^"]*)', paint, extra)
+  x0, y0, w, h = viewbox.split()
+  path = f'icons/asset/{target}.svg'
+  markup = (
+    f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{viewbox}">\n'
+    f'  <rect x="{x0}" y="{y0}" width="{w}" height="{h}" fill="{BINANCE_YELLOW}"/>\n'
+    f'  <g{extra}>\n{body}\n  </g>\n</svg>\n'
+  )
+  open(os.path.join(root, path), 'w', encoding='utf-8').write(markup)
+  icon_svg.fit(os.path.join(root, path), mode='radius')
+  set_icon(target, path, root)
+  return f'BSTOCK {target} <- {source}'
+
 def share(target: str, underlying: str, root: str = '.') -> str:
   source = icon_of(underlying, root)
   if source is None:
@@ -123,6 +171,14 @@ def share(target: str, underlying: str, root: str = '.') -> str:
 def run(apply: bool = False, root: str = '.'):
   from missing_icons import missing
   lines = []
+  for row in missing(root):
+    if row['kind'] != 'bstock':
+      continue
+    underlying = bstock_underlying(row['id'], root)
+    if underlying is None or icon_of(underlying, root) is None:
+      lines.append(f"SKIP {row['id']}: {underlying} has no icon yet")
+      continue
+    lines.append(bstock(row['id'], underlying, root) if apply else f"WOULD bstock {row['id']} <- {underlying}")
   # shared first: an Aave frame may be built on an asset that just got one
   for kind, prefixes, build in (('shared', SHARED_PREFIXES, share), ('aave-frame', AAVE_PREFIXES, aave_frame)):
     for row in missing(root):

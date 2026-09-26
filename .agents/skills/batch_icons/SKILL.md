@@ -9,8 +9,8 @@ asset, `create_asset` already covers it; for one Aave receipt token,
 `.agents/rules/pull_requests.md` for the PR.
 
 Scripts live in `scripts/` next to this file and expect to be run from the repo
-root. `fit_icon.py`, `contact_sheet.py` and `build_review.py` need `cairosvg`
-and `pillow` (`.venv/bin/pip install cairosvg pillow`); the rest are stdlib.
+root. `fit_icon.py`, `contact_sheet.py`, `build_review.py` and `derive_icons.py`
+(for bStocks) need `cairosvg` and `pillow` (`.venv/bin/pip install cairosvg pillow`); the rest are stdlib.
 
 ## 1. See what is missing, and how much of it is mechanical
 
@@ -18,8 +18,12 @@ and `pillow` (`.venv/bin/pip install cairosvg pillow`); the rest are stdlib.
 python3 .agents/skills/batch_icons/scripts/missing_icons.py
 ```
 
-It groups every asset with no usable icon into three kinds:
+It groups every asset with no usable icon into four kinds:
 
+- **`bstock`** — a Binance bStock (`<equity>-bstock`). Its icon is the
+  underlying stock's glyph in black on Binance yellow, per the house styles in
+  `.agents/rules/icons.md`. It is not shared: the stock's own colours never
+  carry over.
 - **`shared`** — a wrapped, pegged or bridged representation of an asset that
   already has an icon (`wrapped-bnb`, `binance-peg-xrp`, `bridged-usd-coin`).
   These point their `icon` field at the underlying asset's file rather than
@@ -36,8 +40,8 @@ python3 .agents/skills/batch_icons/scripts/derive_icons.py            # plan
 python3 .agents/skills/batch_icons/scripts/derive_icons.py --apply
 ```
 
-Shared icons are wired first, so an Aave frame can be built on an asset that
-only just got one. Anything whose underlying asset is still icon-less is
+bStocks are built first, then shared icons, so an Aave frame can be built on
+an asset that only just got one. Anything whose underlying asset is still icon-less is
 reported as a skip — re-run this after step 3 to pick those up.
 
 Watch for two things when a frame looks wrong:
