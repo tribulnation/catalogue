@@ -6,7 +6,7 @@ import json
 import os
 import sys
 
-from derive_icons import AAVE_PREFIXES, SHARED_PREFIXES, underlying_of
+from derive_icons import AAVE_PREFIXES, BSTOCK_SUFFIX, SHARED_PREFIXES, underlying_of
 
 def missing(root: str = '.'):
   out = []
@@ -18,7 +18,9 @@ def missing(root: str = '.'):
       continue
     id = asset['id']
     kind = 'source'
-    if any(id.startswith(p) for p in AAVE_PREFIXES):
+    if id.endswith(BSTOCK_SUFFIX):
+      kind = 'bstock'
+    elif any(id.startswith(p) for p in AAVE_PREFIXES):
       kind = 'aave-frame'
     elif underlying_of(id, SHARED_PREFIXES, root) is not None:
       kind = 'shared'
@@ -30,7 +32,7 @@ if __name__ == '__main__':
   if '--json' in sys.argv:
     print(json.dumps(rows, indent=1))
   else:
-    for kind in ('aave-frame', 'shared', 'source'):
+    for kind in ('bstock', 'aave-frame', 'shared', 'source'):
       group = [r for r in rows if r['kind'] == kind]
       print(f'\n{kind} ({len(group)}):')
       for r in group:
