@@ -281,6 +281,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/AMZNUSDT"
   },
+  "AMZUUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-amzn-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AMZUUSDT"
+  },
   "ANIMEUSDT": {
     "exchange": "perp",
     "base": "animecoin",
@@ -2464,6 +2471,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/TIAUSDT"
+  },
+  "TLTUSDT": {
+    "exchange": "perp",
+    "base": "ishares-20-year-treasury-bond-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TLTUSDT"
   },
   "TNSRUSDT": {
     "exchange": "perp",

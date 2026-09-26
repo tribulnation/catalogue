@@ -1,0 +1,21 @@
+{
+  "id": "amc-entertainment-bstock",
+  "display_name": "AMC Entertainment bStock",
+  "symbol": "AMCB",
+  "category": "rwa",
+  "about": {
+    "en": "AMC Entertainment bStock (AMCB) is a tokenized share of AMC Entertainment Holdings issued by BTech Holdings Limited, a Binance group affiliate, under Binance's bStocks brand. It is a BEP-20 token on BNB Chain, backed 1:1 by AMC shares held with a regulated custodian and convertible 1:1 into the underlying equity, and it passes through the price movements and dividends of that share. bStocks are admitted to trading under prospectuses approved by the ADGM Financial Services Regulatory Authority and are not offered in every jurisdiction."
+  },
+  "external": {
+    "coinmarketcap": "42355"
+  },
+  "pegged_to": {
+    "asset": "amc-entertainment"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}

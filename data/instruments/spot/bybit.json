@@ -1311,7 +1311,7 @@
     "exchange": "spot",
     "base": "icon",
     "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/ICX/USDT"
+    "delisted": true
   },
   "IDUSDT": {
     "exchange": "spot",
@@ -1551,7 +1551,7 @@
     "exchange": "spot",
     "base": "terra-classic",
     "quote": "usd-coin",
-    "url": "https://www.bybit.com/en/trade/spot/LUNC/USDC"
+    "delisted": true
   },
   "LUNCUSDT": {
     "exchange": "spot",
@@ -1785,7 +1785,7 @@
     "exchange": "spot",
     "base": "neon-evm",
     "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/NEON/USDT"
+    "delisted": true
   },
   "NEWTUSDT": {
     "exchange": "spot",
@@ -2151,7 +2151,7 @@
     "exchange": "spot",
     "base": "the-sandbox",
     "quote": "usd-coin",
-    "url": "https://www.bybit.com/en/trade/spot/SAND/USDC"
+    "delisted": true
   },
   "SANDUSDT": {
     "exchange": "spot",
@@ -2409,7 +2409,7 @@
     "exchange": "spot",
     "base": "sundog",
     "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/SUNDOG/USDT"
+    "delisted": true
   },
   "SUNUSDT": {
     "exchange": "spot",
@@ -2445,7 +2445,7 @@
     "exchange": "spot",
     "base": "swell",
     "quote": "usd-coin",
-    "url": "https://www.bybit.com/en/trade/spot/SWELL/USDC"
+    "delisted": true
   },
   "SWELLUSDT": {
     "exchange": "spot",
@@ -2463,7 +2463,7 @@
     "exchange": "spot",
     "base": "tac",
     "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/TAC/USDT"
+    "delisted": true
   },
   "TAIKOUSDT": {
     "exchange": "spot",
