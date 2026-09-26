@@ -451,8 +451,8 @@
     "base": "ether-fi",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.mexc.com/futures/ETHFI_USDC",
-    "exchange": "perp"
+    "exchange": "perp",
+    "delisted": true
   },
   "ETHFI_USDT": {
     "base": "ether-fi",
@@ -691,5 +691,89 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/UBIK_USDT"
+  },
+  "AURORA_USDT": {
+    "exchange": "perp",
+    "base": "aurora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AURORA_USDT"
+  },
+  "RHEA_USDT": {
+    "exchange": "perp",
+    "base": "rhea-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/RHEA_USDT"
+  },
+  "AKAMSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "akamai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AKAMSTOCK_USDT"
+  },
+  "DELTAELECSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "delta-electronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/DELTAELECSTOCK_USDT"
+  },
+  "HK0992_USDT": {
+    "exchange": "perp",
+    "base": "lenovo-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/HK0992_USDT"
+  },
+  "MEDIATEKSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "mediatek",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MEDIATEKSTOCK_USDT"
+  },
+  "PFESTOCK_USDT": {
+    "exchange": "perp",
+    "base": "pfizer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PFESTOCK_USDT"
+  },
+  "TMOSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "thermo-fisher-scientific",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TMOSTOCK_USDT"
+  },
+  "TSMCSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TSMCSTOCK_USDT"
+  },
+  "UMCSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "united-microelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/UMCSTOCK_USDT"
+  },
+  "VICRSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "vicor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/VICRSTOCK_USDT"
+  },
+  "WBDSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "warner-bros-discovery",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/WBDSTOCK_USDT"
   }
 }

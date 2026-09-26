@@ -1580,5 +1580,26 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitget.com/futures/usdt/TLTUSDT"
+  },
+  "CORZUSDT": {
+    "exchange": "usdt",
+    "base": "core-scientific",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/CORZUSDT"
+  },
+  "URNMUSDT": {
+    "exchange": "usdt",
+    "base": "sprott-uranium-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/URNMUSDT"
+  },
+  "WBDUSDT": {
+    "exchange": "usdt",
+    "base": "warner-bros-discovery",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/WBDUSDT"
   }
 }

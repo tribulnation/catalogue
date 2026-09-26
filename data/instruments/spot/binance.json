@@ -3760,5 +3760,41 @@
     "base": "fusionist",
     "quote": "usd-coin",
     "url": "https://www.binance.com/en/trade/ACE_USDC"
+  },
+  "HYPEUSDT": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/HYPE_USDT"
+  },
+  "HYPEUSDC": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "url": "https://www.binance.com/en/trade/HYPE_USDC"
+  },
+  "HYPETRY": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "turkish-lira",
+    "url": "https://www.binance.com/en/trade/HYPE_TRY"
+  },
+  "AGPUBUSDT": {
+    "exchange": "spot",
+    "base": "axe-compute-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/AGPUB_USDT"
+  },
+  "CYPHBUSDT": {
+    "exchange": "spot",
+    "base": "cypherpunk-technologies-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/CYPHB_USDT"
+  },
+  "AMCBUSDT": {
+    "exchange": "spot",
+    "base": "amc-entertainment-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/AMCB_USDT"
   }
 }
