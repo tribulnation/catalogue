@@ -55,6 +55,13 @@
     "settlement": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/xyz:CL"
   },
+  "xyz:EUR": {
+    "exchange": "xyz",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/xyz:EUR"
+  },
   "RENDER": {
     "exchange": "",
     "base": "render",
