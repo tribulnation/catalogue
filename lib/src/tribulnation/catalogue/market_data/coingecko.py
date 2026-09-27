@@ -31,6 +31,10 @@ def wrap_exceptions(f):
 
 CoingeckoQuote = Literal['eur', 'usd']
 
+MARKETS_PAGE_SIZE = 250
+"""`/coins/markets` maximum `per_page`. Each batch is one request, so the page
+must be as large as the batch or the rows past the default 100 are dropped."""
+
 @dataclass
 class CoingeckoPricing(Pricing):
   client: coingecko_sdk.AsyncCoingecko
@@ -81,6 +85,7 @@ class CoingeckoPricing(Pricing):
     out: dict[str, Stats] = {}
     r = await self.client.coins.markets.get(
       vs_currency=self.quote, ids=','.join(ids), precision='full',
+      per_page=MARKETS_PAGE_SIZE,
     )
     for coin in r:
       s = out.setdefault(coin.id, Stats())
@@ -95,7 +100,7 @@ class CoingeckoPricing(Pricing):
     out: dict[str, Stats] = {}
     currency_ids = {id for id in ids if id.startswith('currency:')}
     normal_ids = [id for id in ids if id not in currency_ids]
-    for ids_batch in batch(normal_ids, 100):
+    for ids_batch in batch(normal_ids, MARKETS_PAGE_SIZE):
       out.update(await self._fetch_markets(ids_batch))
     for currency in currency_ids:
       if price := await self.currency_price(currency.removeprefix('currency:')):
