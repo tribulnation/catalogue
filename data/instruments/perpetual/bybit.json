@@ -785,6 +785,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/COREUSDT"
   },
+  "CORZUSDT": {
+    "exchange": "perp",
+    "base": "core-scientific",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CORZUSDT"
+  },
   "COWUSDT": {
     "exchange": "perp",
     "base": "cow-protocol",
@@ -2982,5 +2989,12 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ZRXUSDT"
+  },
+  "ZSUSDT": {
+    "exchange": "perp",
+    "base": "zscaler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ZSUSDT"
   }
 }

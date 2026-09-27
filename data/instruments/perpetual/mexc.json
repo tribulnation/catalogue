@@ -143,8 +143,8 @@
     "base": "mantle",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.mexc.com/futures/MNT_USDC",
-    "exchange": "perp"
+    "exchange": "perp",
+    "delisted": true
   },
   "MNT_USDT": {
     "base": "mantle",
@@ -521,8 +521,8 @@
     "base": "neo",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.mexc.com/futures/NEO_USDC",
-    "exchange": "perp"
+    "exchange": "perp",
+    "delisted": true
   },
   "NEO_USDT": {
     "base": "neo",
@@ -775,5 +775,12 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/WBDSTOCK_USDT"
+  },
+  "OTC_USDT": {
+    "base": "otc",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.mexc.com/futures/OTC_USDT"
   }
 }
