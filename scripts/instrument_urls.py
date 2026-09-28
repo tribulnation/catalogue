@@ -26,8 +26,17 @@ _KRAKEN_SYMBOLS = {'XBT': 'BTC', 'XDG': 'DOGE'}
 
 _HYPERLIQUID_SPOT_INDEX = re.compile(r':\d+$')
 
-# Lighter names a few markets differently from the asset's own symbol.
-_LIGHTER_SYMBOLS = {'brent': 'BRENTOIL', 'natural-gas': 'NATGAS', 'toncoin': 'GRAM'}
+# Lighter names a few markets differently from the asset's own symbol; FX perps carry
+# the full pair.
+_LIGHTER_SYMBOLS = {
+  'brent': 'BRENTOIL',
+  'natural-gas': 'NATGAS',
+  'toncoin': 'GRAM',
+  'euro': 'EURUSD',
+  'british-pound': 'GBPUSD',
+  'australian-dollar': 'AUDUSD',
+  'new-zealand-dollar': 'NZDUSD',
+}
 
 
 class Symbols:
