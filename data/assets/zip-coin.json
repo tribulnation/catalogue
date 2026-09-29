@@ -1,0 +1,15 @@
+{
+  "id": "zip-coin",
+  "display_name": "Zipcoin",
+  "symbol": "ZC",
+  "category": "crypto",
+  "about": {
+    "en": "Zipcoin is an Ethereum token named after the currency in Vitalik Buterin's novel Snowmoon. It pairs a shielded pool, where deposits are withdrawn to fresh addresses under a zero-knowledge proof of ownership, with an onchain messaging scheme in which tokens are burned to publish a signed message permanently. ZC is an ERC-20 at 0x4e67DB19044549fF420860834c91b45BaD298722."
+  },
+  "urls": {
+    "Website": "https://www.zipcoin.cash/"
+  },
+  "external": {
+    "coingecko": "zip-coin"
+  }
+}

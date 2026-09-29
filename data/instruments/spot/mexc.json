@@ -1126,5 +1126,29 @@
     "base": "schiffy",
     "quote": "usd1",
     "url": "https://www.mexc.com/exchange/SCHIFFY_USD1"
+  },
+  "STOCKERUSDT": {
+    "exchange": "spot",
+    "base": "stockereum-fun",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/STOCKER_USDT"
+  },
+  "STOCKERUSD1": {
+    "exchange": "spot",
+    "base": "stockereum-fun",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/STOCKER_USD1"
+  },
+  "ZCUSDT": {
+    "exchange": "spot",
+    "base": "zip-coin",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/ZC_USDT"
+  },
+  "ZCUSD1": {
+    "exchange": "spot",
+    "base": "zip-coin",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/ZC_USD1"
   }
 }

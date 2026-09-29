@@ -782,5 +782,54 @@
     "settlement": "tether",
     "exchange": "perp",
     "url": "https://www.mexc.com/futures/OTC_USDT"
+  },
+  "CVSSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "cvs-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CVSSTOCK_USDT"
+  },
+  "DASHSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "doordash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/DASHSTOCK_USDT"
+  },
+  "KODSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "kodiak-sciences",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/KODSTOCK_USDT"
+  },
+  "ROSTSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "ross-stores",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ROSTSTOCK_USDT"
+  },
+  "TJXSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "tjx-companies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TJXSTOCK_USDT"
+  },
+  "VKTXSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "viking-therapeutics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/VKTXSTOCK_USDT"
+  },
+  "XDP_USDT": {
+    "exchange": "perp",
+    "base": "doppler-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/XDP_USDT"
   }
 }
