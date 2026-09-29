@@ -3796,5 +3796,17 @@
     "base": "amc-entertainment-bstock",
     "quote": "tether",
     "url": "https://www.binance.com/en/trade/AMCB_USDT"
+  },
+  "GPROBUSDT": {
+    "exchange": "spot",
+    "base": "gopro-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/GPROB_USDT"
+  },
+  "ENAUSD1": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd1",
+    "url": "https://www.binance.com/en/trade/ENA_USD1"
   }
 }
