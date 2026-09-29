@@ -783,6 +783,20 @@
     "exchange": "perp",
     "url": "https://www.mexc.com/futures/OTC_USDT"
   },
+  "TLT_USDT": {
+    "base": "ishares-20-year-treasury-bond-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.mexc.com/futures/TLT_USDT"
+  },
+  "SMICSTOCK_USDT": {
+    "base": "semiconductor-manufacturing-international",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.mexc.com/futures/SMICSTOCK_USDT"
+  },
   "CVSSTOCK_USDT": {
     "exchange": "perp",
     "base": "cvs-health",

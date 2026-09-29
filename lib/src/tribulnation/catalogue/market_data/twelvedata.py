@@ -1,9 +1,18 @@
+"""TwelveData pricing adapter.
+
+TwelveData quotes each listing in its own currency: a bare `6525` resolves to the
+Tokyo listing, in JPY. Stocks and funds carry that currency in `currency`; pairs
+such as `EUR/USD` are quoted in the part after the slash. Values in any other
+currency than the requested quote are omitted, never returned unconverted.
+"""
+
 from typing_extensions import Literal, Collection, Mapping, Sequence, Any
 from dataclasses import dataclass, field
 from datetime import datetime
 from decimal import Decimal
 import asyncio
 import functools
+import logging
 import os
 
 import httpx
@@ -19,13 +28,26 @@ BASE_URL = 'https://api.twelvedata.com'
 
 TwelveDataQuote = Literal['USD', 'EUR']
 
+logger = logging.getLogger('tribulnation.catalogue')
+
 
 class TdModel(BaseModel):
   model_config = ConfigDict(extra='ignore')
 
 
-class TdPrice(TdModel):
-  price: Decimal
+class TdQuote(TdModel):
+  """Latest quote of a symbol."""
+  symbol: str
+  currency: str | None = None
+  """Listing currency. Absent for pairs, which are quoted in their second leg."""
+  close: Decimal
+  """Latest price: the close of the current daily bar."""
+
+
+class TdTimeSeriesMeta(TdModel):
+  """Time series metadata."""
+  currency: str | None = None
+  """Listing currency. Absent for pairs, which are quoted in their second leg."""
 
 
 class TdOHLCV(TdModel):
@@ -34,9 +56,19 @@ class TdOHLCV(TdModel):
 
 
 class TdTimeSeries(TdModel):
+  meta: TdTimeSeriesMeta = TdTimeSeriesMeta()
   values: list[TdOHLCV] = []
   status: str = 'ok'
   message: str | None = None
+
+
+def quote_currency(symbol: str, currency: str | None) -> str | None:
+  """Currency a symbol is quoted in: its `currency`, or a pair's second leg."""
+  if currency is not None:
+    return currency
+  if '/' in symbol:
+    return symbol.rsplit('/', 1)[1]
+  return None
 
 
 def _parse_dt(s: str) -> datetime:
@@ -122,28 +154,40 @@ class TwelveDataPricing(Pricing):
       params['apikey'] = api_key
     return cls(quote=quote, params=params, credits_per_minute=credits_per_minute)
 
+  def _in_quote(self, symbol: str, currency: str | None) -> bool:
+    """Whether `symbol` is quoted in the requested currency; logs when it is not."""
+    ccy = quote_currency(symbol, currency)
+    if ccy == self.quote:
+      return True
+    logger.warning('TwelveData %s is quoted in %s, not %s; omitted', symbol, ccy or 'an unknown currency', self.quote)
+    return False
+
   @SDK.method
   @wrap_exceptions
   async def _fetch_prices(self, symbols: Sequence[str]) -> dict[str, Stats]:
-    """Fetch prices for a single batch of symbols."""
+    """Fetch latest prices for a single batch of symbols.
+
+    Uses `/quote` rather than `/price` because only `/quote` states the currency.
+    Both cost one credit per symbol.
+    """
     r = await self.client.request(
-      'GET', f'{BASE_URL}/price',
+      'GET', f'{BASE_URL}/quote',
       params={**self.params, 'symbol': ','.join(symbols)},
     )
     r.raise_for_status()
     data: Any = r.json()
-    out: dict[str, Stats] = {}
     if len(symbols) == 1:
-      symbol = symbols[0]
       if data.get('status') == 'error':
         _raise_body_error(data)
-      if 'price' in data:
-        out[symbol] = Stats(price=TdPrice.model_validate(data).price)
+      entries = {symbols[0]: data}
     else:
-      for symbol in symbols:
-        entry = data.get(symbol)
-        if isinstance(entry, Mapping) and 'price' in entry:
-          out[symbol] = Stats(price=TdPrice.model_validate(entry).price)
+      entries = {symbol: data.get(symbol) for symbol in symbols}
+    out: dict[str, Stats] = {}
+    for symbol, entry in entries.items():
+      if isinstance(entry, Mapping) and 'close' in entry:
+        quote = TdQuote.model_validate({**entry, 'symbol': symbol})
+        if self._in_quote(symbol, quote.currency):
+          out[symbol] = Stats(price=quote.close)
     return out
 
   async def current_stats(self, ids: Collection[str]) -> dict[str, Stats]:
@@ -174,7 +218,7 @@ class TwelveDataPricing(Pricing):
     )
     r.raise_for_status()
     data = TdTimeSeries.model_validate(r.json())
-    if not data.values:
+    if not data.values or not self._in_quote(id, data.meta.currency):
       return None
     entry = data.values[0]
     return Price(price=entry.close, time=_parse_dt(entry.datetime))
