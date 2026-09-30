@@ -1,0 +1,19 @@
+{
+  "id": "relay",
+  "display_name": "Relay",
+  "about": {
+    "en": "Relay is an intent-based cross-chain protocol: a user deposits into the RelayDepository on the source chain, tagged with a bytes32 request id, and a solver fills the request on the destination chain. The source side reads the request id from the depository's RelayNativeDeposit or RelayErc20Deposit event. The solver's fill transaction ends its calldata with the same 32-byte request id, and Relay's requests API maps the id to both transactions. The key covers depository deposits; a destination that keeps no fill transaction data, such as an off-chain venue credit, needs Relay's API to learn the id."
+  },
+  "urls": {
+    "Documentation": "https://docs.relay.link/references/protocol/components/depository",
+    "EVM depository reference": "https://docs.relay.link/references/protocol/contracts/evm-depository",
+    "Requests API": "https://docs.relay.link/references/api/get-requests",
+    "Source code": "https://github.com/relayprotocol/relay-depository"
+  },
+  "correlation": {
+    "key": "relay:{request_id}",
+    "fields": {
+      "request_id": "hex"
+    }
+  }
+}

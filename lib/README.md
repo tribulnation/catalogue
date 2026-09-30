@@ -117,6 +117,8 @@ without `:` or whitespace, and `network` as an existing catalogue platform id.
 | `ibc` | `ibc:{sending_chain}:{channel}:{sequence}` |
 | `hlbridge` | `hlbridge:{user}:{nonce}` (Hyperliquid Bridge2 withdrawals) |
 | `gofast` | `gofast:{order_id}` (Skip Go Fast) |
+| `relay` | `relay:{request_id}` (Relay depository deposits and their fills) |
+| `lighter` | `lighter:{serial_id}` (Lighter L1 priority requests, e.g. deposits) |
 
 ## What's available
 

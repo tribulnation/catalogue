@@ -62,6 +62,16 @@ class FormatTest(unittest.TestCase):
     self.assertEqual(
       CATALOGUE.format_correlation('gofast', order_id=b'\x00\xab'), 'gofast:0x00ab'
     )
+    self.assertEqual(
+      CATALOGUE.format_correlation(
+        'relay',
+        request_id='0x4F7151237C283C9A0B906C28186E289063DC69C10DBC26F822E5C93D1642FCD8',
+      ),
+      'relay:0x4f7151237c283c9a0b906c28186e289063dc69c10dbc26f822e5c93d1642fcd8',
+    )
+    self.assertEqual(
+      CATALOGUE.format_correlation('lighter', serial_id=0x1DAC67), 'lighter:1944679'
+    )
 
   def test_canonical_inputs(self):
     """Decimal strings and any-case hex normalise to the same key as native values."""
@@ -91,6 +101,8 @@ class FormatTest(unittest.TestCase):
       ('ibc', {'sending_chain': 'dydx', 'channel': '', 'sequence': 1}),
       ('hlbridge', {'user': 'ba2f7ce3', 'nonce': 1}),
       ('gofast', {'order_id': 12}),
+      ('relay', {'request_id': 'not-hex'}),
+      ('lighter', {'serial_id': '0x1dac67'}),
     ]
     for protocol, fields in cases:
       with (
@@ -114,6 +126,8 @@ class ParseTest(unittest.TestCase):
       'ibc:dydx:channel-0:42',
       'hlbridge:0x' + 'ab' * 20 + ':1790358868879000',
       'gofast:0x' + '01' * 32,
+      'relay:0x' + '4f' * 32,
+      'lighter:1944679',
     ):
       with self.subTest(key=key):
         protocol, fields = CATALOGUE.parse_correlation(key)

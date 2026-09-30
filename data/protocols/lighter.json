@@ -1,0 +1,17 @@
+{
+  "id": "lighter",
+  "display_name": "Lighter priority requests",
+  "about": {
+    "en": "Lighter is a ZK rollup on Ethereum whose ZkLighter contract queues L1 operations, such as deposits, as priority requests the sequencer must process. Each request gets a serial id, a uint64 that ZkLighter assigns on-chain and emits in NewPriorityRequest alongside the operation's pubdata. Lighter serves the resulting L2 transaction under a synthetic hash whose first 8 bytes are that serial id, big-endian, followed by the pubdata, so the L1 transaction and Lighter's record of it both yield the serial id. The key covers L1 priority requests only; withdrawal payouts on Ethereum carry no serial id."
+  },
+  "urls": {
+    "Documentation": "https://docs.lighter.xyz/",
+    "Priority request queue": "https://docs.lighter.xyz/about-lighter/technical-architecture-lighter-core"
+  },
+  "correlation": {
+    "key": "lighter:{serial_id}",
+    "fields": {
+      "serial_id": "uint"
+    }
+  }
+}

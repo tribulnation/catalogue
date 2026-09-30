@@ -169,7 +169,7 @@ SVG icons for assets, platforms, and networks, organized under `icons/asset/`, `
 Known spam token addresses per chain, with optional source and reported timestamp.
 
 ### Protocols
-Cross-chain protocols (`cctp`, `ibc`, `hlbridge`, `gofast`) keyed by id. Each defines a **correlation key**: a template such as `cctp:{source_domain}:{nonce}` with typed fields, which both sides of one cross-chain movement can compute independently so they can be linked. Protocol data stays in the entry, e.g. CCTP's domain → network table. Keys are built and checked with `format_correlation` / `parse_correlation`.
+Cross-chain protocols (`cctp`, `ibc`, `hlbridge`, `gofast`, `relay`, `lighter`) keyed by id. Each defines a **correlation key**: a template such as `cctp:{source_domain}:{nonce}` with typed fields, which both sides of one cross-chain movement can compute independently so they can be linked. Protocol data stays in the entry, e.g. CCTP's domain → network table. Keys are built and checked with `format_correlation` / `parse_correlation`.
 
 ---
 
