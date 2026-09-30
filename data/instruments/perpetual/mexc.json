@@ -845,5 +845,12 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/XDP_USDT"
+  },
+  "PATHSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "uipath",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PATHSTOCK_USDT"
   }
 }
