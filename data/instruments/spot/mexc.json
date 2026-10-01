@@ -1150,5 +1150,17 @@
     "base": "zip-coin",
     "quote": "usd1",
     "url": "https://www.mexc.com/exchange/ZC_USD1"
+  },
+  "CTUSDT": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/CT_USDT"
+  },
+  "CTUSDC": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "usd-coin",
+    "url": "https://www.mexc.com/exchange/CT_USDC"
   }
 }

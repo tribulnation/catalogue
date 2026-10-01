@@ -3003,5 +3003,26 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ZSUSDT"
+  },
+  "CVNAUSDT": {
+    "exchange": "perp",
+    "base": "carvana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CVNAUSDT"
+  },
+  "RUMUSDT": {
+    "exchange": "perp",
+    "base": "rum-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/RUMUSDT"
+  },
+  "TWSTUSDT": {
+    "exchange": "perp",
+    "base": "twist-bioscience",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TWSTUSDT"
   }
 }
