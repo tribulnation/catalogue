@@ -852,5 +852,19 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/PATHSTOCK_USDT"
+  },
+  "GLD_USDT": {
+    "exchange": "perp",
+    "base": "spdr-gold-shares",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/GLD_USDT"
+  },
+  "CT_USDT": {
+    "exchange": "perp",
+    "base": "concrete",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CT_USDT"
   }
 }
