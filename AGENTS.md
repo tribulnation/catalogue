@@ -22,13 +22,20 @@ community links when no usable homepage exists. Do not use guessed domains,
 aggregator listing pages, or generic exchange-listing descriptions as substitutes.
 Keep metadata identical when the same record appears in multiple venue PRs.
 
-Every new asset must also have at least one verified supported provider ID in
-`external`, matched by project identity, issuer or contract rather than ticker alone.
-Run `scripts/check_new_assets.py --base <base-commit>` to check new assets.
-Do not stop after finding the first external ID. For crypto, stablecoin and tokenized-asset records, check both CoinGecko and CoinMarketCap and include every independently verified exact identity. A missing provider is acceptable when it has no exact listing; never substitute the underlying asset for a wrapper, bridge claim or receipt.
-Temporary external-ID exceptions are COIN50, tracked in
-[issue #152](https://github.com/tribulnation/catalogue/issues/152), and Minteo COPM,
-tracked in [issue #130](https://github.com/tribulnation/catalogue/issues/130).
+Every new asset must account for its external provider IDs in `external`,
+matched by project identity, issuer or contract rather than ticker alone. For
+crypto, stablecoin and tokenized-asset records, search both CoinGecko and
+CoinMarketCap and include every independently verified exact identity; other
+records need at least one supported provider ID. Never substitute the underlying
+asset for a wrapper, bridge claim or receipt.
+
+A provider with no exact listing is fine, but the search must be shown: add an
+`"<asset>:<provider>"` entry to `scripts/external_id_exceptions.json` saying what
+was searched (contract, issuer, chain, symbol) and why the near matches are a
+different asset. Run `scripts/check_new_assets.py --base <base-commit>`; it fails
+on any required provider (or, for other records, on having no provider at all)
+with neither an ID nor a justification, and on justifications
+left behind once an ID is added.
 
 ## Instrument URLs
 

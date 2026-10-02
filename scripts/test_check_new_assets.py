@@ -108,30 +108,78 @@ class NewAssetMetadataTest(unittest.TestCase):
     self.assertIn('data/assets/broken.json: cannot read asset JSON', result.stderr)
     self.assertNotIn('Traceback', result.stderr)
 
-  def test_tracked_exception_only_allows_missing_external(self):
-    """The index exception remains narrow and visible, with other fields required."""
+  def write_exceptions(self, exceptions: dict[str, str]):
+    """Write the reviewed-exceptions file the script reads from the checked repo."""
+    path = self.root / 'scripts' / 'external_id_exceptions.json'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(exceptions), encoding='utf-8')
+
+  def crypto_asset(self, external: dict[str, str]) -> dict:
+    return {
+      'id': 'new',
+      'category': 'crypto',
+      'about': {'en': 'A project token.'},
+      'urls': {'Website': 'https://example.org'},
+      'external': external,
+    }
+
+  def test_crypto_needs_both_providers_accounted_for(self):
+    """One provider ID is not enough for crypto; the other gap must be justified."""
+    self.write_asset('new', self.crypto_asset({'coingecko': 'new-token'}))
+    self.run_git('add', '.')
+    result = self.check()
+    self.assertEqual(result.returncode, 1)
+    self.assertIn("external.coinmarketcap is missing", result.stderr)
+    self.assertIn("'new:coinmarketcap'", result.stderr)
+    self.assertNotIn('external.coingecko', result.stderr)
+
+  def test_justified_gaps_pass_and_are_reported(self):
+    """A token with no listing anywhere passes once each provider gap is explained."""
+    self.write_asset('new', self.crypto_asset({}))
+    self.write_exceptions({
+      '_README': ['ignored'],
+      'new:coingecko': 'Searched by contract; no listing.',
+      'new:coinmarketcap': 'Searched by symbol; only unrelated tokens.',
+    })
+    self.run_git('add', '.')
+    result = self.check()
+    self.assertEqual(result.returncode, 0, result.stderr)
+    self.assertIn('no coinmarketcap listing - Searched by symbol', result.stdout)
+
+  def test_mismatch_and_blank_entries_do_not_justify(self):
+    """Three-part mismatch keys and blank reasons cannot stand in for a search."""
+    self.write_asset('new', self.crypto_asset({}))
+    self.write_exceptions({'new:coingecko:new-token': 'Renamed.', 'new:coinmarketcap': ' '})
+    self.run_git('add', '.')
+    result = self.check()
+    self.assertEqual(result.returncode, 1)
+    self.assertIn('external.coingecko is missing', result.stderr)
+    self.assertIn('external.coinmarketcap is missing', result.stderr)
+
+  def test_stale_justification_fails(self):
+    """A justification must go once the provider ID it excused is added."""
+    self.write_asset('new', self.crypto_asset({'coingecko': 'a', 'coinmarketcap': '1'}))
+    self.write_exceptions({'new:coinmarketcap': 'No listing.'})
+    self.run_git('add', '.')
+    result = self.check()
+    self.assertEqual(result.returncode, 1)
+    self.assertIn('stale justification', result.stderr)
+
+  def test_non_crypto_needs_one_id_or_justification(self):
+    """Uncategorized records such as an index pass on any single justified gap."""
     asset = {
       'id': 'coinbase-50-index',
       'about': {'en': 'A crypto index.'},
       'urls': {'Website': 'https://example.org/index'},
     }
-    self.write_asset('coinbase-50-index', asset)
-    self.run_git('add', '.')
-    result = self.check()
-    self.assertEqual(result.returncode, 0, result.stderr)
-    self.assertIn('https://github.com/tribulnation/catalogue/issues/152', result.stdout)
-    asset['about'] = {'en': ' '}
-    asset['urls'] = {}
-    self.write_asset('coinbase-50-index', asset)
-    result = self.check()
-    self.assertEqual(result.returncode, 1)
-    self.assertIn('about.en', result.stderr)
-    self.assertIn('urls', result.stderr)
-    self.assertNotIn('external must', result.stderr)
+    self.assertTrue(any(e.startswith('external ') for e in metadata_errors(asset)))
+    self.assertEqual(
+      metadata_errors(asset, missing={'coinbase-50-index:coingecko': 'An index.'}), []
+    )
     self.assertTrue(
       any(
-        error.startswith('external ')
-        for error in metadata_errors(asset, asset_id='another-index')
+        e.startswith('external ')
+        for e in metadata_errors(asset, missing={'another-index:coingecko': 'An index.'})
       )
     )
 

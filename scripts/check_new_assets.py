@@ -1,4 +1,9 @@
-"""Require descriptions, URLs and provider IDs for assets added since a Git base."""
+"""Require descriptions, URLs and provider IDs for assets added since a Git base.
+
+A provider with no exact listing for the asset is acceptable only when the gap is
+justified in `scripts/external_id_exceptions.json` under an `<asset>:<provider>`
+key, saying what was searched and why nothing matched.
+"""
 
 import argparse
 import json
@@ -7,11 +12,11 @@ import subprocess
 import sys
 
 
-# Missing supported pricing identities are tracked; other metadata remains required.
-EXTERNAL_ID_EXCEPTIONS = {
-  'coinbase-50-index': 'https://github.com/tribulnation/catalogue/issues/152',
-  'minteo-copm': 'https://github.com/tribulnation/catalogue/issues/130',
-}
+EXCEPTIONS_FILE = Path(__file__).with_name('external_id_exceptions.json')
+
+# Crypto records must account for both providers: an ID or a justified gap each.
+SEARCHED_PROVIDERS = ('coingecko', 'coinmarketcap')
+CRYPTO_CATEGORIES = {'crypto', 'stablecoin', 'rwa'}
 
 
 def nonblank(value: object) -> bool:
@@ -19,7 +24,19 @@ def nonblank(value: object) -> bool:
   return isinstance(value, str) and bool(value.strip())
 
 
-def metadata_errors(asset: object, *, asset_id: str | None = None) -> list[str]:
+def load_missing(file: Path = EXCEPTIONS_FILE) -> dict[str, str]:
+  """Justified provider gaps, keyed '<asset>:<provider>' (mismatches use three parts)."""
+  if not file.exists():
+    return {}
+  return {
+    key: reason for key, reason in json.loads(file.read_text(encoding='utf-8')).items()
+    if not key.startswith('_') and key.count(':') == 1
+  }
+
+
+def metadata_errors(
+  asset: object, *, asset_id: str | None = None, missing: dict[str, str] | None = None
+) -> list[str]:
   """Explain missing metadata without imposing requirements on legacy assets."""
   if not isinstance(asset, dict):
     return ['asset must be a JSON object']
@@ -27,18 +44,36 @@ def metadata_errors(asset: object, *, asset_id: str | None = None) -> list[str]:
   about = asset.get('about')
   if not isinstance(about, dict) or not nonblank(about.get('en')):
     errors.append('about.en must be a nonblank description')
-  for field, label in [('urls', 'URL'), ('external', 'external provider ID')]:
-    values = asset.get(field)
-    if not isinstance(values, dict) or not any(
-      nonblank(key) and nonblank(value) for key, value in values.items()
-    ):
-      if (
-        field == 'external'
-        and asset_id in EXTERNAL_ID_EXCEPTIONS
-        and asset.get('id') == asset_id
-      ):
-        continue
-      errors.append(f'{field} must contain at least one nonblank {label}')
+  urls = asset.get('urls')
+  if not isinstance(urls, dict) or not any(
+    nonblank(key) and nonblank(value) for key, value in urls.items()
+  ):
+    errors.append('urls must contain at least one nonblank URL')
+  external = asset.get('external')
+  ids = {
+    key for key, value in external.items() if nonblank(key) and nonblank(value)
+  } if isinstance(external, dict) else set()
+  asset_id = asset_id or asset.get('id')
+  justified = {
+    key.split(':', 1)[1]: reason for key, reason in (missing or {}).items()
+    if key.split(':', 1)[0] == asset_id and nonblank(reason)
+  }
+  for provider in sorted(ids & set(justified)):
+    errors.append(
+      f'external.{provider} is set, so remove its stale justification from {EXCEPTIONS_FILE.name}'
+    )
+  if asset.get('category') in CRYPTO_CATEGORIES:
+    for provider in SEARCHED_PROVIDERS:
+      if provider not in ids and provider not in justified:
+        errors.append(
+          f'external.{provider} is missing: add the verified ID, or justify '
+          f"'{asset_id}:{provider}' in {EXCEPTIONS_FILE.name}"
+        )
+  elif not ids and not justified:
+    errors.append(
+      'external must contain at least one nonblank external provider ID, or justify '
+      f"'{asset_id}:<provider>' in {EXCEPTIONS_FILE.name}"
+    )
   return errors
 
 
@@ -82,6 +117,11 @@ def main() -> int:
     )
     print(f'Cannot compare new assets against {args.base!r}: {detail}', file=sys.stderr)
     return 2
+  try:
+    missing = load_missing(root / 'scripts' / EXCEPTIONS_FILE.name)
+  except (OSError, ValueError) as error:
+    print(f'Cannot read {EXCEPTIONS_FILE.name}: {error}', file=sys.stderr)
+    return 2
   errors = []
   paths = [path for path in added if path]
   for path in paths:
@@ -91,17 +131,12 @@ def main() -> int:
       errors.append(f'{path}: cannot read asset JSON: {error}')
       continue
     asset_id = Path(path).stem
-    if (
-      isinstance(asset, dict)
-      and asset.get('id') == asset_id
-      and asset_id in EXTERNAL_ID_EXCEPTIONS
-    ):
-      if any(error.startswith('external ') for error in metadata_errors(asset)):
-        print(
-          f'{path}: external ID exception tracked at {EXTERNAL_ID_EXCEPTIONS[asset_id]}'
-        )
+    for key, reason in sorted(missing.items()):
+      if key.split(':', 1)[0] == asset_id:
+        print(f'{path}: no {key.split(":", 1)[1]} listing - {reason}')
     errors.extend(
-      f'{path}: {error}' for error in metadata_errors(asset, asset_id=asset_id)
+      f'{path}: {error}'
+      for error in metadata_errors(asset, asset_id=asset_id, missing=missing)
     )
   if errors:
     print('\n'.join(errors), file=sys.stderr)

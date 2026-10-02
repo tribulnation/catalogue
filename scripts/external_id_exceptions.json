@@ -7,8 +7,19 @@
     "",
     "Each key is '<asset>:<provider>:<external_id>'. If the catalogue ever repoints that",
     "asset at a different ID the key stops matching and the mismatch is reported again,",
-    "so an acknowledgement can never outlive the mapping it was granted for."
+    "so an acknowledgement can never outlive the mapping it was granted for.",
+    "",
+    "Keys of the form '<asset>:<provider>' instead justify a provider with no exact listing",
+    "for the asset, for scripts/check_new_assets.py. Say what was searched (contract, issuer,",
+    "chain, symbol) and why the near matches are a different asset."
   ],
+
+  "coinbase-50-index:coinmarketcap": "An index, not a token; no listing. See https://github.com/tribulnation/catalogue/issues/152.",
+  "coinbase-50-index:coingecko": "An index, not a token; no listing. See https://github.com/tribulnation/catalogue/issues/152.",
+  "max-hyperliquid:coingecko": "Searched coins/list (2026-10-02) for symbol MAX and Hyperliquid token 0x6781b92b6ea5d8ed37d275eb201f64af: no Hyperliquid entry. max-token (MAX Exchange, Ethereum) and max-2 (AI agent, Solana) are unrelated.",
+  "max-hyperliquid:coinmarketcap": "Searched the crypto map (2026-10-02) for MAX and $MAX: only MAX Exchange Token, Giggle Mascot, Mastercard xStock, max-2, Maxcoin and inactive unrelated tokens.",
+  "minteo-copm:coingecko": "Searched coins/list (2026-10-02) for COPM and Minteo: the only COPM is ccop, Mento's Colombian Peso on Celo, a different issuer.",
+  "minteo-copm:coinmarketcap": "Searched the crypto map (2026-10-02) for COPM and Minteo: no listing.",
 
   "binance-peg-ethereum:coingecko:binance-peg-weth": "Catalogue tracks Binance-Peg ETH; CoinGecko lists the same token as WETH.",
   "bridged-tether:coingecko:tether-avalanche-bridged-usdt-e": "Same token; CoinGecko spells USDT.e as USDTE.",
