@@ -1,0 +1,19 @@
+{
+  "id": "axelar",
+  "display_name": "Axelar General Message Passing",
+  "about": {
+    "en": "Axelar relays general messages, with or without tokens, between chains through the Axelar network. A call sent to Axelar (from an EVM gateway, or as an IBC transfer whose memo names an EVM destination) gets a message id, which Axelar emits in ContractCallWithTokenSubmitted (or ContractCallSubmitted) on the Axelar chain. When it approves the call for the destination chain, Axelar's EVM module assigns it a command id and emits ContractCallWithMintApproved (or ContractCallApproved) at the end of a block, pairing the message id (event_id) with the command id (command_id, a 32-byte value). The destination gateway is handed the same command id: the executor passes it to execute or executeWithToken, and the gateway emits ContractCallExecuted(commandId) when the call is validated. The correlation key is that command id, which the Axelar chain's approval and the destination chain's execution both state. It does not cover calls Axelar never approved, and a source chain that sees only the message id needs the Axelar chain's approval to learn the command id."
+  },
+  "urls": {
+    "Documentation": "https://docs.axelar.dev/dev/general-message-passing/overview/",
+    "Tokens with messages": "https://docs.axelar.dev/dev/general-message-passing/gmp-tokens-with-messages/",
+    "Axelar core source code": "https://github.com/axelarnetwork/axelar-core",
+    "Gateway source code": "https://github.com/axelarnetwork/axelar-cgp-solidity"
+  },
+  "correlation": {
+    "key": "axelar:{command_id}",
+    "fields": {
+      "command_id": "hex"
+    }
+  }
+}
