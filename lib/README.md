@@ -125,7 +125,7 @@ A protocol that assigns each user its own deposit address (Hyperunit) publishes 
 list. Its entry declares a `deposits` lookup instead: a public `GET` URL template with an
 `{address}` placeholder, the response field holding the operations, and the names of each
 operation's fields (`deposit_address`, `sender`, `source_chain`, `destination_chain`,
-`destination_address`, `asset`). The protocol's `chains` and `assets` map its names to
+`destination_address`, `asset`, optionally `time`). The protocol's `chains` and `assets` map its names to
 catalogue ids. A unit may keep the lookup's response as evidence for recognising a send to a
 deposit address; it never supplies a correlation key field.
 

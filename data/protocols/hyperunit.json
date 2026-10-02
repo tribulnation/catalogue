@@ -37,7 +37,8 @@
       "source_chain": "sourceChain",
       "destination_chain": "destinationChain",
       "destination_address": "destinationAddress",
-      "asset": "asset"
+      "asset": "asset",
+      "time": "opCreatedAt"
     }
   }
 }
