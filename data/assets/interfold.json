@@ -1,0 +1,17 @@
+{
+  "id": "interfold",
+  "display_name": "The Interfold",
+  "symbol": "FOLD",
+  "category": "crypto",
+  "about": {
+    "en": "The Interfold is an open-source protocol for confidential coordination: independent parties encrypt their inputs, a committee of nodes runs the computation over the encrypted data, and only the verified result is decrypted, so no participant sees another's inputs. FOLD is the protocol's token, used for governance and its auction mechanism, and is an ERC-20 on Ethereum at 0xe172e9b6cfbeeb5593bdce3f077356fdb33af904."
+  },
+  "external": {
+    "coingecko": "interfold",
+    "coinmarketcap": "41892"
+  },
+  "urls": {
+    "Website": "https://www.theinterfold.com/",
+    "Documentation": "https://docs.theinterfold.com/"
+  }
+}

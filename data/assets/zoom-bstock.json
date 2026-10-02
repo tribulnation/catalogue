@@ -1,0 +1,22 @@
+{
+  "id": "zoom-bstock",
+  "display_name": "Zoom bStock",
+  "symbol": "ZMB",
+  "category": "rwa",
+  "about": {
+    "en": "Zoom bStock (ZMB) is a tokenized share of Zoom Communications, Inc. issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0xf4ddb292fe88e476eddd9869d386705e6bfab7a2, backed 1:1 by ZM shares and convertible 1:1 with the underlying equity, with stock splits and dividend adjustments processed by the issuer. bStocks are offered under an ADGM-approved prospectus and not in other jurisdictions."
+  },
+  "external": {
+    "coingecko": "zoom-bstocks-tokenized-stock",
+    "coinmarketcap": "42388"
+  },
+  "pegged_to": {
+    "asset": "zoom-communications"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}

@@ -20,6 +20,7 @@
   "max-hyperliquid:coinmarketcap": "Searched the crypto map (2026-10-02) for MAX and $MAX: only MAX Exchange Token, Giggle Mascot, Mastercard xStock, max-2, Maxcoin and inactive unrelated tokens.",
   "minteo-copm:coingecko": "Searched coins/list (2026-10-02) for COPM and Minteo: the only COPM is ccop, Mento's Colombian Peso on Celo, a different issuer.",
   "minteo-copm:coinmarketcap": "Searched the crypto map (2026-10-02) for COPM and Minteo: no listing.",
+  "paimon-polymarket-spv:coingecko": "Searched /search (2026-10-02) for PPOLY, pPOLY, Paimon and Polymarket: no entry for this token or its issuer, and none of the POLY near matches is at the BNB Chain contract 0x1D80392d12caaaf9e333bb0bb7f021eacf297Fe6, whose symbol pPOLY and name \"Paimon Polymarket SPV Token\" were read from the chain. CoinMarketCap lists it as 42283.",
 
   "binance-peg-ethereum:coingecko:binance-peg-weth": "Catalogue tracks Binance-Peg ETH; CoinGecko lists the same token as WETH.",
   "bridged-tether:coingecko:tether-avalanche-bridged-usdt-e": "Same token; CoinGecko spells USDT.e as USDTE.",

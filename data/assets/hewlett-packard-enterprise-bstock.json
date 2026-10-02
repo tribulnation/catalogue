@@ -1,0 +1,22 @@
+{
+  "id": "hewlett-packard-enterprise-bstock",
+  "display_name": "Hewlett Packard Enterprise bStock",
+  "symbol": "HPEB",
+  "category": "rwa",
+  "about": {
+    "en": "Hewlett Packard Enterprise bStock (HPEB) is a tokenized share of Hewlett Packard Enterprise Company issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0xd56eb30d2ea7b5866dc0066d33bbaab36f7e8860, backed 1:1 by HPE shares and convertible 1:1 with the underlying equity, with stock splits and dividend adjustments processed by the issuer. bStocks are offered under an ADGM-approved prospectus and not in other jurisdictions."
+  },
+  "external": {
+    "coingecko": "hewlett-packard-bstocks-tokenized-stock",
+    "coinmarketcap": "42385"
+  },
+  "pegged_to": {
+    "asset": "hewlett-packard-enterprise"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}
