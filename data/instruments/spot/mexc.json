@@ -1162,5 +1162,17 @@
     "base": "concrete",
     "quote": "usd-coin",
     "url": "https://www.mexc.com/exchange/CT_USDC"
+  },
+  "FOLDUSDT": {
+    "exchange": "spot",
+    "base": "interfold",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/FOLD_USDT"
+  },
+  "PPOLYUSDT": {
+    "exchange": "spot",
+    "base": "paimon-polymarket-spv",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/PPOLY_USDT"
   }
 }

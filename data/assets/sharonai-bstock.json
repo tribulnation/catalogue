@@ -1,0 +1,22 @@
+{
+  "id": "sharonai-bstock",
+  "display_name": "SharonAI bStock",
+  "symbol": "SHAZB",
+  "category": "rwa",
+  "about": {
+    "en": "SharonAI bStock (SHAZB) is a tokenized share of SharonAI Holdings Inc. issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0x0f31e21b7881f5583ea94ddbcb0bcaf22b1abeab, backed 1:1 by SHAZ shares and convertible 1:1 with the underlying equity, with stock splits and dividend adjustments processed by the issuer. bStocks are offered under an ADGM-approved prospectus and not in other jurisdictions."
+  },
+  "external": {
+    "coingecko": "sharonai-bstocks-tokenized-stock",
+    "coinmarketcap": "42389"
+  },
+  "pegged_to": {
+    "asset": "sharonai"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}

@@ -3808,5 +3808,47 @@
     "base": "ethena",
     "quote": "usd1",
     "url": "https://www.binance.com/en/trade/ENA_USD1"
+  },
+  "ADBEBUSDT": {
+    "exchange": "spot",
+    "base": "adobe-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ADBEB_USDT"
+  },
+  "FWDIBUSDT": {
+    "exchange": "spot",
+    "base": "forward-industries-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/FWDIB_USDT"
+  },
+  "HPEBUSDT": {
+    "exchange": "spot",
+    "base": "hewlett-packard-enterprise-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/HPEB_USDT"
+  },
+  "PDDBUSDT": {
+    "exchange": "spot",
+    "base": "pdd-holdings-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/PDDB_USDT"
+  },
+  "SHAZBUSDT": {
+    "exchange": "spot",
+    "base": "sharonai-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SHAZB_USDT"
+  },
+  "WENBUSDT": {
+    "exchange": "spot",
+    "base": "wendys-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/WENB_USDT"
+  },
+  "ZMBUSDT": {
+    "exchange": "spot",
+    "base": "zoom-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/ZMB_USDT"
   }
 }

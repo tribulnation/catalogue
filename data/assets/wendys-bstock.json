@@ -1,0 +1,22 @@
+{
+  "id": "wendys-bstock",
+  "display_name": "Wendy's bStock",
+  "symbol": "WENB",
+  "category": "rwa",
+  "about": {
+    "en": "Wendy's bStock (WENB) is a tokenized share of The Wendy's Company issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0xded1c5fb38c262beb9cff1e1116eff3c5bf278cd, backed 1:1 by WEN shares and convertible 1:1 with the underlying equity, with stock splits and dividend adjustments processed by the issuer. bStocks are offered under an ADGM-approved prospectus and not in other jurisdictions."
+  },
+  "external": {
+    "coingecko": "wendy-s-bstocks-tokenized-stock",
+    "coinmarketcap": "42387"
+  },
+  "pegged_to": {
+    "asset": "wendys"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}

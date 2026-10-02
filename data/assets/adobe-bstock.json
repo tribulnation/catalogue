@@ -1,0 +1,22 @@
+{
+  "id": "adobe-bstock",
+  "display_name": "Adobe bStock",
+  "symbol": "ADBEB",
+  "category": "rwa",
+  "about": {
+    "en": "Adobe bStock (ADBEB) is a tokenized share of Adobe Inc. issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0x65c0249d49e3231540fd0db0a1ae9259e6eaaf57, backed 1:1 by ADBE shares and convertible 1:1 with the underlying equity, with stock splits and dividend adjustments processed by the issuer. bStocks are offered under an ADGM-approved prospectus and not in other jurisdictions."
+  },
+  "external": {
+    "coingecko": "adobe-bstocks-tokenized-stock",
+    "coinmarketcap": "42384"
+  },
+  "pegged_to": {
+    "asset": "adobe"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}

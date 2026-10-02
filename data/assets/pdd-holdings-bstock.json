@@ -1,0 +1,22 @@
+{
+  "id": "pdd-holdings-bstock",
+  "display_name": "PDD Holdings bStock",
+  "symbol": "PDDB",
+  "category": "rwa",
+  "about": {
+    "en": "PDD Holdings bStock (PDDB) is a tokenized share of PDD Holdings Inc. issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0x95b0409679b55c31772daa2fb4bee7b125b77521, backed 1:1 by PDD shares and convertible 1:1 with the underlying equity, with stock splits and dividend adjustments processed by the issuer. bStocks are offered under an ADGM-approved prospectus and not in other jurisdictions."
+  },
+  "external": {
+    "coingecko": "pdd-holdings-bstocks-tokenized-stock",
+    "coinmarketcap": "42383"
+  },
+  "pegged_to": {
+    "asset": "pdd-holdings"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}
