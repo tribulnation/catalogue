@@ -127,6 +127,16 @@ Always run before opening a pull request:
 
 The CI will run this automatically on every push and pull request.
 
+## Merging
+
+Only a human merges pull requests here, through GitHub's web interface. AI agents and
+automation may open pull requests and push to their branches, but never merge them, whether
+with `gh pr merge`, the API or any other tool, and never publish a release. This holds for
+release pull requests too, because merging one publishes to PyPI or npm.
+
+The catalogue is public, and its releases are used by other projects, so every change that
+reaches `main` or a registry is one a person has read.
+
 ## Releasing the Python package
 
 `tribulnation-catalogue` publishes to PyPI from CI, triggered by merging a pull request
