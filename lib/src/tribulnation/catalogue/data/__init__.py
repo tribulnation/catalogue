@@ -7,7 +7,7 @@ from .schema import (
   BasePlatform, CexPlatform, DexPlatform, Blockchain, BlockchainCategory,
   BlockchainNamespace, Platform,
   Spot, Perpetual, Debt, Pool, SpamAddress,
-  Protocol, Correlation, CorrelationFieldType,
+  Protocol, Correlation, CorrelationFieldType, DepositLookup, DepositFields,
 )
 from .main import Catalogue, PerpetualInstrument, DebtInstrument
 from .protocols import CorrelationError

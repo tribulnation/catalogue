@@ -116,12 +116,46 @@ class Correlation(TypedDict):
   fields: dict[str, CorrelationFieldType]
   """Field name -> type. Exactly the template's placeholders."""
 
+class DepositFields(TypedDict):
+  """Names of the fields of one operation in a deposit lookup's response."""
+  deposit_address: str
+  """The address the protocol assigned, to which the sender sends to start the operation"""
+  sender: str
+  """The sending address on the source chain"""
+  source_chain: str
+  """The source chain, a key of the protocol's `chains`"""
+  destination_chain: str
+  """The destination chain, a key of the protocol's `chains`"""
+  destination_address: str
+  """The receiving address on the destination chain"""
+  asset: str
+  """The asset, a key of the protocol's `assets`"""
+
+class DepositLookup(TypedDict):
+  """A public HTTP API listing an address's operations, each naming its protocol-assigned deposit address.
+
+  For protocols that assign a deposit address per user (e.g. Hyperunit), so no fixed address
+  list can be published. A unit may capture the response as evidence for recognising a send
+  to a deposit address; it never supplies a correlation key field.
+  """
+  url: str
+  """`GET` URL template with one `{address}` placeholder: the sender's address"""
+  operations: str
+  """Top-level response field holding the list of operations"""
+  fields: DepositFields
+
 class Protocol(TypedDict):
-  """A cross-chain protocol whose correlation keys link both sides of one movement."""
+  """A cross-chain protocol: its correlation keys and the data that recognises its movements."""
   id: str
   display_name: str
   about: Translations
   urls: dict[str, str]
-  correlation: Correlation
+  correlation: NotRequired[Correlation]
+  """Absent when no key can be derived by both sides (e.g. a payout that carries no operation data)"""
   domains: NotRequired[dict[int, str]]
   """Protocol-assigned chain identifier -> catalogue network (platform) id, e.g. CCTP domains"""
+  chains: NotRequired[dict[str, str]]
+  """Protocol-assigned chain name -> catalogue network (platform) id, e.g. Hyperunit's `hyperliquid`"""
+  assets: NotRequired[dict[str, str]]
+  """Protocol-assigned asset name -> catalogue asset id, e.g. Hyperunit's `eth`"""
+  deposits: NotRequired[DepositLookup]

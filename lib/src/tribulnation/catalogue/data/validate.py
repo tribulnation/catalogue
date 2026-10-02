@@ -354,8 +354,8 @@ def evm_addresses(
           )
   return errors
 
-def protocols(protocols: Mapping[str, Protocol], platforms: Mapping[str, Platform]):
-  """Protocol entries: id, metadata, a well-formed correlation template, and known networks.
+def protocols(protocols: Mapping[str, Protocol], platforms: Mapping[str, Platform], assets: Mapping[str, Asset]):
+  """Protocol entries: id, metadata, a well-formed correlation template, known networks and assets, and a well-formed deposit lookup.
 
   The template's placeholders must be exactly the declared fields, with known types, so
   that `format_correlation` and `parse_correlation` agree for every writer.
@@ -382,6 +382,35 @@ def protocols(protocols: Mapping[str, Protocol], platforms: Mapping[str, Platfor
       elif (other := seen.get(network)) is not None:
         errors.append(f'[PROTOCOL DOMAIN ERROR] Protocol "{id}" maps both domains {other} and {domain} to "{network}"')
       seen.setdefault(network, domain)
+    for chain, network in protocol.get('chains', {}).items():
+      if network not in platforms:
+        errors.append(f'[PROTOCOL CHAIN ERROR] Protocol "{id}" chain "{chain}" has inexistent network "{network}"')
+    for name, asset in protocol.get('assets', {}).items():
+      if asset not in assets:
+        errors.append(f'[PROTOCOL ASSET ERROR] Protocol "{id}" asset "{name}" has inexistent asset "{asset}"')
+      elif 'replaced_by' in assets[asset]:
+        errors.append(f'[PROTOCOL ASSET ERROR] Protocol "{id}" asset "{name}" points at alias "{asset}"')
+    errors.extend(deposit_errors(id, protocol))
+  return errors
+
+def deposit_errors(id: str, protocol: Protocol) -> list[str]:
+  """A deposit lookup needs an https URL with one `{address}` placeholder, named fields, and the `chains` it resolves through."""
+  deposits = protocol.get('deposits')
+  if deposits is None:
+    return []
+  errors: list[str] = []
+  url = deposits['url']
+  if not url.startswith('https://'):
+    errors.append(f'[PROTOCOL DEPOSIT ERROR] Protocol "{id}" deposit lookup URL is not an https URL')
+  if _re.findall(r'\{[^{}]*\}', url) != ['{address}']:
+    errors.append(f'[PROTOCOL DEPOSIT ERROR] Protocol "{id}" deposit lookup URL must have exactly one "{{address}}" placeholder')
+  if not deposits['operations'].strip():
+    errors.append(f'[PROTOCOL DEPOSIT ERROR] Protocol "{id}" deposit lookup names no operations field')
+  for name, field in deposits['fields'].items():
+    if not isinstance(field, str) or not field.strip():
+      errors.append(f'[PROTOCOL DEPOSIT ERROR] Protocol "{id}" deposit lookup field "{name}" is empty')
+  if not protocol.get('chains'):
+    errors.append(f'[PROTOCOL DEPOSIT ERROR] Protocol "{id}" has a deposit lookup but no "chains"')
   return errors
 
 def all(catalogue: Catalogue, base_folder: str):
@@ -402,7 +431,7 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(urls('PLATFORM', catalogue.platforms))
   errors.extend(ids('PROTOCOL', catalogue.protocols))
   errors.extend(urls('PROTOCOL', catalogue.protocols))
-  errors.extend(protocols(catalogue.protocols, catalogue.platforms))
+  errors.extend(protocols(catalogue.protocols, catalogue.platforms, catalogue.assets))
   errors.extend(platform_keys('ASSET TRANSLATION', catalogue.platforms, catalogue.asset_translations))
   errors.extend(platform_keys('NETWORK TRANSLATION', catalogue.platforms, catalogue.network_translations))
   errors.extend(platform_keys('SPOT INSTRUMENT', catalogue.platforms, catalogue.spot_instruments))

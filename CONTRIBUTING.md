@@ -89,6 +89,15 @@ Create `data/protocols/<id>.json`:
 - `domains` maps protocol-assigned chain numbers to catalogue network ids. Keep
   protocol data in the protocol entry; never add protocol attributes to a network.
 - Protocol ids, like asset and platform ids, are permanent: published keys embed them.
+- `correlation` may be omitted when no key can be derived by both sides; say why in `about`.
+- `chains` and `assets` map the protocol's own chain and asset names to catalogue network
+  and asset ids.
+- A protocol that assigns each user its own deposit address publishes no address list.
+  Declare a `deposits` lookup instead: a public https `url` with one `{address}`
+  placeholder (the sender), the response field holding the `operations`, and the names of
+  each operation's `fields` (`deposit_address`, `sender`, `source_chain`,
+  `destination_chain`, `destination_address`, `asset`). `chains` is then required. See
+  `hyperunit.json`.
 
 ## Ids are permanent
 
