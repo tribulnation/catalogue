@@ -7,7 +7,7 @@ from .data import (
   BasePlatform, CexPlatform, DexPlatform, Blockchain, BlockchainCategory,
   BlockchainNamespace, Platform,
   Catalogue, PerpetualInstrument, DebtInstrument, Spot, Perpetual, Debt, Pool, SpamAddress,
-  Protocol, Correlation, CorrelationFieldType, CorrelationError,
+  Protocol, Correlation, CorrelationFieldType, CorrelationError, DepositLookup, DepositFields,
 )
 from .market_data import MarketData, Pricing, Stats
 
@@ -16,6 +16,6 @@ __all__ = [
   'BasePlatform', 'CexPlatform', 'DexPlatform', 'Blockchain', 'BlockchainCategory',
   'BlockchainNamespace', 'Platform',
   'Catalogue', 'PerpetualInstrument', 'DebtInstrument', 'Spot', 'Perpetual', 'Debt', 'Pool', 'SpamAddress',
-  'Protocol', 'Correlation', 'CorrelationFieldType', 'CorrelationError',
+  'Protocol', 'Correlation', 'CorrelationFieldType', 'CorrelationError', 'DepositLookup', 'DepositFields',
   'MarketData', 'Pricing', 'Stats',
 ]
