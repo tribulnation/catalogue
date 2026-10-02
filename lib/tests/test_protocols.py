@@ -34,7 +34,7 @@ class DomainTest(unittest.TestCase):
   def test_protocol(self):
     """Protocols are looked up by id."""
     cctp = CATALOGUE.protocol('cctp')
-    assert cctp is not None
+    assert cctp is not None and 'correlation' in cctp
     self.assertEqual(cctp['correlation']['key'], 'cctp:{source_domain}:{nonce}')
     self.assertIsNone(CATALOGUE.protocol('no-such-protocol'))
 
@@ -247,7 +247,7 @@ class DepositLookupTest(unittest.TestCase):
     self.assertIsNone(CATALOGUE.network_for_chain('cctp', 'ethereum'))
     self.assertIsNone(CATALOGUE.asset_for_protocol('no-such-protocol', 'eth'))
     hyperunit = CATALOGUE.protocol('hyperunit')
-    assert hyperunit is not None
+    assert hyperunit is not None and 'deposits' in hyperunit
     self.assertEqual(
       hyperunit['deposits']['url'], 'https://api.hyperunit.xyz/operations/{address}'
     )
@@ -262,6 +262,7 @@ class DepositLookupTest(unittest.TestCase):
   def test_errors(self):
     """Unknown networks and assets, and malformed lookups, are errors."""
     entry = CATALOGUE.protocols['hyperunit']
+    assert 'deposits' in entry
     lookup = entry['deposits']
     self.assertTrue(self.hyperunit(chains={'ethereum': 'not-a-network'}))
     self.assertTrue(self.hyperunit(assets={'eth': 'not-an-asset'}))
