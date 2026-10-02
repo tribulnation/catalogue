@@ -159,12 +159,15 @@ EXCEPTIONS_FILE = Path(__file__).parent / 'external_id_exceptions.json'
 
 
 def load_exceptions(file: Path) -> dict[str, str]:
-  """Reviewed-and-accepted mismatches, keyed '<asset>:<provider>:<external_id>'."""
+  """Reviewed-and-accepted mismatches, keyed '<asset>:<provider>:<external_id>'.
+
+  Two-part '<asset>:<provider>' keys justify a missing listing and are not mismatches.
+  """
   if not file.exists():
     return {}
   return {
     key: reason for key, reason in json.loads(file.read_text()).items()
-    if not key.startswith('_')
+    if not key.startswith('_') and key.count(':') != 1
   }
 
 

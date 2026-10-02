@@ -91,3 +91,18 @@ The key is `<asset>:<provider>:<external_id>`, so an acknowledgement covers one
 exact mapping. Repointing the asset at a different ID makes the key stop
 matching and the mismatch is reported again. `--all` lists the accepted ones
 too; `--strict` makes unreviewed mismatches fail the run.
+
+## Providers with no listing
+
+New assets are checked by `scripts/check_new_assets.py`, which runs in CI. A
+crypto, stablecoin or RWA asset needs a CoinGecko and a CoinMarketCap ID; any
+other asset needs at least one ID. When a provider has no exact listing, record
+the search in `scripts/external_id_exceptions.json` under a two-part key:
+
+```json
+"max-hyperliquid:coinmarketcap": "Searched the crypto map (2026-10-02) for MAX and $MAX: only MAX Exchange Token, Giggle Mascot, Mastercard xStock, max-2, Maxcoin and inactive unrelated tokens."
+```
+
+The reason is for the reviewer: name what was searched and why the near matches
+are not this asset. Once the provider lists the asset, add the ID and delete the
+entry; the check fails while both are present.
