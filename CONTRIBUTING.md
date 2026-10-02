@@ -88,6 +88,10 @@ Create `data/protocols/<id>.json`:
   docs or contract source in `urls` and in the PR.
 - `domains` maps protocol-assigned chain numbers to catalogue network ids. Keep
   protocol data in the protocol entry; never add protocol attributes to a network.
+- `channels` maps a catalogue network to its channel identifiers and, for each, the
+  catalogue network at the other end (IBC: `{"dydx": {"channel-0": "noble"}}`). Read
+  each channel back from the chain (the channel's counterparty and its client's chain
+  id) before adding it, and add both directions.
 - Protocol ids, like asset and platform ids, are permanent: published keys embed them.
 - `correlation` may be omitted when no key can be derived by both sides; say why in `about`.
 - `chains` and `assets` map the protocol's own chain and asset names to catalogue network

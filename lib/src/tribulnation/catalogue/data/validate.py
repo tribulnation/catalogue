@@ -355,7 +355,7 @@ def evm_addresses(
   return errors
 
 def protocols(protocols: Mapping[str, Protocol], platforms: Mapping[str, Platform], assets: Mapping[str, Asset]):
-  """Protocol entries: id, metadata, a well-formed correlation template, known networks and assets, and a well-formed deposit lookup.
+  """Protocol entries: id, metadata, a well-formed correlation template, known networks, channels and assets, and a well-formed deposit lookup.
 
   The template's placeholders must be exactly the declared fields, with known types, so
   that `format_correlation` and `parse_correlation` agree for every writer.
@@ -385,12 +385,31 @@ def protocols(protocols: Mapping[str, Protocol], platforms: Mapping[str, Platfor
     for chain, network in protocol.get('chains', {}).items():
       if network not in platforms:
         errors.append(f'[PROTOCOL CHAIN ERROR] Protocol "{id}" chain "{chain}" has inexistent network "{network}"')
+    errors.extend(channel_errors(id, protocol, platforms))
     for name, asset in protocol.get('assets', {}).items():
       if asset not in assets:
         errors.append(f'[PROTOCOL ASSET ERROR] Protocol "{id}" asset "{name}" has inexistent asset "{asset}"')
       elif 'replaced_by' in assets[asset]:
         errors.append(f'[PROTOCOL ASSET ERROR] Protocol "{id}" asset "{name}" points at alias "{asset}"')
     errors.extend(deposit_errors(id, protocol))
+  return errors
+
+_channel_pattern = _re.compile(r'^[a-z][a-z0-9]*-[0-9]+$')
+"""A channel identifier: a lower-case prefix, `-` and a number (IBC's `channel-0`)."""
+
+def channel_errors(id: str, protocol: Protocol, platforms: Mapping[str, Platform]) -> list[str]:
+  """A channel table names existing networks on both ends, well-formed channel ids, and never a channel to its own chain."""
+  errors: list[str] = []
+  for network, channels in protocol.get('channels', {}).items():
+    if network not in platforms:
+      errors.append(f'[PROTOCOL CHANNEL ERROR] Protocol "{id}" has channels of inexistent network "{network}"')
+    for channel, counterparty in channels.items():
+      if not _channel_pattern.fullmatch(channel):
+        errors.append(f'[PROTOCOL CHANNEL ERROR] Protocol "{id}" network "{network}" has malformed channel "{channel}"')
+      if counterparty not in platforms:
+        errors.append(f'[PROTOCOL CHANNEL ERROR] Protocol "{id}" {network} {channel} has inexistent network "{counterparty}"')
+      elif counterparty == network:
+        errors.append(f'[PROTOCOL CHANNEL ERROR] Protocol "{id}" {network} {channel} leads back to "{network}"')
   return errors
 
 def deposit_errors(id: str, protocol: Protocol) -> list[str]:

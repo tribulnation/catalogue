@@ -2,11 +2,12 @@
   "id": "ibc",
   "display_name": "IBC",
   "about": {
-    "en": "The Inter-Blockchain Communication protocol relays packets between Cosmos SDK chains, including ICS-20 token transfers. The sending chain numbers each packet with a sequence per channel, and the receiving chain reports the same source channel and sequence, so the pair identifies one packet once it is namespaced by the sending chain: channel identifiers are local to each chain. The key's sending chain is the catalogue network id of the chain that sent the packet, and the channel is that chain's channel identifier."
+    "en": "The Inter-Blockchain Communication protocol relays packets between Cosmos SDK chains, including ICS-20 token transfers. The sending chain numbers each packet with a sequence per channel, and the receiving chain reports the same source channel and sequence, so the pair identifies one packet once it is namespaced by the sending chain: channel identifiers are local to each chain. The key's sending chain is the catalogue network id of the chain that sent the packet, and the channel is that chain's channel identifier. The channels table names, for each sending chain, the catalogue network at the other end of each of its channels, so a chain that sees a packet leave on a channel knows which chain receives it; it lists only the transfer channels the catalogue has read back from both chains."
   },
   "urls": {
     "Documentation": "https://ibc.cosmos.network/main/",
-    "ICS-004 specification": "https://github.com/cosmos/ibc/tree/main/spec/core/ics-004-channel-and-packet-semantics"
+    "ICS-004 specification": "https://github.com/cosmos/ibc/tree/main/spec/core/ics-004-channel-and-packet-semantics",
+    "ICS-020 specification": "https://github.com/cosmos/ibc/tree/main/spec/app/ics-020-fungible-token-transfer"
   },
   "correlation": {
     "key": "ibc:{sending_chain}:{channel}:{sequence}",
@@ -14,6 +15,22 @@
       "sending_chain": "network",
       "channel": "string",
       "sequence": "uint"
+    }
+  },
+  "channels": {
+    "axelar": {
+      "channel-3": "osmosis"
+    },
+    "dydx": {
+      "channel-0": "noble"
+    },
+    "noble": {
+      "channel-1": "osmosis",
+      "channel-33": "dydx"
+    },
+    "osmosis": {
+      "channel-208": "axelar",
+      "channel-750": "noble"
     }
   }
 }

@@ -158,6 +158,8 @@ class Protocol(TypedDict):
   """Protocol-assigned chain identifier -> catalogue network (platform) id, e.g. CCTP domains"""
   chains: NotRequired[dict[str, str]]
   """Protocol-assigned chain name -> catalogue network (platform) id, e.g. Hyperunit's `hyperliquid`"""
+  channels: NotRequired[dict[str, dict[str, str]]]
+  """Catalogue network id -> its channel identifier -> the catalogue network at the other end, e.g. IBC's `dydx` `channel-0` -> `noble`"""
   assets: NotRequired[dict[str, str]]
   """Protocol-assigned asset name -> catalogue asset id, e.g. Hyperunit's `eth`"""
   deposits: NotRequired[DepositLookup]

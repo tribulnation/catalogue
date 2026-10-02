@@ -276,6 +276,50 @@ class DepositLookupTest(unittest.TestCase):
     )
 
 
+class ChannelTest(unittest.TestCase):
+  """A protocol's channel table names the network at the other end of each channel."""
+
+  def ibc(self, **changes) -> list[str]:
+    """Validation errors of the `ibc` entry with top-level `changes` applied."""
+    entry: Protocol = {**deepcopy(CATALOGUE.protocols['ibc']), **changes}  # type: ignore[typeddict-item]
+    return validate.protocols({'ibc': entry}, CATALOGUE.platforms, CATALOGUE.assets)
+
+  def test_lookups(self):
+    """Each hop of the dYdX -> noble -> osmosis -> axelar route resolves, both ways; unknown ones are None."""
+    self.assertEqual(CATALOGUE.network_for_channel('ibc', 'dydx', 'channel-0'), 'noble')
+    self.assertEqual(CATALOGUE.network_for_channel('ibc', 'noble', 'channel-33'), 'dydx')
+    self.assertEqual(CATALOGUE.network_for_channel('ibc', 'noble', 'channel-1'), 'osmosis')
+    self.assertEqual(CATALOGUE.network_for_channel('ibc', 'osmosis', 'channel-208'), 'axelar')
+    self.assertIsNone(CATALOGUE.network_for_channel('ibc', 'dydx', 'channel-999'))
+    self.assertIsNone(CATALOGUE.network_for_channel('ibc', 'bitcoin', 'channel-0'))
+    self.assertIsNone(CATALOGUE.network_for_channel('cctp', 'dydx', 'channel-0'))
+    self.assertIsNone(CATALOGUE.network_for_channel('no-such-protocol', 'dydx', 'channel-0'))
+
+  def test_errors(self):
+    """Unknown networks on either end, malformed channel ids and a channel to its own chain are errors."""
+    self.assertEqual(self.ibc(), [])
+    self.assertTrue(self.ibc(channels={'not-a-network': {'channel-0': 'noble'}}))
+    self.assertTrue(self.ibc(channels={'dydx': {'channel-0': 'not-a-network'}}))
+    self.assertTrue(self.ibc(channels={'dydx': {'Channel 0': 'noble'}}))
+    self.assertTrue(self.ibc(channels={'dydx': {'channel-0': 'dydx'}}))
+
+
+class AxelarTest(unittest.TestCase):
+  """Axelar's key is the command id its EVM module assigns, as both the Axelar chain and the destination state it."""
+
+  def test_key(self):
+    """The command id, read from the approval's byte array or the gateway's bytes32, gives one key."""
+    command_id = bytes.fromhex('34ace3ed88ce44d8b840838c578f6ac7c4c33e76a163b151c67b15eaa687e349')
+    key = 'axelar:0x34ace3ed88ce44d8b840838c578f6ac7c4c33e76a163b151c67b15eaa687e349'
+    self.assertEqual(CATALOGUE.format_correlation('axelar', command_id=command_id), key)
+    self.assertEqual(
+      CATALOGUE.format_correlation('axelar', command_id='0x' + command_id.hex().upper()), key
+    )
+    self.assertEqual(
+      CATALOGUE.parse_correlation(key), ('axelar', {'command_id': '0x' + command_id.hex()})
+    )
+
+
 class LiteralSegmentTest(unittest.TestCase):
   """Templates may carry literal segments between placeholders."""
 
