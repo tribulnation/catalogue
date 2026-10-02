@@ -96,7 +96,8 @@ Create `data/protocols/<id>.json`:
   Declare a `deposits` lookup instead: a public https `url` with one `{address}`
   placeholder (the sender), the response field holding the `operations`, and the names of
   each operation's `fields` (`deposit_address`, `sender`, `source_chain`,
-  `destination_chain`, `destination_address`, `asset`). `chains` is then required. See
+  `destination_chain`, `destination_address`, `asset`, and optionally `time`, ISO 8601 or
+  milliseconds). `chains` is then required. See
   `hyperunit.json`.
 
 ## Ids are permanent

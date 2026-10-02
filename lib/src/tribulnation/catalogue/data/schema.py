@@ -130,6 +130,8 @@ class DepositFields(TypedDict):
   """The receiving address on the destination chain"""
   asset: str
   """The asset, a key of the protocol's `assets`"""
+  time: NotRequired[str]
+  """When the protocol created the operation: ISO 8601 or integer milliseconds"""
 
 class DepositLookup(TypedDict):
   """A public HTTP API listing an address's operations, each naming its protocol-assigned deposit address.
