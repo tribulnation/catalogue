@@ -118,5 +118,11 @@
     "base": "ethereum",
     "quote": "hyperliquid-usd",
     "delisted": true
+  },
+  "MAX/USDC:591": {
+    "exchange": "spot",
+    "base": "max-hyperliquid",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/MAX/USDC"
   }
 }
