@@ -21,6 +21,13 @@
   "minteo-copm:coingecko": "Searched coins/list (2026-10-02) for COPM and Minteo: the only COPM is ccop, Mento's Colombian Peso on Celo, a different issuer.",
   "minteo-copm:coinmarketcap": "Searched the crypto map (2026-10-02) for COPM and Minteo: no listing.",
   "paimon-polymarket-spv:coingecko": "Searched /search (2026-10-02) for PPOLY, pPOLY, Paimon and Polymarket: no entry for this token or its issuer, and none of the POLY near matches is at the BNB Chain contract 0x1D80392d12caaaf9e333bb0bb7f021eacf297Fe6, whose symbol pPOLY and name \"Paimon Polymarket SPV Token\" were read from the chain. CoinMarketCap lists it as 42283.",
+  "nearly:coinmarketcap": "Searched the crypto map (2026-10-03) for NEARLY, Nearly and the NEAR contract nearly-993927.nearlytrade.near: no listing. CoinGecko lists it as nearly.",
+  "priors-agents:coinmarketcap": "Searched the crypto map (2026-10-03) for PRIORS, Priors and the Robinhood Chain contract 0xedbf91223639800bcd5756815caf908df3b890be: no listing. CoinGecko lists it as priors-agent.",
+  "hooked:coinmarketcap": "Searched the crypto map (2026-10-03) for HOOKED, Hooked and the Solana mint C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE: the only Hooked entry is 22764, Hooked Protocol (HOOK) on BNB Chain, a different project. CoinGecko lists this one as hooked.",
+  "sapling:coinmarketcap": "Searched the crypto map (2026-10-03) for SAPLING, Sapling and the Solana mint BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W: no listing. CoinGecko lists it as sapling.",
+  "autheo:coingecko": "Searched /search (2026-10-03) for THEO and Autheo, and /coins/base/contract for 0xebe516a20238F79dc20b07ead6768e08891Ed309: no entry. The THEO near matches (Theo Short Duration US Treasury Fund, Theoriq, Theos) are unrelated projects. CoinMarketCap lists it as 41929, at the same Base contract.",
+  "game-terminal:coingecko": "Searched /search (2026-10-03) for GTT and Game Terminal, and /coins/binance-smart-chain/contract for 0x37c858d0702F647787A295487d02d1a281147304: no entry for this token or its issuer.",
+  "game-terminal:coinmarketcap": "Searched the crypto map (2026-10-03) for GTT, Game Terminal and the BNB Chain contract 0x37c858d0702F647787A295487d02d1a281147304: no listing.",
 
   "binance-peg-ethereum:coingecko:binance-peg-weth": "Catalogue tracks Binance-Peg ETH; CoinGecko lists the same token as WETH.",
   "bridged-tether:coingecko:tether-avalanche-bridged-usdt-e": "Same token; CoinGecko spells USDT.e as USDTE.",
