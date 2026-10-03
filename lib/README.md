@@ -119,21 +119,6 @@ without `:` or whitespace, and `network` as an existing catalogue platform id.
 | `gofast` | `gofast:{order_id}` (Skip Go Fast) |
 | `relay` | `relay:{request_id}` (Relay depository deposits and their fills) |
 | `lighter` | `lighter:{serial_id}` (Lighter L1 priority requests, e.g. deposits) |
-| `hyperunit` | none: the payout carries no operation data; recognised through its deposit lookup |
-
-A protocol that assigns each user its own deposit address (Hyperunit) publishes no address
-list. Its entry declares a `deposits` lookup instead: a public `GET` URL template with an
-`{address}` placeholder, the response field holding the operations, and the names of each
-operation's fields (`deposit_address`, `sender`, `source_chain`, `destination_chain`,
-`destination_address`, `asset`, optionally `time`). The protocol's `chains` and `assets` map its names to
-catalogue ids. A unit may keep the lookup's response as evidence for recognising a send to a
-deposit address; it never supplies a correlation key field.
-
-```python
-catalogue.network_for_chain('hyperunit', 'ethereum')   # 'ethereum'
-catalogue.asset_for_protocol('hyperunit', 'eth')       # 'ethereum'
-catalogue.protocol('hyperunit')['deposits']['url']     # 'https://api.hyperunit.xyz/operations/{address}'
-```
 
 ## What's available
 

@@ -301,16 +301,6 @@ class Catalogue:
       return None
     return next((domain for domain, id in p.get('domains', {}).items() if id == network), None)
 
-  def network_for_chain(self, protocol: str, chain: str) -> str | None:
-    """The catalogue network id of a protocol's chain name, or None.
-
-    Examples:
-      >>> catalogue.network_for_chain('hyperunit', 'ethereum')
-      'ethereum'
-    """
-    p = self.protocols.get(protocol)
-    return p.get('chains', {}).get(chain) if p is not None else None
-
   def network_for_channel(self, protocol: str, network: str, channel: str) -> str | None:
     """The catalogue network at the other end of a network's channel in a protocol, or None.
 
@@ -320,16 +310,6 @@ class Catalogue:
     """
     p = self.protocols.get(protocol)
     return p.get('channels', {}).get(network, {}).get(channel) if p is not None else None
-
-  def asset_for_protocol(self, protocol: str, name: str) -> str | None:
-    """The catalogue asset id of a protocol's asset name, or None.
-
-    Examples:
-      >>> catalogue.asset_for_protocol('hyperunit', 'eth')
-      'ethereum'
-    """
-    p = self.protocols.get(protocol)
-    return p.get('assets', {}).get(name) if p is not None else None
 
   def format_correlation(self, protocol: str, /, **fields: object) -> str:
     """The correlation key of one cross-chain movement, in canonical form.

@@ -166,13 +166,11 @@ class ValidateTest(unittest.TestCase):
   def errors(self, **changes) -> list[str]:
     """Validation errors of the `cctp` entry with top-level `changes` applied."""
     entry: Protocol = {**deepcopy(CATALOGUE.protocols['cctp']), **changes}  # type: ignore[typeddict-item]
-    return validate.protocols({'cctp': entry}, CATALOGUE.platforms, CATALOGUE.assets)
+    return validate.protocols({'cctp': entry}, CATALOGUE.platforms)
 
   def test_repository_data(self):
     """The shipped protocols validate."""
-    self.assertEqual(
-      validate.protocols(CATALOGUE.protocols, CATALOGUE.platforms, CATALOGUE.assets), []
-    )
+    self.assertEqual(validate.protocols(CATALOGUE.protocols, CATALOGUE.platforms), [])
     self.assertEqual(validate.all(CATALOGUE, str(DATA.parent)), [])
 
   def test_placeholders_must_equal_fields(self):
@@ -230,59 +228,13 @@ class ValidateTest(unittest.TestCase):
     self.assertTrue(self.errors(urls={}))
 
 
-class DepositLookupTest(unittest.TestCase):
-  """Protocols with per-user deposit addresses declare a lookup, chains and assets, and may have no key."""
-
-  def hyperunit(self, **changes) -> list[str]:
-    """Validation errors of the `hyperunit` entry with top-level `changes` applied."""
-    entry: Protocol = {**deepcopy(CATALOGUE.protocols['hyperunit']), **changes}  # type: ignore[typeddict-item]
-    return validate.protocols({'hyperunit': entry}, CATALOGUE.platforms, CATALOGUE.assets)
-
-  def test_lookups(self):
-    """Hyperunit's chain and asset names resolve to catalogue ids."""
-    self.assertEqual(CATALOGUE.network_for_chain('hyperunit', 'hyperliquid'), 'hyperliquid')
-    self.assertEqual(CATALOGUE.network_for_chain('hyperunit', 'ethereum'), 'ethereum')
-    self.assertEqual(CATALOGUE.asset_for_protocol('hyperunit', 'eth'), 'ethereum')
-    self.assertIsNone(CATALOGUE.network_for_chain('hyperunit', 'no-such-chain'))
-    self.assertIsNone(CATALOGUE.network_for_chain('cctp', 'ethereum'))
-    self.assertIsNone(CATALOGUE.asset_for_protocol('no-such-protocol', 'eth'))
-    hyperunit = CATALOGUE.protocol('hyperunit')
-    assert hyperunit is not None and 'deposits' in hyperunit
-    self.assertEqual(
-      hyperunit['deposits']['url'], 'https://api.hyperunit.xyz/operations/{address}'
-    )
-
-  def test_no_key(self):
-    """A protocol without a correlation key formats and parses nothing."""
-    with self.assertRaises(CorrelationError):
-      CATALOGUE.format_correlation('hyperunit', user='0x00')
-    with self.assertRaises(CorrelationError):
-      CATALOGUE.parse_correlation('hyperunit:0x00')
-
-  def test_errors(self):
-    """Unknown networks and assets, and malformed lookups, are errors."""
-    entry = CATALOGUE.protocols['hyperunit']
-    assert 'deposits' in entry
-    lookup = entry['deposits']
-    self.assertTrue(self.hyperunit(chains={'ethereum': 'not-a-network'}))
-    self.assertTrue(self.hyperunit(assets={'eth': 'not-an-asset'}))
-    self.assertTrue(self.hyperunit(chains={}))
-    self.assertTrue(self.hyperunit(deposits={**lookup, 'url': 'http://api.example/{address}'}))
-    self.assertTrue(self.hyperunit(deposits={**lookup, 'url': 'https://api.example/ops'}))
-    self.assertTrue(self.hyperunit(deposits={**lookup, 'url': 'https://api.example/{user}/{address}'}))
-    self.assertTrue(self.hyperunit(deposits={**lookup, 'operations': ''}))
-    self.assertTrue(
-      self.hyperunit(deposits={**lookup, 'fields': {**lookup['fields'], 'sender': ''}})
-    )
-
-
 class ChannelTest(unittest.TestCase):
   """A protocol's channel table names the network at the other end of each channel."""
 
   def ibc(self, **changes) -> list[str]:
     """Validation errors of the `ibc` entry with top-level `changes` applied."""
     entry: Protocol = {**deepcopy(CATALOGUE.protocols['ibc']), **changes}  # type: ignore[typeddict-item]
-    return validate.protocols({'ibc': entry}, CATALOGUE.platforms, CATALOGUE.assets)
+    return validate.protocols({'ibc': entry}, CATALOGUE.platforms)
 
   def test_lookups(self):
     """Each hop of the dYdX -> noble -> osmosis -> axelar route resolves, both ways; unknown ones are None."""
@@ -333,9 +285,7 @@ class LiteralSegmentTest(unittest.TestCase):
       'correlation': {'key': 'demo:deposit:{tx}', 'fields': {'tx': 'hex'}},
     }
     catalogue = replace(CATALOGUE, protocols={'demo': entry})
-    self.assertEqual(
-      validate.protocols(catalogue.protocols, catalogue.platforms, catalogue.assets), []
-    )
+    self.assertEqual(validate.protocols(catalogue.protocols, catalogue.platforms), [])
     self.assertEqual(
       catalogue.format_correlation('demo', tx='0xAB'), 'demo:deposit:0xab'
     )
