@@ -3,7 +3,7 @@ import re as _re
 from typing import Collection, Mapping, get_args
 from .schema import (
   Asset, Platform, Spot, Perpetual, Debt, Pool, AssetCategory, BlockchainCategory,
-  BlockchainNamespace, Protocol,
+  BlockchainNamespace, Protocol, DistributorNature,
 )
 from .protocols import template_errors
 from .eip55 import is_checksummed
@@ -13,6 +13,7 @@ _id_pattern = _re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 _valid_asset_categories = get_args(AssetCategory)
 _valid_blockchain_categories = get_args(BlockchainCategory)
 _valid_blockchain_namespaces = get_args(BlockchainNamespace)
+_valid_distributor_natures = get_args(DistributorNature)
 _cosmos_reference = _re.compile(r'^(?!hashed-)[-a-zA-Z0-9]{1,32}$|^hashed-[0-9a-f]{16}$')
 
 def ids(kind: str, items: Mapping[str, object]):
@@ -355,7 +356,7 @@ def evm_addresses(
   return errors
 
 def protocols(protocols: Mapping[str, Protocol], platforms: Mapping[str, Platform], assets: Mapping[str, Asset]):
-  """Protocol entries: id, metadata, a well-formed correlation template, known networks, channels and assets, and a well-formed deposit lookup.
+  """Protocol entries: id, metadata, a well-formed correlation template, known networks, channels and assets, a well-formed deposit lookup, and distributors on known networks and assets, each address claimed by one protocol.
 
   The template's placeholders must be exactly the declared fields, with known types, so
   that `format_correlation` and `parse_correlation` agree for every writer.
@@ -392,6 +393,14 @@ def protocols(protocols: Mapping[str, Protocol], platforms: Mapping[str, Platfor
       elif 'replaced_by' in assets[asset]:
         errors.append(f'[PROTOCOL ASSET ERROR] Protocol "{id}" asset "{name}" points at alias "{asset}"')
     errors.extend(deposit_errors(id, protocol))
+    errors.extend(distributor_errors(id, protocol, platforms, assets))
+  owners: dict[tuple[str, str], str] = {}
+  for id, protocol in protocols.items():
+    for distributor in protocol.get('distributors', []):
+      place = (distributor['network'], distributor['address'])
+      if (other := owners.get(place)) is not None:
+        errors.append(f'[PROTOCOL DISTRIBUTOR ERROR] {place[0]} address {place[1]} is a distributor of both "{other}" and "{id}"')
+      owners.setdefault(place, id)
   return errors
 
 _channel_pattern = _re.compile(r'^[a-z][a-z0-9]*-[0-9]+$')
@@ -410,6 +419,28 @@ def channel_errors(id: str, protocol: Protocol, platforms: Mapping[str, Platform
         errors.append(f'[PROTOCOL CHANNEL ERROR] Protocol "{id}" {network} {channel} has inexistent network "{counterparty}"')
       elif counterparty == network:
         errors.append(f'[PROTOCOL CHANNEL ERROR] Protocol "{id}" {network} {channel} leads back to "{network}"')
+  return errors
+
+_hex_address = _re.compile(r'^0x[0-9a-fA-F]+$')
+
+def distributor_errors(id: str, protocol: Protocol, platforms: Mapping[str, Platform], assets: Mapping[str, Asset]) -> list[str]:
+  """A distributor names an existing network and asset, a known nature, and a non-empty address, `0x` ones in lower case."""
+  errors: list[str] = []
+  for distributor in protocol.get('distributors', []):
+    network, address, asset = distributor['network'], distributor['address'], distributor['asset']
+    where = f'Protocol "{id}" distributor {address!r}'
+    if network not in platforms:
+      errors.append(f'[PROTOCOL DISTRIBUTOR ERROR] {where} has inexistent network "{network}"')
+    if not address.strip():
+      errors.append(f'[PROTOCOL DISTRIBUTOR ERROR] Protocol "{id}" has a distributor without an address')
+    elif _hex_address.fullmatch(address) and address != address.lower():
+      errors.append(f'[PROTOCOL DISTRIBUTOR ERROR] {where} must be in lower case')
+    if asset not in assets:
+      errors.append(f'[PROTOCOL DISTRIBUTOR ERROR] {where} has inexistent asset "{asset}"')
+    elif 'replaced_by' in assets[asset]:
+      errors.append(f'[PROTOCOL DISTRIBUTOR ERROR] {where} points at alias "{asset}"')
+    if distributor['nature'] not in _valid_distributor_natures:
+      errors.append(f'[PROTOCOL DISTRIBUTOR ERROR] {where} has unknown nature "{distributor["nature"]}". Must be one of {_valid_distributor_natures}')
   return errors
 
 def deposit_errors(id: str, protocol: Protocol) -> list[str]:

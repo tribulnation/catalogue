@@ -146,8 +146,21 @@ class DepositLookup(TypedDict):
   """Top-level response field holding the list of operations"""
   fields: DepositFields
 
+DistributorNature = Literal['yield']
+"""What a distributor's payments are to their recipients: `yield`, a reward accrued on a holding."""
+
+class Distributor(TypedDict):
+  """An address from which a protocol pays its rewards: a receipt from it is that reward, not a transfer."""
+  network: str
+  """The catalogue network (platform) id the address lives on, e.g. `hyperliquid` for HyperCore"""
+  address: str
+  """The paying address; `0x` addresses in lower case"""
+  asset: str
+  """The catalogue asset id it pays"""
+  nature: DistributorNature
+
 class Protocol(TypedDict):
-  """A cross-chain protocol: its correlation keys and the data that recognises its movements."""
+  """A protocol: its cross-chain correlation keys and the data that recognises its movements."""
   id: str
   display_name: str
   about: Translations
@@ -163,3 +176,5 @@ class Protocol(TypedDict):
   assets: NotRequired[dict[str, str]]
   """Protocol-assigned asset name -> catalogue asset id, e.g. Hyperunit's `eth`"""
   deposits: NotRequired[DepositLookup]
+  distributors: NotRequired[list[Distributor]]
+  """Addresses that pay the protocol's rewards, e.g. Ethena's USDe rewards on HyperCore"""

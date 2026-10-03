@@ -8,6 +8,7 @@ from .data import (
   BlockchainNamespace, Platform,
   Catalogue, PerpetualInstrument, DebtInstrument, Spot, Perpetual, Debt, Pool, SpamAddress,
   Protocol, Correlation, CorrelationFieldType, CorrelationError, DepositLookup, DepositFields,
+  Distributor, DistributorNature,
 )
 from .market_data import MarketData, Pricing, Stats
 
@@ -17,5 +18,6 @@ __all__ = [
   'BlockchainNamespace', 'Platform',
   'Catalogue', 'PerpetualInstrument', 'DebtInstrument', 'Spot', 'Perpetual', 'Debt', 'Pool', 'SpamAddress',
   'Protocol', 'Correlation', 'CorrelationFieldType', 'CorrelationError', 'DepositLookup', 'DepositFields',
+  'Distributor', 'DistributorNature',
   'MarketData', 'Pricing', 'Stats',
 ]

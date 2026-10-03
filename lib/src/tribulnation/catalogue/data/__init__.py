@@ -8,6 +8,7 @@ from .schema import (
   BlockchainNamespace, Platform,
   Spot, Perpetual, Debt, Pool, SpamAddress,
   Protocol, Correlation, CorrelationFieldType, DepositLookup, DepositFields,
+  Distributor, DistributorNature,
 )
 from .main import Catalogue, PerpetualInstrument, DebtInstrument
 from .protocols import CorrelationError

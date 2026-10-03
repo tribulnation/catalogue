@@ -103,6 +103,12 @@ Create `data/protocols/<id>.json`:
   `destination_chain`, `destination_address`, `asset`, and optionally `time`, ISO 8601 or
   milliseconds). `chains` is then required. See
   `hyperunit.json`.
+- A protocol that pays rewards from fixed addresses lists them in `distributors`: each
+  with the catalogue `network`, the paying `address` (`0x` addresses in lower case), the
+  catalogue `asset` it pays and the `nature` of the payments (`yield`). A receipt from a
+  distributor is that reward, not a transfer between owners. Show in the PR that the
+  address pays the protocol's program (its docs, or its payments to many holders), and
+  list each address under one protocol only. See `ethena.json`.
 
 ## Ids are permanent
 

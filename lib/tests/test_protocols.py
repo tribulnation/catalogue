@@ -276,6 +276,48 @@ class DepositLookupTest(unittest.TestCase):
     )
 
 
+class DistributorTest(unittest.TestCase):
+  """A protocol's distributors name the address, network, asset and nature of its reward payments."""
+
+  def ethena(self, **changes) -> list[str]:
+    """Validation errors of the `ethena` entry with its one distributor's `changes` applied."""
+    entry: Protocol = deepcopy(CATALOGUE.protocols['ethena'])
+    entry['distributors'] = [{**entry['distributors'][0], **changes}]  # type: ignore[typeddict-item]
+    return validate.protocols({'ethena': entry}, CATALOGUE.platforms, CATALOGUE.assets)
+
+  def test_hypercore_usde(self):
+    """Ethena's USDe rewards on HyperCore are yield from one lower-case address."""
+    ethena = CATALOGUE.protocol('ethena')
+    assert ethena is not None and 'distributors' in ethena
+    self.assertEqual(
+      ethena['distributors'],
+      [
+        {
+          'network': 'hyperliquid',
+          'address': '0x062557d1d483320494542d3a86307b8c5fff3072',
+          'asset': 'ethena-usde',
+          'nature': 'yield',
+        }
+      ],
+    )
+    self.assertEqual(self.ethena(), [])
+
+  def test_errors(self):
+    """Unknown networks, assets and natures, empty or mixed-case hex addresses, and a shared address are errors."""
+    self.assertTrue(self.ethena(network='not-a-network'))
+    self.assertTrue(self.ethena(asset='not-an-asset'))
+    self.assertTrue(self.ethena(nature='gift'))
+    self.assertTrue(self.ethena(address=''))
+    self.assertTrue(self.ethena(address='0x062557D1d483320494542d3a86307b8c5fff3072'))
+    entry = CATALOGUE.protocols['ethena']
+    other: Protocol = {**deepcopy(entry), 'id': 'other'}
+    self.assertTrue(
+      validate.protocols(
+        {'ethena': entry, 'other': other}, CATALOGUE.platforms, CATALOGUE.assets
+      )
+    )
+
+
 class ChannelTest(unittest.TestCase):
   """A protocol's channel table names the network at the other end of each channel."""
 

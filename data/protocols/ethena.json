@@ -1,0 +1,20 @@
+{
+  "id": "ethena",
+  "display_name": "Ethena",
+  "about": {
+    "en": "Ethena issues USDe, a synthetic dollar backed by crypto collateral and hedged derivatives positions. Since May 2025 USDe holders on Hyperliquid's HyperCore earn daily rewards on their USDe spot balances, which Ethena announced as auto-airdropped on top of those balances (distributed through Merkl). On HyperCore the rewards arrive as a spot transfer of USDe from one distributor account once a day, around 08:05 UTC, to every holder, each pro rata to its USDe balance at one rate across holders. A receipt from that account is that reward, a yield on USDe, not a transfer between owners. Ethena declares no correlation key: the rewards are not cross-chain."
+  },
+  "urls": {
+    "Website": "https://ethena.fi",
+    "Documentation": "https://docs.ethena.fi",
+    "HyperCore rewards announcement": "https://x.com/ethena_labs/status/1919373867367424216"
+  },
+  "distributors": [
+    {
+      "network": "hyperliquid",
+      "address": "0x062557d1d483320494542d3a86307b8c5fff3072",
+      "asset": "ethena-usde",
+      "nature": "yield"
+    }
+  ]
+}
