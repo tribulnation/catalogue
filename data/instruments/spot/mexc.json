@@ -1174,5 +1174,65 @@
     "base": "paimon-polymarket-spv",
     "quote": "tether",
     "url": "https://www.mexc.com/exchange/PPOLY_USDT"
+  },
+  "NEARLYUSDT": {
+    "exchange": "spot",
+    "base": "nearly",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/NEARLY_USDT"
+  },
+  "NEARLYUSD1": {
+    "exchange": "spot",
+    "base": "nearly",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/NEARLY_USD1"
+  },
+  "PRIORSUSDT": {
+    "exchange": "spot",
+    "base": "priors-agents",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/PRIORS_USDT"
+  },
+  "PRIORSUSD1": {
+    "exchange": "spot",
+    "base": "priors-agents",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/PRIORS_USD1"
+  },
+  "HOOKEDUSDT": {
+    "exchange": "spot",
+    "base": "hooked",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/HOOKED_USDT"
+  },
+  "HOOKEDUSD1": {
+    "exchange": "spot",
+    "base": "hooked",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/HOOKED_USD1"
+  },
+  "SAPLINGUSDT": {
+    "exchange": "spot",
+    "base": "sapling",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/SAPLING_USDT"
+  },
+  "SAPLINGUSD1": {
+    "exchange": "spot",
+    "base": "sapling",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/SAPLING_USD1"
+  },
+  "THEOUSDT": {
+    "exchange": "spot",
+    "base": "autheo",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/THEO_USDT"
+  },
+  "GTTUSDT": {
+    "exchange": "spot",
+    "base": "game-terminal",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/GTT_USDT"
   }
 }
