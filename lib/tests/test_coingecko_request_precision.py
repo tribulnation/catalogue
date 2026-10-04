@@ -48,13 +48,15 @@ class CoingeckoRequestPrecisionTest(unittest.IsolatedAsyncioTestCase):
       self.assertEqual(request.url.params['precision'], 'full')
 
   async def test_market_batches_fill_one_full_page(self):
-    """Each request carries 250 ids and asks for a page that holds them all."""
+    """Collect every ID across bounded requests without pagination truncation."""
     requests = []
 
     def respond(request: httpx.Request) -> httpx.Response:
       """Return at most `per_page` of the requested coins, like the provider."""
       requests.append(request)
       ids = request.url.params['ids'].split(',')
+      if len(ids) > 100:
+        return httpx.Response(403, text='Request blocked')
       per_page = int(request.url.params.get('per_page', 100))
       rows = ','.join(
         '{"id":"' + id + '","current_price":1,"market_cap":null}'
@@ -75,10 +77,11 @@ class CoingeckoRequestPrecisionTest(unittest.IsolatedAsyncioTestCase):
 
     self.assertEqual(set(stats), set(ids))
     self.assertEqual(
-      [len(r.url.params['ids'].split(',')) for r in requests], [250, 1],
+      [len(r.url.params['ids'].split(',')) for r in requests], [100, 100, 51],
     )
     for request in requests:
-      self.assertEqual(request.url.params['per_page'], '250')
+      self.assertEqual(request.url.params['per_page'], '100')
+      self.assertEqual(request.url.params['precision'], 'full')
 
   async def test_both_currency_reference_prices_request_full_precision(self):
     """Derived FX uses full-precision USD and EUR reference observations."""
