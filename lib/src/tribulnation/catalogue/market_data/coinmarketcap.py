@@ -56,7 +56,7 @@ class CmcStatus(CmcModel):
 
 
 class CmcQuote(CmcModel):
-  price: Decimal
+  price: Decimal | None
   market_cap: Decimal | None = None
   symbol: str | None = None
   timestamp: datetime | None = None
@@ -139,7 +139,7 @@ def wrap_exceptions(f):
         raise RateLimited(message) from e
       raise ApiError(message) from e
     except ValidationError as e:
-      raise ApiError(*e.args) from e
+      raise ApiError(str(e)) from e
   return wrapper
 
 CoinMarketCapQuote = Literal['eur', 'usd']
@@ -184,7 +184,7 @@ class CoinMarketCapPricing(Pricing):
     out: dict[str, Stats] = {}
     for coin in data.data:
       q = coin.quote.get(_quote_symbol(self.quote))
-      if q is not None:
+      if q is not None and q.price is not None:
         out[str(coin.id)] = Stats(
           price=q.price,
           market_cap=round(q.market_cap, 2) if q.market_cap is not None else None,
@@ -228,7 +228,7 @@ class CoinMarketCapPricing(Pricing):
 
     quote = quotes[0]
     value = quote.quote.get(_quote_symbol(self.quote))
-    if value is None:
+    if value is None or value.price is None:
       return None
 
     return Price(price=value.price, time=value.timestamp or quote.timestamp)

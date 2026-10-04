@@ -69,6 +69,36 @@ class AdapterPrecisionTest(unittest.IsolatedAsyncioTestCase):
     stats = await pricing.current_stats(['20641'])
     self.assertEqual(stats['20641'].price, Decimal('1.15914'))
 
+  async def test_cmc_null_quote_keeps_other_prices(self):
+    """Unavailable CMC assets cannot discard valid prices from their batch."""
+    for quote in ({'USD': {'price': None}}, [{'symbol': 'USD', 'price': None}]):
+      body = {'data': [
+        {'id': 1, 'quote': {'USD': {'price': '123.456789012345'}}},
+        {'id': 11588, 'quote': quote},
+        {'id': 2, 'quote': {'USD': {'price': 0}}},
+      ]}
+      pricing = CoinMarketCapPricing(quote='usd', headers={}, client=StubHttp(json=body)) # type: ignore
+      stats = await pricing.current_stats(['1', '11588', '2'])
+      self.assertEqual(set(stats), {'1', '2'})
+      self.assertEqual(stats['1'].price, Decimal('123.456789012345'))
+      self.assertEqual(stats['2'].price, Decimal(0))
+
+  async def test_cmc_null_historical_quote_is_unavailable(self):
+    """Historical null is unavailable, not a zero or a batch parsing error."""
+    body = {'data': [{'id': 11588, 'quotes': [{
+      'timestamp': '2026-10-03T00:00:00Z', 'quote': {'USD': {'price': None}},
+    }]}]}
+    pricing = CoinMarketCapPricing(quote='usd', headers={}, client=StubHttp(json=body)) # type: ignore
+    self.assertIsNone(await pricing.historical_price('11588', datetime(2026, 10, 3)))
+
+  async def test_cmc_malformed_price_reports_validation(self):
+    """Non-numeric values still fail with enough detail to diagnose the field."""
+    from tribulnation.sdk import ApiError
+    body = {'data': [{'id': 1, 'quote': {'USD': {'price': 'not-a-price'}}}]}
+    pricing = CoinMarketCapPricing(quote='usd', headers={}, client=StubHttp(json=body)) # type: ignore
+    with self.assertRaisesRegex(ApiError, 'price'):
+      await pricing.current_stats(['1'])
+
   async def test_fred_observations(self):
     """FRED CSV observations keep every published digit."""
     csv = 'observation_date,DEXUSEU\n2026-09-10,1.1591\n2026-09-11,1.1533\n'
