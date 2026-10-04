@@ -31,9 +31,10 @@ def wrap_exceptions(f):
 
 CoingeckoQuote = Literal['eur', 'usd']
 
-MARKETS_PAGE_SIZE = 250
-"""`/coins/markets` maximum `per_page`. Each batch is one request, so the page
-must be as large as the batch or the rows past the default 100 are dropped."""
+MARKETS_PAGE_SIZE = 100
+"""Bound market requests to 100 IDs: live 250-ID requests hit CloudFront 403.
+Keep per_page explicit and equal to the batch size to avoid truncation.
+See tribulnation/catalogue#228 for same-host, same-key live comparisons."""
 
 @dataclass
 class CoingeckoPricing(Pricing):
