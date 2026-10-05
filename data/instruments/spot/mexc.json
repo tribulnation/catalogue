@@ -1234,5 +1234,17 @@
     "base": "game-terminal",
     "quote": "tether",
     "url": "https://www.mexc.com/exchange/GTT_USDT"
+  },
+  "旺柴USDT": {
+    "exchange": "spot",
+    "base": "wangchai",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/旺柴_USDT"
+  },
+  "旺柴USD1": {
+    "exchange": "spot",
+    "base": "wangchai",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/旺柴_USD1"
   }
 }
