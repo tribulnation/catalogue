@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tribulnation-catalogue"
-version = "0.3.11"
+version = "0.4.0"
 authors = [
   {name="Marcel Claramunt", email="marcel@tribulnation.com"}
 ]
@@ -28,11 +28,11 @@ Repository = "https://github.com/tribulnation/catalogue.git"
 NPM = "https://www.npmjs.com/package/@tribulnation/catalogue"
 
 [project.optional-dependencies]
-cli = ["typer"]
+cli = ["tribulnation-cli>=0.1,<1"]
 api = ["fastapi"]
 prices = [
   "coingecko-sdk", "httpx", "tribulnation-sdk", "typed-core"
 ]
 
-[project.scripts]
-tn-catalogue = "tribulnation.catalogue.cli:app"
+[project.entry-points."tribulnation.commands"]
+catalogue = "tribulnation.catalogue.cli:app"
