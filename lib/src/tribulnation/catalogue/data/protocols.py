@@ -48,10 +48,8 @@ def template_segments(correlation: Correlation) -> list[Segment]:
 
 
 def template_errors(id: str, protocol: Protocol) -> list[str]:
-  """Problems with a protocol's correlation template, as messages (empty when valid or absent)."""
-  correlation = protocol.get('correlation')
-  if correlation is None:
-    return []
+  """Problems with a protocol's correlation template, as messages (empty when valid)."""
+  correlation = protocol['correlation']
   namespace = correlation['key'].split(':')[0]
   errors: list[str] = []
   if namespace != id:
@@ -113,18 +111,6 @@ def canonical(
   return value
 
 
-def keyed(id: str, protocol: Protocol) -> Correlation:
-  """The correlation template of `protocol`.
-
-  Raises:
-    CorrelationError: The protocol defines no correlation key.
-  """
-  correlation = protocol.get('correlation')
-  if correlation is None:
-    raise CorrelationError(f'Protocol "{id}" defines no correlation key')
-  return correlation
-
-
 def format_key(
   id: str,
   protocol: Protocol,
@@ -137,14 +123,13 @@ def format_key(
   Raises:
     CorrelationError: Missing, extra or mistyped fields.
   """
-  correlation = keyed(id, protocol)
-  declared = correlation['fields']
+  declared = protocol['correlation']['fields']
   if missing := sorted(set(declared) - set(fields)):
     raise CorrelationError(f'"{id}" key is missing fields {missing}')
   if extra := sorted(set(fields) - set(declared)):
     raise CorrelationError(f'"{id}" key has unknown fields {extra}')
   parts = [id]
-  for literal, field in template_segments(correlation):
+  for literal, field in template_segments(protocol['correlation']):
     if field is None:
       parts.append(literal)
     else:
@@ -168,16 +153,19 @@ def parse_key(
   protocol = protocols.get(id)
   if protocol is None:
     raise CorrelationError(f'Unknown correlation namespace "{id}" in "{key}"')
-  correlation = keyed(id, protocol)
-  segments = template_segments(correlation)
+  segments = template_segments(protocol['correlation'])
   if len(parts) != len(segments):
-    raise CorrelationError(f'"{key}" does not match template "{correlation["key"]}"')
-  declared = correlation['fields']
+    raise CorrelationError(
+      f'"{key}" does not match template "{protocol["correlation"]["key"]}"'
+    )
+  declared = protocol['correlation']['fields']
   fields: dict[str, int | str] = {}
   for part, (literal, field) in zip(parts, segments):
     if field is None:
       if part != literal:
-        raise CorrelationError(f'"{key}" does not match template "{correlation["key"]}"')
+        raise CorrelationError(
+          f'"{key}" does not match template "{protocol["correlation"]["key"]}"'
+        )
       continue
     try:
       text = canonical(part, declared[field], networks=networks)

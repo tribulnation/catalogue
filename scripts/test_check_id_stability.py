@@ -7,7 +7,7 @@ from tempfile import TemporaryDirectory
 import unittest
 import zipfile
 
-from check_id_stability import ids_in_archive, main
+from check_id_stability import ids_in_archive, main, retire
 
 
 def write_data(root: Path, assets: dict[str, dict], platforms: tuple[str, ...] = ('ethereum',)):
@@ -76,3 +76,12 @@ class IdStabilityScriptTest(unittest.TestCase):
 
 if __name__ == '__main__':
   unittest.main()
+
+
+class RetiredIdTest(unittest.TestCase):
+  """Only the listed retired ids may disappear."""
+
+  def test_retired_ids_are_dropped_from_the_baseline(self):
+    """`hyperunit` (no correlation key ever published) is retired; other protocol ids are not."""
+    baseline = {'protocol': {'hyperunit', 'cctp'}, 'asset': {'hyperunit'}}
+    self.assertEqual(retire(baseline), {'protocol': {'cctp'}, 'asset': {'hyperunit'}})
