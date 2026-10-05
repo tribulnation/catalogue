@@ -1234,5 +1234,17 @@
     "base": "game-terminal",
     "quote": "tether",
     "url": "https://www.mexc.com/exchange/GTT_USDT"
+  },
+  "AGENCYUSDT": {
+    "exchange": "spot",
+    "base": "agency",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/AGENCY_USDT"
+  },
+  "AGENCYUSD1": {
+    "exchange": "spot",
+    "base": "agency",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/AGENCY_USD1"
   }
 }
