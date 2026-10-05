@@ -17,6 +17,18 @@ from tribulnation.catalogue.data.validate import id_stability
 PUBLISHED = 'https://catalogue.tribulnation.com/data.zip'
 KINDS = {'asset': 'assets', 'platform': 'platforms', 'protocol': 'protocols'}
 """Checked id kind -> folder holding one `<id>.json` per id"""
+RETIRED: dict[tuple[str, str], str] = {
+  ('protocol', 'hyperunit'): (
+    'never defined a correlation key, so no published key embeds it; its deposit lookup is '
+    'data only the Litmus hl unit reads, moved to that unit\'s own catalogue (2026-10-03)'
+  ),
+}
+"""Published ids deliberately removed, each with the reason no consumer can hold it."""
+
+
+def retire(baseline: dict[str, set[str]]) -> dict[str, set[str]]:
+  """The baseline without the `RETIRED` ids."""
+  return {kind: {id for id in ids if (kind, id) not in RETIRED} for kind, ids in baseline.items()}
 
 
 def ids_in_names(names: list[str]) -> dict[str, set[str]]:
@@ -60,7 +72,7 @@ def main(argv: list[str] | None = None) -> int:
   parser.add_argument('--baseline', default=PUBLISHED, help='data.zip URL, local data.zip, or data folder (default: the published data.zip)')
   parser.add_argument('--data', default='data', help='Working-tree data folder')
   args = parser.parse_args(argv)
-  errors = id_stability(ids_in_folder(Path(args.data)), read_baseline(args.baseline))
+  errors = id_stability(ids_in_folder(Path(args.data)), retire(read_baseline(args.baseline)))
   for error in errors:
     print(error, file=sys.stderr)
   if errors:
