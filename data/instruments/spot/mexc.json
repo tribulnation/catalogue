@@ -1258,5 +1258,29 @@
     "base": "wangchai",
     "quote": "usd1",
     "url": "https://www.mexc.com/exchange/旺柴_USD1"
+  },
+  "CTXUSDT": {
+    "exchange": "spot",
+    "base": "cortex-network",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/CTX_USDT"
+  },
+  "HIGGSUSDT": {
+    "exchange": "spot",
+    "base": "higgspad",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/HIGGS_USDT"
+  },
+  "HIGGSUSD1": {
+    "exchange": "spot",
+    "base": "higgspad",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/HIGGS_USD1"
+  },
+  "WFIUSDT": {
+    "exchange": "spot",
+    "base": "wefi",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/WFI_USDT"
   }
 }
