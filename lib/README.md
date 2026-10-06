@@ -25,6 +25,17 @@ binance = catalogue.platforms["binance"]
 
 `load()` keeps the published `data.zip` in `~/.cache/tribulnation` and loads it from there. Once a day (`max_age`) it asks the site whether the archive changed with one conditional request (`ETag` / `Last-Modified`), and downloads it again only when it did. A download replaces the cached copy only once it loads; if the site is unreachable, the last good copy is used and a warning is logged. Only a first run without any cached copy fails.
 
+## Command line
+
+```bash
+pip install 'tribulnation-catalogue[cli]'
+
+tn catalogue download data   # extract the catalogue into ./data, or update it
+tn catalogue download        # only refresh the cache used by Catalogue.load()
+```
+
+`download` works like `load()`: it asks the site whether `data.zip` changed and only re-extracts the folder when it did. `--refresh` downloads unconditionally, `--url` uses a mirror. A folder is only replaced if it is empty or holds an earlier download.
+
 ## Loading options
 
 ```python

@@ -7,4 +7,4 @@ app.command()(download)
 
 @app.callback()
 def main():
-  ...
+  """Tribulnation Catalogue commands."""
