@@ -1,0 +1,15 @@
+{
+  "id": "claus",
+  "display_name": "Claus",
+  "symbol": "CLAUS",
+  "category": "crypto",
+  "about": {
+    "en": "Claus (CLAUS) is an Ethereum token paired in a Uniswap v4 pool whose hook implementation can be replaced after launch, so the token's trading mechanics change while the contract address and holder balances stay the same. The hooks route a share of trading fees into buybacks, supply burns, liquidity funding and NFT holder rewards. The project publishes its active hooks, onchain sources and a dated journal at claus.si."
+  },
+  "urls": {
+    "Website": "https://claus.si/"
+  },
+  "external": {
+    "coingecko": "claus-2"
+  }
+}
