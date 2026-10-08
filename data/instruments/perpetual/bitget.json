@@ -1685,5 +1685,40 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitget.com/futures/usdt/IBITUSDT"
+  },
+  "QLDUSDT": {
+    "exchange": "usdt",
+    "base": "proshares-ultra-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/QLDUSDT"
+  },
+  "PCVXUSDT": {
+    "exchange": "usdt",
+    "base": "vaxcyte",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/PCVXUSDT"
+  },
+  "USDESTOCKUSDT": {
+    "exchange": "usdt",
+    "base": "stablecoinx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/USDESTOCKUSDT"
+  },
+  "VKTXUSDT": {
+    "exchange": "usdt",
+    "base": "viking-therapeutics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/VKTXUSDT"
+  },
+  "XPUSDT": {
+    "exchange": "usdt",
+    "base": "xp-inc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/XPUSDT"
   }
 }

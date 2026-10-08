@@ -1282,5 +1282,17 @@
     "base": "wefi",
     "quote": "tether",
     "url": "https://www.mexc.com/exchange/WFI_USDT"
+  },
+  "CLAUSUSDT": {
+    "exchange": "spot",
+    "base": "claus",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/CLAUS_USDT"
+  },
+  "CLAUSUSD1": {
+    "exchange": "spot",
+    "base": "claus",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/CLAUS_USD1"
   }
 }
