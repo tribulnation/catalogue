@@ -51,5 +51,7 @@
   "wrapped-aave-tether:coingecko:wrapped-aave-ethereum-usdt": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
   "wrapped-aave-usd-coin:coingecko:wrapped-aave-ethereum-usdc": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
   "wrapped-aave-wrapped-avalanche:coingecko:wrapped-aave-avalanche-wavax": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
-  "wrapped-aave-wrapped-staked-ether:coingecko:wrapped-aave-ethereum-lido-wsteth": "Aave wrapper; CoinGecko spells out the chain in the symbol."
+  "wrapped-aave-wrapped-staked-ether:coingecko:wrapped-aave-ethereum-lido-wsteth": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
+  "darkswap:coinmarketcap": "Searched coinmarketcap.com (2026-10-08) for DarkSwap, DARK and the Solana Token-2022 mint 7KEPApdbBMByrmqihz3bht2uMhFQcatjfSFQCKq66kH3: no listing. The /data-api detail endpoint, which resolves other slugs from this environment, returns nothing for darkswap, dark-swap, darkswap-2, darkswap-app, darkswap-solana, darkswap-finance, dark-sol and dark-token, and the matching /currencies pages all 404; the search endpoints are blocked here. The only DARK-like listing is 3516 \"Dark\" (D4RK), a different project with no Solana contract. CoinGecko lists this one as darkswap, resolved from that exact mint.",
+  "ibvm:coingecko": "Searched /search (2026-10-08) for IBVM and for \"bitcoin virtual machine\", and scanned the full /coins/list (22082 entries): no coin carries the symbol IBVM or a name containing IBVM or \"Bitcoin Virtual\". The token is the IBVM network's native coin, so there is no contract address to look up. CoinMarketCap lists it as 42414."
 }

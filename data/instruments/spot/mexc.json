@@ -1282,5 +1282,23 @@
     "base": "wefi",
     "quote": "tether",
     "url": "https://www.mexc.com/exchange/WFI_USDT"
+  },
+  "DARKUSDT": {
+    "exchange": "spot",
+    "base": "darkswap",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/DARK_USDT"
+  },
+  "DARKUSD1": {
+    "exchange": "spot",
+    "base": "darkswap",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/DARK_USD1"
+  },
+  "IBVMUSDT": {
+    "exchange": "spot",
+    "base": "ibvm",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/IBVM_USDT"
   }
 }

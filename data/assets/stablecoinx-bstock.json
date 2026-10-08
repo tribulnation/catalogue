@@ -1,0 +1,22 @@
+{
+  "id": "stablecoinx-bstock",
+  "display_name": "StablecoinX bStock",
+  "symbol": "USDEB",
+  "category": "rwa",
+  "about": {
+    "en": "StablecoinX bStock (USDEB) is a tokenized share of StablecoinX Inc. issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0xdfd3ba51d4591f243481a6f26059d1a5ee95252f, backed 1:1 by USDE shares and convertible 1:1 with the underlying equity, with stock splits and dividend adjustments processed by the issuer. The underlying USDE is StablecoinX's Nasdaq-listed common stock, not Ethena's USDe stablecoin. bStocks are offered under an ADGM-approved prospectus and not in other jurisdictions."
+  },
+  "external": {
+    "coingecko": "stablecoinx-bstocks-tokenized-stock",
+    "coinmarketcap": "42418"
+  },
+  "pegged_to": {
+    "asset": "stablecoinx"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}

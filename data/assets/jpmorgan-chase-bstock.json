@@ -1,0 +1,22 @@
+{
+  "id": "jpmorgan-chase-bstock",
+  "display_name": "JPMorgan Chase bStock",
+  "symbol": "JPMB",
+  "category": "rwa",
+  "about": {
+    "en": "JPMorgan Chase bStock (JPMB) is a tokenized share of JPMorgan Chase & Co. issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0xbd49d695ba2cc46c8c603eb62afcd7fff4698281, backed 1:1 by JPM shares and convertible 1:1 with the underlying equity, with stock splits and dividend adjustments processed by the issuer. bStocks are offered under an ADGM-approved prospectus and not in other jurisdictions."
+  },
+  "external": {
+    "coingecko": "jpmorgan-chase-bstocks-tokenized-stock",
+    "coinmarketcap": "42416"
+  },
+  "pegged_to": {
+    "asset": "jpmorgan-chase"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}

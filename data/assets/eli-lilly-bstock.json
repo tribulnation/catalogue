@@ -1,0 +1,22 @@
+{
+  "id": "eli-lilly-bstock",
+  "display_name": "Eli Lilly bStock",
+  "symbol": "LLYB",
+  "category": "rwa",
+  "about": {
+    "en": "Eli Lilly bStock (LLYB) is a tokenized share of Eli Lilly and Company issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0x5407912f1aa4b9e05cbe6abeb9721547a643ec6b, backed 1:1 by LLY shares and convertible 1:1 with the underlying equity, with stock splits and dividend adjustments processed by the issuer. bStocks are offered under an ADGM-approved prospectus and not in other jurisdictions."
+  },
+  "external": {
+    "coingecko": "eli-lilly-bstocks-tokenized-stock",
+    "coinmarketcap": "42415"
+  },
+  "pegged_to": {
+    "asset": "eli-lilly"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}
