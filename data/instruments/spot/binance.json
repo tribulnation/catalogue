@@ -3856,5 +3856,29 @@
     "base": "reddit-bstock",
     "quote": "tether",
     "url": "https://www.binance.com/en/trade/RDDTB_USDT"
+  },
+  "JPMBUSDT": {
+    "exchange": "spot",
+    "base": "jpmorgan-chase-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/JPMB_USDT"
+  },
+  "LLYBUSDT": {
+    "exchange": "spot",
+    "base": "eli-lilly-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/LLYB_USDT"
+  },
+  "SECZBUSDT": {
+    "exchange": "spot",
+    "base": "securitize-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/SECZB_USDT"
+  },
+  "USDEBUSDT": {
+    "exchange": "spot",
+    "base": "stablecoinx-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/USDEB_USDT"
   }
 }

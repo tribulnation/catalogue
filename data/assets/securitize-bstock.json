@@ -1,0 +1,22 @@
+{
+  "id": "securitize-bstock",
+  "display_name": "Securitize bStock",
+  "symbol": "SECZB",
+  "category": "rwa",
+  "about": {
+    "en": "Securitize bStock (SECZB) is a tokenized share of Securitize Corp. issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0x32c980f38907ace4fac643c3765d9b32842af60f, backed 1:1 by SECZ shares and convertible 1:1 with the underlying equity, with stock splits and dividend adjustments processed by the issuer. bStocks are offered under an ADGM-approved prospectus and not in other jurisdictions."
+  },
+  "external": {
+    "coingecko": "securitize-bstocks-tokenized-stock",
+    "coinmarketcap": "42417"
+  },
+  "pegged_to": {
+    "asset": "securitize"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}

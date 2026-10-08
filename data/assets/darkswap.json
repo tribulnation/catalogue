@@ -1,0 +1,15 @@
+{
+  "id": "darkswap",
+  "display_name": "DarkSwap",
+  "symbol": "DARK",
+  "category": "crypto",
+  "about": {
+    "en": "DarkSwap (DARK) is the token of DarkSwap, a privacy-focused swap interface for Solana-origin transfers. It prepares orders and quotes that the user funds from their own wallet, routing them through HoudiniSwap or the NEAR Intents 1Click API, so the service never connects a wallet, signs the deposit or custodies funds. DARK is a Token-2022 mint on Solana at 7KEPApdbBMByrmqihz3bht2uMhFQcatjfSFQCKq66kH3; the project directs half of the creator fees it receives to qualifying holders in wNEAR and uses the rest to buy ZEC for its treasury."
+  },
+  "urls": {
+    "Website": "https://darkswap.app/"
+  },
+  "external": {
+    "coingecko": "darkswap"
+  }
+}
