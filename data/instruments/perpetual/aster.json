@@ -519,6 +519,13 @@
     "settlement": "tether",
     "url": "https://www.asterdex.com/en/trade/pro/futures/BBUSDT"
   },
+  "BBXUSDT": {
+    "exchange": "perp",
+    "base": "blackberry",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/BBXUSDT"
+  },
   "BCHUSDT": {
     "exchange": "perp",
     "base": "bitcoin-cash",
