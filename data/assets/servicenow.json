@@ -1,0 +1,17 @@
+{
+  "id": "servicenow",
+  "display_name": "ServiceNow",
+  "symbol": "NOW",
+  "category": "stock",
+  "about": {
+    "en": "ServiceNow, Inc. is a US software company providing a cloud platform for IT service management and enterprise workflow automation. In tokenized markets, NOW is the reference equity for products tracking ServiceNow shares."
+  },
+  "urls": {
+    "Website": "https://www.servicenow.com"
+  },
+  "external": {
+    "yahoo": "NOW",
+    "twelvedata": "NOW",
+    "alphavantage": "stock:NOW"
+  }
+}

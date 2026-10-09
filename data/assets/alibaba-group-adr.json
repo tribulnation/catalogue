@@ -1,0 +1,20 @@
+{
+  "id": "alibaba-group-adr",
+  "display_name": "Alibaba Group ADR",
+  "symbol": "BABA",
+  "category": "stock",
+  "tags": [
+    "ADR"
+  ],
+  "about": {
+    "en": "Alibaba Group Holding Limited operates e-commerce marketplaces, cloud computing, logistics and digital media businesses, primarily in China. BABA represents its NYSE-listed American depositary shares, each equal to 8 ordinary shares, distinct from the ordinary shares listed in Hong Kong as 9988."
+  },
+  "urls": {
+    "Website": "https://www.alibabagroup.com/"
+  },
+  "external": {
+    "yahoo": "BABA",
+    "twelvedata": "BABA",
+    "alphavantage": "stock:BABA"
+  }
+}
