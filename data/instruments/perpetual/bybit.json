@@ -3038,5 +3038,26 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CTUSDT"
+  },
+  "HUTUSDT": {
+    "exchange": "perp",
+    "base": "hut-8",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/HUTUSDT"
+  },
+  "LULUUSDT": {
+    "exchange": "perp",
+    "base": "lululemon-athletica",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/LULUUSDT"
+  },
+  "NKEUSDT": {
+    "exchange": "perp",
+    "base": "nike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/NKEUSDT"
   }
 }
