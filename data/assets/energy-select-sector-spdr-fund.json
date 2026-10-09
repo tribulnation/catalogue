@@ -1,0 +1,20 @@
+{
+  "id": "energy-select-sector-spdr-fund",
+  "display_name": "Energy Select Sector SPDR Fund",
+  "symbol": "XLE",
+  "category": "fund",
+  "tags": [
+    "ETF"
+  ],
+  "about": {
+    "en": "XLE is the Energy Select Sector SPDR Fund, an exchange-traded fund sponsored by State Street Global Advisors that tracks the Energy Select Sector Index, representing energy-sector companies within the S&P 500. Each share represents an interest in the fund's portfolio of US oil, gas and energy equipment equities."
+  },
+  "urls": {
+    "Website": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+  },
+  "external": {
+    "yahoo": "XLE",
+    "twelvedata": "XLE",
+    "alphavantage": "stock:XLE"
+  }
+}

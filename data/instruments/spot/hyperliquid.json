@@ -124,5 +124,29 @@
     "base": "max-hyperliquid",
     "quote": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/MAX/USDC"
+  },
+  "AIW3/USDC:711": {
+    "exchange": "spot",
+    "base": "aiw3",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/AIW3/USDC"
+  },
+  "KITE/USDC:310": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/KITE/USDC"
+  },
+  "STABLE/USDC:258": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/STABLE/USDC"
+  },
+  "TREAD/USDC:719": {
+    "exchange": "spot",
+    "base": "tread-fi",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/TREAD/USDC"
   }
 }

@@ -36,6 +36,16 @@ _LIGHTER_SYMBOLS = {
   'british-pound': 'GBPUSD',
   'australian-dollar': 'AUDUSD',
   'new-zealand-dollar': 'NZDUSD',
+  'alibaba-group-adr': 'BABA',
+  'cxmt': 'CXMT',
+  'kioxia': 'KIOXIA',
+  'minimax': 'MINIMAX',
+  'pop-mart': 'POPMART',
+  'shein': 'SHEIN',
+  'tencent-holdings': 'TENCENT',
+  'unitree-robotics': 'UNITREE',
+  'xiaomi': 'XIAOMI',
+  'zhipu-ai': 'ZHIPU',
 }
 
 

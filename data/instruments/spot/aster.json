@@ -1,4 +1,10 @@
 {
+  "AIW3USDT": {
+    "exchange": "spot",
+    "base": "aiw3",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/AIW3USDT"
+  },
   "ALLOUSDT": {
     "exchange": "spot",
     "base": "allora",
@@ -65,6 +71,12 @@
     "quote": "usd1",
     "url": "https://www.asterdex.com/en/trade/pro/spot/BUSD1"
   },
+  "CYSUSDT": {
+    "exchange": "spot",
+    "base": "cysic",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/CYSUSDT"
+  },
   "DEXEUSDT": {
     "exchange": "spot",
     "base": "dexe",
@@ -83,11 +95,23 @@
     "quote": "tether",
     "url": "https://www.asterdex.com/en/trade/pro/spot/EVAAUSDT"
   },
+  "FORMUSDT": {
+    "exchange": "spot",
+    "base": "four",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/FORMUSDT"
+  },
   "GIGGLEUSDT": {
     "exchange": "spot",
     "base": "giggle-fund",
     "quote": "tether",
     "url": "https://www.asterdex.com/en/trade/pro/spot/GIGGLEUSDT"
+  },
+  "HEMIUSDT": {
+    "exchange": "spot",
+    "base": "hemi",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/HEMIUSDT"
   },
   "JCTUSDT": {
     "exchange": "spot",

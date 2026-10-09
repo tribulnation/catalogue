@@ -1,0 +1,22 @@
+{
+  "id": "stable",
+  "display_name": "Stable",
+  "symbol": "STABLE",
+  "category": "crypto",
+  "about": {
+    "en": "Stable (StableChain) is a Layer 1 blockchain for USDT payments and settlement, where gas is paid in USDT. STABLE, with a 100,000,000,000 supply, is the native token used for validator staking and governance rather than gas; it is also issued on BNB Chain and as a Hyperliquid spot token."
+  },
+  "external": {
+    "coingecko": "stable-2",
+    "coinmarketcap": "38892"
+  },
+  "tags": [
+    "L1",
+    "Payment"
+  ],
+  "urls": {
+    "Website": "https://www.stable.xyz/",
+    "Whitepaper": "https://www.stable.xyz/whitepaper.pdf",
+    "Source Code": "https://github.com/stablelabs/stable"
+  }
+}

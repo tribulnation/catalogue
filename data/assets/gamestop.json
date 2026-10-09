@@ -1,0 +1,17 @@
+{
+  "id": "gamestop",
+  "display_name": "GameStop",
+  "symbol": "GME",
+  "category": "stock",
+  "about": {
+    "en": "GameStop Corp. is a US retailer of video games, consoles and collectibles. In tokenized markets, GME is a reference equity for products tracking GameStop shares."
+  },
+  "urls": {
+    "Website": "https://www.gamestop.com/"
+  },
+  "external": {
+    "yahoo": "GME",
+    "twelvedata": "GME",
+    "alphavantage": "stock:GME"
+  }
+}
