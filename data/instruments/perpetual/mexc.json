@@ -1111,5 +1111,33 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/ILMNSTOCK_USDT"
+  },
+  "ALCHIPSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "alchip-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ALCHIPSTOCK_USDT"
+  },
+  "BABAHKSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "alibaba-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BABAHKSTOCK_USDT"
+  },
+  "TLNSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "talen-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TLNSTOCK_USDT"
+  },
+  "USDESTOCK_USDT": {
+    "exchange": "perp",
+    "base": "stablecoinx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/USDESTOCK_USDT"
   }
 }
