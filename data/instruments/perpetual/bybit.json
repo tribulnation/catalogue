@@ -3038,5 +3038,26 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CTUSDT"
+  },
+  "BWETUSDT": {
+    "exchange": "perp",
+    "base": "breakwave-tanker-shipping-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BWETUSDT"
+  },
+  "UMCUSDT": {
+    "exchange": "perp",
+    "base": "united-microelectronics-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/UMCUSDT"
+  },
+  "USDEXUSDT": {
+    "exchange": "perp",
+    "base": "stablecoinx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/USDEXUSDT"
   }
 }
