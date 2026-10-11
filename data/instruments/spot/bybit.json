@@ -87,7 +87,7 @@
     "exchange": "spot",
     "base": "delysium",
     "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/AGI/USDT"
+    "delisted": true
   },
   "AGLDUSDT": {
     "exchange": "spot",
@@ -2169,7 +2169,7 @@
     "exchange": "spot",
     "base": "scor",
     "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/SCOR/USDT"
+    "delisted": true
   },
   "SCRUSDT": {
     "exchange": "spot",

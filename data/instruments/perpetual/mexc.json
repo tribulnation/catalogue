@@ -723,7 +723,7 @@
   "HK0992_USDT": {
     "exchange": "perp",
     "base": "lenovo-group",
-    "quote": "tether",
+    "quote": "hong-kong-dollar",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/HK0992_USDT"
   },
@@ -1111,5 +1111,19 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/ILMNSTOCK_USDT"
+  },
+  "PCVXSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "vaxcyte",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PCVXSTOCK_USDT"
+  },
+  "XPSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "xp-inc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/XPSTOCK_USDT"
   }
 }
