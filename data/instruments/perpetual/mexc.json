@@ -1153,5 +1153,40 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/USDESTOCK_USDT"
+  },
+  "HCASTOCK_USDT": {
+    "exchange": "perp",
+    "base": "hca-healthcare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/HCASTOCK_USDT"
+  },
+  "MDBSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "mongodb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MDBSTOCK_USDT"
+  },
+  "PBRSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "petrobras-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PBRSTOCK_USDT"
+  },
+  "PMSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "philip-morris",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PMSTOCK_USDT"
+  },
+  "SHELSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "shell-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SHELSTOCK_USDT"
   }
 }
