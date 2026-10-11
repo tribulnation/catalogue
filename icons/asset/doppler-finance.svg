@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.0001 24.0001">
+  <rect x="0" y="0" width="24.0001" height="24.0001" fill="#000"/>
+  <g transform="translate(1.93,1.93) scale(0.8393)">
+    <g>
+      <g filter="url(#g1)">
+        <circle cx="4.8" cy="11.9997" r="4.8" fill="url(#g5)"/>
+      </g>
+      <g filter="url(#g2)">
+        <circle cx="19.2001" cy="11.9997" r="4.8" fill="url(#g6)"/>
+      </g>
+      <g filter="url(#g3)">
+        <circle cx="12.0001" cy="19.2001" r="4.8" fill="url(#g7)"/>
+      </g>
+      <g filter="url(#g4)">
+        <circle cx="12.0001" cy="4.8" r="4.8" fill="url(#g8)"/>
+      </g>
+    </g>
+    <defs>
+      <filter id="g1" x="0" y="7.19971" width="10.2" height="9.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dx="0.6"/>
+        <feGaussianBlur stdDeviation="0.3"/>
+        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
+        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_78"/>
+      </filter>
+      <filter id="g2" x="13.8001" y="7.19971" width="10.2" height="9.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dx="-0.6"/>
+        <feGaussianBlur stdDeviation="0.3"/>
+        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
+        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_78"/>
+      </filter>
+      <filter id="g3" x="7.20007" y="13.8001" width="9.6" height="10.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dy="-0.6"/>
+        <feGaussianBlur stdDeviation="0.3"/>
+        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
+        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_78"/>
+      </filter>
+      <filter id="g4" x="7.20007" y="0" width="9.6" height="10.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dy="0.6"/>
+        <feGaussianBlur stdDeviation="0.3"/>
+        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
+        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_78"/>
+      </filter>
+      <linearGradient id="g5" x1="0" y1="11.9997" x2="9.6" y2="11.9997" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#323232"/>
+        <stop offset="1" stop-color="white"/>
+      </linearGradient>
+      <linearGradient id="g6" x1="14.4001" y1="11.9997" x2="24.0001" y2="11.9997" gradientUnits="userSpaceOnUse">
+        <stop stop-color="white"/>
+        <stop offset="1" stop-color="#323232"/>
+      </linearGradient>
+      <linearGradient id="g7" x1="12.0001" y1="14.4001" x2="12.0001" y2="24.0001" gradientUnits="userSpaceOnUse">
+        <stop stop-color="white"/>
+        <stop offset="1" stop-color="#323232"/>
+      </linearGradient>
+      <linearGradient id="g8" x1="12.0001" y1="0" x2="12.0001" y2="9.6" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#323232"/>
+        <stop offset="1" stop-color="white"/>
+      </linearGradient>
+    </defs>
+  </g>
+</svg>
