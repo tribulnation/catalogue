@@ -1312,5 +1312,29 @@
     "base": "ibvm",
     "quote": "tether",
     "url": "https://www.mexc.com/exchange/IBVM_USDT"
+  },
+  "DRVUSDT": {
+    "exchange": "spot",
+    "base": "derive",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/DRV_USDT"
+  },
+  "CENTUSDT": {
+    "exchange": "spot",
+    "base": "incentiv",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/CENT_USDT"
+  },
+  "CLAUDIAUSDT": {
+    "exchange": "spot",
+    "base": "claudia",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/CLAUDIA_USDT"
+  },
+  "CLAUDIAUSD1": {
+    "exchange": "spot",
+    "base": "claudia",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/CLAUDIA_USD1"
   }
 }
