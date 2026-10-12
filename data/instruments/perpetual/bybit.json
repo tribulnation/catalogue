@@ -3080,5 +3080,12 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/USDEXUSDT"
+  },
+  "GTLBUSDT": {
+    "exchange": "perp",
+    "base": "gitlab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GTLBUSDT"
   }
 }
