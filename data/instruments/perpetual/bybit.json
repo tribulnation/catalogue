@@ -3080,5 +3080,54 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/USDEXUSDT"
+  },
+  "ACNUSDT": {
+    "exchange": "perp",
+    "base": "accenture",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ACNUSDT"
+  },
+  "BMNUUSDT": {
+    "exchange": "perp",
+    "base": "t-rex-2x-long-bmnr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BMNUUSDT"
+  },
+  "MELIUSDT": {
+    "exchange": "perp",
+    "base": "mercadolibre",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MELIUSDT"
+  },
+  "NUSTOCKUSDT": {
+    "exchange": "perp",
+    "base": "nu-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/NUSTOCKUSDT"
+  },
+  "PBRUSDT": {
+    "exchange": "perp",
+    "base": "petrobras-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PBRUSDT"
+  },
+  "VISTUSDT": {
+    "exchange": "perp",
+    "base": "vista-energy-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/VISTUSDT"
+  },
+  "YPFUSDT": {
+    "exchange": "perp",
+    "base": "ypf-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/YPFUSDT"
   }
 }
