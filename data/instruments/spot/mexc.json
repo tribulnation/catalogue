@@ -1336,5 +1336,17 @@
     "base": "claudia",
     "quote": "usd1",
     "url": "https://www.mexc.com/exchange/CLAUDIA_USD1"
+  },
+  "BORDRUSD1": {
+    "exchange": "spot",
+    "base": "bordrless",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/BORDR_USD1"
+  },
+  "BORDRUSDT": {
+    "exchange": "spot",
+    "base": "bordrless",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/BORDR_USDT"
   }
 }

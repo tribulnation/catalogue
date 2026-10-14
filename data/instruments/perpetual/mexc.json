@@ -1195,5 +1195,40 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/CLAUDIA_USDT"
+  },
+  "AMTSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "american-tower",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AMTSTOCK_USDT"
+  },
+  "CCISTOCK_USDT": {
+    "exchange": "perp",
+    "base": "crown-castle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CCISTOCK_USDT"
+  },
+  "FICOSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "fair-isaac",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/FICOSTOCK_USDT"
+  },
+  "TMUSSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "t-mobile-us",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TMUSSTOCK_USDT"
+  },
+  "WMBSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "williams-companies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/WMBSTOCK_USDT"
   }
 }

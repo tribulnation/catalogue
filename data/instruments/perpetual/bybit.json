@@ -3136,5 +3136,26 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/YPFUSDT"
+  },
+  "GRALUSDT": {
+    "exchange": "perp",
+    "base": "grail",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GRALUSDT"
+  },
+  "SNPSUSDT": {
+    "exchange": "perp",
+    "base": "synopsys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SNPSUSDT"
+  },
+  "ZCSHUSDT": {
+    "exchange": "perp",
+    "base": "grayscale-zcash-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ZCSHUSDT"
   }
 }
