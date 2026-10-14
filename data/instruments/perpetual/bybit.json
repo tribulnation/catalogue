@@ -3101,5 +3101,19 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ZCSHUSDT"
+  },
+  "VISTUSDT": {
+    "exchange": "perp",
+    "base": "vista-energy-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/VISTUSDT"
+  },
+  "YPFUSDT": {
+    "exchange": "perp",
+    "base": "ypf-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/YPFUSDT"
   }
 }
