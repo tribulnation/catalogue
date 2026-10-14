@@ -1312,5 +1312,17 @@
     "base": "ibvm",
     "quote": "tether",
     "url": "https://www.mexc.com/exchange/IBVM_USDT"
+  },
+  "BORDRUSD1": {
+    "exchange": "spot",
+    "base": "bordrless",
+    "quote": "usd1",
+    "url": "https://www.mexc.com/exchange/BORDR_USD1"
+  },
+  "BORDRUSDT": {
+    "exchange": "spot",
+    "base": "bordrless",
+    "quote": "tether",
+    "url": "https://www.mexc.com/exchange/BORDR_USDT"
   }
 }

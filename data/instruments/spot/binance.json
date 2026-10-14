@@ -3880,5 +3880,11 @@
     "base": "stablecoinx-bstock",
     "quote": "tether",
     "url": "https://www.binance.com/en/trade/USDEB_USDT"
+  },
+  "RWUSDUSDT": {
+    "exchange": "spot",
+    "base": "rwusd",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/RWUSD_USDT"
   }
 }

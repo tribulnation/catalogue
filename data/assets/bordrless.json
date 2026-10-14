@@ -1,0 +1,15 @@
+{
+  "id": "bordrless",
+  "display_name": "Bordrless",
+  "symbol": "BORDR",
+  "category": "crypto",
+  "about": {
+    "en": "Bordrless is a Solana project building a token standard whose transfer hooks return an amount rather than only approving or rejecting a transfer, together with a DEX that calls those hooks on every swap and a launchpad built on the same standard. BORDR is its token, a Solana SPL mint with six decimals at 6Mix12LiHrQFojaQEnfPUC65Qkwd6X4Y5Qg93oFbordr."
+  },
+  "urls": {
+    "Website": "https://bordrless.app"
+  },
+  "external": {
+    "coingecko": "bordrless"
+  }
+}
