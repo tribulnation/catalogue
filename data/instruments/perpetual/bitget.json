@@ -1720,5 +1720,19 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitget.com/futures/usdt/XPUSDT"
+  },
+  "FASTRETAILINGUSDT": {
+    "exchange": "usdt",
+    "base": "fast-retailing",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/FASTRETAILINGUSDT"
+  },
+  "JIOUSDT": {
+    "exchange": "usdt",
+    "base": "jio-platforms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/JIOUSDT"
   }
 }

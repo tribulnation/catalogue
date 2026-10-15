@@ -1153,5 +1153,40 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/USDESTOCK_USDT"
+  },
+  "BPSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "bp-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BPSTOCK_USDT"
+  },
+  "BSXSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "boston-scientific",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BSXSTOCK_USDT"
+  },
+  "MRSHSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "marsh-and-mclennan",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MRSHSTOCK_USDT"
+  },
+  "PLDSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "prologis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PLDSTOCK_USDT"
+  },
+  "TSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "at-and-t",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TSTOCK_USDT"
   }
 }
