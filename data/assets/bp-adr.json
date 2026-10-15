@@ -1,0 +1,18 @@
+{
+  "id": "bp-adr",
+  "display_name": "BP ADR",
+  "symbol": "BP",
+  "category": "stock",
+  "tags": [
+    "ADR"
+  ],
+  "about": {
+    "en": "BP p.l.c. is a British integrated energy company whose operations span oil and gas production, refining, fuels and convenience retail, trading and low-carbon energy. BP represents its US-listed American depositary shares on the NYSE, each of which stands for six ordinary shares, and in derivative markets BP is the reference equity for products tracking those depositary shares rather than the London-listed ordinary shares."
+  },
+  "urls": {
+    "SEC filings": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000313807&type=10-K&dateb=&owner=include&count=40"
+  },
+  "external": {
+    "yahoo": "BP"
+  }
+}
