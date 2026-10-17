@@ -3880,5 +3880,35 @@
     "base": "stablecoinx-bstock",
     "quote": "tether",
     "url": "https://www.binance.com/en/trade/USDEB_USDT"
+  },
+  "RWUSDUSDT": {
+    "exchange": "spot",
+    "base": "rwusd",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/RWUSD_USDT"
+  },
+  "BBBUSDT": {
+    "exchange": "spot",
+    "base": "blackberry-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/BBB_USDT"
+  },
+  "MDBBUSDT": {
+    "exchange": "spot",
+    "base": "mongodb-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/MDBB_USDT"
+  },
+  "PENGBUSDT": {
+    "exchange": "spot",
+    "base": "penguin-solutions-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/PENGB_USDT"
+  },
+  "UVXYBUSDT": {
+    "exchange": "spot",
+    "base": "proshares-ultra-vix-short-term-futures-etf-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/UVXYB_USDT"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "id": "proshares-ultra-vix-short-term-futures-etf-bstock",
+  "display_name": "ProShares Ultra VIX Short-Term Futures ETF bStock",
+  "symbol": "UVXYB",
+  "category": "rwa",
+  "about": {
+    "en": "ProShares Ultra VIX Short-Term Futures ETF bStock (UVXYB) is a tokenized share of the ProShares Ultra VIX Short-Term Futures ETF issued by BTech Holdings Limited, a Binance group affiliate, under Binance's bStocks brand. It is a BEP-20 token on BNB Chain, backed 1:1 by UVXY shares held with a regulated custodian and convertible 1:1 into the underlying fund share, so it inherits the daily-reset 1.5x leverage and roll costs of the ETF itself. bStocks are admitted to trading under prospectuses approved by the ADGM Financial Services Regulatory Authority and are not offered in every jurisdiction."
+  },
+  "external": {
+    "coinmarketcap": "42537"
+  },
+  "pegged_to": {
+    "asset": "proshares-ultra-vix-short-term-futures-etf"
+  },
+  "tags": [
+    "ETF",
+    "Leveraged"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}

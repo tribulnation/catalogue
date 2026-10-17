@@ -2344,7 +2344,7 @@
     "base": "stargate-finance",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.bybit.com/trade/usdt/STGUSDT"
+    "delisted": true
   },
   "STONKUSDT": {
     "exchange": "perp",
@@ -3080,5 +3080,82 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/USDEXUSDT"
+  },
+  "GTLBUSDT": {
+    "exchange": "perp",
+    "base": "gitlab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GTLBUSDT"
+  },
+  "ACNUSDT": {
+    "exchange": "perp",
+    "base": "accenture",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ACNUSDT"
+  },
+  "BMNUUSDT": {
+    "exchange": "perp",
+    "base": "t-rex-2x-long-bmnr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BMNUUSDT"
+  },
+  "MELIUSDT": {
+    "exchange": "perp",
+    "base": "mercadolibre",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MELIUSDT"
+  },
+  "NUSTOCKUSDT": {
+    "exchange": "perp",
+    "base": "nu-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/NUSTOCKUSDT"
+  },
+  "PBRUSDT": {
+    "exchange": "perp",
+    "base": "petrobras-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PBRUSDT"
+  },
+  "VISTUSDT": {
+    "exchange": "perp",
+    "base": "vista-energy-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/VISTUSDT"
+  },
+  "YPFUSDT": {
+    "exchange": "perp",
+    "base": "ypf-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/YPFUSDT"
+  },
+  "GRALUSDT": {
+    "exchange": "perp",
+    "base": "grail",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GRALUSDT"
+  },
+  "SNPSUSDT": {
+    "exchange": "perp",
+    "base": "synopsys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SNPSUSDT"
+  },
+  "ZCSHUSDT": {
+    "exchange": "perp",
+    "base": "grayscale-zcash-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ZCSHUSDT"
   }
 }
