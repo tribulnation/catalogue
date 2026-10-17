@@ -690,7 +690,7 @@
     "base": "ubik",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/UBIK_USDT"
+    "delisted": true
   },
   "AURORA_USDT": {
     "exchange": "perp",
@@ -1272,5 +1272,82 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/CENT_USDT"
+  },
+  "CAHSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "cardinal-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CAHSTOCK_USDT"
+  },
+  "MCKSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "mckesson",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MCKSTOCK_USDT"
+  },
+  "UNPSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "union-pacific",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/UNPSTOCK_USDT"
+  },
+  "VZSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "verizon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/VZSTOCK_USDT"
+  },
+  "WFCSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "wells-fargo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/WFCSTOCK_USDT"
+  },
+  "FIXSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "comfort-systems-usa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/FIXSTOCK_USDT"
+  },
+  "KEYSSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "keysight-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/KEYSSTOCK_USDT"
+  },
+  "KMBSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "kimberly-clark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/KMBSTOCK_USDT"
+  },
+  "PGSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "procter-and-gamble",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PGSTOCK_USDT"
+  },
+  "URISTOCK_USDT": {
+    "exchange": "perp",
+    "base": "united-rentals",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/URISTOCK_USDT"
+  },
+  "DNA_USDT": {
+    "exchange": "perp",
+    "base": "neosoul",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/DNA_USDT"
   }
 }
