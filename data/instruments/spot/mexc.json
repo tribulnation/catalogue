@@ -1119,13 +1119,13 @@
     "exchange": "spot",
     "base": "schiffy",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/SCHIFFY_USDT"
+    "delisted": true
   },
   "SCHIFFYUSD1": {
     "exchange": "spot",
     "base": "schiffy",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/SCHIFFY_USD1"
+    "delisted": true
   },
   "STOCKERUSDT": {
     "exchange": "spot",
