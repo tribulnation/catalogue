@@ -3157,5 +3157,19 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ZCSHUSDT"
+  },
+  "DNAUSDT": {
+    "exchange": "perp",
+    "base": "neosoul",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/DNAUSDT"
+  },
+  "DRVUSDT": {
+    "exchange": "perp",
+    "base": "derive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/DRVUSDT"
   }
 }
