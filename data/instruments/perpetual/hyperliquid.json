@@ -514,7 +514,7 @@
     "exchange": "cash",
     "base": "west-texas-intermediate",
     "quote": "tether",
-    "settlement": "usd-coin",
+    "settlement": "tether",
     "delisted": true
   },
   "APE": {
@@ -1499,6 +1499,660 @@
     "base": "just-a-chill-guy",
     "quote": "tether",
     "settlement": "usd-coin",
+    "delisted": true
+  },
+  "CHIP": {
+    "exchange": "",
+    "base": "usd-ai",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/CHIP"
+  },
+  "CYBER": {
+    "exchange": "",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "DASH": {
+    "exchange": "",
+    "base": "dash",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/DASH"
+  },
+  "DOOD": {
+    "exchange": "",
+    "base": "doodles",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "FOGO": {
+    "exchange": "",
+    "base": "fogo",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/FOGO"
+  },
+  "FTM": {
+    "exchange": "",
+    "base": "sonic",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "FTT": {
+    "exchange": "",
+    "base": "ftx-token",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "FXS": {
+    "exchange": "",
+    "base": "frax-share",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "GAS": {
+    "exchange": "",
+    "base": "neo-gas",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/GAS"
+  },
+  "GOAT": {
+    "exchange": "",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/GOAT"
+  },
+  "GRAM": {
+    "exchange": "",
+    "base": "toncoin",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/GRAM"
+  },
+  "GRIFFAIN": {
+    "exchange": "",
+    "base": "griffain",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/GRIFFAIN"
+  },
+  "HMSTR": {
+    "exchange": "",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/HMSTR"
+  },
+  "HPOS": {
+    "exchange": "",
+    "base": "harrypotterobamasonic10inu",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "HYPER": {
+    "exchange": "",
+    "base": "hyperlane",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/HYPER"
+  },
+  "ILV": {
+    "exchange": "",
+    "base": "illuvium",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "INIT": {
+    "exchange": "",
+    "base": "initia",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/INIT"
+  },
+  "IP": {
+    "exchange": "",
+    "base": "story",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "JELLY": {
+    "exchange": "",
+    "base": "jelly-my-jelly",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "KAITO": {
+    "exchange": "",
+    "base": "kaito",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/KAITO"
+  },
+  "LISTA": {
+    "exchange": "",
+    "base": "lista",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "LOOM": {
+    "exchange": "",
+    "base": "loom-network",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "MANTA": {
+    "exchange": "",
+    "base": "manta-network",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/MANTA"
+  },
+  "MATIC": {
+    "exchange": "",
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "MAV": {
+    "exchange": "",
+    "base": "maverick-protocol",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "MAVIA": {
+    "exchange": "",
+    "base": "heroes-of-mavia",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "ME": {
+    "exchange": "",
+    "base": "magic-eden",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/ME"
+  },
+  "MEGA": {
+    "exchange": "",
+    "base": "megaeth",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/MEGA"
+  },
+  "MELANIA": {
+    "exchange": "",
+    "base": "melania-meme",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/MELANIA"
+  },
+  "MEME": {
+    "exchange": "",
+    "base": "memecoin",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/MEME"
+  },
+  "MERL": {
+    "exchange": "",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/MERL"
+  },
+  "MEW": {
+    "exchange": "",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "MINA": {
+    "exchange": "",
+    "base": "mina-protocol",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/MINA"
+  },
+  "MKR": {
+    "exchange": "",
+    "base": "maker",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "MOVE": {
+    "exchange": "",
+    "base": "movement",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/MOVE"
+  },
+  "MYRO": {
+    "exchange": "",
+    "base": "myro",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "NTRN": {
+    "exchange": "",
+    "base": "neutron",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "NXPC": {
+    "exchange": "",
+    "base": "nexpace",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/NXPC"
+  },
+  "OGN": {
+    "exchange": "",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "OM": {
+    "exchange": "",
+    "base": "mantra-old",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "OMNI": {
+    "exchange": "",
+    "base": "omni-network",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "ORBS": {
+    "exchange": "",
+    "base": "orbs",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "PANDORA": {
+    "exchange": "",
+    "base": "pandora",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "PEOPLE": {
+    "exchange": "",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/PEOPLE"
+  },
+  "PIXEL": {
+    "exchange": "",
+    "base": "pixels",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "POLYX": {
+    "exchange": "",
+    "base": "polymesh",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/POLYX"
+  },
+  "PONS": {
+    "exchange": "",
+    "base": "pons",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/PONS"
+  },
+  "POPCAT": {
+    "exchange": "",
+    "base": "popcat",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/POPCAT"
+  },
+  "PROMPT": {
+    "exchange": "",
+    "base": "prompt",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "PROVE": {
+    "exchange": "",
+    "base": "succinct",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/PROVE"
+  },
+  "RDNT": {
+    "exchange": "",
+    "base": "radiant-capital",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "REQ": {
+    "exchange": "",
+    "base": "request",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "RESOLV": {
+    "exchange": "",
+    "base": "resolv",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/RESOLV"
+  },
+  "RLB": {
+    "exchange": "",
+    "base": "rollbit-coin",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "RNDR": {
+    "exchange": "",
+    "base": "render",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "RSR": {
+    "exchange": "",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/RSR"
+  },
+  "SCR": {
+    "exchange": "",
+    "base": "scroll",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "SHIA": {
+    "exchange": "",
+    "base": "shiba-saga",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "SKR": {
+    "exchange": "",
+    "base": "seeker",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/SKR"
+  },
+  "SOPH": {
+    "exchange": "",
+    "base": "sophon",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/SOPH"
+  },
+  "SPX": {
+    "exchange": "",
+    "base": "spx6900",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/SPX"
+  },
+  "STBL": {
+    "exchange": "",
+    "base": "stbl",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/STBL"
+  },
+  "STG": {
+    "exchange": "",
+    "base": "stargate-finance",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "STRAX": {
+    "exchange": "",
+    "base": "xertra",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "SUPER": {
+    "exchange": "",
+    "base": "superfarm",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/SUPER"
+  },
+  "SUSHI": {
+    "exchange": "",
+    "base": "sushi",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/SUSHI"
+  },
+  "TNSR": {
+    "exchange": "",
+    "base": "tensor",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/TNSR"
+  },
+  "TRB": {
+    "exchange": "",
+    "base": "tellor",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/TRB"
+  },
+  "TURBO": {
+    "exchange": "",
+    "base": "turbo",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/TURBO"
+  },
+  "UMA": {
+    "exchange": "",
+    "base": "uma",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/UMA"
+  },
+  "UNIBOT": {
+    "exchange": "",
+    "base": "unibot",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "USELESS": {
+    "exchange": "",
+    "base": "useless-coin",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/USELESS"
+  },
+  "USTC": {
+    "exchange": "",
+    "base": "terrausd",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "VINE": {
+    "exchange": "",
+    "base": "vine",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "WCT": {
+    "exchange": "",
+    "base": "walletconnect",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/WCT"
+  },
+  "XAI": {
+    "exchange": "",
+    "base": "xai",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/XAI"
+  },
+  "YGG": {
+    "exchange": "",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/YGG"
+  },
+  "YZY": {
+    "exchange": "",
+    "base": "yzy",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "ZEN": {
+    "exchange": "",
+    "base": "horizen",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/ZEN"
+  },
+  "ZEREBRO": {
+    "exchange": "",
+    "base": "zerebro",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "kDOGS": {
+    "exchange": "",
+    "base": "dogs",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "delisted": true
+  },
+  "kLUNC": {
+    "exchange": "",
+    "base": "terra-classic",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://app.hyperliquid.xyz/trade/kLUNC"
+  },
+  "kNEIRO": {
+    "exchange": "",
+    "base": "neiro",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://app.hyperliquid.xyz/trade/kNEIRO"
+  },
+  "cash:AMZN": {
+    "exchange": "cash",
+    "base": "amazon",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:BTC": {
+    "exchange": "cash",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:CAR": {
+    "exchange": "cash",
+    "base": "avis-budget-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:ETH": {
+    "exchange": "cash",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:EWY": {
+    "exchange": "cash",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:GOLD": {
+    "exchange": "cash",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:GOOGL": {
+    "exchange": "cash",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:HOOD": {
+    "exchange": "cash",
+    "base": "robinhood-markets",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:INTC": {
+    "exchange": "cash",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:KWEB": {
+    "exchange": "cash",
+    "base": "kraneshares-csi-china-internet-etf",
+    "quote": "tether",
+    "settlement": "tether",
     "delisted": true
   }
 }
