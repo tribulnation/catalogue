@@ -2154,5 +2154,496 @@
     "quote": "tether",
     "settlement": "tether",
     "delisted": true
+  },
+  "cash:META": {
+    "exchange": "cash",
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:MSFT": {
+    "exchange": "cash",
+    "base": "microsoft",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:NVDA": {
+    "exchange": "cash",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:SILVER": {
+    "exchange": "cash",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "cash:TSLA": {
+    "exchange": "cash",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "tether",
+    "delisted": true
+  },
+  "flx:BTC": {
+    "exchange": "flx",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "flx:COIN": {
+    "exchange": "flx",
+    "base": "coinbase",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "flx:COPPER": {
+    "exchange": "flx",
+    "base": "copper",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "flx:CRCL": {
+    "exchange": "flx",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "flx:GAS": {
+    "exchange": "flx",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "flx:GOLD": {
+    "exchange": "flx",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "flx:NVDA": {
+    "exchange": "flx",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "flx:PALLADIUM": {
+    "exchange": "flx",
+    "base": "palladium",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "flx:PLATINUM": {
+    "exchange": "flx",
+    "base": "platinum",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "flx:SILVER": {
+    "exchange": "flx",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "flx:TSLA": {
+    "exchange": "flx",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "flx:USDE": {
+    "exchange": "flx",
+    "base": "ethena-usde",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "hyna:1000PEPE": {
+    "exchange": "hyna",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "multiplier": 1000,
+    "delisted": true
+  },
+  "hyna:ADA": {
+    "exchange": "hyna",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:BCH": {
+    "exchange": "hyna",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:BNB": {
+    "exchange": "hyna",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:BTC": {
+    "exchange": "hyna",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:DOGE": {
+    "exchange": "hyna",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:ETH": {
+    "exchange": "hyna",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:GOLD": {
+    "exchange": "hyna",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:IP": {
+    "exchange": "hyna",
+    "base": "story",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:LIGHTER": {
+    "exchange": "hyna",
+    "base": "lighter",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:LINK": {
+    "exchange": "hyna",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:LIT": {
+    "exchange": "hyna",
+    "base": "lighter",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:LTC": {
+    "exchange": "hyna",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:SILVER": {
+    "exchange": "hyna",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:SUI": {
+    "exchange": "hyna",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "hyna:XRP": {
+    "exchange": "hyna",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
+  },
+  "io:ANTH": {
+    "exchange": "io",
+    "base": "anthropic",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/io:ANTH"
+  },
+  "io:EWY": {
+    "exchange": "io",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/io:EWY"
+  },
+  "io:GPRO": {
+    "exchange": "io",
+    "base": "gopro",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/io:GPRO"
+  },
+  "io:IONQ": {
+    "exchange": "io",
+    "base": "ionq",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/io:IONQ"
+  },
+  "io:NBIS": {
+    "exchange": "io",
+    "base": "nebius-group",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/io:NBIS"
+  },
+  "io:OAI": {
+    "exchange": "io",
+    "base": "openai",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/io:OAI"
+  },
+  "io:SNDK": {
+    "exchange": "io",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/io:SNDK"
+  },
+  "km:AAPL": {
+    "exchange": "km",
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:BABA": {
+    "exchange": "km",
+    "base": "alibaba-group-adr",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:BMNR": {
+    "exchange": "km",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:EUR": {
+    "exchange": "km",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:GOLD": {
+    "exchange": "km",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:GOOGL": {
+    "exchange": "km",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:MU": {
+    "exchange": "km",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:NVDA": {
+    "exchange": "km",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:PLTR": {
+    "exchange": "km",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:RTX": {
+    "exchange": "km",
+    "base": "rtx",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:SILVER": {
+    "exchange": "km",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:TENCENT": {
+    "exchange": "km",
+    "base": "tencent-holdings",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:TSLA": {
+    "exchange": "km",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "km:XIAOMI": {
+    "exchange": "km",
+    "base": "xiaomi",
+    "quote": "tether",
+    "settlement": "hyperliquid-usd",
+    "delisted": true
+  },
+  "para:ANTH": {
+    "exchange": "para",
+    "base": "anthropic",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "para:AVGO": {
+    "exchange": "para",
+    "base": "broadcom",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:AVGO"
+  },
+  "mkts:AAPL": {
+    "exchange": "mkts",
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:BABA": {
+    "exchange": "mkts",
+    "base": "alibaba-group-adr",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:BMNR": {
+    "exchange": "mkts",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:EUR": {
+    "exchange": "mkts",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:GOLD": {
+    "exchange": "mkts",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:GOOGL": {
+    "exchange": "mkts",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:MU": {
+    "exchange": "mkts",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:NVDA": {
+    "exchange": "mkts",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:PLTR": {
+    "exchange": "mkts",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:RTX": {
+    "exchange": "mkts",
+    "base": "rtx",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:SILVER": {
+    "exchange": "mkts",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:TENCENT": {
+    "exchange": "mkts",
+    "base": "tencent-holdings",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:TSLA": {
+    "exchange": "mkts",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "mkts:XIAOMI": {
+    "exchange": "mkts",
+    "base": "xiaomi",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
   }
 }

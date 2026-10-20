@@ -1832,5 +1832,33 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitget.com/futures/usdt/JIOUSDT"
+  },
+  "MDTUSDT": {
+    "exchange": "usdt",
+    "base": "medtronic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/MDTUSDT"
+  },
+  "BPUSDT": {
+    "exchange": "usdt",
+    "base": "bp-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/BPUSDT"
+  },
+  "CSTOCKUSDT": {
+    "exchange": "usdt",
+    "base": "citigroup",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/CSTOCKUSDT"
+  },
+  "VLOUSDT": {
+    "exchange": "usdt",
+    "base": "valero-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/VLOUSDT"
   }
 }
