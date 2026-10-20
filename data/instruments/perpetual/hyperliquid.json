@@ -2645,5 +2645,12 @@
     "quote": "tether",
     "settlement": "usd-coin",
     "delisted": true
+  },
+  "hyna:BASED": {
+    "exchange": "hyna",
+    "base": "based",
+    "quote": "tether",
+    "settlement": "ethena-usde",
+    "delisted": true
   }
 }
