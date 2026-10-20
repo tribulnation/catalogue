@@ -136,5 +136,47 @@
     "base": "tread-fi",
     "quote": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/TREAD/USDC"
+  },
+  "ANON/USDC:174": {
+    "exchange": "spot",
+    "base": "heyanon",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/ANON/USDC"
+  },
+  "AXL/USDH:252": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "hyperliquid-usd",
+    "url": "https://app.hyperliquid.xyz/trade/AXL/USDH"
+  },
+  "AZTEC/USDC:285": {
+    "exchange": "spot",
+    "base": "aztec",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/AZTEC/USDC"
+  },
+  "BASED/USDC:305": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/BASED/USDC"
+  },
+  "DRV/USDC:700": {
+    "exchange": "spot",
+    "base": "derive",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/DRV/USDC"
+  },
+  "FLOCK/USDC:707": {
+    "exchange": "spot",
+    "base": "flock",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/FLOCK/USDC"
+  },
+  "FLR/USDC:225": {
+    "exchange": "spot",
+    "base": "flare",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/FLR/USDC"
   }
 }

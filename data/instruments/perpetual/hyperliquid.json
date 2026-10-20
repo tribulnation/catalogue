@@ -2652,5 +2652,89 @@
     "quote": "tether",
     "settlement": "ethena-usde",
     "delisted": true
+  },
+  "para:CAMBRICON": {
+    "exchange": "para",
+    "base": "cambricon",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "para:COHR": {
+    "exchange": "para",
+    "base": "coherent-corp",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:COHR"
+  },
+  "para:CRDO": {
+    "exchange": "para",
+    "base": "credo-technology-group",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:CRDO"
+  },
+  "para:CRWD": {
+    "exchange": "para",
+    "base": "crowdstrike",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:CRWD"
+  },
+  "para:IREN": {
+    "exchange": "para",
+    "base": "iren",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:IREN"
+  },
+  "para:MELI": {
+    "exchange": "para",
+    "base": "mercadolibre",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:MELI"
+  },
+  "para:NAVER": {
+    "exchange": "para",
+    "base": "naver",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "para:SMCI": {
+    "exchange": "para",
+    "base": "super-micro-computer",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:SMCI"
+  },
+  "para:STX": {
+    "exchange": "para",
+    "base": "seagate-technology",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:STX"
+  },
+  "para:TENCENT": {
+    "exchange": "para",
+    "base": "tencent-holdings",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "para:TER": {
+    "exchange": "para",
+    "base": "teradyne",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:TER"
+  },
+  "para:VST": {
+    "exchange": "para",
+    "base": "vistra",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:VST"
   }
 }
