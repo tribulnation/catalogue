@@ -1349,5 +1349,33 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/DNA_USDT"
+  },
+  "ALLSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "allstate",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ALLSTOCK_USDT"
+  },
+  "DIASTOCK_USDT": {
+    "exchange": "perp",
+    "base": "spdr-dow-jones-industrial-average-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/DIASTOCK_USDT"
+  },
+  "EOGSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "eog-resources",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/EOGSTOCK_USDT"
+  },
+  "NXPISTOCK_USDT": {
+    "exchange": "perp",
+    "base": "nxp-semiconductors",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/NXPISTOCK_USDT"
   }
 }
