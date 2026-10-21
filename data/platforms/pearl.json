@@ -1,0 +1,19 @@
+{
+  "display_name": "Pearl",
+  "native_asset": "pearl",
+  "about": {
+    "en": "Pearl is a layer-1 proof-of-work blockchain by Pearl Research Labs in which mining is a by-product of the matrix multiplications that GPUs run for AI workloads (Proof of Useful Work). Its full node, pearld, derives from btcd, so it uses Bitcoin's UTXO model; mainnet addresses are bech32m with the prl prefix.",
+    "es": "Pearl es una blockchain de capa 1 (layer 1) de prueba de trabajo (proof-of-work) creada por Pearl Research Labs, en la que la minería es un subproducto de las multiplicaciones de matrices que las GPU ejecutan para cargas de trabajo de IA (Proof of Useful Work). Su nodo completo, pearld, deriva de btcd, por lo que usa el modelo UTXO de Bitcoin; las direcciones de mainnet son bech32m con el prefijo prl.",
+    "ca": "Pearl és una blockchain de capa 1 (layer 1) de prova de treball (proof-of-work) creada per Pearl Research Labs, en què la mineria és un subproducte de les multiplicacions de matrius que les GPU executen per a càrregues de treball d'IA (Proof of Useful Work). El seu node complet, pearld, deriva de btcd, de manera que fa servir el model UTXO de Bitcoin; les adreces de mainnet són bech32m amb el prefix prl."
+  },
+  "urls": {
+    "Website": "https://pearlresearch.ai/",
+    "Source code": "https://github.com/pearl-research-labs/pearl",
+    "Explorer": "https://explorer.pearlresearch.ai/?network=mainnet"
+  },
+  "icon": "icons/asset/pearl.svg",
+  "kind": "blockchain",
+  "namespace": "bip122",
+  "chain_id": "a18d3093b7ff618f0cdd073fa3d10374",
+  "category": "utxo"
+}
