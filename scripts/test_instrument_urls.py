@@ -67,15 +67,14 @@ class CoinbaseUrlsTest(unittest.TestCase):
 
 
 class MarginTradeUrlsTest(unittest.TestCase):
-  """Pairs use the app's `-` slug; testnet-only markets link to the testnet app."""
+  """Pairs use the app's `-` slug."""
 
   def test_urls(self):
     symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
     cases = [
       (PERPETUAL_RULES, 'BTC', 'https://margin.trade/trade/BTC'),
-      (SPOT_RULES, 'PRL/USDC', 'https://margin.trade/trade/PRL-USDC'),
-      (PERPETUAL_RULES, 'PEARL', 'https://testnet.margin.trade/trade/PEARL'),
-      (SPOT_RULES, 'PEARL/USDC', 'https://testnet.margin.trade/trade/PEARL-USDC'),
+      (PERPETUAL_RULES, 'PEARL', 'https://margin.trade/trade/PEARL'),
+      (SPOT_RULES, 'PEARL/USDC', 'https://margin.trade/trade/PEARL-USDC'),
     ]
     for rules, id, url in cases:
       with self.subTest(id=id):

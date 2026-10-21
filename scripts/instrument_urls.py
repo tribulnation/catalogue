@@ -124,16 +124,9 @@ def lighter_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> 
   return f'https://app.lighter.xyz/trade/{prefix}{symbol}'
 
 
-# Markets only margin.trade's testnet lists, under the token's testnet name `PEARL`
-# (mainnet: `PRL`). Testnet venue ids share the mainnet platform's keys.
-_MARGIN_TRADE_TESTNET_ONLY = {'PEARL', 'PEARL/USDC'}
-
-
 def margin_trade_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
-  """`/trade/<market>`, the pair's `/` spelled `-` (`PRL/USDC` -> `PRL-USDC`), on the
-  testnet app for testnet-only markets."""
-  host = 'testnet.margin.trade' if id in _MARGIN_TRADE_TESTNET_ONLY else 'margin.trade'
-  return f'https://{host}/trade/{id.replace("/", "-")}'
+  """`/trade/<market>`, the pair's `/` spelled `-` (`PEARL/USDC` -> `PEARL-USDC`)."""
+  return f'https://margin.trade/trade/{id.replace("/", "-")}'
 
 
 Rule = Callable[[str, Instrument, Symbols], str | None]

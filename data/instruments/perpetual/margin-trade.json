@@ -55,12 +55,12 @@
     "settlement": "usd-coin",
     "url": "https://margin.trade/trade/XAU"
   },
-  "PRL": {
+  "PEARL": {
     "exchange": "perp",
     "base": "pearl",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://margin.trade/trade/PRL"
+    "url": "https://margin.trade/trade/PEARL"
   },
   "MU": {
     "exchange": "perp",
@@ -201,12 +201,5 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://margin.trade/trade/XCU"
-  },
-  "PEARL": {
-    "exchange": "perp",
-    "base": "pearl",
-    "quote": "usd-coin",
-    "settlement": "usd-coin",
-    "url": "https://testnet.margin.trade/trade/PEARL"
   }
 }
