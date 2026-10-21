@@ -124,6 +124,18 @@ def lighter_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> 
   return f'https://app.lighter.xyz/trade/{prefix}{symbol}'
 
 
+# Markets only margin.trade's testnet lists, under the token's testnet name `PEARL`
+# (mainnet: `PRL`). Testnet venue ids share the mainnet platform's keys.
+_MARGIN_TRADE_TESTNET_ONLY = {'PEARL', 'PEARL/USDC'}
+
+
+def margin_trade_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
+  """`/trade/<market>`, the pair's `/` spelled `-` (`PRL/USDC` -> `PRL-USDC`), on the
+  testnet app for testnet-only markets."""
+  host = 'testnet.margin.trade' if id in _MARGIN_TRADE_TESTNET_ONLY else 'margin.trade'
+  return f'https://{host}/trade/{id.replace("/", "-")}'
+
+
 Rule = Callable[[str, Instrument, Symbols], str | None]
 
 SPOT_RULES: dict[str, Rule] = {
@@ -141,6 +153,7 @@ SPOT_RULES: dict[str, Rule] = {
   'lighter': lambda id, inst, sym: 'https://app.lighter.xyz/trade/{}_{}'.format(
     _lighter_symbol(str(inst['base']), sym), _lighter_symbol(str(inst['quote']), sym)
   ),
+  'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: 'https://www.mexc.com/exchange/{}_{}'.format(*sym.split('mexc', id, inst)),
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-spot/{id.lower()}',
 }
@@ -157,6 +170,7 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'kraken': lambda id, inst, sym: f'https://futures.kraken.com/trade/futures/{id}',
   'kucoin': lambda id, inst, sym: f'https://www.kucoin.com/trade/futures/{id}',
   'lighter': lighter_perpetual_url,
+  'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: f'https://www.mexc.com/futures/{id}',
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-swap/{id.lower()}',
 }

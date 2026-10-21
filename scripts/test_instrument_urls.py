@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from instrument_urls import PERPETUAL_RULES, Symbols, fill
+from instrument_urls import PERPETUAL_RULES, SPOT_RULES, Symbols, fill
 
 
 class BitgetUrlsTest(unittest.TestCase):
@@ -64,6 +64,22 @@ class CoinbaseUrlsTest(unittest.TestCase):
         PERPETUAL_RULES['coinbase'](id, {}, symbols),
         f'https://www.coinbase.com/advanced-trade/perpetuals/{id}',
       )
+
+
+class MarginTradeUrlsTest(unittest.TestCase):
+  """Pairs use the app's `-` slug; testnet-only markets link to the testnet app."""
+
+  def test_urls(self):
+    symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+    cases = [
+      (PERPETUAL_RULES, 'BTC', 'https://margin.trade/trade/BTC'),
+      (SPOT_RULES, 'PRL/USDC', 'https://margin.trade/trade/PRL-USDC'),
+      (PERPETUAL_RULES, 'PEARL', 'https://testnet.margin.trade/trade/PEARL'),
+      (SPOT_RULES, 'PEARL/USDC', 'https://testnet.margin.trade/trade/PEARL-USDC'),
+    ]
+    for rules, id, url in cases:
+      with self.subTest(id=id):
+        self.assertEqual(rules['margin-trade'](id, {}, symbols), url)
 
 
 if __name__ == '__main__':

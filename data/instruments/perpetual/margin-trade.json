@@ -1,0 +1,212 @@
+{
+  "BTC": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/BTC"
+  },
+  "ETH": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/ETH"
+  },
+  "SOL": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/SOL"
+  },
+  "NVDA": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/NVDA"
+  },
+  "TSLA": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/TSLA"
+  },
+  "SPY": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/SPY"
+  },
+  "QQQ": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/QQQ"
+  },
+  "XAU": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/XAU"
+  },
+  "PRL": {
+    "exchange": "perp",
+    "base": "pearl",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/PRL"
+  },
+  "MU": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/MU"
+  },
+  "MRVL": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/MRVL"
+  },
+  "GOOGL": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/GOOGL"
+  },
+  "MSFT": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/MSFT"
+  },
+  "CBRS": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/CBRS"
+  },
+  "SPCX": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/SPCX"
+  },
+  "SNDK": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/SNDK"
+  },
+  "INTC": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/INTC"
+  },
+  "LRCX": {
+    "exchange": "perp",
+    "base": "lam-research",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/LRCX"
+  },
+  "COHR": {
+    "exchange": "perp",
+    "base": "coherent-corp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/COHR"
+  },
+  "LITE": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/LITE"
+  },
+  "ASML": {
+    "exchange": "perp",
+    "base": "asml-holding",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/ASML"
+  },
+  "CL": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/CL"
+  },
+  "TSM": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/TSM"
+  },
+  "CRCL": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/CRCL"
+  },
+  "CRWV": {
+    "exchange": "perp",
+    "base": "coreweave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/CRWV"
+  },
+  "DRAM": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/DRAM"
+  },
+  "SKHYNIX": {
+    "exchange": "perp",
+    "base": "sk-hynix",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/SKHYNIX"
+  },
+  "XAG": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/XAG"
+  },
+  "XCU": {
+    "exchange": "perp",
+    "base": "copper",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://margin.trade/trade/XCU"
+  },
+  "PEARL": {
+    "exchange": "perp",
+    "base": "pearl",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://testnet.margin.trade/trade/PEARL"
+  }
+}

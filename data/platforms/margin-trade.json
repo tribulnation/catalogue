@@ -1,0 +1,14 @@
+{
+  "display_name": "Margin Trade",
+  "kind": "dex",
+  "about": {
+    "en": "Margin Trade is a perpetuals exchange for crypto, commodities and equities, traded directly from a Solana wallet with no account registration. Orders are matched on a central limit order book, all positions share one cross-margined USDC collateral pool bridged in from Solana, and funding settles hourly. It lists crypto perpetuals with up to 20x leverage, commodity perpetuals on gold, silver, copper and WTI crude oil, 24/7 equity perpetuals with up to 10x leverage, and a PRL/USDC spot market for the Pearl token.",
+    "es": "Margin Trade es un exchange de perpetuos sobre cripto, materias primas y acciones al que se accede directamente desde una wallet de Solana, sin registro de cuenta. Las órdenes se casan en un libro de órdenes central (CLOB), todas las posiciones comparten un único colateral en USDC con margen cruzado (cross margin) que se deposita desde Solana, y el funding se liquida cada hora. Ofrece perpetuos cripto con apalancamiento de hasta 20x, perpetuos de materias primas sobre oro, plata, cobre y petróleo WTI, perpetuos de acciones disponibles 24/7 con hasta 10x, y un mercado spot PRL/USDC del token Pearl.",
+    "ca": "Margin Trade és un exchange de perpetus sobre cripto, matèries primeres i accions al qual s'accedeix directament des d'una wallet de Solana, sense registre de compte. Les ordres es casen en un llibre d'ordres central (CLOB), totes les posicions comparteixen un únic col·lateral en USDC amb marge creuat (cross margin) que es diposita des de Solana, i el funding es liquida cada hora. Ofereix perpetus cripto amb un palanquejament de fins a 20x, perpetus de matèries primeres sobre or, plata, coure i petroli WTI, perpetus d'accions disponibles 24/7 amb fins a 10x, i un mercat spot PRL/USDC del token Pearl."
+  },
+  "urls": {
+    "Website": "https://margin.trade/",
+    "Documentation": "https://docs.margin.trade/"
+  },
+  "icon": "icons/platform/margin-trade.svg"
+}
