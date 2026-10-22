@@ -1,14 +1,8 @@
 {
-  "PRL/USDC": {
-    "exchange": "spot",
-    "base": "pearl",
-    "quote": "usd-coin",
-    "url": "https://margin.trade/trade/PRL-USDC"
-  },
   "PEARL/USDC": {
     "exchange": "spot",
     "base": "pearl",
     "quote": "usd-coin",
-    "url": "https://testnet.margin.trade/trade/PEARL-USDC"
+    "url": "https://margin.trade/trade/PEARL-USDC"
   }
 }
