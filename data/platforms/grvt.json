@@ -1,0 +1,14 @@
+{
+  "display_name": "GRVT",
+  "kind": "dex",
+  "about": {
+    "en": "GRVT is a hybrid perpetual futures exchange that matches orders off-chain on a central limit order book while settling trades and managing margin through Layer 2 contracts on Ethereum, using a zero-knowledge-proof validium to keep account data private. It offers USDT-margined perpetuals on crypto assets, US and Korean equities, ETFs, pre-IPO companies and commodities. GRVT is also the name of the exchange's token.",
+    "es": "GRVT es un exchange híbrido de futuros perpetuos que empareja las órdenes fuera de la cadena (off-chain) en un libro de órdenes central, mientras liquida las operaciones y gestiona el margen mediante contratos de capa 2 (Layer 2) en Ethereum, con un validium de pruebas de conocimiento cero para mantener privados los datos de las cuentas. Ofrece perpetuos con margen en USDT sobre criptoactivos, acciones de EE. UU. y Corea, ETF, empresas antes de su salida a bolsa (pre-IPO) y materias primas. GRVT también es el nombre del token del exchange.",
+    "ca": "GRVT és un exchange híbrid de futurs perpetus que aparella les ordres fora de la cadena (off-chain) en un llibre d'ordres central, mentre liquida les operacions i gestiona el marge mitjançant contractes de capa 2 (Layer 2) a Ethereum, amb un validium de proves de coneixement zero per mantenir privades les dades dels comptes. Ofereix perpetus amb marge en USDT sobre criptoactius, accions dels EUA i de Corea, ETF, empreses abans de sortir a borsa (pre-IPO) i matèries primeres. GRVT també és el nom del token de l'exchange."
+  },
+  "urls": {
+    "Website": "https://grvt.io/",
+    "Help Center": "https://help.grvt.io/"
+  },
+  "icon": "icons/asset/grvt.svg"
+}

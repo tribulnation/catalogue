@@ -66,6 +66,20 @@ class CoinbaseUrlsTest(unittest.TestCase):
       )
 
 
+class GrvtUrlsTest(unittest.TestCase):
+  """Perpetual pages use `<BASE>-<QUOTE>`, not the API's `<BASE>_<QUOTE>_Perp` name."""
+
+  def test_instrument_name_maps_to_page(self):
+    """GRVT's own API links `BTC_USDT_Perp` to `/exchange/perpetual/BTC-USDT`."""
+    symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+    for id, path in (('BTC_USDT_Perp', 'BTC-USDT'), ('KPEPE_USDT_Perp', 'KPEPE-USDT')):
+      with self.subTest(id=id):
+        self.assertEqual(
+          PERPETUAL_RULES['grvt'](id, {}, symbols),
+          f'https://grvt.io/exchange/perpetual/{path}',
+        )
+
+
 class MarginTradeUrlsTest(unittest.TestCase):
   """Pairs use the app's `-` slug."""
 
