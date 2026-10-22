@@ -159,6 +159,7 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'bybit': lambda id, inst, sym: f'https://www.bybit.com/trade/usdt/{id}',
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/perpetuals/{id}',
   'dydx': lambda id, inst, sym: f'https://dydx.trade/trade/{id}',
+  'extended': lambda id, inst, sym: f'https://app.extended.exchange/trade/{id}',
   'grvt': lambda id, inst, sym: 'https://grvt.io/exchange/perpetual/' + id.removesuffix('_Perp').replace('_', '-'),
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{id}',
   'kraken': lambda id, inst, sym: f'https://futures.kraken.com/trade/futures/{id}',

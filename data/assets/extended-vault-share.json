@@ -1,0 +1,13 @@
+{
+  "id": "extended-vault-share",
+  "display_name": "Extended Vault Share",
+  "symbol": "XVS",
+  "category": "crypto",
+  "about": {
+    "en": "Extended Vault Share (XVS) is the share token of the Extended Vault, issued when a user deposits USDC into the vault on the Extended perpetuals exchange. Its price accrues the vault's yield from liquidation processing, lending in Extended's money market and a share of exchange fees, and 90% of an XVS balance's value counts as trading collateral on Extended. XVS can be moved between Extended sub-accounts but not withdrawn from the exchange; it is unrelated to Venus (XVS)."
+  },
+  "urls": {
+    "Website": "https://extended.exchange/",
+    "Documentation": "https://docs.extended.exchange/extended-resources/vault"
+  }
+}

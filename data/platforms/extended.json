@@ -1,0 +1,14 @@
+{
+  "display_name": "Extended",
+  "kind": "dex",
+  "about": {
+    "en": "Extended is a perpetuals exchange built by a team of former Revolut employees, offering USDC-settled perpetual futures on crypto assets, equities, ETFs, indices, commodities and FX with an on-chain central limit order book. Positions are margined in USDC, and deposits into the Extended Vault are represented by XVS vault shares that also count as trading collateral. The exchange settled on Starknet and is moving its settlement network to Arc, Circle's Layer 1, from October 2026.",
+    "es": "Extended es un exchange de perpetuos creado por un equipo de antiguos empleados de Revolut, que ofrece futuros perpetuos liquidados en USDC sobre criptoactivos, acciones, ETF, índices, materias primas y divisas (FX), con un libro de órdenes central on-chain (on-chain). Las posiciones usan USDC como margen, y los depósitos en el Extended Vault se representan con participaciones XVS que también cuentan como colateral para operar. El exchange liquidaba en Starknet y traslada su red de liquidación a Arc, la capa 1 (Layer 1) de Circle, a partir de octubre de 2026.",
+    "ca": "Extended és un exchange de perpetus creat per un equip d'antics treballadors de Revolut, que ofereix futurs perpetus liquidats en USDC sobre criptoactius, accions, ETF, índexs, matèries primeres i divises (FX), amb un llibre d'ordres central on-chain (on-chain). Les posicions fan servir USDC com a marge, i els dipòsits a l'Extended Vault es representen amb participacions XVS que també compten com a col·lateral per operar. L'exchange liquidava a Starknet i trasllada la seva xarxa de liquidació a Arc, la capa 1 (Layer 1) de Circle, a partir d'octubre de 2026."
+  },
+  "urls": {
+    "Website": "https://extended.exchange/",
+    "Documentation": "https://docs.extended.exchange/"
+  },
+  "icon": "icons/platform/extended.svg"
+}

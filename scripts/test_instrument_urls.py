@@ -66,6 +66,20 @@ class CoinbaseUrlsTest(unittest.TestCase):
       )
 
 
+class ExtendedUrlsTest(unittest.TestCase):
+  """Perpetual pages use the native market name, scaled and 24/5 names included."""
+
+  def test_market_name_is_the_path(self):
+    """`/trade/<market>` is the app's canonical route; `/perp/<market>` redirects to it."""
+    symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+    for id in ('BTC-USD', '1000PEPE-USD', 'kBOME-USD', 'AAPL_24_5-USD', 'SPX500m-USD'):
+      with self.subTest(id=id):
+        self.assertEqual(
+          PERPETUAL_RULES['extended'](id, {}, symbols),
+          f'https://app.extended.exchange/trade/{id}',
+        )
+
+
 class GrvtUrlsTest(unittest.TestCase):
   """Perpetual pages use `<BASE>-<QUOTE>`, not the API's `<BASE>_<QUOTE>_Perp` name."""
 
