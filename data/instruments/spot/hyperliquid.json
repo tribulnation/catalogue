@@ -178,5 +178,53 @@
     "base": "flare",
     "quote": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/FLR/USDC"
+  },
+  "SEDA/USDC:256": {
+    "exchange": "spot",
+    "base": "seda",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/SEDA/USDC"
+  },
+  "SLAY/USDC:215": {
+    "exchange": "spot",
+    "base": "satlayer",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/SLAY/USDC"
+  },
+  "SOON/USDC:270": {
+    "exchange": "spot",
+    "base": "soon",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/SOON/USDC"
+  },
+  "SWAP/USDC:242": {
+    "exchange": "spot",
+    "base": "hyperswap",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/SWAP/USDC"
+  },
+  "SYN/USDC:720": {
+    "exchange": "spot",
+    "base": "synapse",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/SYN/USDC"
+  },
+  "USDHL/USDC:180": {
+    "exchange": "spot",
+    "base": "hyper-usd",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/USDHL/USDC"
+  },
+  "USDUC/USDC:302": {
+    "exchange": "spot",
+    "base": "unstable-coin",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/USDUC/USDC"
+  },
+  "USH/USDC:171": {
+    "exchange": "spot",
+    "base": "hyperstable",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/USH/USDC"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "id": "hyper-usd",
+  "display_name": "Hyper USD",
+  "symbol": "USDHL",
+  "category": "stablecoin",
+  "about": {
+    "en": "USDhl is a dollar stablecoin built for the Hyperliquid ecosystem, described by its issuer as a fiat stable custom-built for the Hyperliquid ecosystem and a building block for HIP-3, FX and payments. It is powered by M0 and circulates both as a HIP-1 token on the Hyperliquid L1 and as an ERC-20 on HyperEVM."
+  },
+  "external": {
+    "coingecko": "hyper-usd",
+    "coinmarketcap": "38332"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "USD",
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://usdhl.xyz/"
+  }
+}
