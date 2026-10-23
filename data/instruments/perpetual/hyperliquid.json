@@ -3023,5 +3023,12 @@
     "quote": "tether",
     "settlement": "hyperliquid-usd",
     "delisted": true
+  },
+  "xyz:PLTR": {
+    "exchange": "xyz",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/xyz:PLTR"
   }
 }
