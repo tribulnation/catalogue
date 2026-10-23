@@ -461,7 +461,7 @@
     "base": "b3",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.asterdex.com/en/trade/pro/futures/B3USDT"
+    "delisted": true
   },
   "BABAUSDT": {
     "exchange": "perp",
@@ -594,7 +594,7 @@
     "base": "fluent-network",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.asterdex.com/en/trade/pro/futures/BLENDUSDT"
+    "delisted": true
   },
   "BLESSUSDT": {
     "exchange": "perp",
@@ -3240,7 +3240,7 @@
     "base": "onyxcoin",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.asterdex.com/en/trade/pro/futures/XCNUSDT"
+    "delisted": true
   },
   "XCUUSDT": {
     "exchange": "perp",

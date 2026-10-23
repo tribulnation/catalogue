@@ -1,0 +1,22 @@
+{
+  "id": "vistra-bstock",
+  "display_name": "Vistra bStock",
+  "symbol": "VSTB",
+  "category": "rwa",
+  "about": {
+    "en": "Vistra bStock (VSTB) is a tokenized share of Vistra Corp. issued by BTech Holdings Limited, a Binance group affiliate, under Binance's bStocks brand. It is a BEP-20 token on BNB Chain, backed 1:1 by VST shares held with a regulated custodian and convertible 1:1 into the underlying share. bStocks are admitted to trading under prospectuses approved by the ADGM Financial Services Regulatory Authority and are not offered in every jurisdiction."
+  },
+  "external": {
+    "coingecko": "vistra-corp-bstocks-tokenized-stock",
+    "coinmarketcap": "42614"
+  },
+  "pegged_to": {
+    "asset": "vistra"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}

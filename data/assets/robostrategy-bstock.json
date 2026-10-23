@@ -1,0 +1,22 @@
+{
+  "id": "robostrategy-bstock",
+  "display_name": "RoboStrategy bStock",
+  "symbol": "BOTB",
+  "category": "rwa",
+  "about": {
+    "en": "RoboStrategy bStock (BOTB) is a tokenized share of RoboStrategy, Inc. issued by BTech Holdings Limited, a Binance group affiliate, under Binance's bStocks brand. It is a BEP-20 token on BNB Chain, backed 1:1 by BOT shares held with a regulated custodian and convertible 1:1 into the underlying share. bStocks are admitted to trading under prospectuses approved by the ADGM Financial Services Regulatory Authority and are not offered in every jurisdiction."
+  },
+  "external": {
+    "coingecko": "robostrategy-bstocks-tokenized-stock",
+    "coinmarketcap": "42613"
+  },
+  "pegged_to": {
+    "asset": "robostrategy"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}

@@ -3910,5 +3910,17 @@
     "base": "proshares-ultra-vix-short-term-futures-etf-bstock",
     "quote": "tether",
     "url": "https://www.binance.com/en/trade/UVXYB_USDT"
+  },
+  "BOTBUSDT": {
+    "exchange": "spot",
+    "base": "robostrategy-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/BOTB_USDT"
+  },
+  "KSTRBUSDT": {
+    "exchange": "spot",
+    "base": "kraneshares-star-50-etf-bstock",
+    "quote": "tether",
+    "url": "https://www.binance.com/en/trade/KSTRB_USDT"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "id": "berkshire-hathaway-class-b-bstock",
+  "display_name": "Berkshire Hathaway Class B bStock",
+  "symbol": "BRKBB",
+  "category": "rwa",
+  "about": {
+    "en": "Berkshire Hathaway Class B bStock (BRKBB) is a tokenized share of Berkshire Hathaway Inc. Class B issued by BTech Holdings Limited, a Binance group affiliate, under Binance's bStocks brand. It is a BEP-20 token on BNB Chain, backed 1:1 by BRK.B shares held with a regulated custodian and convertible 1:1 into the underlying share. bStocks are admitted to trading under prospectuses approved by the ADGM Financial Services Regulatory Authority and are not offered in every jurisdiction."
+  },
+  "external": {
+    "coingecko": "berkshire-hathaway-bstocks-tokenized-stock",
+    "coinmarketcap": "42612"
+  },
+  "pegged_to": {
+    "asset": "berkshire-hathaway-class-b"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}
