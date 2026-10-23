@@ -230,55 +230,81 @@
   "HFUN/USDC:1": {
     "exchange": "spot",
     "base": "hypurr-fun",
-    "quote": "usd-coin",
-    "url": "https://app.hyperliquid.xyz/trade/HFUN/USDC"
+    "quote": "usd-coin"
   },
   "JEFF/USDC:4": {
     "exchange": "spot",
     "base": "jeff",
-    "quote": "usd-coin",
-    "url": "https://app.hyperliquid.xyz/trade/JEFF/USDC"
+    "quote": "usd-coin"
   },
   "LAUNCH/USDC:122": {
     "exchange": "spot",
     "base": "hyperlauncher",
-    "quote": "usd-coin",
-    "url": "https://app.hyperliquid.xyz/trade/LAUNCH/USDC"
+    "quote": "usd-coin"
   },
   "LIQD/USDC:132": {
     "exchange": "spot",
     "base": "liquidlaunch",
-    "quote": "usd-coin",
-    "url": "https://app.hyperliquid.xyz/trade/LIQD/USDC"
+    "quote": "usd-coin"
   },
   "HAR/USDC:261": {
     "exchange": "spot",
     "base": "harmonix-finance",
-    "quote": "usd-coin",
-    "url": "https://app.hyperliquid.xyz/trade/HAR/USDC"
+    "quote": "usd-coin"
   },
   "LMTS/USDC:296": {
     "exchange": "spot",
     "base": "limitless",
-    "quote": "usd-coin",
-    "url": "https://app.hyperliquid.xyz/trade/LMTS/USDC"
+    "quote": "usd-coin"
   },
   "KNTQ/USDC:334": {
     "exchange": "spot",
     "base": "kinetiq",
-    "quote": "usd-coin",
-    "url": "https://app.hyperliquid.xyz/trade/KNTQ/USDC"
+    "quote": "usd-coin"
   },
   "KNTQ/USDH:254": {
     "exchange": "spot",
     "base": "kinetiq",
-    "quote": "hyperliquid-usd",
-    "url": "https://app.hyperliquid.xyz/trade/KNTQ/USDH"
+    "quote": "hyperliquid-usd"
   },
   "MMOVE/USDC:251": {
     "exchange": "spot",
     "base": "movement",
-    "quote": "usd-coin",
-    "url": "https://app.hyperliquid.xyz/trade/MMOVE/USDC"
+    "quote": "usd-coin"
+  },
+  "HPENGU/USDC:184": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin"
+  },
+  "KITTEN/USDC:240": {
+    "exchange": "spot",
+    "base": "kittenswap",
+    "quote": "usd-coin"
+  },
+  "HPL/USDH:294": {
+    "exchange": "spot",
+    "base": "hyperlend",
+    "quote": "hyperliquid-usd"
+  },
+  "KHYPE/USDH:250": {
+    "exchange": "spot",
+    "base": "kinetiq-staked-hype",
+    "quote": "hyperliquid-usd"
+  },
+  "HPL/USDC:335": {
+    "exchange": "spot",
+    "base": "hyperlend",
+    "quote": "usd-coin"
+  },
+  "KHYPE/USDC:336": {
+    "exchange": "spot",
+    "base": "kinetiq-staked-hype",
+    "quote": "usd-coin"
+  },
+  "NVDAX/USDC:702": {
+    "exchange": "spot",
+    "base": "nvidia-xstock",
+    "quote": "usd-coin"
   }
 }
