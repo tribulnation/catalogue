@@ -2078,7 +2078,7 @@
     "base": "nesa",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.asterdex.com/en/trade/pro/futures/NESUSDT"
+    "delisted": true
   },
   "NFLXUSDT": {
     "exchange": "perp",
@@ -2393,7 +2393,7 @@
     "base": "portal-to-bitcoin",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.asterdex.com/en/trade/pro/futures/PTBUSDT"
+    "delisted": true
   },
   "PUMPUSDT": {
     "exchange": "perp",
@@ -3121,7 +3121,7 @@
     "base": "velo",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.asterdex.com/en/trade/pro/futures/VELOUSDT"
+    "delisted": true
   },
   "VELVETUSDT": {
     "exchange": "perp",
