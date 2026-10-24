@@ -12,6 +12,10 @@ class ExternalIds(BaseModel):
   """Alpha Vantage function or forex pair"""
   fred: str | None = None
   """FRED series ID"""
+  yahoo: str | None = None
+  """Yahoo Finance symbol"""
+  iso4217: str | None = None
+  """ISO 4217 currency code (fiat currencies and precious metals)"""
 
 class AssetPeg(BaseModel):
   asset: str

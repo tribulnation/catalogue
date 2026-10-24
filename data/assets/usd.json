@@ -10,7 +10,8 @@
   },
   "icon": "icons/asset/usd.svg",
   "external": {
-    "coingecko": "currency:usd"
+    "coingecko": "currency:usd",
+    "iso4217": "USD"
   },
   "urls": {
     "Website": "https://www.federalreserve.gov/"

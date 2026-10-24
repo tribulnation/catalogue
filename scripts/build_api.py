@@ -392,6 +392,7 @@ def build_api_html(stats_data: Stats) -> str:
     <li><a href="indexes/pegs.json">Peg index</a></li>
     <li><a href="indexes/external/coingecko.json">CoinGecko index</a></li>
     <li><a href="indexes/external/coinmarketcap.json">CoinMarketCap index</a></li>
+    <li><a href="indexes/external/iso4217.json">ISO 4217 index</a></li>
     <li><a href="openapi.json">OpenAPI spec</a></li>
   </ul>
 </body>
@@ -593,6 +594,7 @@ def build(args: argparse.Namespace) -> None:
   write_json(api / 'indexes' / 'symbols.json', symbols_index(catalogue))
   write_json(api / 'indexes' / 'external' / 'coingecko.json', external_index(catalogue, 'coingecko'))
   write_json(api / 'indexes' / 'external' / 'coinmarketcap.json', external_index(catalogue, 'coinmarketcap'))
+  write_json(api / 'indexes' / 'external' / 'iso4217.json', external_index(catalogue, 'iso4217'))
   write_json(api / 'indexes' / 'pegs.json', pegs_index(catalogue))
 
   write_openapi(api, public_url)

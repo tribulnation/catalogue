@@ -134,6 +134,7 @@ Each provider reads its API key from the environment:
 | CoinMarketCap | `'coinmarketcap'` | `COINMARKETCAP_API_KEY` | Crypto — price, market cap, history |
 | Twelve Data | `'twelvedata'` | `TWELVEDATA_API_KEY` | Precious metals (XAU, XAG†), forex |
 | Alpha Vantage | `'alphavantage'` | `ALPHAVANTAGE_API_KEY` | US stocks, USD forex, energy & agricultural commodities |
+| ECB | `'iso4217'` | — | Daily euro reference rates for ~30 fiat currencies (ISO 4217 codes) |
 
 † XAG requires a paid Twelve Data plan.
 
@@ -152,6 +153,9 @@ Canonical records keyed by slug (e.g. `bitcoin`, `usd-coin`). Each asset has a `
 | `coinmarketcap` | CoinMarketCap asset ID |
 | `twelvedata` | Twelve Data symbol (e.g. `XAU/USD`) |
 | `alphavantage` | Alpha Vantage typed ID (e.g. `stock:TSLA`, `forex:EUR`, `commodity:WTI`) |
+| `fred` | FRED series ID (e.g. `DEXUSEU`, `inverse:DEXJPUS`) |
+| `yahoo` | Yahoo Finance symbol (e.g. `AAPL`, `EURUSD=X`) |
+| `iso4217` | ISO 4217 code of a fiat currency or precious metal (e.g. `CHF`, `XAU`) |
 
 ### Platforms
 Trading venues and networks keyed by slug (e.g. `binance`, `ethereum`). Covers CEX, DEX, and blockchain platforms. Blockchains carry `namespace`, `chain_id`, `native_asset`, and EVM/SVM `category`.

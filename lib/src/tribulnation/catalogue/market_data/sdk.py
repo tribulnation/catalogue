@@ -52,6 +52,10 @@ class Pricing(SDK, ABC):
       from .yahoo import YahooPricing
       q = 'USD' if quote == 'usd' else 'EUR'
       return YahooPricing.new(quote=q)
+    elif source == 'iso4217':
+      from .ecb import EcbPricing
+      q = 'USD' if quote == 'usd' else 'EUR'
+      return EcbPricing.new(quote=q)
     else:
       raise ValueError(f'Unknown source: {source!r}')
 

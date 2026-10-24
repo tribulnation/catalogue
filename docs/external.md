@@ -55,6 +55,31 @@ Examples: `inverse:DEXJPUS`, `inverse:DEXCAUS`, `inverse:DEXSZUS`
 
 FRED is daily reference data, not real-time market data. Current pricing uses the latest published non-empty observation. Historical pricing returns exact-date observations only and does not forward-fill weekends or holidays.
 
+## ISO 4217
+
+Use the ISO 4217 alphabetic code. It identifies the asset rather than one
+provider's listing, so a consumer can key any source of currency rates on it.
+
+Examples: `USD`, `EUR`, `CHF`, `XAU`
+
+Every fiat asset carries one, and only fiat assets and the four precious metals
+with assigned codes (`XAU`, `XAG`, `XPT`, `XPD`) may. The code must equal the
+asset's `symbol` and belong to one asset only; `scripts/validate.py` enforces
+all of this. Codes that look like ISO 4217 but were never assigned, such as
+`XBT` for bitcoin (Bloomberg, Kraken) or `XETH`, are venue naming: keep those
+in the venue's asset translations, never here.
+
+Keep `iso4217` as the last entry in `external`. `MarketData` tries an asset's
+IDs in order, and the precious metals have no ECB rate.
+
+As a pricing source, `iso4217` reads the ECB euro foreign exchange reference
+rates (https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html):
+the daily feed for current prices and the ECB Data Portal `EXR` dataset for
+history. ECB publishes about 30 currencies against EUR once per TARGET business
+day, around 16:00 CET; USD and other quotes are crossed through EUR. Codes ECB
+does not publish (the metals, `AED`, `ARS`) return no price. Like FRED,
+historical prices are exact-date only and are not forward-filled.
+
 ## Checking IDs against the providers
 
 `scripts/validate.py` runs offline, so it can only check that an external ID is
