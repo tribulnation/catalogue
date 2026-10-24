@@ -64,7 +64,7 @@ class ValidateTest(unittest.TestCase):
   def test_shipped_data(self):
     """The shipped assets validate and every ECB reference currency has its code."""
     self.assertEqual(validate.iso4217_codes(CATALOGUE.assets), [])
-    codes = {a['external']['iso4217'] for a in CATALOGUE.assets.values() if 'iso4217' in a.get('external', {})}
+    codes = {code for a in CATALOGUE.assets.values() if (code := a.get('external', {}).get('iso4217'))}
     ecb = set('USD JPY CZK DKK GBP HUF PLN RON SEK CHF ISK NOK TRY AUD BRL CAD CNY HKD IDR ILS INR KRW MXN MYR NZD PHP SGD THB ZAR'.split())
     self.assertLessEqual(ecb | {'EUR', 'XAU', 'XAG', 'XPT', 'XPD'}, codes)
 
@@ -103,7 +103,7 @@ class LoadTest(unittest.TestCase):
   def test_lenient_load_drops_unknown_provider(self):
     """Outside strict mode the asset loads with its known external IDs."""
     catalogue = load.archive(self.archive(), skip_invalid=True)
-    self.assertEqual(catalogue.assets['usd']['external'], {'iso4217': 'USD'})
+    self.assertEqual(catalogue.assets['usd'].get('external'), {'iso4217': 'USD'})
 
   def test_strict_load_rejects_unknown_provider(self):
     """Strict mode (used by `scripts/validate.py`) still rejects a typo'd provider."""
