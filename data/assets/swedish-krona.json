@@ -1,0 +1,21 @@
+{
+  "id": "swedish-krona",
+  "display_name": "Swedish Krona",
+  "symbol": "SEK",
+  "category": "fiat",
+  "about": {
+    "en": "The Swedish krona is the official currency of Sweden, issued by Sveriges Riksbank. In crypto and trading contexts, SEK is used as a fiat reference asset for krona-denominated balances, prices, deposits, withdrawals, and fiat-backed products.",
+    "es": "La corona sueca es la moneda oficial de Suecia, emitida por el Sveriges Riksbank. En contextos cripto y de trading, SEK se usa como activo fiat de referencia para saldos, precios, dep\u00f3sitos, retiradas y productos respaldados por coronas.",
+    "ca": "La corona sueca \u00e9s la moneda oficial de Su\u00e8cia, emesa pel Sveriges Riksbank. En contextos cripto i de trading, SEK s'utilitza com a actiu fiat de refer\u00e8ncia per a saldos, preus, dip\u00f2sits, retirades i productes recolzats per corones."
+  },
+  "external": {
+    "twelvedata": "SEK/USD",
+    "coingecko": "currency:sek",
+    "fred": "inverse:DEXSDUS",
+    "yahoo": "SEKUSD=X",
+    "iso4217": "SEK"
+  },
+  "urls": {
+    "Website": "https://www.riksbank.se/en-gb/"
+  }
+}

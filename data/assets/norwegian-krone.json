@@ -1,0 +1,21 @@
+{
+  "id": "norwegian-krone",
+  "display_name": "Norwegian Krone",
+  "symbol": "NOK",
+  "category": "fiat",
+  "about": {
+    "en": "The Norwegian krone is the official currency of Norway, issued by Norges Bank. In crypto and trading contexts, NOK is used as a fiat reference asset for krone-denominated balances, prices, deposits, withdrawals, and fiat-backed products.",
+    "es": "La corona noruega es la moneda oficial de Noruega, emitida por el Norges Bank. En contextos cripto y de trading, NOK se usa como activo fiat de referencia para saldos, precios, dep\u00f3sitos, retiradas y productos respaldados por coronas.",
+    "ca": "La corona noruega \u00e9s la moneda oficial de Noruega, emesa pel Norges Bank. En contextos cripto i de trading, NOK s'utilitza com a actiu fiat de refer\u00e8ncia per a saldos, preus, dip\u00f2sits, retirades i productes recolzats per corones."
+  },
+  "external": {
+    "twelvedata": "NOK/USD",
+    "coingecko": "currency:nok",
+    "fred": "inverse:DEXNOUS",
+    "yahoo": "NOKUSD=X",
+    "iso4217": "NOK"
+  },
+  "urls": {
+    "Website": "https://www.norges-bank.no/en/"
+  }
+}

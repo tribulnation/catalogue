@@ -1,0 +1,21 @@
+{
+  "id": "south-african-rand",
+  "display_name": "South African Rand",
+  "symbol": "ZAR",
+  "category": "fiat",
+  "about": {
+    "en": "The South African rand is the official currency of South Africa, issued by the South African Reserve Bank. In crypto and trading contexts, ZAR is used as a fiat reference asset for rand-denominated balances, prices, deposits, withdrawals, and fiat-backed products.",
+    "es": "El rand sudafricano es la moneda oficial de Sud\u00e1frica, emitido por el Banco de la Reserva de Sud\u00e1frica. En contextos cripto y de trading, ZAR se usa como activo fiat de referencia para saldos, precios, dep\u00f3sitos, retiradas y productos respaldados por rands.",
+    "ca": "El rand sud-afric\u00e0 \u00e9s la moneda oficial de Sud-\u00e0frica, em\u00e8s pel Banc de la Reserva de Sud-\u00e0frica. En contextos cripto i de trading, ZAR s'utilitza com a actiu fiat de refer\u00e8ncia per a saldos, preus, dip\u00f2sits, retirades i productes recolzats per rands."
+  },
+  "external": {
+    "twelvedata": "ZAR/USD",
+    "coingecko": "currency:zar",
+    "fred": "inverse:DEXSFUS",
+    "yahoo": "ZARUSD=X",
+    "iso4217": "ZAR"
+  },
+  "urls": {
+    "Website": "https://www.resbank.co.za/"
+  }
+}

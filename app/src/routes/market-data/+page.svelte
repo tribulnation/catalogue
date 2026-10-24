@@ -66,6 +66,12 @@
 							<td><code>ALPHAVANTAGE_API_KEY</code></td>
 							<td>Energy &amp; agricultural commodities (WTI, BRENT, …), forex</td>
 						</tr>
+						<tr>
+							<td>ECB</td>
+							<td><code>'iso4217'</code></td>
+							<td>—</td>
+							<td>Daily euro reference rates for ~30 fiat currencies</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>

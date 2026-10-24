@@ -9,6 +9,8 @@ export type ExternalIds = {
   alphavantage?: string
   fred?: string
   yahoo?: string
+  /** ISO 4217 currency code (fiat currencies and precious metals) */
+  iso4217?: string
 }
 
 export type AssetCategory = 'crypto' | 'stock' | 'fiat' | 'stablecoin' | 'commodity' | 'fund' | 'rwa'
