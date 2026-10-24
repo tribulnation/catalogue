@@ -1,0 +1,15 @@
+{
+  "id": "heating-oil",
+  "display_name": "Heating Oil",
+  "symbol": "HO",
+  "category": "commodity",
+  "about": {
+    "en": "Heating Oil is the refined-products commodity traded as the CME Group NY Harbor ULSD futures contract under the Globex code HO, quoted in US dollars per gallon for 42,000-gallon lots. It is the benchmark for ultra-low-sulphur diesel and heating-oil price exposure in the US Atlantic basin."
+  },
+  "urls": {
+    "Website": "https://www.cmegroup.com/markets/energy/refined-products/heating-oil.contractSpecs.html"
+  },
+  "external": {
+    "yahoo": "HO=F"
+  }
+}
