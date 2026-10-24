@@ -13,6 +13,9 @@ _id_pattern = _re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 _valid_asset_categories = get_args(AssetCategory)
 _valid_blockchain_categories = get_args(BlockchainCategory)
 _valid_blockchain_namespaces = get_args(BlockchainNamespace)
+_iso4217_code = _re.compile(r'^[A-Z]{3}$')
+_iso4217_metals = {'XAU', 'XAG', 'XPT', 'XPD'}
+"""The only commodities with ISO 4217 codes. Venue codes such as XBT or XETH are not ISO 4217."""
 _cosmos_reference = _re.compile(r'^(?!hashed-)[-a-zA-Z0-9]{1,32}$|^hashed-[0-9a-f]{16}$')
 
 def ids(kind: str, items: Mapping[str, object]):
@@ -34,6 +37,29 @@ def asset_categories(assets: Mapping[str, Asset]):
 _redundant_tags: Mapping[str, set[str]] = {
   'stablecoin': {'stablecoin', 'fiat'},
 }
+
+def iso4217_codes(assets: Mapping[str, Asset]):
+  """Fiat currencies and precious metals carry their ISO 4217 code; nothing else does."""
+  errors: list[str] = []
+  seen: dict[str, str] = {}
+  for id, asset in assets.items():
+    if asset.get('replaced_by'):
+      continue
+    category = asset.get('category')
+    code = asset.get('external', {}).get('iso4217')
+    if code is None:
+      if category == 'fiat':
+        errors.append(f'[ISO 4217 ERROR] Fiat asset "{id}" has no "external.iso4217" code')
+      continue
+    if not _iso4217_code.fullmatch(code):
+      errors.append(f'[ISO 4217 ERROR] Asset "{id}" has invalid ISO 4217 code "{code}". Must be three upper-case letters')
+    elif category != 'fiat' and not (category == 'commodity' and code in _iso4217_metals):
+      errors.append(f'[ISO 4217 ERROR] Asset "{id}" ({category}) has ISO 4217 code "{code}". Only fiat currencies and {sorted(_iso4217_metals)} have one')
+    elif code != asset['symbol']:
+      errors.append(f'[ISO 4217 ERROR] Asset "{id}" has ISO 4217 code "{code}" but symbol "{asset["symbol"]}"')
+    if (other := seen.setdefault(code, id)) != id:
+      errors.append(f'[ISO 4217 ERROR] Assets "{other}" and "{id}" share ISO 4217 code "{code}"')
+  return errors
 
 def asset_tags(assets: Mapping[str, Asset]):
   errors: list[str] = []
@@ -417,6 +443,7 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(alias_references(catalogue))
   errors.extend(asset_categories(catalogue.assets))
   errors.extend(asset_tags(catalogue.assets))
+  errors.extend(iso4217_codes(catalogue.assets))
   errors.extend(urls('ASSET', catalogue.assets))
   errors.extend(urls('PLATFORM', catalogue.platforms))
   errors.extend(ids('PROTOCOL', catalogue.protocols))

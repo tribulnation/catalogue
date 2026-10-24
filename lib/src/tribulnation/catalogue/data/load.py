@@ -1,9 +1,10 @@
 """Load catalogue data from JSON files, in a folder or inside a `data.zip` archive."""
 
 import io
+import json
 from pathlib import Path
 import logging
-from typing import Iterator, TypeVar
+from typing import Any, Callable, Iterator, TypeVar, get_args
 from typing_extensions import Literal, Protocol
 import zipfile
 
@@ -23,6 +24,7 @@ _debt_instruments_adapter = TypeAdapter(dict[str, Debt])
 _spam_adapter = TypeAdapter(dict[str, SpamAddress])
 _pools_adapter = TypeAdapter(dict[str, Pool])
 _protocol_adapter = TypeAdapter(schema.Protocol)
+_external_sources = frozenset(get_args(schema.ExternalSource))
 
 _Extra = Literal['forbid', 'ignore']
 T = TypeVar('T')
@@ -50,7 +52,10 @@ def json_files(folder: Folder) -> Iterator[tuple[str, bytes]]:
     if file.is_file() and file.name.endswith('.json'):
       yield file.name.removesuffix('.json'), file.read_bytes()
 
-def records(folder: Folder, adapter: TypeAdapter[T], *, strict: bool, skip_invalid: bool) -> dict[str, T]:
+def records(
+  folder: Folder, adapter: TypeAdapter[T], *, strict: bool, skip_invalid: bool,
+  prepare: Callable[[str, Any], Any] | None = None,
+) -> dict[str, T]:
   """Validate every `*.json` file in `folder`, keyed by file stem.
 
   Args:
@@ -59,21 +64,44 @@ def records(folder: Folder, adapter: TypeAdapter[T], *, strict: bool, skip_inval
     strict: Reject unknown fields.
     skip_invalid: Log and skip files that fail validation instead of raising, so a client
       reading newer live data (e.g. a new enum value) keeps every record it understands.
+    prepare: Applied to each parsed file (with its stem) before validation, outside strict mode.
   """
   extra = _extra(strict)
   out: dict[str, T] = {}
   for stem, content in json_files(folder):
     try:
-      out[stem] = adapter.validate_json(content, extra=extra)
+      if prepare and not strict and isinstance(parsed := _parse(content), dict):
+        out[stem] = adapter.validate_python(prepare(stem, parsed), extra=extra)
+      else:
+        out[stem] = adapter.validate_json(content, extra=extra)
     except ValidationError as e:
       if not skip_invalid:
         raise
       logger.warning('Skipping catalogue file %s/%s.json: %d validation error(s)', folder.name, stem, e.error_count())
   return out
 
+def _parse(content: bytes) -> Any:
+  """Parse JSON, or `None` if it is malformed (validation then reports it)."""
+  try:
+    return json.loads(content)
+  except ValueError:
+    return None
+
+def _known_external(stem: str, asset: dict) -> dict:
+  """Drop external IDs of providers this version does not know, keeping the rest of the asset."""
+  external = asset.get('external')
+  if not isinstance(external, dict) or not (unknown := external.keys() - _external_sources):
+    return asset
+  logger.debug('Ignoring unknown external provider(s) %s of asset %s', sorted(unknown), stem)
+  return {**asset, 'external': {k: v for k, v in external.items() if k in _external_sources}}
+
 def assets(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, Asset]:
-  """Load all asset definitions from a folder."""
-  return records(folder, _asset_adapter, strict=strict, skip_invalid=skip_invalid)
+  """Load all asset definitions from a folder.
+
+  Outside strict mode, external IDs of providers unknown to this version are ignored, so newer
+  live data that adds a provider keeps the asset rather than failing (or skipping) it.
+  """
+  return records(folder, _asset_adapter, strict=strict, skip_invalid=skip_invalid, prepare=_known_external)
 
 def assets_order(file: Folder) -> list[str]:
   """Load asset display order."""

@@ -11,7 +11,8 @@
   "icon": "icons/asset/turkish-lira.svg",
   "external": {
     "coingecko": "currency:try",
-    "yahoo": "TRYUSD=X"
+    "yahoo": "TRYUSD=X",
+    "iso4217": "TRY"
   },
   "urls": {
     "Website": "https://www.tcmb.gov.tr/"
