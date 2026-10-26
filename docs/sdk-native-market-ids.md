@@ -58,3 +58,48 @@ The standard HYPE and PURR perpetuals now use `quote: usd-coin`, as specified by
 [Hyperliquid](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/contract-specifications).
 Their settlement remains USDC. Other native perpetuals retain their USDT quote;
 builder-deployed markets are unchanged pending independent denomination checks.
+
+## Perpetual quote is the index currency
+
+A perpetual's `quote` is the currency its index price tracks. `settlement` is the
+collateral it pays out in, which can differ: Hyperliquid's native perpetuals
+track USDT and settle in USDC, so they carry `quote: tether`,
+`settlement: usd-coin`.
+
+Lighter's crypto perpetuals follow the same pattern and now use `quote: tether`;
+their settlement stays USDC. This was measured from recorded index prices
+between October 20 and 26, 2026, 17:10 UTC, when USDT traded about 12.8 bps
+below USD (interquartile range 11.2 to 13.9), which separates the two cleanly:
+
+| Market | vs USDT index | vs USD | Reading |
+| --- | --- | --- | --- |
+| Lighter BTC (`1`) | +0.0 (OKX BTC-USDT) | +13.0 (Kraken PF_XBTUSD), +13.1 (Coinbase BTC-USD) | USDT |
+| Lighter ETH (`0`) | +0.0 (OKX ETH-USDT) | +12.7 (Kraken), +13.1 (Coinbase) | USDT |
+| Lighter SOL (`2`) | +0.4 (OKX SOL-USDT) | +11.5 (Kraken), +12.5 (Coinbase) | USDT |
+| Lighter NVDA (`110`) | −11.7 (Aster NVDAUSDT) | | USD or USDC |
+| Lighter WTI (`145`) | | +2.3 (dYdX WTI-USD) | USD or USDC |
+| dYdX BTC-USD | −12.1 (OKX) | +0.9 (Coinbase), −1.4 vs Binance BTCUSDC | USD or USDC |
+| Deribit BTC_USDC-PERPETUAL | −12.6 (OKX) | +0.5 (Coinbase), −1.8 vs Binance BTCUSDC | USD or USDC |
+| Hyperliquid BTC (control) | +0.1 (OKX) | +13.1 (Kraken) | USDT |
+
+Values are median basis-point differences of hourly median index prices.
+101 Lighter crypto markets read within 4 bps of a USDT index and at least 9 bps
+above USD, against a CEX USDT perpetual index, or against Aster's USDT and
+Hyperliquid's native indexes where no CEX USDT perpetual was recorded.
+BERA (`20`) is the 102nd, on the anchor test alone: it reads −0.6 against Hyperliquid
+and −1.5 against Aster, while the OKX BERA index sits about 6 bps away from all three.
+
+Not changed:
+
+- Lighter stock, ETF, commodity and pre-IPO markets track USD or USDC (57 measured, e.g. gold
+  +0.1 against Hyperliquid xyz:GOLD and −12.5 against Aster XAUUSDT), so they keep
+  `usd-coin`.
+- Lighter markets whose readings were noisy, between the two levels, or
+  unmeasured keep `usd-coin` until checked: 130, 132, 157, 175, 176, 178, 179, 185,
+  201, 203, 204, 211, 217, 219, 220, 221, 231, 232, 4095, 4096, 4097, and the
+  unrecorded 51, 73, 74, 75, 80, 81, 89, 96, 97, 106, 107, 124, 125, 133, 152,
+  169, 184, 213, 218, 222, 225, 230, 233.
+- dYdX and Deribit track USD or USDC. USDC traded about 2 bps below USD in this
+  window, which is too close to separate from index noise, so dYdX keeps the USDC
+  quote recorded above. Deribit's BTC and ETH indexes read closer to USD and its
+  alt indexes closer to USDC; that is a candidate for a later check, not a change.
