@@ -1,0 +1,22 @@
+{
+  "id": "circle-internet-group-bstock",
+  "display_name": "Circle Internet Group bStock",
+  "symbol": "CRCLB",
+  "category": "rwa",
+  "about": {
+    "en": "Circle Internet Group bStock (CRCLB) is a tokenized share of Circle Internet Group, Inc. issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0x80f3d493ebce97e343c53d29a137942416b4ffc0, backed 1:1 by CRCL shares held in segregated custody. Holders have a claim on the issuer, not registered ownership of the shares."
+  },
+  "pegged_to": {
+    "asset": "circle-internet-group"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  },
+  "external": {
+    "coingecko": "circle-internet-group-bstock",
+    "coinmarketcap": "40213"
+  }
+}

@@ -232,5 +232,29 @@
     "base": "world-liberty-financial",
     "quote": "usd1",
     "url": "https://www.asterdex.com/en/trade/pro/spot/WLFIUSD1"
+  },
+  "CRCLBUSDT": {
+    "exchange": "spot",
+    "base": "circle-internet-group-bstock",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/CRCLBUSDT"
+  },
+  "MSTRBUSDT": {
+    "exchange": "spot",
+    "base": "microstrategy-bstock",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/MSTRBUSDT"
+  },
+  "NVDABUSDT": {
+    "exchange": "spot",
+    "base": "nvidia-bstock",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/NVDABUSDT"
+  },
+  "IRYSUSDT": {
+    "exchange": "spot",
+    "base": "irys",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/IRYSUSDT"
   }
 }

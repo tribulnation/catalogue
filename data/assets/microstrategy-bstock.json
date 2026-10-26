@@ -1,0 +1,22 @@
+{
+  "id": "microstrategy-bstock",
+  "display_name": "Strategy bStock",
+  "symbol": "MSTRB",
+  "category": "rwa",
+  "about": {
+    "en": "Strategy bStock (MSTRB) is a tokenized share of Strategy Inc. (formerly MicroStrategy) issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0xe87afb3076aeb0f9b14e368de8145ae6a2826a14, backed 1:1 by MSTR shares held in segregated custody. Holders have a claim on the issuer, not registered ownership of the shares."
+  },
+  "pegged_to": {
+    "asset": "microstrategy"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  },
+  "external": {
+    "coingecko": "strategy-tokenized-bstocks",
+    "coinmarketcap": "40536"
+  }
+}
