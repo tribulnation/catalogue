@@ -1,0 +1,22 @@
+{
+  "id": "spacex-bstock",
+  "display_name": "SpaceX bStock",
+  "symbol": "SPCXB",
+  "category": "rwa",
+  "about": {
+    "en": "SpaceX bStock (SPCXB) is a tokenized share of Space Exploration Technologies Corp. issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1, backed 1:1 by the underlying shares held in segregated custody. Holders have a claim on the issuer, not registered ownership of SpaceX stock."
+  },
+  "pegged_to": {
+    "asset": "spacex"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  },
+  "external": {
+    "coingecko": "spacex-bstocks-tokenized-stock",
+    "coinmarketcap": "40217"
+  }
+}
