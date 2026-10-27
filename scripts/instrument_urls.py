@@ -140,15 +140,35 @@ def margin_trade_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
   return f'https://margin.trade/trade/{id.replace("/", "-")}'
 
 
+def bitfinex_pair(id: str) -> str:
+  """Bitfinex writes a pair of two 3-letter codes without a separator (`ADABTC`) and
+  longer ones with `:` (`AAVE:USD`); its trading pages always use the `:` form."""
+  return id if ':' in id else f'{id[:3]}:{id[3:]}'
+
+
+def woox_spot_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
+  """`SPOT_BTC_USDT` trades at `/trade/BTC_USDT`."""
+  return f'https://woox.io/en/trade/{id.removeprefix("SPOT_")}'
+
+
+def woox_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
+  """`PERP_BTC_USDT` trades at `/trade/BTC_PERP`."""
+  return f'https://woox.io/en/trade/{id.split("_")[1]}_PERP'
+
+
 Rule = Callable[[str, Instrument, Symbols], str | None]
 
 SPOT_RULES: dict[str, Rule] = {
   'aster': lambda id, inst, sym: f'https://www.asterdex.com/en/trade/pro/spot/{id}',
   'deribit': lambda id, inst, sym: f'https://www.deribit.com/spot/{id}',
   'binance': lambda id, inst, sym: 'https://www.binance.com/en/trade/{}_{}'.format(*sym.split('binance', id, inst)),
+  'bitfinex': lambda id, inst, sym: f'https://trading.bitfinex.com/t/{bitfinex_pair(id)}?type=exchange',
   'bitget': lambda id, inst, sym: f'https://www.bitget.com/spot/{id}',
+  'btse': lambda id, inst, sym: f'https://www.btse.com/en/trading/{id}',
+  'bullish': lambda id, inst, sym: f'https://exchange.bullish.com/trade/{id}',
   'bybit': lambda id, inst, sym: 'https://www.bybit.com/en/trade/spot/{}/{}'.format(*sym.split('bybit', id, inst)),
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/spot/{id}',
+  'crypto-com': lambda id, inst, sym: f'https://crypto.com/exchange/trade/{id}',
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{_HYPERLIQUID_SPOT_INDEX.sub("", id)}',
   'kraken': lambda id, inst, sym: 'https://pro.kraken.com/app/trade/{}-{}'.format(
     *(_kraken_symbol(s) for s in sym.split('kraken', id, inst))
@@ -160,18 +180,26 @@ SPOT_RULES: dict[str, Rule] = {
   'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: 'https://www.mexc.com/exchange/{}_{}'.format(*sym.split('mexc', id, inst)),
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-spot/{id.lower()}',
+  'phemex': lambda id, inst, sym: f'https://phemex.com/spot/trade/{id.removeprefix("s")}',
+  'whitebit': lambda id, inst, sym: f'https://whitebit.com/trade/{id}',
+  'woox': woox_spot_url,
 }
 
 PERPETUAL_RULES: dict[str, Rule] = {
   'aster': lambda id, inst, sym: f'https://www.asterdex.com/en/trade/pro/futures/{id}',
   'deribit': lambda id, inst, sym: f'https://www.deribit.com/futures/{id}',
   'binance': lambda id, inst, sym: f'https://www.binance.com/en/futures/{id}',
+  'bitfinex': lambda id, inst, sym: f'https://trading.bitfinex.com/t/{id}',
   'bitget': bitget_perpetual_url,
+  'btse': lambda id, inst, sym: f'https://www.btse.com/en/futures/{id.removesuffix("PFC")}-PERP-USDT',
+  'bullish': lambda id, inst, sym: f'https://exchange.bullish.com/trade/{id}',
   'bybit': lambda id, inst, sym: f'https://www.bybit.com/trade/usdt/{id}',
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/perpetuals/{id}',
+  'crypto-com': lambda id, inst, sym: f'https://crypto.com/exchange/perpetual/{id}',
   'dydx': lambda id, inst, sym: f'https://dydx.trade/trade/{id}',
   'extended': lambda id, inst, sym: f'https://app.extended.exchange/trade/{id}',
   'grvt': lambda id, inst, sym: 'https://grvt.io/exchange/perpetual/' + id.removesuffix('_Perp').replace('_', '-'),
+  'htx': lambda id, inst, sym: f'https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code={id}&contract_type=swap',
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{id}',
   'kraken': lambda id, inst, sym: f'https://futures.kraken.com/trade/futures/{id}',
   'kucoin': lambda id, inst, sym: f'https://www.kucoin.com/trade/futures/{id}',
@@ -179,6 +207,9 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: f'https://www.mexc.com/futures/{id}',
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-swap/{id.lower()}',
+  'phemex': lambda id, inst, sym: f'https://phemex.com/trade/{id}',
+  'whitebit': lambda id, inst, sym: f'https://whitebit.com/trade/{id}',
+  'woox': woox_perpetual_url,
 }
 
 RULES = {'spot': SPOT_RULES, 'perpetual': PERPETUAL_RULES}

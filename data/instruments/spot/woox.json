@@ -1,0 +1,446 @@
+{
+  "SPOT_1INCH_USDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/1INCH_USDT"
+  },
+  "SPOT_AAVE_USDT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/AAVE_USDT"
+  },
+  "SPOT_ADA_USDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ADA_USDT"
+  },
+  "SPOT_ALGO_USDT": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ALGO_USDT"
+  },
+  "SPOT_APE_USDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/APE_USDT"
+  },
+  "SPOT_ARB_USDT": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ARB_USDT"
+  },
+  "SPOT_ATOM_USDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ATOM_USDT"
+  },
+  "SPOT_AVAX_USDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/AVAX_USDT"
+  },
+  "SPOT_AXS_USDT": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/AXS_USDT"
+  },
+  "SPOT_BCH_USDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/BCH_USDT"
+  },
+  "SPOT_BERA_USDT": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/BERA_USDT"
+  },
+  "SPOT_BLUR_USDT": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/BLUR_USDT"
+  },
+  "SPOT_BNB_USDT": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/BNB_USDT"
+  },
+  "SPOT_BTC_USDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://woox.io/en/trade/BTC_USDC"
+  },
+  "SPOT_BTC_USDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/BTC_USDT"
+  },
+  "SPOT_CHZ_USDT": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/CHZ_USDT"
+  },
+  "SPOT_COMP_USDT": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/COMP_USDT"
+  },
+  "SPOT_CRV_USDT": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/CRV_USDT"
+  },
+  "SPOT_DOGE_USDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/DOGE_USDT"
+  },
+  "SPOT_DOT_USDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/DOT_USDT"
+  },
+  "SPOT_EIGEN_USDT": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/EIGEN_USDT"
+  },
+  "SPOT_ENA_USDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ENA_USDT"
+  },
+  "SPOT_ENS_USDT": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ENS_USDT"
+  },
+  "SPOT_ETC_USDT": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ETC_USDT"
+  },
+  "SPOT_ETHFI_USDT": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ETHFI_USDT"
+  },
+  "SPOT_ETHW_USDT": {
+    "exchange": "spot",
+    "base": "ethereum-pow",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ETHW_USDT"
+  },
+  "SPOT_ETH_USDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://woox.io/en/trade/ETH_USDC"
+  },
+  "SPOT_ETH_USDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ETH_USDT"
+  },
+  "SPOT_GALA_USDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/GALA_USDT"
+  },
+  "SPOT_GOAT_USDT": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/GOAT_USDT"
+  },
+  "SPOT_GRAM_USDT": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/GRAM_USDT"
+  },
+  "SPOT_GRT_USDT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/GRT_USDT"
+  },
+  "SPOT_HBAR_USDT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/HBAR_USDT"
+  },
+  "SPOT_HYPE_USDT": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/HYPE_USDT"
+  },
+  "SPOT_IMX_USDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/IMX_USDT"
+  },
+  "SPOT_INJ_USDT": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/INJ_USDT"
+  },
+  "SPOT_JUP_USDT": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/JUP_USDT"
+  },
+  "SPOT_KSM_USDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/KSM_USDT"
+  },
+  "SPOT_LDO_USDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/LDO_USDT"
+  },
+  "SPOT_LINK_USDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/LINK_USDT"
+  },
+  "SPOT_LTC_USDT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/LTC_USDT"
+  },
+  "SPOT_MANA_USDT": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/MANA_USDT"
+  },
+  "SPOT_METIS_USDT": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/METIS_USDT"
+  },
+  "SPOT_MOODENG_USDT": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/MOODENG_USDT"
+  },
+  "SPOT_NEAR_USDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/NEAR_USDT"
+  },
+  "SPOT_ONDO_USDT": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ONDO_USDT"
+  },
+  "SPOT_OP_USDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/OP_USDT"
+  },
+  "SPOT_PENDLE_USDT": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/PENDLE_USDT"
+  },
+  "SPOT_PENGU_USDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/PENGU_USDT"
+  },
+  "SPOT_PEPE_USDT": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/PEPE_USDT"
+  },
+  "SPOT_POL_USDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/POL_USDT"
+  },
+  "SPOT_PUMP_USDT": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/PUMP_USDT"
+  },
+  "SPOT_RENDER_USDT": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/RENDER_USDT"
+  },
+  "SPOT_RSR_USDT": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/RSR_USDT"
+  },
+  "SPOT_RUNE_USDT": {
+    "exchange": "spot",
+    "base": "thorchain",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/RUNE_USDT"
+  },
+  "SPOT_SAND_USDT": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/SAND_USDT"
+  },
+  "SPOT_SHIB_USDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/SHIB_USDT"
+  },
+  "SPOT_SOL_USDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/SOL_USDT"
+  },
+  "SPOT_SPX_USDT": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/SPX_USDT"
+  },
+  "SPOT_SUI_USDT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/SUI_USDT"
+  },
+  "SPOT_S_USDT": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/S_USDT"
+  },
+  "SPOT_TIA_USDT": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/TIA_USDT"
+  },
+  "SPOT_TRUMP_USDT": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/TRUMP_USDT"
+  },
+  "SPOT_TRX_USDT": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/TRX_USDT"
+  },
+  "SPOT_UNI_USDT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/UNI_USDT"
+  },
+  "SPOT_VIRTUAL_USDT": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/VIRTUAL_USDT"
+  },
+  "SPOT_WOO_USDT": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/WOO_USDT"
+  },
+  "SPOT_W_USDT": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/W_USDT"
+  },
+  "SPOT_XLM_USDT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/XLM_USDT"
+  },
+  "SPOT_XRP_USDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/XRP_USDT"
+  },
+  "SPOT_XTZ_USDT": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/XTZ_USDT"
+  },
+  "SPOT_ZK_USDT": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ZK_USDT"
+  },
+  "SPOT_ZRO_USDT": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ZRO_USDT"
+  },
+  "SPOT_ZRX_USDT": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/ZRX_USDT"
+  }
+}

@@ -1,0 +1,808 @@
+{
+  "AAPLUSDT": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/AAPLUSDT"
+  },
+  "AAVEUSDC": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://phemex.com/trade/AAVEUSDC"
+  },
+  "AAVEUSDT": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/AAVEUSDT"
+  },
+  "ADAUSDC": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://phemex.com/trade/ADAUSDC"
+  },
+  "ADAUSDT": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ADAUSDT"
+  },
+  "AGPUUSDT": {
+    "exchange": "perp",
+    "base": "axe-compute",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/AGPUUSDT"
+  },
+  "ALABUSDT": {
+    "exchange": "perp",
+    "base": "astera-labs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ALABUSDT"
+  },
+  "ALGOUSDT": {
+    "exchange": "perp",
+    "base": "algorand",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ALGOUSDT"
+  },
+  "ALTUSDT": {
+    "exchange": "perp",
+    "base": "altlayer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ALTUSDT"
+  },
+  "AMCUSDT": {
+    "exchange": "perp",
+    "base": "amc-entertainment",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/AMCUSDT"
+  },
+  "AMDUSDT": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/AMDUSDT"
+  },
+  "ARBUSDT": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ARBUSDT"
+  },
+  "ATOMUSDT": {
+    "exchange": "perp",
+    "base": "cosmos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ATOMUSDT"
+  },
+  "AVAXUSDC": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://phemex.com/trade/AVAXUSDC"
+  },
+  "AVAXUSDT": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/AVAXUSDT"
+  },
+  "AVGOUSDT": {
+    "exchange": "perp",
+    "base": "broadcom",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/AVGOUSDT"
+  },
+  "BCHUSDT": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/BCHUSDT"
+  },
+  "BMNRUSDT": {
+    "exchange": "perp",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/BMNRUSDT"
+  },
+  "BNBUSDT": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/BNBUSDT"
+  },
+  "BTCUSDC": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://phemex.com/trade/BTCUSDC"
+  },
+  "BTCUSDT": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/BTCUSDT"
+  },
+  "CAKEUSDT": {
+    "exchange": "perp",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/CAKEUSDT"
+  },
+  "CRCLUSDT": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/CRCLUSDT"
+  },
+  "CRWDUSDT": {
+    "exchange": "perp",
+    "base": "crowdstrike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/CRWDUSDT"
+  },
+  "CSCOUSDT": {
+    "exchange": "perp",
+    "base": "cisco",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/CSCOUSDT"
+  },
+  "CYPHUSDT": {
+    "exchange": "perp",
+    "base": "cypherpunk-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/CYPHUSDT"
+  },
+  "DISUSDT": {
+    "exchange": "perp",
+    "base": "walt-disney",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/DISUSDT"
+  },
+  "DOGEUSDT": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/DOGEUSDT"
+  },
+  "DOTUSDT": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/DOTUSDT"
+  },
+  "DRAMUSDT": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/DRAMUSDT"
+  },
+  "ENAUSDT": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ENAUSDT"
+  },
+  "ETCUSDT": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ETCUSDT"
+  },
+  "ETHUSDC": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://phemex.com/trade/ETHUSDC"
+  },
+  "ETHUSDT": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ETHUSDT"
+  },
+  "EWYUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/EWYUSDT"
+  },
+  "FILUSDT": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/FILUSDT"
+  },
+  "GOOGLUSDT": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/GOOGLUSDT"
+  },
+  "GRAMUSDT": {
+    "exchange": "perp",
+    "base": "toncoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/GRAMUSDT"
+  },
+  "HBARUSDT": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/HBARUSDT"
+  },
+  "HOODUSDT": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/HOODUSDT"
+  },
+  "HUTUSDT": {
+    "exchange": "perp",
+    "base": "hut-8",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/HUTUSDT"
+  },
+  "HYPEUSDT": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/HYPEUSDT"
+  },
+  "ICPUSDT": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ICPUSDT"
+  },
+  "INJUSDT": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/INJUSDT"
+  },
+  "INTCUSDT": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/INTCUSDT"
+  },
+  "IONQUSDT": {
+    "exchange": "perp",
+    "base": "ionq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/IONQUSDT"
+  },
+  "IWMUSDT": {
+    "exchange": "perp",
+    "base": "ishares-russell-2000-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/IWMUSDT"
+  },
+  "JUPUSDT": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/JUPUSDT"
+  },
+  "KORUUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/KORUUSDT"
+  },
+  "KSTRUSDT": {
+    "exchange": "perp",
+    "base": "kraneshares-star-50-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/KSTRUSDT"
+  },
+  "LDOUSDT": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/LDOUSDT"
+  },
+  "LINKUSDC": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://phemex.com/trade/LINKUSDC"
+  },
+  "LINKUSDT": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/LINKUSDT"
+  },
+  "LITEUSDT": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/LITEUSDT"
+  },
+  "LITUSDT": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/LITUSDT"
+  },
+  "LTCUSDT": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/LTCUSDT"
+  },
+  "METAUSDT": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/METAUSDT"
+  },
+  "MRKUSDT": {
+    "exchange": "perp",
+    "base": "merck-and-co",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/MRKUSDT"
+  },
+  "MRNAUSDT": {
+    "exchange": "perp",
+    "base": "moderna",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/MRNAUSDT"
+  },
+  "MSFTUSDT": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/MSFTUSDT"
+  },
+  "MSTRUSDT": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/MSTRUSDT"
+  },
+  "NBISUSDT": {
+    "exchange": "perp",
+    "base": "nebius-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/NBISUSDT"
+  },
+  "NEARUSDT": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/NEARUSDT"
+  },
+  "NFLXUSDT": {
+    "exchange": "perp",
+    "base": "netflix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/NFLXUSDT"
+  },
+  "NGUSDT": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/NGUSDT"
+  },
+  "NOKUSDT": {
+    "exchange": "perp",
+    "base": "nokia-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/NOKUSDT"
+  },
+  "NVDAUSDT": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/NVDAUSDT"
+  },
+  "ONDOUSDT": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ONDOUSDT"
+  },
+  "PATHUSDT": {
+    "exchange": "perp",
+    "base": "uipath",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/PATHUSDT"
+  },
+  "PAXGUSDT": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/PAXGUSDT"
+  },
+  "PENDLEUSDT": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/PENDLEUSDT"
+  },
+  "PENGUUSDT": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/PENGUUSDT"
+  },
+  "POLUSDT": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/POLUSDT"
+  },
+  "PONSUSDT": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/PONSUSDT"
+  },
+  "PUMPUSDT": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/PUMPUSDT"
+  },
+  "QCOMUSDT": {
+    "exchange": "perp",
+    "base": "qualcomm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/QCOMUSDT"
+  },
+  "QNTUSDT": {
+    "exchange": "perp",
+    "base": "quant",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/QNTUSDT"
+  },
+  "QQQUSDT": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/QQQUSDT"
+  },
+  "RENDERUSDT": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/RENDERUSDT"
+  },
+  "RKLBUSDT": {
+    "exchange": "perp",
+    "base": "rocket-lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/RKLBUSDT"
+  },
+  "SANDUSDT": {
+    "exchange": "perp",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SANDUSDT"
+  },
+  "SKHYUSDT": {
+    "exchange": "perp",
+    "base": "sk-hynix-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SKHYUSDT"
+  },
+  "SMCIUSDT": {
+    "exchange": "perp",
+    "base": "super-micro-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SMCIUSDT"
+  },
+  "SNDKUSDT": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SNDKUSDT"
+  },
+  "SNXXUSDT": {
+    "exchange": "perp",
+    "base": "tradr-2x-long-sndk-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SNXXUSDT"
+  },
+  "SOLUSDC": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://phemex.com/trade/SOLUSDC"
+  },
+  "SOLUSDT": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SOLUSDT"
+  },
+  "SOXLUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SOXLUSDT"
+  },
+  "SOXSUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SOXSUSDT"
+  },
+  "SPCXUSDT": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SPCXUSDT"
+  },
+  "STRKUSDT": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/STRKUSDT"
+  },
+  "SUIUSDC": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://phemex.com/trade/SUIUSDC"
+  },
+  "SUIUSDT": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SUIUSDT"
+  },
+  "SUSDT": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SUSDT"
+  },
+  "SYNUSDT": {
+    "exchange": "perp",
+    "base": "synapse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/SYNUSDT"
+  },
+  "TAOUSDT": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/TAOUSDT"
+  },
+  "TRUMPUSDT": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/TRUMPUSDT"
+  },
+  "TRXUSDT": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/TRXUSDT"
+  },
+  "TSLAUSDT": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/TSLAUSDT"
+  },
+  "TSMUSDT": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/TSMUSDT"
+  },
+  "UNIUSDC": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://phemex.com/trade/UNIUSDC"
+  },
+  "UNIUSDT": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/UNIUSDT"
+  },
+  "USELESSUSDT": {
+    "exchange": "perp",
+    "base": "useless-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/USELESSUSDT"
+  },
+  "UVXYUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultra-vix-short-term-futures-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/UVXYUSDT"
+  },
+  "VVVUSDT": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/VVVUSDT"
+  },
+  "WIFUSDT": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/WIFUSDT"
+  },
+  "WLDUSDT": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/WLDUSDT"
+  },
+  "XAGUSDT": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/XAGUSDT"
+  },
+  "XAUUSDT": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/XAUUSDT"
+  },
+  "XLMUSDT": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/XLMUSDT"
+  },
+  "XRPUSDC": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://phemex.com/trade/XRPUSDC"
+  },
+  "XRPUSDT": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/XRPUSDT"
+  },
+  "ZAMAUSDT": {
+    "exchange": "perp",
+    "base": "zama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ZAMAUSDT"
+  },
+  "ZECUSDT": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/trade/ZECUSDT"
+  },
+  "u1000PEPEUSDT": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://phemex.com/trade/u1000PEPEUSDT"
+  }
+}
