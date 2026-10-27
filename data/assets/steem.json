@@ -1,0 +1,20 @@
+{
+  "id": "steem",
+  "display_name": "Steem",
+  "symbol": "STEEM",
+  "category": "crypto",
+  "about": {
+    "en": "STEEM is the native coin of Steem, a delegated-proof-of-stake blockchain for social applications that rewards users for posting and curating content. It pays for on-chain operations and can be vested into Steem Power, which grants the stake-weighted voting that distributes author and curation rewards."
+  },
+  "tags": [
+    "DeFi"
+  ],
+  "urls": {
+    "Website": "https://steem.com/",
+    "Source code": "https://github.com/steemit/steem"
+  },
+  "external": {
+    "coingecko": "steem",
+    "coinmarketcap": "1230"
+  }
+}

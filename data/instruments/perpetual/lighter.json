@@ -1425,5 +1425,138 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://app.lighter.xyz/trade/PRL"
+  },
+  "98": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/USDJPY"
+  },
+  "99": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "swiss-franc",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/USDCHF"
+  },
+  "100": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "canadian-dollar",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/USDCAD"
+  },
+  "105": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "south-korean-won",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/USDKRW"
+  },
+  "198": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "hong-kong-dollar",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/USDHKD"
+  },
+  "160": {
+    "exchange": "perp",
+    "base": "hyundai-motor",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/HYUNDAIUSD"
+  },
+  "161": {
+    "exchange": "perp",
+    "base": "sk-hynix",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SKHYNIXUSD"
+  },
+  "162": {
+    "exchange": "perp",
+    "base": "samsung-electronics",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SAMSUNGUSD"
+  },
+  "192": {
+    "exchange": "perp",
+    "base": "openai",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/OPENAI"
+  },
+  "193": {
+    "exchange": "perp",
+    "base": "anthropic",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/ANTHROPIC"
+  },
+  "202": {
+    "exchange": "perp",
+    "base": "semiconductor-manufacturing-international",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/SMIC"
+  },
+  "214": {
+    "exchange": "perp",
+    "base": "wendys",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/WEN"
+  },
+  "229": {
+    "exchange": "perp",
+    "base": "stablecoinx",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/STABLECOINX"
+  },
+  "34": {
+    "exchange": "perp",
+    "base": "story",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/DATA"
+  },
+  "22": {
+    "exchange": "perp",
+    "base": "ai16z",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "28": {
+    "exchange": "perp",
+    "base": "maker",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "70": {
+    "exchange": "perp",
+    "base": "yzy",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "140": {
+    "exchange": "perp",
+    "base": "samsung-electronics",
+    "quote": "south-korean-won",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "143": {
+    "exchange": "perp",
+    "base": "sk-hynix",
+    "quote": "south-korean-won",
+    "settlement": "usd-coin",
+    "delisted": true
   }
 }
