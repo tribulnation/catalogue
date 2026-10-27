@@ -1356,5 +1356,3400 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.binance.com/en/futures/CTUSDT"
+  },
+  "0GUSDT": {
+    "exchange": "usdm",
+    "base": "zero-gravity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/0GUSDT"
+  },
+  "1000000MOGUSDT": {
+    "exchange": "usdm",
+    "base": "mog-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000000,
+    "url": "https://www.binance.com/en/futures/1000000MOGUSDT"
+  },
+  "1000BONKUSDC": {
+    "exchange": "usdm",
+    "base": "bonk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000BONKUSDC"
+  },
+  "1000BONKUSDT": {
+    "exchange": "usdm",
+    "base": "bonk",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000BONKUSDT"
+  },
+  "1000CATUSDT": {
+    "exchange": "usdm",
+    "base": "simon-s-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000CATUSDT"
+  },
+  "1000FLOKIUSDT": {
+    "exchange": "usdm",
+    "base": "floki",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000FLOKIUSDT"
+  },
+  "1000LUNCUSDT": {
+    "exchange": "usdm",
+    "base": "terra-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000LUNCUSDT"
+  },
+  "1000PEPEUSDC": {
+    "exchange": "usdm",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000PEPEUSDC"
+  },
+  "1000PEPEUSDT": {
+    "exchange": "usdm",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000PEPEUSDT"
+  },
+  "1000RATSUSDT": {
+    "exchange": "usdm",
+    "base": "rats",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000RATSUSDT"
+  },
+  "1000SATSUSDT": {
+    "exchange": "usdm",
+    "base": "sats-ordinals",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000SATSUSDT"
+  },
+  "1000SHIBUSDC": {
+    "exchange": "usdm",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000SHIBUSDC"
+  },
+  "1000SHIBUSDT": {
+    "exchange": "usdm",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000SHIBUSDT"
+  },
+  "1000XECUSDT": {
+    "exchange": "usdm",
+    "base": "ecash",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.binance.com/en/futures/1000XECUSDT"
+  },
+  "1MBABYDOGEUSDT": {
+    "exchange": "usdm",
+    "base": "baby-doge-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000000,
+    "url": "https://www.binance.com/en/futures/1MBABYDOGEUSDT"
+  },
+  "2ZUSDT": {
+    "exchange": "usdm",
+    "base": "doublezero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/2ZUSDT"
+  },
+  "AAOIUSDT": {
+    "exchange": "usdm",
+    "base": "applied-optoelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AAOIUSDT"
+  },
+  "AAPLUSDT": {
+    "exchange": "usdm",
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AAPLUSDT"
+  },
+  "ACHUSDT": {
+    "exchange": "usdm",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ACHUSDT"
+  },
+  "ACNUSDT": {
+    "exchange": "usdm",
+    "base": "accenture",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ACNUSDT"
+  },
+  "ACUUSDT": {
+    "exchange": "usdm",
+    "base": "acurast",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ACUUSDT"
+  },
+  "ADBEUSDT": {
+    "exchange": "usdm",
+    "base": "adobe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ADBEUSDT"
+  },
+  "AEVOUSDT": {
+    "exchange": "usdm",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AEVOUSDT"
+  },
+  "AGLDUSDT": {
+    "exchange": "usdm",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AGLDUSDT"
+  },
+  "AGPUUSDT": {
+    "exchange": "usdm",
+    "base": "axe-compute",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AGPUUSDT"
+  },
+  "AINUSDT": {
+    "exchange": "usdm",
+    "base": "infinity-ground",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AINUSDT"
+  },
+  "AIOUSDT": {
+    "exchange": "usdm",
+    "base": "olaxbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AIOUSDT"
+  },
+  "AIXBTUSDT": {
+    "exchange": "usdm",
+    "base": "aixbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AIXBTUSDT"
+  },
+  "AKAMUSDT": {
+    "exchange": "usdm",
+    "base": "akamai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AKAMUSDT"
+  },
+  "AKEUSDT": {
+    "exchange": "usdm",
+    "base": "akedo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AKEUSDT"
+  },
+  "ALABUSDT": {
+    "exchange": "usdm",
+    "base": "astera-labs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ALABUSDT"
+  },
+  "ALCHUSDT": {
+    "exchange": "usdm",
+    "base": "alchemist-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ALCHUSDT"
+  },
+  "ALICEUSDT": {
+    "exchange": "usdm",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ALICEUSDT"
+  },
+  "ALLOUSDT": {
+    "exchange": "usdm",
+    "base": "allora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ALLOUSDT"
+  },
+  "ALPINEUSDT": {
+    "exchange": "usdm",
+    "base": "alpine-f1-team-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ALPINEUSDT"
+  },
+  "AMATUSDT": {
+    "exchange": "usdm",
+    "base": "applied-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AMATUSDT"
+  },
+  "AMCUSDT": {
+    "exchange": "usdm",
+    "base": "amc-entertainment",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AMCUSDT"
+  },
+  "AMDUSDT": {
+    "exchange": "usdm",
+    "base": "advanced-micro-devices",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AMDUSDT"
+  },
+  "AMZNUSDT": {
+    "exchange": "usdm",
+    "base": "amazon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AMZNUSDT"
+  },
+  "ANIMEUSDT": {
+    "exchange": "usdm",
+    "base": "animecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ANIMEUSDT"
+  },
+  "API3USDT": {
+    "exchange": "usdm",
+    "base": "api3",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/API3USDT"
+  },
+  "APPUSDT": {
+    "exchange": "usdm",
+    "base": "applovin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/APPUSDT"
+  },
+  "APRUSDT": {
+    "exchange": "usdm",
+    "base": "apriori",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/APRUSDT"
+  },
+  "ARKUSDT": {
+    "exchange": "usdm",
+    "base": "ark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ARKUSDT"
+  },
+  "ARMUSDT": {
+    "exchange": "usdm",
+    "base": "arm-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ARMUSDT"
+  },
+  "ARPAUSDT": {
+    "exchange": "usdm",
+    "base": "arpa-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ARPAUSDT"
+  },
+  "ARXUSDT": {
+    "exchange": "usdm",
+    "base": "arcium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ARXUSDT"
+  },
+  "ASMLUSDT": {
+    "exchange": "usdm",
+    "base": "asml-holding",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ASMLUSDT"
+  },
+  "ASTSUSDT": {
+    "exchange": "usdm",
+    "base": "ast-spacemobile",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ASTSUSDT"
+  },
+  "AUCTIONUSDT": {
+    "exchange": "usdm",
+    "base": "auction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AUCTIONUSDT"
+  },
+  "AUSDT": {
+    "exchange": "usdm",
+    "base": "vaulta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AUSDT"
+  },
+  "AVAAIUSDT": {
+    "exchange": "usdm",
+    "base": "ava-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AVAAIUSDT"
+  },
+  "AVGOUSDT": {
+    "exchange": "usdm",
+    "base": "broadcom",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AVGOUSDT"
+  },
+  "AWEUSDT": {
+    "exchange": "usdm",
+    "base": "stp-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AWEUSDT"
+  },
+  "AXTIUSDT": {
+    "exchange": "usdm",
+    "base": "axt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AXTIUSDT"
+  },
+  "AZTECUSDT": {
+    "exchange": "usdm",
+    "base": "aztec",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/AZTECUSDT"
+  },
+  "B2USDT": {
+    "exchange": "usdm",
+    "base": "bsquared-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/B2USDT"
+  },
+  "BABAUSDT": {
+    "exchange": "usdm",
+    "base": "alibaba-group-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BABAUSDT"
+  },
+  "BABYUSDT": {
+    "exchange": "usdm",
+    "base": "babylon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BABYUSDT"
+  },
+  "BACUSDT": {
+    "exchange": "usdm",
+    "base": "bank-of-america",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BACUSDT"
+  },
+  "BANANAS31USDT": {
+    "exchange": "usdm",
+    "base": "banana-for-scale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BANANAS31USDT"
+  },
+  "BANANAUSDT": {
+    "exchange": "usdm",
+    "base": "banana-gun",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BANANAUSDT"
+  },
+  "BANDUSDT": {
+    "exchange": "usdm",
+    "base": "band-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BANDUSDT"
+  },
+  "BANUSDT": {
+    "exchange": "usdm",
+    "base": "comedian",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BANUSDT"
+  },
+  "BARDUSDT": {
+    "exchange": "usdm",
+    "base": "lombard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BARDUSDT"
+  },
+  "BASEDUSDT": {
+    "exchange": "usdm",
+    "base": "based",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BASEDUSDT"
+  },
+  "BASUSDT": {
+    "exchange": "usdm",
+    "base": "bas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BASUSDT"
+  },
+  "BBUSDT": {
+    "exchange": "usdm",
+    "base": "bouncebit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BBUSDT"
+  },
+  "BBXUSDT": {
+    "exchange": "usdm",
+    "base": "blackberry",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BBXUSDT"
+  },
+  "BEATUSDT": {
+    "exchange": "usdm",
+    "base": "audiera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BEATUSDT"
+  },
+  "BELUSDT": {
+    "exchange": "usdm",
+    "base": "bella-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BELUSDT"
+  },
+  "BEUSDT": {
+    "exchange": "usdm",
+    "base": "bloom-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BEUSDT"
+  },
+  "BICOUSDT": {
+    "exchange": "usdm",
+    "base": "biconomy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BICOUSDT"
+  },
+  "BIGTIMEUSDT": {
+    "exchange": "usdm",
+    "base": "big-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BIGTIMEUSDT"
+  },
+  "BILLUSDT": {
+    "exchange": "usdm",
+    "base": "billions-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BILLUSDT"
+  },
+  "BIRBUSDT": {
+    "exchange": "usdm",
+    "base": "moonbirds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BIRBUSDT"
+  },
+  "BLESSUSDT": {
+    "exchange": "usdm",
+    "base": "bless-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BLESSUSDT"
+  },
+  "BLUAIUSDT": {
+    "exchange": "usdm",
+    "base": "bluwhale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BLUAIUSDT"
+  },
+  "BMNRUSDT": {
+    "exchange": "usdm",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BMNRUSDT"
+  },
+  "BMTUSDT": {
+    "exchange": "usdm",
+    "base": "bubblemaps",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BMTUSDT"
+  },
+  "BNCUSDT": {
+    "exchange": "usdm",
+    "base": "bnb-standard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BNCUSDT"
+  },
+  "BNTUSDT": {
+    "exchange": "usdm",
+    "base": "bancor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BNTUSDT"
+  },
+  "BOMEUSDC": {
+    "exchange": "usdm",
+    "base": "book-of-meme",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.binance.com/en/futures/BOMEUSDC"
+  },
+  "BOMEUSDT": {
+    "exchange": "usdm",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BOMEUSDT"
+  },
+  "BOTUSDT": {
+    "exchange": "usdm",
+    "base": "robostrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BOTUSDT"
+  },
+  "BRETTUSDT": {
+    "exchange": "usdm",
+    "base": "brett",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BRETTUSDT"
+  },
+  "BREVUSDT": {
+    "exchange": "usdm",
+    "base": "brevis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BREVUSDT"
+  },
+  "BRKBUSDT": {
+    "exchange": "usdm",
+    "base": "berkshire-hathaway-class-b",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BRKBUSDT"
+  },
+  "BRUSDT": {
+    "exchange": "usdm",
+    "base": "bedrock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BRUSDT"
+  },
+  "BSBUSDT": {
+    "exchange": "usdm",
+    "base": "block-street",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BSBUSDT"
+  },
+  "BTCU": {
+    "exchange": "usdm",
+    "base": "bitcoin",
+    "quote": "united-stables",
+    "settlement": "united-stables",
+    "url": "https://www.binance.com/en/futures/BTCU"
+  },
+  "BTRUSDT": {
+    "exchange": "usdm",
+    "base": "bitlayer-bitvm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BTRUSDT"
+  },
+  "BTWUSDT": {
+    "exchange": "usdm",
+    "base": "bitway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BTWUSDT"
+  },
+  "BWETUSDT": {
+    "exchange": "usdm",
+    "base": "breakwave-tanker-shipping-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BWETUSDT"
+  },
+  "BXUSDT": {
+    "exchange": "usdm",
+    "base": "blackstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BXUSDT"
+  },
+  "BZUSDT": {
+    "exchange": "usdm",
+    "base": "brent",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/BZUSDT"
+  },
+  "C98USDT": {
+    "exchange": "usdm",
+    "base": "coin98",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/C98USDT"
+  },
+  "CAPUSDT": {
+    "exchange": "usdm",
+    "base": "cap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CAPUSDT"
+  },
+  "CARVUSDT": {
+    "exchange": "usdm",
+    "base": "carv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CARVUSDT"
+  },
+  "CBRSUSDT": {
+    "exchange": "usdm",
+    "base": "cerebras-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CBRSUSDT"
+  },
+  "CEGUSDT": {
+    "exchange": "usdm",
+    "base": "constellation-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CEGUSDT"
+  },
+  "CELRUSDT": {
+    "exchange": "usdm",
+    "base": "celer-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CELRUSDT"
+  },
+  "CETUSUSDT": {
+    "exchange": "usdm",
+    "base": "cetus-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CETUSUSDT"
+  },
+  "CFGUSDT": {
+    "exchange": "usdm",
+    "base": "centrifuge",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CFGUSDT"
+  },
+  "CGPTUSDT": {
+    "exchange": "usdm",
+    "base": "chaingpt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CGPTUSDT"
+  },
+  "CHILLGUYUSDT": {
+    "exchange": "usdm",
+    "base": "just-a-chill-guy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CHILLGUYUSDT"
+  },
+  "CHIPUSDT": {
+    "exchange": "usdm",
+    "base": "usd-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CHIPUSDT"
+  },
+  "CHRUSDT": {
+    "exchange": "usdm",
+    "base": "chromaway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CHRUSDT"
+  },
+  "CKBUSDT": {
+    "exchange": "usdm",
+    "base": "nervos-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CKBUSDT"
+  },
+  "CLANKERUSDT": {
+    "exchange": "usdm",
+    "base": "tokenbot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CLANKERUSDT"
+  },
+  "CLOUSDT": {
+    "exchange": "usdm",
+    "base": "yei-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CLOUSDT"
+  },
+  "CLUSDT": {
+    "exchange": "usdm",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CLUSDT"
+  },
+  "COHRUSDT": {
+    "exchange": "usdm",
+    "base": "coherent-corp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/COHRUSDT"
+  },
+  "COINUSDT": {
+    "exchange": "usdm",
+    "base": "coinbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/COINUSDT"
+  },
+  "COOKIEUSDT": {
+    "exchange": "usdm",
+    "base": "cookie",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/COOKIEUSDT"
+  },
+  "COPPERUSDT": {
+    "exchange": "usdm",
+    "base": "copper",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/COPPERUSDT"
+  },
+  "COSTUSDT": {
+    "exchange": "usdm",
+    "base": "costco-wholesale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/COSTUSDT"
+  },
+  "COTIUSDT": {
+    "exchange": "usdm",
+    "base": "coti",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/COTIUSDT"
+  },
+  "CRCLUSDT": {
+    "exchange": "usdm",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CRCLUSDT"
+  },
+  "CRDOUSDT": {
+    "exchange": "usdm",
+    "base": "credo-technology-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CRDOUSDT"
+  },
+  "CRMLUSDT": {
+    "exchange": "usdm",
+    "base": "critical-metals",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CRMLUSDT"
+  },
+  "CRMUSDT": {
+    "exchange": "usdm",
+    "base": "salesforce",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CRMUSDT"
+  },
+  "CRWDUSDT": {
+    "exchange": "usdm",
+    "base": "crowdstrike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CRWDUSDT"
+  },
+  "CRWVUSDT": {
+    "exchange": "usdm",
+    "base": "coreweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CRWVUSDT"
+  },
+  "CSCOUSDT": {
+    "exchange": "usdm",
+    "base": "cisco",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CSCOUSDT"
+  },
+  "CTRUSDT": {
+    "exchange": "usdm",
+    "base": "citrea",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CTRUSDT"
+  },
+  "CTSIUSDT": {
+    "exchange": "usdm",
+    "base": "cartesi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CTSIUSDT"
+  },
+  "CUSDT": {
+    "exchange": "usdm",
+    "base": "chainbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CUSDT"
+  },
+  "CVCUSDT": {
+    "exchange": "usdm",
+    "base": "civic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CVCUSDT"
+  },
+  "CXMTUSDT": {
+    "exchange": "usdm",
+    "base": "cxmt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CXMTUSDT"
+  },
+  "CYBERUSDT": {
+    "exchange": "usdm",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CYBERUSDT"
+  },
+  "CYPHUSDT": {
+    "exchange": "usdm",
+    "base": "cypherpunk-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CYPHUSDT"
+  },
+  "CYSUSDT": {
+    "exchange": "usdm",
+    "base": "cysic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/CYSUSDT"
+  },
+  "DATAIPUSDC": {
+    "exchange": "usdm",
+    "base": "story",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.binance.com/en/futures/DATAIPUSDC"
+  },
+  "DATAIPUSDT": {
+    "exchange": "usdm",
+    "base": "story",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DATAIPUSDT"
+  },
+  "DEEPUSDT": {
+    "exchange": "usdm",
+    "base": "deep",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DEEPUSDT"
+  },
+  "DELLUSDT": {
+    "exchange": "usdm",
+    "base": "dell-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DELLUSDT"
+  },
+  "DIAUSDT": {
+    "exchange": "usdm",
+    "base": "dia-data",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DIAUSDT"
+  },
+  "DISUSDT": {
+    "exchange": "usdm",
+    "base": "walt-disney",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DISUSDT"
+  },
+  "DKNGUSDT": {
+    "exchange": "usdm",
+    "base": "draftkings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DKNGUSDT"
+  },
+  "DOGSUSDT": {
+    "exchange": "usdm",
+    "base": "dogs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DOGSUSDT"
+  },
+  "DOLOUSDT": {
+    "exchange": "usdm",
+    "base": "dolomite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DOLOUSDT"
+  },
+  "DOODUSDT": {
+    "exchange": "usdm",
+    "base": "doodles",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DOODUSDT"
+  },
+  "DOSUSDT": {
+    "exchange": "usdm",
+    "base": "dappos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DOSUSDT"
+  },
+  "DRAMUSDT": {
+    "exchange": "usdm",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DRAMUSDT"
+  },
+  "DRIFTUSDT": {
+    "exchange": "usdm",
+    "base": "drift-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DRIFTUSDT"
+  },
+  "DUSKUSDT": {
+    "exchange": "usdm",
+    "base": "dusk-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/DUSKUSDT"
+  },
+  "EBAYUSDT": {
+    "exchange": "usdm",
+    "base": "ebay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/EBAYUSDT"
+  },
+  "EDENUSDT": {
+    "exchange": "usdm",
+    "base": "openeden",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/EDENUSDT"
+  },
+  "EDGEUSDT": {
+    "exchange": "usdm",
+    "base": "edgex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/EDGEUSDT"
+  },
+  "EDUUSDT": {
+    "exchange": "usdm",
+    "base": "edu-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/EDUUSDT"
+  },
+  "EGLDUSDT": {
+    "exchange": "usdm",
+    "base": "multiversx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/EGLDUSDT"
+  },
+  "ELSAUSDT": {
+    "exchange": "usdm",
+    "base": "elsa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ELSAUSDT"
+  },
+  "ENJUSDT": {
+    "exchange": "usdm",
+    "base": "enjin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ENJUSDT"
+  },
+  "ENSOUSDT": {
+    "exchange": "usdm",
+    "base": "enso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ENSOUSDT"
+  },
+  "ERAUSDT": {
+    "exchange": "usdm",
+    "base": "caldera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ERAUSDT"
+  },
+  "ESPORTSUSDT": {
+    "exchange": "usdm",
+    "base": "yooldo-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ESPORTSUSDT"
+  },
+  "ESPUSDT": {
+    "exchange": "usdm",
+    "base": "espresso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ESPUSDT"
+  },
+  "ETHU": {
+    "exchange": "usdm",
+    "base": "ethereum",
+    "quote": "united-stables",
+    "settlement": "united-stables",
+    "url": "https://www.binance.com/en/futures/ETHU"
+  },
+  "ETHWUSDT": {
+    "exchange": "usdm",
+    "base": "ethereum-pow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ETHWUSDT"
+  },
+  "EULUSDT": {
+    "exchange": "usdm",
+    "base": "euler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/EULUSDT"
+  },
+  "EVAAUSDT": {
+    "exchange": "usdm",
+    "base": "evaa-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/EVAAUSDT"
+  },
+  "EWJUSDT": {
+    "exchange": "usdm",
+    "base": "ishares-msci-japan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/EWJUSDT"
+  },
+  "EWTUSDT": {
+    "exchange": "usdm",
+    "base": "ishares-msci-taiwan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/EWTUSDT"
+  },
+  "EWYUSDT": {
+    "exchange": "usdm",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/EWYUSDT"
+  },
+  "EWZUSDT": {
+    "exchange": "usdm",
+    "base": "ishares-msci-brazil-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/EWZUSDT"
+  },
+  "FFUSDT": {
+    "exchange": "usdm",
+    "base": "falcon-finance-ff",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FFUSDT"
+  },
+  "FHEUSDT": {
+    "exchange": "usdm",
+    "base": "mind-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FHEUSDT"
+  },
+  "FIDAUSDT": {
+    "exchange": "usdm",
+    "base": "bonfida",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FIDAUSDT"
+  },
+  "FIGHTUSDT": {
+    "exchange": "usdm",
+    "base": "fight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FIGHTUSDT"
+  },
+  "FLNCUSDT": {
+    "exchange": "usdm",
+    "base": "fluence-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FLNCUSDT"
+  },
+  "FLOCKUSDT": {
+    "exchange": "usdm",
+    "base": "flock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FLOCKUSDT"
+  },
+  "FLOWUSDT": {
+    "exchange": "usdm",
+    "base": "flow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FLOWUSDT"
+  },
+  "FLUXUSDT": {
+    "exchange": "usdm",
+    "base": "zelcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FLUXUSDT"
+  },
+  "FOGOUSDT": {
+    "exchange": "usdm",
+    "base": "fogo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FOGOUSDT"
+  },
+  "FOLKSUSDT": {
+    "exchange": "usdm",
+    "base": "folks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FOLKSUSDT"
+  },
+  "FORMUSDT": {
+    "exchange": "usdm",
+    "base": "four",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FORMUSDT"
+  },
+  "FUSDT": {
+    "exchange": "usdm",
+    "base": "synfutures",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FUSDT"
+  },
+  "FWDIUSDT": {
+    "exchange": "usdm",
+    "base": "forward-industries",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/FWDIUSDT"
+  },
+  "GASUSDT": {
+    "exchange": "usdm",
+    "base": "neo-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GASUSDT"
+  },
+  "GEVUSDT": {
+    "exchange": "usdm",
+    "base": "ge-vernova",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GEVUSDT"
+  },
+  "GIGGLEUSDT": {
+    "exchange": "usdm",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GIGGLEUSDT"
+  },
+  "GLWUSDT": {
+    "exchange": "usdm",
+    "base": "corning",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GLWUSDT"
+  },
+  "GMEUSDT": {
+    "exchange": "usdm",
+    "base": "gamestop",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GMEUSDT"
+  },
+  "GOATUSDT": {
+    "exchange": "usdm",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GOATUSDT"
+  },
+  "GOOGLUSDT": {
+    "exchange": "usdm",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GOOGLUSDT"
+  },
+  "GPROUSDT": {
+    "exchange": "usdm",
+    "base": "gopro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GPROUSDT"
+  },
+  "GPSUSDT": {
+    "exchange": "usdm",
+    "base": "goplus-security",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GPSUSDT"
+  },
+  "GRAMUSDT": {
+    "exchange": "usdm",
+    "base": "toncoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GRAMUSDT"
+  },
+  "GRVTUSDT": {
+    "exchange": "usdm",
+    "base": "grvt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GRVTUSDT"
+  },
+  "GSUSDT": {
+    "exchange": "usdm",
+    "base": "goldman-sachs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GSUSDT"
+  },
+  "GTCUSDT": {
+    "exchange": "usdm",
+    "base": "gitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GTCUSDT"
+  },
+  "GTLBUSDT": {
+    "exchange": "usdm",
+    "base": "gitlab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GTLBUSDT"
+  },
+  "GUNUSDT": {
+    "exchange": "usdm",
+    "base": "gunz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GUNUSDT"
+  },
+  "GWEIUSDT": {
+    "exchange": "usdm",
+    "base": "ethgas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/GWEIUSDT"
+  },
+  "HAEDALUSDT": {
+    "exchange": "usdm",
+    "base": "haedal-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HAEDALUSDT"
+  },
+  "HANAUSDT": {
+    "exchange": "usdm",
+    "base": "hana-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HANAUSDT"
+  },
+  "HANMIUSDT": {
+    "exchange": "usdm",
+    "base": "hanmi-semiconductor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HANMIUSDT"
+  },
+  "HDUSDT": {
+    "exchange": "usdm",
+    "base": "home-depot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HDUSDT"
+  },
+  "HEIUSDT": {
+    "exchange": "usdm",
+    "base": "heima",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HEIUSDT"
+  },
+  "HEMIUSDT": {
+    "exchange": "usdm",
+    "base": "hemi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HEMIUSDT"
+  },
+  "HIMSUSDT": {
+    "exchange": "usdm",
+    "base": "hims-and-hers-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HIMSUSDT"
+  },
+  "HK0625USDT": {
+    "exchange": "usdm",
+    "base": "shein",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HK0625USDT"
+  },
+  "HK0700USDT": {
+    "exchange": "usdm",
+    "base": "tencent-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HK0700USDT"
+  },
+  "HK0992USDT": {
+    "exchange": "usdm",
+    "base": "lenovo-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HK0992USDT"
+  },
+  "HK1810USDT": {
+    "exchange": "usdm",
+    "base": "xiaomi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HK1810USDT"
+  },
+  "HMSTRUSDT": {
+    "exchange": "usdm",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HMSTRUSDT"
+  },
+  "HOLOUSDT": {
+    "exchange": "usdm",
+    "base": "holoworld",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HOLOUSDT"
+  },
+  "HOMEUSDT": {
+    "exchange": "usdm",
+    "base": "defi-app",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HOMEUSDT"
+  },
+  "HOODUSDT": {
+    "exchange": "usdm",
+    "base": "robinhood-markets",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HOODUSDT"
+  },
+  "HPEUSDT": {
+    "exchange": "usdm",
+    "base": "hewlett-packard-enterprise",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HPEUSDT"
+  },
+  "HUMAUSDT": {
+    "exchange": "usdm",
+    "base": "huma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HUMAUSDT"
+  },
+  "HUSDT": {
+    "exchange": "usdm",
+    "base": "humanity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HUSDT"
+  },
+  "HUTUSDT": {
+    "exchange": "usdm",
+    "base": "hut-8",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HUTUSDT"
+  },
+  "HYPERUSDT": {
+    "exchange": "usdm",
+    "base": "hyperlane",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HYPERUSDT"
+  },
+  "HYUNDAIUSDT": {
+    "exchange": "usdm",
+    "base": "hyundai-motor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/HYUNDAIUSDT"
+  },
+  "IBMUSDT": {
+    "exchange": "usdm",
+    "base": "international-business-machines",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/IBMUSDT"
+  },
+  "ICNTUSDT": {
+    "exchange": "usdm",
+    "base": "impossible-cloud-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ICNTUSDT"
+  },
+  "IDUSDT": {
+    "exchange": "usdm",
+    "base": "space-id",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/IDUSDT"
+  },
+  "ILVUSDT": {
+    "exchange": "usdm",
+    "base": "illuvium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ILVUSDT"
+  },
+  "INITUSDT": {
+    "exchange": "usdm",
+    "base": "initia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/INITUSDT"
+  },
+  "INTCUSDT": {
+    "exchange": "usdm",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/INTCUSDT"
+  },
+  "INUSDT": {
+    "exchange": "usdm",
+    "base": "infinit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/INUSDT"
+  },
+  "INXUSDT": {
+    "exchange": "usdm",
+    "base": "infinex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/INXUSDT"
+  },
+  "IONQUSDT": {
+    "exchange": "usdm",
+    "base": "ionq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/IONQUSDT"
+  },
+  "IOTXUSDT": {
+    "exchange": "usdm",
+    "base": "iotex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/IOTXUSDT"
+  },
+  "IRENUSDT": {
+    "exchange": "usdm",
+    "base": "iren",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/IRENUSDT"
+  },
+  "IRYSUSDT": {
+    "exchange": "usdm",
+    "base": "irys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/IRYSUSDT"
+  },
+  "IWMUSDT": {
+    "exchange": "usdm",
+    "base": "ishares-russell-2000-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/IWMUSDT"
+  },
+  "JCTUSDT": {
+    "exchange": "usdm",
+    "base": "janction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/JCTUSDT"
+  },
+  "JELLYJELLYUSDT": {
+    "exchange": "usdm",
+    "base": "jelly-my-jelly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/JELLYJELLYUSDT"
+  },
+  "JPMUSDT": {
+    "exchange": "usdm",
+    "base": "jpmorgan-chase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/JPMUSDT"
+  },
+  "KATUSDT": {
+    "exchange": "usdm",
+    "base": "katana-network-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KATUSDT"
+  },
+  "KAVAUSDT": {
+    "exchange": "usdm",
+    "base": "kava",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KAVAUSDT"
+  },
+  "KERNELUSDT": {
+    "exchange": "usdm",
+    "base": "kernel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KERNELUSDT"
+  },
+  "KGENUSDT": {
+    "exchange": "usdm",
+    "base": "kgen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KGENUSDT"
+  },
+  "KITEUSDT": {
+    "exchange": "usdm",
+    "base": "kite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KITEUSDT"
+  },
+  "KLACUSDT": {
+    "exchange": "usdm",
+    "base": "kla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KLACUSDT"
+  },
+  "KMNOUSDT": {
+    "exchange": "usdm",
+    "base": "kamino",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KMNOUSDT"
+  },
+  "KNCUSDT": {
+    "exchange": "usdm",
+    "base": "kyber-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KNCUSDT"
+  },
+  "KOMAUSDT": {
+    "exchange": "usdm",
+    "base": "koma-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KOMAUSDT"
+  },
+  "KORUUSDT": {
+    "exchange": "usdm",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KORUUSDT"
+  },
+  "KOUSDT": {
+    "exchange": "usdm",
+    "base": "coca-cola",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KOUSDT"
+  },
+  "KSMUSDT": {
+    "exchange": "usdm",
+    "base": "kusama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KSMUSDT"
+  },
+  "KSTRUSDT": {
+    "exchange": "usdm",
+    "base": "kraneshares-star-50-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KSTRUSDT"
+  },
+  "KUAISHOUUSDT": {
+    "exchange": "usdm",
+    "base": "kuaishou",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/KUAISHOUUSDT"
+  },
+  "LABUSDT": {
+    "exchange": "usdm",
+    "base": "lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LABUSDT"
+  },
+  "LAUSDT": {
+    "exchange": "usdm",
+    "base": "lagrange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LAUSDT"
+  },
+  "LGELECTRONICSUSDT": {
+    "exchange": "usdm",
+    "base": "lg-electronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LGELECTRONICSUSDT"
+  },
+  "LIGHTUSDT": {
+    "exchange": "usdm",
+    "base": "bitlight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LIGHTUSDT"
+  },
+  "LISTAUSDT": {
+    "exchange": "usdm",
+    "base": "lista",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LISTAUSDT"
+  },
+  "LITEUSDT": {
+    "exchange": "usdm",
+    "base": "lumentum-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LITEUSDT"
+  },
+  "LITUSDT": {
+    "exchange": "usdm",
+    "base": "lighter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LITUSDT"
+  },
+  "LLYUSDT": {
+    "exchange": "usdm",
+    "base": "eli-lilly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LLYUSDT"
+  },
+  "LPTUSDT": {
+    "exchange": "usdm",
+    "base": "livepeer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LPTUSDT"
+  },
+  "LQTYUSDT": {
+    "exchange": "usdm",
+    "base": "liquity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LQTYUSDT"
+  },
+  "LRCXUSDT": {
+    "exchange": "usdm",
+    "base": "lam-research",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LRCXUSDT"
+  },
+  "LSKUSDT": {
+    "exchange": "usdm",
+    "base": "lisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LSKUSDT"
+  },
+  "LUMIAUSDT": {
+    "exchange": "usdm",
+    "base": "lumia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LUMIAUSDT"
+  },
+  "LUNA2USDT": {
+    "exchange": "usdm",
+    "base": "terra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LUNA2USDT"
+  },
+  "LYTEUSDT": {
+    "exchange": "usdm",
+    "base": "roundhill-photonics-optics-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/LYTEUSDT"
+  },
+  "MAGICUSDT": {
+    "exchange": "usdm",
+    "base": "magic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MAGICUSDT"
+  },
+  "MAGMAUSDT": {
+    "exchange": "usdm",
+    "base": "magma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MAGMAUSDT"
+  },
+  "MAVIAUSDT": {
+    "exchange": "usdm",
+    "base": "heroes-of-mavia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MAVIAUSDT"
+  },
+  "MAVUSDT": {
+    "exchange": "usdm",
+    "base": "maverick-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MAVUSDT"
+  },
+  "MDBUSDT": {
+    "exchange": "usdm",
+    "base": "mongodb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MDBUSDT"
+  },
+  "MDTUSDT": {
+    "exchange": "usdm",
+    "base": "medtronic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MDTUSDT"
+  },
+  "MEGAUSDT": {
+    "exchange": "usdm",
+    "base": "megaeth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MEGAUSDT"
+  },
+  "MEITUANUSDT": {
+    "exchange": "usdm",
+    "base": "meituan",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MEITUANUSDT"
+  },
+  "MELANIAUSDT": {
+    "exchange": "usdm",
+    "base": "melania-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MELANIAUSDT"
+  },
+  "MEMEUSDT": {
+    "exchange": "usdm",
+    "base": "memecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MEMEUSDT"
+  },
+  "MERLUSDT": {
+    "exchange": "usdm",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MERLUSDT"
+  },
+  "METAUSDT": {
+    "exchange": "usdm",
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/METAUSDT"
+  },
+  "METISUSDT": {
+    "exchange": "usdm",
+    "base": "metis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/METISUSDT"
+  },
+  "METUSDT": {
+    "exchange": "usdm",
+    "base": "meteora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/METUSDT"
+  },
+  "MEWUSDT": {
+    "exchange": "usdm",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MEWUSDT"
+  },
+  "MINAUSDT": {
+    "exchange": "usdm",
+    "base": "mina-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MINAUSDT"
+  },
+  "MINIMAXUSDT": {
+    "exchange": "usdm",
+    "base": "minimax",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MINIMAXUSDT"
+  },
+  "MMTUSDT": {
+    "exchange": "usdm",
+    "base": "momentum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MMTUSDT"
+  },
+  "MOCAUSDT": {
+    "exchange": "usdm",
+    "base": "mocaverse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MOCAUSDT"
+  },
+  "MOVEUSDT": {
+    "exchange": "usdm",
+    "base": "movement",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MOVEUSDT"
+  },
+  "MOVRUSDT": {
+    "exchange": "usdm",
+    "base": "moonriver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MOVRUSDT"
+  },
+  "MPUSDT": {
+    "exchange": "usdm",
+    "base": "mp-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MPUSDT"
+  },
+  "MRKUSDT": {
+    "exchange": "usdm",
+    "base": "merck-and-co",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MRKUSDT"
+  },
+  "MRNAUSDT": {
+    "exchange": "usdm",
+    "base": "moderna",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MRNAUSDT"
+  },
+  "MRVLUSDT": {
+    "exchange": "usdm",
+    "base": "marvell-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MRVLUSDT"
+  },
+  "MSFTUSDT": {
+    "exchange": "usdm",
+    "base": "microsoft",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MSFTUSDT"
+  },
+  "MSTRUSDT": {
+    "exchange": "usdm",
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MSTRUSDT"
+  },
+  "MTLUSDT": {
+    "exchange": "usdm",
+    "base": "metal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MTLUSDT"
+  },
+  "MUBARAKUSDT": {
+    "exchange": "usdm",
+    "base": "mubarak",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MUBARAKUSDT"
+  },
+  "MUSDT": {
+    "exchange": "usdm",
+    "base": "memecore",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MUSDT"
+  },
+  "MUUSDT": {
+    "exchange": "usdm",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/MUUSDT"
+  },
+  "NATGASUSDT": {
+    "exchange": "usdm",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NATGASUSDT"
+  },
+  "NAVERUSDT": {
+    "exchange": "usdm",
+    "base": "naver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NAVERUSDT"
+  },
+  "NBISUSDT": {
+    "exchange": "usdm",
+    "base": "nebius-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NBISUSDT"
+  },
+  "NETUSDT": {
+    "exchange": "usdm",
+    "base": "cloudflare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NETUSDT"
+  },
+  "NEWTUSDT": {
+    "exchange": "usdm",
+    "base": "newton-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NEWTUSDT"
+  },
+  "NFLXUSDT": {
+    "exchange": "usdm",
+    "base": "netflix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NFLXUSDT"
+  },
+  "NIGHTUSDT": {
+    "exchange": "usdm",
+    "base": "midnight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NIGHTUSDT"
+  },
+  "NKEUSDT": {
+    "exchange": "usdm",
+    "base": "nike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NKEUSDT"
+  },
+  "NMRUSDT": {
+    "exchange": "usdm",
+    "base": "numeraire",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NMRUSDT"
+  },
+  "NOKUSDT": {
+    "exchange": "usdm",
+    "base": "nokia-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NOKUSDT"
+  },
+  "NOMUSDT": {
+    "exchange": "usdm",
+    "base": "nomina",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NOMUSDT"
+  },
+  "NOWUSDT": {
+    "exchange": "usdm",
+    "base": "servicenow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NOWUSDT"
+  },
+  "NVDAUSDT": {
+    "exchange": "usdm",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NVDAUSDT"
+  },
+  "NVOUSDT": {
+    "exchange": "usdm",
+    "base": "novo-nordisk-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NVOUSDT"
+  },
+  "NXPCUSDT": {
+    "exchange": "usdm",
+    "base": "nexpace",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/NXPCUSDT"
+  },
+  "OGNUSDT": {
+    "exchange": "usdm",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/OGNUSDT"
+  },
+  "OKLOUSDT": {
+    "exchange": "usdm",
+    "base": "oklo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/OKLOUSDT"
+  },
+  "ONDSUSDT": {
+    "exchange": "usdm",
+    "base": "ondas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ONDSUSDT"
+  },
+  "OPENUSDT": {
+    "exchange": "usdm",
+    "base": "openledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/OPENUSDT"
+  },
+  "OPGUSDT": {
+    "exchange": "usdm",
+    "base": "opengradient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/OPGUSDT"
+  },
+  "OPNUSDT": {
+    "exchange": "usdm",
+    "base": "opinion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/OPNUSDT"
+  },
+  "ORCAUSDT": {
+    "exchange": "usdm",
+    "base": "orca",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ORCAUSDT"
+  },
+  "ORCLUSDT": {
+    "exchange": "usdm",
+    "base": "oracle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ORCLUSDT"
+  },
+  "ORDERUSDT": {
+    "exchange": "usdm",
+    "base": "orderly-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ORDERUSDT"
+  },
+  "OUSDT": {
+    "exchange": "usdm",
+    "base": "o1-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/OUSDT"
+  },
+  "PANWUSDT": {
+    "exchange": "usdm",
+    "base": "palo-alto-networks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PANWUSDT"
+  },
+  "PARTIUSDT": {
+    "exchange": "usdm",
+    "base": "particle-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PARTIUSDT"
+  },
+  "PATHUSDT": {
+    "exchange": "usdm",
+    "base": "uipath",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PATHUSDT"
+  },
+  "PAYPUSDT": {
+    "exchange": "usdm",
+    "base": "paypay-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PAYPUSDT"
+  },
+  "PDDUSDT": {
+    "exchange": "usdm",
+    "base": "pdd-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PDDUSDT"
+  },
+  "PENGUSDT": {
+    "exchange": "usdm",
+    "base": "penguin-solutions",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PENGUSDT"
+  },
+  "PEOPLEUSDT": {
+    "exchange": "usdm",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PEOPLEUSDT"
+  },
+  "PHAROSUSDT": {
+    "exchange": "usdm",
+    "base": "pharos-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PHAROSUSDT"
+  },
+  "PHAUSDT": {
+    "exchange": "usdm",
+    "base": "pha",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PHAUSDT"
+  },
+  "PIEVERSEUSDT": {
+    "exchange": "usdm",
+    "base": "pieverse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PIEVERSEUSDT"
+  },
+  "PLAYUSDT": {
+    "exchange": "usdm",
+    "base": "playsout",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PLAYUSDT"
+  },
+  "PLTRUSDT": {
+    "exchange": "usdm",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PLTRUSDT"
+  },
+  "PLUMEUSDT": {
+    "exchange": "usdm",
+    "base": "plume",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PLUMEUSDT"
+  },
+  "POLYXUSDT": {
+    "exchange": "usdm",
+    "base": "polymesh",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/POLYXUSDT"
+  },
+  "PONSUSDT": {
+    "exchange": "usdm",
+    "base": "pons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PONSUSDT"
+  },
+  "POPCATUSDT": {
+    "exchange": "usdm",
+    "base": "popcat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/POPCATUSDT"
+  },
+  "POPMARTUSDT": {
+    "exchange": "usdm",
+    "base": "pop-mart",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/POPMARTUSDT"
+  },
+  "PORTALUSDT": {
+    "exchange": "usdm",
+    "base": "portal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PORTALUSDT"
+  },
+  "POWRUSDT": {
+    "exchange": "usdm",
+    "base": "power-ledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/POWRUSDT"
+  },
+  "PRLUSDT": {
+    "exchange": "usdm",
+    "base": "perle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PRLUSDT"
+  },
+  "PROMUSDT": {
+    "exchange": "usdm",
+    "base": "prometeus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PROMUSDT"
+  },
+  "PROVEUSDT": {
+    "exchange": "usdm",
+    "base": "succinct",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PROVEUSDT"
+  },
+  "PUNDIXUSDT": {
+    "exchange": "usdm",
+    "base": "pundi-x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/PUNDIXUSDT"
+  },
+  "QCOMUSDT": {
+    "exchange": "usdm",
+    "base": "qualcomm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/QCOMUSDT"
+  },
+  "QNTXUSDT": {
+    "exchange": "usdm",
+    "base": "quantinuum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/QNTXUSDT"
+  },
+  "QQQUSDT": {
+    "exchange": "usdm",
+    "base": "invesco-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/QQQUSDT"
+  },
+  "QTUMUSDT": {
+    "exchange": "usdm",
+    "base": "qtum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/QTUMUSDT"
+  },
+  "QUSDT": {
+    "exchange": "usdm",
+    "base": "quack-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/QUSDT"
+  },
+  "RAREUSDT": {
+    "exchange": "usdm",
+    "base": "superrare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RAREUSDT"
+  },
+  "RAVEUSDT": {
+    "exchange": "usdm",
+    "base": "ravedao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RAVEUSDT"
+  },
+  "RAYSOLUSDT": {
+    "exchange": "usdm",
+    "base": "raydium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RAYSOLUSDT"
+  },
+  "RDDTUSDT": {
+    "exchange": "usdm",
+    "base": "reddit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RDDTUSDT"
+  },
+  "RECALLUSDT": {
+    "exchange": "usdm",
+    "base": "recall",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RECALLUSDT"
+  },
+  "RESOLVUSDT": {
+    "exchange": "usdm",
+    "base": "resolv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RESOLVUSDT"
+  },
+  "REUSDT": {
+    "exchange": "usdm",
+    "base": "re",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/REUSDT"
+  },
+  "RIVERUSDT": {
+    "exchange": "usdm",
+    "base": "river",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RIVERUSDT"
+  },
+  "RIVNUSDT": {
+    "exchange": "usdm",
+    "base": "rivian-automotive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RIVNUSDT"
+  },
+  "RKLBUSDT": {
+    "exchange": "usdm",
+    "base": "rocket-lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RKLBUSDT"
+  },
+  "RLCUSDT": {
+    "exchange": "usdm",
+    "base": "iexec-rlc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RLCUSDT"
+  },
+  "ROBOUSDT": {
+    "exchange": "usdm",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ROBOUSDT"
+  },
+  "ROSEUSDT": {
+    "exchange": "usdm",
+    "base": "oasis-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ROSEUSDT"
+  },
+  "RPLUSDT": {
+    "exchange": "usdm",
+    "base": "rocket-pool",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RPLUSDT"
+  },
+  "RSRUSDT": {
+    "exchange": "usdm",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RSRUSDT"
+  },
+  "RVNUSDT": {
+    "exchange": "usdm",
+    "base": "ravencoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/RVNUSDT"
+  },
+  "SAGAUSDT": {
+    "exchange": "usdm",
+    "base": "saga",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SAGAUSDT"
+  },
+  "SAHARAUSDT": {
+    "exchange": "usdm",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SAHARAUSDT"
+  },
+  "SAMSUNGEMUSDT": {
+    "exchange": "usdm",
+    "base": "samsung-electro-mechanics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SAMSUNGEMUSDT"
+  },
+  "SAMSUNGUSDT": {
+    "exchange": "usdm",
+    "base": "samsung-electronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SAMSUNGUSDT"
+  },
+  "SAPIENUSDT": {
+    "exchange": "usdm",
+    "base": "sapien",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SAPIENUSDT"
+  },
+  "SCRUSDT": {
+    "exchange": "usdm",
+    "base": "scroll",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SCRUSDT"
+  },
+  "SECZUSDT": {
+    "exchange": "usdm",
+    "base": "securitize",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SECZUSDT"
+  },
+  "SENTUSDT": {
+    "exchange": "usdm",
+    "base": "sentient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SENTUSDT"
+  },
+  "SHAZUSDT": {
+    "exchange": "usdm",
+    "base": "sharonai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SHAZUSDT"
+  },
+  "SHOPUSDT": {
+    "exchange": "usdm",
+    "base": "shopify",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SHOPUSDT"
+  },
+  "SIGNUSDT": {
+    "exchange": "usdm",
+    "base": "sign-global",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SIGNUSDT"
+  },
+  "SKHYNIXUSDT": {
+    "exchange": "usdm",
+    "base": "sk-hynix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SKHYNIXUSDT"
+  },
+  "SKHYUSDT": {
+    "exchange": "usdm",
+    "base": "sk-hynix-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SKHYUSDT"
+  },
+  "SKRUSDT": {
+    "exchange": "usdm",
+    "base": "seeker",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SKRUSDT"
+  },
+  "SLPUSDT": {
+    "exchange": "usdm",
+    "base": "smooth-love-potion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SLPUSDT"
+  },
+  "SLXUSDT": {
+    "exchange": "usdm",
+    "base": "solstice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SLXUSDT"
+  },
+  "SMCIUSDT": {
+    "exchange": "usdm",
+    "base": "super-micro-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SMCIUSDT"
+  },
+  "SMHUSDT": {
+    "exchange": "usdm",
+    "base": "vaneck-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SMHUSDT"
+  },
+  "SNDKUSDT": {
+    "exchange": "usdm",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SNDKUSDT"
+  },
+  "SNPSUSDT": {
+    "exchange": "usdm",
+    "base": "synopsys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SNPSUSDT"
+  },
+  "SNXXUSDT": {
+    "exchange": "usdm",
+    "base": "tradr-2x-long-sndk-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SNXXUSDT"
+  },
+  "SOMIUSDT": {
+    "exchange": "usdm",
+    "base": "somnia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SOMIUSDT"
+  },
+  "SONICUSDT": {
+    "exchange": "usdm",
+    "base": "sonic-svm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SONICUSDT"
+  },
+  "SOPHUSDT": {
+    "exchange": "usdm",
+    "base": "sophon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SOPHUSDT"
+  },
+  "SOXLUSDT": {
+    "exchange": "usdm",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SOXLUSDT"
+  },
+  "SOXSUSDT": {
+    "exchange": "usdm",
+    "base": "direxion-daily-semiconductor-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SOXSUSDT"
+  },
+  "SPACEUSDT": {
+    "exchange": "usdm",
+    "base": "spacecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SPACEUSDT"
+  },
+  "SPCXUSD1": {
+    "exchange": "usdm",
+    "base": "spacex",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.binance.com/en/futures/SPCXUSD1"
+  },
+  "SPCXUSDT": {
+    "exchange": "usdm",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SPCXUSDT"
+  },
+  "SPELLUSDT": {
+    "exchange": "usdm",
+    "base": "spell-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SPELLUSDT"
+  },
+  "SPKUSDT": {
+    "exchange": "usdm",
+    "base": "spark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SPKUSDT"
+  },
+  "SPORTFUNUSDT": {
+    "exchange": "usdm",
+    "base": "football-fun",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SPORTFUNUSDT"
+  },
+  "SPXUSDT": {
+    "exchange": "usdm",
+    "base": "spx6900",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SPXUSDT"
+  },
+  "SPYUSDT": {
+    "exchange": "usdm",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SPYUSDT"
+  },
+  "SQDUSDT": {
+    "exchange": "usdm",
+    "base": "subsquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SQDUSDT"
+  },
+  "SQQQUSDT": {
+    "exchange": "usdm",
+    "base": "proshares-ultrapro-short-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SQQQUSDT"
+  },
+  "SSVUSDT": {
+    "exchange": "usdm",
+    "base": "ssv-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SSVUSDT"
+  },
+  "STABLEUSDT": {
+    "exchange": "usdm",
+    "base": "stable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/STABLEUSDT"
+  },
+  "STARUSDT": {
+    "exchange": "usdm",
+    "base": "starpower",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/STARUSDT"
+  },
+  "STBLUSDT": {
+    "exchange": "usdm",
+    "base": "stbl",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/STBLUSDT"
+  },
+  "STEEMUSDT": {
+    "exchange": "usdm",
+    "base": "steem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/STEEMUSDT"
+  },
+  "STOUSDT": {
+    "exchange": "usdm",
+    "base": "stakestone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/STOUSDT"
+  },
+  "STRCUSDT": {
+    "exchange": "usdm",
+    "base": "strategy-stretch-preferred-stock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/STRCUSDT"
+  },
+  "STXXUSDT": {
+    "exchange": "usdm",
+    "base": "seagate-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/STXXUSDT"
+  },
+  "SUPERUSDT": {
+    "exchange": "usdm",
+    "base": "superfarm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SUPERUSDT"
+  },
+  "SUSHIUSDT": {
+    "exchange": "usdm",
+    "base": "sushi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SUSHIUSDT"
+  },
+  "SWARMSUSDT": {
+    "exchange": "usdm",
+    "base": "swarms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SWARMSUSDT"
+  },
+  "SXTUSDT": {
+    "exchange": "usdm",
+    "base": "space-and-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/SXTUSDT"
+  },
+  "TAGUSDT": {
+    "exchange": "usdm",
+    "base": "tagger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TAGUSDT"
+  },
+  "TAIKOUSDT": {
+    "exchange": "usdm",
+    "base": "taiko",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TAIKOUSDT"
+  },
+  "TAUSDT": {
+    "exchange": "usdm",
+    "base": "trusta-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TAUSDT"
+  },
+  "TENCENTUSDT": {
+    "exchange": "usdm",
+    "base": "tencent-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TENCENTUSDT"
+  },
+  "TERUSDT": {
+    "exchange": "usdm",
+    "base": "teradyne",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TERUSDT"
+  },
+  "TLMUSDT": {
+    "exchange": "usdm",
+    "base": "alien-worlds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TLMUSDT"
+  },
+  "TNSRUSDT": {
+    "exchange": "usdm",
+    "base": "tensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TNSRUSDT"
+  },
+  "TOSHIUSDT": {
+    "exchange": "usdm",
+    "base": "toshi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TOSHIUSDT"
+  },
+  "TOWNSUSDT": {
+    "exchange": "usdm",
+    "base": "towns",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TOWNSUSDT"
+  },
+  "TQQQUSDT": {
+    "exchange": "usdm",
+    "base": "proshares-ultrapro-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TQQQUSDT"
+  },
+  "TRADOORUSDT": {
+    "exchange": "usdm",
+    "base": "tradoor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TRADOORUSDT"
+  },
+  "TREEUSDT": {
+    "exchange": "usdm",
+    "base": "treehouse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TREEUSDT"
+  },
+  "TRIAUSDT": {
+    "exchange": "usdm",
+    "base": "tria",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TRIAUSDT"
+  },
+  "TRUSTUSDT": {
+    "exchange": "usdm",
+    "base": "intuition",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TRUSTUSDT"
+  },
+  "TRUTHUSDT": {
+    "exchange": "usdm",
+    "base": "swarm-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TRUTHUSDT"
+  },
+  "TSLAUSDT": {
+    "exchange": "usdm",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TSLAUSDT"
+  },
+  "TSMUSDT": {
+    "exchange": "usdm",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TSMUSDT"
+  },
+  "TTWOUSDT": {
+    "exchange": "usdm",
+    "base": "take-two-interactive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TTWOUSDT"
+  },
+  "TURBOUSDT": {
+    "exchange": "usdm",
+    "base": "turbo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TURBOUSDT"
+  },
+  "TURTLEUSDT": {
+    "exchange": "usdm",
+    "base": "turtle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TURTLEUSDT"
+  },
+  "TUTUSDT": {
+    "exchange": "usdm",
+    "base": "tutorial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TUTUSDT"
+  },
+  "TXNUSDT": {
+    "exchange": "usdm",
+    "base": "texas-instruments",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/TXNUSDT"
+  },
+  "UAIUSDT": {
+    "exchange": "usdm",
+    "base": "unifai-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/UAIUSDT"
+  },
+  "UBERUSDT": {
+    "exchange": "usdm",
+    "base": "uber-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/UBERUSDT"
+  },
+  "UBUSDT": {
+    "exchange": "usdm",
+    "base": "unibase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/UBUSDT"
+  },
+  "UNHUSDT": {
+    "exchange": "usdm",
+    "base": "unitedhealth-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/UNHUSDT"
+  },
+  "UNITREEUSDT": {
+    "exchange": "usdm",
+    "base": "unitree-robotics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/UNITREEUSDT"
+  },
+  "URNMUSDT": {
+    "exchange": "usdm",
+    "base": "sprott-uranium-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/URNMUSDT"
+  },
+  "USARUSDT": {
+    "exchange": "usdm",
+    "base": "usa-rare-earth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/USARUSDT"
+  },
+  "USDEXUSDT": {
+    "exchange": "usdm",
+    "base": "stablecoinx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/USDEXUSDT"
+  },
+  "USTCUSDT": {
+    "exchange": "usdm",
+    "base": "terrausd",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/USTCUSDT"
+  },
+  "USUSDT": {
+    "exchange": "usdm",
+    "base": "talus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/USUSDT"
+  },
+  "UVXYUSDT": {
+    "exchange": "usdm",
+    "base": "proshares-ultra-vix-short-term-futures-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/UVXYUSDT"
+  },
+  "VELODROMEUSDT": {
+    "exchange": "usdm",
+    "base": "velodrome",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/VELODROMEUSDT"
+  },
+  "VELVETUSDT": {
+    "exchange": "usdm",
+    "base": "velvet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/VELVETUSDT"
+  },
+  "VKTXUSDT": {
+    "exchange": "usdm",
+    "base": "viking-therapeutics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/VKTXUSDT"
+  },
+  "VSTUSDT": {
+    "exchange": "usdm",
+    "base": "vistra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/VSTUSDT"
+  },
+  "VTHOUSDT": {
+    "exchange": "usdm",
+    "base": "vethor-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/VTHOUSDT"
+  },
+  "VUSDT": {
+    "exchange": "usdm",
+    "base": "visa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/VUSDT"
+  },
+  "WALUSDT": {
+    "exchange": "usdm",
+    "base": "walrus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/WALUSDT"
+  },
+  "WAXPUSDT": {
+    "exchange": "usdm",
+    "base": "wax",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/WAXPUSDT"
+  },
+  "WCTUSDT": {
+    "exchange": "usdm",
+    "base": "walletconnect",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/WCTUSDT"
+  },
+  "WDCUSDT": {
+    "exchange": "usdm",
+    "base": "western-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/WDCUSDT"
+  },
+  "WENUSDT": {
+    "exchange": "usdm",
+    "base": "wendys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/WENUSDT"
+  },
+  "WETUSDT": {
+    "exchange": "usdm",
+    "base": "humidifi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/WETUSDT"
+  },
+  "WMTUSDT": {
+    "exchange": "usdm",
+    "base": "walmart",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/WMTUSDT"
+  },
+  "WOOUSDT": {
+    "exchange": "usdm",
+    "base": "woo-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/WOOUSDT"
+  },
+  "XAGUSDT": {
+    "exchange": "usdm",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/XAGUSDT"
+  },
+  "XAIUSDT": {
+    "exchange": "usdm",
+    "base": "xai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/XAIUSDT"
+  },
+  "XANUSDT": {
+    "exchange": "usdm",
+    "base": "anoma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/XANUSDT"
+  },
+  "XAUUSDT": {
+    "exchange": "usdm",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/XAUUSDT"
+  },
+  "XBIUSDT": {
+    "exchange": "usdm",
+    "base": "spdr-sp-biotech-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/XBIUSDT"
+  },
+  "XLEUSDT": {
+    "exchange": "usdm",
+    "base": "energy-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/XLEUSDT"
+  },
+  "XNYUSDT": {
+    "exchange": "usdm",
+    "base": "codatta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/XNYUSDT"
+  },
+  "XOMUSDT": {
+    "exchange": "usdm",
+    "base": "exxon-mobil",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/XOMUSDT"
+  },
+  "XPDUSDT": {
+    "exchange": "usdm",
+    "base": "palladium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/XPDUSDT"
+  },
+  "XPTUSDT": {
+    "exchange": "usdm",
+    "base": "platinum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/XPTUSDT"
+  },
+  "YBUSDT": {
+    "exchange": "usdm",
+    "base": "yield-basis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/YBUSDT"
+  },
+  "YGGUSDT": {
+    "exchange": "usdm",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/YGGUSDT"
+  },
+  "ZAMAUSDT": {
+    "exchange": "usdm",
+    "base": "zama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZAMAUSDT"
+  },
+  "ZBTUSDT": {
+    "exchange": "usdm",
+    "base": "zerobase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZBTUSDT"
+  },
+  "ZCSHUSDT": {
+    "exchange": "usdm",
+    "base": "grayscale-zcash-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZCSHUSDT"
+  },
+  "ZENUSDT": {
+    "exchange": "usdm",
+    "base": "horizen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZENUSDT"
+  },
+  "ZEREBROUSDT": {
+    "exchange": "usdm",
+    "base": "zerebro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZEREBROUSDT"
+  },
+  "ZESTUSDT": {
+    "exchange": "usdm",
+    "base": "zest-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZESTUSDT"
+  },
+  "ZETAUSDT": {
+    "exchange": "usdm",
+    "base": "zetachain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZETAUSDT"
+  },
+  "ZHIPUUSDT": {
+    "exchange": "usdm",
+    "base": "zhipu-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZHIPUUSDT"
+  },
+  "ZILUSDT": {
+    "exchange": "usdm",
+    "base": "zilliqa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZILUSDT"
+  },
+  "ZKCUSDT": {
+    "exchange": "usdm",
+    "base": "boundless",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZKCUSDT"
+  },
+  "ZKPUSDT": {
+    "exchange": "usdm",
+    "base": "zkpass",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZKPUSDT"
+  },
+  "ZMUSDT": {
+    "exchange": "usdm",
+    "base": "zoom-communications",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZMUSDT"
+  },
+  "ZORAUSDT": {
+    "exchange": "usdm",
+    "base": "zora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZORAUSDT"
+  },
+  "ZRXUSDT": {
+    "exchange": "usdm",
+    "base": "0x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZRXUSDT"
+  },
+  "ZSUSDT": {
+    "exchange": "usdm",
+    "base": "zscaler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.binance.com/en/futures/ZSUSDT"
   }
 }
