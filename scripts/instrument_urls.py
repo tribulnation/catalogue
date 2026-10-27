@@ -46,6 +46,14 @@ _LIGHTER_SYMBOLS = {
   'unitree-robotics': 'UNITREE',
   'xiaomi': 'XIAOMI',
   'zhipu-ai': 'ZHIPU',
+  'anthropic': 'ANTHROPIC',
+  'openai': 'OPENAI',
+  'hyundai-motor': 'HYUNDAIUSD',
+  'samsung-electronics': 'SAMSUNGUSD',
+  'sk-hynix': 'SKHYNIXUSD',
+  'semiconductor-manufacturing-international': 'SMIC',
+  'stablecoinx': 'STABLECOINX',
+  'story': 'DATA',
 }
 
 
@@ -117,8 +125,11 @@ def _lighter_symbol(asset: str, symbols: Symbols) -> str:
 
 
 def lighter_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
-  """`/trade/<SYMBOL>`, with a contract multiplier's prefix (`1000PEPE`)."""
+  """`/trade/<SYMBOL>`, with a contract multiplier's prefix (`1000PEPE`). A market
+  quoted in something other than USDC names both legs (`USDJPY`)."""
   symbol = _lighter_symbol(str(instrument['base']), symbols)
+  if instrument.get('quote') != 'usd-coin':
+    symbol += _lighter_symbol(str(instrument['quote']), symbols)
   multiplier = instrument.get('multiplier')
   prefix = str(multiplier) if multiplier is not None else ''
   return f'https://app.lighter.xyz/trade/{prefix}{symbol}'

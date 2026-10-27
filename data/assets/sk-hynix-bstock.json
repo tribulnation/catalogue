@@ -1,0 +1,22 @@
+{
+  "id": "sk-hynix-bstock",
+  "display_name": "SK hynix bStock",
+  "symbol": "SKHYB",
+  "category": "rwa",
+  "about": {
+    "en": "SK hynix bStock (SKHYB) is a tokenized share of SK hynix Inc. issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0xca750ef65f295bbecd685abf54e82caf297bdb61, backed 1:1 by the underlying shares held in segregated custody. It tracks the Nasdaq-listed SK hynix depositary receipt (SKHY), not the Korean common share, which trades at roughly seven times the price."
+  },
+  "pegged_to": {
+    "asset": "sk-hynix-adr"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  },
+  "external": {
+    "coingecko": "sk-hynix-bstocks-tokenized-stock",
+    "coinmarketcap": "40813"
+  }
+}

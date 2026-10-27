@@ -3613,6 +3613,83 @@
     "settlement": "tether",
     "url": "https://www.asterdex.com/en/trade/pro/futures/ZROUSDT"
   },
+  "STEEMUSDT": {
+    "exchange": "perp",
+    "base": "steem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/STEEMUSDT"
+  },
+  "TRADOORUSDT": {
+    "exchange": "perp",
+    "base": "tradoor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/TRADOORUSDT"
+  },
+  "TURTLEUSDT": {
+    "exchange": "perp",
+    "base": "turtle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/TURTLEUSDT"
+  },
+  "UBERUSDT": {
+    "exchange": "perp",
+    "base": "uber-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/UBERUSDT"
+  },
+  "UVXYUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultra-vix-short-term-futures-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/UVXYUSDT"
+  },
+  "XPINUSDT": {
+    "exchange": "perp",
+    "base": "xpin-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/XPINUSDT"
+  },
+  "ZZZUSDT": {
+    "exchange": "perp",
+    "base": "zzz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ZZZUSDT"
+  },
+  "XDPUSDT": {
+    "exchange": "perp",
+    "base": "doppler-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/XDPUSDT"
+  },
+  "SCRUSDT": {
+    "exchange": "perp",
+    "base": "scroll",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/SCRUSDT"
+  },
+  "RLCUSDT": {
+    "exchange": "perp",
+    "base": "iexec-rlc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/RLCUSDT"
+  },
+  "ACNUSD1": {
+    "exchange": "perp",
+    "base": "accenture",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ACNUSD1"
+  },
   "BATUSDT": {
     "exchange": "perp",
     "base": "basic-attention-token",

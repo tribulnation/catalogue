@@ -233,6 +233,24 @@
     "quote": "usd1",
     "url": "https://www.asterdex.com/en/trade/pro/spot/WLFIUSD1"
   },
+  "SENTISUSDT": {
+    "exchange": "spot",
+    "base": "sentismai",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/SENTISUSDT"
+  },
+  "SKHYBUSDT": {
+    "exchange": "spot",
+    "base": "sk-hynix-bstock",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/SKHYBUSDT"
+  },
+  "SPCXBUSDT": {
+    "exchange": "spot",
+    "base": "spacex-bstock",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/SPCXBUSDT"
+  },
   "CRCLBUSDT": {
     "exchange": "spot",
     "base": "circle-internet-group-bstock",

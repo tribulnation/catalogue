@@ -3143,6 +3143,27 @@
     "settlement": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/xyz:PLTR"
   },
+  "xyz:CAMBRICON": {
+    "exchange": "xyz",
+    "base": "cambricon",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/xyz:CAMBRICON"
+  },
+  "xyz:TWST": {
+    "exchange": "xyz",
+    "base": "twist-bioscience",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/xyz:TWST"
+  },
+  "xyz:ACN": {
+    "exchange": "xyz",
+    "base": "accenture",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
   "xyz:JIO": {
     "exchange": "xyz",
     "base": "jio-platforms",
