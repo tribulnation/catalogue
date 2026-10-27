@@ -37,6 +37,8 @@
   "binance-peg-ethereum:coingecko:binance-peg-weth": "Catalogue tracks Binance-Peg ETH; CoinGecko lists the same token as WETH.",
   "bridged-tether:coingecko:tether-avalanche-bridged-usdt-e": "Same token; CoinGecko spells USDT.e as USDTE.",
   "mai:coingecko:mimatic": "MAI's CoinGecko symbol is the legacy miMATIC ticker.",
+  "onechain:coingecko:cross-2": "Rebrand that kept the ID: ONEchain was CROSS until 2026 and the token contract (BNB Smart Chain 0x6bf62ca91e397b5a7d1d6bce97d9092065d7a510) was not changed; it still reports symbol() CROSS on chain and exchanges list it as CROSS, while CoinGecko now shows ONE.",
+  "onechain:coinmarketcap:37166": "Rebrand that kept the ID: ONEchain was CROSS until 2026 and the token contract (BNB Smart Chain 0x6bf62ca91e397b5a7d1d6bce97d9092065d7a510) was not changed; it still reports symbol() CROSS on chain and exchanges list it as CROSS, while CoinMarketCap now shows ONE.",
   "mai-avalanche:coingecko:mai-avalanche": "Per-chain MAI deployment; CoinGecko keeps the miMATIC symbol.",
   "mai-base:coingecko:mai-base": "Per-chain MAI deployment; CoinGecko keeps the miMATIC symbol.",
   "wrapped-aave-agora-dollar:coingecko:wrapped-aave-avalanche-ausd": "Aave wrapper; CoinGecko spells out the chain in the symbol.",
