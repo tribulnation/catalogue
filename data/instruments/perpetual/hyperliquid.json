@@ -3198,5 +3198,12 @@
     "quote": "tether",
     "settlement": "usd-coin",
     "delisted": true
+  },
+  "xyz:ANT": {
+    "exchange": "xyz",
+    "base": "anthropic",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/xyz:ANT"
   }
 }
