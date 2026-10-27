@@ -1,0 +1,2498 @@
+{
+  "1INCHUSDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/1INCH_USDT"
+  },
+  "2ZUSDT": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/2Z_USDT"
+  },
+  "4STOCKUSDT": {
+    "exchange": "spot",
+    "base": "4stock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/4STOCK_USDT"
+  },
+  "AAVEUSDT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AAVE_USDT"
+  },
+  "ACEUSDT": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ACE_USDT"
+  },
+  "ACHUSDT": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ACH_USDT"
+  },
+  "ACTUSDT": {
+    "exchange": "spot",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ACT_USDT"
+  },
+  "ADAUSDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ADA_USDT"
+  },
+  "ADXUSDT": {
+    "exchange": "spot",
+    "base": "adex",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ADX_USDT"
+  },
+  "AEROUSDT": {
+    "exchange": "spot",
+    "base": "aerodrome",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AERO_USDT"
+  },
+  "AEVOUSDT": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AEVO_USDT"
+  },
+  "AGIUSDT": {
+    "exchange": "spot",
+    "base": "delysium",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AGI_USDT"
+  },
+  "AINUSDT": {
+    "exchange": "spot",
+    "base": "infinity-ground",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AIN_USDT"
+  },
+  "AIOUSDT": {
+    "exchange": "spot",
+    "base": "olaxbt",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AIO_USDT"
+  },
+  "AIXBTUSDT": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AIXBT_USDT"
+  },
+  "AKEUSDT": {
+    "exchange": "spot",
+    "base": "akedo",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AKE_USDT"
+  },
+  "ALCHUSDT": {
+    "exchange": "spot",
+    "base": "alchemist-ai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ALCH_USDT"
+  },
+  "ALGOUSDT": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ALGO_USDT"
+  },
+  "ALICEUSDT": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ALICE_USDT"
+  },
+  "ALIGNUSDT": {
+    "exchange": "spot",
+    "base": "aligned",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ALIGN_USDT"
+  },
+  "ALLOUSDT": {
+    "exchange": "spot",
+    "base": "allora",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ALLO_USDT"
+  },
+  "AMPUSDT": {
+    "exchange": "spot",
+    "base": "amp-token",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AMP_USDT"
+  },
+  "AMZNXUSDT": {
+    "exchange": "spot",
+    "base": "amazon-xstock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AMZNX_USDT"
+  },
+  "ANIMEUSDT": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ANIME_USDT"
+  },
+  "ANKRUSDT": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ANKR_USDT"
+  },
+  "APEUSDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/APE_USDT"
+  },
+  "API3USDT": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/API3_USDT"
+  },
+  "APRUSDT": {
+    "exchange": "spot",
+    "base": "apriori",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/APR_USDT"
+  },
+  "APTUSDT": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/APT_USDT"
+  },
+  "ARBUSDT": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ARB_USDT"
+  },
+  "ARIAUSDT": {
+    "exchange": "spot",
+    "base": "aria-ai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ARIA_USDT"
+  },
+  "ARKMUSDT": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ARKM_USDT"
+  },
+  "ARPAUSDT": {
+    "exchange": "spot",
+    "base": "arpa-chain",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ARPA_USDT"
+  },
+  "ARXUSDT": {
+    "exchange": "spot",
+    "base": "arcium",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ARX_USDT"
+  },
+  "ASPUSDT": {
+    "exchange": "spot",
+    "base": "aspecta",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ASP_USDT"
+  },
+  "ASTERUSDT": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ASTER_USDT"
+  },
+  "ATHUSDT": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ATH_USDT"
+  },
+  "ATOMUSDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ATOM_USDT"
+  },
+  "AUDIOUSDT": {
+    "exchange": "spot",
+    "base": "audius",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AUDIO_USDT"
+  },
+  "AVAUSDT": {
+    "exchange": "spot",
+    "base": "travala",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AVA_USDT"
+  },
+  "AVAXUSDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AVAX_USDT"
+  },
+  "AVNTUSDT": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AVNT_USDT"
+  },
+  "AWEUSDT": {
+    "exchange": "spot",
+    "base": "stp-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AWE_USDT"
+  },
+  "AXISUSDT": {
+    "exchange": "spot",
+    "base": "axis-robotics",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AXIS_USDT"
+  },
+  "AXLUSDT": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AXL_USDT"
+  },
+  "AXSUSDT": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AXS_USDT"
+  },
+  "AZTECUSDT": {
+    "exchange": "spot",
+    "base": "aztec",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AZTEC_USDT"
+  },
+  "B2USDT": {
+    "exchange": "spot",
+    "base": "bsquared-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/B2_USDT"
+  },
+  "B3USDT": {
+    "exchange": "spot",
+    "base": "b3",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/B3_USDT"
+  },
+  "BABYDOGEUSDT": {
+    "exchange": "spot",
+    "base": "baby-doge-coin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BABYDOGE_USDT"
+  },
+  "BABYUSDT": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BABY_USDT"
+  },
+  "BANANAS31USDT": {
+    "exchange": "spot",
+    "base": "banana-for-scale",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BANANAS31_USDT"
+  },
+  "BANANAUSDT": {
+    "exchange": "spot",
+    "base": "banana-gun",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BANANA_USDT"
+  },
+  "BANDUSDT": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BAND_USDT"
+  },
+  "BARDUSDT": {
+    "exchange": "spot",
+    "base": "lombard",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BARD_USDT"
+  },
+  "BASEDUSDT": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BASED_USDT"
+  },
+  "BASUSDT": {
+    "exchange": "spot",
+    "base": "bas",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BAS_USDT"
+  },
+  "BCHUSDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BCH_USDT"
+  },
+  "BDXNUSDT": {
+    "exchange": "spot",
+    "base": "bondex",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BDXN_USDT"
+  },
+  "BEATUSDT": {
+    "exchange": "spot",
+    "base": "audiera",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BEAT_USDT"
+  },
+  "BELUSDT": {
+    "exchange": "spot",
+    "base": "bella-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BEL_USDT"
+  },
+  "BERAUSDT": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BERA_USDT"
+  },
+  "BICOUSDT": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BICO_USDT"
+  },
+  "BIGTIMEUSDT": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BIGTIME_USDT"
+  },
+  "BILLUSDT": {
+    "exchange": "spot",
+    "base": "billions-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BILL_USDT"
+  },
+  "BIOUSDT": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BIO_USDT"
+  },
+  "BIRBUSDT": {
+    "exchange": "spot",
+    "base": "moonbirds",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BIRB_USDT"
+  },
+  "BLENDUSDT": {
+    "exchange": "spot",
+    "base": "fluent-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BLEND_USDT"
+  },
+  "BLESSUSDT": {
+    "exchange": "spot",
+    "base": "bless-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BLESS_USDT"
+  },
+  "BLUAIUSDT": {
+    "exchange": "spot",
+    "base": "bluwhale",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BLUAI_USDT"
+  },
+  "BLURUSDT": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BLUR_USDT"
+  },
+  "BMTUSDT": {
+    "exchange": "spot",
+    "base": "bubblemaps",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BMT_USDT"
+  },
+  "BNBUSDT": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BNB_USDT"
+  },
+  "BNKRUSDT": {
+    "exchange": "spot",
+    "base": "bankrcoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BNKR_USDT"
+  },
+  "BNTUSDT": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BNT_USDT"
+  },
+  "BOBUSDT": {
+    "exchange": "spot",
+    "base": "build-on-bitcoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BOB_USDT"
+  },
+  "BOMEUSDT": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BOME_USDT"
+  },
+  "BONKUSDT": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BONK_USDT"
+  },
+  "BOSUSDT": {
+    "exchange": "spot",
+    "base": "bitcoinos",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BOS_USDT"
+  },
+  "BREVUSDT": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BREV_USDT"
+  },
+  "BRUSDT": {
+    "exchange": "spot",
+    "base": "bedrock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BR_USDT"
+  },
+  "BSBUSDT": {
+    "exchange": "spot",
+    "base": "block-street",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BSB_USDT"
+  },
+  "BTCUSDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://www.toobit.com/spot/BTC_USDC"
+  },
+  "BTCUSDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BTC_USDT"
+  },
+  "BTRUSDT": {
+    "exchange": "spot",
+    "base": "bitlayer-bitvm",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BTR_USDT"
+  },
+  "BTWUSDT": {
+    "exchange": "spot",
+    "base": "bitway",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BTW_USDT"
+  },
+  "BUSDT": {
+    "exchange": "spot",
+    "base": "build-on",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/B_USDT"
+  },
+  "CAKEUSDT": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CAKE_USDT"
+  },
+  "CAMPUSDT": {
+    "exchange": "spot",
+    "base": "camp-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CAMP_USDT"
+  },
+  "CARDSUSDT": {
+    "exchange": "spot",
+    "base": "collector-crypt",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CARDS_USDT"
+  },
+  "CARVUSDT": {
+    "exchange": "spot",
+    "base": "carv",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CARV_USDT"
+  },
+  "CASHCATUSDT": {
+    "exchange": "spot",
+    "base": "cash-cat",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CASHCAT_USDT"
+  },
+  "CATIUSDT": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CATI_USDT"
+  },
+  "CATUSDT": {
+    "exchange": "spot",
+    "base": "simon-s-cat",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CAT_USDT"
+  },
+  "CETUSUSDT": {
+    "exchange": "spot",
+    "base": "cetus-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CETUS_USDT"
+  },
+  "CFGUSDT": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CFG_USDT"
+  },
+  "CGPTUSDT": {
+    "exchange": "spot",
+    "base": "chaingpt",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CGPT_USDT"
+  },
+  "CHIPUSDT": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CHIP_USDT"
+  },
+  "CHRUSDT": {
+    "exchange": "spot",
+    "base": "chromaway",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CHR_USDT"
+  },
+  "CHZUSDT": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CHZ_USDT"
+  },
+  "CLANKERUSDT": {
+    "exchange": "spot",
+    "base": "tokenbot",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CLANKER_USDT"
+  },
+  "CLOUSDT": {
+    "exchange": "spot",
+    "base": "yei-finance",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CLO_USDT"
+  },
+  "COINXUSDT": {
+    "exchange": "spot",
+    "base": "coinbase-xstock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/COINX_USDT"
+  },
+  "COMMONUSDT": {
+    "exchange": "spot",
+    "base": "common",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/COMMON_USDT"
+  },
+  "COMPUSDT": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/COMP_USDT"
+  },
+  "COOKIEUSDT": {
+    "exchange": "spot",
+    "base": "cookie",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/COOKIE_USDT"
+  },
+  "COTIUSDT": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/COTI_USDT"
+  },
+  "CRVUSDT": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CRV_USDT"
+  },
+  "CTRUSDT": {
+    "exchange": "spot",
+    "base": "citrea",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CTR_USDT"
+  },
+  "CTUSDT": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CT_USDT"
+  },
+  "CUSDT": {
+    "exchange": "spot",
+    "base": "chainbase",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/C_USDT"
+  },
+  "CYBERUSDT": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CYBER_USDT"
+  },
+  "DASHUSDT": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DASH_USDT"
+  },
+  "DBRUSDT": {
+    "exchange": "spot",
+    "base": "debridge",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DBR_USDT"
+  },
+  "DEEPUSDT": {
+    "exchange": "spot",
+    "base": "deep",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DEEP_USDT"
+  },
+  "DGAIUSDT": {
+    "exchange": "spot",
+    "base": "dgrid-ai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DGAI_USDT"
+  },
+  "DMCUSDT": {
+    "exchange": "spot",
+    "base": "delorean",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DMC_USDT"
+  },
+  "DNAUSDT": {
+    "exchange": "spot",
+    "base": "neosoul",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DNA_USDT"
+  },
+  "DNUSDT": {
+    "exchange": "spot",
+    "base": "deepnode",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DN_USDT"
+  },
+  "DOGEUSDC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "url": "https://www.toobit.com/spot/DOGE_USDC"
+  },
+  "DOGEUSDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DOGE_USDT"
+  },
+  "DOGSUSDT": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DOGS_USDT"
+  },
+  "DOLOUSDT": {
+    "exchange": "spot",
+    "base": "dolomite",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DOLO_USDT"
+  },
+  "DOODUSDT": {
+    "exchange": "spot",
+    "base": "doodles",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DOOD_USDT"
+  },
+  "DOSUSDT": {
+    "exchange": "spot",
+    "base": "dappos",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DOS_USDT"
+  },
+  "DOTUSDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DOT_USDT"
+  },
+  "DRIFTUSDT": {
+    "exchange": "spot",
+    "base": "drift-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DRIFT_USDT"
+  },
+  "DRVUSDT": {
+    "exchange": "spot",
+    "base": "derive",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DRV_USDT"
+  },
+  "DUSKUSDT": {
+    "exchange": "spot",
+    "base": "dusk-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DUSK_USDT"
+  },
+  "DYDXUSDT": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DYDX_USDT"
+  },
+  "EDENUSDT": {
+    "exchange": "spot",
+    "base": "openeden",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/EDEN_USDT"
+  },
+  "EDGEUSDT": {
+    "exchange": "spot",
+    "base": "definitive",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/EDGE_USDT"
+  },
+  "EDUUSDT": {
+    "exchange": "spot",
+    "base": "edu-coin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/EDU_USDT"
+  },
+  "EGLDUSDT": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/EGLD_USDT"
+  },
+  "EIGENUSDT": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/EIGEN_USDT"
+  },
+  "ELIZAOSUSDT": {
+    "exchange": "spot",
+    "base": "elizaos",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ELIZAOS_USDT"
+  },
+  "ELSAUSDT": {
+    "exchange": "spot",
+    "base": "elsa",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ELSA_USDT"
+  },
+  "ENAUSDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ENA_USDT"
+  },
+  "ENJUSDT": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ENJ_USDT"
+  },
+  "ENSOUSDT": {
+    "exchange": "spot",
+    "base": "enso",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ENSO_USDT"
+  },
+  "ENSUSDT": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ENS_USDT"
+  },
+  "EPTUSDT": {
+    "exchange": "spot",
+    "base": "balance",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/EPT_USDT"
+  },
+  "ERAUSDT": {
+    "exchange": "spot",
+    "base": "caldera",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ERA_USDT"
+  },
+  "ESPUSDT": {
+    "exchange": "spot",
+    "base": "espresso",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ESP_USDT"
+  },
+  "ESUSDT": {
+    "exchange": "spot",
+    "base": "eclipse",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ES_USDT"
+  },
+  "ETCUSDT": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ETC_USDT"
+  },
+  "ETHFIUSDT": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ETHFI_USDT"
+  },
+  "ETHUSDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://www.toobit.com/spot/ETH_USDC"
+  },
+  "ETHUSDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ETH_USDT"
+  },
+  "EULUSDT": {
+    "exchange": "spot",
+    "base": "euler",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/EUL_USDT"
+  },
+  "EVAAUSDT": {
+    "exchange": "spot",
+    "base": "evaa-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/EVAA_USDT"
+  },
+  "FARTCOINUSDT": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FARTCOIN_USDT"
+  },
+  "FDUSDUSDT": {
+    "exchange": "spot",
+    "base": "first-digital-usd",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FDUSD_USDT"
+  },
+  "FETUSDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FET_USDT"
+  },
+  "FFUSDT": {
+    "exchange": "spot",
+    "base": "falcon-finance-ff",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FF_USDT"
+  },
+  "FHEUSDT": {
+    "exchange": "spot",
+    "base": "mind-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FHE_USDT"
+  },
+  "FIDAUSDT": {
+    "exchange": "spot",
+    "base": "bonfida",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FIDA_USDT"
+  },
+  "FIGHTUSDT": {
+    "exchange": "spot",
+    "base": "fight",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FIGHT_USDT"
+  },
+  "FILUSDT": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FIL_USDT"
+  },
+  "FLOCKUSDT": {
+    "exchange": "spot",
+    "base": "flock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FLOCK_USDT"
+  },
+  "FLOKIUSDT": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FLOKI_USDT"
+  },
+  "FLUXUSDT": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FLUX_USDT"
+  },
+  "FOLKSUSDT": {
+    "exchange": "spot",
+    "base": "folks",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FOLKS_USDT"
+  },
+  "FORMUSDT": {
+    "exchange": "spot",
+    "base": "four",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FORM_USDT"
+  },
+  "FTTUSDT": {
+    "exchange": "spot",
+    "base": "ftx-token",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FTT_USDT"
+  },
+  "FUSDT": {
+    "exchange": "spot",
+    "base": "synfutures",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/F_USDT"
+  },
+  "GALAUSDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GALA_USDT"
+  },
+  "GIGGLEUSDT": {
+    "exchange": "spot",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GIGGLE_USDT"
+  },
+  "GMTUSDT": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GMT_USDT"
+  },
+  "GMXUSDT": {
+    "exchange": "spot",
+    "base": "gmx",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GMX_USDT"
+  },
+  "GOATUSDT": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GOAT_USDT"
+  },
+  "GPSUSDT": {
+    "exchange": "spot",
+    "base": "goplus-security",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GPS_USDT"
+  },
+  "GRASSUSDT": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GRASS_USDT"
+  },
+  "GRIFFAINUSDT": {
+    "exchange": "spot",
+    "base": "griffain",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GRIFFAIN_USDT"
+  },
+  "GROVEUSDT": {
+    "exchange": "spot",
+    "base": "grove",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GROVE_USDT"
+  },
+  "GRTUSDT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GRT_USDT"
+  },
+  "GRVTUSDT": {
+    "exchange": "spot",
+    "base": "grvt",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GRVT_USDT"
+  },
+  "GUSDT": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/G_USDT"
+  },
+  "GWEIUSDT": {
+    "exchange": "spot",
+    "base": "ethgas",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GWEI_USDT"
+  },
+  "HAEDALUSDT": {
+    "exchange": "spot",
+    "base": "haedal-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HAEDAL_USDT"
+  },
+  "HANAUSDT": {
+    "exchange": "spot",
+    "base": "hana-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HANA_USDT"
+  },
+  "HBARUSDT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HBAR_USDT"
+  },
+  "HEIUSDT": {
+    "exchange": "spot",
+    "base": "heima",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HEI_USDT"
+  },
+  "HEMIUSDT": {
+    "exchange": "spot",
+    "base": "hemi",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HEMI_USDT"
+  },
+  "HIPPOUSDT": {
+    "exchange": "spot",
+    "base": "sudeng",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HIPPO_USDT"
+  },
+  "HMSTRUSDT": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HMSTR_USDT"
+  },
+  "HNTUSDT": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HNT_USDT"
+  },
+  "HOLOUSDT": {
+    "exchange": "spot",
+    "base": "holoworld",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HOLO_USDT"
+  },
+  "HOMEUSDT": {
+    "exchange": "spot",
+    "base": "defi-app",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HOME_USDT"
+  },
+  "HUMAUSDT": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HUMA_USDT"
+  },
+  "HUSDT": {
+    "exchange": "spot",
+    "base": "humanity",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/H_USDT"
+  },
+  "HYPERUSDT": {
+    "exchange": "spot",
+    "base": "hyperlane",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HYPER_USDT"
+  },
+  "HYPEUSDT": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HYPE_USDT"
+  },
+  "ICNTUSDT": {
+    "exchange": "spot",
+    "base": "impossible-cloud-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ICNT_USDT"
+  },
+  "ICPUSDT": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ICP_USDT"
+  },
+  "IDUSDT": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ID_USDT"
+  },
+  "IKAUSDT": {
+    "exchange": "spot",
+    "base": "ika",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/IKA_USDT"
+  },
+  "ILVUSDT": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ILV_USDT"
+  },
+  "IMXUSDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/IMX_USDT"
+  },
+  "INJUSDT": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/INJ_USDT"
+  },
+  "INUSDT": {
+    "exchange": "spot",
+    "base": "infinit",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/IN_USDT"
+  },
+  "INXUSDT": {
+    "exchange": "spot",
+    "base": "infinex",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/INX_USDT"
+  },
+  "IOUSDT": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/IO_USDT"
+  },
+  "IRUSDT": {
+    "exchange": "spot",
+    "base": "infrared",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/IR_USDT"
+  },
+  "IRYSUSDT": {
+    "exchange": "spot",
+    "base": "irys",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/IRYS_USDT"
+  },
+  "JASMYUSDT": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/JASMY_USDT"
+  },
+  "JCTUSDT": {
+    "exchange": "spot",
+    "base": "janction",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/JCT_USDT"
+  },
+  "JELLYJELLYUSDT": {
+    "exchange": "spot",
+    "base": "jelly-my-jelly",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/JELLYJELLY_USDT"
+  },
+  "JSTUSDT": {
+    "exchange": "spot",
+    "base": "just",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/JST_USDT"
+  },
+  "JTOUSDT": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/JTO_USDT"
+  },
+  "JUPUSDT": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/JUP_USDT"
+  },
+  "KAIOUSDT": {
+    "exchange": "spot",
+    "base": "kaio",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/KAIO_USDT"
+  },
+  "KAITOUSDT": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/KAITO_USDT"
+  },
+  "KERNELUSDT": {
+    "exchange": "spot",
+    "base": "kernel",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/KERNEL_USDT"
+  },
+  "KGENUSDT": {
+    "exchange": "spot",
+    "base": "kgen",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/KGEN_USDT"
+  },
+  "KITEUSDT": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/KITE_USDT"
+  },
+  "KMNOUSDT": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/KMNO_USDT"
+  },
+  "LABUSDT": {
+    "exchange": "spot",
+    "base": "lab",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LAB_USDT"
+  },
+  "LAUSDT": {
+    "exchange": "spot",
+    "base": "lagrange",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LA_USDT"
+  },
+  "LAVAUSDT": {
+    "exchange": "spot",
+    "base": "lava-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LAVA_USDT"
+  },
+  "LAYERUSDT": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LAYER_USDT"
+  },
+  "LDOUSDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LDO_USDT"
+  },
+  "LIGHTUSDT": {
+    "exchange": "spot",
+    "base": "bitlight",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LIGHT_USDT"
+  },
+  "LINEAUSDT": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LINEA_USDT"
+  },
+  "LINKUSDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LINK_USDT"
+  },
+  "LISTAUSDT": {
+    "exchange": "spot",
+    "base": "lista",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LISTA_USDT"
+  },
+  "LPTUSDT": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LPT_USDT"
+  },
+  "LQTYUSDT": {
+    "exchange": "spot",
+    "base": "liquity",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LQTY_USDT"
+  },
+  "LRCUSDT": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LRC_USDT"
+  },
+  "LTCUSDT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LTC_USDT"
+  },
+  "MAGICUSDT": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MAGIC_USDT"
+  },
+  "MAGMAUSDT": {
+    "exchange": "spot",
+    "base": "magma-finance",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MAGMA_USDT"
+  },
+  "MANAUSDT": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MANA_USDT"
+  },
+  "MASKUSDT": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MASK_USDT"
+  },
+  "MAVIAUSDT": {
+    "exchange": "spot",
+    "base": "heroes-of-mavia",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MAVIA_USDT"
+  },
+  "MAVUSDT": {
+    "exchange": "spot",
+    "base": "maverick-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MAV_USDT"
+  },
+  "MELANIAUSDT": {
+    "exchange": "spot",
+    "base": "melania-meme",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MELANIA_USDT"
+  },
+  "MEMEUSDT": {
+    "exchange": "spot",
+    "base": "memecoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MEME_USDT"
+  },
+  "METAXUSDT": {
+    "exchange": "spot",
+    "base": "meta-xstock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/METAX_USDT"
+  },
+  "METISUSDT": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/METIS_USDT"
+  },
+  "METUSDT": {
+    "exchange": "spot",
+    "base": "meteora",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MET_USDT"
+  },
+  "MEUSDT": {
+    "exchange": "spot",
+    "base": "magic-eden",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ME_USDT"
+  },
+  "MEWUSDT": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MEW_USDT"
+  },
+  "MMTUSDT": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MMT_USDT"
+  },
+  "MOODENGUSDT": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MOODENG_USDT"
+  },
+  "MORPHOUSDT": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MORPHO_USDT"
+  },
+  "MOVEUSDT": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MOVE_USDT"
+  },
+  "MPLXUSDT": {
+    "exchange": "spot",
+    "base": "metaplex",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MPLX_USDT"
+  },
+  "MUBARAKUSDT": {
+    "exchange": "spot",
+    "base": "mubarak",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MUBARAK_USDT"
+  },
+  "NEARUSDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NEAR_USDT"
+  },
+  "NESUSDT": {
+    "exchange": "spot",
+    "base": "nesa",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NES_USDT"
+  },
+  "NEWTUSDT": {
+    "exchange": "spot",
+    "base": "newton-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NEWT_USDT"
+  },
+  "NIGHTUSDT": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NIGHT_USDT"
+  },
+  "NOMUSDT": {
+    "exchange": "spot",
+    "base": "nomina",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NOM_USDT"
+  },
+  "NOTUSDT": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NOT_USDT"
+  },
+  "NUMIUSDT": {
+    "exchange": "spot",
+    "base": "numine-token",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NUMI_USDT"
+  },
+  "NXPCUSDT": {
+    "exchange": "spot",
+    "base": "nexpace",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NXPC_USDT"
+  },
+  "OBOLUSDT": {
+    "exchange": "spot",
+    "base": "obol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/OBOL_USDT"
+  },
+  "OGNUSDT": {
+    "exchange": "spot",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/OGN_USDT"
+  },
+  "ONDOUSDT": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ONDO_USDT"
+  },
+  "OPENUSDT": {
+    "exchange": "spot",
+    "base": "openledger",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/OPEN_USDT"
+  },
+  "OPGUSDT": {
+    "exchange": "spot",
+    "base": "opengradient",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/OPG_USDT"
+  },
+  "OPNUSDT": {
+    "exchange": "spot",
+    "base": "opinion",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/OPN_USDT"
+  },
+  "OPUSDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/OP_USDT"
+  },
+  "ORCAUSDT": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ORCA_USDT"
+  },
+  "ORDIUSDT": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ORDI_USDT"
+  },
+  "PARTIUSDT": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PARTI_USDT"
+  },
+  "PAXGUSDT": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PAXG_USDT"
+  },
+  "PENDLEUSDT": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PENDLE_USDT"
+  },
+  "PENGUUSDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PENGU_USDT"
+  },
+  "PEOPLEUSDT": {
+    "exchange": "spot",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PEOPLE_USDT"
+  },
+  "PEPEUSDT": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PEPE_USDT"
+  },
+  "PHAUSDT": {
+    "exchange": "spot",
+    "base": "pha",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PHA_USDT"
+  },
+  "PIEVERSEUSDT": {
+    "exchange": "spot",
+    "base": "pieverse",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PIEVERSE_USDT"
+  },
+  "PIXELUSDT": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PIXEL_USDT"
+  },
+  "PLAYUSDT": {
+    "exchange": "spot",
+    "base": "playsout",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PLAY_USDT"
+  },
+  "PLUMEUSDT": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PLUME_USDT"
+  },
+  "PNUTUSDT": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PNUT_USDT"
+  },
+  "POLUSDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/POL_USDT"
+  },
+  "PONSUSDT": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PONS_USDT"
+  },
+  "POPCATUSDT": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/POPCAT_USDT"
+  },
+  "PRLUSDT": {
+    "exchange": "spot",
+    "base": "perle",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PRL_USDT"
+  },
+  "PROMPTUSDT": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PROMPT_USDT"
+  },
+  "PROVEUSDT": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PROVE_USDT"
+  },
+  "PTBUSDT": {
+    "exchange": "spot",
+    "base": "portal-to-bitcoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PTB_USDT"
+  },
+  "PUBLICUSDT": {
+    "exchange": "spot",
+    "base": "publicai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PUBLIC_USDT"
+  },
+  "PYBOBOUSDT": {
+    "exchange": "spot",
+    "base": "capybobo",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PYBOBO_USDT"
+  },
+  "PYTHUSDT": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PYTH_USDT"
+  },
+  "QAITUSDT": {
+    "exchange": "spot",
+    "base": "sealcoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/QAIT_USDT"
+  },
+  "QUSDT": {
+    "exchange": "spot",
+    "base": "quack-ai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/Q_USDT"
+  },
+  "RADUSDT": {
+    "exchange": "spot",
+    "base": "radicle",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RAD_USDT"
+  },
+  "RAINUSDT": {
+    "exchange": "spot",
+    "base": "rain",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RAIN_USDT"
+  },
+  "RAREUSDT": {
+    "exchange": "spot",
+    "base": "superrare",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RARE_USDT"
+  },
+  "RATSUSDT": {
+    "exchange": "spot",
+    "base": "rats",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RATS_USDT"
+  },
+  "RAYUSDT": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RAY_USDT"
+  },
+  "RECALLUSDT": {
+    "exchange": "spot",
+    "base": "recall",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RECALL_USDT"
+  },
+  "REDUSDT": {
+    "exchange": "spot",
+    "base": "redstone",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RED_USDT"
+  },
+  "RENDERUSDT": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RENDER_USDT"
+  },
+  "RESOLVUSDT": {
+    "exchange": "spot",
+    "base": "resolv",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RESOLV_USDT"
+  },
+  "REUSDT": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RE_USDT"
+  },
+  "REZUSDT": {
+    "exchange": "spot",
+    "base": "renzo",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/REZ_USDT"
+  },
+  "RHEAUSDT": {
+    "exchange": "spot",
+    "base": "rhea-finance",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RHEA_USDT"
+  },
+  "RIONUSDT": {
+    "exchange": "spot",
+    "base": "hyperion",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RION_USDT"
+  },
+  "RIVERUSDT": {
+    "exchange": "spot",
+    "base": "river",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RIVER_USDT"
+  },
+  "RLSUSDT": {
+    "exchange": "spot",
+    "base": "rayls",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RLS_USDT"
+  },
+  "ROBOUSDT": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ROBO_USDT"
+  },
+  "ROLLUSDT": {
+    "exchange": "spot",
+    "base": "rollx",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ROLL_USDT"
+  },
+  "RSRUSDT": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RSR_USDT"
+  },
+  "SAHARAUSDT": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SAHARA_USDT"
+  },
+  "SANDUSDT": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SAND_USDT"
+  },
+  "SAPIENUSDT": {
+    "exchange": "spot",
+    "base": "sapien",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SAPIEN_USDT"
+  },
+  "SAROSUSDT": {
+    "exchange": "spot",
+    "base": "saros",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SAROS_USDT"
+  },
+  "SATSUSDT": {
+    "exchange": "spot",
+    "base": "sats-ordinals",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SATS_USDT"
+  },
+  "SENTUSDT": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SENT_USDT"
+  },
+  "SFPUSDT": {
+    "exchange": "spot",
+    "base": "safepal",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SFP_USDT"
+  },
+  "SHIBUSDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SHIB_USDT"
+  },
+  "SIGNUSDT": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SIGN_USDT"
+  },
+  "SKRUSDT": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SKR_USDT"
+  },
+  "SKYUSDT": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SKY_USDT"
+  },
+  "SOLUSDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin",
+    "url": "https://www.toobit.com/spot/SOL_USDC"
+  },
+  "SOLUSDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SOL_USDT"
+  },
+  "SOLVUSDT": {
+    "exchange": "spot",
+    "base": "solv-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SOLV_USDT"
+  },
+  "SOMIUSDT": {
+    "exchange": "spot",
+    "base": "somnia",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SOMI_USDT"
+  },
+  "SOONUSDT": {
+    "exchange": "spot",
+    "base": "soon",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SOON_USDT"
+  },
+  "SOSOUSDT": {
+    "exchange": "spot",
+    "base": "sosovalue",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SOSO_USDT"
+  },
+  "SPACEUSDT": {
+    "exchange": "spot",
+    "base": "spacecoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SPACE_USDT"
+  },
+  "SPKUSDT": {
+    "exchange": "spot",
+    "base": "spark",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SPK_USDT"
+  },
+  "SQDUSDT": {
+    "exchange": "spot",
+    "base": "subsquid",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SQD_USDT"
+  },
+  "SSVUSDT": {
+    "exchange": "spot",
+    "base": "ssv-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SSV_USDT"
+  },
+  "STBLUSDT": {
+    "exchange": "spot",
+    "base": "stbl",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/STBL_USDT"
+  },
+  "STOUSDT": {
+    "exchange": "spot",
+    "base": "stakestone",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/STO_USDT"
+  },
+  "STRKUSDT": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/STRK_USDT"
+  },
+  "SUIUSDT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SUI_USDT"
+  },
+  "SUPERUSDT": {
+    "exchange": "spot",
+    "base": "superfarm",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SUPER_USDT"
+  },
+  "SUSDT": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/S_USDT"
+  },
+  "SUSHIUSDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SUSHI_USDT"
+  },
+  "SWARMSUSDT": {
+    "exchange": "spot",
+    "base": "swarms",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SWARMS_USDT"
+  },
+  "SXTUSDT": {
+    "exchange": "spot",
+    "base": "space-and-time",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SXT_USDT"
+  },
+  "SYNUSDT": {
+    "exchange": "spot",
+    "base": "synapse",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SYN_USDT"
+  },
+  "SYRUPUSDT": {
+    "exchange": "spot",
+    "base": "syrup",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SYRUP_USDT"
+  },
+  "TAGUSDT": {
+    "exchange": "spot",
+    "base": "tagger",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TAG_USDT"
+  },
+  "TAIKOUSDT": {
+    "exchange": "spot",
+    "base": "taiko",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TAIKO_USDT"
+  },
+  "TAKEUSDT": {
+    "exchange": "spot",
+    "base": "overtake",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TAKE_USDT"
+  },
+  "TAUSDT": {
+    "exchange": "spot",
+    "base": "trusta-ai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TA_USDT"
+  },
+  "THEUSDT": {
+    "exchange": "spot",
+    "base": "thena",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/THE_USDT"
+  },
+  "THQUSDT": {
+    "exchange": "spot",
+    "base": "theoriq",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/THQ_USDT"
+  },
+  "TLMUSDT": {
+    "exchange": "spot",
+    "base": "alien-worlds",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TLM_USDT"
+  },
+  "TNSRUSDT": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TNSR_USDT"
+  },
+  "TOKENUSDT": {
+    "exchange": "spot",
+    "base": "tokenfi",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TOKEN_USDT"
+  },
+  "TOSHIUSDT": {
+    "exchange": "spot",
+    "base": "toshi",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TOSHI_USDT"
+  },
+  "TOWNSUSDT": {
+    "exchange": "spot",
+    "base": "towns",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TOWNS_USDT"
+  },
+  "TRACUSDT": {
+    "exchange": "spot",
+    "base": "origintrail",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TRAC_USDT"
+  },
+  "TRADOORUSDT": {
+    "exchange": "spot",
+    "base": "tradoor",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TRADOOR_USDT"
+  },
+  "TRBUSDT": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TRB_USDT"
+  },
+  "TREEUSDT": {
+    "exchange": "spot",
+    "base": "treehouse",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TREE_USDT"
+  },
+  "TRIAUSDT": {
+    "exchange": "spot",
+    "base": "tria",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TRIA_USDT"
+  },
+  "TRUMPUSDT": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TRUMP_USDT"
+  },
+  "TRUSTUSDT": {
+    "exchange": "spot",
+    "base": "intuition",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TRUST_USDT"
+  },
+  "TRUTHUSDT": {
+    "exchange": "spot",
+    "base": "swarm-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TRUTH_USDT"
+  },
+  "TRXUSDC": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd-coin",
+    "url": "https://www.toobit.com/spot/TRX_USDC"
+  },
+  "TRXUSDT": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TRX_USDT"
+  },
+  "TURBOUSDT": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TURBO_USDT"
+  },
+  "TURTLEUSDT": {
+    "exchange": "spot",
+    "base": "turtle",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TURTLE_USDT"
+  },
+  "TUTUSDT": {
+    "exchange": "spot",
+    "base": "tutorial",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TUT_USDT"
+  },
+  "TWTUSDT": {
+    "exchange": "spot",
+    "base": "trust-wallet-token",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TWT_USDT"
+  },
+  "UAIUSDT": {
+    "exchange": "spot",
+    "base": "unifai-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/UAI_USDT"
+  },
+  "UBUSDT": {
+    "exchange": "spot",
+    "base": "unibase",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/UB_USDT"
+  },
+  "UNIUSDT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/UNI_USDT"
+  },
+  "USD1USDT": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/USD1_USDT"
+  },
+  "USDCUSDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/USDC_USDT"
+  },
+  "USDEUSDT": {
+    "exchange": "spot",
+    "base": "ethena-usde",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/USDE_USDT"
+  },
+  "USDSUSDT": {
+    "exchange": "spot",
+    "base": "sky-usd",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/USDS_USDT"
+  },
+  "USELESSUSDT": {
+    "exchange": "spot",
+    "base": "useless-coin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/USELESS_USDT"
+  },
+  "USUALUSDT": {
+    "exchange": "spot",
+    "base": "usual",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/USUAL_USDT"
+  },
+  "USUSDT": {
+    "exchange": "spot",
+    "base": "talus",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/US_USDT"
+  },
+  "VELVETUSDT": {
+    "exchange": "spot",
+    "base": "velvet",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/VELVET_USDT"
+  },
+  "VINEUSDT": {
+    "exchange": "spot",
+    "base": "vine",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/VINE_USDT"
+  },
+  "VIRTUALUSDT": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/VIRTUAL_USDT"
+  },
+  "VOOIUSDT": {
+    "exchange": "spot",
+    "base": "vooi",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/VOOI_USDT"
+  },
+  "VSNUSDT": {
+    "exchange": "spot",
+    "base": "vision",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/VSN_USDT"
+  },
+  "VVVUSDT": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/VVV_USDT"
+  },
+  "WALUSDT": {
+    "exchange": "spot",
+    "base": "walrus",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/WAL_USDT"
+  },
+  "WARDUSDT": {
+    "exchange": "spot",
+    "base": "warden",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/WARD_USDT"
+  },
+  "WCTUSDT": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/WCT_USDT"
+  },
+  "WETUSDT": {
+    "exchange": "spot",
+    "base": "humidifi",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/WET_USDT"
+  },
+  "WIFUSDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/WIF_USDT"
+  },
+  "WINUSDT": {
+    "exchange": "spot",
+    "base": "winklink",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/WIN_USDT"
+  },
+  "WLDUSDT": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/WLD_USDT"
+  },
+  "WLFIUSDT": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/WLFI_USDT"
+  },
+  "WODUSDT": {
+    "exchange": "spot",
+    "base": "world-of-dypians",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/WOD_USDT"
+  },
+  "WOOUSDT": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/WOO_USDT"
+  },
+  "WUSDT": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/W_USDT"
+  },
+  "XANUSDT": {
+    "exchange": "spot",
+    "base": "anoma",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XAN_USDT"
+  },
+  "XAUTUSDT": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XAUT_USDT"
+  },
+  "XCNUSDT": {
+    "exchange": "spot",
+    "base": "onyxcoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XCN_USDT"
+  },
+  "XDPUSDT": {
+    "exchange": "spot",
+    "base": "doppler-finance",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XDP_USDT"
+  },
+  "XLMUSDT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XLM_USDT"
+  },
+  "XNYUSDT": {
+    "exchange": "spot",
+    "base": "codatta",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XNY_USDT"
+  },
+  "XPINUSDT": {
+    "exchange": "spot",
+    "base": "xpin-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XPIN_USDT"
+  },
+  "XPLUSDT": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XPL_USDT"
+  },
+  "XRPUSDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XRP_USDT"
+  },
+  "XTZUSDT": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XTZ_USDT"
+  },
+  "YBUSDT": {
+    "exchange": "spot",
+    "base": "yield-basis",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/YB_USDT"
+  },
+  "YGGUSDT": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/YGG_USDT"
+  },
+  "ZAMAUSDT": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZAMA_USDT"
+  },
+  "ZBCNUSDT": {
+    "exchange": "spot",
+    "base": "zebec-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZBCN_USDT"
+  },
+  "ZBTUSDT": {
+    "exchange": "spot",
+    "base": "zerobase",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZBT_USDT"
+  },
+  "ZECUSDT": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZEC_USDT"
+  },
+  "ZEREBROUSDT": {
+    "exchange": "spot",
+    "base": "zerebro",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZEREBRO_USDT"
+  },
+  "ZESTUSDT": {
+    "exchange": "spot",
+    "base": "zest-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZEST_USDT"
+  },
+  "ZETAUSDT": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZETA_USDT"
+  },
+  "ZKCUSDT": {
+    "exchange": "spot",
+    "base": "boundless",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZKC_USDT"
+  },
+  "ZKPUSDT": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZKP_USDT"
+  },
+  "ZORAUSDT": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZORA_USDT"
+  },
+  "ZRCUSDT": {
+    "exchange": "spot",
+    "base": "zircuit",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZRC_USDT"
+  },
+  "ZROUSDT": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZRO_USDT"
+  }
+}

@@ -1,0 +1,4840 @@
+{
+  "0GUSDT": {
+    "exchange": "perp",
+    "base": "zero-gravity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/0G-USDT"
+  },
+  "1000BONKUSDT": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.weex.com/futures/1000BONK-USDT"
+  },
+  "1000FLOKIUSDT": {
+    "exchange": "perp",
+    "base": "floki",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.weex.com/futures/1000FLOKI-USDT"
+  },
+  "1000PEPEUSDT": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.weex.com/futures/1000PEPE-USDT"
+  },
+  "1000RATSUSDT": {
+    "exchange": "perp",
+    "base": "rats",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.weex.com/futures/1000RATS-USDT"
+  },
+  "1000SATSUSDT": {
+    "exchange": "perp",
+    "base": "sats-ordinals",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.weex.com/futures/1000SATS-USDT"
+  },
+  "1000SHIBUSDT": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.weex.com/futures/1000SHIB-USDT"
+  },
+  "1000XECUSDT": {
+    "exchange": "perp",
+    "base": "ecash",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.weex.com/futures/1000XEC-USDT"
+  },
+  "1INCHUSDT": {
+    "exchange": "perp",
+    "base": "1inch",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/1INCH-USDT"
+  },
+  "1MBABYDOGEUSDT": {
+    "exchange": "perp",
+    "base": "baby-doge-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000000,
+    "url": "https://www.weex.com/futures/1MBABYDOGE-USDT"
+  },
+  "2ZUSDT": {
+    "exchange": "perp",
+    "base": "doublezero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/2Z-USDT"
+  },
+  "4STOCKUSDT": {
+    "exchange": "perp",
+    "base": "4stock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/4STOCK-USDT"
+  },
+  "AAOIUSDT": {
+    "exchange": "perp",
+    "base": "applied-optoelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AAOI-USDT"
+  },
+  "AAPLUSDT": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AAPL-USDT"
+  },
+  "AAVEUSDT": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AAVE-USDT"
+  },
+  "ACEUSDT": {
+    "exchange": "perp",
+    "base": "fusionist",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ACE-USDT"
+  },
+  "ACHUSDT": {
+    "exchange": "perp",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ACH-USDT"
+  },
+  "ACNUSDT": {
+    "exchange": "perp",
+    "base": "accenture",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ACN-USDT"
+  },
+  "ACTUSDT": {
+    "exchange": "perp",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ACT-USDT"
+  },
+  "ACUUSDT": {
+    "exchange": "perp",
+    "base": "acurast",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ACU-USDT"
+  },
+  "ADAUSDT": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ADA-USDT"
+  },
+  "ADBEUSDT": {
+    "exchange": "perp",
+    "base": "adobe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ADBE-USDT"
+  },
+  "AEROUSDT": {
+    "exchange": "perp",
+    "base": "aerodrome",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AERO-USDT"
+  },
+  "AEVOUSDT": {
+    "exchange": "perp",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AEVO-USDT"
+  },
+  "AGIUSDT": {
+    "exchange": "perp",
+    "base": "delysium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AGI-USDT"
+  },
+  "AGLDUSDT": {
+    "exchange": "perp",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AGLD-USDT"
+  },
+  "AGPUUSDT": {
+    "exchange": "perp",
+    "base": "axe-compute",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AGPU-USDT"
+  },
+  "AGTUSDT": {
+    "exchange": "perp",
+    "base": "alaya-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AGT-USDT"
+  },
+  "AINUSDT": {
+    "exchange": "perp",
+    "base": "infinity-ground",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AIN-USDT"
+  },
+  "AIOUSDT": {
+    "exchange": "perp",
+    "base": "olaxbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AIO-USDT"
+  },
+  "AIOZUSDT": {
+    "exchange": "perp",
+    "base": "aioz-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AIOZ-USDT"
+  },
+  "AIXBTUSDT": {
+    "exchange": "perp",
+    "base": "aixbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AIXBT-USDT"
+  },
+  "AKAMUSDT": {
+    "exchange": "perp",
+    "base": "akamai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AKAM-USDT"
+  },
+  "AKEUSDT": {
+    "exchange": "perp",
+    "base": "akedo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AKE-USDT"
+  },
+  "AKTUSDT": {
+    "exchange": "perp",
+    "base": "akash-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AKT-USDT"
+  },
+  "ALABUSDT": {
+    "exchange": "perp",
+    "base": "astera-labs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ALAB-USDT"
+  },
+  "ALCHUSDT": {
+    "exchange": "perp",
+    "base": "alchemist-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ALCH-USDT"
+  },
+  "ALGOUSDT": {
+    "exchange": "perp",
+    "base": "algorand",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ALGO-USDT"
+  },
+  "ALICEUSDT": {
+    "exchange": "perp",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ALICE-USDT"
+  },
+  "ALLOUSDT": {
+    "exchange": "perp",
+    "base": "allora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ALLO-USDT"
+  },
+  "ALPINEUSDT": {
+    "exchange": "perp",
+    "base": "alpine-f1-team-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ALPINE-USDT"
+  },
+  "ALTUSDT": {
+    "exchange": "perp",
+    "base": "altlayer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ALT-USDT"
+  },
+  "AMATUSDT": {
+    "exchange": "perp",
+    "base": "applied-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AMAT-USDT"
+  },
+  "AMCUSDT": {
+    "exchange": "perp",
+    "base": "amc-entertainment",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AMC-USDT"
+  },
+  "AMDUSDT": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AMD-USDT"
+  },
+  "AMGNUSDT": {
+    "exchange": "perp",
+    "base": "amgen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AMGN-USDT"
+  },
+  "AMZNUSDT": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AMZN-USDT"
+  },
+  "AMZUUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-amzn-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AMZU-USDT"
+  },
+  "ANIMEUSDT": {
+    "exchange": "perp",
+    "base": "animecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ANIME-USDT"
+  },
+  "ANKRUSDT": {
+    "exchange": "perp",
+    "base": "ankr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ANKR-USDT"
+  },
+  "APEUSDT": {
+    "exchange": "perp",
+    "base": "apecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/APE-USDT"
+  },
+  "API3USDT": {
+    "exchange": "perp",
+    "base": "api3",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/API3-USDT"
+  },
+  "APPUSDT": {
+    "exchange": "perp",
+    "base": "applovin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/APP-USDT"
+  },
+  "APRUSDT": {
+    "exchange": "perp",
+    "base": "apriori",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/APR-USDT"
+  },
+  "APTUSDT": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/APT-USDT"
+  },
+  "ARBUSDT": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ARB-USDT"
+  },
+  "ARCUSDT": {
+    "exchange": "perp",
+    "base": "ai-rig-complex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ARC-USDT"
+  },
+  "ARIAUSDT": {
+    "exchange": "perp",
+    "base": "aria-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ARIA-USDT"
+  },
+  "ARKMUSDT": {
+    "exchange": "perp",
+    "base": "arkham",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ARKM-USDT"
+  },
+  "ARKUSDT": {
+    "exchange": "perp",
+    "base": "ark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ARK-USDT"
+  },
+  "ARMUSDT": {
+    "exchange": "perp",
+    "base": "arm-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ARM-USDT"
+  },
+  "ARPAUSDT": {
+    "exchange": "perp",
+    "base": "arpa-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ARPA-USDT"
+  },
+  "ARUSDT": {
+    "exchange": "perp",
+    "base": "arweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AR-USDT"
+  },
+  "ARXUSDT": {
+    "exchange": "perp",
+    "base": "arcium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ARX-USDT"
+  },
+  "ASMLUSDT": {
+    "exchange": "perp",
+    "base": "asml-holding",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ASML-USDT"
+  },
+  "ASTERUSDT": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ASTER-USDT"
+  },
+  "ASTRUSDT": {
+    "exchange": "perp",
+    "base": "astar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ASTR-USDT"
+  },
+  "ASTSUSDT": {
+    "exchange": "perp",
+    "base": "ast-spacemobile",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ASTS-USDT"
+  },
+  "ATHUSDT": {
+    "exchange": "perp",
+    "base": "aethir",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ATH-USDT"
+  },
+  "ATOMUSDT": {
+    "exchange": "perp",
+    "base": "cosmos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ATOM-USDT"
+  },
+  "AUCTIONUSDT": {
+    "exchange": "perp",
+    "base": "auction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AUCTION-USDT"
+  },
+  "AUDUSDT": {
+    "exchange": "perp",
+    "base": "australian-dollar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AUD-USDT"
+  },
+  "AUSDT": {
+    "exchange": "perp",
+    "base": "vaulta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/A-USDT"
+  },
+  "AVAAIUSDT": {
+    "exchange": "perp",
+    "base": "ava-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AVAAI-USDT"
+  },
+  "AVAUSDT": {
+    "exchange": "perp",
+    "base": "travala",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AVA-USDT"
+  },
+  "AVAXUSDT": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AVAX-USDT"
+  },
+  "AVGOUSDT": {
+    "exchange": "perp",
+    "base": "broadcom",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AVGO-USDT"
+  },
+  "AVNTUSDT": {
+    "exchange": "perp",
+    "base": "avantis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AVNT-USDT"
+  },
+  "AWEUSDT": {
+    "exchange": "perp",
+    "base": "stp-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AWE-USDT"
+  },
+  "AXISUSDT": {
+    "exchange": "perp",
+    "base": "axis-robotics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AXIS-USDT"
+  },
+  "AXLUSDT": {
+    "exchange": "perp",
+    "base": "axelar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AXL-USDT"
+  },
+  "AXSUSDT": {
+    "exchange": "perp",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AXS-USDT"
+  },
+  "AXTIUSDT": {
+    "exchange": "perp",
+    "base": "axt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AXTI-USDT"
+  },
+  "AZTECUSDT": {
+    "exchange": "perp",
+    "base": "aztec",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/AZTEC-USDT"
+  },
+  "B2USDT": {
+    "exchange": "perp",
+    "base": "bsquared-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/B2-USDT"
+  },
+  "BABAUSDT": {
+    "exchange": "perp",
+    "base": "alibaba-group-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BABA-USDT"
+  },
+  "BABYUSDT": {
+    "exchange": "perp",
+    "base": "babylon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BABY-USDT"
+  },
+  "BACUSDT": {
+    "exchange": "perp",
+    "base": "bank-of-america",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BAC-USDT"
+  },
+  "BANANAS31USDT": {
+    "exchange": "perp",
+    "base": "banana-for-scale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BANANAS31-USDT"
+  },
+  "BANANAUSDT": {
+    "exchange": "perp",
+    "base": "banana-gun",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BANANA-USDT"
+  },
+  "BANDUSDT": {
+    "exchange": "perp",
+    "base": "band-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BAND-USDT"
+  },
+  "BANUSDT": {
+    "exchange": "perp",
+    "base": "comedian",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BAN-USDT"
+  },
+  "BARDUSDT": {
+    "exchange": "perp",
+    "base": "lombard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BARD-USDT"
+  },
+  "BASEDUSDT": {
+    "exchange": "perp",
+    "base": "based",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BASED-USDT"
+  },
+  "BASUSDT": {
+    "exchange": "perp",
+    "base": "bas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BAS-USDT"
+  },
+  "BATUSDT": {
+    "exchange": "perp",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BAT-USDT"
+  },
+  "BBUSDT": {
+    "exchange": "perp",
+    "base": "bouncebit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BB-USDT"
+  },
+  "BCHUSDT": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BCH-USDT"
+  },
+  "BEATUSDT": {
+    "exchange": "perp",
+    "base": "audiera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BEAT-USDT"
+  },
+  "BELUSDT": {
+    "exchange": "perp",
+    "base": "bella-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BEL-USDT"
+  },
+  "BERAUSDT": {
+    "exchange": "perp",
+    "base": "berachain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BERA-USDT"
+  },
+  "BEUSDT": {
+    "exchange": "perp",
+    "base": "bloom-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BE-USDT"
+  },
+  "BICOUSDT": {
+    "exchange": "perp",
+    "base": "biconomy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BICO-USDT"
+  },
+  "BIGTIMEUSDT": {
+    "exchange": "perp",
+    "base": "big-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BIGTIME-USDT"
+  },
+  "BILLUSDT": {
+    "exchange": "perp",
+    "base": "billions-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BILL-USDT"
+  },
+  "BIOUSDT": {
+    "exchange": "perp",
+    "base": "bio-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BIO-USDT"
+  },
+  "BIRBUSDT": {
+    "exchange": "perp",
+    "base": "moonbirds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BIRB-USDT"
+  },
+  "BLENDUSDT": {
+    "exchange": "perp",
+    "base": "fluent-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BLEND-USDT"
+  },
+  "BLESSUSDT": {
+    "exchange": "perp",
+    "base": "bless-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BLESS-USDT"
+  },
+  "BLSHUSDT": {
+    "exchange": "perp",
+    "base": "bullish",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BLSH-USDT"
+  },
+  "BLUAIUSDT": {
+    "exchange": "perp",
+    "base": "bluwhale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BLUAI-USDT"
+  },
+  "BLURUSDT": {
+    "exchange": "perp",
+    "base": "blur",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BLUR-USDT"
+  },
+  "BMNRUSDT": {
+    "exchange": "perp",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BMNR-USDT"
+  },
+  "BMTUSDT": {
+    "exchange": "perp",
+    "base": "bubblemaps",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BMT-USDT"
+  },
+  "BNBUSDT": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BNB-USDT"
+  },
+  "BNCUSDT": {
+    "exchange": "perp",
+    "base": "bnb-standard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BNC-USDT"
+  },
+  "BNTUSDT": {
+    "exchange": "perp",
+    "base": "bancor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BNT-USDT"
+  },
+  "BOMEUSDT": {
+    "exchange": "perp",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BOME-USDT"
+  },
+  "BOTUSDT": {
+    "exchange": "perp",
+    "base": "robostrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BOT-USDT"
+  },
+  "BRETTUSDT": {
+    "exchange": "perp",
+    "base": "brett",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BRETT-USDT"
+  },
+  "BREVUSDT": {
+    "exchange": "perp",
+    "base": "brevis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BREV-USDT"
+  },
+  "BRLUSDT": {
+    "exchange": "perp",
+    "base": "brazilian-real",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BRL-USDT"
+  },
+  "BRUSDT": {
+    "exchange": "perp",
+    "base": "bedrock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BR-USDT"
+  },
+  "BSBUSDT": {
+    "exchange": "perp",
+    "base": "block-street",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BSB-USDT"
+  },
+  "BSVUSDT": {
+    "exchange": "perp",
+    "base": "bitcoin-cash-sv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BSV-USDT"
+  },
+  "BTCUSDT": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BTC-USDT"
+  },
+  "BTRUSDT": {
+    "exchange": "perp",
+    "base": "bitlayer-bitvm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BTR-USDT"
+  },
+  "BTWUSDT": {
+    "exchange": "perp",
+    "base": "bitway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BTW-USDT"
+  },
+  "BUSDT": {
+    "exchange": "perp",
+    "base": "build-on",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/B-USDT"
+  },
+  "BWETUSDT": {
+    "exchange": "perp",
+    "base": "breakwave-tanker-shipping-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BWET-USDT"
+  },
+  "BXUSDT": {
+    "exchange": "perp",
+    "base": "blackstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BX-USDT"
+  },
+  "BZUSDT": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/BZ-USDT"
+  },
+  "C98USDT": {
+    "exchange": "perp",
+    "base": "coin98",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/C98-USDT"
+  },
+  "CADUSDT": {
+    "exchange": "perp",
+    "base": "canadian-dollar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CAD-USDT"
+  },
+  "CAHUSDT": {
+    "exchange": "perp",
+    "base": "cardinal-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CAH-USDT"
+  },
+  "CAKEUSDT": {
+    "exchange": "perp",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CAKE-USDT"
+  },
+  "CAPUSDT": {
+    "exchange": "perp",
+    "base": "cap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CAP-USDT"
+  },
+  "CARVUSDT": {
+    "exchange": "perp",
+    "base": "carv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CARV-USDT"
+  },
+  "CASHCATUSDT": {
+    "exchange": "perp",
+    "base": "cash-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CASHCAT-USDT"
+  },
+  "CATIUSDT": {
+    "exchange": "perp",
+    "base": "catizen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CATI-USDT"
+  },
+  "CATUSDT": {
+    "exchange": "perp",
+    "base": "simon-s-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CAT-USDT"
+  },
+  "CBRSUSDT": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CBRS-USDT"
+  },
+  "CCUSDT": {
+    "exchange": "perp",
+    "base": "canton",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CC-USDT"
+  },
+  "CEGUSDT": {
+    "exchange": "perp",
+    "base": "constellation-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CEG-USDT"
+  },
+  "CELOUSDT": {
+    "exchange": "perp",
+    "base": "celo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CELO-USDT"
+  },
+  "CELRUSDT": {
+    "exchange": "perp",
+    "base": "celer-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CELR-USDT"
+  },
+  "CETUSUSDT": {
+    "exchange": "perp",
+    "base": "cetus-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CETUS-USDT"
+  },
+  "CFGUSDT": {
+    "exchange": "perp",
+    "base": "centrifuge",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CFG-USDT"
+  },
+  "CFXUSDT": {
+    "exchange": "perp",
+    "base": "conflux",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CFX-USDT"
+  },
+  "CGPTUSDT": {
+    "exchange": "perp",
+    "base": "chaingpt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CGPT-USDT"
+  },
+  "CHEEMSUSDT": {
+    "exchange": "perp",
+    "base": "cheems-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CHEEMS-USDT"
+  },
+  "CHFUSDT": {
+    "exchange": "perp",
+    "base": "swiss-franc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CHF-USDT"
+  },
+  "CHILLGUYUSDT": {
+    "exchange": "perp",
+    "base": "just-a-chill-guy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CHILLGUY-USDT"
+  },
+  "CHIPUSDT": {
+    "exchange": "perp",
+    "base": "usd-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CHIP-USDT"
+  },
+  "CHRUSDT": {
+    "exchange": "perp",
+    "base": "chromaway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CHR-USDT"
+  },
+  "CHZUSDT": {
+    "exchange": "perp",
+    "base": "chiliz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CHZ-USDT"
+  },
+  "CKBUSDT": {
+    "exchange": "perp",
+    "base": "nervos-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CKB-USDT"
+  },
+  "CLANKERUSDT": {
+    "exchange": "perp",
+    "base": "tokenbot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CLANKER-USDT"
+  },
+  "CLOUSDT": {
+    "exchange": "perp",
+    "base": "yei-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CLO-USDT"
+  },
+  "CLSKUSDT": {
+    "exchange": "perp",
+    "base": "cleanspark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CLSK-USDT"
+  },
+  "CLUSDT": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CL-USDT"
+  },
+  "COHRUSDT": {
+    "exchange": "perp",
+    "base": "coherent-corp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/COHR-USDT"
+  },
+  "COINUSDT": {
+    "exchange": "perp",
+    "base": "coinbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/COIN-USDT"
+  },
+  "COMPUSDT": {
+    "exchange": "perp",
+    "base": "compound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/COMP-USDT"
+  },
+  "CONLUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-coin-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CONL-USDT"
+  },
+  "COOKIEUSDT": {
+    "exchange": "perp",
+    "base": "cookie",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/COOKIE-USDT"
+  },
+  "COPPERUSDT": {
+    "exchange": "perp",
+    "base": "copper",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/COPPER-USDT"
+  },
+  "COREUSDT": {
+    "exchange": "perp",
+    "base": "core",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CORE-USDT"
+  },
+  "COSTUSDT": {
+    "exchange": "perp",
+    "base": "costco-wholesale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/COST-USDT"
+  },
+  "COTIUSDT": {
+    "exchange": "perp",
+    "base": "coti",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/COTI-USDT"
+  },
+  "COWUSDT": {
+    "exchange": "perp",
+    "base": "cow-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/COW-USDT"
+  },
+  "CPUSDT": {
+    "exchange": "perp",
+    "base": "cluster-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CP-USDT"
+  },
+  "CRCLUSDT": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CRCL-USDT"
+  },
+  "CRDOUSDT": {
+    "exchange": "perp",
+    "base": "credo-technology-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CRDO-USDT"
+  },
+  "CRMLUSDT": {
+    "exchange": "perp",
+    "base": "critical-metals",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CRML-USDT"
+  },
+  "CRMUSDT": {
+    "exchange": "perp",
+    "base": "salesforce",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CRM-USDT"
+  },
+  "CROUSDT": {
+    "exchange": "perp",
+    "base": "cronos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CRO-USDT"
+  },
+  "CRVUSDT": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CRV-USDT"
+  },
+  "CRWDUSDT": {
+    "exchange": "perp",
+    "base": "crowdstrike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CRWD-USDT"
+  },
+  "CRWVUSDT": {
+    "exchange": "perp",
+    "base": "coreweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CRWV-USDT"
+  },
+  "CSCOUSDT": {
+    "exchange": "perp",
+    "base": "cisco",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CSCO-USDT"
+  },
+  "CTRUSDT": {
+    "exchange": "perp",
+    "base": "citrea",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CTR-USDT"
+  },
+  "CTSIUSDT": {
+    "exchange": "perp",
+    "base": "cartesi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CTSI-USDT"
+  },
+  "CTUSDT": {
+    "exchange": "perp",
+    "base": "concrete",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CT-USDT"
+  },
+  "CUSDT": {
+    "exchange": "perp",
+    "base": "chainbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/C-USDT"
+  },
+  "CVCUSDT": {
+    "exchange": "perp",
+    "base": "civic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CVC-USDT"
+  },
+  "CVNAUSDT": {
+    "exchange": "perp",
+    "base": "carvana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CVNA-USDT"
+  },
+  "CVSUSDT": {
+    "exchange": "perp",
+    "base": "cvs-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CVS-USDT"
+  },
+  "CVXUSDT": {
+    "exchange": "perp",
+    "base": "convex-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CVX-USDT"
+  },
+  "CYBERUSDT": {
+    "exchange": "perp",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CYBER-USDT"
+  },
+  "CYPHUSDT": {
+    "exchange": "perp",
+    "base": "cypherpunk-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CYPH-USDT"
+  },
+  "CYSUSDT": {
+    "exchange": "perp",
+    "base": "cysic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/CYS-USDT"
+  },
+  "DALUSDT": {
+    "exchange": "perp",
+    "base": "delta-air-lines",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DAL-USDT"
+  },
+  "DASHUSDT": {
+    "exchange": "perp",
+    "base": "dash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DASH-USDT"
+  },
+  "DEEPUSDT": {
+    "exchange": "perp",
+    "base": "deep",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DEEP-USDT"
+  },
+  "DELLUSDT": {
+    "exchange": "perp",
+    "base": "dell-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DELL-USDT"
+  },
+  "DEXEUSDT": {
+    "exchange": "perp",
+    "base": "dexe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DEXE-USDT"
+  },
+  "DGAIUSDT": {
+    "exchange": "perp",
+    "base": "dgrid-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DGAI-USDT"
+  },
+  "DHRUSDT": {
+    "exchange": "perp",
+    "base": "danaher",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DHR-USDT"
+  },
+  "DIAUSDT": {
+    "exchange": "perp",
+    "base": "dia-data",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DIA-USDT"
+  },
+  "DISUSDT": {
+    "exchange": "perp",
+    "base": "walt-disney",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DIS-USDT"
+  },
+  "DKNGUSDT": {
+    "exchange": "perp",
+    "base": "draftkings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DKNG-USDT"
+  },
+  "DOGEUSDT": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DOGE-USDT"
+  },
+  "DOGSUSDT": {
+    "exchange": "perp",
+    "base": "dogs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DOGS-USDT"
+  },
+  "DOLOUSDT": {
+    "exchange": "perp",
+    "base": "dolomite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DOLO-USDT"
+  },
+  "DOODUSDT": {
+    "exchange": "perp",
+    "base": "doodles",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DOOD-USDT"
+  },
+  "DOSUSDT": {
+    "exchange": "perp",
+    "base": "dappos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DOS-USDT"
+  },
+  "DOTUSDT": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DOT-USDT"
+  },
+  "DRAMUSDT": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DRAM-USDT"
+  },
+  "DRIFTUSDT": {
+    "exchange": "perp",
+    "base": "drift-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DRIFT-USDT"
+  },
+  "DSYNCUSDT": {
+    "exchange": "perp",
+    "base": "destra-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DSYNC-USDT"
+  },
+  "DUSKUSDT": {
+    "exchange": "perp",
+    "base": "dusk-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DUSK-USDT"
+  },
+  "DYDXUSDT": {
+    "exchange": "perp",
+    "base": "dydx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DYDX-USDT"
+  },
+  "DYMUSDT": {
+    "exchange": "perp",
+    "base": "dymension",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/DYM-USDT"
+  },
+  "EBAYUSDT": {
+    "exchange": "perp",
+    "base": "ebay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EBAY-USDT"
+  },
+  "EDENUSDT": {
+    "exchange": "perp",
+    "base": "openeden",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EDEN-USDT"
+  },
+  "EDGEUSDT": {
+    "exchange": "perp",
+    "base": "edgex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EDGE-USDT"
+  },
+  "EDUUSDT": {
+    "exchange": "perp",
+    "base": "edu-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EDU-USDT"
+  },
+  "EGLDUSDT": {
+    "exchange": "perp",
+    "base": "multiversx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EGLD-USDT"
+  },
+  "EIGENUSDT": {
+    "exchange": "perp",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EIGEN-USDT"
+  },
+  "ELSAUSDT": {
+    "exchange": "perp",
+    "base": "elsa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ELSA-USDT"
+  },
+  "ENAUSDT": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ENA-USDT"
+  },
+  "ENJUSDT": {
+    "exchange": "perp",
+    "base": "enjin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ENJ-USDT"
+  },
+  "ENSOUSDT": {
+    "exchange": "perp",
+    "base": "enso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ENSO-USDT"
+  },
+  "ENSUSDT": {
+    "exchange": "perp",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ENS-USDT"
+  },
+  "ERAUSDT": {
+    "exchange": "perp",
+    "base": "caldera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ERA-USDT"
+  },
+  "ESPORTSUSDT": {
+    "exchange": "perp",
+    "base": "yooldo-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ESPORTS-USDT"
+  },
+  "ESPUSDT": {
+    "exchange": "perp",
+    "base": "espresso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ESP-USDT"
+  },
+  "ETCUSDT": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ETC-USDT"
+  },
+  "ETHFIUSDT": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ETHFI-USDT"
+  },
+  "ETHUSDT": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ETH-USDT"
+  },
+  "ETHWUSDT": {
+    "exchange": "perp",
+    "base": "ethereum-pow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ETHW-USDT"
+  },
+  "EULUSDT": {
+    "exchange": "perp",
+    "base": "euler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EUL-USDT"
+  },
+  "EURUSDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EUR-USDT"
+  },
+  "EVAAUSDT": {
+    "exchange": "perp",
+    "base": "evaa-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EVAA-USDT"
+  },
+  "EWJUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-japan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EWJ-USDT"
+  },
+  "EWTUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-taiwan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EWT-USDT"
+  },
+  "EWYUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EWY-USDT"
+  },
+  "EWZUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-brazil-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/EWZ-USDT"
+  },
+  "FARTCOINUSDT": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FARTCOIN-USDT"
+  },
+  "FETUSDT": {
+    "exchange": "perp",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FET-USDT"
+  },
+  "FFUSDT": {
+    "exchange": "perp",
+    "base": "falcon-finance-ff",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FF-USDT"
+  },
+  "FHEUSDT": {
+    "exchange": "perp",
+    "base": "mind-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FHE-USDT"
+  },
+  "FIDAUSDT": {
+    "exchange": "perp",
+    "base": "bonfida",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FIDA-USDT"
+  },
+  "FIGHTUSDT": {
+    "exchange": "perp",
+    "base": "fight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FIGHT-USDT"
+  },
+  "FILUSDT": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FIL-USDT"
+  },
+  "FLNCUSDT": {
+    "exchange": "perp",
+    "base": "fluence-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FLNC-USDT"
+  },
+  "FLOCKUSDT": {
+    "exchange": "perp",
+    "base": "flock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FLOCK-USDT"
+  },
+  "FLOWUSDT": {
+    "exchange": "perp",
+    "base": "flow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FLOW-USDT"
+  },
+  "FLRUSDT": {
+    "exchange": "perp",
+    "base": "flare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FLR-USDT"
+  },
+  "FLUXUSDT": {
+    "exchange": "perp",
+    "base": "zelcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FLUX-USDT"
+  },
+  "FOGOUSDT": {
+    "exchange": "perp",
+    "base": "fogo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FOGO-USDT"
+  },
+  "FOLKSUSDT": {
+    "exchange": "perp",
+    "base": "folks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FOLKS-USDT"
+  },
+  "FORMUSDT": {
+    "exchange": "perp",
+    "base": "four",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FORM-USDT"
+  },
+  "FRAXUSDT": {
+    "exchange": "perp",
+    "base": "frax-share",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FRAX-USDT"
+  },
+  "FUSDT": {
+    "exchange": "perp",
+    "base": "synfutures",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/F-USDT"
+  },
+  "FUTUUSDT": {
+    "exchange": "perp",
+    "base": "futu-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FUTU-USDT"
+  },
+  "FWDIUSDT": {
+    "exchange": "perp",
+    "base": "forward-industries",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/FWDI-USDT"
+  },
+  "GALAUSDT": {
+    "exchange": "perp",
+    "base": "gala",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GALA-USDT"
+  },
+  "GASUSDT": {
+    "exchange": "perp",
+    "base": "neo-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GAS-USDT"
+  },
+  "GBPUSDT": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GBP-USDT"
+  },
+  "GEVUSDT": {
+    "exchange": "perp",
+    "base": "ge-vernova",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GEV-USDT"
+  },
+  "GIGGLEUSDT": {
+    "exchange": "perp",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GIGGLE-USDT"
+  },
+  "GLDUSDT": {
+    "exchange": "perp",
+    "base": "spdr-gold-shares",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GLD-USDT"
+  },
+  "GLMUSDT": {
+    "exchange": "perp",
+    "base": "golem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GLM-USDT"
+  },
+  "GLWUSDT": {
+    "exchange": "perp",
+    "base": "corning",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GLW-USDT"
+  },
+  "GMEUSDT": {
+    "exchange": "perp",
+    "base": "gamestop",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GME-USDT"
+  },
+  "GMTUSDT": {
+    "exchange": "perp",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GMT-USDT"
+  },
+  "GMXUSDT": {
+    "exchange": "perp",
+    "base": "gmx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GMX-USDT"
+  },
+  "GOATUSDT": {
+    "exchange": "perp",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GOAT-USDT"
+  },
+  "GOOGLUSDT": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GOOGL-USDT"
+  },
+  "GPROUSDT": {
+    "exchange": "perp",
+    "base": "gopro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GPRO-USDT"
+  },
+  "GPSUSDT": {
+    "exchange": "perp",
+    "base": "goplus-security",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GPS-USDT"
+  },
+  "GRASSUSDT": {
+    "exchange": "perp",
+    "base": "grass",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GRASS-USDT"
+  },
+  "GRIFFAINUSDT": {
+    "exchange": "perp",
+    "base": "griffain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GRIFFAIN-USDT"
+  },
+  "GRTUSDT": {
+    "exchange": "perp",
+    "base": "the-graph",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GRT-USDT"
+  },
+  "GRVTUSDT": {
+    "exchange": "perp",
+    "base": "grvt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GRVT-USDT"
+  },
+  "GSUSDT": {
+    "exchange": "perp",
+    "base": "goldman-sachs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GS-USDT"
+  },
+  "GTCUSDT": {
+    "exchange": "perp",
+    "base": "gitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GTC-USDT"
+  },
+  "GTLBUSDT": {
+    "exchange": "perp",
+    "base": "gitlab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GTLB-USDT"
+  },
+  "GUNUSDT": {
+    "exchange": "perp",
+    "base": "gunz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GUN-USDT"
+  },
+  "GUSDT": {
+    "exchange": "perp",
+    "base": "gravity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/G-USDT"
+  },
+  "GWEIUSDT": {
+    "exchange": "perp",
+    "base": "ethgas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/GWEI-USDT"
+  },
+  "HAEDALUSDT": {
+    "exchange": "perp",
+    "base": "haedal-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HAEDAL-USDT"
+  },
+  "HANAUSDT": {
+    "exchange": "perp",
+    "base": "hana-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HANA-USDT"
+  },
+  "HBARUSDT": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HBAR-USDT"
+  },
+  "HDUSDT": {
+    "exchange": "perp",
+    "base": "home-depot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HD-USDT"
+  },
+  "HEIUSDT": {
+    "exchange": "perp",
+    "base": "heima",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HEI-USDT"
+  },
+  "HEMIUSDT": {
+    "exchange": "perp",
+    "base": "hemi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HEMI-USDT"
+  },
+  "HIMSUSDT": {
+    "exchange": "perp",
+    "base": "hims-and-hers-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HIMS-USDT"
+  },
+  "HMSTRUSDT": {
+    "exchange": "perp",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HMSTR-USDT"
+  },
+  "HNTUSDT": {
+    "exchange": "perp",
+    "base": "helium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HNT-USDT"
+  },
+  "HOLOUSDT": {
+    "exchange": "perp",
+    "base": "holoworld",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HOLO-USDT"
+  },
+  "HOMEUSDT": {
+    "exchange": "perp",
+    "base": "defi-app",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HOME-USDT"
+  },
+  "HPEUSDT": {
+    "exchange": "perp",
+    "base": "hewlett-packard-enterprise",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HPE-USDT"
+  },
+  "HUMAUSDT": {
+    "exchange": "perp",
+    "base": "huma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HUMA-USDT"
+  },
+  "HUSDT": {
+    "exchange": "perp",
+    "base": "humanity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/H-USDT"
+  },
+  "HUTUSDT": {
+    "exchange": "perp",
+    "base": "hut-8",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HUT-USDT"
+  },
+  "HYPERUSDT": {
+    "exchange": "perp",
+    "base": "hyperlane",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HYPER-USDT"
+  },
+  "HYPEUSDT": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/HYPE-USDT"
+  },
+  "IBMUSDT": {
+    "exchange": "perp",
+    "base": "international-business-machines",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/IBM-USDT"
+  },
+  "ICNTUSDT": {
+    "exchange": "perp",
+    "base": "impossible-cloud-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ICNT-USDT"
+  },
+  "ICPUSDT": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ICP-USDT"
+  },
+  "IDUSDT": {
+    "exchange": "perp",
+    "base": "space-id",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ID-USDT"
+  },
+  "ILMNUSDT": {
+    "exchange": "perp",
+    "base": "illumina",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ILMN-USDT"
+  },
+  "ILVUSDT": {
+    "exchange": "perp",
+    "base": "illuvium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ILV-USDT"
+  },
+  "IMXUSDT": {
+    "exchange": "perp",
+    "base": "immutable-x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/IMX-USDT"
+  },
+  "INITUSDT": {
+    "exchange": "perp",
+    "base": "initia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/INIT-USDT"
+  },
+  "INJUSDT": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/INJ-USDT"
+  },
+  "INTCUSDT": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/INTC-USDT"
+  },
+  "INUSDT": {
+    "exchange": "perp",
+    "base": "infinit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/IN-USDT"
+  },
+  "INXUSDT": {
+    "exchange": "perp",
+    "base": "infinex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/INX-USDT"
+  },
+  "IONQUSDT": {
+    "exchange": "perp",
+    "base": "ionq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/IONQ-USDT"
+  },
+  "IOSTUSDT": {
+    "exchange": "perp",
+    "base": "iost",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/IOST-USDT"
+  },
+  "IOTAUSDT": {
+    "exchange": "perp",
+    "base": "iota",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/IOTA-USDT"
+  },
+  "IOTXUSDT": {
+    "exchange": "perp",
+    "base": "iotex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/IOTX-USDT"
+  },
+  "IOUSDT": {
+    "exchange": "perp",
+    "base": "io-net",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/IO-USDT"
+  },
+  "IRENUSDT": {
+    "exchange": "perp",
+    "base": "iren",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/IREN-USDT"
+  },
+  "IRYSUSDT": {
+    "exchange": "perp",
+    "base": "irys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/IRYS-USDT"
+  },
+  "IWMUSDT": {
+    "exchange": "perp",
+    "base": "ishares-russell-2000-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/IWM-USDT"
+  },
+  "JASMYUSDT": {
+    "exchange": "perp",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/JASMY-USDT"
+  },
+  "JCTUSDT": {
+    "exchange": "perp",
+    "base": "janction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/JCT-USDT"
+  },
+  "JELLYJELLYUSDT": {
+    "exchange": "perp",
+    "base": "jelly-my-jelly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/JELLYJELLY-USDT"
+  },
+  "JNJUSDT": {
+    "exchange": "perp",
+    "base": "johnson-and-johnson",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/JNJ-USDT"
+  },
+  "JPMUSDT": {
+    "exchange": "perp",
+    "base": "jpmorgan-chase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/JPM-USDT"
+  },
+  "JPYUSDT": {
+    "exchange": "perp",
+    "base": "japanese-yen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/JPY-USDT"
+  },
+  "JSTUSDT": {
+    "exchange": "perp",
+    "base": "just",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/JST-USDT"
+  },
+  "JTOUSDT": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/JTO-USDT"
+  },
+  "JUPUSDT": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/JUP-USDT"
+  },
+  "KAIAUSDT": {
+    "exchange": "perp",
+    "base": "kaia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KAIA-USDT"
+  },
+  "KAITOUSDT": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KAITO-USDT"
+  },
+  "KASUSDT": {
+    "exchange": "perp",
+    "base": "kaspa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KAS-USDT"
+  },
+  "KATUSDT": {
+    "exchange": "perp",
+    "base": "katana-network-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KAT-USDT"
+  },
+  "KAVAUSDT": {
+    "exchange": "perp",
+    "base": "kava",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KAVA-USDT"
+  },
+  "KERNELUSDT": {
+    "exchange": "perp",
+    "base": "kernel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KERNEL-USDT"
+  },
+  "KGENUSDT": {
+    "exchange": "perp",
+    "base": "kgen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KGEN-USDT"
+  },
+  "KITEUSDT": {
+    "exchange": "perp",
+    "base": "kite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KITE-USDT"
+  },
+  "KLACUSDT": {
+    "exchange": "perp",
+    "base": "kla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KLAC-USDT"
+  },
+  "KMBUSDT": {
+    "exchange": "perp",
+    "base": "kimberly-clark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KMB-USDT"
+  },
+  "KMNOUSDT": {
+    "exchange": "perp",
+    "base": "kamino",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KMNO-USDT"
+  },
+  "KNCUSDT": {
+    "exchange": "perp",
+    "base": "kyber-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KNC-USDT"
+  },
+  "KOMAUSDT": {
+    "exchange": "perp",
+    "base": "koma-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KOMA-USDT"
+  },
+  "KORUUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KORU-USDT"
+  },
+  "KOUSDT": {
+    "exchange": "perp",
+    "base": "coca-cola",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KO-USDT"
+  },
+  "KSMUSDT": {
+    "exchange": "perp",
+    "base": "kusama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KSM-USDT"
+  },
+  "KSTRUSDT": {
+    "exchange": "perp",
+    "base": "kraneshares-star-50-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/KSTR-USDT"
+  },
+  "LABUSDT": {
+    "exchange": "perp",
+    "base": "lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LAB-USDT"
+  },
+  "LAUSDT": {
+    "exchange": "perp",
+    "base": "lagrange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LA-USDT"
+  },
+  "LAYERUSDT": {
+    "exchange": "perp",
+    "base": "solayer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LAYER-USDT"
+  },
+  "LDOUSDT": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LDO-USDT"
+  },
+  "LIGHTUSDT": {
+    "exchange": "perp",
+    "base": "bitlight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LIGHT-USDT"
+  },
+  "LINEAUSDT": {
+    "exchange": "perp",
+    "base": "linea",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LINEA-USDT"
+  },
+  "LINKUSDT": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LINK-USDT"
+  },
+  "LISTAUSDT": {
+    "exchange": "perp",
+    "base": "lista",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LISTA-USDT"
+  },
+  "LITEUSDT": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LITE-USDT"
+  },
+  "LITUSDT": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LIT-USDT"
+  },
+  "LLYUSDT": {
+    "exchange": "perp",
+    "base": "eli-lilly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LLY-USDT"
+  },
+  "LMWRUSDT": {
+    "exchange": "perp",
+    "base": "limewire",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LMWR-USDT"
+  },
+  "LPTUSDT": {
+    "exchange": "perp",
+    "base": "livepeer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LPT-USDT"
+  },
+  "LQTYUSDT": {
+    "exchange": "perp",
+    "base": "liquity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LQTY-USDT"
+  },
+  "LRCXUSDT": {
+    "exchange": "perp",
+    "base": "lam-research",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LRCX-USDT"
+  },
+  "LSKUSDT": {
+    "exchange": "perp",
+    "base": "lisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LSK-USDT"
+  },
+  "LTCUSDT": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LTC-USDT"
+  },
+  "LULUUSDT": {
+    "exchange": "perp",
+    "base": "lululemon-athletica",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LULU-USDT"
+  },
+  "LUMIAUSDT": {
+    "exchange": "perp",
+    "base": "lumia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LUMIA-USDT"
+  },
+  "LUNAUSDT": {
+    "exchange": "perp",
+    "base": "terra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LUNA-USDT"
+  },
+  "LUNCUSDT": {
+    "exchange": "perp",
+    "base": "terra-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LUNC-USDT"
+  },
+  "LYTEUSDT": {
+    "exchange": "perp",
+    "base": "roundhill-photonics-optics-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/LYTE-USDT"
+  },
+  "MAGICUSDT": {
+    "exchange": "perp",
+    "base": "magic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MAGIC-USDT"
+  },
+  "MAGMAUSDT": {
+    "exchange": "perp",
+    "base": "magma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MAGMA-USDT"
+  },
+  "MANAUSDT": {
+    "exchange": "perp",
+    "base": "decentraland",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MANA-USDT"
+  },
+  "MANTAUSDT": {
+    "exchange": "perp",
+    "base": "manta-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MANTA-USDT"
+  },
+  "MASKUSDT": {
+    "exchange": "perp",
+    "base": "mask-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MASK-USDT"
+  },
+  "MAUSDT": {
+    "exchange": "perp",
+    "base": "mastercard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MA-USDT"
+  },
+  "MAVIAUSDT": {
+    "exchange": "perp",
+    "base": "heroes-of-mavia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MAVIA-USDT"
+  },
+  "MAVUSDT": {
+    "exchange": "perp",
+    "base": "maverick-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MAV-USDT"
+  },
+  "MCKUSDT": {
+    "exchange": "perp",
+    "base": "mckesson",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MCK-USDT"
+  },
+  "MDBUSDT": {
+    "exchange": "perp",
+    "base": "mongodb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MDB-USDT"
+  },
+  "MEGAUSDT": {
+    "exchange": "perp",
+    "base": "megaeth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MEGA-USDT"
+  },
+  "MELANIAUSDT": {
+    "exchange": "perp",
+    "base": "melania-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MELANIA-USDT"
+  },
+  "MELIUSDT": {
+    "exchange": "perp",
+    "base": "mercadolibre",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MELI-USDT"
+  },
+  "MEMEUSDT": {
+    "exchange": "perp",
+    "base": "memecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MEME-USDT"
+  },
+  "MERLUSDT": {
+    "exchange": "perp",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MERL-USDT"
+  },
+  "METAUSDT": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/META-USDT"
+  },
+  "METISUSDT": {
+    "exchange": "perp",
+    "base": "metis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/METIS-USDT"
+  },
+  "METUSDT": {
+    "exchange": "perp",
+    "base": "meteora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MET-USDT"
+  },
+  "MEUSDT": {
+    "exchange": "perp",
+    "base": "magic-eden",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ME-USDT"
+  },
+  "MEWUSDT": {
+    "exchange": "perp",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MEW-USDT"
+  },
+  "MINAUSDT": {
+    "exchange": "perp",
+    "base": "mina-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MINA-USDT"
+  },
+  "MMTUSDT": {
+    "exchange": "perp",
+    "base": "momentum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MMT-USDT"
+  },
+  "MNTUSDT": {
+    "exchange": "perp",
+    "base": "mantle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MNT-USDT"
+  },
+  "MOCAUSDT": {
+    "exchange": "perp",
+    "base": "mocaverse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MOCA-USDT"
+  },
+  "MONUSDT": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MON-USDT"
+  },
+  "MOODENGUSDT": {
+    "exchange": "perp",
+    "base": "moo-deng",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MOODENG-USDT"
+  },
+  "MORPHOUSDT": {
+    "exchange": "perp",
+    "base": "morpho",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MORPHO-USDT"
+  },
+  "MOVEUSDT": {
+    "exchange": "perp",
+    "base": "movement",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MOVE-USDT"
+  },
+  "MOVRUSDT": {
+    "exchange": "perp",
+    "base": "moonriver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MOVR-USDT"
+  },
+  "MPCUSDT": {
+    "exchange": "perp",
+    "base": "marathon-petroleum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MPC-USDT"
+  },
+  "MPUSDT": {
+    "exchange": "perp",
+    "base": "mp-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MP-USDT"
+  },
+  "MPWRUSDT": {
+    "exchange": "perp",
+    "base": "monolithic-power-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MPWR-USDT"
+  },
+  "MRKUSDT": {
+    "exchange": "perp",
+    "base": "merck-and-co",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MRK-USDT"
+  },
+  "MRNAUSDT": {
+    "exchange": "perp",
+    "base": "moderna",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MRNA-USDT"
+  },
+  "MRSHUSDT": {
+    "exchange": "perp",
+    "base": "marsh-and-mclennan",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MRSH-USDT"
+  },
+  "MRVLUSDT": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MRVL-USDT"
+  },
+  "MSFTUSDT": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MSFT-USDT"
+  },
+  "MSFUUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-msft-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MSFU-USDT"
+  },
+  "MSTRUSDT": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MSTR-USDT"
+  },
+  "MTLUSDT": {
+    "exchange": "perp",
+    "base": "metal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MTL-USDT"
+  },
+  "MUBARAKUSDT": {
+    "exchange": "perp",
+    "base": "mubarak",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MUBARAK-USDT"
+  },
+  "MUSDT": {
+    "exchange": "perp",
+    "base": "memecore",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/M-USDT"
+  },
+  "MUUSDT": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MU-USDT"
+  },
+  "MYXUSDT": {
+    "exchange": "perp",
+    "base": "myx-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/MYX-USDT"
+  },
+  "NATGASUSDT": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NATGAS-USDT"
+  },
+  "NBISUSDT": {
+    "exchange": "perp",
+    "base": "nebius-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NBIS-USDT"
+  },
+  "NEARUSDT": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NEAR-USDT"
+  },
+  "NEIROCTOUSDT": {
+    "exchange": "perp",
+    "base": "neiro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NEIROCTO-USDT"
+  },
+  "NEOUSDT": {
+    "exchange": "perp",
+    "base": "neo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NEO-USDT"
+  },
+  "NESUSDT": {
+    "exchange": "perp",
+    "base": "nesa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NES-USDT"
+  },
+  "NETUSDT": {
+    "exchange": "perp",
+    "base": "cloudflare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NET-USDT"
+  },
+  "NEWTUSDT": {
+    "exchange": "perp",
+    "base": "newton-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NEWT-USDT"
+  },
+  "NFLXUSDT": {
+    "exchange": "perp",
+    "base": "netflix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NFLX-USDT"
+  },
+  "NGUSDT": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NG-USDT"
+  },
+  "NIGHTUSDT": {
+    "exchange": "perp",
+    "base": "midnight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NIGHT-USDT"
+  },
+  "NILUSDT": {
+    "exchange": "perp",
+    "base": "nillion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NIL-USDT"
+  },
+  "NKEUSDT": {
+    "exchange": "perp",
+    "base": "nike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NKE-USDT"
+  },
+  "NMRUSDT": {
+    "exchange": "perp",
+    "base": "numeraire",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NMR-USDT"
+  },
+  "NOKUSDT": {
+    "exchange": "perp",
+    "base": "nokia-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NOK-USDT"
+  },
+  "NOMUSDT": {
+    "exchange": "perp",
+    "base": "nomina",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NOM-USDT"
+  },
+  "NOTUSDT": {
+    "exchange": "perp",
+    "base": "notcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NOT-USDT"
+  },
+  "NOWUSDT": {
+    "exchange": "perp",
+    "base": "servicenow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NOW-USDT"
+  },
+  "NUUSDT": {
+    "exchange": "perp",
+    "base": "nu-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NU-USDT"
+  },
+  "NVDAUSDT": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NVDA-USDT"
+  },
+  "NVOUSDT": {
+    "exchange": "perp",
+    "base": "novo-nordisk-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NVO-USDT"
+  },
+  "NXPCUSDT": {
+    "exchange": "perp",
+    "base": "nexpace",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/NXPC-USDT"
+  },
+  "OGNUSDT": {
+    "exchange": "perp",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/OGN-USDT"
+  },
+  "OKBUSDT": {
+    "exchange": "perp",
+    "base": "okb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/OKB-USDT"
+  },
+  "OKLOUSDT": {
+    "exchange": "perp",
+    "base": "oklo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/OKLO-USDT"
+  },
+  "ONDOUSDT": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ONDO-USDT"
+  },
+  "ONDSUSDT": {
+    "exchange": "perp",
+    "base": "ondas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ONDS-USDT"
+  },
+  "OPENUSDT": {
+    "exchange": "perp",
+    "base": "openledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/OPEN-USDT"
+  },
+  "OPGUSDT": {
+    "exchange": "perp",
+    "base": "opengradient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/OPG-USDT"
+  },
+  "OPNUSDT": {
+    "exchange": "perp",
+    "base": "opinion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/OPN-USDT"
+  },
+  "OPUSDT": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/OP-USDT"
+  },
+  "ORCAUSDT": {
+    "exchange": "perp",
+    "base": "orca",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ORCA-USDT"
+  },
+  "ORCLUSDT": {
+    "exchange": "perp",
+    "base": "oracle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ORCL-USDT"
+  },
+  "ORDERUSDT": {
+    "exchange": "perp",
+    "base": "orderly-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ORDER-USDT"
+  },
+  "ORDIUSDT": {
+    "exchange": "perp",
+    "base": "ordi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ORDI-USDT"
+  },
+  "OUSDT": {
+    "exchange": "perp",
+    "base": "o1-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/O-USDT"
+  },
+  "PANWUSDT": {
+    "exchange": "perp",
+    "base": "palo-alto-networks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PANW-USDT"
+  },
+  "PARTIUSDT": {
+    "exchange": "perp",
+    "base": "particle-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PARTI-USDT"
+  },
+  "PATHUSDT": {
+    "exchange": "perp",
+    "base": "uipath",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PATH-USDT"
+  },
+  "PAXGUSDT": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PAXG-USDT"
+  },
+  "PAYPUSDT": {
+    "exchange": "perp",
+    "base": "paypay-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PAYP-USDT"
+  },
+  "PDDUSDT": {
+    "exchange": "perp",
+    "base": "pdd-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PDD-USDT"
+  },
+  "PEAQUSDT": {
+    "exchange": "perp",
+    "base": "peaq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PEAQ-USDT"
+  },
+  "PENDLEUSDT": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PENDLE-USDT"
+  },
+  "PENGUSDT": {
+    "exchange": "perp",
+    "base": "penguin-solutions",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PENG-USDT"
+  },
+  "PENGUUSDT": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PENGU-USDT"
+  },
+  "PEOPLEUSDT": {
+    "exchange": "perp",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PEOPLE-USDT"
+  },
+  "PEPUSDT": {
+    "exchange": "perp",
+    "base": "pepsico",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PEP-USDT"
+  },
+  "PFEUSDT": {
+    "exchange": "perp",
+    "base": "pfizer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PFE-USDT"
+  },
+  "PHAUSDT": {
+    "exchange": "perp",
+    "base": "pha",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PHA-USDT"
+  },
+  "PIEVERSEUSDT": {
+    "exchange": "perp",
+    "base": "pieverse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PIEVERSE-USDT"
+  },
+  "PIXELUSDT": {
+    "exchange": "perp",
+    "base": "pixels",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PIXEL-USDT"
+  },
+  "PLAYUSDT": {
+    "exchange": "perp",
+    "base": "playsout",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PLAY-USDT"
+  },
+  "PLDUSDT": {
+    "exchange": "perp",
+    "base": "prologis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PLD-USDT"
+  },
+  "PLTRUSDT": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PLTR-USDT"
+  },
+  "PLUMEUSDT": {
+    "exchange": "perp",
+    "base": "plume",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PLUME-USDT"
+  },
+  "PNUTUSDT": {
+    "exchange": "perp",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PNUT-USDT"
+  },
+  "POLUSDT": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/POL-USDT"
+  },
+  "POLYXUSDT": {
+    "exchange": "perp",
+    "base": "polymesh",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/POLYX-USDT"
+  },
+  "PONSUSDT": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PONS-USDT"
+  },
+  "POPCATUSDT": {
+    "exchange": "perp",
+    "base": "popcat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/POPCAT-USDT"
+  },
+  "PORTALUSDT": {
+    "exchange": "perp",
+    "base": "portal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PORTAL-USDT"
+  },
+  "POWRUSDT": {
+    "exchange": "perp",
+    "base": "power-ledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/POWR-USDT"
+  },
+  "PRLUSDT": {
+    "exchange": "perp",
+    "base": "perle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PRL-USDT"
+  },
+  "PROMUSDT": {
+    "exchange": "perp",
+    "base": "prometeus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PROM-USDT"
+  },
+  "PROSUSDT": {
+    "exchange": "perp",
+    "base": "pharos-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PROS-USDT"
+  },
+  "PROVEUSDT": {
+    "exchange": "perp",
+    "base": "succinct",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PROVE-USDT"
+  },
+  "PUMPUSDT": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PUMP-USDT"
+  },
+  "PUNDIXUSDT": {
+    "exchange": "perp",
+    "base": "pundi-x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PUNDIX-USDT"
+  },
+  "PURRUSDT": {
+    "exchange": "perp",
+    "base": "hyperliquid-strategies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PURR-USDT"
+  },
+  "PYTHUSDT": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/PYTH-USDT"
+  },
+  "QCOMUSDT": {
+    "exchange": "perp",
+    "base": "qualcomm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/QCOM-USDT"
+  },
+  "QNTUSDT": {
+    "exchange": "perp",
+    "base": "quant",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/QNT-USDT"
+  },
+  "QQQUSDT": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/QQQ-USDT"
+  },
+  "QTUMUSDT": {
+    "exchange": "perp",
+    "base": "qtum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/QTUM-USDT"
+  },
+  "RAINUSDT": {
+    "exchange": "perp",
+    "base": "rain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RAIN-USDT"
+  },
+  "RAREUSDT": {
+    "exchange": "perp",
+    "base": "superrare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RARE-USDT"
+  },
+  "RAVEUSDT": {
+    "exchange": "perp",
+    "base": "ravedao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RAVE-USDT"
+  },
+  "RAYUSDT": {
+    "exchange": "perp",
+    "base": "raydium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RAY-USDT"
+  },
+  "RDDTUSDT": {
+    "exchange": "perp",
+    "base": "reddit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RDDT-USDT"
+  },
+  "RECALLUSDT": {
+    "exchange": "perp",
+    "base": "recall",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RECALL-USDT"
+  },
+  "REDUSDT": {
+    "exchange": "perp",
+    "base": "redstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RED-USDT"
+  },
+  "RENDERUSDT": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RENDER-USDT"
+  },
+  "RESOLVUSDT": {
+    "exchange": "perp",
+    "base": "resolv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RESOLV-USDT"
+  },
+  "REUSDT": {
+    "exchange": "perp",
+    "base": "re",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RE-USDT"
+  },
+  "REZUSDT": {
+    "exchange": "perp",
+    "base": "renzo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/REZ-USDT"
+  },
+  "RIVERUSDT": {
+    "exchange": "perp",
+    "base": "river",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RIVER-USDT"
+  },
+  "RIVNUSDT": {
+    "exchange": "perp",
+    "base": "rivian-automotive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RIVN-USDT"
+  },
+  "RKLBUSDT": {
+    "exchange": "perp",
+    "base": "rocket-lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RKLB-USDT"
+  },
+  "RLCUSDT": {
+    "exchange": "perp",
+    "base": "iexec-rlc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RLC-USDT"
+  },
+  "ROBOUSDT": {
+    "exchange": "perp",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ROBO-USDT"
+  },
+  "ROSEUSDT": {
+    "exchange": "perp",
+    "base": "oasis-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ROSE-USDT"
+  },
+  "RPLUSDT": {
+    "exchange": "perp",
+    "base": "rocket-pool",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RPL-USDT"
+  },
+  "RSRUSDT": {
+    "exchange": "perp",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RSR-USDT"
+  },
+  "RUMUSDT": {
+    "exchange": "perp",
+    "base": "rum-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RUM-USDT"
+  },
+  "RUNEUSDT": {
+    "exchange": "perp",
+    "base": "thorchain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RUNE-USDT"
+  },
+  "RVNUSDT": {
+    "exchange": "perp",
+    "base": "ravencoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/RVN-USDT"
+  },
+  "SAFEUSDT": {
+    "exchange": "perp",
+    "base": "safe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SAFE-USDT"
+  },
+  "SAGAUSDT": {
+    "exchange": "perp",
+    "base": "saga",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SAGA-USDT"
+  },
+  "SAHARAUSDT": {
+    "exchange": "perp",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SAHARA-USDT"
+  },
+  "SANDUSDT": {
+    "exchange": "perp",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SAND-USDT"
+  },
+  "SAPIENUSDT": {
+    "exchange": "perp",
+    "base": "sapien",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SAPIEN-USDT"
+  },
+  "SBUXUSDT": {
+    "exchange": "perp",
+    "base": "starbucks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SBUX-USDT"
+  },
+  "SCRUSDT": {
+    "exchange": "perp",
+    "base": "scroll",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SCR-USDT"
+  },
+  "SECZUSDT": {
+    "exchange": "perp",
+    "base": "securitize",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SECZ-USDT"
+  },
+  "SEIUSDT": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SEI-USDT"
+  },
+  "SENTUSDT": {
+    "exchange": "perp",
+    "base": "sentient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SENT-USDT"
+  },
+  "SFPUSDT": {
+    "exchange": "perp",
+    "base": "safepal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SFP-USDT"
+  },
+  "SHAZUSDT": {
+    "exchange": "perp",
+    "base": "sharonai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SHAZ-USDT"
+  },
+  "SHELUSDT": {
+    "exchange": "perp",
+    "base": "shell-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SHEL-USDT"
+  },
+  "SHOPUSDT": {
+    "exchange": "perp",
+    "base": "shopify",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SHOP-USDT"
+  },
+  "SIGNUSDT": {
+    "exchange": "perp",
+    "base": "sign-global",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SIGN-USDT"
+  },
+  "SKHYUSDT": {
+    "exchange": "perp",
+    "base": "sk-hynix-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SKHY-USDT"
+  },
+  "SKRUSDT": {
+    "exchange": "perp",
+    "base": "seeker",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SKR-USDT"
+  },
+  "SKYUSDT": {
+    "exchange": "perp",
+    "base": "sky",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SKY-USDT"
+  },
+  "SLPUSDT": {
+    "exchange": "perp",
+    "base": "smooth-love-potion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SLP-USDT"
+  },
+  "SLXUSDT": {
+    "exchange": "perp",
+    "base": "solstice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SLX-USDT"
+  },
+  "SMCIUSDT": {
+    "exchange": "perp",
+    "base": "super-micro-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SMCI-USDT"
+  },
+  "SMHUSDT": {
+    "exchange": "perp",
+    "base": "vaneck-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SMH-USDT"
+  },
+  "SNDKUSDT": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SNDK-USDT"
+  },
+  "SNPSUSDT": {
+    "exchange": "perp",
+    "base": "synopsys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SNPS-USDT"
+  },
+  "SNXUSDT": {
+    "exchange": "perp",
+    "base": "synthetix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SNX-USDT"
+  },
+  "SNXXUSDT": {
+    "exchange": "perp",
+    "base": "tradr-2x-long-sndk-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SNXX-USDT"
+  },
+  "SOLUSDT": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SOL-USDT"
+  },
+  "SOLVUSDT": {
+    "exchange": "perp",
+    "base": "solv-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SOLV-USDT"
+  },
+  "SOMIUSDT": {
+    "exchange": "perp",
+    "base": "somnia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SOMI-USDT"
+  },
+  "SONICUSDT": {
+    "exchange": "perp",
+    "base": "sonic-svm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SONIC-USDT"
+  },
+  "SOONUSDT": {
+    "exchange": "perp",
+    "base": "soon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SOON-USDT"
+  },
+  "SOPHUSDT": {
+    "exchange": "perp",
+    "base": "sophon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SOPH-USDT"
+  },
+  "SOXLUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SOXL-USDT"
+  },
+  "SOXSUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SOXS-USDT"
+  },
+  "SOXXUSDT": {
+    "exchange": "perp",
+    "base": "ishares-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SOXX-USDT"
+  },
+  "SPACEUSDT": {
+    "exchange": "perp",
+    "base": "spacecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SPACE-USDT"
+  },
+  "SPCXUSDT": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SPCX-USDT"
+  },
+  "SPELLUSDT": {
+    "exchange": "perp",
+    "base": "spell-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SPELL-USDT"
+  },
+  "SPKUSDT": {
+    "exchange": "perp",
+    "base": "spark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SPK-USDT"
+  },
+  "SPXUSDT": {
+    "exchange": "perp",
+    "base": "spx6900",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SPX-USDT"
+  },
+  "SPYUSDT": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SPY-USDT"
+  },
+  "SQDUSDT": {
+    "exchange": "perp",
+    "base": "subsquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SQD-USDT"
+  },
+  "SQQQUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultrapro-short-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SQQQ-USDT"
+  },
+  "SSVUSDT": {
+    "exchange": "perp",
+    "base": "ssv-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SSV-USDT"
+  },
+  "STABLEUSDT": {
+    "exchange": "perp",
+    "base": "stable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/STABLE-USDT"
+  },
+  "STARUSDT": {
+    "exchange": "perp",
+    "base": "starpower",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/STAR-USDT"
+  },
+  "STBLUSDT": {
+    "exchange": "perp",
+    "base": "stbl",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/STBL-USDT"
+  },
+  "STEEMUSDT": {
+    "exchange": "perp",
+    "base": "steem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/STEEM-USDT"
+  },
+  "STONKUSDT": {
+    "exchange": "perp",
+    "base": "stonk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/STONK-USDT"
+  },
+  "STOUSDT": {
+    "exchange": "perp",
+    "base": "stakestone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/STO-USDT"
+  },
+  "STRCUSDT": {
+    "exchange": "perp",
+    "base": "strategy-stretch-preferred-stock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/STRC-USDT"
+  },
+  "STRKUSDT": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/STRK-USDT"
+  },
+  "STXUSDT": {
+    "exchange": "perp",
+    "base": "stacks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/STX-USDT"
+  },
+  "SUIUSDT": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SUI-USDT"
+  },
+  "SUNUSDT": {
+    "exchange": "perp",
+    "base": "sun-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SUN-USDT"
+  },
+  "SUPERUSDT": {
+    "exchange": "perp",
+    "base": "superfarm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SUPER-USDT"
+  },
+  "SUSDT": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/S-USDT"
+  },
+  "SUSHIUSDT": {
+    "exchange": "perp",
+    "base": "sushi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SUSHI-USDT"
+  },
+  "SWARMSUSDT": {
+    "exchange": "perp",
+    "base": "swarms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SWARMS-USDT"
+  },
+  "SXTUSDT": {
+    "exchange": "perp",
+    "base": "space-and-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SXT-USDT"
+  },
+  "SYNUSDT": {
+    "exchange": "perp",
+    "base": "synapse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SYN-USDT"
+  },
+  "SYRUPUSDT": {
+    "exchange": "perp",
+    "base": "syrup",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/SYRUP-USDT"
+  },
+  "TACUSDT": {
+    "exchange": "perp",
+    "base": "tac",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TAC-USDT"
+  },
+  "TAGUSDT": {
+    "exchange": "perp",
+    "base": "tagger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TAG-USDT"
+  },
+  "TAIKOUSDT": {
+    "exchange": "perp",
+    "base": "taiko",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TAIKO-USDT"
+  },
+  "TAKEUSDT": {
+    "exchange": "perp",
+    "base": "overtake",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TAKE-USDT"
+  },
+  "TAOUSDT": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TAO-USDT"
+  },
+  "TAUSDT": {
+    "exchange": "perp",
+    "base": "trusta-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TA-USDT"
+  },
+  "TFUELUSDT": {
+    "exchange": "perp",
+    "base": "theta-fuel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TFUEL-USDT"
+  },
+  "THETAUSDT": {
+    "exchange": "perp",
+    "base": "theta-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/THETA-USDT"
+  },
+  "THEUSDT": {
+    "exchange": "perp",
+    "base": "thena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/THE-USDT"
+  },
+  "TIAUSDT": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TIA-USDT"
+  },
+  "TLMUSDT": {
+    "exchange": "perp",
+    "base": "alien-worlds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TLM-USDT"
+  },
+  "TLTUSDT": {
+    "exchange": "perp",
+    "base": "ishares-20-year-treasury-bond-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TLT-USDT"
+  },
+  "TMOUSDT": {
+    "exchange": "perp",
+    "base": "thermo-fisher-scientific",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TMO-USDT"
+  },
+  "TNSRUSDT": {
+    "exchange": "perp",
+    "base": "tensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TNSR-USDT"
+  },
+  "TONUSDT": {
+    "exchange": "perp",
+    "base": "toncoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TON-USDT"
+  },
+  "TOSHIUSDT": {
+    "exchange": "perp",
+    "base": "toshi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TOSHI-USDT"
+  },
+  "TOWNSUSDT": {
+    "exchange": "perp",
+    "base": "towns",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TOWNS-USDT"
+  },
+  "TQQQUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultrapro-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TQQQ-USDT"
+  },
+  "TRADOORUSDT": {
+    "exchange": "perp",
+    "base": "tradoor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TRADOOR-USDT"
+  },
+  "TRBUSDT": {
+    "exchange": "perp",
+    "base": "tellor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TRB-USDT"
+  },
+  "TREEUSDT": {
+    "exchange": "perp",
+    "base": "treehouse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TREE-USDT"
+  },
+  "TRIAUSDT": {
+    "exchange": "perp",
+    "base": "tria",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TRIA-USDT"
+  },
+  "TRUMPUSDT": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TRUMP-USDT"
+  },
+  "TRUSTUSDT": {
+    "exchange": "perp",
+    "base": "intuition",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TRUST-USDT"
+  },
+  "TRUTHUSDT": {
+    "exchange": "perp",
+    "base": "swarm-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TRUTH-USDT"
+  },
+  "TRXUSDT": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TRX-USDT"
+  },
+  "TSLAUSDT": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TSLA-USDT"
+  },
+  "TSMUSDT": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TSM-USDT"
+  },
+  "TTWOUSDT": {
+    "exchange": "perp",
+    "base": "take-two-interactive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TTWO-USDT"
+  },
+  "TURBOUSDT": {
+    "exchange": "perp",
+    "base": "turbo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TURBO-USDT"
+  },
+  "TURTLEUSDT": {
+    "exchange": "perp",
+    "base": "turtle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TURTLE-USDT"
+  },
+  "TUSDT": {
+    "exchange": "perp",
+    "base": "threshold-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/T-USDT"
+  },
+  "TUTUSDT": {
+    "exchange": "perp",
+    "base": "tutorial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TUT-USDT"
+  },
+  "TWSTUSDT": {
+    "exchange": "perp",
+    "base": "twist-bioscience",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TWST-USDT"
+  },
+  "TWTUSDT": {
+    "exchange": "perp",
+    "base": "trust-wallet-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TWT-USDT"
+  },
+  "TXNUSDT": {
+    "exchange": "perp",
+    "base": "texas-instruments",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/TXN-USDT"
+  },
+  "UAIUSDT": {
+    "exchange": "perp",
+    "base": "unifai-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/UAI-USDT"
+  },
+  "UBERUSDT": {
+    "exchange": "perp",
+    "base": "uber-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/UBER-USDT"
+  },
+  "UBUSDT": {
+    "exchange": "perp",
+    "base": "unibase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/UB-USDT"
+  },
+  "UMAUSDT": {
+    "exchange": "perp",
+    "base": "uma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/UMA-USDT"
+  },
+  "UNHUSDT": {
+    "exchange": "perp",
+    "base": "unitedhealth-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/UNH-USDT"
+  },
+  "UNIUSDT": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/UNI-USDT"
+  },
+  "UNPUSDT": {
+    "exchange": "perp",
+    "base": "union-pacific",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/UNP-USDT"
+  },
+  "URNMUSDT": {
+    "exchange": "perp",
+    "base": "sprott-uranium-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/URNM-USDT"
+  },
+  "USARUSDT": {
+    "exchange": "perp",
+    "base": "usa-rare-earth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/USAR-USDT"
+  },
+  "USDCUSDT": {
+    "exchange": "perp",
+    "base": "usd-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/USDC-USDT"
+  },
+  "USELESSUSDT": {
+    "exchange": "perp",
+    "base": "useless-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/USELESS-USDT"
+  },
+  "USTCUSDT": {
+    "exchange": "perp",
+    "base": "terrausd",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/USTC-USDT"
+  },
+  "USUALUSDT": {
+    "exchange": "perp",
+    "base": "usual",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/USUAL-USDT"
+  },
+  "USUSDT": {
+    "exchange": "perp",
+    "base": "talus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/US-USDT"
+  },
+  "UVXYUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultra-vix-short-term-futures-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/UVXY-USDT"
+  },
+  "VANAUSDT": {
+    "exchange": "perp",
+    "base": "vana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/VANA-USDT"
+  },
+  "VELOUSDT": {
+    "exchange": "perp",
+    "base": "velo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/VELO-USDT"
+  },
+  "VELVETUSDT": {
+    "exchange": "perp",
+    "base": "velvet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/VELVET-USDT"
+  },
+  "VETUSDT": {
+    "exchange": "perp",
+    "base": "vechain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/VET-USDT"
+  },
+  "VIRTUALUSDT": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/VIRTUAL-USDT"
+  },
+  "VKTXUSDT": {
+    "exchange": "perp",
+    "base": "viking-therapeutics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/VKTX-USDT"
+  },
+  "VLOUSDT": {
+    "exchange": "perp",
+    "base": "valero-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/VLO-USDT"
+  },
+  "VSTUSDT": {
+    "exchange": "perp",
+    "base": "vistra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/VST-USDT"
+  },
+  "VTHOUSDT": {
+    "exchange": "perp",
+    "base": "vethor-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/VTHO-USDT"
+  },
+  "VUSDT": {
+    "exchange": "perp",
+    "base": "visa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/V-USDT"
+  },
+  "VVVUSDT": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/VVV-USDT"
+  },
+  "VZUSDT": {
+    "exchange": "perp",
+    "base": "verizon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/VZ-USDT"
+  },
+  "WALUSDT": {
+    "exchange": "perp",
+    "base": "walrus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WAL-USDT"
+  },
+  "WAVESUSDT": {
+    "exchange": "perp",
+    "base": "waves",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WAVES-USDT"
+  },
+  "WAXPUSDT": {
+    "exchange": "perp",
+    "base": "wax",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WAXP-USDT"
+  },
+  "WCTUSDT": {
+    "exchange": "perp",
+    "base": "walletconnect",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WCT-USDT"
+  },
+  "WDCUSDT": {
+    "exchange": "perp",
+    "base": "western-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WDC-USDT"
+  },
+  "WENUSDT": {
+    "exchange": "perp",
+    "base": "wendys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WEN-USDT"
+  },
+  "WETUSDT": {
+    "exchange": "perp",
+    "base": "humidifi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WET-USDT"
+  },
+  "WIFUSDT": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WIF-USDT"
+  },
+  "WLDUSDT": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WLD-USDT"
+  },
+  "WLFIUSDT": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WLFI-USDT"
+  },
+  "WMBUSDT": {
+    "exchange": "perp",
+    "base": "williams-companies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WMB-USDT"
+  },
+  "WMTUSDT": {
+    "exchange": "perp",
+    "base": "walmart",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WMT-USDT"
+  },
+  "WOOUSDT": {
+    "exchange": "perp",
+    "base": "woo-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/WOO-USDT"
+  },
+  "WUSDT": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/W-USDT"
+  },
+  "XAGUSDT": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XAG-USDT"
+  },
+  "XAIUSDT": {
+    "exchange": "perp",
+    "base": "xai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XAI-USDT"
+  },
+  "XANUSDT": {
+    "exchange": "perp",
+    "base": "anoma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XAN-USDT"
+  },
+  "XAUTUSDT": {
+    "exchange": "perp",
+    "base": "tether-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XAUT-USDT"
+  },
+  "XAUUSDT": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XAU-USDT"
+  },
+  "XBIUSDT": {
+    "exchange": "perp",
+    "base": "spdr-sp-biotech-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XBI-USDT"
+  },
+  "XCUUSDT": {
+    "exchange": "perp",
+    "base": "copper",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XCU-USDT"
+  },
+  "XDPUSDT": {
+    "exchange": "perp",
+    "base": "doppler-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XDP-USDT"
+  },
+  "XECUSDT": {
+    "exchange": "perp",
+    "base": "ecash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XEC-USDT"
+  },
+  "XLEUSDT": {
+    "exchange": "perp",
+    "base": "energy-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XLE-USDT"
+  },
+  "XLKUSDT": {
+    "exchange": "perp",
+    "base": "technology-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XLK-USDT"
+  },
+  "XLMUSDT": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XLM-USDT"
+  },
+  "XMRUSDT": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XMR-USDT"
+  },
+  "XNYUSDT": {
+    "exchange": "perp",
+    "base": "codatta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XNY-USDT"
+  },
+  "XOMUSDT": {
+    "exchange": "perp",
+    "base": "exxon-mobil",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XOM-USDT"
+  },
+  "XPDUSDT": {
+    "exchange": "perp",
+    "base": "palladium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XPD-USDT"
+  },
+  "XPINUSDT": {
+    "exchange": "perp",
+    "base": "xpin-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XPIN-USDT"
+  },
+  "XPLUSDT": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XPL-USDT"
+  },
+  "XPTUSDT": {
+    "exchange": "perp",
+    "base": "platinum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XPT-USDT"
+  },
+  "XRPUSDT": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XRP-USDT"
+  },
+  "XTZUSDT": {
+    "exchange": "perp",
+    "base": "tezos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/XTZ-USDT"
+  },
+  "YBUSDT": {
+    "exchange": "perp",
+    "base": "yield-basis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/YB-USDT"
+  },
+  "YFIUSDT": {
+    "exchange": "perp",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/YFI-USDT"
+  },
+  "YGGUSDT": {
+    "exchange": "perp",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/YGG-USDT"
+  },
+  "ZAMAUSDT": {
+    "exchange": "perp",
+    "base": "zama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZAMA-USDT"
+  },
+  "ZBTUSDT": {
+    "exchange": "perp",
+    "base": "zerobase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZBT-USDT"
+  },
+  "ZCSHUSDT": {
+    "exchange": "perp",
+    "base": "grayscale-zcash-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZCSH-USDT"
+  },
+  "ZECUSDT": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZEC-USDT"
+  },
+  "ZENUSDT": {
+    "exchange": "perp",
+    "base": "horizen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZEN-USDT"
+  },
+  "ZEREBROUSDT": {
+    "exchange": "perp",
+    "base": "zerebro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZEREBRO-USDT"
+  },
+  "ZESTUSDT": {
+    "exchange": "perp",
+    "base": "zest-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZEST-USDT"
+  },
+  "ZETAUSDT": {
+    "exchange": "perp",
+    "base": "zetachain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZETA-USDT"
+  },
+  "ZIGUSDT": {
+    "exchange": "perp",
+    "base": "zignaly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZIG-USDT"
+  },
+  "ZILUSDT": {
+    "exchange": "perp",
+    "base": "zilliqa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZIL-USDT"
+  },
+  "ZKCUSDT": {
+    "exchange": "perp",
+    "base": "boundless",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZKC-USDT"
+  },
+  "ZKPUSDT": {
+    "exchange": "perp",
+    "base": "zkpass",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZKP-USDT"
+  },
+  "ZKUSDT": {
+    "exchange": "perp",
+    "base": "zksync",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZK-USDT"
+  },
+  "ZMUSDT": {
+    "exchange": "perp",
+    "base": "zoom-communications",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZM-USDT"
+  },
+  "ZORAUSDT": {
+    "exchange": "perp",
+    "base": "zora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZORA-USDT"
+  },
+  "ZROUSDT": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZRO-USDT"
+  },
+  "ZRXUSDT": {
+    "exchange": "perp",
+    "base": "0x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZRX-USDT"
+  },
+  "ZSUSDT": {
+    "exchange": "perp",
+    "base": "zscaler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/ZS-USDT"
+  }
+}
