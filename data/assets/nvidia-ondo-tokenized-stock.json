@@ -1,0 +1,23 @@
+{
+  "id": "nvidia-ondo-tokenized-stock",
+  "display_name": "NVIDIA (Ondo Tokenized)",
+  "symbol": "NVDAon",
+  "category": "rwa",
+  "about": {
+    "en": "NVIDIA (Ondo Tokenized) (NVDAon) is an Ondo tokenized stock issued by Ondo Global Markets (BVI) Limited through the Ondo Stocks platform, giving eligible non-US holders economic exposure to NVIDIA Corporation shares (NVDA). It is fully backed by the underlying security and is a total return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above the underlying's. It is an ERC-20 on Ethereum at 0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee, with deployments on BNB Chain and Solana. Holders have a claim on the issuer, not registered ownership or shareholder rights."
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/nvdaon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "nvidia-ondo-tokenized-stock",
+    "coinmarketcap": "38093"
+  },
+  "pegged_to": {
+    "asset": "nvidia"
+  }
+}
