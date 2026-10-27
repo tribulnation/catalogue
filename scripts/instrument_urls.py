@@ -147,8 +147,10 @@ SPOT_RULES: dict[str, Rule] = {
   'deribit': lambda id, inst, sym: f'https://www.deribit.com/spot/{id}',
   'binance': lambda id, inst, sym: 'https://www.binance.com/en/trade/{}_{}'.format(*sym.split('binance', id, inst)),
   'bitget': lambda id, inst, sym: f'https://www.bitget.com/spot/{id}',
+  'bitvavo': lambda id, inst, sym: f'https://account.bitvavo.com/markets/{id}',
   'bybit': lambda id, inst, sym: 'https://www.bybit.com/en/trade/spot/{}/{}'.format(*sym.split('bybit', id, inst)),
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/spot/{id}',
+  'gemini': lambda id, inst, sym: f'https://exchange.gemini.com/trade/{id.upper()}',
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{_HYPERLIQUID_SPOT_INDEX.sub("", id)}',
   'kraken': lambda id, inst, sym: 'https://pro.kraken.com/app/trade/{}-{}'.format(
     *(_kraken_symbol(s) for s in sym.split('kraken', id, inst))
@@ -160,6 +162,7 @@ SPOT_RULES: dict[str, Rule] = {
   'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: 'https://www.mexc.com/exchange/{}_{}'.format(*sym.split('mexc', id, inst)),
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-spot/{id.lower()}',
+  'upbit': lambda id, inst, sym: f'https://upbit.com/exchange?code=CRIX.UPBIT.{id}',
 }
 
 PERPETUAL_RULES: dict[str, Rule] = {
