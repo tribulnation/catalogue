@@ -3163,5 +3163,40 @@
     "quote": "tether",
     "settlement": "usd-coin",
     "delisted": true
+  },
+  "xyz:JIO": {
+    "exchange": "xyz",
+    "base": "jio-platforms",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/xyz:JIO"
+  },
+  "io:XIAOMI": {
+    "exchange": "io",
+    "base": "xiaomi",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/io:XIAOMI"
+  },
+  "xyz:TTWO": {
+    "exchange": "xyz",
+    "base": "take-two-interactive",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "io:NVDA": {
+    "exchange": "io",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "io:SKHX": {
+    "exchange": "io",
+    "base": "sk-hynix",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
   }
 }

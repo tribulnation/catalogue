@@ -1558,5 +1558,12 @@
     "quote": "south-korean-won",
     "settlement": "usd-coin",
     "delisted": true
+  },
+  "4099": {
+    "exchange": "perp",
+    "base": "derive",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/DRV"
   }
 }

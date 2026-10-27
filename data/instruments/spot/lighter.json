@@ -52,5 +52,11 @@
     "base": "tether-gold",
     "quote": "usd-coin",
     "url": "https://app.lighter.xyz/trade/XAUT_USDC"
+  },
+  "4510": {
+    "exchange": "spot",
+    "base": "wrapped-eeth",
+    "quote": "usd-coin",
+    "url": "https://app.lighter.xyz/trade/weETH_USDC"
   }
 }

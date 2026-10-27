@@ -3689,5 +3689,145 @@
     "quote": "usd1",
     "settlement": "usd1",
     "url": "https://www.asterdex.com/en/trade/pro/futures/ACNUSD1"
+  },
+  "BATUSDT": {
+    "exchange": "perp",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/BATUSDT"
+  },
+  "BZUSD1": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/BZUSD1"
+  },
+  "QQQUSD1": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/QQQUSD1"
+  },
+  "RSRUSDT": {
+    "exchange": "perp",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/RSRUSDT"
+  },
+  "SOXLUSD1": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/SOXLUSD1"
+  },
+  "SQQQUSD1": {
+    "exchange": "perp",
+    "base": "proshares-ultrapro-short-qqq",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/SQQQUSD1"
+  },
+  "WUSDT": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/WUSDT"
+  },
+  "XAGUSD1": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/XAGUSD1"
+  },
+  "CRCLUSD1": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/CRCLUSD1"
+  },
+  "KORUUSD1": {
+    "exchange": "perp",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/KORUUSD1"
+  },
+  "NVDAUSD1": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/NVDAUSD1"
+  },
+  "WALUSDT": {
+    "exchange": "perp",
+    "base": "walrus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/WALUSDT"
+  },
+  "DNAUSDT": {
+    "exchange": "perp",
+    "base": "neosoul",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/DNAUSDT"
+  },
+  "ANTHROPICUSD1": {
+    "exchange": "perp",
+    "base": "anthropic",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ANTHROPICUSD1"
+  },
+  "OPENAIUSD1": {
+    "exchange": "perp",
+    "base": "openai",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/OPENAIUSD1"
+  },
+  "AXISUSDT": {
+    "exchange": "perp",
+    "base": "axis-robotics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/AXISUSDT"
+  },
+  "BTCUSDC": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/BTCUSDC"
+  },
+  "ETHUSDC": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ETHUSDC"
+  },
+  "IOSTUSDT": {
+    "exchange": "perp",
+    "base": "iost",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/IOSTUSDT"
+  },
+  "SOLUSDC": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/SOLUSDC"
   }
 }

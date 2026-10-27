@@ -318,8 +318,8 @@
     "base": "bitcoin-cash",
     "quote": "usd-coin",
     "settlement": "usd-coin",
-    "url": "https://www.mexc.com/futures/BCH_USDC",
-    "exchange": "perp"
+    "exchange": "perp",
+    "delisted": true
   },
   "BCH_USDT": {
     "base": "bitcoin-cash",
@@ -669,7 +669,7 @@
     "base": "honeywell-aerospace",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/HONASTOCK_USDT"
+    "delisted": true
   },
   "KOKUSAISTOCK_USDT": {
     "exchange": "perp",
@@ -781,7 +781,7 @@
     "quote": "tether",
     "settlement": "tether",
     "exchange": "perp",
-    "url": "https://www.mexc.com/futures/OTC_USDT"
+    "delisted": true
   },
   "TLT_USDT": {
     "base": "ishares-20-year-treasury-bond-etf",
@@ -935,7 +935,7 @@
     "base": "dte-energy",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/DTESTOCK_USDT"
+    "delisted": true
   },
   "ELITEMATSTOCK_USDT": {
     "exchange": "perp",
@@ -1377,5 +1377,19 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/NXPISTOCK_USDT"
+  },
+  "AXIS_USDT": {
+    "exchange": "perp",
+    "base": "axis-robotics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AXIS_USDT"
+  },
+  "GTC_USDT": {
+    "exchange": "perp",
+    "base": "gitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/GTC_USDT"
   }
 }

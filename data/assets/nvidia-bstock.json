@@ -1,0 +1,22 @@
+{
+  "id": "nvidia-bstock",
+  "display_name": "NVIDIA bStock",
+  "symbol": "NVDAB",
+  "category": "rwa",
+  "about": {
+    "en": "NVIDIA bStock (NVDAB) is a tokenized share of NVIDIA Corporation issued by BTECH Holdings Ltd, a special purpose vehicle registered in the Abu Dhabi Global Market (ADGM), under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0x02fca66c1d1afb4e2a7884261eb00f63598a7436, backed 1:1 by NVDA shares held in segregated custody. Holders have a claim on the issuer, not registered ownership of the shares."
+  },
+  "pegged_to": {
+    "asset": "nvidia"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  },
+  "external": {
+    "coingecko": "nvidia-bstocks",
+    "coinmarketcap": "40215"
+  }
+}
