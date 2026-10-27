@@ -1,0 +1,438 @@
+{
+  "AAVE-USD-PERP": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/AAVE-USD-PERP"
+  },
+  "ADA-USD-PERP": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/ADA-USD-PERP"
+  },
+  "AERO-USD-PERP": {
+    "exchange": "perp",
+    "base": "aerodrome",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/AERO-USD-PERP"
+  },
+  "AVAX-USD-PERP": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/AVAX-USD-PERP"
+  },
+  "BNB-USD-PERP": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/BNB-USD-PERP"
+  },
+  "BTC-USD-PERP": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/BTC-USD-PERP"
+  },
+  "BZ-USD-PERP": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/BZ-USD-PERP"
+  },
+  "CC-USD-PERP": {
+    "exchange": "perp",
+    "base": "canton",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/CC-USD-PERP"
+  },
+  "CL-USD-PERP": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/CL-USD-PERP"
+  },
+  "DOGE-USD-PERP": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/DOGE-USD-PERP"
+  },
+  "DRAM-USD-PERP": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/DRAM-USD-PERP"
+  },
+  "ENA-USD-PERP": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/ENA-USD-PERP"
+  },
+  "ETH-USD-PERP": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/ETH-USD-PERP"
+  },
+  "ETHFI-USD-PERP": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/ETHFI-USD-PERP"
+  },
+  "EWY-USD-PERP": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/EWY-USD-PERP"
+  },
+  "GOOGL-USD-PERP": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/GOOGL-USD-PERP"
+  },
+  "HYPE-USD-PERP": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/HYPE-USD-PERP"
+  },
+  "INTC-USD-PERP": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/INTC-USD-PERP"
+  },
+  "JTO-USD-PERP": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/JTO-USD-PERP"
+  },
+  "JUP-USD-PERP": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/JUP-USD-PERP"
+  },
+  "KAITO-USD-PERP": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/KAITO-USD-PERP"
+  },
+  "LDO-USD-PERP": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/LDO-USD-PERP"
+  },
+  "LINK-USD-PERP": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/LINK-USD-PERP"
+  },
+  "LIT-USD-PERP": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/LIT-USD-PERP"
+  },
+  "LTC-USD-PERP": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/LTC-USD-PERP"
+  },
+  "META-USD-PERP": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/META-USD-PERP"
+  },
+  "MON-USD-PERP": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/MON-USD-PERP"
+  },
+  "MORPHO-USD-PERP": {
+    "exchange": "perp",
+    "base": "morpho",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/MORPHO-USD-PERP"
+  },
+  "MRVL-USD-PERP": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/MRVL-USD-PERP"
+  },
+  "MSFT-USD-PERP": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/MSFT-USD-PERP"
+  },
+  "MSTR-USD-PERP": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/MSTR-USD-PERP"
+  },
+  "MU-USD-PERP": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/MU-USD-PERP"
+  },
+  "NEAR-USD-PERP": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/NEAR-USD-PERP"
+  },
+  "NG-USD-PERP": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/NG-USD-PERP"
+  },
+  "NVDA-USD-PERP": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/NVDA-USD-PERP"
+  },
+  "ONDO-USD-PERP": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/ONDO-USD-PERP"
+  },
+  "PAXG-USD-PERP": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/PAXG-USD-PERP"
+  },
+  "PENDLE-USD-PERP": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/PENDLE-USD-PERP"
+  },
+  "PUMP-USD-PERP": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/PUMP-USD-PERP"
+  },
+  "PYTH-USD-PERP": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/PYTH-USD-PERP"
+  },
+  "SNDK-USD-PERP": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/SNDK-USD-PERP"
+  },
+  "SOL-USD-PERP": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/SOL-USD-PERP"
+  },
+  "SPCX-USD-PERP": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/SPCX-USD-PERP"
+  },
+  "STRK-USD-PERP": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/STRK-USD-PERP"
+  },
+  "SUI-USD-PERP": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/SUI-USD-PERP"
+  },
+  "TAO-USD-PERP": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/TAO-USD-PERP"
+  },
+  "TRUMP-USD-PERP": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/TRUMP-USD-PERP"
+  },
+  "TRX-USD-PERP": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/TRX-USD-PERP"
+  },
+  "TSLA-USD-PERP": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/TSLA-USD-PERP"
+  },
+  "UNI-USD-PERP": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/UNI-USD-PERP"
+  },
+  "VVV-USD-PERP": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/VVV-USD-PERP"
+  },
+  "WLFI-USD-PERP": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/WLFI-USD-PERP"
+  },
+  "XAG-USD-PERP": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/XAG-USD-PERP"
+  },
+  "XAU-USD-PERP": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/XAU-USD-PERP"
+  },
+  "XCU-USD-PERP": {
+    "exchange": "perp",
+    "base": "copper",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/XCU-USD-PERP"
+  },
+  "XMR-USD-PERP": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/XMR-USD-PERP"
+  },
+  "XPL-USD-PERP": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/XPL-USD-PERP"
+  },
+  "XPT-USD-PERP": {
+    "exchange": "perp",
+    "base": "platinum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/XPT-USD-PERP"
+  },
+  "XRP-USD-PERP": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/XRP-USD-PERP"
+  },
+  "ZEC-USD-PERP": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/ZEC-USD-PERP"
+  },
+  "kPEPE-USD-PERP": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://app.paradex.trade/trade/kPEPE-USD-PERP"
+  },
+  "kSHIB-USD-PERP": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://app.paradex.trade/trade/kSHIB-USD-PERP"
+  }
+}

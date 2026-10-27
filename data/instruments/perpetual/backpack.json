@@ -1,0 +1,642 @@
+{
+  "0G_USDC_PERP": {
+    "exchange": "perp",
+    "base": "zero-gravity",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/0G_USD_PERP"
+  },
+  "2Z_USDC_PERP": {
+    "exchange": "perp",
+    "base": "doublezero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/2Z_USD_PERP"
+  },
+  "AAPL.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/AAPL.US_USD_PERP"
+  },
+  "AAVE_USDC_PERP": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/AAVE_USD_PERP"
+  },
+  "ADA_USDC_PERP": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/ADA_USD_PERP"
+  },
+  "AERO_USDC_PERP": {
+    "exchange": "perp",
+    "base": "aerodrome",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/AERO_USD_PERP"
+  },
+  "AMD.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/AMD.US_USD_PERP"
+  },
+  "AMZN.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/AMZN.US_USD_PERP"
+  },
+  "APT_USDC_PERP": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/APT_USD_PERP"
+  },
+  "ARB_USDC_PERP": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/ARB_USD_PERP"
+  },
+  "ASTER_USDC_PERP": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/ASTER_USD_PERP"
+  },
+  "AVAX_USDC_PERP": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/AVAX_USD_PERP"
+  },
+  "AVNT_USDC_PERP": {
+    "exchange": "perp",
+    "base": "avantis",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/AVNT_USD_PERP"
+  },
+  "BERA_USDC_PERP": {
+    "exchange": "perp",
+    "base": "berachain",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/BERA_USD_PERP"
+  },
+  "BILL_USDC_PERP": {
+    "exchange": "perp",
+    "base": "billions-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/BILL_USD_PERP"
+  },
+  "BNB_USDC_PERP": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/BNB_USD_PERP"
+  },
+  "BTC_USDC_PERP": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/BTC_USD_PERP"
+  },
+  "CC_USDC_PERP": {
+    "exchange": "perp",
+    "base": "canton",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/CC_USD_PERP"
+  },
+  "CHIP_USDC_PERP": {
+    "exchange": "perp",
+    "base": "usd-ai",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/CHIP_USD_PERP"
+  },
+  "CRCL.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/CRCL.US_USD_PERP"
+  },
+  "CRV_USDC_PERP": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/CRV_USD_PERP"
+  },
+  "DOGE_USDC_PERP": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/DOGE_USD_PERP"
+  },
+  "DOT_USDC_PERP": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/DOT_USD_PERP"
+  },
+  "DRAM.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/DRAM.US_USD_PERP"
+  },
+  "EDGE_USDC_PERP": {
+    "exchange": "perp",
+    "base": "edgex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/EDGE_USD_PERP"
+  },
+  "ENA_USDC_PERP": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/ENA_USD_PERP"
+  },
+  "ETH_USDC_PERP": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/ETH_USD_PERP"
+  },
+  "FARTCOIN_USDC_PERP": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/FARTCOIN_USD_PERP"
+  },
+  "GOOGL.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/GOOGL.US_USD_PERP"
+  },
+  "HBAR_USDC_PERP": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/HBAR_USD_PERP"
+  },
+  "HOOD.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/HOOD.US_USD_PERP"
+  },
+  "HYPE_USDC_PERP": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/HYPE_USD_PERP"
+  },
+  "INTC.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/INTC.US_USD_PERP"
+  },
+  "JTO_USDC_PERP": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/JTO_USD_PERP"
+  },
+  "JUP_USDC_PERP": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/JUP_USD_PERP"
+  },
+  "KAITO_USDC_PERP": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/KAITO_USD_PERP"
+  },
+  "KMNO_USDC_PERP": {
+    "exchange": "perp",
+    "base": "kamino",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/KMNO_USD_PERP"
+  },
+  "LDO_USDC_PERP": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/LDO_USD_PERP"
+  },
+  "LINEA_USDC_PERP": {
+    "exchange": "perp",
+    "base": "linea",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/LINEA_USD_PERP"
+  },
+  "LINK_USDC_PERP": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/LINK_USD_PERP"
+  },
+  "LIT_USDC_PERP": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/LIT_USD_PERP"
+  },
+  "LTC_USDC_PERP": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/LTC_USD_PERP"
+  },
+  "MEGA_USDC_PERP": {
+    "exchange": "perp",
+    "base": "megaeth",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/MEGA_USD_PERP"
+  },
+  "META.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/META.US_USD_PERP"
+  },
+  "MET_USDC_PERP": {
+    "exchange": "perp",
+    "base": "meteora",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/MET_USD_PERP"
+  },
+  "MNT_USDC_PERP": {
+    "exchange": "perp",
+    "base": "mantle",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/MNT_USD_PERP"
+  },
+  "MON_USDC_PERP": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/MON_USD_PERP"
+  },
+  "MSFT.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/MSFT.US_USD_PERP"
+  },
+  "MU.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/MU.US_USD_PERP"
+  },
+  "NEAR_USDC_PERP": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/NEAR_USD_PERP"
+  },
+  "NVDA.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/NVDA.US_USD_PERP"
+  },
+  "ONDO_USDC_PERP": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/ONDO_USD_PERP"
+  },
+  "OP_USDC_PERP": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/OP_USD_PERP"
+  },
+  "PAXG_USDC_PERP": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/PAXG_USD_PERP"
+  },
+  "PENDLE_USDC_PERP": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/PENDLE_USD_PERP"
+  },
+  "PENGU_USDC_PERP": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/PENGU_USD_PERP"
+  },
+  "PUMP_USDC_PERP": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/PUMP_USD_PERP"
+  },
+  "PYTH_USDC_PERP": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/PYTH_USD_PERP"
+  },
+  "QQQ.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/QQQ.US_USD_PERP"
+  },
+  "SEI_USDC_PERP": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/SEI_USD_PERP"
+  },
+  "SKHY.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "sk-hynix-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/SKHY.US_USD_PERP"
+  },
+  "SKR_USDC_PERP": {
+    "exchange": "perp",
+    "base": "seeker",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/SKR_USD_PERP"
+  },
+  "SNDK.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/SNDK.US_USD_PERP"
+  },
+  "SOL_USDC_PERP": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/SOL_USD_PERP"
+  },
+  "SPCX.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/SPCX.US_USD_PERP"
+  },
+  "SPY.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/SPY.US_USD_PERP"
+  },
+  "STRK_USDC_PERP": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/STRK_USD_PERP"
+  },
+  "SUI_USDC_PERP": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/SUI_USD_PERP"
+  },
+  "S_USDC_PERP": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/S_USD_PERP"
+  },
+  "TAO_USDC_PERP": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/TAO_USD_PERP"
+  },
+  "TIA_USDC_PERP": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/TIA_USD_PERP"
+  },
+  "TRUMP_USDC_PERP": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/TRUMP_USD_PERP"
+  },
+  "TRX_USDC_PERP": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/TRX_USD_PERP"
+  },
+  "TSLA.US_USDC_PERP": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/TSLA.US_USD_PERP"
+  },
+  "UNI_USDC_PERP": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/UNI_USD_PERP"
+  },
+  "VIRTUAL_USDC_PERP": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/VIRTUAL_USD_PERP"
+  },
+  "VVV_USDC_PERP": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/VVV_USD_PERP"
+  },
+  "WIF_USDC_PERP": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/WIF_USD_PERP"
+  },
+  "WLD_USDC_PERP": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/WLD_USD_PERP"
+  },
+  "WLFI_USDC_PERP": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/WLFI_USD_PERP"
+  },
+  "W_USDC_PERP": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/W_USD_PERP"
+  },
+  "XLM_USDC_PERP": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/XLM_USD_PERP"
+  },
+  "XMR_USDC_PERP": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/XMR_USD_PERP"
+  },
+  "XPL_USDC_PERP": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/XPL_USD_PERP"
+  },
+  "XRP_USDC_PERP": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/XRP_USD_PERP"
+  },
+  "ZEC_USDC_PERP": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/ZEC_USD_PERP"
+  },
+  "ZORA_USDC_PERP": {
+    "exchange": "perp",
+    "base": "zora",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/ZORA_USD_PERP"
+  },
+  "ZRO_USDC_PERP": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://backpack.exchange/trade/ZRO_USD_PERP"
+  },
+  "kBONK_USDC_PERP": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://backpack.exchange/trade/kBONK_USD_PERP"
+  },
+  "kPEPE_USDC_PERP": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://backpack.exchange/trade/kPEPE_USD_PERP"
+  },
+  "kSHIB_USDC_PERP": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://backpack.exchange/trade/kSHIB_USD_PERP"
+  }
+}

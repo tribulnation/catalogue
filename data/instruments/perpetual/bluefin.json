@@ -1,0 +1,58 @@
+{
+  "BTC-PERP": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://trade.bluefin.io/pro/BTC-PERP"
+  },
+  "DEEP-PERP": {
+    "exchange": "perp",
+    "base": "deep",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://trade.bluefin.io/pro/DEEP-PERP"
+  },
+  "ETH-PERP": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://trade.bluefin.io/pro/ETH-PERP"
+  },
+  "GOLD-PERP": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://trade.bluefin.io/pro/GOLD-PERP"
+  },
+  "HYPE-PERP": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://trade.bluefin.io/pro/HYPE-PERP"
+  },
+  "SOL-PERP": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://trade.bluefin.io/pro/SOL-PERP"
+  },
+  "SUI-PERP": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://trade.bluefin.io/pro/SUI-PERP"
+  },
+  "WAL-PERP": {
+    "exchange": "perp",
+    "base": "walrus",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://trade.bluefin.io/pro/WAL-PERP"
+  }
+}

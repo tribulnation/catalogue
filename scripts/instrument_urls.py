@@ -144,7 +144,9 @@ Rule = Callable[[str, Instrument, Symbols], str | None]
 
 SPOT_RULES: dict[str, Rule] = {
   'aster': lambda id, inst, sym: f'https://www.asterdex.com/en/trade/pro/spot/{id}',
+  'backpack': lambda id, inst, sym: 'https://backpack.exchange/trade/' + id.replace('_USDC', '_USD'),
   'deribit': lambda id, inst, sym: f'https://www.deribit.com/spot/{id}',
+  'derive': lambda id, inst, sym: f'https://app.derive.xyz/trade/spot?symbol={id}',
   'binance': lambda id, inst, sym: 'https://www.binance.com/en/trade/{}_{}'.format(*sym.split('binance', id, inst)),
   'bitget': lambda id, inst, sym: f'https://www.bitget.com/spot/{id}',
   'bybit': lambda id, inst, sym: 'https://www.bybit.com/en/trade/spot/{}/{}'.format(*sym.split('bybit', id, inst)),
@@ -163,13 +165,18 @@ SPOT_RULES: dict[str, Rule] = {
 }
 
 PERPETUAL_RULES: dict[str, Rule] = {
+  'aevo': lambda id, inst, sym: 'https://app.aevo.xyz/perpetual/' + id.removesuffix('-PERP').lower(),
+  'apex': lambda id, inst, sym: f'https://omni.apex.exchange/trade/{id}',
   'aster': lambda id, inst, sym: f'https://www.asterdex.com/en/trade/pro/futures/{id}',
+  'backpack': lambda id, inst, sym: 'https://backpack.exchange/trade/' + id.replace('_USDC', '_USD'),
+  'bluefin': lambda id, inst, sym: f'https://trade.bluefin.io/pro/{id}',
   'deribit': lambda id, inst, sym: f'https://www.deribit.com/futures/{id}',
   'binance': lambda id, inst, sym: f'https://www.binance.com/en/futures/{id}',
   'bitget': bitget_perpetual_url,
   'bybit': lambda id, inst, sym: f'https://www.bybit.com/trade/usdt/{id}',
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/perpetuals/{id}',
   'dydx': lambda id, inst, sym: f'https://dydx.trade/trade/{id}',
+  'edgex': lambda id, inst, sym: f'https://pro.edgex.exchange/en-US/perpetuals/{id}',
   'extended': lambda id, inst, sym: f'https://app.extended.exchange/trade/{id}',
   'grvt': lambda id, inst, sym: 'https://grvt.io/exchange/perpetual/' + id.removesuffix('_Perp').replace('_', '-'),
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{id}',
@@ -179,6 +186,8 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: f'https://www.mexc.com/futures/{id}',
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-swap/{id.lower()}',
+  'paradex': lambda id, inst, sym: f'https://app.paradex.trade/trade/{id}',
+  'variational': lambda id, inst, sym: 'https://omni.variational.io/perpetual/' + id.removesuffix('-PERP'),
 }
 
 RULES = {'spot': SPOT_RULES, 'perpetual': PERPETUAL_RULES}
