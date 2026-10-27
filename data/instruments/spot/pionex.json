@@ -1,0 +1,1328 @@
+{
+  "1INCH_USDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/1INCH_USDT/Bot"
+  },
+  "AAPLX_USDT": {
+    "exchange": "spot",
+    "base": "apple-xstock",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AAPLX_USDT/Bot"
+  },
+  "AAVE_ETH": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "ethereum",
+    "url": "https://www.pionex.com/en/trade/AAVE_ETH/Bot"
+  },
+  "AAVE_USDT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AAVE_USDT/Bot"
+  },
+  "ACE_USDT": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ACE_USDT/Bot"
+  },
+  "ACH_USDT": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ACH_USDT/Bot"
+  },
+  "ADA_BTC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "bitcoin",
+    "url": "https://www.pionex.com/en/trade/ADA_BTC/Bot"
+  },
+  "ADA_ETH": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "ethereum",
+    "url": "https://www.pionex.com/en/trade/ADA_ETH/Bot"
+  },
+  "ADA_USDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ADA_USDT/Bot"
+  },
+  "AEVO_USDT": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AEVO_USDT/Bot"
+  },
+  "AGLD_USDT": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AGLD_USDT/Bot"
+  },
+  "ALGO_USDT": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ALGO_USDT/Bot"
+  },
+  "ALICE_USDT": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ALICE_USDT/Bot"
+  },
+  "ALT_USDT": {
+    "exchange": "spot",
+    "base": "altlayer",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ALT_USDT/Bot"
+  },
+  "AMZNX_USDT": {
+    "exchange": "spot",
+    "base": "amazon-xstock",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AMZNX_USDT/Bot"
+  },
+  "APE_USDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/APE_USDT/Bot"
+  },
+  "API3_USDT": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/API3_USDT/Bot"
+  },
+  "APT_USDT": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/APT_USDT/Bot"
+  },
+  "ARB_USDT": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ARB_USDT/Bot"
+  },
+  "ARKM_USDT": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ARKM_USDT/Bot"
+  },
+  "ARPA_USDT": {
+    "exchange": "spot",
+    "base": "arpa-chain",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ARPA_USDT/Bot"
+  },
+  "AR_USDT": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AR_USDT/Bot"
+  },
+  "ASTER_USDT": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ASTER_USDT/Bot"
+  },
+  "ASTR_USDT": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ASTR_USDT/Bot"
+  },
+  "ATOM_USDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ATOM_USDT/Bot"
+  },
+  "AUCTION_USDT": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AUCTION_USDT/Bot"
+  },
+  "AUDIO_USDT": {
+    "exchange": "spot",
+    "base": "audius",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AUDIO_USDT/Bot"
+  },
+  "AVAX_USDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AVAX_USDT/Bot"
+  },
+  "AVA_USDT": {
+    "exchange": "spot",
+    "base": "travala",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AVA_USDT/Bot"
+  },
+  "AXL_USDT": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AXL_USDT/Bot"
+  },
+  "AXS_USDT": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/AXS_USDT/Bot"
+  },
+  "A_USDT": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/A_USDT/Bot"
+  },
+  "BAT_USDT": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BAT_USDT/Bot"
+  },
+  "BB_USDT": {
+    "exchange": "spot",
+    "base": "bouncebit",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BB_USDT/Bot"
+  },
+  "BCH_BTC": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "bitcoin",
+    "url": "https://www.pionex.com/en/trade/BCH_BTC/Bot"
+  },
+  "BCH_USDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BCH_USDT/Bot"
+  },
+  "BEL_USDT": {
+    "exchange": "spot",
+    "base": "bella-protocol",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BEL_USDT/Bot"
+  },
+  "BICO_USDT": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BICO_USDT/Bot"
+  },
+  "BLUR_USDT": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BLUR_USDT/Bot"
+  },
+  "BNB_BTC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "bitcoin",
+    "url": "https://www.pionex.com/en/trade/BNB_BTC/Bot"
+  },
+  "BNB_ETH": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "ethereum",
+    "url": "https://www.pionex.com/en/trade/BNB_ETH/Bot"
+  },
+  "BNB_USDT": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BNB_USDT/Bot"
+  },
+  "BNT_USDT": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BNT_USDT/Bot"
+  },
+  "BOME_USDT": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BOME_USDT/Bot"
+  },
+  "BONK_USDT": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BONK_USDT/Bot"
+  },
+  "BTC_USDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://www.pionex.com/en/trade/BTC_USDC/Bot"
+  },
+  "BTC_USDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BTC_USDT/Bot"
+  },
+  "C98_USDT": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/C98_USDT/Bot"
+  },
+  "CAKE_USDT": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CAKE_USDT/Bot"
+  },
+  "CELR_USDT": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CELR_USDT/Bot"
+  },
+  "CHR_USDT": {
+    "exchange": "spot",
+    "base": "chromaway",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CHR_USDT/Bot"
+  },
+  "CHZ_USDT": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CHZ_USDT/Bot"
+  },
+  "CKB_USDT": {
+    "exchange": "spot",
+    "base": "nervos-network",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CKB_USDT/Bot"
+  },
+  "COMP_USDT": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/COMP_USDT/Bot"
+  },
+  "CORE_USDT": {
+    "exchange": "spot",
+    "base": "core",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CORE_USDT/Bot"
+  },
+  "COTI_USDT": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/COTI_USDT/Bot"
+  },
+  "CRCLX_USDT": {
+    "exchange": "spot",
+    "base": "circle-xstock",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CRCLX_USDT/Bot"
+  },
+  "CRO_USDT": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CRO_USDT/Bot"
+  },
+  "CRV_USDT": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CRV_USDT/Bot"
+  },
+  "CSPR_USDT": {
+    "exchange": "spot",
+    "base": "casper",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CSPR_USDT/Bot"
+  },
+  "CTSI_USDT": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CTSI_USDT/Bot"
+  },
+  "CVC_USDT": {
+    "exchange": "spot",
+    "base": "civic",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CVC_USDT/Bot"
+  },
+  "CVX_USDT": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CVX_USDT/Bot"
+  },
+  "CYBER_USDT": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CYBER_USDT/Bot"
+  },
+  "DASH_USDT": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/DASH_USDT/Bot"
+  },
+  "DCR_USDT": {
+    "exchange": "spot",
+    "base": "decred",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/DCR_USDT/Bot"
+  },
+  "DEXE_USDT": {
+    "exchange": "spot",
+    "base": "dexe",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/DEXE_USDT/Bot"
+  },
+  "DGB_USDT": {
+    "exchange": "spot",
+    "base": "digibyte",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/DGB_USDT/Bot"
+  },
+  "DIA_USDT": {
+    "exchange": "spot",
+    "base": "dia-data",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/DIA_USDT/Bot"
+  },
+  "DOGE_BTC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "bitcoin",
+    "url": "https://www.pionex.com/en/trade/DOGE_BTC/Bot"
+  },
+  "DOGE_USDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/DOGE_USDT/Bot"
+  },
+  "DOT_USDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/DOT_USDT/Bot"
+  },
+  "DUSK_USDT": {
+    "exchange": "spot",
+    "base": "dusk-network",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/DUSK_USDT/Bot"
+  },
+  "DYM_USDT": {
+    "exchange": "spot",
+    "base": "dymension",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/DYM_USDT/Bot"
+  },
+  "EDU_USDT": {
+    "exchange": "spot",
+    "base": "edu-coin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/EDU_USDT/Bot"
+  },
+  "EGLD_USDT": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/EGLD_USDT/Bot"
+  },
+  "ENA_USDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ENA_USDT/Bot"
+  },
+  "ENS_USDT": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ENS_USDT/Bot"
+  },
+  "ETC_USDT": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ETC_USDT/Bot"
+  },
+  "ETHFI_USDT": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ETHFI_USDT/Bot"
+  },
+  "ETHW_USDT": {
+    "exchange": "spot",
+    "base": "ethereum-pow",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ETHW_USDT/Bot"
+  },
+  "ETH_BTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://www.pionex.com/en/trade/ETH_BTC/Bot"
+  },
+  "ETH_USDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://www.pionex.com/en/trade/ETH_USDC/Bot"
+  },
+  "ETH_USDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ETH_USDT/Bot"
+  },
+  "EV_USDT": {
+    "exchange": "spot",
+    "base": "everything",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/EV_USDT/Bot"
+  },
+  "FET_USDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/FET_USDT/Bot"
+  },
+  "FIL_USDT": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/FIL_USDT/Bot"
+  },
+  "FLOKI_USDT": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/FLOKI_USDT/Bot"
+  },
+  "FLUX_USDT": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/FLUX_USDT/Bot"
+  },
+  "FTT_USDT": {
+    "exchange": "spot",
+    "base": "ftx-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/FTT_USDT/Bot"
+  },
+  "GALA_USDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/GALA_USDT/Bot"
+  },
+  "GLM_USDT": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/GLM_USDT/Bot"
+  },
+  "GMT_USDT": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/GMT_USDT/Bot"
+  },
+  "GMX_USDT": {
+    "exchange": "spot",
+    "base": "gmx",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/GMX_USDT/Bot"
+  },
+  "GOOGLX_USDT": {
+    "exchange": "spot",
+    "base": "alphabet-xstock",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/GOOGLX_USDT/Bot"
+  },
+  "GRT_USDT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/GRT_USDT/Bot"
+  },
+  "HBAR_USDT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/HBAR_USDT/Bot"
+  },
+  "HTX_USDT": {
+    "exchange": "spot",
+    "base": "htx-dao",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/HTX_USDT/Bot"
+  },
+  "ICP_USDT": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ICP_USDT/Bot"
+  },
+  "ID_USDT": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ID_USDT/Bot"
+  },
+  "ILV_USDT": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ILV_USDT/Bot"
+  },
+  "IMX_USDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/IMX_USDT/Bot"
+  },
+  "INJ_USDT": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/INJ_USDT/Bot"
+  },
+  "IOST_USDT": {
+    "exchange": "spot",
+    "base": "iost",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/IOST_USDT/Bot"
+  },
+  "IOTX_USDT": {
+    "exchange": "spot",
+    "base": "iotex",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/IOTX_USDT/Bot"
+  },
+  "IO_USDT": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/IO_USDT/Bot"
+  },
+  "JASMY_USDT": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/JASMY_USDT/Bot"
+  },
+  "JTO_USDT": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/JTO_USDT/Bot"
+  },
+  "JUP_USDT": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/JUP_USDT/Bot"
+  },
+  "KAS_USDT": {
+    "exchange": "spot",
+    "base": "kaspa",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/KAS_USDT/Bot"
+  },
+  "KAVA_USDT": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/KAVA_USDT/Bot"
+  },
+  "KSM_USDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/KSM_USDT/Bot"
+  },
+  "LDO_USDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/LDO_USDT/Bot"
+  },
+  "LINK_BTC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "bitcoin",
+    "url": "https://www.pionex.com/en/trade/LINK_BTC/Bot"
+  },
+  "LINK_ETH": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "ethereum",
+    "url": "https://www.pionex.com/en/trade/LINK_ETH/Bot"
+  },
+  "LINK_USDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/LINK_USDT/Bot"
+  },
+  "LPT_USDT": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/LPT_USDT/Bot"
+  },
+  "LQTY_USDT": {
+    "exchange": "spot",
+    "base": "liquity",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/LQTY_USDT/Bot"
+  },
+  "LRC_USDT": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/LRC_USDT/Bot"
+  },
+  "LSK_USDT": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/LSK_USDT/Bot"
+  },
+  "LTC_USDT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/LTC_USDT/Bot"
+  },
+  "LUNA_USDT": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/LUNA_USDT/Bot"
+  },
+  "LUNC_USDT": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/LUNC_USDT/Bot"
+  },
+  "MAGIC_USDT": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/MAGIC_USDT/Bot"
+  },
+  "MANA_USDT": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/MANA_USDT/Bot"
+  },
+  "MASK_USDT": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/MASK_USDT/Bot"
+  },
+  "MAV_USDT": {
+    "exchange": "spot",
+    "base": "maverick-protocol",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/MAV_USDT/Bot"
+  },
+  "MEME_USDT": {
+    "exchange": "spot",
+    "base": "memecoin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/MEME_USDT/Bot"
+  },
+  "METAX_USDT": {
+    "exchange": "spot",
+    "base": "meta-xstock",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/METAX_USDT/Bot"
+  },
+  "METIS_USDT": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/METIS_USDT/Bot"
+  },
+  "MEW_USDT": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/MEW_USDT/Bot"
+  },
+  "MTL_USDT": {
+    "exchange": "spot",
+    "base": "metal",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/MTL_USDT/Bot"
+  },
+  "NEAR_USDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/NEAR_USDT/Bot"
+  },
+  "NEO_USDT": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/NEO_USDT/Bot"
+  },
+  "NEXO_USDT": {
+    "exchange": "spot",
+    "base": "nexo",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/NEXO_USDT/Bot"
+  },
+  "NMR_USDT": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/NMR_USDT/Bot"
+  },
+  "NVDAX_USDT": {
+    "exchange": "spot",
+    "base": "nvidia-xstock",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/NVDAX_USDT/Bot"
+  },
+  "OGN_USDT": {
+    "exchange": "spot",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/OGN_USDT/Bot"
+  },
+  "OKB_USDT": {
+    "exchange": "spot",
+    "base": "okb",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/OKB_USDT/Bot"
+  },
+  "ONDO_USDT": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ONDO_USDT/Bot"
+  },
+  "OP_USDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/OP_USDT/Bot"
+  },
+  "ORDI_USDT": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ORDI_USDT/Bot"
+  },
+  "OSMO_USDT": {
+    "exchange": "spot",
+    "base": "osmosis",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/OSMO_USDT/Bot"
+  },
+  "PAXG_USDT": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PAXG_USDT/Bot"
+  },
+  "PENDLE_USDT": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PENDLE_USDT/Bot"
+  },
+  "PEOPLE_USDT": {
+    "exchange": "spot",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PEOPLE_USDT/Bot"
+  },
+  "PEPE_USDT": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PEPE_USDT/Bot"
+  },
+  "PHA_USDT": {
+    "exchange": "spot",
+    "base": "pha",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PHA_USDT/Bot"
+  },
+  "PIXEL_USDT": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PIXEL_USDT/Bot"
+  },
+  "POLYX_USDT": {
+    "exchange": "spot",
+    "base": "polymesh",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/POLYX_USDT/Bot"
+  },
+  "POL_USDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/POL_USDT/Bot"
+  },
+  "PORTAL_USDT": {
+    "exchange": "spot",
+    "base": "portal",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PORTAL_USDT/Bot"
+  },
+  "POWR_USDT": {
+    "exchange": "spot",
+    "base": "power-ledger",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/POWR_USDT/Bot"
+  },
+  "PROM_USDT": {
+    "exchange": "spot",
+    "base": "prometeus",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PROM_USDT/Bot"
+  },
+  "PUNDIX_USDT": {
+    "exchange": "spot",
+    "base": "pundi-x",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PUNDIX_USDT/Bot"
+  },
+  "PYTH_USDT": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PYTH_USDT/Bot"
+  },
+  "QNT_USDT": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/QNT_USDT/Bot"
+  },
+  "QTUM_USDT": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/QTUM_USDT/Bot"
+  },
+  "RARE_USDT": {
+    "exchange": "spot",
+    "base": "superrare",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/RARE_USDT/Bot"
+  },
+  "RATS_USDT": {
+    "exchange": "spot",
+    "base": "rats",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/RATS_USDT/Bot"
+  },
+  "RAY_USDT": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/RAY_USDT/Bot"
+  },
+  "REQ_USDT": {
+    "exchange": "spot",
+    "base": "request",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/REQ_USDT/Bot"
+  },
+  "RLC_USDT": {
+    "exchange": "spot",
+    "base": "iexec-rlc",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/RLC_USDT/Bot"
+  },
+  "RPL_USDT": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/RPL_USDT/Bot"
+  },
+  "RSR_USDT": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/RSR_USDT/Bot"
+  },
+  "RUNE_USDT": {
+    "exchange": "spot",
+    "base": "thorchain",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/RUNE_USDT/Bot"
+  },
+  "RVN_USDT": {
+    "exchange": "spot",
+    "base": "ravencoin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/RVN_USDT/Bot"
+  },
+  "SAGA_USDT": {
+    "exchange": "spot",
+    "base": "saga",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SAGA_USDT/Bot"
+  },
+  "SAND_USDT": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SAND_USDT/Bot"
+  },
+  "SATS_USDT": {
+    "exchange": "spot",
+    "base": "sats-ordinals",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SATS_USDT/Bot"
+  },
+  "SEI_USDT": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SEI_USDT/Bot"
+  },
+  "SHIB_USDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SHIB_USDT/Bot"
+  },
+  "SNX_USDT": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SNX_USDT/Bot"
+  },
+  "SOL_BTC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "bitcoin",
+    "url": "https://www.pionex.com/en/trade/SOL_BTC/Bot"
+  },
+  "SOL_USDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SOL_USDT/Bot"
+  },
+  "SPELL_USDT": {
+    "exchange": "spot",
+    "base": "spell-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SPELL_USDT/Bot"
+  },
+  "SSV_USDT": {
+    "exchange": "spot",
+    "base": "ssv-network",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SSV_USDT/Bot"
+  },
+  "STRAX_USDT": {
+    "exchange": "spot",
+    "base": "xertra",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/STRAX_USDT/Bot"
+  },
+  "STRK_USDT": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/STRK_USDT/Bot"
+  },
+  "STX_USDT": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/STX_USDT/Bot"
+  },
+  "SUI_USDT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SUI_USDT/Bot"
+  },
+  "SUSHI_USDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SUSHI_USDT/Bot"
+  },
+  "SYN_USDT": {
+    "exchange": "spot",
+    "base": "synapse",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SYN_USDT/Bot"
+  },
+  "TAO_USDT": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/TAO_USDT/Bot"
+  },
+  "TFUEL_USDT": {
+    "exchange": "spot",
+    "base": "theta-fuel",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/TFUEL_USDT/Bot"
+  },
+  "THETA_USDT": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/THETA_USDT/Bot"
+  },
+  "TIA_USDT": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/TIA_USDT/Bot"
+  },
+  "TLM_USDT": {
+    "exchange": "spot",
+    "base": "alien-worlds",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/TLM_USDT/Bot"
+  },
+  "TNSR_USDT": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/TNSR_USDT/Bot"
+  },
+  "TRB_USDT": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/TRB_USDT/Bot"
+  },
+  "TRX_ETH": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "ethereum",
+    "url": "https://www.pionex.com/en/trade/TRX_ETH/Bot"
+  },
+  "TRX_USDT": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/TRX_USDT/Bot"
+  },
+  "TSLAX_USDT": {
+    "exchange": "spot",
+    "base": "tesla-xstock",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/TSLAX_USDT/Bot"
+  },
+  "TURBO_USDT": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/TURBO_USDT/Bot"
+  },
+  "TWT_USDT": {
+    "exchange": "spot",
+    "base": "trust-wallet-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/TWT_USDT/Bot"
+  },
+  "UMA_USDT": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/UMA_USDT/Bot"
+  },
+  "UNI_BTC": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "bitcoin",
+    "url": "https://www.pionex.com/en/trade/UNI_BTC/Bot"
+  },
+  "UNI_USDT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/UNI_USDT/Bot"
+  },
+  "USDC_USDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/USDC_USDT/Bot"
+  },
+  "USTC_USDT": {
+    "exchange": "spot",
+    "base": "terrausd",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/USTC_USDT/Bot"
+  },
+  "VTHO_USDT": {
+    "exchange": "spot",
+    "base": "vethor-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/VTHO_USDT/Bot"
+  },
+  "WAXP_USDT": {
+    "exchange": "spot",
+    "base": "wax",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/WAXP_USDT/Bot"
+  },
+  "WBTC_BTC": {
+    "exchange": "spot",
+    "base": "wrapped-bitcoin",
+    "quote": "bitcoin",
+    "url": "https://www.pionex.com/en/trade/WBTC_BTC/Bot"
+  },
+  "WIF_USDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/WIF_USDT/Bot"
+  },
+  "WIN_USDT": {
+    "exchange": "spot",
+    "base": "winklink",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/WIN_USDT/Bot"
+  },
+  "WLD_USDT": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/WLD_USDT/Bot"
+  },
+  "WOO_USDT": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/WOO_USDT/Bot"
+  },
+  "W_USDT": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/W_USDT/Bot"
+  },
+  "XAI_USDT": {
+    "exchange": "spot",
+    "base": "xai",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/XAI_USDT/Bot"
+  },
+  "XAUT_USDT": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/XAUT_USDT/Bot"
+  },
+  "XEC_USDT": {
+    "exchange": "spot",
+    "base": "ecash",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/XEC_USDT/Bot"
+  },
+  "XLM_USDT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/XLM_USDT/Bot"
+  },
+  "XRP_BTC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "bitcoin",
+    "url": "https://www.pionex.com/en/trade/XRP_BTC/Bot"
+  },
+  "XRP_USDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/XRP_USDT/Bot"
+  },
+  "XTZ_USDT": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/XTZ_USDT/Bot"
+  },
+  "YFI_USDT": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/YFI_USDT/Bot"
+  },
+  "YGG_USDT": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/YGG_USDT/Bot"
+  },
+  "ZEC_USDT": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ZEC_USDT/Bot"
+  },
+  "ZEN_USDT": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ZEN_USDT/Bot"
+  },
+  "ZIL_USDT": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ZIL_USDT/Bot"
+  },
+  "ZRX_USDT": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ZRX_USDT/Bot"
+  }
+}

@@ -1,0 +1,2786 @@
+{
+  "0G-USDT": {
+    "exchange": "spot",
+    "base": "zero-gravity",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/0GUSDT/"
+  },
+  "1INCH-USDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/1INCHUSDT/"
+  },
+  "2Z-USDT": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/2ZUSDT/"
+  },
+  "9BIT-USDT": {
+    "exchange": "spot",
+    "base": "the9bit",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/9BITUSDT/"
+  },
+  "A-USDT": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AUSDT/"
+  },
+  "AAPLX-USDT": {
+    "exchange": "spot",
+    "base": "apple-xstock",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AAPLXUSDT/"
+  },
+  "AAVE-USDT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AAVEUSDT/"
+  },
+  "AB-USDT": {
+    "exchange": "spot",
+    "base": "newton-project",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ABUSDT/"
+  },
+  "ACE-USDT": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ACEUSDT/"
+  },
+  "ACH-USDT": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ACHUSDT/"
+  },
+  "ACN-USDT": {
+    "exchange": "spot",
+    "base": "solidus-aitech",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ACNUSDT/"
+  },
+  "ACT-USDT": {
+    "exchange": "spot",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ACTUSDT/"
+  },
+  "ACU-USDT": {
+    "exchange": "spot",
+    "base": "acurast",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ACUUSDT/"
+  },
+  "ADA-USDC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/ADAUSDC/"
+  },
+  "ADA-USDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ADAUSDT/"
+  },
+  "AERO-USDT": {
+    "exchange": "spot",
+    "base": "aerodrome",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AEROUSDT/"
+  },
+  "AEVO-USDT": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AEVOUSDT/"
+  },
+  "AGI-USDT": {
+    "exchange": "spot",
+    "base": "delysium",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AGIUSDT/"
+  },
+  "AGT-USDT": {
+    "exchange": "spot",
+    "base": "alaya-ai",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AGTUSDT/"
+  },
+  "AIO-USDT": {
+    "exchange": "spot",
+    "base": "olaxbt",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AIOUSDT/"
+  },
+  "AIOZ-USDT": {
+    "exchange": "spot",
+    "base": "aioz-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AIOZUSDT/"
+  },
+  "AIXBT-USDT": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AIXBTUSDT/"
+  },
+  "AKT-USDT": {
+    "exchange": "spot",
+    "base": "akash-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AKTUSDT/"
+  },
+  "ALCH-USDT": {
+    "exchange": "spot",
+    "base": "alchemist-ai",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ALCHUSDT/"
+  },
+  "ALGO-USDT": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ALGOUSDT/"
+  },
+  "ALICE-USDT": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ALICEUSDT/"
+  },
+  "ALIGN-USDT": {
+    "exchange": "spot",
+    "base": "aligned",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ALIGNUSDT/"
+  },
+  "ALLO-USDT": {
+    "exchange": "spot",
+    "base": "allora",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ALLOUSDT/"
+  },
+  "ALT-USDT": {
+    "exchange": "spot",
+    "base": "altlayer",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ALTUSDT/"
+  },
+  "ALU-USDT": {
+    "exchange": "spot",
+    "base": "altura",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ALUUSDT/"
+  },
+  "AMP-USDT": {
+    "exchange": "spot",
+    "base": "amp-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AMPUSDT/"
+  },
+  "ANKR-USDT": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ANKRUSDT/"
+  },
+  "ANSEM-USDT": {
+    "exchange": "spot",
+    "base": "the-black-bull",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ANSEMUSDT/"
+  },
+  "APE-USDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/APEUSDT/"
+  },
+  "APEX-USDT": {
+    "exchange": "spot",
+    "base": "apex-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/APEXUSDT/"
+  },
+  "API3-USDT": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/API3USDT/"
+  },
+  "APR-USDT": {
+    "exchange": "spot",
+    "base": "apriori",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/APRUSDT/"
+  },
+  "APT-USDT": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/APTUSDT/"
+  },
+  "AR-USDT": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ARUSDT/"
+  },
+  "ARB-USDC": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/ARBUSDC/"
+  },
+  "ARB-USDT": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ARBUSDT/"
+  },
+  "ARC-USDT": {
+    "exchange": "spot",
+    "base": "ai-rig-complex",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ARCUSDT/"
+  },
+  "ARKM-USDT": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ARKMUSDT/"
+  },
+  "ARPA-USDT": {
+    "exchange": "spot",
+    "base": "arpa-chain",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ARPAUSDT/"
+  },
+  "ARX-USDT": {
+    "exchange": "spot",
+    "base": "arcium",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ARXUSDT/"
+  },
+  "ASP-USDT": {
+    "exchange": "spot",
+    "base": "aspecta",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ASPUSDT/"
+  },
+  "ASTER-USDT": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ASTERUSDT/"
+  },
+  "ATH-USDT": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ATHUSDT/"
+  },
+  "ATOM-USDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ATOMUSDT/"
+  },
+  "AUCTION-USDT": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AUCTIONUSDT/"
+  },
+  "AUDIO-USDT": {
+    "exchange": "spot",
+    "base": "audius",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AUDIOUSDT/"
+  },
+  "AVA-USDT": {
+    "exchange": "spot",
+    "base": "travala",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AVAUSDT/"
+  },
+  "AVAX-USDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AVAXUSDT/"
+  },
+  "AVNT-USDT": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AVNTUSDT/"
+  },
+  "AXIS-USDT": {
+    "exchange": "spot",
+    "base": "axis-robotics",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AXISUSDT/"
+  },
+  "AXS-USDT": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/AXSUSDT/"
+  },
+  "B-USDT": {
+    "exchange": "spot",
+    "base": "build-on",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BUSDT/"
+  },
+  "BABY-USDT": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BABYUSDT/"
+  },
+  "BABYDOGE-USDT": {
+    "exchange": "spot",
+    "base": "baby-doge-coin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BABYDOGEUSDT/"
+  },
+  "BAN-USDT": {
+    "exchange": "spot",
+    "base": "comedian",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BANUSDT/"
+  },
+  "BANANA-USDT": {
+    "exchange": "spot",
+    "base": "banana-gun",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BANANAUSDT/"
+  },
+  "BANANAS31-USDT": {
+    "exchange": "spot",
+    "base": "banana-for-scale",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BANANAS31USDT/"
+  },
+  "BARD-USDT": {
+    "exchange": "spot",
+    "base": "lombard",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BARDUSDT/"
+  },
+  "BASED-USDT": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BASEDUSDT/"
+  },
+  "BAT-USDT": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BATUSDT/"
+  },
+  "BCH-USDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BCHUSDT/"
+  },
+  "BEAT-USDT": {
+    "exchange": "spot",
+    "base": "audiera",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BEATUSDT/"
+  },
+  "BEL-USDT": {
+    "exchange": "spot",
+    "base": "bella-protocol",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BELUSDT/"
+  },
+  "BERA-USDT": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BERAUSDT/"
+  },
+  "BICO-USDT": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BICOUSDT/"
+  },
+  "BIGTIME-USDT": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BIGTIMEUSDT/"
+  },
+  "BILL-USDT": {
+    "exchange": "spot",
+    "base": "billions-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BILLUSDT/"
+  },
+  "BIO-USDT": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BIOUSDT/"
+  },
+  "BIRB-USDT": {
+    "exchange": "spot",
+    "base": "moonbirds",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BIRBUSDT/"
+  },
+  "BLEND-USDT": {
+    "exchange": "spot",
+    "base": "fluent-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BLENDUSDT/"
+  },
+  "BLESS-USDT": {
+    "exchange": "spot",
+    "base": "bless-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BLESSUSDT/"
+  },
+  "BLUR-USDT": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BLURUSDT/"
+  },
+  "BMT-USDT": {
+    "exchange": "spot",
+    "base": "bubblemaps",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BMTUSDT/"
+  },
+  "BNB-USDC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/BNBUSDC/"
+  },
+  "BNB-USDT": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BNBUSDT/"
+  },
+  "BNC-USDT": {
+    "exchange": "spot",
+    "base": "bifrost-native-coin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BNCUSDT/"
+  },
+  "BNKR-USDT": {
+    "exchange": "spot",
+    "base": "bankrcoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BNKRUSDT/"
+  },
+  "BOME-USDT": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BOMEUSDT/"
+  },
+  "BONK-USDT": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BONKUSDT/"
+  },
+  "BRETT-USDT": {
+    "exchange": "spot",
+    "base": "brett",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BRETTUSDT/"
+  },
+  "BREV-USDT": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BREVUSDT/"
+  },
+  "BSB-USDT": {
+    "exchange": "spot",
+    "base": "block-street",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BSBUSDT/"
+  },
+  "BTC-USDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/BTCUSDC/"
+  },
+  "BTC-USDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BTCUSDT/"
+  },
+  "BTT-USDT": {
+    "exchange": "spot",
+    "base": "bittorrent",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/BTTUSDT/"
+  },
+  "C-USDT": {
+    "exchange": "spot",
+    "base": "chainbase",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CUSDT/"
+  },
+  "C98-USDT": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/C98USDT/"
+  },
+  "CAKE-USDT": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CAKEUSDT/"
+  },
+  "CAP-USDT": {
+    "exchange": "spot",
+    "base": "cap",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CAPUSDT/"
+  },
+  "CASHCAT-USDT": {
+    "exchange": "spot",
+    "base": "cash-cat",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CASHCATUSDT/"
+  },
+  "CAT-USDT": {
+    "exchange": "spot",
+    "base": "simon-s-cat",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CATUSDT/"
+  },
+  "CATI-USDT": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CATIUSDT/"
+  },
+  "CELR-USDT": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CELRUSDT/"
+  },
+  "CETUS-USDT": {
+    "exchange": "spot",
+    "base": "cetus-protocol",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CETUSUSDT/"
+  },
+  "CFG-USDT": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CFGUSDT/"
+  },
+  "CFX-USDT": {
+    "exchange": "spot",
+    "base": "conflux",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CFXUSDT/"
+  },
+  "CGPT-USDT": {
+    "exchange": "spot",
+    "base": "chaingpt",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CGPTUSDT/"
+  },
+  "CHECK-USDT": {
+    "exchange": "spot",
+    "base": "checkmate",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CHECKUSDT/"
+  },
+  "CHIP-USDT": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CHIPUSDT/"
+  },
+  "CHZ-USDT": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CHZUSDT/"
+  },
+  "CKB-USDT": {
+    "exchange": "spot",
+    "base": "nervos-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CKBUSDT/"
+  },
+  "CLANKER-USDT": {
+    "exchange": "spot",
+    "base": "tokenbot",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CLANKERUSDT/"
+  },
+  "CLO-USDT": {
+    "exchange": "spot",
+    "base": "yei-finance",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CLOUSDT/"
+  },
+  "COINX-USDT": {
+    "exchange": "spot",
+    "base": "coinbase-xstock",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/COINXUSDT/"
+  },
+  "COLS-USDT": {
+    "exchange": "spot",
+    "base": "cointel",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/COLSUSDT/"
+  },
+  "COMP-USDT": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/COMPUSDT/"
+  },
+  "COOKIE-USDT": {
+    "exchange": "spot",
+    "base": "cookie",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/COOKIEUSDT/"
+  },
+  "CORE-USDT": {
+    "exchange": "spot",
+    "base": "core",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/COREUSDT/"
+  },
+  "COTI-USDT": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/COTIUSDT/"
+  },
+  "COW-USDT": {
+    "exchange": "spot",
+    "base": "cow-protocol",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/COWUSDT/"
+  },
+  "CP-USDT": {
+    "exchange": "spot",
+    "base": "cluster-protocol",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CPUSDT/"
+  },
+  "CRCLX-USDT": {
+    "exchange": "spot",
+    "base": "circle-xstock",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CRCLXUSDT/"
+  },
+  "CRO-USDT": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CROUSDT/"
+  },
+  "CRV-USDT": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CRVUSDT/"
+  },
+  "CSPR-USDT": {
+    "exchange": "spot",
+    "base": "casper",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CSPRUSDT/"
+  },
+  "CT-USDT": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CTUSDT/"
+  },
+  "CTM-USDT": {
+    "exchange": "spot",
+    "base": "c8ntinuum",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CTMUSDT/"
+  },
+  "CTSI-USDT": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CTSIUSDT/"
+  },
+  "CVX-USDT": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CVXUSDT/"
+  },
+  "CYBER-USDT": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CYBERUSDT/"
+  },
+  "CYS-USDT": {
+    "exchange": "spot",
+    "base": "cysic",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/CYSUSDT/"
+  },
+  "DAG-USDT": {
+    "exchange": "spot",
+    "base": "constellation-labs",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DAGUSDT/"
+  },
+  "DAO-USDT": {
+    "exchange": "spot",
+    "base": "dao-maker",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DAOUSDT/"
+  },
+  "DEEP-USDT": {
+    "exchange": "spot",
+    "base": "deep",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DEEPUSDT/"
+  },
+  "DGB-USDT": {
+    "exchange": "spot",
+    "base": "digibyte",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DGBUSDT/"
+  },
+  "DIA-USDT": {
+    "exchange": "spot",
+    "base": "dia-data",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DIAUSDT/"
+  },
+  "DMTR-USDT": {
+    "exchange": "spot",
+    "base": "dimitra",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DMTRUSDT/"
+  },
+  "DNA-USDT": {
+    "exchange": "spot",
+    "base": "neosoul",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DNAUSDT/"
+  },
+  "DOG-USDT": {
+    "exchange": "spot",
+    "base": "dog-bitcoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DOGUSDT/"
+  },
+  "DOGE-USDC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/DOGEUSDC/"
+  },
+  "DOGE-USDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DOGEUSDT/"
+  },
+  "DOGS-USDT": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DOGSUSDT/"
+  },
+  "DOLO-USDT": {
+    "exchange": "spot",
+    "base": "dolomite",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DOLOUSDT/"
+  },
+  "DOS-USDT": {
+    "exchange": "spot",
+    "base": "dappos",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DOSUSDT/"
+  },
+  "DOT-USDC": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/DOTUSDC/"
+  },
+  "DOT-USDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DOTUSDT/"
+  },
+  "DRV-USDT": {
+    "exchange": "spot",
+    "base": "derive",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/DRVUSDT/"
+  },
+  "EGLD-USDT": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/EGLDUSDT/"
+  },
+  "EIGEN-USDT": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/EIGENUSDT/"
+  },
+  "ELSA-USDT": {
+    "exchange": "spot",
+    "base": "elsa",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ELSAUSDT/"
+  },
+  "ENA-USDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ENAUSDT/"
+  },
+  "ENJ-USDT": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ENJUSDT/"
+  },
+  "ENS-USDT": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ENSUSDT/"
+  },
+  "ENSO-USDT": {
+    "exchange": "spot",
+    "base": "enso",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ENSOUSDT/"
+  },
+  "EPIC-USDT": {
+    "exchange": "spot",
+    "base": "epic-chain",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/EPICUSDT/"
+  },
+  "ERA-USDT": {
+    "exchange": "spot",
+    "base": "caldera",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ERAUSDT/"
+  },
+  "ESE-USDT": {
+    "exchange": "spot",
+    "base": "eesee",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ESEUSDT/"
+  },
+  "ESP-USDT": {
+    "exchange": "spot",
+    "base": "espresso",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ESPUSDT/"
+  },
+  "ETC-USDT": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ETCUSDT/"
+  },
+  "ETH-BTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://bingx.com/en/spot/ETHBTC/"
+  },
+  "ETH-USDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/ETHUSDC/"
+  },
+  "ETH-USDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ETHUSDT/"
+  },
+  "ETHFI-USDT": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ETHFIUSDT/"
+  },
+  "ETHW-USDT": {
+    "exchange": "spot",
+    "base": "ethereum-pow",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ETHWUSDT/"
+  },
+  "EURI-USDT": {
+    "exchange": "spot",
+    "base": "eurite",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/EURIUSDT/"
+  },
+  "EVAA-USDT": {
+    "exchange": "spot",
+    "base": "evaa-protocol",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/EVAAUSDT/"
+  },
+  "FARTCOIN-USDT": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FARTCOINUSDT/"
+  },
+  "FDUSD-USDT": {
+    "exchange": "spot",
+    "base": "first-digital-usd",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FDUSDUSDT/"
+  },
+  "FET-USDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FETUSDT/"
+  },
+  "FF-USDT": {
+    "exchange": "spot",
+    "base": "falcon-finance-ff",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FFUSDT/"
+  },
+  "FHE-USDT": {
+    "exchange": "spot",
+    "base": "mind-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FHEUSDT/"
+  },
+  "FIDA-USDT": {
+    "exchange": "spot",
+    "base": "bonfida",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FIDAUSDT/"
+  },
+  "FIL-USDT": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FILUSDT/"
+  },
+  "FLOCK-USDT": {
+    "exchange": "spot",
+    "base": "flock",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FLOCKUSDT/"
+  },
+  "FLOKI-USDT": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FLOKIUSDT/"
+  },
+  "FLOW-USDT": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FLOWUSDT/"
+  },
+  "FLR-USDT": {
+    "exchange": "spot",
+    "base": "flare",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FLRUSDT/"
+  },
+  "FLUX-USDT": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FLUXUSDT/"
+  },
+  "FOGO-USDT": {
+    "exchange": "spot",
+    "base": "fogo",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FOGOUSDT/"
+  },
+  "FORM-USDT": {
+    "exchange": "spot",
+    "base": "four",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FORMUSDT/"
+  },
+  "FTT-USDT": {
+    "exchange": "spot",
+    "base": "ftx-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/FTTUSDT/"
+  },
+  "G-USDT": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GUSDT/"
+  },
+  "GALA-USDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GALAUSDT/"
+  },
+  "GIGGLE-USDT": {
+    "exchange": "spot",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GIGGLEUSDT/"
+  },
+  "GLM-USDT": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GLMUSDT/"
+  },
+  "GLMR-USDT": {
+    "exchange": "spot",
+    "base": "moonbeam",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GLMRUSDT/"
+  },
+  "GMEE-USDT": {
+    "exchange": "spot",
+    "base": "gamee",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GMEEUSDT/"
+  },
+  "GMT-USDT": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GMTUSDT/"
+  },
+  "GMX-USDT": {
+    "exchange": "spot",
+    "base": "gmx",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GMXUSDT/"
+  },
+  "GNO-USDT": {
+    "exchange": "spot",
+    "base": "gnosis",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GNOUSDT/"
+  },
+  "GOMINING-USDT": {
+    "exchange": "spot",
+    "base": "gmt-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GOMININGUSDT/"
+  },
+  "GOOGLX-USDT": {
+    "exchange": "spot",
+    "base": "alphabet-xstock",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GOOGLXUSDT/"
+  },
+  "GPS-USDT": {
+    "exchange": "spot",
+    "base": "goplus-security",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GPSUSDT/"
+  },
+  "GRASS-USDT": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GRASSUSDT/"
+  },
+  "GRIFFAIN-USDT": {
+    "exchange": "spot",
+    "base": "griffain",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GRIFFAINUSDT/"
+  },
+  "GRT-USDT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GRTUSDT/"
+  },
+  "GRVT-USDT": {
+    "exchange": "spot",
+    "base": "grvt",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GRVTUSDT/"
+  },
+  "GTAI-USDT": {
+    "exchange": "spot",
+    "base": "gt-protocol",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GTAIUSDT/"
+  },
+  "GWEI-USDT": {
+    "exchange": "spot",
+    "base": "ethgas",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/GWEIUSDT/"
+  },
+  "HBAR-USDT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/HBARUSDT/"
+  },
+  "HEI-USDT": {
+    "exchange": "spot",
+    "base": "heima",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/HEIUSDT/"
+  },
+  "HFT-USDT": {
+    "exchange": "spot",
+    "base": "hashflow",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/HFTUSDT/"
+  },
+  "HIGH-USDT": {
+    "exchange": "spot",
+    "base": "highstreet",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/HIGHUSDT/"
+  },
+  "HMND-USDT": {
+    "exchange": "spot",
+    "base": "humanode",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/HMNDUSDT/"
+  },
+  "HMSTR-USDT": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/HMSTRUSDT/"
+  },
+  "HOLO-USDT": {
+    "exchange": "spot",
+    "base": "holoworld",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/HOLOUSDT/"
+  },
+  "HOME-USDT": {
+    "exchange": "spot",
+    "base": "defi-app",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/HOMEUSDT/"
+  },
+  "HUMA-USDT": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/HUMAUSDT/"
+  },
+  "HYPE-USDT": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/HYPEUSDT/"
+  },
+  "ICNT-USDT": {
+    "exchange": "spot",
+    "base": "impossible-cloud-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ICNTUSDT/"
+  },
+  "ICP-USDT": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ICPUSDT/"
+  },
+  "ID-USDT": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/IDUSDT/"
+  },
+  "ILV-USDT": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ILVUSDT/"
+  },
+  "IMX-USDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/IMXUSDT/"
+  },
+  "INJ-USDT": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/INJUSDT/"
+  },
+  "IO-USDT": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/IOUSDT/"
+  },
+  "IOST-USDT": {
+    "exchange": "spot",
+    "base": "iost",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/IOSTUSDT/"
+  },
+  "IOTA-USDT": {
+    "exchange": "spot",
+    "base": "iota",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/IOTAUSDT/"
+  },
+  "IOTX-USDT": {
+    "exchange": "spot",
+    "base": "iotex",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/IOTXUSDT/"
+  },
+  "IRYS-USDT": {
+    "exchange": "spot",
+    "base": "irys",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/IRYSUSDT/"
+  },
+  "JASMY-USDT": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/JASMYUSDT/"
+  },
+  "JCT-USDT": {
+    "exchange": "spot",
+    "base": "janction",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/JCTUSDT/"
+  },
+  "JELLYJELLY-USDT": {
+    "exchange": "spot",
+    "base": "jelly-my-jelly",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/JELLYJELLYUSDT/"
+  },
+  "JTO-USDT": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/JTOUSDT/"
+  },
+  "JUP-USDT": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/JUPUSDT/"
+  },
+  "KAIA-USDT": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/KAIAUSDT/"
+  },
+  "KAITO-USDT": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/KAITOUSDT/"
+  },
+  "KAS-USDT": {
+    "exchange": "spot",
+    "base": "kaspa",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/KASUSDT/"
+  },
+  "KAT-USDT": {
+    "exchange": "spot",
+    "base": "katana-network-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/KATUSDT/"
+  },
+  "KAVA-USDT": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/KAVAUSDT/"
+  },
+  "KERNEL-USDT": {
+    "exchange": "spot",
+    "base": "kernel",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/KERNELUSDT/"
+  },
+  "KITE-USDT": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/KITEUSDT/"
+  },
+  "KMNO-USDT": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/KMNOUSDT/"
+  },
+  "KSM-USDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/KSMUSDT/"
+  },
+  "LA-USDT": {
+    "exchange": "spot",
+    "base": "lagrange",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LAUSDT/"
+  },
+  "LAB-USDT": {
+    "exchange": "spot",
+    "base": "lab",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LABUSDT/"
+  },
+  "LAYER-USDT": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LAYERUSDT/"
+  },
+  "LDO-USDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LDOUSDT/"
+  },
+  "LINEA-USDT": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LINEAUSDT/"
+  },
+  "LINK-USDC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/LINKUSDC/"
+  },
+  "LINK-USDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LINKUSDT/"
+  },
+  "LOFI-USDT": {
+    "exchange": "spot",
+    "base": "lofi",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LOFIUSDT/"
+  },
+  "LPT-USDT": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LPTUSDT/"
+  },
+  "LQTY-USDT": {
+    "exchange": "spot",
+    "base": "liquity",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LQTYUSDT/"
+  },
+  "LSK-USDT": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LSKUSDT/"
+  },
+  "LTC-USDC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/LTCUSDC/"
+  },
+  "LTC-USDT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LTCUSDT/"
+  },
+  "LUNA-USDT": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LUNAUSDT/"
+  },
+  "LUNC-USDT": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/LUNCUSDT/"
+  },
+  "MAGIC-USDT": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MAGICUSDT/"
+  },
+  "MANA-USDT": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MANAUSDT/"
+  },
+  "MANTA-USDT": {
+    "exchange": "spot",
+    "base": "manta-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MANTAUSDT/"
+  },
+  "MASK-USDT": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MASKUSDT/"
+  },
+  "ME-USDT": {
+    "exchange": "spot",
+    "base": "magic-eden",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MEUSDT/"
+  },
+  "MEGA-USDT": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MEGAUSDT/"
+  },
+  "MELANIA-USDT": {
+    "exchange": "spot",
+    "base": "melania-meme",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MELANIAUSDT/"
+  },
+  "MEME-USDT": {
+    "exchange": "spot",
+    "base": "memecoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MEMEUSDT/"
+  },
+  "MERL-USDT": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MERLUSDT/"
+  },
+  "METAX-USDT": {
+    "exchange": "spot",
+    "base": "meta-xstock",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/METAXUSDT/"
+  },
+  "METIS-USDT": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/METISUSDT/"
+  },
+  "MEW-USDT": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MEWUSDT/"
+  },
+  "MMT-USDT": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MMTUSDT/"
+  },
+  "MNT-USDT": {
+    "exchange": "spot",
+    "base": "mantle",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MNTUSDT/"
+  },
+  "MOG-USDT": {
+    "exchange": "spot",
+    "base": "mog-coin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MOGUSDT/"
+  },
+  "MORPHO-USDT": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MORPHOUSDT/"
+  },
+  "MOVE-USDT": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MOVEUSDT/"
+  },
+  "MSTRX-USDT": {
+    "exchange": "spot",
+    "base": "microstrategy-xstock",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MSTRXUSDT/"
+  },
+  "MTL-USDT": {
+    "exchange": "spot",
+    "base": "metal",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MTLUSDT/"
+  },
+  "MTV-USDT": {
+    "exchange": "spot",
+    "base": "multivac",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MTVUSDT/"
+  },
+  "MUBARAK-USDT": {
+    "exchange": "spot",
+    "base": "mubarak",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MUBARAKUSDT/"
+  },
+  "MYX-USDT": {
+    "exchange": "spot",
+    "base": "myx-finance",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/MYXUSDT/"
+  },
+  "NEAR-USDC": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/NEARUSDC/"
+  },
+  "NEAR-USDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/NEARUSDT/"
+  },
+  "NEIROCTO-USDT": {
+    "exchange": "spot",
+    "base": "neiro",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/NEIROCTOUSDT/"
+  },
+  "NEO-USDT": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/NEOUSDT/"
+  },
+  "NIL-USDT": {
+    "exchange": "spot",
+    "base": "nillion",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/NILUSDT/"
+  },
+  "NMR-USDT": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/NMRUSDT/"
+  },
+  "NOT-USDT": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/NOTUSDT/"
+  },
+  "NPC-USDT": {
+    "exchange": "spot",
+    "base": "non-playable-coin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/NPCUSDT/"
+  },
+  "NVDAX-USDT": {
+    "exchange": "spot",
+    "base": "nvidia-xstock",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/NVDAXUSDT/"
+  },
+  "NXPC-USDT": {
+    "exchange": "spot",
+    "base": "nexpace",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/NXPCUSDT/"
+  },
+  "O-USDT": {
+    "exchange": "spot",
+    "base": "o1-exchange",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/OUSDT/"
+  },
+  "OGN-USDT": {
+    "exchange": "spot",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/OGNUSDT/"
+  },
+  "OKB-USDT": {
+    "exchange": "spot",
+    "base": "okb",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/OKBUSDT/"
+  },
+  "OMI-USDT": {
+    "exchange": "spot",
+    "base": "ecomi",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/OMIUSDT/"
+  },
+  "ONDO-USDC": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/ONDOUSDC/"
+  },
+  "ONDO-USDT": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ONDOUSDT/"
+  },
+  "OP-USDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/OPUSDT/"
+  },
+  "OPG-USDT": {
+    "exchange": "spot",
+    "base": "opengradient",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/OPGUSDT/"
+  },
+  "OPN-USDT": {
+    "exchange": "spot",
+    "base": "opinion",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/OPNUSDT/"
+  },
+  "ORCA-USDT": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ORCAUSDT/"
+  },
+  "ORDI-USDT": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ORDIUSDT/"
+  },
+  "PARTI-USDT": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PARTIUSDT/"
+  },
+  "PAXG-USDT": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PAXGUSDT/"
+  },
+  "PENDLE-USDT": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PENDLEUSDT/"
+  },
+  "PENGU-USDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PENGUUSDT/"
+  },
+  "PEOPLE-USDT": {
+    "exchange": "spot",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PEOPLEUSDT/"
+  },
+  "PEPE-USDC": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/PEPEUSDC/"
+  },
+  "PEPE-USDT": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PEPEUSDT/"
+  },
+  "PIEVERSE-USDT": {
+    "exchange": "spot",
+    "base": "pieverse",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PIEVERSEUSDT/"
+  },
+  "PIXEL-USDT": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PIXELUSDT/"
+  },
+  "PLUME-USDT": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PLUMEUSDT/"
+  },
+  "PNUT-USDT": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PNUTUSDT/"
+  },
+  "POL-USDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/POLUSDT/"
+  },
+  "PONS-USDT": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PONSUSDT/"
+  },
+  "POPCAT-USDT": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/POPCATUSDT/"
+  },
+  "PORTAL-USDT": {
+    "exchange": "spot",
+    "base": "portal",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PORTALUSDT/"
+  },
+  "PRL-USDT": {
+    "exchange": "spot",
+    "base": "perle",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PRLUSDT/"
+  },
+  "PROM-USDT": {
+    "exchange": "spot",
+    "base": "prometeus",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PROMUSDT/"
+  },
+  "PROMPT-USDT": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PROMPTUSDT/"
+  },
+  "PROPS-USDT": {
+    "exchange": "spot",
+    "base": "propbase",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PROPSUSDT/"
+  },
+  "PROVE-USDT": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PROVEUSDT/"
+  },
+  "PUMP-USDT": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PUMPUSDT/"
+  },
+  "PYTH-USDT": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PYTHUSDT/"
+  },
+  "PYUSD-USDT": {
+    "exchange": "spot",
+    "base": "paypal-usd",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/PYUSDUSDT/"
+  },
+  "Q-USDT": {
+    "exchange": "spot",
+    "base": "quack-ai",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/QUSDT/"
+  },
+  "QNT-USDT": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/QNTUSDT/"
+  },
+  "RAD-USDT": {
+    "exchange": "spot",
+    "base": "radicle",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RADUSDT/"
+  },
+  "RATS-USDT": {
+    "exchange": "spot",
+    "base": "rats",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RATSUSDT/"
+  },
+  "RAVE-USDT": {
+    "exchange": "spot",
+    "base": "ravedao",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RAVEUSDT/"
+  },
+  "RAY-USDT": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RAYUSDT/"
+  },
+  "RE-USDT": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/REUSDT/"
+  },
+  "RECALL-USDT": {
+    "exchange": "spot",
+    "base": "recall",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RECALLUSDT/"
+  },
+  "RENDER-USDT": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RENDERUSDT/"
+  },
+  "REZ-USDT": {
+    "exchange": "spot",
+    "base": "renzo",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/REZUSDT/"
+  },
+  "RIVER-USDT": {
+    "exchange": "spot",
+    "base": "river",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RIVERUSDT/"
+  },
+  "ROBO-USDT": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ROBOUSDT/"
+  },
+  "RON-USDT": {
+    "exchange": "spot",
+    "base": "ronin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RONUSDT/"
+  },
+  "RPL-USDT": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RPLUSDT/"
+  },
+  "RSR-USDT": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RSRUSDT/"
+  },
+  "RUNE-USDT": {
+    "exchange": "spot",
+    "base": "thorchain",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RUNEUSDT/"
+  },
+  "RVV-USDT": {
+    "exchange": "spot",
+    "base": "astra-nova",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/RVVUSDT/"
+  },
+  "S-USDT": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SUSDT/"
+  },
+  "SAHARA-USDT": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SAHARAUSDT/"
+  },
+  "SAND-USDT": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SANDUSDT/"
+  },
+  "SAPIEN-USDT": {
+    "exchange": "spot",
+    "base": "sapien",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SAPIENUSDT/"
+  },
+  "SATS-USDT": {
+    "exchange": "spot",
+    "base": "sats-ordinals",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SATSUSDT/"
+  },
+  "SCR-USDT": {
+    "exchange": "spot",
+    "base": "scroll",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SCRUSDT/"
+  },
+  "SEI-USDT": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SEIUSDT/"
+  },
+  "SENT-USDT": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SENTUSDT/"
+  },
+  "SFP-USDT": {
+    "exchange": "spot",
+    "base": "safepal",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SFPUSDT/"
+  },
+  "SHIB-USDC": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/SHIBUSDC/"
+  },
+  "SHIB-USDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SHIBUSDT/"
+  },
+  "SIGN-USDT": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SIGNUSDT/"
+  },
+  "SKHYB-USDT": {
+    "exchange": "spot",
+    "base": "sk-hynix-bstock",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SKHYBUSDT/"
+  },
+  "SKR-USDT": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SKRUSDT/"
+  },
+  "SKY-USDT": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SKYUSDT/"
+  },
+  "SLP-USDT": {
+    "exchange": "spot",
+    "base": "smooth-love-potion",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SLPUSDT/"
+  },
+  "SLX-USDT": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SLXUSDT/"
+  },
+  "SNEK-USDT": {
+    "exchange": "spot",
+    "base": "snek",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SNEKUSDT/"
+  },
+  "SNX-USDT": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SNXUSDT/"
+  },
+  "SOL-USDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/SOLUSDC/"
+  },
+  "SOL-USDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SOLUSDT/"
+  },
+  "SOMI-USDT": {
+    "exchange": "spot",
+    "base": "somnia",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SOMIUSDT/"
+  },
+  "SONIC-USDT": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SONICUSDT/"
+  },
+  "SOSO-USDT": {
+    "exchange": "spot",
+    "base": "sosovalue",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SOSOUSDT/"
+  },
+  "SPCXB-USDT": {
+    "exchange": "spot",
+    "base": "spacex-bstock",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SPCXBUSDT/"
+  },
+  "SPK-USDT": {
+    "exchange": "spot",
+    "base": "spark",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SPKUSDT/"
+  },
+  "SPX-USDT": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SPXUSDT/"
+  },
+  "SSV-USDT": {
+    "exchange": "spot",
+    "base": "ssv-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SSVUSDT/"
+  },
+  "STABLE-USDT": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/STABLEUSDT/"
+  },
+  "STBL-USDT": {
+    "exchange": "spot",
+    "base": "stbl",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/STBLUSDT/"
+  },
+  "STETH-USDT": {
+    "exchange": "spot",
+    "base": "lido-staked-ether",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/STETHUSDT/"
+  },
+  "STO-USDT": {
+    "exchange": "spot",
+    "base": "stakestone",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/STOUSDT/"
+  },
+  "STONK-USDT": {
+    "exchange": "spot",
+    "base": "stonk",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/STONKUSDT/"
+  },
+  "STORJ-USDT": {
+    "exchange": "spot",
+    "base": "storj",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/STORJUSDT/"
+  },
+  "STRK-USDT": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/STRKUSDT/"
+  },
+  "STX-USDT": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/STXUSDT/"
+  },
+  "SUI-USDC": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/SUIUSDC/"
+  },
+  "SUI-USDT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SUIUSDT/"
+  },
+  "SUN-USDT": {
+    "exchange": "spot",
+    "base": "sun-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SUNUSDT/"
+  },
+  "SUPER-USDT": {
+    "exchange": "spot",
+    "base": "superfarm",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SUPERUSDT/"
+  },
+  "SUSHI-USDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SUSHIUSDT/"
+  },
+  "SUT-USDT": {
+    "exchange": "spot",
+    "base": "super-trust",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SUTUSDT/"
+  },
+  "SWARMS-USDT": {
+    "exchange": "spot",
+    "base": "swarms",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SWARMSUSDT/"
+  },
+  "SXT-USDT": {
+    "exchange": "spot",
+    "base": "space-and-time",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SXTUSDT/"
+  },
+  "SYN-USDT": {
+    "exchange": "spot",
+    "base": "synapse",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SYNUSDT/"
+  },
+  "SYRUP-USDT": {
+    "exchange": "spot",
+    "base": "syrup",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/SYRUPUSDT/"
+  },
+  "T-USDT": {
+    "exchange": "spot",
+    "base": "threshold-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TUSDT/"
+  },
+  "TA-USDT": {
+    "exchange": "spot",
+    "base": "trusta-ai",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TAUSDT/"
+  },
+  "TAG-USDT": {
+    "exchange": "spot",
+    "base": "tagger",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TAGUSDT/"
+  },
+  "TAO-USDT": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TAOUSDT/"
+  },
+  "TEL-USDT": {
+    "exchange": "spot",
+    "base": "telcoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TELUSDT/"
+  },
+  "THE-USDT": {
+    "exchange": "spot",
+    "base": "thena",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/THEUSDT/"
+  },
+  "THETA-USDT": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/THETAUSDT/"
+  },
+  "THQ-USDT": {
+    "exchange": "spot",
+    "base": "theoriq",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/THQUSDT/"
+  },
+  "TIA-USDT": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TIAUSDT/"
+  },
+  "TLM-USDT": {
+    "exchange": "spot",
+    "base": "alien-worlds",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TLMUSDT/"
+  },
+  "TLOS-USDT": {
+    "exchange": "spot",
+    "base": "telos",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TLOSUSDT/"
+  },
+  "TNSR-USDT": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TNSRUSDT/"
+  },
+  "TOSHI-USDT": {
+    "exchange": "spot",
+    "base": "toshi",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TOSHIUSDT/"
+  },
+  "TOWER-USDT": {
+    "exchange": "spot",
+    "base": "tower",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TOWERUSDT/"
+  },
+  "TOWNS-USDT": {
+    "exchange": "spot",
+    "base": "towns",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TOWNSUSDT/"
+  },
+  "TRADOOR-USDT": {
+    "exchange": "spot",
+    "base": "tradoor",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TRADOORUSDT/"
+  },
+  "TRB-USDT": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TRBUSDT/"
+  },
+  "TREE-USDT": {
+    "exchange": "spot",
+    "base": "treehouse",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TREEUSDT/"
+  },
+  "TRIA-USDT": {
+    "exchange": "spot",
+    "base": "tria",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TRIAUSDT/"
+  },
+  "TRUTH-USDT": {
+    "exchange": "spot",
+    "base": "swarm-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TRUTHUSDT/"
+  },
+  "TRX-USDC": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/TRXUSDC/"
+  },
+  "TRX-USDT": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TRXUSDT/"
+  },
+  "TSLAX-USDT": {
+    "exchange": "spot",
+    "base": "tesla-xstock",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TSLAXUSDT/"
+  },
+  "TURBO-USDT": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TURBOUSDT/"
+  },
+  "TUSD-USDT": {
+    "exchange": "spot",
+    "base": "true-usd",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TUSDUSDT/"
+  },
+  "TUT-USDT": {
+    "exchange": "spot",
+    "base": "tutorial",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TUTUSDT/"
+  },
+  "TWT-USDT": {
+    "exchange": "spot",
+    "base": "trust-wallet-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/TWTUSDT/"
+  },
+  "U2U-USDT": {
+    "exchange": "spot",
+    "base": "unicorn-ultra",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/U2UUSDT/"
+  },
+  "UAI-USDT": {
+    "exchange": "spot",
+    "base": "unifai-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/UAIUSDT/"
+  },
+  "UB-USDT": {
+    "exchange": "spot",
+    "base": "unibase",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/UBUSDT/"
+  },
+  "ULTIMA-USDC": {
+    "exchange": "spot",
+    "base": "ultima",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/ULTIMAUSDC/"
+  },
+  "ULTIMA-USDT": {
+    "exchange": "spot",
+    "base": "ultima",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ULTIMAUSDT/"
+  },
+  "UNI-USDC": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/UNIUSDC/"
+  },
+  "UNI-USDT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/UNIUSDT/"
+  },
+  "US-USDT": {
+    "exchange": "spot",
+    "base": "talus",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/USUSDT/"
+  },
+  "USD1-USDT": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/USD1USDT/"
+  },
+  "USDC-USDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/USDCUSDT/"
+  },
+  "USDD-USDT": {
+    "exchange": "spot",
+    "base": "decentralized-usd",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/USDDUSDT/"
+  },
+  "USDS-USDT": {
+    "exchange": "spot",
+    "base": "sky-usd",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/USDSUSDT/"
+  },
+  "USELESS-USDT": {
+    "exchange": "spot",
+    "base": "useless-coin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/USELESSUSDT/"
+  },
+  "USTC-USDT": {
+    "exchange": "spot",
+    "base": "terrausd",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/USTCUSDT/"
+  },
+  "USUAL-USDT": {
+    "exchange": "spot",
+    "base": "usual",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/USUALUSDT/"
+  },
+  "VANA-USDT": {
+    "exchange": "spot",
+    "base": "vana",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/VANAUSDT/"
+  },
+  "VANRY-USDT": {
+    "exchange": "spot",
+    "base": "vanar-chain",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/VANRYUSDT/"
+  },
+  "VELO-USDT": {
+    "exchange": "spot",
+    "base": "velo",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/VELOUSDT/"
+  },
+  "VELVET-USDT": {
+    "exchange": "spot",
+    "base": "velvet",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/VELVETUSDT/"
+  },
+  "VET-USDT": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/VETUSDT/"
+  },
+  "VINE-USDT": {
+    "exchange": "spot",
+    "base": "vine",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/VINEUSDT/"
+  },
+  "VIRTUAL-USDT": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/VIRTUALUSDT/"
+  },
+  "VSN-USDT": {
+    "exchange": "spot",
+    "base": "vision",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/VSNUSDT/"
+  },
+  "VVV-USDT": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/VVVUSDT/"
+  },
+  "W-USDT": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/WUSDT/"
+  },
+  "WAL-USDT": {
+    "exchange": "spot",
+    "base": "walrus",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/WALUSDT/"
+  },
+  "WAXP-USDT": {
+    "exchange": "spot",
+    "base": "wax",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/WAXPUSDT/"
+  },
+  "WBTC-USDT": {
+    "exchange": "spot",
+    "base": "wrapped-bitcoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/WBTCUSDT/"
+  },
+  "WCT-USDT": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/WCTUSDT/"
+  },
+  "WFI-USDT": {
+    "exchange": "spot",
+    "base": "wefi",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/WFIUSDT/"
+  },
+  "WIF-USDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/WIFUSDT/"
+  },
+  "WIN-USDT": {
+    "exchange": "spot",
+    "base": "winklink",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/WINUSDT/"
+  },
+  "WLD-USDT": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/WLDUSDT/"
+  },
+  "WLFI-USDT": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/WLFIUSDT/"
+  },
+  "XAI-USDT": {
+    "exchange": "spot",
+    "base": "xai",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XAIUSDT/"
+  },
+  "XAN-USDT": {
+    "exchange": "spot",
+    "base": "anoma",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XANUSDT/"
+  },
+  "XAUT-USDT": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XAUTUSDT/"
+  },
+  "XCN-USDT": {
+    "exchange": "spot",
+    "base": "onyxcoin",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XCNUSDT/"
+  },
+  "XDC-USDC": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/XDCUSDC/"
+  },
+  "XDC-USDT": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XDCUSDT/"
+  },
+  "XDP-USDT": {
+    "exchange": "spot",
+    "base": "doppler-finance",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XDPUSDT/"
+  },
+  "XEC-USDT": {
+    "exchange": "spot",
+    "base": "ecash",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XECUSDT/"
+  },
+  "XLM-USDT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XLMUSDT/"
+  },
+  "XPIN-USDT": {
+    "exchange": "spot",
+    "base": "xpin-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XPINUSDT/"
+  },
+  "XPL-USDT": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XPLUSDT/"
+  },
+  "XRP-USDC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "url": "https://bingx.com/en/spot/XRPUSDC/"
+  },
+  "XRP-USDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XRPUSDT/"
+  },
+  "XTZ-USDT": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/XTZUSDT/"
+  },
+  "YB-USDT": {
+    "exchange": "spot",
+    "base": "yield-basis",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/YBUSDT/"
+  },
+  "YFI-USDT": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/YFIUSDT/"
+  },
+  "YGG-USDT": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/YGGUSDT/"
+  },
+  "ZAMA-USDT": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZAMAUSDT/"
+  },
+  "ZBCN-USDT": {
+    "exchange": "spot",
+    "base": "zebec-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZBCNUSDT/"
+  },
+  "ZBT-USDT": {
+    "exchange": "spot",
+    "base": "zerobase",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZBTUSDT/"
+  },
+  "ZEC-USDT": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZECUSDT/"
+  },
+  "ZEREBRO-USDT": {
+    "exchange": "spot",
+    "base": "zerebro",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZEREBROUSDT/"
+  },
+  "ZEUS-USDT": {
+    "exchange": "spot",
+    "base": "zeus-network",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZEUSUSDT/"
+  },
+  "ZIL-USDT": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZILUSDT/"
+  },
+  "ZK-USDT": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZKUSDT/"
+  },
+  "ZKC-USDT": {
+    "exchange": "spot",
+    "base": "boundless",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZKCUSDT/"
+  },
+  "ZKP-USDT": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZKPUSDT/"
+  },
+  "ZORA-USDT": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZORAUSDT/"
+  },
+  "ZRO-USDT": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZROUSDT/"
+  },
+  "ZRX-USDT": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "tether",
+    "url": "https://bingx.com/en/spot/ZRXUSDT/"
+  }
+}

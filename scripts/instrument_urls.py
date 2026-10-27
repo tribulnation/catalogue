@@ -146,9 +146,11 @@ SPOT_RULES: dict[str, Rule] = {
   'aster': lambda id, inst, sym: f'https://www.asterdex.com/en/trade/pro/spot/{id}',
   'deribit': lambda id, inst, sym: f'https://www.deribit.com/spot/{id}',
   'binance': lambda id, inst, sym: 'https://www.binance.com/en/trade/{}_{}'.format(*sym.split('binance', id, inst)),
+  'bingx': lambda id, inst, sym: 'https://bingx.com/en/spot/{}/'.format(id.replace('-', '')),
   'bitget': lambda id, inst, sym: f'https://www.bitget.com/spot/{id}',
   'bybit': lambda id, inst, sym: 'https://www.bybit.com/en/trade/spot/{}/{}'.format(*sym.split('bybit', id, inst)),
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/spot/{id}',
+  'coinw': lambda id, inst, sym: 'https://www.coinw.com/spot/{}'.format(id.replace('_', '').lower()),
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{_HYPERLIQUID_SPOT_INDEX.sub("", id)}',
   'kraken': lambda id, inst, sym: 'https://pro.kraken.com/app/trade/{}-{}'.format(
     *(_kraken_symbol(s) for s in sym.split('kraken', id, inst))
@@ -160,12 +162,14 @@ SPOT_RULES: dict[str, Rule] = {
   'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: 'https://www.mexc.com/exchange/{}_{}'.format(*sym.split('mexc', id, inst)),
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-spot/{id.lower()}',
+  'pionex': lambda id, inst, sym: f'https://www.pionex.com/en/trade/{id}/Bot',
 }
 
 PERPETUAL_RULES: dict[str, Rule] = {
   'aster': lambda id, inst, sym: f'https://www.asterdex.com/en/trade/pro/futures/{id}',
   'deribit': lambda id, inst, sym: f'https://www.deribit.com/futures/{id}',
   'binance': lambda id, inst, sym: f'https://www.binance.com/en/futures/{id}',
+  'bingx': lambda id, inst, sym: f'https://bingx.com/en/perpetual/{id}/',
   'bitget': bitget_perpetual_url,
   'bybit': lambda id, inst, sym: f'https://www.bybit.com/trade/usdt/{id}',
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/perpetuals/{id}',
