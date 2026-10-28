@@ -1,0 +1,879 @@
+{
+  "0GUSDT": {
+    "exchange": "perp",
+    "base": "zero-gravity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/0GUSDT"
+  },
+  "1000BONKUSDT": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://omni.apex.exchange/trade/1000BONKUSDT"
+  },
+  "1000PEPEUSDT": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://omni.apex.exchange/trade/1000PEPEUSDT"
+  },
+  "AAPLUSDT": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/AAPLUSDT"
+  },
+  "AAVEUSDT": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/AAVEUSDT"
+  },
+  "ADAUSDT": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ADAUSDT"
+  },
+  "AMDUSDT": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/AMDUSDT"
+  },
+  "AMZNUSDT": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/AMZNUSDT"
+  },
+  "APEXUSDT": {
+    "exchange": "perp",
+    "base": "apex-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/APEXUSDT"
+  },
+  "APTUSDT": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/APTUSDT"
+  },
+  "ARBUSDT": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ARBUSDT"
+  },
+  "ARUSDT": {
+    "exchange": "perp",
+    "base": "arweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ARUSDT"
+  },
+  "ASTERUSDT": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ASTERUSDT"
+  },
+  "AVAXUSDT": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/AVAXUSDT"
+  },
+  "AVGOUSDT": {
+    "exchange": "perp",
+    "base": "broadcom",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/AVGOUSDT"
+  },
+  "BCHUSDT": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/BCHUSDT"
+  },
+  "BERAUSDT": {
+    "exchange": "perp",
+    "base": "berachain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/BERAUSDT"
+  },
+  "BMNRUSDT": {
+    "exchange": "perp",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/BMNRUSDT"
+  },
+  "BNBUSDT": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/BNBUSDT"
+  },
+  "BTCUSDT": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/BTCUSDT"
+  },
+  "BZUSDT": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/BZUSDT"
+  },
+  "CAKEUSDT": {
+    "exchange": "perp",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/CAKEUSDT"
+  },
+  "CASHCATUSDT": {
+    "exchange": "perp",
+    "base": "cash-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/CASHCATUSDT"
+  },
+  "CBRSUSDT": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/CBRSUSDT"
+  },
+  "CHIPUSDT": {
+    "exchange": "perp",
+    "base": "usd-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/CHIPUSDT"
+  },
+  "CHZUSDT": {
+    "exchange": "perp",
+    "base": "chiliz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/CHZUSDT"
+  },
+  "CLUSDT": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/CLUSDT"
+  },
+  "COINUSDT": {
+    "exchange": "perp",
+    "base": "coinbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/COINUSDT"
+  },
+  "CRCLUSDT": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/CRCLUSDT"
+  },
+  "CRVUSDT": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/CRVUSDT"
+  },
+  "CXMTUSDT": {
+    "exchange": "perp",
+    "base": "cxmt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/CXMTUSDT"
+  },
+  "DOGEUSDT": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/DOGEUSDT"
+  },
+  "DRAMUSDT": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/DRAMUSDT"
+  },
+  "EDGEUSDT": {
+    "exchange": "perp",
+    "base": "edgex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/EDGEUSDT"
+  },
+  "EIGENUSDT": {
+    "exchange": "perp",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/EIGENUSDT"
+  },
+  "ENAUSDT": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ENAUSDT"
+  },
+  "ENSUSDT": {
+    "exchange": "perp",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ENSUSDT"
+  },
+  "ETHUSDT": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ETHUSDT"
+  },
+  "EWYUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/EWYUSDT"
+  },
+  "FARTCOINUSDT": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/FARTCOINUSDT"
+  },
+  "FILUSDT": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/FILUSDT"
+  },
+  "GOOGLUSDT": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/GOOGLUSDT"
+  },
+  "HBARUSDT": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/HBARUSDT"
+  },
+  "HMSTRUSDT": {
+    "exchange": "perp",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/HMSTRUSDT"
+  },
+  "HOODUSDT": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/HOODUSDT"
+  },
+  "HYPEUSDT": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/HYPEUSDT"
+  },
+  "INJUSDT": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/INJUSDT"
+  },
+  "INTCUSDT": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/INTCUSDT"
+  },
+  "JUPUSDT": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/JUPUSDT"
+  },
+  "KAITOUSDT": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/KAITOUSDT"
+  },
+  "LAYERUSDT": {
+    "exchange": "perp",
+    "base": "solayer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/LAYERUSDT"
+  },
+  "LDOUSDT": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/LDOUSDT"
+  },
+  "LINEAUSDT": {
+    "exchange": "perp",
+    "base": "linea",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/LINEAUSDT"
+  },
+  "LINKUSDT": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/LINKUSDT"
+  },
+  "LITEUSDT": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/LITEUSDT"
+  },
+  "LITUSDT": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/LITUSDT"
+  },
+  "LTCUSDT": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/LTCUSDT"
+  },
+  "MEGAUSDT": {
+    "exchange": "perp",
+    "base": "megaeth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/MEGAUSDT"
+  },
+  "METAUSDT": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/METAUSDT"
+  },
+  "METUSDT": {
+    "exchange": "perp",
+    "base": "meteora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/METUSDT"
+  },
+  "MNTUSDT": {
+    "exchange": "perp",
+    "base": "mantle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/MNTUSDT"
+  },
+  "MONUSDT": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/MONUSDT"
+  },
+  "MOODENGUSDT": {
+    "exchange": "perp",
+    "base": "moo-deng",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/MOODENGUSDT"
+  },
+  "MRVLUSDT": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/MRVLUSDT"
+  },
+  "MSFTUSDT": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/MSFTUSDT"
+  },
+  "MSTRUSDT": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/MSTRUSDT"
+  },
+  "MUUSDT": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/MUUSDT"
+  },
+  "MYXUSDT": {
+    "exchange": "perp",
+    "base": "myx-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/MYXUSDT"
+  },
+  "NATGASUSDT": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/NATGASUSDT"
+  },
+  "NEARUSDT": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/NEARUSDT"
+  },
+  "NVDAUSDT": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/NVDAUSDT"
+  },
+  "NXPCUSDT": {
+    "exchange": "perp",
+    "base": "nexpace",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/NXPCUSDT"
+  },
+  "ONDOUSDT": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ONDOUSDT"
+  },
+  "OPUSDT": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/OPUSDT"
+  },
+  "ORACLEUSDT": {
+    "exchange": "perp",
+    "base": "oracle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ORACLEUSDT"
+  },
+  "OURAUSDT": {
+    "exchange": "perp",
+    "base": "oura-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/OURAUSDT"
+  },
+  "PAXGUSDT": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/PAXGUSDT"
+  },
+  "PENDLEUSDT": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/PENDLEUSDT"
+  },
+  "PENGUUSDT": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/PENGUUSDT"
+  },
+  "PLTRUSDT": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/PLTRUSDT"
+  },
+  "POLUSDT": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/POLUSDT"
+  },
+  "PONSUSDT": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/PONSUSDT"
+  },
+  "POPCATUSDT": {
+    "exchange": "perp",
+    "base": "popcat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/POPCATUSDT"
+  },
+  "PRLUSDT": {
+    "exchange": "perp",
+    "base": "pearl",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/PRLUSDT"
+  },
+  "PROVEUSDT": {
+    "exchange": "perp",
+    "base": "succinct",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/PROVEUSDT"
+  },
+  "PUMPUSDT": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/PUMPUSDT"
+  },
+  "QQQUSDT": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/QQQUSDT"
+  },
+  "RENDERUSDT": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/RENDERUSDT"
+  },
+  "RKLBUSDT": {
+    "exchange": "perp",
+    "base": "rocket-lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/RKLBUSDT"
+  },
+  "SAHARAUSDT": {
+    "exchange": "perp",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SAHARAUSDT"
+  },
+  "SAMSUNGUSDT": {
+    "exchange": "perp",
+    "base": "samsung-electronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SAMSUNGUSDT"
+  },
+  "SEIUSDT": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SEIUSDT"
+  },
+  "SIGNUSDT": {
+    "exchange": "perp",
+    "base": "sign-global",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SIGNUSDT"
+  },
+  "SKHYNIXUSDT": {
+    "exchange": "perp",
+    "base": "sk-hynix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SKHYNIXUSDT"
+  },
+  "SKYUSDT": {
+    "exchange": "perp",
+    "base": "sky",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SKYUSDT"
+  },
+  "SNDKUSDT": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SNDKUSDT"
+  },
+  "SOLUSDT": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SOLUSDT"
+  },
+  "SOMIUSDT": {
+    "exchange": "perp",
+    "base": "somnia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SOMIUSDT"
+  },
+  "SOXLUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SOXLUSDT"
+  },
+  "SPCXUSDT": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SPCXUSDT"
+  },
+  "SPXUSDT": {
+    "exchange": "perp",
+    "base": "spx6900",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SPXUSDT"
+  },
+  "SPYUSDT": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SPYUSDT"
+  },
+  "STXUSDT": {
+    "exchange": "perp",
+    "base": "stacks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/STXUSDT"
+  },
+  "SUIUSDT": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SUIUSDT"
+  },
+  "SUSDT": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/SUSDT"
+  },
+  "TAOUSDT": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/TAOUSDT"
+  },
+  "TIAUSDT": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/TIAUSDT"
+  },
+  "TRXUSDT": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/TRXUSDT"
+  },
+  "TSLAUSDT": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/TSLAUSDT"
+  },
+  "UNITREEUSDT": {
+    "exchange": "perp",
+    "base": "unitree-robotics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/UNITREEUSDT"
+  },
+  "UNIUSDT": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/UNIUSDT"
+  },
+  "USELESSUSDT": {
+    "exchange": "perp",
+    "base": "useless-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/USELESSUSDT"
+  },
+  "VIRTUALUSDT": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/VIRTUALUSDT"
+  },
+  "WIFUSDT": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/WIFUSDT"
+  },
+  "WLDUSDT": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/WLDUSDT"
+  },
+  "WLFIUSDT": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/WLFIUSDT"
+  },
+  "XAGUSDT": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/XAGUSDT"
+  },
+  "XAUUSDT": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/XAUUSDT"
+  },
+  "XLMUSDT": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/XLMUSDT"
+  },
+  "XPLUSDT": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/XPLUSDT"
+  },
+  "XRPUSDT": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/XRPUSDT"
+  },
+  "ZECUSDT": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ZECUSDT"
+  },
+  "ZENUSDT": {
+    "exchange": "perp",
+    "base": "horizen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ZENUSDT"
+  },
+  "ZKUSDT": {
+    "exchange": "perp",
+    "base": "zksync",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ZKUSDT"
+  },
+  "ZROUSDT": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://omni.apex.exchange/trade/ZROUSDT"
+  }
+}

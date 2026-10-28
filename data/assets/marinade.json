@@ -1,0 +1,22 @@
+{
+  "id": "marinade",
+  "display_name": "Marinade",
+  "symbol": "MNDE",
+  "category": "crypto",
+  "tags": [
+    "DeFi",
+    "Liquid Staking"
+  ],
+  "about": {
+    "en": "MNDE is the governance token of Marinade, a Solana staking protocol that delegates SOL across a broad set of validators and issues mSOL as its liquid staking token, alongside native staking products. MNDE holders vote on protocol parameters and the validator delegation strategy. It is the SPL token at MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey on Solana; it is not mSOL, which is catalogued separately as marinade-staked-sol."
+  },
+  "urls": {
+    "Website": "https://marinade.finance/",
+    "Documentation": "https://docs.marinade.finance/",
+    "Source code": "https://github.com/marinade-finance"
+  },
+  "external": {
+    "coingecko": "marinade",
+    "coinmarketcap": "13803"
+  }
+}

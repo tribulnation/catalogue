@@ -1,0 +1,704 @@
+{
+  "1000BONK-PERP": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://app.aevo.xyz/perpetual/1000bonk"
+  },
+  "1000PEPE-PERP": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://app.aevo.xyz/perpetual/1000pepe"
+  },
+  "AAOI-PERP": {
+    "exchange": "perp",
+    "base": "applied-optoelectronics",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/aaoi"
+  },
+  "AAPL-PERP": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/aapl"
+  },
+  "AAVE-PERP": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/aave"
+  },
+  "AERO-PERP": {
+    "exchange": "perp",
+    "base": "aerodrome",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/aero"
+  },
+  "AEVO-PERP": {
+    "exchange": "perp",
+    "base": "aevo-exchange",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/aevo"
+  },
+  "AMD-PERP": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/amd"
+  },
+  "AMZN-PERP": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/amzn"
+  },
+  "ANTHROPIC-PERP": {
+    "exchange": "perp",
+    "base": "anthropic",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/anthropic"
+  },
+  "APT-PERP": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/apt"
+  },
+  "ARB-PERP": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/arb"
+  },
+  "AVAX-PERP": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/avax"
+  },
+  "AXTI-PERP": {
+    "exchange": "perp",
+    "base": "axt",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/axti"
+  },
+  "BE-PERP": {
+    "exchange": "perp",
+    "base": "bloom-energy",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/be"
+  },
+  "BNB-PERP": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/bnb"
+  },
+  "BTC-PERP": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/btc"
+  },
+  "CBRS-PERP": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/cbrs"
+  },
+  "COHR-PERP": {
+    "exchange": "perp",
+    "base": "coherent-corp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/cohr"
+  },
+  "COIN-PERP": {
+    "exchange": "perp",
+    "base": "coinbase",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/coin"
+  },
+  "COPPER-PERP": {
+    "exchange": "perp",
+    "base": "copper",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/copper"
+  },
+  "CRCL-PERP": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/crcl"
+  },
+  "CRV-PERP": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/crv"
+  },
+  "DOGE-PERP": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/doge"
+  },
+  "DRAM-PERP": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/dram"
+  },
+  "DYDX-PERP": {
+    "exchange": "perp",
+    "base": "dydx",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/dydx"
+  },
+  "ENA-PERP": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/ena"
+  },
+  "ETH-PERP": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/eth"
+  },
+  "ETHFI-PERP": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/ethfi"
+  },
+  "EURUSD-PERP": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/eurusd"
+  },
+  "FARTCOIN-PERP": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/fartcoin"
+  },
+  "GOOGL-PERP": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/googl"
+  },
+  "HOOD-PERP": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/hood"
+  },
+  "HYPE-PERP": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/hype"
+  },
+  "INJ-PERP": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/inj"
+  },
+  "INTC-PERP": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/intc"
+  },
+  "JITO-PERP": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/jito"
+  },
+  "JUP-PERP": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/jup"
+  },
+  "KAITO-PERP": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/kaito"
+  },
+  "LDO-PERP": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/ldo"
+  },
+  "LINK-PERP": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/link"
+  },
+  "LIT-PERP": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/lit"
+  },
+  "LITE-PERP": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/lite"
+  },
+  "LTC-PERP": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/ltc"
+  },
+  "MELANIA-PERP": {
+    "exchange": "perp",
+    "base": "melania-meme",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/melania"
+  },
+  "META-PERP": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/meta"
+  },
+  "MINIMAX-PERP": {
+    "exchange": "perp",
+    "base": "minimax",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/minimax"
+  },
+  "MON-PERP": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/mon"
+  },
+  "MRVL-PERP": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/mrvl"
+  },
+  "MSFT-PERP": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/msft"
+  },
+  "MSTR-PERP": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/mstr"
+  },
+  "MU-PERP": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/mu"
+  },
+  "NBIS-PERP": {
+    "exchange": "perp",
+    "base": "nebius-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/nbis"
+  },
+  "NEAR-PERP": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/near"
+  },
+  "NFLX-PERP": {
+    "exchange": "perp",
+    "base": "netflix",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/nflx"
+  },
+  "NVDA-PERP": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/nvda"
+  },
+  "ONDO-PERP": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/ondo"
+  },
+  "OP-PERP": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/op"
+  },
+  "OPENAI-PERP": {
+    "exchange": "perp",
+    "base": "openai",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/openai"
+  },
+  "PENDLE-PERP": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/pendle"
+  },
+  "PENGU-PERP": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/pengu"
+  },
+  "PLATINUM-PERP": {
+    "exchange": "perp",
+    "base": "platinum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/platinum"
+  },
+  "PLTR-PERP": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/pltr"
+  },
+  "POL-PERP": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/pol"
+  },
+  "PONS-PERP": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/pons"
+  },
+  "PUMP-PERP": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/pump"
+  },
+  "PYTH-PERP": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/pyth"
+  },
+  "QQQ-PERP": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/qqq"
+  },
+  "RKLB-PERP": {
+    "exchange": "perp",
+    "base": "rocket-lab",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/rklb"
+  },
+  "SKHX-PERP": {
+    "exchange": "perp",
+    "base": "sk-hynix",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/skhx"
+  },
+  "SMSN-PERP": {
+    "exchange": "perp",
+    "base": "samsung-electronics",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/smsn"
+  },
+  "SNDK-PERP": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/sndk"
+  },
+  "SOL-PERP": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/sol"
+  },
+  "SOXL-PERP": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/soxl"
+  },
+  "SPCX-PERP": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/spcx"
+  },
+  "SPY-PERP": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/spy"
+  },
+  "SUI-PERP": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/sui"
+  },
+  "TAO-PERP": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/tao"
+  },
+  "TIA-PERP": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/tia"
+  },
+  "TRUMP-PERP": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/trump"
+  },
+  "TRX-PERP": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/trx"
+  },
+  "TSLA-PERP": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/tsla"
+  },
+  "TSM-PERP": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/tsm"
+  },
+  "UNI-PERP": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/uni"
+  },
+  "USDJPY-PERP": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/usdjpy"
+  },
+  "USDKRW-PERP": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "south-korean-won",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/usdkrw"
+  },
+  "USELESS-PERP": {
+    "exchange": "perp",
+    "base": "useless-coin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/useless"
+  },
+  "VIRTUAL-PERP": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/virtual"
+  },
+  "VVV-PERP": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/vvv"
+  },
+  "WIF-PERP": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/wif"
+  },
+  "WLD-PERP": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/wld"
+  },
+  "WTIOIL-PERP": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/wtioil"
+  },
+  "XAG-PERP": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/xag"
+  },
+  "XAU-PERP": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/xau"
+  },
+  "XMR-PERP": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/xmr"
+  },
+  "XPL-PERP": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/xpl"
+  },
+  "XRP-PERP": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/xrp"
+  },
+  "ZEC-PERP": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/zec"
+  },
+  "ZHIPU-PERP": {
+    "exchange": "perp",
+    "base": "zhipu-ai",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/zhipu"
+  },
+  "ZRO-PERP": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.aevo.xyz/perpetual/zro"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "invesco-qqq-etf-ondo-tokenized-etf",
+  "display_name": "Invesco QQQ (Ondo Tokenized)",
+  "symbol": "QQQon",
+  "category": "rwa",
+  "about": {
+    "en": "Invesco QQQ (Ondo Tokenized) (QQQon) is an Ondo tokenized stock issued by Ondo Global Markets (BVI) Limited through the Ondo Stocks platform, giving eligible non-US holders economic exposure to the Invesco QQQ Trust ETF (QQQ). It is fully backed by the underlying security and is a total return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above the underlying's. It is an ERC-20 on Ethereum at 0x0e397938c1aa0680954093495b70a9f5e2249aba, with deployments on BNB Chain and Solana. Holders have a claim on the issuer, not registered ownership or shareholder rights."
+  },
+  "tags": [
+    "ETF"
+  ],
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/qqqon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "invesco-qqq-etf-ondo-tokenized-etf",
+    "coinmarketcap": "38094"
+  }
+}

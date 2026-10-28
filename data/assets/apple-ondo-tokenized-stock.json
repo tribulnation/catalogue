@@ -1,0 +1,20 @@
+{
+  "id": "apple-ondo-tokenized-stock",
+  "display_name": "Apple (Ondo Tokenized)",
+  "symbol": "AAPLon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "AAPLon is the Ondo tokenized stock for Apple, issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is fully backed by AAPL shares and is a total-return tracker: it gives the economic exposure of holding Apple shares with dividends reinvested, so one token does not necessarily equal one share. It is deployed on Ethereum (0x14c3abF95Cb9C93a8b82C1CdCB76D72Cb87b2d4c), BNB Chain, Solana and HyperEVM."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/aaplon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "apple-ondo-tokenized-stock",
+    "coinmarketcap": "38037"
+  }
+}

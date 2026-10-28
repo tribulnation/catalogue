@@ -1,0 +1,1187 @@
+{
+  "AAVE/EUR": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "euro"
+  },
+  "AAVE/USD": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd"
+  },
+  "ADA/EUR": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "euro"
+  },
+  "ADA/USD": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd"
+  },
+  "AERO/EUR": {
+    "exchange": "spot",
+    "base": "aerodrome",
+    "quote": "euro"
+  },
+  "AERO/USD": {
+    "exchange": "spot",
+    "base": "aerodrome",
+    "quote": "usd"
+  },
+  "ALGO/EUR": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "euro"
+  },
+  "ALGO/USD": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd"
+  },
+  "APE/EUR": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "euro"
+  },
+  "APE/USD": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd"
+  },
+  "APT/EUR": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "euro"
+  },
+  "APT/USD": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "usd"
+  },
+  "ARB/EUR": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "euro"
+  },
+  "ARB/USD": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd"
+  },
+  "ASTER/EUR": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "euro"
+  },
+  "ASTER/USD": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "usd"
+  },
+  "ATOM/EUR": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "euro"
+  },
+  "ATOM/USD": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd"
+  },
+  "AVAX/EUR": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "euro"
+  },
+  "AVAX/USD": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd"
+  },
+  "AVNT/EUR": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "euro"
+  },
+  "AVNT/USD": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "usd"
+  },
+  "AXS/EUR": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "euro"
+  },
+  "AXS/USD": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "usd"
+  },
+  "BAT/EUR": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "euro"
+  },
+  "BAT/USD": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "usd"
+  },
+  "BCH/EUR": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "euro"
+  },
+  "BCH/USD": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd"
+  },
+  "BILL/EUR": {
+    "exchange": "spot",
+    "base": "billions-network",
+    "quote": "euro"
+  },
+  "BILL/USD": {
+    "exchange": "spot",
+    "base": "billions-network",
+    "quote": "usd"
+  },
+  "BNB/EUR": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "euro"
+  },
+  "BNB/USD": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd"
+  },
+  "BONK/EUR": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "euro"
+  },
+  "BONK/USD": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd"
+  },
+  "BTC/EUR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro"
+  },
+  "BTC/EURC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro-coin"
+  },
+  "BTC/GBP": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "british-pound"
+  },
+  "BTC/RLUSD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "ripple-usd"
+  },
+  "BTC/USD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd"
+  },
+  "BTC/USDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin"
+  },
+  "BTC/USDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether"
+  },
+  "CASHCAT/EUR": {
+    "exchange": "spot",
+    "base": "cash-cat",
+    "quote": "euro"
+  },
+  "CASHCAT/USD": {
+    "exchange": "spot",
+    "base": "cash-cat",
+    "quote": "usd"
+  },
+  "CC/EUR": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "euro"
+  },
+  "CC/USD": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "usd"
+  },
+  "CHIP/EUR": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "euro"
+  },
+  "CHIP/USD": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "usd"
+  },
+  "CHZ/EUR": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "euro"
+  },
+  "CHZ/USD": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "usd"
+  },
+  "COMP/EUR": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "euro"
+  },
+  "COMP/USD": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "usd"
+  },
+  "CRV/EUR": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "euro"
+  },
+  "CRV/USD": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd"
+  },
+  "DOGE/EUR": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "euro"
+  },
+  "DOGE/USD": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd"
+  },
+  "DOT/EUR": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "euro"
+  },
+  "DOT/USD": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd"
+  },
+  "EIGEN/EUR": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "euro"
+  },
+  "EIGEN/USD": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "usd"
+  },
+  "ENA/EUR": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "euro"
+  },
+  "ENA/USD": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd"
+  },
+  "ETC/EUR": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "euro"
+  },
+  "ETC/USD": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "usd"
+  },
+  "ETH/BTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin"
+  },
+  "ETH/EUR": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro"
+  },
+  "ETH/EURC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro-coin"
+  },
+  "ETH/GBP": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "british-pound"
+  },
+  "ETH/RLUSD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "ripple-usd"
+  },
+  "ETH/USD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd"
+  },
+  "ETH/USDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin"
+  },
+  "ETH/USDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether"
+  },
+  "EUR/USD": {
+    "exchange": "spot",
+    "base": "euro",
+    "quote": "usd"
+  },
+  "EURC/EUR": {
+    "exchange": "spot",
+    "base": "euro-coin",
+    "quote": "euro"
+  },
+  "EURC/USDC": {
+    "exchange": "spot",
+    "base": "euro-coin",
+    "quote": "usd-coin"
+  },
+  "FARTCOIN/USD": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "usd"
+  },
+  "FET/EUR": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "euro"
+  },
+  "FET/USD": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd"
+  },
+  "FLOKI/EUR": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "euro"
+  },
+  "FLOKI/USD": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "usd"
+  },
+  "FLR/EUR": {
+    "exchange": "spot",
+    "base": "flare",
+    "quote": "euro"
+  },
+  "FLR/USD": {
+    "exchange": "spot",
+    "base": "flare",
+    "quote": "usd"
+  },
+  "GBP/USD": {
+    "exchange": "spot",
+    "base": "british-pound",
+    "quote": "usd"
+  },
+  "GRT/EUR": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "euro"
+  },
+  "GRT/USD": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "usd"
+  },
+  "HBAR/EUR": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "euro"
+  },
+  "HBAR/USD": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "usd"
+  },
+  "HYPE/EUR": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "euro"
+  },
+  "HYPE/USD": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd"
+  },
+  "ICP/EUR": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "euro"
+  },
+  "ICP/USD": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "usd"
+  },
+  "IMX/EUR": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "euro"
+  },
+  "IMX/USD": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "usd"
+  },
+  "INJ/EUR": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "euro"
+  },
+  "INJ/USD": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd"
+  },
+  "JTO/EUR": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "euro"
+  },
+  "JTO/USD": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "usd"
+  },
+  "JUP/EUR": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "euro"
+  },
+  "JUP/USD": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd"
+  },
+  "LDO/EUR": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "euro"
+  },
+  "LDO/USD": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "usd"
+  },
+  "LINK/EUR": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "euro"
+  },
+  "LINK/GBP": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "british-pound"
+  },
+  "LINK/USD": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd"
+  },
+  "LIT/EUR": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "euro"
+  },
+  "LIT/USD": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "usd"
+  },
+  "LTC/BTC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "bitcoin"
+  },
+  "LTC/EUR": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "euro"
+  },
+  "LTC/USD": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd"
+  },
+  "MANA/EUR": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "euro"
+  },
+  "MANA/USD": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "usd"
+  },
+  "MEGA/EUR": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "euro"
+  },
+  "MEGA/USD": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "usd"
+  },
+  "MEW/EUR": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "euro"
+  },
+  "MEW/USD": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "usd"
+  },
+  "MNT/EUR": {
+    "exchange": "spot",
+    "base": "mantle",
+    "quote": "euro"
+  },
+  "MNT/USD": {
+    "exchange": "spot",
+    "base": "mantle",
+    "quote": "usd"
+  },
+  "MON/EUR": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "euro"
+  },
+  "MON/USD": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "usd"
+  },
+  "MOODENG/EUR": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "euro"
+  },
+  "MOODENG/USD": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "usd"
+  },
+  "MORPHO/EUR": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "euro"
+  },
+  "MORPHO/USD": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "usd"
+  },
+  "NEAR/EUR": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "euro"
+  },
+  "NEAR/USD": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd"
+  },
+  "ONDO/EUR": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "euro"
+  },
+  "ONDO/USD": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "usd"
+  },
+  "OP/EUR": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "euro"
+  },
+  "OP/USD": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd"
+  },
+  "ORCA/EUR": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "euro"
+  },
+  "ORCA/USD": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "usd"
+  },
+  "PAXG/EUR": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "euro"
+  },
+  "PAXG/USD": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "usd"
+  },
+  "PENGU/EUR": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "euro"
+  },
+  "PENGU/USD": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd"
+  },
+  "PEPE/EUR": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "euro"
+  },
+  "PEPE/USD": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd"
+  },
+  "PNUT/EUR": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "euro"
+  },
+  "PNUT/USD": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "usd"
+  },
+  "POL/EUR": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "euro"
+  },
+  "POL/USD": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd"
+  },
+  "POPCAT/EUR": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "euro"
+  },
+  "POPCAT/USD": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "usd"
+  },
+  "PYTH/EUR": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "euro"
+  },
+  "PYTH/USD": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "usd"
+  },
+  "PYUSD/USD": {
+    "exchange": "spot",
+    "base": "paypal-usd",
+    "quote": "usd"
+  },
+  "QNT/EUR": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "euro"
+  },
+  "QNT/USD": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "usd"
+  },
+  "RAY/EUR": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "euro"
+  },
+  "RAY/USD": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "usd"
+  },
+  "RE/EUR": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "euro"
+  },
+  "RE/USD": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "usd"
+  },
+  "RENDER/EUR": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "euro"
+  },
+  "RENDER/USD": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "usd"
+  },
+  "RLUSD/EUR": {
+    "exchange": "spot",
+    "base": "ripple-usd",
+    "quote": "euro"
+  },
+  "RLUSD/USD": {
+    "exchange": "spot",
+    "base": "ripple-usd",
+    "quote": "usd"
+  },
+  "RLUSD/USDT": {
+    "exchange": "spot",
+    "base": "ripple-usd",
+    "quote": "tether"
+  },
+  "S/EUR": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "euro"
+  },
+  "S/USD": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "usd"
+  },
+  "SAND/EUR": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "euro"
+  },
+  "SAND/USD": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "usd"
+  },
+  "SEI/EUR": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "euro"
+  },
+  "SEI/USD": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "usd"
+  },
+  "SGD/USD": {
+    "exchange": "spot",
+    "base": "singapore-dollar",
+    "quote": "usd"
+  },
+  "SHIB/EUR": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "euro"
+  },
+  "SHIB/USD": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd"
+  },
+  "SKR/EUR": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "euro"
+  },
+  "SKR/USD": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "usd"
+  },
+  "SKY/EUR": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "euro"
+  },
+  "SKY/USD": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd"
+  },
+  "SNX/EUR": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "euro"
+  },
+  "SNX/USD": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "usd"
+  },
+  "SOL/EUR": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "euro"
+  },
+  "SOL/USD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd"
+  },
+  "SOL/USDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin"
+  },
+  "STRK/EUR": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "euro"
+  },
+  "STRK/USD": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "usd"
+  },
+  "SUI/EUR": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "euro"
+  },
+  "SUI/USD": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd"
+  },
+  "SYRUP/EUR": {
+    "exchange": "spot",
+    "base": "syrup",
+    "quote": "euro"
+  },
+  "SYRUP/USD": {
+    "exchange": "spot",
+    "base": "syrup",
+    "quote": "usd"
+  },
+  "TAO/EUR": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "euro"
+  },
+  "TAO/USD": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "usd"
+  },
+  "TON/EUR": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "euro"
+  },
+  "TON/USD": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "usd"
+  },
+  "TRAC/EUR": {
+    "exchange": "spot",
+    "base": "origintrail",
+    "quote": "euro"
+  },
+  "TRAC/USD": {
+    "exchange": "spot",
+    "base": "origintrail",
+    "quote": "usd"
+  },
+  "TRUMP/EUR": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "euro"
+  },
+  "TRUMP/USD": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd"
+  },
+  "TRX/EUR": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "euro"
+  },
+  "TRX/USD": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd"
+  },
+  "UNI/EUR": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "euro"
+  },
+  "UNI/USD": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd"
+  },
+  "USDC/EUR": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "euro"
+  },
+  "USDC/USD": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "usd"
+  },
+  "USDC/USDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether"
+  },
+  "USDG/USD": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "usd"
+  },
+  "USDT/EUR": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "euro"
+  },
+  "USDT/USD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd"
+  },
+  "VIRTUAL/EUR": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "euro"
+  },
+  "VIRTUAL/USD": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "usd"
+  },
+  "VVV/EUR": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "euro"
+  },
+  "VVV/USD": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "usd"
+  },
+  "W/EUR": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "euro"
+  },
+  "W/USD": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "usd"
+  },
+  "WIF/EUR": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "euro"
+  },
+  "WIF/USD": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd"
+  },
+  "WLD/EUR": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "euro"
+  },
+  "WLD/USD": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "usd"
+  },
+  "WLFI/EUR": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "euro"
+  },
+  "WLFI/USD": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "usd"
+  },
+  "XCN/EUR": {
+    "exchange": "spot",
+    "base": "onyxcoin",
+    "quote": "euro"
+  },
+  "XCN/USD": {
+    "exchange": "spot",
+    "base": "onyxcoin",
+    "quote": "usd"
+  },
+  "XDC/EUR": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "euro"
+  },
+  "XDC/USD": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "usd"
+  },
+  "XLM/EUR": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "euro"
+  },
+  "XLM/USD": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "usd"
+  },
+  "XPL/EUR": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "euro"
+  },
+  "XPL/USD": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "usd"
+  },
+  "XRP/BTC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "bitcoin"
+  },
+  "XRP/EUR": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "euro"
+  },
+  "XRP/GBP": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "british-pound"
+  },
+  "XRP/RLUSD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "ripple-usd"
+  },
+  "XRP/USD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd"
+  },
+  "XRP/USDC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd-coin"
+  },
+  "XRP/USDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether"
+  },
+  "XSGD/USD": {
+    "exchange": "spot",
+    "base": "xsgd",
+    "quote": "usd"
+  },
+  "XSGD/USDT": {
+    "exchange": "spot",
+    "base": "xsgd",
+    "quote": "tether"
+  },
+  "XTZ/EUR": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "euro"
+  },
+  "XTZ/USD": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "usd"
+  },
+  "ZEC/EUR": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "euro"
+  },
+  "ZEC/USD": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "usd"
+  },
+  "ZORA/EUR": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "euro"
+  },
+  "ZORA/USD": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "usd"
+  },
+  "ZRO/EUR": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "euro"
+  },
+  "ZRO/USD": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "usd"
+  },
+  "ZRX/EUR": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "euro"
+  },
+  "ZRX/USD": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "usd"
+  }
+}

@@ -1,0 +1,4436 @@
+{
+  "0G_USDT": {
+    "exchange": "spot",
+    "base": "zero-gravity",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/0G_USDT"
+  },
+  "1INCH_BTC": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/1INCH_BTC"
+  },
+  "1INCH_USDC": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/1INCH_USDC"
+  },
+  "1INCH_USDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/1INCH_USDT"
+  },
+  "2Z_USDT": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/2Z_USDT"
+  },
+  "AAVE_BTC": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/AAVE_BTC"
+  },
+  "AAVE_EUR": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/AAVE_EUR"
+  },
+  "AAVE_TRY": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/AAVE_TRY"
+  },
+  "AAVE_USDC": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/AAVE_USDC"
+  },
+  "AAVE_USDT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AAVE_USDT"
+  },
+  "AAVE_WBT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/AAVE_WBT"
+  },
+  "ACE_BTC": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ACE_BTC"
+  },
+  "ACE_USDT": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ACE_USDT"
+  },
+  "ACN_USDT": {
+    "exchange": "spot",
+    "base": "solidus-aitech",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ACN_USDT"
+  },
+  "ACT_USDT": {
+    "exchange": "spot",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ACT_USDT"
+  },
+  "ADA_BTC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ADA_BTC"
+  },
+  "ADA_EUR": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ADA_EUR"
+  },
+  "ADA_TRY": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/ADA_TRY"
+  },
+  "ADA_USD": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/ADA_USD"
+  },
+  "ADA_USDC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ADA_USDC"
+  },
+  "ADA_USDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ADA_USDT"
+  },
+  "ADA_WBT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/ADA_WBT"
+  },
+  "ADX_USDT": {
+    "exchange": "spot",
+    "base": "adex",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ADX_USDT"
+  },
+  "AEVO_USDT": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AEVO_USDT"
+  },
+  "AGLD_EUR": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/AGLD_EUR"
+  },
+  "AGLD_USDT": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AGLD_USDT"
+  },
+  "AIXBT_USDC": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/AIXBT_USDC"
+  },
+  "AIXBT_USDT": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AIXBT_USDT"
+  },
+  "AI_USDT": {
+    "exchange": "spot",
+    "base": "sleepless-ai",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AI_USDT"
+  },
+  "ALGO_BTC": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ALGO_BTC"
+  },
+  "ALGO_EUR": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ALGO_EUR"
+  },
+  "ALGO_USDC": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ALGO_USDC"
+  },
+  "ALGO_USDT": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ALGO_USDT"
+  },
+  "ALICE_USDT": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ALICE_USDT"
+  },
+  "ALLO_USDT": {
+    "exchange": "spot",
+    "base": "allora",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ALLO_USDT"
+  },
+  "ALT_USDT": {
+    "exchange": "spot",
+    "base": "altlayer",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ALT_USDT"
+  },
+  "AMP_USDT": {
+    "exchange": "spot",
+    "base": "amp-token",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AMP_USDT"
+  },
+  "ANIME_USDT": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ANIME_USDT"
+  },
+  "ANKR_BTC": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ANKR_BTC"
+  },
+  "ANKR_USDT": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ANKR_USDT"
+  },
+  "APE_BTC": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/APE_BTC"
+  },
+  "APE_EUR": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/APE_EUR"
+  },
+  "APE_TRY": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/APE_TRY"
+  },
+  "APE_USDC": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/APE_USDC"
+  },
+  "APE_USDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/APE_USDT"
+  },
+  "API3_USDT": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/API3_USDT"
+  },
+  "APT_BTC": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/APT_BTC"
+  },
+  "APT_EUR": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/APT_EUR"
+  },
+  "APT_TRY": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/APT_TRY"
+  },
+  "APT_USDC": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/APT_USDC"
+  },
+  "APT_USDT": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/APT_USDT"
+  },
+  "ARB_BTC": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ARB_BTC"
+  },
+  "ARB_EUR": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ARB_EUR"
+  },
+  "ARB_TRY": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/ARB_TRY"
+  },
+  "ARB_USDC": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ARB_USDC"
+  },
+  "ARB_USDT": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ARB_USDT"
+  },
+  "ARKM_BTC": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ARKM_BTC"
+  },
+  "ARKM_TRY": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/ARKM_TRY"
+  },
+  "ARKM_USDT": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ARKM_USDT"
+  },
+  "ARK_USDT": {
+    "exchange": "spot",
+    "base": "ark",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ARK_USDT"
+  },
+  "ARPA_USDT": {
+    "exchange": "spot",
+    "base": "arpa-chain",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ARPA_USDT"
+  },
+  "AR_BTC": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/AR_BTC"
+  },
+  "AR_TRY": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/AR_TRY"
+  },
+  "AR_USDC": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/AR_USDC"
+  },
+  "AR_USDT": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AR_USDT"
+  },
+  "ASTER_USDT": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ASTER_USDT"
+  },
+  "ASTR_BTC": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ASTR_BTC"
+  },
+  "ASTR_EUR": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ASTR_EUR"
+  },
+  "ASTR_USDT": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ASTR_USDT"
+  },
+  "ATH_USDC": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ATH_USDC"
+  },
+  "ATH_USDT": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ATH_USDT"
+  },
+  "ATOM_BTC": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ATOM_BTC"
+  },
+  "ATOM_EUR": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ATOM_EUR"
+  },
+  "ATOM_TRY": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/ATOM_TRY"
+  },
+  "ATOM_USDC": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ATOM_USDC"
+  },
+  "ATOM_USDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ATOM_USDT"
+  },
+  "AUCTION_USDT": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AUCTION_USDT"
+  },
+  "AUDIO_USDT": {
+    "exchange": "spot",
+    "base": "audius",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AUDIO_USDT"
+  },
+  "AURORA_USDT": {
+    "exchange": "spot",
+    "base": "aurora",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AURORA_USDT"
+  },
+  "AVAX_BTC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/AVAX_BTC"
+  },
+  "AVAX_EUR": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/AVAX_EUR"
+  },
+  "AVAX_TRY": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/AVAX_TRY"
+  },
+  "AVAX_USDC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/AVAX_USDC"
+  },
+  "AVAX_USDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AVAX_USDT"
+  },
+  "AVAX_WBT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/AVAX_WBT"
+  },
+  "AVNT_USDT": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AVNT_USDT"
+  },
+  "AWE_EUR": {
+    "exchange": "spot",
+    "base": "stp-network",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/AWE_EUR"
+  },
+  "AWE_USDC": {
+    "exchange": "spot",
+    "base": "stp-network",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/AWE_USDC"
+  },
+  "AWE_USDT": {
+    "exchange": "spot",
+    "base": "stp-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AWE_USDT"
+  },
+  "AXL_EUR": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/AXL_EUR"
+  },
+  "AXL_USDT": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AXL_USDT"
+  },
+  "AXS_BTC": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/AXS_BTC"
+  },
+  "AXS_TRY": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/AXS_TRY"
+  },
+  "AXS_USDC": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/AXS_USDC"
+  },
+  "AXS_USDT": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/AXS_USDT"
+  },
+  "A_BTC": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/A_BTC"
+  },
+  "A_EUR": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/A_EUR"
+  },
+  "A_TRY": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/A_TRY"
+  },
+  "A_USDC": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/A_USDC"
+  },
+  "A_USDT": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/A_USDT"
+  },
+  "BABY_USDC": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/BABY_USDC"
+  },
+  "BABY_USDT": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BABY_USDT"
+  },
+  "BANANA_USDT": {
+    "exchange": "spot",
+    "base": "banana-gun",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BANANA_USDT"
+  },
+  "BAND_USDT": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BAND_USDT"
+  },
+  "BARD_USDT": {
+    "exchange": "spot",
+    "base": "lombard",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BARD_USDT"
+  },
+  "BASED_USDT": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BASED_USDT"
+  },
+  "BAT_USDT": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BAT_USDT"
+  },
+  "BB_BTC": {
+    "exchange": "spot",
+    "base": "bouncebit",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/BB_BTC"
+  },
+  "BB_TRY": {
+    "exchange": "spot",
+    "base": "bouncebit",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/BB_TRY"
+  },
+  "BB_USDT": {
+    "exchange": "spot",
+    "base": "bouncebit",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BB_USDT"
+  },
+  "BCH_BTC": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/BCH_BTC"
+  },
+  "BCH_EUR": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/BCH_EUR"
+  },
+  "BCH_TRY": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/BCH_TRY"
+  },
+  "BCH_USDC": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/BCH_USDC"
+  },
+  "BCH_USDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BCH_USDT"
+  },
+  "BCH_WBT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/BCH_WBT"
+  },
+  "BERA_EUR": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/BERA_EUR"
+  },
+  "BERA_USDT": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BERA_USDT"
+  },
+  "BERT_USDT": {
+    "exchange": "spot",
+    "base": "bertram-the-pomeranian",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BERT_USDT"
+  },
+  "BICO_USDT": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BICO_USDT"
+  },
+  "BIGTIME_USDC": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/BIGTIME_USDC"
+  },
+  "BIGTIME_USDT": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BIGTIME_USDT"
+  },
+  "BIO_USDT": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BIO_USDT"
+  },
+  "BLUR_USDC": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/BLUR_USDC"
+  },
+  "BLUR_USDT": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BLUR_USDT"
+  },
+  "BNB_BTC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/BNB_BTC"
+  },
+  "BNB_EUR": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/BNB_EUR"
+  },
+  "BNB_TRY": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/BNB_TRY"
+  },
+  "BNB_USDC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/BNB_USDC"
+  },
+  "BNB_USDT": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BNB_USDT"
+  },
+  "BNT_USDT": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BNT_USDT"
+  },
+  "BOME_USDT": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BOME_USDT"
+  },
+  "BONK_TRY": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/BONK_TRY"
+  },
+  "BONK_USDC": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/BONK_USDC"
+  },
+  "BONK_USDT": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BONK_USDT"
+  },
+  "BREV_USDT": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BREV_USDT"
+  },
+  "BTC_CHF": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "swiss-franc",
+    "url": "https://whitebit.com/trade/BTC_CHF"
+  },
+  "BTC_EUR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/BTC_EUR"
+  },
+  "BTC_GBP": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "british-pound",
+    "url": "https://whitebit.com/trade/BTC_GBP"
+  },
+  "BTC_PLN": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "polish-zloty",
+    "url": "https://whitebit.com/trade/BTC_PLN"
+  },
+  "BTC_TRY": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/BTC_TRY"
+  },
+  "BTC_TUSD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "true-usd",
+    "url": "https://whitebit.com/trade/BTC_TUSD"
+  },
+  "BTC_USD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/BTC_USD"
+  },
+  "BTC_USDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/BTC_USDC"
+  },
+  "BTC_USDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BTC_USDT"
+  },
+  "BTT_USDT": {
+    "exchange": "spot",
+    "base": "bittorrent",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BTT_USDT"
+  },
+  "C98_USDT": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/C98_USDT"
+  },
+  "CAKE_USDC": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/CAKE_USDC"
+  },
+  "CAKE_USDT": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CAKE_USDT"
+  },
+  "CATI_USDT": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CATI_USDT"
+  },
+  "CAT_USDT": {
+    "exchange": "spot",
+    "base": "simon-s-cat",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CAT_USDT"
+  },
+  "CELO_USDT": {
+    "exchange": "spot",
+    "base": "celo",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CELO_USDT"
+  },
+  "CETUS_USDT": {
+    "exchange": "spot",
+    "base": "cetus-protocol",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CETUS_USDT"
+  },
+  "CFG_USDC": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/CFG_USDC"
+  },
+  "CFG_USDT": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CFG_USDT"
+  },
+  "CGPT_USDC": {
+    "exchange": "spot",
+    "base": "chaingpt",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/CGPT_USDC"
+  },
+  "CGPT_USDT": {
+    "exchange": "spot",
+    "base": "chaingpt",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CGPT_USDT"
+  },
+  "CHIP_USDT": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CHIP_USDT"
+  },
+  "CHR_USDT": {
+    "exchange": "spot",
+    "base": "chromaway",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CHR_USDT"
+  },
+  "CHZ_BTC": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/CHZ_BTC"
+  },
+  "CHZ_TRY": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/CHZ_TRY"
+  },
+  "CHZ_USDC": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/CHZ_USDC"
+  },
+  "CHZ_USDT": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CHZ_USDT"
+  },
+  "CKB_USDC": {
+    "exchange": "spot",
+    "base": "nervos-network",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/CKB_USDC"
+  },
+  "CKB_USDT": {
+    "exchange": "spot",
+    "base": "nervos-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CKB_USDT"
+  },
+  "COMP_EUR": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/COMP_EUR"
+  },
+  "COMP_USDC": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/COMP_USDC"
+  },
+  "COMP_USDT": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/COMP_USDT"
+  },
+  "COTI_USDC": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/COTI_USDC"
+  },
+  "COTI_USDT": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/COTI_USDT"
+  },
+  "CRV_BTC": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/CRV_BTC"
+  },
+  "CRV_TRY": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/CRV_TRY"
+  },
+  "CRV_USDC": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/CRV_USDC"
+  },
+  "CRV_USDT": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CRV_USDT"
+  },
+  "CTSI_USDT": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CTSI_USDT"
+  },
+  "CVC_USDC": {
+    "exchange": "spot",
+    "base": "civic",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/CVC_USDC"
+  },
+  "CVC_USDT": {
+    "exchange": "spot",
+    "base": "civic",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CVC_USDT"
+  },
+  "CVX_USDT": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CVX_USDT"
+  },
+  "CYBER_USDT": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/CYBER_USDT"
+  },
+  "DASH_USDC": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/DASH_USDC"
+  },
+  "DASH_USDT": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/DASH_USDT"
+  },
+  "DEGEN_USDT": {
+    "exchange": "spot",
+    "base": "degen-base",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/DEGEN_USDT"
+  },
+  "DEXE_EUR": {
+    "exchange": "spot",
+    "base": "dexe",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/DEXE_EUR"
+  },
+  "DEXE_USDC": {
+    "exchange": "spot",
+    "base": "dexe",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/DEXE_USDC"
+  },
+  "DEXE_USDT": {
+    "exchange": "spot",
+    "base": "dexe",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/DEXE_USDT"
+  },
+  "DIA_USDT": {
+    "exchange": "spot",
+    "base": "dia-data",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/DIA_USDT"
+  },
+  "DOGE_BTC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/DOGE_BTC"
+  },
+  "DOGE_EUR": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/DOGE_EUR"
+  },
+  "DOGE_TRY": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/DOGE_TRY"
+  },
+  "DOGE_USD": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/DOGE_USD"
+  },
+  "DOGE_USDC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/DOGE_USDC"
+  },
+  "DOGE_USDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/DOGE_USDT"
+  },
+  "DOGE_WBT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/DOGE_WBT"
+  },
+  "DOGS_USDT": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/DOGS_USDT"
+  },
+  "DOT_BTC": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/DOT_BTC"
+  },
+  "DOT_EUR": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/DOT_EUR"
+  },
+  "DOT_TRY": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/DOT_TRY"
+  },
+  "DOT_USDC": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/DOT_USDC"
+  },
+  "DOT_USDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/DOT_USDT"
+  },
+  "DOT_WBT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/DOT_WBT"
+  },
+  "DYDX_EUR": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/DYDX_EUR"
+  },
+  "DYDX_USDC": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/DYDX_USDC"
+  },
+  "DYDX_USDT": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/DYDX_USDT"
+  },
+  "DYM_USDT": {
+    "exchange": "spot",
+    "base": "dymension",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/DYM_USDT"
+  },
+  "EGLD_BTC": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/EGLD_BTC"
+  },
+  "EGLD_EUR": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/EGLD_EUR"
+  },
+  "EGLD_TRY": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/EGLD_TRY"
+  },
+  "EGLD_USDC": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/EGLD_USDC"
+  },
+  "EGLD_USDT": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/EGLD_USDT"
+  },
+  "EIGEN_EUR": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/EIGEN_EUR"
+  },
+  "EIGEN_USDC": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/EIGEN_USDC"
+  },
+  "EIGEN_USDT": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/EIGEN_USDT"
+  },
+  "ENA_BTC": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ENA_BTC"
+  },
+  "ENA_TRY": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/ENA_TRY"
+  },
+  "ENA_USDC": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ENA_USDC"
+  },
+  "ENA_USDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ENA_USDT"
+  },
+  "ENJ_USDT": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ENJ_USDT"
+  },
+  "ENSO_USDT": {
+    "exchange": "spot",
+    "base": "enso",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ENSO_USDT"
+  },
+  "ENS_EUR": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ENS_EUR"
+  },
+  "ENS_USDC": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ENS_USDC"
+  },
+  "ENS_USDT": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ENS_USDT"
+  },
+  "ERA_USDT": {
+    "exchange": "spot",
+    "base": "caldera",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ERA_USDT"
+  },
+  "ESP_USDT": {
+    "exchange": "spot",
+    "base": "espresso",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ESP_USDT"
+  },
+  "ETC_BTC": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ETC_BTC"
+  },
+  "ETC_EUR": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ETC_EUR"
+  },
+  "ETC_TRY": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/ETC_TRY"
+  },
+  "ETC_USDC": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ETC_USDC"
+  },
+  "ETC_USDT": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ETC_USDT"
+  },
+  "ETC_WBT": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/ETC_WBT"
+  },
+  "ETHFI_BTC": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ETHFI_BTC"
+  },
+  "ETHFI_EUR": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ETHFI_EUR"
+  },
+  "ETHFI_TRY": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/ETHFI_TRY"
+  },
+  "ETHFI_USDT": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ETHFI_USDT"
+  },
+  "ETHW_USDT": {
+    "exchange": "spot",
+    "base": "ethereum-pow",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ETHW_USDT"
+  },
+  "ETH_BTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ETH_BTC"
+  },
+  "ETH_CHF": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "swiss-franc",
+    "url": "https://whitebit.com/trade/ETH_CHF"
+  },
+  "ETH_EUR": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ETH_EUR"
+  },
+  "ETH_GBP": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "british-pound",
+    "url": "https://whitebit.com/trade/ETH_GBP"
+  },
+  "ETH_PLN": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "polish-zloty",
+    "url": "https://whitebit.com/trade/ETH_PLN"
+  },
+  "ETH_TRY": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/ETH_TRY"
+  },
+  "ETH_TUSD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "true-usd",
+    "url": "https://whitebit.com/trade/ETH_TUSD"
+  },
+  "ETH_USD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/ETH_USD"
+  },
+  "ETH_USDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ETH_USDC"
+  },
+  "ETH_USDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ETH_USDT"
+  },
+  "EURI_EUR": {
+    "exchange": "spot",
+    "base": "eurite",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/EURI_EUR"
+  },
+  "EURI_USDC": {
+    "exchange": "spot",
+    "base": "eurite",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/EURI_USDC"
+  },
+  "EURI_USDT": {
+    "exchange": "spot",
+    "base": "eurite",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/EURI_USDT"
+  },
+  "EV_USDT": {
+    "exchange": "spot",
+    "base": "everything",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/EV_USDT"
+  },
+  "FET_BTC": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/FET_BTC"
+  },
+  "FET_EUR": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/FET_EUR"
+  },
+  "FET_TRY": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/FET_TRY"
+  },
+  "FET_USDC": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/FET_USDC"
+  },
+  "FET_USDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/FET_USDT"
+  },
+  "FF_USDC": {
+    "exchange": "spot",
+    "base": "falcon-finance-ff",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/FF_USDC"
+  },
+  "FF_USDT": {
+    "exchange": "spot",
+    "base": "falcon-finance-ff",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/FF_USDT"
+  },
+  "FIL_BTC": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/FIL_BTC"
+  },
+  "FIL_EUR": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/FIL_EUR"
+  },
+  "FIL_TRY": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/FIL_TRY"
+  },
+  "FIL_USDC": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/FIL_USDC"
+  },
+  "FIL_USDT": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/FIL_USDT"
+  },
+  "FLOKI_EUR": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/FLOKI_EUR"
+  },
+  "FLOKI_TRY": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/FLOKI_TRY"
+  },
+  "FLOKI_USDC": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/FLOKI_USDC"
+  },
+  "FLOKI_USDT": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/FLOKI_USDT"
+  },
+  "FLOW_BTC": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/FLOW_BTC"
+  },
+  "FLOW_EUR": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/FLOW_EUR"
+  },
+  "FLOW_USDT": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/FLOW_USDT"
+  },
+  "FLUX_EUR": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/FLUX_EUR"
+  },
+  "FLUX_USDT": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/FLUX_USDT"
+  },
+  "FRAX_USDC": {
+    "exchange": "spot",
+    "base": "frax-share",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/FRAX_USDC"
+  },
+  "FRAX_USDT": {
+    "exchange": "spot",
+    "base": "frax-share",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/FRAX_USDT"
+  },
+  "GALA_BTC": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/GALA_BTC"
+  },
+  "GALA_TRY": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/GALA_TRY"
+  },
+  "GALA_USDC": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/GALA_USDC"
+  },
+  "GALA_USDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GALA_USDT"
+  },
+  "GIGGLE_USDT": {
+    "exchange": "spot",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GIGGLE_USDT"
+  },
+  "GLMR_USDT": {
+    "exchange": "spot",
+    "base": "moonbeam",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GLMR_USDT"
+  },
+  "GLM_BTC": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/GLM_BTC"
+  },
+  "GLM_USDT": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GLM_USDT"
+  },
+  "GMT_USDT": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GMT_USDT"
+  },
+  "GMX_USDT": {
+    "exchange": "spot",
+    "base": "gmx",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GMX_USDT"
+  },
+  "GNO_USDC": {
+    "exchange": "spot",
+    "base": "gnosis",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/GNO_USDC"
+  },
+  "GNO_USDT": {
+    "exchange": "spot",
+    "base": "gnosis",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GNO_USDT"
+  },
+  "GOAT_USDT": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GOAT_USDT"
+  },
+  "GPS_USDT": {
+    "exchange": "spot",
+    "base": "goplus-security",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GPS_USDT"
+  },
+  "GRAM_EUR": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/GRAM_EUR"
+  },
+  "GRAM_USDC": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/GRAM_USDC"
+  },
+  "GRAM_USDT": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GRAM_USDT"
+  },
+  "GRAM_WBT": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/GRAM_WBT"
+  },
+  "GRASS_USDT": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GRASS_USDT"
+  },
+  "GRT_BTC": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/GRT_BTC"
+  },
+  "GRT_EUR": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/GRT_EUR"
+  },
+  "GRT_USDC": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/GRT_USDC"
+  },
+  "GRT_USDT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/GRT_USDT"
+  },
+  "G_USDT": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/G_USDT"
+  },
+  "HAEDAL_USDT": {
+    "exchange": "spot",
+    "base": "haedal-protocol",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/HAEDAL_USDT"
+  },
+  "HBAR_BTC": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/HBAR_BTC"
+  },
+  "HBAR_EUR": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/HBAR_EUR"
+  },
+  "HBAR_USDC": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/HBAR_USDC"
+  },
+  "HBAR_USDT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/HBAR_USDT"
+  },
+  "HBAR_WBT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/HBAR_WBT"
+  },
+  "HOME_USDC": {
+    "exchange": "spot",
+    "base": "defi-app",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/HOME_USDC"
+  },
+  "HOME_USDT": {
+    "exchange": "spot",
+    "base": "defi-app",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/HOME_USDT"
+  },
+  "HUMA_USDC": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/HUMA_USDC"
+  },
+  "HUMA_USDT": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/HUMA_USDT"
+  },
+  "HYPER_USDC": {
+    "exchange": "spot",
+    "base": "hyperlane",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/HYPER_USDC"
+  },
+  "HYPER_USDT": {
+    "exchange": "spot",
+    "base": "hyperlane",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/HYPER_USDT"
+  },
+  "HYPE_USDT": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/HYPE_USDT"
+  },
+  "ICP_BTC": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ICP_BTC"
+  },
+  "ICP_EUR": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ICP_EUR"
+  },
+  "ICP_USDC": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ICP_USDC"
+  },
+  "ICP_USDT": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ICP_USDT"
+  },
+  "ID_EUR": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ID_EUR"
+  },
+  "ID_USDT": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ID_USDT"
+  },
+  "IMX_BTC": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/IMX_BTC"
+  },
+  "IMX_USDC": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/IMX_USDC"
+  },
+  "IMX_USDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/IMX_USDT"
+  },
+  "INIT_USDC": {
+    "exchange": "spot",
+    "base": "initia",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/INIT_USDC"
+  },
+  "INIT_USDT": {
+    "exchange": "spot",
+    "base": "initia",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/INIT_USDT"
+  },
+  "INJ_BTC": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/INJ_BTC"
+  },
+  "INJ_EUR": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/INJ_EUR"
+  },
+  "INJ_TRY": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/INJ_TRY"
+  },
+  "INJ_USDC": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/INJ_USDC"
+  },
+  "INJ_USDT": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/INJ_USDT"
+  },
+  "IOST_USDT": {
+    "exchange": "spot",
+    "base": "iost",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/IOST_USDT"
+  },
+  "IOTX_USDC": {
+    "exchange": "spot",
+    "base": "iotex",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/IOTX_USDC"
+  },
+  "IOTX_USDT": {
+    "exchange": "spot",
+    "base": "iotex",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/IOTX_USDT"
+  },
+  "IO_BTC": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/IO_BTC"
+  },
+  "IO_EUR": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/IO_EUR"
+  },
+  "IO_TRY": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/IO_TRY"
+  },
+  "IO_USDT": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/IO_USDT"
+  },
+  "JASMY_USDC": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/JASMY_USDC"
+  },
+  "JASMY_USDT": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/JASMY_USDT"
+  },
+  "JST_BTC": {
+    "exchange": "spot",
+    "base": "just",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/JST_BTC"
+  },
+  "JST_USDT": {
+    "exchange": "spot",
+    "base": "just",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/JST_USDT"
+  },
+  "JTO_EUR": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/JTO_EUR"
+  },
+  "JTO_USDC": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/JTO_USDC"
+  },
+  "JTO_USDT": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/JTO_USDT"
+  },
+  "JUP_EUR": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/JUP_EUR"
+  },
+  "JUP_TRY": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/JUP_TRY"
+  },
+  "JUP_USDC": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/JUP_USDC"
+  },
+  "JUP_USDT": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/JUP_USDT"
+  },
+  "KAIA_USDC": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/KAIA_USDC"
+  },
+  "KAIA_USDT": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/KAIA_USDT"
+  },
+  "KAITO_EUR": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/KAITO_EUR"
+  },
+  "KAITO_USDC": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/KAITO_USDC"
+  },
+  "KAITO_USDT": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/KAITO_USDT"
+  },
+  "KAVA_BTC": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/KAVA_BTC"
+  },
+  "KAVA_USDC": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/KAVA_USDC"
+  },
+  "KAVA_USDT": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/KAVA_USDT"
+  },
+  "KERNEL_USDC": {
+    "exchange": "spot",
+    "base": "kernel",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/KERNEL_USDC"
+  },
+  "KERNEL_USDT": {
+    "exchange": "spot",
+    "base": "kernel",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/KERNEL_USDT"
+  },
+  "KITE_USDT": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/KITE_USDT"
+  },
+  "KMNO_USDT": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/KMNO_USDT"
+  },
+  "KNC_USDT": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/KNC_USDT"
+  },
+  "KSM_USDC": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/KSM_USDC"
+  },
+  "KSM_USDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/KSM_USDT"
+  },
+  "LAYER_EUR": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/LAYER_EUR"
+  },
+  "LAYER_USDC": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/LAYER_USDC"
+  },
+  "LAYER_USDT": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LAYER_USDT"
+  },
+  "LA_USDT": {
+    "exchange": "spot",
+    "base": "lagrange",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LA_USDT"
+  },
+  "LDO_BTC": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/LDO_BTC"
+  },
+  "LDO_EUR": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/LDO_EUR"
+  },
+  "LDO_USDC": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/LDO_USDC"
+  },
+  "LDO_USDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LDO_USDT"
+  },
+  "LINEA_USDT": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LINEA_USDT"
+  },
+  "LINK_BTC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/LINK_BTC"
+  },
+  "LINK_EUR": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/LINK_EUR"
+  },
+  "LINK_TRY": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/LINK_TRY"
+  },
+  "LINK_USDC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/LINK_USDC"
+  },
+  "LINK_USDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LINK_USDT"
+  },
+  "LINK_WBT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/LINK_WBT"
+  },
+  "LIT_USDT": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LIT_USDT"
+  },
+  "LPT_USDC": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/LPT_USDC"
+  },
+  "LPT_USDT": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LPT_USDT"
+  },
+  "LQTY_USDT": {
+    "exchange": "spot",
+    "base": "liquity",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LQTY_USDT"
+  },
+  "LRC_USDC": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/LRC_USDC"
+  },
+  "LRC_USDT": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LRC_USDT"
+  },
+  "LTC_BTC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/LTC_BTC"
+  },
+  "LTC_EUR": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/LTC_EUR"
+  },
+  "LTC_TRY": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/LTC_TRY"
+  },
+  "LTC_USD": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/LTC_USD"
+  },
+  "LTC_USDC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/LTC_USDC"
+  },
+  "LTC_USDT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LTC_USDT"
+  },
+  "LTC_WBT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/LTC_WBT"
+  },
+  "LUNA_USDT": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LUNA_USDT"
+  },
+  "LUNC_USDT": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/LUNC_USDT"
+  },
+  "MAGIC_USDT": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MAGIC_USDT"
+  },
+  "MANA_BTC": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/MANA_BTC"
+  },
+  "MANA_EUR": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/MANA_EUR"
+  },
+  "MANA_TRY": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/MANA_TRY"
+  },
+  "MANA_USDT": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MANA_USDT"
+  },
+  "MANTA_BTC": {
+    "exchange": "spot",
+    "base": "manta-network",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/MANTA_BTC"
+  },
+  "MANTA_USDT": {
+    "exchange": "spot",
+    "base": "manta-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MANTA_USDT"
+  },
+  "MASK_USDC": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/MASK_USDC"
+  },
+  "MASK_USDT": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MASK_USDT"
+  },
+  "MAV_USDT": {
+    "exchange": "spot",
+    "base": "maverick-protocol",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MAV_USDT"
+  },
+  "MEME_TRY": {
+    "exchange": "spot",
+    "base": "memecoin",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/MEME_TRY"
+  },
+  "MEME_USDT": {
+    "exchange": "spot",
+    "base": "memecoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MEME_USDT"
+  },
+  "METIS_BTC": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/METIS_BTC"
+  },
+  "METIS_TRY": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/METIS_TRY"
+  },
+  "METIS_USDT": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/METIS_USDT"
+  },
+  "MET_USDC": {
+    "exchange": "spot",
+    "base": "meteora",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/MET_USDC"
+  },
+  "MET_USDT": {
+    "exchange": "spot",
+    "base": "meteora",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MET_USDT"
+  },
+  "MEW_USDC": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/MEW_USDC"
+  },
+  "MEW_USDT": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MEW_USDT"
+  },
+  "MINA_EUR": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/MINA_EUR"
+  },
+  "MINA_USDT": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MINA_USDT"
+  },
+  "MMT_USDT": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MMT_USDT"
+  },
+  "MOODENG_USDC": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/MOODENG_USDC"
+  },
+  "MOODENG_USDT": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MOODENG_USDT"
+  },
+  "MORPHO_USDT": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MORPHO_USDT"
+  },
+  "MOVE_EUR": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/MOVE_EUR"
+  },
+  "MOVE_USDC": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/MOVE_USDC"
+  },
+  "MOVE_USDT": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MOVE_USDT"
+  },
+  "MTL_USDT": {
+    "exchange": "spot",
+    "base": "metal",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MTL_USDT"
+  },
+  "NEAR_BTC": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/NEAR_BTC"
+  },
+  "NEAR_EUR": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/NEAR_EUR"
+  },
+  "NEAR_TRY": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/NEAR_TRY"
+  },
+  "NEAR_USDC": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/NEAR_USDC"
+  },
+  "NEAR_USDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/NEAR_USDT"
+  },
+  "NEAR_WBT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/NEAR_WBT"
+  },
+  "NEIRO_USDC": {
+    "exchange": "spot",
+    "base": "neiro",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/NEIRO_USDC"
+  },
+  "NEIRO_USDT": {
+    "exchange": "spot",
+    "base": "neiro",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/NEIRO_USDT"
+  },
+  "NEO_BTC": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/NEO_BTC"
+  },
+  "NEO_EUR": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/NEO_EUR"
+  },
+  "NEO_USDC": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/NEO_USDC"
+  },
+  "NEO_USDT": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/NEO_USDT"
+  },
+  "NEWT_USDT": {
+    "exchange": "spot",
+    "base": "newton-protocol",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/NEWT_USDT"
+  },
+  "NEXO_USDC": {
+    "exchange": "spot",
+    "base": "nexo",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/NEXO_USDC"
+  },
+  "NEXO_USDT": {
+    "exchange": "spot",
+    "base": "nexo",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/NEXO_USDT"
+  },
+  "NIL_USDC": {
+    "exchange": "spot",
+    "base": "nillion",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/NIL_USDC"
+  },
+  "NIL_USDT": {
+    "exchange": "spot",
+    "base": "nillion",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/NIL_USDT"
+  },
+  "NMR_USDT": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/NMR_USDT"
+  },
+  "NOM_BTC": {
+    "exchange": "spot",
+    "base": "nomina",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/NOM_BTC"
+  },
+  "NOM_TRY": {
+    "exchange": "spot",
+    "base": "nomina",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/NOM_TRY"
+  },
+  "NOM_USDT": {
+    "exchange": "spot",
+    "base": "nomina",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/NOM_USDT"
+  },
+  "NOT_USDC": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/NOT_USDC"
+  },
+  "NOT_USDT": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/NOT_USDT"
+  },
+  "NXPC_USDC": {
+    "exchange": "spot",
+    "base": "nexpace",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/NXPC_USDC"
+  },
+  "NXPC_USDT": {
+    "exchange": "spot",
+    "base": "nexpace",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/NXPC_USDT"
+  },
+  "OGN_USDT": {
+    "exchange": "spot",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/OGN_USDT"
+  },
+  "ONDO_EUR": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ONDO_EUR"
+  },
+  "ONDO_USDC": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ONDO_USDC"
+  },
+  "ONDO_USDT": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ONDO_USDT"
+  },
+  "OPEN_USDT": {
+    "exchange": "spot",
+    "base": "openledger",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/OPEN_USDT"
+  },
+  "OPN_USDT": {
+    "exchange": "spot",
+    "base": "opinion",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/OPN_USDT"
+  },
+  "OP_BTC": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/OP_BTC"
+  },
+  "OP_EUR": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/OP_EUR"
+  },
+  "OP_TRY": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/OP_TRY"
+  },
+  "OP_USDC": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/OP_USDC"
+  },
+  "OP_USDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/OP_USDT"
+  },
+  "ORBS_USDT": {
+    "exchange": "spot",
+    "base": "orbs",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ORBS_USDT"
+  },
+  "ORCA_USDT": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ORCA_USDT"
+  },
+  "OSMO_USDC": {
+    "exchange": "spot",
+    "base": "osmosis",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/OSMO_USDC"
+  },
+  "OSMO_USDT": {
+    "exchange": "spot",
+    "base": "osmosis",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/OSMO_USDT"
+  },
+  "PARTI_USDC": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/PARTI_USDC"
+  },
+  "PARTI_USDT": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PARTI_USDT"
+  },
+  "PAXG_BTC": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/PAXG_BTC"
+  },
+  "PAXG_USDC": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/PAXG_USDC"
+  },
+  "PAXG_USDT": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PAXG_USDT"
+  },
+  "PAXG_WBT": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/PAXG_WBT"
+  },
+  "PENDLE_EUR": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/PENDLE_EUR"
+  },
+  "PENDLE_USDC": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/PENDLE_USDC"
+  },
+  "PENDLE_USDT": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PENDLE_USDT"
+  },
+  "PENGU_USDC": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/PENGU_USDC"
+  },
+  "PENGU_USDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PENGU_USDT"
+  },
+  "PEOPLE_USDT": {
+    "exchange": "spot",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PEOPLE_USDT"
+  },
+  "PEPE_EUR": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/PEPE_EUR"
+  },
+  "PEPE_TRY": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/PEPE_TRY"
+  },
+  "PEPE_USDC": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/PEPE_USDC"
+  },
+  "PEPE_USDT": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PEPE_USDT"
+  },
+  "PHA_EUR": {
+    "exchange": "spot",
+    "base": "pha",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/PHA_EUR"
+  },
+  "PHA_USDT": {
+    "exchange": "spot",
+    "base": "pha",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PHA_USDT"
+  },
+  "PIXEL_BTC": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/PIXEL_BTC"
+  },
+  "PIXEL_TRY": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/PIXEL_TRY"
+  },
+  "PIXEL_USDT": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PIXEL_USDT"
+  },
+  "PNUT_EUR": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/PNUT_EUR"
+  },
+  "PNUT_USDC": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/PNUT_USDC"
+  },
+  "PNUT_USDT": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PNUT_USDT"
+  },
+  "POL_BTC": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/POL_BTC"
+  },
+  "POL_EUR": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/POL_EUR"
+  },
+  "POL_TRY": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/POL_TRY"
+  },
+  "POL_USD": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/POL_USD"
+  },
+  "POL_USDC": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/POL_USDC"
+  },
+  "POL_USDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/POL_USDT"
+  },
+  "POL_WBT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/POL_WBT"
+  },
+  "PORTAL_BTC": {
+    "exchange": "spot",
+    "base": "portal",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/PORTAL_BTC"
+  },
+  "PORTAL_TRY": {
+    "exchange": "spot",
+    "base": "portal",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/PORTAL_TRY"
+  },
+  "PORTAL_USDT": {
+    "exchange": "spot",
+    "base": "portal",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PORTAL_USDT"
+  },
+  "POWR_USDT": {
+    "exchange": "spot",
+    "base": "power-ledger",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/POWR_USDT"
+  },
+  "PROVE_USDT": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PROVE_USDT"
+  },
+  "PUMP_USDT": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PUMP_USDT"
+  },
+  "PYTH_BTC": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/PYTH_BTC"
+  },
+  "PYTH_EUR": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/PYTH_EUR"
+  },
+  "PYTH_USDC": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/PYTH_USDC"
+  },
+  "PYTH_USDT": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/PYTH_USDT"
+  },
+  "QNT_USDC": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/QNT_USDC"
+  },
+  "QNT_USDT": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/QNT_USDT"
+  },
+  "QTUM_USDT": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/QTUM_USDT"
+  },
+  "RAD_USDT": {
+    "exchange": "spot",
+    "base": "radicle",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/RAD_USDT"
+  },
+  "RAIN_USDT": {
+    "exchange": "spot",
+    "base": "rain",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/RAIN_USDT"
+  },
+  "RED_EUR": {
+    "exchange": "spot",
+    "base": "redstone",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/RED_EUR"
+  },
+  "RED_TRY": {
+    "exchange": "spot",
+    "base": "redstone",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/RED_TRY"
+  },
+  "RED_USDC": {
+    "exchange": "spot",
+    "base": "redstone",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/RED_USDC"
+  },
+  "RED_USDT": {
+    "exchange": "spot",
+    "base": "redstone",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/RED_USDT"
+  },
+  "RENDER_BTC": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/RENDER_BTC"
+  },
+  "RENDER_EUR": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/RENDER_EUR"
+  },
+  "RENDER_TRY": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/RENDER_TRY"
+  },
+  "RENDER_USDC": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/RENDER_USDC"
+  },
+  "RENDER_USDT": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/RENDER_USDT"
+  },
+  "REZ_BTC": {
+    "exchange": "spot",
+    "base": "renzo",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/REZ_BTC"
+  },
+  "REZ_TRY": {
+    "exchange": "spot",
+    "base": "renzo",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/REZ_TRY"
+  },
+  "REZ_USDT": {
+    "exchange": "spot",
+    "base": "renzo",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/REZ_USDT"
+  },
+  "RE_USDC": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/RE_USDC"
+  },
+  "RE_USDT": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/RE_USDT"
+  },
+  "RLC_USDT": {
+    "exchange": "spot",
+    "base": "iexec-rlc",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/RLC_USDT"
+  },
+  "ROBO_USDT": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ROBO_USDT"
+  },
+  "RON_USDT": {
+    "exchange": "spot",
+    "base": "ronin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/RON_USDT"
+  },
+  "ROSE_USDT": {
+    "exchange": "spot",
+    "base": "oasis-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ROSE_USDT"
+  },
+  "RPL_USDT": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/RPL_USDT"
+  },
+  "RSR_USDC": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/RSR_USDC"
+  },
+  "RSR_USDT": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/RSR_USDT"
+  },
+  "RUNE_USDC": {
+    "exchange": "spot",
+    "base": "thorchain",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/RUNE_USDC"
+  },
+  "RUNE_USDT": {
+    "exchange": "spot",
+    "base": "thorchain",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/RUNE_USDT"
+  },
+  "RVN_USDT": {
+    "exchange": "spot",
+    "base": "ravencoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/RVN_USDT"
+  },
+  "SAFE_USDT": {
+    "exchange": "spot",
+    "base": "safe",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SAFE_USDT"
+  },
+  "SAGA_BTC": {
+    "exchange": "spot",
+    "base": "saga",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/SAGA_BTC"
+  },
+  "SAGA_EUR": {
+    "exchange": "spot",
+    "base": "saga",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/SAGA_EUR"
+  },
+  "SAGA_TRY": {
+    "exchange": "spot",
+    "base": "saga",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/SAGA_TRY"
+  },
+  "SAGA_USDT": {
+    "exchange": "spot",
+    "base": "saga",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SAGA_USDT"
+  },
+  "SAHARA_USDT": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SAHARA_USDT"
+  },
+  "SAND_BTC": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/SAND_BTC"
+  },
+  "SAND_TRY": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/SAND_TRY"
+  },
+  "SAND_USDC": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/SAND_USDC"
+  },
+  "SAND_USDT": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SAND_USDT"
+  },
+  "SCR_USDT": {
+    "exchange": "spot",
+    "base": "scroll",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SCR_USDT"
+  },
+  "SEI_BTC": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/SEI_BTC"
+  },
+  "SEI_EUR": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/SEI_EUR"
+  },
+  "SEI_USDC": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/SEI_USDC"
+  },
+  "SEI_USDT": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SEI_USDT"
+  },
+  "SENT_USDT": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SENT_USDT"
+  },
+  "SHIB_EUR": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/SHIB_EUR"
+  },
+  "SHIB_TRY": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/SHIB_TRY"
+  },
+  "SHIB_USD": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/SHIB_USD"
+  },
+  "SHIB_USDC": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/SHIB_USDC"
+  },
+  "SHIB_USDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SHIB_USDT"
+  },
+  "SIGN_USDC": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/SIGN_USDC"
+  },
+  "SIGN_USDT": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SIGN_USDT"
+  },
+  "SKY_BTC": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/SKY_BTC"
+  },
+  "SKY_EUR": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/SKY_EUR"
+  },
+  "SKY_TRY": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/SKY_TRY"
+  },
+  "SKY_USDC": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/SKY_USDC"
+  },
+  "SKY_USDT": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SKY_USDT"
+  },
+  "SNX_BTC": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/SNX_BTC"
+  },
+  "SNX_USDT": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SNX_USDT"
+  },
+  "SOL_BTC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/SOL_BTC"
+  },
+  "SOL_EUR": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/SOL_EUR"
+  },
+  "SOL_TRY": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/SOL_TRY"
+  },
+  "SOL_USD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/SOL_USD"
+  },
+  "SOL_USDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/SOL_USDC"
+  },
+  "SOL_USDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SOL_USDT"
+  },
+  "SOL_WBT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/SOL_WBT"
+  },
+  "SOMI_USDT": {
+    "exchange": "spot",
+    "base": "somnia",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SOMI_USDT"
+  },
+  "SONIC_EUR": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/SONIC_EUR"
+  },
+  "SONIC_USDT": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SONIC_USDT"
+  },
+  "SOPH_USDT": {
+    "exchange": "spot",
+    "base": "sophon",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SOPH_USDT"
+  },
+  "SSV_USDT": {
+    "exchange": "spot",
+    "base": "ssv-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SSV_USDT"
+  },
+  "STEEM_USDT": {
+    "exchange": "spot",
+    "base": "steem",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/STEEM_USDT"
+  },
+  "STRK_BTC": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/STRK_BTC"
+  },
+  "STRK_EUR": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/STRK_EUR"
+  },
+  "STRK_USDT": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/STRK_USDT"
+  },
+  "STX_USDC": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/STX_USDC"
+  },
+  "STX_USDT": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/STX_USDT"
+  },
+  "SUI_BTC": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/SUI_BTC"
+  },
+  "SUI_EUR": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/SUI_EUR"
+  },
+  "SUI_TRY": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/SUI_TRY"
+  },
+  "SUI_USDC": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/SUI_USDC"
+  },
+  "SUI_USDT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SUI_USDT"
+  },
+  "SUI_WBT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/SUI_WBT"
+  },
+  "SUN_USDC": {
+    "exchange": "spot",
+    "base": "sun-token",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/SUN_USDC"
+  },
+  "SUN_USDT": {
+    "exchange": "spot",
+    "base": "sun-token",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SUN_USDT"
+  },
+  "SUPER_USDC": {
+    "exchange": "spot",
+    "base": "superfarm",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/SUPER_USDC"
+  },
+  "SUPER_USDT": {
+    "exchange": "spot",
+    "base": "superfarm",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SUPER_USDT"
+  },
+  "SUSHI_BTC": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/SUSHI_BTC"
+  },
+  "SUSHI_EUR": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/SUSHI_EUR"
+  },
+  "SUSHI_USDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SUSHI_USDT"
+  },
+  "SXT_USDC": {
+    "exchange": "spot",
+    "base": "space-and-time",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/SXT_USDC"
+  },
+  "SXT_USDT": {
+    "exchange": "spot",
+    "base": "space-and-time",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SXT_USDT"
+  },
+  "SYRUP_USDC": {
+    "exchange": "spot",
+    "base": "syrup",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/SYRUP_USDC"
+  },
+  "SYRUP_USDT": {
+    "exchange": "spot",
+    "base": "syrup",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SYRUP_USDT"
+  },
+  "S_BTC": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/S_BTC"
+  },
+  "S_EUR": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/S_EUR"
+  },
+  "S_TRY": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/S_TRY"
+  },
+  "S_USDC": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/S_USDC"
+  },
+  "S_USDT": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/S_USDT"
+  },
+  "TAO_EUR": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/TAO_EUR"
+  },
+  "TAO_USDC": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/TAO_USDC"
+  },
+  "TAO_USDT": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/TAO_USDT"
+  },
+  "TAO_WBT": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/TAO_WBT"
+  },
+  "THETA_BTC": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/THETA_BTC"
+  },
+  "THETA_USDC": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/THETA_USDC"
+  },
+  "THETA_USDT": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/THETA_USDT"
+  },
+  "TIA_BTC": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/TIA_BTC"
+  },
+  "TIA_EUR": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/TIA_EUR"
+  },
+  "TIA_TRY": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/TIA_TRY"
+  },
+  "TIA_USDC": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/TIA_USDC"
+  },
+  "TIA_USDT": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/TIA_USDT"
+  },
+  "TNSR_BTC": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/TNSR_BTC"
+  },
+  "TNSR_EUR": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/TNSR_EUR"
+  },
+  "TNSR_TRY": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/TNSR_TRY"
+  },
+  "TNSR_USDT": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/TNSR_USDT"
+  },
+  "TOWNS_USDT": {
+    "exchange": "spot",
+    "base": "towns",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/TOWNS_USDT"
+  },
+  "TRB_BTC": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/TRB_BTC"
+  },
+  "TRB_TRY": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/TRB_TRY"
+  },
+  "TRB_USDT": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/TRB_USDT"
+  },
+  "TREE_USDT": {
+    "exchange": "spot",
+    "base": "treehouse",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/TREE_USDT"
+  },
+  "TRUMP_EUR": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/TRUMP_EUR"
+  },
+  "TRUMP_USDC": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/TRUMP_USDC"
+  },
+  "TRUMP_USDT": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/TRUMP_USDT"
+  },
+  "TRX_BTC": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/TRX_BTC"
+  },
+  "TRX_ETH": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "ethereum",
+    "url": "https://whitebit.com/trade/TRX_ETH"
+  },
+  "TRX_EUR": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/TRX_EUR"
+  },
+  "TRX_TRY": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/TRX_TRY"
+  },
+  "TRX_USDC": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/TRX_USDC"
+  },
+  "TRX_USDT": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/TRX_USDT"
+  },
+  "TRX_WBT": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/TRX_WBT"
+  },
+  "TUSD_USDT": {
+    "exchange": "spot",
+    "base": "true-usd",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/TUSD_USDT"
+  },
+  "T_USDT": {
+    "exchange": "spot",
+    "base": "threshold-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/T_USDT"
+  },
+  "UMA_BTC": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/UMA_BTC"
+  },
+  "UMA_TRY": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/UMA_TRY"
+  },
+  "UMA_USDT": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/UMA_USDT"
+  },
+  "UNI_BTC": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/UNI_BTC"
+  },
+  "UNI_EUR": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/UNI_EUR"
+  },
+  "UNI_TRY": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/UNI_TRY"
+  },
+  "UNI_USDC": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/UNI_USDC"
+  },
+  "UNI_USDT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/UNI_USDT"
+  },
+  "UNI_WBT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/UNI_WBT"
+  },
+  "USD1_USDC": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/USD1_USDC"
+  },
+  "USD1_USDT": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/USD1_USDT"
+  },
+  "USDC_CHF": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "swiss-franc",
+    "url": "https://whitebit.com/trade/USDC_CHF"
+  },
+  "USDC_EUR": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/USDC_EUR"
+  },
+  "USDC_GBP": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "british-pound",
+    "url": "https://whitebit.com/trade/USDC_GBP"
+  },
+  "USDC_TRY": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/USDC_TRY"
+  },
+  "USDC_USD": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/USDC_USD"
+  },
+  "USDC_USDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/USDC_USDT"
+  },
+  "USDS_USDT": {
+    "exchange": "spot",
+    "base": "sky-usd",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/USDS_USDT"
+  },
+  "USDT_CHF": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "swiss-franc",
+    "url": "https://whitebit.com/trade/USDT_CHF"
+  },
+  "USDT_CZK": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "czech-koruna",
+    "url": "https://whitebit.com/trade/USDT_CZK"
+  },
+  "USDT_EUR": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/USDT_EUR"
+  },
+  "USDT_GBP": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "british-pound",
+    "url": "https://whitebit.com/trade/USDT_GBP"
+  },
+  "USDT_PLN": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "polish-zloty",
+    "url": "https://whitebit.com/trade/USDT_PLN"
+  },
+  "USDT_TRY": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/USDT_TRY"
+  },
+  "USDT_USD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/USDT_USD"
+  },
+  "USTC_USDT": {
+    "exchange": "spot",
+    "base": "terrausd",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/USTC_USDT"
+  },
+  "VET_BTC": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/VET_BTC"
+  },
+  "VET_EUR": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/VET_EUR"
+  },
+  "VET_USDC": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/VET_USDC"
+  },
+  "VET_USDT": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/VET_USDT"
+  },
+  "VIRTUAL_USDC": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/VIRTUAL_USDC"
+  },
+  "VIRTUAL_USDT": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/VIRTUAL_USDT"
+  },
+  "WAL_USDT": {
+    "exchange": "spot",
+    "base": "walrus",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/WAL_USDT"
+  },
+  "WAXP_USDC": {
+    "exchange": "spot",
+    "base": "wax",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/WAXP_USDC"
+  },
+  "WAXP_USDT": {
+    "exchange": "spot",
+    "base": "wax",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/WAXP_USDT"
+  },
+  "WBT_BTC": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/WBT_BTC"
+  },
+  "WBT_CHF": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "swiss-franc",
+    "url": "https://whitebit.com/trade/WBT_CHF"
+  },
+  "WBT_ETH": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "ethereum",
+    "url": "https://whitebit.com/trade/WBT_ETH"
+  },
+  "WBT_EUR": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/WBT_EUR"
+  },
+  "WBT_EURI": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "eurite",
+    "url": "https://whitebit.com/trade/WBT_EURI"
+  },
+  "WBT_GBP": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "british-pound",
+    "url": "https://whitebit.com/trade/WBT_GBP"
+  },
+  "WBT_TRY": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/WBT_TRY"
+  },
+  "WBT_TUSD": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "true-usd",
+    "url": "https://whitebit.com/trade/WBT_TUSD"
+  },
+  "WBT_USD": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/WBT_USD"
+  },
+  "WBT_USD1": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "usd1",
+    "url": "https://whitebit.com/trade/WBT_USD1"
+  },
+  "WBT_USDC": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/WBT_USDC"
+  },
+  "WBT_USDS": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "sky-usd",
+    "url": "https://whitebit.com/trade/WBT_USDS"
+  },
+  "WBT_USDT": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/WBT_USDT"
+  },
+  "WCT_USDC": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/WCT_USDC"
+  },
+  "WCT_USDT": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/WCT_USDT"
+  },
+  "WIF_BTC": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/WIF_BTC"
+  },
+  "WIF_EUR": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/WIF_EUR"
+  },
+  "WIF_TRY": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/WIF_TRY"
+  },
+  "WIF_USDC": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/WIF_USDC"
+  },
+  "WIF_USDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/WIF_USDT"
+  },
+  "WIN_USDT": {
+    "exchange": "spot",
+    "base": "winklink",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/WIN_USDT"
+  },
+  "WLFI_USDT": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/WLFI_USDT"
+  },
+  "WOO_BTC": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/WOO_BTC"
+  },
+  "WOO_USDT": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/WOO_USDT"
+  },
+  "W_BTC": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/W_BTC"
+  },
+  "W_TRY": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/W_TRY"
+  },
+  "W_USDT": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/W_USDT"
+  },
+  "XAI_USDT": {
+    "exchange": "spot",
+    "base": "xai",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/XAI_USDT"
+  },
+  "XAUT_BTC": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/XAUT_BTC"
+  },
+  "XAUT_TRY": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/XAUT_TRY"
+  },
+  "XAUT_USDC": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/XAUT_USDC"
+  },
+  "XAUT_USDT": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/XAUT_USDT"
+  },
+  "XAUT_WBT": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/XAUT_WBT"
+  },
+  "XDC_USDT": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/XDC_USDT"
+  },
+  "XEC_USDT": {
+    "exchange": "spot",
+    "base": "ecash",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/XEC_USDT"
+  },
+  "XLM_BTC": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/XLM_BTC"
+  },
+  "XLM_EUR": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/XLM_EUR"
+  },
+  "XLM_TRY": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/XLM_TRY"
+  },
+  "XLM_USDC": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/XLM_USDC"
+  },
+  "XLM_USDT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/XLM_USDT"
+  },
+  "XLM_WBT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/XLM_WBT"
+  },
+  "XMR_USDC": {
+    "exchange": "spot",
+    "base": "monero",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/XMR_USDC"
+  },
+  "XMR_USDT": {
+    "exchange": "spot",
+    "base": "monero",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/XMR_USDT"
+  },
+  "XPL_USDT": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/XPL_USDT"
+  },
+  "XRP_BTC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/XRP_BTC"
+  },
+  "XRP_EUR": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/XRP_EUR"
+  },
+  "XRP_TRY": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/XRP_TRY"
+  },
+  "XRP_USD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd",
+    "url": "https://whitebit.com/trade/XRP_USD"
+  },
+  "XRP_USDC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/XRP_USDC"
+  },
+  "XRP_USDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/XRP_USDT"
+  },
+  "XRP_WBT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "whitebit-coin",
+    "url": "https://whitebit.com/trade/XRP_WBT"
+  },
+  "XTZ_BTC": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/XTZ_BTC"
+  },
+  "XTZ_USDC": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/XTZ_USDC"
+  },
+  "XTZ_USDT": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/XTZ_USDT"
+  },
+  "YFI_EUR": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/YFI_EUR"
+  },
+  "YFI_USDT": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/YFI_USDT"
+  },
+  "YGG_USDT": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/YGG_USDT"
+  },
+  "ZAMA_USDT": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ZAMA_USDT"
+  },
+  "ZBT_USDT": {
+    "exchange": "spot",
+    "base": "zerobase",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ZBT_USDT"
+  },
+  "ZEC_BTC": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ZEC_BTC"
+  },
+  "ZEC_USDC": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ZEC_USDC"
+  },
+  "ZEC_USDT": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ZEC_USDT"
+  },
+  "ZEN_USDC": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ZEN_USDC"
+  },
+  "ZEN_USDT": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ZEN_USDT"
+  },
+  "ZETA_USDT": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ZETA_USDT"
+  },
+  "ZKC_USDT": {
+    "exchange": "spot",
+    "base": "boundless",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ZKC_USDT"
+  },
+  "ZKP_USDT": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ZKP_USDT"
+  },
+  "ZK_BTC": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "bitcoin",
+    "url": "https://whitebit.com/trade/ZK_BTC"
+  },
+  "ZK_EUR": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/ZK_EUR"
+  },
+  "ZK_TRY": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "turkish-lira",
+    "url": "https://whitebit.com/trade/ZK_TRY"
+  },
+  "ZK_USDT": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ZK_USDT"
+  },
+  "ZORA_USDT": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ZORA_USDT"
+  },
+  "ZRO_USDC": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/ZRO_USDC"
+  },
+  "ZRO_USDT": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ZRO_USDT"
+  },
+  "ZRX_USDT": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ZRX_USDT"
+  }
+}

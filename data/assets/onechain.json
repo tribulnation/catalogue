@@ -1,0 +1,17 @@
+{
+  "id": "onechain",
+  "display_name": "ONEchain",
+  "symbol": "CROSS",
+  "category": "crypto",
+  "about": {
+    "en": "ONEchain, formerly CROSS, is a gaming-oriented, EVM-compatible Layer 1 blockchain developed by OGF Corp (formerly NEXUS) that offers SDKs and contracts for in-game asset ownership. Its token trades as CROSS on most exchanges and its BNB Smart Chain contract still reports the symbol CROSS; data providers have renamed it ONE since the 2026 rebrand, which did not change the token contract. It is unrelated to Harmony's ONE."
+  },
+  "urls": {
+    "Website": "https://www.ogfcorp.com/",
+    "Token contract": "https://bscscan.com/token/0x6bf62ca91e397b5a7d1d6bce97d9092065d7a510"
+  },
+  "external": {
+    "coingecko": "cross-2",
+    "coinmarketcap": "37166"
+  }
+}

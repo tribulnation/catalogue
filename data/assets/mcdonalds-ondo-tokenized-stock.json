@@ -1,0 +1,20 @@
+{
+  "id": "mcdonalds-ondo-tokenized-stock",
+  "display_name": "McDonald's (Ondo Tokenized)",
+  "symbol": "MCDon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "MCDon is the Ondo tokenized stock for McDonald's, issued by Ondo Global Markets (BVI) Limited through the Ondo Stocks platform and offered to eligible non-US investors. It is fully backed by MCD shares and is a total-return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share. It is an ERC-20 on Ethereum at 0x4C82c8cD9a218612DCe60b156B73A36705645e3b, with deployments on BNB Chain and Solana. Holders have a claim on the issuer, not registered ownership or shareholder rights."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/mcdon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "mcdonald-s-ondo-tokenized-stock",
+    "coinmarketcap": "38049"
+  }
+}

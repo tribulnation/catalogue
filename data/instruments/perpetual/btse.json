@@ -1,0 +1,1435 @@
+{
+  "1INCHPFC": {
+    "exchange": "perp",
+    "base": "1inch",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/1INCH-PERP-USDT"
+  },
+  "1KBONKPFC": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.btse.com/en/futures/1KBONK-PERP-USDT"
+  },
+  "1KCATPFC": {
+    "exchange": "perp",
+    "base": "simon-s-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.btse.com/en/futures/1KCAT-PERP-USDT"
+  },
+  "1KFLOKIPFC": {
+    "exchange": "perp",
+    "base": "floki",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.btse.com/en/futures/1KFLOKI-PERP-USDT"
+  },
+  "1KPEPEPFC": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.btse.com/en/futures/1KPEPE-PERP-USDT"
+  },
+  "1KSHIBPFC": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.btse.com/en/futures/1KSHIB-PERP-USDT"
+  },
+  "AAOIPFC": {
+    "exchange": "perp",
+    "base": "applied-optoelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/AAOI-PERP-USDT"
+  },
+  "AAPLPFC": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/AAPL-PERP-USDT"
+  },
+  "AAVEPFC": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/AAVE-PERP-USDT"
+  },
+  "ADAPFC": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ADA-PERP-USDT"
+  },
+  "AIXBTPFC": {
+    "exchange": "perp",
+    "base": "aixbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/AIXBT-PERP-USDT"
+  },
+  "ALGOPFC": {
+    "exchange": "perp",
+    "base": "algorand",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ALGO-PERP-USDT"
+  },
+  "ALICEPFC": {
+    "exchange": "perp",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ALICE-PERP-USDT"
+  },
+  "AMATPFC": {
+    "exchange": "perp",
+    "base": "applied-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/AMAT-PERP-USDT"
+  },
+  "AMDPFC": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/AMD-PERP-USDT"
+  },
+  "AMZNPFC": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/AMZN-PERP-USDT"
+  },
+  "APEPFC": {
+    "exchange": "perp",
+    "base": "apecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/APE-PERP-USDT"
+  },
+  "APTPFC": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/APT-PERP-USDT"
+  },
+  "ARBPFC": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ARB-PERP-USDT"
+  },
+  "ARKMPFC": {
+    "exchange": "perp",
+    "base": "arkham",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ARKM-PERP-USDT"
+  },
+  "ARMPFC": {
+    "exchange": "perp",
+    "base": "arm-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ARM-PERP-USDT"
+  },
+  "ARPFC": {
+    "exchange": "perp",
+    "base": "arweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/AR-PERP-USDT"
+  },
+  "ASMLPFC": {
+    "exchange": "perp",
+    "base": "asml-holding",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ASML-PERP-USDT"
+  },
+  "ASTERPFC": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ASTER-PERP-USDT"
+  },
+  "ATOMPFC": {
+    "exchange": "perp",
+    "base": "cosmos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ATOM-PERP-USDT"
+  },
+  "AVAXPFC": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/AVAX-PERP-USDT"
+  },
+  "AVGOPFC": {
+    "exchange": "perp",
+    "base": "broadcom",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/AVGO-PERP-USDT"
+  },
+  "AXSPFC": {
+    "exchange": "perp",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/AXS-PERP-USDT"
+  },
+  "BANDPFC": {
+    "exchange": "perp",
+    "base": "band-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BAND-PERP-USDT"
+  },
+  "BATPFC": {
+    "exchange": "perp",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BAT-PERP-USDT"
+  },
+  "BBPFC": {
+    "exchange": "perp",
+    "base": "bouncebit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BB-PERP-USDT"
+  },
+  "BCHPFC": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BCH-PERP-USDT"
+  },
+  "BEPFC": {
+    "exchange": "perp",
+    "base": "bloom-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BE-PERP-USDT"
+  },
+  "BMNRPFC": {
+    "exchange": "perp",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BMNR-PERP-USDT"
+  },
+  "BNBPFC": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BNB-PERP-USDT"
+  },
+  "BOMEPFC": {
+    "exchange": "perp",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BOME-PERP-USDT"
+  },
+  "BOTPFC": {
+    "exchange": "perp",
+    "base": "robostrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BOT-PERP-USDT"
+  },
+  "BRENTPFC": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BRENT-PERP-USDT"
+  },
+  "BTCPFC": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BTC-PERP-USDT"
+  },
+  "BXPFC": {
+    "exchange": "perp",
+    "base": "blackstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/BX-PERP-USDT"
+  },
+  "C98PFC": {
+    "exchange": "perp",
+    "base": "coin98",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/C98-PERP-USDT"
+  },
+  "CASHCATPFC": {
+    "exchange": "perp",
+    "base": "cash-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/CASHCAT-PERP-USDT"
+  },
+  "CBRSPFC": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/CBRS-PERP-USDT"
+  },
+  "CHIPPFC": {
+    "exchange": "perp",
+    "base": "usd-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/CHIP-PERP-USDT"
+  },
+  "CHRPFC": {
+    "exchange": "perp",
+    "base": "chromaway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/CHR-PERP-USDT"
+  },
+  "CHZPFC": {
+    "exchange": "perp",
+    "base": "chiliz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/CHZ-PERP-USDT"
+  },
+  "COINPFC": {
+    "exchange": "perp",
+    "base": "coinbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/COIN-PERP-USDT"
+  },
+  "COMPPFC": {
+    "exchange": "perp",
+    "base": "compound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/COMP-PERP-USDT"
+  },
+  "COSTPFC": {
+    "exchange": "perp",
+    "base": "costco-wholesale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/COST-PERP-USDT"
+  },
+  "CRCLPFC": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/CRCL-PERP-USDT"
+  },
+  "CRVPFC": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/CRV-PERP-USDT"
+  },
+  "CRWDPFC": {
+    "exchange": "perp",
+    "base": "crowdstrike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/CRWD-PERP-USDT"
+  },
+  "CRWVPFC": {
+    "exchange": "perp",
+    "base": "coreweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/CRWV-PERP-USDT"
+  },
+  "CTPFC": {
+    "exchange": "perp",
+    "base": "concrete",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/CT-PERP-USDT"
+  },
+  "DELLPFC": {
+    "exchange": "perp",
+    "base": "dell-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/DELL-PERP-USDT"
+  },
+  "DKNGPFC": {
+    "exchange": "perp",
+    "base": "draftkings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/DKNG-PERP-USDT"
+  },
+  "DOGEPFC": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/DOGE-PERP-USDT"
+  },
+  "DOSPFC": {
+    "exchange": "perp",
+    "base": "dappos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/DOS-PERP-USDT"
+  },
+  "DOTPFC": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/DOT-PERP-USDT"
+  },
+  "DRAMPFC": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/DRAM-PERP-USDT"
+  },
+  "DYDXPFC": {
+    "exchange": "perp",
+    "base": "dydx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/DYDX-PERP-USDT"
+  },
+  "EDGEPFC": {
+    "exchange": "perp",
+    "base": "edgex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/EDGE-PERP-USDT"
+  },
+  "EGLDPFC": {
+    "exchange": "perp",
+    "base": "multiversx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/EGLD-PERP-USDT"
+  },
+  "ENAPFC": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ENA-PERP-USDT"
+  },
+  "ENJPFC": {
+    "exchange": "perp",
+    "base": "enjin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ENJ-PERP-USDT"
+  },
+  "ENSPFC": {
+    "exchange": "perp",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ENS-PERP-USDT"
+  },
+  "ETCPFC": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ETC-PERP-USDT"
+  },
+  "ETHFIPFC": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ETHFI-PERP-USDT"
+  },
+  "ETHPFC": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ETH-PERP-USDT"
+  },
+  "EWJPFC": {
+    "exchange": "perp",
+    "base": "ishares-msci-japan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/EWJ-PERP-USDT"
+  },
+  "EWTPFC": {
+    "exchange": "perp",
+    "base": "ishares-msci-taiwan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/EWT-PERP-USDT"
+  },
+  "EWYPFC": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/EWY-PERP-USDT"
+  },
+  "EWZPFC": {
+    "exchange": "perp",
+    "base": "ishares-msci-brazil-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/EWZ-PERP-USDT"
+  },
+  "FETPFC": {
+    "exchange": "perp",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/FET-PERP-USDT"
+  },
+  "FILPFC": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/FIL-PERP-USDT"
+  },
+  "GALAPFC": {
+    "exchange": "perp",
+    "base": "gala",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/GALA-PERP-USDT"
+  },
+  "GENSYNPFC": {
+    "exchange": "perp",
+    "base": "gensyn",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/GENSYN-PERP-USDT"
+  },
+  "GEVPFC": {
+    "exchange": "perp",
+    "base": "ge-vernova",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/GEV-PERP-USDT"
+  },
+  "GLWPFC": {
+    "exchange": "perp",
+    "base": "corning",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/GLW-PERP-USDT"
+  },
+  "GMTPFC": {
+    "exchange": "perp",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/GMT-PERP-USDT"
+  },
+  "GOOGLPFC": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/GOOGL-PERP-USDT"
+  },
+  "GRTPFC": {
+    "exchange": "perp",
+    "base": "the-graph",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/GRT-PERP-USDT"
+  },
+  "GRVTPFC": {
+    "exchange": "perp",
+    "base": "grvt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/GRVT-PERP-USDT"
+  },
+  "HIMSPFC": {
+    "exchange": "perp",
+    "base": "hims-and-hers-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/HIMS-PERP-USDT"
+  },
+  "HOODPFC": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/HOOD-PERP-USDT"
+  },
+  "HYPEPFC": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/HYPE-PERP-USDT"
+  },
+  "IBMPFC": {
+    "exchange": "perp",
+    "base": "international-business-machines",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/IBM-PERP-USDT"
+  },
+  "IMXPFC": {
+    "exchange": "perp",
+    "base": "immutable-x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/IMX-PERP-USDT"
+  },
+  "INJPFC": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/INJ-PERP-USDT"
+  },
+  "INTCPFC": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/INTC-PERP-USDT"
+  },
+  "IOPFC": {
+    "exchange": "perp",
+    "base": "io-net",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/IO-PERP-USDT"
+  },
+  "IOTXPFC": {
+    "exchange": "perp",
+    "base": "iotex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/IOTX-PERP-USDT"
+  },
+  "IRENPFC": {
+    "exchange": "perp",
+    "base": "iren",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/IREN-PERP-USDT"
+  },
+  "JASMYPFC": {
+    "exchange": "perp",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/JASMY-PERP-USDT"
+  },
+  "JTOPFC": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/JTO-PERP-USDT"
+  },
+  "JUPPFC": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/JUP-PERP-USDT"
+  },
+  "KASPFC": {
+    "exchange": "perp",
+    "base": "kaspa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/KAS-PERP-USDT"
+  },
+  "KITEPFC": {
+    "exchange": "perp",
+    "base": "kite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/KITE-PERP-USDT"
+  },
+  "KNCPFC": {
+    "exchange": "perp",
+    "base": "kyber-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/KNC-PERP-USDT"
+  },
+  "KORUPFC": {
+    "exchange": "perp",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/KORU-PERP-USDT"
+  },
+  "KSMPFC": {
+    "exchange": "perp",
+    "base": "kusama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/KSM-PERP-USDT"
+  },
+  "LDOPFC": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/LDO-PERP-USDT"
+  },
+  "LINKPFC": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/LINK-PERP-USDT"
+  },
+  "LITEPFC": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/LITE-PERP-USDT"
+  },
+  "LITPFC": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/LIT-PERP-USDT"
+  },
+  "LLYPFC": {
+    "exchange": "perp",
+    "base": "eli-lilly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/LLY-PERP-USDT"
+  },
+  "LPTPFC": {
+    "exchange": "perp",
+    "base": "livepeer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/LPT-PERP-USDT"
+  },
+  "LTCPFC": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/LTC-PERP-USDT"
+  },
+  "LYTEPFC": {
+    "exchange": "perp",
+    "base": "roundhill-photonics-optics-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/LYTE-PERP-USDT"
+  },
+  "MANAPFC": {
+    "exchange": "perp",
+    "base": "decentraland",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/MANA-PERP-USDT"
+  },
+  "MASKPFC": {
+    "exchange": "perp",
+    "base": "mask-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/MASK-PERP-USDT"
+  },
+  "METAPFC": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/META-PERP-USDT"
+  },
+  "MRNAPFC": {
+    "exchange": "perp",
+    "base": "moderna",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/MRNA-PERP-USDT"
+  },
+  "MRVLPFC": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/MRVL-PERP-USDT"
+  },
+  "MSFTPFC": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/MSFT-PERP-USDT"
+  },
+  "MSTRPFC": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/MSTR-PERP-USDT"
+  },
+  "MUPFC": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/MU-PERP-USDT"
+  },
+  "NBISPFC": {
+    "exchange": "perp",
+    "base": "nebius-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/NBIS-PERP-USDT"
+  },
+  "NEARPFC": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/NEAR-PERP-USDT"
+  },
+  "NEOPFC": {
+    "exchange": "perp",
+    "base": "neo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/NEO-PERP-USDT"
+  },
+  "NETPFC": {
+    "exchange": "perp",
+    "base": "cloudflare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/NET-PERP-USDT"
+  },
+  "NFLXPFC": {
+    "exchange": "perp",
+    "base": "netflix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/NFLX-PERP-USDT"
+  },
+  "NOKPFC": {
+    "exchange": "perp",
+    "base": "nokia-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/NOK-PERP-USDT"
+  },
+  "NOTPFC": {
+    "exchange": "perp",
+    "base": "notcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/NOT-PERP-USDT"
+  },
+  "NOWPFC": {
+    "exchange": "perp",
+    "base": "servicenow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/NOW-PERP-USDT"
+  },
+  "NVDAPFC": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/NVDA-PERP-USDT"
+  },
+  "ONDOPFC": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ONDO-PERP-USDT"
+  },
+  "OPPFC": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/OP-PERP-USDT"
+  },
+  "ORCLPFC": {
+    "exchange": "perp",
+    "base": "oracle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ORCL-PERP-USDT"
+  },
+  "ORDIPFC": {
+    "exchange": "perp",
+    "base": "ordi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ORDI-PERP-USDT"
+  },
+  "PAXGPFC": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/PAXG-PERP-USDT"
+  },
+  "PENDLEPFC": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/PENDLE-PERP-USDT"
+  },
+  "PENGUPFC": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/PENGU-PERP-USDT"
+  },
+  "PEOPLEPFC": {
+    "exchange": "perp",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/PEOPLE-PERP-USDT"
+  },
+  "PHAPFC": {
+    "exchange": "perp",
+    "base": "pha",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/PHA-PERP-USDT"
+  },
+  "PLTRPFC": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/PLTR-PERP-USDT"
+  },
+  "POLPFC": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/POL-PERP-USDT"
+  },
+  "PONSPFC": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/PONS-PERP-USDT"
+  },
+  "POPCATPFC": {
+    "exchange": "perp",
+    "base": "popcat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/POPCAT-PERP-USDT"
+  },
+  "PUMPPFC": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/PUMP-PERP-USDT"
+  },
+  "PYTHPFC": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/PYTH-PERP-USDT"
+  },
+  "QCOMPFC": {
+    "exchange": "perp",
+    "base": "qualcomm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/QCOM-PERP-USDT"
+  },
+  "QNTPFC": {
+    "exchange": "perp",
+    "base": "quantinuum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/QNT-PERP-USDT"
+  },
+  "QQQPFC": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/QQQ-PERP-USDT"
+  },
+  "RAVEPFC": {
+    "exchange": "perp",
+    "base": "ravedao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/RAVE-PERP-USDT"
+  },
+  "RDDTPFC": {
+    "exchange": "perp",
+    "base": "reddit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/RDDT-PERP-USDT"
+  },
+  "RENDERPFC": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/RENDER-PERP-USDT"
+  },
+  "REPFC": {
+    "exchange": "perp",
+    "base": "re",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/RE-PERP-USDT"
+  },
+  "RIVNPFC": {
+    "exchange": "perp",
+    "base": "rivian-automotive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/RIVN-PERP-USDT"
+  },
+  "RKLBPFC": {
+    "exchange": "perp",
+    "base": "rocket-lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/RKLB-PERP-USDT"
+  },
+  "RUNEPFC": {
+    "exchange": "perp",
+    "base": "thorchain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/RUNE-PERP-USDT"
+  },
+  "SAGAPFC": {
+    "exchange": "perp",
+    "base": "saga",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SAGA-PERP-USDT"
+  },
+  "SANDPFC": {
+    "exchange": "perp",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SAND-PERP-USDT"
+  },
+  "SEIPFC": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SEI-PERP-USDT"
+  },
+  "SHAZPFC": {
+    "exchange": "perp",
+    "base": "sharonai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SHAZ-PERP-USDT"
+  },
+  "SKHYPFC": {
+    "exchange": "perp",
+    "base": "sk-hynix-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SKHY-PERP-USDT"
+  },
+  "SLXPFC": {
+    "exchange": "perp",
+    "base": "solstice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SLX-PERP-USDT"
+  },
+  "SMHPFC": {
+    "exchange": "perp",
+    "base": "vaneck-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SMH-PERP-USDT"
+  },
+  "SNDKPFC": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SNDK-PERP-USDT"
+  },
+  "SNXPFC": {
+    "exchange": "perp",
+    "base": "synthetix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SNX-PERP-USDT"
+  },
+  "SNXXPFC": {
+    "exchange": "perp",
+    "base": "tradr-2x-long-sndk-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SNXX-PERP-USDT"
+  },
+  "SOLPFC": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SOL-PERP-USDT"
+  },
+  "SOMIPFC": {
+    "exchange": "perp",
+    "base": "somnia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SOMI-PERP-USDT"
+  },
+  "SOXLPFC": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SOXL-PERP-USDT"
+  },
+  "SPCXPFC": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SPCX-PERP-USDT"
+  },
+  "SPFC": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/S-PERP-USDT"
+  },
+  "SPXPFC": {
+    "exchange": "perp",
+    "base": "spx6900",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SPX-PERP-USDT"
+  },
+  "SPYPFC": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SPY-PERP-USDT"
+  },
+  "STABLEPFC": {
+    "exchange": "perp",
+    "base": "stable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/STABLE-PERP-USDT"
+  },
+  "STRCPFC": {
+    "exchange": "perp",
+    "base": "strategy-stretch-preferred-stock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/STRC-PERP-USDT"
+  },
+  "STRKPFC": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/STRK-PERP-USDT"
+  },
+  "STXPFC": {
+    "exchange": "perp",
+    "base": "stacks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/STX-PERP-USDT"
+  },
+  "SUIPFC": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SUI-PERP-USDT"
+  },
+  "SUSHIPFC": {
+    "exchange": "perp",
+    "base": "sushi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/SUSHI-PERP-USDT"
+  },
+  "TAOPFC": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/TAO-PERP-USDT"
+  },
+  "THETAPFC": {
+    "exchange": "perp",
+    "base": "theta-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/THETA-PERP-USDT"
+  },
+  "TIAPFC": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/TIA-PERP-USDT"
+  },
+  "TRBPFC": {
+    "exchange": "perp",
+    "base": "tellor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/TRB-PERP-USDT"
+  },
+  "TRUMPPFC": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/TRUMP-PERP-USDT"
+  },
+  "TRXPFC": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/TRX-PERP-USDT"
+  },
+  "TSLAPFC": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/TSLA-PERP-USDT"
+  },
+  "TSMPFC": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/TSM-PERP-USDT"
+  },
+  "UNIPFC": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/UNI-PERP-USDT"
+  },
+  "URNMPFC": {
+    "exchange": "perp",
+    "base": "sprott-uranium-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/URNM-PERP-USDT"
+  },
+  "USARPFC": {
+    "exchange": "perp",
+    "base": "usa-rare-earth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/USAR-PERP-USDT"
+  },
+  "USELESSPFC": {
+    "exchange": "perp",
+    "base": "useless-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/USELESS-PERP-USDT"
+  },
+  "WDCPFC": {
+    "exchange": "perp",
+    "base": "western-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/WDC-PERP-USDT"
+  },
+  "WIFPFC": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/WIF-PERP-USDT"
+  },
+  "WLDPFC": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/WLD-PERP-USDT"
+  },
+  "WLFIPFC": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/WLFI-PERP-USDT"
+  },
+  "WPFC": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/W-PERP-USDT"
+  },
+  "XLEPFC": {
+    "exchange": "perp",
+    "base": "energy-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/XLE-PERP-USDT"
+  },
+  "XMRPFC": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/XMR-PERP-USDT"
+  },
+  "XPLPFC": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/XPL-PERP-USDT"
+  },
+  "XRPPFC": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/XRP-PERP-USDT"
+  },
+  "XTZPFC": {
+    "exchange": "perp",
+    "base": "tezos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/XTZ-PERP-USDT"
+  },
+  "YFIPFC": {
+    "exchange": "perp",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/YFI-PERP-USDT"
+  },
+  "ZECPFC": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ZEC-PERP-USDT"
+  },
+  "ZENPFC": {
+    "exchange": "perp",
+    "base": "horizen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ZEN-PERP-USDT"
+  },
+  "ZEREBROPFC": {
+    "exchange": "perp",
+    "base": "zerebro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ZEREBRO-PERP-USDT"
+  },
+  "ZILPFC": {
+    "exchange": "perp",
+    "base": "zilliqa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ZIL-PERP-USDT"
+  },
+  "ZKPFC": {
+    "exchange": "perp",
+    "base": "zksync",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ZK-PERP-USDT"
+  },
+  "ZMPFC": {
+    "exchange": "perp",
+    "base": "zoom-communications",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ZM-PERP-USDT"
+  },
+  "ZORAPFC": {
+    "exchange": "perp",
+    "base": "zora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.btse.com/en/futures/ZORA-PERP-USDT"
+  }
+}

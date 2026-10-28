@@ -1,0 +1,788 @@
+{
+  "AAVE:USD": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/AAVE:USD?type=exchange"
+  },
+  "AAVE:UST": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/AAVE:UST?type=exchange"
+  },
+  "ADABTC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/ADA:BTC?type=exchange"
+  },
+  "ADAUSD": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/ADA:USD?type=exchange"
+  },
+  "ADAUST": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/ADA:UST?type=exchange"
+  },
+  "ALGUSD": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/ALG:USD?type=exchange"
+  },
+  "APTUSD": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/APT:USD?type=exchange"
+  },
+  "ARBUSD": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/ARB:USD?type=exchange"
+  },
+  "ARBUST": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/ARB:UST?type=exchange"
+  },
+  "AVAX:BTC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/AVAX:BTC?type=exchange"
+  },
+  "AVAX:USD": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/AVAX:USD?type=exchange"
+  },
+  "AVAX:UST": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/AVAX:UST?type=exchange"
+  },
+  "BCHN:USD": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/BCHN:USD?type=exchange"
+  },
+  "BTC:XAUT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether-gold",
+    "url": "https://trading.bitfinex.com/t/BTC:XAUT?type=exchange"
+  },
+  "BTCEUR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro",
+    "url": "https://trading.bitfinex.com/t/BTC:EUR?type=exchange"
+  },
+  "BTCGBP": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "british-pound",
+    "url": "https://trading.bitfinex.com/t/BTC:GBP?type=exchange"
+  },
+  "BTCUSD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/BTC:USD?type=exchange"
+  },
+  "BTCUST": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/BTC:UST?type=exchange"
+  },
+  "CELO:USD": {
+    "exchange": "spot",
+    "base": "celo",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/CELO:USD?type=exchange"
+  },
+  "CELO:UST": {
+    "exchange": "spot",
+    "base": "celo",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/CELO:UST?type=exchange"
+  },
+  "CHZUSD": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/CHZ:USD?type=exchange"
+  },
+  "CRVUSD": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/CRV:USD?type=exchange"
+  },
+  "CRVUST": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/CRV:UST?type=exchange"
+  },
+  "DOGE:BTC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/DOGE:BTC?type=exchange"
+  },
+  "DOGE:USD": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/DOGE:USD?type=exchange"
+  },
+  "DOGE:UST": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/DOGE:UST?type=exchange"
+  },
+  "DOTUSD": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/DOT:USD?type=exchange"
+  },
+  "DOTUST": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/DOT:UST?type=exchange"
+  },
+  "DSHUSD": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/DSH:USD?type=exchange"
+  },
+  "ENAUSD": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/ENA:USD?type=exchange"
+  },
+  "ENAUST": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/ENA:UST?type=exchange"
+  },
+  "ETCBTC": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/ETC:BTC?type=exchange"
+  },
+  "ETCUSD": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/ETC:USD?type=exchange"
+  },
+  "ETCUST": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/ETC:UST?type=exchange"
+  },
+  "ETH:XAUT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether-gold",
+    "url": "https://trading.bitfinex.com/t/ETH:XAUT?type=exchange"
+  },
+  "ETHBTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/ETH:BTC?type=exchange"
+  },
+  "ETHEUR": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro",
+    "url": "https://trading.bitfinex.com/t/ETH:EUR?type=exchange"
+  },
+  "ETHGBP": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "british-pound",
+    "url": "https://trading.bitfinex.com/t/ETH:GBP?type=exchange"
+  },
+  "ETHUSD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/ETH:USD?type=exchange"
+  },
+  "ETHUST": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/ETH:UST?type=exchange"
+  },
+  "EURQ:EUR": {
+    "exchange": "spot",
+    "base": "quantoz-eurq",
+    "quote": "euro",
+    "url": "https://trading.bitfinex.com/t/EURQ:EUR?type=exchange"
+  },
+  "EURQ:UST": {
+    "exchange": "spot",
+    "base": "quantoz-eurq",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/EURQ:UST?type=exchange"
+  },
+  "EURUST": {
+    "exchange": "spot",
+    "base": "euro",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/EUR:UST?type=exchange"
+  },
+  "FILUSD": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/FIL:USD?type=exchange"
+  },
+  "FILUST": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/FIL:UST?type=exchange"
+  },
+  "GBPUST": {
+    "exchange": "spot",
+    "base": "british-pound",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/GBP:UST?type=exchange"
+  },
+  "GOMINING:USD": {
+    "exchange": "spot",
+    "base": "gmt-token",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/GOMINING:USD?type=exchange"
+  },
+  "GOMINING:UST": {
+    "exchange": "spot",
+    "base": "gmt-token",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/GOMINING:UST?type=exchange"
+  },
+  "GUNUSD": {
+    "exchange": "spot",
+    "base": "gunz",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/GUN:USD?type=exchange"
+  },
+  "GUNUST": {
+    "exchange": "spot",
+    "base": "gunz",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/GUN:UST?type=exchange"
+  },
+  "HYPE:USD": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/HYPE:USD?type=exchange"
+  },
+  "HYPE:UST": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/HYPE:UST?type=exchange"
+  },
+  "IOTUSD": {
+    "exchange": "spot",
+    "base": "iota",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/IOT:USD?type=exchange"
+  },
+  "KAIA:USD": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/KAIA:USD?type=exchange"
+  },
+  "KAIA:UST": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/KAIA:UST?type=exchange"
+  },
+  "LEOBTC": {
+    "exchange": "spot",
+    "base": "leo-token",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/LEO:BTC?type=exchange"
+  },
+  "LEOUSD": {
+    "exchange": "spot",
+    "base": "leo-token",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/LEO:USD?type=exchange"
+  },
+  "LEOUST": {
+    "exchange": "spot",
+    "base": "leo-token",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/LEO:UST?type=exchange"
+  },
+  "LINK:USD": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/LINK:USD?type=exchange"
+  },
+  "LINK:UST": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/LINK:UST?type=exchange"
+  },
+  "LTCBTC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/LTC:BTC?type=exchange"
+  },
+  "LTCUSD": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/LTC:USD?type=exchange"
+  },
+  "LTCUST": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/LTC:UST?type=exchange"
+  },
+  "MNTUSD": {
+    "exchange": "spot",
+    "base": "mantle",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/MNT:USD?type=exchange"
+  },
+  "MNTUST": {
+    "exchange": "spot",
+    "base": "mantle",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/MNT:UST?type=exchange"
+  },
+  "NEAR:USD": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/NEAR:USD?type=exchange"
+  },
+  "NEAR:UST": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/NEAR:UST?type=exchange"
+  },
+  "NYMUSD": {
+    "exchange": "spot",
+    "base": "nym",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/NYM:USD?type=exchange"
+  },
+  "NYMUST": {
+    "exchange": "spot",
+    "base": "nym",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/NYM:UST?type=exchange"
+  },
+  "OPXUSD": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/OPX:USD?type=exchange"
+  },
+  "OPXUST": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/OPX:UST?type=exchange"
+  },
+  "PEPE:USD": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/PEPE:USD?type=exchange"
+  },
+  "PEPE:UST": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/PEPE:UST?type=exchange"
+  },
+  "POLUSD": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/POL:USD?type=exchange"
+  },
+  "POLUST": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/POL:UST?type=exchange"
+  },
+  "RLSUSD": {
+    "exchange": "spot",
+    "base": "rayls",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/RLS:USD?type=exchange"
+  },
+  "RLSUST": {
+    "exchange": "spot",
+    "base": "rayls",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/RLS:UST?type=exchange"
+  },
+  "SEIUSD": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/SEI:USD?type=exchange"
+  },
+  "SEIUST": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/SEI:UST?type=exchange"
+  },
+  "SHIB:USD": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/SHIB:USD?type=exchange"
+  },
+  "SHIB:UST": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/SHIB:UST?type=exchange"
+  },
+  "SKYUSD": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/SKY:USD?type=exchange"
+  },
+  "SKYUST": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/SKY:UST?type=exchange"
+  },
+  "SOLBTC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/SOL:BTC?type=exchange"
+  },
+  "SOLUSD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/SOL:USD?type=exchange"
+  },
+  "SOLUST": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/SOL:UST?type=exchange"
+  },
+  "STABLE:USD": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/STABLE:USD?type=exchange"
+  },
+  "STABLE:UST": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/STABLE:UST?type=exchange"
+  },
+  "STXUSD": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/STX:USD?type=exchange"
+  },
+  "STXUST": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/STX:UST?type=exchange"
+  },
+  "SUIUSD": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/SUI:USD?type=exchange"
+  },
+  "SUIUST": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/SUI:UST?type=exchange"
+  },
+  "SUNUSD": {
+    "exchange": "spot",
+    "base": "sun-token",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/SUN:USD?type=exchange"
+  },
+  "SUNUST": {
+    "exchange": "spot",
+    "base": "sun-token",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/SUN:UST?type=exchange"
+  },
+  "TONUSD": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/TON:USD?type=exchange"
+  },
+  "TONUST": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/TON:UST?type=exchange"
+  },
+  "TRXBTC": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/TRX:BTC?type=exchange"
+  },
+  "TRXEUR": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "euro",
+    "url": "https://trading.bitfinex.com/t/TRX:EUR?type=exchange"
+  },
+  "TRXUSD": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/TRX:USD?type=exchange"
+  },
+  "TRXUST": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/TRX:UST?type=exchange"
+  },
+  "UDCUSD": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/UDC:USD?type=exchange"
+  },
+  "UDCUST": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/UDC:UST?type=exchange"
+  },
+  "UNIUSD": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/UNI:USD?type=exchange"
+  },
+  "UNIUST": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/UNI:UST?type=exchange"
+  },
+  "USAT:USD": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/USAT:USD?type=exchange"
+  },
+  "USAT:UST": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/USAT:UST?type=exchange"
+  },
+  "USTUSD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/UST:USD?type=exchange"
+  },
+  "WBTBTC": {
+    "exchange": "spot",
+    "base": "wrapped-bitcoin",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/WBT:BTC?type=exchange"
+  },
+  "WBTUSD": {
+    "exchange": "spot",
+    "base": "wrapped-bitcoin",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/WBT:USD?type=exchange"
+  },
+  "WHBT:USD": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/WHBT:USD?type=exchange"
+  },
+  "WHBT:UST": {
+    "exchange": "spot",
+    "base": "whitebit-coin",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/WHBT:UST?type=exchange"
+  },
+  "XAUT:BTC": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/XAUT:BTC?type=exchange"
+  },
+  "XAUT:USD": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/XAUT:USD?type=exchange"
+  },
+  "XAUT:UST": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/XAUT:UST?type=exchange"
+  },
+  "XDCUSD": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/XDC:USD?type=exchange"
+  },
+  "XDCUST": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/XDC:UST?type=exchange"
+  },
+  "XLMUSD": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/XLM:USD?type=exchange"
+  },
+  "XLMUST": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/XLM:UST?type=exchange"
+  },
+  "XMRBTC": {
+    "exchange": "spot",
+    "base": "monero",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/XMR:BTC?type=exchange"
+  },
+  "XMRUSD": {
+    "exchange": "spot",
+    "base": "monero",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/XMR:USD?type=exchange"
+  },
+  "XMRUST": {
+    "exchange": "spot",
+    "base": "monero",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/XMR:UST?type=exchange"
+  },
+  "XPLUSD": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/XPL:USD?type=exchange"
+  },
+  "XPLUST": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/XPL:UST?type=exchange"
+  },
+  "XRPBTC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/XRP:BTC?type=exchange"
+  },
+  "XRPUSD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/XRP:USD?type=exchange"
+  },
+  "XRPUST": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/XRP:UST?type=exchange"
+  },
+  "ZECBTC": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/ZEC:BTC?type=exchange"
+  },
+  "ZECUSD": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/ZEC:USD?type=exchange"
+  },
+  "ZECUST": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/ZEC:UST?type=exchange"
+  },
+  "ZROUSD": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/ZRO:USD?type=exchange"
+  },
+  "ZROUST": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/ZRO:UST?type=exchange"
+  }
+}

@@ -1,0 +1,4608 @@
+{
+  "0GUSDT": {
+    "exchange": "perp",
+    "base": "zero-gravity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/0GUSDT"
+  },
+  "1000000MOGUSDT": {
+    "exchange": "perp",
+    "base": "mog-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000000,
+    "url": "https://www.bitunix.com/contract-trade/1000000MOGUSDT"
+  },
+  "1000BONKUSDC": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000BONKUSDC"
+  },
+  "1000BONKUSDT": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000BONKUSDT"
+  },
+  "1000CATUSDT": {
+    "exchange": "perp",
+    "base": "simon-s-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000CATUSDT"
+  },
+  "1000CHEEMSUSDT": {
+    "exchange": "perp",
+    "base": "cheems-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000CHEEMSUSDT"
+  },
+  "1000FLOKIUSDT": {
+    "exchange": "perp",
+    "base": "floki",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000FLOKIUSDT"
+  },
+  "1000LUNCUSDT": {
+    "exchange": "perp",
+    "base": "terra-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000LUNCUSDT"
+  },
+  "1000PEPEUSDC": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000PEPEUSDC"
+  },
+  "1000PEPEUSDT": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000PEPEUSDT"
+  },
+  "1000RATSUSDT": {
+    "exchange": "perp",
+    "base": "rats",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000RATSUSDT"
+  },
+  "1000SATSUSDT": {
+    "exchange": "perp",
+    "base": "sats-ordinals",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000SATSUSDT"
+  },
+  "1000SHIBUSDC": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000SHIBUSDC"
+  },
+  "1000SHIBUSDT": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bitunix.com/contract-trade/1000SHIBUSDT"
+  },
+  "1INCHUSDT": {
+    "exchange": "perp",
+    "base": "1inch",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/1INCHUSDT"
+  },
+  "1MBABYDOGEUSDT": {
+    "exchange": "perp",
+    "base": "baby-doge-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000000,
+    "url": "https://www.bitunix.com/contract-trade/1MBABYDOGEUSDT"
+  },
+  "2ZUSDT": {
+    "exchange": "perp",
+    "base": "doublezero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/2ZUSDT"
+  },
+  "4STOCKUSDT": {
+    "exchange": "perp",
+    "base": "4stock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/4STOCKUSDT"
+  },
+  "AAOIUSDT": {
+    "exchange": "perp",
+    "base": "applied-optoelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AAOIUSDT"
+  },
+  "AAPLUSDT": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AAPLUSDT"
+  },
+  "AAVEUSD": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "usd",
+    "settlement": "aave",
+    "url": "https://www.bitunix.com/contract-trade/AAVEUSD"
+  },
+  "AAVEUSDC": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/AAVEUSDC"
+  },
+  "AAVEUSDT": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AAVEUSDT"
+  },
+  "ACEUSDT": {
+    "exchange": "perp",
+    "base": "fusionist",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ACEUSDT"
+  },
+  "ACHUSDT": {
+    "exchange": "perp",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ACHUSDT"
+  },
+  "ACNUSDT": {
+    "exchange": "perp",
+    "base": "accenture",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ACNUSDT"
+  },
+  "ACTUSDT": {
+    "exchange": "perp",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ACTUSDT"
+  },
+  "ACUUSDT": {
+    "exchange": "perp",
+    "base": "acurast",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ACUUSDT"
+  },
+  "ADAUSD": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd",
+    "settlement": "cardano",
+    "url": "https://www.bitunix.com/contract-trade/ADAUSD"
+  },
+  "ADAUSDC": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/ADAUSDC"
+  },
+  "ADAUSDT": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ADAUSDT"
+  },
+  "ADBEUSDT": {
+    "exchange": "perp",
+    "base": "adobe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ADBEUSDT"
+  },
+  "AEROUSDT": {
+    "exchange": "perp",
+    "base": "aerodrome",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AEROUSDT"
+  },
+  "AEVOUSDT": {
+    "exchange": "perp",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AEVOUSDT"
+  },
+  "AGLDUSDT": {
+    "exchange": "perp",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AGLDUSDT"
+  },
+  "AGPUUSDT": {
+    "exchange": "perp",
+    "base": "axe-compute",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AGPUUSDT"
+  },
+  "AINUSDT": {
+    "exchange": "perp",
+    "base": "infinity-ground",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AINUSDT"
+  },
+  "AIOUSDT": {
+    "exchange": "perp",
+    "base": "olaxbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AIOUSDT"
+  },
+  "AIXBTUSDT": {
+    "exchange": "perp",
+    "base": "aixbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AIXBTUSDT"
+  },
+  "AKAMUSDT": {
+    "exchange": "perp",
+    "base": "akamai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AKAMUSDT"
+  },
+  "AKEUSDT": {
+    "exchange": "perp",
+    "base": "akedo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AKEUSDT"
+  },
+  "ALABUSDT": {
+    "exchange": "perp",
+    "base": "astera-labs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ALABUSDT"
+  },
+  "ALCHUSDT": {
+    "exchange": "perp",
+    "base": "alchemist-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ALCHUSDT"
+  },
+  "ALGOUSDT": {
+    "exchange": "perp",
+    "base": "algorand",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ALGOUSDT"
+  },
+  "ALICEUSDT": {
+    "exchange": "perp",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ALICEUSDT"
+  },
+  "ALLOUSDT": {
+    "exchange": "perp",
+    "base": "allora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ALLOUSDT"
+  },
+  "ALPINEUSDT": {
+    "exchange": "perp",
+    "base": "alpine-f1-team-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ALPINEUSDT"
+  },
+  "ALTUSDT": {
+    "exchange": "perp",
+    "base": "altlayer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ALTUSDT"
+  },
+  "AMATUSDT": {
+    "exchange": "perp",
+    "base": "applied-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AMATUSDT"
+  },
+  "AMCUSDT": {
+    "exchange": "perp",
+    "base": "amc-entertainment",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AMCUSDT"
+  },
+  "AMDUSDT": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AMDUSDT"
+  },
+  "AMZNUSDT": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AMZNUSDT"
+  },
+  "ANIMEUSDT": {
+    "exchange": "perp",
+    "base": "animecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ANIMEUSDT"
+  },
+  "ANKRUSDT": {
+    "exchange": "perp",
+    "base": "ankr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ANKRUSDT"
+  },
+  "APEUSDT": {
+    "exchange": "perp",
+    "base": "apecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/APEUSDT"
+  },
+  "APEXUSDT": {
+    "exchange": "perp",
+    "base": "apex-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/APEXUSDT"
+  },
+  "API3USDT": {
+    "exchange": "perp",
+    "base": "api3",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/API3USDT"
+  },
+  "APPUSDT": {
+    "exchange": "perp",
+    "base": "applovin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/APPUSDT"
+  },
+  "APRUSDT": {
+    "exchange": "perp",
+    "base": "apriori",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/APRUSDT"
+  },
+  "APTUSDT": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/APTUSDT"
+  },
+  "ARBUSDC": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/ARBUSDC"
+  },
+  "ARBUSDT": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ARBUSDT"
+  },
+  "ARIAUSDT": {
+    "exchange": "perp",
+    "base": "aria-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ARIAUSDT"
+  },
+  "ARKMUSDT": {
+    "exchange": "perp",
+    "base": "arkham",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ARKMUSDT"
+  },
+  "ARKUSDT": {
+    "exchange": "perp",
+    "base": "ark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ARKUSDT"
+  },
+  "ARMUSDT": {
+    "exchange": "perp",
+    "base": "arm-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ARMUSDT"
+  },
+  "ARPAUSDT": {
+    "exchange": "perp",
+    "base": "arpa-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ARPAUSDT"
+  },
+  "ARUSDT": {
+    "exchange": "perp",
+    "base": "arweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ARUSDT"
+  },
+  "ARXUSDT": {
+    "exchange": "perp",
+    "base": "arcium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ARXUSDT"
+  },
+  "ASMLUSDT": {
+    "exchange": "perp",
+    "base": "asml-holding",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ASMLUSDT"
+  },
+  "ASTERUSDT": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ASTERUSDT"
+  },
+  "ASTRUSDT": {
+    "exchange": "perp",
+    "base": "astar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ASTRUSDT"
+  },
+  "ASTSUSDT": {
+    "exchange": "perp",
+    "base": "ast-spacemobile",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ASTSUSDT"
+  },
+  "ATHUSDT": {
+    "exchange": "perp",
+    "base": "aethir",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ATHUSDT"
+  },
+  "ATOMUSDT": {
+    "exchange": "perp",
+    "base": "cosmos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ATOMUSDT"
+  },
+  "AUCTIONUSDT": {
+    "exchange": "perp",
+    "base": "auction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AUCTIONUSDT"
+  },
+  "AUSDT": {
+    "exchange": "perp",
+    "base": "vaulta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AUSDT"
+  },
+  "AVAAIUSDT": {
+    "exchange": "perp",
+    "base": "ava-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AVAAIUSDT"
+  },
+  "AVAUSDT": {
+    "exchange": "perp",
+    "base": "travala",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AVAUSDT"
+  },
+  "AVAXUSD": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd",
+    "settlement": "avalanche",
+    "url": "https://www.bitunix.com/contract-trade/AVAXUSD"
+  },
+  "AVAXUSDC": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/AVAXUSDC"
+  },
+  "AVAXUSDT": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AVAXUSDT"
+  },
+  "AVGOUSDT": {
+    "exchange": "perp",
+    "base": "broadcom",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AVGOUSDT"
+  },
+  "AVNTUSDT": {
+    "exchange": "perp",
+    "base": "avantis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AVNTUSDT"
+  },
+  "AWEUSDT": {
+    "exchange": "perp",
+    "base": "stp-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AWEUSDT"
+  },
+  "AXISUSDT": {
+    "exchange": "perp",
+    "base": "axis-robotics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AXISUSDT"
+  },
+  "AXLUSDT": {
+    "exchange": "perp",
+    "base": "axelar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AXLUSDT"
+  },
+  "AXSUSDT": {
+    "exchange": "perp",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AXSUSDT"
+  },
+  "AXTIUSDT": {
+    "exchange": "perp",
+    "base": "axt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AXTIUSDT"
+  },
+  "AZTECUSDT": {
+    "exchange": "perp",
+    "base": "aztec",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AZTECUSDT"
+  },
+  "B2USDT": {
+    "exchange": "perp",
+    "base": "bsquared-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/B2USDT"
+  },
+  "BABAUSDT": {
+    "exchange": "perp",
+    "base": "alibaba-group-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BABAUSDT"
+  },
+  "BABYUSDT": {
+    "exchange": "perp",
+    "base": "babylon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BABYUSDT"
+  },
+  "BACUSDT": {
+    "exchange": "perp",
+    "base": "bank-of-america",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BACUSDT"
+  },
+  "BANANAS31USDT": {
+    "exchange": "perp",
+    "base": "banana-for-scale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BANANAS31USDT"
+  },
+  "BANANAUSDT": {
+    "exchange": "perp",
+    "base": "banana-gun",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BANANAUSDT"
+  },
+  "BANDUSDT": {
+    "exchange": "perp",
+    "base": "band-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BANDUSDT"
+  },
+  "BANUSDT": {
+    "exchange": "perp",
+    "base": "comedian",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BANUSDT"
+  },
+  "BARDUSDT": {
+    "exchange": "perp",
+    "base": "lombard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BARDUSDT"
+  },
+  "BASEDUSDT": {
+    "exchange": "perp",
+    "base": "based",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BASEDUSDT"
+  },
+  "BASUSDT": {
+    "exchange": "perp",
+    "base": "bas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BASUSDT"
+  },
+  "BATUSDT": {
+    "exchange": "perp",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BATUSDT"
+  },
+  "BBUSDT": {
+    "exchange": "perp",
+    "base": "bouncebit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BBUSDT"
+  },
+  "BCHUSD": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "usd",
+    "settlement": "bitcoin-cash",
+    "url": "https://www.bitunix.com/contract-trade/BCHUSD"
+  },
+  "BCHUSDC": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/BCHUSDC"
+  },
+  "BCHUSDT": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BCHUSDT"
+  },
+  "BEATUSDT": {
+    "exchange": "perp",
+    "base": "audiera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BEATUSDT"
+  },
+  "BERAUSDT": {
+    "exchange": "perp",
+    "base": "berachain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BERAUSDT"
+  },
+  "BEUSDT": {
+    "exchange": "perp",
+    "base": "bloom-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BEUSDT"
+  },
+  "BICOUSDT": {
+    "exchange": "perp",
+    "base": "biconomy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BICOUSDT"
+  },
+  "BIGTIMEUSDT": {
+    "exchange": "perp",
+    "base": "big-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BIGTIMEUSDT"
+  },
+  "BILLUSDT": {
+    "exchange": "perp",
+    "base": "billions-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BILLUSDT"
+  },
+  "BIOUSDT": {
+    "exchange": "perp",
+    "base": "bio-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BIOUSDT"
+  },
+  "BIRBUSDT": {
+    "exchange": "perp",
+    "base": "moonbirds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BIRBUSDT"
+  },
+  "BLENDUSDT": {
+    "exchange": "perp",
+    "base": "fluent-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BLENDUSDT"
+  },
+  "BLESSUSDT": {
+    "exchange": "perp",
+    "base": "bless-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BLESSUSDT"
+  },
+  "BLUAIUSDT": {
+    "exchange": "perp",
+    "base": "bluwhale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BLUAIUSDT"
+  },
+  "BLURUSDT": {
+    "exchange": "perp",
+    "base": "blur",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BLURUSDT"
+  },
+  "BMNRUSDT": {
+    "exchange": "perp",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BMNRUSDT"
+  },
+  "BMTUSDT": {
+    "exchange": "perp",
+    "base": "bubblemaps",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BMTUSDT"
+  },
+  "BNBUSD": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "usd",
+    "settlement": "bnb",
+    "url": "https://www.bitunix.com/contract-trade/BNBUSD"
+  },
+  "BNBUSDC": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/BNBUSDC"
+  },
+  "BNBUSDT": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BNBUSDT"
+  },
+  "BNCUSDT": {
+    "exchange": "perp",
+    "base": "bnb-standard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BNCUSDT"
+  },
+  "BNTUSDT": {
+    "exchange": "perp",
+    "base": "bancor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BNTUSDT"
+  },
+  "BOMEUSDT": {
+    "exchange": "perp",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BOMEUSDT"
+  },
+  "BOTUSDT": {
+    "exchange": "perp",
+    "base": "robostrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BOTUSDT"
+  },
+  "BRETTUSDT": {
+    "exchange": "perp",
+    "base": "brett",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BRETTUSDT"
+  },
+  "BREVUSDT": {
+    "exchange": "perp",
+    "base": "brevis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BREVUSDT"
+  },
+  "BRUSDT": {
+    "exchange": "perp",
+    "base": "bedrock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BRUSDT"
+  },
+  "BSBUSDT": {
+    "exchange": "perp",
+    "base": "block-street",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BSBUSDT"
+  },
+  "BSVUSDT": {
+    "exchange": "perp",
+    "base": "bitcoin-cash-sv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BSVUSDT"
+  },
+  "BTCUSD": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd",
+    "settlement": "bitcoin",
+    "url": "https://www.bitunix.com/contract-trade/BTCUSD"
+  },
+  "BTCUSDC": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/BTCUSDC"
+  },
+  "BTCUSDT": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BTCUSDT"
+  },
+  "BTRUSDT": {
+    "exchange": "perp",
+    "base": "bitlayer-bitvm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BTRUSDT"
+  },
+  "BTWUSDT": {
+    "exchange": "perp",
+    "base": "bitway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BTWUSDT"
+  },
+  "BUSDT": {
+    "exchange": "perp",
+    "base": "build-on",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BUSDT"
+  },
+  "BWETUSDT": {
+    "exchange": "perp",
+    "base": "breakwave-tanker-shipping-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BWETUSDT"
+  },
+  "BXUSDT": {
+    "exchange": "perp",
+    "base": "blackstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BXUSDT"
+  },
+  "BZUSDT": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BZUSDT"
+  },
+  "C98USDT": {
+    "exchange": "perp",
+    "base": "coin98",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/C98USDT"
+  },
+  "CAKEUSDT": {
+    "exchange": "perp",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CAKEUSDT"
+  },
+  "CAPUSDT": {
+    "exchange": "perp",
+    "base": "cap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CAPUSDT"
+  },
+  "CARVUSDT": {
+    "exchange": "perp",
+    "base": "carv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CARVUSDT"
+  },
+  "CASHCATUSDT": {
+    "exchange": "perp",
+    "base": "cash-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CASHCATUSDT"
+  },
+  "CATIUSDT": {
+    "exchange": "perp",
+    "base": "catizen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CATIUSDT"
+  },
+  "CBRSUSDT": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CBRSUSDT"
+  },
+  "CCUSDT": {
+    "exchange": "perp",
+    "base": "canton",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CCUSDT"
+  },
+  "CEGUSDT": {
+    "exchange": "perp",
+    "base": "constellation-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CEGUSDT"
+  },
+  "CELOUSDT": {
+    "exchange": "perp",
+    "base": "celo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CELOUSDT"
+  },
+  "CELRUSDT": {
+    "exchange": "perp",
+    "base": "celer-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CELRUSDT"
+  },
+  "CETUSUSDT": {
+    "exchange": "perp",
+    "base": "cetus-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CETUSUSDT"
+  },
+  "CFGUSDT": {
+    "exchange": "perp",
+    "base": "centrifuge",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CFGUSDT"
+  },
+  "CFXUSDT": {
+    "exchange": "perp",
+    "base": "conflux",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CFXUSDT"
+  },
+  "CGPTUSDT": {
+    "exchange": "perp",
+    "base": "chaingpt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CGPTUSDT"
+  },
+  "CHILLGUYUSDT": {
+    "exchange": "perp",
+    "base": "just-a-chill-guy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CHILLGUYUSDT"
+  },
+  "CHIPUSDT": {
+    "exchange": "perp",
+    "base": "usd-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CHIPUSDT"
+  },
+  "CHRUSDT": {
+    "exchange": "perp",
+    "base": "chromaway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CHRUSDT"
+  },
+  "CHZUSDT": {
+    "exchange": "perp",
+    "base": "chiliz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CHZUSDT"
+  },
+  "CKBUSDT": {
+    "exchange": "perp",
+    "base": "nervos-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CKBUSDT"
+  },
+  "CLANKERUSDT": {
+    "exchange": "perp",
+    "base": "tokenbot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CLANKERUSDT"
+  },
+  "CLOUSDT": {
+    "exchange": "perp",
+    "base": "yei-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CLOUSDT"
+  },
+  "CLUSDT": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CLUSDT"
+  },
+  "COHRUSDT": {
+    "exchange": "perp",
+    "base": "coherent-corp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/COHRUSDT"
+  },
+  "COINUSDT": {
+    "exchange": "perp",
+    "base": "coinbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/COINUSDT"
+  },
+  "COMPUSDT": {
+    "exchange": "perp",
+    "base": "compound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/COMPUSDT"
+  },
+  "COOKIEUSDT": {
+    "exchange": "perp",
+    "base": "cookie",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/COOKIEUSDT"
+  },
+  "COPPERUSDT": {
+    "exchange": "perp",
+    "base": "copper",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/COPPERUSDT"
+  },
+  "COREUSDT": {
+    "exchange": "perp",
+    "base": "core",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/COREUSDT"
+  },
+  "COSTUSDT": {
+    "exchange": "perp",
+    "base": "costco-wholesale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/COSTUSDT"
+  },
+  "COTIUSDT": {
+    "exchange": "perp",
+    "base": "coti",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/COTIUSDT"
+  },
+  "COWUSDT": {
+    "exchange": "perp",
+    "base": "cow-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/COWUSDT"
+  },
+  "CPUSDT": {
+    "exchange": "perp",
+    "base": "cluster-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CPUSDT"
+  },
+  "CRCLUSDT": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CRCLUSDT"
+  },
+  "CRDOUSDT": {
+    "exchange": "perp",
+    "base": "credo-technology-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CRDOUSDT"
+  },
+  "CRMLUSDT": {
+    "exchange": "perp",
+    "base": "critical-metals",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CRMLUSDT"
+  },
+  "CRMUSDT": {
+    "exchange": "perp",
+    "base": "salesforce",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CRMUSDT"
+  },
+  "CROUSDT": {
+    "exchange": "perp",
+    "base": "cronos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CROUSDT"
+  },
+  "CRVUSDT": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CRVUSDT"
+  },
+  "CRWVUSDT": {
+    "exchange": "perp",
+    "base": "coreweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CRWVUSDT"
+  },
+  "CSCOUSDT": {
+    "exchange": "perp",
+    "base": "cisco",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CSCOUSDT"
+  },
+  "CTRUSDT": {
+    "exchange": "perp",
+    "base": "citrea",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CTRUSDT"
+  },
+  "CTSIUSDT": {
+    "exchange": "perp",
+    "base": "cartesi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CTSIUSDT"
+  },
+  "CTUSDT": {
+    "exchange": "perp",
+    "base": "concrete",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CTUSDT"
+  },
+  "CUSDT": {
+    "exchange": "perp",
+    "base": "chainbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CUSDT"
+  },
+  "CVCUSDT": {
+    "exchange": "perp",
+    "base": "civic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CVCUSDT"
+  },
+  "CVNAUSDT": {
+    "exchange": "perp",
+    "base": "carvana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CVNAUSDT"
+  },
+  "CVXUSDT": {
+    "exchange": "perp",
+    "base": "convex-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CVXUSDT"
+  },
+  "CYBERUSDT": {
+    "exchange": "perp",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CYBERUSDT"
+  },
+  "CYPHUSDT": {
+    "exchange": "perp",
+    "base": "cypherpunk-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CYPHUSDT"
+  },
+  "CYSUSDT": {
+    "exchange": "perp",
+    "base": "cysic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CYSUSDT"
+  },
+  "DASHUSDT": {
+    "exchange": "perp",
+    "base": "dash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DASHUSDT"
+  },
+  "DEEPUSDT": {
+    "exchange": "perp",
+    "base": "deep",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DEEPUSDT"
+  },
+  "DELLUSDT": {
+    "exchange": "perp",
+    "base": "dell-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DELLUSDT"
+  },
+  "DEXEUSDT": {
+    "exchange": "perp",
+    "base": "dexe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DEXEUSDT"
+  },
+  "DGAIUSDT": {
+    "exchange": "perp",
+    "base": "dgrid-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DGAIUSDT"
+  },
+  "DIAUSDT": {
+    "exchange": "perp",
+    "base": "dia-data",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DIAUSDT"
+  },
+  "DISUSDT": {
+    "exchange": "perp",
+    "base": "walt-disney",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DISUSDT"
+  },
+  "DKNGUSDT": {
+    "exchange": "perp",
+    "base": "draftkings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DKNGUSDT"
+  },
+  "DNAUSDT": {
+    "exchange": "perp",
+    "base": "neosoul",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DNAUSDT"
+  },
+  "DOGEUSD": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd",
+    "settlement": "dogecoin",
+    "url": "https://www.bitunix.com/contract-trade/DOGEUSD"
+  },
+  "DOGEUSDC": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/DOGEUSDC"
+  },
+  "DOGEUSDT": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DOGEUSDT"
+  },
+  "DOGSUSDT": {
+    "exchange": "perp",
+    "base": "dogs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DOGSUSDT"
+  },
+  "DOLOUSDT": {
+    "exchange": "perp",
+    "base": "dolomite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DOLOUSDT"
+  },
+  "DOODUSDT": {
+    "exchange": "perp",
+    "base": "doodles",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DOODUSDT"
+  },
+  "DOSUSDT": {
+    "exchange": "perp",
+    "base": "dappos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DOSUSDT"
+  },
+  "DOTUSD": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "usd",
+    "settlement": "polkadot",
+    "url": "https://www.bitunix.com/contract-trade/DOTUSD"
+  },
+  "DOTUSDT": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DOTUSDT"
+  },
+  "DRAMUSDT": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DRAMUSDT"
+  },
+  "DRIFTUSDT": {
+    "exchange": "perp",
+    "base": "drift-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DRIFTUSDT"
+  },
+  "DUSKUSDT": {
+    "exchange": "perp",
+    "base": "dusk-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DUSKUSDT"
+  },
+  "DYDXUSDT": {
+    "exchange": "perp",
+    "base": "dydx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DYDXUSDT"
+  },
+  "DYMUSDT": {
+    "exchange": "perp",
+    "base": "dymension",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DYMUSDT"
+  },
+  "EBAYUSDT": {
+    "exchange": "perp",
+    "base": "ebay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EBAYUSDT"
+  },
+  "EDENUSDT": {
+    "exchange": "perp",
+    "base": "openeden",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EDENUSDT"
+  },
+  "EDUUSDT": {
+    "exchange": "perp",
+    "base": "edu-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EDUUSDT"
+  },
+  "EGLDUSDT": {
+    "exchange": "perp",
+    "base": "multiversx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EGLDUSDT"
+  },
+  "EIGENUSDT": {
+    "exchange": "perp",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EIGENUSDT"
+  },
+  "ELSAUSDT": {
+    "exchange": "perp",
+    "base": "elsa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ELSAUSDT"
+  },
+  "ENAUSDC": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/ENAUSDC"
+  },
+  "ENAUSDT": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ENAUSDT"
+  },
+  "ENJUSDT": {
+    "exchange": "perp",
+    "base": "enjin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ENJUSDT"
+  },
+  "ENSOUSDT": {
+    "exchange": "perp",
+    "base": "enso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ENSOUSDT"
+  },
+  "ENSUSDT": {
+    "exchange": "perp",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ENSUSDT"
+  },
+  "ERAUSDT": {
+    "exchange": "perp",
+    "base": "caldera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ERAUSDT"
+  },
+  "ESPORTSUSDT": {
+    "exchange": "perp",
+    "base": "yooldo-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ESPORTSUSDT"
+  },
+  "ESPUSDT": {
+    "exchange": "perp",
+    "base": "espresso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ESPUSDT"
+  },
+  "ETCUSDT": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ETCUSDT"
+  },
+  "ETHFIUSDT": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ETHFIUSDT"
+  },
+  "ETHUSD": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd",
+    "settlement": "ethereum",
+    "url": "https://www.bitunix.com/contract-trade/ETHUSD"
+  },
+  "ETHUSDC": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/ETHUSDC"
+  },
+  "ETHUSDT": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ETHUSDT"
+  },
+  "ETHWUSDT": {
+    "exchange": "perp",
+    "base": "ethereum-pow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ETHWUSDT"
+  },
+  "EULUSDT": {
+    "exchange": "perp",
+    "base": "euler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EULUSDT"
+  },
+  "EVAAUSDT": {
+    "exchange": "perp",
+    "base": "evaa-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EVAAUSDT"
+  },
+  "EWJUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-japan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EWJUSDT"
+  },
+  "EWTUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-taiwan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EWTUSDT"
+  },
+  "EWYUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EWYUSDT"
+  },
+  "EWZUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-brazil-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EWZUSDT"
+  },
+  "FARTCOINUSDT": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FARTCOINUSDT"
+  },
+  "FETUSDT": {
+    "exchange": "perp",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FETUSDT"
+  },
+  "FFUSDT": {
+    "exchange": "perp",
+    "base": "falcon-finance-ff",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FFUSDT"
+  },
+  "FHEUSDT": {
+    "exchange": "perp",
+    "base": "mind-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FHEUSDT"
+  },
+  "FIDAUSDT": {
+    "exchange": "perp",
+    "base": "bonfida",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FIDAUSDT"
+  },
+  "FIGHTUSDT": {
+    "exchange": "perp",
+    "base": "fight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FIGHTUSDT"
+  },
+  "FILUSDC": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/FILUSDC"
+  },
+  "FILUSDT": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FILUSDT"
+  },
+  "FLNCUSDT": {
+    "exchange": "perp",
+    "base": "fluence-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FLNCUSDT"
+  },
+  "FLOCKUSDT": {
+    "exchange": "perp",
+    "base": "flock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FLOCKUSDT"
+  },
+  "FLOWUSDT": {
+    "exchange": "perp",
+    "base": "flow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FLOWUSDT"
+  },
+  "FOGOUSDT": {
+    "exchange": "perp",
+    "base": "fogo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FOGOUSDT"
+  },
+  "FOLKSUSDT": {
+    "exchange": "perp",
+    "base": "folks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FOLKSUSDT"
+  },
+  "FORMUSDT": {
+    "exchange": "perp",
+    "base": "four",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FORMUSDT"
+  },
+  "FRAXUSDT": {
+    "exchange": "perp",
+    "base": "frax-share",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FRAXUSDT"
+  },
+  "FUSDT": {
+    "exchange": "perp",
+    "base": "synfutures",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FUSDT"
+  },
+  "FUTUUSDT": {
+    "exchange": "perp",
+    "base": "futu-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FUTUUSDT"
+  },
+  "FWDIUSDT": {
+    "exchange": "perp",
+    "base": "forward-industries",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FWDIUSDT"
+  },
+  "GALAUSDT": {
+    "exchange": "perp",
+    "base": "gala",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GALAUSDT"
+  },
+  "GASUSDT": {
+    "exchange": "perp",
+    "base": "neo-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GASUSDT"
+  },
+  "GEVUSDT": {
+    "exchange": "perp",
+    "base": "ge-vernova",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GEVUSDT"
+  },
+  "GIGGLEUSDT": {
+    "exchange": "perp",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GIGGLEUSDT"
+  },
+  "GLMUSDT": {
+    "exchange": "perp",
+    "base": "golem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GLMUSDT"
+  },
+  "GLWUSDT": {
+    "exchange": "perp",
+    "base": "corning",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GLWUSDT"
+  },
+  "GMTUSDT": {
+    "exchange": "perp",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GMTUSDT"
+  },
+  "GMXUSDT": {
+    "exchange": "perp",
+    "base": "gmx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GMXUSDT"
+  },
+  "GOATUSDT": {
+    "exchange": "perp",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GOATUSDT"
+  },
+  "GOOGLUSDT": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GOOGLUSDT"
+  },
+  "GPROUSDT": {
+    "exchange": "perp",
+    "base": "gopro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GPROUSDT"
+  },
+  "GPSUSDT": {
+    "exchange": "perp",
+    "base": "goplus-security",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GPSUSDT"
+  },
+  "GRASSUSDT": {
+    "exchange": "perp",
+    "base": "grass",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GRASSUSDT"
+  },
+  "GRIFFAINUSDT": {
+    "exchange": "perp",
+    "base": "griffain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GRIFFAINUSDT"
+  },
+  "GRTUSDT": {
+    "exchange": "perp",
+    "base": "the-graph",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GRTUSDT"
+  },
+  "GRVTUSDT": {
+    "exchange": "perp",
+    "base": "grvt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GRVTUSDT"
+  },
+  "GSUSDT": {
+    "exchange": "perp",
+    "base": "goldman-sachs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GSUSDT"
+  },
+  "GTCUSDT": {
+    "exchange": "perp",
+    "base": "gitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GTCUSDT"
+  },
+  "GTLBUSDT": {
+    "exchange": "perp",
+    "base": "gitlab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GTLBUSDT"
+  },
+  "GUNUSDT": {
+    "exchange": "perp",
+    "base": "gunz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GUNUSDT"
+  },
+  "GUSDT": {
+    "exchange": "perp",
+    "base": "gravity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GUSDT"
+  },
+  "GWEIUSDT": {
+    "exchange": "perp",
+    "base": "ethgas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GWEIUSDT"
+  },
+  "HAEDALUSDT": {
+    "exchange": "perp",
+    "base": "haedal-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HAEDALUSDT"
+  },
+  "HANAUSDT": {
+    "exchange": "perp",
+    "base": "hana-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HANAUSDT"
+  },
+  "HBARUSDC": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/HBARUSDC"
+  },
+  "HBARUSDT": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HBARUSDT"
+  },
+  "HDUSDT": {
+    "exchange": "perp",
+    "base": "home-depot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HDUSDT"
+  },
+  "HEIUSDT": {
+    "exchange": "perp",
+    "base": "heima",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HEIUSDT"
+  },
+  "HEMIUSDT": {
+    "exchange": "perp",
+    "base": "hemi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HEMIUSDT"
+  },
+  "HIMSUSDT": {
+    "exchange": "perp",
+    "base": "hims-and-hers-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HIMSUSDT"
+  },
+  "HMSTRUSDT": {
+    "exchange": "perp",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HMSTRUSDT"
+  },
+  "HOLOUSDT": {
+    "exchange": "perp",
+    "base": "holoworld",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HOLOUSDT"
+  },
+  "HOMEUSDT": {
+    "exchange": "perp",
+    "base": "defi-app",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HOMEUSDT"
+  },
+  "HPEUSDT": {
+    "exchange": "perp",
+    "base": "hewlett-packard-enterprise",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HPEUSDT"
+  },
+  "HUMAUSDT": {
+    "exchange": "perp",
+    "base": "huma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HUMAUSDT"
+  },
+  "HUSDT": {
+    "exchange": "perp",
+    "base": "humanity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HUSDT"
+  },
+  "HUTUSDT": {
+    "exchange": "perp",
+    "base": "hut-8",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HUTUSDT"
+  },
+  "HYPERUSDT": {
+    "exchange": "perp",
+    "base": "hyperlane",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HYPERUSDT"
+  },
+  "HYPEUSDT": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HYPEUSDT"
+  },
+  "IBMUSDT": {
+    "exchange": "perp",
+    "base": "international-business-machines",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IBMUSDT"
+  },
+  "ICNTUSDT": {
+    "exchange": "perp",
+    "base": "impossible-cloud-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ICNTUSDT"
+  },
+  "ICPUSDT": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ICPUSDT"
+  },
+  "IDUSDT": {
+    "exchange": "perp",
+    "base": "space-id",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IDUSDT"
+  },
+  "ILVUSDT": {
+    "exchange": "perp",
+    "base": "illuvium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ILVUSDT"
+  },
+  "IMXUSDT": {
+    "exchange": "perp",
+    "base": "immutable-x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IMXUSDT"
+  },
+  "INITUSDT": {
+    "exchange": "perp",
+    "base": "initia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/INITUSDT"
+  },
+  "INJUSDT": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/INJUSDT"
+  },
+  "INTCUSDT": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/INTCUSDT"
+  },
+  "INUSDT": {
+    "exchange": "perp",
+    "base": "infinit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/INUSDT"
+  },
+  "INXUSDT": {
+    "exchange": "perp",
+    "base": "infinex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/INXUSDT"
+  },
+  "IONQUSDT": {
+    "exchange": "perp",
+    "base": "ionq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IONQUSDT"
+  },
+  "IOSTUSDT": {
+    "exchange": "perp",
+    "base": "iost",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IOSTUSDT"
+  },
+  "IOTAUSDT": {
+    "exchange": "perp",
+    "base": "iota",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IOTAUSDT"
+  },
+  "IOTXUSDT": {
+    "exchange": "perp",
+    "base": "iotex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IOTXUSDT"
+  },
+  "IOUSDT": {
+    "exchange": "perp",
+    "base": "io-net",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IOUSDT"
+  },
+  "IRENUSDT": {
+    "exchange": "perp",
+    "base": "iren",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IRENUSDT"
+  },
+  "IRYSUSDT": {
+    "exchange": "perp",
+    "base": "irys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IRYSUSDT"
+  },
+  "IWMUSDT": {
+    "exchange": "perp",
+    "base": "ishares-russell-2000-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IWMUSDT"
+  },
+  "JASMYUSDT": {
+    "exchange": "perp",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/JASMYUSDT"
+  },
+  "JCTUSDT": {
+    "exchange": "perp",
+    "base": "janction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/JCTUSDT"
+  },
+  "JELLYJELLYUSDT": {
+    "exchange": "perp",
+    "base": "jelly-my-jelly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/JELLYJELLYUSDT"
+  },
+  "JPMUSDT": {
+    "exchange": "perp",
+    "base": "jpmorgan-chase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/JPMUSDT"
+  },
+  "JSTUSDT": {
+    "exchange": "perp",
+    "base": "just",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/JSTUSDT"
+  },
+  "JTOUSDT": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/JTOUSDT"
+  },
+  "JUPUSDT": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/JUPUSDT"
+  },
+  "KAIAUSDT": {
+    "exchange": "perp",
+    "base": "kaia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KAIAUSDT"
+  },
+  "KAITOUSDT": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KAITOUSDT"
+  },
+  "KASUSDT": {
+    "exchange": "perp",
+    "base": "kaspa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KASUSDT"
+  },
+  "KATUSDT": {
+    "exchange": "perp",
+    "base": "katana-network-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KATUSDT"
+  },
+  "KAVAUSDT": {
+    "exchange": "perp",
+    "base": "kava",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KAVAUSDT"
+  },
+  "KERNELUSDT": {
+    "exchange": "perp",
+    "base": "kernel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KERNELUSDT"
+  },
+  "KGENUSDT": {
+    "exchange": "perp",
+    "base": "kgen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KGENUSDT"
+  },
+  "KITEUSDT": {
+    "exchange": "perp",
+    "base": "kite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KITEUSDT"
+  },
+  "KLACUSDT": {
+    "exchange": "perp",
+    "base": "kla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KLACUSDT"
+  },
+  "KMNOUSDT": {
+    "exchange": "perp",
+    "base": "kamino",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KMNOUSDT"
+  },
+  "KNCUSDT": {
+    "exchange": "perp",
+    "base": "kyber-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KNCUSDT"
+  },
+  "KOMAUSDT": {
+    "exchange": "perp",
+    "base": "koma-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KOMAUSDT"
+  },
+  "KORUUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KORUUSDT"
+  },
+  "KOUSDT": {
+    "exchange": "perp",
+    "base": "coca-cola",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KOUSDT"
+  },
+  "KSMUSDT": {
+    "exchange": "perp",
+    "base": "kusama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KSMUSDT"
+  },
+  "KSTRUSDT": {
+    "exchange": "perp",
+    "base": "kraneshares-star-50-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/KSTRUSDT"
+  },
+  "LABUSDT": {
+    "exchange": "perp",
+    "base": "lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LABUSDT"
+  },
+  "LAUSDT": {
+    "exchange": "perp",
+    "base": "lagrange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LAUSDT"
+  },
+  "LAYERUSDT": {
+    "exchange": "perp",
+    "base": "solayer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LAYERUSDT"
+  },
+  "LDOUSDT": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LDOUSDT"
+  },
+  "LIGHTUSDT": {
+    "exchange": "perp",
+    "base": "bitlight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LIGHTUSDT"
+  },
+  "LINEAUSDT": {
+    "exchange": "perp",
+    "base": "linea",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LINEAUSDT"
+  },
+  "LINKUSD": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd",
+    "settlement": "chainlink",
+    "url": "https://www.bitunix.com/contract-trade/LINKUSD"
+  },
+  "LINKUSDC": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/LINKUSDC"
+  },
+  "LINKUSDT": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LINKUSDT"
+  },
+  "LISTAUSDT": {
+    "exchange": "perp",
+    "base": "lista",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LISTAUSDT"
+  },
+  "LITEUSDT": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LITEUSDT"
+  },
+  "LLYUSDT": {
+    "exchange": "perp",
+    "base": "eli-lilly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LLYUSDT"
+  },
+  "LPTUSDT": {
+    "exchange": "perp",
+    "base": "livepeer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LPTUSDT"
+  },
+  "LQTYUSDT": {
+    "exchange": "perp",
+    "base": "liquity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LQTYUSDT"
+  },
+  "LRCXUSDT": {
+    "exchange": "perp",
+    "base": "lam-research",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LRCXUSDT"
+  },
+  "LSKUSDT": {
+    "exchange": "perp",
+    "base": "lisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LSKUSDT"
+  },
+  "LTCUSD": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd",
+    "settlement": "litecoin",
+    "url": "https://www.bitunix.com/contract-trade/LTCUSD"
+  },
+  "LTCUSDC": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/LTCUSDC"
+  },
+  "LTCUSDT": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LTCUSDT"
+  },
+  "LUMIAUSDT": {
+    "exchange": "perp",
+    "base": "lumia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LUMIAUSDT"
+  },
+  "LYTEUSDT": {
+    "exchange": "perp",
+    "base": "roundhill-photonics-optics-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LYTEUSDT"
+  },
+  "MAGICUSDT": {
+    "exchange": "perp",
+    "base": "magic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MAGICUSDT"
+  },
+  "MAGMAUSDT": {
+    "exchange": "perp",
+    "base": "magma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MAGMAUSDT"
+  },
+  "MANAUSDT": {
+    "exchange": "perp",
+    "base": "decentraland",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MANAUSDT"
+  },
+  "MANTAUSDT": {
+    "exchange": "perp",
+    "base": "manta-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MANTAUSDT"
+  },
+  "MASKUSDT": {
+    "exchange": "perp",
+    "base": "mask-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MASKUSDT"
+  },
+  "MAVIAUSDT": {
+    "exchange": "perp",
+    "base": "heroes-of-mavia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MAVIAUSDT"
+  },
+  "MAVUSDT": {
+    "exchange": "perp",
+    "base": "maverick-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MAVUSDT"
+  },
+  "MDBUSDT": {
+    "exchange": "perp",
+    "base": "mongodb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MDBUSDT"
+  },
+  "MEGAUSDT": {
+    "exchange": "perp",
+    "base": "megaeth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MEGAUSDT"
+  },
+  "MELANIAUSDT": {
+    "exchange": "perp",
+    "base": "melania-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MELANIAUSDT"
+  },
+  "MEMEUSDT": {
+    "exchange": "perp",
+    "base": "memecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MEMEUSDT"
+  },
+  "MERLUSDT": {
+    "exchange": "perp",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MERLUSDT"
+  },
+  "METAUSDT": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/METAUSDT"
+  },
+  "METISUSDT": {
+    "exchange": "perp",
+    "base": "metis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/METISUSDT"
+  },
+  "METUSDT": {
+    "exchange": "perp",
+    "base": "meteora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/METUSDT"
+  },
+  "MEUSDT": {
+    "exchange": "perp",
+    "base": "magic-eden",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MEUSDT"
+  },
+  "MEWUSDT": {
+    "exchange": "perp",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MEWUSDT"
+  },
+  "MINAUSDT": {
+    "exchange": "perp",
+    "base": "mina-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MINAUSDT"
+  },
+  "MMTUSDT": {
+    "exchange": "perp",
+    "base": "momentum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MMTUSDT"
+  },
+  "MNTUSDT": {
+    "exchange": "perp",
+    "base": "mantle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MNTUSDT"
+  },
+  "MOCAUSDT": {
+    "exchange": "perp",
+    "base": "mocaverse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MOCAUSDT"
+  },
+  "MONUSDT": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MONUSDT"
+  },
+  "MOODENGUSDT": {
+    "exchange": "perp",
+    "base": "moo-deng",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MOODENGUSDT"
+  },
+  "MORPHOUSDT": {
+    "exchange": "perp",
+    "base": "morpho",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MORPHOUSDT"
+  },
+  "MOVEUSDT": {
+    "exchange": "perp",
+    "base": "movement",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MOVEUSDT"
+  },
+  "MOVRUSDT": {
+    "exchange": "perp",
+    "base": "moonriver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MOVRUSDT"
+  },
+  "MPUSDT": {
+    "exchange": "perp",
+    "base": "mp-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MPUSDT"
+  },
+  "MRKUSDT": {
+    "exchange": "perp",
+    "base": "merck-and-co",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MRKUSDT"
+  },
+  "MRNAUSDT": {
+    "exchange": "perp",
+    "base": "moderna",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MRNAUSDT"
+  },
+  "MRVLUSDT": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MRVLUSDT"
+  },
+  "MSFTUSDT": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MSFTUSDT"
+  },
+  "MSTRUSDT": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MSTRUSDT"
+  },
+  "MTLUSDT": {
+    "exchange": "perp",
+    "base": "metal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MTLUSDT"
+  },
+  "MUBARAKUSDT": {
+    "exchange": "perp",
+    "base": "mubarak",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MUBARAKUSDT"
+  },
+  "MUSDT": {
+    "exchange": "perp",
+    "base": "memecore",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MUSDT"
+  },
+  "MUUSDT": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MUUSDT"
+  },
+  "MYXUSDT": {
+    "exchange": "perp",
+    "base": "myx-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MYXUSDT"
+  },
+  "NATGASUSDT": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NATGASUSDT"
+  },
+  "NBISUSDT": {
+    "exchange": "perp",
+    "base": "nebius-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NBISUSDT"
+  },
+  "NEARUSDC": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/NEARUSDC"
+  },
+  "NEARUSDT": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NEARUSDT"
+  },
+  "NEOUSDT": {
+    "exchange": "perp",
+    "base": "neo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NEOUSDT"
+  },
+  "NETUSDT": {
+    "exchange": "perp",
+    "base": "cloudflare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NETUSDT"
+  },
+  "NEWTUSDT": {
+    "exchange": "perp",
+    "base": "newton-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NEWTUSDT"
+  },
+  "NFLXUSDT": {
+    "exchange": "perp",
+    "base": "netflix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NFLXUSDT"
+  },
+  "NIGHTUSDT": {
+    "exchange": "perp",
+    "base": "midnight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NIGHTUSDT"
+  },
+  "NILUSDT": {
+    "exchange": "perp",
+    "base": "nillion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NILUSDT"
+  },
+  "NKEUSDT": {
+    "exchange": "perp",
+    "base": "nike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NKEUSDT"
+  },
+  "NMRUSDT": {
+    "exchange": "perp",
+    "base": "numeraire",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NMRUSDT"
+  },
+  "NOKUSDT": {
+    "exchange": "perp",
+    "base": "nokia-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NOKUSDT"
+  },
+  "NOMUSDT": {
+    "exchange": "perp",
+    "base": "nomina",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NOMUSDT"
+  },
+  "NOTUSDT": {
+    "exchange": "perp",
+    "base": "notcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NOTUSDT"
+  },
+  "NOWUSDT": {
+    "exchange": "perp",
+    "base": "servicenow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NOWUSDT"
+  },
+  "NVDAUSDT": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NVDAUSDT"
+  },
+  "NVOUSDT": {
+    "exchange": "perp",
+    "base": "novo-nordisk-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NVOUSDT"
+  },
+  "NXPCUSDT": {
+    "exchange": "perp",
+    "base": "nexpace",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NXPCUSDT"
+  },
+  "OGNUSDT": {
+    "exchange": "perp",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/OGNUSDT"
+  },
+  "OKBUSDT": {
+    "exchange": "perp",
+    "base": "okb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/OKBUSDT"
+  },
+  "OKLOUSDT": {
+    "exchange": "perp",
+    "base": "oklo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/OKLOUSDT"
+  },
+  "ONDOUSDT": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ONDOUSDT"
+  },
+  "ONDSUSDT": {
+    "exchange": "perp",
+    "base": "ondas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ONDSUSDT"
+  },
+  "OPENUSDT": {
+    "exchange": "perp",
+    "base": "openledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/OPENUSDT"
+  },
+  "OPGUSDT": {
+    "exchange": "perp",
+    "base": "opengradient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/OPGUSDT"
+  },
+  "OPNUSDT": {
+    "exchange": "perp",
+    "base": "opinion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/OPNUSDT"
+  },
+  "OPUSDT": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/OPUSDT"
+  },
+  "ORCAUSDT": {
+    "exchange": "perp",
+    "base": "orca",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ORCAUSDT"
+  },
+  "ORCLUSDT": {
+    "exchange": "perp",
+    "base": "oracle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ORCLUSDT"
+  },
+  "ORDERUSDT": {
+    "exchange": "perp",
+    "base": "orderly-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ORDERUSDT"
+  },
+  "ORDIUSDT": {
+    "exchange": "perp",
+    "base": "ordi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ORDIUSDT"
+  },
+  "OUSDT": {
+    "exchange": "perp",
+    "base": "o1-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/OUSDT"
+  },
+  "PANWUSDT": {
+    "exchange": "perp",
+    "base": "palo-alto-networks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PANWUSDT"
+  },
+  "PARTIUSDT": {
+    "exchange": "perp",
+    "base": "particle-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PARTIUSDT"
+  },
+  "PATHUSDT": {
+    "exchange": "perp",
+    "base": "uipath",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PATHUSDT"
+  },
+  "PAXGUSDT": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PAXGUSDT"
+  },
+  "PAYPUSDT": {
+    "exchange": "perp",
+    "base": "paypay-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PAYPUSDT"
+  },
+  "PDDUSDT": {
+    "exchange": "perp",
+    "base": "pdd-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PDDUSDT"
+  },
+  "PENDLEUSDT": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PENDLEUSDT"
+  },
+  "PENGUUSDT": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PENGUUSDT"
+  },
+  "PEOPLEUSDT": {
+    "exchange": "perp",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PEOPLEUSDT"
+  },
+  "PEPUSDT": {
+    "exchange": "perp",
+    "base": "pepsico",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PEPUSDT"
+  },
+  "PIEVERSEUSDT": {
+    "exchange": "perp",
+    "base": "pieverse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PIEVERSEUSDT"
+  },
+  "PIUSDT": {
+    "exchange": "perp",
+    "base": "pi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PIUSDT"
+  },
+  "PIXELUSDT": {
+    "exchange": "perp",
+    "base": "pixels",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PIXELUSDT"
+  },
+  "PLTRUSDT": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PLTRUSDT"
+  },
+  "PLUMEUSDT": {
+    "exchange": "perp",
+    "base": "plume",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PLUMEUSDT"
+  },
+  "PNUTUSDT": {
+    "exchange": "perp",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PNUTUSDT"
+  },
+  "POLUSDT": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/POLUSDT"
+  },
+  "POLYXUSDT": {
+    "exchange": "perp",
+    "base": "polymesh",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/POLYXUSDT"
+  },
+  "PONSUSDT": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PONSUSDT"
+  },
+  "POPCATUSDT": {
+    "exchange": "perp",
+    "base": "popcat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/POPCATUSDT"
+  },
+  "PORTALUSDT": {
+    "exchange": "perp",
+    "base": "portal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PORTALUSDT"
+  },
+  "POWRUSDT": {
+    "exchange": "perp",
+    "base": "power-ledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/POWRUSDT"
+  },
+  "PRLUSDT": {
+    "exchange": "perp",
+    "base": "perle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PRLUSDT"
+  },
+  "PROMUSDT": {
+    "exchange": "perp",
+    "base": "prometeus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PROMUSDT"
+  },
+  "PROVEUSDT": {
+    "exchange": "perp",
+    "base": "succinct",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PROVEUSDT"
+  },
+  "PUNDIXUSDT": {
+    "exchange": "perp",
+    "base": "pundi-x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PUNDIXUSDT"
+  },
+  "PYTHUSDT": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PYTHUSDT"
+  },
+  "QCOMUSDT": {
+    "exchange": "perp",
+    "base": "qualcomm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/QCOMUSDT"
+  },
+  "QNTUSDT": {
+    "exchange": "perp",
+    "base": "quant",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/QNTUSDT"
+  },
+  "QQQUSDT": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/QQQUSDT"
+  },
+  "QTUMUSDT": {
+    "exchange": "perp",
+    "base": "qtum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/QTUMUSDT"
+  },
+  "QUSDT": {
+    "exchange": "perp",
+    "base": "quack-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/QUSDT"
+  },
+  "RAREUSDT": {
+    "exchange": "perp",
+    "base": "superrare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RAREUSDT"
+  },
+  "RAVEUSDT": {
+    "exchange": "perp",
+    "base": "ravedao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RAVEUSDT"
+  },
+  "RAYUSDT": {
+    "exchange": "perp",
+    "base": "raydium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RAYUSDT"
+  },
+  "RDDTUSDT": {
+    "exchange": "perp",
+    "base": "reddit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RDDTUSDT"
+  },
+  "RECALLUSDT": {
+    "exchange": "perp",
+    "base": "recall",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RECALLUSDT"
+  },
+  "REDUSDT": {
+    "exchange": "perp",
+    "base": "redstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/REDUSDT"
+  },
+  "RENDERUSDT": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RENDERUSDT"
+  },
+  "RESOLVUSDT": {
+    "exchange": "perp",
+    "base": "resolv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RESOLVUSDT"
+  },
+  "REUSDT": {
+    "exchange": "perp",
+    "base": "re",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/REUSDT"
+  },
+  "REZUSDT": {
+    "exchange": "perp",
+    "base": "renzo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/REZUSDT"
+  },
+  "RIVERUSDT": {
+    "exchange": "perp",
+    "base": "river",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RIVERUSDT"
+  },
+  "RIVNUSDT": {
+    "exchange": "perp",
+    "base": "rivian-automotive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RIVNUSDT"
+  },
+  "RKLBUSDT": {
+    "exchange": "perp",
+    "base": "rocket-lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RKLBUSDT"
+  },
+  "RLCUSDT": {
+    "exchange": "perp",
+    "base": "iexec-rlc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RLCUSDT"
+  },
+  "ROBOUSDT": {
+    "exchange": "perp",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ROBOUSDT"
+  },
+  "ROSEUSDT": {
+    "exchange": "perp",
+    "base": "oasis-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ROSEUSDT"
+  },
+  "RPLUSDT": {
+    "exchange": "perp",
+    "base": "rocket-pool",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RPLUSDT"
+  },
+  "RSRUSDT": {
+    "exchange": "perp",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RSRUSDT"
+  },
+  "RUMUSDT": {
+    "exchange": "perp",
+    "base": "rum-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RUMUSDT"
+  },
+  "RUNEUSDT": {
+    "exchange": "perp",
+    "base": "thorchain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RUNEUSDT"
+  },
+  "RVNUSDT": {
+    "exchange": "perp",
+    "base": "ravencoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RVNUSDT"
+  },
+  "SAFEUSDT": {
+    "exchange": "perp",
+    "base": "safe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SAFEUSDT"
+  },
+  "SAGAUSDT": {
+    "exchange": "perp",
+    "base": "saga",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SAGAUSDT"
+  },
+  "SAHARAUSDT": {
+    "exchange": "perp",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SAHARAUSDT"
+  },
+  "SANDUSDT": {
+    "exchange": "perp",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SANDUSDT"
+  },
+  "SAPIENUSDT": {
+    "exchange": "perp",
+    "base": "sapien",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SAPIENUSDT"
+  },
+  "SCRUSDT": {
+    "exchange": "perp",
+    "base": "scroll",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SCRUSDT"
+  },
+  "SECZUSDT": {
+    "exchange": "perp",
+    "base": "securitize",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SECZUSDT"
+  },
+  "SEIUSDT": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SEIUSDT"
+  },
+  "SENTUSDT": {
+    "exchange": "perp",
+    "base": "sentient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SENTUSDT"
+  },
+  "SFPUSDT": {
+    "exchange": "perp",
+    "base": "safepal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SFPUSDT"
+  },
+  "SHAZUSDT": {
+    "exchange": "perp",
+    "base": "sharonai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SHAZUSDT"
+  },
+  "SHOPUSDT": {
+    "exchange": "perp",
+    "base": "shopify",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SHOPUSDT"
+  },
+  "SIGNUSDT": {
+    "exchange": "perp",
+    "base": "sign-global",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SIGNUSDT"
+  },
+  "SKHYUSDT": {
+    "exchange": "perp",
+    "base": "sk-hynix-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SKHYUSDT"
+  },
+  "SKRUSDT": {
+    "exchange": "perp",
+    "base": "seeker",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SKRUSDT"
+  },
+  "SKYUSDT": {
+    "exchange": "perp",
+    "base": "sky",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SKYUSDT"
+  },
+  "SLPUSDT": {
+    "exchange": "perp",
+    "base": "smooth-love-potion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SLPUSDT"
+  },
+  "SLXUSDT": {
+    "exchange": "perp",
+    "base": "solstice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SLXUSDT"
+  },
+  "SMCIUSDT": {
+    "exchange": "perp",
+    "base": "super-micro-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SMCIUSDT"
+  },
+  "SMHUSDT": {
+    "exchange": "perp",
+    "base": "vaneck-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SMHUSDT"
+  },
+  "SNDKUSDT": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SNDKUSDT"
+  },
+  "SNPSUSDT": {
+    "exchange": "perp",
+    "base": "synopsys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SNPSUSDT"
+  },
+  "SNXUSDT": {
+    "exchange": "perp",
+    "base": "synthetix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SNXUSDT"
+  },
+  "SNXXUSDT": {
+    "exchange": "perp",
+    "base": "tradr-2x-long-sndk-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SNXXUSDT"
+  },
+  "SOLUSD": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd",
+    "settlement": "solana",
+    "url": "https://www.bitunix.com/contract-trade/SOLUSD"
+  },
+  "SOLUSDC": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/SOLUSDC"
+  },
+  "SOLUSDT": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SOLUSDT"
+  },
+  "SOLVUSDT": {
+    "exchange": "perp",
+    "base": "solv-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SOLVUSDT"
+  },
+  "SOMIUSDT": {
+    "exchange": "perp",
+    "base": "somnia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SOMIUSDT"
+  },
+  "SONICUSDT": {
+    "exchange": "perp",
+    "base": "sonic-svm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SONICUSDT"
+  },
+  "SOONUSDT": {
+    "exchange": "perp",
+    "base": "soon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SOONUSDT"
+  },
+  "SOPHUSDT": {
+    "exchange": "perp",
+    "base": "sophon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SOPHUSDT"
+  },
+  "SOXLUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SOXLUSDT"
+  },
+  "SOXSUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SOXSUSDT"
+  },
+  "SPACEUSDT": {
+    "exchange": "perp",
+    "base": "spacecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SPACEUSDT"
+  },
+  "SPCXUSDT": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SPCXUSDT"
+  },
+  "SPELLUSDT": {
+    "exchange": "perp",
+    "base": "spell-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SPELLUSDT"
+  },
+  "SPKUSDT": {
+    "exchange": "perp",
+    "base": "spark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SPKUSDT"
+  },
+  "SPXUSDT": {
+    "exchange": "perp",
+    "base": "spx6900",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SPXUSDT"
+  },
+  "SPYUSDT": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SPYUSDT"
+  },
+  "SQDUSDT": {
+    "exchange": "perp",
+    "base": "subsquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SQDUSDT"
+  },
+  "SQQQUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultrapro-short-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SQQQUSDT"
+  },
+  "SSVUSDT": {
+    "exchange": "perp",
+    "base": "ssv-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SSVUSDT"
+  },
+  "STABLEUSDT": {
+    "exchange": "perp",
+    "base": "stable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/STABLEUSDT"
+  },
+  "STBLUSDT": {
+    "exchange": "perp",
+    "base": "stbl",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/STBLUSDT"
+  },
+  "STEEMUSDT": {
+    "exchange": "perp",
+    "base": "steem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/STEEMUSDT"
+  },
+  "STOUSDT": {
+    "exchange": "perp",
+    "base": "stakestone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/STOUSDT"
+  },
+  "STRCUSDT": {
+    "exchange": "perp",
+    "base": "strategy-stretch-preferred-stock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/STRCUSDT"
+  },
+  "STRKUSDT": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/STRKUSDT"
+  },
+  "STXUSDT": {
+    "exchange": "perp",
+    "base": "stacks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/STXUSDT"
+  },
+  "SUIUSD": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd",
+    "settlement": "sui",
+    "url": "https://www.bitunix.com/contract-trade/SUIUSD"
+  },
+  "SUIUSDC": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/SUIUSDC"
+  },
+  "SUIUSDT": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SUIUSDT"
+  },
+  "SUNUSDT": {
+    "exchange": "perp",
+    "base": "sun-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SUNUSDT"
+  },
+  "SUPERUSDT": {
+    "exchange": "perp",
+    "base": "superfarm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SUPERUSDT"
+  },
+  "SUSDT": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SUSDT"
+  },
+  "SUSHIUSDT": {
+    "exchange": "perp",
+    "base": "sushi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SUSHIUSDT"
+  },
+  "SWARMSUSDT": {
+    "exchange": "perp",
+    "base": "swarms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SWARMSUSDT"
+  },
+  "SXTUSDT": {
+    "exchange": "perp",
+    "base": "space-and-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SXTUSDT"
+  },
+  "SYNUSDT": {
+    "exchange": "perp",
+    "base": "synapse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SYNUSDT"
+  },
+  "SYRUPUSDT": {
+    "exchange": "perp",
+    "base": "syrup",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SYRUPUSDT"
+  },
+  "TACUSDT": {
+    "exchange": "perp",
+    "base": "tac",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TACUSDT"
+  },
+  "TAGUSDT": {
+    "exchange": "perp",
+    "base": "tagger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TAGUSDT"
+  },
+  "TAIKOUSDT": {
+    "exchange": "perp",
+    "base": "taiko",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TAIKOUSDT"
+  },
+  "TAKEUSDT": {
+    "exchange": "perp",
+    "base": "overtake",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TAKEUSDT"
+  },
+  "TAOUSDT": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TAOUSDT"
+  },
+  "TAUSDT": {
+    "exchange": "perp",
+    "base": "trusta-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TAUSDT"
+  },
+  "THETAUSDT": {
+    "exchange": "perp",
+    "base": "theta-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/THETAUSDT"
+  },
+  "THEUSDT": {
+    "exchange": "perp",
+    "base": "thena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/THEUSDT"
+  },
+  "TIAUSDT": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TIAUSDT"
+  },
+  "TLMUSDT": {
+    "exchange": "perp",
+    "base": "alien-worlds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TLMUSDT"
+  },
+  "TNSRUSDT": {
+    "exchange": "perp",
+    "base": "tensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TNSRUSDT"
+  },
+  "TOSHIUSDT": {
+    "exchange": "perp",
+    "base": "toshi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TOSHIUSDT"
+  },
+  "TOWNSUSDT": {
+    "exchange": "perp",
+    "base": "towns",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TOWNSUSDT"
+  },
+  "TQQQUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultrapro-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TQQQUSDT"
+  },
+  "TRADOORUSDT": {
+    "exchange": "perp",
+    "base": "tradoor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TRADOORUSDT"
+  },
+  "TRBUSDT": {
+    "exchange": "perp",
+    "base": "tellor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TRBUSDT"
+  },
+  "TREEUSDT": {
+    "exchange": "perp",
+    "base": "treehouse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TREEUSDT"
+  },
+  "TRIAUSDT": {
+    "exchange": "perp",
+    "base": "tria",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TRIAUSDT"
+  },
+  "TRUMPUSDT": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TRUMPUSDT"
+  },
+  "TRUSTUSDT": {
+    "exchange": "perp",
+    "base": "intuition",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TRUSTUSDT"
+  },
+  "TRUTHUSDT": {
+    "exchange": "perp",
+    "base": "swarm-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TRUTHUSDT"
+  },
+  "TRXUSDT": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TRXUSDT"
+  },
+  "TSLAUSDT": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TSLAUSDT"
+  },
+  "TSMUSDT": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TSMUSDT"
+  },
+  "TTWOUSDT": {
+    "exchange": "perp",
+    "base": "take-two-interactive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TTWOUSDT"
+  },
+  "TURBOUSDT": {
+    "exchange": "perp",
+    "base": "turbo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TURBOUSDT"
+  },
+  "TURTLEUSDT": {
+    "exchange": "perp",
+    "base": "turtle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TURTLEUSDT"
+  },
+  "TUSDT": {
+    "exchange": "perp",
+    "base": "threshold-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TUSDT"
+  },
+  "TUTUSDT": {
+    "exchange": "perp",
+    "base": "tutorial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TUTUSDT"
+  },
+  "TWSTUSDT": {
+    "exchange": "perp",
+    "base": "twist-bioscience",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TWSTUSDT"
+  },
+  "TWTUSDT": {
+    "exchange": "perp",
+    "base": "trust-wallet-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TWTUSDT"
+  },
+  "TXNUSDT": {
+    "exchange": "perp",
+    "base": "texas-instruments",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TXNUSDT"
+  },
+  "UAIUSDT": {
+    "exchange": "perp",
+    "base": "unifai-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/UAIUSDT"
+  },
+  "UBERUSDT": {
+    "exchange": "perp",
+    "base": "uber-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/UBERUSDT"
+  },
+  "UBUSDT": {
+    "exchange": "perp",
+    "base": "unibase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/UBUSDT"
+  },
+  "UMAUSDT": {
+    "exchange": "perp",
+    "base": "uma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/UMAUSDT"
+  },
+  "UNHUSDT": {
+    "exchange": "perp",
+    "base": "unitedhealth-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/UNHUSDT"
+  },
+  "UNIUSDC": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/UNIUSDC"
+  },
+  "UNIUSDT": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/UNIUSDT"
+  },
+  "URNMUSDT": {
+    "exchange": "perp",
+    "base": "sprott-uranium-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/URNMUSDT"
+  },
+  "USARUSDT": {
+    "exchange": "perp",
+    "base": "usa-rare-earth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/USARUSDT"
+  },
+  "USELESSUSDT": {
+    "exchange": "perp",
+    "base": "useless-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/USELESSUSDT"
+  },
+  "USTCUSDT": {
+    "exchange": "perp",
+    "base": "terrausd",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/USTCUSDT"
+  },
+  "USUALUSDT": {
+    "exchange": "perp",
+    "base": "usual",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/USUALUSDT"
+  },
+  "USUSDT": {
+    "exchange": "perp",
+    "base": "talus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/USUSDT"
+  },
+  "UVXYUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultra-vix-short-term-futures-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/UVXYUSDT"
+  },
+  "VANAUSDT": {
+    "exchange": "perp",
+    "base": "vana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/VANAUSDT"
+  },
+  "VELVETUSDT": {
+    "exchange": "perp",
+    "base": "velvet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/VELVETUSDT"
+  },
+  "VETUSDT": {
+    "exchange": "perp",
+    "base": "vechain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/VETUSDT"
+  },
+  "VIRTUALUSDT": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/VIRTUALUSDT"
+  },
+  "VKTXUSDT": {
+    "exchange": "perp",
+    "base": "viking-therapeutics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/VKTXUSDT"
+  },
+  "VSTUSDT": {
+    "exchange": "perp",
+    "base": "vistra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/VSTUSDT"
+  },
+  "VTHOUSDT": {
+    "exchange": "perp",
+    "base": "vethor-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/VTHOUSDT"
+  },
+  "VUSDT": {
+    "exchange": "perp",
+    "base": "visa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/VUSDT"
+  },
+  "VVVUSDT": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/VVVUSDT"
+  },
+  "WALUSDT": {
+    "exchange": "perp",
+    "base": "walrus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WALUSDT"
+  },
+  "WAXPUSDT": {
+    "exchange": "perp",
+    "base": "wax",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WAXPUSDT"
+  },
+  "WCTUSDT": {
+    "exchange": "perp",
+    "base": "walletconnect",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WCTUSDT"
+  },
+  "WDCUSDT": {
+    "exchange": "perp",
+    "base": "western-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WDCUSDT"
+  },
+  "WENUSDT": {
+    "exchange": "perp",
+    "base": "wendys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WENUSDT"
+  },
+  "WETUSDT": {
+    "exchange": "perp",
+    "base": "humidifi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WETUSDT"
+  },
+  "WIFUSDC": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/WIFUSDC"
+  },
+  "WIFUSDT": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WIFUSDT"
+  },
+  "WLDUSDC": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/WLDUSDC"
+  },
+  "WLDUSDT": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WLDUSDT"
+  },
+  "WLFIUSDC": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/WLFIUSDC"
+  },
+  "WLFIUSDT": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WLFIUSDT"
+  },
+  "WMTUSDT": {
+    "exchange": "perp",
+    "base": "walmart",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WMTUSDT"
+  },
+  "WOOUSDT": {
+    "exchange": "perp",
+    "base": "woo-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WOOUSDT"
+  },
+  "WUSDT": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/WUSDT"
+  },
+  "XAGUSDT": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XAGUSDT"
+  },
+  "XAIUSDT": {
+    "exchange": "perp",
+    "base": "xai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XAIUSDT"
+  },
+  "XANUSDT": {
+    "exchange": "perp",
+    "base": "anoma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XANUSDT"
+  },
+  "XAUTUSDT": {
+    "exchange": "perp",
+    "base": "tether-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XAUTUSDT"
+  },
+  "XAUUSDT": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XAUUSDT"
+  },
+  "XBIUSDT": {
+    "exchange": "perp",
+    "base": "spdr-sp-biotech-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XBIUSDT"
+  },
+  "XLEUSDT": {
+    "exchange": "perp",
+    "base": "energy-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XLEUSDT"
+  },
+  "XLMUSD": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "usd",
+    "settlement": "stellar",
+    "url": "https://www.bitunix.com/contract-trade/XLMUSD"
+  },
+  "XLMUSDT": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XLMUSDT"
+  },
+  "XMRUSDT": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XMRUSDT"
+  },
+  "XNYUSDT": {
+    "exchange": "perp",
+    "base": "codatta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XNYUSDT"
+  },
+  "XOMUSDT": {
+    "exchange": "perp",
+    "base": "exxon-mobil",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XOMUSDT"
+  },
+  "XPDUSDT": {
+    "exchange": "perp",
+    "base": "palladium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XPDUSDT"
+  },
+  "XPINUSDT": {
+    "exchange": "perp",
+    "base": "xpin-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XPINUSDT"
+  },
+  "XPLUSDT": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XPLUSDT"
+  },
+  "XPTUSDT": {
+    "exchange": "perp",
+    "base": "platinum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XPTUSDT"
+  },
+  "XRPUSD": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd",
+    "settlement": "xrp",
+    "url": "https://www.bitunix.com/contract-trade/XRPUSD"
+  },
+  "XRPUSDC": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bitunix.com/contract-trade/XRPUSDC"
+  },
+  "XRPUSDT": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XRPUSDT"
+  },
+  "XTZUSDT": {
+    "exchange": "perp",
+    "base": "tezos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XTZUSDT"
+  },
+  "YBUSDT": {
+    "exchange": "perp",
+    "base": "yield-basis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/YBUSDT"
+  },
+  "YFIUSDT": {
+    "exchange": "perp",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/YFIUSDT"
+  },
+  "YGGUSDT": {
+    "exchange": "perp",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/YGGUSDT"
+  },
+  "ZAMAUSDT": {
+    "exchange": "perp",
+    "base": "zama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZAMAUSDT"
+  },
+  "ZBCNUSDT": {
+    "exchange": "perp",
+    "base": "zebec-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZBCNUSDT"
+  },
+  "ZBTUSDT": {
+    "exchange": "perp",
+    "base": "zerobase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZBTUSDT"
+  },
+  "ZCSHUSDT": {
+    "exchange": "perp",
+    "base": "grayscale-zcash-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZCSHUSDT"
+  },
+  "ZECUSDT": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZECUSDT"
+  },
+  "ZENUSDT": {
+    "exchange": "perp",
+    "base": "horizen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZENUSDT"
+  },
+  "ZEREBROUSDT": {
+    "exchange": "perp",
+    "base": "zerebro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZEREBROUSDT"
+  },
+  "ZESTUSDT": {
+    "exchange": "perp",
+    "base": "zest-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZESTUSDT"
+  },
+  "ZETAUSDT": {
+    "exchange": "perp",
+    "base": "zetachain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZETAUSDT"
+  },
+  "ZILUSDT": {
+    "exchange": "perp",
+    "base": "zilliqa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZILUSDT"
+  },
+  "ZKCUSDT": {
+    "exchange": "perp",
+    "base": "boundless",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZKCUSDT"
+  },
+  "ZKPUSDT": {
+    "exchange": "perp",
+    "base": "zkpass",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZKPUSDT"
+  },
+  "ZKUSDT": {
+    "exchange": "perp",
+    "base": "zksync",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZKUSDT"
+  },
+  "ZMUSDT": {
+    "exchange": "perp",
+    "base": "zoom-communications",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZMUSDT"
+  },
+  "ZORAUSDT": {
+    "exchange": "perp",
+    "base": "zora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZORAUSDT"
+  },
+  "ZROUSDT": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZROUSDT"
+  },
+  "ZRXUSDT": {
+    "exchange": "perp",
+    "base": "0x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZRXUSDT"
+  },
+  "ZSUSDT": {
+    "exchange": "perp",
+    "base": "zscaler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ZSUSDT"
+  }
+}

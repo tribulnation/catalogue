@@ -1,0 +1,21 @@
+{
+  "id": "swarm-bzz",
+  "display_name": "Swarm",
+  "symbol": "BZZ",
+  "category": "crypto",
+  "tags": [
+    "DePIN"
+  ],
+  "about": {
+    "en": "BZZ is the token of Swarm, a decentralised storage and communication network that grew out of the Ethereum Foundation. Node operators earn BZZ for storing and serving data, and users buy postage stamps in BZZ to upload content, with the incentive system enforced by smart contracts. BZZ is the ERC-20 at 0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb on Ethereum; it is bridged to Gnosis Chain as xBZZ for use by Swarm nodes."
+  },
+  "urls": {
+    "Website": "https://www.ethswarm.org/",
+    "Whitepaper": "https://www.ethswarm.org/swarm-whitepaper.pdf",
+    "Source code": "https://github.com/ethersphere"
+  },
+  "external": {
+    "coingecko": "swarm-bzz",
+    "coinmarketcap": "10293"
+  }
+}

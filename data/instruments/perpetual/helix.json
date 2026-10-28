@@ -1,0 +1,704 @@
+{
+  "2Z/USDC PERP": {
+    "exchange": "perp",
+    "base": "doublezero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "AAPL/USDC PERP": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "AAVE/USDC PERP": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ADA/USDC PERP": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ADBE/USDC PERP": {
+    "exchange": "perp",
+    "base": "adobe",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ALT/USDC PERP": {
+    "exchange": "perp",
+    "base": "altlayer",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "AMC/USDC PERP": {
+    "exchange": "perp",
+    "base": "amc-entertainment",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "AMD/USDC PERP": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "AMZN/USDC PERP": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "APT/USDC PERP": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "AR/USDC PERP": {
+    "exchange": "perp",
+    "base": "arweave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ARB/USDC PERP": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ARM/USDC PERP": {
+    "exchange": "perp",
+    "base": "arm-holdings-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ASML/USDC PERP": {
+    "exchange": "perp",
+    "base": "asml-holding",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ATOM/USDC PERP": {
+    "exchange": "perp",
+    "base": "cosmos",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "AVAX/USDC PERP": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "AXS/USDC PERP": {
+    "exchange": "perp",
+    "base": "axie-infinity",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "BAC/USDC PERP": {
+    "exchange": "perp",
+    "base": "bank-of-america",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "BERA/USDC PERP": {
+    "exchange": "perp",
+    "base": "berachain",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "BLUR/USDC PERP": {
+    "exchange": "perp",
+    "base": "blur",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "BNB/USDC PERP": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "BRENT/USDC PERP": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "BTC/USDC PERP": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "C/USDC PERP": {
+    "exchange": "perp",
+    "base": "citigroup",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "CC/USDC PERP": {
+    "exchange": "perp",
+    "base": "canton",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "COIN/USDC PERP": {
+    "exchange": "perp",
+    "base": "coinbase",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "COST/USDC PERP": {
+    "exchange": "perp",
+    "base": "costco-wholesale",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "CRCL/USDC PERP": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "CRM/USDC PERP": {
+    "exchange": "perp",
+    "base": "salesforce",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "CRWD/USDC PERP": {
+    "exchange": "perp",
+    "base": "crowdstrike",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "CVX/USDC PERP": {
+    "exchange": "perp",
+    "base": "convex-finance",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "DASH/USDC PERP": {
+    "exchange": "perp",
+    "base": "dash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "DELL/USDC PERP": {
+    "exchange": "perp",
+    "base": "dell-technologies",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "DKNG/USDC PERP": {
+    "exchange": "perp",
+    "base": "draftkings",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "DOGE/USDC PERP": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "DYM/USDC PERP": {
+    "exchange": "perp",
+    "base": "dymension",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ENA/USDC PERP": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ETC/USDC PERP": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ETH/USDC PERP": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "EURUSD/USDC PERP": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "GALA/USDC PERP": {
+    "exchange": "perp",
+    "base": "gala",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "GBPUSD/USDC PERP": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "GOOGL/USDC PERP": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "HOOD/USDC PERP": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "HYPE/USDC PERP": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "INJ/USDC PERP": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "INTC/USDC PERP": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "JPM/USDC PERP": {
+    "exchange": "perp",
+    "base": "jpmorgan-chase",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "JTO/USDC PERP": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "KAITO/USDC PERP": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "KAS/USDC PERP": {
+    "exchange": "perp",
+    "base": "kaspa",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "LDO/USDC PERP": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "LINK/USDC PERP": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "LIT/USDC PERP": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "LLY/USDC PERP": {
+    "exchange": "perp",
+    "base": "eli-lilly",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "LTC/USDC PERP": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "META/USDC PERP": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MNT/USDC PERP": {
+    "exchange": "perp",
+    "base": "mantle",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MRNA/USDC PERP": {
+    "exchange": "perp",
+    "base": "moderna",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MRVL/USDC PERP": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MSFT/USDC PERP": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MSTR/USDC PERP": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MU/USDC PERP": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "NFLX/USDC PERP": {
+    "exchange": "perp",
+    "base": "netflix",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "NIGHT/USDC PERP": {
+    "exchange": "perp",
+    "base": "midnight",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "NOT/USDC PERP": {
+    "exchange": "perp",
+    "base": "notcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "NOW/USDC PERP": {
+    "exchange": "perp",
+    "base": "servicenow",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "NVDA/USDC PERP": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "NVO/USDC PERP": {
+    "exchange": "perp",
+    "base": "novo-nordisk-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "OKLO/USDC PERP": {
+    "exchange": "perp",
+    "base": "oklo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ONDO/USDC PERP": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "OP/USDC PERP": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "PANW/USDC PERP": {
+    "exchange": "perp",
+    "base": "palo-alto-networks",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "PAXG/USDC PERP": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "PEPE/USDC PERP": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "PLTR/USDC PERP": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "POPCAT/USDC PERP": {
+    "exchange": "perp",
+    "base": "popcat",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "PUMP/USDC PERP": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "QCOM/USDC PERP": {
+    "exchange": "perp",
+    "base": "qualcomm",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "RENDER/USDC PERP": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "RIVN/USDC PERP": {
+    "exchange": "perp",
+    "base": "rivian-automotive",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "RKLB/USDC PERP": {
+    "exchange": "perp",
+    "base": "rocket-lab",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SAND/USDC PERP": {
+    "exchange": "perp",
+    "base": "the-sandbox",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SEI/USDC PERP": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SMCI/USDC PERP": {
+    "exchange": "perp",
+    "base": "super-micro-computer",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SNDK/USDC PERP": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SNX/USDC PERP": {
+    "exchange": "perp",
+    "base": "synthetix",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SOL/USDC PERP": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SPCX/USDC PERP": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "STRC/USDC PERP": {
+    "exchange": "perp",
+    "base": "strategy-stretch-preferred-stock",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "STRK/USDC PERP": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SUI/USDC PERP": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SUSHI/USDC PERP": {
+    "exchange": "perp",
+    "base": "sushi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TAO/USDC PERP": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TIA/USDC PERP": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TRUMP/USDC PERP": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TRX/USDC PERP": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TSLA/USDC PERP": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TSM/USDC PERP": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TURBO/USDC PERP": {
+    "exchange": "perp",
+    "base": "turbo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "UBER/USDC PERP": {
+    "exchange": "perp",
+    "base": "uber-technologies",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "V/USDC PERP": {
+    "exchange": "perp",
+    "base": "visa",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "VIRTUAL/USDC PERP": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "VST/USDC PERP": {
+    "exchange": "perp",
+    "base": "vistra",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "W/USDC PERP": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "WIF/USDC PERP": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "WLFI/USDC PERP": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "WMT/USDC PERP": {
+    "exchange": "perp",
+    "base": "walmart",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "XAU/USDC PERP": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "XAUT/USDC PERP": {
+    "exchange": "perp",
+    "base": "tether-gold",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "XLM/USDC PERP": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "XMR/USDC PERP": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "XPD/USDC PERP": {
+    "exchange": "perp",
+    "base": "palladium",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "XRP/USDC PERP": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ZEC/USDC PERP": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ZK/USDC PERP": {
+    "exchange": "perp",
+    "base": "zksync",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "ZRO/USDC PERP": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  }
+}
