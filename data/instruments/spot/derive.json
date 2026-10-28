@@ -1,0 +1,14 @@
+{
+  "DRV-USDC": {
+    "exchange": "spot",
+    "base": "derive",
+    "quote": "usd-coin",
+    "url": "https://app.derive.xyz/trade/spot?symbol=DRV-USDC"
+  },
+  "USDT-USDC": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd-coin",
+    "url": "https://app.derive.xyz/trade/spot?symbol=USDT-USDC"
+  }
+}

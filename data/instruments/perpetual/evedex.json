@@ -1,0 +1,310 @@
+{
+  "1000BONKUSD": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000
+  },
+  "1000PEPEUSD": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000
+  },
+  "AAVEUSD": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ANTHROPICUSD": {
+    "exchange": "perp",
+    "base": "anthropic",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "APTUSD": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ARBUSD": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ASTERUSD": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ATOMUSD": {
+    "exchange": "perp",
+    "base": "cosmos",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AVAXUSD": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BCHUSD": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BNBUSD": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BTCUSD": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CLUSD": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "COINUSD": {
+    "exchange": "perp",
+    "base": "coinbase",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CRCLUSD": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DASHUSD": {
+    "exchange": "perp",
+    "base": "dash",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DOGEUSD": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DOTUSD": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ENAUSD": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ETHUSD": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "EURUSD": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "FARTCOINUSD": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GBPUSD": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "HYPEUSD": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LINKUSD": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LTCUSD": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MSTRUSD": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MYXUSD": {
+    "exchange": "perp",
+    "base": "myx-finance",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NEARUSD": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "OPENAIUSD": {
+    "exchange": "perp",
+    "base": "openai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "OPUSD": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PENGUUSD": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PUMPFUNUSD": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "RIVERUSD": {
+    "exchange": "perp",
+    "base": "river",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SAHARAUSD": {
+    "exchange": "perp",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SOLUSD": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SPCXUSD": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SPYUSD": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "STRKUSD": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SUIUSD": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TAOUSD": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TRXUSD": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TSLAUSD": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "USDJPYUSD": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "tether"
+  },
+  "VIRTUALUSD": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "WLDUSD": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "WLFIUSD": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XAGUSD": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XAUTUSD": {
+    "exchange": "perp",
+    "base": "tether-gold",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "XRPUSD": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ZROUSD": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "tether",
+    "settlement": "tether"
+  }
+}
