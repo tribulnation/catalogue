@@ -1,0 +1,23 @@
+{
+  "id": "spdr-sp500-etf-ondo-tokenized-etf",
+  "display_name": "SPDR S&P 500 ETF (Ondo Tokenized)",
+  "symbol": "SPYon",
+  "category": "rwa",
+  "tags": [
+    "ETF"
+  ],
+  "about": {
+    "en": "SPYon is the Ondo tokenized ETF for the SPDR S&P 500 ETF Trust (SPY), issued by Ondo Global Markets (BVI) Limited through the Ondo Stocks platform and offered to eligible non-US investors. It is fully backed by SPY shares and is a total-return tracker: distributions are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above SPY's. It is an ERC-20 on Ethereum at 0xFeDC5f4a6c38211c1338aa411018DFAf26612c08, with deployments on BNB Chain, Solana and HyperEVM. Holders have a claim on the issuer, not registered ownership of the fund."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/spyon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "spdr-s-p-500-etf-ondo-tokenized-etf",
+    "coinmarketcap": "38067"
+  },
+  "pegged_to": {
+    "asset": "spdr-sp500-etf-trust"
+  }
+}
