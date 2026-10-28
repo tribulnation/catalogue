@@ -146,6 +146,9 @@ SPOT_RULES: dict[str, Rule] = {
   'aster': lambda id, inst, sym: f'https://www.asterdex.com/en/trade/pro/spot/{id}',
   'deribit': lambda id, inst, sym: f'https://www.deribit.com/spot/{id}',
   'binance': lambda id, inst, sym: 'https://www.binance.com/en/trade/{}_{}'.format(*sym.split('binance', id, inst)),
+  'binanceus': lambda id, inst, sym: 'https://www.binance.us/spot-trade/{}_{}'.format(
+    *(s.lower() for s in sym.split('binanceus', id, inst))
+  ),
   'bitget': lambda id, inst, sym: f'https://www.bitget.com/spot/{id}',
   'bybit': lambda id, inst, sym: 'https://www.bybit.com/en/trade/spot/{}/{}'.format(*sym.split('bybit', id, inst)),
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/spot/{id}',

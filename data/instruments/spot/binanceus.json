@@ -1,0 +1,1292 @@
+{
+  "0GUSDT": {
+    "exchange": "spot",
+    "base": "zero-gravity",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/0g_usdt"
+  },
+  "1INCHUSDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/1inch_usdt"
+  },
+  "AAVEUSD": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/aave_usd"
+  },
+  "AAVEUSDT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/aave_usdt"
+  },
+  "ACHUSDT": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ach_usdt"
+  },
+  "ADABTC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "bitcoin",
+    "url": "https://www.binance.us/spot-trade/ada_btc"
+  },
+  "ADAUSD": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/ada_usd"
+  },
+  "ADAUSDC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "url": "https://www.binance.us/spot-trade/ada_usdc"
+  },
+  "ADAUSDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ada_usdt"
+  },
+  "AIXBTUSDT": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/aixbt_usdt"
+  },
+  "ALGOUSD": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/algo_usd"
+  },
+  "ALGOUSDT": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/algo_usdt"
+  },
+  "ALICEUSDT": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/alice_usdt"
+  },
+  "ALPINEUSDT": {
+    "exchange": "spot",
+    "base": "alpine-f1-team-fan-token",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/alpine_usdt"
+  },
+  "ANIMEUSDT": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/anime_usdt"
+  },
+  "ANKRUSDT": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ankr_usdt"
+  },
+  "APEUSDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ape_usdt"
+  },
+  "API3USDT": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/api3_usdt"
+  },
+  "APTUSDT": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/apt_usdt"
+  },
+  "ARBUSDT": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/arb_usdt"
+  },
+  "ASTERUSDT": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/aster_usdt"
+  },
+  "ATOMUSD": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/atom_usd"
+  },
+  "ATOMUSDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/atom_usdt"
+  },
+  "AUDIOUSDT": {
+    "exchange": "spot",
+    "base": "audius",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/audio_usdt"
+  },
+  "AUSDT": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/a_usdt"
+  },
+  "AVAXUSD": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/avax_usd"
+  },
+  "AVAXUSDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/avax_usdt"
+  },
+  "AVNTUSDT": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/avnt_usdt"
+  },
+  "AXLUSDT": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/axl_usdt"
+  },
+  "AXSUSDT": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/axs_usdt"
+  },
+  "BANDUSDT": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/band_usdt"
+  },
+  "BATUSDT": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/bat_usdt"
+  },
+  "BCHUSD": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/bch_usd"
+  },
+  "BCHUSDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/bch_usdt"
+  },
+  "BLURUSDT": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/blur_usdt"
+  },
+  "BNBBTC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "bitcoin",
+    "url": "https://www.binance.us/spot-trade/bnb_btc"
+  },
+  "BNBUSD": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/bnb_usd"
+  },
+  "BNBUSDT": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/bnb_usdt"
+  },
+  "BNTUSDT": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/bnt_usdt"
+  },
+  "BONKUSD": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/bonk_usd"
+  },
+  "BONKUSDT": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/bonk_usdt"
+  },
+  "BTCUSD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/btc_usd"
+  },
+  "BTCUSDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://www.binance.us/spot-trade/btc_usdc"
+  },
+  "BTCUSDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/btc_usdt"
+  },
+  "BTTCUSDT": {
+    "exchange": "spot",
+    "base": "bittorrent",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/bttc_usdt"
+  },
+  "CAKEUSDT": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/cake_usdt"
+  },
+  "CELOUSDT": {
+    "exchange": "spot",
+    "base": "celo",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/celo_usdt"
+  },
+  "CELRUSDT": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/celr_usdt"
+  },
+  "CHZUSDT": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/chz_usdt"
+  },
+  "COMPUSDT": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/comp_usdt"
+  },
+  "COTIUSDT": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/coti_usdt"
+  },
+  "CRVUSD": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/crv_usd"
+  },
+  "CRVUSDT": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/crv_usdt"
+  },
+  "CTSIUSDT": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ctsi_usdt"
+  },
+  "DASHUSDT": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/dash_usdt"
+  },
+  "DGBUSD": {
+    "exchange": "spot",
+    "base": "digibyte",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/dgb_usd"
+  },
+  "DGBUSDT": {
+    "exchange": "spot",
+    "base": "digibyte",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/dgb_usdt"
+  },
+  "DIAUSDT": {
+    "exchange": "spot",
+    "base": "dia-data",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/dia_usdt"
+  },
+  "DOGEUSD": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/doge_usd"
+  },
+  "DOGEUSDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/doge_usdt"
+  },
+  "DOODUSDT": {
+    "exchange": "spot",
+    "base": "doodles",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/dood_usdt"
+  },
+  "DOTUSD": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/dot_usd"
+  },
+  "DOTUSDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/dot_usdt"
+  },
+  "DUSKUSDT": {
+    "exchange": "spot",
+    "base": "dusk-network",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/dusk_usdt"
+  },
+  "EGLDUSDT": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/egld_usdt"
+  },
+  "EIGENUSDT": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/eigen_usdt"
+  },
+  "ENAUSDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ena_usdt"
+  },
+  "ENJUSDT": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/enj_usdt"
+  },
+  "ENSUSD": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/ens_usd"
+  },
+  "ENSUSDT": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ens_usdt"
+  },
+  "ETCUSD": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/etc_usd"
+  },
+  "ETCUSDT": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/etc_usdt"
+  },
+  "ETHBTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://www.binance.us/spot-trade/eth_btc"
+  },
+  "ETHUSD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/eth_usd"
+  },
+  "ETHUSDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://www.binance.us/spot-trade/eth_usdc"
+  },
+  "ETHUSDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/eth_usdt"
+  },
+  "FARTCOINUSDT": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/fartcoin_usdt"
+  },
+  "FETUSD": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/fet_usd"
+  },
+  "FETUSDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/fet_usdt"
+  },
+  "FILUSDT": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/fil_usdt"
+  },
+  "FLOKIUSD": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/floki_usd"
+  },
+  "FLOKIUSDT": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/floki_usdt"
+  },
+  "FLOWUSDT": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/flow_usdt"
+  },
+  "FLUXUSDT": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/flux_usdt"
+  },
+  "GALAUSD": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/gala_usd"
+  },
+  "GALAUSDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/gala_usdt"
+  },
+  "GASUSDT": {
+    "exchange": "spot",
+    "base": "neo-gas",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/gas_usdt"
+  },
+  "GRAMUSDT": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/gram_usdt"
+  },
+  "GRTUSD": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/grt_usd"
+  },
+  "GRTUSDT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/grt_usdt"
+  },
+  "GTCUSDT": {
+    "exchange": "spot",
+    "base": "gitcoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/gtc_usdt"
+  },
+  "GUSDT": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/g_usdt"
+  },
+  "HBARUSD": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/hbar_usd"
+  },
+  "HBARUSDT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/hbar_usdt"
+  },
+  "HYPEUSD": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/hype_usd"
+  },
+  "HYPEUSDT": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/hype_usdt"
+  },
+  "ICPUSD": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/icp_usd"
+  },
+  "ICPUSDT": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/icp_usdt"
+  },
+  "ILVUSDT": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ilv_usdt"
+  },
+  "IMXUSDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/imx_usdt"
+  },
+  "INJUSDT": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/inj_usdt"
+  },
+  "IOSTUSDT": {
+    "exchange": "spot",
+    "base": "iost",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/iost_usdt"
+  },
+  "IOTAUSD": {
+    "exchange": "spot",
+    "base": "iota",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/iota_usd"
+  },
+  "IOTAUSDT": {
+    "exchange": "spot",
+    "base": "iota",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/iota_usdt"
+  },
+  "IOTXUSDT": {
+    "exchange": "spot",
+    "base": "iotex",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/iotx_usdt"
+  },
+  "JTOUSDT": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/jto_usdt"
+  },
+  "JUPUSD": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/jup_usd"
+  },
+  "JUPUSDT": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/jup_usdt"
+  },
+  "KAITOUSDT": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/kaito_usdt"
+  },
+  "KAVAUSDT": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/kava_usdt"
+  },
+  "KNCUSDT": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/knc_usdt"
+  },
+  "KSMUSDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ksm_usdt"
+  },
+  "LDOUSDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ldo_usdt"
+  },
+  "LINKUSD": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/link_usd"
+  },
+  "LINKUSDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/link_usdt"
+  },
+  "LPTUSD": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/lpt_usd"
+  },
+  "LPTUSDT": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/lpt_usdt"
+  },
+  "LSKUSDT": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/lsk_usdt"
+  },
+  "LTCUSD": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/ltc_usd"
+  },
+  "LTCUSDT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ltc_usdt"
+  },
+  "MAGICUSDT": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/magic_usdt"
+  },
+  "MANAUSDT": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/mana_usdt"
+  },
+  "MASKUSDT": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/mask_usdt"
+  },
+  "MEUSD": {
+    "exchange": "spot",
+    "base": "magic-eden",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/me_usd"
+  },
+  "MEUSDT": {
+    "exchange": "spot",
+    "base": "magic-eden",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/me_usdt"
+  },
+  "NEARUSD": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/near_usd"
+  },
+  "NEARUSDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/near_usdt"
+  },
+  "NEOUSDT": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/neo_usdt"
+  },
+  "NMRUSDT": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/nmr_usdt"
+  },
+  "OGNUSDT": {
+    "exchange": "spot",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ogn_usdt"
+  },
+  "ONDOUSDT": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ondo_usdt"
+  },
+  "OPUSD": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/op_usd"
+  },
+  "OPUSDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/op_usdt"
+  },
+  "ORCAUSDT": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/orca_usdt"
+  },
+  "PAXGUSDT": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/paxg_usdt"
+  },
+  "PENGUUSDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/pengu_usdt"
+  },
+  "PEPEUSD": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/pepe_usd"
+  },
+  "PEPEUSDT": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/pepe_usdt"
+  },
+  "PNUTUSDT": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/pnut_usdt"
+  },
+  "POLUSD": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/pol_usd"
+  },
+  "POLUSDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/pol_usdt"
+  },
+  "POLYXUSDT": {
+    "exchange": "spot",
+    "base": "polymesh",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/polyx_usdt"
+  },
+  "POPCATUSDT": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/popcat_usdt"
+  },
+  "PUMPUSDT": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/pump_usdt"
+  },
+  "QNTUSDT": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/qnt_usdt"
+  },
+  "QTUMUSDT": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/qtum_usdt"
+  },
+  "RADUSDT": {
+    "exchange": "spot",
+    "base": "radicle",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/rad_usdt"
+  },
+  "RAREUSDT": {
+    "exchange": "spot",
+    "base": "superrare",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/rare_usdt"
+  },
+  "RENDERUSD": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/render_usd"
+  },
+  "RENDERUSDT": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/render_usdt"
+  },
+  "REQUSDT": {
+    "exchange": "spot",
+    "base": "request",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/req_usdt"
+  },
+  "RLCUSDT": {
+    "exchange": "spot",
+    "base": "iexec-rlc",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/rlc_usdt"
+  },
+  "ROSEUSDT": {
+    "exchange": "spot",
+    "base": "oasis-network",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/rose_usdt"
+  },
+  "RVNUSD": {
+    "exchange": "spot",
+    "base": "ravencoin",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/rvn_usd"
+  },
+  "RVNUSDT": {
+    "exchange": "spot",
+    "base": "ravencoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/rvn_usdt"
+  },
+  "SANDUSD": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/sand_usd"
+  },
+  "SANDUSDT": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/sand_usdt"
+  },
+  "SEIUSDT": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/sei_usdt"
+  },
+  "SHIBUSD": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/shib_usd"
+  },
+  "SHIBUSDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/shib_usdt"
+  },
+  "SKYUSDT": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/sky_usdt"
+  },
+  "SLPUSDT": {
+    "exchange": "spot",
+    "base": "smooth-love-potion",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/slp_usdt"
+  },
+  "SNXUSDT": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/snx_usdt"
+  },
+  "SOLBTC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "bitcoin",
+    "url": "https://www.binance.us/spot-trade/sol_btc"
+  },
+  "SOLUSD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/sol_usd"
+  },
+  "SOLUSDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin",
+    "url": "https://www.binance.us/spot-trade/sol_usdc"
+  },
+  "SOLUSDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/sol_usdt"
+  },
+  "SPXUSDT": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/spx_usdt"
+  },
+  "STORJUSDT": {
+    "exchange": "spot",
+    "base": "storj",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/storj_usdt"
+  },
+  "SUIUSD": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/sui_usd"
+  },
+  "SUIUSDT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/sui_usdt"
+  },
+  "SUSD": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/s_usd"
+  },
+  "SUSDT": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/s_usdt"
+  },
+  "SUSHIUSD": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/sushi_usd"
+  },
+  "SUSHIUSDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/sushi_usdt"
+  },
+  "TFUELUSDT": {
+    "exchange": "spot",
+    "base": "theta-fuel",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/tfuel_usdt"
+  },
+  "THETAUSD": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/theta_usd"
+  },
+  "THETAUSDT": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/theta_usdt"
+  },
+  "TIAUSDT": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/tia_usdt"
+  },
+  "TLMUSDT": {
+    "exchange": "spot",
+    "base": "alien-worlds",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/tlm_usdt"
+  },
+  "TRUMPUSD": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/trump_usd"
+  },
+  "TRUMPUSDT": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/trump_usdt"
+  },
+  "TRXUSD": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/trx_usd"
+  },
+  "TRXUSDT": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/trx_usdt"
+  },
+  "TURBOUSDT": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/turbo_usdt"
+  },
+  "TUSDT": {
+    "exchange": "spot",
+    "base": "threshold-network",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/t_usdt"
+  },
+  "UNIUSD": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/uni_usd"
+  },
+  "UNIUSDT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/uni_usdt"
+  },
+  "USD1USDT": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/usd1_usdt"
+  },
+  "USDCUSD": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/usdc_usd"
+  },
+  "USDCUSDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/usdc_usdt"
+  },
+  "USDTUSD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/usdt_usd"
+  },
+  "VELOUSDT": {
+    "exchange": "spot",
+    "base": "velo",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/velo_usdt"
+  },
+  "VETUSD": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/vet_usd"
+  },
+  "VETUSDT": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/vet_usdt"
+  },
+  "VIRTUALUSDT": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/virtual_usdt"
+  },
+  "VTHOUSD": {
+    "exchange": "spot",
+    "base": "vethor-token",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/vtho_usd"
+  },
+  "VTHOUSDT": {
+    "exchange": "spot",
+    "base": "vethor-token",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/vtho_usdt"
+  },
+  "WAXPUSDT": {
+    "exchange": "spot",
+    "base": "wax",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/waxp_usdt"
+  },
+  "WIFUSDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/wif_usdt"
+  },
+  "WLDUSDT": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/wld_usdt"
+  },
+  "WLFIUSDT": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/wlfi_usdt"
+  },
+  "XECUSDT": {
+    "exchange": "spot",
+    "base": "ecash",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/xec_usdt"
+  },
+  "XLMUSD": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/xlm_usd"
+  },
+  "XLMUSDT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/xlm_usdt"
+  },
+  "XRPUSD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/xrp_usd"
+  },
+  "XRPUSDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/xrp_usdt"
+  },
+  "XTZUSDT": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/xtz_usdt"
+  },
+  "YFIUSDT": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/yfi_usdt"
+  },
+  "ZECUSD": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/zec_usd"
+  },
+  "ZECUSDT": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/zec_usdt"
+  },
+  "ZENUSDT": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/zen_usdt"
+  },
+  "ZILUSD": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/zil_usd"
+  },
+  "ZILUSDT": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/zil_usdt"
+  },
+  "ZRXUSDT": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/zrx_usdt"
+  }
+}
