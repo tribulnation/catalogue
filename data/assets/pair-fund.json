@@ -1,0 +1,17 @@
+{
+  "id": "pair-fund",
+  "display_name": "PAIR",
+  "symbol": "PAIR",
+  "category": "crypto",
+  "about": {
+    "en": "PAIR is the token of pair.fund, a permissionless token launchpad on Robinhood Chain that creates fixed-supply ERC-20 tokens with permanently locked Uniswap V4 markets paired against stock tokens or other ERC-20 quote tokens. It is an ERC-20 on Robinhood Chain at 0x6b1d42927b1a84ec28fa88d4fc6fa7af404966be."
+  },
+  "urls": {
+    "Website": "https://pair.fund/",
+    "Documentation": "https://pair.fund/docs"
+  },
+  "external": {
+    "coingecko": "pair",
+    "coinmarketcap": "42013"
+  }
+}
