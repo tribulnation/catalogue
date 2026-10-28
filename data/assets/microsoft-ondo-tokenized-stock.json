@@ -1,0 +1,20 @@
+{
+  "id": "microsoft-ondo-tokenized-stock",
+  "display_name": "Microsoft (Ondo Tokenized)",
+  "symbol": "MSFTon",
+  "category": "rwa",
+  "about": {
+    "en": "MSFTon is the Ondo tokenized stock for Microsoft Corporation (MSFT), issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is fully backed by MSFT shares and is a total-return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above the underlying's. Holders have a claim on the issuer, not registered ownership or shareholder rights. It is an ERC-20 on Ethereum at 0xB812837b81a3a6b81d7CD74CfB19A7f2784555E5, with deployments on BNB Chain, Solana and HyperEVM."
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/msfton",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "microsoft-ondo-tokenized-stock",
+    "coinmarketcap": "38086"
+  }
+}

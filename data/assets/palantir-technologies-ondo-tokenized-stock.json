@@ -1,0 +1,20 @@
+{
+  "id": "palantir-technologies-ondo-tokenized-stock",
+  "display_name": "Palantir Technologies (Ondo Tokenized)",
+  "symbol": "PLTRon",
+  "category": "rwa",
+  "about": {
+    "en": "PLTRon is the Ondo tokenized stock for Palantir Technologies Inc. (PLTR), issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is fully backed by PLTR shares and is a total-return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above the underlying's. Holders have a claim on the issuer, not registered ownership or shareholder rights. It is an ERC-20 on Ethereum at 0x0c666485b02F7A87d21AdD7AEb9F5e64975AA490, with deployments on BNB Chain, Solana and HyperEVM."
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/pltron",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "palantir-technologies-ondo-tokenized-stock",
+    "coinmarketcap": "38073"
+  }
+}
