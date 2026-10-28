@@ -152,6 +152,7 @@ SPOT_RULES: dict[str, Rule] = {
   'bitget': lambda id, inst, sym: f'https://www.bitget.com/spot/{id}',
   'bybit': lambda id, inst, sym: 'https://www.bybit.com/en/trade/spot/{}/{}'.format(*sym.split('bybit', id, inst)),
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/spot/{id}',
+  'gate': lambda id, inst, sym: f'https://www.gate.com/trade/{id}',
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{_HYPERLIQUID_SPOT_INDEX.sub("", id)}',
   'kraken': lambda id, inst, sym: 'https://pro.kraken.com/app/trade/{}-{}'.format(
     *(_kraken_symbol(s) for s in sym.split('kraken', id, inst))
@@ -174,6 +175,7 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/perpetuals/{id}',
   'dydx': lambda id, inst, sym: f'https://dydx.trade/trade/{id}',
   'extended': lambda id, inst, sym: f'https://app.extended.exchange/trade/{id}',
+  'gate': lambda id, inst, sym: f'https://www.gate.com/futures/USDT/{id}',
   'grvt': lambda id, inst, sym: 'https://grvt.io/exchange/perpetual/' + id.removesuffix('_Perp').replace('_', '-'),
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{id}',
   'kraken': lambda id, inst, sym: f'https://futures.kraken.com/trade/futures/{id}',
