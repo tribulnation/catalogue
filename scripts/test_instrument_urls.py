@@ -109,10 +109,6 @@ class MarginTradeUrlsTest(unittest.TestCase):
         self.assertEqual(rules['margin-trade'](id, {}, symbols), url)
 
 
-if __name__ == '__main__':
-  unittest.main()
-
-
 class TerminalCoverageDexUrlsTest(unittest.TestCase):
   """Routes read from each venue's own site links (2026-10-27)."""
 
@@ -133,3 +129,7 @@ class TerminalCoverageDexUrlsTest(unittest.TestCase):
     for rules, platform, id, url in cases:
       with self.subTest(platform=platform, id=id):
         self.assertEqual(rules[platform](id, {}, symbols), url)
+
+
+if __name__ == '__main__':
+  unittest.main()
