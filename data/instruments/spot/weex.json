@@ -1,0 +1,3764 @@
+{
+  "0GUSDT": {
+    "exchange": "spot",
+    "base": "zero-gravity",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/0G-USDT"
+  },
+  "1INCHUSDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/1INCH-USDT"
+  },
+  "2ZUSDT": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/2Z-USDT"
+  },
+  "4STOCKUSDT": {
+    "exchange": "spot",
+    "base": "4stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/4STOCK-USDT"
+  },
+  "9BITUSDT": {
+    "exchange": "spot",
+    "base": "the9bit",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/9BIT-USDT"
+  },
+  "AAPLXUSDT": {
+    "exchange": "spot",
+    "base": "apple-xstock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AAPLX-USDT"
+  },
+  "AAVEUSDC": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/AAVE-USDC"
+  },
+  "AAVEUSDT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AAVE-USDT"
+  },
+  "ABUSDT": {
+    "exchange": "spot",
+    "base": "newton-project",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AB-USDT"
+  },
+  "ACEUSDC": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ACE-USDC"
+  },
+  "ACEUSDT": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ACE-USDT"
+  },
+  "ACHUSDT": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ACH-USDT"
+  },
+  "ACSUSDT": {
+    "exchange": "spot",
+    "base": "access-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ACS-USDT"
+  },
+  "ACTUSDT": {
+    "exchange": "spot",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ACT-USDT"
+  },
+  "ACUUSDT": {
+    "exchange": "spot",
+    "base": "acurast",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ACU-USDT"
+  },
+  "ACXUSDT": {
+    "exchange": "spot",
+    "base": "across-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ACX-USDT"
+  },
+  "ADAUSDC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ADA-USDC"
+  },
+  "ADAUSDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ADA-USDT"
+  },
+  "ADXUSDT": {
+    "exchange": "spot",
+    "base": "adex",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ADX-USDT"
+  },
+  "AEROUSDT": {
+    "exchange": "spot",
+    "base": "aerodrome",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AERO-USDT"
+  },
+  "AEVOUSDT": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AEVO-USDT"
+  },
+  "AGENCYUSDT": {
+    "exchange": "spot",
+    "base": "agency",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AGENCY-USDT"
+  },
+  "AGLDUSDT": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AGLD-USDT"
+  },
+  "AGTUSDT": {
+    "exchange": "spot",
+    "base": "alaya-ai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AGT-USDT"
+  },
+  "AIOUSDT": {
+    "exchange": "spot",
+    "base": "olaxbt",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AIO-USDT"
+  },
+  "AIUSDT": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AI-USDT"
+  },
+  "AKEUSDT": {
+    "exchange": "spot",
+    "base": "akedo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AKE-USDT"
+  },
+  "ALEOUSDT": {
+    "exchange": "spot",
+    "base": "aleo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ALEO-USDT"
+  },
+  "ALGOUSDC": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ALGO-USDC"
+  },
+  "ALGOUSDT": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ALGO-USDT"
+  },
+  "ALICEUSDT": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ALICE-USDT"
+  },
+  "ALIGNUSDT": {
+    "exchange": "spot",
+    "base": "aligned",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ALIGN-USDT"
+  },
+  "ALLOUSDT": {
+    "exchange": "spot",
+    "base": "allora",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ALLO-USDT"
+  },
+  "ALPINEUSDT": {
+    "exchange": "spot",
+    "base": "alpine-f1-team-fan-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ALPINE-USDT"
+  },
+  "ALTUSDC": {
+    "exchange": "spot",
+    "base": "altlayer",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ALT-USDC"
+  },
+  "ALTUSDT": {
+    "exchange": "spot",
+    "base": "altlayer",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ALT-USDT"
+  },
+  "AMPUSDT": {
+    "exchange": "spot",
+    "base": "amp-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AMP-USDT"
+  },
+  "ANIMEUSDT": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ANIME-USDT"
+  },
+  "ANKRUSDC": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ANKR-USDC"
+  },
+  "ANKRUSDT": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ANKR-USDT"
+  },
+  "ANONUSDT": {
+    "exchange": "spot",
+    "base": "heyanon",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ANON-USDT"
+  },
+  "ANTFUNUSDT": {
+    "exchange": "spot",
+    "base": "antfun",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ANTFUN-USDT"
+  },
+  "APEUSDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/APE-USDT"
+  },
+  "API3USDT": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/API3-USDT"
+  },
+  "APRUSDT": {
+    "exchange": "spot",
+    "base": "apriori",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/APR-USDT"
+  },
+  "APTUSDC": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/APT-USDC"
+  },
+  "APTUSDT": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/APT-USDT"
+  },
+  "ARBUSDC": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ARB-USDC"
+  },
+  "ARBUSDT": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ARB-USDT"
+  },
+  "ARCUSDT": {
+    "exchange": "spot",
+    "base": "ai-rig-complex",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ARC-USDT"
+  },
+  "ARIAUSDT": {
+    "exchange": "spot",
+    "base": "aria-ai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ARIA-USDT"
+  },
+  "ARKMUSDC": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ARKM-USDC"
+  },
+  "ARKMUSDT": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ARKM-USDT"
+  },
+  "ARKUSDT": {
+    "exchange": "spot",
+    "base": "ark",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ARK-USDT"
+  },
+  "ARPAUSDT": {
+    "exchange": "spot",
+    "base": "arpa-chain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ARPA-USDT"
+  },
+  "ARUSDC": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/AR-USDC"
+  },
+  "ARUSDT": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AR-USDT"
+  },
+  "ARXUSDT": {
+    "exchange": "spot",
+    "base": "arcium",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ARX-USDT"
+  },
+  "ASTERUSDT": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ASTER-USDT"
+  },
+  "ASTRUSDT": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ASTR-USDT"
+  },
+  "ATHUSDT": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ATH-USDT"
+  },
+  "ATOMUSDC": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ATOM-USDC"
+  },
+  "ATOMUSDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ATOM-USDT"
+  },
+  "AUCTIONUSDT": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AUCTION-USDT"
+  },
+  "AUDIOUSDT": {
+    "exchange": "spot",
+    "base": "audius",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AUDIO-USDT"
+  },
+  "AVAUSDT": {
+    "exchange": "spot",
+    "base": "travala",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AVA-USDT"
+  },
+  "AVAXUSDC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/AVAX-USDC"
+  },
+  "AVAXUSDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AVAX-USDT"
+  },
+  "AVNTUSDT": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AVNT-USDT"
+  },
+  "AXISUSDT": {
+    "exchange": "spot",
+    "base": "axis-robotics",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AXIS-USDT"
+  },
+  "AXSUSDT": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AXS-USDT"
+  },
+  "AZTECUSDT": {
+    "exchange": "spot",
+    "base": "aztec",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AZTEC-USDT"
+  },
+  "B2USDT": {
+    "exchange": "spot",
+    "base": "bsquared-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/B2-USDT"
+  },
+  "BABYUSDT": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BABY-USDT"
+  },
+  "BANANAS31USDT": {
+    "exchange": "spot",
+    "base": "banana-for-scale",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BANANAS31-USDT"
+  },
+  "BANANAUSDT": {
+    "exchange": "spot",
+    "base": "banana-gun",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BANANA-USDT"
+  },
+  "BANDUSDT": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BAND-USDT"
+  },
+  "BARDUSDT": {
+    "exchange": "spot",
+    "base": "lombard",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BARD-USDT"
+  },
+  "BATUSDT": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BAT-USDT"
+  },
+  "BBUSDT": {
+    "exchange": "spot",
+    "base": "bouncebit",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BB-USDT"
+  },
+  "BCHUSDC": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/BCH-USDC"
+  },
+  "BCHUSDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BCH-USDT"
+  },
+  "BDXUSDT": {
+    "exchange": "spot",
+    "base": "beldex",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BDX-USDT"
+  },
+  "BEATUSDT": {
+    "exchange": "spot",
+    "base": "audiera",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BEAT-USDT"
+  },
+  "BELUSDC": {
+    "exchange": "spot",
+    "base": "bella-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/BEL-USDC"
+  },
+  "BELUSDT": {
+    "exchange": "spot",
+    "base": "bella-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BEL-USDT"
+  },
+  "BERAUSDT": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BERA-USDT"
+  },
+  "BICOUSDT": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BICO-USDT"
+  },
+  "BIGTIMEUSDT": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BIGTIME-USDT"
+  },
+  "BILLUSDT": {
+    "exchange": "spot",
+    "base": "billions-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BILL-USDT"
+  },
+  "BIOUSDT": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BIO-USDT"
+  },
+  "BIRBUSDT": {
+    "exchange": "spot",
+    "base": "moonbirds",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BIRB-USDT"
+  },
+  "BLENDUSDT": {
+    "exchange": "spot",
+    "base": "fluent-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BLEND-USDT"
+  },
+  "BLESSUSDT": {
+    "exchange": "spot",
+    "base": "bless-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BLESS-USDT"
+  },
+  "BLURUSDC": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/BLUR-USDC"
+  },
+  "BLURUSDT": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BLUR-USDT"
+  },
+  "BMTUSDT": {
+    "exchange": "spot",
+    "base": "bubblemaps",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BMT-USDT"
+  },
+  "BNBUSDC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/BNB-USDC"
+  },
+  "BNBUSDT": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BNB-USDT"
+  },
+  "BNKRUSDT": {
+    "exchange": "spot",
+    "base": "bankrcoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BNKR-USDT"
+  },
+  "BNTUSDT": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BNT-USDT"
+  },
+  "BOBUSDT": {
+    "exchange": "spot",
+    "base": "build-on-bitcoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BOB-USDT"
+  },
+  "BOMEUSDC": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/BOME-USDC"
+  },
+  "BOMEUSDT": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BOME-USDT"
+  },
+  "BONKUSDC": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/BONK-USDC"
+  },
+  "BONKUSDT": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BONK-USDT"
+  },
+  "BORDRUSDT": {
+    "exchange": "spot",
+    "base": "bordrless",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BORDR-USDT"
+  },
+  "BPUSDT": {
+    "exchange": "spot",
+    "base": "backpack",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BP-USDT"
+  },
+  "BRETTUSDT": {
+    "exchange": "spot",
+    "base": "brett",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BRETT-USDT"
+  },
+  "BSBUSDT": {
+    "exchange": "spot",
+    "base": "block-street",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BSB-USDT"
+  },
+  "BSVUSDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash-sv",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BSV-USDT"
+  },
+  "BTCUSDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/BTC-USDC"
+  },
+  "BTCUSDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BTC-USDT"
+  },
+  "BTRUSDT": {
+    "exchange": "spot",
+    "base": "bitlayer-bitvm",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BTR-USDT"
+  },
+  "BTTUSDT": {
+    "exchange": "spot",
+    "base": "bittorrent",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BTT-USDT"
+  },
+  "BUSDT": {
+    "exchange": "spot",
+    "base": "build-on",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/B-USDT"
+  },
+  "C98USDT": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/C98-USDT"
+  },
+  "CAKEUSDT": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CAKE-USDT"
+  },
+  "CAPUSDT": {
+    "exchange": "spot",
+    "base": "cap",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CAP-USDT"
+  },
+  "CARDSUSDT": {
+    "exchange": "spot",
+    "base": "collector-crypt",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CARDS-USDT"
+  },
+  "CARVUSDT": {
+    "exchange": "spot",
+    "base": "carv",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CARV-USDT"
+  },
+  "CASHCATUSDT": {
+    "exchange": "spot",
+    "base": "cash-cat",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CASHCAT-USDT"
+  },
+  "CATIUSDT": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CATI-USDT"
+  },
+  "CATUSDT": {
+    "exchange": "spot",
+    "base": "simon-s-cat",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CAT-USDT"
+  },
+  "CCUSDT": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CC-USDT"
+  },
+  "CELOUSDT": {
+    "exchange": "spot",
+    "base": "celo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CELO-USDT"
+  },
+  "CELRUSDC": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/CELR-USDC"
+  },
+  "CELRUSDT": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CELR-USDT"
+  },
+  "CENTUSDT": {
+    "exchange": "spot",
+    "base": "incentiv",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CENT-USDT"
+  },
+  "CETUSUSDT": {
+    "exchange": "spot",
+    "base": "cetus-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CETUS-USDT"
+  },
+  "CFGUSDT": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CFG-USDT"
+  },
+  "CFXUSDC": {
+    "exchange": "spot",
+    "base": "conflux",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/CFX-USDC"
+  },
+  "CFXUSDT": {
+    "exchange": "spot",
+    "base": "conflux",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CFX-USDT"
+  },
+  "CHECKUSDT": {
+    "exchange": "spot",
+    "base": "checkmate",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CHECK-USDT"
+  },
+  "CHEEMSUSDT": {
+    "exchange": "spot",
+    "base": "cheems-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CHEEMS-USDT"
+  },
+  "CHILLGUYUSDT": {
+    "exchange": "spot",
+    "base": "just-a-chill-guy",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CHILLGUY-USDT"
+  },
+  "CHILLHOUSEUSDT": {
+    "exchange": "spot",
+    "base": "chill-house",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CHILLHOUSE-USDT"
+  },
+  "CHRUSDT": {
+    "exchange": "spot",
+    "base": "chromaway",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CHR-USDT"
+  },
+  "CHZUSDT": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CHZ-USDT"
+  },
+  "CKBUSDC": {
+    "exchange": "spot",
+    "base": "nervos-network",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/CKB-USDC"
+  },
+  "CKBUSDT": {
+    "exchange": "spot",
+    "base": "nervos-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CKB-USDT"
+  },
+  "CLANKERUSDT": {
+    "exchange": "spot",
+    "base": "tokenbot",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CLANKER-USDT"
+  },
+  "CLAUDIAUSDT": {
+    "exchange": "spot",
+    "base": "claudia",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CLAUDIA-USDT"
+  },
+  "CLAUSUSDT": {
+    "exchange": "spot",
+    "base": "claus",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CLAUS-USDT"
+  },
+  "CLOUSDT": {
+    "exchange": "spot",
+    "base": "yei-finance",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CLO-USDT"
+  },
+  "COMPUSDT": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/COMP-USDT"
+  },
+  "COOKIEUSDT": {
+    "exchange": "spot",
+    "base": "cookie",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/COOKIE-USDT"
+  },
+  "COREUSDT": {
+    "exchange": "spot",
+    "base": "core",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CORE-USDT"
+  },
+  "COTIUSDT": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/COTI-USDT"
+  },
+  "COWUSDT": {
+    "exchange": "spot",
+    "base": "cow-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/COW-USDT"
+  },
+  "CPOOLUSDT": {
+    "exchange": "spot",
+    "base": "clearpool",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CPOOL-USDT"
+  },
+  "CRCLXUSDT": {
+    "exchange": "spot",
+    "base": "circle-xstock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CRCLX-USDT"
+  },
+  "CROUSDT": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CRO-USDT"
+  },
+  "CRVUSDC": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/CRV-USDC"
+  },
+  "CRVUSDT": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CRV-USDT"
+  },
+  "CTRUSDT": {
+    "exchange": "spot",
+    "base": "citrea",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CTR-USDT"
+  },
+  "CTSIUSDT": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CTSI-USDT"
+  },
+  "CTUSDT": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CT-USDT"
+  },
+  "CUSDT": {
+    "exchange": "spot",
+    "base": "chainbase",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/C-USDT"
+  },
+  "CVCUSDT": {
+    "exchange": "spot",
+    "base": "civic",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CVC-USDT"
+  },
+  "CVXUSDT": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CVX-USDT"
+  },
+  "CYBERUSDT": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CYBER-USDT"
+  },
+  "CYSUSDT": {
+    "exchange": "spot",
+    "base": "cysic",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CYS-USDT"
+  },
+  "DASHUSDT": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DASH-USDT"
+  },
+  "DBRUSDT": {
+    "exchange": "spot",
+    "base": "debridge",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DBR-USDT"
+  },
+  "DEBITUSDT": {
+    "exchange": "spot",
+    "base": "teller",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DEBIT-USDT"
+  },
+  "DEEPUSDT": {
+    "exchange": "spot",
+    "base": "deep",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DEEP-USDT"
+  },
+  "DEFIUSDT": {
+    "exchange": "spot",
+    "base": "de-fi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DEFI-USDT"
+  },
+  "DEXEUSDT": {
+    "exchange": "spot",
+    "base": "dexe",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DEXE-USDT"
+  },
+  "DGAIUSDT": {
+    "exchange": "spot",
+    "base": "dgrid-ai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DGAI-USDT"
+  },
+  "DIAUSDT": {
+    "exchange": "spot",
+    "base": "dia-data",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DIA-USDT"
+  },
+  "DMCUSDT": {
+    "exchange": "spot",
+    "base": "delorean",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DMC-USDT"
+  },
+  "DNAUSDT": {
+    "exchange": "spot",
+    "base": "neosoul",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DNA-USDT"
+  },
+  "DOGEUSDC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/DOGE-USDC"
+  },
+  "DOGEUSDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DOGE-USDT"
+  },
+  "DOGSUSDC": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/DOGS-USDC"
+  },
+  "DOGSUSDT": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DOGS-USDT"
+  },
+  "DOLOUSDT": {
+    "exchange": "spot",
+    "base": "dolomite",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DOLO-USDT"
+  },
+  "DOODUSDT": {
+    "exchange": "spot",
+    "base": "doodles",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DOOD-USDT"
+  },
+  "DOSUSDT": {
+    "exchange": "spot",
+    "base": "dappos",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DOS-USDT"
+  },
+  "DOTUSDC": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/DOT-USDC"
+  },
+  "DOTUSDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DOT-USDT"
+  },
+  "DRVUSDT": {
+    "exchange": "spot",
+    "base": "derive",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DRV-USDT"
+  },
+  "DSYNCUSDT": {
+    "exchange": "spot",
+    "base": "destra-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DSYNC-USDT"
+  },
+  "DUSKUSDT": {
+    "exchange": "spot",
+    "base": "dusk-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DUSK-USDT"
+  },
+  "DYDXUSDT": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DYDX-USDT"
+  },
+  "DYMUSDT": {
+    "exchange": "spot",
+    "base": "dymension",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DYM-USDT"
+  },
+  "EDENUSDT": {
+    "exchange": "spot",
+    "base": "openeden",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/EDEN-USDT"
+  },
+  "EDGEUSDT": {
+    "exchange": "spot",
+    "base": "edgex",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/EDGE-USDT"
+  },
+  "EDUUSDT": {
+    "exchange": "spot",
+    "base": "edu-coin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/EDU-USDT"
+  },
+  "EGLDUSDT": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/EGLD-USDT"
+  },
+  "EIGENUSDT": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/EIGEN-USDT"
+  },
+  "ELSAUSDT": {
+    "exchange": "spot",
+    "base": "elsa",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ELSA-USDT"
+  },
+  "ENAUSDC": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ENA-USDC"
+  },
+  "ENAUSDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ENA-USDT"
+  },
+  "ENJUSDT": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ENJ-USDT"
+  },
+  "ENSOUSDT": {
+    "exchange": "spot",
+    "base": "enso",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ENSO-USDT"
+  },
+  "ENSUSDC": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ENS-USDC"
+  },
+  "ENSUSDT": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ENS-USDT"
+  },
+  "EPICUSDT": {
+    "exchange": "spot",
+    "base": "epic-chain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/EPIC-USDT"
+  },
+  "ERAUSDT": {
+    "exchange": "spot",
+    "base": "caldera",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ERA-USDT"
+  },
+  "ESPUSDT": {
+    "exchange": "spot",
+    "base": "espresso",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ESP-USDT"
+  },
+  "ETCUSDT": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ETC-USDT"
+  },
+  "ETHBTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://www.weex.com/spot/ETH-BTC"
+  },
+  "ETHFIUSDC": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ETHFI-USDC"
+  },
+  "ETHFIUSDT": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ETHFI-USDT"
+  },
+  "ETHUSDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ETH-USDC"
+  },
+  "ETHUSDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ETH-USDT"
+  },
+  "EULUSDT": {
+    "exchange": "spot",
+    "base": "euler",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/EUL-USDT"
+  },
+  "EURQUSDT": {
+    "exchange": "spot",
+    "base": "quantoz-eurq",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/EURQ-USDT"
+  },
+  "EVAAUSDT": {
+    "exchange": "spot",
+    "base": "evaa-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/EVAA-USDT"
+  },
+  "FARTCOINUSDT": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FARTCOIN-USDT"
+  },
+  "FDUSDUSDT": {
+    "exchange": "spot",
+    "base": "first-digital-usd",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FDUSD-USDT"
+  },
+  "FETUSDC": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/FET-USDC"
+  },
+  "FETUSDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FET-USDT"
+  },
+  "FFUSDT": {
+    "exchange": "spot",
+    "base": "falcon-finance-ff",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FF-USDT"
+  },
+  "FIDAUSDT": {
+    "exchange": "spot",
+    "base": "bonfida",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FIDA-USDT"
+  },
+  "FILUSDC": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/FIL-USDC"
+  },
+  "FILUSDT": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FIL-USDT"
+  },
+  "FLOCKUSDT": {
+    "exchange": "spot",
+    "base": "flock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FLOCK-USDT"
+  },
+  "FLOKIUSDC": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/FLOKI-USDC"
+  },
+  "FLOKIUSDT": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FLOKI-USDT"
+  },
+  "FLOWUSDT": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FLOW-USDT"
+  },
+  "FLUXUSDT": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FLUX-USDT"
+  },
+  "FOGOUSDT": {
+    "exchange": "spot",
+    "base": "fogo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FOGO-USDT"
+  },
+  "FOLKSUSDT": {
+    "exchange": "spot",
+    "base": "folks",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FOLKS-USDT"
+  },
+  "FORESTUSDT": {
+    "exchange": "spot",
+    "base": "forest-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FOREST-USDT"
+  },
+  "FORMUSDT": {
+    "exchange": "spot",
+    "base": "four",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FORM-USDT"
+  },
+  "FRAXUSDT": {
+    "exchange": "spot",
+    "base": "frax-share",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FRAX-USDT"
+  },
+  "FTTUSDT": {
+    "exchange": "spot",
+    "base": "ftx-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FTT-USDT"
+  },
+  "FUELUSDT": {
+    "exchange": "spot",
+    "base": "fuel-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/FUEL-USDT"
+  },
+  "GAIBUSDT": {
+    "exchange": "spot",
+    "base": "gaib",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GAIB-USDT"
+  },
+  "GALAUSDC": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/GALA-USDC"
+  },
+  "GALAUSDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GALA-USDT"
+  },
+  "GAME2USDT": {
+    "exchange": "spot",
+    "base": "gamebuild",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GAME2-USDT"
+  },
+  "GASUSDT": {
+    "exchange": "spot",
+    "base": "neo-gas",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GAS-USDT"
+  },
+  "GHIBLIUSDT": {
+    "exchange": "spot",
+    "base": "ghiblification",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GHIBLI-USDT"
+  },
+  "GIGAUSDT": {
+    "exchange": "spot",
+    "base": "gigachad",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GIGA-USDT"
+  },
+  "GIGGLEUSDT": {
+    "exchange": "spot",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GIGGLE-USDT"
+  },
+  "GLMRUSDT": {
+    "exchange": "spot",
+    "base": "moonbeam",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GLMR-USDT"
+  },
+  "GLMUSDT": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GLM-USDT"
+  },
+  "GMTUSDT": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GMT-USDT"
+  },
+  "GMXUSDT": {
+    "exchange": "spot",
+    "base": "gmx",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GMX-USDT"
+  },
+  "GOATUSDT": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GOAT-USDT"
+  },
+  "GOOGLXUSDT": {
+    "exchange": "spot",
+    "base": "alphabet-xstock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GOOGLX-USDT"
+  },
+  "GPSUSDT": {
+    "exchange": "spot",
+    "base": "goplus-security",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GPS-USDT"
+  },
+  "GRASSUSDT": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GRASS-USDT"
+  },
+  "GRTUSDT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GRT-USDT"
+  },
+  "GRVTUSDT": {
+    "exchange": "spot",
+    "base": "grvt",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GRVT-USDT"
+  },
+  "GTAIUSDT": {
+    "exchange": "spot",
+    "base": "gt-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GTAI-USDT"
+  },
+  "GTCUSDC": {
+    "exchange": "spot",
+    "base": "gitcoin",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/GTC-USDC"
+  },
+  "GTCUSDT": {
+    "exchange": "spot",
+    "base": "gitcoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GTC-USDT"
+  },
+  "GUNUSDT": {
+    "exchange": "spot",
+    "base": "gunz",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GUN-USDT"
+  },
+  "GUSDT": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/G-USDT"
+  },
+  "HAEDALUSDT": {
+    "exchange": "spot",
+    "base": "haedal-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HAEDAL-USDT"
+  },
+  "HANAUSDT": {
+    "exchange": "spot",
+    "base": "hana-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HANA-USDT"
+  },
+  "HBARUSDT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HBAR-USDT"
+  },
+  "HEIUSDT": {
+    "exchange": "spot",
+    "base": "heima",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HEI-USDT"
+  },
+  "HEMIUSDT": {
+    "exchange": "spot",
+    "base": "hemi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HEMI-USDT"
+  },
+  "HIGGSUSDT": {
+    "exchange": "spot",
+    "base": "higgspad",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HIGGS-USDT"
+  },
+  "HMSTRUSDT": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HMSTR-USDT"
+  },
+  "HNTUSDT": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HNT-USDT"
+  },
+  "HOLDUSDT": {
+    "exchange": "spot",
+    "base": "holdstation",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HOLD-USDT"
+  },
+  "HOMEUSDT": {
+    "exchange": "spot",
+    "base": "defi-app",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HOME-USDT"
+  },
+  "HUMAUSDT": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HUMA-USDT"
+  },
+  "HUSDT": {
+    "exchange": "spot",
+    "base": "humanity",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/H-USDT"
+  },
+  "HYPERUSDT": {
+    "exchange": "spot",
+    "base": "hyperlane",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HYPER-USDT"
+  },
+  "HYPEUSDT": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HYPE-USDT"
+  },
+  "ICNTUSDT": {
+    "exchange": "spot",
+    "base": "impossible-cloud-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ICNT-USDT"
+  },
+  "ICPUSDC": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ICP-USDC"
+  },
+  "ICPUSDT": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ICP-USDT"
+  },
+  "IDUSDT": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ID-USDT"
+  },
+  "IMXUSDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/IMX-USDT"
+  },
+  "INITUSDT": {
+    "exchange": "spot",
+    "base": "initia",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/INIT-USDT"
+  },
+  "INJUSDC": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/INJ-USDC"
+  },
+  "INJUSDT": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/INJ-USDT"
+  },
+  "INUSDT": {
+    "exchange": "spot",
+    "base": "infinit",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/IN-USDT"
+  },
+  "INXUSDT": {
+    "exchange": "spot",
+    "base": "infinex",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/INX-USDT"
+  },
+  "IOSTUSDT": {
+    "exchange": "spot",
+    "base": "iost",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/IOST-USDT"
+  },
+  "IOTAUSDT": {
+    "exchange": "spot",
+    "base": "iota",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/IOTA-USDT"
+  },
+  "IOTXUSDT": {
+    "exchange": "spot",
+    "base": "iotex",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/IOTX-USDT"
+  },
+  "IOUSDC": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/IO-USDC"
+  },
+  "IOUSDT": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/IO-USDT"
+  },
+  "IRYSUSDT": {
+    "exchange": "spot",
+    "base": "irys",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/IRYS-USDT"
+  },
+  "JASMYUSDT": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/JASMY-USDT"
+  },
+  "JCTUSDT": {
+    "exchange": "spot",
+    "base": "janction",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/JCT-USDT"
+  },
+  "JTOUSDC": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/JTO-USDC"
+  },
+  "JTOUSDT": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/JTO-USDT"
+  },
+  "JUPUSDC": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/JUP-USDC"
+  },
+  "JUPUSDT": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/JUP-USDT"
+  },
+  "KAIAUSDT": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KAIA-USDT"
+  },
+  "KAIOUSDT": {
+    "exchange": "spot",
+    "base": "kaio",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KAIO-USDT"
+  },
+  "KAITOUSDT": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KAITO-USDT"
+  },
+  "KASUSDT": {
+    "exchange": "spot",
+    "base": "kaspa",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KAS-USDT"
+  },
+  "KATUSDT": {
+    "exchange": "spot",
+    "base": "katana-network-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KAT-USDT"
+  },
+  "KAVAUSDT": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KAVA-USDT"
+  },
+  "KERNELUSDT": {
+    "exchange": "spot",
+    "base": "kernel",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KERNEL-USDT"
+  },
+  "KGENUSDT": {
+    "exchange": "spot",
+    "base": "kgen",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KGEN-USDT"
+  },
+  "KIIUSDT": {
+    "exchange": "spot",
+    "base": "kiichain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KII-USDT"
+  },
+  "KITEUSDT": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KITE-USDT"
+  },
+  "KMNOUSDT": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KMNO-USDT"
+  },
+  "KSMUSDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KSM-USDT"
+  },
+  "KTAUSDT": {
+    "exchange": "spot",
+    "base": "keeta",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KTA-USDT"
+  },
+  "L3USDT": {
+    "exchange": "spot",
+    "base": "layer3",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/L3-USDT"
+  },
+  "LABUSDT": {
+    "exchange": "spot",
+    "base": "lab",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LAB-USDT"
+  },
+  "LAPTOPUSDT": {
+    "exchange": "spot",
+    "base": "hunter-bidens-laptop",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LAPTOP-USDT"
+  },
+  "LAUSDT": {
+    "exchange": "spot",
+    "base": "lagrange",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LA-USDT"
+  },
+  "LAYERUSDT": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LAYER-USDT"
+  },
+  "LDOUSDC": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/LDO-USDC"
+  },
+  "LDOUSDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LDO-USDT"
+  },
+  "LINEAUSDT": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LINEA-USDT"
+  },
+  "LINKUSDC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/LINK-USDC"
+  },
+  "LINKUSDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LINK-USDT"
+  },
+  "LISTAUSDT": {
+    "exchange": "spot",
+    "base": "lista",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LISTA-USDT"
+  },
+  "LITUSDT": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LIT-USDT"
+  },
+  "LOTUSDT": {
+    "exchange": "spot",
+    "base": "league-of-traders",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LOT-USDT"
+  },
+  "LPTUSDT": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LPT-USDT"
+  },
+  "LQTYUSDT": {
+    "exchange": "spot",
+    "base": "liquity",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LQTY-USDT"
+  },
+  "LSKUSDT": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LSK-USDT"
+  },
+  "LTCUSDC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/LTC-USDC"
+  },
+  "LTCUSDT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LTC-USDT"
+  },
+  "LUMIAUSDT": {
+    "exchange": "spot",
+    "base": "lumia",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LUMIA-USDT"
+  },
+  "LUNAUSDT": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LUNA-USDT"
+  },
+  "LUNCUSDT": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LUNC-USDT"
+  },
+  "MAGICUSDT": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MAGIC-USDT"
+  },
+  "MAGMAUSDT": {
+    "exchange": "spot",
+    "base": "magma-finance",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MAGMA-USDT"
+  },
+  "MANAUSDT": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MANA-USDT"
+  },
+  "MANTAUSDC": {
+    "exchange": "spot",
+    "base": "manta-network",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/MANTA-USDC"
+  },
+  "MANTAUSDT": {
+    "exchange": "spot",
+    "base": "manta-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MANTA-USDT"
+  },
+  "MASKUSDT": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MASK-USDT"
+  },
+  "MATUSDT": {
+    "exchange": "spot",
+    "base": "matchain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MAT-USDT"
+  },
+  "MAVUSDT": {
+    "exchange": "spot",
+    "base": "maverick-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MAV-USDT"
+  },
+  "MEGAUSDT": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MEGA-USDT"
+  },
+  "MELANIAUSDT": {
+    "exchange": "spot",
+    "base": "melania-meme",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MELANIA-USDT"
+  },
+  "MEMEUSDT": {
+    "exchange": "spot",
+    "base": "memecoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MEME-USDT"
+  },
+  "MERLUSDT": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MERL-USDT"
+  },
+  "METISUSDT": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/METIS-USDT"
+  },
+  "METUSDT": {
+    "exchange": "spot",
+    "base": "meteora",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MET-USDT"
+  },
+  "MGOUSDT": {
+    "exchange": "spot",
+    "base": "mango-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MGO-USDT"
+  },
+  "MINAUSDT": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MINA-USDT"
+  },
+  "MMTUSDT": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MMT-USDT"
+  },
+  "MNTUSDT": {
+    "exchange": "spot",
+    "base": "mantle",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MNT-USDT"
+  },
+  "MOCAUSDT": {
+    "exchange": "spot",
+    "base": "mocaverse",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MOCA-USDT"
+  },
+  "MOGUSDT": {
+    "exchange": "spot",
+    "base": "mog-coin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MOG-USDT"
+  },
+  "MONUSDT": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MON-USDT"
+  },
+  "MOODENGUSDT": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MOODENG-USDT"
+  },
+  "MORPHOUSDT": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MORPHO-USDT"
+  },
+  "MPLXUSDT": {
+    "exchange": "spot",
+    "base": "metaplex",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MPLX-USDT"
+  },
+  "MTLUSDT": {
+    "exchange": "spot",
+    "base": "metal",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MTL-USDT"
+  },
+  "MUBARAKUSDT": {
+    "exchange": "spot",
+    "base": "mubarak",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MUBARAK-USDT"
+  },
+  "MUSDT": {
+    "exchange": "spot",
+    "base": "memecore",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/M-USDT"
+  },
+  "MYXUSDT": {
+    "exchange": "spot",
+    "base": "myx-finance",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MYX-USDT"
+  },
+  "NEARUSDC": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/NEAR-USDC"
+  },
+  "NEARUSDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NEAR-USDT"
+  },
+  "NEOUSDC": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/NEO-USDC"
+  },
+  "NEOUSDT": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NEO-USDT"
+  },
+  "NEWTUSDT": {
+    "exchange": "spot",
+    "base": "newton-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NEWT-USDT"
+  },
+  "NEXOUSDT": {
+    "exchange": "spot",
+    "base": "nexo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NEXO-USDT"
+  },
+  "NIGHTUSDT": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NIGHT-USDT"
+  },
+  "NILUSDT": {
+    "exchange": "spot",
+    "base": "nillion",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NIL-USDT"
+  },
+  "NMRUSDT": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NMR-USDT"
+  },
+  "NOBODYUSDT": {
+    "exchange": "spot",
+    "base": "nobody-sausage",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NOBODY-USDT"
+  },
+  "NODEUSDT": {
+    "exchange": "spot",
+    "base": "nodeops",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NODE-USDT"
+  },
+  "NOMUSDT": {
+    "exchange": "spot",
+    "base": "nomina",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NOM-USDT"
+  },
+  "NOTUSDC": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/NOT-USDC"
+  },
+  "NOTUSDT": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NOT-USDT"
+  },
+  "NXPCUSDT": {
+    "exchange": "spot",
+    "base": "nexpace",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NXPC-USDT"
+  },
+  "OBOLUSDT": {
+    "exchange": "spot",
+    "base": "obol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/OBOL-USDT"
+  },
+  "OGNUSDC": {
+    "exchange": "spot",
+    "base": "origin-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/OGN-USDC"
+  },
+  "OGNUSDT": {
+    "exchange": "spot",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/OGN-USDT"
+  },
+  "OKBUSDT": {
+    "exchange": "spot",
+    "base": "okb",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/OKB-USDT"
+  },
+  "ONDOUSDT": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ONDO-USDT"
+  },
+  "OPENUSDT": {
+    "exchange": "spot",
+    "base": "openledger",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/OPEN-USDT"
+  },
+  "OPGUSDT": {
+    "exchange": "spot",
+    "base": "opengradient",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/OPG-USDT"
+  },
+  "OPNUSDT": {
+    "exchange": "spot",
+    "base": "opinion",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/OPN-USDT"
+  },
+  "OPUSDC": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/OP-USDC"
+  },
+  "OPUSDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/OP-USDT"
+  },
+  "ORCAUSDT": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ORCA-USDT"
+  },
+  "ORDERUSDT": {
+    "exchange": "spot",
+    "base": "orderly-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ORDER-USDT"
+  },
+  "ORDIUSDC": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ORDI-USDC"
+  },
+  "ORDIUSDT": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ORDI-USDT"
+  },
+  "OSMOUSDT": {
+    "exchange": "spot",
+    "base": "osmosis",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/OSMO-USDT"
+  },
+  "OUSDT": {
+    "exchange": "spot",
+    "base": "o1-exchange",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/O-USDT"
+  },
+  "PARTIUSDT": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PARTI-USDT"
+  },
+  "PENDLEUSDC": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/PENDLE-USDC"
+  },
+  "PENDLEUSDT": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PENDLE-USDT"
+  },
+  "PENGUUSDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PENGU-USDT"
+  },
+  "PEOPLEUSDC": {
+    "exchange": "spot",
+    "base": "constitutiondao",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/PEOPLE-USDC"
+  },
+  "PEOPLEUSDT": {
+    "exchange": "spot",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PEOPLE-USDT"
+  },
+  "PEPEUSDC": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/PEPE-USDC"
+  },
+  "PEPEUSDT": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PEPE-USDT"
+  },
+  "PHAUSDT": {
+    "exchange": "spot",
+    "base": "pha",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PHA-USDT"
+  },
+  "PIEVERSEUSDT": {
+    "exchange": "spot",
+    "base": "pieverse",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PIEVERSE-USDT"
+  },
+  "PIUSDT": {
+    "exchange": "spot",
+    "base": "pi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PI-USDT"
+  },
+  "PIXELUSDC": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/PIXEL-USDC"
+  },
+  "PIXELUSDT": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PIXEL-USDT"
+  },
+  "PLUMEUSDT": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PLUME-USDT"
+  },
+  "PNUTUSDT": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PNUT-USDT"
+  },
+  "POLUSDC": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/POL-USDC"
+  },
+  "POLUSDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/POL-USDT"
+  },
+  "POLYXUSDC": {
+    "exchange": "spot",
+    "base": "polymesh",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/POLYX-USDC"
+  },
+  "POLYXUSDT": {
+    "exchange": "spot",
+    "base": "polymesh",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/POLYX-USDT"
+  },
+  "PONDUSDT": {
+    "exchange": "spot",
+    "base": "marlin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/POND-USDT"
+  },
+  "PONSUSDT": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PONS-USDT"
+  },
+  "POPCATUSDT": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/POPCAT-USDT"
+  },
+  "PORTALUSDC": {
+    "exchange": "spot",
+    "base": "portal",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/PORTAL-USDC"
+  },
+  "PORTALUSDT": {
+    "exchange": "spot",
+    "base": "portal",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PORTAL-USDT"
+  },
+  "PRIORSUSDT": {
+    "exchange": "spot",
+    "base": "priors-agents",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PRIORS-USDT"
+  },
+  "PROMPTUSDT": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PROMPT-USDT"
+  },
+  "PROMUSDT": {
+    "exchange": "spot",
+    "base": "prometeus",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PROM-USDT"
+  },
+  "PROPSUSDT": {
+    "exchange": "spot",
+    "base": "propbase",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PROPS-USDT"
+  },
+  "PROSUSDT": {
+    "exchange": "spot",
+    "base": "pharos-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PROS-USDT"
+  },
+  "PROVEUSDT": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PROVE-USDT"
+  },
+  "PTBUSDT": {
+    "exchange": "spot",
+    "base": "portal-to-bitcoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PTB-USDT"
+  },
+  "PUFFERUSDT": {
+    "exchange": "spot",
+    "base": "puffer",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PUFFER-USDT"
+  },
+  "PUMPUSDT": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PUMP-USDT"
+  },
+  "PUNDIXUSDT": {
+    "exchange": "spot",
+    "base": "pundi-x",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PUNDIX-USDT"
+  },
+  "PYBOBOUSDT": {
+    "exchange": "spot",
+    "base": "capybobo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PYBOBO-USDT"
+  },
+  "PYTHUSDT": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PYTH-USDT"
+  },
+  "PYUSDUSDT": {
+    "exchange": "spot",
+    "base": "paypal-usd",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PYUSD-USDT"
+  },
+  "QIUSDT": {
+    "exchange": "spot",
+    "base": "benqi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/QI-USDT"
+  },
+  "QNTUSDT": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/QNT-USDT"
+  },
+  "QTUMUSDT": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/QTUM-USDT"
+  },
+  "QUIDUSDT": {
+    "exchange": "spot",
+    "base": "squid",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/QUID-USDT"
+  },
+  "QUSDT": {
+    "exchange": "spot",
+    "base": "quack-ai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/Q-USDT"
+  },
+  "RADUSDT": {
+    "exchange": "spot",
+    "base": "radicle",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RAD-USDT"
+  },
+  "RAINUSDT": {
+    "exchange": "spot",
+    "base": "rain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RAIN-USDT"
+  },
+  "RAREUSDT": {
+    "exchange": "spot",
+    "base": "superrare",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RARE-USDT"
+  },
+  "RATSUSDT": {
+    "exchange": "spot",
+    "base": "rats",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RATS-USDT"
+  },
+  "RAVEUSDT": {
+    "exchange": "spot",
+    "base": "ravedao",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RAVE-USDT"
+  },
+  "RAYUSDT": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RAY-USDT"
+  },
+  "RECALLUSDT": {
+    "exchange": "spot",
+    "base": "recall",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RECALL-USDT"
+  },
+  "REDUSDT": {
+    "exchange": "spot",
+    "base": "redstone",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RED-USDT"
+  },
+  "RENDERUSDC": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/RENDER-USDC"
+  },
+  "RENDERUSDT": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RENDER-USDT"
+  },
+  "REPPOUSDT": {
+    "exchange": "spot",
+    "base": "reppo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/REPPO-USDT"
+  },
+  "REQUSDT": {
+    "exchange": "spot",
+    "base": "request",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/REQ-USDT"
+  },
+  "RESOLVUSDT": {
+    "exchange": "spot",
+    "base": "resolv",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RESOLV-USDT"
+  },
+  "REUSDT": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RE-USDT"
+  },
+  "REZUSDT": {
+    "exchange": "spot",
+    "base": "renzo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/REZ-USDT"
+  },
+  "RIVERUSDT": {
+    "exchange": "spot",
+    "base": "river",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RIVER-USDT"
+  },
+  "RIZUSDT": {
+    "exchange": "spot",
+    "base": "rivalz-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RIZ-USDT"
+  },
+  "RLCUSDT": {
+    "exchange": "spot",
+    "base": "iexec-rlc",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RLC-USDT"
+  },
+  "RLSUSDT": {
+    "exchange": "spot",
+    "base": "rayls",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RLS-USDT"
+  },
+  "RNBWUSDT": {
+    "exchange": "spot",
+    "base": "rainbow",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RNBW-USDT"
+  },
+  "ROBOUSDT": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ROBO-USDT"
+  },
+  "ROLLUSDT": {
+    "exchange": "spot",
+    "base": "rollx",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ROLL-USDT"
+  },
+  "ROSEUSDT": {
+    "exchange": "spot",
+    "base": "oasis-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ROSE-USDT"
+  },
+  "RPLUSDT": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RPL-USDT"
+  },
+  "RSCUSDT": {
+    "exchange": "spot",
+    "base": "researchcoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RSC-USDT"
+  },
+  "RSRUSDT": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RSR-USDT"
+  },
+  "RUNEUSDC": {
+    "exchange": "spot",
+    "base": "thorchain",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/RUNE-USDC"
+  },
+  "RUNEUSDT": {
+    "exchange": "spot",
+    "base": "thorchain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RUNE-USDT"
+  },
+  "RVNUSDT": {
+    "exchange": "spot",
+    "base": "ravencoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RVN-USDT"
+  },
+  "SAFEUSDT": {
+    "exchange": "spot",
+    "base": "safe",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SAFE-USDT"
+  },
+  "SAGAUSDC": {
+    "exchange": "spot",
+    "base": "saga",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/SAGA-USDC"
+  },
+  "SAGAUSDT": {
+    "exchange": "spot",
+    "base": "saga",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SAGA-USDT"
+  },
+  "SAHARAUSDT": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SAHARA-USDT"
+  },
+  "SAMOUSDT": {
+    "exchange": "spot",
+    "base": "samoyedcoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SAMO-USDT"
+  },
+  "SAPIENUSDT": {
+    "exchange": "spot",
+    "base": "sapien",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SAPIEN-USDT"
+  },
+  "SAPLINGUSDT": {
+    "exchange": "spot",
+    "base": "sapling",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SAPLING-USDT"
+  },
+  "SCRTUSDT": {
+    "exchange": "spot",
+    "base": "secret-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SCRT-USDT"
+  },
+  "SCUSDT": {
+    "exchange": "spot",
+    "base": "siacoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SC-USDT"
+  },
+  "SEIUSDC": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/SEI-USDC"
+  },
+  "SEIUSDT": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SEI-USDT"
+  },
+  "SENTUSDT": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SENT-USDT"
+  },
+  "SFPUSDC": {
+    "exchange": "spot",
+    "base": "safepal",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/SFP-USDC"
+  },
+  "SFPUSDT": {
+    "exchange": "spot",
+    "base": "safepal",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SFP-USDT"
+  },
+  "SHAREUSDT": {
+    "exchange": "spot",
+    "base": "sharex",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SHARE-USDT"
+  },
+  "SHIBUSDC": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/SHIB-USDC"
+  },
+  "SHIBUSDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SHIB-USDT"
+  },
+  "SIGNUSDT": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SIGN-USDT"
+  },
+  "SKRUSDT": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SKR-USDT"
+  },
+  "SKYUSDT": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SKY-USDT"
+  },
+  "SLPUSDT": {
+    "exchange": "spot",
+    "base": "smooth-love-potion",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SLP-USDT"
+  },
+  "SLXUSDT": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SLX-USDT"
+  },
+  "SNXUSDT": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SNX-USDT"
+  },
+  "SOLUSDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/SOL-USDC"
+  },
+  "SOLUSDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SOL-USDT"
+  },
+  "SOLVUSDT": {
+    "exchange": "spot",
+    "base": "solv-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SOLV-USDT"
+  },
+  "SOMIUSDT": {
+    "exchange": "spot",
+    "base": "somnia",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SOMI-USDT"
+  },
+  "SONICUSDT": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SONIC-USDT"
+  },
+  "SOONUSDT": {
+    "exchange": "spot",
+    "base": "soon",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SOON-USDT"
+  },
+  "SOPHUSDT": {
+    "exchange": "spot",
+    "base": "sophon",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SOPH-USDT"
+  },
+  "SPACEUSDT": {
+    "exchange": "spot",
+    "base": "spacecoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SPACE-USDT"
+  },
+  "SPELLUSDC": {
+    "exchange": "spot",
+    "base": "spell-token",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/SPELL-USDC"
+  },
+  "SPELLUSDT": {
+    "exchange": "spot",
+    "base": "spell-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SPELL-USDT"
+  },
+  "SPKUSDT": {
+    "exchange": "spot",
+    "base": "spark",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SPK-USDT"
+  },
+  "SPXUSDT": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SPX-USDT"
+  },
+  "SQDUSDT": {
+    "exchange": "spot",
+    "base": "subsquid",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SQD-USDT"
+  },
+  "SSVUSDT": {
+    "exchange": "spot",
+    "base": "ssv-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SSV-USDT"
+  },
+  "STABLEUSDT": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STABLE-USDT"
+  },
+  "STAMPUSDT": {
+    "exchange": "spot",
+    "base": "zcash-shielded-assets",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STAMP-USDT"
+  },
+  "STARUSDT": {
+    "exchange": "spot",
+    "base": "starpower",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STAR-USDT"
+  },
+  "STBLUSDT": {
+    "exchange": "spot",
+    "base": "stbl",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STBL-USDT"
+  },
+  "STEEMUSDT": {
+    "exchange": "spot",
+    "base": "steem",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STEEM-USDT"
+  },
+  "STOCKERUSDT": {
+    "exchange": "spot",
+    "base": "stockereum-fun",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STOCKER-USDT"
+  },
+  "STONKUSDT": {
+    "exchange": "spot",
+    "base": "stonk",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STONK-USDT"
+  },
+  "STORJUSDT": {
+    "exchange": "spot",
+    "base": "storj",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STORJ-USDT"
+  },
+  "STOUSDT": {
+    "exchange": "spot",
+    "base": "stakestone",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STO-USDT"
+  },
+  "STRAXUSDT": {
+    "exchange": "spot",
+    "base": "xertra",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STRAX-USDT"
+  },
+  "STRKUSDC": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/STRK-USDC"
+  },
+  "STRKUSDT": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STRK-USDT"
+  },
+  "STXUSDC": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/STX-USDC"
+  },
+  "STXUSDT": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/STX-USDT"
+  },
+  "SUIUSDC": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/SUI-USDC"
+  },
+  "SUIUSDT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SUI-USDT"
+  },
+  "SUNDOGUSDT": {
+    "exchange": "spot",
+    "base": "sundog",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SUNDOG-USDT"
+  },
+  "SUNUSDT": {
+    "exchange": "spot",
+    "base": "sun-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SUN-USDT"
+  },
+  "SUPERUSDT": {
+    "exchange": "spot",
+    "base": "superfarm",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SUPER-USDT"
+  },
+  "SUPRAUSDT": {
+    "exchange": "spot",
+    "base": "supra",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SUPRA-USDT"
+  },
+  "SUSDC": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/S-USDC"
+  },
+  "SUSDT": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/S-USDT"
+  },
+  "SUSHIUSDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SUSHI-USDT"
+  },
+  "SWELLUSDT": {
+    "exchange": "spot",
+    "base": "swell",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SWELL-USDT"
+  },
+  "SXTUSDT": {
+    "exchange": "spot",
+    "base": "space-and-time",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SXT-USDT"
+  },
+  "SYNUSDT": {
+    "exchange": "spot",
+    "base": "synapse",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SYN-USDT"
+  },
+  "TACUSDT": {
+    "exchange": "spot",
+    "base": "tac",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TAC-USDT"
+  },
+  "TAIKOUSDT": {
+    "exchange": "spot",
+    "base": "taiko",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TAIKO-USDT"
+  },
+  "TAIUSDT": {
+    "exchange": "spot",
+    "base": "tars-ai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TAI-USDT"
+  },
+  "TAKEUSDT": {
+    "exchange": "spot",
+    "base": "overtake",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TAKE-USDT"
+  },
+  "TAOUSDT": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TAO-USDT"
+  },
+  "TAUSDT": {
+    "exchange": "spot",
+    "base": "trusta-ai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TA-USDT"
+  },
+  "TFUELUSDT": {
+    "exchange": "spot",
+    "base": "theta-fuel",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TFUEL-USDT"
+  },
+  "THETAUSDT": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/THETA-USDT"
+  },
+  "THEUSDT": {
+    "exchange": "spot",
+    "base": "thena",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/THE-USDT"
+  },
+  "TIAUSDC": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/TIA-USDC"
+  },
+  "TIAUSDT": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TIA-USDT"
+  },
+  "TLMUSDT": {
+    "exchange": "spot",
+    "base": "alien-worlds",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TLM-USDT"
+  },
+  "TNSRUSDT": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TNSR-USDT"
+  },
+  "TORCHUSDT": {
+    "exchange": "spot",
+    "base": "torch",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TORCH-USDT"
+  },
+  "TOSHIUSDT": {
+    "exchange": "spot",
+    "base": "toshi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TOSHI-USDT"
+  },
+  "TOWNSUSDT": {
+    "exchange": "spot",
+    "base": "towns",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TOWNS-USDT"
+  },
+  "TRACUSDT": {
+    "exchange": "spot",
+    "base": "origintrail",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TRAC-USDT"
+  },
+  "TRADOORUSDT": {
+    "exchange": "spot",
+    "base": "tradoor",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TRADOOR-USDT"
+  },
+  "TRBUSDT": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TRB-USDT"
+  },
+  "TREEUSDT": {
+    "exchange": "spot",
+    "base": "treehouse",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TREE-USDT"
+  },
+  "TRIAUSDT": {
+    "exchange": "spot",
+    "base": "tria",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TRIA-USDT"
+  },
+  "TRUMPUSDT": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TRUMP-USDT"
+  },
+  "TRUTHUSDT": {
+    "exchange": "spot",
+    "base": "swarm-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TRUTH-USDT"
+  },
+  "TRXUSDC": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/TRX-USDC"
+  },
+  "TRXUSDT": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TRX-USDT"
+  },
+  "TSLAXUSDT": {
+    "exchange": "spot",
+    "base": "tesla-xstock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TSLAX-USDT"
+  },
+  "TURTLEUSDT": {
+    "exchange": "spot",
+    "base": "turtle",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TURTLE-USDT"
+  },
+  "TUSDT": {
+    "exchange": "spot",
+    "base": "threshold-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/T-USDT"
+  },
+  "TUSDUSDT": {
+    "exchange": "spot",
+    "base": "true-usd",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TUSD-USDT"
+  },
+  "TUTUSDT": {
+    "exchange": "spot",
+    "base": "tutorial",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TUT-USDT"
+  },
+  "TWTUSDT": {
+    "exchange": "spot",
+    "base": "trust-wallet-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TWT-USDT"
+  },
+  "UAIUSDT": {
+    "exchange": "spot",
+    "base": "unifai-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/UAI-USDT"
+  },
+  "UDSUSDT": {
+    "exchange": "spot",
+    "base": "undeads-games",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/UDS-USDT"
+  },
+  "ULTIMAUSDT": {
+    "exchange": "spot",
+    "base": "ultima",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ULTIMA-USDT"
+  },
+  "UMAUSDT": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/UMA-USDT"
+  },
+  "UNIUSDC": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/UNI-USDC"
+  },
+  "UNIUSDT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/UNI-USDT"
+  },
+  "USATUSDT": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/USAT-USDT"
+  },
+  "USD1USDT": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/USD1-USDT"
+  },
+  "USDCUSDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/USDC-USDT"
+  },
+  "USDDUSDT": {
+    "exchange": "spot",
+    "base": "decentralized-usd",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/USDD-USDT"
+  },
+  "USDGOUSDT": {
+    "exchange": "spot",
+    "base": "usdgo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/USDGO-USDT"
+  },
+  "USDQUSDC": {
+    "exchange": "spot",
+    "base": "quantoz-usdq",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/USDQ-USDC"
+  },
+  "USDQUSDT": {
+    "exchange": "spot",
+    "base": "quantoz-usdq",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/USDQ-USDT"
+  },
+  "USDSUSDT": {
+    "exchange": "spot",
+    "base": "sky-usd",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/USDS-USDT"
+  },
+  "USDUCUSDT": {
+    "exchange": "spot",
+    "base": "unstable-coin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/USDUC-USDT"
+  },
+  "USELESSUSDT": {
+    "exchange": "spot",
+    "base": "useless-coin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/USELESS-USDT"
+  },
+  "USTCUSDT": {
+    "exchange": "spot",
+    "base": "terrausd",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/USTC-USDT"
+  },
+  "USUALUSDT": {
+    "exchange": "spot",
+    "base": "usual",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/USUAL-USDT"
+  },
+  "USUSDT": {
+    "exchange": "spot",
+    "base": "talus",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/US-USDT"
+  },
+  "VANAUSDT": {
+    "exchange": "spot",
+    "base": "vana",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/VANA-USDT"
+  },
+  "VELOUSDT": {
+    "exchange": "spot",
+    "base": "velo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/VELO-USDT"
+  },
+  "VELVETUSDT": {
+    "exchange": "spot",
+    "base": "velvet",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/VELVET-USDT"
+  },
+  "VETUSDT": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/VET-USDT"
+  },
+  "VIRTUALUSDT": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/VIRTUAL-USDT"
+  },
+  "VOOIUSDT": {
+    "exchange": "spot",
+    "base": "vooi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/VOOI-USDT"
+  },
+  "VRAUSDT": {
+    "exchange": "spot",
+    "base": "verasity",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/VRA-USDT"
+  },
+  "VSNUSDT": {
+    "exchange": "spot",
+    "base": "vision",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/VSN-USDT"
+  },
+  "VTHOUSDT": {
+    "exchange": "spot",
+    "base": "vethor-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/VTHO-USDT"
+  },
+  "VVVUSDT": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/VVV-USDT"
+  },
+  "WALUSDT": {
+    "exchange": "spot",
+    "base": "walrus",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WAL-USDT"
+  },
+  "WCTUSDT": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WCT-USDT"
+  },
+  "WENUSDT": {
+    "exchange": "spot",
+    "base": "wen",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WEN-USDT"
+  },
+  "WETUSDT": {
+    "exchange": "spot",
+    "base": "humidifi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WET-USDT"
+  },
+  "WIFUSDC": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/WIF-USDC"
+  },
+  "WIFUSDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WIF-USDT"
+  },
+  "WINUSDT": {
+    "exchange": "spot",
+    "base": "winklink",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WIN-USDT"
+  },
+  "WLDUSDC": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/WLD-USDC"
+  },
+  "WLDUSDT": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WLD-USDT"
+  },
+  "WLFIUSDT": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WLFI-USDT"
+  },
+  "WODUSDT": {
+    "exchange": "spot",
+    "base": "world-of-dypians",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WOD-USDT"
+  },
+  "WOOUSDT": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WOO-USDT"
+  },
+  "WUSDT": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/W-USDT"
+  },
+  "XAIUSDT": {
+    "exchange": "spot",
+    "base": "xai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XAI-USDT"
+  },
+  "XAUUSDT": {
+    "exchange": "spot",
+    "base": "gold",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XAU-USDT"
+  },
+  "XDPUSDT": {
+    "exchange": "spot",
+    "base": "doppler-finance",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XDP-USDT"
+  },
+  "XECUSDT": {
+    "exchange": "spot",
+    "base": "ecash",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XEC-USDT"
+  },
+  "XLMUSDT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XLM-USDT"
+  },
+  "XMNUSDT": {
+    "exchange": "spot",
+    "base": "xmoney",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XMN-USDT"
+  },
+  "XPINUSDT": {
+    "exchange": "spot",
+    "base": "xpin-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XPIN-USDT"
+  },
+  "XPLUSDT": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XPL-USDT"
+  },
+  "XRPUSDC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/XRP-USDC"
+  },
+  "XRPUSDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XRP-USDT"
+  },
+  "XTERUSDT": {
+    "exchange": "spot",
+    "base": "xterio",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XTER-USDT"
+  },
+  "XTZUSDT": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XTZ-USDT"
+  },
+  "YBUSDT": {
+    "exchange": "spot",
+    "base": "yield-basis",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/YB-USDT"
+  },
+  "YFIUSDT": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/YFI-USDT"
+  },
+  "YGGUSDC": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/YGG-USDC"
+  },
+  "YGGUSDT": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/YGG-USDT"
+  },
+  "ZAMAUSDT": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZAMA-USDT"
+  },
+  "ZBCNUSDT": {
+    "exchange": "spot",
+    "base": "zebec-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZBCN-USDT"
+  },
+  "ZBTUSDT": {
+    "exchange": "spot",
+    "base": "zerobase",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZBT-USDT"
+  },
+  "ZCUSDT": {
+    "exchange": "spot",
+    "base": "zip-coin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZC-USDT"
+  },
+  "ZECUSDT": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZEC-USDT"
+  },
+  "ZENUSDT": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZEN-USDT"
+  },
+  "ZESTUSDT": {
+    "exchange": "spot",
+    "base": "zest-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZEST-USDT"
+  },
+  "ZETAUSDT": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZETA-USDT"
+  },
+  "ZILUSDT": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZIL-USDT"
+  },
+  "ZKCUSDT": {
+    "exchange": "spot",
+    "base": "boundless",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZKC-USDT"
+  },
+  "ZKJUSDT": {
+    "exchange": "spot",
+    "base": "polyhedra",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZKJ-USDT"
+  },
+  "ZKPUSDT": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZKP-USDT"
+  },
+  "ZKUSDC": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ZK-USDC"
+  },
+  "ZKUSDT": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZK-USDT"
+  },
+  "ZORAUSDT": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZORA-USDT"
+  },
+  "ZROUSDC": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ZRO-USDC"
+  },
+  "ZROUSDT": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZRO-USDT"
+  },
+  "ZRXUSDC": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/ZRX-USDC"
+  },
+  "ZRXUSDT": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZRX-USDT"
+  },
+  "ZZZUSDT": {
+    "exchange": "spot",
+    "base": "zzz",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZZZ-USDT"
+  },
+  "旺柴USDT": {
+    "exchange": "spot",
+    "base": "wangchai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/旺柴-USDT"
+  }
+}

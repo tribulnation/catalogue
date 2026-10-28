@@ -169,6 +169,12 @@ SPOT_RULES: dict[str, Rule] = {
   'bybit': lambda id, inst, sym: 'https://www.bybit.com/en/trade/spot/{}/{}'.format(*sym.split('bybit', id, inst)),
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/spot/{id}',
   'crypto-com': lambda id, inst, sym: f'https://crypto.com/exchange/trade/{id}',
+  'binanceus': lambda id, inst, sym: 'https://www.binance.us/spot-trade/{}_{}'.format(
+    *(s.lower() for s in sym.split('binanceus', id, inst))
+  ),
+  'bitvavo': lambda id, inst, sym: f'https://account.bitvavo.com/markets/{id}',
+  'gemini': lambda id, inst, sym: f'https://exchange.gemini.com/trade/{id.upper()}',
+  'gate': lambda id, inst, sym: f'https://www.gate.com/trade/{id}',
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{_HYPERLIQUID_SPOT_INDEX.sub("", id)}',
   'kraken': lambda id, inst, sym: 'https://pro.kraken.com/app/trade/{}-{}'.format(
     *(_kraken_symbol(s) for s in sym.split('kraken', id, inst))
@@ -183,6 +189,11 @@ SPOT_RULES: dict[str, Rule] = {
   'phemex': lambda id, inst, sym: f'https://phemex.com/spot/trade/{id.removeprefix("s")}',
   'whitebit': lambda id, inst, sym: f'https://whitebit.com/trade/{id}',
   'woox': woox_spot_url,
+  'upbit': lambda id, inst, sym: f'https://upbit.com/exchange?code=CRIX.UPBIT.{id}',
+  'bitunix': lambda id, inst, sym: f'https://www.bitunix.com/spot-trade/{id.upper()}',
+  'toobit': lambda id, inst, sym: 'https://www.toobit.com/spot/{}_{}'.format(*sym.split('toobit', id, inst)),
+  'weex': lambda id, inst, sym: 'https://www.weex.com/spot/{}-{}'.format(*sym.split('weex', id, inst)),
+  'xt': lambda id, inst, sym: f'https://www.xt.com/en/trade/{id}',
 }
 
 PERPETUAL_RULES: dict[str, Rule] = {
@@ -198,6 +209,7 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'crypto-com': lambda id, inst, sym: f'https://crypto.com/exchange/perpetual/{id}',
   'dydx': lambda id, inst, sym: f'https://dydx.trade/trade/{id}',
   'extended': lambda id, inst, sym: f'https://app.extended.exchange/trade/{id}',
+  'gate': lambda id, inst, sym: f'https://www.gate.com/futures/USDT/{id}',
   'grvt': lambda id, inst, sym: 'https://grvt.io/exchange/perpetual/' + id.removesuffix('_Perp').replace('_', '-'),
   'htx': lambda id, inst, sym: f'https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code={id}&contract_type=swap',
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{id}',
@@ -210,6 +222,10 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'phemex': lambda id, inst, sym: f'https://phemex.com/futures/trade/{id}',
   'whitebit': lambda id, inst, sym: f'https://whitebit.com/trade/{id}',
   'woox': woox_perpetual_url,
+  'bitunix': lambda id, inst, sym: f'https://www.bitunix.com/contract-trade/{id}',
+  'toobit': lambda id, inst, sym: f'https://www.toobit.com/futures/{id}',
+  'weex': lambda id, inst, sym: 'https://www.weex.com/futures/{}-{}'.format(*sym.split('weex', id, inst)),
+  'xt': lambda id, inst, sym: f'https://www.xt.com/en/futures/trade/{id}',
 }
 
 RULES = {'spot': SPOT_RULES, 'perpetual': PERPETUAL_RULES}
