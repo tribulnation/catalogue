@@ -1,0 +1,20 @@
+{
+  "id": "mastercard-ondo-tokenized-stock",
+  "display_name": "Mastercard (Ondo Tokenized)",
+  "symbol": "MAon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "MAon is the Ondo tokenized stock for Mastercard, issued by Ondo Global Markets (BVI) Limited through the Ondo Stocks platform and offered to eligible non-US investors. It is fully backed by MA shares and is a total-return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share. It is an ERC-20 on Ethereum at 0xA29dC2102dfc2a0A4A5dCb84Af984315567c9858, with deployments on BNB Chain and Solana. Holders have a claim on the issuer, not registered ownership or shareholder rights."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/maon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "mastercard-ondo-tokenized-stock",
+    "coinmarketcap": "38054"
+  }
+}

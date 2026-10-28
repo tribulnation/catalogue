@@ -1,0 +1,23 @@
+{
+  "id": "nasdaq-xstock",
+  "display_name": "Nasdaq xStock",
+  "symbol": "QQQx",
+  "category": "rwa",
+  "about": {
+    "en": "Nasdaq xStock (QQQx) is a tokenized tracker certificate on Invesco QQQ Trust, the ETF tracking the Nasdaq-100, issued by Backed under the xStocks brand. Each token is backed 1:1 by QQQ shares held with qualified custodians and tracks the ETF price on-chain on Solana (Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ), Ethereum, BNB Chain, Arbitrum and other networks. xStocks are offered to non-US investors."
+  },
+  "tags": [
+    "ETF"
+  ],
+  "urls": {
+    "Website": "https://xstocks.com/",
+    "Product page": "https://assets.backed.fi/products/nasdaq-xstock"
+  },
+  "external": {
+    "coingecko": "nasdaq-xstock",
+    "coinmarketcap": "37057"
+  },
+  "pegged_to": {
+    "asset": "invesco-qqq"
+  }
+}

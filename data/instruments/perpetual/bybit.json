@@ -110,6 +110,22 @@
     "multiplier": 1000,
     "url": "https://www.bybit.com/trade/usdt/1000PEPEUSDT"
   },
+  "1000RATSUSDT": {
+    "exchange": "perp",
+    "base": "rats",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bybit.com/trade/usdt/1000RATSUSDT"
+  },
+  "1000TAGUSDT": {
+    "exchange": "perp",
+    "base": "tagger",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bybit.com/trade/usdt/1000TAGUSDT"
+  },
   "1000TOSHIUSDT": {
     "exchange": "perp",
     "base": "toshi",
@@ -147,6 +163,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/2ZUSDT"
+  },
+  "4STOCKUSDT": {
+    "exchange": "perp",
+    "base": "4stock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/4STOCKUSDT"
+  },
+  "AAOIUSDT": {
+    "exchange": "perp",
+    "base": "applied-optoelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AAOIUSDT"
   },
   "AAPLUSDT": {
     "exchange": "perp",
@@ -190,12 +220,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ACTUSDT"
   },
+  "ACUUSDT": {
+    "exchange": "perp",
+    "base": "acurast",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ACUUSDT"
+  },
   "ADAUSDT": {
     "exchange": "perp",
     "base": "cardano",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ADAUSDT"
+  },
+  "ADBEUSDT": {
+    "exchange": "perp",
+    "base": "adobe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ADBEUSDT"
   },
   "AEROUSDT": {
     "exchange": "perp",
@@ -232,6 +276,27 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/AGLDUSDT"
   },
+  "AGPUUSDT": {
+    "exchange": "perp",
+    "base": "axe-compute",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AGPUUSDT"
+  },
+  "AIGENSYNUSDT": {
+    "exchange": "perp",
+    "base": "gensyn",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AIGENSYNUSDT"
+  },
+  "AIOUSDT": {
+    "exchange": "perp",
+    "base": "olaxbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AIOUSDT"
+  },
   "AIOZUSDT": {
     "exchange": "perp",
     "base": "aioz-network",
@@ -246,12 +311,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/AIXBTUSDT"
   },
+  "AKEUSDT": {
+    "exchange": "perp",
+    "base": "akedo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AKEUSDT"
+  },
   "AKTUSDT": {
     "exchange": "perp",
     "base": "akash-network",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/AKTUSDT"
+  },
+  "ALABUSDT": {
+    "exchange": "perp",
+    "base": "astera-labs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ALABUSDT"
   },
   "ALCHUSDT": {
     "exchange": "perp",
@@ -267,12 +346,61 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ALGOUSDT"
   },
+  "ALICEUSDT": {
+    "exchange": "perp",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ALICEUSDT"
+  },
+  "ALLOUSDT": {
+    "exchange": "perp",
+    "base": "allora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ALLOUSDT"
+  },
+  "ALPINEUSDT": {
+    "exchange": "perp",
+    "base": "alpine-f1-team-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ALPINEUSDT"
+  },
   "ALTUSDT": {
     "exchange": "perp",
     "base": "altlayer",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ALTUSDT"
+  },
+  "AMATUSDT": {
+    "exchange": "perp",
+    "base": "applied-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AMATUSDT"
+  },
+  "AMCUSDT": {
+    "exchange": "perp",
+    "base": "amc-entertainment",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AMCUSDT"
+  },
+  "AMDSTOCKUSDT": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AMDSTOCKUSDT"
+  },
+  "AMGNUSDT": {
+    "exchange": "perp",
+    "base": "amgen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AMGNUSDT"
   },
   "AMZNUSDT": {
     "exchange": "perp",
@@ -316,6 +444,27 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/APEXUSDT"
   },
+  "API3USDT": {
+    "exchange": "perp",
+    "base": "api3",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/API3USDT"
+  },
+  "APPSTOCKUSDT": {
+    "exchange": "perp",
+    "base": "applovin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/APPSTOCKUSDT"
+  },
+  "APRUSDT": {
+    "exchange": "perp",
+    "base": "apriori",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/APRUSDT"
+  },
   "APTUSDT": {
     "exchange": "perp",
     "base": "aptos",
@@ -337,12 +486,47 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ARBUSDT"
   },
+  "ARCUSDT": {
+    "exchange": "perp",
+    "base": "ai-rig-complex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ARCUSDT"
+  },
+  "ARIAUSDT": {
+    "exchange": "perp",
+    "base": "aria-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ARIAUSDT"
+  },
   "ARKMUSDT": {
     "exchange": "perp",
     "base": "arkham",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ARKMUSDT"
+  },
+  "ARKUSDT": {
+    "exchange": "perp",
+    "base": "ark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ARKUSDT"
+  },
+  "ARMUSDT": {
+    "exchange": "perp",
+    "base": "arm-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ARMUSDT"
+  },
+  "ARPAUSDT": {
+    "exchange": "perp",
+    "base": "arpa-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ARPAUSDT"
   },
   "ARUSDT": {
     "exchange": "perp",
@@ -357,6 +541,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ARXUSDT"
+  },
+  "ASMLUSDT": {
+    "exchange": "perp",
+    "base": "asml-holding",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ASMLUSDT"
   },
   "ASTERPERP": {
     "exchange": "perp",
@@ -379,6 +570,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ASTRUSDT"
   },
+  "ASTSUSDT": {
+    "exchange": "perp",
+    "base": "ast-spacemobile",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ASTSUSDT"
+  },
   "ATHUSDT": {
     "exchange": "perp",
     "base": "aethir",
@@ -393,12 +591,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ATOMUSDT"
   },
+  "AUCTIONUSDT": {
+    "exchange": "perp",
+    "base": "auction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AUCTIONUSDT"
+  },
   "AUSDT": {
     "exchange": "perp",
     "base": "vaulta",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/AUSDT"
+  },
+  "AVAAIUSDT": {
+    "exchange": "perp",
+    "base": "ava-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AVAAIUSDT"
   },
   "AVAUSDT": {
     "exchange": "perp",
@@ -414,6 +626,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/AVAXUSDT"
   },
+  "AVGOUSDT": {
+    "exchange": "perp",
+    "base": "broadcom",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AVGOUSDT"
+  },
   "AVNTPERP": {
     "exchange": "perp",
     "base": "avantis",
@@ -427,6 +646,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/AVNTUSDT"
+  },
+  "AWEUSDT": {
+    "exchange": "perp",
+    "base": "stp-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AWEUSDT"
+  },
+  "AXISUSDT": {
+    "exchange": "perp",
+    "base": "axis-robotics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AXISUSDT"
   },
   "AXLUSDT": {
     "exchange": "perp",
@@ -442,6 +675,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/AXSUSDT"
   },
+  "AXTIUSDT": {
+    "exchange": "perp",
+    "base": "axt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/AXTIUSDT"
+  },
   "AZTECUSDT": {
     "exchange": "perp",
     "base": "aztec",
@@ -449,12 +689,61 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/AZTECUSDT"
   },
+  "B2USDT": {
+    "exchange": "perp",
+    "base": "bsquared-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/B2USDT"
+  },
   "B3USDT": {
     "exchange": "perp",
     "base": "b3",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/B3USDT"
+  },
+  "BABAUSDT": {
+    "exchange": "perp",
+    "base": "alibaba-group-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BABAUSDT"
+  },
+  "BABYUSDT": {
+    "exchange": "perp",
+    "base": "babylon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BABYUSDT"
+  },
+  "BACUSDT": {
+    "exchange": "perp",
+    "base": "bank-of-america",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BACUSDT"
+  },
+  "BANANAS31USDT": {
+    "exchange": "perp",
+    "base": "banana-for-scale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BANANAS31USDT"
+  },
+  "BANANAUSDT": {
+    "exchange": "perp",
+    "base": "banana-gun",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BANANAUSDT"
+  },
+  "BANDUSDT": {
+    "exchange": "perp",
+    "base": "band-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BANDUSDT"
   },
   "BANUSDT": {
     "exchange": "perp",
@@ -491,6 +780,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/BBUSDT"
   },
+  "BBXUSDT": {
+    "exchange": "perp",
+    "base": "blackberry",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BBXUSDT"
+  },
   "BCHPERP": {
     "exchange": "perp",
     "base": "bitcoin-cash",
@@ -504,6 +800,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/BCHUSDT"
+  },
+  "BEATUSDT": {
+    "exchange": "perp",
+    "base": "audiera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BEATUSDT"
   },
   "BELUSDT": {
     "exchange": "perp",
@@ -519,12 +822,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/BERAUSDT"
   },
+  "BEUSDT": {
+    "exchange": "perp",
+    "base": "bloom-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BEUSDT"
+  },
   "BICOUSDT": {
     "exchange": "perp",
     "base": "biconomy",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/BICOUSDT"
+  },
+  "BIGTIMEUSDT": {
+    "exchange": "perp",
+    "base": "big-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BIGTIMEUSDT"
   },
   "BILLUSDT": {
     "exchange": "perp",
@@ -561,12 +878,33 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/BLENDUSDT"
   },
+  "BLESSUSDT": {
+    "exchange": "perp",
+    "base": "bless-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BLESSUSDT"
+  },
+  "BLUAIUSDT": {
+    "exchange": "perp",
+    "base": "bluwhale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BLUAIUSDT"
+  },
   "BLURUSDT": {
     "exchange": "perp",
     "base": "blur",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/BLURUSDT"
+  },
+  "BMNRUSDT": {
+    "exchange": "perp",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BMNRUSDT"
   },
   "BMTUSDT": {
     "exchange": "perp",
@@ -589,6 +927,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/BNBUSDT"
   },
+  "BNCUSDT": {
+    "exchange": "perp",
+    "base": "bnb-standard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BNCUSDT"
+  },
   "BNTUSDT": {
     "exchange": "perp",
     "base": "bancor",
@@ -610,6 +955,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/BOMEUSDT"
   },
+  "BOTUSDT": {
+    "exchange": "perp",
+    "base": "robostrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BOTUSDT"
+  },
   "BRETTUSDT": {
     "exchange": "perp",
     "base": "brett",
@@ -623,6 +975,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/BREVUSDT"
+  },
+  "BRKBUSDT": {
+    "exchange": "perp",
+    "base": "berkshire-hathaway-class-b",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BRKBUSDT"
   },
   "BRUSDT": {
     "exchange": "perp",
@@ -659,6 +1018,41 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/BTCUSDT"
   },
+  "BTRUSDT": {
+    "exchange": "perp",
+    "base": "bitlayer-bitvm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BTRUSDT"
+  },
+  "BTWUSDT": {
+    "exchange": "perp",
+    "base": "bitway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BTWUSDT"
+  },
+  "BUSDT": {
+    "exchange": "perp",
+    "base": "build-on",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BUSDT"
+  },
+  "BXUSDT": {
+    "exchange": "perp",
+    "base": "blackstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BXUSDT"
+  },
+  "BZUSDT": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/BZUSDT"
+  },
   "C98USDT": {
     "exchange": "perp",
     "base": "coin98",
@@ -687,12 +1081,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CARVUSDT"
   },
+  "CASHCATUSDT": {
+    "exchange": "perp",
+    "base": "cash-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CASHCATUSDT"
+  },
   "CATIUSDT": {
     "exchange": "perp",
     "base": "catizen",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CATIUSDT"
+  },
+  "CBRSUSDT": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CBRSUSDT"
   },
   "CCUSDT": {
     "exchange": "perp",
@@ -707,6 +1115,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CELOUSDT"
+  },
+  "CETUSUSDT": {
+    "exchange": "perp",
+    "base": "cetus-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CETUSUSDT"
   },
   "CFGUSDT": {
     "exchange": "perp",
@@ -743,12 +1158,61 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CHIPUSDT"
   },
+  "CHRUSDT": {
+    "exchange": "perp",
+    "base": "chromaway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CHRUSDT"
+  },
   "CHZUSDT": {
     "exchange": "perp",
     "base": "chiliz",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CHZUSDT"
+  },
+  "CKBUSDT": {
+    "exchange": "perp",
+    "base": "nervos-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CKBUSDT"
+  },
+  "CLANKERUSDT": {
+    "exchange": "perp",
+    "base": "tokenbot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CLANKERUSDT"
+  },
+  "CLOUSDT": {
+    "exchange": "perp",
+    "base": "yei-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CLOUSDT"
+  },
+  "CLSKUSDT": {
+    "exchange": "perp",
+    "base": "cleanspark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CLSKUSDT"
+  },
+  "CLUSDT": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CLUSDT"
+  },
+  "COHRUSDT": {
+    "exchange": "perp",
+    "base": "coherent-corp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/COHRUSDT"
   },
   "COINUSDT": {
     "exchange": "perp",
@@ -792,12 +1256,61 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CORZUSDT"
   },
+  "COSTUSDT": {
+    "exchange": "perp",
+    "base": "costco-wholesale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/COSTUSDT"
+  },
+  "COTIUSDT": {
+    "exchange": "perp",
+    "base": "coti",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/COTIUSDT"
+  },
   "COWUSDT": {
     "exchange": "perp",
     "base": "cow-protocol",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/COWUSDT"
+  },
+  "CPUSDT": {
+    "exchange": "perp",
+    "base": "cluster-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CPUSDT"
+  },
+  "CRCLUSDT": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CRCLUSDT"
+  },
+  "CRDOUSDT": {
+    "exchange": "perp",
+    "base": "credo-technology-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CRDOUSDT"
+  },
+  "CRMLUSDT": {
+    "exchange": "perp",
+    "base": "critical-metals",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CRMLUSDT"
+  },
+  "CRMUSDT": {
+    "exchange": "perp",
+    "base": "salesforce",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CRMUSDT"
   },
   "CROUSDT": {
     "exchange": "perp",
@@ -820,12 +1333,68 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CRVUSDT"
   },
+  "CRWDUSDT": {
+    "exchange": "perp",
+    "base": "crowdstrike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CRWDUSDT"
+  },
+  "CRWVUSDT": {
+    "exchange": "perp",
+    "base": "coreweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CRWVUSDT"
+  },
+  "CSCOUSDT": {
+    "exchange": "perp",
+    "base": "cisco",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CSCOUSDT"
+  },
+  "CSTOCKUSDT": {
+    "exchange": "perp",
+    "base": "citigroup",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CSTOCKUSDT"
+  },
   "CTCUSDT": {
     "exchange": "perp",
     "base": "creditcoin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CTCUSDT"
+  },
+  "CTRUSDT": {
+    "exchange": "perp",
+    "base": "citrea",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CTRUSDT"
+  },
+  "CUSDT": {
+    "exchange": "perp",
+    "base": "chainbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CUSDT"
+  },
+  "CVCUSDT": {
+    "exchange": "perp",
+    "base": "civic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CVCUSDT"
+  },
+  "CVXSTOCKUSDT": {
+    "exchange": "perp",
+    "base": "chevron",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CVXSTOCKUSDT"
   },
   "CVXUSDT": {
     "exchange": "perp",
@@ -847,6 +1416,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/CYPHUSDT"
+  },
+  "CYSUSDT": {
+    "exchange": "perp",
+    "base": "cysic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/CYSUSDT"
   },
   "DASHUSDT": {
     "exchange": "perp",
@@ -876,12 +1452,40 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/DEEPUSDT"
   },
+  "DELLUSDT": {
+    "exchange": "perp",
+    "base": "dell-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/DELLUSDT"
+  },
   "DEXEUSDT": {
     "exchange": "perp",
     "base": "dexe",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/DEXEUSDT"
+  },
+  "DGAIUSDT": {
+    "exchange": "perp",
+    "base": "dgrid-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/DGAIUSDT"
+  },
+  "DIAUSDT": {
+    "exchange": "perp",
+    "base": "dia-data",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/DIAUSDT"
+  },
+  "DKNGUSDT": {
+    "exchange": "perp",
+    "base": "draftkings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/DKNGUSDT"
   },
   "DOGEPERP": {
     "exchange": "perp",
@@ -911,6 +1515,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/DOODUSDT"
   },
+  "DOSUSDT": {
+    "exchange": "perp",
+    "base": "dappos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/DOSUSDT"
+  },
   "DOTPERP": {
     "exchange": "perp",
     "base": "polkadot",
@@ -925,12 +1536,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/DOTUSDT"
   },
+  "DRAMUSDT": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/DRAMUSDT"
+  },
   "DRIFTUSDT": {
     "exchange": "perp",
     "base": "drift-protocol",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/DRIFTUSDT"
+  },
+  "DUSKUSDT": {
+    "exchange": "perp",
+    "base": "dusk-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/DUSKUSDT"
   },
   "DYDXUSDT": {
     "exchange": "perp",
@@ -946,12 +1571,33 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/DYMUSDT"
   },
+  "EBAYUSDT": {
+    "exchange": "perp",
+    "base": "ebay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/EBAYUSDT"
+  },
+  "EDENUSDT": {
+    "exchange": "perp",
+    "base": "openeden",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/EDENUSDT"
+  },
   "EDGEUSDT": {
     "exchange": "perp",
     "base": "edgex",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/EDGEUSDT"
+  },
+  "EDUUSDT": {
+    "exchange": "perp",
+    "base": "edu-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/EDUUSDT"
   },
   "EGLDUSDT": {
     "exchange": "perp",
@@ -1016,12 +1662,33 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ENSUSDT"
   },
+  "EPICUSDT": {
+    "exchange": "perp",
+    "base": "epic-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/EPICUSDT"
+  },
   "ERAUSDT": {
     "exchange": "perp",
     "base": "caldera",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ERAUSDT"
+  },
+  "ESPORTSUSDT": {
+    "exchange": "perp",
+    "base": "yooldo-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ESPORTSUSDT"
+  },
+  "ESPUSDT": {
+    "exchange": "perp",
+    "base": "espresso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ESPUSDT"
   },
   "ETCPERP": {
     "exchange": "perp",
@@ -1064,6 +1731,48 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ETHUSDT"
+  },
+  "EULUSDT": {
+    "exchange": "perp",
+    "base": "euler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/EULUSDT"
+  },
+  "EVAAUSDT": {
+    "exchange": "perp",
+    "base": "evaa-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/EVAAUSDT"
+  },
+  "EWJUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-japan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/EWJUSDT"
+  },
+  "EWTUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-taiwan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/EWTUSDT"
+  },
+  "EWYUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/EWYUSDT"
+  },
+  "EWZUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-brazil-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/EWZUSDT"
   },
   "FARTCOINPERP": {
     "exchange": "perp",
@@ -1121,6 +1830,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/FILUSDT"
   },
+  "FLNCUSDT": {
+    "exchange": "perp",
+    "base": "fluence-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/FLNCUSDT"
+  },
   "FLOCKUSDT": {
     "exchange": "perp",
     "base": "flock",
@@ -1142,12 +1858,33 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/FLRUSDT"
   },
+  "FLUXUSDT": {
+    "exchange": "perp",
+    "base": "zelcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/FLUXUSDT"
+  },
   "FOGOUSDT": {
     "exchange": "perp",
     "base": "fogo",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/FOGOUSDT"
+  },
+  "FOLKSUSDT": {
+    "exchange": "perp",
+    "base": "folks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/FOLKSUSDT"
+  },
+  "FORMUSDT": {
+    "exchange": "perp",
+    "base": "four",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/FORMUSDT"
   },
   "FUSDT": {
     "exchange": "perp",
@@ -1156,6 +1893,20 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/FUSDT"
   },
+  "FUTUUSDT": {
+    "exchange": "perp",
+    "base": "futu-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/FUTUUSDT"
+  },
+  "FWDIUSDT": {
+    "exchange": "perp",
+    "base": "forward-industries",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/FWDIUSDT"
+  },
   "GALAUSDT": {
     "exchange": "perp",
     "base": "gala",
@@ -1163,12 +1914,47 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/GALAUSDT"
   },
+  "GASUSDT": {
+    "exchange": "perp",
+    "base": "neo-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GASUSDT"
+  },
+  "GEVUSDT": {
+    "exchange": "perp",
+    "base": "ge-vernova",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GEVUSDT"
+  },
+  "GIGGLEUSDT": {
+    "exchange": "perp",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GIGGLEUSDT"
+  },
   "GLMUSDT": {
     "exchange": "perp",
     "base": "golem",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/GLMUSDT"
+  },
+  "GLWUSDT": {
+    "exchange": "perp",
+    "base": "corning",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GLWUSDT"
+  },
+  "GMESTOCKUSDT": {
+    "exchange": "perp",
+    "base": "gamestop",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GMESTOCKUSDT"
   },
   "GMTUSDT": {
     "exchange": "perp",
@@ -1198,6 +1984,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/GOOGLUSDT"
   },
+  "GPROUSDT": {
+    "exchange": "perp",
+    "base": "gopro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GPROUSDT"
+  },
   "GPSUSDT": {
     "exchange": "perp",
     "base": "goplus-security",
@@ -1219,6 +2012,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/GRASSUSDT"
   },
+  "GRIFFAINUSDT": {
+    "exchange": "perp",
+    "base": "griffain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GRIFFAINUSDT"
+  },
   "GRTUSDT": {
     "exchange": "perp",
     "base": "the-graph",
@@ -1233,12 +2033,40 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/GRVTUSDT"
   },
+  "GSUSDT": {
+    "exchange": "perp",
+    "base": "goldman-sachs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GSUSDT"
+  },
+  "GUNUSDT": {
+    "exchange": "perp",
+    "base": "gunz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GUNUSDT"
+  },
+  "GWEIUSDT": {
+    "exchange": "perp",
+    "base": "ethgas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GWEIUSDT"
+  },
   "HAEDALUSDT": {
     "exchange": "perp",
     "base": "haedal-protocol",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/HAEDALUSDT"
+  },
+  "HANAUSDT": {
+    "exchange": "perp",
+    "base": "hana-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/HANAUSDT"
   },
   "HBARPERP": {
     "exchange": "perp",
@@ -1253,6 +2081,34 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/HBARUSDT"
+  },
+  "HDUSDT": {
+    "exchange": "perp",
+    "base": "home-depot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/HDUSDT"
+  },
+  "HEIUSDT": {
+    "exchange": "perp",
+    "base": "heima",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/HEIUSDT"
+  },
+  "HEMIUSDT": {
+    "exchange": "perp",
+    "base": "hemi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/HEMIUSDT"
+  },
+  "HIMSUSDT": {
+    "exchange": "perp",
+    "base": "hims-and-hers-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/HIMSUSDT"
   },
   "HMSTRUSDT": {
     "exchange": "perp",
@@ -1282,12 +2138,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/HOMEUSDT"
   },
+  "HOODUSDT": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/HOODUSDT"
+  },
   "HPERP": {
     "exchange": "perp",
     "base": "humanity",
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://www.bybit.com/trade/usdt/HPERP"
+  },
+  "HPEUSDT": {
+    "exchange": "perp",
+    "base": "hewlett-packard-enterprise",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/HPEUSDT"
   },
   "HUMAUSDT": {
     "exchange": "perp",
@@ -1324,12 +2194,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/HYPEUSDT"
   },
+  "HYUNDAIUSDT": {
+    "exchange": "perp",
+    "base": "hyundai-motor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/HYUNDAIUSDT"
+  },
   "IBITUSDT": {
     "exchange": "perp",
     "base": "ishares-bitcoin-trust",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/IBITUSDT"
+  },
+  "IBMUSDT": {
+    "exchange": "perp",
+    "base": "international-business-machines",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/IBMUSDT"
   },
   "ICNTPERP": {
     "exchange": "perp",
@@ -1366,6 +2250,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/IDUSDT"
   },
+  "ILVUSDT": {
+    "exchange": "perp",
+    "base": "illuvium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ILVUSDT"
+  },
   "IMXUSDT": {
     "exchange": "perp",
     "base": "immutable-x",
@@ -1394,6 +2285,34 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/INJUSDT"
   },
+  "INTCUSDT": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/INTCUSDT"
+  },
+  "INUSDT": {
+    "exchange": "perp",
+    "base": "infinit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/INUSDT"
+  },
+  "INXUSDT": {
+    "exchange": "perp",
+    "base": "infinex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/INXUSDT"
+  },
+  "IONQUSDT": {
+    "exchange": "perp",
+    "base": "ionq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/IONQUSDT"
+  },
   "IOSTUSDT": {
     "exchange": "perp",
     "base": "iost",
@@ -1408,6 +2327,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/IOTAUSDT"
   },
+  "IOTXUSDT": {
+    "exchange": "perp",
+    "base": "iotex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/IOTXUSDT"
+  },
   "IOUSDT": {
     "exchange": "perp",
     "base": "io-net",
@@ -1415,12 +2341,61 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/IOUSDT"
   },
+  "IRENUSDT": {
+    "exchange": "perp",
+    "base": "iren",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/IRENUSDT"
+  },
+  "IRYSUSDT": {
+    "exchange": "perp",
+    "base": "irys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/IRYSUSDT"
+  },
+  "IWMUSDT": {
+    "exchange": "perp",
+    "base": "ishares-russell-2000-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/IWMUSDT"
+  },
   "JASMYUSDT": {
     "exchange": "perp",
     "base": "jasmycoin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/JASMYUSDT"
+  },
+  "JCTUSDT": {
+    "exchange": "perp",
+    "base": "janction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/JCTUSDT"
+  },
+  "JELLYJELLYUSDT": {
+    "exchange": "perp",
+    "base": "jelly-my-jelly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/JELLYJELLYUSDT"
+  },
+  "JNJUSDT": {
+    "exchange": "perp",
+    "base": "johnson-and-johnson",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/JNJUSDT"
+  },
+  "JPMUSDT": {
+    "exchange": "perp",
+    "base": "jpmorgan-chase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/JPMUSDT"
   },
   "JSTUSDT": {
     "exchange": "perp",
@@ -1471,12 +2446,33 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/KASUSDT"
   },
+  "KATUSDT": {
+    "exchange": "perp",
+    "base": "katana-network-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/KATUSDT"
+  },
   "KAVAUSDT": {
     "exchange": "perp",
     "base": "kava",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/KAVAUSDT"
+  },
+  "KERNELUSDT": {
+    "exchange": "perp",
+    "base": "kernel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/KERNELUSDT"
+  },
+  "KGENUSDT": {
+    "exchange": "perp",
+    "base": "kgen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/KGENUSDT"
   },
   "KIIUSDT": {
     "exchange": "perp",
@@ -1485,6 +2481,20 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/KIIUSDT"
   },
+  "KITEUSDT": {
+    "exchange": "perp",
+    "base": "kite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/KITEUSDT"
+  },
+  "KLACUSDT": {
+    "exchange": "perp",
+    "base": "kla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/KLACUSDT"
+  },
   "KMNOUSDT": {
     "exchange": "perp",
     "base": "kamino",
@@ -1492,12 +2502,54 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/KMNOUSDT"
   },
+  "KNCUSDT": {
+    "exchange": "perp",
+    "base": "kyber-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/KNCUSDT"
+  },
+  "KORUUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/KORUUSDT"
+  },
+  "KOUSDT": {
+    "exchange": "perp",
+    "base": "coca-cola",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/KOUSDT"
+  },
   "KSMUSDT": {
     "exchange": "perp",
     "base": "kusama",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/KSMUSDT"
+  },
+  "KSTRUSDT": {
+    "exchange": "perp",
+    "base": "kraneshares-star-50-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/KSTRUSDT"
+  },
+  "KUAISHOUUSDT": {
+    "exchange": "perp",
+    "base": "kuaishou",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/KUAISHOUUSDT"
+  },
+  "LABUSDT": {
+    "exchange": "perp",
+    "base": "lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/LABUSDT"
   },
   "LAUSDT": {
     "exchange": "perp",
@@ -1512,6 +2564,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/LDOUSDT"
+  },
+  "LIGHTUSDT": {
+    "exchange": "perp",
+    "base": "bitlight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/LIGHTUSDT"
   },
   "LINEAUSDT": {
     "exchange": "perp",
@@ -1534,6 +2593,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/LINKUSDT"
   },
+  "LITEUSDT": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/LITEUSDT"
+  },
   "LITUSDT": {
     "exchange": "perp",
     "base": "lighter",
@@ -1541,12 +2607,47 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/LITUSDT"
   },
+  "LLYUSDT": {
+    "exchange": "perp",
+    "base": "eli-lilly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/LLYUSDT"
+  },
+  "LPTUSDT": {
+    "exchange": "perp",
+    "base": "livepeer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/LPTUSDT"
+  },
+  "LQTYUSDT": {
+    "exchange": "perp",
+    "base": "liquity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/LQTYUSDT"
+  },
   "LRCUSDT": {
     "exchange": "perp",
     "base": "loopring",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/LRCUSDT"
+  },
+  "LRCXUSDT": {
+    "exchange": "perp",
+    "base": "lam-research",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/LRCXUSDT"
+  },
+  "LSKUSDT": {
+    "exchange": "perp",
+    "base": "lisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/LSKUSDT"
   },
   "LTCPERP": {
     "exchange": "perp",
@@ -1562,6 +2663,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/LTCUSDT"
   },
+  "LUMIAUSDT": {
+    "exchange": "perp",
+    "base": "lumia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/LUMIAUSDT"
+  },
   "LUNA2USDT": {
     "exchange": "perp",
     "base": "terra",
@@ -1569,12 +2677,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/LUNA2USDT"
   },
+  "LYTEUSDT": {
+    "exchange": "perp",
+    "base": "roundhill-photonics-optics-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/LYTEUSDT"
+  },
   "MAGICUSDT": {
     "exchange": "perp",
     "base": "magic",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/MAGICUSDT"
+  },
+  "MAGMAUSDT": {
+    "exchange": "perp",
+    "base": "magma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MAGMAUSDT"
   },
   "MANAUSDT": {
     "exchange": "perp",
@@ -1597,6 +2719,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/MASKUSDT"
   },
+  "MAUSDT": {
+    "exchange": "perp",
+    "base": "mastercard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MAUSDT"
+  },
   "MAVIAUSDT": {
     "exchange": "perp",
     "base": "heroes-of-mavia",
@@ -1604,12 +2733,47 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/MAVIAUSDT"
   },
+  "MAVUSDT": {
+    "exchange": "perp",
+    "base": "maverick-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MAVUSDT"
+  },
+  "MDBUSDT": {
+    "exchange": "perp",
+    "base": "mongodb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MDBUSDT"
+  },
+  "MDTSTOCKUSDT": {
+    "exchange": "perp",
+    "base": "medtronic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MDTSTOCKUSDT"
+  },
   "MEGAUSDT": {
     "exchange": "perp",
     "base": "megaeth",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/MEGAUSDT"
+  },
+  "MEITUANUSDT": {
+    "exchange": "perp",
+    "base": "meituan",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MEITUANUSDT"
+  },
+  "MELANIAUSDT": {
+    "exchange": "perp",
+    "base": "melania-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MELANIAUSDT"
   },
   "MEMEUSDT": {
     "exchange": "perp",
@@ -1638,6 +2802,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/METAUSDT"
+  },
+  "METISUSDT": {
+    "exchange": "perp",
+    "base": "metis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/METISUSDT"
   },
   "METUSDT": {
     "exchange": "perp",
@@ -1702,6 +2873,20 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/MONUSDT"
   },
+  "MOODENGPERP": {
+    "exchange": "perp",
+    "base": "moo-deng",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bybit.com/trade/usdt/MOODENGPERP"
+  },
+  "MOODENGUSDT": {
+    "exchange": "perp",
+    "base": "moo-deng",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MOODENGUSDT"
+  },
   "MORPHOUSDT": {
     "exchange": "perp",
     "base": "morpho",
@@ -1722,6 +2907,34 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/MOVRUSDT"
+  },
+  "MPUSDT": {
+    "exchange": "perp",
+    "base": "mp-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MPUSDT"
+  },
+  "MRKUSDT": {
+    "exchange": "perp",
+    "base": "merck-and-co",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MRKUSDT"
+  },
+  "MRNAUSDT": {
+    "exchange": "perp",
+    "base": "moderna",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MRNAUSDT"
+  },
+  "MRVLUSDT": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MRVLUSDT"
   },
   "MSFTUSDT": {
     "exchange": "perp",
@@ -1744,6 +2957,48 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/MSTRUSDT"
   },
+  "MTLUSDT": {
+    "exchange": "perp",
+    "base": "metal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MTLUSDT"
+  },
+  "MUBARAKUSDT": {
+    "exchange": "perp",
+    "base": "mubarak",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MUBARAKUSDT"
+  },
+  "MUSDT": {
+    "exchange": "perp",
+    "base": "memecore",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MUSDT"
+  },
+  "MUUSDT": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MUUSDT"
+  },
+  "MYXUSDT": {
+    "exchange": "perp",
+    "base": "myx-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MYXUSDT"
+  },
+  "NBISUSDT": {
+    "exchange": "perp",
+    "base": "nebius-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/NBISUSDT"
+  },
   "NEARUSDT": {
     "exchange": "perp",
     "base": "near",
@@ -1758,12 +3013,33 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/NEOUSDT"
   },
+  "NESAUSDT": {
+    "exchange": "perp",
+    "base": "nesa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/NESAUSDT"
+  },
+  "NETUSDT": {
+    "exchange": "perp",
+    "base": "cloudflare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/NETUSDT"
+  },
   "NEWTUSDT": {
     "exchange": "perp",
     "base": "newton-protocol",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/NEWTUSDT"
+  },
+  "NFLXUSDT": {
+    "exchange": "perp",
+    "base": "netflix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/NFLXUSDT"
   },
   "NIGHTPERP": {
     "exchange": "perp",
@@ -1786,6 +3062,20 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/NILUSDT"
   },
+  "NMRUSDT": {
+    "exchange": "perp",
+    "base": "numeraire",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/NMRUSDT"
+  },
+  "NOKIAUSDT": {
+    "exchange": "perp",
+    "base": "nokia-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/NOKIAUSDT"
+  },
   "NOMUSDT": {
     "exchange": "perp",
     "base": "nomina",
@@ -1807,6 +3097,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/NOTUSDT"
   },
+  "NOWUSDT": {
+    "exchange": "perp",
+    "base": "servicenow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/NOWUSDT"
+  },
   "NVDAUSDT": {
     "exchange": "perp",
     "base": "nvidia",
@@ -1814,12 +3111,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/NVDAUSDT"
   },
+  "NVOUSDT": {
+    "exchange": "perp",
+    "base": "novo-nordisk-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/NVOUSDT"
+  },
   "NXPCUSDT": {
     "exchange": "perp",
     "base": "nexpace",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/NXPCUSDT"
+  },
+  "OGNUSDT": {
+    "exchange": "perp",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/OGNUSDT"
   },
   "OKBUSDT": {
     "exchange": "perp",
@@ -1849,6 +3160,20 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ONDOUSDT"
   },
+  "ONDSUSDT": {
+    "exchange": "perp",
+    "base": "ondas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ONDSUSDT"
+  },
+  "OPENUSDT": {
+    "exchange": "perp",
+    "base": "openledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/OPENUSDT"
+  },
   "OPGUSDT": {
     "exchange": "perp",
     "base": "opengradient",
@@ -1877,6 +3202,20 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/OPUSDT"
   },
+  "ORCAUSDT": {
+    "exchange": "perp",
+    "base": "orca",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ORCAUSDT"
+  },
+  "ORCLUSDT": {
+    "exchange": "perp",
+    "base": "oracle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ORCLUSDT"
+  },
   "ORDERUSDT": {
     "exchange": "perp",
     "base": "orderly-network",
@@ -1898,12 +3237,33 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ORDIUSDT"
   },
+  "OUSDT": {
+    "exchange": "perp",
+    "base": "o1-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/OUSDT"
+  },
+  "PANWUSDT": {
+    "exchange": "perp",
+    "base": "palo-alto-networks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PANWUSDT"
+  },
   "PARTIUSDT": {
     "exchange": "perp",
     "base": "particle-network",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/PARTIUSDT"
+  },
+  "PATHUSDT": {
+    "exchange": "perp",
+    "base": "uipath",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PATHUSDT"
   },
   "PAXGPERP": {
     "exchange": "perp",
@@ -1919,6 +3279,20 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/PAXGUSDT"
   },
+  "PDDUSDT": {
+    "exchange": "perp",
+    "base": "pdd-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PDDUSDT"
+  },
+  "PEAQUSDT": {
+    "exchange": "perp",
+    "base": "peaq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PEAQUSDT"
+  },
   "PENDLEPERP": {
     "exchange": "perp",
     "base": "pendle",
@@ -1932,6 +3306,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/PENDLEUSDT"
+  },
+  "PENGSTOCKUSDT": {
+    "exchange": "perp",
+    "base": "penguin-solutions",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PENGSTOCKUSDT"
   },
   "PENGUPERP": {
     "exchange": "perp",
@@ -1954,6 +3335,27 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/PEOPLEUSDT"
   },
+  "PEPUSDT": {
+    "exchange": "perp",
+    "base": "pepsico",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PEPUSDT"
+  },
+  "PGUSDT": {
+    "exchange": "perp",
+    "base": "procter-and-gamble",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PGUSDT"
+  },
+  "PHAUSDT": {
+    "exchange": "perp",
+    "base": "pha",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PHAUSDT"
+  },
   "PIEVERSEUSDT": {
     "exchange": "perp",
     "base": "pieverse",
@@ -1967,6 +3369,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/PIXELUSDT"
+  },
+  "PLAYSOUTUSDT": {
+    "exchange": "perp",
+    "base": "playsout",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PLAYSOUTUSDT"
+  },
+  "PLTRUSDT": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PLTRUSDT"
   },
   "PLUMEUSDT": {
     "exchange": "perp",
@@ -2003,6 +3419,20 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/POLUSDT"
   },
+  "POLYXUSDT": {
+    "exchange": "perp",
+    "base": "polymesh",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/POLYXUSDT"
+  },
+  "PONSUSDT": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PONSUSDT"
+  },
   "POPCATPERP": {
     "exchange": "perp",
     "base": "popcat",
@@ -2024,6 +3454,20 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/PORTALUSDT"
   },
+  "POWRUSDT": {
+    "exchange": "perp",
+    "base": "power-ledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/POWRUSDT"
+  },
+  "PRLUSDT": {
+    "exchange": "perp",
+    "base": "perle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PRLUSDT"
+  },
   "PROVEUSDT": {
     "exchange": "perp",
     "base": "succinct",
@@ -2031,12 +3475,40 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/PROVEUSDT"
   },
+  "PTBUSDT": {
+    "exchange": "perp",
+    "base": "portal-to-bitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PTBUSDT"
+  },
   "PUFFERUSDT": {
     "exchange": "perp",
     "base": "puffer",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/PUFFERUSDT"
+  },
+  "PUMPFUNPERP": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.bybit.com/trade/usdt/PUMPFUNPERP"
+  },
+  "PUMPFUNUSDT": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PUMPFUNUSDT"
+  },
+  "PUNDIXUSDT": {
+    "exchange": "perp",
+    "base": "pundi-x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/PUNDIXUSDT"
   },
   "PURRUSDT": {
     "exchange": "perp",
@@ -2052,12 +3524,33 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/PYTHUSDT"
   },
+  "QCOMUSDT": {
+    "exchange": "perp",
+    "base": "qualcomm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/QCOMUSDT"
+  },
   "QNTUSDT": {
     "exchange": "perp",
     "base": "quant",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/QNTUSDT"
+  },
+  "QNTXUSDT": {
+    "exchange": "perp",
+    "base": "quantinuum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/QNTXUSDT"
+  },
+  "QQQUSDT": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/QQQUSDT"
   },
   "QTUMUSDT": {
     "exchange": "perp",
@@ -2066,12 +3559,40 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/QTUMUSDT"
   },
+  "QUSDT": {
+    "exchange": "perp",
+    "base": "quack-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/QUSDT"
+  },
+  "RAREUSDT": {
+    "exchange": "perp",
+    "base": "superrare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/RAREUSDT"
+  },
+  "RAVEUSDT": {
+    "exchange": "perp",
+    "base": "ravedao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/RAVEUSDT"
+  },
   "RAYDIUMUSDT": {
     "exchange": "perp",
     "base": "raydium",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/RAYDIUMUSDT"
+  },
+  "RDDTUSDT": {
+    "exchange": "perp",
+    "base": "reddit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/RDDTUSDT"
   },
   "RECALLUSDT": {
     "exchange": "perp",
@@ -2108,12 +3629,47 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/RESOLVUSDT"
   },
+  "REUSDT": {
+    "exchange": "perp",
+    "base": "re",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/REUSDT"
+  },
   "REZUSDT": {
     "exchange": "perp",
     "base": "renzo",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/REZUSDT"
+  },
+  "RIVERUSDT": {
+    "exchange": "perp",
+    "base": "river",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/RIVERUSDT"
+  },
+  "RIVNUSDT": {
+    "exchange": "perp",
+    "base": "rivian-automotive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/RIVNUSDT"
+  },
+  "RKLBUSDT": {
+    "exchange": "perp",
+    "base": "rocket-lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/RKLBUSDT"
+  },
+  "RLCUSDT": {
+    "exchange": "perp",
+    "base": "iexec-rlc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/RLCUSDT"
   },
   "RLUSDUSDT": {
     "exchange": "perp",
@@ -2129,6 +3685,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ROBOUSDT"
   },
+  "RONINUSDT": {
+    "exchange": "perp",
+    "base": "ronin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/RONINUSDT"
+  },
   "ROSEUSDT": {
     "exchange": "perp",
     "base": "oasis-network",
@@ -2142,6 +3705,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/RPLUSDT"
+  },
+  "RSRUSDT": {
+    "exchange": "perp",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/RSRUSDT"
   },
   "RUNEUSDT": {
     "exchange": "perp",
@@ -2164,6 +3734,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SAFEUSDT"
   },
+  "SAGAUSDT": {
+    "exchange": "perp",
+    "base": "saga",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SAGAUSDT"
+  },
   "SAHARAPERP": {
     "exchange": "perp",
     "base": "sahara-ai",
@@ -2184,6 +3761,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SANDUSDT"
+  },
+  "SAPIENUSDT": {
+    "exchange": "perp",
+    "base": "sapien",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SAPIENUSDT"
   },
   "SDGRUSDT": {
     "exchange": "perp",
@@ -2220,12 +3804,56 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SENTUSDT"
   },
+  "SHAZUSDT": {
+    "exchange": "perp",
+    "base": "sharonai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SHAZUSDT"
+  },
+  "SHEINUSDT": {
+    "exchange": "perp",
+    "base": "shein",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SHEINUSDT"
+  },
+  "SHIB1000PERP": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.bybit.com/trade/usdt/SHIB1000PERP"
+  },
+  "SHIB1000USDT": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.bybit.com/trade/usdt/SHIB1000USDT"
+  },
+  "SHOPUSDT": {
+    "exchange": "perp",
+    "base": "shopify",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SHOPUSDT"
+  },
   "SIGNUSDT": {
     "exchange": "perp",
     "base": "sign-global",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SIGNUSDT"
+  },
+  "SKHYUSDT": {
+    "exchange": "perp",
+    "base": "sk-hynix-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SKHYUSDT"
   },
   "SKRUSDT": {
     "exchange": "perp",
@@ -2255,12 +3883,40 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SLXUSDT"
   },
+  "SMCIUSDT": {
+    "exchange": "perp",
+    "base": "super-micro-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SMCIUSDT"
+  },
+  "SMHUSDT": {
+    "exchange": "perp",
+    "base": "vaneck-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SMHUSDT"
+  },
+  "SNDKUSDT": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SNDKUSDT"
+  },
   "SNXUSDT": {
     "exchange": "perp",
     "base": "synthetix",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SNXUSDT"
+  },
+  "SNXXUSDT": {
+    "exchange": "perp",
+    "base": "tradr-2x-long-sndk-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SNXXUSDT"
   },
   "SOLAYERUSDT": {
     "exchange": "perp",
@@ -2297,12 +3953,61 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SONICUSDT"
   },
+  "SOONUSDT": {
+    "exchange": "perp",
+    "base": "soon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SOONUSDT"
+  },
+  "SOPHUSDT": {
+    "exchange": "perp",
+    "base": "sophon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SOPHUSDT"
+  },
   "SOSOUSDT": {
     "exchange": "perp",
     "base": "sosovalue",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SOSOUSDT"
+  },
+  "SOXLUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SOXLUSDT"
+  },
+  "SOXSUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SOXSUSDT"
+  },
+  "SOXXUSDT": {
+    "exchange": "perp",
+    "base": "ishares-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SOXXUSDT"
+  },
+  "SPACEUSDT": {
+    "exchange": "perp",
+    "base": "spacecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SPACEUSDT"
+  },
+  "SPCXUSDT": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SPCXUSDT"
   },
   "SPKUSDT": {
     "exchange": "perp",
@@ -2325,6 +4030,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SPXUSDT"
   },
+  "SPYUSDT": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SPYUSDT"
+  },
   "SQDUSDT": {
     "exchange": "perp",
     "base": "subsquid",
@@ -2332,12 +4044,40 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SQDUSDT"
   },
+  "SQQQUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultrapro-short-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SQQQUSDT"
+  },
   "SSVUSDT": {
     "exchange": "perp",
     "base": "ssv-network",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SSVUSDT"
+  },
+  "STABLEUSDT": {
+    "exchange": "perp",
+    "base": "stable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/STABLEUSDT"
+  },
+  "STBLUSDT": {
+    "exchange": "perp",
+    "base": "stbl",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/STBLUSDT"
+  },
+  "STEEMUSDT": {
+    "exchange": "perp",
+    "base": "steem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/STEEMUSDT"
   },
   "STGUSDT": {
     "exchange": "perp",
@@ -2352,6 +4092,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/STONKUSDT"
+  },
+  "STORJUSDT": {
+    "exchange": "perp",
+    "base": "storj",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/STORJUSDT"
+  },
+  "STOUSDT": {
+    "exchange": "perp",
+    "base": "stakestone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/STOUSDT"
   },
   "STRKPERP": {
     "exchange": "perp",
@@ -2374,6 +4128,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/STXUSDT"
   },
+  "STXXUSDT": {
+    "exchange": "perp",
+    "base": "seagate-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/STXXUSDT"
+  },
   "SUIPERP": {
     "exchange": "perp",
     "base": "sui",
@@ -2394,6 +4155,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/SUNUSDT"
+  },
+  "SUPERUSDT": {
+    "exchange": "perp",
+    "base": "superfarm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/SUPERUSDT"
   },
   "SUSDT": {
     "exchange": "perp",
@@ -2458,6 +4226,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/TAUSDT"
   },
+  "TERUSDT": {
+    "exchange": "perp",
+    "base": "teradyne",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TERUSDT"
+  },
   "THETAUSDT": {
     "exchange": "perp",
     "base": "theta-token",
@@ -2486,12 +4261,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/TIAUSDT"
   },
+  "TLMUSDT": {
+    "exchange": "perp",
+    "base": "alien-worlds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TLMUSDT"
+  },
   "TLTUSDT": {
     "exchange": "perp",
     "base": "ishares-20-year-treasury-bond-etf",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/TLTUSDT"
+  },
+  "TMXUSDT": {
+    "exchange": "perp",
+    "base": "termmax",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TMXUSDT"
   },
   "TNSRUSDT": {
     "exchange": "perp",
@@ -2506,6 +4295,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/TOWNSUSDT"
+  },
+  "TQQQUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultrapro-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TQQQUSDT"
   },
   "TRBUSDT": {
     "exchange": "perp",
@@ -2542,6 +4338,20 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/TRUMPUSDT"
   },
+  "TRUSTUSDT": {
+    "exchange": "perp",
+    "base": "intuition",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TRUSTUSDT"
+  },
+  "TRUTHUSDT": {
+    "exchange": "perp",
+    "base": "swarm-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TRUTHUSDT"
+  },
   "TRXPERP": {
     "exchange": "perp",
     "base": "tron",
@@ -2563,12 +4373,40 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/TSLAUSDT"
   },
+  "TSMUSDT": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TSMUSDT"
+  },
+  "TTWOUSDT": {
+    "exchange": "perp",
+    "base": "take-two-interactive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TTWOUSDT"
+  },
+  "TURTLEUSDT": {
+    "exchange": "perp",
+    "base": "turtle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TURTLEUSDT"
+  },
   "TUSDT": {
     "exchange": "perp",
     "base": "threshold-network",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/TUSDT"
+  },
+  "TUTUSDT": {
+    "exchange": "perp",
+    "base": "tutorial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TUTUSDT"
   },
   "TWTPERP": {
     "exchange": "perp",
@@ -2584,12 +4422,47 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/TWTUSDT"
   },
+  "TXNUSDT": {
+    "exchange": "perp",
+    "base": "texas-instruments",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/TXNUSDT"
+  },
+  "UAIUSDT": {
+    "exchange": "perp",
+    "base": "unifai-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/UAIUSDT"
+  },
+  "UBERUSDT": {
+    "exchange": "perp",
+    "base": "uber-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/UBERUSDT"
+  },
+  "UBUSDT": {
+    "exchange": "perp",
+    "base": "unibase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/UBUSDT"
+  },
   "UMAUSDT": {
     "exchange": "perp",
     "base": "uma",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/UMAUSDT"
+  },
+  "UNHUSDT": {
+    "exchange": "perp",
+    "base": "unitedhealth-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/UNHUSDT"
   },
   "UNIPERP": {
     "exchange": "perp",
@@ -2611,6 +4484,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/URNMUSDT"
+  },
+  "USARUSDT": {
+    "exchange": "perp",
+    "base": "usa-rare-earth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/USARUSDT"
   },
   "USD1USDT": {
     "exchange": "perp",
@@ -2640,12 +4520,33 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/USELESSUSDT"
   },
+  "USTCUSDT": {
+    "exchange": "perp",
+    "base": "terrausd",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/USTCUSDT"
+  },
   "USUALUSDT": {
     "exchange": "perp",
     "base": "usual",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/USUALUSDT"
+  },
+  "USUSDT": {
+    "exchange": "perp",
+    "base": "talus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/USUSDT"
+  },
+  "UVXYUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultra-vix-short-term-futures-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/UVXYUSDT"
   },
   "VANAUSDT": {
     "exchange": "perp",
@@ -2660,6 +4561,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/VELOUSDT"
+  },
+  "VELVETUSDT": {
+    "exchange": "perp",
+    "base": "velvet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/VELVETUSDT"
   },
   "VETUSDT": {
     "exchange": "perp",
@@ -2681,6 +4589,27 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/VIRTUALUSDT"
+  },
+  "VKTXUSDT": {
+    "exchange": "perp",
+    "base": "viking-therapeutics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/VKTXUSDT"
+  },
+  "VSTUSDT": {
+    "exchange": "perp",
+    "base": "vistra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/VSTUSDT"
+  },
+  "VUSDT": {
+    "exchange": "perp",
+    "base": "visa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/VUSDT"
   },
   "VVVUSDT": {
     "exchange": "perp",
@@ -2716,6 +4645,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/WCTUSDT"
+  },
+  "WDCUSDT": {
+    "exchange": "perp",
+    "base": "western-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/WDCUSDT"
+  },
+  "WENSTOCKUSDT": {
+    "exchange": "perp",
+    "base": "wendys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/WENSTOCKUSDT"
   },
   "WETUSDT": {
     "exchange": "perp",
@@ -2765,6 +4708,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/WLFIUSDT"
+  },
+  "WMTUSDT": {
+    "exchange": "perp",
+    "base": "walmart",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/WMTUSDT"
   },
   "WOOUSDT": {
     "exchange": "perp",
@@ -2822,6 +4772,13 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/XAUUSDT"
   },
+  "XBIUSDT": {
+    "exchange": "perp",
+    "base": "spdr-sp-biotech-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/XBIUSDT"
+  },
   "XCNUSDT": {
     "exchange": "perp",
     "base": "onyxcoin",
@@ -2835,6 +4792,27 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/XDCUSDT"
+  },
+  "XIAOMIUSDT": {
+    "exchange": "perp",
+    "base": "xiaomi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/XIAOMIUSDT"
+  },
+  "XLEUSDT": {
+    "exchange": "perp",
+    "base": "energy-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/XLEUSDT"
+  },
+  "XLKUSDT": {
+    "exchange": "perp",
+    "base": "technology-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/XLKUSDT"
   },
   "XLMPERP": {
     "exchange": "perp",
@@ -2863,6 +4841,27 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/XMRUSDT"
+  },
+  "XNYUSDT": {
+    "exchange": "perp",
+    "base": "codatta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/XNYUSDT"
+  },
+  "XOMUSDT": {
+    "exchange": "perp",
+    "base": "exxon-mobil",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/XOMUSDT"
+  },
+  "XPINUSDT": {
+    "exchange": "perp",
+    "base": "xpin-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/XPINUSDT"
   },
   "XPLPERP": {
     "exchange": "perp",
@@ -2913,12 +4912,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/YFIUSDT"
   },
+  "YGGUSDT": {
+    "exchange": "perp",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/YGGUSDT"
+  },
   "ZAMAUSDT": {
     "exchange": "perp",
     "base": "zama",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ZAMAUSDT"
+  },
+  "ZBCNUSDT": {
+    "exchange": "perp",
+    "base": "zebec-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ZBCNUSDT"
   },
   "ZBTUSDT": {
     "exchange": "perp",
@@ -2948,12 +4961,26 @@
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ZEREBROUSDT"
   },
+  "ZESTUSDT": {
+    "exchange": "perp",
+    "base": "zest-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ZESTUSDT"
+  },
   "ZETAUSDT": {
     "exchange": "perp",
     "base": "zetachain",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ZETAUSDT"
+  },
+  "ZILUSDT": {
+    "exchange": "perp",
+    "base": "zilliqa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ZILUSDT"
   },
   "ZKCUSDT": {
     "exchange": "perp",
@@ -2975,6 +5002,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/ZKUSDT"
+  },
+  "ZMUSDT": {
+    "exchange": "perp",
+    "base": "zoom-communications",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/ZMUSDT"
   },
   "ZORAUSDT": {
     "exchange": "perp",

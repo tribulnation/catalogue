@@ -3199,11 +3199,25 @@
     "settlement": "usd-coin",
     "delisted": true
   },
+  "io:DRAM": {
+    "exchange": "io",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/io:DRAM"
+  },
   "xyz:ANT": {
     "exchange": "xyz",
     "base": "anthropic",
     "quote": "tether",
     "settlement": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/xyz:ANT"
+  },
+  "para:ANSEM": {
+    "exchange": "para",
+    "base": "the-black-bull",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:ANSEM"
   }
 }

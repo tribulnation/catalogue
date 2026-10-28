@@ -1,0 +1,20 @@
+{
+  "id": "tesla-ondo-tokenized-stock",
+  "display_name": "Tesla (Ondo Tokenized)",
+  "symbol": "TSLAon",
+  "category": "rwa",
+  "about": {
+    "en": "Tesla (Ondo Tokenized) (TSLAon) is an Ondo tokenized stock issued by Ondo Global Markets (BVI) Limited through the Ondo Stocks platform, giving eligible non-US holders economic exposure to Tesla, Inc. shares (TSLA). It is fully backed by the underlying security and is a total return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above the underlying's. It is an ERC-20 on Ethereum at 0xf6b1117ec07684d3958cad8beb1b302bfd21103f, with deployments on BNB Chain and Solana. Holders have a claim on the issuer, not registered ownership or shareholder rights."
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/tslaon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "tesla-ondo-tokenized-stock",
+    "coinmarketcap": "38029"
+  }
+}

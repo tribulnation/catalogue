@@ -1,0 +1,18 @@
+{
+  "id": "nasdaq-100-index",
+  "display_name": "Nasdaq-100 Index",
+  "symbol": "NDX",
+  "tags": [
+    "Index"
+  ],
+  "about": {
+    "en": "The Nasdaq-100 Index (NDX) is a modified market-capitalization-weighted index of the 100 largest non-financial companies listed on the Nasdaq Stock Market, published by Nasdaq. Crypto venues list perpetuals on it under tickers such as NAS100 or US100. NDX is an index reference, not a token, fund share or redeemable basket; funds tracking it, such as Invesco QQQ, are separate assets."
+  },
+  "urls": {
+    "Website": "https://www.nasdaq.com/solutions/global-indexes/nasdaq-100",
+    "Index overview": "https://indexes.nasdaqomx.com/Index/Overview/NDX"
+  },
+  "external": {
+    "yahoo": "^NDX"
+  }
+}

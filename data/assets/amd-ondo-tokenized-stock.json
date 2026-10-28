@@ -1,0 +1,20 @@
+{
+  "id": "amd-ondo-tokenized-stock",
+  "display_name": "AMD (Ondo Tokenized)",
+  "symbol": "AMDon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "AMDon is the Ondo tokenized stock for Advanced Micro Devices, issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is fully backed by AMD shares and is a total-return tracker: it gives the economic exposure of holding AMD with dividends reinvested, so one token does not necessarily equal one share. It is deployed on Ethereum (0x0C1f3412A44Ff99E40bF14e06e5Ea321aE7B3938), BNB Chain, Solana and HyperEVM."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/amdon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "amd-ondo-tokenized-stock",
+    "coinmarketcap": "38027"
+  }
+}

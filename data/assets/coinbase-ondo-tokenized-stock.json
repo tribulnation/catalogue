@@ -1,0 +1,20 @@
+{
+  "id": "coinbase-ondo-tokenized-stock",
+  "display_name": "Coinbase (Ondo Tokenized)",
+  "symbol": "COINon",
+  "category": "rwa",
+  "about": {
+    "en": "COINon is the Ondo tokenized stock for Coinbase Global, Inc. (COIN), issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is fully backed by COIN shares and is a total-return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above the underlying's. Holders have a claim on the issuer, not registered ownership or shareholder rights. It is an ERC-20 on Ethereum at 0xF042cfa86cf1D598a75Bdb55c3507a1F39f9493b, with deployments on BNB Chain, Solana and HyperEVM."
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/coinon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "coinbase-ondo-tokenized-stock",
+    "coinmarketcap": "38046"
+  }
+}

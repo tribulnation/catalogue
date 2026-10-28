@@ -1,0 +1,23 @@
+{
+  "id": "sp500-xstock",
+  "display_name": "SP500 xStock",
+  "symbol": "SPYx",
+  "category": "rwa",
+  "about": {
+    "en": "SP500 xStock (SPYx) is a tokenized tracker certificate on SPDR S&P 500 ETF Trust, issued by Backed under the xStocks brand. Each token is backed 1:1 by SPY shares held with qualified custodians and tracks the ETF price on-chain on Solana (XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W), Ethereum, BNB Chain, Arbitrum and other networks. xStocks are offered to non-US investors."
+  },
+  "tags": [
+    "ETF"
+  ],
+  "urls": {
+    "Website": "https://xstocks.com/",
+    "Product page": "https://assets.backed.fi/products/sp500-xstock"
+  },
+  "external": {
+    "coingecko": "sp500-xstock",
+    "coinmarketcap": "37006"
+  },
+  "pegged_to": {
+    "asset": "spdr-sp500-etf-trust"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cisco-ondo-tokenized-stock",
+  "display_name": "Cisco Systems (Ondo Tokenized)",
+  "symbol": "CSCOon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "Cisco Systems (Ondo Tokenized) (CSCOon) is an Ondo tokenized stock issued by Ondo Global Markets (BVI) Limited through the Ondo Stocks platform, giving eligible non-US holders economic exposure to Cisco Systems, Inc. shares (CSCO). It is fully backed by the underlying security and is a total return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above the underlying's. It is an ERC-20 on Ethereum at 0x980a1001ee94e54142b231f44c7ca7c9df71fbe1, with deployments on BNB Chain and Solana. Holders have a claim on the issuer, not registered ownership or shareholder rights."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/cscoon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "cisco-systems-ondo-tokenized-stock",
+    "coinmarketcap": "38070"
+  }
+}

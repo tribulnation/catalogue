@@ -1,0 +1,17 @@
+{
+  "id": "boeing",
+  "display_name": "Boeing",
+  "symbol": "BA",
+  "category": "stock",
+  "about": {
+    "en": "The Boeing Company is a US aerospace manufacturer of commercial airplanes, defense and space systems and related services. BA represents its common stock listed on the New York Stock Exchange."
+  },
+  "urls": {
+    "Website": "https://www.boeing.com/"
+  },
+  "external": {
+    "yahoo": "BA",
+    "twelvedata": "BA",
+    "alphavantage": "stock:BA"
+  }
+}
