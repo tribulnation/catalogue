@@ -1,9 +1,69 @@
 {
+  "AAVE_USDC": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/AAVE_USDC"
+  },
+  "ADA_USDC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/ADA_USDC"
+  },
+  "AERO_USDC": {
+    "exchange": "spot",
+    "base": "aerodrome",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/AERO_USDC"
+  },
+  "ALGO_USDC": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/ALGO_USDC"
+  },
+  "APT_USDC": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/APT_USDC"
+  },
+  "ARB_USDC": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/ARB_USDC"
+  },
+  "ATOM_USDC": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/ATOM_USDC"
+  },
+  "AVAX_USDC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/AVAX_USDC"
+  },
+  "BCH_USDC": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/BCH_USDC"
+  },
   "BNB_USDC": {
     "exchange": "spot",
     "base": "bnb",
     "quote": "usd-coin",
     "url": "https://www.deribit.com/spot/BNB_USDC"
+  },
+  "BONK_USDC": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/BONK_USDC"
   },
   "BTC_USDC": {
     "exchange": "spot",
@@ -29,6 +89,30 @@
     "quote": "usd-coin",
     "url": "https://www.deribit.com/spot/BUIDL_USDC"
   },
+  "CBETH_USDC": {
+    "exchange": "spot",
+    "base": "coinbase-wrapped-staked-eth",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/CBETH_USDC"
+  },
+  "CRV_USDC": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/CRV_USDC"
+  },
+  "DOGE_USDC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/DOGE_USDC"
+  },
+  "DOT_USDC": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/DOT_USDC"
+  },
   "ETH_BTC": {
     "exchange": "spot",
     "base": "ethereum",
@@ -53,11 +137,113 @@
     "quote": "tether",
     "url": "https://www.deribit.com/spot/ETH_USDT"
   },
+  "EURC_USDC": {
+    "exchange": "spot",
+    "base": "euro-coin",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/EURC_USDC"
+  },
+  "FARTCOIN_USDC": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/FARTCOIN_USDC"
+  },
+  "FIL_USDC": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/FIL_USDC"
+  },
+  "HBAR_USDC": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/HBAR_USDC"
+  },
+  "HYPE_USDC": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/HYPE_USDC"
+  },
+  "ICP_USDC": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/ICP_USDC"
+  },
+  "INJ_USDC": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/INJ_USDC"
+  },
+  "JASMY_USDC": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/JASMY_USDC"
+  },
+  "LINK_USDC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/LINK_USDC"
+  },
+  "LTC_USDC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/LTC_USDC"
+  },
+  "NEAR_USDC": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/NEAR_USDC"
+  },
+  "ONDO_USDC": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/ONDO_USDC"
+  },
+  "OP_USDC": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/OP_USDC"
+  },
   "PAXG_USDC": {
     "exchange": "spot",
     "base": "pax-gold",
     "quote": "usd-coin",
     "url": "https://www.deribit.com/spot/PAXG_USDC"
+  },
+  "PENGU_USDC": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/PENGU_USDC"
+  },
+  "PEPE_USDC": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/PEPE_USDC"
+  },
+  "PUMP_USDC": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/PUMP_USDC"
+  },
+  "SHIB_USDC": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/SHIB_USDC"
   },
   "SOL_ETH": {
     "exchange": "spot",
@@ -83,6 +269,24 @@
     "quote": "usd-coin",
     "url": "https://www.deribit.com/spot/STETH_USDC"
   },
+  "SUI_USDC": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/SUI_USDC"
+  },
+  "TAO_USDC": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/TAO_USDC"
+  },
+  "UNI_USDC": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/UNI_USDC"
+  },
   "USDC_USDT": {
     "exchange": "spot",
     "base": "usd-coin",
@@ -101,16 +305,40 @@
     "quote": "tether",
     "url": "https://www.deribit.com/spot/USDE_USDT"
   },
+  "USDT_USDC": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/USDT_USDC"
+  },
   "USYC_USDC": {
     "exchange": "spot",
     "base": "hashnote-usyc",
     "quote": "usd-coin",
     "url": "https://www.deribit.com/spot/USYC_USDC"
   },
+  "VET_USDC": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/VET_USDC"
+  },
+  "XLM_USDC": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/XLM_USDC"
+  },
   "XRP_USDC": {
     "exchange": "spot",
     "base": "xrp",
     "quote": "usd-coin",
     "url": "https://www.deribit.com/spot/XRP_USDC"
+  },
+  "ZORA_USDC": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "usd-coin",
+    "url": "https://www.deribit.com/spot/ZORA_USDC"
   }
 }

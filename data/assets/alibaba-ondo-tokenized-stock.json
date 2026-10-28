@@ -1,0 +1,20 @@
+{
+  "id": "alibaba-ondo-tokenized-stock",
+  "display_name": "Alibaba (Ondo Tokenized)",
+  "symbol": "BABAon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "BABAon is the Ondo tokenized stock for Alibaba Group's NYSE-listed American depositary shares, issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is fully backed by BABA shares and is a total-return tracker: it gives the economic exposure of holding BABA with dividends reinvested, so one token does not necessarily equal one share. It is deployed on Ethereum (0x41765F0FCddC276309195166C7A62AE522FA09ef), BNB Chain, Solana and HyperEVM."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/babaon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "alibaba-ondo-tokenized-stock",
+    "coinmarketcap": "38076"
+  }
+}

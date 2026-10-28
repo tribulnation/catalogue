@@ -109,5 +109,49 @@ class MarginTradeUrlsTest(unittest.TestCase):
         self.assertEqual(rules['margin-trade'](id, {}, symbols), url)
 
 
+class TerminalCoverageDexUrlsTest(unittest.TestCase):
+  """Routes read from each venue's own site links (2026-10-27)."""
+
+  def test_routes(self):
+    """Backpack's pages drop the C of USDC; Aevo lowercases; Variational drops -PERP."""
+    symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+    cases = [
+      (PERPETUAL_RULES, 'aevo', 'ETH-PERP', 'https://app.aevo.xyz/perpetual/eth'),
+      (PERPETUAL_RULES, 'apex', 'BTCUSDT', 'https://omni.apex.exchange/trade/BTCUSDT'),
+      (PERPETUAL_RULES, 'backpack', 'BTC_USDC_PERP', 'https://backpack.exchange/trade/BTC_USD_PERP'),
+      (SPOT_RULES, 'backpack', 'BTC_USDC', 'https://backpack.exchange/trade/BTC_USD'),
+      (PERPETUAL_RULES, 'bluefin', 'BTC-PERP', 'https://trade.bluefin.io/pro/BTC-PERP'),
+      (SPOT_RULES, 'derive', 'DRV-USDC', 'https://app.derive.xyz/trade/spot?symbol=DRV-USDC'),
+      (PERPETUAL_RULES, 'edgex', 'BTCUSDC', 'https://pro.edgex.exchange/en-US/perpetuals/BTCUSDC'),
+      (PERPETUAL_RULES, 'paradex', 'BTC-USD-PERP', 'https://app.paradex.trade/trade/BTC-USD-PERP'),
+      (PERPETUAL_RULES, 'variational', 'OPENAI-PERP', 'https://omni.variational.io/perpetual/OPENAI'),
+    ]
+    for rules, platform, id, url in cases:
+      with self.subTest(platform=platform, id=id):
+        self.assertEqual(rules[platform](id, {}, symbols), url)
+class BingxUrlsTest(unittest.TestCase):
+  """Spot pages drop the pair's `-`; perpetual pages keep the contract symbol."""
+
+  def test_urls(self):
+    symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+    cases = [
+      (SPOT_RULES, 'BTC-USDT', 'https://bingx.com/en/spot/BTCUSDT/'),
+      (PERPETUAL_RULES, 'BTC-USDT', 'https://bingx.com/en/perpetual/BTC-USDT/'),
+      (PERPETUAL_RULES, 'ETH-USDC', 'https://bingx.com/en/perpetual/ETH-USDC/'),
+    ]
+    for rules, id, url in cases:
+      with self.subTest(id=id):
+        self.assertEqual(rules['bingx'](id, {}, symbols), url)
+
+
+class CoinwPionexSpotUrlsTest(unittest.TestCase):
+  """CoinW spot pages use the lower-case concatenated pair; Pionex keeps the `_` symbol."""
+
+  def test_urls(self):
+    symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+    self.assertEqual(SPOT_RULES['coinw']('BTC_USDT', {}, symbols), 'https://www.coinw.com/spot/btcusdt')
+    self.assertEqual(SPOT_RULES['pionex']('ETH_BTC', {}, symbols), 'https://www.pionex.com/en/trade/ETH_BTC/Bot')
+
+
 if __name__ == '__main__':
   unittest.main()

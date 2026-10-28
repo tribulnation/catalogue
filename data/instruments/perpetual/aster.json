@@ -3829,5 +3829,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://www.asterdex.com/en/trade/pro/futures/SOLUSDC"
+  },
+  "CTUSDT": {
+    "exchange": "perp",
+    "base": "concrete",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/CTUSDT"
   }
 }

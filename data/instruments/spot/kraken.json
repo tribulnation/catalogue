@@ -7696,5 +7696,209 @@
     "base": "enzyme",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/mln-usd"
+  },
+  "AIEUR": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ai-eur"
+  },
+  "AIUSD": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ai-usd"
+  },
+  "BASEDEUR": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/based-eur"
+  },
+  "BASEDUSD": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/based-usd"
+  },
+  "CTUSD": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ct-usd"
+  },
+  "DEBITUSD": {
+    "exchange": "spot",
+    "base": "teller",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/debit-usd"
+  },
+  "DGAIUSD": {
+    "exchange": "spot",
+    "base": "dgrid-ai",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/dgai-usd"
+  },
+  "DNAUSD": {
+    "exchange": "spot",
+    "base": "neosoul",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/dna-usd"
+  },
+  "EGLDEUR": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/egld-eur"
+  },
+  "EGLDUSD": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/egld-usd"
+  },
+  "FIGHTEUR": {
+    "exchange": "spot",
+    "base": "fight",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/fight-eur"
+  },
+  "FIGHTUSD": {
+    "exchange": "spot",
+    "base": "fight",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/fight-usd"
+  },
+  "FOLDUSD": {
+    "exchange": "spot",
+    "base": "interfold",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/fold-usd"
+  },
+  "GASEUR": {
+    "exchange": "spot",
+    "base": "neo-gas",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/gas-eur"
+  },
+  "GASUSD": {
+    "exchange": "spot",
+    "base": "neo-gas",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/gas-usd"
+  },
+  "GNOTUSD": {
+    "exchange": "spot",
+    "base": "gno-land",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/gnot-usd"
+  },
+  "HPOS10IEUR": {
+    "exchange": "spot",
+    "base": "harrypotterobamasonic10inu",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/hpos10i-eur"
+  },
+  "HPOS10IUSD": {
+    "exchange": "spot",
+    "base": "harrypotterobamasonic10inu",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/hpos10i-usd"
+  },
+  "LAPTOPUSD": {
+    "exchange": "spot",
+    "base": "hunter-bidens-laptop",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/laptop-usd"
+  },
+  "MOODENGEUR": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/moodeng-eur"
+  },
+  "MOODENGUSD": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/moodeng-usd"
+  },
+  "NEIROEUR": {
+    "exchange": "spot",
+    "base": "neiro",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/neiro-eur"
+  },
+  "NEIROUSD": {
+    "exchange": "spot",
+    "base": "neiro",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/neiro-usd"
+  },
+  "NEXOUSD": {
+    "exchange": "spot",
+    "base": "nexo",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/nexo-usd"
+  },
+  "PONSUSD": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/pons-usd"
+  },
+  "STABLEUSD": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/stable-usd"
+  },
+  "TMXUSD": {
+    "exchange": "spot",
+    "base": "termmax",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/tmx-usd"
+  },
+  "TREADUSD": {
+    "exchange": "spot",
+    "base": "tread-fi",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/tread-usd"
+  },
+  "WMTXEUR": {
+    "exchange": "spot",
+    "base": "world-mobile-token",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/wmtx-eur"
+  },
+  "WMTXUSD": {
+    "exchange": "spot",
+    "base": "world-mobile-token",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/wmtx-usd"
+  },
+  "WOJAKUSD": {
+    "exchange": "spot",
+    "base": "wojak-coin",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/wojak-usd"
+  },
+  "XDPUSD": {
+    "exchange": "spot",
+    "base": "doppler-finance",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/xdp-usd"
+  },
+  "XU3O8EUR": {
+    "exchange": "spot",
+    "base": "uranium",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/xu3o8-eur"
+  },
+  "XU3O8USD": {
+    "exchange": "spot",
+    "base": "uranium",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/xu3o8-usd"
   }
 }
