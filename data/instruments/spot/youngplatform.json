@@ -1,0 +1,132 @@
+{
+  "AAVE-EUR": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "euro"
+  },
+  "ADA-EUR": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "euro"
+  },
+  "AVAX-EUR": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "euro"
+  },
+  "BCH-EUR": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "euro"
+  },
+  "BNB-EUR": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "euro"
+  },
+  "BNB-USDC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd-coin"
+  },
+  "BTC-EUR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro"
+  },
+  "BTC-USDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin"
+  },
+  "DOGE-EUR": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "euro"
+  },
+  "ENA-EUR": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "euro"
+  },
+  "ETH-EUR": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro"
+  },
+  "ETH-USDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin"
+  },
+  "HYPE-EUR": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "euro"
+  },
+  "LINK-EUR": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "euro"
+  },
+  "LTC-EUR": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "euro"
+  },
+  "NEAR-EUR": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "euro"
+  },
+  "ONDO-EUR": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "euro"
+  },
+  "POL-EUR": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "euro"
+  },
+  "RENDER-EUR": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "euro"
+  },
+  "SOL-EUR": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "euro"
+  },
+  "SOL-USDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin"
+  },
+  "SUI-EUR": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "euro"
+  },
+  "TRX-EUR": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "euro"
+  },
+  "UNI-EUR": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "euro"
+  },
+  "USDC-EUR": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "euro"
+  },
+  "XRP-EUR": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "euro"
+  }
+}

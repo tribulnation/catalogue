@@ -23,6 +23,42 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/1inch-usdt"
   },
+  "2Z-EUR": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/2z-eur"
+  },
+  "2Z-USDC": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/2z-usdc"
+  },
+  "2Z-USDT": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/2z-usdt"
+  },
+  "A-EUR": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/a-eur"
+  },
+  "A-USDC": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/a-usdc"
+  },
+  "A-USDT": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/a-usdt"
+  },
   "AAVE-EUR": {
     "exchange": "spot",
     "base": "aave",
@@ -77,6 +113,24 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/ace-usdt"
   },
+  "ACH-EUR": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/ach-eur"
+  },
+  "ACH-USDC": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/ach-usdc"
+  },
+  "ACH-USDT": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/ach-usdt"
+  },
   "ACT-TRY": {
     "exchange": "spot",
     "base": "act-i-the-ai-prophecy",
@@ -125,6 +179,90 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/ada-usdt"
   },
+  "AEVO-EUR": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/aevo-eur"
+  },
+  "AEVO-USDC": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/aevo-usdc"
+  },
+  "AEVO-USDT": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/aevo-usdt"
+  },
+  "AGLD-EUR": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/agld-eur"
+  },
+  "AGLD-USDC": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/agld-usdc"
+  },
+  "AGLD-USDT": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/agld-usdt"
+  },
+  "AI-EUR": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/ai-eur"
+  },
+  "AI-TRY": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/ai-try"
+  },
+  "AI-USDC": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/ai-usdc"
+  },
+  "AI-USDT": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/ai-usdt"
+  },
+  "AIXBT-EUR": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/aixbt-eur"
+  },
+  "AIXBT-TRY": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/aixbt-try"
+  },
+  "AIXBT-USDC": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/aixbt-usdc"
+  },
+  "AIXBT-USDT": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/aixbt-usdt"
+  },
   "ALGO-EUR": {
     "exchange": "spot",
     "base": "algorand",
@@ -148,6 +286,54 @@
     "base": "algorand",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/algo-usdt"
+  },
+  "ALLO-EUR": {
+    "exchange": "spot",
+    "base": "allora",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/allo-eur"
+  },
+  "ALLO-TRY": {
+    "exchange": "spot",
+    "base": "allora",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/allo-try"
+  },
+  "ALLO-USDC": {
+    "exchange": "spot",
+    "base": "allora",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/allo-usdc"
+  },
+  "ALLO-USDT": {
+    "exchange": "spot",
+    "base": "allora",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/allo-usdt"
+  },
+  "ANIME-EUR": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/anime-eur"
+  },
+  "ANIME-TRY": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/anime-try"
+  },
+  "ANIME-USDC": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/anime-usdc"
+  },
+  "ANIME-USDT": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/anime-usdt"
   },
   "APE-EUR": {
     "exchange": "spot",
@@ -178,6 +364,30 @@
     "base": "apecoin",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/ape-usdt"
+  },
+  "API3-EUR": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/api3-eur"
+  },
+  "API3-TRY": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/api3-try"
+  },
+  "API3-USDC": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/api3-usdc"
+  },
+  "API3-USDT": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/api3-usdt"
   },
   "APT-EUR": {
     "exchange": "spot",
@@ -293,6 +503,24 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/arkm-usdt"
   },
+  "ASP-EUR": {
+    "exchange": "spot",
+    "base": "aspecta",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/asp-eur"
+  },
+  "ASP-USDC": {
+    "exchange": "spot",
+    "base": "aspecta",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/asp-usdc"
+  },
+  "ASP-USDT": {
+    "exchange": "spot",
+    "base": "aspecta",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/asp-usdt"
+  },
   "ASTER-EUR": {
     "exchange": "spot",
     "base": "aster",
@@ -401,6 +629,24 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/atom-usdt"
   },
+  "AUCTION-EUR": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/auction-eur"
+  },
+  "AUCTION-USDC": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/auction-usdc"
+  },
+  "AUCTION-USDT": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/auction-usdt"
+  },
   "AVAX-EUR": {
     "exchange": "spot",
     "base": "avalanche",
@@ -485,6 +731,126 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/axs-usdt"
   },
+  "BABY-EUR": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/baby-eur"
+  },
+  "BABY-USDC": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/baby-usdc"
+  },
+  "BABY-USDT": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/baby-usdt"
+  },
+  "BABYDOGE-EUR": {
+    "exchange": "spot",
+    "base": "baby-doge-coin",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/babydoge-eur"
+  },
+  "BABYDOGE-USDC": {
+    "exchange": "spot",
+    "base": "baby-doge-coin",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/babydoge-usdc"
+  },
+  "BABYDOGE-USDT": {
+    "exchange": "spot",
+    "base": "baby-doge-coin",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/babydoge-usdt"
+  },
+  "BANANA-EUR": {
+    "exchange": "spot",
+    "base": "banana-gun",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/banana-eur"
+  },
+  "BANANA-USDC": {
+    "exchange": "spot",
+    "base": "banana-gun",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/banana-usdc"
+  },
+  "BANANA-USDT": {
+    "exchange": "spot",
+    "base": "banana-gun",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/banana-usdt"
+  },
+  "BAND-EUR": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/band-eur"
+  },
+  "BAND-USDC": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/band-usdc"
+  },
+  "BAND-USDT": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/band-usdt"
+  },
+  "BARD-EUR": {
+    "exchange": "spot",
+    "base": "lombard",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/bard-eur"
+  },
+  "BARD-TRY": {
+    "exchange": "spot",
+    "base": "lombard",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/bard-try"
+  },
+  "BARD-USDC": {
+    "exchange": "spot",
+    "base": "lombard",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/bard-usdc"
+  },
+  "BARD-USDT": {
+    "exchange": "spot",
+    "base": "lombard",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/bard-usdt"
+  },
+  "BASED-EUR": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/based-eur"
+  },
+  "BASED-TRY": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/based-try"
+  },
+  "BASED-USDC": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/based-usdc"
+  },
+  "BASED-USDT": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/based-usdt"
+  },
   "BAT-EUR": {
     "exchange": "spot",
     "base": "basic-attention-token",
@@ -562,6 +928,42 @@
     "base": "berachain",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/bera-usdt"
+  },
+  "BICO-EUR": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/bico-eur"
+  },
+  "BICO-USDC": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/bico-usdc"
+  },
+  "BICO-USDT": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/bico-usdt"
+  },
+  "BIGTIME-EUR": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/bigtime-eur"
+  },
+  "BIGTIME-USDC": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/bigtime-usdc"
+  },
+  "BIGTIME-USDT": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/bigtime-usdt"
   },
   "BIO-EUR": {
     "exchange": "spot",
@@ -641,6 +1043,42 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/bnb-usdt"
   },
+  "BNT-EUR": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/bnt-eur"
+  },
+  "BNT-USDC": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/bnt-usdc"
+  },
+  "BNT-USDT": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/bnt-usdt"
+  },
+  "BOME-EUR": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/bome-eur"
+  },
+  "BOME-USDC": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/bome-usdc"
+  },
+  "BOME-USDT": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/bome-usdt"
+  },
   "BONK-EUR": {
     "exchange": "spot",
     "base": "bonk",
@@ -671,17 +1109,71 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/bonk-usdt"
   },
+  "BREV-EUR": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/brev-eur"
+  },
+  "BREV-TRY": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/brev-try"
+  },
+  "BREV-USDC": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/brev-usdc"
+  },
+  "BREV-USDT": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/brev-usdt"
+  },
+  "BRL1-BRL": {
+    "exchange": "spot",
+    "base": "brl1",
+    "quote": "brazilian-real",
+    "url": "https://www.okx.com/trade-spot/brl1-brl"
+  },
+  "BRL1-USDT": {
+    "exchange": "spot",
+    "base": "brl1",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/brl1-usdt"
+  },
+  "BTC-AED": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "uae-dirham",
+    "url": "https://www.okx.com/trade-spot/btc-aed"
+  },
   "BTC-AUD": {
     "exchange": "spot",
     "base": "bitcoin",
     "quote": "australian-dollar",
     "url": "https://www.okx.com/trade-spot/btc-aud"
   },
+  "BTC-BRL": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "brazilian-real",
+    "url": "https://www.okx.com/trade-spot/btc-brl"
+  },
   "BTC-EUR": {
     "exchange": "spot",
     "base": "bitcoin",
     "quote": "euro",
     "url": "https://www.okx.com/trade-spot/btc-eur"
+  },
+  "BTC-PLN": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "polish-zloty",
+    "url": "https://www.okx.com/trade-spot/btc-pln"
   },
   "BTC-TRY": {
     "exchange": "spot",
@@ -706,6 +1198,48 @@
     "base": "bitcoin",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/btc-usdt"
+  },
+  "CARDS-EUR": {
+    "exchange": "spot",
+    "base": "collector-crypt",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/cards-eur"
+  },
+  "CARDS-TRY": {
+    "exchange": "spot",
+    "base": "collector-crypt",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/cards-try"
+  },
+  "CARDS-USDC": {
+    "exchange": "spot",
+    "base": "collector-crypt",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/cards-usdc"
+  },
+  "CARDS-USDT": {
+    "exchange": "spot",
+    "base": "collector-crypt",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/cards-usdt"
+  },
+  "CAT-EUR": {
+    "exchange": "spot",
+    "base": "simon-s-cat",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/cat-eur"
+  },
+  "CAT-USDC": {
+    "exchange": "spot",
+    "base": "simon-s-cat",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/cat-usdc"
+  },
+  "CAT-USDT": {
+    "exchange": "spot",
+    "base": "simon-s-cat",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/cat-usdt"
   },
   "CATI-EUR": {
     "exchange": "spot",
@@ -785,6 +1319,60 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/celo-usdt"
   },
+  "CELR-EUR": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/celr-eur"
+  },
+  "CELR-USDC": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/celr-usdc"
+  },
+  "CELR-USDT": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/celr-usdt"
+  },
+  "CETUS-USDC": {
+    "exchange": "spot",
+    "base": "cetus-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/cetus-usdc"
+  },
+  "CETUS-USDT": {
+    "exchange": "spot",
+    "base": "cetus-protocol",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/cetus-usdt"
+  },
+  "CFG-EUR": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/cfg-eur"
+  },
+  "CFG-TRY": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/cfg-try"
+  },
+  "CFG-USDC": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/cfg-usdc"
+  },
+  "CFG-USDT": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/cfg-usdt"
+  },
   "CFX-EUR": {
     "exchange": "spot",
     "base": "conflux",
@@ -808,6 +1396,30 @@
     "base": "conflux",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/cfx-usdt"
+  },
+  "CHIP-EUR": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/chip-eur"
+  },
+  "CHIP-TRY": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/chip-try"
+  },
+  "CHIP-USDC": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/chip-usdc"
+  },
+  "CHIP-USDT": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/chip-usdt"
   },
   "CHZ-EUR": {
     "exchange": "spot",
@@ -893,6 +1505,30 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/core-usdt"
   },
+  "CP-EUR": {
+    "exchange": "spot",
+    "base": "cluster-protocol",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/cp-eur"
+  },
+  "CP-TRY": {
+    "exchange": "spot",
+    "base": "cluster-protocol",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/cp-try"
+  },
+  "CP-USDC": {
+    "exchange": "spot",
+    "base": "cluster-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/cp-usdc"
+  },
+  "CP-USDT": {
+    "exchange": "spot",
+    "base": "cluster-protocol",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/cp-usdt"
+  },
   "CRO-EUR": {
     "exchange": "spot",
     "base": "cronos",
@@ -947,6 +1583,84 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/crv-usdt"
   },
+  "CSPR-EUR": {
+    "exchange": "spot",
+    "base": "casper",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/cspr-eur"
+  },
+  "CSPR-USDC": {
+    "exchange": "spot",
+    "base": "casper",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/cspr-usdc"
+  },
+  "CSPR-USDT": {
+    "exchange": "spot",
+    "base": "casper",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/cspr-usdt"
+  },
+  "CT-EUR": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/ct-eur"
+  },
+  "CT-TRY": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/ct-try"
+  },
+  "CT-USDC": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/ct-usdc"
+  },
+  "CT-USDT": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/ct-usdt"
+  },
+  "CTC-EUR": {
+    "exchange": "spot",
+    "base": "creditcoin",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/ctc-eur"
+  },
+  "CTC-USDC": {
+    "exchange": "spot",
+    "base": "creditcoin",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/ctc-usdc"
+  },
+  "CTC-USDT": {
+    "exchange": "spot",
+    "base": "creditcoin",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/ctc-usdt"
+  },
+  "CVC-EUR": {
+    "exchange": "spot",
+    "base": "civic",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/cvc-eur"
+  },
+  "CVC-USDC": {
+    "exchange": "spot",
+    "base": "civic",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/cvc-usdc"
+  },
+  "CVC-USDT": {
+    "exchange": "spot",
+    "base": "civic",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/cvc-usdt"
+  },
   "CVX-EUR": {
     "exchange": "spot",
     "base": "convex-finance",
@@ -995,6 +1709,42 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/dash-usdt"
   },
+  "DEGEN-EUR": {
+    "exchange": "spot",
+    "base": "degen-base",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/degen-eur"
+  },
+  "DEGEN-USDC": {
+    "exchange": "spot",
+    "base": "degen-base",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/degen-usdc"
+  },
+  "DEGEN-USDT": {
+    "exchange": "spot",
+    "base": "degen-base",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/degen-usdt"
+  },
+  "DGB-EUR": {
+    "exchange": "spot",
+    "base": "digibyte",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/dgb-eur"
+  },
+  "DGB-USDC": {
+    "exchange": "spot",
+    "base": "digibyte",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/dgb-usdc"
+  },
+  "DGB-USDT": {
+    "exchange": "spot",
+    "base": "digibyte",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/dgb-usdt"
+  },
   "DOGE-EUR": {
     "exchange": "spot",
     "base": "dogecoin",
@@ -1024,6 +1774,66 @@
     "base": "dogecoin",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/doge-usdt"
+  },
+  "DOGS-EUR": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/dogs-eur"
+  },
+  "DOGS-USDC": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/dogs-usdc"
+  },
+  "DOGS-USDT": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/dogs-usdt"
+  },
+  "DOOD-EUR": {
+    "exchange": "spot",
+    "base": "doodles",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/dood-eur"
+  },
+  "DOOD-USDC": {
+    "exchange": "spot",
+    "base": "doodles",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/dood-usdc"
+  },
+  "DOOD-USDT": {
+    "exchange": "spot",
+    "base": "doodles",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/dood-usdt"
+  },
+  "DOS-EUR": {
+    "exchange": "spot",
+    "base": "dappos",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/dos-eur"
+  },
+  "DOS-TRY": {
+    "exchange": "spot",
+    "base": "dappos",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/dos-try"
+  },
+  "DOS-USDC": {
+    "exchange": "spot",
+    "base": "dappos",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/dos-usdc"
+  },
+  "DOS-USDT": {
+    "exchange": "spot",
+    "base": "dappos",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/dos-usdt"
   },
   "DOT-EUR": {
     "exchange": "spot",
@@ -1078,6 +1888,48 @@
     "base": "dydx",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/dydx-usdt"
+  },
+  "EDGE-EUR": {
+    "exchange": "spot",
+    "base": "edgex",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/edge-eur"
+  },
+  "EDGE-TRY": {
+    "exchange": "spot",
+    "base": "edgex",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/edge-try"
+  },
+  "EDGE-USDC": {
+    "exchange": "spot",
+    "base": "edgex",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/edge-usdc"
+  },
+  "EDGE-USDT": {
+    "exchange": "spot",
+    "base": "edgex",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/edge-usdt"
+  },
+  "EGLD-EUR": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/egld-eur"
+  },
+  "EGLD-USDC": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/egld-usdc"
+  },
+  "EGLD-USDT": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/egld-usdt"
   },
   "EIGEN-EUR": {
     "exchange": "spot",
@@ -1139,6 +1991,30 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/ena-usdt"
   },
+  "ENJ-EUR": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/enj-eur"
+  },
+  "ENJ-TRY": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/enj-try"
+  },
+  "ENJ-USDC": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/enj-usdc"
+  },
+  "ENJ-USDT": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/enj-usdt"
+  },
   "ENS-EUR": {
     "exchange": "spot",
     "base": "ethereum-name-service",
@@ -1187,11 +2063,23 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/etc-usdt"
   },
+  "ETH-AED": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "uae-dirham",
+    "url": "https://www.okx.com/trade-spot/eth-aed"
+  },
   "ETH-AUD": {
     "exchange": "spot",
     "base": "ethereum",
     "quote": "australian-dollar",
     "url": "https://www.okx.com/trade-spot/eth-aud"
+  },
+  "ETH-BRL": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "brazilian-real",
+    "url": "https://www.okx.com/trade-spot/eth-brl"
   },
   "ETH-BTC": {
     "exchange": "spot",
@@ -1204,6 +2092,12 @@
     "base": "ethereum",
     "quote": "euro",
     "url": "https://www.okx.com/trade-spot/eth-eur"
+  },
+  "ETH-PLN": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "polish-zloty",
+    "url": "https://www.okx.com/trade-spot/eth-pln"
   },
   "ETH-TRY": {
     "exchange": "spot",
@@ -1259,11 +2153,35 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/ethfi-usdt"
   },
+  "ETHW-EUR": {
+    "exchange": "spot",
+    "base": "ethereum-pow",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/ethw-eur"
+  },
+  "ETHW-USDC": {
+    "exchange": "spot",
+    "base": "ethereum-pow",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/ethw-usdc"
+  },
+  "ETHW-USDT": {
+    "exchange": "spot",
+    "base": "ethereum-pow",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/ethw-usdt"
+  },
   "EURC-USD": {
     "exchange": "spot",
     "base": "euro-coin",
     "quote": "usd",
     "url": "https://www.okx.com/trade-spot/eurc-usd"
+  },
+  "EURC-USDC": {
+    "exchange": "spot",
+    "base": "euro-coin",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/eurc-usdc"
   },
   "FET-EUR": {
     "exchange": "spot",
@@ -1355,6 +2273,24 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/floki-usdt"
   },
+  "FLOW-EUR": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/flow-eur"
+  },
+  "FLOW-USDC": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/flow-usdc"
+  },
+  "FLOW-USDT": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/flow-usdt"
+  },
   "FLR-EUR": {
     "exchange": "spot",
     "base": "flare",
@@ -1378,6 +2314,30 @@
     "base": "flare",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/flr-usdt"
+  },
+  "FOGO-EUR": {
+    "exchange": "spot",
+    "base": "fogo",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/fogo-eur"
+  },
+  "FOGO-TRY": {
+    "exchange": "spot",
+    "base": "fogo",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/fogo-try"
+  },
+  "FOGO-USDC": {
+    "exchange": "spot",
+    "base": "fogo",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/fogo-usdc"
+  },
+  "FOGO-USDT": {
+    "exchange": "spot",
+    "base": "fogo",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/fogo-usdt"
   },
   "G-EUR": {
     "exchange": "spot",
@@ -1432,6 +2392,24 @@
     "base": "gala",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/gala-usdt"
+  },
+  "GAS-EUR": {
+    "exchange": "spot",
+    "base": "neo-gas",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/gas-eur"
+  },
+  "GAS-USDC": {
+    "exchange": "spot",
+    "base": "neo-gas",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/gas-usdc"
+  },
+  "GAS-USDT": {
+    "exchange": "spot",
+    "base": "neo-gas",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/gas-usdt"
   },
   "GLM-EUR": {
     "exchange": "spot",
@@ -1493,6 +2471,48 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/gmx-usdt"
   },
+  "GOAT-EUR": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/goat-eur"
+  },
+  "GOAT-USDC": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/goat-usdc"
+  },
+  "GOAT-USDT": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/goat-usdt"
+  },
+  "GRAM-EUR": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/gram-eur"
+  },
+  "GRAM-TRY": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/gram-try"
+  },
+  "GRAM-USDC": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/gram-usdc"
+  },
+  "GRAM-USDT": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/gram-usdt"
+  },
   "GRASS-EUR": {
     "exchange": "spot",
     "base": "grass",
@@ -1547,6 +2567,30 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/grt-usdt"
   },
+  "GRVT-EUR": {
+    "exchange": "spot",
+    "base": "grvt",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/grvt-eur"
+  },
+  "GRVT-TRY": {
+    "exchange": "spot",
+    "base": "grvt",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/grvt-try"
+  },
+  "GRVT-USDC": {
+    "exchange": "spot",
+    "base": "grvt",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/grvt-usdc"
+  },
+  "GRVT-USDT": {
+    "exchange": "spot",
+    "base": "grvt",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/grvt-usdt"
+  },
   "HBAR-EUR": {
     "exchange": "spot",
     "base": "hedera",
@@ -1576,6 +2620,54 @@
     "base": "hedera",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/hbar-usdt"
+  },
+  "HMSTR-EUR": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/hmstr-eur"
+  },
+  "HMSTR-TRY": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/hmstr-try"
+  },
+  "HMSTR-USDC": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/hmstr-usdc"
+  },
+  "HMSTR-USDT": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/hmstr-usdt"
+  },
+  "HUMA-EUR": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/huma-eur"
+  },
+  "HUMA-TRY": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/huma-try"
+  },
+  "HUMA-USDC": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/huma-usdc"
+  },
+  "HUMA-USDT": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/huma-usdt"
   },
   "HYPE-EUR": {
     "exchange": "spot",
@@ -1636,6 +2728,42 @@
     "base": "internet-computer",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/icp-usdt"
+  },
+  "ID-EUR": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/id-eur"
+  },
+  "ID-USDC": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/id-usdc"
+  },
+  "ID-USDT": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/id-usdt"
+  },
+  "ILV-EUR": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/ilv-eur"
+  },
+  "ILV-USDC": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/ilv-usdc"
+  },
+  "ILV-USDT": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/ilv-usdt"
   },
   "IMX-EUR": {
     "exchange": "spot",
@@ -1733,6 +2861,36 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/iota-usdt"
   },
+  "IRYS-EUR": {
+    "exchange": "spot",
+    "base": "irys",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/irys-eur"
+  },
+  "IRYS-TRY": {
+    "exchange": "spot",
+    "base": "irys",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/irys-try"
+  },
+  "IRYS-USDC": {
+    "exchange": "spot",
+    "base": "irys",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/irys-usdc"
+  },
+  "IRYS-USDT": {
+    "exchange": "spot",
+    "base": "irys",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/irys-usdt"
+  },
+  "JITOSOL-USDT": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/jitosol-usdt"
+  },
   "JTO-EUR": {
     "exchange": "spot",
     "base": "jito",
@@ -1817,6 +2975,12 @@
     "quote": "euro",
     "url": "https://www.okx.com/trade-spot/kaito-eur"
   },
+  "KAITO-TRY": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/kaito-try"
+  },
   "KAITO-USD": {
     "exchange": "spot",
     "base": "kaito",
@@ -1834,6 +2998,108 @@
     "base": "kaito",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/kaito-usdt"
+  },
+  "KAT-EUR": {
+    "exchange": "spot",
+    "base": "katana-network-token",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/kat-eur"
+  },
+  "KAT-TRY": {
+    "exchange": "spot",
+    "base": "katana-network-token",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/kat-try"
+  },
+  "KAT-USDC": {
+    "exchange": "spot",
+    "base": "katana-network-token",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/kat-usdc"
+  },
+  "KAT-USDT": {
+    "exchange": "spot",
+    "base": "katana-network-token",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/kat-usdt"
+  },
+  "KITE-EUR": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/kite-eur"
+  },
+  "KITE-TRY": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/kite-try"
+  },
+  "KITE-USDC": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/kite-usdc"
+  },
+  "KITE-USDT": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/kite-usdt"
+  },
+  "KMNO-EUR": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/kmno-eur"
+  },
+  "KMNO-USDC": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/kmno-usdc"
+  },
+  "KMNO-USDT": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/kmno-usdt"
+  },
+  "KNC-EUR": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/knc-eur"
+  },
+  "KNC-USDC": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/knc-usdc"
+  },
+  "KNC-USDT": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/knc-usdt"
+  },
+  "KSM-EUR": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/ksm-eur"
+  },
+  "KSM-USDC": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/ksm-usdc"
+  },
+  "KSM-USDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/ksm-usdt"
   },
   "LAYER-EUR": {
     "exchange": "spot",
@@ -1973,6 +3239,12 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/link-usdt"
   },
+  "LIT-EUR": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/lit-eur"
+  },
   "LIT-TRY": {
     "exchange": "spot",
     "base": "lighter",
@@ -1985,11 +3257,89 @@
     "quote": "usd",
     "url": "https://www.okx.com/trade-spot/lit-usd"
   },
+  "LIT-USDC": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/lit-usdc"
+  },
   "LIT-USDT": {
     "exchange": "spot",
     "base": "lighter",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/lit-usdt"
+  },
+  "LPT-EUR": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/lpt-eur"
+  },
+  "LPT-USDC": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/lpt-usdc"
+  },
+  "LPT-USDT": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/lpt-usdt"
+  },
+  "LQTY-EUR": {
+    "exchange": "spot",
+    "base": "liquity",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/lqty-eur"
+  },
+  "LQTY-USDC": {
+    "exchange": "spot",
+    "base": "liquity",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/lqty-usdc"
+  },
+  "LQTY-USDT": {
+    "exchange": "spot",
+    "base": "liquity",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/lqty-usdt"
+  },
+  "LRC-EUR": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/lrc-eur"
+  },
+  "LRC-USDC": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/lrc-usdc"
+  },
+  "LRC-USDT": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/lrc-usdt"
+  },
+  "LSK-EUR": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/lsk-eur"
+  },
+  "LSK-USDC": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/lsk-usdc"
+  },
+  "LSK-USDT": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/lsk-usdt"
   },
   "LTC-EUR": {
     "exchange": "spot",
@@ -2020,6 +3370,54 @@
     "base": "litecoin",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/ltc-usdt"
+  },
+  "LUNA-EUR": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/luna-eur"
+  },
+  "LUNA-TRY": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/luna-try"
+  },
+  "LUNA-USDC": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/luna-usdc"
+  },
+  "LUNA-USDT": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/luna-usdt"
+  },
+  "MAGIC-EUR": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/magic-eur"
+  },
+  "MAGIC-TRY": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/magic-try"
+  },
+  "MAGIC-USDC": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/magic-usdc"
+  },
+  "MAGIC-USDT": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/magic-usdt"
   },
   "MANA-EUR": {
     "exchange": "spot",
@@ -2093,6 +3491,144 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/me-usdt"
   },
+  "MEGA-EUR": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/mega-eur"
+  },
+  "MEGA-USDC": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/mega-usdc"
+  },
+  "MEGA-USDT": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/mega-usdt"
+  },
+  "MEME-EUR": {
+    "exchange": "spot",
+    "base": "memecoin",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/meme-eur"
+  },
+  "MEME-USDC": {
+    "exchange": "spot",
+    "base": "memecoin",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/meme-usdc"
+  },
+  "MEME-USDT": {
+    "exchange": "spot",
+    "base": "memecoin",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/meme-usdt"
+  },
+  "MERL-EUR": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/merl-eur"
+  },
+  "MERL-TRY": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/merl-try"
+  },
+  "MERL-USDC": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/merl-usdc"
+  },
+  "MERL-USDT": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/merl-usdt"
+  },
+  "MET-USDT": {
+    "exchange": "spot",
+    "base": "meteora",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/met-usdt"
+  },
+  "METIS-EUR": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/metis-eur"
+  },
+  "METIS-USDC": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/metis-usdc"
+  },
+  "METIS-USDT": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/metis-usdt"
+  },
+  "MEW-EUR": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/mew-eur"
+  },
+  "MEW-USDC": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/mew-usdc"
+  },
+  "MEW-USDT": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/mew-usdt"
+  },
+  "MINA-EUR": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/mina-eur"
+  },
+  "MINA-USDC": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/mina-usdc"
+  },
+  "MINA-USDT": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/mina-usdt"
+  },
+  "MMT-EUR": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/mmt-eur"
+  },
+  "MMT-USDC": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/mmt-usdc"
+  },
+  "MMT-USDT": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/mmt-usdt"
+  },
   "MON-EUR": {
     "exchange": "spot",
     "base": "monad",
@@ -2123,6 +3659,24 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/mon-usdt"
   },
+  "MOODENG-EUR": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/moodeng-eur"
+  },
+  "MOODENG-USDC": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/moodeng-usdc"
+  },
+  "MOODENG-USDT": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/moodeng-usdt"
+  },
   "MORPHO-EUR": {
     "exchange": "spot",
     "base": "morpho",
@@ -2146,6 +3700,42 @@
     "base": "morpho",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/morpho-usdt"
+  },
+  "MOVE-EUR": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/move-eur"
+  },
+  "MOVE-USDC": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/move-usdc"
+  },
+  "MOVE-USDT": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/move-usdt"
+  },
+  "NAVX-EUR": {
+    "exchange": "spot",
+    "base": "navi-protocol",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/navx-eur"
+  },
+  "NAVX-USDC": {
+    "exchange": "spot",
+    "base": "navi-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/navx-usdc"
+  },
+  "NAVX-USDT": {
+    "exchange": "spot",
+    "base": "navi-protocol",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/navx-usdt"
   },
   "NEAR-EUR": {
     "exchange": "spot",
@@ -2201,6 +3791,78 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/neo-usdt"
   },
+  "NES-EUR": {
+    "exchange": "spot",
+    "base": "nesa",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/nes-eur"
+  },
+  "NES-TRY": {
+    "exchange": "spot",
+    "base": "nesa",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/nes-try"
+  },
+  "NES-USDC": {
+    "exchange": "spot",
+    "base": "nesa",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/nes-usdc"
+  },
+  "NES-USDT": {
+    "exchange": "spot",
+    "base": "nesa",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/nes-usdt"
+  },
+  "NFT-USDT": {
+    "exchange": "spot",
+    "base": "apenft",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/nft-usdt"
+  },
+  "NIGHT-EUR": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/night-eur"
+  },
+  "NIGHT-TRY": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/night-try"
+  },
+  "NIGHT-USDC": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/night-usdc"
+  },
+  "NIGHT-USDT": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/night-usdt"
+  },
+  "NMR-EUR": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/nmr-eur"
+  },
+  "NMR-USDC": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/nmr-usdc"
+  },
+  "NMR-USDT": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/nmr-usdt"
+  },
   "NOT-EUR": {
     "exchange": "spot",
     "base": "notcoin",
@@ -2254,6 +3916,24 @@
     "base": "okb",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/okb-usdt"
+  },
+  "OMI-EUR": {
+    "exchange": "spot",
+    "base": "ecomi",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/omi-eur"
+  },
+  "OMI-USDC": {
+    "exchange": "spot",
+    "base": "ecomi",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/omi-usdc"
+  },
+  "OMI-USDT": {
+    "exchange": "spot",
+    "base": "ecomi",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/omi-usdt"
   },
   "ONDO-EUR": {
     "exchange": "spot",
@@ -2315,6 +3995,30 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/op-usdt"
   },
+  "ORBS-EUR": {
+    "exchange": "spot",
+    "base": "orbs",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/orbs-eur"
+  },
+  "ORBS-TRY": {
+    "exchange": "spot",
+    "base": "orbs",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/orbs-try"
+  },
+  "ORBS-USDC": {
+    "exchange": "spot",
+    "base": "orbs",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/orbs-usdc"
+  },
+  "ORBS-USDT": {
+    "exchange": "spot",
+    "base": "orbs",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/orbs-usdt"
+  },
   "ORDI-EUR": {
     "exchange": "spot",
     "base": "ordi",
@@ -2344,6 +4048,30 @@
     "base": "ordi",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/ordi-usdt"
+  },
+  "PARTI-EUR": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/parti-eur"
+  },
+  "PARTI-TRY": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/parti-try"
+  },
+  "PARTI-USDC": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/parti-usdc"
+  },
+  "PARTI-USDT": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/parti-usdt"
   },
   "PAXG-TRY": {
     "exchange": "spot",
@@ -2417,6 +4145,30 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/pengu-usdt"
   },
+  "PEOPLE-EUR": {
+    "exchange": "spot",
+    "base": "constitutiondao",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/people-eur"
+  },
+  "PEOPLE-USDC": {
+    "exchange": "spot",
+    "base": "constitutiondao",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/people-usdc"
+  },
+  "PEOPLE-USDT": {
+    "exchange": "spot",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/people-usdt"
+  },
+  "PEPE-BRL": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "brazilian-real",
+    "url": "https://www.okx.com/trade-spot/pepe-brl"
+  },
   "PEPE-EUR": {
     "exchange": "spot",
     "base": "pepe",
@@ -2446,6 +4198,24 @@
     "base": "pepe",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/pepe-usdt"
+  },
+  "PHA-TRY": {
+    "exchange": "spot",
+    "base": "pha",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/pha-try"
+  },
+  "PHA-USDT": {
+    "exchange": "spot",
+    "base": "pha",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/pha-usdt"
+  },
+  "PI-BRL": {
+    "exchange": "spot",
+    "base": "pi",
+    "quote": "brazilian-real",
+    "url": "https://www.okx.com/trade-spot/pi-brl"
   },
   "PI-EUR": {
     "exchange": "spot",
@@ -2555,6 +4325,78 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/pol-usdt"
   },
+  "PONS-TRY": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/pons-try"
+  },
+  "PONS-USDT": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/pons-usdt"
+  },
+  "PROMPT-EUR": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/prompt-eur"
+  },
+  "PROMPT-USDC": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/prompt-usdc"
+  },
+  "PROMPT-USDT": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/prompt-usdt"
+  },
+  "PROS-EUR": {
+    "exchange": "spot",
+    "base": "pharos-network",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/pros-eur"
+  },
+  "PROS-TRY": {
+    "exchange": "spot",
+    "base": "pharos-network",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/pros-try"
+  },
+  "PROS-USDC": {
+    "exchange": "spot",
+    "base": "pharos-network",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/pros-usdc"
+  },
+  "PROS-USDT": {
+    "exchange": "spot",
+    "base": "pharos-network",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/pros-usdt"
+  },
+  "PROVE-EUR": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/prove-eur"
+  },
+  "PROVE-USDC": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/prove-usdc"
+  },
+  "PROVE-USDT": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/prove-usdt"
+  },
   "PUMP-EUR": {
     "exchange": "spot",
     "base": "pump",
@@ -2615,6 +4457,24 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/pyusd-usdt"
   },
+  "QTUM-EUR": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/qtum-eur"
+  },
+  "QTUM-USDC": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/qtum-usdc"
+  },
+  "QTUM-USDT": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/qtum-usdt"
+  },
   "RAY-EUR": {
     "exchange": "spot",
     "base": "raydium",
@@ -2638,6 +4498,30 @@
     "base": "raydium",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/ray-usdt"
+  },
+  "RE-EUR": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/re-eur"
+  },
+  "RE-TRY": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/re-try"
+  },
+  "RE-USDC": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/re-usdc"
+  },
+  "RE-USDT": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/re-usdt"
   },
   "RENDER-EUR": {
     "exchange": "spot",
@@ -2669,11 +4553,131 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/render-usdt"
   },
+  "RESOLV-EUR": {
+    "exchange": "spot",
+    "base": "resolv",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/resolv-eur"
+  },
+  "RESOLV-TRY": {
+    "exchange": "spot",
+    "base": "resolv",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/resolv-try"
+  },
+  "RESOLV-USDC": {
+    "exchange": "spot",
+    "base": "resolv",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/resolv-usdc"
+  },
+  "RESOLV-USDT": {
+    "exchange": "spot",
+    "base": "resolv",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/resolv-usdt"
+  },
   "RLUSD-USDT": {
     "exchange": "spot",
     "base": "ripple-usd",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/rlusd-usdt"
+  },
+  "ROBO-EUR": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/robo-eur"
+  },
+  "ROBO-TRY": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/robo-try"
+  },
+  "ROBO-USDC": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/robo-usdc"
+  },
+  "ROBO-USDT": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/robo-usdt"
+  },
+  "RON-EUR": {
+    "exchange": "spot",
+    "base": "ronin",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/ron-eur"
+  },
+  "RON-USDC": {
+    "exchange": "spot",
+    "base": "ronin",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/ron-usdc"
+  },
+  "RON-USDT": {
+    "exchange": "spot",
+    "base": "ronin",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/ron-usdt"
+  },
+  "RPL-EUR": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/rpl-eur"
+  },
+  "RPL-USDC": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/rpl-usdc"
+  },
+  "RPL-USDT": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/rpl-usdt"
+  },
+  "RSR-EUR": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/rsr-eur"
+  },
+  "RSR-USDC": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/rsr-usdc"
+  },
+  "RSR-USDT": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/rsr-usdt"
+  },
+  "RVN-EUR": {
+    "exchange": "spot",
+    "base": "ravencoin",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/rvn-eur"
+  },
+  "RVN-USDC": {
+    "exchange": "spot",
+    "base": "ravencoin",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/rvn-usdc"
+  },
+  "RVN-USDT": {
+    "exchange": "spot",
+    "base": "ravencoin",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/rvn-usdt"
   },
   "S-EUR": {
     "exchange": "spot",
@@ -2698,6 +4702,48 @@
     "base": "sonic",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/s-usdt"
+  },
+  "SAFE-EUR": {
+    "exchange": "spot",
+    "base": "safe",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/safe-eur"
+  },
+  "SAFE-USDC": {
+    "exchange": "spot",
+    "base": "safe",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/safe-usdc"
+  },
+  "SAFE-USDT": {
+    "exchange": "spot",
+    "base": "safe",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/safe-usdt"
+  },
+  "SAHARA-EUR": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/sahara-eur"
+  },
+  "SAHARA-TRY": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/sahara-try"
+  },
+  "SAHARA-USDC": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/sahara-usdc"
+  },
+  "SAHARA-USDT": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/sahara-usdt"
   },
   "SAND-EUR": {
     "exchange": "spot",
@@ -2729,6 +4775,48 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/sand-usdt"
   },
+  "SATS-EUR": {
+    "exchange": "spot",
+    "base": "sats-ordinals",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/sats-eur"
+  },
+  "SATS-USDC": {
+    "exchange": "spot",
+    "base": "sats-ordinals",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/sats-usdc"
+  },
+  "SATS-USDT": {
+    "exchange": "spot",
+    "base": "sats-ordinals",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/sats-usdt"
+  },
+  "SCR-EUR": {
+    "exchange": "spot",
+    "base": "scroll",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/scr-eur"
+  },
+  "SCR-USDC": {
+    "exchange": "spot",
+    "base": "scroll",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/scr-usdc"
+  },
+  "SCR-USDT": {
+    "exchange": "spot",
+    "base": "scroll",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/scr-usdt"
+  },
+  "SD-USDT": {
+    "exchange": "spot",
+    "base": "stader",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/sd-usdt"
+  },
   "SEI-EUR": {
     "exchange": "spot",
     "base": "sei",
@@ -2758,6 +4846,30 @@
     "base": "sei",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/sei-usdt"
+  },
+  "SENT-EUR": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/sent-eur"
+  },
+  "SENT-TRY": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/sent-try"
+  },
+  "SENT-USDC": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/sent-usdc"
+  },
+  "SENT-USDT": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/sent-usdt"
   },
   "SHIB-EUR": {
     "exchange": "spot",
@@ -2813,6 +4925,36 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/sky-usdt"
   },
+  "SLP-USDT": {
+    "exchange": "spot",
+    "base": "smooth-love-potion",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/slp-usdt"
+  },
+  "SLX-EUR": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/slx-eur"
+  },
+  "SLX-TRY": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/slx-try"
+  },
+  "SLX-USDC": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/slx-usdc"
+  },
+  "SLX-USDT": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/slx-usdt"
+  },
   "SNX-EUR": {
     "exchange": "spot",
     "base": "synthetix",
@@ -2843,11 +4985,23 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/snx-usdt"
   },
+  "SOL-AED": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "uae-dirham",
+    "url": "https://www.okx.com/trade-spot/sol-aed"
+  },
   "SOL-AUD": {
     "exchange": "spot",
     "base": "solana",
     "quote": "australian-dollar",
     "url": "https://www.okx.com/trade-spot/sol-aud"
+  },
+  "SOL-BRL": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "brazilian-real",
+    "url": "https://www.okx.com/trade-spot/sol-brl"
   },
   "SOL-BTC": {
     "exchange": "spot",
@@ -2884,6 +5038,102 @@
     "base": "solana",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/sol-usdt"
+  },
+  "SONIC-EUR": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/sonic-eur"
+  },
+  "SONIC-USDC": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/sonic-usdc"
+  },
+  "SONIC-USDT": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/sonic-usdt"
+  },
+  "SOPH-EUR": {
+    "exchange": "spot",
+    "base": "sophon",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/soph-eur"
+  },
+  "SOPH-USDC": {
+    "exchange": "spot",
+    "base": "sophon",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/soph-usdc"
+  },
+  "SOPH-USDT": {
+    "exchange": "spot",
+    "base": "sophon",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/soph-usdt"
+  },
+  "SPACE-EUR": {
+    "exchange": "spot",
+    "base": "spacecoin",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/space-eur"
+  },
+  "SPACE-TRY": {
+    "exchange": "spot",
+    "base": "spacecoin",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/space-try"
+  },
+  "SPACE-USDC": {
+    "exchange": "spot",
+    "base": "spacecoin",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/space-usdc"
+  },
+  "SPACE-USDT": {
+    "exchange": "spot",
+    "base": "spacecoin",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/space-usdt"
+  },
+  "SPK-EUR": {
+    "exchange": "spot",
+    "base": "spark",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/spk-eur"
+  },
+  "SPK-USDC": {
+    "exchange": "spot",
+    "base": "spark",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/spk-usdc"
+  },
+  "SPK-USDT": {
+    "exchange": "spot",
+    "base": "spark",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/spk-usdt"
+  },
+  "SSV-EUR": {
+    "exchange": "spot",
+    "base": "ssv-network",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/ssv-eur"
+  },
+  "SSV-USDC": {
+    "exchange": "spot",
+    "base": "ssv-network",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/ssv-usdc"
+  },
+  "SSV-USDT": {
+    "exchange": "spot",
+    "base": "ssv-network",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/ssv-usdt"
   },
   "STETH-ETH": {
     "exchange": "spot",
@@ -2993,6 +5243,42 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/sui-usdt"
   },
+  "SUSHI-EUR": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/sushi-eur"
+  },
+  "SUSHI-USDC": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/sushi-usdc"
+  },
+  "SUSHI-USDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/sushi-usdt"
+  },
+  "SWFTC-EUR": {
+    "exchange": "spot",
+    "base": "swftcoin",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/swftc-eur"
+  },
+  "SWFTC-USDC": {
+    "exchange": "spot",
+    "base": "swftcoin",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/swftc-usdc"
+  },
+  "SWFTC-USDT": {
+    "exchange": "spot",
+    "base": "swftcoin",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/swftc-usdt"
+  },
   "T-EUR": {
     "exchange": "spot",
     "base": "threshold-network",
@@ -3101,6 +5387,48 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/tia-usdt"
   },
+  "TNSR-EUR": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/tnsr-eur"
+  },
+  "TNSR-TRY": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/tnsr-try"
+  },
+  "TNSR-USDC": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/tnsr-usdc"
+  },
+  "TNSR-USDT": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/tnsr-usdt"
+  },
+  "TOSHI-EUR": {
+    "exchange": "spot",
+    "base": "toshi",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/toshi-eur"
+  },
+  "TOSHI-USDC": {
+    "exchange": "spot",
+    "base": "toshi",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/toshi-usdc"
+  },
+  "TOSHI-USDT": {
+    "exchange": "spot",
+    "base": "toshi",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/toshi-usdt"
+  },
   "TRB-EUR": {
     "exchange": "spot",
     "base": "tellor",
@@ -3130,6 +5458,12 @@
     "base": "official-trump",
     "quote": "australian-dollar",
     "url": "https://www.okx.com/trade-spot/trump-aud"
+  },
+  "TRUMP-BRL": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "brazilian-real",
+    "url": "https://www.okx.com/trade-spot/trump-brl"
   },
   "TRUMP-EUR": {
     "exchange": "spot",
@@ -3191,6 +5525,30 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/trx-usdt"
   },
+  "TURBO-EUR": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/turbo-eur"
+  },
+  "TURBO-TRY": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/turbo-try"
+  },
+  "TURBO-USDC": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/turbo-usdc"
+  },
+  "TURBO-USDT": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/turbo-usdt"
+  },
   "UMA-EUR": {
     "exchange": "spot",
     "base": "uma",
@@ -3245,6 +5603,12 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/uni-usdt"
   },
+  "USAT-USDT": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/usat-usdt"
+  },
   "USD1-USDT": {
     "exchange": "spot",
     "base": "usd1",
@@ -3257,11 +5621,29 @@
     "quote": "australian-dollar",
     "url": "https://www.okx.com/trade-spot/usdc-aud"
   },
+  "USDC-BRL": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "brazilian-real",
+    "url": "https://www.okx.com/trade-spot/usdc-brl"
+  },
   "USDC-EUR": {
     "exchange": "spot",
     "base": "usd-coin",
     "quote": "euro",
     "url": "https://www.okx.com/trade-spot/usdc-eur"
+  },
+  "USDC-PLN": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "polish-zloty",
+    "url": "https://www.okx.com/trade-spot/usdc-pln"
+  },
+  "USDC-SGD": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "singapore-dollar",
+    "url": "https://www.okx.com/trade-spot/usdc-sgd"
   },
   "USDC-TRY": {
     "exchange": "spot",
@@ -3275,11 +5657,23 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/usdc-usdt"
   },
+  "USDG-BRL": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "brazilian-real",
+    "url": "https://www.okx.com/trade-spot/usdg-brl"
+  },
   "USDG-EUR": {
     "exchange": "spot",
     "base": "global-dollar",
     "quote": "euro",
     "url": "https://www.okx.com/trade-spot/usdg-eur"
+  },
+  "USDG-SGD": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "singapore-dollar",
+    "url": "https://www.okx.com/trade-spot/usdg-sgd"
   },
   "USDG-USDT": {
     "exchange": "spot",
@@ -3299,17 +5693,35 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/usds-usdt"
   },
+  "USDT-AED": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "uae-dirham",
+    "url": "https://www.okx.com/trade-spot/usdt-aed"
+  },
   "USDT-AUD": {
     "exchange": "spot",
     "base": "tether",
     "quote": "australian-dollar",
     "url": "https://www.okx.com/trade-spot/usdt-aud"
   },
+  "USDT-BRL": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "brazilian-real",
+    "url": "https://www.okx.com/trade-spot/usdt-brl"
+  },
   "USDT-EUR": {
     "exchange": "spot",
     "base": "tether",
     "quote": "euro",
     "url": "https://www.okx.com/trade-spot/usdt-eur"
+  },
+  "USDT-SGD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "singapore-dollar",
+    "url": "https://www.okx.com/trade-spot/usdt-sgd"
   },
   "USDT-TRY": {
     "exchange": "spot",
@@ -3322,6 +5734,48 @@
     "base": "tether",
     "quote": "usd",
     "url": "https://www.okx.com/trade-spot/usdt-usd"
+  },
+  "VELO-EUR": {
+    "exchange": "spot",
+    "base": "velo",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/velo-eur"
+  },
+  "VELO-USDC": {
+    "exchange": "spot",
+    "base": "velo",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/velo-usdc"
+  },
+  "VELO-USDT": {
+    "exchange": "spot",
+    "base": "velo",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/velo-usdt"
+  },
+  "VELODROME-EUR": {
+    "exchange": "spot",
+    "base": "velodrome",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/velodrome-eur"
+  },
+  "VELODROME-USDC": {
+    "exchange": "spot",
+    "base": "velodrome",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/velodrome-usdc"
+  },
+  "VELODROME-USDT": {
+    "exchange": "spot",
+    "base": "velodrome",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/velodrome-usdt"
+  },
+  "VINE-USDT": {
+    "exchange": "spot",
+    "base": "vine",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/vine-usdt"
   },
   "VIRTUAL-EUR": {
     "exchange": "spot",
@@ -3346,6 +5800,18 @@
     "base": "virtuals-protocol",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/virtual-usdt"
+  },
+  "VVV-TRY": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/vvv-try"
+  },
+  "VVV-USDT": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/vvv-usdt"
   },
   "W-EUR": {
     "exchange": "spot",
@@ -3376,6 +5842,54 @@
     "base": "wormhole",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/w-usdt"
+  },
+  "WAXP-EUR": {
+    "exchange": "spot",
+    "base": "wax",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/waxp-eur"
+  },
+  "WAXP-USDC": {
+    "exchange": "spot",
+    "base": "wax",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/waxp-usdc"
+  },
+  "WAXP-USDT": {
+    "exchange": "spot",
+    "base": "wax",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/waxp-usdt"
+  },
+  "WCT-EUR": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/wct-eur"
+  },
+  "WCT-TRY": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/wct-try"
+  },
+  "WCT-USDC": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/wct-usdc"
+  },
+  "WCT-USDT": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/wct-usdt"
+  },
+  "WET-USDT": {
+    "exchange": "spot",
+    "base": "humidifi",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/wet-usdt"
   },
   "WIF-EUR": {
     "exchange": "spot",
@@ -3491,6 +6005,24 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/wlfi-usdt"
   },
+  "WOO-EUR": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/woo-eur"
+  },
+  "WOO-USDC": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/woo-usdc"
+  },
+  "WOO-USDT": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/woo-usdt"
+  },
   "XAUT-TRY": {
     "exchange": "spot",
     "base": "tether-gold",
@@ -3502,6 +6034,30 @@
     "base": "tether-gold",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/xaut-usdt"
+  },
+  "XDP-EUR": {
+    "exchange": "spot",
+    "base": "doppler-finance",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/xdp-eur"
+  },
+  "XDP-TRY": {
+    "exchange": "spot",
+    "base": "doppler-finance",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/xdp-try"
+  },
+  "XDP-USDC": {
+    "exchange": "spot",
+    "base": "doppler-finance",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/xdp-usdc"
+  },
+  "XDP-USDT": {
+    "exchange": "spot",
+    "base": "doppler-finance",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/xdp-usdt"
   },
   "XLM-EUR": {
     "exchange": "spot",
@@ -3563,11 +6119,23 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/xpl-usdt"
   },
+  "XRP-AED": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "uae-dirham",
+    "url": "https://www.okx.com/trade-spot/xrp-aed"
+  },
   "XRP-AUD": {
     "exchange": "spot",
     "base": "xrp",
     "quote": "australian-dollar",
     "url": "https://www.okx.com/trade-spot/xrp-aud"
+  },
+  "XRP-BRL": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "brazilian-real",
+    "url": "https://www.okx.com/trade-spot/xrp-brl"
   },
   "XRP-EUR": {
     "exchange": "spot",
@@ -3623,6 +6191,24 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/xtz-usdt"
   },
+  "YB-EUR": {
+    "exchange": "spot",
+    "base": "yield-basis",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/yb-eur"
+  },
+  "YB-USDC": {
+    "exchange": "spot",
+    "base": "yield-basis",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/yb-usdc"
+  },
+  "YB-USDT": {
+    "exchange": "spot",
+    "base": "yield-basis",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/yb-usdt"
+  },
   "YFI-EUR": {
     "exchange": "spot",
     "base": "yearn-finance",
@@ -3647,6 +6233,66 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/yfi-usdt"
   },
+  "YGG-EUR": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/ygg-eur"
+  },
+  "YGG-USDC": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/ygg-usdc"
+  },
+  "YGG-USDT": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/ygg-usdt"
+  },
+  "ZAMA-EUR": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/zama-eur"
+  },
+  "ZAMA-TRY": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/zama-try"
+  },
+  "ZAMA-USDC": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/zama-usdc"
+  },
+  "ZAMA-USDT": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/zama-usdt"
+  },
+  "ZBCN-EUR": {
+    "exchange": "spot",
+    "base": "zebec-network",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/zbcn-eur"
+  },
+  "ZBCN-USDC": {
+    "exchange": "spot",
+    "base": "zebec-network",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/zbcn-usdc"
+  },
+  "ZBCN-USDT": {
+    "exchange": "spot",
+    "base": "zebec-network",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/zbcn-usdt"
+  },
   "ZEC-EUR": {
     "exchange": "spot",
     "base": "zcash",
@@ -3670,6 +6316,66 @@
     "base": "zcash",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/zec-usdt"
+  },
+  "ZEN-EUR": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/zen-eur"
+  },
+  "ZEN-USDC": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/zen-usdc"
+  },
+  "ZEN-USDT": {
+    "exchange": "spot",
+    "base": "horizen",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/zen-usdt"
+  },
+  "ZETA-EUR": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/zeta-eur"
+  },
+  "ZETA-USDC": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/zeta-usdc"
+  },
+  "ZETA-USDT": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/zeta-usdt"
+  },
+  "ZIL-EUR": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/zil-eur"
+  },
+  "ZIL-TRY": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "turkish-lira",
+    "url": "https://www.okx.com/trade-spot/zil-try"
+  },
+  "ZIL-USDC": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/zil-usdc"
+  },
+  "ZIL-USDT": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/zil-usdt"
   },
   "ZK-EUR": {
     "exchange": "spot",
@@ -3701,6 +6407,30 @@
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/zk-usdt"
   },
+  "ZKJ-USDT": {
+    "exchange": "spot",
+    "base": "polyhedra",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/zkj-usdt"
+  },
+  "ZORA-EUR": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/zora-eur"
+  },
+  "ZORA-USDC": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/zora-usdc"
+  },
+  "ZORA-USDT": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/zora-usdt"
+  },
   "ZRO-EUR": {
     "exchange": "spot",
     "base": "layer-zero",
@@ -3730,5 +6460,23 @@
     "base": "layer-zero",
     "quote": "tether",
     "url": "https://www.okx.com/trade-spot/zro-usdt"
+  },
+  "ZRX-EUR": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "euro",
+    "url": "https://www.okx.com/trade-spot/zrx-eur"
+  },
+  "ZRX-USDC": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "usd-coin",
+    "url": "https://www.okx.com/trade-spot/zrx-usdc"
+  },
+  "ZRX-USDT": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "tether",
+    "url": "https://www.okx.com/trade-spot/zrx-usdt"
   }
 }

@@ -898,5 +898,89 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://www.deribit.com/futures/COIN50_USDC-PERPETUAL"
+  },
+  "AVGO_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "broadcom",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/AVGO_USDC-PERPETUAL"
+  },
+  "CASHCAT_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "cash-cat",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/CASHCAT_USDC-PERPETUAL"
+  },
+  "CRWV_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "coreweave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/CRWV_USDC-PERPETUAL"
+  },
+  "DELL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "dell-technologies",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/DELL_USDC-PERPETUAL"
+  },
+  "KORU_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/KORU_USDC-PERPETUAL"
+  },
+  "OPG_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "opengradient",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/OPG_USDC-PERPETUAL"
+  },
+  "ORCL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "oracle",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ORCL_USDC-PERPETUAL"
+  },
+  "PLTR_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/PLTR_USDC-PERPETUAL"
+  },
+  "POL_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/POL_USDC-PERPETUAL"
+  },
+  "PONS_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/PONS_USDC-PERPETUAL"
+  },
+  "SNXX_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "tradr-2x-long-sndk-daily-etf",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SNXX_USDC-PERPETUAL"
+  },
+  "SOXS_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bear-3x",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/SOXS_USDC-PERPETUAL"
   }
 }
