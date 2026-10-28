@@ -1,0 +1,58 @@
+{
+  "ADA-USDC-PERP": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/ADA-USDC-PERP"
+  },
+  "AVAX-USDC-PERP": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/AVAX-USDC-PERP"
+  },
+  "BTC-USDC-PERP": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/BTC-USDC-PERP"
+  },
+  "DOGE-USDC-PERP": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/DOGE-USDC-PERP"
+  },
+  "ETH-USDC-PERP": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/ETH-USDC-PERP"
+  },
+  "LTC-USDC-PERP": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/LTC-USDC-PERP"
+  },
+  "SOL-USDC-PERP": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/SOL-USDC-PERP"
+  },
+  "XRP-USDC-PERP": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/XRP-USDC-PERP"
+  }
+}

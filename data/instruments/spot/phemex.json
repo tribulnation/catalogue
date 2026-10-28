@@ -1,0 +1,854 @@
+{
+  "s1INCHUSDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/1INCHUSDT"
+  },
+  "sAAVEUSDT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/AAVEUSDT"
+  },
+  "sACEUSDT": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ACEUSDT"
+  },
+  "sADAUSDC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/ADAUSDC"
+  },
+  "sADAUSDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ADAUSDT"
+  },
+  "sAEROUSDT": {
+    "exchange": "spot",
+    "base": "aerodrome",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/AEROUSDT"
+  },
+  "sALGOUSDT": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ALGOUSDT"
+  },
+  "sAPEUSDC": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/APEUSDC"
+  },
+  "sAPEUSDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/APEUSDT"
+  },
+  "sAPTUSDT": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/APTUSDT"
+  },
+  "sARBUSDT": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ARBUSDT"
+  },
+  "sARKMUSDT": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ARKMUSDT"
+  },
+  "sARUSDT": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ARUSDT"
+  },
+  "sASTERUSDT": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ASTERUSDT"
+  },
+  "sATOMUSDC": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/ATOMUSDC"
+  },
+  "sATOMUSDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ATOMUSDT"
+  },
+  "sAVAXUSDC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/AVAXUSDC"
+  },
+  "sAVAXUSDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/AVAXUSDT"
+  },
+  "sBASEDUSDT": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/BASEDUSDT"
+  },
+  "sBCHUSDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/BCHUSDT"
+  },
+  "sBEATUSDT": {
+    "exchange": "spot",
+    "base": "audiera",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/BEATUSDT"
+  },
+  "sBLURUSDT": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/BLURUSDT"
+  },
+  "sBNBUSDC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/BNBUSDC"
+  },
+  "sBNBUSDT": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/BNBUSDT"
+  },
+  "sBOMEUSDT": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/BOMEUSDT"
+  },
+  "sBRETTUSDT": {
+    "exchange": "spot",
+    "base": "brett",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/BRETTUSDT"
+  },
+  "sBTCUSDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/BTCUSDC"
+  },
+  "sBTCUSDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/BTCUSDT"
+  },
+  "sCAKEUSDT": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/CAKEUSDT"
+  },
+  "sCHIPUSDT": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/CHIPUSDT"
+  },
+  "sCOMPUSDT": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/COMPUSDT"
+  },
+  "sCOWUSDT": {
+    "exchange": "spot",
+    "base": "cow-protocol",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/COWUSDT"
+  },
+  "sCRVUSDT": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/CRVUSDT"
+  },
+  "sDASHUSDT": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/DASHUSDT"
+  },
+  "sDOGEUSDC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/DOGEUSDC"
+  },
+  "sDOGEUSDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/DOGEUSDT"
+  },
+  "sDOTUSDC": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/DOTUSDC"
+  },
+  "sDOTUSDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/DOTUSDT"
+  },
+  "sEIGENUSDT": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/EIGENUSDT"
+  },
+  "sENAUSDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ENAUSDT"
+  },
+  "sENJUSDT": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ENJUSDT"
+  },
+  "sENSUSDT": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ENSUSDT"
+  },
+  "sETCUSDT": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ETCUSDT"
+  },
+  "sETHBTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://phemex.com/spot/trade/ETHBTC"
+  },
+  "sETHFIUSDT": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ETHFIUSDT"
+  },
+  "sETHUSDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/ETHUSDC"
+  },
+  "sETHUSDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ETHUSDT"
+  },
+  "sFARTCOINUSDT": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/FARTCOINUSDT"
+  },
+  "sFETUSDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/FETUSDT"
+  },
+  "sFILUSDT": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/FILUSDT"
+  },
+  "sGALAUSDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/GALAUSDT"
+  },
+  "sGMXUSDT": {
+    "exchange": "spot",
+    "base": "gmx",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/GMXUSDT"
+  },
+  "sGRAMUSDT": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/GRAMUSDT"
+  },
+  "sGRASSUSDT": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/GRASSUSDT"
+  },
+  "sGRTUSDT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/GRTUSDT"
+  },
+  "sHBARUSDT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/HBARUSDT"
+  },
+  "sHEMIUSDT": {
+    "exchange": "spot",
+    "base": "hemi",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/HEMIUSDT"
+  },
+  "sHYPEUSDT": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/HYPEUSDT"
+  },
+  "sICPUSDT": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ICPUSDT"
+  },
+  "sIMXUSDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/IMXUSDT"
+  },
+  "sINJUSDT": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/INJUSDT"
+  },
+  "sIOUSDT": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/IOUSDT"
+  },
+  "sJASMYUSDT": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/JASMYUSDT"
+  },
+  "sJTOUSDT": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/JTOUSDT"
+  },
+  "sJUPUSDT": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/JUPUSDT"
+  },
+  "sKAITOUSDT": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/KAITOUSDT"
+  },
+  "sKASUSDT": {
+    "exchange": "spot",
+    "base": "kaspa",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/KASUSDT"
+  },
+  "sLDOUSDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/LDOUSDT"
+  },
+  "sLINKUSDC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/LINKUSDC"
+  },
+  "sLINKUSDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/LINKUSDT"
+  },
+  "sLISTAUSDT": {
+    "exchange": "spot",
+    "base": "lista",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/LISTAUSDT"
+  },
+  "sLITUSDT": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/LITUSDT"
+  },
+  "sLTCUSDC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/LTCUSDC"
+  },
+  "sLTCUSDT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/LTCUSDT"
+  },
+  "sLUNCUSDT": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/LUNCUSDT"
+  },
+  "sMANAUSDC": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/MANAUSDC"
+  },
+  "sMANAUSDT": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/MANAUSDT"
+  },
+  "sMEGAUSDT": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/MEGAUSDT"
+  },
+  "sMONUSDT": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/MONUSDT"
+  },
+  "sMORPHOUSDT": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/MORPHOUSDT"
+  },
+  "sNEARUSDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/NEARUSDT"
+  },
+  "sNEIROUSDT": {
+    "exchange": "spot",
+    "base": "neiro",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/NEIROUSDT"
+  },
+  "sNIGHTUSDT": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/NIGHTUSDT"
+  },
+  "sNOTUSDT": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/NOTUSDT"
+  },
+  "sONDOUSDT": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ONDOUSDT"
+  },
+  "sOPUSDC": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/OPUSDC"
+  },
+  "sOPUSDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/OPUSDT"
+  },
+  "sORDIUSDT": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ORDIUSDT"
+  },
+  "sPAXGUSDT": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/PAXGUSDT"
+  },
+  "sPENDLEUSDT": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/PENDLEUSDT"
+  },
+  "sPENGUUSDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/PENGUUSDT"
+  },
+  "sPEOPLEUSDT": {
+    "exchange": "spot",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/PEOPLEUSDT"
+  },
+  "sPEPEUSDT": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/PEPEUSDT"
+  },
+  "sPLUMEUSDT": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/PLUMEUSDT"
+  },
+  "sPOLUSDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/POLUSDT"
+  },
+  "sPONSUSDT": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/PONSUSDT"
+  },
+  "sPROMUSDT": {
+    "exchange": "spot",
+    "base": "prometeus",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/PROMUSDT"
+  },
+  "sPUMPUSDT": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/PUMPUSDT"
+  },
+  "sPYTHUSDT": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/PYTHUSDT"
+  },
+  "sQNTUSDT": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/QNTUSDT"
+  },
+  "sRAYUSDT": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/RAYUSDT"
+  },
+  "sRENDERUSDT": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/RENDERUSDT"
+  },
+  "sSANDUSDT": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/SANDUSDT"
+  },
+  "sSEIUSDT": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/SEIUSDT"
+  },
+  "sSHIBUSDC": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/SHIBUSDC"
+  },
+  "sSHIBUSDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/SHIBUSDT"
+  },
+  "sSKYUSDT": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/SKYUSDT"
+  },
+  "sSOLUSDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/SOLUSDC"
+  },
+  "sSOLUSDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/SOLUSDT"
+  },
+  "sSPXUSDT": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/SPXUSDT"
+  },
+  "sSTXUSDT": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/STXUSDT"
+  },
+  "sSUIUSDT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/SUIUSDT"
+  },
+  "sSUSHIUSDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/SUSHIUSDT"
+  },
+  "sTAOUSDT": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/TAOUSDT"
+  },
+  "sTHETAUSDT": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/THETAUSDT"
+  },
+  "sTIAUSDT": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/TIAUSDT"
+  },
+  "sTRUMPUSDT": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/TRUMPUSDT"
+  },
+  "sTRXUSDC": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/TRXUSDC"
+  },
+  "sTRXUSDT": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/TRXUSDT"
+  },
+  "sTURBOUSDT": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/TURBOUSDT"
+  },
+  "sTUTUSDT": {
+    "exchange": "spot",
+    "base": "tutorial",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/TUTUSDT"
+  },
+  "sUNIUSDT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/UNIUSDT"
+  },
+  "sUSD1USDT": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/USD1USDT"
+  },
+  "sUSDCUSDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/USDCUSDT"
+  },
+  "sVETUSDT": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/VETUSDT"
+  },
+  "sVIRTUALUSDT": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/VIRTUALUSDT"
+  },
+  "sVVVUSDT": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/VVVUSDT"
+  },
+  "sWIFUSDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/WIFUSDT"
+  },
+  "sWLDUSDT": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/WLDUSDT"
+  },
+  "sWLFIUSDT": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/WLFIUSDT"
+  },
+  "sWUSDT": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/WUSDT"
+  },
+  "sXAUTUSDT": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/XAUTUSDT"
+  },
+  "sXDCUSDT": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/XDCUSDT"
+  },
+  "sXLMUSDC": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/XLMUSDC"
+  },
+  "sXLMUSDT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/XLMUSDT"
+  },
+  "sXPLUSDT": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/XPLUSDT"
+  },
+  "sXRPUSDC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "url": "https://phemex.com/spot/trade/XRPUSDC"
+  },
+  "sXRPUSDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/XRPUSDT"
+  },
+  "sZAMAUSDT": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ZAMAUSDT"
+  },
+  "sZECUSDT": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ZECUSDT"
+  },
+  "sZKUSDT": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ZKUSDT"
+  },
+  "sZROUSDT": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "tether",
+    "url": "https://phemex.com/spot/trade/ZROUSDT"
+  }
+}

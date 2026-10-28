@@ -1,0 +1,478 @@
+{
+  "AAVEF0:USTF0": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/AAVEF0:USTF0"
+  },
+  "ADAF0:USTF0": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/ADAF0:USTF0"
+  },
+  "ALGF0:USTF0": {
+    "exchange": "perp",
+    "base": "algorand",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/ALGF0:USTF0"
+  },
+  "ALLOF0:USTF0": {
+    "exchange": "perp",
+    "base": "allora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/ALLOF0:USTF0"
+  },
+  "APEF0:USTF0": {
+    "exchange": "perp",
+    "base": "apecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/APEF0:USTF0"
+  },
+  "APTF0:USTF0": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/APTF0:USTF0"
+  },
+  "ARBF0:USTF0": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/ARBF0:USTF0"
+  },
+  "AVAXF0:USTF0": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/AVAXF0:USTF0"
+  },
+  "AXSF0:USTF0": {
+    "exchange": "perp",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/AXSF0:USTF0"
+  },
+  "BNBF0:USTF0": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/BNBF0:USTF0"
+  },
+  "BTCF0:USTF0": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/BTCF0:USTF0"
+  },
+  "CHZF0:USTF0": {
+    "exchange": "perp",
+    "base": "chiliz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/CHZF0:USTF0"
+  },
+  "COMPF0:USTF0": {
+    "exchange": "perp",
+    "base": "compound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/COMPF0:USTF0"
+  },
+  "CRVF0:USTF0": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/CRVF0:USTF0"
+  },
+  "DEXEF0:USTF0": {
+    "exchange": "perp",
+    "base": "dexe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/DEXEF0:USTF0"
+  },
+  "DOGEF0:USTF0": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/DOGEF0:USTF0"
+  },
+  "DOTF0:USTF0": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/DOTF0:USTF0"
+  },
+  "EGLDF0:USTF0": {
+    "exchange": "perp",
+    "base": "multiversx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/EGLDF0:USTF0"
+  },
+  "ENAF0:USTF0": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/ENAF0:USTF0"
+  },
+  "ETCF0:USTF0": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/ETCF0:USTF0"
+  },
+  "ETHF0:BTCF0": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "settlement": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/ETHF0:BTCF0"
+  },
+  "ETHF0:USTF0": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/ETHF0:USTF0"
+  },
+  "EURF0:USTF0": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/EURF0:USTF0"
+  },
+  "FETF0:USTF0": {
+    "exchange": "perp",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/FETF0:USTF0"
+  },
+  "FILF0:USTF0": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/FILF0:USTF0"
+  },
+  "GALAF0:USTF0": {
+    "exchange": "perp",
+    "base": "gala",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/GALAF0:USTF0"
+  },
+  "GBPF0:USTF0": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/GBPF0:USTF0"
+  },
+  "HBARF0:USTF0": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/HBARF0:USTF0"
+  },
+  "HYPEF0:USTF0": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/HYPEF0:USTF0"
+  },
+  "ICPF0:USTF0": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/ICPF0:USTF0"
+  },
+  "INJF0:USTF0": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/INJF0:USTF0"
+  },
+  "IOTF0:USTF0": {
+    "exchange": "perp",
+    "base": "iota",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/IOTF0:USTF0"
+  },
+  "JASMYF0:USTF0": {
+    "exchange": "perp",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/JASMYF0:USTF0"
+  },
+  "JTOF0:USTF0": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/JTOF0:USTF0"
+  },
+  "KAITOF0:USTF0": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/KAITOF0:USTF0"
+  },
+  "LDOF0:USTF0": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/LDOF0:USTF0"
+  },
+  "LINKF0:USTF0": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/LINKF0:USTF0"
+  },
+  "LITF0:USTF0": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/LITF0:USTF0"
+  },
+  "LTCF0:BTCF0": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "bitcoin",
+    "settlement": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/LTCF0:BTCF0"
+  },
+  "LTCF0:USTF0": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/LTCF0:USTF0"
+  },
+  "NEARF0:USTF0": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/NEARF0:USTF0"
+  },
+  "NEOF0:USTF0": {
+    "exchange": "perp",
+    "base": "neo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/NEOF0:USTF0"
+  },
+  "ONDOF0:USTF0": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/ONDOF0:USTF0"
+  },
+  "PEPEF0:USTF0": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/PEPEF0:USTF0"
+  },
+  "POLF0:USTF0": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/POLF0:USTF0"
+  },
+  "SANDF0:USTF0": {
+    "exchange": "perp",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/SANDF0:USTF0"
+  },
+  "SEIF0:USTF0": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/SEIF0:USTF0"
+  },
+  "SHIBF0:USTF0": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/SHIBF0:USTF0"
+  },
+  "SOLF0:USTF0": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/SOLF0:USTF0"
+  },
+  "SUIF0:USTF0": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/SUIF0:USTF0"
+  },
+  "SUSHIF0:USTF0": {
+    "exchange": "perp",
+    "base": "sushi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/SUSHIF0:USTF0"
+  },
+  "TAOF0:USTF0": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/TAOF0:USTF0"
+  },
+  "TONF0:USTF0": {
+    "exchange": "perp",
+    "base": "toncoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/TONF0:USTF0"
+  },
+  "TRXF0:USTF0": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/TRXF0:USTF0"
+  },
+  "UNIF0:USTF0": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/UNIF0:USTF0"
+  },
+  "XAGF0:USTF0": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/XAGF0:USTF0"
+  },
+  "XAUTF0:BTCF0": {
+    "exchange": "perp",
+    "base": "tether-gold",
+    "quote": "bitcoin",
+    "settlement": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/XAUTF0:BTCF0"
+  },
+  "XAUTF0:USTF0": {
+    "exchange": "perp",
+    "base": "tether-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/XAUTF0:USTF0"
+  },
+  "XDCF0:USTF0": {
+    "exchange": "perp",
+    "base": "xdc-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/XDCF0:USTF0"
+  },
+  "XLMF0:USTF0": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/XLMF0:USTF0"
+  },
+  "XPDF0:USTF0": {
+    "exchange": "perp",
+    "base": "palladium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/XPDF0:USTF0"
+  },
+  "XPLF0:USTF0": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/XPLF0:USTF0"
+  },
+  "XPTF0:USTF0": {
+    "exchange": "perp",
+    "base": "platinum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/XPTF0:USTF0"
+  },
+  "XRPF0:BTCF0": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "bitcoin",
+    "settlement": "bitcoin",
+    "url": "https://trading.bitfinex.com/t/XRPF0:BTCF0"
+  },
+  "XRPF0:USTF0": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/XRPF0:USTF0"
+  },
+  "XTZF0:USTF0": {
+    "exchange": "perp",
+    "base": "tezos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/XTZF0:USTF0"
+  },
+  "ZECF0:USTF0": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/ZECF0:USTF0"
+  },
+  "ZROF0:USTF0": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://trading.bitfinex.com/t/ZROF0:USTF0"
+  }
+}
