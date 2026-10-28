@@ -1,0 +1,20 @@
+{
+  "id": "broadcom-ondo-tokenized-stock",
+  "display_name": "Broadcom (Ondo Tokenized)",
+  "symbol": "AVGOon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "AVGOon is the Ondo tokenized stock for Broadcom, issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is fully backed by AVGO shares and is a total-return tracker: it gives the economic exposure of holding AVGO with dividends reinvested, so one token does not necessarily equal one share. It is deployed on Ethereum (0x0d54D4279B9E8c54cD8547c2C75A8Ee81A0BcaE8), BNB Chain and Solana."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/avgoon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "broadcom-ondo-tokenized-stock",
+    "coinmarketcap": "38062"
+  }
+}
