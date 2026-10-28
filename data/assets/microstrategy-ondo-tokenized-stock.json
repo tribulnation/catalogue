@@ -1,0 +1,20 @@
+{
+  "id": "microstrategy-ondo-tokenized-stock",
+  "display_name": "MicroStrategy (Ondo Tokenized)",
+  "symbol": "MSTRon",
+  "category": "rwa",
+  "about": {
+    "en": "MicroStrategy (Ondo Tokenized) (MSTRon) is an Ondo tokenized stock issued by Ondo Global Markets (BVI) Limited through the Ondo Stocks platform, giving eligible non-US holders economic exposure to Strategy Inc (formerly MicroStrategy) Class A shares (MSTR). It is fully backed by the underlying security and is a total return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above the underlying's. It is an ERC-20 on Ethereum at 0xcabd955322dfbf94c084929ac5e9eca3feb5556f, with deployments on BNB Chain and Solana. Holders have a claim on the issuer, not registered ownership or shareholder rights."
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/mstron",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "microstrategy-ondo-tokenized-stock",
+    "coinmarketcap": "38092"
+  }
+}
