@@ -1,0 +1,3038 @@
+{
+  "1INCH_USD": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/1INCH_USD"
+  },
+  "1INCH_USDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/1INCH_USDT"
+  },
+  "2Z_USD": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/2Z_USD"
+  },
+  "AAVE_USD": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AAVE_USD"
+  },
+  "AAVE_USDT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/AAVE_USDT"
+  },
+  "ACH_USD": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ACH_USD"
+  },
+  "ACH_USDT": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ACH_USDT"
+  },
+  "ACS_USD": {
+    "exchange": "spot",
+    "base": "access-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ACS_USD"
+  },
+  "ACT_USD": {
+    "exchange": "spot",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ACT_USD"
+  },
+  "ADA_BTC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/ADA_BTC"
+  },
+  "ADA_EUR": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "euro",
+    "url": "https://crypto.com/exchange/trade/ADA_EUR"
+  },
+  "ADA_USD": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ADA_USD"
+  },
+  "ADA_USDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ADA_USDT"
+  },
+  "ADI_USD": {
+    "exchange": "spot",
+    "base": "adi-token",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ADI_USD"
+  },
+  "AERO_USD": {
+    "exchange": "spot",
+    "base": "aerodrome",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AERO_USD"
+  },
+  "AEVO_USD": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AEVO_USD"
+  },
+  "AGLD_USD": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AGLD_USD"
+  },
+  "AIGENSYN_USD": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AIGENSYN_USD"
+  },
+  "AIOZ_USD": {
+    "exchange": "spot",
+    "base": "aioz-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AIOZ_USD"
+  },
+  "AIOZ_USDT": {
+    "exchange": "spot",
+    "base": "aioz-network",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/AIOZ_USDT"
+  },
+  "AIXBT_USD": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AIXBT_USD"
+  },
+  "AKT_USD": {
+    "exchange": "spot",
+    "base": "akash-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AKT_USD"
+  },
+  "AKT_USDT": {
+    "exchange": "spot",
+    "base": "akash-network",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/AKT_USDT"
+  },
+  "ALGO_BTC": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/ALGO_BTC"
+  },
+  "ALGO_USD": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ALGO_USD"
+  },
+  "ALGO_USDT": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ALGO_USDT"
+  },
+  "ALICE_USD": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ALICE_USD"
+  },
+  "ALT_USD": {
+    "exchange": "spot",
+    "base": "altlayer",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ALT_USD"
+  },
+  "AMP_USD": {
+    "exchange": "spot",
+    "base": "amp-token",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AMP_USD"
+  },
+  "AMP_USDT": {
+    "exchange": "spot",
+    "base": "amp-token",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/AMP_USDT"
+  },
+  "ANIME_USD": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ANIME_USD"
+  },
+  "ANKR_USD": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ANKR_USD"
+  },
+  "APE_USD": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/APE_USD"
+  },
+  "APE_USDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/APE_USDT"
+  },
+  "API3_USD": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/API3_USD"
+  },
+  "APT_USD": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/APT_USD"
+  },
+  "APT_USDT": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/APT_USDT"
+  },
+  "ARB_USD": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ARB_USD"
+  },
+  "ARB_USDT": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ARB_USDT"
+  },
+  "ARC_USD": {
+    "exchange": "spot",
+    "base": "ai-rig-complex",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ARC_USD"
+  },
+  "ARKM_USD": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ARKM_USD"
+  },
+  "ARK_USD": {
+    "exchange": "spot",
+    "base": "ark",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ARK_USD"
+  },
+  "ARPA_USD": {
+    "exchange": "spot",
+    "base": "arpa-chain",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ARPA_USD"
+  },
+  "AR_USD": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AR_USD"
+  },
+  "AR_USDT": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/AR_USDT"
+  },
+  "ASTR_USD": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ASTR_USD"
+  },
+  "ASTR_USDT": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ASTR_USDT"
+  },
+  "ATH_USD": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ATH_USD"
+  },
+  "ATOM_BTC": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/ATOM_BTC"
+  },
+  "ATOM_CRO": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "cronos",
+    "url": "https://crypto.com/exchange/trade/ATOM_CRO"
+  },
+  "ATOM_USD": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ATOM_USD"
+  },
+  "ATOM_USDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ATOM_USDT"
+  },
+  "AUDIO_USD": {
+    "exchange": "spot",
+    "base": "audius",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AUDIO_USD"
+  },
+  "AURORA_USD": {
+    "exchange": "spot",
+    "base": "aurora",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AURORA_USD"
+  },
+  "AVAX_BTC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/AVAX_BTC"
+  },
+  "AVAX_USD": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AVAX_USD"
+  },
+  "AVAX_USDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/AVAX_USDT"
+  },
+  "AVNT_USD": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AVNT_USD"
+  },
+  "AVNT_USDT": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/AVNT_USDT"
+  },
+  "AXIS_USD": {
+    "exchange": "spot",
+    "base": "axis-robotics",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AXIS_USD"
+  },
+  "AXL_USD": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AXL_USD"
+  },
+  "AXL_USDT": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/AXL_USDT"
+  },
+  "AXS_USD": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/AXS_USD"
+  },
+  "AXS_USDT": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/AXS_USDT"
+  },
+  "A_USD": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/A_USD"
+  },
+  "BANANA_USD": {
+    "exchange": "spot",
+    "base": "banana-gun",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BANANA_USD"
+  },
+  "BAND_USD": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BAND_USD"
+  },
+  "BASED_USD": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BASED_USD"
+  },
+  "BAT_USD": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BAT_USD"
+  },
+  "BAT_USDT": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/BAT_USDT"
+  },
+  "BCH_BTC": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/BCH_BTC"
+  },
+  "BCH_USD": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BCH_USD"
+  },
+  "BCH_USDT": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/BCH_USDT"
+  },
+  "BERA_USD": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BERA_USD"
+  },
+  "BICO_USD": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BICO_USD"
+  },
+  "BIGTIME_USD": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BIGTIME_USD"
+  },
+  "BIRB_USD": {
+    "exchange": "spot",
+    "base": "moonbirds",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BIRB_USD"
+  },
+  "BLEND_USD": {
+    "exchange": "spot",
+    "base": "fluent-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BLEND_USD"
+  },
+  "BMT_USD": {
+    "exchange": "spot",
+    "base": "bubblemaps",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BMT_USD"
+  },
+  "BNT_USD": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BNT_USD"
+  },
+  "BOBA_USD": {
+    "exchange": "spot",
+    "base": "boba-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BOBA_USD"
+  },
+  "BOME_USD": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BOME_USD"
+  },
+  "BOME_USDT": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/BOME_USDT"
+  },
+  "BONK_USD": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BONK_USD"
+  },
+  "BONK_USDT": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/BONK_USDT"
+  },
+  "BREV_USD": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BREV_USD"
+  },
+  "BTC_EUR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro",
+    "url": "https://crypto.com/exchange/trade/BTC_EUR"
+  },
+  "BTC_PYUSD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "paypal-usd",
+    "url": "https://crypto.com/exchange/trade/BTC_PYUSD"
+  },
+  "BTC_USD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BTC_USD"
+  },
+  "BTC_USDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/BTC_USDT"
+  },
+  "C98_USD": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/C98_USD"
+  },
+  "CAP_USD": {
+    "exchange": "spot",
+    "base": "cap",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CAP_USD"
+  },
+  "CARDS_USD": {
+    "exchange": "spot",
+    "base": "collector-crypt",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CARDS_USD"
+  },
+  "CASHCAT_USD": {
+    "exchange": "spot",
+    "base": "cash-cat",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CASHCAT_USD"
+  },
+  "CATI_USD": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CATI_USD"
+  },
+  "CC_USD": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CC_USD"
+  },
+  "CELR_USD": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CELR_USD"
+  },
+  "CELR_USDT": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/CELR_USDT"
+  },
+  "CETUS_USD": {
+    "exchange": "spot",
+    "base": "cetus-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CETUS_USD"
+  },
+  "CFG_USD": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CFG_USD"
+  },
+  "CHILLGUY_USD": {
+    "exchange": "spot",
+    "base": "just-a-chill-guy",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CHILLGUY_USD"
+  },
+  "CHR_USD": {
+    "exchange": "spot",
+    "base": "chromaway",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CHR_USD"
+  },
+  "CHZ_USD": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CHZ_USD"
+  },
+  "CHZ_USDT": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/CHZ_USDT"
+  },
+  "CKB_USD": {
+    "exchange": "spot",
+    "base": "nervos-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CKB_USD"
+  },
+  "CLANKER_USD": {
+    "exchange": "spot",
+    "base": "tokenbot",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CLANKER_USD"
+  },
+  "CLOUD_USD": {
+    "exchange": "spot",
+    "base": "sanctum",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CLOUD_USD"
+  },
+  "COMP_USD": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/COMP_USD"
+  },
+  "COMP_USDT": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/COMP_USDT"
+  },
+  "COQ_USD": {
+    "exchange": "spot",
+    "base": "coq-inu",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/COQ_USD"
+  },
+  "COTI_USD": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/COTI_USD"
+  },
+  "COTI_USDT": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/COTI_USDT"
+  },
+  "COW_USD": {
+    "exchange": "spot",
+    "base": "cow-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/COW_USD"
+  },
+  "CRO_BTC": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/CRO_BTC"
+  },
+  "CRO_PYUSD": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "paypal-usd",
+    "url": "https://crypto.com/exchange/trade/CRO_PYUSD"
+  },
+  "CRO_USD": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CRO_USD"
+  },
+  "CRO_USDT": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/CRO_USDT"
+  },
+  "CRV_USD": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CRV_USD"
+  },
+  "CRV_USDT": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/CRV_USDT"
+  },
+  "CSPR_USD": {
+    "exchange": "spot",
+    "base": "casper",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CSPR_USD"
+  },
+  "CSPR_USDT": {
+    "exchange": "spot",
+    "base": "casper",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/CSPR_USDT"
+  },
+  "CTC_USD": {
+    "exchange": "spot",
+    "base": "creditcoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CTC_USD"
+  },
+  "CTSI_USD": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CTSI_USD"
+  },
+  "CTSI_USDT": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/CTSI_USDT"
+  },
+  "CVX_USD": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/CVX_USD"
+  },
+  "DBR_USD": {
+    "exchange": "spot",
+    "base": "debridge",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DBR_USD"
+  },
+  "DEEP_USD": {
+    "exchange": "spot",
+    "base": "deep",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DEEP_USD"
+  },
+  "DEGEN_USD": {
+    "exchange": "spot",
+    "base": "degen-base",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DEGEN_USD"
+  },
+  "DGB_USD": {
+    "exchange": "spot",
+    "base": "digibyte",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DGB_USD"
+  },
+  "DIA_USD": {
+    "exchange": "spot",
+    "base": "dia-data",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DIA_USD"
+  },
+  "DOGE_BTC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/DOGE_BTC"
+  },
+  "DOGE_EUR": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "euro",
+    "url": "https://crypto.com/exchange/trade/DOGE_EUR"
+  },
+  "DOGE_USD": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DOGE_USD"
+  },
+  "DOGE_USDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/DOGE_USDT"
+  },
+  "DOGS_USD": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DOGS_USD"
+  },
+  "DOOD_USD": {
+    "exchange": "spot",
+    "base": "doodles",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DOOD_USD"
+  },
+  "DOT_USD": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DOT_USD"
+  },
+  "DOT_USDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/DOT_USDT"
+  },
+  "DRIFT_USD": {
+    "exchange": "spot",
+    "base": "drift-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DRIFT_USD"
+  },
+  "DYDX_USD": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DYDX_USD"
+  },
+  "DYDX_USDT": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/DYDX_USDT"
+  },
+  "DYM_USD": {
+    "exchange": "spot",
+    "base": "dymension",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/DYM_USD"
+  },
+  "EDGE_USD": {
+    "exchange": "spot",
+    "base": "definitive",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/EDGE_USD"
+  },
+  "EGLD_USD": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/EGLD_USD"
+  },
+  "EGLD_USDT": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/EGLD_USDT"
+  },
+  "EIGEN_USD": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/EIGEN_USD"
+  },
+  "ELA_USD": {
+    "exchange": "spot",
+    "base": "elastos",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ELA_USD"
+  },
+  "ENA_USD": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ENA_USD"
+  },
+  "ENA_USDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ENA_USDT"
+  },
+  "ENJ_USD": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ENJ_USD"
+  },
+  "ENS_USD": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ENS_USD"
+  },
+  "ENS_USDT": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ENS_USDT"
+  },
+  "ERA_USD": {
+    "exchange": "spot",
+    "base": "caldera",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ERA_USD"
+  },
+  "ESP_USD": {
+    "exchange": "spot",
+    "base": "espresso",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ESP_USD"
+  },
+  "ES_USD": {
+    "exchange": "spot",
+    "base": "eclipse",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ES_USD"
+  },
+  "ETC_USD": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ETC_USD"
+  },
+  "ETC_USDT": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ETC_USDT"
+  },
+  "ETHFI_USD": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ETHFI_USD"
+  },
+  "ETHW_USD": {
+    "exchange": "spot",
+    "base": "ethereum-pow",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ETHW_USD"
+  },
+  "ETH_BTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/ETH_BTC"
+  },
+  "ETH_CRO": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "cronos",
+    "url": "https://crypto.com/exchange/trade/ETH_CRO"
+  },
+  "ETH_EUR": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro",
+    "url": "https://crypto.com/exchange/trade/ETH_EUR"
+  },
+  "ETH_PYUSD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "paypal-usd",
+    "url": "https://crypto.com/exchange/trade/ETH_PYUSD"
+  },
+  "ETH_USD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ETH_USD"
+  },
+  "ETH_USDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ETH_USDT"
+  },
+  "EUL_USD": {
+    "exchange": "spot",
+    "base": "euler",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/EUL_USD"
+  },
+  "EURC_USD": {
+    "exchange": "spot",
+    "base": "euro-coin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/EURC_USD"
+  },
+  "EUR_USDT": {
+    "exchange": "spot",
+    "base": "euro",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/EUR_USDT"
+  },
+  "FARTCOIN_USD": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/FARTCOIN_USD"
+  },
+  "FET_USD": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/FET_USD"
+  },
+  "FET_USDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/FET_USDT"
+  },
+  "FIL_USD": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/FIL_USD"
+  },
+  "FIL_USDT": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/FIL_USDT"
+  },
+  "FLIP_USD": {
+    "exchange": "spot",
+    "base": "chainflip",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/FLIP_USD"
+  },
+  "FLIP_USDT": {
+    "exchange": "spot",
+    "base": "chainflip",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/FLIP_USDT"
+  },
+  "FLOKI_USD": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/FLOKI_USD"
+  },
+  "FLOKI_USDT": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/FLOKI_USDT"
+  },
+  "FLOW_USD": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/FLOW_USD"
+  },
+  "FLOW_USDT": {
+    "exchange": "spot",
+    "base": "flow",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/FLOW_USDT"
+  },
+  "FLR_USD": {
+    "exchange": "spot",
+    "base": "flare",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/FLR_USD"
+  },
+  "FLUX_USD": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/FLUX_USD"
+  },
+  "FLUX_USDT": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/FLUX_USDT"
+  },
+  "FOGO_USD": {
+    "exchange": "spot",
+    "base": "fogo",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/FOGO_USD"
+  },
+  "FRAX_USD": {
+    "exchange": "spot",
+    "base": "frax-share",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/FRAX_USD"
+  },
+  "FWOG_USD": {
+    "exchange": "spot",
+    "base": "fwog",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/FWOG_USD"
+  },
+  "GALA_USD": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GALA_USD"
+  },
+  "GALA_USDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/GALA_USDT"
+  },
+  "GAS_USD": {
+    "exchange": "spot",
+    "base": "neo-gas",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GAS_USD"
+  },
+  "GHST_USD": {
+    "exchange": "spot",
+    "base": "aavegotchi",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GHST_USD"
+  },
+  "GLMR_USD": {
+    "exchange": "spot",
+    "base": "moonbeam",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GLMR_USD"
+  },
+  "GLM_USD": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GLM_USD"
+  },
+  "GMX_USD": {
+    "exchange": "spot",
+    "base": "gmx",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GMX_USD"
+  },
+  "GNO_USD": {
+    "exchange": "spot",
+    "base": "gnosis",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GNO_USD"
+  },
+  "GOAT_USD": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GOAT_USD"
+  },
+  "GOAT_USDT": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/GOAT_USDT"
+  },
+  "GODS_USD": {
+    "exchange": "spot",
+    "base": "gods-unchained",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GODS_USD"
+  },
+  "GODS_USDT": {
+    "exchange": "spot",
+    "base": "gods-unchained",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/GODS_USDT"
+  },
+  "GRAM_USD": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GRAM_USD"
+  },
+  "GRAM_USDT": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/GRAM_USDT"
+  },
+  "GRASS_USD": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GRASS_USD"
+  },
+  "GROVE_USD": {
+    "exchange": "spot",
+    "base": "grove",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GROVE_USD"
+  },
+  "GRT_USD": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GRT_USD"
+  },
+  "GRT_USDT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/GRT_USDT"
+  },
+  "GRVT_USD": {
+    "exchange": "spot",
+    "base": "grvt",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GRVT_USD"
+  },
+  "GTC_USD": {
+    "exchange": "spot",
+    "base": "gitcoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GTC_USD"
+  },
+  "GUN_USD": {
+    "exchange": "spot",
+    "base": "gunz",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GUN_USD"
+  },
+  "GWEI_USD": {
+    "exchange": "spot",
+    "base": "ethgas",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GWEI_USD"
+  },
+  "G_USD": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/G_USD"
+  },
+  "HBAR_USD": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/HBAR_USD"
+  },
+  "HBAR_USDT": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/HBAR_USDT"
+  },
+  "HEI_USD": {
+    "exchange": "spot",
+    "base": "heima",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/HEI_USD"
+  },
+  "HEMI_USD": {
+    "exchange": "spot",
+    "base": "hemi",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/HEMI_USD"
+  },
+  "HMSTR_USD": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/HMSTR_USD"
+  },
+  "HNT_USD": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/HNT_USD"
+  },
+  "HNT_USDT": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/HNT_USDT"
+  },
+  "HOME_USD": {
+    "exchange": "spot",
+    "base": "defi-app",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/HOME_USD"
+  },
+  "HPP_USD": {
+    "exchange": "spot",
+    "base": "house-party-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/HPP_USD"
+  },
+  "HYPER_USD": {
+    "exchange": "spot",
+    "base": "hyperlane",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/HYPER_USD"
+  },
+  "HYPE_USD": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/HYPE_USD"
+  },
+  "H_USD": {
+    "exchange": "spot",
+    "base": "humanity",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/H_USD"
+  },
+  "ICP_USD": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ICP_USD"
+  },
+  "ICP_USDT": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ICP_USDT"
+  },
+  "IKA_USD": {
+    "exchange": "spot",
+    "base": "ika",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/IKA_USD"
+  },
+  "ILV_USD": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ILV_USD"
+  },
+  "ILV_USDT": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ILV_USDT"
+  },
+  "IMU_USD": {
+    "exchange": "spot",
+    "base": "immunefi",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/IMU_USD"
+  },
+  "IMX_USD": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/IMX_USD"
+  },
+  "IMX_USDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/IMX_USDT"
+  },
+  "INIT_USD": {
+    "exchange": "spot",
+    "base": "initia",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/INIT_USD"
+  },
+  "INJ_USD": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/INJ_USD"
+  },
+  "INJ_USDT": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/INJ_USDT"
+  },
+  "IOST_USD": {
+    "exchange": "spot",
+    "base": "iost",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/IOST_USD"
+  },
+  "IOTX_USD": {
+    "exchange": "spot",
+    "base": "iotex",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/IOTX_USD"
+  },
+  "IO_USD": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/IO_USD"
+  },
+  "JASMY_USD": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/JASMY_USD"
+  },
+  "JASMY_USDT": {
+    "exchange": "spot",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/JASMY_USDT"
+  },
+  "JTO_USD": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/JTO_USD"
+  },
+  "JUP_USD": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/JUP_USD"
+  },
+  "JUP_USDT": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/JUP_USDT"
+  },
+  "KAIA_USD": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/KAIA_USD"
+  },
+  "KAITO_USD": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/KAITO_USD"
+  },
+  "KAT_USD": {
+    "exchange": "spot",
+    "base": "katana-network-token",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/KAT_USD"
+  },
+  "KAVA_USD": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/KAVA_USD"
+  },
+  "KAVA_USDT": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/KAVA_USDT"
+  },
+  "KERNEL_USD": {
+    "exchange": "spot",
+    "base": "kernel",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/KERNEL_USD"
+  },
+  "KITE_USD": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/KITE_USD"
+  },
+  "KMNO_USD": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/KMNO_USD"
+  },
+  "KNC_USD": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/KNC_USD"
+  },
+  "KSM_USD": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/KSM_USD"
+  },
+  "KSM_USDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/KSM_USDT"
+  },
+  "L3_USD": {
+    "exchange": "spot",
+    "base": "layer3",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/L3_USD"
+  },
+  "LADYS_USD": {
+    "exchange": "spot",
+    "base": "milady-meme-coin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LADYS_USD"
+  },
+  "LAYER_USD": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LAYER_USD"
+  },
+  "LA_USD": {
+    "exchange": "spot",
+    "base": "lagrange",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LA_USD"
+  },
+  "LDO_USD": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LDO_USD"
+  },
+  "LDO_USDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/LDO_USDT"
+  },
+  "LIGHTER_USD": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LIGHTER_USD"
+  },
+  "LINEA_USD": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LINEA_USD"
+  },
+  "LINK_USD": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LINK_USD"
+  },
+  "LINK_USDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/LINK_USDT"
+  },
+  "LION_CRO": {
+    "exchange": "spot",
+    "base": "loaded-lions",
+    "quote": "cronos",
+    "url": "https://crypto.com/exchange/trade/LION_CRO"
+  },
+  "LION_USD": {
+    "exchange": "spot",
+    "base": "loaded-lions",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LION_USD"
+  },
+  "LMWR_USD": {
+    "exchange": "spot",
+    "base": "limewire",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LMWR_USD"
+  },
+  "LMWR_USDT": {
+    "exchange": "spot",
+    "base": "limewire",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/LMWR_USDT"
+  },
+  "LPT_USD": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LPT_USD"
+  },
+  "LPT_USDT": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/LPT_USDT"
+  },
+  "LQTY_USD": {
+    "exchange": "spot",
+    "base": "liquity",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LQTY_USD"
+  },
+  "LSK_USD": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LSK_USD"
+  },
+  "LTC_BTC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/LTC_BTC"
+  },
+  "LTC_USD": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LTC_USD"
+  },
+  "LTC_USDT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/LTC_USDT"
+  },
+  "LUMIA_USD": {
+    "exchange": "spot",
+    "base": "lumia",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LUMIA_USD"
+  },
+  "LUNA2_USD": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LUNA2_USD"
+  },
+  "LUNA2_USDT": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/LUNA2_USDT"
+  },
+  "LUNC_USD": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LUNC_USD"
+  },
+  "LVVA_USD": {
+    "exchange": "spot",
+    "base": "levva-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LVVA_USD"
+  },
+  "LYX_USD": {
+    "exchange": "spot",
+    "base": "lukso",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/LYX_USD"
+  },
+  "MAGIC_USD": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MAGIC_USD"
+  },
+  "MANA_USD": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MANA_USD"
+  },
+  "MASK_USD": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MASK_USD"
+  },
+  "MASK_USDT": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/MASK_USDT"
+  },
+  "MAVIA_USD": {
+    "exchange": "spot",
+    "base": "heroes-of-mavia",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MAVIA_USD"
+  },
+  "MEGA_USD": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MEGA_USD"
+  },
+  "MELANIA_USD": {
+    "exchange": "spot",
+    "base": "melania-meme",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MELANIA_USD"
+  },
+  "METIS_USD": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/METIS_USD"
+  },
+  "METIS_USDT": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/METIS_USDT"
+  },
+  "MET_USD": {
+    "exchange": "spot",
+    "base": "meteora",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MET_USD"
+  },
+  "ME_USD": {
+    "exchange": "spot",
+    "base": "magic-eden",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ME_USD"
+  },
+  "MINA_USD": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MINA_USD"
+  },
+  "MLK_USD": {
+    "exchange": "spot",
+    "base": "milk-alliance",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MLK_USD"
+  },
+  "MOG_USD": {
+    "exchange": "spot",
+    "base": "mog-coin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MOG_USD"
+  },
+  "MOG_USDT": {
+    "exchange": "spot",
+    "base": "mog-coin",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/MOG_USDT"
+  },
+  "MON_USD": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MON_USD"
+  },
+  "MOODENG_USD": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MOODENG_USD"
+  },
+  "MORPHO_USD": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MORPHO_USD"
+  },
+  "MOVR_USD": {
+    "exchange": "spot",
+    "base": "moonriver",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MOVR_USD"
+  },
+  "MYRO_USD": {
+    "exchange": "spot",
+    "base": "myro",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MYRO_USD"
+  },
+  "NEAR_USD": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/NEAR_USD"
+  },
+  "NEAR_USDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/NEAR_USDT"
+  },
+  "NEON_USD": {
+    "exchange": "spot",
+    "base": "neon-evm",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/NEON_USD"
+  },
+  "NEON_USDT": {
+    "exchange": "spot",
+    "base": "neon-evm",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/NEON_USDT"
+  },
+  "NEO_USD": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/NEO_USD"
+  },
+  "NEO_USDT": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/NEO_USDT"
+  },
+  "NEWT_USD": {
+    "exchange": "spot",
+    "base": "newton-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/NEWT_USD"
+  },
+  "NMR_USD": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/NMR_USD"
+  },
+  "NMR_USDT": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/NMR_USDT"
+  },
+  "NOM_USD": {
+    "exchange": "spot",
+    "base": "nomina",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/NOM_USD"
+  },
+  "NOS_USD": {
+    "exchange": "spot",
+    "base": "nosana",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/NOS_USD"
+  },
+  "NOT_USD": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/NOT_USD"
+  },
+  "NOT_USDT": {
+    "exchange": "spot",
+    "base": "notcoin",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/NOT_USDT"
+  },
+  "NUM_USD": {
+    "exchange": "spot",
+    "base": "numbers-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/NUM_USD"
+  },
+  "NXPC_USD": {
+    "exchange": "spot",
+    "base": "nexpace",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/NXPC_USD"
+  },
+  "OAS_USD": {
+    "exchange": "spot",
+    "base": "oasys",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/OAS_USD"
+  },
+  "OGN_USD": {
+    "exchange": "spot",
+    "base": "origin-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/OGN_USD"
+  },
+  "ONDO_USD": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ONDO_USD"
+  },
+  "ONDO_USDT": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ONDO_USDT"
+  },
+  "OP_USD": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/OP_USD"
+  },
+  "OP_USDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/OP_USDT"
+  },
+  "ORAI_USD": {
+    "exchange": "spot",
+    "base": "oraichain",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ORAI_USD"
+  },
+  "ORCA_USD": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ORCA_USD"
+  },
+  "ORDER_USD": {
+    "exchange": "spot",
+    "base": "orderly-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ORDER_USD"
+  },
+  "ORDI_USD": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ORDI_USD"
+  },
+  "OSMO_USD": {
+    "exchange": "spot",
+    "base": "osmosis",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/OSMO_USD"
+  },
+  "PAXG_EUR": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "euro",
+    "url": "https://crypto.com/exchange/trade/PAXG_EUR"
+  },
+  "PAXG_USD": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PAXG_USD"
+  },
+  "PAXG_USDT": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/PAXG_USDT"
+  },
+  "PEAQ_USD": {
+    "exchange": "spot",
+    "base": "peaq",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PEAQ_USD"
+  },
+  "PENDLE_USD": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PENDLE_USD"
+  },
+  "PENDLE_USDT": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/PENDLE_USDT"
+  },
+  "PENGU_USD": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PENGU_USD"
+  },
+  "PENGU_USDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/PENGU_USDT"
+  },
+  "PEPE_USD": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PEPE_USD"
+  },
+  "PEPE_USDT": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/PEPE_USDT"
+  },
+  "PIXEL_USD": {
+    "exchange": "spot",
+    "base": "pixels",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PIXEL_USD"
+  },
+  "PLUME_USD": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PLUME_USD"
+  },
+  "PNUT_USD": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PNUT_USD"
+  },
+  "PNUT_USDT": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/PNUT_USDT"
+  },
+  "POLYX_USD": {
+    "exchange": "spot",
+    "base": "polymesh",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/POLYX_USD"
+  },
+  "POL_USD": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/POL_USD"
+  },
+  "POL_USDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/POL_USDT"
+  },
+  "PONKE_USD": {
+    "exchange": "spot",
+    "base": "ponke",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PONKE_USD"
+  },
+  "PONS_USD": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PONS_USD"
+  },
+  "POPCAT_USD": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/POPCAT_USD"
+  },
+  "POWR_USD": {
+    "exchange": "spot",
+    "base": "power-ledger",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/POWR_USD"
+  },
+  "PRCL_USD": {
+    "exchange": "spot",
+    "base": "parcl",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PRCL_USD"
+  },
+  "PRIME_USD": {
+    "exchange": "spot",
+    "base": "echelon-prime",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PRIME_USD"
+  },
+  "PRL_USD": {
+    "exchange": "spot",
+    "base": "perle",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PRL_USD"
+  },
+  "PROMPT_USD": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PROMPT_USD"
+  },
+  "PROVE_USD": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PROVE_USD"
+  },
+  "PUMP_USD": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PUMP_USD"
+  },
+  "PUMP_USDT": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/PUMP_USDT"
+  },
+  "PYTH_USD": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PYTH_USD"
+  },
+  "PYTH_USDT": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/PYTH_USDT"
+  },
+  "PYUSD_USD": {
+    "exchange": "spot",
+    "base": "paypal-usd",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/PYUSD_USD"
+  },
+  "PYUSD_USDT": {
+    "exchange": "spot",
+    "base": "paypal-usd",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/PYUSD_USDT"
+  },
+  "QI_USD": {
+    "exchange": "spot",
+    "base": "benqi",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/QI_USD"
+  },
+  "QNT_USD": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/QNT_USD"
+  },
+  "QNT_USDT": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/QNT_USDT"
+  },
+  "QTUM_USD": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/QTUM_USD"
+  },
+  "RAD_USD": {
+    "exchange": "spot",
+    "base": "radicle",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RAD_USD"
+  },
+  "RARE_USD": {
+    "exchange": "spot",
+    "base": "superrare",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RARE_USD"
+  },
+  "RARI_USD": {
+    "exchange": "spot",
+    "base": "rarible",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RARI_USD"
+  },
+  "RARI_USDT": {
+    "exchange": "spot",
+    "base": "rarible",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/RARI_USDT"
+  },
+  "RAY_USD": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RAY_USD"
+  },
+  "REACT_USD": {
+    "exchange": "spot",
+    "base": "reactive-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/REACT_USD"
+  },
+  "RED_USD": {
+    "exchange": "spot",
+    "base": "redstone",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RED_USD"
+  },
+  "RENDER_USD": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RENDER_USD"
+  },
+  "RENDER_USDT": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/RENDER_USDT"
+  },
+  "REQ_USD": {
+    "exchange": "spot",
+    "base": "request",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/REQ_USD"
+  },
+  "RE_USD": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RE_USD"
+  },
+  "RLC_USD": {
+    "exchange": "spot",
+    "base": "iexec-rlc",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RLC_USD"
+  },
+  "RNBW_USD": {
+    "exchange": "spot",
+    "base": "rainbow",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RNBW_USD"
+  },
+  "ROBO_USD": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ROBO_USD"
+  },
+  "RONIN_USD": {
+    "exchange": "spot",
+    "base": "ronin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RONIN_USD"
+  },
+  "RPL_USD": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RPL_USD"
+  },
+  "RSR_USD": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RSR_USD"
+  },
+  "RSR_USDT": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/RSR_USDT"
+  },
+  "RUNE_USD": {
+    "exchange": "spot",
+    "base": "thorchain",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RUNE_USD"
+  },
+  "RUNE_USDT": {
+    "exchange": "spot",
+    "base": "thorchain",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/RUNE_USDT"
+  },
+  "RVN_USD": {
+    "exchange": "spot",
+    "base": "ravencoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/RVN_USD"
+  },
+  "SAFE_USD": {
+    "exchange": "spot",
+    "base": "safe",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SAFE_USD"
+  },
+  "SAND_USD": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SAND_USD"
+  },
+  "SAND_USDT": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/SAND_USDT"
+  },
+  "SAPIEN_USD": {
+    "exchange": "spot",
+    "base": "sapien",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SAPIEN_USD"
+  },
+  "SC_USD": {
+    "exchange": "spot",
+    "base": "siacoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SC_USD"
+  },
+  "SEI_USD": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SEI_USD"
+  },
+  "SEI_USDT": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/SEI_USDT"
+  },
+  "SENT_USD": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SENT_USD"
+  },
+  "SHIB_USD": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SHIB_USD"
+  },
+  "SHIB_USDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/SHIB_USDT"
+  },
+  "SKR_USD": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SKR_USD"
+  },
+  "SKY_USD": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SKY_USD"
+  },
+  "SLP_USD": {
+    "exchange": "spot",
+    "base": "smooth-love-potion",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SLP_USD"
+  },
+  "SNEK_USD": {
+    "exchange": "spot",
+    "base": "snek",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SNEK_USD"
+  },
+  "SNX_USD": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SNX_USD"
+  },
+  "SNX_USDT": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/SNX_USDT"
+  },
+  "SOL_BTC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/SOL_BTC"
+  },
+  "SOL_ETH": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "ethereum",
+    "url": "https://crypto.com/exchange/trade/SOL_ETH"
+  },
+  "SOL_EUR": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "euro",
+    "url": "https://crypto.com/exchange/trade/SOL_EUR"
+  },
+  "SOL_PYUSD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "paypal-usd",
+    "url": "https://crypto.com/exchange/trade/SOL_PYUSD"
+  },
+  "SOL_USD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SOL_USD"
+  },
+  "SOL_USDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/SOL_USDT"
+  },
+  "SPA_USD": {
+    "exchange": "spot",
+    "base": "sperax",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SPA_USD"
+  },
+  "SPELL_USD": {
+    "exchange": "spot",
+    "base": "spell-token",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SPELL_USD"
+  },
+  "SPK_USD": {
+    "exchange": "spot",
+    "base": "spark",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SPK_USD"
+  },
+  "SPX_USD": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SPX_USD"
+  },
+  "SQD_USD": {
+    "exchange": "spot",
+    "base": "subsquid",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SQD_USD"
+  },
+  "STABLE_USD": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/STABLE_USD"
+  },
+  "STONK_USD": {
+    "exchange": "spot",
+    "base": "stonk",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/STONK_USD"
+  },
+  "STORJ_USD": {
+    "exchange": "spot",
+    "base": "storj",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/STORJ_USD"
+  },
+  "STRAX_USD": {
+    "exchange": "spot",
+    "base": "xertra",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/STRAX_USD"
+  },
+  "STRK_USD": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/STRK_USD"
+  },
+  "STRK_USDT": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/STRK_USDT"
+  },
+  "STX_USD": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/STX_USD"
+  },
+  "STX_USDT": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/STX_USDT"
+  },
+  "SUI_BTC": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/SUI_BTC"
+  },
+  "SUI_USD": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SUI_USD"
+  },
+  "SUI_USDT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/SUI_USDT"
+  },
+  "SUPER_USD": {
+    "exchange": "spot",
+    "base": "superfarm",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SUPER_USD"
+  },
+  "SUPER_USDT": {
+    "exchange": "spot",
+    "base": "superfarm",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/SUPER_USDT"
+  },
+  "SUSHI_USD": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SUSHI_USD"
+  },
+  "SUSHI_USDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/SUSHI_USDT"
+  },
+  "SXT_USD": {
+    "exchange": "spot",
+    "base": "space-and-time",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SXT_USD"
+  },
+  "SYN_USD": {
+    "exchange": "spot",
+    "base": "synapse",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SYN_USD"
+  },
+  "SYRUP_USD": {
+    "exchange": "spot",
+    "base": "syrup",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SYRUP_USD"
+  },
+  "S_USD": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/S_USD"
+  },
+  "TAO_USD": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/TAO_USD"
+  },
+  "TFUEL_USD": {
+    "exchange": "spot",
+    "base": "theta-fuel",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/TFUEL_USD"
+  },
+  "TFUEL_USDT": {
+    "exchange": "spot",
+    "base": "theta-fuel",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/TFUEL_USDT"
+  },
+  "THETA_USD": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/THETA_USD"
+  },
+  "THETA_USDT": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/THETA_USDT"
+  },
+  "TIA_USD": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/TIA_USD"
+  },
+  "TIA_USDT": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/TIA_USDT"
+  },
+  "TNSR_USD": {
+    "exchange": "spot",
+    "base": "tensor",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/TNSR_USD"
+  },
+  "TOSHI_USD": {
+    "exchange": "spot",
+    "base": "toshi",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/TOSHI_USD"
+  },
+  "TRAC_USD": {
+    "exchange": "spot",
+    "base": "origintrail",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/TRAC_USD"
+  },
+  "TRB_USD": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/TRB_USD"
+  },
+  "TRB_USDT": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/TRB_USDT"
+  },
+  "TRUMP_USD": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/TRUMP_USD"
+  },
+  "TRUMP_USDT": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/TRUMP_USDT"
+  },
+  "TRUST_USD": {
+    "exchange": "spot",
+    "base": "intuition",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/TRUST_USD"
+  },
+  "TURBO_USD": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/TURBO_USD"
+  },
+  "T_USD": {
+    "exchange": "spot",
+    "base": "threshold-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/T_USD"
+  },
+  "UMA_USD": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/UMA_USD"
+  },
+  "UNI_USD": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/UNI_USD"
+  },
+  "UNI_USDT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/UNI_USDT"
+  },
+  "USAT_USD": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/USAT_USD"
+  },
+  "USD1_USD": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/USD1_USD"
+  },
+  "USDG_USD": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/USDG_USD"
+  },
+  "USDS_USD": {
+    "exchange": "spot",
+    "base": "sky-usd",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/USDS_USD"
+  },
+  "USDT_USD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/USDT_USD"
+  },
+  "USELESS_USD": {
+    "exchange": "spot",
+    "base": "useless-coin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/USELESS_USD"
+  },
+  "VELO_USD": {
+    "exchange": "spot",
+    "base": "velo",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/VELO_USD"
+  },
+  "VET_USD": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/VET_USD"
+  },
+  "VET_USDT": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/VET_USDT"
+  },
+  "VINE_USD": {
+    "exchange": "spot",
+    "base": "vine",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/VINE_USD"
+  },
+  "VIRTUAL_USD": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/VIRTUAL_USD"
+  },
+  "VIRTUAL_USDT": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/VIRTUAL_USDT"
+  },
+  "VRA_USD": {
+    "exchange": "spot",
+    "base": "verasity",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/VRA_USD"
+  },
+  "VRA_USDT": {
+    "exchange": "spot",
+    "base": "verasity",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/VRA_USDT"
+  },
+  "VTHO_USD": {
+    "exchange": "spot",
+    "base": "vethor-token",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/VTHO_USD"
+  },
+  "VVV_USD": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/VVV_USD"
+  },
+  "WAL_USD": {
+    "exchange": "spot",
+    "base": "walrus",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/WAL_USD"
+  },
+  "WAXP_USD": {
+    "exchange": "spot",
+    "base": "wax",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/WAXP_USD"
+  },
+  "WBTC_USD": {
+    "exchange": "spot",
+    "base": "wrapped-bitcoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/WBTC_USD"
+  },
+  "WCT_USD": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/WCT_USD"
+  },
+  "WEN_USD": {
+    "exchange": "spot",
+    "base": "wen",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/WEN_USD"
+  },
+  "WET_USD": {
+    "exchange": "spot",
+    "base": "humidifi",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/WET_USD"
+  },
+  "WIF_USD": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/WIF_USD"
+  },
+  "WIF_USDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/WIF_USDT"
+  },
+  "WLD_USD": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/WLD_USD"
+  },
+  "WLD_USDT": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/WLD_USDT"
+  },
+  "WLFI_USD": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/WLFI_USD"
+  },
+  "WLFI_USDT": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/WLFI_USDT"
+  },
+  "WOO_USD": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/WOO_USD"
+  },
+  "W_USD": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/W_USD"
+  },
+  "XAI_USD": {
+    "exchange": "spot",
+    "base": "xai",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/XAI_USD"
+  },
+  "XAUT_BTC": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/XAUT_BTC"
+  },
+  "XAUT_USD": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/XAUT_USD"
+  },
+  "XAUT_USDT": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/XAUT_USDT"
+  },
+  "XLM_USD": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/XLM_USD"
+  },
+  "XLM_USDT": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/XLM_USDT"
+  },
+  "XNO_USD": {
+    "exchange": "spot",
+    "base": "nano",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/XNO_USD"
+  },
+  "XPL_USD": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/XPL_USD"
+  },
+  "XRP_BTC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "bitcoin",
+    "url": "https://crypto.com/exchange/trade/XRP_BTC"
+  },
+  "XRP_EUR": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "euro",
+    "url": "https://crypto.com/exchange/trade/XRP_EUR"
+  },
+  "XRP_PYUSD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "paypal-usd",
+    "url": "https://crypto.com/exchange/trade/XRP_PYUSD"
+  },
+  "XRP_USD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/XRP_USD"
+  },
+  "XRP_USDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/XRP_USDT"
+  },
+  "XTZ_USD": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/XTZ_USD"
+  },
+  "XTZ_USDT": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/XTZ_USDT"
+  },
+  "XYO_USD": {
+    "exchange": "spot",
+    "base": "xyo",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/XYO_USD"
+  },
+  "XYO_USDT": {
+    "exchange": "spot",
+    "base": "xyo",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/XYO_USDT"
+  },
+  "YFI_USD": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/YFI_USD"
+  },
+  "ZBCN_USD": {
+    "exchange": "spot",
+    "base": "zebec-network",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ZBCN_USD"
+  },
+  "ZETA_USD": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ZETA_USD"
+  },
+  "ZIL_USD": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ZIL_USD"
+  },
+  "ZKC_USD": {
+    "exchange": "spot",
+    "base": "boundless",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ZKC_USD"
+  },
+  "ZKJ_USD": {
+    "exchange": "spot",
+    "base": "polyhedra",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ZKJ_USD"
+  },
+  "ZK_USD": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ZK_USD"
+  },
+  "ZK_USDT": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ZK_USDT"
+  },
+  "ZORA_USD": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ZORA_USD"
+  },
+  "ZRC_USD": {
+    "exchange": "spot",
+    "base": "zircuit",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ZRC_USD"
+  },
+  "ZRO_USD": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ZRO_USD"
+  },
+  "ZRO_USDT": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ZRO_USDT"
+  },
+  "ZRX_USD": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ZRX_USD"
+  }
+}

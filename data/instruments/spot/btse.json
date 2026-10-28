@@ -1,0 +1,5096 @@
+{
+  "1INCH-ETH": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/1INCH-ETH"
+  },
+  "1INCH-USD": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/1INCH-USD"
+  },
+  "1INCH-USDC": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/1INCH-USDC"
+  },
+  "1INCH-USDT": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/1INCH-USDT"
+  },
+  "AAVE-BTC": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/AAVE-BTC"
+  },
+  "AAVE-ETH": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/AAVE-ETH"
+  },
+  "AAVE-USD": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/AAVE-USD"
+  },
+  "AAVE-USDC": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/AAVE-USDC"
+  },
+  "AAVE-USDT": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/AAVE-USDT"
+  },
+  "AB-USD": {
+    "exchange": "spot",
+    "base": "newton-project",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/AB-USD"
+  },
+  "AB-USDT": {
+    "exchange": "spot",
+    "base": "newton-project",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/AB-USDT"
+  },
+  "ACH-ETH": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ACH-ETH"
+  },
+  "ACH-USD": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ACH-USD"
+  },
+  "ACH-USDC": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ACH-USDC"
+  },
+  "ACH-USDT": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ACH-USDT"
+  },
+  "ACT-USD": {
+    "exchange": "spot",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ACT-USD"
+  },
+  "ACT-USDT": {
+    "exchange": "spot",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ACT-USDT"
+  },
+  "ADA-BTC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/ADA-BTC"
+  },
+  "ADA-ETH": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ADA-ETH"
+  },
+  "ADA-EUR": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "euro",
+    "url": "https://www.btse.com/en/trading/ADA-EUR"
+  },
+  "ADA-GBP": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "british-pound",
+    "url": "https://www.btse.com/en/trading/ADA-GBP"
+  },
+  "ADA-INR": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "indian-rupee",
+    "url": "https://www.btse.com/en/trading/ADA-INR"
+  },
+  "ADA-JPY": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "japanese-yen",
+    "url": "https://www.btse.com/en/trading/ADA-JPY"
+  },
+  "ADA-USD": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ADA-USD"
+  },
+  "ADA-USDC": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ADA-USDC"
+  },
+  "ADA-USDT": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ADA-USDT"
+  },
+  "AEVO-ETH": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/AEVO-ETH"
+  },
+  "AEVO-USD": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/AEVO-USD"
+  },
+  "AEVO-USDC": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/AEVO-USDC"
+  },
+  "AEVO-USDT": {
+    "exchange": "spot",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/AEVO-USDT"
+  },
+  "AGLD-BTC": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/AGLD-BTC"
+  },
+  "AGLD-ETH": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/AGLD-ETH"
+  },
+  "AGLD-USD": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/AGLD-USD"
+  },
+  "AGLD-USDC": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/AGLD-USDC"
+  },
+  "AGLD-USDT": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/AGLD-USDT"
+  },
+  "AIINU-USDT": {
+    "exchange": "spot",
+    "base": "artificial-inu",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/AIINU-USDT"
+  },
+  "AIXBT-USD": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/AIXBT-USD"
+  },
+  "AIXBT-USDT": {
+    "exchange": "spot",
+    "base": "aixbt",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/AIXBT-USDT"
+  },
+  "ALGO-ETH": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ALGO-ETH"
+  },
+  "ALGO-USD": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ALGO-USD"
+  },
+  "ALGO-USDC": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ALGO-USDC"
+  },
+  "ALGO-USDT": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ALGO-USDT"
+  },
+  "ALICE-ETH": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ALICE-ETH"
+  },
+  "ALICE-USD": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ALICE-USD"
+  },
+  "ALICE-USDC": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ALICE-USDC"
+  },
+  "ALICE-USDT": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ALICE-USDT"
+  },
+  "ANIME-USD": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ANIME-USD"
+  },
+  "ANIME-USDC": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ANIME-USDC"
+  },
+  "ANIME-USDT": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ANIME-USDT"
+  },
+  "ANKR-USD": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ANKR-USD"
+  },
+  "ANKR-USDC": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ANKR-USDC"
+  },
+  "ANKR-USDT": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ANKR-USDT"
+  },
+  "ANSEM-ETH": {
+    "exchange": "spot",
+    "base": "the-black-bull",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ANSEM-ETH"
+  },
+  "ANSEM-USD": {
+    "exchange": "spot",
+    "base": "the-black-bull",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ANSEM-USD"
+  },
+  "ANSEM-USDC": {
+    "exchange": "spot",
+    "base": "the-black-bull",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ANSEM-USDC"
+  },
+  "ANSEM-USDT": {
+    "exchange": "spot",
+    "base": "the-black-bull",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ANSEM-USDT"
+  },
+  "APE-BTC": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/APE-BTC"
+  },
+  "APE-ETH": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/APE-ETH"
+  },
+  "APE-USD": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/APE-USD"
+  },
+  "APE-USDC": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/APE-USDC"
+  },
+  "APE-USDT": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/APE-USDT"
+  },
+  "APT-BTC": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/APT-BTC"
+  },
+  "APT-ETH": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/APT-ETH"
+  },
+  "APT-USD": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/APT-USD"
+  },
+  "APT-USDC": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/APT-USDC"
+  },
+  "APT-USDT": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/APT-USDT"
+  },
+  "ARB-BTC": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/ARB-BTC"
+  },
+  "ARB-ETH": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ARB-ETH"
+  },
+  "ARB-USD": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ARB-USD"
+  },
+  "ARB-USDC": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ARB-USDC"
+  },
+  "ARB-USDT": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ARB-USDT"
+  },
+  "ARKM-ETH": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ARKM-ETH"
+  },
+  "ARKM-USD": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ARKM-USD"
+  },
+  "ARKM-USDC": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ARKM-USDC"
+  },
+  "ARKM-USDT": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ARKM-USDT"
+  },
+  "ASTER-ETH": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ASTER-ETH"
+  },
+  "ASTER-USD": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ASTER-USD"
+  },
+  "ASTER-USDC": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ASTER-USDC"
+  },
+  "ASTER-USDT": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ASTER-USDT"
+  },
+  "ATH-ETH": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ATH-ETH"
+  },
+  "ATH-USD": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ATH-USD"
+  },
+  "ATH-USDC": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ATH-USDC"
+  },
+  "ATH-USDT": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ATH-USDT"
+  },
+  "ATOM-BTC": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/ATOM-BTC"
+  },
+  "ATOM-ETH": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ATOM-ETH"
+  },
+  "ATOM-EUR": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "euro",
+    "url": "https://www.btse.com/en/trading/ATOM-EUR"
+  },
+  "ATOM-GBP": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "british-pound",
+    "url": "https://www.btse.com/en/trading/ATOM-GBP"
+  },
+  "ATOM-INR": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "indian-rupee",
+    "url": "https://www.btse.com/en/trading/ATOM-INR"
+  },
+  "ATOM-JPY": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "japanese-yen",
+    "url": "https://www.btse.com/en/trading/ATOM-JPY"
+  },
+  "ATOM-USD": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ATOM-USD"
+  },
+  "ATOM-USDC": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ATOM-USDC"
+  },
+  "ATOM-USDT": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ATOM-USDT"
+  },
+  "AUCTION-BTC": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/AUCTION-BTC"
+  },
+  "AUCTION-ETH": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/AUCTION-ETH"
+  },
+  "AUCTION-USD": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/AUCTION-USD"
+  },
+  "AUCTION-USDC": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/AUCTION-USDC"
+  },
+  "AUCTION-USDT": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/AUCTION-USDT"
+  },
+  "AVAX-BTC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/AVAX-BTC"
+  },
+  "AVAX-ETH": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/AVAX-ETH"
+  },
+  "AVAX-USD": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/AVAX-USD"
+  },
+  "AVAX-USDC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/AVAX-USDC"
+  },
+  "AVAX-USDT": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/AVAX-USDT"
+  },
+  "AWE-ETH": {
+    "exchange": "spot",
+    "base": "stp-network",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/AWE-ETH"
+  },
+  "AWE-USD": {
+    "exchange": "spot",
+    "base": "stp-network",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/AWE-USD"
+  },
+  "AWE-USDC": {
+    "exchange": "spot",
+    "base": "stp-network",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/AWE-USDC"
+  },
+  "AWE-USDT": {
+    "exchange": "spot",
+    "base": "stp-network",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/AWE-USDT"
+  },
+  "AXS-BTC": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/AXS-BTC"
+  },
+  "AXS-ETH": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/AXS-ETH"
+  },
+  "AXS-USD": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/AXS-USD"
+  },
+  "AXS-USDC": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/AXS-USDC"
+  },
+  "AXS-USDT": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/AXS-USDT"
+  },
+  "B-ETH": {
+    "exchange": "spot",
+    "base": "build-on",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/B-ETH"
+  },
+  "B-USD": {
+    "exchange": "spot",
+    "base": "build-on",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/B-USD"
+  },
+  "B-USDC": {
+    "exchange": "spot",
+    "base": "build-on",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/B-USDC"
+  },
+  "B-USDT": {
+    "exchange": "spot",
+    "base": "build-on",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/B-USDT"
+  },
+  "BANANAS31-USD": {
+    "exchange": "spot",
+    "base": "banana-for-scale",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BANANAS31-USD"
+  },
+  "BANANAS31-USDC": {
+    "exchange": "spot",
+    "base": "banana-for-scale",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BANANAS31-USDC"
+  },
+  "BANANAS31-USDT": {
+    "exchange": "spot",
+    "base": "banana-for-scale",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BANANAS31-USDT"
+  },
+  "BAND-BTC": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/BAND-BTC"
+  },
+  "BAND-ETH": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/BAND-ETH"
+  },
+  "BAND-USD": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BAND-USD"
+  },
+  "BAND-USDC": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BAND-USDC"
+  },
+  "BAND-USDT": {
+    "exchange": "spot",
+    "base": "band-protocol",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BAND-USDT"
+  },
+  "BAT-ETH": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/BAT-ETH"
+  },
+  "BAT-USD": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BAT-USD"
+  },
+  "BAT-USDC": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BAT-USDC"
+  },
+  "BAT-USDT": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BAT-USDT"
+  },
+  "BB-ETH": {
+    "exchange": "spot",
+    "base": "bouncebit",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/BB-ETH"
+  },
+  "BB-USD": {
+    "exchange": "spot",
+    "base": "bouncebit",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BB-USD"
+  },
+  "BB-USDC": {
+    "exchange": "spot",
+    "base": "bouncebit",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BB-USDC"
+  },
+  "BB-USDT": {
+    "exchange": "spot",
+    "base": "bouncebit",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BB-USDT"
+  },
+  "BIO-ETH": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/BIO-ETH"
+  },
+  "BIO-USD": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BIO-USD"
+  },
+  "BIO-USDC": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BIO-USDC"
+  },
+  "BIO-USDT": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BIO-USDT"
+  },
+  "BLUR-ETH": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/BLUR-ETH"
+  },
+  "BLUR-USD": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BLUR-USD"
+  },
+  "BLUR-USDC": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BLUR-USDC"
+  },
+  "BLUR-USDT": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BLUR-USDT"
+  },
+  "BNB-BTC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/BNB-BTC"
+  },
+  "BNB-ETH": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/BNB-ETH"
+  },
+  "BNB-USD": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BNB-USD"
+  },
+  "BNB-USDC": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BNB-USDC"
+  },
+  "BNB-USDT": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BNB-USDT"
+  },
+  "BNT-BTC": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/BNT-BTC"
+  },
+  "BNT-ETH": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/BNT-ETH"
+  },
+  "BNT-USD": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BNT-USD"
+  },
+  "BNT-USDC": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BNT-USDC"
+  },
+  "BNT-USDT": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BNT-USDT"
+  },
+  "BOME-USD": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BOME-USD"
+  },
+  "BOME-USDC": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BOME-USDC"
+  },
+  "BOME-USDT": {
+    "exchange": "spot",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BOME-USDT"
+  },
+  "BONK-USD": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BONK-USD"
+  },
+  "BONK-USDC": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BONK-USDC"
+  },
+  "BONK-USDT": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BONK-USDT"
+  },
+  "BR-ETH": {
+    "exchange": "spot",
+    "base": "bedrock",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/BR-ETH"
+  },
+  "BR-USD": {
+    "exchange": "spot",
+    "base": "bedrock",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BR-USD"
+  },
+  "BR-USDC": {
+    "exchange": "spot",
+    "base": "bedrock",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BR-USDC"
+  },
+  "BR-USDT": {
+    "exchange": "spot",
+    "base": "bedrock",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BR-USDT"
+  },
+  "BRETT-ETH": {
+    "exchange": "spot",
+    "base": "brett",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/BRETT-ETH"
+  },
+  "BRETT-USD": {
+    "exchange": "spot",
+    "base": "brett",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BRETT-USD"
+  },
+  "BRETT-USDC": {
+    "exchange": "spot",
+    "base": "brett",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BRETT-USDC"
+  },
+  "BRETT-USDT": {
+    "exchange": "spot",
+    "base": "brett",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BRETT-USDT"
+  },
+  "BTC-AUD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "australian-dollar",
+    "url": "https://www.btse.com/en/trading/BTC-AUD"
+  },
+  "BTC-CAD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "canadian-dollar",
+    "url": "https://www.btse.com/en/trading/BTC-CAD"
+  },
+  "BTC-CHF": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "swiss-franc",
+    "url": "https://www.btse.com/en/trading/BTC-CHF"
+  },
+  "BTC-EUR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro",
+    "url": "https://www.btse.com/en/trading/BTC-EUR"
+  },
+  "BTC-GBP": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "british-pound",
+    "url": "https://www.btse.com/en/trading/BTC-GBP"
+  },
+  "BTC-HKD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "hong-kong-dollar",
+    "url": "https://www.btse.com/en/trading/BTC-HKD"
+  },
+  "BTC-INR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "indian-rupee",
+    "url": "https://www.btse.com/en/trading/BTC-INR"
+  },
+  "BTC-JPY": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "japanese-yen",
+    "url": "https://www.btse.com/en/trading/BTC-JPY"
+  },
+  "BTC-NZD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "new-zealand-dollar",
+    "url": "https://www.btse.com/en/trading/BTC-NZD"
+  },
+  "BTC-USD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BTC-USD"
+  },
+  "BTC-USDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BTC-USDC"
+  },
+  "BTC-USDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BTC-USDT"
+  },
+  "BTSE-BTC": {
+    "exchange": "spot",
+    "base": "btse-token",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/BTSE-BTC"
+  },
+  "BTSE-ETH": {
+    "exchange": "spot",
+    "base": "btse-token",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/BTSE-ETH"
+  },
+  "BTSE-EUR": {
+    "exchange": "spot",
+    "base": "btse-token",
+    "quote": "euro",
+    "url": "https://www.btse.com/en/trading/BTSE-EUR"
+  },
+  "BTSE-GBP": {
+    "exchange": "spot",
+    "base": "btse-token",
+    "quote": "british-pound",
+    "url": "https://www.btse.com/en/trading/BTSE-GBP"
+  },
+  "BTSE-JPY": {
+    "exchange": "spot",
+    "base": "btse-token",
+    "quote": "japanese-yen",
+    "url": "https://www.btse.com/en/trading/BTSE-JPY"
+  },
+  "BTSE-USD": {
+    "exchange": "spot",
+    "base": "btse-token",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/BTSE-USD"
+  },
+  "BTSE-USDC": {
+    "exchange": "spot",
+    "base": "btse-token",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/BTSE-USDC"
+  },
+  "BTSE-USDT": {
+    "exchange": "spot",
+    "base": "btse-token",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/BTSE-USDT"
+  },
+  "C98-ETH": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/C98-ETH"
+  },
+  "C98-USD": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/C98-USD"
+  },
+  "C98-USDC": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/C98-USDC"
+  },
+  "C98-USDT": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/C98-USDT"
+  },
+  "CAKE-BTC": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/CAKE-BTC"
+  },
+  "CAKE-ETH": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CAKE-ETH"
+  },
+  "CAKE-USD": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CAKE-USD"
+  },
+  "CAKE-USDC": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CAKE-USDC"
+  },
+  "CAKE-USDT": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CAKE-USDT"
+  },
+  "CARDS-ETH": {
+    "exchange": "spot",
+    "base": "collector-crypt",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CARDS-ETH"
+  },
+  "CARDS-USD": {
+    "exchange": "spot",
+    "base": "collector-crypt",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CARDS-USD"
+  },
+  "CARDS-USDC": {
+    "exchange": "spot",
+    "base": "collector-crypt",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CARDS-USDC"
+  },
+  "CARDS-USDT": {
+    "exchange": "spot",
+    "base": "collector-crypt",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CARDS-USDT"
+  },
+  "CASHCAT-ETH": {
+    "exchange": "spot",
+    "base": "cash-cat",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CASHCAT-ETH"
+  },
+  "CASHCAT-USD": {
+    "exchange": "spot",
+    "base": "cash-cat",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CASHCAT-USD"
+  },
+  "CASHCAT-USDC": {
+    "exchange": "spot",
+    "base": "cash-cat",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CASHCAT-USDC"
+  },
+  "CASHCAT-USDT": {
+    "exchange": "spot",
+    "base": "cash-cat",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CASHCAT-USDT"
+  },
+  "CATI-ETH": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CATI-ETH"
+  },
+  "CATI-USD": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CATI-USD"
+  },
+  "CATI-USDC": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CATI-USDC"
+  },
+  "CATI-USDT": {
+    "exchange": "spot",
+    "base": "catizen",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CATI-USDT"
+  },
+  "CELR-ETH": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CELR-ETH"
+  },
+  "CELR-USD": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CELR-USD"
+  },
+  "CELR-USDC": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CELR-USDC"
+  },
+  "CELR-USDT": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CELR-USDT"
+  },
+  "CETUS-ETH": {
+    "exchange": "spot",
+    "base": "cetus-protocol",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CETUS-ETH"
+  },
+  "CETUS-USD": {
+    "exchange": "spot",
+    "base": "cetus-protocol",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CETUS-USD"
+  },
+  "CETUS-USDC": {
+    "exchange": "spot",
+    "base": "cetus-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CETUS-USDC"
+  },
+  "CETUS-USDT": {
+    "exchange": "spot",
+    "base": "cetus-protocol",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CETUS-USDT"
+  },
+  "CGPT-USD": {
+    "exchange": "spot",
+    "base": "chaingpt",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CGPT-USD"
+  },
+  "CGPT-USDC": {
+    "exchange": "spot",
+    "base": "chaingpt",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CGPT-USDC"
+  },
+  "CGPT-USDT": {
+    "exchange": "spot",
+    "base": "chaingpt",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CGPT-USDT"
+  },
+  "CHILLGUY-ETH": {
+    "exchange": "spot",
+    "base": "just-a-chill-guy",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CHILLGUY-ETH"
+  },
+  "CHILLGUY-USD": {
+    "exchange": "spot",
+    "base": "just-a-chill-guy",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CHILLGUY-USD"
+  },
+  "CHILLGUY-USDC": {
+    "exchange": "spot",
+    "base": "just-a-chill-guy",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CHILLGUY-USDC"
+  },
+  "CHILLGUY-USDT": {
+    "exchange": "spot",
+    "base": "just-a-chill-guy",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CHILLGUY-USDT"
+  },
+  "CHZ-ETH": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CHZ-ETH"
+  },
+  "CHZ-EUR": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "euro",
+    "url": "https://www.btse.com/en/trading/CHZ-EUR"
+  },
+  "CHZ-USD": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CHZ-USD"
+  },
+  "CHZ-USDC": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CHZ-USDC"
+  },
+  "CHZ-USDT": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CHZ-USDT"
+  },
+  "COMP-BTC": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/COMP-BTC"
+  },
+  "COMP-ETH": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/COMP-ETH"
+  },
+  "COMP-USD": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/COMP-USD"
+  },
+  "COMP-USDC": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/COMP-USDC"
+  },
+  "COMP-USDT": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/COMP-USDT"
+  },
+  "COOKIE-ETH": {
+    "exchange": "spot",
+    "base": "cookie",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/COOKIE-ETH"
+  },
+  "COOKIE-USD": {
+    "exchange": "spot",
+    "base": "cookie",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/COOKIE-USD"
+  },
+  "COOKIE-USDC": {
+    "exchange": "spot",
+    "base": "cookie",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/COOKIE-USDC"
+  },
+  "COOKIE-USDT": {
+    "exchange": "spot",
+    "base": "cookie",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/COOKIE-USDT"
+  },
+  "CRV-BTC": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/CRV-BTC"
+  },
+  "CRV-ETH": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CRV-ETH"
+  },
+  "CRV-USD": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CRV-USD"
+  },
+  "CRV-USDC": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CRV-USDC"
+  },
+  "CRV-USDT": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CRV-USDT"
+  },
+  "CTSI-ETH": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CTSI-ETH"
+  },
+  "CTSI-USD": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CTSI-USD"
+  },
+  "CTSI-USDC": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CTSI-USDC"
+  },
+  "CTSI-USDT": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CTSI-USDT"
+  },
+  "CVX-BTC": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/CVX-BTC"
+  },
+  "CVX-ETH": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CVX-ETH"
+  },
+  "CVX-USD": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CVX-USD"
+  },
+  "CVX-USDC": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CVX-USDC"
+  },
+  "CVX-USDT": {
+    "exchange": "spot",
+    "base": "convex-finance",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CVX-USDT"
+  },
+  "CYBER-BTC": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/CYBER-BTC"
+  },
+  "CYBER-ETH": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/CYBER-ETH"
+  },
+  "CYBER-USD": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/CYBER-USD"
+  },
+  "CYBER-USDC": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/CYBER-USDC"
+  },
+  "CYBER-USDT": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/CYBER-USDT"
+  },
+  "DASH-ETH": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/DASH-ETH"
+  },
+  "DASH-USD": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/DASH-USD"
+  },
+  "DASH-USDC": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/DASH-USDC"
+  },
+  "DASH-USDT": {
+    "exchange": "spot",
+    "base": "dash",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/DASH-USDT"
+  },
+  "DBR-USD": {
+    "exchange": "spot",
+    "base": "debridge",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/DBR-USD"
+  },
+  "DBR-USDT": {
+    "exchange": "spot",
+    "base": "debridge",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/DBR-USDT"
+  },
+  "DEGEN-USD": {
+    "exchange": "spot",
+    "base": "degen-base",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/DEGEN-USD"
+  },
+  "DEGEN-USDC": {
+    "exchange": "spot",
+    "base": "degen-base",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/DEGEN-USDC"
+  },
+  "DEGEN-USDT": {
+    "exchange": "spot",
+    "base": "degen-base",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/DEGEN-USDT"
+  },
+  "DOGE-BTC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/DOGE-BTC"
+  },
+  "DOGE-ETH": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/DOGE-ETH"
+  },
+  "DOGE-USD": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/DOGE-USD"
+  },
+  "DOGE-USDC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/DOGE-USDC"
+  },
+  "DOGE-USDT": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/DOGE-USDT"
+  },
+  "DOGS-USD": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/DOGS-USD"
+  },
+  "DOGS-USDC": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/DOGS-USDC"
+  },
+  "DOGS-USDT": {
+    "exchange": "spot",
+    "base": "dogs",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/DOGS-USDT"
+  },
+  "DOT-BTC": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/DOT-BTC"
+  },
+  "DOT-ETH": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/DOT-ETH"
+  },
+  "DOT-EUR": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "euro",
+    "url": "https://www.btse.com/en/trading/DOT-EUR"
+  },
+  "DOT-GBP": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "british-pound",
+    "url": "https://www.btse.com/en/trading/DOT-GBP"
+  },
+  "DOT-INR": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "indian-rupee",
+    "url": "https://www.btse.com/en/trading/DOT-INR"
+  },
+  "DOT-JPY": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "japanese-yen",
+    "url": "https://www.btse.com/en/trading/DOT-JPY"
+  },
+  "DOT-USD": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/DOT-USD"
+  },
+  "DOT-USDC": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/DOT-USDC"
+  },
+  "DOT-USDT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/DOT-USDT"
+  },
+  "EGLD-ETH": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/EGLD-ETH"
+  },
+  "EGLD-USD": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/EGLD-USD"
+  },
+  "EGLD-USDC": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/EGLD-USDC"
+  },
+  "EGLD-USDT": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/EGLD-USDT"
+  },
+  "EIGEN-ETH": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/EIGEN-ETH"
+  },
+  "EIGEN-USD": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/EIGEN-USD"
+  },
+  "EIGEN-USDC": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/EIGEN-USDC"
+  },
+  "EIGEN-USDT": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/EIGEN-USDT"
+  },
+  "ENA-ETH": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ENA-ETH"
+  },
+  "ENA-USD": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ENA-USD"
+  },
+  "ENA-USDC": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ENA-USDC"
+  },
+  "ENA-USDT": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ENA-USDT"
+  },
+  "ENS-BTC": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/ENS-BTC"
+  },
+  "ENS-ETH": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ENS-ETH"
+  },
+  "ENS-USD": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ENS-USD"
+  },
+  "ENS-USDC": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ENS-USDC"
+  },
+  "ENS-USDT": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ENS-USDT"
+  },
+  "ETH-AUD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "australian-dollar",
+    "url": "https://www.btse.com/en/trading/ETH-AUD"
+  },
+  "ETH-BTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/ETH-BTC"
+  },
+  "ETH-CAD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "canadian-dollar",
+    "url": "https://www.btse.com/en/trading/ETH-CAD"
+  },
+  "ETH-CHF": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "swiss-franc",
+    "url": "https://www.btse.com/en/trading/ETH-CHF"
+  },
+  "ETH-EUR": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro",
+    "url": "https://www.btse.com/en/trading/ETH-EUR"
+  },
+  "ETH-GBP": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "british-pound",
+    "url": "https://www.btse.com/en/trading/ETH-GBP"
+  },
+  "ETH-HKD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "hong-kong-dollar",
+    "url": "https://www.btse.com/en/trading/ETH-HKD"
+  },
+  "ETH-INR": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "indian-rupee",
+    "url": "https://www.btse.com/en/trading/ETH-INR"
+  },
+  "ETH-JPY": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "japanese-yen",
+    "url": "https://www.btse.com/en/trading/ETH-JPY"
+  },
+  "ETH-NZD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "new-zealand-dollar",
+    "url": "https://www.btse.com/en/trading/ETH-NZD"
+  },
+  "ETH-USD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ETH-USD"
+  },
+  "ETH-USDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ETH-USDC"
+  },
+  "ETH-USDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ETH-USDT"
+  },
+  "ETHFI-ETH": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ETHFI-ETH"
+  },
+  "ETHFI-USD": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ETHFI-USD"
+  },
+  "ETHFI-USDC": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ETHFI-USDC"
+  },
+  "ETHFI-USDT": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ETHFI-USDT"
+  },
+  "EURQ-USD": {
+    "exchange": "spot",
+    "base": "quantoz-eurq",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/EURQ-USD"
+  },
+  "EURQ-USDT": {
+    "exchange": "spot",
+    "base": "quantoz-eurq",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/EURQ-USDT"
+  },
+  "FARTCOIN-USD": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/FARTCOIN-USD"
+  },
+  "FARTCOIN-USDT": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/FARTCOIN-USDT"
+  },
+  "FET-ETH": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/FET-ETH"
+  },
+  "FET-USD": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/FET-USD"
+  },
+  "FET-USDC": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/FET-USDC"
+  },
+  "FET-USDT": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/FET-USDT"
+  },
+  "FIL-BTC": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/FIL-BTC"
+  },
+  "FIL-ETH": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/FIL-ETH"
+  },
+  "FIL-USD": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/FIL-USD"
+  },
+  "FIL-USDC": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/FIL-USDC"
+  },
+  "FIL-USDT": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/FIL-USDT"
+  },
+  "FLOKI-USD": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/FLOKI-USD"
+  },
+  "FLOKI-USDC": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/FLOKI-USDC"
+  },
+  "FLOKI-USDT": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/FLOKI-USDT"
+  },
+  "G-USD": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/G-USD"
+  },
+  "G-USDC": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/G-USDC"
+  },
+  "G-USDT": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/G-USDT"
+  },
+  "GALA-USD": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/GALA-USD"
+  },
+  "GALA-USDC": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/GALA-USDC"
+  },
+  "GALA-USDT": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/GALA-USDT"
+  },
+  "GENSYN-USD": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/GENSYN-USD"
+  },
+  "GENSYN-USDC": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/GENSYN-USDC"
+  },
+  "GENSYN-USDT": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/GENSYN-USDT"
+  },
+  "GLMR-USD": {
+    "exchange": "spot",
+    "base": "moonbeam",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/GLMR-USD"
+  },
+  "GLMR-USDC": {
+    "exchange": "spot",
+    "base": "moonbeam",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/GLMR-USDC"
+  },
+  "GLMR-USDT": {
+    "exchange": "spot",
+    "base": "moonbeam",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/GLMR-USDT"
+  },
+  "GMT-ETH": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/GMT-ETH"
+  },
+  "GMT-USD": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/GMT-USD"
+  },
+  "GMT-USDC": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/GMT-USDC"
+  },
+  "GMT-USDT": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/GMT-USDT"
+  },
+  "GOAT-USD": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/GOAT-USD"
+  },
+  "GOAT-USDT": {
+    "exchange": "spot",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/GOAT-USDT"
+  },
+  "GRAM-BTC": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/GRAM-BTC"
+  },
+  "GRAM-ETH": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/GRAM-ETH"
+  },
+  "GRAM-USDC": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/GRAM-USDC"
+  },
+  "GRAM-USDT": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/GRAM-USDT"
+  },
+  "GRT-ETH": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/GRT-ETH"
+  },
+  "GRT-USD": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/GRT-USD"
+  },
+  "GRT-USDC": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/GRT-USDC"
+  },
+  "GRT-USDT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/GRT-USDT"
+  },
+  "GTC-ETH": {
+    "exchange": "spot",
+    "base": "gitcoin",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/GTC-ETH"
+  },
+  "GTC-USD": {
+    "exchange": "spot",
+    "base": "gitcoin",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/GTC-USD"
+  },
+  "GTC-USDC": {
+    "exchange": "spot",
+    "base": "gitcoin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/GTC-USDC"
+  },
+  "GTC-USDT": {
+    "exchange": "spot",
+    "base": "gitcoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/GTC-USDT"
+  },
+  "HAEDAL-ETH": {
+    "exchange": "spot",
+    "base": "haedal-protocol",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/HAEDAL-ETH"
+  },
+  "HAEDAL-USD": {
+    "exchange": "spot",
+    "base": "haedal-protocol",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/HAEDAL-USD"
+  },
+  "HAEDAL-USDC": {
+    "exchange": "spot",
+    "base": "haedal-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/HAEDAL-USDC"
+  },
+  "HAEDAL-USDT": {
+    "exchange": "spot",
+    "base": "haedal-protocol",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/HAEDAL-USDT"
+  },
+  "HMSTR-USD": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/HMSTR-USD"
+  },
+  "HMSTR-USDC": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/HMSTR-USDC"
+  },
+  "HMSTR-USDT": {
+    "exchange": "spot",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/HMSTR-USDT"
+  },
+  "HOLO-ETH": {
+    "exchange": "spot",
+    "base": "holoworld",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/HOLO-ETH"
+  },
+  "HOLO-USD": {
+    "exchange": "spot",
+    "base": "holoworld",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/HOLO-USD"
+  },
+  "HOLO-USDC": {
+    "exchange": "spot",
+    "base": "holoworld",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/HOLO-USDC"
+  },
+  "HOLO-USDT": {
+    "exchange": "spot",
+    "base": "holoworld",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/HOLO-USDT"
+  },
+  "HPP-USD": {
+    "exchange": "spot",
+    "base": "house-party-protocol",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/HPP-USD"
+  },
+  "HPP-USDC": {
+    "exchange": "spot",
+    "base": "house-party-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/HPP-USDC"
+  },
+  "HPP-USDT": {
+    "exchange": "spot",
+    "base": "house-party-protocol",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/HPP-USDT"
+  },
+  "HUMA-ETH": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/HUMA-ETH"
+  },
+  "HUMA-USD": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/HUMA-USD"
+  },
+  "HUMA-USDC": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/HUMA-USDC"
+  },
+  "HUMA-USDT": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/HUMA-USDT"
+  },
+  "HYPE-ETH": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/HYPE-ETH"
+  },
+  "HYPE-USD": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/HYPE-USD"
+  },
+  "HYPE-USDC": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/HYPE-USDC"
+  },
+  "HYPE-USDT": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/HYPE-USDT"
+  },
+  "ID-ETH": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ID-ETH"
+  },
+  "ID-USD": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ID-USD"
+  },
+  "ID-USDC": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ID-USDC"
+  },
+  "ID-USDT": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ID-USDT"
+  },
+  "ILV-BTC": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/ILV-BTC"
+  },
+  "ILV-ETH": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ILV-ETH"
+  },
+  "ILV-USD": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ILV-USD"
+  },
+  "ILV-USDC": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ILV-USDC"
+  },
+  "ILV-USDT": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ILV-USDT"
+  },
+  "IMX-ETH": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/IMX-ETH"
+  },
+  "IMX-USD": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/IMX-USD"
+  },
+  "IMX-USDC": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/IMX-USDC"
+  },
+  "IMX-USDT": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/IMX-USDT"
+  },
+  "INJ-BTC": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/INJ-BTC"
+  },
+  "INJ-ETH": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/INJ-ETH"
+  },
+  "INJ-USD": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/INJ-USD"
+  },
+  "INJ-USDC": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/INJ-USDC"
+  },
+  "INJ-USDT": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/INJ-USDT"
+  },
+  "IO-ETH": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/IO-ETH"
+  },
+  "IO-USD": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/IO-USD"
+  },
+  "IO-USDC": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/IO-USDC"
+  },
+  "IO-USDT": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/IO-USDT"
+  },
+  "IOTX-USD": {
+    "exchange": "spot",
+    "base": "iotex",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/IOTX-USD"
+  },
+  "IOTX-USDC": {
+    "exchange": "spot",
+    "base": "iotex",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/IOTX-USDC"
+  },
+  "IOTX-USDT": {
+    "exchange": "spot",
+    "base": "iotex",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/IOTX-USDT"
+  },
+  "JTO-ETH": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/JTO-ETH"
+  },
+  "JTO-USD": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/JTO-USD"
+  },
+  "JTO-USDC": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/JTO-USDC"
+  },
+  "JTO-USDT": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/JTO-USDT"
+  },
+  "JUP-ETH": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/JUP-ETH"
+  },
+  "JUP-USD": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/JUP-USD"
+  },
+  "JUP-USDC": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/JUP-USDC"
+  },
+  "JUP-USDT": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/JUP-USDT"
+  },
+  "KAIA-ETH": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/KAIA-ETH"
+  },
+  "KAIA-USD": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/KAIA-USD"
+  },
+  "KAIA-USDC": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/KAIA-USDC"
+  },
+  "KAIA-USDT": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/KAIA-USDT"
+  },
+  "KAITO-ETH": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/KAITO-ETH"
+  },
+  "KAITO-USD": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/KAITO-USD"
+  },
+  "KAITO-USDC": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/KAITO-USDC"
+  },
+  "KAITO-USDT": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/KAITO-USDT"
+  },
+  "KAS-ETH": {
+    "exchange": "spot",
+    "base": "kaspa",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/KAS-ETH"
+  },
+  "KAS-USD": {
+    "exchange": "spot",
+    "base": "kaspa",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/KAS-USD"
+  },
+  "KAS-USDC": {
+    "exchange": "spot",
+    "base": "kaspa",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/KAS-USDC"
+  },
+  "KAS-USDT": {
+    "exchange": "spot",
+    "base": "kaspa",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/KAS-USDT"
+  },
+  "KITE-ETH": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/KITE-ETH"
+  },
+  "KITE-USD": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/KITE-USD"
+  },
+  "KITE-USDC": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/KITE-USDC"
+  },
+  "KITE-USDT": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/KITE-USDT"
+  },
+  "KNC-ETH": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/KNC-ETH"
+  },
+  "KNC-USD": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/KNC-USD"
+  },
+  "KNC-USDC": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/KNC-USDC"
+  },
+  "KNC-USDT": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/KNC-USDT"
+  },
+  "KSM-BTC": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/KSM-BTC"
+  },
+  "KSM-ETH": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/KSM-ETH"
+  },
+  "KSM-USD": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/KSM-USD"
+  },
+  "KSM-USDC": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/KSM-USDC"
+  },
+  "KSM-USDT": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/KSM-USDT"
+  },
+  "KTA-USD": {
+    "exchange": "spot",
+    "base": "keeta",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/KTA-USD"
+  },
+  "KTA-USDT": {
+    "exchange": "spot",
+    "base": "keeta",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/KTA-USDT"
+  },
+  "LA-ETH": {
+    "exchange": "spot",
+    "base": "lagrange",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/LA-ETH"
+  },
+  "LA-USD": {
+    "exchange": "spot",
+    "base": "lagrange",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/LA-USD"
+  },
+  "LA-USDC": {
+    "exchange": "spot",
+    "base": "lagrange",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/LA-USDC"
+  },
+  "LA-USDT": {
+    "exchange": "spot",
+    "base": "lagrange",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/LA-USDT"
+  },
+  "LDO-BTC": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/LDO-BTC"
+  },
+  "LDO-ETH": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/LDO-ETH"
+  },
+  "LDO-USD": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/LDO-USD"
+  },
+  "LDO-USDC": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/LDO-USDC"
+  },
+  "LDO-USDT": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/LDO-USDT"
+  },
+  "LINK-BTC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/LINK-BTC"
+  },
+  "LINK-ETH": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/LINK-ETH"
+  },
+  "LINK-USD": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/LINK-USD"
+  },
+  "LINK-USDC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/LINK-USDC"
+  },
+  "LINK-USDT": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/LINK-USDT"
+  },
+  "LIT-ETH": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/LIT-ETH"
+  },
+  "LIT-USD": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/LIT-USD"
+  },
+  "LIT-USDC": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/LIT-USDC"
+  },
+  "LIT-USDT": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/LIT-USDT"
+  },
+  "LPT-BTC": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/LPT-BTC"
+  },
+  "LPT-ETH": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/LPT-ETH"
+  },
+  "LPT-USD": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/LPT-USD"
+  },
+  "LPT-USDC": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/LPT-USDC"
+  },
+  "LPT-USDT": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/LPT-USDT"
+  },
+  "LRC-ETH": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/LRC-ETH"
+  },
+  "LRC-USD": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/LRC-USD"
+  },
+  "LRC-USDC": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/LRC-USDC"
+  },
+  "LRC-USDT": {
+    "exchange": "spot",
+    "base": "loopring",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/LRC-USDT"
+  },
+  "LTC-BTC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/LTC-BTC"
+  },
+  "LTC-ETH": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/LTC-ETH"
+  },
+  "LTC-EUR": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "euro",
+    "url": "https://www.btse.com/en/trading/LTC-EUR"
+  },
+  "LTC-GBP": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "british-pound",
+    "url": "https://www.btse.com/en/trading/LTC-GBP"
+  },
+  "LTC-INR": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "indian-rupee",
+    "url": "https://www.btse.com/en/trading/LTC-INR"
+  },
+  "LTC-JPY": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "japanese-yen",
+    "url": "https://www.btse.com/en/trading/LTC-JPY"
+  },
+  "LTC-USD": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/LTC-USD"
+  },
+  "LTC-USDC": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/LTC-USDC"
+  },
+  "LTC-USDT": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/LTC-USDT"
+  },
+  "LUNA-BTC": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/LUNA-BTC"
+  },
+  "LUNA-ETH": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/LUNA-ETH"
+  },
+  "LUNA-USD": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/LUNA-USD"
+  },
+  "LUNA-USDC": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/LUNA-USDC"
+  },
+  "LUNA-USDT": {
+    "exchange": "spot",
+    "base": "terra",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/LUNA-USDT"
+  },
+  "LUNC-USD": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/LUNC-USD"
+  },
+  "LUNC-USDC": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/LUNC-USDC"
+  },
+  "LUNC-USDT": {
+    "exchange": "spot",
+    "base": "terra-classic",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/LUNC-USDT"
+  },
+  "MANA-ETH": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/MANA-ETH"
+  },
+  "MANA-USD": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/MANA-USD"
+  },
+  "MANA-USDC": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/MANA-USDC"
+  },
+  "MANA-USDT": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/MANA-USDT"
+  },
+  "MASK-BTC": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/MASK-BTC"
+  },
+  "MASK-ETH": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/MASK-ETH"
+  },
+  "MASK-USD": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/MASK-USD"
+  },
+  "MASK-USDC": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/MASK-USDC"
+  },
+  "MASK-USDT": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/MASK-USDT"
+  },
+  "MAVIA-ETH": {
+    "exchange": "spot",
+    "base": "heroes-of-mavia",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/MAVIA-ETH"
+  },
+  "MAVIA-USD": {
+    "exchange": "spot",
+    "base": "heroes-of-mavia",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/MAVIA-USD"
+  },
+  "MAVIA-USDC": {
+    "exchange": "spot",
+    "base": "heroes-of-mavia",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/MAVIA-USDC"
+  },
+  "MAVIA-USDT": {
+    "exchange": "spot",
+    "base": "heroes-of-mavia",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/MAVIA-USDT"
+  },
+  "MERL-USD": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/MERL-USD"
+  },
+  "MERL-USDT": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/MERL-USDT"
+  },
+  "METIS-ETH": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/METIS-ETH"
+  },
+  "METIS-USD": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/METIS-USD"
+  },
+  "METIS-USDC": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/METIS-USDC"
+  },
+  "METIS-USDT": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/METIS-USDT"
+  },
+  "MEW-USD": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/MEW-USD"
+  },
+  "MEW-USDC": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/MEW-USDC"
+  },
+  "MEW-USDT": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/MEW-USDT"
+  },
+  "MMT-ETH": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/MMT-ETH"
+  },
+  "MMT-USD": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/MMT-USD"
+  },
+  "MMT-USDC": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/MMT-USDC"
+  },
+  "MMT-USDT": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/MMT-USDT"
+  },
+  "MOODENG-ETH": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/MOODENG-ETH"
+  },
+  "MOODENG-USD": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/MOODENG-USD"
+  },
+  "MOODENG-USDC": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/MOODENG-USDC"
+  },
+  "MOODENG-USDT": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/MOODENG-USDT"
+  },
+  "MUBARAK-USD": {
+    "exchange": "spot",
+    "base": "mubarak",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/MUBARAK-USD"
+  },
+  "MUBARAK-USDC": {
+    "exchange": "spot",
+    "base": "mubarak",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/MUBARAK-USDC"
+  },
+  "MUBARAK-USDT": {
+    "exchange": "spot",
+    "base": "mubarak",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/MUBARAK-USDT"
+  },
+  "NEAR-BTC": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/NEAR-BTC"
+  },
+  "NEAR-ETH": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/NEAR-ETH"
+  },
+  "NEAR-USD": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/NEAR-USD"
+  },
+  "NEAR-USDC": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/NEAR-USDC"
+  },
+  "NEAR-USDT": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/NEAR-USDT"
+  },
+  "NEWT-ETH": {
+    "exchange": "spot",
+    "base": "newton-protocol",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/NEWT-ETH"
+  },
+  "NEWT-USD": {
+    "exchange": "spot",
+    "base": "newton-protocol",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/NEWT-USD"
+  },
+  "NEWT-USDC": {
+    "exchange": "spot",
+    "base": "newton-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/NEWT-USDC"
+  },
+  "NEWT-USDT": {
+    "exchange": "spot",
+    "base": "newton-protocol",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/NEWT-USDT"
+  },
+  "NMR-BTC": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/NMR-BTC"
+  },
+  "NMR-ETH": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/NMR-ETH"
+  },
+  "NMR-USD": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/NMR-USD"
+  },
+  "NMR-USDC": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/NMR-USDC"
+  },
+  "NMR-USDT": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/NMR-USDT"
+  },
+  "OP-BTC": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/OP-BTC"
+  },
+  "OP-ETH": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/OP-ETH"
+  },
+  "OP-USD": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/OP-USD"
+  },
+  "OP-USDC": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/OP-USDC"
+  },
+  "OP-USDT": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/OP-USDT"
+  },
+  "OPEN-ETH": {
+    "exchange": "spot",
+    "base": "openledger",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/OPEN-ETH"
+  },
+  "OPEN-USD": {
+    "exchange": "spot",
+    "base": "openledger",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/OPEN-USD"
+  },
+  "OPEN-USDC": {
+    "exchange": "spot",
+    "base": "openledger",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/OPEN-USDC"
+  },
+  "OPEN-USDT": {
+    "exchange": "spot",
+    "base": "openledger",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/OPEN-USDT"
+  },
+  "ORDER-ETH": {
+    "exchange": "spot",
+    "base": "orderly-network",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ORDER-ETH"
+  },
+  "ORDER-USD": {
+    "exchange": "spot",
+    "base": "orderly-network",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ORDER-USD"
+  },
+  "ORDER-USDC": {
+    "exchange": "spot",
+    "base": "orderly-network",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ORDER-USDC"
+  },
+  "ORDER-USDT": {
+    "exchange": "spot",
+    "base": "orderly-network",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ORDER-USDT"
+  },
+  "ORDI-ETH": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ORDI-ETH"
+  },
+  "ORDI-USD": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ORDI-USD"
+  },
+  "ORDI-USDC": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ORDI-USDC"
+  },
+  "ORDI-USDT": {
+    "exchange": "spot",
+    "base": "ordi",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ORDI-USDT"
+  },
+  "PENDLE-BTC": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/PENDLE-BTC"
+  },
+  "PENDLE-ETH": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/PENDLE-ETH"
+  },
+  "PENDLE-USD": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/PENDLE-USD"
+  },
+  "PENDLE-USDC": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/PENDLE-USDC"
+  },
+  "PENDLE-USDT": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PENDLE-USDT"
+  },
+  "PENGU-USD": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/PENGU-USD"
+  },
+  "PENGU-USDC": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/PENGU-USDC"
+  },
+  "PENGU-USDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PENGU-USDT"
+  },
+  "PEPE-USD": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/PEPE-USD"
+  },
+  "PEPE-USDC": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/PEPE-USDC"
+  },
+  "PEPE-USDT": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PEPE-USDT"
+  },
+  "PLUME-ETH": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/PLUME-ETH"
+  },
+  "PLUME-USD": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/PLUME-USD"
+  },
+  "PLUME-USDC": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/PLUME-USDC"
+  },
+  "PLUME-USDT": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PLUME-USDT"
+  },
+  "PNUT-USD": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/PNUT-USD"
+  },
+  "PNUT-USDT": {
+    "exchange": "spot",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PNUT-USDT"
+  },
+  "POL-ETH": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/POL-ETH"
+  },
+  "POL-USD": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/POL-USD"
+  },
+  "POL-USDC": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/POL-USDC"
+  },
+  "POL-USDT": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/POL-USDT"
+  },
+  "PONKE-ETH": {
+    "exchange": "spot",
+    "base": "ponke",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/PONKE-ETH"
+  },
+  "PONKE-USD": {
+    "exchange": "spot",
+    "base": "ponke",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/PONKE-USD"
+  },
+  "PONKE-USDC": {
+    "exchange": "spot",
+    "base": "ponke",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/PONKE-USDC"
+  },
+  "PONKE-USDT": {
+    "exchange": "spot",
+    "base": "ponke",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PONKE-USDT"
+  },
+  "PONS-USD": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/PONS-USD"
+  },
+  "PONS-USDC": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/PONS-USDC"
+  },
+  "PONS-USDT": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PONS-USDT"
+  },
+  "POPCAT-ETH": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/POPCAT-ETH"
+  },
+  "POPCAT-USD": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/POPCAT-USD"
+  },
+  "POPCAT-USDC": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/POPCAT-USDC"
+  },
+  "POPCAT-USDT": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/POPCAT-USDT"
+  },
+  "PORTAL-ETH": {
+    "exchange": "spot",
+    "base": "portal",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/PORTAL-ETH"
+  },
+  "PORTAL-USD": {
+    "exchange": "spot",
+    "base": "portal",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/PORTAL-USD"
+  },
+  "PORTAL-USDC": {
+    "exchange": "spot",
+    "base": "portal",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/PORTAL-USDC"
+  },
+  "PORTAL-USDT": {
+    "exchange": "spot",
+    "base": "portal",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PORTAL-USDT"
+  },
+  "PROMPT-ETH": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/PROMPT-ETH"
+  },
+  "PROMPT-USD": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/PROMPT-USD"
+  },
+  "PROMPT-USDC": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/PROMPT-USDC"
+  },
+  "PROMPT-USDT": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PROMPT-USDT"
+  },
+  "PUMP-USD": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/PUMP-USD"
+  },
+  "PUMP-USDC": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/PUMP-USDC"
+  },
+  "PUMP-USDT": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PUMP-USDT"
+  },
+  "PYTH-ETH": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/PYTH-ETH"
+  },
+  "PYTH-USD": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/PYTH-USD"
+  },
+  "PYTH-USDC": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/PYTH-USDC"
+  },
+  "PYTH-USDT": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PYTH-USDT"
+  },
+  "PYUSD-USDT": {
+    "exchange": "spot",
+    "base": "paypal-usd",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/PYUSD-USDT"
+  },
+  "RATS-USD": {
+    "exchange": "spot",
+    "base": "rats",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/RATS-USD"
+  },
+  "RATS-USDC": {
+    "exchange": "spot",
+    "base": "rats",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/RATS-USDC"
+  },
+  "RATS-USDT": {
+    "exchange": "spot",
+    "base": "rats",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/RATS-USDT"
+  },
+  "ROBO-ETH": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ROBO-ETH"
+  },
+  "ROBO-USD": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ROBO-USD"
+  },
+  "ROBO-USDC": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ROBO-USDC"
+  },
+  "ROBO-USDT": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ROBO-USDT"
+  },
+  "RSC-ETH": {
+    "exchange": "spot",
+    "base": "researchcoin",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/RSC-ETH"
+  },
+  "RSC-USD": {
+    "exchange": "spot",
+    "base": "researchcoin",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/RSC-USD"
+  },
+  "RSC-USDC": {
+    "exchange": "spot",
+    "base": "researchcoin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/RSC-USDC"
+  },
+  "RSC-USDT": {
+    "exchange": "spot",
+    "base": "researchcoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/RSC-USDT"
+  },
+  "RSR-USD": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/RSR-USD"
+  },
+  "RSR-USDC": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/RSR-USDC"
+  },
+  "RSR-USDT": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/RSR-USDT"
+  },
+  "S-ETH": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/S-ETH"
+  },
+  "S-USD": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/S-USD"
+  },
+  "S-USDC": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/S-USDC"
+  },
+  "S-USDT": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/S-USDT"
+  },
+  "SAHARA-ETH": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/SAHARA-ETH"
+  },
+  "SAHARA-USD": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SAHARA-USD"
+  },
+  "SAHARA-USDC": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SAHARA-USDC"
+  },
+  "SAHARA-USDT": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SAHARA-USDT"
+  },
+  "SCR-ETH": {
+    "exchange": "spot",
+    "base": "scroll",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/SCR-ETH"
+  },
+  "SCR-USD": {
+    "exchange": "spot",
+    "base": "scroll",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SCR-USD"
+  },
+  "SCR-USDC": {
+    "exchange": "spot",
+    "base": "scroll",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SCR-USDC"
+  },
+  "SCR-USDT": {
+    "exchange": "spot",
+    "base": "scroll",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SCR-USDT"
+  },
+  "SHIB-USD": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SHIB-USD"
+  },
+  "SHIB-USDC": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SHIB-USDC"
+  },
+  "SHIB-USDT": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SHIB-USDT"
+  },
+  "SIGN-ETH": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/SIGN-ETH"
+  },
+  "SIGN-USD": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SIGN-USD"
+  },
+  "SIGN-USDC": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SIGN-USDC"
+  },
+  "SIGN-USDT": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SIGN-USDT"
+  },
+  "SKR-USD": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SKR-USD"
+  },
+  "SKR-USDC": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SKR-USDC"
+  },
+  "SKR-USDT": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SKR-USDT"
+  },
+  "SKY-USD": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SKY-USD"
+  },
+  "SKY-USDC": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SKY-USDC"
+  },
+  "SKY-USDT": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SKY-USDT"
+  },
+  "SLP-USD": {
+    "exchange": "spot",
+    "base": "smooth-love-potion",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SLP-USD"
+  },
+  "SLP-USDC": {
+    "exchange": "spot",
+    "base": "smooth-love-potion",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SLP-USDC"
+  },
+  "SLP-USDT": {
+    "exchange": "spot",
+    "base": "smooth-love-potion",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SLP-USDT"
+  },
+  "SNX-BTC": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/SNX-BTC"
+  },
+  "SNX-ETH": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/SNX-ETH"
+  },
+  "SNX-USD": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SNX-USD"
+  },
+  "SNX-USDC": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SNX-USDC"
+  },
+  "SNX-USDT": {
+    "exchange": "spot",
+    "base": "synthetix",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SNX-USDT"
+  },
+  "SOL-BTC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/SOL-BTC"
+  },
+  "SOL-ETH": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/SOL-ETH"
+  },
+  "SOL-USD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SOL-USD"
+  },
+  "SOL-USDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SOL-USDC"
+  },
+  "SOL-USDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SOL-USDT"
+  },
+  "SOLV-USD": {
+    "exchange": "spot",
+    "base": "solv-protocol",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SOLV-USD"
+  },
+  "SOLV-USDC": {
+    "exchange": "spot",
+    "base": "solv-protocol",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SOLV-USDC"
+  },
+  "SOLV-USDT": {
+    "exchange": "spot",
+    "base": "solv-protocol",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SOLV-USDT"
+  },
+  "SONIC-ETH": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/SONIC-ETH"
+  },
+  "SONIC-USD": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SONIC-USD"
+  },
+  "SONIC-USDC": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SONIC-USDC"
+  },
+  "SONIC-USDT": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SONIC-USDT"
+  },
+  "SOON-ETH": {
+    "exchange": "spot",
+    "base": "soon",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/SOON-ETH"
+  },
+  "SOON-USD": {
+    "exchange": "spot",
+    "base": "soon",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SOON-USD"
+  },
+  "SOON-USDC": {
+    "exchange": "spot",
+    "base": "soon",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SOON-USDC"
+  },
+  "SOON-USDT": {
+    "exchange": "spot",
+    "base": "soon",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SOON-USDT"
+  },
+  "SPX-ETH": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/SPX-ETH"
+  },
+  "SPX-USD": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SPX-USD"
+  },
+  "SPX-USDC": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SPX-USDC"
+  },
+  "SPX-USDT": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SPX-USDT"
+  },
+  "STABLE-ETH": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/STABLE-ETH"
+  },
+  "STABLE-USD": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/STABLE-USD"
+  },
+  "STABLE-USDC": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/STABLE-USDC"
+  },
+  "STABLE-USDT": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/STABLE-USDT"
+  },
+  "STRK-ETH": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/STRK-ETH"
+  },
+  "STRK-USD": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/STRK-USD"
+  },
+  "STRK-USDC": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/STRK-USDC"
+  },
+  "STRK-USDT": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/STRK-USDT"
+  },
+  "SUI-BTC": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/SUI-BTC"
+  },
+  "SUI-ETH": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/SUI-ETH"
+  },
+  "SUI-USD": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SUI-USD"
+  },
+  "SUI-USDC": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SUI-USDC"
+  },
+  "SUI-USDT": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SUI-USDT"
+  },
+  "SUSHI-BTC": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/SUSHI-BTC"
+  },
+  "SUSHI-ETH": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/SUSHI-ETH"
+  },
+  "SUSHI-USD": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/SUSHI-USD"
+  },
+  "SUSHI-USDC": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/SUSHI-USDC"
+  },
+  "SUSHI-USDT": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/SUSHI-USDT"
+  },
+  "TAKE-USD": {
+    "exchange": "spot",
+    "base": "overtake",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/TAKE-USD"
+  },
+  "TAKE-USDT": {
+    "exchange": "spot",
+    "base": "overtake",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/TAKE-USDT"
+  },
+  "THE-ETH": {
+    "exchange": "spot",
+    "base": "thena",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/THE-ETH"
+  },
+  "THE-USD": {
+    "exchange": "spot",
+    "base": "thena",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/THE-USD"
+  },
+  "THE-USDC": {
+    "exchange": "spot",
+    "base": "thena",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/THE-USDC"
+  },
+  "THE-USDT": {
+    "exchange": "spot",
+    "base": "thena",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/THE-USDT"
+  },
+  "TIA-ETH": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/TIA-ETH"
+  },
+  "TIA-USD": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/TIA-USD"
+  },
+  "TIA-USDC": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/TIA-USDC"
+  },
+  "TIA-USDT": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/TIA-USDT"
+  },
+  "TOKEN-USD": {
+    "exchange": "spot",
+    "base": "tokenfi",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/TOKEN-USD"
+  },
+  "TOKEN-USDC": {
+    "exchange": "spot",
+    "base": "tokenfi",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/TOKEN-USDC"
+  },
+  "TOKEN-USDT": {
+    "exchange": "spot",
+    "base": "tokenfi",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/TOKEN-USDT"
+  },
+  "TRADOOR-ETH": {
+    "exchange": "spot",
+    "base": "tradoor",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/TRADOOR-ETH"
+  },
+  "TRADOOR-USD": {
+    "exchange": "spot",
+    "base": "tradoor",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/TRADOOR-USD"
+  },
+  "TRADOOR-USDC": {
+    "exchange": "spot",
+    "base": "tradoor",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/TRADOOR-USDC"
+  },
+  "TRADOOR-USDT": {
+    "exchange": "spot",
+    "base": "tradoor",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/TRADOOR-USDT"
+  },
+  "TRB-ETH": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/TRB-ETH"
+  },
+  "TRB-USD": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/TRB-USD"
+  },
+  "TRB-USDC": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/TRB-USDC"
+  },
+  "TRB-USDT": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/TRB-USDT"
+  },
+  "TRUMPSOL-ETH": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/TRUMPSOL-ETH"
+  },
+  "TRUMPSOL-USD": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/TRUMPSOL-USD"
+  },
+  "TRUMPSOL-USDC": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/TRUMPSOL-USDC"
+  },
+  "TRUMPSOL-USDT": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/TRUMPSOL-USDT"
+  },
+  "TRX-BTC": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/TRX-BTC"
+  },
+  "TRX-ETH": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/TRX-ETH"
+  },
+  "TRX-USD": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/TRX-USD"
+  },
+  "TRX-USDC": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/TRX-USDC"
+  },
+  "TRX-USDT": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/TRX-USDT"
+  },
+  "TURBO-USD": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/TURBO-USD"
+  },
+  "TURBO-USDC": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/TURBO-USDC"
+  },
+  "TURBO-USDT": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/TURBO-USDT"
+  },
+  "TUT-USD": {
+    "exchange": "spot",
+    "base": "tutorial",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/TUT-USD"
+  },
+  "TUT-USDC": {
+    "exchange": "spot",
+    "base": "tutorial",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/TUT-USDC"
+  },
+  "TUT-USDT": {
+    "exchange": "spot",
+    "base": "tutorial",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/TUT-USDT"
+  },
+  "U-USDT": {
+    "exchange": "spot",
+    "base": "united-stables",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/U-USDT"
+  },
+  "UNI-BTC": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/UNI-BTC"
+  },
+  "UNI-ETH": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/UNI-ETH"
+  },
+  "UNI-USD": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/UNI-USD"
+  },
+  "UNI-USDC": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/UNI-USDC"
+  },
+  "UNI-USDT": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/UNI-USDT"
+  },
+  "USAT-USDT": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/USAT-USDT"
+  },
+  "USD1-ETH": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/USD1-ETH"
+  },
+  "USD1-USD": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/USD1-USD"
+  },
+  "USD1-USDC": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/USD1-USDC"
+  },
+  "USD1-USDT": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/USD1-USDT"
+  },
+  "USDD-BTC": {
+    "exchange": "spot",
+    "base": "decentralized-usd",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/USDD-BTC"
+  },
+  "USDD-ETH": {
+    "exchange": "spot",
+    "base": "decentralized-usd",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/USDD-ETH"
+  },
+  "USDD-USD": {
+    "exchange": "spot",
+    "base": "decentralized-usd",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/USDD-USD"
+  },
+  "USDD-USDC": {
+    "exchange": "spot",
+    "base": "decentralized-usd",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/USDD-USDC"
+  },
+  "USDD-USDT": {
+    "exchange": "spot",
+    "base": "decentralized-usd",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/USDD-USDT"
+  },
+  "USDQ-USD": {
+    "exchange": "spot",
+    "base": "quantoz-usdq",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/USDQ-USD"
+  },
+  "USDQ-USDT": {
+    "exchange": "spot",
+    "base": "quantoz-usdq",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/USDQ-USDT"
+  },
+  "USDT-AUD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "australian-dollar",
+    "url": "https://www.btse.com/en/trading/USDT-AUD"
+  },
+  "USDT-CAD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "canadian-dollar",
+    "url": "https://www.btse.com/en/trading/USDT-CAD"
+  },
+  "USDT-CHF": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "swiss-franc",
+    "url": "https://www.btse.com/en/trading/USDT-CHF"
+  },
+  "USDT-EUR": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "euro",
+    "url": "https://www.btse.com/en/trading/USDT-EUR"
+  },
+  "USDT-GBP": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "british-pound",
+    "url": "https://www.btse.com/en/trading/USDT-GBP"
+  },
+  "USDT-HKD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "hong-kong-dollar",
+    "url": "https://www.btse.com/en/trading/USDT-HKD"
+  },
+  "USDT-INR": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "indian-rupee",
+    "url": "https://www.btse.com/en/trading/USDT-INR"
+  },
+  "USDT-JPY": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "japanese-yen",
+    "url": "https://www.btse.com/en/trading/USDT-JPY"
+  },
+  "USDT-NZD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "new-zealand-dollar",
+    "url": "https://www.btse.com/en/trading/USDT-NZD"
+  },
+  "USDT-USD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/USDT-USD"
+  },
+  "USDT-USDC": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/USDT-USDC"
+  },
+  "USELESS-USD": {
+    "exchange": "spot",
+    "base": "useless-coin",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/USELESS-USD"
+  },
+  "USELESS-USDC": {
+    "exchange": "spot",
+    "base": "useless-coin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/USELESS-USDC"
+  },
+  "USELESS-USDT": {
+    "exchange": "spot",
+    "base": "useless-coin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/USELESS-USDT"
+  },
+  "VANA-USD": {
+    "exchange": "spot",
+    "base": "vana",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/VANA-USD"
+  },
+  "VANA-USDT": {
+    "exchange": "spot",
+    "base": "vana",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/VANA-USDT"
+  },
+  "VIRTUAL-USD": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/VIRTUAL-USD"
+  },
+  "VIRTUAL-USDT": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/VIRTUAL-USDT"
+  },
+  "W-ETH": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/W-ETH"
+  },
+  "W-USD": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/W-USD"
+  },
+  "W-USDC": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/W-USDC"
+  },
+  "W-USDT": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/W-USDT"
+  },
+  "WIF-ETH": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/WIF-ETH"
+  },
+  "WIF-USD": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/WIF-USD"
+  },
+  "WIF-USDC": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/WIF-USDC"
+  },
+  "WIF-USDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/WIF-USDT"
+  },
+  "WLD-BTC": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/WLD-BTC"
+  },
+  "WLD-ETH": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/WLD-ETH"
+  },
+  "WLD-USDC": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/WLD-USDC"
+  },
+  "WLD-USDT": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/WLD-USDT"
+  },
+  "WLFI-ETH": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/WLFI-ETH"
+  },
+  "WLFI-USD": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/WLFI-USD"
+  },
+  "WLFI-USDC": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/WLFI-USDC"
+  },
+  "WLFI-USDT": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/WLFI-USDT"
+  },
+  "WOO-USD": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/WOO-USD"
+  },
+  "WOO-USDC": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/WOO-USDC"
+  },
+  "WOO-USDT": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/WOO-USDT"
+  },
+  "XAI-ETH": {
+    "exchange": "spot",
+    "base": "xai",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/XAI-ETH"
+  },
+  "XAI-USD": {
+    "exchange": "spot",
+    "base": "xai",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/XAI-USD"
+  },
+  "XAI-USDC": {
+    "exchange": "spot",
+    "base": "xai",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/XAI-USDC"
+  },
+  "XAI-USDT": {
+    "exchange": "spot",
+    "base": "xai",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/XAI-USDT"
+  },
+  "XAUT-BTC": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/XAUT-BTC"
+  },
+  "XAUT-EUR": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "euro",
+    "url": "https://www.btse.com/en/trading/XAUT-EUR"
+  },
+  "XAUT-GBP": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "british-pound",
+    "url": "https://www.btse.com/en/trading/XAUT-GBP"
+  },
+  "XAUT-INR": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "indian-rupee",
+    "url": "https://www.btse.com/en/trading/XAUT-INR"
+  },
+  "XAUT-JPY": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "japanese-yen",
+    "url": "https://www.btse.com/en/trading/XAUT-JPY"
+  },
+  "XAUT-USD": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/XAUT-USD"
+  },
+  "XAUT-USDC": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/XAUT-USDC"
+  },
+  "XAUT-USDT": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/XAUT-USDT"
+  },
+  "XDC-ETH": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/XDC-ETH"
+  },
+  "XDC-USD": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/XDC-USD"
+  },
+  "XDC-USDC": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/XDC-USDC"
+  },
+  "XDC-USDT": {
+    "exchange": "spot",
+    "base": "xdc-network",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/XDC-USDT"
+  },
+  "XMN-USD": {
+    "exchange": "spot",
+    "base": "xmoney",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/XMN-USD"
+  },
+  "XMN-USDC": {
+    "exchange": "spot",
+    "base": "xmoney",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/XMN-USDC"
+  },
+  "XMN-USDT": {
+    "exchange": "spot",
+    "base": "xmoney",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/XMN-USDT"
+  },
+  "XMR-BTC": {
+    "exchange": "spot",
+    "base": "monero",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/XMR-BTC"
+  },
+  "XMR-ETH": {
+    "exchange": "spot",
+    "base": "monero",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/XMR-ETH"
+  },
+  "XMR-USDC": {
+    "exchange": "spot",
+    "base": "monero",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/XMR-USDC"
+  },
+  "XMR-USDT": {
+    "exchange": "spot",
+    "base": "monero",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/XMR-USDT"
+  },
+  "XPL-ETH": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/XPL-ETH"
+  },
+  "XPL-USD": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/XPL-USD"
+  },
+  "XPL-USDC": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/XPL-USDC"
+  },
+  "XPL-USDT": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/XPL-USDT"
+  },
+  "XRP-BTC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/XRP-BTC"
+  },
+  "XRP-ETH": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/XRP-ETH"
+  },
+  "XRP-EUR": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "euro",
+    "url": "https://www.btse.com/en/trading/XRP-EUR"
+  },
+  "XRP-GBP": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "british-pound",
+    "url": "https://www.btse.com/en/trading/XRP-GBP"
+  },
+  "XRP-INR": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "indian-rupee",
+    "url": "https://www.btse.com/en/trading/XRP-INR"
+  },
+  "XRP-JPY": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "japanese-yen",
+    "url": "https://www.btse.com/en/trading/XRP-JPY"
+  },
+  "XRP-USD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/XRP-USD"
+  },
+  "XRP-USDC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/XRP-USDC"
+  },
+  "XRP-USDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/XRP-USDT"
+  },
+  "XTZ-BTC": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/XTZ-BTC"
+  },
+  "XTZ-ETH": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/XTZ-ETH"
+  },
+  "XTZ-USD": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/XTZ-USD"
+  },
+  "XTZ-USDC": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/XTZ-USDC"
+  },
+  "XTZ-USDT": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/XTZ-USDT"
+  },
+  "YFI-BTC": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "bitcoin",
+    "url": "https://www.btse.com/en/trading/YFI-BTC"
+  },
+  "YFI-ETH": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/YFI-ETH"
+  },
+  "YFI-USD": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/YFI-USD"
+  },
+  "YFI-USDC": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/YFI-USDC"
+  },
+  "YFI-USDT": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/YFI-USDT"
+  },
+  "YGG-ETH": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/YGG-ETH"
+  },
+  "YGG-USD": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/YGG-USD"
+  },
+  "YGG-USDC": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/YGG-USDC"
+  },
+  "YGG-USDT": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/YGG-USDT"
+  },
+  "ZETA-ETH": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ZETA-ETH"
+  },
+  "ZETA-USD": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ZETA-USD"
+  },
+  "ZETA-USDC": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ZETA-USDC"
+  },
+  "ZETA-USDT": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ZETA-USDT"
+  },
+  "ZIG-ETH": {
+    "exchange": "spot",
+    "base": "zignaly",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ZIG-ETH"
+  },
+  "ZIG-USD": {
+    "exchange": "spot",
+    "base": "zignaly",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ZIG-USD"
+  },
+  "ZIG-USDC": {
+    "exchange": "spot",
+    "base": "zignaly",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ZIG-USDC"
+  },
+  "ZIG-USDT": {
+    "exchange": "spot",
+    "base": "zignaly",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ZIG-USDT"
+  },
+  "ZK-ETH": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ZK-ETH"
+  },
+  "ZK-USD": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ZK-USD"
+  },
+  "ZK-USDC": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ZK-USDC"
+  },
+  "ZK-USDT": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ZK-USDT"
+  },
+  "ZKP-ETH": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ZKP-ETH"
+  },
+  "ZKP-USD": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ZKP-USD"
+  },
+  "ZKP-USDC": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ZKP-USDC"
+  },
+  "ZKP-USDT": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ZKP-USDT"
+  },
+  "ZORA-USD": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ZORA-USD"
+  },
+  "ZORA-USDC": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ZORA-USDC"
+  },
+  "ZORA-USDT": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ZORA-USDT"
+  },
+  "ZRO-ETH": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ZRO-ETH"
+  },
+  "ZRO-USD": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ZRO-USD"
+  },
+  "ZRO-USDC": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ZRO-USDC"
+  },
+  "ZRO-USDT": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ZRO-USDT"
+  },
+  "ZRX-ETH": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "ethereum",
+    "url": "https://www.btse.com/en/trading/ZRX-ETH"
+  },
+  "ZRX-USD": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "usd",
+    "url": "https://www.btse.com/en/trading/ZRX-USD"
+  },
+  "ZRX-USDC": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "usd-coin",
+    "url": "https://www.btse.com/en/trading/ZRX-USDC"
+  },
+  "ZRX-USDT": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "tether",
+    "url": "https://www.btse.com/en/trading/ZRX-USDT"
+  }
+}

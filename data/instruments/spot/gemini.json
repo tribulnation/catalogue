@@ -1,0 +1,1814 @@
+{
+  "2zgusd": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/2ZGUSD"
+  },
+  "2zrlusd": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/2ZRLUSD"
+  },
+  "2zusd": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/2ZUSD"
+  },
+  "2zusdc": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/2ZUSDC"
+  },
+  "aavegusd": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/AAVEGUSD"
+  },
+  "aaverlusd": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/AAVERLUSD"
+  },
+  "aaveusd": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/AAVEUSD"
+  },
+  "aaveusdc": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/AAVEUSDC"
+  },
+  "ampgusd": {
+    "exchange": "spot",
+    "base": "amp-token",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/AMPGUSD"
+  },
+  "amprlusd": {
+    "exchange": "spot",
+    "base": "amp-token",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/AMPRLUSD"
+  },
+  "ampusd": {
+    "exchange": "spot",
+    "base": "amp-token",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/AMPUSD"
+  },
+  "ampusdc": {
+    "exchange": "spot",
+    "base": "amp-token",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/AMPUSDC"
+  },
+  "apegusd": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/APEGUSD"
+  },
+  "aperlusd": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/APERLUSD"
+  },
+  "apeusd": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/APEUSD"
+  },
+  "apeusdc": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/APEUSDC"
+  },
+  "arbgusd": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/ARBGUSD"
+  },
+  "arbrlusd": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/ARBRLUSD"
+  },
+  "arbusd": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/ARBUSD"
+  },
+  "arbusdc": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/ARBUSDC"
+  },
+  "atomgusd": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/ATOMGUSD"
+  },
+  "atomrlusd": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/ATOMRLUSD"
+  },
+  "atomusd": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/ATOMUSD"
+  },
+  "atomusdc": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/ATOMUSDC"
+  },
+  "audgusd": {
+    "exchange": "spot",
+    "base": "australian-dollar",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/AUDGUSD"
+  },
+  "audrlusd": {
+    "exchange": "spot",
+    "base": "australian-dollar",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/AUDRLUSD"
+  },
+  "audusd": {
+    "exchange": "spot",
+    "base": "australian-dollar",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/AUDUSD"
+  },
+  "audusdc": {
+    "exchange": "spot",
+    "base": "australian-dollar",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/AUDUSDC"
+  },
+  "avaxgusd": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/AVAXGUSD"
+  },
+  "avaxrlusd": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/AVAXRLUSD"
+  },
+  "avaxusd": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/AVAXUSD"
+  },
+  "avaxusdc": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/AVAXUSDC"
+  },
+  "batgusd": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/BATGUSD"
+  },
+  "batrlusd": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/BATRLUSD"
+  },
+  "batusd": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/BATUSD"
+  },
+  "batusdc": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/BATUSDC"
+  },
+  "bchgusd": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/BCHGUSD"
+  },
+  "bchrlusd": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/BCHRLUSD"
+  },
+  "bchusd": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/BCHUSD"
+  },
+  "bchusdc": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/BCHUSDC"
+  },
+  "bnbgusd": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/BNBGUSD"
+  },
+  "bnbrlusd": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/BNBRLUSD"
+  },
+  "bnbusd": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/BNBUSD"
+  },
+  "bnbusdc": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/BNBUSDC"
+  },
+  "bonkgusd": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/BONKGUSD"
+  },
+  "bonkrlusd": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/BONKRLUSD"
+  },
+  "bonkusd": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/BONKUSD"
+  },
+  "bonkusdc": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/BONKUSDC"
+  },
+  "btceur": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro",
+    "url": "https://exchange.gemini.com/trade/BTCEUR"
+  },
+  "btcgbp": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "british-pound",
+    "url": "https://exchange.gemini.com/trade/BTCGBP"
+  },
+  "btcgusd": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/BTCGUSD"
+  },
+  "btcrlusd": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/BTCRLUSD"
+  },
+  "btcsgd": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "singapore-dollar",
+    "url": "https://exchange.gemini.com/trade/BTCSGD"
+  },
+  "btcusd": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/BTCUSD"
+  },
+  "btcusdc": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/BTCUSDC"
+  },
+  "btcusdt": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://exchange.gemini.com/trade/BTCUSDT"
+  },
+  "chillguygusd": {
+    "exchange": "spot",
+    "base": "just-a-chill-guy",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/CHILLGUYGUSD"
+  },
+  "chillguyrlusd": {
+    "exchange": "spot",
+    "base": "just-a-chill-guy",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/CHILLGUYRLUSD"
+  },
+  "chillguyusd": {
+    "exchange": "spot",
+    "base": "just-a-chill-guy",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/CHILLGUYUSD"
+  },
+  "chillguyusdc": {
+    "exchange": "spot",
+    "base": "just-a-chill-guy",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/CHILLGUYUSDC"
+  },
+  "crvgusd": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/CRVGUSD"
+  },
+  "crvrlusd": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/CRVRLUSD"
+  },
+  "crvusd": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/CRVUSD"
+  },
+  "crvusdc": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/CRVUSDC"
+  },
+  "daigusd": {
+    "exchange": "spot",
+    "base": "dai",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/DAIGUSD"
+  },
+  "dairlusd": {
+    "exchange": "spot",
+    "base": "dai",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/DAIRLUSD"
+  },
+  "daiusd": {
+    "exchange": "spot",
+    "base": "dai",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/DAIUSD"
+  },
+  "daiusdc": {
+    "exchange": "spot",
+    "base": "dai",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/DAIUSDC"
+  },
+  "dogegusd": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/DOGEGUSD"
+  },
+  "dogerlusd": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/DOGERLUSD"
+  },
+  "dogeusd": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/DOGEUSD"
+  },
+  "dogeusdc": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/DOGEUSDC"
+  },
+  "dotgusd": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/DOTGUSD"
+  },
+  "dotrlusd": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/DOTRLUSD"
+  },
+  "dotusd": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/DOTUSD"
+  },
+  "dotusdc": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/DOTUSDC"
+  },
+  "driftgusd": {
+    "exchange": "spot",
+    "base": "drift-protocol",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/DRIFTGUSD"
+  },
+  "driftrlusd": {
+    "exchange": "spot",
+    "base": "drift-protocol",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/DRIFTRLUSD"
+  },
+  "driftusd": {
+    "exchange": "spot",
+    "base": "drift-protocol",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/DRIFTUSD"
+  },
+  "driftusdc": {
+    "exchange": "spot",
+    "base": "drift-protocol",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/DRIFTUSDC"
+  },
+  "ensgusd": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/ENSGUSD"
+  },
+  "ensrlusd": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/ENSRLUSD"
+  },
+  "ensusd": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/ENSUSD"
+  },
+  "ensusdc": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/ENSUSDC"
+  },
+  "ethbtc": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://exchange.gemini.com/trade/ETHBTC"
+  },
+  "etheur": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro",
+    "url": "https://exchange.gemini.com/trade/ETHEUR"
+  },
+  "ethgbp": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "british-pound",
+    "url": "https://exchange.gemini.com/trade/ETHGBP"
+  },
+  "ethgusd": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/ETHGUSD"
+  },
+  "ethrlusd": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/ETHRLUSD"
+  },
+  "ethsgd": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "singapore-dollar",
+    "url": "https://exchange.gemini.com/trade/ETHSGD"
+  },
+  "ethusd": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/ETHUSD"
+  },
+  "ethusdc": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/ETHUSDC"
+  },
+  "ethusdt": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://exchange.gemini.com/trade/ETHUSDT"
+  },
+  "eulgusd": {
+    "exchange": "spot",
+    "base": "euler",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/EULGUSD"
+  },
+  "eulrlusd": {
+    "exchange": "spot",
+    "base": "euler",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/EULRLUSD"
+  },
+  "eulusd": {
+    "exchange": "spot",
+    "base": "euler",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/EULUSD"
+  },
+  "eulusdc": {
+    "exchange": "spot",
+    "base": "euler",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/EULUSDC"
+  },
+  "fartcoingusd": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/FARTCOINGUSD"
+  },
+  "fartcoinrlusd": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/FARTCOINRLUSD"
+  },
+  "fartcoinusd": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/FARTCOINUSD"
+  },
+  "fartcoinusdc": {
+    "exchange": "spot",
+    "base": "fartcoin",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/FARTCOINUSDC"
+  },
+  "fetgusd": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/FETGUSD"
+  },
+  "fetrlusd": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/FETRLUSD"
+  },
+  "fetusd": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/FETUSD"
+  },
+  "fetusdc": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/FETUSDC"
+  },
+  "filgusd": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/FILGUSD"
+  },
+  "filrlusd": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/FILRLUSD"
+  },
+  "filusd": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/FILUSD"
+  },
+  "filusdc": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/FILUSDC"
+  },
+  "galagusd": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/GALAGUSD"
+  },
+  "galarlusd": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/GALARLUSD"
+  },
+  "galausd": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/GALAUSD"
+  },
+  "galausdc": {
+    "exchange": "spot",
+    "base": "gala",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/GALAUSDC"
+  },
+  "grtgusd": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/GRTGUSD"
+  },
+  "grtrlusd": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/GRTRLUSD"
+  },
+  "grtusd": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/GRTUSD"
+  },
+  "grtusdc": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/GRTUSDC"
+  },
+  "gusdgbp": {
+    "exchange": "spot",
+    "base": "gemini-dollar",
+    "quote": "british-pound",
+    "url": "https://exchange.gemini.com/trade/GUSDGBP"
+  },
+  "gusdsgd": {
+    "exchange": "spot",
+    "base": "gemini-dollar",
+    "quote": "singapore-dollar",
+    "url": "https://exchange.gemini.com/trade/GUSDSGD"
+  },
+  "hntgusd": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/HNTGUSD"
+  },
+  "hntrlusd": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/HNTRLUSD"
+  },
+  "hntusd": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/HNTUSD"
+  },
+  "hntusdc": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/HNTUSDC"
+  },
+  "hypegusd": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/HYPEGUSD"
+  },
+  "hyperlusd": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/HYPERLUSD"
+  },
+  "hypeusd": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/HYPEUSD"
+  },
+  "hypeusdc": {
+    "exchange": "spot",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/HYPEUSDC"
+  },
+  "imxgusd": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/IMXGUSD"
+  },
+  "imxrlusd": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/IMXRLUSD"
+  },
+  "imxusd": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/IMXUSD"
+  },
+  "imxusdc": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/IMXUSDC"
+  },
+  "injgusd": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/INJGUSD"
+  },
+  "injrlusd": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/INJRLUSD"
+  },
+  "injusd": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/INJUSD"
+  },
+  "injusdc": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/INJUSDC"
+  },
+  "jitosolgusd": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/JITOSOLGUSD"
+  },
+  "jitosolrlusd": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/JITOSOLRLUSD"
+  },
+  "jitosolusd": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/JITOSOLUSD"
+  },
+  "jitosolusdc": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/JITOSOLUSDC"
+  },
+  "jtogusd": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/JTOGUSD"
+  },
+  "jtorlusd": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/JTORLUSD"
+  },
+  "jtousd": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/JTOUSD"
+  },
+  "jtousdc": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/JTOUSDC"
+  },
+  "jupgusd": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/JUPGUSD"
+  },
+  "juprlusd": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/JUPRLUSD"
+  },
+  "jupusd": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/JUPUSD"
+  },
+  "jupusdc": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/JUPUSDC"
+  },
+  "kmnogusd": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/KMNOGUSD"
+  },
+  "kmnorlusd": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/KMNORLUSD"
+  },
+  "kmnousd": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/KMNOUSD"
+  },
+  "kmnousdc": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/KMNOUSDC"
+  },
+  "linkbtc": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "bitcoin",
+    "url": "https://exchange.gemini.com/trade/LINKBTC"
+  },
+  "linketh": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "ethereum",
+    "url": "https://exchange.gemini.com/trade/LINKETH"
+  },
+  "linkgusd": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/LINKGUSD"
+  },
+  "linkrlusd": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/LINKRLUSD"
+  },
+  "linkusd": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/LINKUSD"
+  },
+  "linkusdc": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/LINKUSDC"
+  },
+  "ltcbtc": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "bitcoin",
+    "url": "https://exchange.gemini.com/trade/LTCBTC"
+  },
+  "ltcgusd": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/LTCGUSD"
+  },
+  "ltcrlusd": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/LTCRLUSD"
+  },
+  "ltcusd": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/LTCUSD"
+  },
+  "ltcusdc": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/LTCUSDC"
+  },
+  "managusd": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/MANAGUSD"
+  },
+  "manarlusd": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/MANARLUSD"
+  },
+  "manausd": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/MANAUSD"
+  },
+  "manausdc": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/MANAUSDC"
+  },
+  "mongusd": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/MONGUSD"
+  },
+  "monrlusd": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/MONRLUSD"
+  },
+  "monusd": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/MONUSD"
+  },
+  "monusdc": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/MONUSDC"
+  },
+  "nearusd": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/NEARUSD"
+  },
+  "opgusd": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/OPGUSD"
+  },
+  "oprlusd": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/OPRLUSD"
+  },
+  "opusd": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/OPUSD"
+  },
+  "opusdc": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/OPUSDC"
+  },
+  "paxggusd": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/PAXGGUSD"
+  },
+  "paxgrlusd": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/PAXGRLUSD"
+  },
+  "paxgusd": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/PAXGUSD"
+  },
+  "paxgusdc": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/PAXGUSDC"
+  },
+  "pengugusd": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/PENGUGUSD"
+  },
+  "pengurlusd": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/PENGURLUSD"
+  },
+  "penguusd": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/PENGUUSD"
+  },
+  "penguusdc": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/PENGUUSDC"
+  },
+  "pepegusd": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/PEPEGUSD"
+  },
+  "peperlusd": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/PEPERLUSD"
+  },
+  "pepeusd": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/PEPEUSD"
+  },
+  "pepeusdc": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/PEPEUSDC"
+  },
+  "polgusd": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/POLGUSD"
+  },
+  "polrlusd": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/POLRLUSD"
+  },
+  "polusd": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/POLUSD"
+  },
+  "polusdc": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/POLUSDC"
+  },
+  "popcatgusd": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/POPCATGUSD"
+  },
+  "popcatrlusd": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/POPCATRLUSD"
+  },
+  "popcatusd": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/POPCATUSD"
+  },
+  "popcatusdc": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/POPCATUSDC"
+  },
+  "pumpgusd": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/PUMPGUSD"
+  },
+  "pumprlusd": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/PUMPRLUSD"
+  },
+  "pumpusd": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/PUMPUSD"
+  },
+  "pumpusdc": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/PUMPUSDC"
+  },
+  "pythgusd": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/PYTHGUSD"
+  },
+  "pythrlusd": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/PYTHRLUSD"
+  },
+  "pythusd": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/PYTHUSD"
+  },
+  "pythusdc": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/PYTHUSDC"
+  },
+  "qntgusd": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/QNTGUSD"
+  },
+  "qntrlusd": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/QNTRLUSD"
+  },
+  "qntusd": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/QNTUSD"
+  },
+  "qntusdc": {
+    "exchange": "spot",
+    "base": "quant",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/QNTUSDC"
+  },
+  "rlusdgusd": {
+    "exchange": "spot",
+    "base": "ripple-usd",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/RLUSDGUSD"
+  },
+  "rlusdusd": {
+    "exchange": "spot",
+    "base": "ripple-usd",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/RLUSDUSD"
+  },
+  "rlusdusdc": {
+    "exchange": "spot",
+    "base": "ripple-usd",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/RLUSDUSDC"
+  },
+  "rndrgusd": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/RNDRGUSD"
+  },
+  "rndrrlusd": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/RNDRRLUSD"
+  },
+  "rndrusd": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/RNDRUSD"
+  },
+  "rndrusdc": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/RNDRUSDC"
+  },
+  "sandgusd": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/SANDGUSD"
+  },
+  "sandrlusd": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/SANDRLUSD"
+  },
+  "sandusd": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/SANDUSD"
+  },
+  "sandusdc": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/SANDUSDC"
+  },
+  "shibgusd": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/SHIBGUSD"
+  },
+  "shibrlusd": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/SHIBRLUSD"
+  },
+  "shibusd": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/SHIBUSD"
+  },
+  "shibusdc": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/SHIBUSDC"
+  },
+  "skygusd": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/SKYGUSD"
+  },
+  "skyrlusd": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/SKYRLUSD"
+  },
+  "skyusd": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/SKYUSD"
+  },
+  "skyusdc": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/SKYUSDC"
+  },
+  "solbtc": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "bitcoin",
+    "url": "https://exchange.gemini.com/trade/SOLBTC"
+  },
+  "soleth": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "ethereum",
+    "url": "https://exchange.gemini.com/trade/SOLETH"
+  },
+  "solgusd": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/SOLGUSD"
+  },
+  "solrlusd": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/SOLRLUSD"
+  },
+  "solusd": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/SOLUSD"
+  },
+  "solusdc": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/SOLUSDC"
+  },
+  "suigusd": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/SUIGUSD"
+  },
+  "suirlusd": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/SUIRLUSD"
+  },
+  "suiusd": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/SUIUSD"
+  },
+  "suiusdc": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/SUIUSDC"
+  },
+  "trumpgusd": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/TRUMPGUSD"
+  },
+  "trumprlusd": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/TRUMPRLUSD"
+  },
+  "trumpusd": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/TRUMPUSD"
+  },
+  "trumpusdc": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/TRUMPUSDC"
+  },
+  "trxgusd": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/TRXGUSD"
+  },
+  "trxrlusd": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/TRXRLUSD"
+  },
+  "trxusd": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/TRXUSD"
+  },
+  "trxusdc": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/TRXUSDC"
+  },
+  "umagusd": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/UMAGUSD"
+  },
+  "umarlusd": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/UMARLUSD"
+  },
+  "umausd": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/UMAUSD"
+  },
+  "umausdc": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/UMAUSDC"
+  },
+  "unigusd": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/UNIGUSD"
+  },
+  "unirlusd": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/UNIRLUSD"
+  },
+  "uniusd": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/UNIUSD"
+  },
+  "uniusdc": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/UNIUSDC"
+  },
+  "usatgusd": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/USATGUSD"
+  },
+  "usatrlusd": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/USATRLUSD"
+  },
+  "usatusd": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/USATUSD"
+  },
+  "usatusdc": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/USATUSDC"
+  },
+  "usd1usd": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/USD1USD"
+  },
+  "usdcusd": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/USDCUSD"
+  },
+  "usdggusd": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/USDGGUSD"
+  },
+  "usdgrlusd": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/USDGRLUSD"
+  },
+  "usdgusd": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/USDGUSD"
+  },
+  "usdgusdc": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/USDGUSDC"
+  },
+  "usdtgusd": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/USDTGUSD"
+  },
+  "usdtrlusd": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/USDTRLUSD"
+  },
+  "usdtusd": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/USDTUSD"
+  },
+  "usdtusdc": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/USDTUSDC"
+  },
+  "wctgusd": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/WCTGUSD"
+  },
+  "wctrlusd": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/WCTRLUSD"
+  },
+  "wctusd": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/WCTUSD"
+  },
+  "wctusdc": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/WCTUSDC"
+  },
+  "wifgusd": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/WIFGUSD"
+  },
+  "wifrlusd": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/WIFRLUSD"
+  },
+  "wifusd": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/WIFUSD"
+  },
+  "wifusdc": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/WIFUSDC"
+  },
+  "wldgusd": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/WLDGUSD"
+  },
+  "wldrlusd": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/WLDRLUSD"
+  },
+  "wldusd": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/WLDUSD"
+  },
+  "wldusdc": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/WLDUSDC"
+  },
+  "wlfigusd": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/WLFIGUSD"
+  },
+  "wlfirlusd": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/WLFIRLUSD"
+  },
+  "wlfiusd": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/WLFIUSD"
+  },
+  "wlfiusdc": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/WLFIUSDC"
+  },
+  "xautgusd": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/XAUTGUSD"
+  },
+  "xautrlusd": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/XAUTRLUSD"
+  },
+  "xautusd": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/XAUTUSD"
+  },
+  "xautusdc": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/XAUTUSDC"
+  },
+  "xrpgusd": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/XRPGUSD"
+  },
+  "xrprlusd": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/XRPRLUSD"
+  },
+  "xrpusd": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/XRPUSD"
+  },
+  "xrpusdc": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/XRPUSDC"
+  },
+  "xtzgusd": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/XTZGUSD"
+  },
+  "xtzrlusd": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/XTZRLUSD"
+  },
+  "xtzusd": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/XTZUSD"
+  },
+  "xtzusdc": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/XTZUSDC"
+  },
+  "yfigusd": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/YFIGUSD"
+  },
+  "yfirlusd": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/YFIRLUSD"
+  },
+  "yfiusd": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/YFIUSD"
+  },
+  "yfiusdc": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/YFIUSDC"
+  },
+  "zecgusd": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "gemini-dollar",
+    "url": "https://exchange.gemini.com/trade/ZECGUSD"
+  },
+  "zecrlusd": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "ripple-usd",
+    "url": "https://exchange.gemini.com/trade/ZECRLUSD"
+  },
+  "zecusd": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/ZECUSD"
+  },
+  "zecusdc": {
+    "exchange": "spot",
+    "base": "zcash",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/ZECUSDC"
+  }
+}

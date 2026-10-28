@@ -1,0 +1,107 @@
+{
+  "btc_ars": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "argentine-peso"
+  },
+  "btc_brl": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "brazilian-real"
+  },
+  "btc_mxn": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "mexican-peso"
+  },
+  "btc_usds": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "sky-usd"
+  },
+  "btc_usdt": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether"
+  },
+  "eth_mxn": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "mexican-peso"
+  },
+  "eth_usdt": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether"
+  },
+  "ltc_mxn": {
+    "exchange": "spot",
+    "base": "litecoin",
+    "quote": "mexican-peso"
+  },
+  "mana_mxn": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "mexican-peso"
+  },
+  "pyusd_mxn": {
+    "exchange": "spot",
+    "base": "paypal-usd",
+    "quote": "mexican-peso"
+  },
+  "rlusd_mxn": {
+    "exchange": "spot",
+    "base": "ripple-usd",
+    "quote": "mexican-peso"
+  },
+  "sol_mxn": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "mexican-peso"
+  },
+  "sol_usdt": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether"
+  },
+  "trx_mxn": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "mexican-peso"
+  },
+  "tusd_btc": {
+    "exchange": "spot",
+    "base": "true-usd",
+    "quote": "bitcoin"
+  },
+  "tusd_mxn": {
+    "exchange": "spot",
+    "base": "true-usd",
+    "quote": "mexican-peso"
+  },
+  "usdt_ars": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "argentine-peso"
+  },
+  "usdt_brl": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "brazilian-real"
+  },
+  "usdt_mxn": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "mexican-peso"
+  },
+  "xrp_mxn": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "mexican-peso"
+  },
+  "xrp_usdt": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether"
+  }
+}

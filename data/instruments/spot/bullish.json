@@ -1,0 +1,482 @@
+{
+  "AAVEUSDC": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/AAVEUSDC"
+  },
+  "AVAXUSDC": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/AVAXUSDC"
+  },
+  "BCHUSDC": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/BCHUSDC"
+  },
+  "BTCEUR": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro",
+    "url": "https://exchange.bullish.com/trade/BTCEUR"
+  },
+  "BTCEURC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "euro-coin",
+    "url": "https://exchange.bullish.com/trade/BTCEURC"
+  },
+  "BTCFIDD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "fidelity-digital-dollar",
+    "url": "https://exchange.bullish.com/trade/BTCFIDD"
+  },
+  "BTCPYUSD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "paypal-usd",
+    "url": "https://exchange.bullish.com/trade/BTCPYUSD"
+  },
+  "BTCRLUSD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "ripple-usd",
+    "url": "https://exchange.bullish.com/trade/BTCRLUSD"
+  },
+  "BTCUSD": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd",
+    "url": "https://exchange.bullish.com/trade/BTCUSD"
+  },
+  "BTCUSDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/BTCUSDC"
+  },
+  "BTCUSDG": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "global-dollar",
+    "url": "https://exchange.bullish.com/trade/BTCUSDG"
+  },
+  "BTCUSDT": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/BTCUSDT"
+  },
+  "BTCXRP": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "xrp",
+    "url": "https://exchange.bullish.com/trade/BTCXRP"
+  },
+  "CCUSD": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "usd",
+    "url": "https://exchange.bullish.com/trade/CCUSD"
+  },
+  "CCUSDC": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/CCUSDC"
+  },
+  "CCUSDT": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/CCUSDT"
+  },
+  "CTUSDC": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/CTUSDC"
+  },
+  "DOGEUSDC": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/DOGEUSDC"
+  },
+  "ETHBTC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin",
+    "url": "https://exchange.bullish.com/trade/ETHBTC"
+  },
+  "ETHEUR": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "euro",
+    "url": "https://exchange.bullish.com/trade/ETHEUR"
+  },
+  "ETHFIDD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "fidelity-digital-dollar",
+    "url": "https://exchange.bullish.com/trade/ETHFIDD"
+  },
+  "ETHRLUSD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "ripple-usd",
+    "url": "https://exchange.bullish.com/trade/ETHRLUSD"
+  },
+  "ETHUSD": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd",
+    "url": "https://exchange.bullish.com/trade/ETHUSD"
+  },
+  "ETHUSDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/ETHUSDC"
+  },
+  "ETHUSDT": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/ETHUSDT"
+  },
+  "ETHXRP": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "xrp",
+    "url": "https://exchange.bullish.com/trade/ETHXRP"
+  },
+  "EURCUSDC": {
+    "exchange": "spot",
+    "base": "euro-coin",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/EURCUSDC"
+  },
+  "EURRLUSD": {
+    "exchange": "spot",
+    "base": "euro",
+    "quote": "ripple-usd",
+    "url": "https://exchange.bullish.com/trade/EURRLUSD"
+  },
+  "EURUSD": {
+    "exchange": "spot",
+    "base": "euro",
+    "quote": "usd",
+    "url": "https://exchange.bullish.com/trade/EURUSD"
+  },
+  "EURUSDC": {
+    "exchange": "spot",
+    "base": "euro",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/EURUSDC"
+  },
+  "EURUSDT": {
+    "exchange": "spot",
+    "base": "euro",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/EURUSDT"
+  },
+  "FIDDUSD": {
+    "exchange": "spot",
+    "base": "fidelity-digital-dollar",
+    "quote": "usd",
+    "url": "https://exchange.bullish.com/trade/FIDDUSD"
+  },
+  "FIDDUSDC": {
+    "exchange": "spot",
+    "base": "fidelity-digital-dollar",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/FIDDUSDC"
+  },
+  "FIDDUSDT": {
+    "exchange": "spot",
+    "base": "fidelity-digital-dollar",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/FIDDUSDT"
+  },
+  "JITOSOLSOL": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "solana",
+    "url": "https://exchange.bullish.com/trade/JITOSOLSOL"
+  },
+  "JITOSOLUSD": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "usd",
+    "url": "https://exchange.bullish.com/trade/JITOSOLUSD"
+  },
+  "JITOSOLUSDC": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/JITOSOLUSDC"
+  },
+  "JITOSOLUSDT": {
+    "exchange": "spot",
+    "base": "jito-staked-sol",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/JITOSOLUSDT"
+  },
+  "LINKUSDC": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/LINKUSDC"
+  },
+  "MANAUSDC": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/MANAUSDC"
+  },
+  "MEZOBTC": {
+    "exchange": "spot",
+    "base": "mezo",
+    "quote": "bitcoin",
+    "url": "https://exchange.bullish.com/trade/MEZOBTC"
+  },
+  "MEZOUSDC": {
+    "exchange": "spot",
+    "base": "mezo",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/MEZOUSDC"
+  },
+  "MEZOUSDT": {
+    "exchange": "spot",
+    "base": "mezo",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/MEZOUSDT"
+  },
+  "NIGHTUSDC": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/NIGHTUSDC"
+  },
+  "NIGHTUSDT": {
+    "exchange": "spot",
+    "base": "midnight",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/NIGHTUSDT"
+  },
+  "PAXGUSDT": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/PAXGUSDT"
+  },
+  "PENGUSOL": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "solana",
+    "url": "https://exchange.bullish.com/trade/PENGUSOL"
+  },
+  "PENGUUSDC": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/PENGUUSDC"
+  },
+  "PENGUUSDT": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/PENGUUSDT"
+  },
+  "POLUSDC": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/POLUSDC"
+  },
+  "PYUSDUSDC": {
+    "exchange": "spot",
+    "base": "paypal-usd",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/PYUSDUSDC"
+  },
+  "RLUSDUSDC": {
+    "exchange": "spot",
+    "base": "ripple-usd",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/RLUSDUSDC"
+  },
+  "SLXUSDC": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/SLXUSDC"
+  },
+  "SLXUSDT": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/SLXUSDT"
+  },
+  "SOLBTC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "bitcoin",
+    "url": "https://exchange.bullish.com/trade/SOLBTC"
+  },
+  "SOLETH": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "ethereum",
+    "url": "https://exchange.bullish.com/trade/SOLETH"
+  },
+  "SOLEUR": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "euro",
+    "url": "https://exchange.bullish.com/trade/SOLEUR"
+  },
+  "SOLRLUSD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "ripple-usd",
+    "url": "https://exchange.bullish.com/trade/SOLRLUSD"
+  },
+  "SOLUSD": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd",
+    "url": "https://exchange.bullish.com/trade/SOLUSD"
+  },
+  "SOLUSDC": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/SOLUSDC"
+  },
+  "SOLUSDT": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/SOLUSDT"
+  },
+  "SOLXRP": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "xrp",
+    "url": "https://exchange.bullish.com/trade/SOLXRP"
+  },
+  "STXUSDC": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/STXUSDC"
+  },
+  "SUIUSDC": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/SUIUSDC"
+  },
+  "TRXUSD": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd",
+    "url": "https://exchange.bullish.com/trade/TRXUSD"
+  },
+  "TRXUSDC": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/TRXUSDC"
+  },
+  "UNIUSDC": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/UNIUSDC"
+  },
+  "USDGUSDC": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/USDGUSDC"
+  },
+  "USDRLUSD": {
+    "exchange": "spot",
+    "base": "usd",
+    "quote": "ripple-usd",
+    "url": "https://exchange.bullish.com/trade/USDRLUSD"
+  },
+  "USDTUSD": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd",
+    "url": "https://exchange.bullish.com/trade/USDTUSD"
+  },
+  "USDTUSDC": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/USDTUSDC"
+  },
+  "USDUSDC": {
+    "exchange": "spot",
+    "base": "usd",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/USDUSDC"
+  },
+  "VETUSDT": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/VETUSDT"
+  },
+  "VETVTHO": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "vethor-token",
+    "url": "https://exchange.bullish.com/trade/VETVTHO"
+  },
+  "VTHOUSDT": {
+    "exchange": "spot",
+    "base": "vethor-token",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/VTHOUSDT"
+  },
+  "WBTCBTC": {
+    "exchange": "spot",
+    "base": "wrapped-bitcoin",
+    "quote": "bitcoin",
+    "url": "https://exchange.bullish.com/trade/WBTCBTC"
+  },
+  "XRPEUR": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "euro",
+    "url": "https://exchange.bullish.com/trade/XRPEUR"
+  },
+  "XRPRLUSD": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "ripple-usd",
+    "url": "https://exchange.bullish.com/trade/XRPRLUSD"
+  },
+  "XRPUSDC": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/XRPUSDC"
+  },
+  "XRPUSDT": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "tether",
+    "url": "https://exchange.bullish.com/trade/XRPUSDT"
+  }
+}

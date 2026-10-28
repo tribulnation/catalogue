@@ -1,0 +1,4291 @@
+{
+  "0G-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zero-gravity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/0G-SWAP-USDT"
+  },
+  "1000000MOG-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "mog-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000000,
+    "url": "https://www.toobit.com/futures/1000000MOG-SWAP-USDT"
+  },
+  "1000BONK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.toobit.com/futures/1000BONK-SWAP-USDT"
+  },
+  "1000CAT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "simon-s-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.toobit.com/futures/1000CAT-SWAP-USDT"
+  },
+  "1000CHEEMS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cheems-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.toobit.com/futures/1000CHEEMS-SWAP-USDT"
+  },
+  "1000FLOKI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "floki",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.toobit.com/futures/1000FLOKI-SWAP-USDT"
+  },
+  "1000LUNC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "terra-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.toobit.com/futures/1000LUNC-SWAP-USDT"
+  },
+  "1000PEPE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.toobit.com/futures/1000PEPE-SWAP-USDT"
+  },
+  "1000RATS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "rats",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.toobit.com/futures/1000RATS-SWAP-USDT"
+  },
+  "1000SATS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sats-ordinals",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.toobit.com/futures/1000SATS-SWAP-USDT"
+  },
+  "1000SHIB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.toobit.com/futures/1000SHIB-SWAP-USDT"
+  },
+  "1000XEC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ecash",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.toobit.com/futures/1000XEC-SWAP-USDT"
+  },
+  "1INCH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "1inch",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/1INCH-SWAP-USDT"
+  },
+  "1MBABYDOGE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "baby-doge-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000000,
+    "url": "https://www.toobit.com/futures/1MBABYDOGE-SWAP-USDT"
+  },
+  "2Z-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "doublezero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/2Z-SWAP-USDT"
+  },
+  "4STOCK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "4stock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/4STOCK-SWAP-USDT"
+  },
+  "A-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "vaulta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/A-SWAP-USDT"
+  },
+  "AAOI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "applied-optoelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AAOI-SWAP-USDT"
+  },
+  "AAPL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AAPL-SWAP-USDT"
+  },
+  "AAVE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AAVE-SWAP-USDT"
+  },
+  "ACH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ACH-SWAP-USDT"
+  },
+  "ACN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "accenture",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ACN-SWAP-USDT"
+  },
+  "ACT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ACT-SWAP-USDT"
+  },
+  "ACU-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "acurast",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ACU-SWAP-USDT"
+  },
+  "ADA-SWAP-USDC": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.toobit.com/futures/ADA-SWAP-USDC"
+  },
+  "ADA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ADA-SWAP-USDT"
+  },
+  "ADBE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "adobe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ADBE-SWAP-USDT"
+  },
+  "AERO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "aerodrome",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AERO-SWAP-USDT"
+  },
+  "AEVO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AEVO-SWAP-USDT"
+  },
+  "AGLD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AGLD-SWAP-USDT"
+  },
+  "AGPU-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "axe-compute",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AGPU-SWAP-USDT"
+  },
+  "AGT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "alaya-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AGT-SWAP-USDT"
+  },
+  "AIN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "infinity-ground",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AIN-SWAP-USDT"
+  },
+  "AIO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "olaxbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AIO-SWAP-USDT"
+  },
+  "AIXBT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "aixbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AIXBT-SWAP-USDT"
+  },
+  "AKAM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "akamai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AKAM-SWAP-USDT"
+  },
+  "AKE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "akedo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AKE-SWAP-USDT"
+  },
+  "AKT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "akash-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AKT-SWAP-USDT"
+  },
+  "ALAB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "astera-labs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ALAB-SWAP-USDT"
+  },
+  "ALCH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "alchemist-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ALCH-SWAP-USDT"
+  },
+  "ALGO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "algorand",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ALGO-SWAP-USDT"
+  },
+  "ALICE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ALICE-SWAP-USDT"
+  },
+  "ALLO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "allora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ALLO-SWAP-USDT"
+  },
+  "ALPINE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "alpine-f1-team-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ALPINE-SWAP-USDT"
+  },
+  "AMAT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "applied-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AMAT-SWAP-USDT"
+  },
+  "AMC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "amc-entertainment",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AMC-SWAP-USDT"
+  },
+  "AMD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AMD-SWAP-USDT"
+  },
+  "AMZN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AMZN-SWAP-USDT"
+  },
+  "ANIME-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "animecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ANIME-SWAP-USDT"
+  },
+  "ANKR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ankr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ANKR-SWAP-USDT"
+  },
+  "APE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "apecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/APE-SWAP-USDT"
+  },
+  "API3-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "api3",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/API3-SWAP-USDT"
+  },
+  "APP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "applovin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/APP-SWAP-USDT"
+  },
+  "APR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "apriori",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/APR-SWAP-USDT"
+  },
+  "APT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/APT-SWAP-USDT"
+  },
+  "AR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "arweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AR-SWAP-USDT"
+  },
+  "ARB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ARB-SWAP-USDT"
+  },
+  "ARIA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "aria-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ARIA-SWAP-USDT"
+  },
+  "ARK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ARK-SWAP-USDT"
+  },
+  "ARKM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "arkham",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ARKM-SWAP-USDT"
+  },
+  "ARM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "arm-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ARM-SWAP-USDT"
+  },
+  "ARPA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "arpa-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ARPA-SWAP-USDT"
+  },
+  "ARX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "arcium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ARX-SWAP-USDT"
+  },
+  "ASML-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "asml-holding",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ASML-SWAP-USDT"
+  },
+  "ASTER-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ASTER-SWAP-USDT"
+  },
+  "ASTR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "astar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ASTR-SWAP-USDT"
+  },
+  "ASTS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ast-spacemobile",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ASTS-SWAP-USDT"
+  },
+  "ATH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "aethir",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ATH-SWAP-USDT"
+  },
+  "ATOM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cosmos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ATOM-SWAP-USDT"
+  },
+  "AUCTION-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "auction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AUCTION-SWAP-USDT"
+  },
+  "AVA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "travala",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AVA-SWAP-USDT"
+  },
+  "AVAAI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ava-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AVAAI-SWAP-USDT"
+  },
+  "AVAX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AVAX-SWAP-USDT"
+  },
+  "AVGO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "broadcom",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AVGO-SWAP-USDT"
+  },
+  "AVNT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "avantis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AVNT-SWAP-USDT"
+  },
+  "AWE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "stp-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AWE-SWAP-USDT"
+  },
+  "AXL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "axelar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AXL-SWAP-USDT"
+  },
+  "AXS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AXS-SWAP-USDT"
+  },
+  "AXTI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "axt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AXTI-SWAP-USDT"
+  },
+  "AZTEC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "aztec",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/AZTEC-SWAP-USDT"
+  },
+  "B-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "build-on",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/B-SWAP-USDT"
+  },
+  "B2-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bsquared-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/B2-SWAP-USDT"
+  },
+  "BABA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "alibaba-group-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BABA-SWAP-USDT"
+  },
+  "BABY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "babylon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BABY-SWAP-USDT"
+  },
+  "BAC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bank-of-america",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BAC-SWAP-USDT"
+  },
+  "BAN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "comedian",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BAN-SWAP-USDT"
+  },
+  "BANANA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "banana-gun",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BANANA-SWAP-USDT"
+  },
+  "BANANAS31-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "banana-for-scale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BANANAS31-SWAP-USDT"
+  },
+  "BAND-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "band-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BAND-SWAP-USDT"
+  },
+  "BARD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "lombard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BARD-SWAP-USDT"
+  },
+  "BAS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BAS-SWAP-USDT"
+  },
+  "BASED-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "based",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BASED-SWAP-USDT"
+  },
+  "BAT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BAT-SWAP-USDT"
+  },
+  "BB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bouncebit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BB-SWAP-USDT"
+  },
+  "BCH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BCH-SWAP-USDT"
+  },
+  "BE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bloom-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BE-SWAP-USDT"
+  },
+  "BEAT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "audiera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BEAT-SWAP-USDT"
+  },
+  "BERA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "berachain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BERA-SWAP-USDT"
+  },
+  "BICO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "biconomy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BICO-SWAP-USDT"
+  },
+  "BIGTIME-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "big-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BIGTIME-SWAP-USDT"
+  },
+  "BILL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "billions-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BILL-SWAP-USDT"
+  },
+  "BIO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bio-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BIO-SWAP-USDT"
+  },
+  "BIRB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "moonbirds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BIRB-SWAP-USDT"
+  },
+  "BLESS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bless-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BLESS-SWAP-USDT"
+  },
+  "BLUAI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bluwhale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BLUAI-SWAP-USDT"
+  },
+  "BLUR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "blur",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BLUR-SWAP-USDT"
+  },
+  "BMNR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BMNR-SWAP-USDT"
+  },
+  "BMT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bubblemaps",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BMT-SWAP-USDT"
+  },
+  "BNB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BNB-SWAP-USDT"
+  },
+  "BNC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bnb-standard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BNC-SWAP-USDT"
+  },
+  "BNT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bancor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BNT-SWAP-USDT"
+  },
+  "BOME-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BOME-SWAP-USDT"
+  },
+  "BOT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "robostrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BOT-SWAP-USDT"
+  },
+  "BR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bedrock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BR-SWAP-USDT"
+  },
+  "BRETT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "brett",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BRETT-SWAP-USDT"
+  },
+  "BREV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "brevis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BREV-SWAP-USDT"
+  },
+  "BSB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "block-street",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BSB-SWAP-USDT"
+  },
+  "BSV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bitcoin-cash-sv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BSV-SWAP-USDT"
+  },
+  "BTC-SWAP-USDC": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.toobit.com/futures/BTC-SWAP-USDC"
+  },
+  "BTC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BTC-SWAP-USDT"
+  },
+  "BTR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bitlayer-bitvm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BTR-SWAP-USDT"
+  },
+  "BTW-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bitway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BTW-SWAP-USDT"
+  },
+  "BWET-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "breakwave-tanker-shipping-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BWET-SWAP-USDT"
+  },
+  "BX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "blackstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/BX-SWAP-USDT"
+  },
+  "C-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "chainbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/C-SWAP-USDT"
+  },
+  "C98-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "coin98",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/C98-SWAP-USDT"
+  },
+  "CAKE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CAKE-SWAP-USDT"
+  },
+  "CARV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "carv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CARV-SWAP-USDT"
+  },
+  "CASHCAT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cash-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CASHCAT-SWAP-USDT"
+  },
+  "CATI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "catizen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CATI-SWAP-USDT"
+  },
+  "CBRS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CBRS-SWAP-USDT"
+  },
+  "CC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "canton",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CC-SWAP-USDT"
+  },
+  "CEG-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "constellation-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CEG-SWAP-USDT"
+  },
+  "CELO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "celo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CELO-SWAP-USDT"
+  },
+  "CELR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "celer-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CELR-SWAP-USDT"
+  },
+  "CETUS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cetus-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CETUS-SWAP-USDT"
+  },
+  "CFG-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "centrifuge",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CFG-SWAP-USDT"
+  },
+  "CFX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "conflux",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CFX-SWAP-USDT"
+  },
+  "CGPT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "chaingpt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CGPT-SWAP-USDT"
+  },
+  "CHILLGUY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "just-a-chill-guy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CHILLGUY-SWAP-USDT"
+  },
+  "CHIP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "usd-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CHIP-SWAP-USDT"
+  },
+  "CHR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "chromaway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CHR-SWAP-USDT"
+  },
+  "CHZ-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "chiliz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CHZ-SWAP-USDT"
+  },
+  "CKB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "nervos-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CKB-SWAP-USDT"
+  },
+  "CLANKER-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tokenbot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CLANKER-SWAP-USDT"
+  },
+  "CLO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "yei-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CLO-SWAP-USDT"
+  },
+  "COHR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "coherent-corp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/COHR-SWAP-USDT"
+  },
+  "COIN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "coinbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/COIN-SWAP-USDT"
+  },
+  "COMP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "compound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/COMP-SWAP-USDT"
+  },
+  "COOKIE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cookie",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/COOKIE-SWAP-USDT"
+  },
+  "COPPER-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "copper",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/COPPER-SWAP-USDT"
+  },
+  "COST-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "costco-wholesale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/COST-SWAP-USDT"
+  },
+  "COTI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "coti",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/COTI-SWAP-USDT"
+  },
+  "COW-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cow-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/COW-SWAP-USDT"
+  },
+  "CRCL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CRCL-SWAP-USDT"
+  },
+  "CRDO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "credo-technology-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CRDO-SWAP-USDT"
+  },
+  "CRM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "salesforce",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CRM-SWAP-USDT"
+  },
+  "CRML-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "critical-metals",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CRML-SWAP-USDT"
+  },
+  "CRO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cronos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CRO-SWAP-USDT"
+  },
+  "CRV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CRV-SWAP-USDT"
+  },
+  "CRWD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "crowdstrike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CRWD-SWAP-USDT"
+  },
+  "CRWV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "coreweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CRWV-SWAP-USDT"
+  },
+  "CSCO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cisco",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CSCO-SWAP-USDT"
+  },
+  "CT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "concrete",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CT-SWAP-USDT"
+  },
+  "CTR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "citrea",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CTR-SWAP-USDT"
+  },
+  "CTSI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cartesi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CTSI-SWAP-USDT"
+  },
+  "CVC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "civic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CVC-SWAP-USDT"
+  },
+  "CVNA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "carvana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CVNA-SWAP-USDT"
+  },
+  "CVX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "convex-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CVX-SWAP-USDT"
+  },
+  "CYBER-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CYBER-SWAP-USDT"
+  },
+  "CYPH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cypherpunk-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CYPH-SWAP-USDT"
+  },
+  "CYS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cysic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/CYS-SWAP-USDT"
+  },
+  "DASH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DASH-SWAP-USDT"
+  },
+  "DEEP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "deep",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DEEP-SWAP-USDT"
+  },
+  "DELL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dell-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DELL-SWAP-USDT"
+  },
+  "DEXE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dexe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DEXE-SWAP-USDT"
+  },
+  "DIA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dia-data",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DIA-SWAP-USDT"
+  },
+  "DIS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "walt-disney",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DIS-SWAP-USDT"
+  },
+  "DKNG-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "draftkings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DKNG-SWAP-USDT"
+  },
+  "DOGE-SWAP-USDC": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.toobit.com/futures/DOGE-SWAP-USDC"
+  },
+  "DOGE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DOGE-SWAP-USDT"
+  },
+  "DOGS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dogs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DOGS-SWAP-USDT"
+  },
+  "DOLO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dolomite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DOLO-SWAP-USDT"
+  },
+  "DOOD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "doodles",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DOOD-SWAP-USDT"
+  },
+  "DOS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dappos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DOS-SWAP-USDT"
+  },
+  "DOT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DOT-SWAP-USDT"
+  },
+  "DRAM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DRAM-SWAP-USDT"
+  },
+  "DRIFT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "drift-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DRIFT-SWAP-USDT"
+  },
+  "DUSK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dusk-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DUSK-SWAP-USDT"
+  },
+  "DYDX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dydx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DYDX-SWAP-USDT"
+  },
+  "DYM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dymension",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/DYM-SWAP-USDT"
+  },
+  "EBAY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ebay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EBAY-SWAP-USDT"
+  },
+  "EDEN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "openeden",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EDEN-SWAP-USDT"
+  },
+  "EDU-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "edu-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EDU-SWAP-USDT"
+  },
+  "EGLD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "multiversx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EGLD-SWAP-USDT"
+  },
+  "EIGEN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EIGEN-SWAP-USDT"
+  },
+  "ELSA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "elsa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ELSA-SWAP-USDT"
+  },
+  "ENA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ENA-SWAP-USDT"
+  },
+  "ENJ-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "enjin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ENJ-SWAP-USDT"
+  },
+  "ENS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ENS-SWAP-USDT"
+  },
+  "ENSO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "enso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ENSO-SWAP-USDT"
+  },
+  "ERA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "caldera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ERA-SWAP-USDT"
+  },
+  "ESP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "espresso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ESP-SWAP-USDT"
+  },
+  "ESPORTS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "yooldo-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ESPORTS-SWAP-USDT"
+  },
+  "ETC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ETC-SWAP-USDT"
+  },
+  "ETH-SWAP-USDC": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.toobit.com/futures/ETH-SWAP-USDC"
+  },
+  "ETH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ETH-SWAP-USDT"
+  },
+  "ETHFI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ETHFI-SWAP-USDT"
+  },
+  "ETHW-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ethereum-pow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ETHW-SWAP-USDT"
+  },
+  "EUL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "euler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EUL-SWAP-USDT"
+  },
+  "EUR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EUR-SWAP-USDT"
+  },
+  "EVAA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "evaa-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EVAA-SWAP-USDT"
+  },
+  "EWJ-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-japan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EWJ-SWAP-USDT"
+  },
+  "EWT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-taiwan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EWT-SWAP-USDT"
+  },
+  "EWY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EWY-SWAP-USDT"
+  },
+  "EWZ-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-brazil-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/EWZ-SWAP-USDT"
+  },
+  "F-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "synfutures",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/F-SWAP-USDT"
+  },
+  "FARTCOIN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FARTCOIN-SWAP-USDT"
+  },
+  "FET-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FET-SWAP-USDT"
+  },
+  "FF-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "falcon-finance-ff",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FF-SWAP-USDT"
+  },
+  "FHE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "mind-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FHE-SWAP-USDT"
+  },
+  "FIDA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bonfida",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FIDA-SWAP-USDT"
+  },
+  "FIGHT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "fight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FIGHT-SWAP-USDT"
+  },
+  "FIL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FIL-SWAP-USDT"
+  },
+  "FLNC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "fluence-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FLNC-SWAP-USDT"
+  },
+  "FLOCK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "flock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FLOCK-SWAP-USDT"
+  },
+  "FLOW-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "flow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FLOW-SWAP-USDT"
+  },
+  "FLUX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zelcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FLUX-SWAP-USDT"
+  },
+  "FOGO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "fogo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FOGO-SWAP-USDT"
+  },
+  "FOLKS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "folks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FOLKS-SWAP-USDT"
+  },
+  "FORM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "four",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FORM-SWAP-USDT"
+  },
+  "FRAX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "frax-share",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FRAX-SWAP-USDT"
+  },
+  "FUTU-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "futu-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FUTU-SWAP-USDT"
+  },
+  "FWDI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "forward-industries",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/FWDI-SWAP-USDT"
+  },
+  "G-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "gravity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/G-SWAP-USDT"
+  },
+  "GALA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "gala",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GALA-SWAP-USDT"
+  },
+  "GAS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "neo-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GAS-SWAP-USDT"
+  },
+  "GEV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ge-vernova",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GEV-SWAP-USDT"
+  },
+  "GIGGLE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GIGGLE-SWAP-USDT"
+  },
+  "GLM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "golem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GLM-SWAP-USDT"
+  },
+  "GMT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GMT-SWAP-USDT"
+  },
+  "GMX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "gmx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GMX-SWAP-USDT"
+  },
+  "GOAT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GOAT-SWAP-USDT"
+  },
+  "GOOGL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GOOGL-SWAP-USDT"
+  },
+  "GPRO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "gopro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GPRO-SWAP-USDT"
+  },
+  "GPS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "goplus-security",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GPS-SWAP-USDT"
+  },
+  "GRASS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "grass",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GRASS-SWAP-USDT"
+  },
+  "GRIFFAIN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "griffain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GRIFFAIN-SWAP-USDT"
+  },
+  "GRT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "the-graph",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GRT-SWAP-USDT"
+  },
+  "GRVT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "grvt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GRVT-SWAP-USDT"
+  },
+  "GS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "goldman-sachs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GS-SWAP-USDT"
+  },
+  "GTC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "gitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GTC-SWAP-USDT"
+  },
+  "GTLB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "gitlab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GTLB-SWAP-USDT"
+  },
+  "GUN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "gunz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GUN-SWAP-USDT"
+  },
+  "GWEI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ethgas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GWEI-SWAP-USDT"
+  },
+  "H-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "humanity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/H-SWAP-USDT"
+  },
+  "HAEDAL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "haedal-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HAEDAL-SWAP-USDT"
+  },
+  "HANA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "hana-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HANA-SWAP-USDT"
+  },
+  "HBAR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HBAR-SWAP-USDT"
+  },
+  "HD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "home-depot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HD-SWAP-USDT"
+  },
+  "HEI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "heima",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HEI-SWAP-USDT"
+  },
+  "HEMI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "hemi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HEMI-SWAP-USDT"
+  },
+  "HIMS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "hims-and-hers-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HIMS-SWAP-USDT"
+  },
+  "HMSTR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HMSTR-SWAP-USDT"
+  },
+  "HOLO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "holoworld",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HOLO-SWAP-USDT"
+  },
+  "HOME-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "defi-app",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HOME-SWAP-USDT"
+  },
+  "HPE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "hewlett-packard-enterprise",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HPE-SWAP-USDT"
+  },
+  "HUMA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "huma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HUMA-SWAP-USDT"
+  },
+  "HUT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "hut-8",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HUT-SWAP-USDT"
+  },
+  "HYPE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HYPE-SWAP-USDT"
+  },
+  "HYPER-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "hyperlane",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/HYPER-SWAP-USDT"
+  },
+  "IBM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "international-business-machines",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/IBM-SWAP-USDT"
+  },
+  "ICNT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "impossible-cloud-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ICNT-SWAP-USDT"
+  },
+  "ICP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ICP-SWAP-USDT"
+  },
+  "ILV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "illuvium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ILV-SWAP-USDT"
+  },
+  "IMX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "immutable-x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/IMX-SWAP-USDT"
+  },
+  "IN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "infinit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/IN-SWAP-USDT"
+  },
+  "INIT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "initia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/INIT-SWAP-USDT"
+  },
+  "INJ-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/INJ-SWAP-USDT"
+  },
+  "INTC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/INTC-SWAP-USDT"
+  },
+  "INX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "infinex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/INX-SWAP-USDT"
+  },
+  "IO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "io-net",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/IO-SWAP-USDT"
+  },
+  "IONQ-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ionq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/IONQ-SWAP-USDT"
+  },
+  "IOST-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "iost",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/IOST-SWAP-USDT"
+  },
+  "IOTA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "iota",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/IOTA-SWAP-USDT"
+  },
+  "IOTX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "iotex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/IOTX-SWAP-USDT"
+  },
+  "IREN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "iren",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/IREN-SWAP-USDT"
+  },
+  "IRYS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "irys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/IRYS-SWAP-USDT"
+  },
+  "IWM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ishares-russell-2000-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/IWM-SWAP-USDT"
+  },
+  "JASMY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/JASMY-SWAP-USDT"
+  },
+  "JCT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "janction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/JCT-SWAP-USDT"
+  },
+  "JELLYJELLY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "jelly-my-jelly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/JELLYJELLY-SWAP-USDT"
+  },
+  "JPM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "jpmorgan-chase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/JPM-SWAP-USDT"
+  },
+  "JST-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "just",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/JST-SWAP-USDT"
+  },
+  "JTO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/JTO-SWAP-USDT"
+  },
+  "JUP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/JUP-SWAP-USDT"
+  },
+  "KAIA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "kaia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KAIA-SWAP-USDT"
+  },
+  "KAITO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KAITO-SWAP-USDT"
+  },
+  "KAS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "kaspa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KAS-SWAP-USDT"
+  },
+  "KAT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "katana-network-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KAT-SWAP-USDT"
+  },
+  "KAVA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "kava",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KAVA-SWAP-USDT"
+  },
+  "KERNEL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "kernel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KERNEL-SWAP-USDT"
+  },
+  "KGEN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "kgen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KGEN-SWAP-USDT"
+  },
+  "KITE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "kite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KITE-SWAP-USDT"
+  },
+  "KLAC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "kla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KLAC-SWAP-USDT"
+  },
+  "KMNO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "kamino",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KMNO-SWAP-USDT"
+  },
+  "KNC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "kyber-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KNC-SWAP-USDT"
+  },
+  "KO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "coca-cola",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KO-SWAP-USDT"
+  },
+  "KOMA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "koma-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KOMA-SWAP-USDT"
+  },
+  "KORU-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KORU-SWAP-USDT"
+  },
+  "KSM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "kusama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/KSM-SWAP-USDT"
+  },
+  "LA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "lagrange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LA-SWAP-USDT"
+  },
+  "LAB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LAB-SWAP-USDT"
+  },
+  "LAYER-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "solayer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LAYER-SWAP-USDT"
+  },
+  "LDO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LDO-SWAP-USDT"
+  },
+  "LIGHT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bitlight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LIGHT-SWAP-USDT"
+  },
+  "LINEA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "linea",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LINEA-SWAP-USDT"
+  },
+  "LINK-SWAP-USDC": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.toobit.com/futures/LINK-SWAP-USDC"
+  },
+  "LINK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LINK-SWAP-USDT"
+  },
+  "LISTA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "lista",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LISTA-SWAP-USDT"
+  },
+  "LITE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LITE-SWAP-USDT"
+  },
+  "LLY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "eli-lilly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LLY-SWAP-USDT"
+  },
+  "LPT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "livepeer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LPT-SWAP-USDT"
+  },
+  "LQTY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "liquity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LQTY-SWAP-USDT"
+  },
+  "LRCX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "lam-research",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LRCX-SWAP-USDT"
+  },
+  "LSK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "lisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LSK-SWAP-USDT"
+  },
+  "LTC-SWAP-USDC": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.toobit.com/futures/LTC-SWAP-USDC"
+  },
+  "LTC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LTC-SWAP-USDT"
+  },
+  "LUMIA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "lumia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LUMIA-SWAP-USDT"
+  },
+  "LYTE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "roundhill-photonics-optics-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/LYTE-SWAP-USDT"
+  },
+  "M-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "memecore",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/M-SWAP-USDT"
+  },
+  "MAGIC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "magic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MAGIC-SWAP-USDT"
+  },
+  "MAGMA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "magma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MAGMA-SWAP-USDT"
+  },
+  "MANA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "decentraland",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MANA-SWAP-USDT"
+  },
+  "MANTA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "manta-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MANTA-SWAP-USDT"
+  },
+  "MASK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "mask-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MASK-SWAP-USDT"
+  },
+  "MAV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "maverick-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MAV-SWAP-USDT"
+  },
+  "MAVIA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "heroes-of-mavia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MAVIA-SWAP-USDT"
+  },
+  "MDB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "mongodb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MDB-SWAP-USDT"
+  },
+  "MDT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "medtronic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MDT-SWAP-USDT"
+  },
+  "MEGA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "megaeth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MEGA-SWAP-USDT"
+  },
+  "MELANIA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "melania-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MELANIA-SWAP-USDT"
+  },
+  "MEME-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "memecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MEME-SWAP-USDT"
+  },
+  "MERL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MERL-SWAP-USDT"
+  },
+  "MET-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "meteora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MET-SWAP-USDT"
+  },
+  "META-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/META-SWAP-USDT"
+  },
+  "METIS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "metis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/METIS-SWAP-USDT"
+  },
+  "MEW-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MEW-SWAP-USDT"
+  },
+  "MINA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "mina-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MINA-SWAP-USDT"
+  },
+  "MMT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "momentum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MMT-SWAP-USDT"
+  },
+  "MOCA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "mocaverse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MOCA-SWAP-USDT"
+  },
+  "MON-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MON-SWAP-USDT"
+  },
+  "MOODENG-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "moo-deng",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MOODENG-SWAP-USDT"
+  },
+  "MORPHO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "morpho",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MORPHO-SWAP-USDT"
+  },
+  "MOVR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "moonriver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MOVR-SWAP-USDT"
+  },
+  "MP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "mp-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MP-SWAP-USDT"
+  },
+  "MRK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "merck-and-co",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MRK-SWAP-USDT"
+  },
+  "MRNA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "moderna",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MRNA-SWAP-USDT"
+  },
+  "MRVL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MRVL-SWAP-USDT"
+  },
+  "MSFT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MSFT-SWAP-USDT"
+  },
+  "MSTR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MSTR-SWAP-USDT"
+  },
+  "MTL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "metal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MTL-SWAP-USDT"
+  },
+  "MU-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MU-SWAP-USDT"
+  },
+  "MUBARAK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "mubarak",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MUBARAK-SWAP-USDT"
+  },
+  "MYX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "myx-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/MYX-SWAP-USDT"
+  },
+  "NBIS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "nebius-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NBIS-SWAP-USDT"
+  },
+  "NEAR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NEAR-SWAP-USDT"
+  },
+  "NEO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "neo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NEO-SWAP-USDT"
+  },
+  "NET-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "cloudflare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NET-SWAP-USDT"
+  },
+  "NEWT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "newton-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NEWT-SWAP-USDT"
+  },
+  "NFLX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "netflix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NFLX-SWAP-USDT"
+  },
+  "NG-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NG-SWAP-USDT"
+  },
+  "NIGHT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "midnight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NIGHT-SWAP-USDT"
+  },
+  "NIL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "nillion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NIL-SWAP-USDT"
+  },
+  "NKE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "nike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NKE-SWAP-USDT"
+  },
+  "NMR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "numeraire",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NMR-SWAP-USDT"
+  },
+  "NOK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "nokia-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NOK-SWAP-USDT"
+  },
+  "NOM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "nomina",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NOM-SWAP-USDT"
+  },
+  "NOT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "notcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NOT-SWAP-USDT"
+  },
+  "NOW-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "servicenow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NOW-SWAP-USDT"
+  },
+  "NVDA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NVDA-SWAP-USDT"
+  },
+  "NVO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "novo-nordisk-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NVO-SWAP-USDT"
+  },
+  "NXPC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "nexpace",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/NXPC-SWAP-USDT"
+  },
+  "OGN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/OGN-SWAP-USDT"
+  },
+  "OKB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "okb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/OKB-SWAP-USDT"
+  },
+  "OKLO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "oklo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/OKLO-SWAP-USDT"
+  },
+  "ONDO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ONDO-SWAP-USDT"
+  },
+  "ONDS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ondas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ONDS-SWAP-USDT"
+  },
+  "OP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/OP-SWAP-USDT"
+  },
+  "OPEN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "openledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/OPEN-SWAP-USDT"
+  },
+  "OPG-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "opengradient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/OPG-SWAP-USDT"
+  },
+  "OPN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "opinion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/OPN-SWAP-USDT"
+  },
+  "ORCA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "orca",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ORCA-SWAP-USDT"
+  },
+  "ORCL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "oracle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ORCL-SWAP-USDT"
+  },
+  "ORDER-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "orderly-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ORDER-SWAP-USDT"
+  },
+  "ORDI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ordi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ORDI-SWAP-USDT"
+  },
+  "PANW-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "palo-alto-networks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PANW-SWAP-USDT"
+  },
+  "PARTI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "particle-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PARTI-SWAP-USDT"
+  },
+  "PATH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "uipath",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PATH-SWAP-USDT"
+  },
+  "PAXG-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PAXG-SWAP-USDT"
+  },
+  "PAYP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "paypay-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PAYP-SWAP-USDT"
+  },
+  "PDD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pdd-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PDD-SWAP-USDT"
+  },
+  "PENDLE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PENDLE-SWAP-USDT"
+  },
+  "PENGU-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PENGU-SWAP-USDT"
+  },
+  "PEOPLE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PEOPLE-SWAP-USDT"
+  },
+  "PHA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pha",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PHA-SWAP-USDT"
+  },
+  "PIEVERSE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pieverse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PIEVERSE-SWAP-USDT"
+  },
+  "PIXEL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pixels",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PIXEL-SWAP-USDT"
+  },
+  "PLAY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "playsout",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PLAY-SWAP-USDT"
+  },
+  "PLTR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PLTR-SWAP-USDT"
+  },
+  "PLUME-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "plume",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PLUME-SWAP-USDT"
+  },
+  "PNUT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PNUT-SWAP-USDT"
+  },
+  "POL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/POL-SWAP-USDT"
+  },
+  "POLYX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "polymesh",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/POLYX-SWAP-USDT"
+  },
+  "PONS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PONS-SWAP-USDT"
+  },
+  "POPCAT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "popcat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/POPCAT-SWAP-USDT"
+  },
+  "PORTAL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "portal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PORTAL-SWAP-USDT"
+  },
+  "POWR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "power-ledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/POWR-SWAP-USDT"
+  },
+  "PRL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "perle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PRL-SWAP-USDT"
+  },
+  "PROM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "prometeus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PROM-SWAP-USDT"
+  },
+  "PROVE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "succinct",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PROVE-SWAP-USDT"
+  },
+  "PUNDIX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pundi-x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PUNDIX-SWAP-USDT"
+  },
+  "PYTH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/PYTH-SWAP-USDT"
+  },
+  "Q-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "quack-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/Q-SWAP-USDT"
+  },
+  "QCOM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "qualcomm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/QCOM-SWAP-USDT"
+  },
+  "QNT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "quant",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/QNT-SWAP-USDT"
+  },
+  "QQQ-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/QQQ-SWAP-USDT"
+  },
+  "QTUM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "qtum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/QTUM-SWAP-USDT"
+  },
+  "RARE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "superrare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RARE-SWAP-USDT"
+  },
+  "RAVE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ravedao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RAVE-SWAP-USDT"
+  },
+  "RAY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "raydium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RAY-SWAP-USDT"
+  },
+  "RDDT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "reddit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RDDT-SWAP-USDT"
+  },
+  "RE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "re",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RE-SWAP-USDT"
+  },
+  "RECALL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "recall",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RECALL-SWAP-USDT"
+  },
+  "RED-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "redstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RED-SWAP-USDT"
+  },
+  "RENDER-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RENDER-SWAP-USDT"
+  },
+  "RESOLV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "resolv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RESOLV-SWAP-USDT"
+  },
+  "REZ-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "renzo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/REZ-SWAP-USDT"
+  },
+  "RIVER-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "river",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RIVER-SWAP-USDT"
+  },
+  "RIVN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "rivian-automotive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RIVN-SWAP-USDT"
+  },
+  "RKLB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "rocket-lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RKLB-SWAP-USDT"
+  },
+  "RLC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "iexec-rlc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RLC-SWAP-USDT"
+  },
+  "ROBO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ROBO-SWAP-USDT"
+  },
+  "ROSE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "oasis-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ROSE-SWAP-USDT"
+  },
+  "RPL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "rocket-pool",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RPL-SWAP-USDT"
+  },
+  "RSR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RSR-SWAP-USDT"
+  },
+  "RUM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "rum-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RUM-SWAP-USDT"
+  },
+  "RUNE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "thorchain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RUNE-SWAP-USDT"
+  },
+  "RVN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ravencoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/RVN-SWAP-USDT"
+  },
+  "S-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/S-SWAP-USDT"
+  },
+  "SAFE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "safe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SAFE-SWAP-USDT"
+  },
+  "SAGA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "saga",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SAGA-SWAP-USDT"
+  },
+  "SAHARA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SAHARA-SWAP-USDT"
+  },
+  "SAND-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SAND-SWAP-USDT"
+  },
+  "SAPIEN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sapien",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SAPIEN-SWAP-USDT"
+  },
+  "SCR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "scroll",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SCR-SWAP-USDT"
+  },
+  "SECZ-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "securitize",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SECZ-SWAP-USDT"
+  },
+  "SEI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SEI-SWAP-USDT"
+  },
+  "SENT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sentient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SENT-SWAP-USDT"
+  },
+  "SFP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "safepal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SFP-SWAP-USDT"
+  },
+  "SHAZ-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sharonai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SHAZ-SWAP-USDT"
+  },
+  "SHOP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "shopify",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SHOP-SWAP-USDT"
+  },
+  "SIGN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sign-global",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SIGN-SWAP-USDT"
+  },
+  "SKHY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sk-hynix-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SKHY-SWAP-USDT"
+  },
+  "SKR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "seeker",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SKR-SWAP-USDT"
+  },
+  "SKY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sky",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SKY-SWAP-USDT"
+  },
+  "SLP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "smooth-love-potion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SLP-SWAP-USDT"
+  },
+  "SMCI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "super-micro-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SMCI-SWAP-USDT"
+  },
+  "SMH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "vaneck-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SMH-SWAP-USDT"
+  },
+  "SNDK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SNDK-SWAP-USDT"
+  },
+  "SNPS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "synopsys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SNPS-SWAP-USDT"
+  },
+  "SNX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "synthetix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SNX-SWAP-USDT"
+  },
+  "SNXX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tradr-2x-long-sndk-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SNXX-SWAP-USDT"
+  },
+  "SOL-SWAP-USDC": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.toobit.com/futures/SOL-SWAP-USDC"
+  },
+  "SOL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SOL-SWAP-USDT"
+  },
+  "SOLV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "solv-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SOLV-SWAP-USDT"
+  },
+  "SOMI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "somnia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SOMI-SWAP-USDT"
+  },
+  "SOON-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "soon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SOON-SWAP-USDT"
+  },
+  "SOPH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sophon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SOPH-SWAP-USDT"
+  },
+  "SOXL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SOXL-SWAP-USDT"
+  },
+  "SOXS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SOXS-SWAP-USDT"
+  },
+  "SOXX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ishares-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SOXX-SWAP-USDT"
+  },
+  "SPACE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "spacecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SPACE-SWAP-USDT"
+  },
+  "SPCX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SPCX-SWAP-USDT"
+  },
+  "SPELL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "spell-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SPELL-SWAP-USDT"
+  },
+  "SPK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "spark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SPK-SWAP-USDT"
+  },
+  "SPX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "spx6900",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SPX-SWAP-USDT"
+  },
+  "SPY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SPY-SWAP-USDT"
+  },
+  "SQD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "subsquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SQD-SWAP-USDT"
+  },
+  "SSV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "ssv-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SSV-SWAP-USDT"
+  },
+  "STABLE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "stable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/STABLE-SWAP-USDT"
+  },
+  "STBL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "stbl",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/STBL-SWAP-USDT"
+  },
+  "STEEM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "steem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/STEEM-SWAP-USDT"
+  },
+  "STO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "stakestone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/STO-SWAP-USDT"
+  },
+  "STRC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "strategy-stretch-preferred-stock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/STRC-SWAP-USDT"
+  },
+  "STRK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/STRK-SWAP-USDT"
+  },
+  "STX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "stacks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/STX-SWAP-USDT"
+  },
+  "SUI-SWAP-USDC": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.toobit.com/futures/SUI-SWAP-USDC"
+  },
+  "SUI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SUI-SWAP-USDT"
+  },
+  "SUN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sun-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SUN-SWAP-USDT"
+  },
+  "SUPER-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "superfarm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SUPER-SWAP-USDT"
+  },
+  "SUSHI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sushi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SUSHI-SWAP-USDT"
+  },
+  "SWARMS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "swarms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SWARMS-SWAP-USDT"
+  },
+  "SXT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "space-and-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SXT-SWAP-USDT"
+  },
+  "SYN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "synapse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SYN-SWAP-USDT"
+  },
+  "SYRUP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "syrup",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/SYRUP-SWAP-USDT"
+  },
+  "T-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "threshold-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/T-SWAP-USDT"
+  },
+  "TA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "trusta-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TA-SWAP-USDT"
+  },
+  "TAC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tac",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TAC-SWAP-USDT"
+  },
+  "TAG-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tagger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TAG-SWAP-USDT"
+  },
+  "TAIKO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "taiko",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TAIKO-SWAP-USDT"
+  },
+  "TAKE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "overtake",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TAKE-SWAP-USDT"
+  },
+  "TAO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TAO-SWAP-USDT"
+  },
+  "THE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "thena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/THE-SWAP-USDT"
+  },
+  "THETA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "theta-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/THETA-SWAP-USDT"
+  },
+  "TIA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TIA-SWAP-USDT"
+  },
+  "TLM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "alien-worlds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TLM-SWAP-USDT"
+  },
+  "TNSR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TNSR-SWAP-USDT"
+  },
+  "TON-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "toncoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TON-SWAP-USDT"
+  },
+  "TOSHI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "toshi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TOSHI-SWAP-USDT"
+  },
+  "TOWNS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "towns",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TOWNS-SWAP-USDT"
+  },
+  "TRADOOR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tradoor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TRADOOR-SWAP-USDT"
+  },
+  "TRB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tellor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TRB-SWAP-USDT"
+  },
+  "TREE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "treehouse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TREE-SWAP-USDT"
+  },
+  "TRIA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tria",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TRIA-SWAP-USDT"
+  },
+  "TRUMP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TRUMP-SWAP-USDT"
+  },
+  "TRUST-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "intuition",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TRUST-SWAP-USDT"
+  },
+  "TRUTH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "swarm-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TRUTH-SWAP-USDT"
+  },
+  "TRX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TRX-SWAP-USDT"
+  },
+  "TSLA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TSLA-SWAP-USDT"
+  },
+  "TSM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TSM-SWAP-USDT"
+  },
+  "TTWO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "take-two-interactive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TTWO-SWAP-USDT"
+  },
+  "TURBO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "turbo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TURBO-SWAP-USDT"
+  },
+  "TURTLE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "turtle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TURTLE-SWAP-USDT"
+  },
+  "TUT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tutorial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TUT-SWAP-USDT"
+  },
+  "TWST-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "twist-bioscience",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TWST-SWAP-USDT"
+  },
+  "TWT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "trust-wallet-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TWT-SWAP-USDT"
+  },
+  "TXN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "texas-instruments",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/TXN-SWAP-USDT"
+  },
+  "UAI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "unifai-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/UAI-SWAP-USDT"
+  },
+  "UB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "unibase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/UB-SWAP-USDT"
+  },
+  "UBER-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "uber-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/UBER-SWAP-USDT"
+  },
+  "UMA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "uma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/UMA-SWAP-USDT"
+  },
+  "UNH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "unitedhealth-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/UNH-SWAP-USDT"
+  },
+  "UNI-SWAP-USDC": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.toobit.com/futures/UNI-SWAP-USDC"
+  },
+  "UNI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/UNI-SWAP-USDT"
+  },
+  "URNM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "sprott-uranium-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/URNM-SWAP-USDT"
+  },
+  "US-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "talus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/US-SWAP-USDT"
+  },
+  "USAR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "usa-rare-earth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/USAR-SWAP-USDT"
+  },
+  "USDC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "usd-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/USDC-SWAP-USDT"
+  },
+  "USELESS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "useless-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/USELESS-SWAP-USDT"
+  },
+  "USTC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "terrausd",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/USTC-SWAP-USDT"
+  },
+  "USUAL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "usual",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/USUAL-SWAP-USDT"
+  },
+  "UVXY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "proshares-ultra-vix-short-term-futures-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/UVXY-SWAP-USDT"
+  },
+  "V-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "visa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/V-SWAP-USDT"
+  },
+  "VANA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "vana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/VANA-SWAP-USDT"
+  },
+  "VELVET-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "velvet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/VELVET-SWAP-USDT"
+  },
+  "VET-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "vechain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/VET-SWAP-USDT"
+  },
+  "VIRTUAL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/VIRTUAL-SWAP-USDT"
+  },
+  "VKTX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "viking-therapeutics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/VKTX-SWAP-USDT"
+  },
+  "VST-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "vistra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/VST-SWAP-USDT"
+  },
+  "VTHO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "vethor-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/VTHO-SWAP-USDT"
+  },
+  "VVV-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/VVV-SWAP-USDT"
+  },
+  "W-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/W-SWAP-USDT"
+  },
+  "WAL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "walrus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/WAL-SWAP-USDT"
+  },
+  "WAXP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "wax",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/WAXP-SWAP-USDT"
+  },
+  "WCT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "walletconnect",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/WCT-SWAP-USDT"
+  },
+  "WEN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "wendys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/WEN-SWAP-USDT"
+  },
+  "WET-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "humidifi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/WET-SWAP-USDT"
+  },
+  "WIF-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/WIF-SWAP-USDT"
+  },
+  "WLD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/WLD-SWAP-USDT"
+  },
+  "WLFI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/WLFI-SWAP-USDT"
+  },
+  "WMT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "walmart",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/WMT-SWAP-USDT"
+  },
+  "WOO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "woo-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/WOO-SWAP-USDT"
+  },
+  "XAG-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XAG-SWAP-USDT"
+  },
+  "XAI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "xai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XAI-SWAP-USDT"
+  },
+  "XAN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "anoma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XAN-SWAP-USDT"
+  },
+  "XAU-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XAU-SWAP-USDT"
+  },
+  "XAUT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tether-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XAUT-SWAP-USDT"
+  },
+  "XBI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "spdr-sp-biotech-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XBI-SWAP-USDT"
+  },
+  "XLE-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "energy-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XLE-SWAP-USDT"
+  },
+  "XLM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XLM-SWAP-USDT"
+  },
+  "XMR-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XMR-SWAP-USDT"
+  },
+  "XNY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "codatta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XNY-SWAP-USDT"
+  },
+  "XOM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "exxon-mobil",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XOM-SWAP-USDT"
+  },
+  "XPD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "palladium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XPD-SWAP-USDT"
+  },
+  "XPIN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "xpin-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XPIN-SWAP-USDT"
+  },
+  "XPL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XPL-SWAP-USDT"
+  },
+  "XPT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "platinum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XPT-SWAP-USDT"
+  },
+  "XRP-SWAP-USDC": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.toobit.com/futures/XRP-SWAP-USDC"
+  },
+  "XRP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XRP-SWAP-USDT"
+  },
+  "XTZ-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "tezos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/XTZ-SWAP-USDT"
+  },
+  "YB-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "yield-basis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/YB-SWAP-USDT"
+  },
+  "YFI-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/YFI-SWAP-USDT"
+  },
+  "YGG-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/YGG-SWAP-USDT"
+  },
+  "ZAMA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZAMA-SWAP-USDT"
+  },
+  "ZBT-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zerobase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZBT-SWAP-USDT"
+  },
+  "ZCSH-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "grayscale-zcash-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZCSH-SWAP-USDT"
+  },
+  "ZEC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZEC-SWAP-USDT"
+  },
+  "ZEN-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "horizen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZEN-SWAP-USDT"
+  },
+  "ZEREBRO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zerebro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZEREBRO-SWAP-USDT"
+  },
+  "ZEST-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zest-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZEST-SWAP-USDT"
+  },
+  "ZETA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zetachain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZETA-SWAP-USDT"
+  },
+  "ZIL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zilliqa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZIL-SWAP-USDT"
+  },
+  "ZK-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zksync",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZK-SWAP-USDT"
+  },
+  "ZKC-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "boundless",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZKC-SWAP-USDT"
+  },
+  "ZKP-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zkpass",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZKP-SWAP-USDT"
+  },
+  "ZM-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zoom-communications",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZM-SWAP-USDT"
+  },
+  "ZORA-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZORA-SWAP-USDT"
+  },
+  "ZRO-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZRO-SWAP-USDT"
+  },
+  "ZRX-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "0x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZRX-SWAP-USDT"
+  },
+  "ZS-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "zscaler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/ZS-SWAP-USDT"
+  }
+}

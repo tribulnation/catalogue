@@ -23,6 +23,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/2Z/USDT"
   },
+  "AAPLXUSDT": {
+    "exchange": "spot",
+    "base": "apple-xstock",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AAPLX/USDT"
+  },
   "AAVEUSDC": {
     "exchange": "spot",
     "base": "aave",
@@ -250,6 +256,12 @@
     "base": "cosmos",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ATOM/USDT"
+  },
+  "AURORAUSDT": {
+    "exchange": "spot",
+    "base": "aurora",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/AURORA/USDT"
   },
   "AUSDT": {
     "exchange": "spot",
@@ -503,6 +515,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/BSB/USDT"
   },
+  "BTCAED": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "uae-dirham",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/AED"
+  },
+  "BTCBRL": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "brazilian-real",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/BRL"
+  },
   "BTCEUR": {
     "exchange": "spot",
     "base": "bitcoin",
@@ -514,6 +538,12 @@
     "base": "bitcoin",
     "quote": "british-pound",
     "delisted": true
+  },
+  "BTCPLN": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "polish-zloty",
+    "url": "https://www.bybit.com/en/trade/spot/BTC/PLN"
   },
   "BTCRLUSD": {
     "exchange": "spot",
@@ -670,6 +700,12 @@
     "base": "sanctum",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/CLOUD/USDT"
+  },
+  "COINXUSDT": {
+    "exchange": "spot",
+    "base": "coinbase-xstock",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/COINX/USDT"
   },
   "COMPUSDT": {
     "exchange": "spot",
@@ -935,6 +971,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ETC/USDT"
   },
+  "ETHAED": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "uae-dirham",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/AED"
+  },
+  "ETHBRL": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "brazilian-real",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/BRL"
+  },
   "ETHBTC": {
     "exchange": "spot",
     "base": "ethereum",
@@ -964,6 +1012,12 @@
     "base": "ethereum",
     "quote": "mantle",
     "delisted": true
+  },
+  "ETHPLN": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "polish-zloty",
+    "url": "https://www.bybit.com/en/trade/spot/ETH/PLN"
   },
   "ETHRLUSD": {
     "exchange": "spot",
@@ -1121,6 +1175,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/F/USDT"
   },
+  "GAIBUSDT": {
+    "exchange": "spot",
+    "base": "gaib",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GAIB/USDT"
+  },
   "GALAUSDT": {
     "exchange": "spot",
     "base": "gala",
@@ -1157,11 +1217,23 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/GOAT/USDT"
   },
+  "GOOGLXUSDT": {
+    "exchange": "spot",
+    "base": "alphabet-xstock",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/GOOGLX/USDT"
+  },
   "GPSUSDT": {
     "exchange": "spot",
     "base": "goplus-security",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/GPS/USDT"
+  },
+  "GRAMEUR": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "euro",
+    "url": "https://www.bybit.com/en/trade/spot/GRAM/EUR"
   },
   "GRAMUSDC": {
     "exchange": "spot",
@@ -1619,6 +1691,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/MERL/USDT"
   },
+  "METAXUSDT": {
+    "exchange": "spot",
+    "base": "meta-xstock",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/METAX/USDT"
+  },
   "METHETH": {
     "exchange": "spot",
     "base": "mantle-staked-ether",
@@ -1835,6 +1913,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/NS/USDT"
   },
+  "NVDAXUSDT": {
+    "exchange": "spot",
+    "base": "nvidia-xstock",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/NVDAX/USDT"
+  },
   "NXPCUSDT": {
     "exchange": "spot",
     "base": "nexpace",
@@ -2003,6 +2087,12 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/PORTAL/USDT"
   },
+  "PRIMEUSDT": {
+    "exchange": "spot",
+    "base": "echelon-prime",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/PRIME/USDT"
+  },
   "PROVEUSDT": {
     "exchange": "spot",
     "base": "succinct",
@@ -2062,6 +2152,12 @@
     "base": "qtum",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/QTUM/USDT"
+  },
+  "RATSUSDT": {
+    "exchange": "spot",
+    "base": "rats",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/RATS/USDT"
   },
   "RECALLUSDT": {
     "exchange": "spot",
@@ -2255,6 +2351,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/SNX/USDT"
   },
+  "SOLAED": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "uae-dirham",
+    "url": "https://www.bybit.com/en/trade/spot/SOL/AED"
+  },
+  "SOLBRL": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "brazilian-real",
+    "url": "https://www.bybit.com/en/trade/spot/SOL/BRL"
+  },
   "SOLBTC": {
     "exchange": "spot",
     "base": "solana",
@@ -2350,6 +2458,12 @@
     "base": "ssv-network",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/SSV/USDT"
+  },
+  "STABLEUSDT": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/STABLE/USDT"
   },
   "STETHEUR": {
     "exchange": "spot",
@@ -2597,11 +2711,23 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/UNI/USDT"
   },
+  "USATUSDT": {
+    "exchange": "spot",
+    "base": "tether-america-usd",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/USAT/USDT"
+  },
   "USD1USDT": {
     "exchange": "spot",
     "base": "usd1",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/USD1/USDT"
+  },
+  "USDCBRL": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "brazilian-real",
+    "url": "https://www.bybit.com/en/trade/spot/USDC/BRL"
   },
   "USDCEUR": {
     "exchange": "spot",
@@ -2645,6 +2771,18 @@
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/USDS/USDT"
   },
+  "USDTAED": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "uae-dirham",
+    "url": "https://www.bybit.com/en/trade/spot/USDT/AED"
+  },
+  "USDTBRL": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "brazilian-real",
+    "url": "https://www.bybit.com/en/trade/spot/USDT/BRL"
+  },
   "USDTBUSDT": {
     "exchange": "spot",
     "base": "ethena-usdtb",
@@ -2663,6 +2801,12 @@
     "quote": "british-pound",
     "delisted": true
   },
+  "USDTPLN": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "polish-zloty",
+    "url": "https://www.bybit.com/en/trade/spot/USDT/PLN"
+  },
   "USDTTRY": {
     "exchange": "spot",
     "base": "tether",
@@ -2674,6 +2818,12 @@
     "base": "tether",
     "quote": "usd",
     "url": "https://www.bybit.com/en/trade/spot/USDT/USD"
+  },
+  "USTCUSDT": {
+    "exchange": "spot",
+    "base": "terrausd",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/USTC/USDT"
   },
   "VANAUSDT": {
     "exchange": "spot",
@@ -2956,6 +3106,12 @@
     "base": "zignaly",
     "quote": "tether",
     "url": "https://www.bybit.com/en/trade/spot/ZIG/USDT"
+  },
+  "ZILUSDT": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "tether",
+    "url": "https://www.bybit.com/en/trade/spot/ZIL/USDT"
   },
   "ZKCUSDT": {
     "exchange": "spot",
