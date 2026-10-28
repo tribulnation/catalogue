@@ -164,6 +164,10 @@ SPOT_RULES: dict[str, Rule] = {
   'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: 'https://www.mexc.com/exchange/{}_{}'.format(*sym.split('mexc', id, inst)),
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-spot/{id.lower()}',
+  'bitunix': lambda id, inst, sym: f'https://www.bitunix.com/spot-trade/{id.upper()}',
+  'toobit': lambda id, inst, sym: 'https://www.toobit.com/spot/{}_{}'.format(*sym.split('toobit', id, inst)),
+  'weex': lambda id, inst, sym: 'https://www.weex.com/spot/{}-{}'.format(*sym.split('weex', id, inst)),
+  'xt': lambda id, inst, sym: f'https://www.xt.com/en/trade/{id}',
 }
 
 PERPETUAL_RULES: dict[str, Rule] = {
@@ -184,6 +188,10 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: f'https://www.mexc.com/futures/{id}',
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-swap/{id.lower()}',
+  'bitunix': lambda id, inst, sym: f'https://www.bitunix.com/contract-trade/{id}',
+  'toobit': lambda id, inst, sym: f'https://www.toobit.com/futures/{id}',
+  'weex': lambda id, inst, sym: 'https://www.weex.com/futures/{}-{}'.format(*sym.split('weex', id, inst)),
+  'xt': lambda id, inst, sym: f'https://www.xt.com/en/futures/trade/{id}',
 }
 
 RULES = {'spot': SPOT_RULES, 'perpetual': PERPETUAL_RULES}

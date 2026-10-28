@@ -1,0 +1,4116 @@
+{
+  "1000000mog_usdt": {
+    "exchange": "perp",
+    "base": "mog-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000000,
+    "url": "https://www.xt.com/en/futures/trade/1000000mog_usdt"
+  },
+  "1000bonk_usdt": {
+    "exchange": "perp",
+    "base": "bonk",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.xt.com/en/futures/trade/1000bonk_usdt"
+  },
+  "1000btt_usdt": {
+    "exchange": "perp",
+    "base": "bittorrent",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.xt.com/en/futures/trade/1000btt_usdt"
+  },
+  "1000cheems_usdt": {
+    "exchange": "perp",
+    "base": "cheems-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.xt.com/en/futures/trade/1000cheems_usdt"
+  },
+  "1000floki_usdt": {
+    "exchange": "perp",
+    "base": "floki",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.xt.com/en/futures/trade/1000floki_usdt"
+  },
+  "1000lunc_usdt": {
+    "exchange": "perp",
+    "base": "terra-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.xt.com/en/futures/trade/1000lunc_usdt"
+  },
+  "1000pepe_usdt": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.xt.com/en/futures/trade/1000pepe_usdt"
+  },
+  "1000rats_usdt": {
+    "exchange": "perp",
+    "base": "rats",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.xt.com/en/futures/trade/1000rats_usdt"
+  },
+  "1000sats_usdt": {
+    "exchange": "perp",
+    "base": "sats-ordinals",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.xt.com/en/futures/trade/1000sats_usdt"
+  },
+  "1000shib_usdt": {
+    "exchange": "perp",
+    "base": "shiba-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.xt.com/en/futures/trade/1000shib_usdt"
+  },
+  "1000turbo_usdt": {
+    "exchange": "perp",
+    "base": "turbo",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.xt.com/en/futures/trade/1000turbo_usdt"
+  },
+  "1000xec_usdt": {
+    "exchange": "perp",
+    "base": "ecash",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 1000,
+    "url": "https://www.xt.com/en/futures/trade/1000xec_usdt"
+  },
+  "1inch_usdt": {
+    "exchange": "perp",
+    "base": "1inch",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/1inch_usdt"
+  },
+  "2z_usdt": {
+    "exchange": "perp",
+    "base": "doublezero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/2z_usdt"
+  },
+  "a_usdt": {
+    "exchange": "perp",
+    "base": "vaulta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/a_usdt"
+  },
+  "aaoi_usdt": {
+    "exchange": "perp",
+    "base": "applied-optoelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/aaoi_usdt"
+  },
+  "aaplx_usdt": {
+    "exchange": "perp",
+    "base": "apple-xstock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/aaplx_usdt"
+  },
+  "aave_usdt": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/aave_usdt"
+  },
+  "ace_usdt": {
+    "exchange": "perp",
+    "base": "fusionist",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ace_usdt"
+  },
+  "ach_usdt": {
+    "exchange": "perp",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ach_usdt"
+  },
+  "acn_usdt": {
+    "exchange": "perp",
+    "base": "accenture",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/acn_usdt"
+  },
+  "acu_usdt": {
+    "exchange": "perp",
+    "base": "acurast",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/acu_usdt"
+  },
+  "ada_usdt": {
+    "exchange": "perp",
+    "base": "cardano",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ada_usdt"
+  },
+  "adbe_usdt": {
+    "exchange": "perp",
+    "base": "adobe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/adbe_usdt"
+  },
+  "aero_usdt": {
+    "exchange": "perp",
+    "base": "aerodrome",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/aero_usdt"
+  },
+  "aevo_usdt": {
+    "exchange": "perp",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/aevo_usdt"
+  },
+  "agld_usdt": {
+    "exchange": "perp",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/agld_usdt"
+  },
+  "agpu_usdt": {
+    "exchange": "perp",
+    "base": "axe-compute",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/agpu_usdt"
+  },
+  "agt_usdt": {
+    "exchange": "perp",
+    "base": "alaya-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/agt_usdt"
+  },
+  "ain_usdt": {
+    "exchange": "perp",
+    "base": "infinity-ground",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ain_usdt"
+  },
+  "aio_usdt": {
+    "exchange": "perp",
+    "base": "olaxbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/aio_usdt"
+  },
+  "aixbt_usdt": {
+    "exchange": "perp",
+    "base": "aixbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/aixbt_usdt"
+  },
+  "akam_usdt": {
+    "exchange": "perp",
+    "base": "akamai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/akam_usdt"
+  },
+  "akt_usdt": {
+    "exchange": "perp",
+    "base": "akash-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/akt_usdt"
+  },
+  "alab_usdt": {
+    "exchange": "perp",
+    "base": "astera-labs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/alab_usdt"
+  },
+  "algo_usdt": {
+    "exchange": "perp",
+    "base": "algorand",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/algo_usdt"
+  },
+  "alice_usdt": {
+    "exchange": "perp",
+    "base": "my-neighbor-alice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/alice_usdt"
+  },
+  "allo_usdt": {
+    "exchange": "perp",
+    "base": "allora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/allo_usdt"
+  },
+  "alpine_usdt": {
+    "exchange": "perp",
+    "base": "alpine-f1-team-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/alpine_usdt"
+  },
+  "alt_usdt": {
+    "exchange": "perp",
+    "base": "altlayer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/alt_usdt"
+  },
+  "amat_usdt": {
+    "exchange": "perp",
+    "base": "applied-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/amat_usdt"
+  },
+  "amc_usdt": {
+    "exchange": "perp",
+    "base": "amc-entertainment",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/amc_usdt"
+  },
+  "amd_usdt": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/amd_usdt"
+  },
+  "amznx_usdt": {
+    "exchange": "perp",
+    "base": "amazon-xstock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/amznx_usdt"
+  },
+  "anime_usdt": {
+    "exchange": "perp",
+    "base": "animecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/anime_usdt"
+  },
+  "ankr_usdt": {
+    "exchange": "perp",
+    "base": "ankr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ankr_usdt"
+  },
+  "ape_usdt": {
+    "exchange": "perp",
+    "base": "apecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ape_usdt"
+  },
+  "api3_usdt": {
+    "exchange": "perp",
+    "base": "api3",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/api3_usdt"
+  },
+  "app_usdt": {
+    "exchange": "perp",
+    "base": "applovin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/app_usdt"
+  },
+  "apr_usdt": {
+    "exchange": "perp",
+    "base": "apriori",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/apr_usdt"
+  },
+  "apt_usdt": {
+    "exchange": "perp",
+    "base": "aptos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/apt_usdt"
+  },
+  "ar_usdt": {
+    "exchange": "perp",
+    "base": "arweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ar_usdt"
+  },
+  "arb_usdt": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/arb_usdt"
+  },
+  "arc_usdt": {
+    "exchange": "perp",
+    "base": "ai-rig-complex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/arc_usdt"
+  },
+  "ark_usdt": {
+    "exchange": "perp",
+    "base": "ark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ark_usdt"
+  },
+  "arkm_usdt": {
+    "exchange": "perp",
+    "base": "arkham",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/arkm_usdt"
+  },
+  "arm_usdt": {
+    "exchange": "perp",
+    "base": "arm-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/arm_usdt"
+  },
+  "arpa_usdt": {
+    "exchange": "perp",
+    "base": "arpa-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/arpa_usdt"
+  },
+  "arx_usdt": {
+    "exchange": "perp",
+    "base": "arcium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/arx_usdt"
+  },
+  "asml_usdt": {
+    "exchange": "perp",
+    "base": "asml-holding",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/asml_usdt"
+  },
+  "aster_usdt": {
+    "exchange": "perp",
+    "base": "aster",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/aster_usdt"
+  },
+  "astr_usdt": {
+    "exchange": "perp",
+    "base": "astar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/astr_usdt"
+  },
+  "asts_usdt": {
+    "exchange": "perp",
+    "base": "ast-spacemobile",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/asts_usdt"
+  },
+  "ath_usdt": {
+    "exchange": "perp",
+    "base": "aethir",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ath_usdt"
+  },
+  "atom_usdt": {
+    "exchange": "perp",
+    "base": "cosmos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/atom_usdt"
+  },
+  "aud_usdt": {
+    "exchange": "perp",
+    "base": "australian-dollar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/aud_usdt"
+  },
+  "ava_usdt": {
+    "exchange": "perp",
+    "base": "travala",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ava_usdt"
+  },
+  "avaai_usdt": {
+    "exchange": "perp",
+    "base": "ava-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/avaai_usdt"
+  },
+  "avax_usdt": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/avax_usdt"
+  },
+  "avgo_usdt": {
+    "exchange": "perp",
+    "base": "broadcom",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/avgo_usdt"
+  },
+  "avnt_usdt": {
+    "exchange": "perp",
+    "base": "avantis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/avnt_usdt"
+  },
+  "awe_usdt": {
+    "exchange": "perp",
+    "base": "stp-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/awe_usdt"
+  },
+  "axis_usdt": {
+    "exchange": "perp",
+    "base": "axis-robotics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/axis_usdt"
+  },
+  "axl_usdt": {
+    "exchange": "perp",
+    "base": "axelar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/axl_usdt"
+  },
+  "axs_usdt": {
+    "exchange": "perp",
+    "base": "axie-infinity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/axs_usdt"
+  },
+  "axti_usdt": {
+    "exchange": "perp",
+    "base": "axt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/axti_usdt"
+  },
+  "aztec_usdt": {
+    "exchange": "perp",
+    "base": "aztec",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/aztec_usdt"
+  },
+  "b2_usdt": {
+    "exchange": "perp",
+    "base": "bsquared-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/b2_usdt"
+  },
+  "b_usdt": {
+    "exchange": "perp",
+    "base": "build-on",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/b_usdt"
+  },
+  "baby_usdt": {
+    "exchange": "perp",
+    "base": "babylon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/baby_usdt"
+  },
+  "bac_usdt": {
+    "exchange": "perp",
+    "base": "bank-of-america",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bac_usdt"
+  },
+  "ban_usdt": {
+    "exchange": "perp",
+    "base": "comedian",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ban_usdt"
+  },
+  "banana_usdt": {
+    "exchange": "perp",
+    "base": "banana-gun",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/banana_usdt"
+  },
+  "bananas31_usdt": {
+    "exchange": "perp",
+    "base": "banana-for-scale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bananas31_usdt"
+  },
+  "band_usdt": {
+    "exchange": "perp",
+    "base": "band-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/band_usdt"
+  },
+  "bard_usdt": {
+    "exchange": "perp",
+    "base": "lombard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bard_usdt"
+  },
+  "bas_usdt": {
+    "exchange": "perp",
+    "base": "bas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bas_usdt"
+  },
+  "based_usdt": {
+    "exchange": "perp",
+    "base": "based",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/based_usdt"
+  },
+  "bat_usdt": {
+    "exchange": "perp",
+    "base": "basic-attention-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bat_usdt"
+  },
+  "bb_usdt": {
+    "exchange": "perp",
+    "base": "bouncebit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bb_usdt"
+  },
+  "bch_usdt": {
+    "exchange": "perp",
+    "base": "bitcoin-cash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bch_usdt"
+  },
+  "be_usdt": {
+    "exchange": "perp",
+    "base": "bloom-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/be_usdt"
+  },
+  "beat_usdt": {
+    "exchange": "perp",
+    "base": "audiera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/beat_usdt"
+  },
+  "bel_usdt": {
+    "exchange": "perp",
+    "base": "bella-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bel_usdt"
+  },
+  "bera_usdt": {
+    "exchange": "perp",
+    "base": "berachain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bera_usdt"
+  },
+  "bico_usdt": {
+    "exchange": "perp",
+    "base": "biconomy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bico_usdt"
+  },
+  "bigtime_usdt": {
+    "exchange": "perp",
+    "base": "big-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bigtime_usdt"
+  },
+  "bill_usdt": {
+    "exchange": "perp",
+    "base": "billions-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bill_usdt"
+  },
+  "bio_usdt": {
+    "exchange": "perp",
+    "base": "bio-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bio_usdt"
+  },
+  "birb_usdt": {
+    "exchange": "perp",
+    "base": "moonbirds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/birb_usdt"
+  },
+  "bless_usdt": {
+    "exchange": "perp",
+    "base": "bless-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bless_usdt"
+  },
+  "bluai_usdt": {
+    "exchange": "perp",
+    "base": "bluwhale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bluai_usdt"
+  },
+  "bmnr_usdt": {
+    "exchange": "perp",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bmnr_usdt"
+  },
+  "bnb_usdt": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bnb_usdt"
+  },
+  "bnc_usdt": {
+    "exchange": "perp",
+    "base": "bnb-standard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bnc_usdt"
+  },
+  "bnt_usdt": {
+    "exchange": "perp",
+    "base": "bancor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bnt_usdt"
+  },
+  "boba_usdt": {
+    "exchange": "perp",
+    "base": "boba-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/boba_usdt"
+  },
+  "bome_usdt": {
+    "exchange": "perp",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bome_usdt"
+  },
+  "bot_usdt": {
+    "exchange": "perp",
+    "base": "robostrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bot_usdt"
+  },
+  "brett_usdt": {
+    "exchange": "perp",
+    "base": "brett",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/brett_usdt"
+  },
+  "brev_usdt": {
+    "exchange": "perp",
+    "base": "brevis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/brev_usdt"
+  },
+  "bsb_usdt": {
+    "exchange": "perp",
+    "base": "block-street",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bsb_usdt"
+  },
+  "bsv_usdt": {
+    "exchange": "perp",
+    "base": "bitcoin-cash-sv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bsv_usdt"
+  },
+  "btc_usdt": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/btc_usdt"
+  },
+  "btr_usdt": {
+    "exchange": "perp",
+    "base": "bitlayer-bitvm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/btr_usdt"
+  },
+  "btw_usdt": {
+    "exchange": "perp",
+    "base": "bitway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/btw_usdt"
+  },
+  "bwet_usdt": {
+    "exchange": "perp",
+    "base": "breakwave-tanker-shipping-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bwet_usdt"
+  },
+  "bx_usdt": {
+    "exchange": "perp",
+    "base": "blackstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bx_usdt"
+  },
+  "bz_usdt": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/bz_usdt"
+  },
+  "c98_usdt": {
+    "exchange": "perp",
+    "base": "coin98",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/c98_usdt"
+  },
+  "c_usdt": {
+    "exchange": "perp",
+    "base": "chainbase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/c_usdt"
+  },
+  "cake_usdt": {
+    "exchange": "perp",
+    "base": "pancakeswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cake_usdt"
+  },
+  "cap_usdt": {
+    "exchange": "perp",
+    "base": "cap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cap_usdt"
+  },
+  "carv_usdt": {
+    "exchange": "perp",
+    "base": "carv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/carv_usdt"
+  },
+  "cbrs_usdt": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cbrs_usdt"
+  },
+  "cc_usdt": {
+    "exchange": "perp",
+    "base": "canton",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cc_usdt"
+  },
+  "ceg_usdt": {
+    "exchange": "perp",
+    "base": "constellation-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ceg_usdt"
+  },
+  "celo_usdt": {
+    "exchange": "perp",
+    "base": "celo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/celo_usdt"
+  },
+  "cfg_usdt": {
+    "exchange": "perp",
+    "base": "centrifuge",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cfg_usdt"
+  },
+  "cfx_usdt": {
+    "exchange": "perp",
+    "base": "conflux",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cfx_usdt"
+  },
+  "cgpt_usdt": {
+    "exchange": "perp",
+    "base": "chaingpt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cgpt_usdt"
+  },
+  "chillguy_usdt": {
+    "exchange": "perp",
+    "base": "just-a-chill-guy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/chillguy_usdt"
+  },
+  "chip_usdt": {
+    "exchange": "perp",
+    "base": "usd-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/chip_usdt"
+  },
+  "chr_usdt": {
+    "exchange": "perp",
+    "base": "chromaway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/chr_usdt"
+  },
+  "chz_usdt": {
+    "exchange": "perp",
+    "base": "chiliz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/chz_usdt"
+  },
+  "ckb_usdt": {
+    "exchange": "perp",
+    "base": "nervos-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ckb_usdt"
+  },
+  "cl_usdt": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cl_usdt"
+  },
+  "clanker_usdt": {
+    "exchange": "perp",
+    "base": "tokenbot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/clanker_usdt"
+  },
+  "clo_usdt": {
+    "exchange": "perp",
+    "base": "yei-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/clo_usdt"
+  },
+  "cohr_usdt": {
+    "exchange": "perp",
+    "base": "coherent-corp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cohr_usdt"
+  },
+  "coinx_usdt": {
+    "exchange": "perp",
+    "base": "coinbase-xstock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/coinx_usdt"
+  },
+  "comp_usdt": {
+    "exchange": "perp",
+    "base": "compound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/comp_usdt"
+  },
+  "cookie_usdt": {
+    "exchange": "perp",
+    "base": "cookie",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cookie_usdt"
+  },
+  "copper_usdt": {
+    "exchange": "perp",
+    "base": "copper",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/copper_usdt"
+  },
+  "core_usdt": {
+    "exchange": "perp",
+    "base": "core",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/core_usdt"
+  },
+  "cost_usdt": {
+    "exchange": "perp",
+    "base": "costco-wholesale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cost_usdt"
+  },
+  "cow_usdt": {
+    "exchange": "perp",
+    "base": "cow-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cow_usdt"
+  },
+  "crclx_usdt": {
+    "exchange": "perp",
+    "base": "circle-xstock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/crclx_usdt"
+  },
+  "crdo_usdt": {
+    "exchange": "perp",
+    "base": "credo-technology-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/crdo_usdt"
+  },
+  "crm_usdt": {
+    "exchange": "perp",
+    "base": "salesforce",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/crm_usdt"
+  },
+  "crml_usdt": {
+    "exchange": "perp",
+    "base": "critical-metals",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/crml_usdt"
+  },
+  "cro_usdt": {
+    "exchange": "perp",
+    "base": "cronos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cro_usdt"
+  },
+  "crv_usdt": {
+    "exchange": "perp",
+    "base": "curve-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/crv_usdt"
+  },
+  "crwd_usdt": {
+    "exchange": "perp",
+    "base": "crowdstrike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/crwd_usdt"
+  },
+  "crwv_usdt": {
+    "exchange": "perp",
+    "base": "coreweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/crwv_usdt"
+  },
+  "csco_usdt": {
+    "exchange": "perp",
+    "base": "cisco",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/csco_usdt"
+  },
+  "ct_usdt": {
+    "exchange": "perp",
+    "base": "concrete",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ct_usdt"
+  },
+  "ctr_usdt": {
+    "exchange": "perp",
+    "base": "citrea",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ctr_usdt"
+  },
+  "cvc_usdt": {
+    "exchange": "perp",
+    "base": "civic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cvc_usdt"
+  },
+  "cvna_usdt": {
+    "exchange": "perp",
+    "base": "carvana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cvna_usdt"
+  },
+  "cvx_usdt": {
+    "exchange": "perp",
+    "base": "convex-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cvx_usdt"
+  },
+  "cyber_usdt": {
+    "exchange": "perp",
+    "base": "cyberconnect",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cyber_usdt"
+  },
+  "cyph_usdt": {
+    "exchange": "perp",
+    "base": "cypherpunk-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cyph_usdt"
+  },
+  "cys_usdt": {
+    "exchange": "perp",
+    "base": "cysic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/cys_usdt"
+  },
+  "dash_usdt": {
+    "exchange": "perp",
+    "base": "dash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dash_usdt"
+  },
+  "deep_usdt": {
+    "exchange": "perp",
+    "base": "deep",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/deep_usdt"
+  },
+  "dell_usdt": {
+    "exchange": "perp",
+    "base": "dell-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dell_usdt"
+  },
+  "dexe_usdt": {
+    "exchange": "perp",
+    "base": "dexe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dexe_usdt"
+  },
+  "dia_usdt": {
+    "exchange": "perp",
+    "base": "dia-data",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dia_usdt"
+  },
+  "dis_usdt": {
+    "exchange": "perp",
+    "base": "walt-disney",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dis_usdt"
+  },
+  "dkng_usdt": {
+    "exchange": "perp",
+    "base": "draftkings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dkng_usdt"
+  },
+  "dna_usdt": {
+    "exchange": "perp",
+    "base": "neosoul",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dna_usdt"
+  },
+  "doge_usdt": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/doge_usdt"
+  },
+  "dolo_usdt": {
+    "exchange": "perp",
+    "base": "dolomite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dolo_usdt"
+  },
+  "dood_usdt": {
+    "exchange": "perp",
+    "base": "doodles",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dood_usdt"
+  },
+  "dos_usdt": {
+    "exchange": "perp",
+    "base": "dappos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dos_usdt"
+  },
+  "dot_usdt": {
+    "exchange": "perp",
+    "base": "polkadot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dot_usdt"
+  },
+  "dram_usdt": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dram_usdt"
+  },
+  "dusk_usdt": {
+    "exchange": "perp",
+    "base": "dusk-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dusk_usdt"
+  },
+  "dydx_usdt": {
+    "exchange": "perp",
+    "base": "dydx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dydx_usdt"
+  },
+  "dym_usdt": {
+    "exchange": "perp",
+    "base": "dymension",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/dym_usdt"
+  },
+  "ebay_usdt": {
+    "exchange": "perp",
+    "base": "ebay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ebay_usdt"
+  },
+  "eden_usdt": {
+    "exchange": "perp",
+    "base": "openeden",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/eden_usdt"
+  },
+  "edu_usdt": {
+    "exchange": "perp",
+    "base": "edu-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/edu_usdt"
+  },
+  "egld_usdt": {
+    "exchange": "perp",
+    "base": "multiversx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/egld_usdt"
+  },
+  "eigen_usdt": {
+    "exchange": "perp",
+    "base": "eigen-layer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/eigen_usdt"
+  },
+  "ena_usdt": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ena_usdt"
+  },
+  "enj_usdt": {
+    "exchange": "perp",
+    "base": "enjin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/enj_usdt"
+  },
+  "ens_usdt": {
+    "exchange": "perp",
+    "base": "ethereum-name-service",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ens_usdt"
+  },
+  "enso_usdt": {
+    "exchange": "perp",
+    "base": "enso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/enso_usdt"
+  },
+  "era_usdt": {
+    "exchange": "perp",
+    "base": "caldera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/era_usdt"
+  },
+  "esp_usdt": {
+    "exchange": "perp",
+    "base": "espresso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/esp_usdt"
+  },
+  "esports_usdt": {
+    "exchange": "perp",
+    "base": "yooldo-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/esports_usdt"
+  },
+  "etc_usdt": {
+    "exchange": "perp",
+    "base": "ethereum-classic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/etc_usdt"
+  },
+  "eth_usdt": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/eth_usdt"
+  },
+  "ethfi_usdt": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ethfi_usdt"
+  },
+  "eul_usdt": {
+    "exchange": "perp",
+    "base": "euler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/eul_usdt"
+  },
+  "eur_usdt": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/eur_usdt"
+  },
+  "ewj_usdt": {
+    "exchange": "perp",
+    "base": "ishares-msci-japan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ewj_usdt"
+  },
+  "ewt_usdt": {
+    "exchange": "perp",
+    "base": "ishares-msci-taiwan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ewt_usdt"
+  },
+  "ewy_usdt": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ewy_usdt"
+  },
+  "ewz_usdt": {
+    "exchange": "perp",
+    "base": "ishares-msci-brazil-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ewz_usdt"
+  },
+  "fartcoin_usdt": {
+    "exchange": "perp",
+    "base": "fartcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/fartcoin_usdt"
+  },
+  "fet_usdt": {
+    "exchange": "perp",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/fet_usdt"
+  },
+  "ff_usdt": {
+    "exchange": "perp",
+    "base": "falcon-finance-ff",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ff_usdt"
+  },
+  "fhe_usdt": {
+    "exchange": "perp",
+    "base": "mind-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/fhe_usdt"
+  },
+  "fida_usdt": {
+    "exchange": "perp",
+    "base": "bonfida",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/fida_usdt"
+  },
+  "fight_usdt": {
+    "exchange": "perp",
+    "base": "fight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/fight_usdt"
+  },
+  "fil_usdt": {
+    "exchange": "perp",
+    "base": "filecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/fil_usdt"
+  },
+  "flnc_usdt": {
+    "exchange": "perp",
+    "base": "fluence-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/flnc_usdt"
+  },
+  "flock_usdt": {
+    "exchange": "perp",
+    "base": "flock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/flock_usdt"
+  },
+  "flow_usdt": {
+    "exchange": "perp",
+    "base": "flow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/flow_usdt"
+  },
+  "flr_usdt": {
+    "exchange": "perp",
+    "base": "flare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/flr_usdt"
+  },
+  "flux_usdt": {
+    "exchange": "perp",
+    "base": "zelcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/flux_usdt"
+  },
+  "fogo_usdt": {
+    "exchange": "perp",
+    "base": "fogo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/fogo_usdt"
+  },
+  "folks_usdt": {
+    "exchange": "perp",
+    "base": "folks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/folks_usdt"
+  },
+  "form_usdt": {
+    "exchange": "perp",
+    "base": "four",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/form_usdt"
+  },
+  "fwdi_usdt": {
+    "exchange": "perp",
+    "base": "forward-industries",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/fwdi_usdt"
+  },
+  "gala_usdt": {
+    "exchange": "perp",
+    "base": "gala",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gala_usdt"
+  },
+  "gas_usdt": {
+    "exchange": "perp",
+    "base": "neo-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gas_usdt"
+  },
+  "gbp_usdt": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gbp_usdt"
+  },
+  "gev_usdt": {
+    "exchange": "perp",
+    "base": "ge-vernova",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gev_usdt"
+  },
+  "giggle_usdt": {
+    "exchange": "perp",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/giggle_usdt"
+  },
+  "glm_usdt": {
+    "exchange": "perp",
+    "base": "golem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/glm_usdt"
+  },
+  "glw_usdt": {
+    "exchange": "perp",
+    "base": "corning",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/glw_usdt"
+  },
+  "gme_usdt": {
+    "exchange": "perp",
+    "base": "gamestop",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gme_usdt"
+  },
+  "gmt_usdt": {
+    "exchange": "perp",
+    "base": "green-metaverse-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gmt_usdt"
+  },
+  "gmx_usdt": {
+    "exchange": "perp",
+    "base": "gmx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gmx_usdt"
+  },
+  "goat_usdt": {
+    "exchange": "perp",
+    "base": "goatseus-maximus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/goat_usdt"
+  },
+  "googlx_usdt": {
+    "exchange": "perp",
+    "base": "alphabet-xstock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/googlx_usdt"
+  },
+  "gpro_usdt": {
+    "exchange": "perp",
+    "base": "gopro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gpro_usdt"
+  },
+  "gps_usdt": {
+    "exchange": "perp",
+    "base": "goplus-security",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gps_usdt"
+  },
+  "grass_usdt": {
+    "exchange": "perp",
+    "base": "grass",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/grass_usdt"
+  },
+  "griffain_usdt": {
+    "exchange": "perp",
+    "base": "griffain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/griffain_usdt"
+  },
+  "grt_usdt": {
+    "exchange": "perp",
+    "base": "the-graph",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/grt_usdt"
+  },
+  "grvt_usdt": {
+    "exchange": "perp",
+    "base": "grvt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/grvt_usdt"
+  },
+  "gs_usdt": {
+    "exchange": "perp",
+    "base": "goldman-sachs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gs_usdt"
+  },
+  "gtlb_usdt": {
+    "exchange": "perp",
+    "base": "gitlab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gtlb_usdt"
+  },
+  "gun_usdt": {
+    "exchange": "perp",
+    "base": "gunz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gun_usdt"
+  },
+  "gwei_usdt": {
+    "exchange": "perp",
+    "base": "ethgas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/gwei_usdt"
+  },
+  "h_usdt": {
+    "exchange": "perp",
+    "base": "humanity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/h_usdt"
+  },
+  "haedal_usdt": {
+    "exchange": "perp",
+    "base": "haedal-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/haedal_usdt"
+  },
+  "hbar_usdt": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/hbar_usdt"
+  },
+  "hd_usdt": {
+    "exchange": "perp",
+    "base": "home-depot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/hd_usdt"
+  },
+  "hei_usdt": {
+    "exchange": "perp",
+    "base": "heima",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/hei_usdt"
+  },
+  "hims_usdt": {
+    "exchange": "perp",
+    "base": "hims-and-hers-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/hims_usdt"
+  },
+  "holo_usdt": {
+    "exchange": "perp",
+    "base": "holoworld",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/holo_usdt"
+  },
+  "home_usdt": {
+    "exchange": "perp",
+    "base": "defi-app",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/home_usdt"
+  },
+  "hpe_usdt": {
+    "exchange": "perp",
+    "base": "hewlett-packard-enterprise",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/hpe_usdt"
+  },
+  "huma_usdt": {
+    "exchange": "perp",
+    "base": "huma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/huma_usdt"
+  },
+  "hut_usdt": {
+    "exchange": "perp",
+    "base": "hut-8",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/hut_usdt"
+  },
+  "hype_usdt": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/hype_usdt"
+  },
+  "hyper_usdt": {
+    "exchange": "perp",
+    "base": "hyperlane",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/hyper_usdt"
+  },
+  "ibm_usdt": {
+    "exchange": "perp",
+    "base": "international-business-machines",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ibm_usdt"
+  },
+  "icnt_usdt": {
+    "exchange": "perp",
+    "base": "impossible-cloud-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/icnt_usdt"
+  },
+  "icp_usdt": {
+    "exchange": "perp",
+    "base": "internet-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/icp_usdt"
+  },
+  "id_usdt": {
+    "exchange": "perp",
+    "base": "space-id",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/id_usdt"
+  },
+  "ilv_usdt": {
+    "exchange": "perp",
+    "base": "illuvium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ilv_usdt"
+  },
+  "imx_usdt": {
+    "exchange": "perp",
+    "base": "immutable-x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/imx_usdt"
+  },
+  "in_usdt": {
+    "exchange": "perp",
+    "base": "infinit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/in_usdt"
+  },
+  "init_usdt": {
+    "exchange": "perp",
+    "base": "initia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/init_usdt"
+  },
+  "inj_usdt": {
+    "exchange": "perp",
+    "base": "injective",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/inj_usdt"
+  },
+  "intc_usdt": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/intc_usdt"
+  },
+  "inx_usdt": {
+    "exchange": "perp",
+    "base": "infinex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/inx_usdt"
+  },
+  "io_usdt": {
+    "exchange": "perp",
+    "base": "io-net",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/io_usdt"
+  },
+  "ionq_usdt": {
+    "exchange": "perp",
+    "base": "ionq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ionq_usdt"
+  },
+  "iost_usdt": {
+    "exchange": "perp",
+    "base": "iost",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/iost_usdt"
+  },
+  "iota_usdt": {
+    "exchange": "perp",
+    "base": "iota",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/iota_usdt"
+  },
+  "iotx_usdt": {
+    "exchange": "perp",
+    "base": "iotex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/iotx_usdt"
+  },
+  "iren_usdt": {
+    "exchange": "perp",
+    "base": "iren",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/iren_usdt"
+  },
+  "irys_usdt": {
+    "exchange": "perp",
+    "base": "irys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/irys_usdt"
+  },
+  "iwm_usdt": {
+    "exchange": "perp",
+    "base": "ishares-russell-2000-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/iwm_usdt"
+  },
+  "jasmy_usdt": {
+    "exchange": "perp",
+    "base": "jasmycoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/jasmy_usdt"
+  },
+  "jct_usdt": {
+    "exchange": "perp",
+    "base": "janction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/jct_usdt"
+  },
+  "jellyjelly_usdt": {
+    "exchange": "perp",
+    "base": "jelly-my-jelly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/jellyjelly_usdt"
+  },
+  "jpm_usdt": {
+    "exchange": "perp",
+    "base": "jpmorgan-chase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/jpm_usdt"
+  },
+  "jto_usdt": {
+    "exchange": "perp",
+    "base": "jito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/jto_usdt"
+  },
+  "jup_usdt": {
+    "exchange": "perp",
+    "base": "jupiter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/jup_usdt"
+  },
+  "kaia_usdt": {
+    "exchange": "perp",
+    "base": "kaia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/kaia_usdt"
+  },
+  "kaito_usdt": {
+    "exchange": "perp",
+    "base": "kaito",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/kaito_usdt"
+  },
+  "kas_usdt": {
+    "exchange": "perp",
+    "base": "kaspa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/kas_usdt"
+  },
+  "kat_usdt": {
+    "exchange": "perp",
+    "base": "katana-network-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/kat_usdt"
+  },
+  "kava_usdt": {
+    "exchange": "perp",
+    "base": "kava",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/kava_usdt"
+  },
+  "kernel_usdt": {
+    "exchange": "perp",
+    "base": "kernel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/kernel_usdt"
+  },
+  "kgen_usdt": {
+    "exchange": "perp",
+    "base": "kgen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/kgen_usdt"
+  },
+  "kite_usdt": {
+    "exchange": "perp",
+    "base": "kite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/kite_usdt"
+  },
+  "klac_usdt": {
+    "exchange": "perp",
+    "base": "kla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/klac_usdt"
+  },
+  "kmno_usdt": {
+    "exchange": "perp",
+    "base": "kamino",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/kmno_usdt"
+  },
+  "knc_usdt": {
+    "exchange": "perp",
+    "base": "kyber-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/knc_usdt"
+  },
+  "ko_usdt": {
+    "exchange": "perp",
+    "base": "coca-cola",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ko_usdt"
+  },
+  "koru_usdt": {
+    "exchange": "perp",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/koru_usdt"
+  },
+  "ksm_usdt": {
+    "exchange": "perp",
+    "base": "kusama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ksm_usdt"
+  },
+  "kstr_usdt": {
+    "exchange": "perp",
+    "base": "kraneshares-star-50-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/kstr_usdt"
+  },
+  "la_usdt": {
+    "exchange": "perp",
+    "base": "lagrange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/la_usdt"
+  },
+  "lab_usdt": {
+    "exchange": "perp",
+    "base": "lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/lab_usdt"
+  },
+  "layer_usdt": {
+    "exchange": "perp",
+    "base": "solayer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/layer_usdt"
+  },
+  "ldo_usdt": {
+    "exchange": "perp",
+    "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ldo_usdt"
+  },
+  "linea_usdt": {
+    "exchange": "perp",
+    "base": "linea",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/linea_usdt"
+  },
+  "link_usdt": {
+    "exchange": "perp",
+    "base": "chainlink",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/link_usdt"
+  },
+  "lista_usdt": {
+    "exchange": "perp",
+    "base": "lista",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/lista_usdt"
+  },
+  "lit_usdt": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/lit_usdt"
+  },
+  "lite_usdt": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/lite_usdt"
+  },
+  "lly_usdt": {
+    "exchange": "perp",
+    "base": "eli-lilly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/lly_usdt"
+  },
+  "lpt_usdt": {
+    "exchange": "perp",
+    "base": "livepeer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/lpt_usdt"
+  },
+  "lrcx_usdt": {
+    "exchange": "perp",
+    "base": "lam-research",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/lrcx_usdt"
+  },
+  "lsk_usdt": {
+    "exchange": "perp",
+    "base": "lisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/lsk_usdt"
+  },
+  "ltc_usdt": {
+    "exchange": "perp",
+    "base": "litecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ltc_usdt"
+  },
+  "lumia_usdt": {
+    "exchange": "perp",
+    "base": "lumia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/lumia_usdt"
+  },
+  "luna_usdt": {
+    "exchange": "perp",
+    "base": "terra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/luna_usdt"
+  },
+  "lyte_usdt": {
+    "exchange": "perp",
+    "base": "roundhill-photonics-optics-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/lyte_usdt"
+  },
+  "m_usdt": {
+    "exchange": "perp",
+    "base": "memecore",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/m_usdt"
+  },
+  "magic_usdt": {
+    "exchange": "perp",
+    "base": "magic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/magic_usdt"
+  },
+  "magma_usdt": {
+    "exchange": "perp",
+    "base": "magma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/magma_usdt"
+  },
+  "mana_usdt": {
+    "exchange": "perp",
+    "base": "decentraland",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mana_usdt"
+  },
+  "manta_usdt": {
+    "exchange": "perp",
+    "base": "manta-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/manta_usdt"
+  },
+  "mask_usdt": {
+    "exchange": "perp",
+    "base": "mask-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mask_usdt"
+  },
+  "mav_usdt": {
+    "exchange": "perp",
+    "base": "maverick-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mav_usdt"
+  },
+  "mavia_usdt": {
+    "exchange": "perp",
+    "base": "heroes-of-mavia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mavia_usdt"
+  },
+  "mdb_usdt": {
+    "exchange": "perp",
+    "base": "mongodb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mdb_usdt"
+  },
+  "mdt_usdt": {
+    "exchange": "perp",
+    "base": "medtronic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mdt_usdt"
+  },
+  "me_usdt": {
+    "exchange": "perp",
+    "base": "magic-eden",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/me_usdt"
+  },
+  "mega_usdt": {
+    "exchange": "perp",
+    "base": "megaeth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mega_usdt"
+  },
+  "melania_usdt": {
+    "exchange": "perp",
+    "base": "melania-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/melania_usdt"
+  },
+  "meli_usdt": {
+    "exchange": "perp",
+    "base": "mercadolibre",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/meli_usdt"
+  },
+  "meme_usdt": {
+    "exchange": "perp",
+    "base": "memecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/meme_usdt"
+  },
+  "merl_usdt": {
+    "exchange": "perp",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/merl_usdt"
+  },
+  "met_usdt": {
+    "exchange": "perp",
+    "base": "meteora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/met_usdt"
+  },
+  "metax_usdt": {
+    "exchange": "perp",
+    "base": "meta-xstock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/metax_usdt"
+  },
+  "metis_usdt": {
+    "exchange": "perp",
+    "base": "metis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/metis_usdt"
+  },
+  "mew_usdt": {
+    "exchange": "perp",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mew_usdt"
+  },
+  "mina_usdt": {
+    "exchange": "perp",
+    "base": "mina-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mina_usdt"
+  },
+  "mmt_usdt": {
+    "exchange": "perp",
+    "base": "momentum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mmt_usdt"
+  },
+  "mnt_usdt": {
+    "exchange": "perp",
+    "base": "mantle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mnt_usdt"
+  },
+  "moca_usdt": {
+    "exchange": "perp",
+    "base": "mocaverse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/moca_usdt"
+  },
+  "mon_usdt": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mon_usdt"
+  },
+  "moodeng_usdt": {
+    "exchange": "perp",
+    "base": "moo-deng",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/moodeng_usdt"
+  },
+  "morpho_usdt": {
+    "exchange": "perp",
+    "base": "morpho",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/morpho_usdt"
+  },
+  "move_usdt": {
+    "exchange": "perp",
+    "base": "movement",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/move_usdt"
+  },
+  "movr_usdt": {
+    "exchange": "perp",
+    "base": "moonriver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/movr_usdt"
+  },
+  "mp_usdt": {
+    "exchange": "perp",
+    "base": "mp-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mp_usdt"
+  },
+  "mrk_usdt": {
+    "exchange": "perp",
+    "base": "merck-and-co",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mrk_usdt"
+  },
+  "mrna_usdt": {
+    "exchange": "perp",
+    "base": "moderna",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mrna_usdt"
+  },
+  "mrvl_usdt": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mrvl_usdt"
+  },
+  "msft_usdt": {
+    "exchange": "perp",
+    "base": "microsoft",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/msft_usdt"
+  },
+  "mstr_usdt": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mstr_usdt"
+  },
+  "mtl_usdt": {
+    "exchange": "perp",
+    "base": "metal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mtl_usdt"
+  },
+  "mu_usdt": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mu_usdt"
+  },
+  "mubarak_usdt": {
+    "exchange": "perp",
+    "base": "mubarak",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/mubarak_usdt"
+  },
+  "myx_usdt": {
+    "exchange": "perp",
+    "base": "myx-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/myx_usdt"
+  },
+  "natgas_usdt": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/natgas_usdt"
+  },
+  "nbis_usdt": {
+    "exchange": "perp",
+    "base": "nebius-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/nbis_usdt"
+  },
+  "near_usdt": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/near_usdt"
+  },
+  "neo_usdt": {
+    "exchange": "perp",
+    "base": "neo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/neo_usdt"
+  },
+  "net_usdt": {
+    "exchange": "perp",
+    "base": "cloudflare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/net_usdt"
+  },
+  "newt_usdt": {
+    "exchange": "perp",
+    "base": "newton-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/newt_usdt"
+  },
+  "nflx_usdt": {
+    "exchange": "perp",
+    "base": "netflix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/nflx_usdt"
+  },
+  "night_usdt": {
+    "exchange": "perp",
+    "base": "midnight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/night_usdt"
+  },
+  "nil_usdt": {
+    "exchange": "perp",
+    "base": "nillion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/nil_usdt"
+  },
+  "nke_usdt": {
+    "exchange": "perp",
+    "base": "nike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/nke_usdt"
+  },
+  "nok_usdt": {
+    "exchange": "perp",
+    "base": "nokia-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/nok_usdt"
+  },
+  "nom_usdt": {
+    "exchange": "perp",
+    "base": "nomina",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/nom_usdt"
+  },
+  "not_usdt": {
+    "exchange": "perp",
+    "base": "notcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/not_usdt"
+  },
+  "now_usdt": {
+    "exchange": "perp",
+    "base": "servicenow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/now_usdt"
+  },
+  "nvdax_usdt": {
+    "exchange": "perp",
+    "base": "nvidia-xstock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/nvdax_usdt"
+  },
+  "nvo_usdt": {
+    "exchange": "perp",
+    "base": "novo-nordisk-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/nvo_usdt"
+  },
+  "nxpc_usdt": {
+    "exchange": "perp",
+    "base": "nexpace",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/nxpc_usdt"
+  },
+  "o_usdt": {
+    "exchange": "perp",
+    "base": "o1-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/o_usdt"
+  },
+  "ogn_usdt": {
+    "exchange": "perp",
+    "base": "origin-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ogn_usdt"
+  },
+  "oklo_usdt": {
+    "exchange": "perp",
+    "base": "oklo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/oklo_usdt"
+  },
+  "ondo_usdt": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ondo_usdt"
+  },
+  "onds_usdt": {
+    "exchange": "perp",
+    "base": "ondas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/onds_usdt"
+  },
+  "op_usdt": {
+    "exchange": "perp",
+    "base": "optimism",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/op_usdt"
+  },
+  "open_usdt": {
+    "exchange": "perp",
+    "base": "openledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/open_usdt"
+  },
+  "opg_usdt": {
+    "exchange": "perp",
+    "base": "opengradient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/opg_usdt"
+  },
+  "opn_usdt": {
+    "exchange": "perp",
+    "base": "opinion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/opn_usdt"
+  },
+  "orca_usdt": {
+    "exchange": "perp",
+    "base": "orca",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/orca_usdt"
+  },
+  "orcl_usdt": {
+    "exchange": "perp",
+    "base": "oracle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/orcl_usdt"
+  },
+  "order_usdt": {
+    "exchange": "perp",
+    "base": "orderly-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/order_usdt"
+  },
+  "ordi_usdt": {
+    "exchange": "perp",
+    "base": "ordi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ordi_usdt"
+  },
+  "panw_usdt": {
+    "exchange": "perp",
+    "base": "palo-alto-networks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/panw_usdt"
+  },
+  "parti_usdt": {
+    "exchange": "perp",
+    "base": "particle-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/parti_usdt"
+  },
+  "path_usdt": {
+    "exchange": "perp",
+    "base": "uipath",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/path_usdt"
+  },
+  "paxg_usdt": {
+    "exchange": "perp",
+    "base": "pax-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/paxg_usdt"
+  },
+  "payp_usdt": {
+    "exchange": "perp",
+    "base": "paypay-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/payp_usdt"
+  },
+  "pdd_usdt": {
+    "exchange": "perp",
+    "base": "pdd-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pdd_usdt"
+  },
+  "peaq_usdt": {
+    "exchange": "perp",
+    "base": "peaq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/peaq_usdt"
+  },
+  "pendle_usdt": {
+    "exchange": "perp",
+    "base": "pendle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pendle_usdt"
+  },
+  "peng_usdt": {
+    "exchange": "perp",
+    "base": "penguin-solutions",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/peng_usdt"
+  },
+  "pengu_usdt": {
+    "exchange": "perp",
+    "base": "pudgy-penguins",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pengu_usdt"
+  },
+  "people_usdt": {
+    "exchange": "perp",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/people_usdt"
+  },
+  "pha_usdt": {
+    "exchange": "perp",
+    "base": "pha",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pha_usdt"
+  },
+  "pi_usdt": {
+    "exchange": "perp",
+    "base": "pi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pi_usdt"
+  },
+  "pieverse_usdt": {
+    "exchange": "perp",
+    "base": "pieverse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pieverse_usdt"
+  },
+  "pixel_usdt": {
+    "exchange": "perp",
+    "base": "pixels",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pixel_usdt"
+  },
+  "play_usdt": {
+    "exchange": "perp",
+    "base": "playsout",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/play_usdt"
+  },
+  "pltr_usdt": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pltr_usdt"
+  },
+  "plume_usdt": {
+    "exchange": "perp",
+    "base": "plume",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/plume_usdt"
+  },
+  "pnut_usdt": {
+    "exchange": "perp",
+    "base": "peanut-the-squirrel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pnut_usdt"
+  },
+  "pol_usdt": {
+    "exchange": "perp",
+    "base": "polygon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pol_usdt"
+  },
+  "polyx_usdt": {
+    "exchange": "perp",
+    "base": "polymesh",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/polyx_usdt"
+  },
+  "pons_usdt": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pons_usdt"
+  },
+  "popcat_usdt": {
+    "exchange": "perp",
+    "base": "popcat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/popcat_usdt"
+  },
+  "portal_usdt": {
+    "exchange": "perp",
+    "base": "portal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/portal_usdt"
+  },
+  "powr_usdt": {
+    "exchange": "perp",
+    "base": "power-ledger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/powr_usdt"
+  },
+  "prl_usdt": {
+    "exchange": "perp",
+    "base": "perle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/prl_usdt"
+  },
+  "prom_usdt": {
+    "exchange": "perp",
+    "base": "prometeus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/prom_usdt"
+  },
+  "prove_usdt": {
+    "exchange": "perp",
+    "base": "succinct",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/prove_usdt"
+  },
+  "pump_usdt": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pump_usdt"
+  },
+  "pyth_usdt": {
+    "exchange": "perp",
+    "base": "pyth-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/pyth_usdt"
+  },
+  "qcom_usdt": {
+    "exchange": "perp",
+    "base": "qualcomm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/qcom_usdt"
+  },
+  "qnt_usdt": {
+    "exchange": "perp",
+    "base": "quant",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/qnt_usdt"
+  },
+  "qqq_usdt": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/qqq_usdt"
+  },
+  "qtum_usdt": {
+    "exchange": "perp",
+    "base": "qtum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/qtum_usdt"
+  },
+  "rare_usdt": {
+    "exchange": "perp",
+    "base": "superrare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rare_usdt"
+  },
+  "rave_usdt": {
+    "exchange": "perp",
+    "base": "ravedao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rave_usdt"
+  },
+  "ray_usdt": {
+    "exchange": "perp",
+    "base": "raydium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ray_usdt"
+  },
+  "rddt_usdt": {
+    "exchange": "perp",
+    "base": "reddit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rddt_usdt"
+  },
+  "re_usdt": {
+    "exchange": "perp",
+    "base": "re",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/re_usdt"
+  },
+  "recall_usdt": {
+    "exchange": "perp",
+    "base": "recall",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/recall_usdt"
+  },
+  "red_usdt": {
+    "exchange": "perp",
+    "base": "redstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/red_usdt"
+  },
+  "render_usdt": {
+    "exchange": "perp",
+    "base": "render",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/render_usdt"
+  },
+  "resolv_usdt": {
+    "exchange": "perp",
+    "base": "resolv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/resolv_usdt"
+  },
+  "rez_usdt": {
+    "exchange": "perp",
+    "base": "renzo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rez_usdt"
+  },
+  "river_usdt": {
+    "exchange": "perp",
+    "base": "river",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/river_usdt"
+  },
+  "rivn_usdt": {
+    "exchange": "perp",
+    "base": "rivian-automotive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rivn_usdt"
+  },
+  "rklb_usdt": {
+    "exchange": "perp",
+    "base": "rocket-lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rklb_usdt"
+  },
+  "rlc_usdt": {
+    "exchange": "perp",
+    "base": "iexec-rlc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rlc_usdt"
+  },
+  "robo_usdt": {
+    "exchange": "perp",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/robo_usdt"
+  },
+  "rose_usdt": {
+    "exchange": "perp",
+    "base": "oasis-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rose_usdt"
+  },
+  "rpl_usdt": {
+    "exchange": "perp",
+    "base": "rocket-pool",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rpl_usdt"
+  },
+  "rsr_usdt": {
+    "exchange": "perp",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rsr_usdt"
+  },
+  "rum_usdt": {
+    "exchange": "perp",
+    "base": "rum-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rum_usdt"
+  },
+  "rune_usdt": {
+    "exchange": "perp",
+    "base": "thorchain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rune_usdt"
+  },
+  "rvn_usdt": {
+    "exchange": "perp",
+    "base": "ravencoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/rvn_usdt"
+  },
+  "s_usdt": {
+    "exchange": "perp",
+    "base": "sonic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/s_usdt"
+  },
+  "safe_usdt": {
+    "exchange": "perp",
+    "base": "safe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/safe_usdt"
+  },
+  "saga_usdt": {
+    "exchange": "perp",
+    "base": "saga",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/saga_usdt"
+  },
+  "sahara_usdt": {
+    "exchange": "perp",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sahara_usdt"
+  },
+  "sand_usdt": {
+    "exchange": "perp",
+    "base": "the-sandbox",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sand_usdt"
+  },
+  "sapien_usdt": {
+    "exchange": "perp",
+    "base": "sapien",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sapien_usdt"
+  },
+  "sc_usdt": {
+    "exchange": "perp",
+    "base": "siacoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sc_usdt"
+  },
+  "scr_usdt": {
+    "exchange": "perp",
+    "base": "scroll",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/scr_usdt"
+  },
+  "secz_usdt": {
+    "exchange": "perp",
+    "base": "securitize",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/secz_usdt"
+  },
+  "sei_usdt": {
+    "exchange": "perp",
+    "base": "sei",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sei_usdt"
+  },
+  "sent_usdt": {
+    "exchange": "perp",
+    "base": "sentient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sent_usdt"
+  },
+  "sfp_usdt": {
+    "exchange": "perp",
+    "base": "safepal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sfp_usdt"
+  },
+  "shaz_usdt": {
+    "exchange": "perp",
+    "base": "sharonai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/shaz_usdt"
+  },
+  "shop_usdt": {
+    "exchange": "perp",
+    "base": "shopify",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/shop_usdt"
+  },
+  "sign_usdt": {
+    "exchange": "perp",
+    "base": "sign-global",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sign_usdt"
+  },
+  "skhy_usdt": {
+    "exchange": "perp",
+    "base": "sk-hynix-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/skhy_usdt"
+  },
+  "skr_usdt": {
+    "exchange": "perp",
+    "base": "seeker",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/skr_usdt"
+  },
+  "sky_usdt": {
+    "exchange": "perp",
+    "base": "sky",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sky_usdt"
+  },
+  "slp_usdt": {
+    "exchange": "perp",
+    "base": "smooth-love-potion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/slp_usdt"
+  },
+  "slx_usdt": {
+    "exchange": "perp",
+    "base": "solstice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/slx_usdt"
+  },
+  "smci_usdt": {
+    "exchange": "perp",
+    "base": "super-micro-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/smci_usdt"
+  },
+  "smh_usdt": {
+    "exchange": "perp",
+    "base": "vaneck-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/smh_usdt"
+  },
+  "sndk_usdt": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sndk_usdt"
+  },
+  "snps_usdt": {
+    "exchange": "perp",
+    "base": "synopsys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/snps_usdt"
+  },
+  "snx_usdt": {
+    "exchange": "perp",
+    "base": "synthetix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/snx_usdt"
+  },
+  "snxx_usdt": {
+    "exchange": "perp",
+    "base": "tradr-2x-long-sndk-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/snxx_usdt"
+  },
+  "sol_usdt": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sol_usdt"
+  },
+  "solv_usdt": {
+    "exchange": "perp",
+    "base": "solv-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/solv_usdt"
+  },
+  "somi_usdt": {
+    "exchange": "perp",
+    "base": "somnia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/somi_usdt"
+  },
+  "sonic_usdt": {
+    "exchange": "perp",
+    "base": "sonic-svm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sonic_usdt"
+  },
+  "soon_usdt": {
+    "exchange": "perp",
+    "base": "soon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/soon_usdt"
+  },
+  "soph_usdt": {
+    "exchange": "perp",
+    "base": "sophon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/soph_usdt"
+  },
+  "soxl_usdt": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/soxl_usdt"
+  },
+  "soxs_usdt": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/soxs_usdt"
+  },
+  "soxx_usdt": {
+    "exchange": "perp",
+    "base": "ishares-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/soxx_usdt"
+  },
+  "space_usdt": {
+    "exchange": "perp",
+    "base": "spacecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/space_usdt"
+  },
+  "spcx_usdt": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/spcx_usdt"
+  },
+  "spell_usdt": {
+    "exchange": "perp",
+    "base": "spell-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/spell_usdt"
+  },
+  "spk_usdt": {
+    "exchange": "perp",
+    "base": "spark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/spk_usdt"
+  },
+  "spx_usdt": {
+    "exchange": "perp",
+    "base": "spx6900",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/spx_usdt"
+  },
+  "spy_usdt": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/spy_usdt"
+  },
+  "sqd_usdt": {
+    "exchange": "perp",
+    "base": "subsquid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sqd_usdt"
+  },
+  "sqqq_usdt": {
+    "exchange": "perp",
+    "base": "proshares-ultrapro-short-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sqqq_usdt"
+  },
+  "ssv_usdt": {
+    "exchange": "perp",
+    "base": "ssv-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ssv_usdt"
+  },
+  "stable_usdt": {
+    "exchange": "perp",
+    "base": "stable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/stable_usdt"
+  },
+  "star_usdt": {
+    "exchange": "perp",
+    "base": "starpower",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/star_usdt"
+  },
+  "stbl_usdt": {
+    "exchange": "perp",
+    "base": "stbl",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/stbl_usdt"
+  },
+  "steem_usdt": {
+    "exchange": "perp",
+    "base": "steem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/steem_usdt"
+  },
+  "sto_usdt": {
+    "exchange": "perp",
+    "base": "stakestone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sto_usdt"
+  },
+  "strc_usdt": {
+    "exchange": "perp",
+    "base": "strategy-stretch-preferred-stock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/strc_usdt"
+  },
+  "strk_usdt": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/strk_usdt"
+  },
+  "stx_usdt": {
+    "exchange": "perp",
+    "base": "stacks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/stx_usdt"
+  },
+  "sui_usdt": {
+    "exchange": "perp",
+    "base": "sui",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sui_usdt"
+  },
+  "sun_usdt": {
+    "exchange": "perp",
+    "base": "sun-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sun_usdt"
+  },
+  "super_usdt": {
+    "exchange": "perp",
+    "base": "superfarm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/super_usdt"
+  },
+  "sushi_usdt": {
+    "exchange": "perp",
+    "base": "sushi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sushi_usdt"
+  },
+  "swarms_usdt": {
+    "exchange": "perp",
+    "base": "swarms",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/swarms_usdt"
+  },
+  "sxt_usdt": {
+    "exchange": "perp",
+    "base": "space-and-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/sxt_usdt"
+  },
+  "syn_usdt": {
+    "exchange": "perp",
+    "base": "synapse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/syn_usdt"
+  },
+  "syrup_usdt": {
+    "exchange": "perp",
+    "base": "syrup",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/syrup_usdt"
+  },
+  "ta_usdt": {
+    "exchange": "perp",
+    "base": "trusta-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ta_usdt"
+  },
+  "tac_usdt": {
+    "exchange": "perp",
+    "base": "tac",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tac_usdt"
+  },
+  "tag_usdt": {
+    "exchange": "perp",
+    "base": "tagger",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tag_usdt"
+  },
+  "tao_usdt": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tao_usdt"
+  },
+  "the_usdt": {
+    "exchange": "perp",
+    "base": "thena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/the_usdt"
+  },
+  "theta_usdt": {
+    "exchange": "perp",
+    "base": "theta-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/theta_usdt"
+  },
+  "tia_usdt": {
+    "exchange": "perp",
+    "base": "celestia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tia_usdt"
+  },
+  "tlm_usdt": {
+    "exchange": "perp",
+    "base": "alien-worlds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tlm_usdt"
+  },
+  "tnsr_usdt": {
+    "exchange": "perp",
+    "base": "tensor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tnsr_usdt"
+  },
+  "toshi_usdt": {
+    "exchange": "perp",
+    "base": "toshi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/toshi_usdt"
+  },
+  "towns_usdt": {
+    "exchange": "perp",
+    "base": "towns",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/towns_usdt"
+  },
+  "tqqq_usdt": {
+    "exchange": "perp",
+    "base": "proshares-ultrapro-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tqqq_usdt"
+  },
+  "tradoor_usdt": {
+    "exchange": "perp",
+    "base": "tradoor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tradoor_usdt"
+  },
+  "tree_usdt": {
+    "exchange": "perp",
+    "base": "treehouse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tree_usdt"
+  },
+  "tria_usdt": {
+    "exchange": "perp",
+    "base": "tria",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tria_usdt"
+  },
+  "trump_usdt": {
+    "exchange": "perp",
+    "base": "official-trump",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/trump_usdt"
+  },
+  "trx_usdt": {
+    "exchange": "perp",
+    "base": "tron",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/trx_usdt"
+  },
+  "tslax_usdt": {
+    "exchange": "perp",
+    "base": "tesla-xstock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tslax_usdt"
+  },
+  "tsm_usdt": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tsm_usdt"
+  },
+  "ttwo_usdt": {
+    "exchange": "perp",
+    "base": "take-two-interactive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ttwo_usdt"
+  },
+  "turtle_usdt": {
+    "exchange": "perp",
+    "base": "turtle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/turtle_usdt"
+  },
+  "tut_usdt": {
+    "exchange": "perp",
+    "base": "tutorial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/tut_usdt"
+  },
+  "twst_usdt": {
+    "exchange": "perp",
+    "base": "twist-bioscience",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/twst_usdt"
+  },
+  "twt_usdt": {
+    "exchange": "perp",
+    "base": "trust-wallet-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/twt_usdt"
+  },
+  "txn_usdt": {
+    "exchange": "perp",
+    "base": "texas-instruments",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/txn_usdt"
+  },
+  "uai_usdt": {
+    "exchange": "perp",
+    "base": "unifai-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/uai_usdt"
+  },
+  "uber_usdt": {
+    "exchange": "perp",
+    "base": "uber-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/uber_usdt"
+  },
+  "uma_usdt": {
+    "exchange": "perp",
+    "base": "uma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/uma_usdt"
+  },
+  "unh_usdt": {
+    "exchange": "perp",
+    "base": "unitedhealth-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/unh_usdt"
+  },
+  "uni_usdt": {
+    "exchange": "perp",
+    "base": "uniswap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/uni_usdt"
+  },
+  "urnm_usdt": {
+    "exchange": "perp",
+    "base": "sprott-uranium-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/urnm_usdt"
+  },
+  "us_usdt": {
+    "exchange": "perp",
+    "base": "talus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/us_usdt"
+  },
+  "usar_usdt": {
+    "exchange": "perp",
+    "base": "usa-rare-earth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/usar_usdt"
+  },
+  "useless_usdt": {
+    "exchange": "perp",
+    "base": "useless-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/useless_usdt"
+  },
+  "ustc_usdt": {
+    "exchange": "perp",
+    "base": "terrausd",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/ustc_usdt"
+  },
+  "usual_usdt": {
+    "exchange": "perp",
+    "base": "usual",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/usual_usdt"
+  },
+  "uvxy_usdt": {
+    "exchange": "perp",
+    "base": "proshares-ultra-vix-short-term-futures-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/uvxy_usdt"
+  },
+  "v_usdt": {
+    "exchange": "perp",
+    "base": "visa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/v_usdt"
+  },
+  "vana_usdt": {
+    "exchange": "perp",
+    "base": "vana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/vana_usdt"
+  },
+  "velo_usdt": {
+    "exchange": "perp",
+    "base": "velo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/velo_usdt"
+  },
+  "velvet_usdt": {
+    "exchange": "perp",
+    "base": "velvet",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/velvet_usdt"
+  },
+  "vet_usdt": {
+    "exchange": "perp",
+    "base": "vechain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/vet_usdt"
+  },
+  "virtual_usdt": {
+    "exchange": "perp",
+    "base": "virtuals-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/virtual_usdt"
+  },
+  "vktx_usdt": {
+    "exchange": "perp",
+    "base": "viking-therapeutics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/vktx_usdt"
+  },
+  "vst_usdt": {
+    "exchange": "perp",
+    "base": "vistra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/vst_usdt"
+  },
+  "vvv_usdt": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/vvv_usdt"
+  },
+  "w_usdt": {
+    "exchange": "perp",
+    "base": "wormhole",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/w_usdt"
+  },
+  "wal_usdt": {
+    "exchange": "perp",
+    "base": "walrus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/wal_usdt"
+  },
+  "waves_usdt": {
+    "exchange": "perp",
+    "base": "waves",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/waves_usdt"
+  },
+  "wct_usdt": {
+    "exchange": "perp",
+    "base": "walletconnect",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/wct_usdt"
+  },
+  "wdc_usdt": {
+    "exchange": "perp",
+    "base": "western-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/wdc_usdt"
+  },
+  "wen_usdt": {
+    "exchange": "perp",
+    "base": "wendys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/wen_usdt"
+  },
+  "wet_usdt": {
+    "exchange": "perp",
+    "base": "humidifi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/wet_usdt"
+  },
+  "wif_usdt": {
+    "exchange": "perp",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/wif_usdt"
+  },
+  "wld_usdt": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/wld_usdt"
+  },
+  "wlfi_usdt": {
+    "exchange": "perp",
+    "base": "world-liberty-financial",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/wlfi_usdt"
+  },
+  "wmt_usdt": {
+    "exchange": "perp",
+    "base": "walmart",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/wmt_usdt"
+  },
+  "woo_usdt": {
+    "exchange": "perp",
+    "base": "woo-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/woo_usdt"
+  },
+  "xag_usdt": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xag_usdt"
+  },
+  "xai_usdt": {
+    "exchange": "perp",
+    "base": "xai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xai_usdt"
+  },
+  "xau_usdt": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xau_usdt"
+  },
+  "xaut_usdt": {
+    "exchange": "perp",
+    "base": "tether-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xaut_usdt"
+  },
+  "xbi_usdt": {
+    "exchange": "perp",
+    "base": "spdr-sp-biotech-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xbi_usdt"
+  },
+  "xdc_usdt": {
+    "exchange": "perp",
+    "base": "xdc-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xdc_usdt"
+  },
+  "xle_usdt": {
+    "exchange": "perp",
+    "base": "energy-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xle_usdt"
+  },
+  "xlm_usdt": {
+    "exchange": "perp",
+    "base": "stellar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xlm_usdt"
+  },
+  "xmr_usdt": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xmr_usdt"
+  },
+  "xny_usdt": {
+    "exchange": "perp",
+    "base": "codatta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xny_usdt"
+  },
+  "xom_usdt": {
+    "exchange": "perp",
+    "base": "exxon-mobil",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xom_usdt"
+  },
+  "xpd_usdt": {
+    "exchange": "perp",
+    "base": "palladium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xpd_usdt"
+  },
+  "xpin_usdt": {
+    "exchange": "perp",
+    "base": "xpin-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xpin_usdt"
+  },
+  "xpl_usdt": {
+    "exchange": "perp",
+    "base": "plasma",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xpl_usdt"
+  },
+  "xpt_usdt": {
+    "exchange": "perp",
+    "base": "platinum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xpt_usdt"
+  },
+  "xrp_usdt": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xrp_usdt"
+  },
+  "xtz_usdt": {
+    "exchange": "perp",
+    "base": "tezos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/xtz_usdt"
+  },
+  "yfi_usdt": {
+    "exchange": "perp",
+    "base": "yearn-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/yfi_usdt"
+  },
+  "zama_usdt": {
+    "exchange": "perp",
+    "base": "zama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zama_usdt"
+  },
+  "zbcn_usdt": {
+    "exchange": "perp",
+    "base": "zebec-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zbcn_usdt"
+  },
+  "zbt_usdt": {
+    "exchange": "perp",
+    "base": "zerobase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zbt_usdt"
+  },
+  "zcsh_usdt": {
+    "exchange": "perp",
+    "base": "grayscale-zcash-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zcsh_usdt"
+  },
+  "zec_usdt": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zec_usdt"
+  },
+  "zen_usdt": {
+    "exchange": "perp",
+    "base": "horizen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zen_usdt"
+  },
+  "zest_usdt": {
+    "exchange": "perp",
+    "base": "zest-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zest_usdt"
+  },
+  "zil_usdt": {
+    "exchange": "perp",
+    "base": "zilliqa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zil_usdt"
+  },
+  "zk_usdt": {
+    "exchange": "perp",
+    "base": "zksync",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zk_usdt"
+  },
+  "zkc_usdt": {
+    "exchange": "perp",
+    "base": "boundless",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zkc_usdt"
+  },
+  "zkp_usdt": {
+    "exchange": "perp",
+    "base": "zkpass",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zkp_usdt"
+  },
+  "zm_usdt": {
+    "exchange": "perp",
+    "base": "zoom-communications",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zm_usdt"
+  },
+  "zora_usdt": {
+    "exchange": "perp",
+    "base": "zora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zora_usdt"
+  },
+  "zro_usdt": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zro_usdt"
+  },
+  "zrx_usdt": {
+    "exchange": "perp",
+    "base": "0x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zrx_usdt"
+  },
+  "zs_usdt": {
+    "exchange": "perp",
+    "base": "zscaler",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/zs_usdt"
+  }
+}
