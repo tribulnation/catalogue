@@ -1,0 +1,23 @@
+{
+  "id": "amazon-ondo-tokenized-stock",
+  "display_name": "Amazon (Ondo Tokenized)",
+  "symbol": "AMZNon",
+  "category": "rwa",
+  "about": {
+    "en": "AMZNon is the Ondo tokenized stock for Amazon.com, Inc. (AMZN), issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is fully backed by AMZN shares and is a total-return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above the underlying's. Holders have a claim on the issuer, not registered ownership or shareholder rights. It is an ERC-20 on Ethereum at 0xbb8774FB97436d23d74C1b882E8E9A69322cFD31, with deployments on BNB Chain, Solana and HyperEVM."
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/amznon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "amazon-ondo-tokenized-stock",
+    "coinmarketcap": "38083"
+  },
+  "pegged_to": {
+    "asset": "amazon"
+  }
+}

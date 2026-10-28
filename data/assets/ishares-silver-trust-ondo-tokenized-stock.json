@@ -1,0 +1,21 @@
+{
+  "id": "ishares-silver-trust-ondo-tokenized-stock",
+  "display_name": "iShares Silver Trust (Ondo Tokenized)",
+  "symbol": "SLVon",
+  "category": "rwa",
+  "about": {
+    "en": "SLVon is the Ondo tokenized ETF for the iShares Silver Trust (SLV), BlackRock's physically backed silver ETF, issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is fully backed by SLV fund shares and is a total-return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one fund share and its price can drift above the underlying's. Holders have a claim on the issuer, not registered ownership or shareholder rights. It is an ERC-20 on Ethereum at 0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4, with deployments on BNB Chain, Solana and HyperEVM."
+  },
+  "tags": [
+    "ETF",
+    "Commodity"
+  ],
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/slvon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "ishares-silver-trust-ondo-tokenized-stock",
+    "coinmarketcap": "38057"
+  }
+}
