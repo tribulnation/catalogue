@@ -1,0 +1,23 @@
+{
+  "id": "straitsx-xusd",
+  "display_name": "StraitsX USD",
+  "symbol": "XUSD",
+  "category": "stablecoin",
+  "tags": [
+    "USD"
+  ],
+  "about": {
+    "en": "XUSD is a US-dollar stablecoin issued by StraitsX, a Major Payment Institution licensed by the Monetary Authority of Singapore. Each XUSD is backed by reserve assets and redeemable 1:1 for US dollars. It is deployed on Ethereum at 0xC08e7E23C235073C6807C2EFE7021304cb7c2815, on BNB Chain at 0xF81aC2E1A0373ddE1BcE01E2Fe694a9b7E3bfcB9 and on Solana. Unrelated tokens also use the XUSD ticker."
+  },
+  "urls": {
+    "Website": "https://www.straitsx.com/xusd",
+    "Source code": "https://github.com/Xfers/StraitsX-tokens"
+  },
+  "external": {
+    "coingecko": "straitsx-xusd",
+    "coinmarketcap": "32372"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  }
+}
