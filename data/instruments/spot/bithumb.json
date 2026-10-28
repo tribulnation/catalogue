@@ -1,0 +1,2132 @@
+{
+  "BTC-BNB": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "bitcoin"
+  },
+  "BTC-CSPR": {
+    "exchange": "spot",
+    "base": "casper",
+    "quote": "bitcoin"
+  },
+  "BTC-DOGE": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "bitcoin"
+  },
+  "BTC-ENS": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "bitcoin"
+  },
+  "BTC-ETH": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "bitcoin"
+  },
+  "BTC-KAIA": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "bitcoin"
+  },
+  "BTC-SOL": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "bitcoin"
+  },
+  "BTC-SUI": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "bitcoin"
+  },
+  "BTC-TRX": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "bitcoin"
+  },
+  "BTC-USDC": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "bitcoin"
+  },
+  "BTC-WLD": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "bitcoin"
+  },
+  "BTC-XRP": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "bitcoin"
+  },
+  "KRW-0G": {
+    "exchange": "spot",
+    "base": "zero-gravity",
+    "quote": "south-korean-won"
+  },
+  "KRW-1INCH": {
+    "exchange": "spot",
+    "base": "1inch",
+    "quote": "south-korean-won"
+  },
+  "KRW-2Z": {
+    "exchange": "spot",
+    "base": "doublezero",
+    "quote": "south-korean-won"
+  },
+  "KRW-A": {
+    "exchange": "spot",
+    "base": "vaulta",
+    "quote": "south-korean-won"
+  },
+  "KRW-AAVE": {
+    "exchange": "spot",
+    "base": "aave",
+    "quote": "south-korean-won"
+  },
+  "KRW-ACE": {
+    "exchange": "spot",
+    "base": "fusionist",
+    "quote": "south-korean-won"
+  },
+  "KRW-ACH": {
+    "exchange": "spot",
+    "base": "alchemy-pay",
+    "quote": "south-korean-won"
+  },
+  "KRW-ACS": {
+    "exchange": "spot",
+    "base": "access-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-ACU": {
+    "exchange": "spot",
+    "base": "acurast",
+    "quote": "south-korean-won"
+  },
+  "KRW-ACX": {
+    "exchange": "spot",
+    "base": "across-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-ADA": {
+    "exchange": "spot",
+    "base": "cardano",
+    "quote": "south-korean-won"
+  },
+  "KRW-AERO": {
+    "exchange": "spot",
+    "base": "aerodrome",
+    "quote": "south-korean-won"
+  },
+  "KRW-AGI": {
+    "exchange": "spot",
+    "base": "delysium",
+    "quote": "south-korean-won"
+  },
+  "KRW-AGLD": {
+    "exchange": "spot",
+    "base": "adventure-gold",
+    "quote": "south-korean-won"
+  },
+  "KRW-AI": {
+    "exchange": "spot",
+    "base": "gensyn",
+    "quote": "south-korean-won"
+  },
+  "KRW-AIOZ": {
+    "exchange": "spot",
+    "base": "aioz-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-AKT": {
+    "exchange": "spot",
+    "base": "akash-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-ALGO": {
+    "exchange": "spot",
+    "base": "algorand",
+    "quote": "south-korean-won"
+  },
+  "KRW-ALICE": {
+    "exchange": "spot",
+    "base": "my-neighbor-alice",
+    "quote": "south-korean-won"
+  },
+  "KRW-ALLO": {
+    "exchange": "spot",
+    "base": "allora",
+    "quote": "south-korean-won"
+  },
+  "KRW-ALT": {
+    "exchange": "spot",
+    "base": "altlayer",
+    "quote": "south-korean-won"
+  },
+  "KRW-AMP": {
+    "exchange": "spot",
+    "base": "amp-token",
+    "quote": "south-korean-won"
+  },
+  "KRW-ANIME": {
+    "exchange": "spot",
+    "base": "animecoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-ANKR": {
+    "exchange": "spot",
+    "base": "ankr",
+    "quote": "south-korean-won"
+  },
+  "KRW-APE": {
+    "exchange": "spot",
+    "base": "apecoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-API3": {
+    "exchange": "spot",
+    "base": "api3",
+    "quote": "south-korean-won"
+  },
+  "KRW-APT": {
+    "exchange": "spot",
+    "base": "aptos",
+    "quote": "south-korean-won"
+  },
+  "KRW-AR": {
+    "exchange": "spot",
+    "base": "arweave",
+    "quote": "south-korean-won"
+  },
+  "KRW-ARB": {
+    "exchange": "spot",
+    "base": "arbitrum",
+    "quote": "south-korean-won"
+  },
+  "KRW-ARK": {
+    "exchange": "spot",
+    "base": "ark",
+    "quote": "south-korean-won"
+  },
+  "KRW-ARKM": {
+    "exchange": "spot",
+    "base": "arkham",
+    "quote": "south-korean-won"
+  },
+  "KRW-ARPA": {
+    "exchange": "spot",
+    "base": "arpa-chain",
+    "quote": "south-korean-won"
+  },
+  "KRW-ARX": {
+    "exchange": "spot",
+    "base": "arcium",
+    "quote": "south-korean-won"
+  },
+  "KRW-ASTER": {
+    "exchange": "spot",
+    "base": "aster",
+    "quote": "south-korean-won"
+  },
+  "KRW-ASTR": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "south-korean-won"
+  },
+  "KRW-ATH": {
+    "exchange": "spot",
+    "base": "aethir",
+    "quote": "south-korean-won"
+  },
+  "KRW-ATOM": {
+    "exchange": "spot",
+    "base": "cosmos",
+    "quote": "south-korean-won"
+  },
+  "KRW-AUCTION": {
+    "exchange": "spot",
+    "base": "auction",
+    "quote": "south-korean-won"
+  },
+  "KRW-AUDIO": {
+    "exchange": "spot",
+    "base": "audius",
+    "quote": "south-korean-won"
+  },
+  "KRW-AVA": {
+    "exchange": "spot",
+    "base": "travala",
+    "quote": "south-korean-won"
+  },
+  "KRW-AVAIL": {
+    "exchange": "spot",
+    "base": "avail",
+    "quote": "south-korean-won"
+  },
+  "KRW-AVAX": {
+    "exchange": "spot",
+    "base": "avalanche",
+    "quote": "south-korean-won"
+  },
+  "KRW-AVNT": {
+    "exchange": "spot",
+    "base": "avantis",
+    "quote": "south-korean-won"
+  },
+  "KRW-AWE": {
+    "exchange": "spot",
+    "base": "stp-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-AXIS": {
+    "exchange": "spot",
+    "base": "axis-robotics",
+    "quote": "south-korean-won"
+  },
+  "KRW-AXS": {
+    "exchange": "spot",
+    "base": "axie-infinity",
+    "quote": "south-korean-won"
+  },
+  "KRW-AZTEC": {
+    "exchange": "spot",
+    "base": "aztec",
+    "quote": "south-korean-won"
+  },
+  "KRW-B3": {
+    "exchange": "spot",
+    "base": "b3",
+    "quote": "south-korean-won"
+  },
+  "KRW-BABY": {
+    "exchange": "spot",
+    "base": "babylon",
+    "quote": "south-korean-won"
+  },
+  "KRW-BARD": {
+    "exchange": "spot",
+    "base": "lombard",
+    "quote": "south-korean-won"
+  },
+  "KRW-BASED": {
+    "exchange": "spot",
+    "base": "based",
+    "quote": "south-korean-won"
+  },
+  "KRW-BAT": {
+    "exchange": "spot",
+    "base": "basic-attention-token",
+    "quote": "south-korean-won"
+  },
+  "KRW-BB": {
+    "exchange": "spot",
+    "base": "bouncebit",
+    "quote": "south-korean-won"
+  },
+  "KRW-BCH": {
+    "exchange": "spot",
+    "base": "bitcoin-cash",
+    "quote": "south-korean-won"
+  },
+  "KRW-BEL": {
+    "exchange": "spot",
+    "base": "bella-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-BERA": {
+    "exchange": "spot",
+    "base": "berachain",
+    "quote": "south-korean-won"
+  },
+  "KRW-BFC": {
+    "exchange": "spot",
+    "base": "bifrost",
+    "quote": "south-korean-won"
+  },
+  "KRW-BICO": {
+    "exchange": "spot",
+    "base": "biconomy",
+    "quote": "south-korean-won"
+  },
+  "KRW-BIGTIME": {
+    "exchange": "spot",
+    "base": "big-time",
+    "quote": "south-korean-won"
+  },
+  "KRW-BILL": {
+    "exchange": "spot",
+    "base": "billions-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-BIO": {
+    "exchange": "spot",
+    "base": "bio-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-BIRB": {
+    "exchange": "spot",
+    "base": "moonbirds",
+    "quote": "south-korean-won"
+  },
+  "KRW-BLEND": {
+    "exchange": "spot",
+    "base": "fluent-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-BLUE": {
+    "exchange": "spot",
+    "base": "bluefin",
+    "quote": "south-korean-won"
+  },
+  "KRW-BLUR": {
+    "exchange": "spot",
+    "base": "blur",
+    "quote": "south-korean-won"
+  },
+  "KRW-BMT": {
+    "exchange": "spot",
+    "base": "bubblemaps",
+    "quote": "south-korean-won"
+  },
+  "KRW-BNB": {
+    "exchange": "spot",
+    "base": "bnb",
+    "quote": "south-korean-won"
+  },
+  "KRW-BNT": {
+    "exchange": "spot",
+    "base": "bancor",
+    "quote": "south-korean-won"
+  },
+  "KRW-BOB": {
+    "exchange": "spot",
+    "base": "build-on-bitcoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-BOBA": {
+    "exchange": "spot",
+    "base": "boba-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-BONK": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "south-korean-won"
+  },
+  "KRW-BR": {
+    "exchange": "spot",
+    "base": "bedrock",
+    "quote": "south-korean-won"
+  },
+  "KRW-BRETT": {
+    "exchange": "spot",
+    "base": "brett",
+    "quote": "south-korean-won"
+  },
+  "KRW-BREV": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "south-korean-won"
+  },
+  "KRW-BSB": {
+    "exchange": "spot",
+    "base": "block-street",
+    "quote": "south-korean-won"
+  },
+  "KRW-BSV": {
+    "exchange": "spot",
+    "base": "bitcoin-cash-sv",
+    "quote": "south-korean-won"
+  },
+  "KRW-BTC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-BTR": {
+    "exchange": "spot",
+    "base": "bitlayer-bitvm",
+    "quote": "south-korean-won"
+  },
+  "KRW-BTT": {
+    "exchange": "spot",
+    "base": "bittorrent",
+    "quote": "south-korean-won"
+  },
+  "KRW-C": {
+    "exchange": "spot",
+    "base": "chainbase",
+    "quote": "south-korean-won"
+  },
+  "KRW-C98": {
+    "exchange": "spot",
+    "base": "coin98",
+    "quote": "south-korean-won"
+  },
+  "KRW-CAKE": {
+    "exchange": "spot",
+    "base": "pancakeswap",
+    "quote": "south-korean-won"
+  },
+  "KRW-CAMP": {
+    "exchange": "spot",
+    "base": "camp-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-CAP": {
+    "exchange": "spot",
+    "base": "cap",
+    "quote": "south-korean-won"
+  },
+  "KRW-CARV": {
+    "exchange": "spot",
+    "base": "carv",
+    "quote": "south-korean-won"
+  },
+  "KRW-CASHCAT": {
+    "exchange": "spot",
+    "base": "cash-cat",
+    "quote": "south-korean-won"
+  },
+  "KRW-CC": {
+    "exchange": "spot",
+    "base": "canton",
+    "quote": "south-korean-won"
+  },
+  "KRW-CELO": {
+    "exchange": "spot",
+    "base": "celo",
+    "quote": "south-korean-won"
+  },
+  "KRW-CELR": {
+    "exchange": "spot",
+    "base": "celer-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-CFG": {
+    "exchange": "spot",
+    "base": "centrifuge",
+    "quote": "south-korean-won"
+  },
+  "KRW-CFX": {
+    "exchange": "spot",
+    "base": "conflux",
+    "quote": "south-korean-won"
+  },
+  "KRW-CHECK": {
+    "exchange": "spot",
+    "base": "checkmate",
+    "quote": "south-korean-won"
+  },
+  "KRW-CHIP": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "south-korean-won"
+  },
+  "KRW-CHR": {
+    "exchange": "spot",
+    "base": "chromaway",
+    "quote": "south-korean-won"
+  },
+  "KRW-CHZ": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "south-korean-won"
+  },
+  "KRW-CKB": {
+    "exchange": "spot",
+    "base": "nervos-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-COMP": {
+    "exchange": "spot",
+    "base": "compound",
+    "quote": "south-korean-won"
+  },
+  "KRW-COOKIE": {
+    "exchange": "spot",
+    "base": "cookie",
+    "quote": "south-korean-won"
+  },
+  "KRW-CORE": {
+    "exchange": "spot",
+    "base": "core",
+    "quote": "south-korean-won"
+  },
+  "KRW-COS": {
+    "exchange": "spot",
+    "base": "contentos",
+    "quote": "south-korean-won"
+  },
+  "KRW-COTI": {
+    "exchange": "spot",
+    "base": "coti",
+    "quote": "south-korean-won"
+  },
+  "KRW-COW": {
+    "exchange": "spot",
+    "base": "cow-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-CP": {
+    "exchange": "spot",
+    "base": "cluster-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-CPOOL": {
+    "exchange": "spot",
+    "base": "clearpool",
+    "quote": "south-korean-won"
+  },
+  "KRW-CRO": {
+    "exchange": "spot",
+    "base": "cronos",
+    "quote": "south-korean-won"
+  },
+  "KRW-CRV": {
+    "exchange": "spot",
+    "base": "curve-dao",
+    "quote": "south-korean-won"
+  },
+  "KRW-CSPR": {
+    "exchange": "spot",
+    "base": "casper",
+    "quote": "south-korean-won"
+  },
+  "KRW-CT": {
+    "exchange": "spot",
+    "base": "concrete",
+    "quote": "south-korean-won"
+  },
+  "KRW-CTC": {
+    "exchange": "spot",
+    "base": "creditcoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-CTR": {
+    "exchange": "spot",
+    "base": "citrea",
+    "quote": "south-korean-won"
+  },
+  "KRW-CTSI": {
+    "exchange": "spot",
+    "base": "cartesi",
+    "quote": "south-korean-won"
+  },
+  "KRW-CVC": {
+    "exchange": "spot",
+    "base": "civic",
+    "quote": "south-korean-won"
+  },
+  "KRW-CYBER": {
+    "exchange": "spot",
+    "base": "cyberconnect",
+    "quote": "south-korean-won"
+  },
+  "KRW-CYS": {
+    "exchange": "spot",
+    "base": "cysic",
+    "quote": "south-korean-won"
+  },
+  "KRW-D": {
+    "exchange": "spot",
+    "base": "dar-open-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-DAO": {
+    "exchange": "spot",
+    "base": "dao-maker",
+    "quote": "south-korean-won"
+  },
+  "KRW-DATA": {
+    "exchange": "spot",
+    "base": "story",
+    "quote": "south-korean-won"
+  },
+  "KRW-DBR": {
+    "exchange": "spot",
+    "base": "debridge",
+    "quote": "south-korean-won"
+  },
+  "KRW-DEBIT": {
+    "exchange": "spot",
+    "base": "teller",
+    "quote": "south-korean-won"
+  },
+  "KRW-DEEP": {
+    "exchange": "spot",
+    "base": "deep",
+    "quote": "south-korean-won"
+  },
+  "KRW-DEXE": {
+    "exchange": "spot",
+    "base": "dexe",
+    "quote": "south-korean-won"
+  },
+  "KRW-DOGE": {
+    "exchange": "spot",
+    "base": "dogecoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-DOOD": {
+    "exchange": "spot",
+    "base": "doodles",
+    "quote": "south-korean-won"
+  },
+  "KRW-DOS": {
+    "exchange": "spot",
+    "base": "dappos",
+    "quote": "south-korean-won"
+  },
+  "KRW-DOT": {
+    "exchange": "spot",
+    "base": "polkadot",
+    "quote": "south-korean-won"
+  },
+  "KRW-DRV": {
+    "exchange": "spot",
+    "base": "derive",
+    "quote": "south-korean-won"
+  },
+  "KRW-DYDX": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "south-korean-won"
+  },
+  "KRW-EDEN": {
+    "exchange": "spot",
+    "base": "openeden",
+    "quote": "south-korean-won"
+  },
+  "KRW-EDGE": {
+    "exchange": "spot",
+    "base": "definitive",
+    "quote": "south-korean-won"
+  },
+  "KRW-EDGEX": {
+    "exchange": "spot",
+    "base": "edgex",
+    "quote": "south-korean-won"
+  },
+  "KRW-EDU": {
+    "exchange": "spot",
+    "base": "edu-coin",
+    "quote": "south-korean-won"
+  },
+  "KRW-EGLD": {
+    "exchange": "spot",
+    "base": "multiversx",
+    "quote": "south-korean-won"
+  },
+  "KRW-EIGEN": {
+    "exchange": "spot",
+    "base": "eigen-layer",
+    "quote": "south-korean-won"
+  },
+  "KRW-ELSA": {
+    "exchange": "spot",
+    "base": "elsa",
+    "quote": "south-korean-won"
+  },
+  "KRW-ENA": {
+    "exchange": "spot",
+    "base": "ethena",
+    "quote": "south-korean-won"
+  },
+  "KRW-ENJ": {
+    "exchange": "spot",
+    "base": "enjin",
+    "quote": "south-korean-won"
+  },
+  "KRW-ENS": {
+    "exchange": "spot",
+    "base": "ethereum-name-service",
+    "quote": "south-korean-won"
+  },
+  "KRW-ENSO": {
+    "exchange": "spot",
+    "base": "enso",
+    "quote": "south-korean-won"
+  },
+  "KRW-EPT": {
+    "exchange": "spot",
+    "base": "balance",
+    "quote": "south-korean-won"
+  },
+  "KRW-ERA": {
+    "exchange": "spot",
+    "base": "caldera",
+    "quote": "south-korean-won"
+  },
+  "KRW-ESP": {
+    "exchange": "spot",
+    "base": "espresso",
+    "quote": "south-korean-won"
+  },
+  "KRW-ETC": {
+    "exchange": "spot",
+    "base": "ethereum-classic",
+    "quote": "south-korean-won"
+  },
+  "KRW-ETH": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "south-korean-won"
+  },
+  "KRW-ETHFI": {
+    "exchange": "spot",
+    "base": "ether-fi",
+    "quote": "south-korean-won"
+  },
+  "KRW-EUL": {
+    "exchange": "spot",
+    "base": "euler",
+    "quote": "south-korean-won"
+  },
+  "KRW-EURC": {
+    "exchange": "spot",
+    "base": "euro-coin",
+    "quote": "south-korean-won"
+  },
+  "KRW-F": {
+    "exchange": "spot",
+    "base": "synfutures",
+    "quote": "south-korean-won"
+  },
+  "KRW-FET": {
+    "exchange": "spot",
+    "base": "fetch-ai",
+    "quote": "south-korean-won"
+  },
+  "KRW-FF": {
+    "exchange": "spot",
+    "base": "falcon-finance-ff",
+    "quote": "south-korean-won"
+  },
+  "KRW-FIL": {
+    "exchange": "spot",
+    "base": "filecoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-FLOCK": {
+    "exchange": "spot",
+    "base": "flock",
+    "quote": "south-korean-won"
+  },
+  "KRW-FLOKI": {
+    "exchange": "spot",
+    "base": "floki",
+    "quote": "south-korean-won"
+  },
+  "KRW-FLR": {
+    "exchange": "spot",
+    "base": "flare",
+    "quote": "south-korean-won"
+  },
+  "KRW-FLUX": {
+    "exchange": "spot",
+    "base": "zelcash",
+    "quote": "south-korean-won"
+  },
+  "KRW-FOLD": {
+    "exchange": "spot",
+    "base": "interfold",
+    "quote": "south-korean-won"
+  },
+  "KRW-FORT": {
+    "exchange": "spot",
+    "base": "forta",
+    "quote": "south-korean-won"
+  },
+  "KRW-FRAX": {
+    "exchange": "spot",
+    "base": "frax-share",
+    "quote": "south-korean-won"
+  },
+  "KRW-G": {
+    "exchange": "spot",
+    "base": "gravity",
+    "quote": "south-korean-won"
+  },
+  "KRW-GAME2": {
+    "exchange": "spot",
+    "base": "gamebuild",
+    "quote": "south-korean-won"
+  },
+  "KRW-GAS": {
+    "exchange": "spot",
+    "base": "neo-gas",
+    "quote": "south-korean-won"
+  },
+  "KRW-GHX": {
+    "exchange": "spot",
+    "base": "gamercoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-GLM": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "south-korean-won"
+  },
+  "KRW-GMT": {
+    "exchange": "spot",
+    "base": "green-metaverse-token",
+    "quote": "south-korean-won"
+  },
+  "KRW-GMX": {
+    "exchange": "spot",
+    "base": "gmx",
+    "quote": "south-korean-won"
+  },
+  "KRW-GNO": {
+    "exchange": "spot",
+    "base": "gnosis",
+    "quote": "south-korean-won"
+  },
+  "KRW-GPS": {
+    "exchange": "spot",
+    "base": "goplus-security",
+    "quote": "south-korean-won"
+  },
+  "KRW-GRAM": {
+    "exchange": "spot",
+    "base": "toncoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-GRASS": {
+    "exchange": "spot",
+    "base": "grass",
+    "quote": "south-korean-won"
+  },
+  "KRW-GRT": {
+    "exchange": "spot",
+    "base": "the-graph",
+    "quote": "south-korean-won"
+  },
+  "KRW-GRVT": {
+    "exchange": "spot",
+    "base": "grvt",
+    "quote": "south-korean-won"
+  },
+  "KRW-GTC": {
+    "exchange": "spot",
+    "base": "gitcoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-GWEI": {
+    "exchange": "spot",
+    "base": "ethgas",
+    "quote": "south-korean-won"
+  },
+  "KRW-HAEDAL": {
+    "exchange": "spot",
+    "base": "haedal-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-HBAR": {
+    "exchange": "spot",
+    "base": "hedera",
+    "quote": "south-korean-won"
+  },
+  "KRW-HEMI": {
+    "exchange": "spot",
+    "base": "hemi",
+    "quote": "south-korean-won"
+  },
+  "KRW-HFT": {
+    "exchange": "spot",
+    "base": "hashflow",
+    "quote": "south-korean-won"
+  },
+  "KRW-HNT": {
+    "exchange": "spot",
+    "base": "helium",
+    "quote": "south-korean-won"
+  },
+  "KRW-HOLO": {
+    "exchange": "spot",
+    "base": "holoworld",
+    "quote": "south-korean-won"
+  },
+  "KRW-HOME": {
+    "exchange": "spot",
+    "base": "defi-app",
+    "quote": "south-korean-won"
+  },
+  "KRW-HPP": {
+    "exchange": "spot",
+    "base": "house-party-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-HUMA": {
+    "exchange": "spot",
+    "base": "huma-finance",
+    "quote": "south-korean-won"
+  },
+  "KRW-HYPER": {
+    "exchange": "spot",
+    "base": "hyperlane",
+    "quote": "south-korean-won"
+  },
+  "KRW-ICNT": {
+    "exchange": "spot",
+    "base": "impossible-cloud-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-ICP": {
+    "exchange": "spot",
+    "base": "internet-computer",
+    "quote": "south-korean-won"
+  },
+  "KRW-ID": {
+    "exchange": "spot",
+    "base": "space-id",
+    "quote": "south-korean-won"
+  },
+  "KRW-ILV": {
+    "exchange": "spot",
+    "base": "illuvium",
+    "quote": "south-korean-won"
+  },
+  "KRW-IMX": {
+    "exchange": "spot",
+    "base": "immutable-x",
+    "quote": "south-korean-won"
+  },
+  "KRW-IN": {
+    "exchange": "spot",
+    "base": "infinit",
+    "quote": "south-korean-won"
+  },
+  "KRW-INIT": {
+    "exchange": "spot",
+    "base": "initia",
+    "quote": "south-korean-won"
+  },
+  "KRW-INJ": {
+    "exchange": "spot",
+    "base": "injective",
+    "quote": "south-korean-won"
+  },
+  "KRW-IO": {
+    "exchange": "spot",
+    "base": "io-net",
+    "quote": "south-korean-won"
+  },
+  "KRW-IOST": {
+    "exchange": "spot",
+    "base": "iost",
+    "quote": "south-korean-won"
+  },
+  "KRW-IOTA": {
+    "exchange": "spot",
+    "base": "iota",
+    "quote": "south-korean-won"
+  },
+  "KRW-IOTX": {
+    "exchange": "spot",
+    "base": "iotex",
+    "quote": "south-korean-won"
+  },
+  "KRW-IRYS": {
+    "exchange": "spot",
+    "base": "irys",
+    "quote": "south-korean-won"
+  },
+  "KRW-JST": {
+    "exchange": "spot",
+    "base": "just",
+    "quote": "south-korean-won"
+  },
+  "KRW-JTO": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "south-korean-won"
+  },
+  "KRW-JUP": {
+    "exchange": "spot",
+    "base": "jupiter",
+    "quote": "south-korean-won"
+  },
+  "KRW-KAIA": {
+    "exchange": "spot",
+    "base": "kaia",
+    "quote": "south-korean-won"
+  },
+  "KRW-KAITO": {
+    "exchange": "spot",
+    "base": "kaito",
+    "quote": "south-korean-won"
+  },
+  "KRW-KAT": {
+    "exchange": "spot",
+    "base": "katana-network-token",
+    "quote": "south-korean-won"
+  },
+  "KRW-KAVA": {
+    "exchange": "spot",
+    "base": "kava",
+    "quote": "south-korean-won"
+  },
+  "KRW-KERNEL": {
+    "exchange": "spot",
+    "base": "kernel",
+    "quote": "south-korean-won"
+  },
+  "KRW-KGEN": {
+    "exchange": "spot",
+    "base": "kgen",
+    "quote": "south-korean-won"
+  },
+  "KRW-KITE": {
+    "exchange": "spot",
+    "base": "kite",
+    "quote": "south-korean-won"
+  },
+  "KRW-KMNO": {
+    "exchange": "spot",
+    "base": "kamino",
+    "quote": "south-korean-won"
+  },
+  "KRW-KNC": {
+    "exchange": "spot",
+    "base": "kyber-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-KSM": {
+    "exchange": "spot",
+    "base": "kusama",
+    "quote": "south-korean-won"
+  },
+  "KRW-LA": {
+    "exchange": "spot",
+    "base": "lagrange",
+    "quote": "south-korean-won"
+  },
+  "KRW-LAYER": {
+    "exchange": "spot",
+    "base": "solayer",
+    "quote": "south-korean-won"
+  },
+  "KRW-LDO": {
+    "exchange": "spot",
+    "base": "lido-dao",
+    "quote": "south-korean-won"
+  },
+  "KRW-LINEA": {
+    "exchange": "spot",
+    "base": "linea",
+    "quote": "south-korean-won"
+  },
+  "KRW-LINK": {
+    "exchange": "spot",
+    "base": "chainlink",
+    "quote": "south-korean-won"
+  },
+  "KRW-LISTA": {
+    "exchange": "spot",
+    "base": "lista",
+    "quote": "south-korean-won"
+  },
+  "KRW-LIT": {
+    "exchange": "spot",
+    "base": "lighter",
+    "quote": "south-korean-won"
+  },
+  "KRW-LPT": {
+    "exchange": "spot",
+    "base": "livepeer",
+    "quote": "south-korean-won"
+  },
+  "KRW-LSK": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "south-korean-won"
+  },
+  "KRW-MAGIC": {
+    "exchange": "spot",
+    "base": "magic",
+    "quote": "south-korean-won"
+  },
+  "KRW-MANA": {
+    "exchange": "spot",
+    "base": "decentraland",
+    "quote": "south-korean-won"
+  },
+  "KRW-MANTA": {
+    "exchange": "spot",
+    "base": "manta-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-MASK": {
+    "exchange": "spot",
+    "base": "mask-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-MAV": {
+    "exchange": "spot",
+    "base": "maverick-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-ME": {
+    "exchange": "spot",
+    "base": "magic-eden",
+    "quote": "south-korean-won"
+  },
+  "KRW-MEGA": {
+    "exchange": "spot",
+    "base": "megaeth",
+    "quote": "south-korean-won"
+  },
+  "KRW-MERL": {
+    "exchange": "spot",
+    "base": "merlin-chain",
+    "quote": "south-korean-won"
+  },
+  "KRW-MET": {
+    "exchange": "spot",
+    "base": "meteora",
+    "quote": "south-korean-won"
+  },
+  "KRW-METIS": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "south-korean-won"
+  },
+  "KRW-MEW": {
+    "exchange": "spot",
+    "base": "cat-in-a-dogs-world",
+    "quote": "south-korean-won"
+  },
+  "KRW-MINA": {
+    "exchange": "spot",
+    "base": "mina-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-MLK": {
+    "exchange": "spot",
+    "base": "milk-alliance",
+    "quote": "south-korean-won"
+  },
+  "KRW-MMT": {
+    "exchange": "spot",
+    "base": "momentum",
+    "quote": "south-korean-won"
+  },
+  "KRW-MNT": {
+    "exchange": "spot",
+    "base": "mantle",
+    "quote": "south-korean-won"
+  },
+  "KRW-MOCA": {
+    "exchange": "spot",
+    "base": "mocaverse",
+    "quote": "south-korean-won"
+  },
+  "KRW-MON": {
+    "exchange": "spot",
+    "base": "monad",
+    "quote": "south-korean-won"
+  },
+  "KRW-MOODENG": {
+    "exchange": "spot",
+    "base": "moo-deng",
+    "quote": "south-korean-won"
+  },
+  "KRW-MORPHO": {
+    "exchange": "spot",
+    "base": "morpho",
+    "quote": "south-korean-won"
+  },
+  "KRW-MOVE": {
+    "exchange": "spot",
+    "base": "movement",
+    "quote": "south-korean-won"
+  },
+  "KRW-MPLX": {
+    "exchange": "spot",
+    "base": "metaplex",
+    "quote": "south-korean-won"
+  },
+  "KRW-MTL": {
+    "exchange": "spot",
+    "base": "metal",
+    "quote": "south-korean-won"
+  },
+  "KRW-NEAR": {
+    "exchange": "spot",
+    "base": "near",
+    "quote": "south-korean-won"
+  },
+  "KRW-NEO": {
+    "exchange": "spot",
+    "base": "neo",
+    "quote": "south-korean-won"
+  },
+  "KRW-NEWT": {
+    "exchange": "spot",
+    "base": "newton-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-NEXO": {
+    "exchange": "spot",
+    "base": "nexo",
+    "quote": "south-korean-won"
+  },
+  "KRW-NFT": {
+    "exchange": "spot",
+    "base": "apenft",
+    "quote": "south-korean-won"
+  },
+  "KRW-NIL": {
+    "exchange": "spot",
+    "base": "nillion",
+    "quote": "south-korean-won"
+  },
+  "KRW-NMR": {
+    "exchange": "spot",
+    "base": "numeraire",
+    "quote": "south-korean-won"
+  },
+  "KRW-NXPC": {
+    "exchange": "spot",
+    "base": "nexpace",
+    "quote": "south-korean-won"
+  },
+  "KRW-O": {
+    "exchange": "spot",
+    "base": "o1-exchange",
+    "quote": "south-korean-won"
+  },
+  "KRW-OBT": {
+    "exchange": "spot",
+    "base": "orbiter-token",
+    "quote": "south-korean-won"
+  },
+  "KRW-OGN": {
+    "exchange": "spot",
+    "base": "origin-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-ONDO": {
+    "exchange": "spot",
+    "base": "ondo",
+    "quote": "south-korean-won"
+  },
+  "KRW-OP": {
+    "exchange": "spot",
+    "base": "optimism",
+    "quote": "south-korean-won"
+  },
+  "KRW-OPEN": {
+    "exchange": "spot",
+    "base": "openledger",
+    "quote": "south-korean-won"
+  },
+  "KRW-OPG": {
+    "exchange": "spot",
+    "base": "opengradient",
+    "quote": "south-korean-won"
+  },
+  "KRW-ORBS": {
+    "exchange": "spot",
+    "base": "orbs",
+    "quote": "south-korean-won"
+  },
+  "KRW-ORCA": {
+    "exchange": "spot",
+    "base": "orca",
+    "quote": "south-korean-won"
+  },
+  "KRW-ORDER": {
+    "exchange": "spot",
+    "base": "orderly-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-OSMO": {
+    "exchange": "spot",
+    "base": "osmosis",
+    "quote": "south-korean-won"
+  },
+  "KRW-PARTI": {
+    "exchange": "spot",
+    "base": "particle-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-PAXG": {
+    "exchange": "spot",
+    "base": "pax-gold",
+    "quote": "south-korean-won"
+  },
+  "KRW-PEAQ": {
+    "exchange": "spot",
+    "base": "peaq",
+    "quote": "south-korean-won"
+  },
+  "KRW-PENDLE": {
+    "exchange": "spot",
+    "base": "pendle",
+    "quote": "south-korean-won"
+  },
+  "KRW-PENGU": {
+    "exchange": "spot",
+    "base": "pudgy-penguins",
+    "quote": "south-korean-won"
+  },
+  "KRW-PEPE": {
+    "exchange": "spot",
+    "base": "pepe",
+    "quote": "south-korean-won"
+  },
+  "KRW-PHA": {
+    "exchange": "spot",
+    "base": "pha",
+    "quote": "south-korean-won"
+  },
+  "KRW-PIEVERSE": {
+    "exchange": "spot",
+    "base": "pieverse",
+    "quote": "south-korean-won"
+  },
+  "KRW-PLUME": {
+    "exchange": "spot",
+    "base": "plume",
+    "quote": "south-korean-won"
+  },
+  "KRW-POKT": {
+    "exchange": "spot",
+    "base": "pocket-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-POL": {
+    "exchange": "spot",
+    "base": "polygon",
+    "quote": "south-korean-won"
+  },
+  "KRW-POLYX": {
+    "exchange": "spot",
+    "base": "polymesh",
+    "quote": "south-korean-won"
+  },
+  "KRW-PONKE": {
+    "exchange": "spot",
+    "base": "ponke",
+    "quote": "south-korean-won"
+  },
+  "KRW-PONS": {
+    "exchange": "spot",
+    "base": "pons",
+    "quote": "south-korean-won"
+  },
+  "KRW-POPCAT": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "south-korean-won"
+  },
+  "KRW-POWR": {
+    "exchange": "spot",
+    "base": "power-ledger",
+    "quote": "south-korean-won"
+  },
+  "KRW-PRL": {
+    "exchange": "spot",
+    "base": "perle",
+    "quote": "south-korean-won"
+  },
+  "KRW-PROM": {
+    "exchange": "spot",
+    "base": "prometeus",
+    "quote": "south-korean-won"
+  },
+  "KRW-PROMPT": {
+    "exchange": "spot",
+    "base": "prompt",
+    "quote": "south-korean-won"
+  },
+  "KRW-PROS": {
+    "exchange": "spot",
+    "base": "pharos-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-PROVE": {
+    "exchange": "spot",
+    "base": "succinct",
+    "quote": "south-korean-won"
+  },
+  "KRW-PUFFER": {
+    "exchange": "spot",
+    "base": "puffer",
+    "quote": "south-korean-won"
+  },
+  "KRW-PUMP": {
+    "exchange": "spot",
+    "base": "pump",
+    "quote": "south-korean-won"
+  },
+  "KRW-PUNDIX": {
+    "exchange": "spot",
+    "base": "pundi-x",
+    "quote": "south-korean-won"
+  },
+  "KRW-PYBOBO": {
+    "exchange": "spot",
+    "base": "capybobo",
+    "quote": "south-korean-won"
+  },
+  "KRW-PYTH": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-PYUSD": {
+    "exchange": "spot",
+    "base": "paypal-usd",
+    "quote": "south-korean-won"
+  },
+  "KRW-Q": {
+    "exchange": "spot",
+    "base": "quack-ai",
+    "quote": "south-korean-won"
+  },
+  "KRW-QTUM": {
+    "exchange": "spot",
+    "base": "qtum",
+    "quote": "south-korean-won"
+  },
+  "KRW-QUID": {
+    "exchange": "spot",
+    "base": "squid",
+    "quote": "south-korean-won"
+  },
+  "KRW-RAD": {
+    "exchange": "spot",
+    "base": "radicle",
+    "quote": "south-korean-won"
+  },
+  "KRW-RAY": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "south-korean-won"
+  },
+  "KRW-RE": {
+    "exchange": "spot",
+    "base": "re",
+    "quote": "south-korean-won"
+  },
+  "KRW-RECALL": {
+    "exchange": "spot",
+    "base": "recall",
+    "quote": "south-korean-won"
+  },
+  "KRW-RED": {
+    "exchange": "spot",
+    "base": "redstone",
+    "quote": "south-korean-won"
+  },
+  "KRW-RENDER": {
+    "exchange": "spot",
+    "base": "render",
+    "quote": "south-korean-won"
+  },
+  "KRW-REQ": {
+    "exchange": "spot",
+    "base": "request",
+    "quote": "south-korean-won"
+  },
+  "KRW-REZ": {
+    "exchange": "spot",
+    "base": "renzo",
+    "quote": "south-korean-won"
+  },
+  "KRW-RLC": {
+    "exchange": "spot",
+    "base": "iexec-rlc",
+    "quote": "south-korean-won"
+  },
+  "KRW-RLUSD": {
+    "exchange": "spot",
+    "base": "ripple-usd",
+    "quote": "south-korean-won"
+  },
+  "KRW-ROBO": {
+    "exchange": "spot",
+    "base": "fabric-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-RON": {
+    "exchange": "spot",
+    "base": "ronin",
+    "quote": "south-korean-won"
+  },
+  "KRW-RPL": {
+    "exchange": "spot",
+    "base": "rocket-pool",
+    "quote": "south-korean-won"
+  },
+  "KRW-RSR": {
+    "exchange": "spot",
+    "base": "reserve-rights-token",
+    "quote": "south-korean-won"
+  },
+  "KRW-S": {
+    "exchange": "spot",
+    "base": "sonic",
+    "quote": "south-korean-won"
+  },
+  "KRW-SAFE": {
+    "exchange": "spot",
+    "base": "safe",
+    "quote": "south-korean-won"
+  },
+  "KRW-SAHARA": {
+    "exchange": "spot",
+    "base": "sahara-ai",
+    "quote": "south-korean-won"
+  },
+  "KRW-SAND": {
+    "exchange": "spot",
+    "base": "the-sandbox",
+    "quote": "south-korean-won"
+  },
+  "KRW-SAPIEN": {
+    "exchange": "spot",
+    "base": "sapien",
+    "quote": "south-korean-won"
+  },
+  "KRW-SC": {
+    "exchange": "spot",
+    "base": "siacoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-SCR": {
+    "exchange": "spot",
+    "base": "scroll",
+    "quote": "south-korean-won"
+  },
+  "KRW-SD": {
+    "exchange": "spot",
+    "base": "stader",
+    "quote": "south-korean-won"
+  },
+  "KRW-SEI": {
+    "exchange": "spot",
+    "base": "sei",
+    "quote": "south-korean-won"
+  },
+  "KRW-SENT": {
+    "exchange": "spot",
+    "base": "sentient",
+    "quote": "south-korean-won"
+  },
+  "KRW-SFP": {
+    "exchange": "spot",
+    "base": "safepal",
+    "quote": "south-korean-won"
+  },
+  "KRW-SHIB": {
+    "exchange": "spot",
+    "base": "shiba-inu",
+    "quote": "south-korean-won"
+  },
+  "KRW-SIGN": {
+    "exchange": "spot",
+    "base": "sign-global",
+    "quote": "south-korean-won"
+  },
+  "KRW-SKR": {
+    "exchange": "spot",
+    "base": "seeker",
+    "quote": "south-korean-won"
+  },
+  "KRW-SKY": {
+    "exchange": "spot",
+    "base": "sky",
+    "quote": "south-korean-won"
+  },
+  "KRW-SLX": {
+    "exchange": "spot",
+    "base": "solstice",
+    "quote": "south-korean-won"
+  },
+  "KRW-SOL": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "south-korean-won"
+  },
+  "KRW-SOLV": {
+    "exchange": "spot",
+    "base": "solv-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-SOMI": {
+    "exchange": "spot",
+    "base": "somnia",
+    "quote": "south-korean-won"
+  },
+  "KRW-SONIC": {
+    "exchange": "spot",
+    "base": "sonic-svm",
+    "quote": "south-korean-won"
+  },
+  "KRW-SOON": {
+    "exchange": "spot",
+    "base": "soon",
+    "quote": "south-korean-won"
+  },
+  "KRW-SOPH": {
+    "exchange": "spot",
+    "base": "sophon",
+    "quote": "south-korean-won"
+  },
+  "KRW-SPACE": {
+    "exchange": "spot",
+    "base": "spacecoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-SPK": {
+    "exchange": "spot",
+    "base": "spark",
+    "quote": "south-korean-won"
+  },
+  "KRW-SPX": {
+    "exchange": "spot",
+    "base": "spx6900",
+    "quote": "south-korean-won"
+  },
+  "KRW-STABLE": {
+    "exchange": "spot",
+    "base": "stable",
+    "quote": "south-korean-won"
+  },
+  "KRW-STEEM": {
+    "exchange": "spot",
+    "base": "steem",
+    "quote": "south-korean-won"
+  },
+  "KRW-STRAX": {
+    "exchange": "spot",
+    "base": "xertra",
+    "quote": "south-korean-won"
+  },
+  "KRW-STRK": {
+    "exchange": "spot",
+    "base": "starknet",
+    "quote": "south-korean-won"
+  },
+  "KRW-STX": {
+    "exchange": "spot",
+    "base": "stacks",
+    "quote": "south-korean-won"
+  },
+  "KRW-SUI": {
+    "exchange": "spot",
+    "base": "sui",
+    "quote": "south-korean-won"
+  },
+  "KRW-SUN": {
+    "exchange": "spot",
+    "base": "sun-token",
+    "quote": "south-korean-won"
+  },
+  "KRW-SUPER": {
+    "exchange": "spot",
+    "base": "superfarm",
+    "quote": "south-korean-won"
+  },
+  "KRW-SUSHI": {
+    "exchange": "spot",
+    "base": "sushi",
+    "quote": "south-korean-won"
+  },
+  "KRW-SWELL": {
+    "exchange": "spot",
+    "base": "swell",
+    "quote": "south-korean-won"
+  },
+  "KRW-SXT": {
+    "exchange": "spot",
+    "base": "space-and-time",
+    "quote": "south-korean-won"
+  },
+  "KRW-SYRUP": {
+    "exchange": "spot",
+    "base": "syrup",
+    "quote": "south-korean-won"
+  },
+  "KRW-T": {
+    "exchange": "spot",
+    "base": "threshold-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-TAIKO": {
+    "exchange": "spot",
+    "base": "taiko",
+    "quote": "south-korean-won"
+  },
+  "KRW-TAO": {
+    "exchange": "spot",
+    "base": "bittensor",
+    "quote": "south-korean-won"
+  },
+  "KRW-TFUEL": {
+    "exchange": "spot",
+    "base": "theta-fuel",
+    "quote": "south-korean-won"
+  },
+  "KRW-THE": {
+    "exchange": "spot",
+    "base": "thena",
+    "quote": "south-korean-won"
+  },
+  "KRW-THETA": {
+    "exchange": "spot",
+    "base": "theta-token",
+    "quote": "south-korean-won"
+  },
+  "KRW-THQ": {
+    "exchange": "spot",
+    "base": "theoriq",
+    "quote": "south-korean-won"
+  },
+  "KRW-TIA": {
+    "exchange": "spot",
+    "base": "celestia",
+    "quote": "south-korean-won"
+  },
+  "KRW-TOSHI": {
+    "exchange": "spot",
+    "base": "toshi",
+    "quote": "south-korean-won"
+  },
+  "KRW-TOWNS": {
+    "exchange": "spot",
+    "base": "towns",
+    "quote": "south-korean-won"
+  },
+  "KRW-TRAC": {
+    "exchange": "spot",
+    "base": "origintrail",
+    "quote": "south-korean-won"
+  },
+  "KRW-TRB": {
+    "exchange": "spot",
+    "base": "tellor",
+    "quote": "south-korean-won"
+  },
+  "KRW-TREE": {
+    "exchange": "spot",
+    "base": "treehouse",
+    "quote": "south-korean-won"
+  },
+  "KRW-TRUMP": {
+    "exchange": "spot",
+    "base": "official-trump",
+    "quote": "south-korean-won"
+  },
+  "KRW-TRUST": {
+    "exchange": "spot",
+    "base": "intuition",
+    "quote": "south-korean-won"
+  },
+  "KRW-TRX": {
+    "exchange": "spot",
+    "base": "tron",
+    "quote": "south-korean-won"
+  },
+  "KRW-TURBO": {
+    "exchange": "spot",
+    "base": "turbo",
+    "quote": "south-korean-won"
+  },
+  "KRW-UB": {
+    "exchange": "spot",
+    "base": "unibase",
+    "quote": "south-korean-won"
+  },
+  "KRW-UMA": {
+    "exchange": "spot",
+    "base": "uma",
+    "quote": "south-korean-won"
+  },
+  "KRW-UNI": {
+    "exchange": "spot",
+    "base": "uniswap",
+    "quote": "south-korean-won"
+  },
+  "KRW-UOS": {
+    "exchange": "spot",
+    "base": "ultra",
+    "quote": "south-korean-won"
+  },
+  "KRW-UP": {
+    "exchange": "spot",
+    "base": "superform",
+    "quote": "south-korean-won"
+  },
+  "KRW-US": {
+    "exchange": "spot",
+    "base": "talus",
+    "quote": "south-korean-won"
+  },
+  "KRW-USD1": {
+    "exchange": "spot",
+    "base": "usd1",
+    "quote": "south-korean-won"
+  },
+  "KRW-USDC": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "south-korean-won"
+  },
+  "KRW-USDE": {
+    "exchange": "spot",
+    "base": "ethena-usde",
+    "quote": "south-korean-won"
+  },
+  "KRW-USDG": {
+    "exchange": "spot",
+    "base": "global-dollar",
+    "quote": "south-korean-won"
+  },
+  "KRW-USDS": {
+    "exchange": "spot",
+    "base": "sky-usd",
+    "quote": "south-korean-won"
+  },
+  "KRW-USDT": {
+    "exchange": "spot",
+    "base": "tether",
+    "quote": "south-korean-won"
+  },
+  "KRW-USELESS": {
+    "exchange": "spot",
+    "base": "useless-coin",
+    "quote": "south-korean-won"
+  },
+  "KRW-VANA": {
+    "exchange": "spot",
+    "base": "vana",
+    "quote": "south-korean-won"
+  },
+  "KRW-VERONA": {
+    "exchange": "spot",
+    "base": "xion",
+    "quote": "south-korean-won"
+  },
+  "KRW-VET": {
+    "exchange": "spot",
+    "base": "vechain",
+    "quote": "south-korean-won"
+  },
+  "KRW-VIRTUAL": {
+    "exchange": "spot",
+    "base": "virtuals-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-VTHO": {
+    "exchange": "spot",
+    "base": "vethor-token",
+    "quote": "south-korean-won"
+  },
+  "KRW-VVV": {
+    "exchange": "spot",
+    "base": "venice-token",
+    "quote": "south-korean-won"
+  },
+  "KRW-W": {
+    "exchange": "spot",
+    "base": "wormhole",
+    "quote": "south-korean-won"
+  },
+  "KRW-WAL": {
+    "exchange": "spot",
+    "base": "walrus",
+    "quote": "south-korean-won"
+  },
+  "KRW-WAVES": {
+    "exchange": "spot",
+    "base": "waves",
+    "quote": "south-korean-won"
+  },
+  "KRW-WAXL": {
+    "exchange": "spot",
+    "base": "axelar",
+    "quote": "south-korean-won"
+  },
+  "KRW-WAXP": {
+    "exchange": "spot",
+    "base": "wax",
+    "quote": "south-korean-won"
+  },
+  "KRW-WCT": {
+    "exchange": "spot",
+    "base": "walletconnect",
+    "quote": "south-korean-won"
+  },
+  "KRW-WET": {
+    "exchange": "spot",
+    "base": "humidifi",
+    "quote": "south-korean-won"
+  },
+  "KRW-WIF": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-WLD": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-WLFI": {
+    "exchange": "spot",
+    "base": "world-liberty-financial",
+    "quote": "south-korean-won"
+  },
+  "KRW-WOO": {
+    "exchange": "spot",
+    "base": "woo-network",
+    "quote": "south-korean-won"
+  },
+  "KRW-XAI": {
+    "exchange": "spot",
+    "base": "xai",
+    "quote": "south-korean-won"
+  },
+  "KRW-XAN": {
+    "exchange": "spot",
+    "base": "anoma",
+    "quote": "south-korean-won"
+  },
+  "KRW-XAUT": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "south-korean-won"
+  },
+  "KRW-XCN": {
+    "exchange": "spot",
+    "base": "onyxcoin",
+    "quote": "south-korean-won"
+  },
+  "KRW-XDP": {
+    "exchange": "spot",
+    "base": "doppler-finance",
+    "quote": "south-korean-won"
+  },
+  "KRW-XEC": {
+    "exchange": "spot",
+    "base": "ecash",
+    "quote": "south-korean-won"
+  },
+  "KRW-XLM": {
+    "exchange": "spot",
+    "base": "stellar",
+    "quote": "south-korean-won"
+  },
+  "KRW-XPL": {
+    "exchange": "spot",
+    "base": "plasma",
+    "quote": "south-korean-won"
+  },
+  "KRW-XPR": {
+    "exchange": "spot",
+    "base": "proton",
+    "quote": "south-korean-won"
+  },
+  "KRW-XRP": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "south-korean-won"
+  },
+  "KRW-XTER": {
+    "exchange": "spot",
+    "base": "xterio",
+    "quote": "south-korean-won"
+  },
+  "KRW-XTZ": {
+    "exchange": "spot",
+    "base": "tezos",
+    "quote": "south-korean-won"
+  },
+  "KRW-XYO": {
+    "exchange": "spot",
+    "base": "xyo",
+    "quote": "south-korean-won"
+  },
+  "KRW-YB": {
+    "exchange": "spot",
+    "base": "yield-basis",
+    "quote": "south-korean-won"
+  },
+  "KRW-YFI": {
+    "exchange": "spot",
+    "base": "yearn-finance",
+    "quote": "south-korean-won"
+  },
+  "KRW-YGG": {
+    "exchange": "spot",
+    "base": "yield-guild-games",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZAMA": {
+    "exchange": "spot",
+    "base": "zama",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZBT": {
+    "exchange": "spot",
+    "base": "zerobase",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZEST": {
+    "exchange": "spot",
+    "base": "zest-protocol",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZETA": {
+    "exchange": "spot",
+    "base": "zetachain",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZIL": {
+    "exchange": "spot",
+    "base": "zilliqa",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZK": {
+    "exchange": "spot",
+    "base": "zksync",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZKC": {
+    "exchange": "spot",
+    "base": "boundless",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZKP": {
+    "exchange": "spot",
+    "base": "zkpass",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZORA": {
+    "exchange": "spot",
+    "base": "zora",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZRC": {
+    "exchange": "spot",
+    "base": "zircuit",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZRO": {
+    "exchange": "spot",
+    "base": "layer-zero",
+    "quote": "south-korean-won"
+  },
+  "KRW-ZRX": {
+    "exchange": "spot",
+    "base": "0x",
+    "quote": "south-korean-won"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "BTC_USDC": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "usd-coin"
+  },
+  "ETH_USDC": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "usd-coin"
+  },
+  "USDC_EUR": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "euro"
+  }
+}

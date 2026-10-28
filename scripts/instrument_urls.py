@@ -150,8 +150,10 @@ SPOT_RULES: dict[str, Rule] = {
     *(s.lower() for s in sym.split('binanceus', id, inst))
   ),
   'bitget': lambda id, inst, sym: f'https://www.bitget.com/spot/{id}',
+  'bitvavo': lambda id, inst, sym: f'https://account.bitvavo.com/markets/{id}',
   'bybit': lambda id, inst, sym: 'https://www.bybit.com/en/trade/spot/{}/{}'.format(*sym.split('bybit', id, inst)),
   'coinbase': lambda id, inst, sym: f'https://www.coinbase.com/advanced-trade/spot/{id}',
+  'gemini': lambda id, inst, sym: f'https://exchange.gemini.com/trade/{id.upper()}',
   'gate': lambda id, inst, sym: f'https://www.gate.com/trade/{id}',
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{_HYPERLIQUID_SPOT_INDEX.sub("", id)}',
   'kraken': lambda id, inst, sym: 'https://pro.kraken.com/app/trade/{}-{}'.format(
@@ -164,6 +166,7 @@ SPOT_RULES: dict[str, Rule] = {
   'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: 'https://www.mexc.com/exchange/{}_{}'.format(*sym.split('mexc', id, inst)),
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-spot/{id.lower()}',
+  'upbit': lambda id, inst, sym: f'https://upbit.com/exchange?code=CRIX.UPBIT.{id}',
   'bitunix': lambda id, inst, sym: f'https://www.bitunix.com/spot-trade/{id.upper()}',
   'toobit': lambda id, inst, sym: 'https://www.toobit.com/spot/{}_{}'.format(*sym.split('toobit', id, inst)),
   'weex': lambda id, inst, sym: 'https://www.weex.com/spot/{}-{}'.format(*sym.split('weex', id, inst)),
