@@ -1,0 +1,23 @@
+{
+  "id": "jpmorgan-chase-ondo-tokenized-stock",
+  "display_name": "JPMorgan Chase (Ondo Tokenized)",
+  "symbol": "JPMon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "JPMorgan Chase (Ondo Tokenized) (JPMon) is an Ondo tokenized stock issued by Ondo Global Markets (BVI) Limited through the Ondo Stocks platform, giving eligible non-US holders economic exposure to JPMorgan Chase & Co. shares (JPM). It is fully backed by the underlying security and is a total return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above the underlying's. It is an ERC-20 on Ethereum at 0x03c1ec4ca9dbb168e6db0def827c085999cbffaf, with deployments on BNB Chain and Solana. Holders have a claim on the issuer, not registered ownership or shareholder rights."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/jpmon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "jpmorgan-chase-ondo-tokenized-stock",
+    "coinmarketcap": "38082"
+  },
+  "pegged_to": {
+    "asset": "jpmorgan-chase"
+  }
+}
