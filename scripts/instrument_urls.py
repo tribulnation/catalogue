@@ -207,7 +207,7 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: f'https://www.mexc.com/futures/{id}',
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-swap/{id.lower()}',
-  'phemex': lambda id, inst, sym: f'https://phemex.com/trade/{id}',
+  'phemex': lambda id, inst, sym: f'https://phemex.com/futures/trade/{id}',
   'whitebit': lambda id, inst, sym: f'https://whitebit.com/trade/{id}',
   'woox': woox_perpetual_url,
 }
