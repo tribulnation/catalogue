@@ -274,5 +274,11 @@
     "base": "irys",
     "quote": "tether",
     "url": "https://www.asterdex.com/en/trade/pro/spot/IRYSUSDT"
+  },
+  "BTWUSDT": {
+    "exchange": "spot",
+    "base": "bitway",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/BTWUSDT"
   }
 }
