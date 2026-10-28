@@ -1,10 +1,38 @@
 {
+  "0G-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "zero-gravity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/0g-usdt-swap"
+  },
   "1INCH-USDT-SWAP": {
     "exchange": "perp",
     "base": "1inch",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/1inch-usdt-swap"
+  },
+  "2Z-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "doublezero",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/2z-usdt-swap"
+  },
+  "A-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "vaulta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/a-usdt-swap"
+  },
+  "AAOI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "applied-optoelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/aaoi-usdt-swap"
   },
   "AAPL-USDT-SWAP": {
     "exchange": "perp",
@@ -20,12 +48,33 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/aave-usdt-swap"
   },
+  "ACH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "alchemy-pay",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ach-usdt-swap"
+  },
+  "ACN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "accenture",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/acn-usdt-swap"
+  },
   "ACT-USDT-SWAP": {
     "exchange": "perp",
     "base": "act-i-the-ai-prophecy",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/act-usdt-swap"
+  },
+  "ACU-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "acurast",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/acu-usdt-swap"
   },
   "ADA-USD-SWAP": {
     "exchange": "perp",
@@ -41,12 +90,61 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/ada-usdt-swap"
   },
+  "ADBE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "adobe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/adbe-usdt-swap"
+  },
   "AERO-USDT-SWAP": {
     "exchange": "perp",
     "base": "aerodrome",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/aero-usdt-swap"
+  },
+  "AEVO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "aevo-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/aevo-usdt-swap"
+  },
+  "AGLD-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "adventure-gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/agld-usdt-swap"
+  },
+  "AI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "gensyn",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ai-usdt-swap"
+  },
+  "AIXBT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "aixbt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/aixbt-usdt-swap"
+  },
+  "AKE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "akedo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ake-usdt-swap"
+  },
+  "ALAB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "astera-labs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/alab-usdt-swap"
   },
   "ALGO-USDT-SWAP": {
     "exchange": "perp",
@@ -55,6 +153,41 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/algo-usdt-swap"
   },
+  "ALLO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "allora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/allo-usdt-swap"
+  },
+  "AMAT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "applied-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/amat-usdt-swap"
+  },
+  "AMC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "amc-entertainment",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/amc-usdt-swap"
+  },
+  "AMD-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/amd-usdt-swap"
+  },
+  "AMGN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "amgen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/amgn-usdt-swap"
+  },
   "AMZN-USDT-SWAP": {
     "exchange": "perp",
     "base": "amazon",
@@ -62,12 +195,33 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/amzn-usdt-swap"
   },
+  "ANIME-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "animecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/anime-usdt-swap"
+  },
   "APE-USDT-SWAP": {
     "exchange": "perp",
     "base": "apecoin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/ape-usdt-swap"
+  },
+  "API3-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "api3",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/api3-usdt-swap"
+  },
+  "APP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "applovin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/app-usdt-swap"
   },
   "APT-USDT-SWAP": {
     "exchange": "perp",
@@ -97,12 +251,40 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/arkm-usdt-swap"
   },
+  "ARM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "arm-holdings-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/arm-usdt-swap"
+  },
+  "ARX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "arcium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/arx-usdt-swap"
+  },
+  "ASML-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "asml-holding",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/asml-usdt-swap"
+  },
   "ASTER-USDT-SWAP": {
     "exchange": "perp",
     "base": "aster",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/aster-usdt-swap"
+  },
+  "ASTS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ast-spacemobile",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/asts-usdt-swap"
   },
   "ATH-USDT-SWAP": {
     "exchange": "perp",
@@ -118,12 +300,26 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/atom-usdt-swap"
   },
+  "AUCTION-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "auction",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/auction-usdt-swap"
+  },
   "AVAX-USDT-SWAP": {
     "exchange": "perp",
     "base": "avalanche",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/avax-usdt-swap"
+  },
+  "AVGO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "broadcom",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/avgo-usdt-swap"
   },
   "AVNT-USDT-SWAP": {
     "exchange": "perp",
@@ -132,6 +328,13 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/avnt-usdt-swap"
   },
+  "AXIS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "axis-robotics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/axis-usdt-swap"
+  },
   "AXS-USDT-SWAP": {
     "exchange": "perp",
     "base": "axie-infinity",
@@ -139,12 +342,68 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/axs-usdt-swap"
   },
+  "AXTI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "axt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/axti-usdt-swap"
+  },
+  "AZTEC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "aztec",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/aztec-usdt-swap"
+  },
+  "BABY-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "babylon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/baby-usdt-swap"
+  },
+  "BAC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "bank-of-america",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bac-usdt-swap"
+  },
+  "BAND-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "band-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/band-usdt-swap"
+  },
+  "BARD-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "lombard",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bard-usdt-swap"
+  },
+  "BASED-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "based",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/based-usdt-swap"
+  },
   "BAT-USDT-SWAP": {
     "exchange": "perp",
     "base": "basic-attention-token",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/bat-usdt-swap"
+  },
+  "BB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "blackberry",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bb-usdt-swap"
   },
   "BCH-USD-SWAP": {
     "exchange": "perp",
@@ -160,12 +419,47 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/bch-usdt-swap"
   },
+  "BE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "bloom-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/be-usdt-swap"
+  },
+  "BEAT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "audiera",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/beat-usdt-swap"
+  },
   "BERA-USDT-SWAP": {
     "exchange": "perp",
     "base": "berachain",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/bera-usdt-swap"
+  },
+  "BICO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "biconomy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bico-usdt-swap"
+  },
+  "BIGTIME-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "big-time",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bigtime-usdt-swap"
+  },
+  "BILL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "billions-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bill-usdt-swap"
   },
   "BIO-USDT-SWAP": {
     "exchange": "perp",
@@ -174,12 +468,26 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/bio-usdt-swap"
   },
+  "BLEND-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "fluent-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/blend-usdt-swap"
+  },
   "BLUR-USDT-SWAP": {
     "exchange": "perp",
     "base": "blur",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/blur-usdt-swap"
+  },
+  "BMNR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "bitmine-immersion-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bmnr-usdt-swap"
   },
   "BNB-USDT-SWAP": {
     "exchange": "perp",
@@ -188,12 +496,47 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/bnb-usdt-swap"
   },
+  "BOME-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "book-of-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bome-usdt-swap"
+  },
   "BONK-USDT-SWAP": {
     "exchange": "perp",
     "base": "bonk",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/bonk-usdt-swap"
+  },
+  "BOT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "robostrategy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bot-usdt-swap"
+  },
+  "BRETT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "brett",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/brett-usdt-swap"
+  },
+  "BREV-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "brevis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/brev-usdt-swap"
+  },
+  "BSB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "block-street",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bsb-usdt-swap"
   },
   "BTC-USD-SWAP": {
     "exchange": "perp",
@@ -209,12 +552,68 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/btc-usdt-swap"
   },
+  "BTW-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "bitway",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/btw-usdt-swap"
+  },
+  "BWET-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "breakwave-tanker-shipping-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bwet-usdt-swap"
+  },
+  "BX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "blackstone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bx-usdt-swap"
+  },
+  "BZ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/bz-usdt-swap"
+  },
+  "CAP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "cap",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/cap-usdt-swap"
+  },
+  "CASHCAT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "cash-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/cashcat-usdt-swap"
+  },
+  "CBRS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "cerebras-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/cbrs-usdt-swap"
+  },
   "CC-USDT-SWAP": {
     "exchange": "perp",
     "base": "canton",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/cc-usdt-swap"
+  },
+  "CEG-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "constellation-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ceg-usdt-swap"
   },
   "CELO-USDT-SWAP": {
     "exchange": "perp",
@@ -230,12 +629,33 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/cfx-usdt-swap"
   },
+  "CHIP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "usd-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/chip-usdt-swap"
+  },
   "CHZ-USDT-SWAP": {
     "exchange": "perp",
     "base": "chiliz",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/chz-usdt-swap"
+  },
+  "CL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/cl-usdt-swap"
+  },
+  "COHR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "coherent-corp",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/cohr-usdt-swap"
   },
   "COIN-USDT-SWAP": {
     "exchange": "perp",
@@ -258,6 +678,48 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/core-usdt-swap"
   },
+  "COST-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "costco-wholesale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/cost-usdt-swap"
+  },
+  "CP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "cluster-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/cp-usdt-swap"
+  },
+  "CRCL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/crcl-usdt-swap"
+  },
+  "CRDO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "credo-technology-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/crdo-usdt-swap"
+  },
+  "CRM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "salesforce",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/crm-usdt-swap"
+  },
+  "CRML-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "critical-metals",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/crml-usdt-swap"
+  },
   "CRO-USDT-SWAP": {
     "exchange": "perp",
     "base": "cronos",
@@ -272,6 +734,41 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/crv-usdt-swap"
   },
+  "CRWD-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "crowdstrike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/crwd-usdt-swap"
+  },
+  "CRWV-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "coreweave",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/crwv-usdt-swap"
+  },
+  "CSCO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "cisco",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/csco-usdt-swap"
+  },
+  "CT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "concrete",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ct-usdt-swap"
+  },
+  "CVNA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "carvana",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/cvna-usdt-swap"
+  },
   "CVX-USDT-SWAP": {
     "exchange": "perp",
     "base": "convex-finance",
@@ -279,12 +776,47 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/cvx-usdt-swap"
   },
+  "CYPH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "cypherpunk-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/cyph-usdt-swap"
+  },
   "DASH-USDT-SWAP": {
     "exchange": "perp",
     "base": "dash",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/dash-usdt-swap"
+  },
+  "DELL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "dell-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/dell-usdt-swap"
+  },
+  "DGAI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "dgrid-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/dgai-usdt-swap"
+  },
+  "DKNG-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "draftkings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/dkng-usdt-swap"
+  },
+  "DNA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "neosoul",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/dna-usdt-swap"
   },
   "DOGE-USD-SWAP": {
     "exchange": "perp",
@@ -300,6 +832,20 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/doge-usdt-swap"
   },
+  "DOOD-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "doodles",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/dood-usdt-swap"
+  },
+  "DOS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "dappos",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/dos-usdt-swap"
+  },
   "DOT-USD-SWAP": {
     "exchange": "perp",
     "base": "polkadot",
@@ -314,12 +860,40 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/dot-usdt-swap"
   },
+  "DRAM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/dram-usdt-swap"
+  },
   "DYDX-USDT-SWAP": {
     "exchange": "perp",
     "base": "dydx",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/dydx-usdt-swap"
+  },
+  "EDEN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "openeden",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/eden-usdt-swap"
+  },
+  "EDGE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "edgex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/edge-usdt-swap"
+  },
+  "EGLD-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "multiversx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/egld-usdt-swap"
   },
   "EIGEN-USDT-SWAP": {
     "exchange": "perp",
@@ -335,12 +909,33 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/ena-usdt-swap"
   },
+  "ENJ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "enjin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/enj-usdt-swap"
+  },
   "ENS-USDT-SWAP": {
     "exchange": "perp",
     "base": "ethereum-name-service",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/ens-usdt-swap"
+  },
+  "ENSO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "enso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/enso-usdt-swap"
+  },
+  "ESP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "espresso",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/esp-usdt-swap"
   },
   "ETC-USD-SWAP": {
     "exchange": "perp",
@@ -377,12 +972,61 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/ethfi-usdt-swap"
   },
+  "ETHW-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ethereum-pow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ethw-usdt-swap"
+  },
+  "EWJ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ishares-msci-japan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ewj-usdt-swap"
+  },
+  "EWT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ishares-msci-taiwan-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ewt-usdt-swap"
+  },
+  "EWY-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ishares-msci-south-korea-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ewy-usdt-swap"
+  },
+  "EWZ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ishares-msci-brazil-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ewz-usdt-swap"
+  },
+  "F-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "synfutures",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/f-usdt-swap"
+  },
   "FARTCOIN-USDT-SWAP": {
     "exchange": "perp",
     "base": "fartcoin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/fartcoin-usdt-swap"
+  },
+  "FET-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "fetch-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/fet-usdt-swap"
   },
   "FIL-USD-SWAP": {
     "exchange": "perp",
@@ -398,12 +1042,47 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/fil-usdt-swap"
   },
+  "FLNC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "fluence-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/flnc-usdt-swap"
+  },
+  "FLOCK-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "flock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/flock-usdt-swap"
+  },
   "FLOKI-USDT-SWAP": {
     "exchange": "perp",
     "base": "floki",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/floki-usdt-swap"
+  },
+  "FLOW-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "flow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/flow-usdt-swap"
+  },
+  "FOGO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "fogo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/fogo-usdt-swap"
+  },
+  "FWDI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "forward-industries",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/fwdi-usdt-swap"
   },
   "GALA-USDT-SWAP": {
     "exchange": "perp",
@@ -412,12 +1091,47 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/gala-usdt-swap"
   },
+  "GAS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "neo-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/gas-usdt-swap"
+  },
+  "GEV-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ge-vernova",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/gev-usdt-swap"
+  },
+  "GIGGLE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "giggle-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/giggle-usdt-swap"
+  },
   "GLM-USDT-SWAP": {
     "exchange": "perp",
     "base": "golem",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/glm-usdt-swap"
+  },
+  "GLW-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "corning",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/glw-usdt-swap"
+  },
+  "GME-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "gamestop",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/gme-usdt-swap"
   },
   "GMT-USDT-SWAP": {
     "exchange": "perp",
@@ -440,6 +1154,27 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/googl-usdt-swap"
   },
+  "GPRO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "gopro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/gpro-usdt-swap"
+  },
+  "GPS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "goplus-security",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/gps-usdt-swap"
+  },
+  "GRAM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "toncoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/gram-usdt-swap"
+  },
   "GRASS-USDT-SWAP": {
     "exchange": "perp",
     "base": "grass",
@@ -454,12 +1189,89 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/grt-usdt-swap"
   },
+  "GRVT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "grvt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/grvt-usdt-swap"
+  },
+  "GS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "goldman-sachs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/gs-usdt-swap"
+  },
+  "GTLB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "gitlab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/gtlb-usdt-swap"
+  },
+  "H-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "humanity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/h-usdt-swap"
+  },
   "HBAR-USDT-SWAP": {
     "exchange": "perp",
     "base": "hedera",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/hbar-usdt-swap"
+  },
+  "HIMS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "hims-and-hers-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/hims-usdt-swap"
+  },
+  "HMSTR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "hamster-kombat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/hmstr-usdt-swap"
+  },
+  "HOME-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "defi-app",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/home-usdt-swap"
+  },
+  "HOOD-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/hood-usdt-swap"
+  },
+  "HPE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "hewlett-packard-enterprise",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/hpe-usdt-swap"
+  },
+  "HUMA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "huma-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/huma-usdt-swap"
+  },
+  "HUT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "hut-8",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/hut-usdt-swap"
   },
   "HYPE-USD-SWAP": {
     "exchange": "perp",
@@ -475,6 +1287,13 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/hype-usdt-swap"
   },
+  "IBM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "international-business-machines",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ibm-usdt-swap"
+  },
   "ICP-USDT-SWAP": {
     "exchange": "perp",
     "base": "internet-computer",
@@ -489,12 +1308,33 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/imx-usdt-swap"
   },
+  "INIT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "initia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/init-usdt-swap"
+  },
   "INJ-USDT-SWAP": {
     "exchange": "perp",
     "base": "injective",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/inj-usdt-swap"
+  },
+  "INTC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/intc-usdt-swap"
+  },
+  "IONQ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ionq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ionq-usdt-swap"
   },
   "IOST-USDT-SWAP": {
     "exchange": "perp",
@@ -509,6 +1349,48 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/iota-usdt-swap"
+  },
+  "IREN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "iren",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/iren-usdt-swap"
+  },
+  "IRYS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "irys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/irys-usdt-swap"
+  },
+  "IWM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ishares-russell-2000-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/iwm-usdt-swap"
+  },
+  "JELLYJELLY-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "jelly-my-jelly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/jellyjelly-usdt-swap"
+  },
+  "JNJ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "johnson-and-johnson",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/jnj-usdt-swap"
+  },
+  "JPM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "jpmorgan-chase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/jpm-usdt-swap"
   },
   "JTO-USDT-SWAP": {
     "exchange": "perp",
@@ -531,6 +1413,90 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/kaito-usdt-swap"
   },
+  "KAT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "katana-network-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/kat-usdt-swap"
+  },
+  "KGEN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "kgen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/kgen-usdt-swap"
+  },
+  "KII-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "kiichain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/kii-usdt-swap"
+  },
+  "KITE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "kite",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/kite-usdt-swap"
+  },
+  "KLAC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "kla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/klac-usdt-swap"
+  },
+  "KMNO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "kamino",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/kmno-usdt-swap"
+  },
+  "KO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "coca-cola",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ko-usdt-swap"
+  },
+  "KORU-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/koru-usdt-swap"
+  },
+  "KSM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "kusama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ksm-usdt-swap"
+  },
+  "KSTR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "kraneshares-star-50-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/kstr-usdt-swap"
+  },
+  "LA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "lagrange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/la-usdt-swap"
+  },
+  "LAB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/lab-usdt-swap"
+  },
   "LAYER-USDT-SWAP": {
     "exchange": "perp",
     "base": "solayer",
@@ -544,6 +1510,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/ldo-usdt-swap"
+  },
+  "LIGHT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "bitlight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/light-usdt-swap"
   },
   "LINEA-USDT-SWAP": {
     "exchange": "perp",
@@ -573,6 +1546,41 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/lit-usdt-swap"
   },
+  "LITE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "lumentum-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/lite-usdt-swap"
+  },
+  "LLY-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "eli-lilly",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/lly-usdt-swap"
+  },
+  "LPT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "livepeer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/lpt-usdt-swap"
+  },
+  "LQTY-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "liquity",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/lqty-usdt-swap"
+  },
+  "LRCX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "lam-research",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/lrcx-usdt-swap"
+  },
   "LTC-USD-SWAP": {
     "exchange": "perp",
     "base": "litecoin",
@@ -586,6 +1594,27 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/ltc-usdt-swap"
+  },
+  "LUNA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "terra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/luna-usdt-swap"
+  },
+  "LYTE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "roundhill-photonics-optics-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/lyte-usdt-swap"
+  },
+  "MAGIC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "magic",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/magic-usdt-swap"
   },
   "MANA-USDT-SWAP": {
     "exchange": "perp",
@@ -608,12 +1637,68 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/me-usdt-swap"
   },
+  "MEGA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "megaeth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/mega-usdt-swap"
+  },
+  "MEME-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "memecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/meme-usdt-swap"
+  },
+  "MERL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "merlin-chain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/merl-usdt-swap"
+  },
+  "MET-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "meteora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/met-usdt-swap"
+  },
   "META-USDT-SWAP": {
     "exchange": "perp",
     "base": "meta-platforms",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/meta-usdt-swap"
+  },
+  "METIS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "metis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/metis-usdt-swap"
+  },
+  "MEW-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "cat-in-a-dogs-world",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/mew-usdt-swap"
+  },
+  "MINA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "mina-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/mina-usdt-swap"
+  },
+  "MMT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "momentum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/mmt-usdt-swap"
   },
   "MON-USDT-SWAP": {
     "exchange": "perp",
@@ -622,12 +1707,61 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/mon-usdt-swap"
   },
+  "MOODENG-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "moo-deng",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/moodeng-usdt-swap"
+  },
   "MORPHO-USDT-SWAP": {
     "exchange": "perp",
     "base": "morpho",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/morpho-usdt-swap"
+  },
+  "MOVE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "movement",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/move-usdt-swap"
+  },
+  "MP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "mp-materials",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/mp-usdt-swap"
+  },
+  "MPWR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "monolithic-power-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/mpwr-usdt-swap"
+  },
+  "MRK-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "merck-and-co",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/mrk-usdt-swap"
+  },
+  "MRNA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "moderna",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/mrna-usdt-swap"
+  },
+  "MRVL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "marvell-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/mrvl-usdt-swap"
   },
   "MSFT-USDT-SWAP": {
     "exchange": "perp",
@@ -643,6 +1777,27 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/mstr-usdt-swap"
   },
+  "MU-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/mu-usdt-swap"
+  },
+  "MUBARAK-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "mubarak",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/mubarak-usdt-swap"
+  },
+  "NBIS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "nebius-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/nbis-usdt-swap"
+  },
   "NEAR-USDT-SWAP": {
     "exchange": "perp",
     "base": "near",
@@ -657,12 +1812,61 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/neo-usdt-swap"
   },
+  "NES-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "nesa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/nes-usdt-swap"
+  },
+  "NET-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "cloudflare",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/net-usdt-swap"
+  },
+  "NFLX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "netflix",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/nflx-usdt-swap"
+  },
   "NG-USDT-SWAP": {
     "exchange": "perp",
     "base": "natural-gas",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/ng-usdt-swap"
+  },
+  "NIGHT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "midnight",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/night-usdt-swap"
+  },
+  "NKE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "nike",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/nke-usdt-swap"
+  },
+  "NMR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "numeraire",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/nmr-usdt-swap"
+  },
+  "NOK-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "nokia-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/nok-usdt-swap"
   },
   "NOT-USDT-SWAP": {
     "exchange": "perp",
@@ -671,12 +1875,33 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/not-usdt-swap"
   },
+  "NOW-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "servicenow",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/now-usdt-swap"
+  },
   "NVDA-USDT-SWAP": {
     "exchange": "perp",
     "base": "nvidia",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/nvda-usdt-swap"
+  },
+  "NVO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "novo-nordisk-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/nvo-usdt-swap"
+  },
+  "O-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "o1-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/o-usdt-swap"
   },
   "OKB-USDT-SWAP": {
     "exchange": "perp",
@@ -685,12 +1910,26 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/okb-usdt-swap"
   },
+  "OKLO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "oklo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/oklo-usdt-swap"
+  },
   "ONDO-USDT-SWAP": {
     "exchange": "perp",
     "base": "ondo",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/ondo-usdt-swap"
+  },
+  "ONDS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ondas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/onds-usdt-swap"
   },
   "OP-USDT-SWAP": {
     "exchange": "perp",
@@ -699,12 +1938,61 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/op-usdt-swap"
   },
+  "OPG-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "opengradient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/opg-usdt-swap"
+  },
+  "OPN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "opinion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/opn-usdt-swap"
+  },
+  "ORCL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "oracle",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/orcl-usdt-swap"
+  },
+  "ORDER-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "orderly-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/order-usdt-swap"
+  },
   "ORDI-USDT-SWAP": {
     "exchange": "perp",
     "base": "ordi",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/ordi-usdt-swap"
+  },
+  "OURA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "oura-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/oura-usdt-swap"
+  },
+  "PANW-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "palo-alto-networks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/panw-usdt-swap"
+  },
+  "PARTI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "particle-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/parti-usdt-swap"
   },
   "PENDLE-USDT-SWAP": {
     "exchange": "perp",
@@ -713,12 +2001,26 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/pendle-usdt-swap"
   },
+  "PENG-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "penguin-solutions",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/peng-usdt-swap"
+  },
   "PENGU-USDT-SWAP": {
     "exchange": "perp",
     "base": "pudgy-penguins",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/pengu-usdt-swap"
+  },
+  "PEOPLE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "constitutiondao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/people-usdt-swap"
   },
   "PEPE-USDT-SWAP": {
     "exchange": "perp",
@@ -734,6 +2036,27 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/pi-usdt-swap"
   },
+  "PIEVERSE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "pieverse",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/pieverse-usdt-swap"
+  },
+  "PLTR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "palantir-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/pltr-usdt-swap"
+  },
+  "PLUME-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "plume",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/plume-usdt-swap"
+  },
   "PNUT-USDT-SWAP": {
     "exchange": "perp",
     "base": "peanut-the-squirrel",
@@ -748,12 +2071,47 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/pol-usdt-swap"
   },
+  "PONS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "pons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/pons-usdt-swap"
+  },
+  "POPCAT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "popcat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/popcat-usdt-swap"
+  },
+  "PROS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "pharos-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/pros-usdt-swap"
+  },
+  "PROVE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "succinct",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/prove-usdt-swap"
+  },
   "PUMP-USDT-SWAP": {
     "exchange": "perp",
     "base": "pump",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/pump-usdt-swap"
+  },
+  "PURR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "hyperliquid-strategies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/purr-usdt-swap"
   },
   "PYTH-USDT-SWAP": {
     "exchange": "perp",
@@ -762,12 +2120,47 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/pyth-usdt-swap"
   },
+  "QCOM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "qualcomm",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/qcom-usdt-swap"
+  },
   "QNT-USDT-SWAP": {
     "exchange": "perp",
     "base": "quant",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/qnt-usdt-swap"
+  },
+  "QQQ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/qqq-usdt-swap"
+  },
+  "QTUM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "qtum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/qtum-usdt-swap"
+  },
+  "QUANT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "quant",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/quant-usdt-swap"
+  },
+  "RAVE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ravedao",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/rave-usdt-swap"
   },
   "RAY-USDT-SWAP": {
     "exchange": "perp",
@@ -776,12 +2169,96 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/ray-usdt-swap"
   },
+  "RDDT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "reddit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/rddt-usdt-swap"
+  },
+  "RE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "re",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/re-usdt-swap"
+  },
+  "RECALL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "recall",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/recall-usdt-swap"
+  },
   "RENDER-USDT-SWAP": {
     "exchange": "perp",
     "base": "render",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/render-usdt-swap"
+  },
+  "RESOLV-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "resolv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/resolv-usdt-swap"
+  },
+  "RIVER-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "river",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/river-usdt-swap"
+  },
+  "RIVN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "rivian-automotive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/rivn-usdt-swap"
+  },
+  "RKLB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "rocket-lab",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/rklb-usdt-swap"
+  },
+  "RLS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "rayls",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/rls-usdt-swap"
+  },
+  "ROBO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "fabric-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/robo-usdt-swap"
+  },
+  "RSR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "reserve-rights-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/rsr-usdt-swap"
+  },
+  "RUM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "rum-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/rum-usdt-swap"
+  },
+  "RVN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ravencoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/rvn-usdt-swap"
   },
   "S-USDT-SWAP": {
     "exchange": "perp",
@@ -790,12 +2267,40 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/s-usdt-swap"
   },
+  "SAHARA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sahara-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/sahara-usdt-swap"
+  },
   "SAND-USDT-SWAP": {
     "exchange": "perp",
     "base": "the-sandbox",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/sand-usdt-swap"
+  },
+  "SAPIEN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sapien",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/sapien-usdt-swap"
+  },
+  "SATS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sats-ordinals",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/sats-usdt-swap"
+  },
+  "SECZ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "securitize",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/secz-usdt-swap"
   },
   "SEI-USDT-SWAP": {
     "exchange": "perp",
@@ -804,12 +2309,47 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/sei-usdt-swap"
   },
+  "SENT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sentient",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/sent-usdt-swap"
+  },
+  "SHAZ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sharonai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/shaz-usdt-swap"
+  },
   "SHIB-USDT-SWAP": {
     "exchange": "perp",
     "base": "shiba-inu",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/shib-usdt-swap"
+  },
+  "SHOP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "shopify",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/shop-usdt-swap"
+  },
+  "SIGN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sign-global",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/sign-usdt-swap"
+  },
+  "SKHY-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sk-hynix-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/skhy-usdt-swap"
   },
   "SKY-USDT-SWAP": {
     "exchange": "perp",
@@ -818,12 +2358,47 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/sky-usdt-swap"
   },
+  "SLX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "solstice",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/slx-usdt-swap"
+  },
+  "SMCI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "super-micro-computer",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/smci-usdt-swap"
+  },
+  "SMH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "vaneck-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/smh-usdt-swap"
+  },
+  "SNDK-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/sndk-usdt-swap"
+  },
   "SNX-USDT-SWAP": {
     "exchange": "perp",
     "base": "synthetix",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/snx-usdt-swap"
+  },
+  "SNXX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "tradr-2x-long-sndk-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/snxx-usdt-swap"
   },
   "SOL-USD-SWAP": {
     "exchange": "perp",
@@ -838,6 +2413,97 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/sol-usdt-swap"
+  },
+  "SOON-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "soon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/soon-usdt-swap"
+  },
+  "SOPH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sophon",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/soph-usdt-swap"
+  },
+  "SOXL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/soxl-usdt-swap"
+  },
+  "SOXS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/soxs-usdt-swap"
+  },
+  "SPACE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "spacecoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/space-usdt-swap"
+  },
+  "SPCX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/spcx-usdt-swap"
+  },
+  "SPK-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "spark",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/spk-usdt-swap"
+  },
+  "SPX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "spx6900",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/spx-usdt-swap"
+  },
+  "SPY-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/spy-usdt-swap"
+  },
+  "SQQQ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "proshares-ultrapro-short-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/sqqq-usdt-swap"
+  },
+  "SSV-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ssv-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ssv-usdt-swap"
+  },
+  "STABLE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "stable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/stable-usdt-swap"
+  },
+  "STRC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "strategy-stretch-preferred-stock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/strc-usdt-swap"
   },
   "STRK-USDT-SWAP": {
     "exchange": "perp",
@@ -867,6 +2533,13 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/sui-usdt-swap"
   },
+  "SUSHI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sushi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/sushi-usdt-swap"
+  },
   "SYRUP-USDT-SWAP": {
     "exchange": "perp",
     "base": "syrup",
@@ -880,6 +2553,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/tao-usdt-swap"
+  },
+  "TER-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "teradyne",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ter-usdt-swap"
   },
   "THETA-USDT-SWAP": {
     "exchange": "perp",
@@ -895,6 +2575,20 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/tia-usdt-swap"
   },
+  "TLT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ishares-20-year-treasury-bond-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/tlt-usdt-swap"
+  },
+  "TQQQ-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "proshares-ultrapro-qqq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/tqqq-usdt-swap"
+  },
   "TRB-USDT-SWAP": {
     "exchange": "perp",
     "base": "tellor",
@@ -902,12 +2596,33 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/trb-usdt-swap"
   },
+  "TRIA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "tria",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/tria-usdt-swap"
+  },
   "TRUMP-USDT-SWAP": {
     "exchange": "perp",
     "base": "official-trump",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/trump-usdt-swap"
+  },
+  "TRUST-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "intuition",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/trust-usdt-swap"
+  },
+  "TRUTH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "swarm-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/truth-usdt-swap"
   },
   "TRX-USDT-SWAP": {
     "exchange": "perp",
@@ -923,12 +2638,61 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/tsla-usdt-swap"
   },
+  "TSM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "taiwan-semiconductor-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/tsm-usdt-swap"
+  },
+  "TTWO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "take-two-interactive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ttwo-usdt-swap"
+  },
+  "TURBO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "turbo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/turbo-usdt-swap"
+  },
+  "TWST-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "twist-bioscience",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/twst-usdt-swap"
+  },
+  "TXN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "texas-instruments",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/txn-usdt-swap"
+  },
+  "UB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "unibase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ub-usdt-swap"
+  },
   "UMA-USDT-SWAP": {
     "exchange": "perp",
     "base": "uma",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/uma-usdt-swap"
+  },
+  "UNH-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "unitedhealth-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/unh-usdt-swap"
   },
   "UNI-USD-SWAP": {
     "exchange": "perp",
@@ -944,12 +2708,47 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/uni-usdt-swap"
   },
+  "URNM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "sprott-uranium-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/urnm-usdt-swap"
+  },
+  "USAR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "usa-rare-earth",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/usar-usdt-swap"
+  },
   "USDC-USDT-SWAP": {
     "exchange": "perp",
     "base": "usd-coin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/usdc-usdt-swap"
+  },
+  "USELESS-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "useless-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/useless-usdt-swap"
+  },
+  "UVXY-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "proshares-ultra-vix-short-term-futures-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/uvxy-usdt-swap"
+  },
+  "V-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "visa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/v-usdt-swap"
   },
   "VANA-USDT-SWAP": {
     "exchange": "perp",
@@ -958,12 +2757,26 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/vana-usdt-swap"
   },
+  "VICR-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "vicor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/vicr-usdt-swap"
+  },
   "VIRTUAL-USDT-SWAP": {
     "exchange": "perp",
     "base": "virtuals-protocol",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/virtual-usdt-swap"
+  },
+  "VST-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "vistra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/vst-usdt-swap"
   },
   "VVV-USDT-SWAP": {
     "exchange": "perp",
@@ -978,6 +2791,41 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/w-usdt-swap"
+  },
+  "WAL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "walrus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/wal-usdt-swap"
+  },
+  "WCT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "walletconnect",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/wct-usdt-swap"
+  },
+  "WDC-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "western-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/wdc-usdt-swap"
+  },
+  "WEN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "wendys",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/wen-usdt-swap"
+  },
+  "WET-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "humidifi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/wet-usdt-swap"
   },
   "WIF-USDT-SWAP": {
     "exchange": "perp",
@@ -1000,6 +2848,20 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/wlfi-usdt-swap"
   },
+  "WMT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "walmart",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/wmt-usdt-swap"
+  },
+  "WOO-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "woo-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/woo-usdt-swap"
+  },
   "XAG-USDT-SWAP": {
     "exchange": "perp",
     "base": "silver",
@@ -1014,6 +2876,34 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/xau-usdt-swap"
   },
+  "XBI-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "spdr-sp-biotech-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/xbi-usdt-swap"
+  },
+  "XCU-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "copper",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/xcu-usdt-swap"
+  },
+  "XDP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "doppler-finance",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/xdp-usdt-swap"
+  },
+  "XLE-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "energy-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/xle-usdt-swap"
+  },
   "XLM-USDT-SWAP": {
     "exchange": "perp",
     "base": "stellar",
@@ -1021,12 +2911,33 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/xlm-usdt-swap"
   },
+  "XOM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "exxon-mobil",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/xom-usdt-swap"
+  },
+  "XPD-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "palladium",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/xpd-usdt-swap"
+  },
   "XPL-USDT-SWAP": {
     "exchange": "perp",
     "base": "plasma",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/xpl-usdt-swap"
+  },
+  "XPT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "platinum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/xpt-usdt-swap"
   },
   "XRP-USD-SWAP": {
     "exchange": "perp",
@@ -1049,12 +2960,40 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/xtz-usdt-swap"
   },
+  "YB-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "yield-basis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/yb-usdt-swap"
+  },
   "YFI-USDT-SWAP": {
     "exchange": "perp",
     "base": "yearn-finance",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/yfi-usdt-swap"
+  },
+  "YGG-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "yield-guild-games",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/ygg-usdt-swap"
+  },
+  "ZAMA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "zama",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/zama-usdt-swap"
+  },
+  "ZBT-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "zerobase",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/zbt-usdt-swap"
   },
   "ZEC-USDT-SWAP": {
     "exchange": "perp",
@@ -1063,6 +3002,27 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/zec-usdt-swap"
   },
+  "ZEN-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "horizen",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/zen-usdt-swap"
+  },
+  "ZETA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "zetachain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/zeta-usdt-swap"
+  },
+  "ZIL-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "zilliqa",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/zil-usdt-swap"
+  },
   "ZK-USDT-SWAP": {
     "exchange": "perp",
     "base": "zksync",
@@ -1070,11 +3030,39 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/zk-usdt-swap"
   },
+  "ZKP-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "zkpass",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/zkp-usdt-swap"
+  },
+  "ZM-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "zoom-communications",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/zm-usdt-swap"
+  },
+  "ZORA-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "zora",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/zora-usdt-swap"
+  },
   "ZRO-USDT-SWAP": {
     "exchange": "perp",
     "base": "layer-zero",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/zro-usdt-swap"
+  },
+  "ZRX-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "0x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/zrx-usdt-swap"
   }
 }
