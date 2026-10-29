@@ -1,0 +1,21 @@
+{
+  "id": "vale-adr",
+  "display_name": "Vale ADR",
+  "symbol": "VALE",
+  "category": "stock",
+  "tags": [
+    "ADR"
+  ],
+  "about": {
+    "en": "Vale S.A. is a Brazilian mining company and one of the largest producers of iron ore and nickel, also operating copper mining and rail and port logistics. VALE represents its American depositary shares listed on the New York Stock Exchange, each equal to one common share, distinct from the common shares listed on B3 in São Paulo as VALE3."
+  },
+  "urls": {
+    "Website": "https://vale.com/",
+    "Investor Relations": "https://vale.com/investors"
+  },
+  "external": {
+    "yahoo": "VALE",
+    "twelvedata": "VALE",
+    "alphavantage": "stock:VALE"
+  }
+}

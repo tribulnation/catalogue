@@ -1,0 +1,22 @@
+{
+  "id": "toyota-motor-adr",
+  "display_name": "Toyota Motor ADR",
+  "symbol": "TM",
+  "category": "stock",
+  "tags": [
+    "ADR"
+  ],
+  "about": {
+    "en": "Toyota Motor Corporation is a Japanese automaker that builds passenger cars, commercial vehicles and hybrid, battery-electric and fuel-cell vehicles under the Toyota and Lexus brands. TM represents its American depositary shares listed on the New York Stock Exchange, each equal to ten common shares, distinct from the common shares listed in Tokyo as 7203."
+  },
+  "urls": {
+    "Website": "https://global.toyota/en/",
+    "Investor Relations": "https://global.toyota/en/ir/"
+  },
+  "external": {
+    "yahoo": "TM",
+    "twelvedata": "TM",
+    "alphavantage": "stock:TM"
+  },
+  "icon": "icons/asset/toyota-motor.svg"
+}
