@@ -1,0 +1,21 @@
+{
+  "id": "vara-network",
+  "display_name": "Vara Network",
+  "symbol": "VARA",
+  "category": "crypto",
+  "tags": [
+    "L1"
+  ],
+  "about": {
+    "en": "VARA is the native coin of Vara Network, a standalone Substrate-based Layer 1 and the first network built on the Gear Protocol, which runs WebAssembly smart-contract programs using an actor model with persistent memory. VARA pays fees and secures the chain through nominated proof of stake; an ERC-20 representation (0xB67010F2246814e5c39593ac23A925D9e9d7E5aD) circulates on Ethereum."
+  },
+  "urls": {
+    "Website": "https://vara.network/",
+    "Gear Protocol": "https://gear-tech.io/",
+    "Source code": "https://github.com/gear-tech"
+  },
+  "external": {
+    "coingecko": "vara-network",
+    "coinmarketcap": "28067"
+  }
+}
