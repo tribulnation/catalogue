@@ -3843,5 +3843,362 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.asterdex.com/en/trade/pro/futures/XTENUSDT"
+  },
+  "4USDT": {
+    "exchange": "perp",
+    "base": "4-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/4USDT"
+  },
+  "AEONUSDT": {
+    "exchange": "perp",
+    "base": "aeon-xyz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/AEONUSDT"
+  },
+  "AIAUSDT": {
+    "exchange": "perp",
+    "base": "deagentai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/AIAUSDT"
+  },
+  "AIOTUSDT": {
+    "exchange": "perp",
+    "base": "okzoo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/AIOTUSDT"
+  },
+  "ARGUSUSDT": {
+    "exchange": "perp",
+    "base": "argus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ARGUSUSDT"
+  },
+  "ATUSDT": {
+    "exchange": "perp",
+    "base": "apro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ATUSDT"
+  },
+  "BANKUSDT": {
+    "exchange": "perp",
+    "base": "lorenzo-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/BANKUSDT"
+  },
+  "BASECATUSDT": {
+    "exchange": "perp",
+    "base": "basecat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/BASECATUSDT"
+  },
+  "BONERUSDT": {
+    "exchange": "perp",
+    "base": "boner-coin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/BONERUSDT"
+  },
+  "BREWUSDT": {
+    "exchange": "perp",
+    "base": "brew",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/BREWUSDT"
+  },
+  "BULLAUSDT": {
+    "exchange": "perp",
+    "base": "bulla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/BULLAUSDT"
+  },
+  "CATEUSDT": {
+    "exchange": "perp",
+    "base": "catecoin-cate-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/CATEUSDT"
+  },
+  "COAIUSDT": {
+    "exchange": "perp",
+    "base": "chainopera-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/COAIUSDT"
+  },
+  "COLLECTUSDT": {
+    "exchange": "perp",
+    "base": "collect-on-fanable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/COLLECTUSDT"
+  },
+  "DELTAUSDT": {
+    "exchange": "perp",
+    "base": "delta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/DELTAUSDT"
+  },
+  "FLORKUSDT": {
+    "exchange": "perp",
+    "base": "flork-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/FLORKUSDT"
+  },
+  "FONEUSDT": {
+    "exchange": "perp",
+    "base": "apeonfone",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/FONEUSDT"
+  },
+  "GENIUSUSDT": {
+    "exchange": "perp",
+    "base": "genius-terminal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/GENIUSUSDT"
+  },
+  "GUAUSDT": {
+    "exchange": "perp",
+    "base": "superfortune",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/GUAUSDT"
+  },
+  "IDOLUSDT": {
+    "exchange": "perp",
+    "base": "meet48",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/IDOLUSDT"
+  },
+  "LYNUSDT": {
+    "exchange": "perp",
+    "base": "everlyn",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/LYNUSDT"
+  },
+  "MANTRAUSDT": {
+    "exchange": "perp",
+    "base": "mantra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/MANTRAUSDT"
+  },
+  "MARSCOINUSDT": {
+    "exchange": "perp",
+    "base": "marscoin-bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/MARSCOINUSDT"
+  },
+  "MUUUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-mu-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/MUUUSDT"
+  },
+  "NAORISUSDT": {
+    "exchange": "perp",
+    "base": "naoris-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/NAORISUSDT"
+  },
+  "ONEUSDT": {
+    "exchange": "perp",
+    "base": "harmony",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ONEUSDT"
+  },
+  "ONGUSDT": {
+    "exchange": "perp",
+    "base": "ontology-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ONGUSDT"
+  },
+  "ONTUSDT": {
+    "exchange": "perp",
+    "base": "ontology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ONTUSDT"
+  },
+  "ONUSDT": {
+    "exchange": "perp",
+    "base": "orochi-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ONUSDT"
+  },
+  "PAIDUSDT": {
+    "exchange": "perp",
+    "base": "usepaid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/PAIDUSDT"
+  },
+  "PAIRUSDT": {
+    "exchange": "perp",
+    "base": "pair-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/PAIRUSDT"
+  },
+  "PIPPINUSDT": {
+    "exchange": "perp",
+    "base": "pippin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/PIPPINUSDT"
+  },
+  "PODUSDT": {
+    "exchange": "perp",
+    "base": "dolphin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/PODUSDT"
+  },
+  "POWERUSDT": {
+    "exchange": "perp",
+    "base": "power-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/POWERUSDT"
+  },
+  "PREDICTUSDT": {
+    "exchange": "perp",
+    "base": "predict-fun",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/PREDICTUSDT"
+  },
+  "RIFUSDT": {
+    "exchange": "perp",
+    "base": "rootstock-infrastructure-framework",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/RIFUSDT"
+  },
+  "SHELLUSDT": {
+    "exchange": "perp",
+    "base": "myshell",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/SHELLUSDT"
+  },
+  "SHROOMUSDT": {
+    "exchange": "perp",
+    "base": "mushroom-shroom-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/SHROOMUSDT"
+  },
+  "SIRENUSDT": {
+    "exchange": "perp",
+    "base": "siren-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/SIRENUSDT"
+  },
+  "SIUSDT": {
+    "exchange": "perp",
+    "base": "super-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/SIUSDT"
+  },
+  "SKYAIUSDT": {
+    "exchange": "perp",
+    "base": "skyai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/SKYAIUSDT"
+  },
+  "STONKSUSDT": {
+    "exchange": "perp",
+    "base": "stonks-bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/STONKSUSDT"
+  },
+  "TSTUSDT": {
+    "exchange": "perp",
+    "base": "test-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/TSTUSDT"
+  },
+  "UPUSDT": {
+    "exchange": "perp",
+    "base": "unitas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/UPUSDT"
+  },
+  "ZCATUSDT": {
+    "exchange": "perp",
+    "base": "anonymous-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/ZCATUSDT"
+  },
+  "哈基米USDT": {
+    "exchange": "perp",
+    "base": "hajimi",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/哈基米USDT"
+  },
+  "币安人生USDT": {
+    "exchange": "perp",
+    "base": "bianrensheng",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/币安人生USDT"
+  },
+  "我踏马来了USDT": {
+    "exchange": "perp",
+    "base": "wo-ta-ma-lai-le",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/我踏马来了USDT"
+  },
+  "牛来USDT": {
+    "exchange": "perp",
+    "base": "niu-lai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/牛来USDT"
+  },
+  "龙虾USDT": {
+    "exchange": "perp",
+    "base": "lobster-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/龙虾USDT"
+  },
+  "MOONSHOTUSD1": {
+    "exchange": "perp",
+    "base": "moonshot-ai",
+    "quote": "usd1",
+    "settlement": "usd1",
+    "url": "https://www.asterdex.com/en/trade/pro/futures/MOONSHOTUSD1"
   }
 }
