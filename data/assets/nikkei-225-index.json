@@ -1,0 +1,17 @@
+{
+  "id": "nikkei-225-index",
+  "display_name": "Nikkei 225 Index",
+  "symbol": "N225",
+  "tags": [
+    "Index"
+  ],
+  "about": {
+    "en": "The Nikkei Stock Average (Nikkei 225) is a price-weighted index of 225 large companies listed on the Prime Market of the Tokyo Stock Exchange, calculated and published by Nikkei Inc. in Japanese yen index points. Crypto venues list perpetuals on it under tickers such as JP225. It is an index reference, not a token, fund share or redeemable basket."
+  },
+  "urls": {
+    "Website": "https://indexes.nikkei.co.jp/en/nkave/index/profile?idx=nk225"
+  },
+  "external": {
+    "yahoo": "^N225"
+  }
+}
