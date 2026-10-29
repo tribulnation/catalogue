@@ -695,6 +695,12 @@
     "quote": "whitebit-coin",
     "url": "https://whitebit.com/trade/BCH_WBT"
   },
+  "BEAM_USDT": {
+    "exchange": "spot",
+    "base": "onbeam",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/BEAM_USDT"
+  },
   "BERA_EUR": {
     "exchange": "spot",
     "base": "berachain",
@@ -1114,6 +1120,12 @@
     "base": "dia-data",
     "quote": "tether",
     "url": "https://whitebit.com/trade/DIA_USDT"
+  },
+  "DODO_USDT": {
+    "exchange": "spot",
+    "base": "dodo",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/DODO_USDT"
   },
   "DOGE_BTC": {
     "exchange": "spot",
@@ -1997,6 +2009,12 @@
     "quote": "tether",
     "url": "https://whitebit.com/trade/JASMY_USDT"
   },
+  "JOE_USDT": {
+    "exchange": "spot",
+    "base": "joe",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/JOE_USDT"
+  },
   "JST_BTC": {
     "exchange": "spot",
     "base": "just",
@@ -2363,6 +2381,24 @@
     "quote": "tether",
     "url": "https://whitebit.com/trade/MANTA_USDT"
   },
+  "MANTRA_EUR": {
+    "exchange": "spot",
+    "base": "mantra",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/MANTRA_EUR"
+  },
+  "MANTRA_USDC": {
+    "exchange": "spot",
+    "base": "mantra",
+    "quote": "usd-coin",
+    "url": "https://whitebit.com/trade/MANTRA_USDC"
+  },
+  "MANTRA_USDT": {
+    "exchange": "spot",
+    "base": "mantra",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MANTRA_USDT"
+  },
   "MASK_USDC": {
     "exchange": "spot",
     "base": "mask-network",
@@ -2446,6 +2482,12 @@
     "base": "mina-protocol",
     "quote": "tether",
     "url": "https://whitebit.com/trade/MINA_USDT"
+  },
+  "MIRA_USDT": {
+    "exchange": "spot",
+    "base": "mira-network",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/MIRA_USDT"
   },
   "MMT_USDT": {
     "exchange": "spot",
@@ -2668,6 +2710,12 @@
     "base": "ondo",
     "quote": "tether",
     "url": "https://whitebit.com/trade/ONDO_USDT"
+  },
+  "ONT_USDT": {
+    "exchange": "spot",
+    "base": "ontology",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/ONT_USDT"
   },
   "OPEN_USDT": {
     "exchange": "spot",
@@ -3251,6 +3299,18 @@
     "quote": "tether",
     "url": "https://whitebit.com/trade/SENT_USDT"
   },
+  "SHELL_EUR": {
+    "exchange": "spot",
+    "base": "myshell",
+    "quote": "euro",
+    "url": "https://whitebit.com/trade/SHELL_EUR"
+  },
+  "SHELL_USDT": {
+    "exchange": "spot",
+    "base": "myshell",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SHELL_USDT"
+  },
   "SHIB_EUR": {
     "exchange": "spot",
     "base": "shiba-inu",
@@ -3292,6 +3352,12 @@
     "base": "sign-global",
     "quote": "tether",
     "url": "https://whitebit.com/trade/SIGN_USDT"
+  },
+  "SKL_USDT": {
+    "exchange": "spot",
+    "base": "skale",
+    "quote": "tether",
+    "url": "https://whitebit.com/trade/SKL_USDT"
   },
   "SKY_BTC": {
     "exchange": "spot",

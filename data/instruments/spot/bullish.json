@@ -29,6 +29,12 @@
     "quote": "euro-coin",
     "url": "https://exchange.bullish.com/trade/BTCEURC"
   },
+  "BTCEURCV": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "societe-generale-forge-eurcv",
+    "url": "https://exchange.bullish.com/trade/BTCEURCV"
+  },
   "BTCFIDD": {
     "exchange": "spot",
     "base": "bitcoin",
@@ -119,6 +125,12 @@
     "quote": "euro",
     "url": "https://exchange.bullish.com/trade/ETHEUR"
   },
+  "ETHEURCV": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "societe-generale-forge-eurcv",
+    "url": "https://exchange.bullish.com/trade/ETHEURCV"
+  },
   "ETHFIDD": {
     "exchange": "spot",
     "base": "ethereum",
@@ -160,6 +172,12 @@
     "base": "euro-coin",
     "quote": "usd-coin",
     "url": "https://exchange.bullish.com/trade/EURCUSDC"
+  },
+  "EURCVUSDC": {
+    "exchange": "spot",
+    "base": "societe-generale-forge-eurcv",
+    "quote": "usd-coin",
+    "url": "https://exchange.bullish.com/trade/EURCVUSDC"
   },
   "EURRLUSD": {
     "exchange": "spot",
@@ -341,6 +359,12 @@
     "quote": "euro",
     "url": "https://exchange.bullish.com/trade/SOLEUR"
   },
+  "SOLEURCV": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "societe-generale-forge-eurcv",
+    "url": "https://exchange.bullish.com/trade/SOLEURCV"
+  },
   "SOLRLUSD": {
     "exchange": "spot",
     "base": "solana",
@@ -460,6 +484,12 @@
     "base": "xrp",
     "quote": "euro",
     "url": "https://exchange.bullish.com/trade/XRPEUR"
+  },
+  "XRPEURCV": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "societe-generale-forge-eurcv",
+    "url": "https://exchange.bullish.com/trade/XRPEURCV"
   },
   "XRPRLUSD": {
     "exchange": "spot",

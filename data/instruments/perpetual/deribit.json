@@ -982,5 +982,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://www.deribit.com/futures/SOXS_USDC-PERPETUAL"
+  },
+  "ANTH_USDC-PERPETUAL": {
+    "exchange": "perp",
+    "base": "anthropic",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.deribit.com/futures/ANTH_USDC-PERPETUAL"
   }
 }

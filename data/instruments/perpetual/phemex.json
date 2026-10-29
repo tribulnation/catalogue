@@ -76,6 +76,20 @@
     "settlement": "tether",
     "url": "https://phemex.com/futures/trade/AMDUSDT"
   },
+  "ANETUSDT": {
+    "exchange": "perp",
+    "base": "arista-networks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/ANETUSDT"
+  },
+  "APLDUSDT": {
+    "exchange": "perp",
+    "base": "applied-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/APLDUSDT"
+  },
   "ARBUSDT": {
     "exchange": "perp",
     "base": "arbitrum",
@@ -153,6 +167,13 @@
     "settlement": "tether",
     "url": "https://phemex.com/futures/trade/CAKEUSDT"
   },
+  "COPPERUSDT": {
+    "exchange": "perp",
+    "base": "copper",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/COPPERUSDT"
+  },
   "CRCLUSDT": {
     "exchange": "perp",
     "base": "circle-internet-group",
@@ -187,6 +208,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://phemex.com/futures/trade/DISUSDT"
+  },
+  "DJTUSDT": {
+    "exchange": "perp",
+    "base": "trump-media-technology-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/DJTUSDT"
   },
   "DOGEUSDT": {
     "exchange": "perp",
@@ -391,6 +419,20 @@
     "settlement": "tether",
     "url": "https://phemex.com/futures/trade/LTCUSDT"
   },
+  "MARAUSDT": {
+    "exchange": "perp",
+    "base": "mara-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/MARAUSDT"
+  },
+  "MARSCOINUSDT": {
+    "exchange": "perp",
+    "base": "marscoin-bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/MARSCOINUSDT"
+  },
   "METAUSDT": {
     "exchange": "perp",
     "base": "meta-platforms",
@@ -425,6 +467,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://phemex.com/futures/trade/MSTRUSDT"
+  },
+  "MVLLUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-mrvl-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/MVLLUSDT"
   },
   "NBISUSDT": {
     "exchange": "perp",
@@ -545,6 +594,13 @@
     "settlement": "tether",
     "url": "https://phemex.com/futures/trade/QQQUSDT"
   },
+  "RAMUSDT": {
+    "exchange": "perp",
+    "base": "roundhill-t-rex-2x-long-dram-daily-target-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/RAMUSDT"
+  },
   "RENDERUSDT": {
     "exchange": "perp",
     "base": "render",
@@ -566,12 +622,26 @@
     "settlement": "tether",
     "url": "https://phemex.com/futures/trade/SANDUSDT"
   },
+  "SKDDUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-short-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/SKDDUSDT"
+  },
   "SKHYUSDT": {
     "exchange": "perp",
     "base": "sk-hynix-adr",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://phemex.com/futures/trade/SKHYUSDT"
+  },
+  "SKUUUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/SKUUUSDT"
   },
   "SMCIUSDT": {
     "exchange": "perp",
@@ -629,6 +699,13 @@
     "settlement": "tether",
     "url": "https://phemex.com/futures/trade/SPCXUSDT"
   },
+  "SPYXUSDT": {
+    "exchange": "perp",
+    "base": "sp500-xstock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/SPYXUSDT"
+  },
   "STRKUSDT": {
     "exchange": "perp",
     "base": "starknet",
@@ -670,6 +747,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://phemex.com/futures/trade/TAOUSDT"
+  },
+  "TEMUSDT": {
+    "exchange": "perp",
+    "base": "tempus-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://phemex.com/futures/trade/TEMUSDT"
   },
   "TRUMPUSDT": {
     "exchange": "perp",
