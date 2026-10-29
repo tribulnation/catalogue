@@ -1,0 +1,17 @@
+{
+  "id": "pumpbtc-governance-token",
+  "display_name": "PumpBTC Governance Token",
+  "symbol": "PUMP",
+  "category": "crypto",
+  "about": {
+    "en": "PumpBTC is a Bitcoin liquid-staking protocol built on Babylon that issues pumpBTC for staked BTC. PUMP is its governance token, the ERC-20/BEP-20 token at 0xB7C0007ab75350c582d5eAb1862b872B5cF53F0C on Ethereum and BNB Chain, which venues list under the PUMPBTC ticker. It is not pumpBTC, the BTC-backed staking receipt, and is unrelated to Pump.fun's PUMP."
+  },
+  "urls": {
+    "Website": "https://mainnet.pumpbtc.xyz/",
+    "Source code": "https://github.com/pumpbtc/pumpBTC-contract"
+  },
+  "external": {
+    "coingecko": "pumpbtc-2",
+    "coinmarketcap": "36166"
+  }
+}
