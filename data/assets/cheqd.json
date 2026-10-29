@@ -1,0 +1,18 @@
+{
+  "id": "cheqd",
+  "display_name": "cheqd",
+  "symbol": "CHEQ",
+  "category": "crypto",
+  "about": {
+    "en": "cheqd is a Cosmos SDK blockchain for self-sovereign identity and verifiable credentials, with a payment layer that lets issuers charge for credential verification. CHEQ is the network's native staking, governance and fee token (base denomination ncheq), and is also bridged to Ethereum as an ERC-20 at 0x70EDF1c215D0ce69E7F16FD4E6276ba0d99d4de7 and to Osmosis over IBC."
+  },
+  "urls": {
+    "Website": "https://cheqd.io/",
+    "Documentation": "https://docs.cheqd.io/product",
+    "Source code": "https://github.com/cheqd/cheqd-node"
+  },
+  "external": {
+    "coingecko": "cheqd-network",
+    "coinmarketcap": "12256"
+  }
+}
