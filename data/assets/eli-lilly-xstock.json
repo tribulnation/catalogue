@@ -1,0 +1,23 @@
+{
+  "id": "eli-lilly-xstock",
+  "display_name": "Eli Lilly xStock",
+  "symbol": "LLYx",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "Eli Lilly xStock (LLYx) is a tokenized tracker certificate on Eli Lilly and Company shares, issued by Backed under the xStocks brand. Each token is backed 1:1 by LLY shares held with qualified custodians and tracks the share price on-chain on Solana (Xsnuv4omNoHozR6EEW5mXkw8Nrny5rB3jVfLqi6gKMH), Ethereum, BNB Chain and Arbitrum (0x19c41ea77b34bbdee61c3a87a75d1abda2ed0be4) and other networks. xStocks are offered to non-US investors and carry a claim to the value of the underlying stock, not the share itself."
+  },
+  "urls": {
+    "Website": "https://xstocks.com/",
+    "Product page": "https://assets.backed.fi/products/eli-lilly-xstock"
+  },
+  "external": {
+    "coingecko": "eli-lilly-xstock",
+    "coinmarketcap": "37038"
+  },
+  "pegged_to": {
+    "asset": "eli-lilly"
+  }
+}
