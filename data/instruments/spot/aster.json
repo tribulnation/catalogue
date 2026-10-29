@@ -280,5 +280,53 @@
     "base": "bitway",
     "quote": "tether",
     "url": "https://www.asterdex.com/en/trade/pro/spot/BTWUSDT"
+  },
+  "4USDT": {
+    "exchange": "spot",
+    "base": "4-bsc",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/4USDT"
+  },
+  "ARTXUSDT": {
+    "exchange": "spot",
+    "base": "ultiland",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/ARTXUSDT"
+  },
+  "ATUSDT": {
+    "exchange": "spot",
+    "base": "apro",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/ATUSDT"
+  },
+  "AVLUSDT": {
+    "exchange": "spot",
+    "base": "avalon-labs",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/AVLUSDT"
+  },
+  "BANKUSDT": {
+    "exchange": "spot",
+    "base": "lorenzo-protocol",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/BANKUSDT"
+  },
+  "GUAUSDT": {
+    "exchange": "spot",
+    "base": "superfortune",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/GUAUSDT"
+  },
+  "SKYAIUSDT": {
+    "exchange": "spot",
+    "base": "skyai",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/SKYAIUSDT"
+  },
+  "UPUSDT": {
+    "exchange": "spot",
+    "base": "unitas",
+    "quote": "tether",
+    "url": "https://www.asterdex.com/en/trade/pro/spot/UPUSDT"
   }
 }
