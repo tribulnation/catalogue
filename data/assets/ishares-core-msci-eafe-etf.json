@@ -1,0 +1,20 @@
+{
+  "id": "ishares-core-msci-eafe-etf",
+  "display_name": "iShares Core MSCI EAFE ETF",
+  "symbol": "IEFA",
+  "category": "fund",
+  "tags": [
+    "ETF"
+  ],
+  "about": {
+    "en": "IEFA is the iShares Core MSCI EAFE ETF, sponsored by BlackRock, an exchange-traded fund designed to track the MSCI EAFE IMI Index of large-, mid- and small-capitalization equities in developed markets outside the US and Canada. Each share represents an interest in the fund's portfolio, with the foreign-currency exposure embedded in its USD price."
+  },
+  "icon": "icons/asset/ishares-core-sp-500-etf.svg",
+  "urls": {
+    "Website": "https://www.ishares.com/us/products/244049/ishares-core-msci-eafe-etf"
+  },
+  "external": {
+    "yahoo": "IEFA",
+    "twelvedata": "IEFA"
+  }
+}
