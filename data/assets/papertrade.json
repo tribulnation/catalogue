@@ -1,0 +1,21 @@
+{
+  "id": "papertrade",
+  "display_name": "Papertrade",
+  "symbol": "PAPER",
+  "category": "crypto",
+  "about": {
+    "en": "PAPER is the native token of Papertrade, an on-chain synthetic perpetuals exchange on Hyperliquid with one-click high-leverage trading against a self-bootstrapping liquidity pool. Staked PAPER earns a share of protocol revenue, and new PAPER is minted to traders on losing closes and liquidations. It is the HyperEVM token 0xe40f17915daa230324030003a197cdaef2261c0e."
+  },
+  "tags": [
+    "DeFi",
+    "Hyperliquid"
+  ],
+  "urls": {
+    "Website": "https://papertrade.xyz/",
+    "Documentation": "https://docs.papertrade.xyz/"
+  },
+  "external": {
+    "coingecko": "paper-2",
+    "coinmarketcap": "42610"
+  }
+}
