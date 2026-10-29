@@ -1,0 +1,23 @@
+{
+  "id": "minotari",
+  "display_name": "MinoTari",
+  "symbol": "XTM",
+  "category": "crypto",
+  "about": {
+    "en": "MinoTari (XTM) is the native coin of the Tari base layer, a proof-of-work Layer 1 blockchain written in Rust by the Tari Project, with Mimblewimble-based confidential transactions and merge mining with Monero. XTM is the coin on Tari's own chain; Wrapped MinoTari (wXTM), the ERC-20 bridged to Ethereum, is a separate token."
+  },
+  "tags": [
+    "L1",
+    "PoW",
+    "Privacy"
+  ],
+  "urls": {
+    "Website": "https://tari.com/",
+    "Source code": "https://github.com/tari-project",
+    "Documentation": "https://rfc.tari.com/"
+  },
+  "external": {
+    "coingecko": "minotari",
+    "coinmarketcap": "4258"
+  }
+}

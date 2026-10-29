@@ -1,0 +1,22 @@
+{
+  "id": "alephium",
+  "display_name": "Alephium",
+  "symbol": "ALPH",
+  "category": "crypto",
+  "tags": [
+    "L1",
+    "PoW"
+  ],
+  "about": {
+    "en": "Alephium is a sharded layer-1 blockchain that combines proof-of-work consensus and a UTXO-based model with smart contracts, run by the Alephium project. ALPH is the native coin of its mainnet, used for transaction fees and mining rewards; bridged ERC-20 and BEP-20 representations exist on Ethereum and BNB Smart Chain."
+  },
+  "urls": {
+    "Website": "https://alephium.org/",
+    "Documentation": "https://docs.alephium.org/",
+    "Whitepaper": "https://github.com/alephium/white-paper"
+  },
+  "external": {
+    "coingecko": "alephium",
+    "coinmarketcap": "14878"
+  }
+}

@@ -139,6 +139,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/4STOCKUSDT"
   },
+  "4USDT": {
+    "exchange": "perp",
+    "base": "4-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/4USDT"
+  },
   "AAOIUSDT": {
     "exchange": "perp",
     "base": "applied-optoelectronics",
@@ -173,6 +180,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/AAVEUSDT"
+  },
+  "ABBVUSDT": {
+    "exchange": "perp",
+    "base": "abbvie",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ABBVUSDT"
   },
   "ACEUSDT": {
     "exchange": "perp",
@@ -237,6 +251,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/ADBEUSDT"
   },
+  "AEONUSDT": {
+    "exchange": "perp",
+    "base": "aeon-xyz",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AEONUSDT"
+  },
   "AEROUSDT": {
     "exchange": "perp",
     "base": "aerodrome",
@@ -265,12 +286,26 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/AGPUUSDT"
   },
+  "AIAUSDT": {
+    "exchange": "perp",
+    "base": "deagentai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AIAUSDT"
+  },
   "AINUSDT": {
     "exchange": "perp",
     "base": "infinity-ground",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/AINUSDT"
+  },
+  "AIOTUSDT": {
+    "exchange": "perp",
+    "base": "okzoo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/AIOTUSDT"
   },
   "AIOUSDT": {
     "exchange": "perp",
@@ -377,6 +412,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/AMZNUSDT"
   },
+  "ANETUSDT": {
+    "exchange": "perp",
+    "base": "arista-networks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ANETUSDT"
+  },
   "ANIMEUSDT": {
     "exchange": "perp",
     "base": "animecoin",
@@ -411,6 +453,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/API3USDT"
+  },
+  "APLDUSDT": {
+    "exchange": "perp",
+    "base": "applied-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/APLDUSDT"
   },
   "APPUSDT": {
     "exchange": "perp",
@@ -503,6 +552,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/ASMLUSDT"
   },
+  "ASRUSDT": {
+    "exchange": "perp",
+    "base": "as-roma-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ASRUSDT"
+  },
   "ASTERUSDT": {
     "exchange": "perp",
     "base": "aster",
@@ -537,6 +593,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/ATOMUSDT"
+  },
+  "ATUSDT": {
+    "exchange": "perp",
+    "base": "apro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ATUSDT"
   },
   "AUCTIONUSDT": {
     "exchange": "perp",
@@ -692,6 +755,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/BANDUSDT"
   },
+  "BANKUSDT": {
+    "exchange": "perp",
+    "base": "lorenzo-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BANKUSDT"
+  },
   "BANUSDT": {
     "exchange": "perp",
     "base": "comedian",
@@ -811,6 +881,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/BIRBUSDT"
   },
+  "BITOUSDT": {
+    "exchange": "perp",
+    "base": "proshares-bitcoin-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BITOUSDT"
+  },
   "BLENDUSDT": {
     "exchange": "perp",
     "base": "fluent-network",
@@ -916,6 +993,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/BREVUSDT"
   },
+  "BROCCOLIUSDT": {
+    "exchange": "perp",
+    "base": "czs-dog",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BROCCOLIUSDT"
+  },
   "BRUSDT": {
     "exchange": "perp",
     "base": "bedrock",
@@ -929,6 +1013,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/BSBUSDT"
+  },
+  "BSPUSDT": {
+    "exchange": "perp",
+    "base": "bending-spoons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/BSPUSDT"
   },
   "BSVUSDT": {
     "exchange": "perp",
@@ -1133,6 +1224,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/CHZUSDT"
   },
+  "CIENUSDT": {
+    "exchange": "perp",
+    "base": "ciena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CIENUSDT"
+  },
   "CKBUSDT": {
     "exchange": "perp",
     "base": "nervos-network",
@@ -1161,6 +1259,20 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/CLUSDT"
   },
+  "CNPYUSDT": {
+    "exchange": "perp",
+    "base": "canopy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CNPYUSDT"
+  },
+  "COAIUSDT": {
+    "exchange": "perp",
+    "base": "chainopera-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/COAIUSDT"
+  },
   "COHRUSDT": {
     "exchange": "perp",
     "base": "coherent-corp",
@@ -1174,6 +1286,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/COINUSDT"
+  },
+  "COLLECTUSDT": {
+    "exchange": "perp",
+    "base": "collect-on-fanable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/COLLECTUSDT"
   },
   "COMPUSDT": {
     "exchange": "perp",
@@ -1259,6 +1378,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/CRMUSDT"
   },
+  "CROSSUSDT": {
+    "exchange": "perp",
+    "base": "onechain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CROSSUSDT"
+  },
   "CROUSDT": {
     "exchange": "perp",
     "base": "cronos",
@@ -1286,6 +1412,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/CSCOUSDT"
+  },
+  "CTKUSDT": {
+    "exchange": "perp",
+    "base": "shentu",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/CTKUSDT"
   },
   "CTRUSDT": {
     "exchange": "perp",
@@ -1364,6 +1497,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/DASHUSDT"
   },
+  "DDOGUSDT": {
+    "exchange": "perp",
+    "base": "datadog",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DDOGUSDT"
+  },
   "DEEPUSDT": {
     "exchange": "perp",
     "base": "deep",
@@ -1405,6 +1545,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/DISUSDT"
+  },
+  "DJTUSDT": {
+    "exchange": "perp",
+    "base": "trump-media-technology-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/DJTUSDT"
   },
   "DKNGUSDT": {
     "exchange": "perp",
@@ -1546,6 +1693,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/EGLDUSDT"
   },
+  "EIDOUSDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-indonesia-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EIDOUSDT"
+  },
   "EIGENUSDT": {
     "exchange": "perp",
     "base": "eigen-layer",
@@ -1594,6 +1748,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/ENSUSDT"
+  },
+  "EQTUSDT": {
+    "exchange": "perp",
+    "base": "eqt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/EQTUSDT"
   },
   "ERAUSDT": {
     "exchange": "perp",
@@ -1756,6 +1917,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/FILUSDT"
   },
+  "FLEXUSDT": {
+    "exchange": "perp",
+    "base": "flex-ltd",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FLEXUSDT"
+  },
   "FLNCUSDT": {
     "exchange": "perp",
     "base": "fluence-energy",
@@ -1776,6 +1944,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/FLOWUSDT"
+  },
+  "FLUIDUSDT": {
+    "exchange": "perp",
+    "base": "fluid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/FLUIDUSDT"
   },
   "FOGOUSDT": {
     "exchange": "perp",
@@ -1839,6 +2014,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/GASUSDT"
+  },
+  "GDXUSDT": {
+    "exchange": "perp",
+    "base": "vaneck-gold-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GDXUSDT"
+  },
+  "GENIUSUSDT": {
+    "exchange": "perp",
+    "base": "genius-terminal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GENIUSUSDT"
   },
   "GEVUSDT": {
     "exchange": "perp",
@@ -1959,6 +2148,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/GTLBUSDT"
   },
+  "GUAUSDT": {
+    "exchange": "perp",
+    "base": "superfortune",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/GUAUSDT"
+  },
   "GUNUSDT": {
     "exchange": "perp",
     "base": "gunz",
@@ -2036,6 +2232,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/HIMSUSDT"
   },
+  "HIVEUSDT": {
+    "exchange": "perp",
+    "base": "hive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HIVEUSDT"
+  },
   "HMSTRUSDT": {
     "exchange": "perp",
     "base": "hamster-kombat",
@@ -2056,6 +2259,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/HOMEUSDT"
+  },
+  "HOODUSDT": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HOODUSDT"
+  },
+  "HOTUSDT": {
+    "exchange": "perp",
+    "base": "holo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/HOTUSDT"
   },
   "HPEUSDT": {
     "exchange": "perp",
@@ -2099,6 +2316,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/HYPEUSDT"
   },
+  "IBKRUSDT": {
+    "exchange": "perp",
+    "base": "interactive-brokers-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IBKRUSDT"
+  },
   "IBMUSDT": {
     "exchange": "perp",
     "base": "international-business-machines",
@@ -2119,6 +2343,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/ICPUSDT"
+  },
+  "IDOLUSDT": {
+    "exchange": "perp",
+    "base": "meet48",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/IDOLUSDT"
   },
   "IDUSDT": {
     "exchange": "perp",
@@ -2141,6 +2372,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/IMXUSDT"
   },
+  "INFQUSDT": {
+    "exchange": "perp",
+    "base": "infleqtion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/INFQUSDT"
+  },
   "INITUSDT": {
     "exchange": "perp",
     "base": "initia",
@@ -2161,6 +2399,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/INTCUSDT"
+  },
+  "INTWUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-intc-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/INTWUSDT"
   },
   "INUSDT": {
     "exchange": "perp",
@@ -2252,6 +2497,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/JELLYJELLYUSDT"
+  },
+  "JOEUSDT": {
+    "exchange": "perp",
+    "base": "joe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/JOEUSDT"
   },
   "JPMUSDT": {
     "exchange": "perp",
@@ -2533,6 +2785,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/LUMIAUSDT"
   },
+  "LYNUSDT": {
+    "exchange": "perp",
+    "base": "everlyn",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/LYNUSDT"
+  },
   "LYTEUSDT": {
     "exchange": "perp",
     "base": "roundhill-photonics-optics-etf",
@@ -2568,6 +2827,27 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/MANTAUSDT"
   },
+  "MANTRAUSDT": {
+    "exchange": "perp",
+    "base": "mantra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MANTRAUSDT"
+  },
+  "MARAUSDT": {
+    "exchange": "perp",
+    "base": "mara-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MARAUSDT"
+  },
+  "MARSCOINUSDT": {
+    "exchange": "perp",
+    "base": "marscoin-bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MARSCOINUSDT"
+  },
   "MASKUSDT": {
     "exchange": "perp",
     "base": "mask-network",
@@ -2588,6 +2868,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/MAVUSDT"
+  },
+  "MCDUSDT": {
+    "exchange": "perp",
+    "base": "mcdonalds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MCDUSDT"
   },
   "MDBUSDT": {
     "exchange": "perp",
@@ -2666,6 +2953,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/MINAUSDT"
   },
+  "MIRAUSDT": {
+    "exchange": "perp",
+    "base": "mira-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MIRAUSDT"
+  },
   "MMTUSDT": {
     "exchange": "perp",
     "base": "momentum",
@@ -2700,6 +2994,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/MOODENGUSDT"
+  },
+  "MOONSHOTUSDT": {
+    "exchange": "perp",
+    "base": "moonshot-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MOONSHOTUSDT"
   },
   "MORPHOUSDT": {
     "exchange": "perp",
@@ -2764,6 +3065,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/MSTRUSDT"
   },
+  "MSTUUSDT": {
+    "exchange": "perp",
+    "base": "t-rex-2x-long-mstr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MSTUUSDT"
+  },
   "MTLUSDT": {
     "exchange": "perp",
     "base": "metal",
@@ -2792,12 +3100,33 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/MUUSDT"
   },
+  "MUUUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-mu-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MUUUSDT"
+  },
+  "MVLLUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-mrvl-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/MVLLUSDT"
+  },
   "MYXUSDT": {
     "exchange": "perp",
     "base": "myx-finance",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/MYXUSDT"
+  },
+  "NAORISUSDT": {
+    "exchange": "perp",
+    "base": "naoris-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NAORISUSDT"
   },
   "NATGASUSDT": {
     "exchange": "perp",
@@ -2918,6 +3247,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/NVDAUSDT"
   },
+  "NVDLUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-nvda-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/NVDLUSDT"
+  },
   "NVOUSDT": {
     "exchange": "perp",
     "base": "novo-nordisk-adr",
@@ -2938,6 +3274,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/OGNUSDT"
+  },
+  "OGUSDT": {
+    "exchange": "perp",
+    "base": "og-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/OGUSDT"
   },
   "OKBUSDT": {
     "exchange": "perp",
@@ -2966,6 +3309,34 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/ONDSUSDT"
+  },
+  "ONEUSDT": {
+    "exchange": "perp",
+    "base": "harmony",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ONEUSDT"
+  },
+  "ONGUSDT": {
+    "exchange": "perp",
+    "base": "ontology-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ONGUSDT"
+  },
+  "ONTUSDT": {
+    "exchange": "perp",
+    "base": "ontology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ONTUSDT"
+  },
+  "ONUSDT": {
+    "exchange": "perp",
+    "base": "orochi-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/ONUSDT"
   },
   "OPENUSDT": {
     "exchange": "perp",
@@ -3022,6 +3393,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/ORDIUSDT"
+  },
+  "OURAUSDT": {
+    "exchange": "perp",
+    "base": "oura-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/OURAUSDT"
   },
   "OUSDT": {
     "exchange": "perp",
@@ -3107,6 +3485,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/PIEVERSEUSDT"
   },
+  "PIPPINUSDT": {
+    "exchange": "perp",
+    "base": "pippin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PIPPINUSDT"
+  },
   "PIUSDT": {
     "exchange": "perp",
     "base": "pi",
@@ -3177,12 +3562,26 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/PORTALUSDT"
   },
+  "POWERUSDT": {
+    "exchange": "perp",
+    "base": "power-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/POWERUSDT"
+  },
   "POWRUSDT": {
     "exchange": "perp",
     "base": "power-ledger",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/POWRUSDT"
+  },
+  "PREDICTUSDT": {
+    "exchange": "perp",
+    "base": "predict-fun",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PREDICTUSDT"
   },
   "PRLUSDT": {
     "exchange": "perp",
@@ -3211,6 +3610,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/PUNDIXUSDT"
+  },
+  "PYPLUSDT": {
+    "exchange": "perp",
+    "base": "paypal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/PYPLUSDT"
   },
   "PYTHUSDT": {
     "exchange": "perp",
@@ -3254,6 +3660,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/QUSDT"
   },
+  "RAMUSDT": {
+    "exchange": "perp",
+    "base": "roundhill-t-rex-2x-long-dram-daily-target-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RAMUSDT"
+  },
   "RAREUSDT": {
     "exchange": "perp",
     "base": "superrare",
@@ -3281,6 +3694,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/RDDTUSDT"
+  },
+  "RDWUSDT": {
+    "exchange": "perp",
+    "base": "redwire",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RDWUSDT"
   },
   "RECALLUSDT": {
     "exchange": "perp",
@@ -3323,6 +3743,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/REZUSDT"
+  },
+  "RIFUSDT": {
+    "exchange": "perp",
+    "base": "rootstock-infrastructure-framework",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/RIFUSDT"
   },
   "RIVERUSDT": {
     "exchange": "perp",
@@ -3478,6 +3905,20 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/SHAZUSDT"
   },
+  "SHELLUSDT": {
+    "exchange": "perp",
+    "base": "myshell",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SHELLUSDT"
+  },
+  "SHLDUSDT": {
+    "exchange": "perp",
+    "base": "global-x-defense-tech-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SHLDUSDT"
+  },
   "SHOPUSDT": {
     "exchange": "perp",
     "base": "shopify",
@@ -3492,6 +3933,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/SIGNUSDT"
   },
+  "SKDDUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-short-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SKDDUSDT"
+  },
   "SKHYUSDT": {
     "exchange": "perp",
     "base": "sk-hynix-adr",
@@ -3499,12 +3947,33 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/SKHYUSDT"
   },
+  "SKLUSDT": {
+    "exchange": "perp",
+    "base": "skale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SKLUSDT"
+  },
   "SKRUSDT": {
     "exchange": "perp",
     "base": "seeker",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/SKRUSDT"
+  },
+  "SKUUUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SKUUUSDT"
+  },
+  "SKYAIUSDT": {
+    "exchange": "perp",
+    "base": "skyai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SKYAIUSDT"
   },
   "SKYUSDT": {
     "exchange": "perp",
@@ -3548,6 +4017,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/SNDKUSDT"
   },
+  "SNOWUSDT": {
+    "exchange": "perp",
+    "base": "snowflake",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SNOWUSDT"
+  },
   "SNPSUSDT": {
     "exchange": "perp",
     "base": "synopsys",
@@ -3568,6 +4044,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/SNXXUSDT"
+  },
+  "SOFIUSDT": {
+    "exchange": "perp",
+    "base": "sofi-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SOFIUSDT"
   },
   "SOLUSD": {
     "exchange": "perp",
@@ -3610,6 +4093,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/SONICUSDT"
+  },
+  "SONYUSDT": {
+    "exchange": "perp",
+    "base": "sony-group-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/SONYUSDT"
   },
   "SOONUSDT": {
     "exchange": "perp",
@@ -3722,6 +4212,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/STEEMUSDT"
+  },
+  "STMUSDT": {
+    "exchange": "perp",
+    "base": "stmicroelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/STMUSDT"
   },
   "STOUSDT": {
     "exchange": "perp",
@@ -3870,6 +4367,34 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/TAUSDT"
   },
+  "TBTUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultrashort-20-year-treasury",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TBTUSDT"
+  },
+  "TEAMUSDT": {
+    "exchange": "perp",
+    "base": "atlassian",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TEAMUSDT"
+  },
+  "TEMUSDT": {
+    "exchange": "perp",
+    "base": "tempus-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TEMUSDT"
+  },
+  "TERUSDT": {
+    "exchange": "perp",
+    "base": "teradyne",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TERUSDT"
+  },
   "THETAUSDT": {
     "exchange": "perp",
     "base": "theta-token",
@@ -3897,6 +4422,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/TLMUSDT"
+  },
+  "TMFUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-20-year-treasury-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TMFUSDT"
   },
   "TNSRUSDT": {
     "exchange": "perp",
@@ -3989,12 +4521,26 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/TSLAUSDT"
   },
+  "TSLLUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-tsla-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TSLLUSDT"
+  },
   "TSMUSDT": {
     "exchange": "perp",
     "base": "taiwan-semiconductor-adr",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/TSMUSDT"
+  },
+  "TSTUSDT": {
+    "exchange": "perp",
+    "base": "test-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TSTUSDT"
   },
   "TTWOUSDT": {
     "exchange": "perp",
@@ -4052,6 +4598,13 @@
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/TXNUSDT"
   },
+  "TZAUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-small-cap-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/TZAUSDT"
+  },
   "UAIUSDT": {
     "exchange": "perp",
     "base": "unifai-network",
@@ -4100,6 +4653,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/UNIUSDT"
+  },
+  "UPUSDT": {
+    "exchange": "perp",
+    "base": "unitas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/UPUSDT"
   },
   "URNMUSDT": {
     "exchange": "perp",
@@ -4184,6 +4744,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/VKTXUSDT"
+  },
+  "VRTUSDT": {
+    "exchange": "perp",
+    "base": "vertiv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/VRTUSDT"
   },
   "VSTUSDT": {
     "exchange": "perp",
@@ -4457,6 +5024,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitunix.com/contract-trade/XTZUSDT"
+  },
+  "XVSUSDT": {
+    "exchange": "perp",
+    "base": "venus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitunix.com/contract-trade/XVSUSDT"
   },
   "YBUSDT": {
     "exchange": "perp",

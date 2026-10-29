@@ -1,0 +1,22 @@
+{
+  "id": "usd-coinvertible",
+  "display_name": "USD CoinVertible",
+  "symbol": "USDCV",
+  "category": "stablecoin",
+  "tags": [
+    "USD"
+  ],
+  "about": {
+    "en": "USD CoinVertible (USDCV) is a US-dollar stablecoin issued by Societe Generale-FORGE, the digital-assets subsidiary of the Societe Generale banking group. It is fully collateralised, redeemable 1:1 for US dollars and issued under MiCA as an e-money token, on Ethereum at 0x5422374B27757da72d5265cC745ea906E0446634 and on Solana and Canton."
+  },
+  "urls": {
+    "Website": "https://www.sgforge.com/product/coinvertible/"
+  },
+  "external": {
+    "coingecko": "usd-coinvertible",
+    "coinmarketcap": "37180"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  }
+}

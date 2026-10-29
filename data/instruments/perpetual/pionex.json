@@ -17,6 +17,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "4_USDT_PERP": {
+    "exchange": "perp",
+    "base": "4-bsc",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "AAPLX_USDT_PERP": {
     "exchange": "perp",
     "base": "apple-xstock",
@@ -68,6 +74,12 @@
   "AGT_USDT_PERP": {
     "exchange": "perp",
     "base": "alaya-ai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "AIA_USDT_PERP": {
+    "exchange": "perp",
+    "base": "deagentai",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -293,6 +305,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "BANK_USDT_PERP": {
+    "exchange": "perp",
+    "base": "lorenzo-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "BAN_USDT_PERP": {
     "exchange": "perp",
     "base": "comedian",
@@ -413,6 +431,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "BROCCOLI_USDT_PERP": {
+    "exchange": "perp",
+    "base": "czs-dog",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "BR_USDT_PERP": {
     "exchange": "perp",
     "base": "bedrock",
@@ -446,6 +470,12 @@
   "BTW_USDT_PERP": {
     "exchange": "perp",
     "base": "bitway",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BULLA_USDT_PERP": {
+    "exchange": "perp",
+    "base": "bulla",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -539,9 +569,21 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "COAI_USDT_PERP": {
+    "exchange": "perp",
+    "base": "chainopera-ai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "COINX_USDT_PERP": {
     "exchange": "perp",
     "base": "coinbase-xstock",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "COLLECT_USDT_PERP": {
+    "exchange": "perp",
+    "base": "collect-on-fanable",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -572,6 +614,12 @@
   "CRCLX_USDT_PERP": {
     "exchange": "perp",
     "base": "circle-xstock",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "CROSS_USDT_PERP": {
+    "exchange": "perp",
+    "base": "onechain",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -620,6 +668,12 @@
   "DNA_USDT_PERP": {
     "exchange": "perp",
     "base": "neosoul",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DODO_USDT_PERP": {
+    "exchange": "perp",
+    "base": "dodo",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -809,6 +863,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "FLUID_USDT_PERP": {
+    "exchange": "perp",
+    "base": "fluid",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "FOGO_USDT_PERP": {
     "exchange": "perp",
     "base": "fogo",
@@ -836,6 +896,12 @@
   "GAS_USDT_PERP": {
     "exchange": "perp",
     "base": "neo-gas",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GENIUS_USDT_PERP": {
+    "exchange": "perp",
+    "base": "genius-terminal",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -944,6 +1010,12 @@
   "HOME_USDT_PERP": {
     "exchange": "perp",
     "base": "defi-app",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "HOODX_USDT_PERP": {
+    "exchange": "perp",
+    "base": "robinhood-xstock",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1193,6 +1265,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "LYN_USDT_PERP": {
+    "exchange": "perp",
+    "base": "everlyn",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "MAGIC_USDT_PERP": {
     "exchange": "perp",
     "base": "magic",
@@ -1214,6 +1292,18 @@
   "MANTA_USDT_PERP": {
     "exchange": "perp",
     "base": "manta-network",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MANTRA_USDT_PERP": {
+    "exchange": "perp",
+    "base": "mantra",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MARSCOIN_USDT_PERP": {
+    "exchange": "perp",
+    "base": "marscoin-bnb",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1295,6 +1385,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "MOONSHOT_USDT_PERP": {
+    "exchange": "perp",
+    "base": "moonshot-ai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "MOVE_USDT_PERP": {
     "exchange": "perp",
     "base": "movement",
@@ -1328,6 +1424,12 @@
   "MYX_USDT_PERP": {
     "exchange": "perp",
     "base": "myx-finance",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "NAORIS_USDT_PERP": {
+    "exchange": "perp",
+    "base": "naoris-protocol",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1400,6 +1502,24 @@
   "ONDO_USDT_PERP": {
     "exchange": "perp",
     "base": "ondo",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ONG_USDT_PERP": {
+    "exchange": "perp",
+    "base": "ontology-gas",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ONT_USDT_PERP": {
+    "exchange": "perp",
+    "base": "ontology",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ON_USDT_PERP": {
+    "exchange": "perp",
+    "base": "orochi-network",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1493,6 +1613,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "PIPPIN_USDT_PERP": {
+    "exchange": "perp",
+    "base": "pippin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "PIXEL_USDT_PERP": {
     "exchange": "perp",
     "base": "pixels",
@@ -1553,6 +1679,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "POWER_USDT_PERP": {
+    "exchange": "perp",
+    "base": "power-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "POWR_USDT_PERP": {
     "exchange": "perp",
     "base": "power-ledger",
@@ -1586,6 +1718,12 @@
   "QNT_USDT_PERP": {
     "exchange": "perp",
     "base": "quant",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "QQQX_USDT_PERP": {
+    "exchange": "perp",
+    "base": "nasdaq-xstock",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1640,6 +1778,12 @@
   "RE_USDT_PERP": {
     "exchange": "perp",
     "base": "re",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "RIF_USDT_PERP": {
+    "exchange": "perp",
+    "base": "rootstock-infrastructure-framework",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1721,9 +1865,21 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "SKL_USDT_PERP": {
+    "exchange": "perp",
+    "base": "skale",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "SKR_USDT_PERP": {
     "exchange": "perp",
     "base": "seeker",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SKYAI_USDT_PERP": {
+    "exchange": "perp",
+    "base": "skyai",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1790,6 +1946,12 @@
   "SPX_USDT_PERP": {
     "exchange": "perp",
     "base": "spx6900",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SPYX_USDT_PERP": {
+    "exchange": "perp",
+    "base": "sp500-xstock",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1967,6 +2129,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "TST_USDT_PERP": {
+    "exchange": "perp",
+    "base": "test-bsc",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "TURBO_USDT_PERP": {
     "exchange": "perp",
     "base": "turbo",
@@ -2000,6 +2168,12 @@
   "UNI_USDT_PERP": {
     "exchange": "perp",
     "base": "uniswap",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "UP_USDT_PERP": {
+    "exchange": "perp",
+    "base": "unitas",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -2177,6 +2351,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "XVG_USDT_PERP": {
+    "exchange": "perp",
+    "base": "verge",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "YFI_USDT_PERP": {
     "exchange": "perp",
     "base": "yearn-finance",
@@ -2258,6 +2438,36 @@
   "ZRX_USDT_PERP": {
     "exchange": "perp",
     "base": "0x",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "哈基米_USDT_PERP": {
+    "exchange": "perp",
+    "base": "hajimi",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "币安人生_USDT_PERP": {
+    "exchange": "perp",
+    "base": "bianrensheng",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "我踏马来了_USDT_PERP": {
+    "exchange": "perp",
+    "base": "wo-ta-ma-lai-le",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "牛来_USDT_PERP": {
+    "exchange": "perp",
+    "base": "niu-lai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "龙虾_USDT_PERP": {
+    "exchange": "perp",
+    "base": "lobster-bsc",
     "quote": "tether",
     "settlement": "tether"
   }

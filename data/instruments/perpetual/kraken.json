@@ -1881,5 +1881,33 @@
     "quote": "usd",
     "settlement": "usd",
     "url": "https://futures.kraken.com/trade/futures/PF_ZENUSD"
+  },
+  "PF_HOODXUSD": {
+    "exchange": "perp",
+    "base": "robinhood-xstock",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_HOODXUSD"
+  },
+  "PF_ONTUSD": {
+    "exchange": "perp",
+    "base": "ontology",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_ONTUSD"
+  },
+  "PF_QQQXUSD": {
+    "exchange": "perp",
+    "base": "nasdaq-xstock",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_QQQXUSD"
+  },
+  "PF_SPYXUSD": {
+    "exchange": "perp",
+    "base": "sp500-xstock",
+    "quote": "usd",
+    "settlement": "usd",
+    "url": "https://futures.kraken.com/trade/futures/PF_SPYXUSD"
   }
 }

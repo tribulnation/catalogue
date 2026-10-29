@@ -1,0 +1,18 @@
+{
+  "id": "usdc-is-cool",
+  "display_name": "usdc is cool",
+  "symbol": "COOL",
+  "category": "crypto",
+  "tags": [
+    "Meme"
+  ],
+  "about": {
+    "en": "usdc is cool (COOL) is a memecoin launched through the TOLLY launchpad on Arc, Circle's USDC-gas blockchain. The token contract at 0xeb64987643db71c76b2a2be7e723decc995e5b37 reads symbol() COOL and name() usdc is cool on chain; as with every TOLLY launch, its supply sits in permanently locked liquidity and each trade pays a 1% fee split between the creator, holder rewards and the protocol. It has no utility beyond its community and is unrelated to USDC itself."
+  },
+  "urls": {
+    "Launch page": "https://tollylabs.com/token/0xeb64987643db71c76b2a2be7e723decc995e5b37"
+  },
+  "external": {
+    "coingecko": "usdc-is-cool"
+  }
+}

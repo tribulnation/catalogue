@@ -35,6 +35,12 @@
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/ACH_USDT/Bot"
   },
+  "ACM_USDT": {
+    "exchange": "spot",
+    "base": "ac-milan-fan-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ACM_USDT/Bot"
+  },
   "ADA_BTC": {
     "exchange": "spot",
     "base": "cardano",
@@ -131,6 +137,12 @@
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/AR_USDT/Bot"
   },
+  "ASR_USDT": {
+    "exchange": "spot",
+    "base": "as-roma-fan-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ASR_USDT/Bot"
+  },
   "ASTER_USDT": {
     "exchange": "spot",
     "base": "aster",
@@ -190,6 +202,12 @@
     "base": "vaulta",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/A_USDT/Bot"
+  },
+  "BAR_USDT": {
+    "exchange": "spot",
+    "base": "fc-barcelona-fan-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/BAR_USDT/Bot"
   },
   "BAT_USDT": {
     "exchange": "spot",
@@ -311,6 +329,12 @@
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/CHZ_USDT/Bot"
   },
+  "CITY_USDT": {
+    "exchange": "spot",
+    "base": "manchester-city-fan-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CITY_USDT/Bot"
+  },
   "CKB_USDT": {
     "exchange": "spot",
     "base": "nervos-network",
@@ -358,6 +382,12 @@
     "base": "casper",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/CSPR_USDT/Bot"
+  },
+  "CTK_USDT": {
+    "exchange": "spot",
+    "base": "shentu",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/CTK_USDT/Bot"
   },
   "CTSI_USDT": {
     "exchange": "spot",
@@ -412,6 +442,12 @@
     "base": "dia-data",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/DIA_USDT/Bot"
+  },
+  "DODO_USDT": {
+    "exchange": "spot",
+    "base": "dodo",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/DODO_USDT/Bot"
   },
   "DOGE_BTC": {
     "exchange": "spot",
@@ -635,11 +671,23 @@
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/IO_USDT/Bot"
   },
+  "IQ_USDT": {
+    "exchange": "spot",
+    "base": "everipedia",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/IQ_USDT/Bot"
+  },
   "JASMY_USDT": {
     "exchange": "spot",
     "base": "jasmycoin",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/JASMY_USDT/Bot"
+  },
+  "JOE_USDT": {
+    "exchange": "spot",
+    "base": "joe",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/JOE_USDT/Bot"
   },
   "JTO_USDT": {
     "exchange": "spot",
@@ -652,6 +700,12 @@
     "base": "jupiter",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/JUP_USDT/Bot"
+  },
+  "JUV_USDT": {
+    "exchange": "spot",
+    "base": "juventus-fan-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/JUV_USDT/Bot"
   },
   "KAS_USDT": {
     "exchange": "spot",
@@ -670,6 +724,12 @@
     "base": "kusama",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/KSM_USDT/Bot"
+  },
+  "LAZIO_USDT": {
+    "exchange": "spot",
+    "base": "lazio-fan-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/LAZIO_USDT/Bot"
   },
   "LDO_USDT": {
     "exchange": "spot",
@@ -761,6 +821,12 @@
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/MAV_USDT/Bot"
   },
+  "MBL_USDT": {
+    "exchange": "spot",
+    "base": "moviebloc",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/MBL_USDT/Bot"
+  },
   "MEME_USDT": {
     "exchange": "spot",
     "base": "memecoin",
@@ -827,6 +893,12 @@
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/OGN_USDT/Bot"
   },
+  "OG_USDT": {
+    "exchange": "spot",
+    "base": "og-fan-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/OG_USDT/Bot"
+  },
   "OKB_USDT": {
     "exchange": "spot",
     "base": "okb",
@@ -838,6 +910,18 @@
     "base": "ondo",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/ONDO_USDT/Bot"
+  },
+  "ONE_USDT": {
+    "exchange": "spot",
+    "base": "harmony",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ONE_USDT/Bot"
+  },
+  "ONT_USDT": {
+    "exchange": "spot",
+    "base": "ontology",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/ONT_USDT/Bot"
   },
   "OP_USDT": {
     "exchange": "spot",
@@ -911,6 +995,12 @@
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/PORTAL_USDT/Bot"
   },
+  "PORTO_USDT": {
+    "exchange": "spot",
+    "base": "fc-porto",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PORTO_USDT/Bot"
+  },
   "POWR_USDT": {
     "exchange": "spot",
     "base": "power-ledger",
@@ -922,6 +1012,12 @@
     "base": "prometeus",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/PROM_USDT/Bot"
+  },
+  "PSG_USDT": {
+    "exchange": "spot",
+    "base": "paris-saint-germain-fan-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/PSG_USDT/Bot"
   },
   "PUNDIX_USDT": {
     "exchange": "spot",
@@ -935,11 +1031,23 @@
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/PYTH_USDT/Bot"
   },
+  "QKC_USDT": {
+    "exchange": "spot",
+    "base": "quarkchain",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/QKC_USDT/Bot"
+  },
   "QNT_USDT": {
     "exchange": "spot",
     "base": "quant",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/QNT_USDT/Bot"
+  },
+  "QQQX_USDT": {
+    "exchange": "spot",
+    "base": "nasdaq-xstock",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/QQQX_USDT/Bot"
   },
   "QTUM_USDT": {
     "exchange": "spot",
@@ -970,6 +1078,12 @@
     "base": "request",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/REQ_USDT/Bot"
+  },
+  "RIF_USDT": {
+    "exchange": "spot",
+    "base": "rootstock-infrastructure-framework",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/RIF_USDT/Bot"
   },
   "RLC_USDT": {
     "exchange": "spot",
@@ -1013,6 +1127,12 @@
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/SAND_USDT/Bot"
   },
+  "SANTOS_USDT": {
+    "exchange": "spot",
+    "base": "santos-fc-fan-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SANTOS_USDT/Bot"
+  },
   "SATS_USDT": {
     "exchange": "spot",
     "base": "sats-ordinals",
@@ -1030,6 +1150,12 @@
     "base": "shiba-inu",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/SHIB_USDT/Bot"
+  },
+  "SKL_USDT": {
+    "exchange": "spot",
+    "base": "skale",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SKL_USDT/Bot"
   },
   "SNX_USDT": {
     "exchange": "spot",
@@ -1054,6 +1180,12 @@
     "base": "spell-token",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/SPELL_USDT/Bot"
+  },
+  "SPYX_USDT": {
+    "exchange": "spot",
+    "base": "sp500-xstock",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/SPYX_USDT/Bot"
   },
   "SSV_USDT": {
     "exchange": "spot",
@@ -1120,6 +1252,12 @@
     "base": "celestia",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/TIA_USDT/Bot"
+  },
+  "TKO_USDT": {
+    "exchange": "spot",
+    "base": "toko-token",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/TKO_USDT/Bot"
   },
   "TLM_USDT": {
     "exchange": "spot",
@@ -1259,6 +1397,12 @@
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/XAUT_USDT/Bot"
   },
+  "XCH_USDT": {
+    "exchange": "spot",
+    "base": "chia",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/XCH_USDT/Bot"
+  },
   "XEC_USDT": {
     "exchange": "spot",
     "base": "ecash",
@@ -1288,6 +1432,18 @@
     "base": "tezos",
     "quote": "tether",
     "url": "https://www.pionex.com/en/trade/XTZ_USDT/Bot"
+  },
+  "XVG_USDT": {
+    "exchange": "spot",
+    "base": "verge",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/XVG_USDT/Bot"
+  },
+  "XVS_USDT": {
+    "exchange": "spot",
+    "base": "venus",
+    "quote": "tether",
+    "url": "https://www.pionex.com/en/trade/XVS_USDT/Bot"
   },
   "YFI_USDT": {
     "exchange": "spot",
