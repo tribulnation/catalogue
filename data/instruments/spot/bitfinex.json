@@ -125,6 +125,12 @@
     "quote": "usd",
     "url": "https://trading.bitfinex.com/t/CHZ:USD?type=exchange"
   },
+  "CHZUST": {
+    "exchange": "spot",
+    "base": "chiliz",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/CHZ:UST?type=exchange"
+  },
   "CRVUSD": {
     "exchange": "spot",
     "base": "curve-dao",
@@ -527,6 +533,18 @@
     "quote": "tether",
     "url": "https://trading.bitfinex.com/t/STABLE:UST?type=exchange"
   },
+  "STGUSD": {
+    "exchange": "spot",
+    "base": "stargate-finance",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/STG:USD?type=exchange"
+  },
+  "STGUST": {
+    "exchange": "spot",
+    "base": "stargate-finance",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/STG:UST?type=exchange"
+  },
   "STXUSD": {
     "exchange": "spot",
     "base": "stacks",
@@ -634,6 +652,18 @@
     "base": "tether-america-usd",
     "quote": "tether",
     "url": "https://trading.bitfinex.com/t/USAT:UST?type=exchange"
+  },
+  "USDQ:USD": {
+    "exchange": "spot",
+    "base": "quantoz-usdq",
+    "quote": "usd",
+    "url": "https://trading.bitfinex.com/t/USDQ:USD?type=exchange"
+  },
+  "USDQ:UST": {
+    "exchange": "spot",
+    "base": "quantoz-usdq",
+    "quote": "tether",
+    "url": "https://trading.bitfinex.com/t/USDQ:UST?type=exchange"
   },
   "USTUSD": {
     "exchange": "spot",

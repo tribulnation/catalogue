@@ -161,6 +161,12 @@
     "quote": "usd",
     "url": "https://crypto.com/exchange/trade/ALICE_USD"
   },
+  "ALI_USD": {
+    "exchange": "spot",
+    "base": "alethea-artificial-liquid-intelligence-token",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ALI_USD"
+  },
   "ALT_USD": {
     "exchange": "spot",
     "base": "altlayer",
@@ -401,6 +407,12 @@
     "quote": "usd",
     "url": "https://crypto.com/exchange/trade/BAND_USD"
   },
+  "BASECAT_USD": {
+    "exchange": "spot",
+    "base": "basecat",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BASECAT_USD"
+  },
   "BASED_USD": {
     "exchange": "spot",
     "base": "based",
@@ -508,6 +520,12 @@
     "base": "bonk",
     "quote": "tether",
     "url": "https://crypto.com/exchange/trade/BONK_USDT"
+  },
+  "BOSON_USD": {
+    "exchange": "spot",
+    "base": "boson-protocol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/BOSON_USD"
   },
   "BREV_USD": {
     "exchange": "spot",
@@ -881,6 +899,12 @@
     "quote": "usd",
     "url": "https://crypto.com/exchange/trade/ELA_USD"
   },
+  "ELON_USD": {
+    "exchange": "spot",
+    "base": "dogelon-mars",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ELON_USD"
+  },
   "ENA_USD": {
     "exchange": "spot",
     "base": "ethena",
@@ -1127,6 +1151,12 @@
     "quote": "usd",
     "url": "https://crypto.com/exchange/trade/GAS_USD"
   },
+  "GEOD_USD": {
+    "exchange": "spot",
+    "base": "geodnet",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/GEOD_USD"
+  },
   "GHST_USD": {
     "exchange": "spot",
     "base": "aavegotchi",
@@ -1295,6 +1325,12 @@
     "quote": "usd",
     "url": "https://crypto.com/exchange/trade/HOME_USD"
   },
+  "HOT_USD": {
+    "exchange": "spot",
+    "base": "holo",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/HOT_USD"
+  },
   "HPP_USD": {
     "exchange": "spot",
     "base": "house-party-protocol",
@@ -1403,6 +1439,12 @@
     "quote": "usd",
     "url": "https://crypto.com/exchange/trade/IO_USD"
   },
+  "IQ_USD": {
+    "exchange": "spot",
+    "base": "everipedia",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/IQ_USD"
+  },
   "JASMY_USD": {
     "exchange": "spot",
     "base": "jasmycoin",
@@ -1414,6 +1456,12 @@
     "base": "jasmycoin",
     "quote": "tether",
     "url": "https://crypto.com/exchange/trade/JASMY_USDT"
+  },
+  "JOE_USD": {
+    "exchange": "spot",
+    "base": "joe",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/JOE_USD"
   },
   "JTO_USD": {
     "exchange": "spot",
@@ -1673,6 +1721,12 @@
     "quote": "usd",
     "url": "https://crypto.com/exchange/trade/MANA_USD"
   },
+  "MANTRA_USD": {
+    "exchange": "spot",
+    "base": "mantra",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MANTRA_USD"
+  },
   "MASK_USD": {
     "exchange": "spot",
     "base": "mask-network",
@@ -1690,6 +1744,12 @@
     "base": "heroes-of-mavia",
     "quote": "usd",
     "url": "https://crypto.com/exchange/trade/MAVIA_USD"
+  },
+  "MBL_USD": {
+    "exchange": "spot",
+    "base": "moviebloc",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MBL_USD"
   },
   "MEGA_USD": {
     "exchange": "spot",
@@ -1738,6 +1798,12 @@
     "base": "milk-alliance",
     "quote": "usd",
     "url": "https://crypto.com/exchange/trade/MLK_USD"
+  },
+  "MNDE_USD": {
+    "exchange": "spot",
+    "base": "marinade",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/MNDE_USD"
   },
   "MOG_USD": {
     "exchange": "spot",
@@ -1894,6 +1960,30 @@
     "base": "ondo",
     "quote": "tether",
     "url": "https://crypto.com/exchange/trade/ONDO_USDT"
+  },
+  "ONE_USD": {
+    "exchange": "spot",
+    "base": "harmony",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ONE_USD"
+  },
+  "ONE_USDT": {
+    "exchange": "spot",
+    "base": "harmony",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/ONE_USDT"
+  },
+  "ONG_USD": {
+    "exchange": "spot",
+    "base": "ontology-gas",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ONG_USD"
+  },
+  "ONT_USD": {
+    "exchange": "spot",
+    "base": "ontology",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/ONT_USD"
   },
   "OP_USD": {
     "exchange": "spot",
@@ -2339,6 +2429,18 @@
     "quote": "tether",
     "url": "https://crypto.com/exchange/trade/SHIB_USDT"
   },
+  "SKL_USD": {
+    "exchange": "spot",
+    "base": "skale",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/SKL_USD"
+  },
+  "SKL_USDT": {
+    "exchange": "spot",
+    "base": "skale",
+    "quote": "tether",
+    "url": "https://crypto.com/exchange/trade/SKL_USDT"
+  },
   "SKR_USD": {
     "exchange": "spot",
     "base": "seeker",
@@ -2627,6 +2729,12 @@
     "quote": "tether",
     "url": "https://crypto.com/exchange/trade/TRB_USDT"
   },
+  "TROLL_USD": {
+    "exchange": "spot",
+    "base": "troll-sol",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/TROLL_USD"
+  },
   "TRUMP_USD": {
     "exchange": "spot",
     "base": "official-trump",
@@ -2878,6 +2986,12 @@
     "base": "tether-gold",
     "quote": "tether",
     "url": "https://crypto.com/exchange/trade/XAUT_USDT"
+  },
+  "XCH_USD": {
+    "exchange": "spot",
+    "base": "chia",
+    "quote": "usd",
+    "url": "https://crypto.com/exchange/trade/XCH_USD"
   },
   "XLM_USD": {
     "exchange": "spot",

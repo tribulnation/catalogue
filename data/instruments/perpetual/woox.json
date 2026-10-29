@@ -412,6 +412,13 @@
     "settlement": "tether",
     "url": "https://woox.io/en/trade/DRIFT_PERP"
   },
+  "PERP_DYDX_USDT": {
+    "exchange": "perp",
+    "base": "dydx",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://woox.io/en/trade/DYDX_PERP"
+  },
   "PERP_EGLD_USDT": {
     "exchange": "perp",
     "base": "multiversx",
@@ -537,6 +544,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://woox.io/en/trade/GAS_PERP"
+  },
+  "PERP_GLM_USDT": {
+    "exchange": "perp",
+    "base": "golem",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://woox.io/en/trade/GLM_PERP"
   },
   "PERP_GMT_USDT": {
     "exchange": "perp",
@@ -944,6 +958,20 @@
     "settlement": "tether",
     "url": "https://woox.io/en/trade/ONDO_PERP"
   },
+  "PERP_ONE_USDT": {
+    "exchange": "perp",
+    "base": "harmony",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://woox.io/en/trade/ONE_PERP"
+  },
+  "PERP_ONT_USDT": {
+    "exchange": "perp",
+    "base": "ontology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://woox.io/en/trade/ONT_PERP"
+  },
   "PERP_OPEN_USDT": {
     "exchange": "perp",
     "base": "openledger",
@@ -1035,6 +1063,13 @@
     "settlement": "tether",
     "url": "https://woox.io/en/trade/PYTH_PERP"
   },
+  "PERP_QTUM_USDT": {
+    "exchange": "perp",
+    "base": "qtum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://woox.io/en/trade/QTUM_PERP"
+  },
   "PERP_RENDER_USDT": {
     "exchange": "perp",
     "base": "render",
@@ -1091,6 +1126,13 @@
     "settlement": "tether",
     "url": "https://woox.io/en/trade/SEI_PERP"
   },
+  "PERP_SHELL_USDT": {
+    "exchange": "perp",
+    "base": "myshell",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://woox.io/en/trade/SHELL_PERP"
+  },
   "PERP_SKY_USDT": {
     "exchange": "perp",
     "base": "sky",
@@ -1111,6 +1153,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://woox.io/en/trade/SNX_PERP"
+  },
+  "PERP_SOLV_USDT": {
+    "exchange": "perp",
+    "base": "solv-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://woox.io/en/trade/SOLV_PERP"
   },
   "PERP_SOL_USDT": {
     "exchange": "perp",
@@ -1265,6 +1314,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://woox.io/en/trade/TRX_PERP"
+  },
+  "PERP_TST_USDT": {
+    "exchange": "perp",
+    "base": "test-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://woox.io/en/trade/TST_PERP"
   },
   "PERP_TURBO_USDT": {
     "exchange": "perp",

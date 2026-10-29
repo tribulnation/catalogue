@@ -77,6 +77,12 @@
     "quote": "tether",
     "url": "https://woox.io/en/trade/BNB_USDT"
   },
+  "SPOT_BONK_USDT": {
+    "exchange": "spot",
+    "base": "bonk",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/BONK_USDT"
+  },
   "SPOT_BTC_USDC": {
     "exchange": "spot",
     "base": "bitcoin",
@@ -118,6 +124,12 @@
     "base": "polkadot",
     "quote": "tether",
     "url": "https://woox.io/en/trade/DOT_USDT"
+  },
+  "SPOT_DYDX_USDT": {
+    "exchange": "spot",
+    "base": "dydx",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/DYDX_USDT"
   },
   "SPOT_EIGEN_USDT": {
     "exchange": "spot",
@@ -215,6 +227,12 @@
     "quote": "tether",
     "url": "https://woox.io/en/trade/INJ_USDT"
   },
+  "SPOT_JTO_USDT": {
+    "exchange": "spot",
+    "base": "jito",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/JTO_USDT"
+  },
   "SPOT_JUP_USDT": {
     "exchange": "spot",
     "base": "jupiter",
@@ -305,11 +323,29 @@
     "quote": "tether",
     "url": "https://woox.io/en/trade/POL_USDT"
   },
+  "SPOT_POPCAT_USDT": {
+    "exchange": "spot",
+    "base": "popcat",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/POPCAT_USDT"
+  },
   "SPOT_PUMP_USDT": {
     "exchange": "spot",
     "base": "pump",
     "quote": "tether",
     "url": "https://woox.io/en/trade/PUMP_USDT"
+  },
+  "SPOT_PYTH_USDT": {
+    "exchange": "spot",
+    "base": "pyth-network",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/PYTH_USDT"
+  },
+  "SPOT_RAY_USDT": {
+    "exchange": "spot",
+    "base": "raydium",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/RAY_USDT"
   },
   "SPOT_RENDER_USDT": {
     "exchange": "spot",
@@ -389,11 +425,29 @@
     "quote": "tether",
     "url": "https://woox.io/en/trade/UNI_USDT"
   },
+  "SPOT_USDC_USDT": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/USDC_USDT"
+  },
   "SPOT_VIRTUAL_USDT": {
     "exchange": "spot",
     "base": "virtuals-protocol",
     "quote": "tether",
     "url": "https://woox.io/en/trade/VIRTUAL_USDT"
+  },
+  "SPOT_WIF_USDT": {
+    "exchange": "spot",
+    "base": "dogwifcoin",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/WIF_USDT"
+  },
+  "SPOT_WLD_USDT": {
+    "exchange": "spot",
+    "base": "worldcoin",
+    "quote": "tether",
+    "url": "https://woox.io/en/trade/WLD_USDT"
   },
   "SPOT_WOO_USDT": {
     "exchange": "spot",

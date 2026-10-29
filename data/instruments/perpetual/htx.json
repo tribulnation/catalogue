@@ -1,4 +1,11 @@
 {
+  "AAL-USDT": {
+    "exchange": "perp",
+    "base": "american-airlines-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=AAL-USDT&contract_type=swap"
+  },
   "AAOI-USDT": {
     "exchange": "perp",
     "base": "applied-optoelectronics",
@@ -20,6 +27,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=AAVE-USDT&contract_type=swap"
   },
+  "ABBV-USDT": {
+    "exchange": "perp",
+    "base": "abbvie",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=ABBV-USDT&contract_type=swap"
+  },
   "ACE-USDT": {
     "exchange": "perp",
     "base": "fusionist",
@@ -40,6 +54,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=ADBE-USDT&contract_type=swap"
+  },
+  "ADI-USDT": {
+    "exchange": "perp",
+    "base": "analog-devices",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=ADI-USDT&contract_type=swap"
+  },
+  "AEHR-USDT": {
+    "exchange": "perp",
+    "base": "aehr-test-systems",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=AEHR-USDT&contract_type=swap"
   },
   "AGPU-USDT": {
     "exchange": "perp",
@@ -117,6 +145,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=AMZU-USDT&contract_type=swap"
+  },
+  "ANET-USDT": {
+    "exchange": "perp",
+    "base": "arista-networks",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=ANET-USDT&contract_type=swap"
+  },
+  "APLD-USDT": {
+    "exchange": "perp",
+    "base": "applied-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=APLD-USDT&contract_type=swap"
   },
   "APP-USDT": {
     "exchange": "perp",
@@ -230,6 +272,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=BAC-USDT&contract_type=swap"
   },
+  "BANK-USDT": {
+    "exchange": "perp",
+    "base": "lorenzo-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=BANK-USDT&contract_type=swap"
+  },
   "BCH-USDT": {
     "exchange": "perp",
     "base": "bitcoin-cash",
@@ -257,6 +306,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=BILL-USDT&contract_type=swap"
+  },
+  "BITO-USDT": {
+    "exchange": "perp",
+    "base": "proshares-bitcoin-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=BITO-USDT&contract_type=swap"
+  },
+  "BKNG-USDT": {
+    "exchange": "perp",
+    "base": "booking-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=BKNG-USDT&contract_type=swap"
   },
   "BMNR-USDT": {
     "exchange": "perp",
@@ -306,6 +369,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=BR-USDT&contract_type=swap"
+  },
+  "BSP-USDT": {
+    "exchange": "perp",
+    "base": "bending-spoons",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=BSP-USDT&contract_type=swap"
   },
   "BTC-USDT": {
     "exchange": "perp",
@@ -363,12 +433,33 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=CEG-USDT&contract_type=swap"
   },
+  "CGNX-USDT": {
+    "exchange": "perp",
+    "base": "cognex",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=CGNX-USDT&contract_type=swap"
+  },
   "CHZ-USDT": {
     "exchange": "perp",
     "base": "chiliz",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=CHZ-USDT&contract_type=swap"
+  },
+  "CIEN-USDT": {
+    "exchange": "perp",
+    "base": "ciena",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=CIEN-USDT&contract_type=swap"
+  },
+  "CIFR-USDT": {
+    "exchange": "perp",
+    "base": "cipher-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=CIFR-USDT&contract_type=swap"
   },
   "CLSK-USDT": {
     "exchange": "perp",
@@ -397,6 +488,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=CONL-USDT&contract_type=swap"
+  },
+  "COPPER-USDT": {
+    "exchange": "perp",
+    "base": "copper",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=COPPER-USDT&contract_type=swap"
   },
   "COST-USDT": {
     "exchange": "perp",
@@ -482,6 +580,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=DASH-USDT&contract_type=swap"
   },
+  "DDOG-USDT": {
+    "exchange": "perp",
+    "base": "datadog",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=DDOG-USDT&contract_type=swap"
+  },
   "DELL-USDT": {
     "exchange": "perp",
     "base": "dell-technologies",
@@ -495,6 +600,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=DIS-USDT&contract_type=swap"
+  },
+  "DJT-USDT": {
+    "exchange": "perp",
+    "base": "trump-media-technology-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=DJT-USDT&contract_type=swap"
   },
   "DKNG-USDT": {
     "exchange": "perp",
@@ -538,12 +650,26 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=EBAY-USDT&contract_type=swap"
   },
+  "EIDO-USDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-indonesia-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=EIDO-USDT&contract_type=swap"
+  },
   "ENA-USDT": {
     "exchange": "perp",
     "base": "ethena",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=ENA-USDT&contract_type=swap"
+  },
+  "EQT-USDT": {
+    "exchange": "perp",
+    "base": "eqt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=EQT-USDT&contract_type=swap"
   },
   "ETC-USDT": {
     "exchange": "perp",
@@ -615,6 +741,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=FIL-USDT&contract_type=swap"
   },
+  "FLEX-USDT": {
+    "exchange": "perp",
+    "base": "flex-ltd",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=FLEX-USDT&contract_type=swap"
+  },
   "FLNC-USDT": {
     "exchange": "perp",
     "base": "fluence-energy",
@@ -636,12 +769,40 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=FWDI-USDT&contract_type=swap"
   },
+  "GDX-USDT": {
+    "exchange": "perp",
+    "base": "vaneck-gold-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=GDX-USDT&contract_type=swap"
+  },
+  "GE-USDT": {
+    "exchange": "perp",
+    "base": "general-electric",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=GE-USDT&contract_type=swap"
+  },
   "GEV-USDT": {
     "exchange": "perp",
     "base": "ge-vernova",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=GEV-USDT&contract_type=swap"
+  },
+  "GFS-USDT": {
+    "exchange": "perp",
+    "base": "globalfoundries",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=GFS-USDT&contract_type=swap"
+  },
+  "GILD-USDT": {
+    "exchange": "perp",
+    "base": "gilead-sciences",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=GILD-USDT&contract_type=swap"
   },
   "GLW-USDT": {
     "exchange": "perp",
@@ -713,6 +874,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=HIMS-USDT&contract_type=swap"
   },
+  "HOODX-USDT": {
+    "exchange": "perp",
+    "base": "robinhood-xstock",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=HOODX-USDT&contract_type=swap"
+  },
   "HPE-USDT": {
     "exchange": "perp",
     "base": "hewlett-packard-enterprise",
@@ -741,6 +909,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=IBIT-USDT&contract_type=swap"
   },
+  "IBKR-USDT": {
+    "exchange": "perp",
+    "base": "interactive-brokers-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=IBKR-USDT&contract_type=swap"
+  },
   "IBM-USDT": {
     "exchange": "perp",
     "base": "international-business-machines",
@@ -754,6 +929,27 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=ICP-USDT&contract_type=swap"
+  },
+  "INFQ-USDT": {
+    "exchange": "perp",
+    "base": "infleqtion",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=INFQ-USDT&contract_type=swap"
+  },
+  "INTU-USDT": {
+    "exchange": "perp",
+    "base": "intuit",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=INTU-USDT&contract_type=swap"
+  },
+  "INTW-USDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-intc-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=INTW-USDT&contract_type=swap"
   },
   "IONQ-USDT": {
     "exchange": "perp",
@@ -776,6 +972,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=IREN-USDT&contract_type=swap"
   },
+  "ISRG-USDT": {
+    "exchange": "perp",
+    "base": "intuitive-surgical",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=ISRG-USDT&contract_type=swap"
+  },
   "IWM-USDT": {
     "exchange": "perp",
     "base": "ishares-russell-2000-etf",
@@ -789,6 +992,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=JCT-USDT&contract_type=swap"
+  },
+  "JD-USDT": {
+    "exchange": "perp",
+    "base": "jd-com-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=JD-USDT&contract_type=swap"
   },
   "JNJ-USDT": {
     "exchange": "perp",
@@ -853,6 +1063,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=LAB-USDT&contract_type=swap"
   },
+  "LIN-USDT": {
+    "exchange": "perp",
+    "base": "linde",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=LIN-USDT&contract_type=swap"
+  },
   "LINK-USDT": {
     "exchange": "perp",
     "base": "chainlink",
@@ -880,6 +1097,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=LLY-USDT&contract_type=swap"
+  },
+  "LMT-USDT": {
+    "exchange": "perp",
+    "base": "lockheed-martin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=LMT-USDT&contract_type=swap"
   },
   "LRCX-USDT": {
     "exchange": "perp",
@@ -909,6 +1133,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=LULU-USDT&contract_type=swap"
   },
+  "LUNR-USDT": {
+    "exchange": "perp",
+    "base": "intuitive-machines",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=LUNR-USDT&contract_type=swap"
+  },
   "LYTE-USDT": {
     "exchange": "perp",
     "base": "roundhill-photonics-optics-etf",
@@ -922,6 +1153,27 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MAGIC-USDT&contract_type=swap"
+  },
+  "MARA-USDT": {
+    "exchange": "perp",
+    "base": "mara-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MARA-USDT&contract_type=swap"
+  },
+  "MARSCOIN-USDT": {
+    "exchange": "perp",
+    "base": "marscoin-bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MARSCOIN-USDT&contract_type=swap"
+  },
+  "MCD-USDT": {
+    "exchange": "perp",
+    "base": "mcdonalds",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MCD-USDT&contract_type=swap"
   },
   "MDB-USDT": {
     "exchange": "perp",
@@ -950,6 +1202,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=META-USDT&contract_type=swap"
+  },
+  "MO-USDT": {
+    "exchange": "perp",
+    "base": "altria-group",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MO-USDT&contract_type=swap"
+  },
+  "MOONSHOT-USDT": {
+    "exchange": "perp",
+    "base": "moonshot-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MOONSHOT-USDT&contract_type=swap"
   },
   "MP-USDT": {
     "exchange": "perp",
@@ -1000,6 +1266,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MSTRX-USDT&contract_type=swap"
   },
+  "MSTU-USDT": {
+    "exchange": "perp",
+    "base": "t-rex-2x-long-mstr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MSTU-USDT&contract_type=swap"
+  },
   "MU-USDT": {
     "exchange": "perp",
     "base": "micron-technology",
@@ -1014,12 +1287,33 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MUBARAK-USDT&contract_type=swap"
   },
+  "MUU-USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-mu-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MUU-USDT&contract_type=swap"
+  },
+  "MVLL-USDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-mrvl-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MVLL-USDT&contract_type=swap"
+  },
   "MYX-USDT": {
     "exchange": "perp",
     "base": "myx-finance",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=MYX-USDT&contract_type=swap"
+  },
+  "NATGAS-USDT": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=NATGAS-USDT&contract_type=swap"
   },
   "NBIS-USDT": {
     "exchange": "perp",
@@ -1084,6 +1378,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=NVDA-USDT&contract_type=swap"
   },
+  "NVDL-USDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-nvda-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=NVDL-USDT&contract_type=swap"
+  },
   "NVO-USDT": {
     "exchange": "perp",
     "base": "novo-nordisk-adr",
@@ -1105,6 +1406,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=OKLO-USDT&contract_type=swap"
   },
+  "OKTA-USDT": {
+    "exchange": "perp",
+    "base": "okta",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=OKTA-USDT&contract_type=swap"
+  },
   "ONDO-USDT": {
     "exchange": "perp",
     "base": "ondo",
@@ -1118,6 +1426,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=ONDS-USDT&contract_type=swap"
+  },
+  "ONG-USDT": {
+    "exchange": "perp",
+    "base": "ontology-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=ONG-USDT&contract_type=swap"
   },
   "OP-USDT": {
     "exchange": "perp",
@@ -1139,6 +1454,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=ORDI-USDT&contract_type=swap"
+  },
+  "OURA-USDT": {
+    "exchange": "perp",
+    "base": "oura-health",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=OURA-USDT&contract_type=swap"
+  },
+  "OUST-USDT": {
+    "exchange": "perp",
+    "base": "ouster",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=OUST-USDT&contract_type=swap"
   },
   "PANW-USDT": {
     "exchange": "perp",
@@ -1238,6 +1567,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=PURR-USDT&contract_type=swap"
   },
+  "PYPL-USDT": {
+    "exchange": "perp",
+    "base": "paypal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=PYPL-USDT&contract_type=swap"
+  },
   "Q-USDT": {
     "exchange": "perp",
     "base": "quack-ai",
@@ -1266,6 +1602,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=QQQ-USDT&contract_type=swap"
   },
+  "RAM-USDT": {
+    "exchange": "perp",
+    "base": "roundhill-t-rex-2x-long-dram-daily-target-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=RAM-USDT&contract_type=swap"
+  },
   "RAVE-USDT": {
     "exchange": "perp",
     "base": "ravedao",
@@ -1286,6 +1629,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=RDDT-USDT&contract_type=swap"
+  },
+  "RDW-USDT": {
+    "exchange": "perp",
+    "base": "redwire",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=RDW-USDT&contract_type=swap"
+  },
+  "REGN-USDT": {
+    "exchange": "perp",
+    "base": "regeneron-pharmaceuticals",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=REGN-USDT&contract_type=swap"
   },
   "RIVER-USDT": {
     "exchange": "perp",
@@ -1350,6 +1707,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SHIB-USDT&contract_type=swap"
   },
+  "SHLD-USDT": {
+    "exchange": "perp",
+    "base": "global-x-defense-tech-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SHLD-USDT&contract_type=swap"
+  },
   "SHOP-USDT": {
     "exchange": "perp",
     "base": "shopify",
@@ -1357,12 +1721,33 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SHOP-USDT&contract_type=swap"
   },
+  "SKDD-USDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-short-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SKDD-USDT&contract_type=swap"
+  },
   "SKHY-USDT": {
     "exchange": "perp",
     "base": "sk-hynix-adr",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SKHY-USDT&contract_type=swap"
+  },
+  "SKUU-USDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SKUU-USDT&contract_type=swap"
+  },
+  "SKYAI-USDT": {
+    "exchange": "perp",
+    "base": "skyai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SKYAI-USDT&contract_type=swap"
   },
   "SMCI-USDT": {
     "exchange": "perp",
@@ -1385,6 +1770,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SNDK-USDT&contract_type=swap"
   },
+  "SNOW-USDT": {
+    "exchange": "perp",
+    "base": "snowflake",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SNOW-USDT&contract_type=swap"
+  },
   "SNPS-USDT": {
     "exchange": "perp",
     "base": "synopsys",
@@ -1405,6 +1797,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SOL-USDT&contract_type=swap"
+  },
+  "SONY-USDT": {
+    "exchange": "perp",
+    "base": "sony-group-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SONY-USDT&contract_type=swap"
   },
   "SOXL-USDT": {
     "exchange": "perp",
@@ -1427,12 +1826,26 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SOXX-USDT&contract_type=swap"
   },
+  "SPCH-USDT": {
+    "exchange": "perp",
+    "base": "leverage-shares-2x-long-spcx-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SPCH-USDT&contract_type=swap"
+  },
   "SPCX-USDT": {
     "exchange": "perp",
     "base": "spacex",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SPCX-USDT&contract_type=swap"
+  },
+  "SPOT-USDT": {
+    "exchange": "perp",
+    "base": "spotify-technology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=SPOT-USDT&contract_type=swap"
   },
   "SPY-USDT": {
     "exchange": "perp",
@@ -1454,6 +1867,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=STEEM-USDT&contract_type=swap"
+  },
+  "STM-USDT": {
+    "exchange": "perp",
+    "base": "stmicroelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=STM-USDT&contract_type=swap"
   },
   "STRC-USDT": {
     "exchange": "perp",
@@ -1497,6 +1917,27 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TAO-USDT&contract_type=swap"
   },
+  "TBT-USDT": {
+    "exchange": "perp",
+    "base": "proshares-ultrashort-20-year-treasury",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TBT-USDT&contract_type=swap"
+  },
+  "TEAM-USDT": {
+    "exchange": "perp",
+    "base": "atlassian",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TEAM-USDT&contract_type=swap"
+  },
+  "TEM-USDT": {
+    "exchange": "perp",
+    "base": "tempus-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TEM-USDT&contract_type=swap"
+  },
   "TER-USDT": {
     "exchange": "perp",
     "base": "teradyne",
@@ -1517,6 +1958,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TLT-USDT&contract_type=swap"
+  },
+  "TMF-USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-20-year-treasury-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TMF-USDT&contract_type=swap"
   },
   "TQQQ-USDT": {
     "exchange": "perp",
@@ -1539,12 +1987,26 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TRX-USDT&contract_type=swap"
   },
+  "TSEM-USDT": {
+    "exchange": "perp",
+    "base": "tower-semiconductor",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TSEM-USDT&contract_type=swap"
+  },
   "TSLAX-USDT": {
     "exchange": "perp",
     "base": "tesla-xstock",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TSLAX-USDT&contract_type=swap"
+  },
+  "TSLL-USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-tsla-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TSLL-USDT&contract_type=swap"
   },
   "TSM-USDT": {
     "exchange": "perp",
@@ -1567,6 +2029,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TUT-USDT&contract_type=swap"
   },
+  "TWLO-USDT": {
+    "exchange": "perp",
+    "base": "twilio",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TWLO-USDT&contract_type=swap"
+  },
   "TWST-USDT": {
     "exchange": "perp",
     "base": "twist-bioscience",
@@ -1580,6 +2049,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TXN-USDT&contract_type=swap"
+  },
+  "TZA-USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-small-cap-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=TZA-USDT&contract_type=swap"
   },
   "UBER-USDT": {
     "exchange": "perp",
@@ -1630,6 +2106,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=USELESS-USDT&contract_type=swap"
   },
+  "USOIL-USDT": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=USOIL-USDT&contract_type=swap"
+  },
   "UVXY-USDT": {
     "exchange": "perp",
     "base": "proshares-ultra-vix-short-term-futures-etf",
@@ -1664,6 +2147,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=VKTX-USDT&contract_type=swap"
+  },
+  "VRT-USDT": {
+    "exchange": "perp",
+    "base": "vertiv",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=VRT-USDT&contract_type=swap"
   },
   "VST-USDT": {
     "exchange": "perp",
@@ -1763,6 +2253,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=XLM-USDT&contract_type=swap"
   },
+  "XLU-USDT": {
+    "exchange": "perp",
+    "base": "utilities-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=XLU-USDT&contract_type=swap"
+  },
   "XMR-USDT": {
     "exchange": "perp",
     "base": "monero",
@@ -1832,5 +2329,26 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=ZS-USDT&contract_type=swap"
+  },
+  "币安人生-USDT": {
+    "exchange": "perp",
+    "base": "bianrensheng",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=币安人生-USDT&contract_type=swap"
+  },
+  "牛来-USDT": {
+    "exchange": "perp",
+    "base": "niu-lai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=牛来-USDT&contract_type=swap"
+  },
+  "龙虾-USDT": {
+    "exchange": "perp",
+    "base": "lobster-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=龙虾-USDT&contract_type=swap"
   }
 }
