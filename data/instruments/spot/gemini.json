@@ -47,6 +47,18 @@
     "quote": "usd-coin",
     "url": "https://exchange.gemini.com/trade/AAVEUSDC"
   },
+  "aliusd": {
+    "exchange": "spot",
+    "base": "alethea-artificial-liquid-intelligence-token",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/ALIUSD"
+  },
+  "aliusdc": {
+    "exchange": "spot",
+    "base": "alethea-artificial-liquid-intelligence-token",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/ALIUSDC"
+  },
   "ampgusd": {
     "exchange": "spot",
     "base": "amp-token",
@@ -478,6 +490,18 @@
     "base": "drift-protocol",
     "quote": "usd-coin",
     "url": "https://exchange.gemini.com/trade/DRIFTUSDC"
+  },
+  "elonusd": {
+    "exchange": "spot",
+    "base": "dogelon-mars",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/ELONUSD"
+  },
+  "elonusdc": {
+    "exchange": "spot",
+    "base": "dogelon-mars",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/ELONUSDC"
   },
   "ensgusd": {
     "exchange": "spot",
@@ -1330,6 +1354,18 @@
     "base": "shiba-inu",
     "quote": "usd-coin",
     "url": "https://exchange.gemini.com/trade/SHIBUSDC"
+  },
+  "sklusd": {
+    "exchange": "spot",
+    "base": "skale",
+    "quote": "usd",
+    "url": "https://exchange.gemini.com/trade/SKLUSD"
+  },
+  "sklusdc": {
+    "exchange": "spot",
+    "base": "skale",
+    "quote": "usd-coin",
+    "url": "https://exchange.gemini.com/trade/SKLUSDC"
   },
   "skygusd": {
     "exchange": "spot",

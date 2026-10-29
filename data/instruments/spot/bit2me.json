@@ -1303,5 +1303,40 @@
     "exchange": "spot",
     "base": "0x",
     "quote": "euro"
+  },
+  "BEAM/EUR": {
+    "exchange": "spot",
+    "base": "onbeam",
+    "quote": "euro"
+  },
+  "BTC/EURCV": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "societe-generale-forge-eurcv"
+  },
+  "ETH/EURCV": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "societe-generale-forge-eurcv"
+  },
+  "EURCV/EUR": {
+    "exchange": "spot",
+    "base": "societe-generale-forge-eurcv",
+    "quote": "euro"
+  },
+  "JOE/EUR": {
+    "exchange": "spot",
+    "base": "joe",
+    "quote": "euro"
+  },
+  "SOL/EURCV": {
+    "exchange": "spot",
+    "base": "solana",
+    "quote": "societe-generale-forge-eurcv"
+  },
+  "XRP/EURCV": {
+    "exchange": "spot",
+    "base": "xrp",
+    "quote": "societe-generale-forge-eurcv"
   }
 }
