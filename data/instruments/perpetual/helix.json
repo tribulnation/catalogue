@@ -329,6 +329,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "LMT/USDC PERP": {
+    "exchange": "perp",
+    "base": "lockheed-martin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "LTC/USDC PERP": {
     "exchange": "perp",
     "base": "litecoin",
@@ -467,6 +473,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "PYPL/USDC PERP": {
+    "exchange": "perp",
+    "base": "paypal",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "QCOM/USDC PERP": {
     "exchange": "perp",
     "base": "qualcomm",
@@ -515,9 +527,21 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "SNOW/USDC PERP": {
+    "exchange": "perp",
+    "base": "snowflake",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "SNX/USDC PERP": {
     "exchange": "perp",
     "base": "synthetix",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SOFI/USDC PERP": {
+    "exchange": "perp",
+    "base": "sofi-technologies",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
@@ -530,6 +554,12 @@
   "SPCX/USDC PERP": {
     "exchange": "perp",
     "base": "spacex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SPOT/USDC PERP": {
+    "exchange": "perp",
+    "base": "spotify-technology",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
@@ -617,6 +647,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "VRT/USDC PERP": {
+    "exchange": "perp",
+    "base": "vertiv",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "VST/USDC PERP": {
     "exchange": "perp",
     "base": "vistra",
@@ -644,6 +680,12 @@
   "WMT/USDC PERP": {
     "exchange": "perp",
     "base": "walmart",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "XAG/USDC PERP": {
+    "exchange": "perp",
+    "base": "silver",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
