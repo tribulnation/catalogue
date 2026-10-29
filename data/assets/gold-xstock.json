@@ -1,0 +1,24 @@
+{
+  "id": "gold-xstock",
+  "display_name": "Gold xStock",
+  "symbol": "GLDx",
+  "category": "rwa",
+  "tags": [
+    "ETF",
+    "Commodity"
+  ],
+  "about": {
+    "en": "Gold xStock (GLDx) is a tokenized tracker certificate on SPDR Gold Shares (GLD), issued by Backed under the xStocks brand. Each token is backed 1:1 by GLD shares held with qualified custodians and tracks the ETF price on-chain on Solana (Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re), Ethereum, BNB Chain and Arbitrum (0x2380f2673c640fb67e2d6b55b44c62f0e0e69da9) and other networks. It gives a claim to the value of the ETF, not to physical gold. xStocks are offered to non-US investors."
+  },
+  "urls": {
+    "Website": "https://xstocks.com/",
+    "Product page": "https://assets.backed.fi/products/gold-xstock"
+  },
+  "external": {
+    "coingecko": "gold-xstock",
+    "coinmarketcap": "37024"
+  },
+  "pegged_to": {
+    "asset": "spdr-gold-shares"
+  }
+}
