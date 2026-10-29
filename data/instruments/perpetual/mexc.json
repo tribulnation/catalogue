@@ -5868,5 +5868,516 @@
     "settlement": "tether",
     "exchange": "perp",
     "url": "https://www.mexc.com/futures/ZSSTOCK_USDT"
+  },
+  "4_USDT": {
+    "exchange": "perp",
+    "base": "4-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/4_USDT"
+  },
+  "AIA_USDT": {
+    "exchange": "perp",
+    "base": "deagentai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AIA_USDT"
+  },
+  "AIOT_USDT": {
+    "exchange": "perp",
+    "base": "okzoo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AIOT_USDT"
+  },
+  "ASR_USDT": {
+    "exchange": "perp",
+    "base": "as-roma-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ASR_USDT"
+  },
+  "AT_USDT": {
+    "exchange": "perp",
+    "base": "apro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/AT_USDT"
+  },
+  "BANK_USDT": {
+    "exchange": "perp",
+    "base": "lorenzo-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BANK_USDT"
+  },
+  "BATON_USDT": {
+    "exchange": "perp",
+    "base": "baton",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BATON_USDT"
+  },
+  "BITO_USDT": {
+    "exchange": "perp",
+    "base": "proshares-bitcoin-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BITO_USDT"
+  },
+  "BROCCOLI_USDT": {
+    "exchange": "perp",
+    "base": "czs-dog",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BROCCOLI_USDT"
+  },
+  "BULLA_USDT": {
+    "exchange": "perp",
+    "base": "bulla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/BULLA_USDT"
+  },
+  "CATE_USDT": {
+    "exchange": "perp",
+    "base": "catecoin-cate-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CATE_USDT"
+  },
+  "CNPY_USDT": {
+    "exchange": "perp",
+    "base": "canopy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CNPY_USDT"
+  },
+  "COAI_USDT": {
+    "exchange": "perp",
+    "base": "chainopera-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/COAI_USDT"
+  },
+  "COLLECT_USDT": {
+    "exchange": "perp",
+    "base": "collect-on-fanable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/COLLECT_USDT"
+  },
+  "CROSS_USDT": {
+    "exchange": "perp",
+    "base": "onechain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CROSS_USDT"
+  },
+  "CTK_USDT": {
+    "exchange": "perp",
+    "base": "shentu",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CTK_USDT"
+  },
+  "DODO_USDT": {
+    "exchange": "perp",
+    "base": "dodo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/DODO_USDT"
+  },
+  "EIDO_USDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-indonesia-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/EIDO_USDT"
+  },
+  "FLUID_USDT": {
+    "exchange": "perp",
+    "base": "fluid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/FLUID_USDT"
+  },
+  "GDX_USDT": {
+    "exchange": "perp",
+    "base": "vaneck-gold-miners-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/GDX_USDT"
+  },
+  "GENIUS_USDT": {
+    "exchange": "perp",
+    "base": "genius-terminal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/GENIUS_USDT"
+  },
+  "GUA_USDT": {
+    "exchange": "perp",
+    "base": "superfortune",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/GUA_USDT"
+  },
+  "HIVE_USDT": {
+    "exchange": "perp",
+    "base": "hive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/HIVE_USDT"
+  },
+  "HOT_USDT": {
+    "exchange": "perp",
+    "base": "holo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/HOT_USDT"
+  },
+  "IDOL_USDT": {
+    "exchange": "perp",
+    "base": "meet48",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/IDOL_USDT"
+  },
+  "INTW_USDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-intc-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/INTW_USDT"
+  },
+  "JOE_USDT": {
+    "exchange": "perp",
+    "base": "joe",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/JOE_USDT"
+  },
+  "KIMCHI_USDT": {
+    "exchange": "perp",
+    "base": "aura-final-boss",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/KIMCHI_USDT"
+  },
+  "LYN_USDT": {
+    "exchange": "perp",
+    "base": "everlyn",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/LYN_USDT"
+  },
+  "MANTRA_USDT": {
+    "exchange": "perp",
+    "base": "mantra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MANTRA_USDT"
+  },
+  "MARSCOIN_USDT": {
+    "exchange": "perp",
+    "base": "marscoin-bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MARSCOIN_USDT"
+  },
+  "MIRA_USDT": {
+    "exchange": "perp",
+    "base": "mira-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MIRA_USDT"
+  },
+  "MITO_USDT": {
+    "exchange": "perp",
+    "base": "mitosis",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MITO_USDT"
+  },
+  "MSTU_USDT": {
+    "exchange": "perp",
+    "base": "t-rex-2x-long-mstr",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MSTU_USDT"
+  },
+  "MUU_USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-mu-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MUU_USDT"
+  },
+  "MVLL_USDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-mrvl-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MVLL_USDT"
+  },
+  "NAORIS_USDT": {
+    "exchange": "perp",
+    "base": "naoris-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/NAORIS_USDT"
+  },
+  "NEX_USDT": {
+    "exchange": "perp",
+    "base": "nexus-labs",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/NEX_USDT"
+  },
+  "NVDL_USDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-nvda-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/NVDL_USDT"
+  },
+  "OFC_USDT": {
+    "exchange": "perp",
+    "base": "onefootball-club",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/OFC_USDT"
+  },
+  "OG_USDT": {
+    "exchange": "perp",
+    "base": "og-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/OG_USDT"
+  },
+  "OL_USDT": {
+    "exchange": "perp",
+    "base": "open-loot",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/OL_USDT"
+  },
+  "ONE_USDT": {
+    "exchange": "perp",
+    "base": "harmony",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ONE_USDT"
+  },
+  "ONG_USDT": {
+    "exchange": "perp",
+    "base": "ontology-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ONG_USDT"
+  },
+  "ONT_USDT": {
+    "exchange": "perp",
+    "base": "ontology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ONT_USDT"
+  },
+  "ON_USDT": {
+    "exchange": "perp",
+    "base": "orochi-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ON_USDT"
+  },
+  "PIPPIN_USDT": {
+    "exchange": "perp",
+    "base": "pippin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PIPPIN_USDT"
+  },
+  "POWER_USDT": {
+    "exchange": "perp",
+    "base": "power-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/POWER_USDT"
+  },
+  "PREDICT_USDT": {
+    "exchange": "perp",
+    "base": "predict-fun",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/PREDICT_USDT"
+  },
+  "RAM_USDT": {
+    "exchange": "perp",
+    "base": "roundhill-t-rex-2x-long-dram-daily-target-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/RAM_USDT"
+  },
+  "RIF_USDT": {
+    "exchange": "perp",
+    "base": "rootstock-infrastructure-framework",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/RIF_USDT"
+  },
+  "SANTOS_USDT": {
+    "exchange": "perp",
+    "base": "santos-fc-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SANTOS_USDT"
+  },
+  "SHELL_USDT": {
+    "exchange": "perp",
+    "base": "myshell",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SHELL_USDT"
+  },
+  "SHLD_USDT": {
+    "exchange": "perp",
+    "base": "global-x-defense-tech-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SHLD_USDT"
+  },
+  "SI_USDT": {
+    "exchange": "perp",
+    "base": "super-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SI_USDT"
+  },
+  "SKDD_USDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-short-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SKDD_USDT"
+  },
+  "SKL_USDT": {
+    "exchange": "perp",
+    "base": "skale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SKL_USDT"
+  },
+  "SKUU_USDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SKUU_USDT"
+  },
+  "SKYAI_USDT": {
+    "exchange": "perp",
+    "base": "skyai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SKYAI_USDT"
+  },
+  "SOXS_USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SOXS_USDT"
+  },
+  "SOXX_USDT": {
+    "exchange": "perp",
+    "base": "ishares-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SOXX_USDT"
+  },
+  "TBT_USDT": {
+    "exchange": "perp",
+    "base": "proshares-ultrashort-20-year-treasury",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TBT_USDT"
+  },
+  "TMF_USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-20-year-treasury-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TMF_USDT"
+  },
+  "TSLL_USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-tsla-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TSLL_USDT"
+  },
+  "TST_USDT": {
+    "exchange": "perp",
+    "base": "test-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TST_USDT"
+  },
+  "TZA_USDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-small-cap-bear-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TZA_USDT"
+  },
+  "UP_USDT": {
+    "exchange": "perp",
+    "base": "unitas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/UP_USDT"
+  },
+  "XLK_USDT": {
+    "exchange": "perp",
+    "base": "technology-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/XLK_USDT"
+  },
+  "XLU_USDT": {
+    "exchange": "perp",
+    "base": "utilities-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/XLU_USDT"
+  },
+  "XLV_USDT": {
+    "exchange": "perp",
+    "base": "health-care-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/XLV_USDT"
+  },
+  "XVG_USDT": {
+    "exchange": "perp",
+    "base": "verge",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/XVG_USDT"
+  },
+  "XVS_USDT": {
+    "exchange": "perp",
+    "base": "venus",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/XVS_USDT"
+  },
+  "ZCAT_USDT": {
+    "exchange": "perp",
+    "base": "anonymous-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ZCAT_USDT"
   }
 }
