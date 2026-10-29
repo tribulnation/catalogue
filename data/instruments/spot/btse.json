@@ -2661,19 +2661,19 @@
     "exchange": "spot",
     "base": "jelly-my-jelly",
     "quote": "usd",
-    "url": "https://www.btse.com/en/trading/JELLYJELLY-USD"
+    "delisted": true
   },
   "JELLYJELLY-USDC": {
     "exchange": "spot",
     "base": "jelly-my-jelly",
     "quote": "usd-coin",
-    "url": "https://www.btse.com/en/trading/JELLYJELLY-USDC"
+    "delisted": true
   },
   "JELLYJELLY-USDT": {
     "exchange": "spot",
     "base": "jelly-my-jelly",
     "quote": "tether",
-    "url": "https://www.btse.com/en/trading/JELLYJELLY-USDT"
+    "delisted": true
   },
   "JTO-ETH": {
     "exchange": "spot",
