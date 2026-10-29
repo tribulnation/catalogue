@@ -4324,5 +4324,426 @@
     "settlement": "tether",
     "exchange": "perp",
     "url": "https://www.kucoin.com/trade/futures/ZMUSDTM"
+  },
+  "10000REKTUSDTM": {
+    "base": "rekt",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 10000,
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/10000REKTUSDTM"
+  },
+  "4USDTM": {
+    "base": "4-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/4USDTM"
+  },
+  "AEONUSDTM": {
+    "base": "aeon-xyz",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/AEONUSDTM"
+  },
+  "AIOTUSDTM": {
+    "base": "okzoo",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/AIOTUSDTM"
+  },
+  "APLDUSDTM": {
+    "base": "applied-digital",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/APLDUSDTM"
+  },
+  "ASRUSDTM": {
+    "base": "as-roma-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/ASRUSDTM"
+  },
+  "ATUSDTM": {
+    "base": "apro",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/ATUSDTM"
+  },
+  "BANKUSDTM": {
+    "base": "lorenzo-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/BANKUSDTM"
+  },
+  "BSPUSDTM": {
+    "base": "bending-spoons",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/BSPUSDTM"
+  },
+  "CIENUSDTM": {
+    "base": "ciena",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/CIENUSDTM"
+  },
+  "COAIUSDTM": {
+    "base": "chainopera-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/COAIUSDTM"
+  },
+  "COLLECTUSDTM": {
+    "base": "collect-on-fanable",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/COLLECTUSDTM"
+  },
+  "CROSSUSDTM": {
+    "base": "onechain",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/CROSSUSDTM"
+  },
+  "DODOUSDTM": {
+    "base": "dodo",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/DODOUSDTM"
+  },
+  "FLUIDUSDTM": {
+    "base": "fluid",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/FLUIDUSDTM"
+  },
+  "GENIUSUSDTM": {
+    "base": "genius-terminal",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/GENIUSUSDTM"
+  },
+  "GUAUSDTM": {
+    "base": "superfortune",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/GUAUSDTM"
+  },
+  "HIVEUSDTM": {
+    "base": "hive",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/HIVEUSDTM"
+  },
+  "HOTUSDTM": {
+    "base": "holo",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/HOTUSDTM"
+  },
+  "IDOLUSDTM": {
+    "base": "meet48",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/IDOLUSDTM"
+  },
+  "INFQUSDTM": {
+    "base": "infleqtion",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/INFQUSDTM"
+  },
+  "INTWUSDTM": {
+    "base": "graniteshares-2x-long-intc-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/INTWUSDTM"
+  },
+  "JOEUSDTM": {
+    "base": "joe",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/JOEUSDTM"
+  },
+  "LUNRUSDTM": {
+    "base": "intuitive-machines",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/LUNRUSDTM"
+  },
+  "LYNUSDTM": {
+    "base": "everlyn",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/LYNUSDTM"
+  },
+  "MANTRAUSDTM": {
+    "base": "mantra",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/MANTRAUSDTM"
+  },
+  "MARAUSDTM": {
+    "base": "mara-holdings",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/MARAUSDTM"
+  },
+  "MARSCOINUSDTM": {
+    "base": "marscoin-bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/MARSCOINUSDTM"
+  },
+  "MCDUSDTM": {
+    "base": "mcdonalds",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/MCDUSDTM"
+  },
+  "MIRAUSDTM": {
+    "base": "mira-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/MIRAUSDTM"
+  },
+  "MOONSHOTUSDTM": {
+    "base": "moonshot-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/MOONSHOTUSDTM"
+  },
+  "MSTUUSDTM": {
+    "base": "t-rex-2x-long-mstr",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/MSTUUSDTM"
+  },
+  "MUUUSDTM": {
+    "base": "direxion-daily-mu-bull-2x",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/MUUUSDTM"
+  },
+  "MVLLUSDTM": {
+    "base": "graniteshares-2x-long-mrvl-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/MVLLUSDTM"
+  },
+  "NAORISUSDTM": {
+    "base": "naoris-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/NAORISUSDTM"
+  },
+  "NEXUSDTM": {
+    "base": "nexus-labs",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/NEXUSDTM"
+  },
+  "OGUSDTM": {
+    "base": "og-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/OGUSDTM"
+  },
+  "ONEUSDTM": {
+    "base": "harmony",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/ONEUSDTM"
+  },
+  "ONTUSDTM": {
+    "base": "ontology",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/ONTUSDTM"
+  },
+  "ONUSDTM": {
+    "base": "orochi-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/ONUSDTM"
+  },
+  "PIPPINUSDTM": {
+    "base": "pippin",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/PIPPINUSDTM"
+  },
+  "POETUSDTM": {
+    "base": "poet-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/POETUSDTM"
+  },
+  "POWERUSDTM": {
+    "base": "power-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/POWERUSDTM"
+  },
+  "PREDICTUSDTM": {
+    "base": "predict-fun",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/PREDICTUSDTM"
+  },
+  "PYPLUSDTM": {
+    "base": "paypal",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/PYPLUSDTM"
+  },
+  "RAMUSDTM": {
+    "base": "roundhill-t-rex-2x-long-dram-daily-target-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/RAMUSDTM"
+  },
+  "RDWUSDTM": {
+    "base": "redwire",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/RDWUSDTM"
+  },
+  "RIFUSDTM": {
+    "base": "rootstock-infrastructure-framework",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/RIFUSDTM"
+  },
+  "SHELLUSDTM": {
+    "base": "myshell",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/SHELLUSDTM"
+  },
+  "SIRENUSDTM": {
+    "base": "siren-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/SIRENUSDTM"
+  },
+  "SKDDUSDTM": {
+    "base": "graniteshares-2x-short-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/SKDDUSDTM"
+  },
+  "SKLUSDTM": {
+    "base": "skale",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/SKLUSDTM"
+  },
+  "SKUUUSDTM": {
+    "base": "graniteshares-2x-long-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/SKUUUSDTM"
+  },
+  "SKYAIUSDTM": {
+    "base": "skyai",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/SKYAIUSDTM"
+  },
+  "SOFIUSDTM": {
+    "base": "sofi-technologies",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/SOFIUSDTM"
+  },
+  "SONYUSDTM": {
+    "base": "sony-group-adr",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/SONYUSDTM"
+  },
+  "TMFUSDTM": {
+    "base": "direxion-daily-20-year-treasury-bull-3x",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/TMFUSDTM"
+  },
+  "VRTUSDTM": {
+    "base": "vertiv",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/VRTUSDTM"
+  },
+  "XVGUSDTM": {
+    "base": "verge",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/XVGUSDTM"
+  },
+  "XVSUSDTM": {
+    "base": "venus",
+    "quote": "tether",
+    "settlement": "tether",
+    "exchange": "perp",
+    "url": "https://www.kucoin.com/trade/futures/XVSUSDTM"
   }
 }
