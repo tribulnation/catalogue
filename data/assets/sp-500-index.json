@@ -1,0 +1,17 @@
+{
+  "id": "sp-500-index",
+  "display_name": "S&P 500 Index",
+  "symbol": "SPX",
+  "tags": [
+    "Index"
+  ],
+  "about": {
+    "en": "The S&P 500 (SPX) is a float-adjusted market-capitalization-weighted index of 500 leading US large-cap companies, published by S&P Dow Jones Indices. Crypto venues list perpetuals on it under tickers such as SPX500, SP500 or US500. SPX is an index reference, not a token, fund share or redeemable basket; funds tracking it, such as SPDR SPY, iShares IVV and Vanguard VOO, are separate assets."
+  },
+  "urls": {
+    "Website": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/"
+  },
+  "external": {
+    "yahoo": "^GSPC"
+  }
+}
