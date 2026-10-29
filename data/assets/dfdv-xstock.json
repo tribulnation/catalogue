@@ -1,0 +1,23 @@
+{
+  "id": "dfdv-xstock",
+  "display_name": "DFDV xStock",
+  "symbol": "DFDVx",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "DFDV xStock (DFDVx) is a tokenized tracker certificate on DeFi Development Corp. shares issued by Backed under the xStocks brand. Each token is backed 1:1 by DFDV shares held with regulated custodians and tracks the share price on-chain; it is offered to non-US investors. It is the SPL token Xs2yquAgsHByNzx68WJC55WHjHBvG9JsMB7CWjTLyPy on Solana and the ERC-20 at 0x521860bB5dF5468358875266B89BFE90d990C6e7 on Ethereum, BNB Chain and Arbitrum."
+  },
+  "urls": {
+    "Website": "https://xstocks.com/",
+    "Product page": "https://assets.backed.fi/products/dfdv-xstock"
+  },
+  "external": {
+    "coingecko": "dfdv-xstock",
+    "coinmarketcap": "37037"
+  },
+  "pegged_to": {
+    "asset": "defi-development-corp"
+  }
+}

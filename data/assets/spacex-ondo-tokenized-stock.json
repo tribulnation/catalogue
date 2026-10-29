@@ -1,0 +1,21 @@
+{
+  "id": "spacex-ondo-tokenized-stock",
+  "display_name": "SpaceX (Ondo Tokenized)",
+  "symbol": "SPCXon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "SPCXon is the Ondo tokenized stock for Space Exploration Technologies Corp. (Nasdaq: SPCX), issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is fully backed by SPCX shares and is a total-return tracker: dividends are reinvested net of withholding tax, so one token can come to represent more than one share and its price can drift above the underlying's. Holders have a claim on the issuer, not registered ownership or shareholder rights. It is an ERC-20 on Ethereum at 0xc9eEF266834730340A55B6CC24621B31BAF55581, with deployments on BNB Chain, Solana and Robinhood Chain."
+  },
+  "icon": "icons/asset/spacex.svg",
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/spcxon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "spacex-ondo-tokenized-stock",
+    "coinmarketcap": "40232"
+  }
+}

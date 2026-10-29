@@ -17,6 +17,24 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/4STOCK_USDT"
   },
+  "4USDT": {
+    "exchange": "spot",
+    "base": "4-bsc",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/4_USDT"
+  },
+  "A8USDT": {
+    "exchange": "spot",
+    "base": "ancient8",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/A8_USDT"
+  },
+  "AAPLONUSDT": {
+    "exchange": "spot",
+    "base": "apple-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AAPLON_USDT"
+  },
   "AAVEUSDT": {
     "exchange": "spot",
     "base": "aave",
@@ -53,6 +71,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/ADX_USDT"
   },
+  "AEONUSDT": {
+    "exchange": "spot",
+    "base": "aeon-xyz",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AEON_USDT"
+  },
   "AEROUSDT": {
     "exchange": "spot",
     "base": "aerodrome",
@@ -70,6 +94,12 @@
     "base": "delysium",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/AGI_USDT"
+  },
+  "AIAUSDT": {
+    "exchange": "spot",
+    "base": "deagentai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AIA_USDT"
   },
   "AINUSDT": {
     "exchange": "spot",
@@ -197,6 +227,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/ARPA_USDT"
   },
+  "ARTXUSDT": {
+    "exchange": "spot",
+    "base": "ultiland",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ARTX_USDT"
+  },
   "ARXUSDT": {
     "exchange": "spot",
     "base": "arcium",
@@ -227,6 +263,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/ATOM_USDT"
   },
+  "ATUSDT": {
+    "exchange": "spot",
+    "base": "apro",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AT_USDT"
+  },
   "AUDIOUSDT": {
     "exchange": "spot",
     "base": "audius",
@@ -244,6 +286,12 @@
     "base": "avalanche",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/AVAX_USDT"
+  },
+  "AVLUSDT": {
+    "exchange": "spot",
+    "base": "avalon-labs",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/AVL_USDT"
   },
   "AVNTUSDT": {
     "exchange": "spot",
@@ -323,6 +371,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/BAND_USDT"
   },
+  "BANKUSDT": {
+    "exchange": "spot",
+    "base": "lorenzo-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BANK_USDT"
+  },
   "BARDUSDT": {
     "exchange": "spot",
     "base": "lombard",
@@ -358,6 +412,12 @@
     "base": "audiera",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/BEAT_USDT"
+  },
+  "BELIEVEUSDT": {
+    "exchange": "spot",
+    "base": "believe-app",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BELIEVE_USDT"
   },
   "BELUSDT": {
     "exchange": "spot",
@@ -478,6 +538,12 @@
     "base": "brevis",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/BREV_USDT"
+  },
+  "BROCCOLIUSDT": {
+    "exchange": "spot",
+    "base": "czs-dog",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/BROCCOLI_USDT"
   },
   "BRUSDT": {
     "exchange": "spot",
@@ -611,6 +677,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/CLO_USDT"
   },
+  "COAIUSDT": {
+    "exchange": "spot",
+    "base": "chainopera-ai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/COAI_USDT"
+  },
   "COINXUSDT": {
     "exchange": "spot",
     "base": "coinbase-xstock",
@@ -641,11 +713,29 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/COTI_USDT"
   },
+  "CRCLONUSDT": {
+    "exchange": "spot",
+    "base": "circle-internet-group-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CRCLON_USDT"
+  },
+  "CROSSUSDT": {
+    "exchange": "spot",
+    "base": "onechain",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CROSS_USDT"
+  },
   "CRVUSDT": {
     "exchange": "spot",
     "base": "curve-dao",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/CRV_USDT"
+  },
+  "CTKUSDT": {
+    "exchange": "spot",
+    "base": "shentu",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/CTK_USDT"
   },
   "CTRUSDT": {
     "exchange": "spot",
@@ -713,6 +803,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/DN_USDT"
   },
+  "DODOUSDT": {
+    "exchange": "spot",
+    "base": "dodo",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DODO_USDT"
+  },
   "DOGEUSDC": {
     "exchange": "spot",
     "base": "dogecoin",
@@ -724,6 +820,12 @@
     "base": "dogecoin",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/DOGE_USDT"
+  },
+  "DOGINMEUSDT": {
+    "exchange": "spot",
+    "base": "doginme",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/DOGINME_USDT"
   },
   "DOGSUSDT": {
     "exchange": "spot",
@@ -965,6 +1067,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/FLOKI_USDT"
   },
+  "FLUIDUSDT": {
+    "exchange": "spot",
+    "base": "fluid",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/FLUID_USDT"
+  },
   "FLUXUSDT": {
     "exchange": "spot",
     "base": "zelcash",
@@ -1000,6 +1108,12 @@
     "base": "gala",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/GALA_USDT"
+  },
+  "GENIUSUSDT": {
+    "exchange": "spot",
+    "base": "genius-terminal",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/GENIUS_USDT"
   },
   "GIGGLEUSDT": {
     "exchange": "spot",
@@ -1133,6 +1247,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/HOME_USDT"
   },
+  "HOODXUSDT": {
+    "exchange": "spot",
+    "base": "robinhood-xstock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/HOODX_USDT"
+  },
   "HUMAUSDT": {
     "exchange": "spot",
     "base": "huma-finance",
@@ -1157,6 +1277,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/HYPE_USDT"
   },
+  "IAUONUSDT": {
+    "exchange": "spot",
+    "base": "ishares-gold-trust-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/IAUON_USDT"
+  },
   "ICNTUSDT": {
     "exchange": "spot",
     "base": "impossible-cloud-network",
@@ -1168,6 +1294,12 @@
     "base": "internet-computer",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/ICP_USDT"
+  },
+  "IDOLUSDT": {
+    "exchange": "spot",
+    "base": "meet48",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/IDOL_USDT"
   },
   "IDUSDT": {
     "exchange": "spot",
@@ -1325,6 +1457,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/LAYER_USDT"
   },
+  "LAZIOUSDT": {
+    "exchange": "spot",
+    "base": "lazio-fan-token",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LAZIO_USDT"
+  },
   "LDOUSDT": {
     "exchange": "spot",
     "base": "lido-dao",
@@ -1379,6 +1517,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/LTC_USDT"
   },
+  "LYNUSDT": {
+    "exchange": "spot",
+    "base": "everlyn",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/LYN_USDT"
+  },
   "MAGICUSDT": {
     "exchange": "spot",
     "base": "magic",
@@ -1414,6 +1558,12 @@
     "base": "maverick-protocol",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/MAV_USDT"
+  },
+  "MCDXUSDT": {
+    "exchange": "spot",
+    "base": "mcdonalds-xstock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MCDX_USDT"
   },
   "MELANIAUSDT": {
     "exchange": "spot",
@@ -1457,6 +1607,18 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/MEW_USDT"
   },
+  "MIRAUSDT": {
+    "exchange": "spot",
+    "base": "mira-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MIRA_USDT"
+  },
+  "MITOUSDT": {
+    "exchange": "spot",
+    "base": "mitosis",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MITO_USDT"
+  },
   "MMTUSDT": {
     "exchange": "spot",
     "base": "momentum",
@@ -1487,11 +1649,29 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/MPLX_USDT"
   },
+  "MSTRONUSDT": {
+    "exchange": "spot",
+    "base": "microstrategy-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/MSTRON_USDT"
+  },
   "MUBARAKUSDT": {
     "exchange": "spot",
     "base": "mubarak",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/MUBARAK_USDT"
+  },
+  "NAORISUSDT": {
+    "exchange": "spot",
+    "base": "naoris-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NAORIS_USDT"
+  },
+  "NCUSDT": {
+    "exchange": "spot",
+    "base": "nodecoin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NC_USDT"
   },
   "NEARUSDT": {
     "exchange": "spot",
@@ -1529,11 +1709,23 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/NOT_USDT"
   },
+  "NSUSDT": {
+    "exchange": "spot",
+    "base": "suins",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NS_USDT"
+  },
   "NUMIUSDT": {
     "exchange": "spot",
     "base": "numine-token",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/NUMI_USDT"
+  },
+  "NVDAONUSDT": {
+    "exchange": "spot",
+    "base": "nvidia-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/NVDAON_USDT"
   },
   "NXPCUSDT": {
     "exchange": "spot",
@@ -1547,6 +1739,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/OBOL_USDT"
   },
+  "OFCUSDT": {
+    "exchange": "spot",
+    "base": "onefootball-club",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/OFC_USDT"
+  },
   "OGNUSDT": {
     "exchange": "spot",
     "base": "origin-protocol",
@@ -1558,6 +1756,12 @@
     "base": "ondo",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/ONDO_USDT"
+  },
+  "ONUSDT": {
+    "exchange": "spot",
+    "base": "orochi-network",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ON_USDT"
   },
   "OPENUSDT": {
     "exchange": "spot",
@@ -1594,6 +1798,12 @@
     "base": "ordi",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/ORDI_USDT"
+  },
+  "OWLUSDT": {
+    "exchange": "spot",
+    "base": "owlto-finance",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/OWL_USDT"
   },
   "PARTIUSDT": {
     "exchange": "spot",
@@ -1643,6 +1853,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/PIEVERSE_USDT"
   },
+  "PIPPINUSDT": {
+    "exchange": "spot",
+    "base": "pippin",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PIPPIN_USDT"
+  },
   "PIXELUSDT": {
     "exchange": "spot",
     "base": "pixels",
@@ -1684,6 +1900,18 @@
     "base": "popcat",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/POPCAT_USDT"
+  },
+  "PORTOUSDT": {
+    "exchange": "spot",
+    "base": "fc-porto",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/PORTO_USDT"
+  },
+  "POWERUSDT": {
+    "exchange": "spot",
+    "base": "power-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/POWER_USDT"
   },
   "PRLUSDT": {
     "exchange": "spot",
@@ -1732,6 +1960,18 @@
     "base": "sealcoin",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/QAIT_USDT"
+  },
+  "QKCUSDT": {
+    "exchange": "spot",
+    "base": "quarkchain",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/QKC_USDT"
+  },
+  "QQQXUSDT": {
+    "exchange": "spot",
+    "base": "nasdaq-xstock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/QQQX_USDT"
   },
   "QUSDT": {
     "exchange": "spot",
@@ -1847,6 +2087,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/RSR_USDT"
   },
+  "RWAUSDT": {
+    "exchange": "spot",
+    "base": "allo",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/RWA_USDT"
+  },
   "SAHARAUSDT": {
     "exchange": "spot",
     "base": "sahara-ai",
@@ -1858,6 +2104,12 @@
     "base": "the-sandbox",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/SAND_USDT"
+  },
+  "SANTOSUSDT": {
+    "exchange": "spot",
+    "base": "santos-fc-fan-token",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SANTOS_USDT"
   },
   "SAPIENUSDT": {
     "exchange": "spot",
@@ -1889,6 +2141,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/SFP_USDT"
   },
+  "SHELLUSDT": {
+    "exchange": "spot",
+    "base": "myshell",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SHELL_USDT"
+  },
   "SHIBUSDT": {
     "exchange": "spot",
     "base": "shiba-inu",
@@ -1907,11 +2165,23 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/SKR_USDT"
   },
+  "SKYAIUSDT": {
+    "exchange": "spot",
+    "base": "skyai",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SKYAI_USDT"
+  },
   "SKYUSDT": {
     "exchange": "spot",
     "base": "sky",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/SKY_USDT"
+  },
+  "SLVONUSDT": {
+    "exchange": "spot",
+    "base": "ishares-silver-trust-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/SLVON_USDT"
   },
   "SOLUSDC": {
     "exchange": "spot",
@@ -2063,6 +2333,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/TA_USDT"
   },
+  "TCOMUSDT": {
+    "exchange": "spot",
+    "base": "tcom-global",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TCOM_USDT"
+  },
   "THEUSDT": {
     "exchange": "spot",
     "base": "thena",
@@ -2165,6 +2441,18 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/TRX_USDT"
   },
+  "TSLAONUSDT": {
+    "exchange": "spot",
+    "base": "tesla-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TSLAON_USDT"
+  },
+  "TSTUSDT": {
+    "exchange": "spot",
+    "base": "test-bsc",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/TST_USDT"
+  },
   "TURBOUSDT": {
     "exchange": "spot",
     "base": "turbo",
@@ -2206,6 +2494,12 @@
     "base": "uniswap",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/UNI_USDT"
+  },
+  "UPUSDT": {
+    "exchange": "spot",
+    "base": "unitas",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/UP_USDT"
   },
   "USD1USDT": {
     "exchange": "spot",
@@ -2369,6 +2663,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/XCN_USDT"
   },
+  "XCXUSDT": {
+    "exchange": "spot",
+    "base": "xeleb-protocol",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XCX_USDT"
+  },
   "XDPUSDT": {
     "exchange": "spot",
     "base": "doppler-finance",
@@ -2411,6 +2711,12 @@
     "quote": "tether",
     "url": "https://www.toobit.com/spot/XTZ_USDT"
   },
+  "XVSUSDT": {
+    "exchange": "spot",
+    "base": "venus",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/XVS_USDT"
+  },
   "YBUSDT": {
     "exchange": "spot",
     "base": "yield-basis",
@@ -2446,6 +2752,12 @@
     "base": "zcash",
     "quote": "tether",
     "url": "https://www.toobit.com/spot/ZEC_USDT"
+  },
+  "ZENTUSDT": {
+    "exchange": "spot",
+    "base": "zentry",
+    "quote": "tether",
+    "url": "https://www.toobit.com/spot/ZENT_USDT"
   },
   "ZEREBROUSDT": {
     "exchange": "spot",

@@ -1,0 +1,18 @@
+{
+  "id": "evervalue-coin",
+  "display_name": "EverValue Coin",
+  "symbol": "EVA",
+  "category": "crypto",
+  "about": {
+    "en": "EverValue Coin (EVA) is a deflationary token on Arbitrum One designed to gain value against Bitcoin: an immutable on-chain Burn Vault holds WBTC, topped up with bitcoin mined by the project's own machines, and burning EVA redeems a pro-rata share of that WBTC, which sets a rising floor price in sats for the remaining supply. It is an ERC-20 at 0x45d9831d8751b2325f3dbf48db748723726e1c8c on Arbitrum One. It trades freely above that floor and is not pegged to bitcoin."
+  },
+  "urls": {
+    "Website": "https://evervaluecoin.com/",
+    "Whitepaper": "https://evervaluecoin.com/white-paper/",
+    "Source code": "https://github.com/devervalue/evervaluecoin"
+  },
+  "external": {
+    "coingecko": "evervalue-coin",
+    "coinmarketcap": "33342"
+  }
+}

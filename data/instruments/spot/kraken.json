@@ -7900,5 +7900,113 @@
     "base": "uranium",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/xu3o8-usd"
+  },
+  "AVLUSD": {
+    "exchange": "spot",
+    "base": "avalon-labs",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/avl-usd"
+  },
+  "BEAMEUR": {
+    "exchange": "spot",
+    "base": "onbeam",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/beam-eur"
+  },
+  "BEAMUSD": {
+    "exchange": "spot",
+    "base": "onbeam",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/beam-usd"
+  },
+  "CORNUSD": {
+    "exchange": "spot",
+    "base": "corn",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/corn-usd"
+  },
+  "GENIUSEUR": {
+    "exchange": "spot",
+    "base": "genius-terminal",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/genius-eur"
+  },
+  "GENIUSUSD": {
+    "exchange": "spot",
+    "base": "genius-terminal",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/genius-usd"
+  },
+  "JOEEUR": {
+    "exchange": "spot",
+    "base": "joe",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/joe-eur"
+  },
+  "JOEUSD": {
+    "exchange": "spot",
+    "base": "joe",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/joe-usd"
+  },
+  "MANTRAEUR": {
+    "exchange": "spot",
+    "base": "mantra",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/mantra-eur"
+  },
+  "MANTRAUSD": {
+    "exchange": "spot",
+    "base": "mantra",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mantra-usd"
+  },
+  "MIRAEUR": {
+    "exchange": "spot",
+    "base": "mira-network",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/mira-eur"
+  },
+  "MIRAUSD": {
+    "exchange": "spot",
+    "base": "mira-network",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/mira-usd"
+  },
+  "NEXEUR": {
+    "exchange": "spot",
+    "base": "nexus-labs",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/nex-eur"
+  },
+  "NEXUSD": {
+    "exchange": "spot",
+    "base": "nexus-labs",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/nex-usd"
+  },
+  "OCEANEUR": {
+    "exchange": "spot",
+    "base": "ocean-protocol",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/ocean-eur"
+  },
+  "OCEANUSD": {
+    "exchange": "spot",
+    "base": "ocean-protocol",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/ocean-usd"
+  },
+  "REKTEUR": {
+    "exchange": "spot",
+    "base": "rekt",
+    "quote": "euro",
+    "url": "https://pro.kraken.com/app/trade/rekt-eur"
+  },
+  "REKTUSD": {
+    "exchange": "spot",
+    "base": "rekt",
+    "quote": "usd",
+    "url": "https://pro.kraken.com/app/trade/rekt-usd"
   }
 }

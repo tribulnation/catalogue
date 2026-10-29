@@ -83,6 +83,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "CAT-USD": {
+    "exchange": "perp",
+    "base": "caterpillar",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "CL-USD": {
     "exchange": "perp",
     "base": "west-texas-intermediate",
@@ -185,6 +191,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "JD-USD": {
+    "exchange": "perp",
+    "base": "jd-com-adr",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "LINK-USD": {
     "exchange": "perp",
     "base": "chainlink",
@@ -242,6 +254,12 @@
   "NBIS-USD": {
     "exchange": "perp",
     "base": "nebius-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "NDX-USD": {
+    "exchange": "perp",
+    "base": "nasdaq-100-index",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
@@ -326,6 +344,12 @@
   "SPCX-USD": {
     "exchange": "perp",
     "base": "spacex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "SPOT-USD": {
+    "exchange": "perp",
+    "base": "spotify-technology",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },

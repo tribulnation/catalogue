@@ -125,6 +125,12 @@
     "quote": "tether",
     "url": "https://www.binance.us/spot-trade/aster_usdt"
   },
+  "ASTRUSDT": {
+    "exchange": "spot",
+    "base": "astar",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/astr_usdt"
+  },
   "ATOMUSD": {
     "exchange": "spot",
     "base": "cosmos",
@@ -521,6 +527,12 @@
     "quote": "tether",
     "url": "https://www.binance.us/spot-trade/gas_usdt"
   },
+  "GLMUSDT": {
+    "exchange": "spot",
+    "base": "golem",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/glm_usdt"
+  },
   "GRAMUSDT": {
     "exchange": "spot",
     "base": "toncoin",
@@ -737,6 +749,12 @@
     "quote": "tether",
     "url": "https://www.binance.us/spot-trade/mask_usdt"
   },
+  "METISUSDT": {
+    "exchange": "spot",
+    "base": "metis",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/metis_usdt"
+  },
   "MEUSD": {
     "exchange": "spot",
     "base": "magic-eden",
@@ -773,6 +791,12 @@
     "quote": "tether",
     "url": "https://www.binance.us/spot-trade/nmr_usdt"
   },
+  "OCEANUSDT": {
+    "exchange": "spot",
+    "base": "ocean-protocol",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ocean_usdt"
+  },
   "OGNUSDT": {
     "exchange": "spot",
     "base": "origin-protocol",
@@ -784,6 +808,30 @@
     "base": "ondo",
     "quote": "tether",
     "url": "https://www.binance.us/spot-trade/ondo_usdt"
+  },
+  "ONEUSD": {
+    "exchange": "spot",
+    "base": "harmony",
+    "quote": "usd",
+    "url": "https://www.binance.us/spot-trade/one_usd"
+  },
+  "ONEUSDT": {
+    "exchange": "spot",
+    "base": "harmony",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/one_usdt"
+  },
+  "ONGUSDT": {
+    "exchange": "spot",
+    "base": "ontology-gas",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ong_usdt"
+  },
+  "ONTUSDT": {
+    "exchange": "spot",
+    "base": "ontology",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/ont_usdt"
   },
   "OPUSD": {
     "exchange": "spot",
@@ -958,6 +1006,12 @@
     "base": "shiba-inu",
     "quote": "tether",
     "url": "https://www.binance.us/spot-trade/shib_usdt"
+  },
+  "SKLUSDT": {
+    "exchange": "spot",
+    "base": "skale",
+    "quote": "tether",
+    "url": "https://www.binance.us/spot-trade/skl_usdt"
   },
   "SKYUSDT": {
     "exchange": "spot",
@@ -1192,6 +1246,12 @@
     "base": "wax",
     "quote": "tether",
     "url": "https://www.binance.us/spot-trade/waxp_usdt"
+  },
+  "WBTCBTC": {
+    "exchange": "spot",
+    "base": "wrapped-bitcoin",
+    "quote": "bitcoin",
+    "url": "https://www.binance.us/spot-trade/wbtc_btc"
   },
   "WIFUSDT": {
     "exchange": "spot",

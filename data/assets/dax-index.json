@@ -1,0 +1,17 @@
+{
+  "id": "dax-index",
+  "display_name": "DAX",
+  "symbol": "DAX",
+  "tags": [
+    "Index"
+  ],
+  "about": {
+    "en": "The DAX is the benchmark index of the German stock market, tracking the 40 largest and most liquid companies listed on the Frankfurt Stock Exchange; it is calculated by STOXX (Deutsche Börse) and quoted in euros. Crypto venues list perpetuals on it under tickers such as GER40, priced in USD. The DAX is an index reference, not a token, fund share or redeemable basket."
+  },
+  "urls": {
+    "Website": "https://stoxx.com/index/DAX/"
+  },
+  "external": {
+    "yahoo": "^GDAXI"
+  }
+}

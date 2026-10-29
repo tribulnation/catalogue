@@ -14,6 +14,11 @@
     "base": "doublezero",
     "quote": "usd"
   },
+  "A8/USD": {
+    "exchange": "spot",
+    "base": "ancient8",
+    "quote": "usd"
+  },
   "AAVE/EUR": {
     "exchange": "spot",
     "base": "aave",
@@ -254,6 +259,11 @@
     "base": "bitcoin-cash",
     "quote": "usd-coin"
   },
+  "BEAM/USD": {
+    "exchange": "spot",
+    "base": "onbeam",
+    "quote": "usd"
+  },
   "BERA/USD": {
     "exchange": "spot",
     "base": "berachain",
@@ -333,6 +343,11 @@
     "exchange": "spot",
     "base": "bitcoin",
     "quote": "usd-coin"
+  },
+  "BTRST/USD": {
+    "exchange": "spot",
+    "base": "braintrust",
+    "quote": "usd"
   },
   "C98/USD": {
     "exchange": "spot",
@@ -453,6 +468,11 @@
     "exchange": "spot",
     "base": "dogecoin",
     "quote": "usd-coin"
+  },
+  "DOGINME/USD": {
+    "exchange": "spot",
+    "base": "doginme",
+    "quote": "usd"
   },
   "DOGS/USD": {
     "exchange": "spot",
@@ -949,6 +969,11 @@
     "base": "enzyme",
     "quote": "usd"
   },
+  "MNDE/USD": {
+    "exchange": "spot",
+    "base": "marinade",
+    "quote": "usd"
+  },
   "MOG/USD": {
     "exchange": "spot",
     "base": "mog-coin",
@@ -972,6 +997,11 @@
   "MSOL/USD": {
     "exchange": "spot",
     "base": "marinade-staked-sol",
+    "quote": "usd"
+  },
+  "NCT/USD": {
+    "exchange": "spot",
+    "base": "polyswarm",
     "quote": "usd"
   },
   "NEAR/EUR": {
@@ -1002,6 +1032,16 @@
   "NOT/USD": {
     "exchange": "spot",
     "base": "notcoin",
+    "quote": "usd"
+  },
+  "OCEAN/USD": {
+    "exchange": "spot",
+    "base": "ocean-protocol",
+    "quote": "usd"
+  },
+  "OFC/USD": {
+    "exchange": "spot",
+    "base": "onefootball-club",
     "quote": "usd"
   },
   "OGN/USD": {
@@ -1092,6 +1132,11 @@
   "PLUME/USD": {
     "exchange": "spot",
     "base": "plume",
+    "quote": "usd"
+  },
+  "PNG/USD": {
+    "exchange": "spot",
+    "base": "pangolin",
     "quote": "usd"
   },
   "PNUT/USD": {
@@ -1303,6 +1348,11 @@
     "exchange": "spot",
     "base": "shiba-inu",
     "quote": "usd-coin"
+  },
+  "SKL/USD": {
+    "exchange": "spot",
+    "base": "skale",
+    "quote": "usd"
   },
   "SKY/USD": {
     "exchange": "spot",

@@ -62,6 +62,13 @@
     "settlement": "usd-coin",
     "url": "https://app.paradex.trade/trade/CL-USD-PERP"
   },
+  "CRCL-USD-PERP": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://app.paradex.trade/trade/CRCL-USD-PERP"
+  },
   "DOGE-USD-PERP": {
     "exchange": "perp",
     "base": "dogecoin",

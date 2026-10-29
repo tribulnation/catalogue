@@ -1,0 +1,20 @@
+{
+  "id": "bitgo-holdings-ondo-tokenized-stock",
+  "display_name": "BitGo Holdings (Ondo Tokenized)",
+  "symbol": "BTGOon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "BTGOon is the Ondo tokenized stock for BitGo Holdings, Inc., the US digital-asset custody and infrastructure company whose Class A shares trade on the New York Stock Exchange as BTGO. It is issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is fully backed by BTGO shares and is a total-return tracker: it gives the economic exposure of holding BTGO with dividends reinvested, so one token does not necessarily equal one share. It is deployed on Ethereum (0x510Dd21055188Eda378714DE3bb5591Ffa0CC468), BNB Chain (0x5fA699c0c1319b8D86489AF77dFDe4Fa97B47DF8) and Solana. Holders have a claim on the issuer, not registered ownership of BitGo shares."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/btgoon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "bitgo-holdings-ondo-tokenized-stock",
+    "coinmarketcap": "39411"
+  }
+}

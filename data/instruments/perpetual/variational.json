@@ -52,6 +52,13 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/2Z"
   },
+  "4-PERP": {
+    "exchange": "perp",
+    "base": "4-bsc",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/4"
+  },
   "A-PERP": {
     "exchange": "perp",
     "base": "vaulta",
@@ -135,6 +142,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/AGLD"
+  },
+  "AIOT-PERP": {
+    "exchange": "perp",
+    "base": "okzoo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/AIOT"
   },
   "AIOZ-PERP": {
     "exchange": "perp",
@@ -353,6 +367,13 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/ASML"
   },
+  "ASR-PERP": {
+    "exchange": "perp",
+    "base": "as-roma-fan-token",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/ASR"
+  },
   "ASTER-PERP": {
     "exchange": "perp",
     "base": "aster",
@@ -549,6 +570,13 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/BE"
   },
+  "BEAM-PERP": {
+    "exchange": "perp",
+    "base": "onbeam",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/BEAM"
+  },
   "BEAT-PERP": {
     "exchange": "perp",
     "base": "audiera",
@@ -689,12 +717,26 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/BRKB"
   },
+  "BROCCOLI-PERP": {
+    "exchange": "perp",
+    "base": "czs-dog",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/BROCCOLI"
+  },
   "BSB-PERP": {
     "exchange": "perp",
     "base": "block-street",
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/BSB"
+  },
+  "BSP-PERP": {
+    "exchange": "perp",
+    "base": "bending-spoons",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/BSP"
   },
   "BTC-PERP": {
     "exchange": "perp",
@@ -765,6 +807,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/CASHCAT"
+  },
+  "CAT-PERP": {
+    "exchange": "perp",
+    "base": "caterpillar",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/CAT"
   },
   "CATI-PERP": {
     "exchange": "perp",
@@ -842,6 +891,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/CHZ"
+  },
+  "CIEN-PERP": {
+    "exchange": "perp",
+    "base": "ciena",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/CIEN"
   },
   "CKB-PERP": {
     "exchange": "perp",
@@ -947,6 +1003,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/CRO"
+  },
+  "CROSS-PERP": {
+    "exchange": "perp",
+    "base": "onechain",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/CROSS"
   },
   "CRV-PERP": {
     "exchange": "perp",
@@ -1066,6 +1129,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/DIS"
+  },
+  "DJT-PERP": {
+    "exchange": "perp",
+    "base": "trump-media-technology-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/DJT"
   },
   "DKNG-PERP": {
     "exchange": "perp",
@@ -1347,6 +1417,13 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/FLR"
   },
+  "FLUID-PERP": {
+    "exchange": "perp",
+    "base": "fluid",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/FLUID"
+  },
   "FLUX-PERP": {
     "exchange": "perp",
     "base": "zelcash",
@@ -1388,6 +1465,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/GAS"
+  },
+  "GENIUS-PERP": {
+    "exchange": "perp",
+    "base": "genius-terminal",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/GENIUS"
   },
   "GIGGLE-PERP": {
     "exchange": "perp",
@@ -1479,6 +1563,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/GRVT"
+  },
+  "GUA-PERP": {
+    "exchange": "perp",
+    "base": "superfortune",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/GUA"
   },
   "GWEI-PERP": {
     "exchange": "perp",
@@ -1606,6 +1697,13 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/HYPER"
   },
+  "IBKR-PERP": {
+    "exchange": "perp",
+    "base": "interactive-brokers-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/IBKR"
+  },
   "IBM-PERP": {
     "exchange": "perp",
     "base": "international-business-machines",
@@ -1633,6 +1731,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/ID"
+  },
+  "IDOL-PERP": {
+    "exchange": "perp",
+    "base": "meet48",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/IDOL"
   },
   "ILV-PERP": {
     "exchange": "perp",
@@ -2005,6 +2110,13 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/MANTA"
   },
+  "MARSCOIN-PERP": {
+    "exchange": "perp",
+    "base": "marscoin-bnb",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/MARSCOIN"
+  },
   "MASK-PERP": {
     "exchange": "perp",
     "base": "mask-network",
@@ -2095,6 +2207,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/MINA"
+  },
+  "MITO-PERP": {
+    "exchange": "perp",
+    "base": "mitosis",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/MITO"
   },
   "MMT-PERP": {
     "exchange": "perp",
@@ -2194,6 +2313,13 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/MYX"
   },
+  "NAORIS-PERP": {
+    "exchange": "perp",
+    "base": "naoris-protocol",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/NAORIS"
+  },
   "NATGAS-PERP": {
     "exchange": "perp",
     "base": "natural-gas",
@@ -2292,12 +2418,26 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/O"
   },
+  "OG-PERP": {
+    "exchange": "perp",
+    "base": "og-fan-token",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/OG"
+  },
   "OKB-PERP": {
     "exchange": "perp",
     "base": "okb",
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/OKB"
+  },
+  "ON-PERP": {
+    "exchange": "perp",
+    "base": "orochi-network",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/ON"
   },
   "ONDO-PERP": {
     "exchange": "perp",
@@ -2312,6 +2452,27 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/ONDS"
+  },
+  "ONE-PERP": {
+    "exchange": "perp",
+    "base": "harmony",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/ONE"
+  },
+  "ONG-PERP": {
+    "exchange": "perp",
+    "base": "ontology-gas",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/ONG"
+  },
+  "ONT-PERP": {
+    "exchange": "perp",
+    "base": "ontology",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/ONT"
   },
   "OP-PERP": {
     "exchange": "perp",
@@ -2508,6 +2669,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/PORTAL"
+  },
+  "POWER-PERP": {
+    "exchange": "perp",
+    "base": "power-protocol",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/POWER"
   },
   "POWR-PERP": {
     "exchange": "perp",
@@ -2761,6 +2929,13 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/SAND"
   },
+  "SANTOS-PERP": {
+    "exchange": "perp",
+    "base": "santos-fc-fan-token",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/SANTOS"
+  },
   "SAPIEN-PERP": {
     "exchange": "perp",
     "base": "sapien",
@@ -2796,6 +2971,13 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/SHAZ"
   },
+  "SHELL-PERP": {
+    "exchange": "perp",
+    "base": "myshell",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/SHELL"
+  },
   "SHOP-PERP": {
     "exchange": "perp",
     "base": "shopify",
@@ -2816,6 +2998,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/SKHY"
+  },
+  "SKL-PERP": {
+    "exchange": "perp",
+    "base": "skale",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/SKL"
   },
   "SKRS-PERP": {
     "exchange": "perp",
@@ -2852,12 +3041,33 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/SNDK"
   },
+  "SNOW-PERP": {
+    "exchange": "perp",
+    "base": "snowflake",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/SNOW"
+  },
+  "SNT-PERP": {
+    "exchange": "perp",
+    "base": "status",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/SNT"
+  },
   "SNX-PERP": {
     "exchange": "perp",
     "base": "synthetix",
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/SNX"
+  },
+  "SOFI-PERP": {
+    "exchange": "perp",
+    "base": "sofi-technologies",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/SOFI"
   },
   "SOL-PERP": {
     "exchange": "perp",
@@ -3132,6 +3342,13 @@
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/TLM"
   },
+  "TMF-PERP": {
+    "exchange": "perp",
+    "base": "direxion-daily-20-year-treasury-bull-3x",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/TMF"
+  },
   "TNSR-PERP": {
     "exchange": "perp",
     "base": "tensor",
@@ -3236,6 +3453,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/TXN"
+  },
+  "TZA-PERP": {
+    "exchange": "perp",
+    "base": "direxion-daily-small-cap-bear-3x",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/TZA"
   },
   "UAI-PERP": {
     "exchange": "perp",
@@ -3558,6 +3782,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://omni.variational.io/perpetual/XTZ"
+  },
+  "XVG-PERP": {
+    "exchange": "perp",
+    "base": "verge",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://omni.variational.io/perpetual/XVG"
   },
   "YB-PERP": {
     "exchange": "perp",

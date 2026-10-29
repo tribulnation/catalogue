@@ -1,0 +1,17 @@
+{
+  "id": "kospi-200-index",
+  "display_name": "KOSPI 200 Index",
+  "symbol": "KOSPI200",
+  "tags": [
+    "Index"
+  ],
+  "about": {
+    "en": "The KOSPI 200 is a market-capitalization-weighted index of 200 large companies listed on the KOSPI market of the Korea Exchange, which calculates and publishes it in Korean won index points. Crypto venues list perpetuals on it under tickers such as KR200; most quote the index level directly, while some convert it from KRW to USD. It is an index reference, not a token, fund share or redeemable basket; funds tracking it, such as KODEX 200, are separate assets."
+  },
+  "urls": {
+    "Website": "https://global.krx.co.kr/"
+  },
+  "external": {
+    "yahoo": "^KS200"
+  }
+}

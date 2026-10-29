@@ -1,0 +1,17 @@
+{
+  "id": "dow-jones-industrial-average-index",
+  "display_name": "Dow Jones Industrial Average",
+  "symbol": "DJI",
+  "tags": [
+    "Index"
+  ],
+  "about": {
+    "en": "The Dow Jones Industrial Average (DJIA) is a price-weighted index of 30 large US blue-chip companies, excluding transportation and utilities, published by S&P Dow Jones Indices since 1896. Crypto venues list perpetuals on it under tickers such as US30. The DJIA is an index reference, not a token, fund share or redeemable basket; funds tracking it, such as the SPDR Dow Jones Industrial Average ETF Trust (DIA), are separate assets."
+  },
+  "urls": {
+    "Website": "https://www.spglobal.com/spdji/en/indices/equity/dow-jones-industrial-average/"
+  },
+  "external": {
+    "yahoo": "^DJI"
+  }
+}

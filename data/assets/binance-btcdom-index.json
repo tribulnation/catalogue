@@ -1,0 +1,17 @@
+{
+  "id": "binance-btcdom-index",
+  "display_name": "Binance BTCDOM Index",
+  "symbol": "BTCDOM",
+  "tags": [
+    "Index"
+  ],
+  "about": {
+    "en": "The Binance BTCDOM Index measures Bitcoin's market dominance against a weighted basket of other large crypto assets. Binance calculates it from Bitcoin's price denominated in each constituent (BTC/ETH, BTC/BNB, BTC/ADA and others) with periodically rebalanced weights; unlike the dominance percentage it is not capped at 0-100%, which makes it usable as a derivatives underlying. Binance, Aster, BloFin, WEEX and other venues list BTCDOMUSDT perpetuals on it, and their index prices agree. It is an index reference, not a token, fund share or redeemable basket."
+  },
+  "urls": {
+    "Documentation": "https://www.binance.com/en/support/faq/e3b1ab97a3e24df4b0e41a469ccf7a21"
+  },
+  "external": {
+    "coinmarketcap": "10634"
+  }
+}

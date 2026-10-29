@@ -1,0 +1,20 @@
+{
+  "id": "tokamak-network",
+  "display_name": "Tokamak Network",
+  "symbol": "TOKAMAK",
+  "category": "crypto",
+  "tags": [
+    "L2"
+  ],
+  "about": {
+    "en": "Tokamak Network is an Ethereum layer-2 platform for deploying application-specific rollups on demand. Its token is an ERC-20 on Ethereum at 0x2be5e8c109e2197D077D13A82dAead6a9b3433C5 that reports the on-chain symbol TON; exchanges list it as TOKAMAK to avoid the collision with Toncoin, which is a different asset. It is used for staking and in the network's DAO."
+  },
+  "urls": {
+    "Website": "https://tokamak.network/",
+    "Source code": "https://github.com/tokamak-network"
+  },
+  "external": {
+    "coingecko": "tokamak-network",
+    "coinmarketcap": "6731"
+  }
+}

@@ -214,6 +214,11 @@
     "base": "bitcoin-cash",
     "quote": "brazilian-real"
   },
+  "BEAM-BRL": {
+    "exchange": "spot",
+    "base": "onbeam",
+    "quote": "brazilian-real"
+  },
   "BERA-BRL": {
     "exchange": "spot",
     "base": "berachain",
@@ -279,6 +284,11 @@
     "base": "bitcoin",
     "quote": "tether"
   },
+  "BTRST-BRL": {
+    "exchange": "spot",
+    "base": "braintrust",
+    "quote": "brazilian-real"
+  },
   "BTT-BRL": {
     "exchange": "spot",
     "base": "bittorrent",
@@ -342,6 +352,11 @@
   "COW-BRL": {
     "exchange": "spot",
     "base": "cow-protocol",
+    "quote": "brazilian-real"
+  },
+  "CROSS-BRL": {
+    "exchange": "spot",
+    "base": "onechain",
     "quote": "brazilian-real"
   },
   "CRV-BRL": {
@@ -649,6 +664,11 @@
     "base": "hivemapper",
     "quote": "brazilian-real"
   },
+  "HOT-BRL": {
+    "exchange": "spot",
+    "base": "holo",
+    "quote": "brazilian-real"
+  },
   "HYPE-BRL": {
     "exchange": "spot",
     "base": "hyperliquid",
@@ -724,6 +744,11 @@
     "base": "kusama",
     "quote": "brazilian-real"
   },
+  "LAT-BRL": {
+    "exchange": "spot",
+    "base": "platon-network",
+    "quote": "brazilian-real"
+  },
   "LAYER-BRL": {
     "exchange": "spot",
     "base": "solayer",
@@ -784,6 +809,11 @@
     "base": "decentraland",
     "quote": "brazilian-real"
   },
+  "MANTRA-BRL": {
+    "exchange": "spot",
+    "base": "mantra",
+    "quote": "brazilian-real"
+  },
   "MASK-BRL": {
     "exchange": "spot",
     "base": "mask-network",
@@ -822,6 +852,11 @@
   "MINA-BRL": {
     "exchange": "spot",
     "base": "mina-protocol",
+    "quote": "brazilian-real"
+  },
+  "MNDE-BRL": {
+    "exchange": "spot",
+    "base": "marinade",
     "quote": "brazilian-real"
   },
   "MNT-BRL": {
@@ -1039,6 +1074,11 @@
     "base": "redstone",
     "quote": "brazilian-real"
   },
+  "REKT-BRL": {
+    "exchange": "spot",
+    "base": "rekt",
+    "quote": "brazilian-real"
+  },
   "REN-BRL": {
     "exchange": "spot",
     "base": "ren",
@@ -1057,6 +1097,16 @@
   "REZ-BRL": {
     "exchange": "spot",
     "base": "renzo",
+    "quote": "brazilian-real"
+  },
+  "RIF-BRL": {
+    "exchange": "spot",
+    "base": "rootstock-infrastructure-framework",
+    "quote": "brazilian-real"
+  },
+  "RIO-BRL": {
+    "exchange": "spot",
+    "base": "realio-network",
     "quote": "brazilian-real"
   },
   "RLC-BRL": {
@@ -1137,6 +1187,11 @@
   "SHIB-BRL": {
     "exchange": "spot",
     "base": "shiba-inu",
+    "quote": "brazilian-real"
+  },
+  "SKL-BRL": {
+    "exchange": "spot",
+    "base": "skale",
     "quote": "brazilian-real"
   },
   "SKY-BRL": {
@@ -1442,6 +1497,11 @@
   "XTZ-BRL": {
     "exchange": "spot",
     "base": "tezos",
+    "quote": "brazilian-real"
+  },
+  "XVS-BRL": {
+    "exchange": "spot",
+    "base": "venus",
     "quote": "brazilian-real"
   },
   "YFI-BRL": {
