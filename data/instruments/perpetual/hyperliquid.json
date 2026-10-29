@@ -3226,5 +3226,12 @@
     "quote": "tether",
     "settlement": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/XTEN"
+  },
+  "xyz:NU": {
+    "exchange": "xyz",
+    "base": "nu-holdings",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
   }
 }
