@@ -1,0 +1,22 @@
+{
+  "id": "quickswap",
+  "display_name": "QuickSwap",
+  "symbol": "QUICK",
+  "category": "crypto",
+  "tags": [
+    "DeFi",
+    "DEX"
+  ],
+  "about": {
+    "en": "QUICK is the governance and ecosystem token of QuickSwap, a decentralised exchange launched on Polygon PoS in 2020 and since deployed on Base and other EVM chains. This is the redenominated QUICK introduced in 2022 at 1,000 new per old token: the ERC-20 at 0xd2ba23dE8a19316A638dc1e7a9ADdA1d74233368 on Ethereum and 0xB5C064F955D8e7F38fE0460C556a72987494eE17 on Polygon PoS. The legacy QUICK (0x831753DD7087CaC61aB5644b308642cc1c33Dc13 on Polygon) is a different asset priced about 1,000 times higher."
+  },
+  "urls": {
+    "Website": "https://quickswap.exchange/",
+    "Documentation": "https://docs.quickswap.exchange/",
+    "Source Code": "https://github.com/QuickSwap"
+  },
+  "external": {
+    "coingecko": "quickswap",
+    "coinmarketcap": "19966"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "tqqq-xstock",
+  "display_name": "TQQQ xStock",
+  "symbol": "TQQQx",
+  "category": "rwa",
+  "tags": [
+    "ETF",
+    "Leveraged"
+  ],
+  "about": {
+    "en": "TQQQ xStock (TQQQx) is a tokenized tracker certificate on ProShares UltraPro QQQ, the 3x daily leveraged Nasdaq-100 ETF, issued by Backed under the xStocks brand. Each token is backed 1:1 by TQQQ shares held with qualified custodians and tracks the ETF price on-chain on Solana (XsjQP3iMAaQ3kQScQKthQpx9ALRbjKAjQtHg6TFomoc), Ethereum, BNB Chain, Arbitrum and other networks. xStocks are offered to non-US investors."
+  },
+  "urls": {
+    "Website": "https://xstocks.com/",
+    "Product page": "https://assets.backed.fi/products/tqqq-xstock"
+  },
+  "external": {
+    "coingecko": "tqqq-xstock",
+    "coinmarketcap": "37044"
+  },
+  "pegged_to": {
+    "asset": "proshares-ultrapro-qqq"
+  }
+}

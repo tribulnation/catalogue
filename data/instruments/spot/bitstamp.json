@@ -179,6 +179,11 @@
     "base": "bitcoin",
     "quote": "euro-coin"
   },
+  "BTC/EURCV": {
+    "exchange": "spot",
+    "base": "bitcoin",
+    "quote": "societe-generale-forge-eurcv"
+  },
   "BTC/GBP": {
     "exchange": "spot",
     "base": "bitcoin",
@@ -329,6 +334,11 @@
     "base": "ethereum",
     "quote": "euro-coin"
   },
+  "ETH/EURCV": {
+    "exchange": "spot",
+    "base": "ethereum",
+    "quote": "societe-generale-forge-eurcv"
+  },
   "ETH/GBP": {
     "exchange": "spot",
     "base": "ethereum",
@@ -368,6 +378,21 @@
     "exchange": "spot",
     "base": "euro-coin",
     "quote": "usd-coin"
+  },
+  "EURCV/EUR": {
+    "exchange": "spot",
+    "base": "societe-generale-forge-eurcv",
+    "quote": "euro"
+  },
+  "EURCV/USDC": {
+    "exchange": "spot",
+    "base": "societe-generale-forge-eurcv",
+    "quote": "usd-coin"
+  },
+  "EURCV/USDT": {
+    "exchange": "spot",
+    "base": "societe-generale-forge-eurcv",
+    "quote": "tether"
   },
   "FARTCOIN/USD": {
     "exchange": "spot",

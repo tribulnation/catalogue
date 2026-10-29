@@ -22,6 +22,14 @@
     "multiplier": 1000000,
     "url": "https://bingx.com/en/perpetual/1000000MOG-USDT/"
   },
+  "10000NEX-USDT": {
+    "exchange": "perp",
+    "base": "nexus-labs",
+    "quote": "tether",
+    "settlement": "tether",
+    "multiplier": 10000,
+    "url": "https://bingx.com/en/perpetual/10000NEX-USDT/"
+  },
   "10000SATS-USDT": {
     "exchange": "perp",
     "base": "sats-ordinals",
@@ -115,6 +123,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/2Z-USDT/"
+  },
+  "4-USDT": {
+    "exchange": "perp",
+    "base": "4-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/4-USDT/"
   },
   "4STOCK-USDT": {
     "exchange": "perp",
@@ -235,6 +250,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/AGT-USDT/"
   },
+  "AIA-USDT": {
+    "exchange": "perp",
+    "base": "deagentai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/AIA-USDT/"
+  },
   "AIN-USDT": {
     "exchange": "perp",
     "base": "infinity-ground",
@@ -248,6 +270,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/AIO-USDT/"
+  },
+  "AIOT-USDT": {
+    "exchange": "perp",
+    "base": "okzoo",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/AIOT-USDT/"
   },
   "AIXBT-USDT": {
     "exchange": "perp",
@@ -438,6 +467,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/ARX-USDT/"
   },
+  "ASR-USDT": {
+    "exchange": "perp",
+    "base": "as-roma-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/ASR-USDT/"
+  },
   "ASTER-USDT": {
     "exchange": "perp",
     "base": "aster",
@@ -451,6 +487,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/ASTR-USDT/"
+  },
+  "AT-USDT": {
+    "exchange": "perp",
+    "base": "apro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/AT-USDT/"
   },
   "ATH-USDT": {
     "exchange": "perp",
@@ -578,6 +621,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/BANANAS31-USDT/"
   },
+  "BANK-USDT": {
+    "exchange": "perp",
+    "base": "lorenzo-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/BANK-USDT/"
+  },
   "BARD-USDT": {
     "exchange": "perp",
     "base": "lombard",
@@ -606,6 +656,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/BAT-USDT/"
   },
+  "BATON-USDT": {
+    "exchange": "perp",
+    "base": "baton",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/BATON-USDT/"
+  },
   "BB-USDT": {
     "exchange": "perp",
     "base": "bouncebit",
@@ -627,12 +684,26 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/BCH-USDT/"
   },
+  "BEAM-USDT": {
+    "exchange": "perp",
+    "base": "onbeam",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/BEAM-USDT/"
+  },
   "BEAT-USDT": {
     "exchange": "perp",
     "base": "audiera",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/BEAT-USDT/"
+  },
+  "BEN-USDT": {
+    "exchange": "perp",
+    "base": "ben",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/BEN-USDT/"
   },
   "BERA-USDT": {
     "exchange": "perp",
@@ -760,6 +831,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/BREV-USDT/"
   },
+  "BROCCOLI-USDT": {
+    "exchange": "perp",
+    "base": "czs-dog",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/BROCCOLI-USDT/"
+  },
   "BSB-USDT": {
     "exchange": "perp",
     "base": "block-street",
@@ -802,6 +880,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/BTW-USDT/"
   },
+  "BULLA-USDT": {
+    "exchange": "perp",
+    "base": "bulla",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/BULLA-USDT/"
+  },
   "C-USDT": {
     "exchange": "perp",
     "base": "chainbase",
@@ -836,6 +921,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/CASHCAT-USDT/"
+  },
+  "CATE-USDT": {
+    "exchange": "perp",
+    "base": "catecoin-cate-meme",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/CATE-USDT/"
   },
   "CATI-USDT": {
     "exchange": "perp",
@@ -963,6 +1055,27 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/CLO-USDT/"
   },
+  "CNPY-USDT": {
+    "exchange": "perp",
+    "base": "canopy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/CNPY-USDT/"
+  },
+  "COAI-USDT": {
+    "exchange": "perp",
+    "base": "chainopera-ai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/COAI-USDT/"
+  },
+  "COLLECT-USDT": {
+    "exchange": "perp",
+    "base": "collect-on-fanable",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/COLLECT-USDT/"
+  },
   "COMP-USDT": {
     "exchange": "perp",
     "base": "compound",
@@ -1012,6 +1125,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/CRO-USDT/"
   },
+  "CROSS-USDT": {
+    "exchange": "perp",
+    "base": "onechain",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/CROSS-USDT/"
+  },
   "CRV-USDC": {
     "exchange": "perp",
     "base": "curve-dao",
@@ -1032,6 +1152,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/CT-USDT/"
+  },
+  "CTK-USDT": {
+    "exchange": "perp",
+    "base": "shentu",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/CTK-USDT/"
   },
   "CTSI-USDT": {
     "exchange": "perp",
@@ -1425,6 +1552,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/FLOW-USDT/"
   },
+  "FLUID-USDT": {
+    "exchange": "perp",
+    "base": "fluid",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/FLUID-USDT/"
+  },
   "FLUX-USDT": {
     "exchange": "perp",
     "base": "zelcash",
@@ -1480,6 +1614,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/GAS-USDT/"
+  },
+  "GENIUS-USDT": {
+    "exchange": "perp",
+    "base": "genius-terminal",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/GENIUS-USDT/"
   },
   "GIGGLE-USDT": {
     "exchange": "perp",
@@ -1558,6 +1699,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/GTC-USDT/"
   },
+  "GUA-USDT": {
+    "exchange": "perp",
+    "base": "superfortune",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/GUA-USDT/"
+  },
   "GUN-USDT": {
     "exchange": "perp",
     "base": "gunz",
@@ -1621,6 +1769,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/HEMI-USDT/"
   },
+  "HIVE-USDT": {
+    "exchange": "perp",
+    "base": "hive",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/HIVE-USDT/"
+  },
   "HMSTR-USDT": {
     "exchange": "perp",
     "base": "hamster-kombat",
@@ -1683,6 +1838,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/ID-USDT/"
+  },
+  "IDOL-USDT": {
+    "exchange": "perp",
+    "base": "meet48",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/IDOL-USDT/"
   },
   "ILV-USDT": {
     "exchange": "perp",
@@ -1859,6 +2021,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/KII-USDT/"
   },
+  "KIMCHI-USDT": {
+    "exchange": "perp",
+    "base": "aura-final-boss",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/KIMCHI-USDT/"
+  },
   "KITE-USDT": {
     "exchange": "perp",
     "base": "kite",
@@ -2006,6 +2175,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/LUNC-USDT/"
   },
+  "LYN-USDT": {
+    "exchange": "perp",
+    "base": "everlyn",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/LYN-USDT/"
+  },
   "M-USDT": {
     "exchange": "perp",
     "base": "memecore",
@@ -2040,6 +2216,20 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/MANTA-USDT/"
+  },
+  "MANTRA-USDT": {
+    "exchange": "perp",
+    "base": "mantra",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/MANTRA-USDT/"
+  },
+  "MARSCOIN-USDT": {
+    "exchange": "perp",
+    "base": "marscoin-bnb",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/MARSCOIN-USDT/"
   },
   "MASK-USDT": {
     "exchange": "perp",
@@ -2181,6 +2371,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/MYX-USDT/"
   },
+  "NAORIS-USDT": {
+    "exchange": "perp",
+    "base": "naoris-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NAORIS-USDT/"
+  },
   "NEAR-USDC": {
     "exchange": "perp",
     "base": "near",
@@ -2272,6 +2469,20 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/O-USDT/"
   },
+  "OFC-USDT": {
+    "exchange": "perp",
+    "base": "onefootball-club",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/OFC-USDT/"
+  },
+  "OG-USDT": {
+    "exchange": "perp",
+    "base": "og-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/OG-USDT/"
+  },
   "OGN-USDT": {
     "exchange": "perp",
     "base": "origin-protocol",
@@ -2286,6 +2497,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/OKB-USDT/"
   },
+  "ON-USDT": {
+    "exchange": "perp",
+    "base": "orochi-network",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/ON-USDT/"
+  },
   "ONDO-USDC": {
     "exchange": "perp",
     "base": "ondo",
@@ -2299,6 +2517,27 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/ONDO-USDT/"
+  },
+  "ONE-USDT": {
+    "exchange": "perp",
+    "base": "harmony",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/ONE-USDT/"
+  },
+  "ONG-USDT": {
+    "exchange": "perp",
+    "base": "ontology-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/ONG-USDT/"
+  },
+  "ONT-USDT": {
+    "exchange": "perp",
+    "base": "ontology",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/ONT-USDT/"
   },
   "OP-USDC": {
     "exchange": "perp",
@@ -2419,6 +2658,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/PIEVERSE-USDT/"
   },
+  "PIPPIN-USDT": {
+    "exchange": "perp",
+    "base": "pippin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/PIPPIN-USDT/"
+  },
   "PIXEL-USDT": {
     "exchange": "perp",
     "base": "pixels",
@@ -2496,12 +2742,26 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/PORTAL-USDT/"
   },
+  "POWER-USDT": {
+    "exchange": "perp",
+    "base": "power-protocol",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/POWER-USDT/"
+  },
   "POWR-USDT": {
     "exchange": "perp",
     "base": "power-ledger",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/POWR-USDT/"
+  },
+  "PREDICT-USDT": {
+    "exchange": "perp",
+    "base": "predict-fun",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/PREDICT-USDT/"
   },
   "PRL-USDT": {
     "exchange": "perp",
@@ -2629,6 +2889,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/REZ-USDT/"
   },
+  "RIF-USDT": {
+    "exchange": "perp",
+    "base": "rootstock-infrastructure-framework",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/RIF-USDT/"
+  },
   "RIVER-USDT": {
     "exchange": "perp",
     "base": "river",
@@ -2734,6 +3001,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/SAND-USDT/"
   },
+  "SANTOS-USDT": {
+    "exchange": "perp",
+    "base": "santos-fc-fan-token",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/SANTOS-USDT/"
+  },
   "SAPIEN-USDT": {
     "exchange": "perp",
     "base": "sapien",
@@ -2762,12 +3036,33 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/SFP-USDT/"
   },
+  "SHELL-USDT": {
+    "exchange": "perp",
+    "base": "myshell",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/SHELL-USDT/"
+  },
+  "SI-USDT": {
+    "exchange": "perp",
+    "base": "super-inu",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/SI-USDT/"
+  },
   "SIGN-USDT": {
     "exchange": "perp",
     "base": "sign-global",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/SIGN-USDT/"
+  },
+  "SKL-USDT": {
+    "exchange": "perp",
+    "base": "skale",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/SKL-USDT/"
   },
   "SKR-USDT": {
     "exchange": "perp",
@@ -2782,6 +3077,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/SKY-USDT/"
+  },
+  "SKYAI-USDT": {
+    "exchange": "perp",
+    "base": "skyai",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/SKYAI-USDT/"
   },
   "SLP-USDT": {
     "exchange": "perp",
@@ -3154,6 +3456,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/TRX-USDT/"
   },
+  "TST-USDT": {
+    "exchange": "perp",
+    "base": "test-bsc",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/TST-USDT/"
+  },
   "TURBO-USDT": {
     "exchange": "perp",
     "base": "turbo",
@@ -3469,6 +3778,13 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/XTZ-USDT/"
   },
+  "XVG-USDT": {
+    "exchange": "perp",
+    "base": "verge",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/XVG-USDT/"
+  },
   "YB-USDT": {
     "exchange": "perp",
     "base": "yield-basis",
@@ -3503,6 +3819,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/ZBT-USDT/"
+  },
+  "ZCAT-USDT": {
+    "exchange": "perp",
+    "base": "anonymous-cat",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/ZCAT-USDT/"
   },
   "ZEC-USDC": {
     "exchange": "perp",

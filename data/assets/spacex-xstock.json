@@ -1,0 +1,24 @@
+{
+  "id": "spacex-xstock",
+  "display_name": "SpaceX xStock",
+  "symbol": "SPCXx",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "SpaceX xStock (SPCXx) is a tokenized tracker certificate on Space Exploration Technologies Corp. shares (SPCX) issued by Backed under the xStocks brand. Each token is backed 1:1 by SPCX shares held with regulated custodians and tracks the share price on-chain; it is offered to non-US investors and carries a legal claim to the value of the underlying stock. It is the SPL token Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8 on Solana and the ERC-20 at 0x68FA48b1C2fe52b3D776e1953E0e782B5044ce28 on Ethereum, BNB Chain, Arbitrum and other networks."
+  },
+  "icon": "icons/asset/spacex.svg",
+  "urls": {
+    "Website": "https://xstocks.com/",
+    "Product page": "https://assets.backed.fi/products/spacex-xstock"
+  },
+  "external": {
+    "coingecko": "spacex-xstocks",
+    "coinmarketcap": "40218"
+  },
+  "pegged_to": {
+    "asset": "spacex"
+  }
+}

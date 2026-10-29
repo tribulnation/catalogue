@@ -1,0 +1,21 @@
+{
+  "id": "turingbitchain",
+  "display_name": "TuringBitChain",
+  "symbol": "TBC",
+  "category": "crypto",
+  "tags": [
+    "L1"
+  ],
+  "about": {
+    "en": "TBC is the native coin of TuringBitChain, a SHA-256 proof-of-work, UTXO-model chain positioned as a Bitcoin side chain that adds Turing-complete smart contracts through what it calls the Bitcoin Virtual Machine (BVM). Tokens representing TBC on other chains, such as a Hyperliquid spot token, are separate claims and not the native coin."
+  },
+  "urls": {
+    "Website": "https://turingbitchain.io/",
+    "Explorer": "https://explorer.turingbitchain.io/",
+    "Source code": "https://github.com/Turingbitchain"
+  },
+  "external": {
+    "coingecko": "turingbitchain",
+    "coinmarketcap": "38361"
+  }
+}

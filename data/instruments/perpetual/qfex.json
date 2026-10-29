@@ -11,6 +11,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "AEHR-USD": {
+    "exchange": "perp",
+    "base": "aehr-test-systems",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "AKAM-USD": {
     "exchange": "perp",
     "base": "akamai",
@@ -71,6 +77,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "BA-USD": {
+    "exchange": "perp",
+    "base": "boeing",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "BABA-USD": {
     "exchange": "perp",
     "base": "alibaba-group-adr",
@@ -125,9 +137,33 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "CAT-USD": {
+    "exchange": "perp",
+    "base": "caterpillar",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "CBRS-USD": {
     "exchange": "perp",
     "base": "cerebras-systems",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "CGNX-USD": {
+    "exchange": "perp",
+    "base": "cognex",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "CIEN-USD": {
+    "exchange": "perp",
+    "base": "ciena",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "CIFR-USD": {
+    "exchange": "perp",
+    "base": "cipher-digital",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
@@ -221,6 +257,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "DJT-USD": {
+    "exchange": "perp",
+    "base": "trump-media-technology-group",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "DRAM-USD": {
     "exchange": "perp",
     "base": "roundhill-memory-etf",
@@ -230,6 +272,12 @@
   "EBAY-USD": {
     "exchange": "perp",
     "base": "ebay",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "FLEX-USD": {
+    "exchange": "perp",
+    "base": "flex-ltd",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
@@ -371,6 +419,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "LMT-USD": {
+    "exchange": "perp",
+    "base": "lockheed-martin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "LRCX-USD": {
     "exchange": "perp",
     "base": "lam-research",
@@ -380,6 +434,18 @@
   "LULU-USD": {
     "exchange": "perp",
     "base": "lululemon-athletica",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "LUNR-USD": {
+    "exchange": "perp",
+    "base": "intuitive-machines",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "MCD-USD": {
+    "exchange": "perp",
+    "base": "mcdonalds",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
@@ -491,6 +557,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "OUST-USD": {
+    "exchange": "perp",
+    "base": "ouster",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "PANW-USD": {
     "exchange": "perp",
     "base": "palo-alto-networks",
@@ -536,6 +608,18 @@
   "RDDT-USD": {
     "exchange": "perp",
     "base": "reddit",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "RDW-USD": {
+    "exchange": "perp",
+    "base": "redwire",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "RIOT-USD": {
+    "exchange": "perp",
+    "base": "riot-platforms",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
@@ -605,6 +689,12 @@
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },
+  "SNOW-USD": {
+    "exchange": "perp",
+    "base": "snowflake",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
   "SOFTBANK-JPY": {
     "exchange": "perp",
     "base": "softbank-group",
@@ -632,6 +722,12 @@
   "STRC-USD": {
     "exchange": "perp",
     "base": "strategy-stretch-preferred-stock",
+    "quote": "usd-coin",
+    "settlement": "usd-coin"
+  },
+  "TEM-USD": {
+    "exchange": "perp",
+    "base": "tempus-ai",
     "quote": "usd-coin",
     "settlement": "usd-coin"
   },

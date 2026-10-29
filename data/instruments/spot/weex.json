@@ -23,11 +23,23 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/4STOCK-USDT"
   },
+  "4USDT": {
+    "exchange": "spot",
+    "base": "4-bsc",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/4-USDT"
+  },
   "9BITUSDT": {
     "exchange": "spot",
     "base": "the9bit",
     "quote": "tether",
     "url": "https://www.weex.com/spot/9BIT-USDT"
+  },
+  "AAPLONUSDT": {
+    "exchange": "spot",
+    "base": "apple-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AAPLON-USDT"
   },
   "AAPLXUSDT": {
     "exchange": "spot",
@@ -70,6 +82,12 @@
     "base": "alchemy-pay",
     "quote": "tether",
     "url": "https://www.weex.com/spot/ACH-USDT"
+  },
+  "ACMUSDT": {
+    "exchange": "spot",
+    "base": "ac-milan-fan-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ACM-USDT"
   },
   "ACSUSDT": {
     "exchange": "spot",
@@ -143,6 +161,18 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/AGT-USDT"
   },
+  "AIAUSDT": {
+    "exchange": "spot",
+    "base": "deagentai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AIA-USDT"
+  },
+  "AIOTUSDT": {
+    "exchange": "spot",
+    "base": "okzoo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AIOT-USDT"
+  },
   "AIOUSDT": {
     "exchange": "spot",
     "base": "olaxbt",
@@ -215,11 +245,23 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/ALT-USDT"
   },
+  "AMDONUSDT": {
+    "exchange": "spot",
+    "base": "amd-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AMDON-USDT"
+  },
   "AMPUSDT": {
     "exchange": "spot",
     "base": "amp-token",
     "quote": "tether",
     "url": "https://www.weex.com/spot/AMP-USDT"
+  },
+  "AMZNONUSDT": {
+    "exchange": "spot",
+    "base": "amazon-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AMZNON-USDT"
   },
   "ANIMEUSDT": {
     "exchange": "spot",
@@ -299,6 +341,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/ARC-USDT"
   },
+  "ARGUSUSDT": {
+    "exchange": "spot",
+    "base": "argus",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ARGUS-USDT"
+  },
   "ARIAUSDT": {
     "exchange": "spot",
     "base": "aria-ai",
@@ -329,6 +377,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/ARPA-USDT"
   },
+  "ARTXUSDT": {
+    "exchange": "spot",
+    "base": "ultiland",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ARTX-USDT"
+  },
   "ARUSDC": {
     "exchange": "spot",
     "base": "arweave",
@@ -346,6 +400,12 @@
     "base": "arcium",
     "quote": "tether",
     "url": "https://www.weex.com/spot/ARX-USDT"
+  },
+  "ASRUSDT": {
+    "exchange": "spot",
+    "base": "as-roma-fan-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ASR-USDT"
   },
   "ASTERUSDT": {
     "exchange": "spot",
@@ -365,6 +425,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/ATH-USDT"
   },
+  "ATMUSDT": {
+    "exchange": "spot",
+    "base": "atletico-madrid-fan-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ATM-USDT"
+  },
   "ATOMUSDC": {
     "exchange": "spot",
     "base": "cosmos",
@@ -376,6 +442,12 @@
     "base": "cosmos",
     "quote": "tether",
     "url": "https://www.weex.com/spot/ATOM-USDT"
+  },
+  "ATUSDT": {
+    "exchange": "spot",
+    "base": "apro",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AT-USDT"
   },
   "AUCTIONUSDT": {
     "exchange": "spot",
@@ -407,6 +479,18 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/AVAX-USDT"
   },
+  "AVGOONUSDT": {
+    "exchange": "spot",
+    "base": "broadcom-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AVGOON-USDT"
+  },
+  "AVLUSDT": {
+    "exchange": "spot",
+    "base": "avalon-labs",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/AVL-USDT"
+  },
   "AVNTUSDT": {
     "exchange": "spot",
     "base": "avantis",
@@ -437,6 +521,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/B2-USDT"
   },
+  "BABAONUSDT": {
+    "exchange": "spot",
+    "base": "alibaba-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BABAON-USDT"
+  },
   "BABYUSDT": {
     "exchange": "spot",
     "base": "babylon",
@@ -461,11 +551,35 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/BAND-USDT"
   },
+  "BANKUSDT": {
+    "exchange": "spot",
+    "base": "lorenzo-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BANK-USDT"
+  },
   "BARDUSDT": {
     "exchange": "spot",
     "base": "lombard",
     "quote": "tether",
     "url": "https://www.weex.com/spot/BARD-USDT"
+  },
+  "BARUSDT": {
+    "exchange": "spot",
+    "base": "fc-barcelona-fan-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BAR-USDT"
+  },
+  "BASECATUSDT": {
+    "exchange": "spot",
+    "base": "basecat",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BASECAT-USDT"
+  },
+  "BATONUSDT": {
+    "exchange": "spot",
+    "base": "baton",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BATON-USDT"
   },
   "BATUSDT": {
     "exchange": "spot",
@@ -515,6 +629,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/BEL-USDT"
   },
+  "BENUSDT": {
+    "exchange": "spot",
+    "base": "ben",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BEN-USDT"
+  },
   "BERAUSDT": {
     "exchange": "spot",
     "base": "berachain",
@@ -526,6 +646,12 @@
     "base": "biconomy",
     "quote": "tether",
     "url": "https://www.weex.com/spot/BICO-USDT"
+  },
+  "BIDUSDT": {
+    "exchange": "spot",
+    "base": "creatorbid",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BID-USDT"
   },
   "BIGTIMEUSDT": {
     "exchange": "spot",
@@ -653,6 +779,24 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/BRETT-USDT"
   },
+  "BREVUSDT": {
+    "exchange": "spot",
+    "base": "brevis",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BREV-USDT"
+  },
+  "BREWUSDT": {
+    "exchange": "spot",
+    "base": "brew",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BREW-USDT"
+  },
+  "BROCCOLIUSDT": {
+    "exchange": "spot",
+    "base": "czs-dog",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BROCCOLI-USDT"
+  },
   "BSBUSDT": {
     "exchange": "spot",
     "base": "block-street",
@@ -689,11 +833,23 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/BTT-USDT"
   },
+  "BULLAUSDT": {
+    "exchange": "spot",
+    "base": "bulla",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BULLA-USDT"
+  },
   "BUSDT": {
     "exchange": "spot",
     "base": "build-on",
     "quote": "tether",
     "url": "https://www.weex.com/spot/B-USDT"
+  },
+  "BZZUSDT": {
+    "exchange": "spot",
+    "base": "swarm-bzz",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/BZZ-USDT"
   },
   "C98USDT": {
     "exchange": "spot",
@@ -742,6 +898,12 @@
     "base": "simon-s-cat",
     "quote": "tether",
     "url": "https://www.weex.com/spot/CAT-USDT"
+  },
+  "CBKUSDT": {
+    "exchange": "spot",
+    "base": "cobak",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CBK-USDT"
   },
   "CCUSDT": {
     "exchange": "spot",
@@ -821,6 +983,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/CHILLHOUSE-USDT"
   },
+  "CHIPUSDT": {
+    "exchange": "spot",
+    "base": "usd-ai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CHIP-USDT"
+  },
   "CHRUSDT": {
     "exchange": "spot",
     "base": "chromaway",
@@ -832,6 +1000,12 @@
     "base": "chiliz",
     "quote": "tether",
     "url": "https://www.weex.com/spot/CHZ-USDT"
+  },
+  "CITYUSDT": {
+    "exchange": "spot",
+    "base": "manchester-city-fan-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CITY-USDT"
   },
   "CKBUSDC": {
     "exchange": "spot",
@@ -869,6 +1043,24 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/CLO-USDT"
   },
+  "COAIUSDT": {
+    "exchange": "spot",
+    "base": "chainopera-ai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/COAI-USDT"
+  },
+  "COINONUSDT": {
+    "exchange": "spot",
+    "base": "coinbase-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/COINON-USDT"
+  },
+  "COLLECTUSDT": {
+    "exchange": "spot",
+    "base": "collect-on-fanable",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/COLLECT-USDT"
+  },
   "COMPUSDT": {
     "exchange": "spot",
     "base": "compound",
@@ -905,11 +1097,23 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/CPOOL-USDT"
   },
+  "CRCLONUSDT": {
+    "exchange": "spot",
+    "base": "circle-internet-group-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CRCLON-USDT"
+  },
   "CRCLXUSDT": {
     "exchange": "spot",
     "base": "circle-xstock",
     "quote": "tether",
     "url": "https://www.weex.com/spot/CRCLX-USDT"
+  },
+  "CROSSUSDT": {
+    "exchange": "spot",
+    "base": "onechain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CROSS-USDT"
   },
   "CROUSDT": {
     "exchange": "spot",
@@ -928,6 +1132,18 @@
     "base": "curve-dao",
     "quote": "tether",
     "url": "https://www.weex.com/spot/CRV-USDT"
+  },
+  "CSCOONUSDT": {
+    "exchange": "spot",
+    "base": "cisco-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CSCOON-USDT"
+  },
+  "CTKUSDT": {
+    "exchange": "spot",
+    "base": "shentu",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/CTK-USDT"
   },
   "CTRUSDT": {
     "exchange": "spot",
@@ -1007,6 +1223,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/DEFI-USDT"
   },
+  "DELTAUSDT": {
+    "exchange": "spot",
+    "base": "delta",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DELTA-USDT"
+  },
   "DEXEUSDT": {
     "exchange": "spot",
     "base": "dexe",
@@ -1037,6 +1259,18 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/DNA-USDT"
   },
+  "DODOUSDC": {
+    "exchange": "spot",
+    "base": "dodo",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/DODO-USDC"
+  },
+  "DODOUSDT": {
+    "exchange": "spot",
+    "base": "dodo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DODO-USDT"
+  },
   "DOGEUSDC": {
     "exchange": "spot",
     "base": "dogecoin",
@@ -1048,6 +1282,12 @@
     "base": "dogecoin",
     "quote": "tether",
     "url": "https://www.weex.com/spot/DOGE-USDT"
+  },
+  "DOGINMEUSDT": {
+    "exchange": "spot",
+    "base": "doginme",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/DOGINME-USDT"
   },
   "DOGSUSDC": {
     "exchange": "spot",
@@ -1121,6 +1361,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/DYM-USDT"
   },
+  "EACCUSDT": {
+    "exchange": "spot",
+    "base": "effective-accelerationism",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/EACC-USDT"
+  },
   "EDENUSDT": {
     "exchange": "spot",
     "base": "openeden",
@@ -1138,6 +1384,12 @@
     "base": "edu-coin",
     "quote": "tether",
     "url": "https://www.weex.com/spot/EDU-USDT"
+  },
+  "EGL1USDT": {
+    "exchange": "spot",
+    "base": "egl1",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/EGL1-USDT"
   },
   "EGLDUSDT": {
     "exchange": "spot",
@@ -1415,6 +1667,18 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/GAS-USDT"
   },
+  "GENIUSUSDT": {
+    "exchange": "spot",
+    "base": "genius-terminal",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GENIUS-USDT"
+  },
+  "GEODUSDT": {
+    "exchange": "spot",
+    "base": "geodnet",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GEOD-USDT"
+  },
   "GHIBLIUSDT": {
     "exchange": "spot",
     "base": "ghiblification",
@@ -1457,11 +1721,29 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/GMX-USDT"
   },
+  "GNSUSDT": {
+    "exchange": "spot",
+    "base": "gains-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GNS-USDT"
+  },
   "GOATUSDT": {
     "exchange": "spot",
     "base": "goatseus-maximus",
     "quote": "tether",
     "url": "https://www.weex.com/spot/GOAT-USDT"
+  },
+  "GOHOMEUSDT": {
+    "exchange": "spot",
+    "base": "gohome",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GOHOME-USDT"
+  },
+  "GOOGLONUSDT": {
+    "exchange": "spot",
+    "base": "alphabet-class-a-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GOOGLON-USDT"
   },
   "GOOGLXUSDT": {
     "exchange": "spot",
@@ -1523,6 +1805,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/G-USDT"
   },
+  "GWEIUSDT": {
+    "exchange": "spot",
+    "base": "ethgas",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/GWEI-USDT"
+  },
   "HAEDALUSDT": {
     "exchange": "spot",
     "base": "haedal-protocol",
@@ -1559,6 +1847,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/HIGGS-USDT"
   },
+  "HIVEUSDT": {
+    "exchange": "spot",
+    "base": "hive",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HIVE-USDT"
+  },
   "HMSTRUSDT": {
     "exchange": "spot",
     "base": "hamster-kombat",
@@ -1582,6 +1876,24 @@
     "base": "defi-app",
     "quote": "tether",
     "url": "https://www.weex.com/spot/HOME-USDT"
+  },
+  "HOODONUSDT": {
+    "exchange": "spot",
+    "base": "robinhood-markets-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HOODON-USDT"
+  },
+  "HOTUSDC": {
+    "exchange": "spot",
+    "base": "holo",
+    "quote": "usd-coin",
+    "url": "https://www.weex.com/spot/HOT-USDC"
+  },
+  "HOTUSDT": {
+    "exchange": "spot",
+    "base": "holo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/HOT-USDT"
   },
   "HUMAUSDT": {
     "exchange": "spot",
@@ -1607,6 +1919,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/HYPE-USDT"
   },
+  "IAUONUSDT": {
+    "exchange": "spot",
+    "base": "ishares-gold-trust-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/IAUON-USDT"
+  },
   "ICNTUSDT": {
     "exchange": "spot",
     "base": "impossible-cloud-network",
@@ -1624,6 +1942,12 @@
     "base": "internet-computer",
     "quote": "tether",
     "url": "https://www.weex.com/spot/ICP-USDT"
+  },
+  "IDOLUSDT": {
+    "exchange": "spot",
+    "base": "meet48",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/IDOL-USDT"
   },
   "IDUSDT": {
     "exchange": "spot",
@@ -1697,6 +2021,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/IO-USDT"
   },
+  "IQUSDT": {
+    "exchange": "spot",
+    "base": "everipedia",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/IQ-USDT"
+  },
   "IRYSUSDT": {
     "exchange": "spot",
     "base": "irys",
@@ -1714,6 +2044,18 @@
     "base": "janction",
     "quote": "tether",
     "url": "https://www.weex.com/spot/JCT-USDT"
+  },
+  "JOEUSDT": {
+    "exchange": "spot",
+    "base": "joe",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/JOE-USDT"
+  },
+  "JPMONUSDT": {
+    "exchange": "spot",
+    "base": "jpmorgan-chase-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/JPMON-USDT"
   },
   "JTOUSDC": {
     "exchange": "spot",
@@ -1738,6 +2080,12 @@
     "base": "jupiter",
     "quote": "tether",
     "url": "https://www.weex.com/spot/JUP-USDT"
+  },
+  "JUVUSDT": {
+    "exchange": "spot",
+    "base": "juventus-fan-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/JUV-USDT"
   },
   "KAIAUSDT": {
     "exchange": "spot",
@@ -1774,6 +2122,12 @@
     "base": "kava",
     "quote": "tether",
     "url": "https://www.weex.com/spot/KAVA-USDT"
+  },
+  "KEKIUSUSDT": {
+    "exchange": "spot",
+    "base": "kekius-maximus",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/KEKIUS-USDT"
   },
   "KERNELUSDT": {
     "exchange": "spot",
@@ -1841,11 +2195,23 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/LA-USDT"
   },
+  "LAVAUSDT": {
+    "exchange": "spot",
+    "base": "lava-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LAVA-USDT"
+  },
   "LAYERUSDT": {
     "exchange": "spot",
     "base": "solayer",
     "quote": "tether",
     "url": "https://www.weex.com/spot/LAYER-USDT"
+  },
+  "LAZIOUSDT": {
+    "exchange": "spot",
+    "base": "lazio-fan-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LAZIO-USDT"
   },
   "LDOUSDC": {
     "exchange": "spot",
@@ -1888,6 +2254,12 @@
     "base": "lighter",
     "quote": "tether",
     "url": "https://www.weex.com/spot/LIT-USDT"
+  },
+  "LLYONUSDT": {
+    "exchange": "spot",
+    "base": "eli-lilly-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LLYON-USDT"
   },
   "LOTUSDT": {
     "exchange": "spot",
@@ -1943,6 +2315,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/LUNC-USDT"
   },
+  "LYNUSDT": {
+    "exchange": "spot",
+    "base": "everlyn",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/LYN-USDT"
+  },
   "MAGICUSDT": {
     "exchange": "spot",
     "base": "magic",
@@ -1973,6 +2351,18 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/MANTA-USDT"
   },
+  "MANTRAUSDT": {
+    "exchange": "spot",
+    "base": "mantra",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MANTRA-USDT"
+  },
+  "MAONUSDT": {
+    "exchange": "spot",
+    "base": "mastercard-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MAON-USDT"
+  },
   "MASKUSDT": {
     "exchange": "spot",
     "base": "mask-network",
@@ -1990,6 +2380,24 @@
     "base": "maverick-protocol",
     "quote": "tether",
     "url": "https://www.weex.com/spot/MAV-USDT"
+  },
+  "MBLUSDT": {
+    "exchange": "spot",
+    "base": "moviebloc",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MBL-USDT"
+  },
+  "MCDONUSDT": {
+    "exchange": "spot",
+    "base": "mcdonalds-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MCDON-USDT"
+  },
+  "MCDXUSDT": {
+    "exchange": "spot",
+    "base": "mcdonalds-xstock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MCDX-USDT"
   },
   "MEGAUSDT": {
     "exchange": "spot",
@@ -2015,6 +2423,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/MERL-USDT"
   },
+  "METAONUSDT": {
+    "exchange": "spot",
+    "base": "meta-platforms-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/METAON-USDT"
+  },
   "METISUSDT": {
     "exchange": "spot",
     "base": "metis",
@@ -2038,6 +2452,18 @@
     "base": "mina-protocol",
     "quote": "tether",
     "url": "https://www.weex.com/spot/MINA-USDT"
+  },
+  "MIRAUSDT": {
+    "exchange": "spot",
+    "base": "mira-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MIRA-USDT"
+  },
+  "MITOUSDT": {
+    "exchange": "spot",
+    "base": "mitosis",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MITO-USDT"
   },
   "MMTUSDT": {
     "exchange": "spot",
@@ -2087,6 +2513,18 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/MPLX-USDT"
   },
+  "MSFTONUSDT": {
+    "exchange": "spot",
+    "base": "microsoft-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MSFTON-USDT"
+  },
+  "MSTRONUSDT": {
+    "exchange": "spot",
+    "base": "microstrategy-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MSTRON-USDT"
+  },
   "MTLUSDT": {
     "exchange": "spot",
     "base": "metal",
@@ -2105,11 +2543,23 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/M-USDT"
   },
+  "MUSEBOOKUSDT": {
+    "exchange": "spot",
+    "base": "musebook",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/MUSEBOOK-USDT"
+  },
   "MYXUSDT": {
     "exchange": "spot",
     "base": "myx-finance",
     "quote": "tether",
     "url": "https://www.weex.com/spot/MYX-USDT"
+  },
+  "NAORISUSDT": {
+    "exchange": "spot",
+    "base": "naoris-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NAORIS-USDT"
   },
   "NEARUSDC": {
     "exchange": "spot",
@@ -2146,6 +2596,12 @@
     "base": "nexo",
     "quote": "tether",
     "url": "https://www.weex.com/spot/NEXO-USDT"
+  },
+  "NEXUSDT": {
+    "exchange": "spot",
+    "base": "nexus-labs",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NEX-USDT"
   },
   "NIGHTUSDT": {
     "exchange": "spot",
@@ -2195,6 +2651,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/NOT-USDT"
   },
+  "NVDAONUSDT": {
+    "exchange": "spot",
+    "base": "nvidia-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/NVDAON-USDT"
+  },
   "NXPCUSDT": {
     "exchange": "spot",
     "base": "nexpace",
@@ -2219,6 +2681,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/OGN-USDT"
   },
+  "OGUSDT": {
+    "exchange": "spot",
+    "base": "og-fan-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/OG-USDT"
+  },
   "OKBUSDT": {
     "exchange": "spot",
     "base": "okb",
@@ -2230,6 +2698,30 @@
     "base": "ondo",
     "quote": "tether",
     "url": "https://www.weex.com/spot/ONDO-USDT"
+  },
+  "ONEUSDT": {
+    "exchange": "spot",
+    "base": "harmony",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ONE-USDT"
+  },
+  "ONGUSDT": {
+    "exchange": "spot",
+    "base": "ontology-gas",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ONG-USDT"
+  },
+  "ONTUSDT": {
+    "exchange": "spot",
+    "base": "ontology",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ONT-USDT"
+  },
+  "ONUSDT": {
+    "exchange": "spot",
+    "base": "orochi-network",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ON-USDT"
   },
   "OPENUSDT": {
     "exchange": "spot",
@@ -2260,6 +2752,12 @@
     "base": "optimism",
     "quote": "tether",
     "url": "https://www.weex.com/spot/OP-USDT"
+  },
+  "ORBIOUSDT": {
+    "exchange": "spot",
+    "base": "orbio-so",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ORBIO-USDT"
   },
   "ORCAUSDT": {
     "exchange": "spot",
@@ -2296,6 +2794,18 @@
     "base": "o1-exchange",
     "quote": "tether",
     "url": "https://www.weex.com/spot/O-USDT"
+  },
+  "OWLUSDT": {
+    "exchange": "spot",
+    "base": "owlto-finance",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/OWL-USDT"
+  },
+  "PAIDUSDT": {
+    "exchange": "spot",
+    "base": "usepaid",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PAID-USDT"
   },
   "PARTIUSDT": {
     "exchange": "spot",
@@ -2357,6 +2867,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/PIEVERSE-USDT"
   },
+  "PIPPINUSDT": {
+    "exchange": "spot",
+    "base": "pippin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PIPPIN-USDT"
+  },
   "PIUSDT": {
     "exchange": "spot",
     "base": "pi",
@@ -2375,17 +2891,35 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/PIXEL-USDT"
   },
+  "PLTRONUSDT": {
+    "exchange": "spot",
+    "base": "palantir-technologies-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PLTRON-USDT"
+  },
   "PLUMEUSDT": {
     "exchange": "spot",
     "base": "plume",
     "quote": "tether",
     "url": "https://www.weex.com/spot/PLUME-USDT"
   },
+  "PNGUSDT": {
+    "exchange": "spot",
+    "base": "pangolin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PNG-USDT"
+  },
   "PNUTUSDT": {
     "exchange": "spot",
     "base": "peanut-the-squirrel",
     "quote": "tether",
     "url": "https://www.weex.com/spot/PNUT-USDT"
+  },
+  "PODUSDT": {
+    "exchange": "spot",
+    "base": "dolphin",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/POD-USDT"
   },
   "POLUSDC": {
     "exchange": "spot",
@@ -2441,11 +2975,29 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/PORTAL-USDT"
   },
+  "POWERUSDT": {
+    "exchange": "spot",
+    "base": "power-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/POWER-USDT"
+  },
+  "PPOLYUSDT": {
+    "exchange": "spot",
+    "base": "paimon-polymarket-spv",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PPOLY-USDT"
+  },
   "PRIORSUSDT": {
     "exchange": "spot",
     "base": "priors-agents",
     "quote": "tether",
     "url": "https://www.weex.com/spot/PRIORS-USDT"
+  },
+  "PRLUSDT": {
+    "exchange": "spot",
+    "base": "perle",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PRL-USDT"
   },
   "PROMPTUSDT": {
     "exchange": "spot",
@@ -2477,6 +3029,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/PROVE-USDT"
   },
+  "PSGUSDT": {
+    "exchange": "spot",
+    "base": "paris-saint-germain-fan-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PSG-USDT"
+  },
   "PTBUSDT": {
     "exchange": "spot",
     "base": "portal-to-bitcoin",
@@ -2507,6 +3065,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/PYBOBO-USDT"
   },
+  "PYRUSDT": {
+    "exchange": "spot",
+    "base": "vulcan-forged",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/PYR-USDT"
+  },
   "PYTHUSDT": {
     "exchange": "spot",
     "base": "pyth-network",
@@ -2525,11 +3089,29 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/QI-USDT"
   },
+  "QKCUSDT": {
+    "exchange": "spot",
+    "base": "quarkchain",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/QKC-USDT"
+  },
   "QNTUSDT": {
     "exchange": "spot",
     "base": "quant",
     "quote": "tether",
     "url": "https://www.weex.com/spot/QNT-USDT"
+  },
+  "QQQONUSDT": {
+    "exchange": "spot",
+    "base": "invesco-qqq-etf-ondo-tokenized-etf",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/QQQON-USDT"
+  },
+  "QQQXUSDT": {
+    "exchange": "spot",
+    "base": "nasdaq-xstock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/QQQX-USDT"
   },
   "QTUMUSDT": {
     "exchange": "spot",
@@ -2639,6 +3221,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/REZ-USDT"
   },
+  "RIFUSDT": {
+    "exchange": "spot",
+    "base": "rootstock-infrastructure-framework",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RIF-USDT"
+  },
   "RIVERUSDT": {
     "exchange": "spot",
     "base": "river",
@@ -2723,6 +3311,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/RVN-USDT"
   },
+  "RWAUSDT": {
+    "exchange": "spot",
+    "base": "allo",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/RWA-USDT"
+  },
   "SAFEUSDT": {
     "exchange": "spot",
     "base": "safe",
@@ -2752,6 +3346,12 @@
     "base": "samoyedcoin",
     "quote": "tether",
     "url": "https://www.weex.com/spot/SAMO-USDT"
+  },
+  "SANTOSUSDT": {
+    "exchange": "spot",
+    "base": "santos-fc-fan-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SANTOS-USDT"
   },
   "SAPIENUSDT": {
     "exchange": "spot",
@@ -2813,6 +3413,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/SHARE-USDT"
   },
+  "SHELLUSDT": {
+    "exchange": "spot",
+    "base": "myshell",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SHELL-USDT"
+  },
   "SHIBUSDC": {
     "exchange": "spot",
     "base": "shiba-inu",
@@ -2831,11 +3437,29 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/SIGN-USDT"
   },
+  "SIUSDT": {
+    "exchange": "spot",
+    "base": "super-inu",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SI-USDT"
+  },
+  "SKLUSDT": {
+    "exchange": "spot",
+    "base": "skale",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SKL-USDT"
+  },
   "SKRUSDT": {
     "exchange": "spot",
     "base": "seeker",
     "quote": "tether",
     "url": "https://www.weex.com/spot/SKR-USDT"
+  },
+  "SKYAIUSDT": {
+    "exchange": "spot",
+    "base": "skyai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SKYAI-USDT"
   },
   "SKYUSDT": {
     "exchange": "spot",
@@ -2848,6 +3472,12 @@
     "base": "smooth-love-potion",
     "quote": "tether",
     "url": "https://www.weex.com/spot/SLP-USDT"
+  },
+  "SLVONUSDT": {
+    "exchange": "spot",
+    "base": "ishares-silver-trust-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SLVON-USDT"
   },
   "SLXUSDT": {
     "exchange": "spot",
@@ -2932,6 +3562,12 @@
     "base": "spx6900",
     "quote": "tether",
     "url": "https://www.weex.com/spot/SPX-USDT"
+  },
+  "SPYONUSDT": {
+    "exchange": "spot",
+    "base": "spdr-sp500-etf-ondo-tokenized-etf",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SPYON-USDT"
   },
   "SQDUSDT": {
     "exchange": "spot",
@@ -3083,6 +3719,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/SUSHI-USDT"
   },
+  "SWCHUSDT": {
+    "exchange": "spot",
+    "base": "swisscheese",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/SWCH-USDT"
+  },
   "SWELLUSDT": {
     "exchange": "spot",
     "base": "swell",
@@ -3137,6 +3779,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/TA-USDT"
   },
+  "TCOMUSDT": {
+    "exchange": "spot",
+    "base": "tcom-global",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TCOM-USDT"
+  },
   "TFUELUSDT": {
     "exchange": "spot",
     "base": "theta-fuel",
@@ -3166,6 +3814,12 @@
     "base": "celestia",
     "quote": "tether",
     "url": "https://www.weex.com/spot/TIA-USDT"
+  },
+  "TKOUSDT": {
+    "exchange": "spot",
+    "base": "toko-token",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TKO-USDT"
   },
   "TLMUSDT": {
     "exchange": "spot",
@@ -3251,11 +3905,23 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/TRX-USDT"
   },
+  "TSLAONUSDT": {
+    "exchange": "spot",
+    "base": "tesla-ondo-tokenized-stock",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TSLAON-USDT"
+  },
   "TSLAXUSDT": {
     "exchange": "spot",
     "base": "tesla-xstock",
     "quote": "tether",
     "url": "https://www.weex.com/spot/TSLAX-USDT"
+  },
+  "TSTUSDT": {
+    "exchange": "spot",
+    "base": "test-bsc",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TST-USDT"
   },
   "TURTLEUSDT": {
     "exchange": "spot",
@@ -3286,6 +3952,12 @@
     "base": "trust-wallet-token",
     "quote": "tether",
     "url": "https://www.weex.com/spot/TWT-USDT"
+  },
+  "TXUSDT": {
+    "exchange": "spot",
+    "base": "tx",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/TX-USDT"
   },
   "UAIUSDT": {
     "exchange": "spot",
@@ -3322,6 +3994,12 @@
     "base": "uniswap",
     "quote": "tether",
     "url": "https://www.weex.com/spot/UNI-USDT"
+  },
+  "UPUSDT": {
+    "exchange": "spot",
+    "base": "unitas",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/UP-USDT"
   },
   "USATUSDT": {
     "exchange": "spot",
@@ -3467,6 +4145,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/WAL-USDT"
   },
+  "WARDUSDT": {
+    "exchange": "spot",
+    "base": "warden",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WARD-USDT"
+  },
   "WCTUSDT": {
     "exchange": "spot",
     "base": "walletconnect",
@@ -3484,6 +4168,12 @@
     "base": "humidifi",
     "quote": "tether",
     "url": "https://www.weex.com/spot/WET-USDT"
+  },
+  "WHUFUSDT": {
+    "exchange": "spot",
+    "base": "whuffie",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WHUF-USDT"
   },
   "WIFUSDC": {
     "exchange": "spot",
@@ -3527,6 +4217,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/WOD-USDT"
   },
+  "WOLFUSDT": {
+    "exchange": "spot",
+    "base": "landwolf-0x67",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/WOLF-USDT"
+  },
   "WOOUSDT": {
     "exchange": "spot",
     "base": "woo-network",
@@ -3550,6 +4246,12 @@
     "base": "gold",
     "quote": "tether",
     "url": "https://www.weex.com/spot/XAU-USDT"
+  },
+  "XCXUSDT": {
+    "exchange": "spot",
+    "base": "xeleb-protocol",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XCX-USDT"
   },
   "XDPUSDT": {
     "exchange": "spot",
@@ -3611,6 +4313,18 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/XTZ-USDT"
   },
+  "XVGUSDT": {
+    "exchange": "spot",
+    "base": "verge",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XVG-USDT"
+  },
+  "XVSUSDT": {
+    "exchange": "spot",
+    "base": "venus",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/XVS-USDT"
+  },
   "YBUSDT": {
     "exchange": "spot",
     "base": "yield-basis",
@@ -3653,6 +4367,12 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/ZBT-USDT"
   },
+  "ZCATUSDT": {
+    "exchange": "spot",
+    "base": "anonymous-cat",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZCAT-USDT"
+  },
   "ZCUSDT": {
     "exchange": "spot",
     "base": "zip-coin",
@@ -3664,6 +4384,12 @@
     "base": "zcash",
     "quote": "tether",
     "url": "https://www.weex.com/spot/ZEC-USDT"
+  },
+  "ZENTUSDT": {
+    "exchange": "spot",
+    "base": "zentry",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/ZENT-USDT"
   },
   "ZENUSDT": {
     "exchange": "spot",
@@ -3755,10 +4481,40 @@
     "quote": "tether",
     "url": "https://www.weex.com/spot/ZZZ-USDT"
   },
+  "哈基米USDT": {
+    "exchange": "spot",
+    "base": "hajimi",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/哈基米-USDT"
+  },
+  "币安人生USDT": {
+    "exchange": "spot",
+    "base": "bianrensheng",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/币安人生-USDT"
+  },
+  "我踏马来了USDT": {
+    "exchange": "spot",
+    "base": "wo-ta-ma-lai-le",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/我踏马来了-USDT"
+  },
   "旺柴USDT": {
     "exchange": "spot",
     "base": "wangchai",
     "quote": "tether",
     "url": "https://www.weex.com/spot/旺柴-USDT"
+  },
+  "牛来USDT": {
+    "exchange": "spot",
+    "base": "niu-lai",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/牛来-USDT"
+  },
+  "龙虾USDT": {
+    "exchange": "spot",
+    "base": "lobster-bsc",
+    "quote": "tether",
+    "url": "https://www.weex.com/spot/龙虾-USDT"
   }
 }

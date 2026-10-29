@@ -1,0 +1,21 @@
+{
+  "id": "unitedhealth-ondo-tokenized-stock",
+  "display_name": "UnitedHealth (Ondo Tokenized)",
+  "symbol": "UNHon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "UNHon is the Ondo tokenized stock for UnitedHealth Group, issued by Ondo Global Markets (BVI) Limited on the Ondo Global Markets platform and offered to eligible non-US investors. It is backed by UNH shares and is a total-return tracker: it gives the economic exposure of holding UnitedHealth shares with dividends reinvested, so one token does not necessarily equal one share. It is deployed on Ethereum (0x075756F3b6381a79633438fAA8964946bf40163d), BNB Chain and Solana."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/unhon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "unitedhealth-ondo-tokenized-stock",
+    "coinmarketcap": "38039"
+  },
+  "icon": "icons/asset/unitedhealth-group.svg"
+}

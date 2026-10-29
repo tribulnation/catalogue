@@ -1,0 +1,20 @@
+{
+  "id": "sk-hynix-ondo-tokenized-stock",
+  "display_name": "SK Hynix (Ondo Tokenized)",
+  "symbol": "SKHYon",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "SK Hynix (Ondo Tokenized) (SKHYon) is an Ondo tokenized stock issued by Ondo Global Markets (BVI) Limited through the Ondo Stocks platform, giving eligible non-US holders economic exposure to the US-listed SK hynix shares (SKHY). It is fully backed by the underlying security and is a total return tracker: dividends are reinvested net of withholding tax, so its price can drift above the underlying's. It is an ERC-20 on Ethereum at 0xc0fe36f4ffbdf1b38e192215073590a68f9a2af7, with deployments on BNB Chain and Solana. Holders have a claim on the issuer, not registered ownership or shareholder rights."
+  },
+  "urls": {
+    "Website": "https://app.ondo.finance/assets/skhyon",
+    "Documentation": "https://docs.ondo.finance/ondo-stocks/overview"
+  },
+  "external": {
+    "coingecko": "sk-hynix-ondo-tokenized",
+    "coinmarketcap": "40823"
+  }
+}

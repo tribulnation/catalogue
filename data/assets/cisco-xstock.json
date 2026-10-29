@@ -1,0 +1,23 @@
+{
+  "id": "cisco-xstock",
+  "display_name": "Cisco xStock",
+  "symbol": "CSCOx",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "Cisco xStock (CSCOx) is a tokenized tracker certificate on Cisco Systems, Inc. shares (CSCO), issued by Backed Assets (JE) Limited under the xStocks brand. Each token is backed by CSCO shares held with regulated custodians and tracks the share price on-chain; it is offered to eligible non-US investors and gives a claim on the issuer, not registered ownership of the shares. It is a Token-2022 mint on Solana (Xsr3pdLQyXvDJBFgpR5nexCEZwXvigb8wbPYp4YoNFf) and an ERC-20 at 0x053C784cD87B74f42e0c089f98643E79c1A3ff16 on Ethereum, BNB Chain and Arbitrum."
+  },
+  "urls": {
+    "Website": "https://xstocks.com/",
+    "Issuer": "https://assets.backed.fi/products/cisco-xstock"
+  },
+  "external": {
+    "coingecko": "cisco-xstock",
+    "coinmarketcap": "37032"
+  },
+  "pegged_to": {
+    "asset": "cisco"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "unitedhealth-xstock",
+  "display_name": "UnitedHealth xStock",
+  "symbol": "UNHx",
+  "category": "rwa",
+  "tags": [
+    "Stock"
+  ],
+  "about": {
+    "en": "UnitedHealth xStock (UNHx) is a tracker certificate on UnitedHealth Group shares issued by Backed under the xStocks brand and offered to non-US investors. Each token is backed 1:1 by UNH shares held with custodians and tracks the share price on-chain; it is a claim on the issuer, not direct ownership of the shares. It is deployed on Solana (XszvaiXGPwvk2nwb3o9C1CX4K6zH8sez11E6uyup6fe) and at 0x167a6375dA1efc4a5bE0f470e73ECEFd66245048 on Ethereum, Arbitrum, BNB Chain, Mantle and other EVM chains."
+  },
+  "urls": {
+    "Website": "https://xstocks.com/",
+    "Product page": "https://assets.backed.fi/products/unitedhealth-xstock"
+  },
+  "external": {
+    "coingecko": "unitedhealth-xstock",
+    "coinmarketcap": "37045"
+  },
+  "pegged_to": {
+    "asset": "unitedhealth-group"
+  },
+  "icon": "icons/asset/unitedhealth-group.svg"
+}
