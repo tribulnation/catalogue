@@ -41,6 +41,12 @@
     "settlement": "tether",
     "multiplier": 1000
   },
+  "AALUSDT": {
+    "exchange": "perp",
+    "base": "american-airlines-group",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "AAOIUSDT": {
     "exchange": "perp",
     "base": "applied-optoelectronics",
@@ -128,6 +134,12 @@
   "APEUSDT": {
     "exchange": "perp",
     "base": "apecoin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "APLDUSDT": {
+    "exchange": "perp",
+    "base": "applied-digital",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -266,6 +278,12 @@
   "BILLUSDT": {
     "exchange": "perp",
     "base": "billions-network",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "BITOUSDT": {
+    "exchange": "perp",
+    "base": "proshares-bitcoin-etf",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -623,6 +641,18 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "GENIUSUSDT": {
+    "exchange": "perp",
+    "base": "genius-terminal",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GEUSDT": {
+    "exchange": "perp",
+    "base": "general-electric",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "GEVUSDT": {
     "exchange": "perp",
     "base": "ge-vernova",
@@ -722,6 +752,12 @@
   "INTCUSDT": {
     "exchange": "perp",
     "base": "intel",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "INTWUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-intc-daily-etf",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -851,6 +887,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "LMTUSDT": {
+    "exchange": "perp",
+    "base": "lockheed-martin",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "LTCUSDT": {
     "exchange": "perp",
     "base": "litecoin",
@@ -878,6 +920,18 @@
   "MANTAUSDT": {
     "exchange": "perp",
     "base": "manta-network",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MARAUSDT": {
+    "exchange": "perp",
+    "base": "mara-holdings",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MARSCOINUSDT": {
+    "exchange": "perp",
+    "base": "marscoin-bnb",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -935,6 +989,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "MOONSHOTUSDT": {
+    "exchange": "perp",
+    "base": "moonshot-ai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "MORPHOUSDT": {
     "exchange": "perp",
     "base": "morpho",
@@ -986,6 +1046,18 @@
   "MUUSDT": {
     "exchange": "perp",
     "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MUUUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-mu-bull-2x",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MVLLUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-mrvl-daily-etf",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1061,6 +1133,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "NVDLUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-nvda-daily-etf",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "OKBUSDT": {
     "exchange": "perp",
     "base": "okb",
@@ -1082,6 +1160,12 @@
   "ONDSUSDT": {
     "exchange": "perp",
     "base": "ondas",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ONEUSDT": {
+    "exchange": "perp",
+    "base": "harmony",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1217,6 +1301,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "PYPLUSDT": {
+    "exchange": "perp",
+    "base": "paypal",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "PYTHUSDT": {
     "exchange": "perp",
     "base": "pyth-network",
@@ -1244,6 +1334,12 @@
   "RDDTUSDT": {
     "exchange": "perp",
     "base": "reddit",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "RDWUSDT": {
+    "exchange": "perp",
+    "base": "redwire",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1301,6 +1397,18 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "SHELLUSDT": {
+    "exchange": "perp",
+    "base": "myshell",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SHLDUSDT": {
+    "exchange": "perp",
+    "base": "global-x-defense-tech-etf",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "SHOPUSDT": {
     "exchange": "perp",
     "base": "shopify",
@@ -1313,6 +1421,18 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "SIUSDT": {
+    "exchange": "perp",
+    "base": "super-inu",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SKDDUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-short-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "SKHYUSDT": {
     "exchange": "perp",
     "base": "sk-hynix-adr",
@@ -1322,6 +1442,12 @@
   "SKRUSDT": {
     "exchange": "perp",
     "base": "seeker",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SKUUUSDT": {
+    "exchange": "perp",
+    "base": "graniteshares-2x-long-sk-hynix-daily-etf",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1349,9 +1475,21 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "SOFIUSDT": {
+    "exchange": "perp",
+    "base": "sofi-technologies",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "SOLUSDT": {
     "exchange": "perp",
     "base": "solana",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SONYUSDT": {
+    "exchange": "perp",
+    "base": "sony-group-adr",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1376,6 +1514,12 @@
   "SOXXUSDT": {
     "exchange": "perp",
     "base": "ishares-semiconductor-etf",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SPCHUSDT": {
+    "exchange": "perp",
+    "base": "leverage-shares-2x-long-spcx-daily-etf",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1469,6 +1613,18 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "TBTUSDT": {
+    "exchange": "perp",
+    "base": "proshares-ultrashort-20-year-treasury",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TEMUSDT": {
+    "exchange": "perp",
+    "base": "tempus-ai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "THETAUSDT": {
     "exchange": "perp",
     "base": "theta-token",
@@ -1478,6 +1634,12 @@
   "TIAUSDT": {
     "exchange": "perp",
     "base": "celestia",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TMFUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-20-year-treasury-bull-3x",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1505,15 +1667,33 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "TSEMUSDT": {
+    "exchange": "perp",
+    "base": "tower-semiconductor",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "TSLAUSDT": {
     "exchange": "perp",
     "base": "tesla",
     "quote": "tether",
     "settlement": "tether"
   },
+  "TSLLUSDT": {
+    "exchange": "perp",
+    "base": "direxion-daily-tsla-bull-2x",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "TSMUSDT": {
     "exchange": "perp",
     "base": "taiwan-semiconductor-adr",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "TSTUSDT": {
+    "exchange": "perp",
+    "base": "test-bsc",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1655,6 +1835,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "XLUUSDT": {
+    "exchange": "perp",
+    "base": "utilities-select-sector-spdr-fund",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "XOMUSDT": {
     "exchange": "perp",
     "base": "exxon-mobil",
@@ -1688,6 +1874,12 @@
   "YGGUSDT": {
     "exchange": "perp",
     "base": "yield-guild-games",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ZCATUSDT": {
+    "exchange": "perp",
+    "base": "anonymous-cat",
     "quote": "tether",
     "settlement": "tether"
   },
