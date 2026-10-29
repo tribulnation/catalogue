@@ -1,0 +1,21 @@
+{
+  "id": "ishares-silver-trust",
+  "display_name": "iShares Silver Trust",
+  "symbol": "SLV",
+  "category": "fund",
+  "tags": [
+    "ETF",
+    "Commodity"
+  ],
+  "about": {
+    "en": "SLV is the iShares Silver Trust, sponsored by BlackRock, an exchange-traded trust that holds physical silver bullion in custody and aims to reflect the price of silver less the trust's expenses. Each share represents a fractional undivided interest in the trust's silver, so it trades at a fraction of the silver ounce price and is distinct from spot silver (XAG)."
+  },
+  "icon": "icons/asset/ishares-core-sp-500-etf.svg",
+  "urls": {
+    "Website": "https://www.ishares.com/us/products/239855/ishares-silver-trust"
+  },
+  "external": {
+    "yahoo": "SLV",
+    "twelvedata": "SLV"
+  }
+}
