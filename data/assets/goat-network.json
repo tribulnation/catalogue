@@ -1,0 +1,22 @@
+{
+  "id": "goat-network",
+  "display_name": "GOAT Network",
+  "symbol": "GOATED",
+  "category": "crypto",
+  "tags": [
+    "L2",
+    "BTCfi"
+  ],
+  "about": {
+    "en": "GOATED is the token of GOAT Network, a Bitcoin Layer 2 that uses zero-knowledge proofs, decentralized sequencing and a BitVM2-based bridge to settle execution against Bitcoin. Gas on the network is paid in BTC; GOATED is the ecosystem and incentive token, distributed alongside BTC-denominated fees as yield from protocol activity. It circulates as a BEP-20 on BNB Smart Chain and an ERC-20 on Ethereum, both at 0x5d7909f951436d4e6974d841316057df3a622962."
+  },
+  "urls": {
+    "Website": "https://www.goat.network/",
+    "Whitepaper": "https://www.goat.network/bitvm2-whitepaper",
+    "Source code": "https://github.com/GOATNetwork/goat-contracts"
+  },
+  "external": {
+    "coingecko": "goat-network",
+    "coinmarketcap": "38494"
+  }
+}
