@@ -127,3 +127,31 @@ cannot separate USD from USDC (above), but the protocol defines the target:
 The index therefore tracks USD; positions settle in USDC that the protocol
 holds at par. This mirrors Hyperliquid's `quote: tether`,
 `settlement: usd-coin`, with the index currency USD instead of USDT.
+
+## Index currency checks that confirmed the label
+
+Checked on 2026-10-30 alongside the GMX, Ostium, Derive, Paradex, Bluefin,
+Deribit, Lighter, Extended and Pacifica changes. Where measured, the window is
+60 rounds from 17:30 to 17:48 UTC, with USDT 11.7 bps and USDC about 3.5 bps
+below USD (Kraken). A USD–USDC spread under 5 bps cannot separate the two, so a
+USD-or-USDC reading keeps the existing `usd-coin`.
+
+- Synthetix (`tether` / `tether`): confirmed. The [markets page](https://docs.synthetix.io/trading/markets)
+  says every market is "quoted and settled in USDT"; the index is a Coin Metrics
+  aggregate. The 10 indexes from `getMarketPrices` read a median +0.5 bps against
+  Binance USDT-M indexes and +14.7 bps against Kraken USD spot.
+- Aevo (`usd-coin`): confirmed for crypto. The [Index Price](https://www.aevo.xyz/docs/aevo-products/aevo-exchange/technical-architecture/index-price)
+  page says "The Aevo ETH Index tracks the ETH/USDC pair", with USDT and USD
+  constituents converted to USDC, and every perpetual lists `quote_asset: USDC`.
+  Its RWA markets are not described there and keep `usd-coin` undetermined.
+- edgeX (`usd-coin`): not USDT, USD or USDC undetermined. edgeX documents its
+  oracle as a stake-weighted median of Binance, OKX, Bybit, Gate and MEXC
+  without naming a currency (signed asset ids read `BTCUSD`). Over 30 samples on
+  2026-10-30 the `indexPrice` of BTC, ETH, SOL, XRP and DOGE read +0.3 to +3.3 bps
+  against Deribit's `_usd` indexes and −9.2 to −10.6 bps against its `_usdt`
+  indexes, so a USDT conversion is applied.
+- Variational (`usd-coin`): not USDT, USD or USDC undetermined. Its oracle is
+  in-house and undocumented, and the stats API publishes only mark prices. The
+  398 crypto marks read a median −19.9 bps against Binance USDT-M indexes and
+  −5.9 bps against Kraken USD spot; mark premiums make individual markets
+  unreadable.
