@@ -127,3 +127,15 @@ cannot separate USD from USDC (above), but the protocol defines the target:
 The index therefore tracks USD; positions settle in USDC that the protocol
 holds at par. This mirrors Hyperliquid's `quote: tether`,
 `settlement: usd-coin`, with the index currency USD instead of USDT.
+
+## Derive perpetuals track USD
+
+Derive perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Checked
+2026-10-30 against the Derive v3 API (`POST https://api.derive.xyz/v3/public/get_instrument`):
+
+- Every one of the 15 catalogued perpetuals reports `perp_details.index:
+  "<BASE>-USD"` (e.g. `BTC-PERP` → `BTC-USD`) next to `quote_currency: "USDC"`,
+  the cash asset it margins and settles in.
+- The spot feeds behind those indexes are USD-denominated: `public/get_currency`
+  priced USDC itself at 0.99997 and USDT at 0.99889, so USDC is a priced asset,
+  not the unit.
