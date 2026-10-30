@@ -127,3 +127,20 @@ cannot separate USD from USDC (above), but the protocol defines the target:
 The index therefore tracks USD; positions settle in USDC that the protocol
 holds at par. This mirrors Hyperliquid's `quote: tether`,
 `settlement: usd-coin`, with the index currency USD instead of USDT.
+
+## Ostium perpetuals track USD
+
+Ostium perpetuals carry `quote: usd` (or the foreign currency for its `USD-*`
+FX pairs, unchanged); `settlement` stays `usd-coin`. Checked 2026-10-30:
+
+- Ostium's price publisher (`https://metadata-backend.ostium.io/PricePublish/latest-prices`)
+  defines every feed as a `from`/`to` pair. All 70 catalogued `<BASE>-USD`
+  markets have `to: USD`, including `EUR-USD` and `GBP-USD`, which are the
+  EUR/USD and GBP/USD exchange rates, not a stablecoin rate. No feed is quoted
+  in USDC or USDT.
+- Of the publisher's 94 feeds, 85 are quoted in `USD`; the rest are `USD-<CCY>`
+  FX pairs and local-currency indices (`DAX-EUR`, `NIK-JPY`, ...).
+
+USDC collateral pays the USD PnL one-for-one. The five `USD-<CCY>` markets
+(`USD-JPY`, `USD-CAD`, `USD-CHF`, `USD-HKD`, `USD-MXN`) already had base `usd`
+and their foreign currency as quote, and are unchanged.
