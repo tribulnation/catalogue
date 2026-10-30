@@ -102,8 +102,8 @@ Not changed:
 - dYdX and Deribit track USD or USDC. USDC traded about 2 bps below USD in this
   window, which is too close to separate from index noise. dYdX was later settled
   from its protocol definition instead (next section). Deribit's BTC and ETH
-  indexes read closer to USD and its alt indexes closer to USDC; that is a
-  candidate for a later check, not a change.
+  indexes read closer to USD and its alt indexes closer to USDC; Deribit's own
+  index definitions later confirmed both (see "Deribit linear perpetuals").
 
 ## dYdX perpetuals track USD
 
@@ -127,3 +127,30 @@ cannot separate USD from USDC (above), but the protocol defines the target:
 The index therefore tracks USD; positions settle in USDC that the protocol
 holds at par. This mirrors Hyperliquid's `quote: tether`,
 `settlement: usd-coin`, with the index currency USD instead of USDT.
+
+## Deribit linear perpetuals
+
+Deribit's `BTC_USDC-PERPETUAL` and `ETH_USDC-PERPETUAL` carry `quote: usd`; the
+other 139 linear perpetuals keep `quote: usd-coin`. All settle in USDC. Checked
+2026-10-30:
+
+- Each perpetual names its index in `public/get_instruments` (`price_index`):
+  `btc_usdc`, `eth_usdc`, `sol_usdc`, `aapl_usdc`, and so on. Deribit publishes
+  separate `<base>_usd`, `<base>_usdc` and `<base>_usdt` indexes
+  (`public/get_index_price_names`).
+- BTC and ETH: the [Linear Perpetual](https://support.deribit.com/hc/en-us/articles/31424969384605)
+  specification says that since 15 July 2025 "the BTC-USDC index is pegged to
+  the BTC-USD index, and the ETH-USDC index is pegged to the ETH-USD index",
+  with USD/USDC parity assumed for settlement. `public/get_index_price` returned
+  identical `btc_usd` and `btc_usdc` (77,088.23) and `eth_usd` and `eth_usdc`
+  (2,240.05) values while `usdc_usd` was 0.9998.
+- Everything else: crypto perpetuals use a Deribit `<BASE>-USDC` index or an
+  `<BASE>-USD` Coinbase index, and the
+  [RWA Perpetual](https://support.deribit.com/hc/en-us/articles/38325634622493)
+  specification says the USDC contract "is adjusted from that USD index using
+  the USDC-USD rate". Their `_usdc` indexes are not pegged: `aave_usdc`,
+  `link_usdc` and `hype_usdc` sat 2 to 3 bps above their `_usd` twins, the
+  USD/USDC rate at the time. They track USDC.
+
+The inverse `BTC-PERPETUAL` and `ETH-PERPETUAL` (`btc_usd`, `eth_usd`, settled in
+BTC and ETH) are not catalogued.
