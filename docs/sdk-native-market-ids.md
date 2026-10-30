@@ -127,3 +127,21 @@ cannot separate USD from USDC (above), but the protocol defines the target:
 The index therefore tracks USD; positions settle in USDC that the protocol
 holds at par. This mirrors Hyperliquid's `quote: tether`,
 `settlement: usd-coin`, with the index currency USD instead of USDT.
+
+## GMX perpetuals track USD
+
+GMX v2 perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Checked
+2026-10-30 from the protocol itself:
+
+- GMX prices every token, including the collateral stablecoins, in USD. The
+  oracle stores a token's USD price scaled by 10^30 (gmx-synthetics `README.md`,
+  "Oracle prices"), and the keeper API
+  (`https://arbitrum-api.gmxinfra.io/prices/tickers`) quoted USDC at 0.99976 and
+  USDT at 0.99890 on 2026-10-30 17:23 UTC. USDC is a priced token like any other,
+  not the unit of account.
+- The signed prices are Chainlink Data Streams reports (`oracleType:
+  realtimeFeed2` in `/signed_prices/latest`), whose feeds are `<BASE>/USD`.
+
+Index positions are therefore valued in USD; profits are paid out in the
+market's collateral token at its own oracle price. All 100 GMX markets
+(`<BASE>/USD`) change.
