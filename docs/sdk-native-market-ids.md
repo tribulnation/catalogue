@@ -150,7 +150,10 @@ other 139 linear perpetuals keep `quote: usd-coin`. All settle in USDC. Checked
   specification says the USDC contract "is adjusted from that USD index using
   the USDC-USD rate". Their `_usdc` indexes are not pegged: `aave_usdc`,
   `link_usdc` and `hype_usdc` sat 2 to 3 bps above their `_usd` twins, the
-  USD/USDC rate at the time. They track USDC.
+  USD/USDC rate at the time, which fits a USDC index. The RWA specification
+  covers only the RWA contracts, and a 2 to 3 bps gap is too small to tell USD
+  from USDC on its own, so for the crypto alts `usd-coin` is consistent with
+  the evidence rather than confirmed; the label is unchanged.
 
 The inverse `BTC-PERPETUAL` and `ETH-PERPETUAL` (`btc_usd`, `eth_usd`, settled in
 BTC and ETH) are not catalogued.
