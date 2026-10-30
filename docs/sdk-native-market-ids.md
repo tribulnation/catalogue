@@ -127,3 +127,12 @@ cannot separate USD from USDC (above), but the protocol defines the target:
 The index therefore tracks USD; positions settle in USDC that the protocol
 holds at par. This mirrors Hyperliquid's `quote: tether`,
 `settlement: usd-coin`, with the index currency USD instead of USDT.
+
+## Bluefin perpetuals track USD
+
+Bluefin perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Bluefin's
+[Oracle and Index Price](https://learn.bluefin.io/bluefin/bluefin-perps-exchange/trading/oracle-and-index-price)
+page says both feeds "retrieve the USD value of perpetual contracts", and that on
+Bluefin v2 (Sui) the oracle and index prices are received from the Pyth network,
+whose feeds are `<BASE>/USD`. USDC is the only margin asset
+(`/v1/exchange/info`, weight 1). All 8 markets change.
