@@ -127,3 +127,13 @@ cannot separate USD from USDC (above), but the protocol defines the target:
 The index therefore tracks USD; positions settle in USDC that the protocol
 holds at par. This mirrors Hyperliquid's `quote: tether`,
 `settlement: usd-coin`, with the index currency USD instead of USDT.
+
+## Paradex perpetuals track USD
+
+Paradex perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Checked
+2026-10-30 against `https://api.prod.paradex.trade/v1/markets`:
+
+- All 66 live perpetuals (`<BASE>-USD-PERP`) report `quote_currency: "USD"`
+  and `settlement_currency: "USDC"`, each with its own oracle `price_feed_id`.
+- USDC has its own mark price (`/v1/markets/summary?market=USDC`: 0.99978 on
+  2026-10-30), so the index unit is USD and USDC collateral is valued against it.
