@@ -40,14 +40,14 @@
   "AAVE-USD": {
     "exchange": "perp",
     "base": "aave",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/AAVE-USD"
   },
   "ADA-USD": {
     "exchange": "perp",
     "base": "cardano",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/ADA-USD"
   },
@@ -187,7 +187,7 @@
   "ASTER-USD": {
     "exchange": "perp",
     "base": "aster",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/ASTER-USD"
   },
@@ -201,7 +201,7 @@
   "AVAX-USD": {
     "exchange": "perp",
     "base": "avalanche",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/AVAX-USD"
   },
@@ -320,7 +320,7 @@
   "BNB-USD": {
     "exchange": "perp",
     "base": "bnb",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/BNB-USD"
   },
@@ -341,7 +341,7 @@
   "BTC-USD": {
     "exchange": "perp",
     "base": "bitcoin",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/BTC-USD"
   },
@@ -446,7 +446,7 @@
   "CRV-USD": {
     "exchange": "perp",
     "base": "curve-dao",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/CRV-USD"
   },
@@ -495,7 +495,7 @@
   "DOGE-USD": {
     "exchange": "perp",
     "base": "dogecoin",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/DOGE-USD"
   },
@@ -551,7 +551,7 @@
   "ENA-USD": {
     "exchange": "perp",
     "base": "ethena",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/ENA-USD"
   },
@@ -579,7 +579,7 @@
   "ETH-USD": {
     "exchange": "perp",
     "base": "ethereum",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/ETH-USD"
   },
@@ -593,7 +593,7 @@
   "EUR-USD": {
     "exchange": "perp",
     "base": "euro",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/EUR-USD"
   },
@@ -621,7 +621,7 @@
   "FARTCOIN-USD": {
     "exchange": "perp",
     "base": "fartcoin",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/FARTCOIN-USD"
   },
@@ -768,7 +768,7 @@
   "HYPE-USD": {
     "exchange": "perp",
     "base": "hyperliquid",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/HYPE-USD"
   },
@@ -859,7 +859,7 @@
   "JUP-USD": {
     "exchange": "perp",
     "base": "jupiter",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/JUP-USD"
   },
@@ -873,7 +873,7 @@
   "KAITO-USD": {
     "exchange": "perp",
     "base": "kaito",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/KAITO-USD"
   },
@@ -1015,14 +1015,14 @@
   "LINK-USD": {
     "exchange": "perp",
     "base": "chainlink",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/LINK-USD"
   },
   "LIT-USD": {
     "exchange": "perp",
     "base": "lighter",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/LIT-USD"
   },
@@ -1043,7 +1043,7 @@
   "LTC-USD": {
     "exchange": "perp",
     "base": "litecoin",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/LTC-USD"
   },
@@ -1085,7 +1085,7 @@
   "MKR-USD": {
     "exchange": "perp",
     "base": "maker",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/MKR-USD"
   },
@@ -1148,14 +1148,14 @@
   "MSTR_24_5-USD": {
     "exchange": "perp",
     "base": "microstrategy",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/MSTR_24_5-USD"
   },
   "MU_24_5-USD": {
     "exchange": "perp",
     "base": "micron-technology",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/MU_24_5-USD"
   },
@@ -1169,7 +1169,7 @@
   "NEAR-USD": {
     "exchange": "perp",
     "base": "near",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/NEAR-USD"
   },
@@ -1211,7 +1211,7 @@
   "NVDA_24_5-USD": {
     "exchange": "perp",
     "base": "nvidia",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/NVDA_24_5-USD"
   },
@@ -1225,7 +1225,7 @@
   "ONDO-USD": {
     "exchange": "perp",
     "base": "ondo",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/ONDO-USD"
   },
@@ -1407,7 +1407,7 @@
   "PUMP-USD": {
     "exchange": "perp",
     "base": "pump",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/PUMP-USD"
   },
@@ -1568,7 +1568,7 @@
   "SNDK_24_5-USD": {
     "exchange": "perp",
     "base": "sandisk",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/SNDK_24_5-USD"
   },
@@ -1582,7 +1582,7 @@
   "SOL-USD": {
     "exchange": "perp",
     "base": "solana",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/SOL-USD"
   },
@@ -1652,7 +1652,7 @@
   "SUI-USD": {
     "exchange": "perp",
     "base": "sui",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/SUI-USD"
   },
@@ -1680,7 +1680,7 @@
   "TAO-USD": {
     "exchange": "perp",
     "base": "bittensor",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/TAO-USD"
   },
@@ -1694,7 +1694,7 @@
   "TIA-USD": {
     "exchange": "perp",
     "base": "celestia",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/TIA-USD"
   },
@@ -1785,7 +1785,7 @@
   "UNI-USD": {
     "exchange": "perp",
     "base": "uniswap",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/UNI-USD"
   },
@@ -1869,7 +1869,7 @@
   "WLD-USD": {
     "exchange": "perp",
     "base": "worldcoin",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/WLD-USD"
   },
@@ -1890,21 +1890,21 @@
   "WTI-USD": {
     "exchange": "perp",
     "base": "west-texas-intermediate",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/WTI-USD"
   },
   "XAG-USD": {
     "exchange": "perp",
     "base": "silver",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/XAG-USD"
   },
   "XAU-USD": {
     "exchange": "perp",
     "base": "gold",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/XAU-USD"
   },
@@ -1918,56 +1918,56 @@
   "XBR-USD": {
     "exchange": "perp",
     "base": "brent",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/XBR-USD"
   },
   "XCU-USD": {
     "exchange": "perp",
     "base": "copper",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/XCU-USD"
   },
   "XLM-USD": {
     "exchange": "perp",
     "base": "stellar",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/XLM-USD"
   },
   "XMR-USD": {
     "exchange": "perp",
     "base": "monero",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/XMR-USD"
   },
   "XNG-USD": {
     "exchange": "perp",
     "base": "natural-gas",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/XNG-USD"
   },
   "XPL-USD": {
     "exchange": "perp",
     "base": "plasma",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/XPL-USD"
   },
   "XPT-USD": {
     "exchange": "perp",
     "base": "platinum",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/XPT-USD"
   },
   "XRP-USD": {
     "exchange": "perp",
     "base": "xrp",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/XRP-USD"
   },
@@ -1981,7 +1981,7 @@
   "ZEC-USD": {
     "exchange": "perp",
     "base": "zcash",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/ZEC-USD"
   },
@@ -2009,7 +2009,7 @@
   "ZRO-USD": {
     "exchange": "perp",
     "base": "layer-zero",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/ZRO-USD"
   },
