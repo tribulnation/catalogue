@@ -99,7 +99,17 @@ Not changed:
   201, 203, 204, 211, 217, 219, 220, 221, 231, 232, 4095, 4096, 4097, and the
   unrecorded 51, 73, 74, 75, 80, 81, 89, 96, 97, 106, 107, 124, 125, 133, 152,
   169, 184, 213, 218, 222, 225, 230, 233.
-- dYdX and Deribit track USD or USDC. USDC traded about 2 bps below USD in this
-  window, which is too close to separate from index noise, so dYdX keeps the USDC
-  quote recorded above. Deribit's BTC and ETH indexes read closer to USD and its
-  alt indexes closer to USDC; that is a candidate for a later check, not a change.
+- Deribit tracks USD or USDC. USDC traded about 2 bps below USD in this
+  window, which is too close to separate from index noise. Deribit's BTC and ETH
+  indexes read closer to USD and its alt indexes closer to USDC; that is a
+  candidate for a later check, not a change.
+
+## dYdX perpetuals track USD
+
+dYdX's perpetuals now use `quote: usd`; their settlement stays USDC. This
+rests on the chain's own oracle configuration, not on a measurement: its market map
+(`/slinky/marketmap/v1/marketmap` on any dYdX v4 REST node, read 2026-10-30)
+lists every one of its 248 tickers as `<BASE>/USD`, and each USDT-quoted source
+carries `normalize_by_pair: USDT/USD`. BTC/USD, for example, reads Coinbase
+BTC-USD and Kraken XXBTZUSD directly and Binance, Bybit, HTX, KuCoin, MEXC and
+OKX BTC-USDT through USDT/USD. Every listed dYdX market's base is in that map.
