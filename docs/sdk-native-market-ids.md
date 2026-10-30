@@ -48,9 +48,9 @@ No SDK aliases, asset changes or automatic production-data migration are introdu
 
 It also adds 48 previously checked native symbol mappings to existing assets:
 23 dYdX, 14 Bitget, and 11 MEXC. These preserve verified native symbol mappings
-without inventing new asset identities. dYdX uses USDC for quote and
-fees, while retaining native `*-USD` market names. No global USD-to-USDC mapping
-is introduced.
+without inventing new asset identities. dYdX settles and charges fees in
+USDC, while retaining native `*-USD` market names; its perpetual `quote` is USD
+(see below). No global USD-to-USDC mapping is introduced.
 
 ## Hyperliquid quote exceptions
 
@@ -100,6 +100,30 @@ Not changed:
   unrecorded 51, 73, 74, 75, 80, 81, 89, 96, 97, 106, 107, 124, 125, 133, 152,
   169, 184, 213, 218, 222, 225, 230, 233.
 - dYdX and Deribit track USD or USDC. USDC traded about 2 bps below USD in this
-  window, which is too close to separate from index noise, so dYdX keeps the USDC
-  quote recorded above. Deribit's BTC and ETH indexes read closer to USD and its
-  alt indexes closer to USDC; that is a candidate for a later check, not a change.
+  window, which is too close to separate from index noise. dYdX was later settled
+  from its protocol definition instead (next section). Deribit's BTC and ETH
+  indexes read closer to USD and its alt indexes closer to USDC; that is a
+  candidate for a later check, not a change.
+
+## dYdX perpetuals track USD
+
+dYdX v4 perpetuals carry `quote: usd`, `settlement: usd-coin`. Recorded prices
+cannot separate USD from USDC (above), but the protocol defines the target:
+
+- Every oracle market is a `<BASE>/USD` currency pair. All 248 entries of the
+  mainnet market map (`/slinky/marketmap/v1/marketmap`) and all 297 market
+  params (`/dydxprotocol/prices/params/market`) are quoted in `USD`; there is no
+  USDC-quoted oracle market, and the `USDC/USD` ticker is disabled.
+- USDT-quoted sources are converted to USD: their provider configs carry
+  `normalize_by_pair: USDT/USD` (legacy `adjustByMarket: "USDT-USD"`,
+  `BTC-USD = BTC-USDT * USDT-USD`), and the oracle multiplies each such price
+  by its own `USDT/USD` index price. USD sources (Coinbase, Kraken, Crypto.com,
+  Bitstamp) are used as is. `USDT/USD` itself is a median of Coinbase
+  `USDT-USD`, Kraken `USDTZUSD`, inverted `USDC/USDT` books, and two crosses
+  through `BTC/USD` and `ETH/USD`.
+- USDC collateral counts one-for-one as quote quantums, and 10^6 quote quantums
+  are defined as 1 USD, so the protocol values 1 USDC at exactly 1 USD.
+
+The index therefore tracks USD; positions settle in USDC that the protocol
+holds at par. This mirrors Hyperliquid's `quote: tether`,
+`settlement: usd-coin`, with the index currency USD instead of USDT.
