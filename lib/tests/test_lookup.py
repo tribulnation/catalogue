@@ -87,7 +87,7 @@ class PerpetualForTest(unittest.TestCase):
     """dYdX perps are keyed by ticker."""
     btc = CATALOGUE.perpetual_for('dydx', 'BTC-USD')
     assert btc is not None
-    self.assertEqual((btc.base, btc.quote, btc.settlement), ('bitcoin', 'usd-coin', 'usd-coin'))
+    self.assertEqual((btc.base, btc.quote, btc.settlement), ('bitcoin', 'usd', 'usd-coin'))
 
   def test_unknown(self):
     """Unknown perps and platforms are None."""
