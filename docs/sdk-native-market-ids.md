@@ -137,9 +137,11 @@ Lighter publishes the sources behind every market's index price at
 `source` in use and the `median_sources` it takes the median of. A source names
 its currency: `pythlazer / usdt`, `stork / usdt`, `chainlink / usdt` and
 `uniswap * eth / usdt` are USD or ETH prices divided by USDT, `binance`, `okx` and
-`mexc` are those venues' USDT pairs, while plain `pythlazer` and `redstone` are
-the oracles' own `<BASE>/USD` feeds. A median only makes sense over one
-currency, and every market's sources share one. Read on 2026-10-30 at 17:31 UTC:
+`mexc` are those venues' USDT pairs, while plain `pythlazer` and `redstone` are,
+by our inference, the oracles' own `<BASE>/USD` feeds: Lighter's API reference
+does not define the currency of an unsuffixed source, but Pyth Lazer's equity,
+metal and FX feeds are USD, and these markets read −0.3 bps against Ostium's
+USD feeds. No market mixes suffixed and unsuffixed sources. Read on 2026-10-30 at 17:31 UTC:
 
 - 69 markets take the median of plain `pythlazer` or `redstone` alone: metals,
   FX (`EURUSD`, `GBPUSD`, `AUDUSD`, `NZDUSD`), US stocks and ETFs, indices, `WTI`,
