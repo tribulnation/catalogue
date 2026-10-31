@@ -1,0 +1,22 @@
+{
+  "id": "ge-vernova-bstock",
+  "display_name": "GE Vernova bStock",
+  "symbol": "GEVB",
+  "category": "rwa",
+  "about": {
+    "en": "GE Vernova bStock (GEVB) is a tokenized share of GE Vernova Inc. issued by BTech Holdings Limited, a Binance group affiliate, under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0x5eadd95a428bc66698620c093eddd8a4b3165269, backed 1:1 by GEV shares held with a regulated custodian and convertible 1:1 into the underlying share. Holders have a claim on the issuer rather than registered ownership of the shares. bStocks are admitted to trading under prospectuses approved by the ADGM Financial Services Regulatory Authority and are not offered in every jurisdiction."
+  },
+  "external": {
+    "coingecko": "ge-vernova-bstocks-tokenized-stock",
+    "coinmarketcap": "42681"
+  },
+  "pegged_to": {
+    "asset": "ge-vernova"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}
