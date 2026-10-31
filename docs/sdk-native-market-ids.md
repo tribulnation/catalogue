@@ -92,13 +92,14 @@ and −1.5 against Aster, while the OKX BERA index sits about 6 bps away from al
 Not changed:
 
 - Lighter stock, ETF, commodity and pre-IPO markets track USD or USDC (57 measured, e.g. gold
-  +0.1 against Hyperliquid xyz:GOLD and −12.5 against Aster XAUUSDT), so they keep
-  `usd-coin`.
+  +0.1 against Hyperliquid xyz:GOLD and −12.5 against Aster XAUUSDT). Lighter's
+  published oracle sources later settled most of them as USD (see "Lighter
+  index sources").
 - Lighter markets whose readings were noisy, between the two levels, or
-  unmeasured keep `usd-coin` until checked: 130, 132, 157, 175, 176, 178, 179, 185,
+  unmeasured were left for a later check: 130, 132, 157, 175, 176, 178, 179, 185,
   201, 203, 204, 211, 217, 219, 220, 221, 231, 232, 4095, 4096, 4097, and the
   unrecorded 51, 73, 74, 75, 80, 81, 89, 96, 97, 106, 107, 124, 125, 133, 152,
-  169, 184, 213, 218, 222, 225, 230, 233.
+  169, 184, 213, 218, 222, 225, 230, 233. The same section resolves most of them.
 - dYdX and Deribit track USD or USDC. USDC traded about 2 bps below USD in this
   window, which is too close to separate from index noise. dYdX was later settled
   from its protocol definition instead (next section). Deribit's BTC and ETH
@@ -223,3 +224,44 @@ other 139 linear perpetuals keep `quote: usd-coin`. All settle in USDC. Checked
 
 The inverse `BTC-PERPETUAL` and `ETH-PERPETUAL` (`btc_usd`, `eth_usd`, settled in
 BTC and ETH) are not catalogued.
+
+## Lighter index sources
+
+Lighter publishes the sources behind every market's index price at
+`GET https://mainnet.zklighter.elliot.ai/api/v1/priceOracleInfo`
+([API reference](https://docs.lighter.xyz/api/info/priceoracleinfo)): the
+`source` in use and the `median_sources` it takes the median of. A source names
+its currency: `pythlazer / usdt`, `stork / usdt`, `chainlink / usdt` and
+`uniswap * eth / usdt` are USD or ETH prices divided by USDT, `binance`, `okx` and
+`mexc` are those venues' USDT pairs, while plain `pythlazer` and `redstone` are,
+by our inference, the oracles' own `<BASE>/USD` feeds: Lighter's API reference
+does not define the currency of an unsuffixed source, but Pyth Lazer's equity,
+metal and FX feeds are USD, and these markets read −0.3 bps against Ostium's
+USD feeds. No market mixes suffixed and unsuffixed sources. Read on 2026-10-30 at 17:31 UTC:
+
+- 69 markets take the median of plain `pythlazer` or `redstone` alone: metals,
+  FX (`EURUSD`, `GBPUSD`, `AUDUSD`, `NZDUSD`), US stocks and ETFs, indices, `WTI`,
+  `NATGAS` and `XCU`. They move from `usd-coin` to `quote: usd`: 92, 93, 96, 97,
+  106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 121, 122, 123, 128,
+  129, 136, 137, 138, 139, 145, 146, 147, 151, 152, 153, 156, 158, 164, 165, 166,
+  167, 168, 174, 175, 176, 177, 178, 179, 185, 186, 187, 188, 189, 191, 194, 195,
+  196, 197, 206, 207, 208, 209, 210, 211, 214, 216, 218, 222, 223, 224, 226, 228,
+  229.
+- 16 crypto markets labelled `usd-coin` take only USDT-denominated sources and
+  move to `quote: tether`, like Lighter's other crypto markets: 34, 73, 74, 81,
+  125, 130, 132, 157, 184, 213, 219, 221, 231, 232, 233, 4095.
+- The 103 markets already on `tether` all take USDT-denominated sources, and the
+  five `USD<CCY>` FX markets (98, 99, 100, 105, 198) take plain `pythlazer`, as
+  their foreign-currency quote assumes. Neither changes.
+
+Not changed, because the source does not name a currency:
+
+- `internal_price` (Lighter's order-book EMA while the external feed is stale,
+  e.g. Asian stocks out of hours, pre-IPO markets): 160, 161, 162, 192, 193, 199,
+  201, 202, 203, 205, 217, 220, 230, 4096, 5628.
+- `rolling` futures pricing: 159 (`BRENTOIL`); a median with no listed source:
+  204, 225; plain `uniswap`: 4097.
+- Markets missing from `priceOracleInfo` (inactive or renamed): 22, 28, 51, 70,
+  75, 80, 89, 124, 133, 169.
+
+These keep `usd-coin` until their sources are readable.
