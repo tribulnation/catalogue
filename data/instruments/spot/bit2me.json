@@ -1198,7 +1198,8 @@
   "VELODROME/EUR": {
     "exchange": "spot",
     "base": "velodrome",
-    "quote": "euro"
+    "quote": "euro",
+    "delisted": true
   },
   "VET/USDC": {
     "exchange": "spot",
