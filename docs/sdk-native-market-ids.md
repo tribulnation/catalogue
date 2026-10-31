@@ -289,4 +289,23 @@ Hyperliquid perpetuals, but the published index is not the Binance USDT figure:
 RFQ crypto read a median −11.4 bps against the Binance USDT-M index and +1.4 bps
 against USD, so a stablecoin conversion is applied. That places them on USD or
 USDC, and the USD/USDC spread (2 to 3.5 bps) is too narrow to tell which, so they
+
+## Pacifica crypto perpetuals track USDT
+
+Pacifica's crypto perpetuals carry `quote: tether`; `settlement` stays
+`usd-coin`. Pacifica's [Oracle Price & Mark Price](https://docs.pacifica.fi/trading-on-pacifica/contract-specifications/oracle-price-and-mark-price)
+page says the oracle price "is calculated as a weighted average of USDT
+denominated prices from major exchanges" (Binance 2, OKX 1, Bybit 1,
+Hyperliquid 1), and the oracle price is the index used for funding.
+
+Measured over 60 rounds on 2026-10-30, 17:30 to 17:48 UTC (USDT 11.7 bps below
+USD), Pacifica's crypto oracle prices read a median −1.0 bps against Binance
+USDT-M indexes and +14.1 bps against Kraken USD spot. 53 markets change: the
+crypto markets and `PAXG`, which trades as `PAXGUSDT` on the same venues.
+
+Not changed: the 23 stock, fund, commodity and FX markets. The page above names
+only crypto venues, and their readings split. CRCL, HOOD, NVDA, PLTR, SPCX,
+TSLA, XAU, XAG and PLATINUM read 0.0 to +2.8 bps against Ostium's USD feeds,
+which is USD or USDC; META, MSTR, MU, SNDK and DRAM read +9.3 to +10.1 bps, which
+is near the USDT level. Neither is backed by a published definition, so they
 keep `usd-coin`.
