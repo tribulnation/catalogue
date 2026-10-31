@@ -162,3 +162,15 @@ FX pairs, unchanged); `settlement` stays `usd-coin`. Checked 2026-10-30:
 USDC collateral pays the USD PnL one-for-one. The five `USD-<CCY>` markets
 (`USD-JPY`, `USD-CAD`, `USD-CHF`, `USD-HKD`, `USD-MXN`) already had base `usd`
 and their foreign currency as quote, and are unchanged.
+
+## Derive perpetuals track USD
+
+Derive perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Checked
+2026-10-30 against the Derive v3 API (`POST https://api.derive.xyz/v3/public/get_instrument`):
+
+- Every one of the 15 catalogued perpetuals reports `perp_details.index:
+  "<BASE>-USD"` (e.g. `BTC-PERP` → `BTC-USD`) next to `quote_currency: "USDC"`,
+  the cash asset it margins and settles in.
+- The spot feeds behind those indexes are USD-denominated: `public/get_currency`
+  priced USDC itself at 0.99997 and USDT at 0.99889, so USDC is a priced asset,
+  not the unit.
