@@ -152,7 +152,7 @@
   "BTC_USDC-PERPETUAL": {
     "exchange": "perp",
     "base": "bitcoin",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://www.deribit.com/futures/BTC_USDC-PERPETUAL"
   },
@@ -229,7 +229,7 @@
   "ETH_USDC-PERPETUAL": {
     "exchange": "perp",
     "base": "ethereum",
-    "quote": "usd-coin",
+    "quote": "usd",
     "settlement": "usd-coin",
     "url": "https://www.deribit.com/futures/ETH_USDC-PERPETUAL"
   },

@@ -2996,6 +2996,13 @@
     "settlement": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/xyz:IBM"
   },
+  "xyz:ICE": {
+    "exchange": "xyz",
+    "base": "intercontinental-exchange",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/xyz:ICE"
+  },
   "xyz:INTC": {
     "exchange": "xyz",
     "base": "intel",
@@ -3226,5 +3233,12 @@
     "quote": "tether",
     "settlement": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/XTEN"
+  },
+  "xyz:NU": {
+    "exchange": "xyz",
+    "base": "nu-holdings",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
   }
 }
