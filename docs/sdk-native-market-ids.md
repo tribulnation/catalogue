@@ -184,3 +184,12 @@ Paradex perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Checked
   and `settlement_currency: "USDC"`, each with its own oracle `price_feed_id`.
 - USDC has its own mark price (`/v1/markets/summary?market=USDC`: 0.99978 on
   2026-10-30), so the index unit is USD and USDC collateral is valued against it.
+
+## Bluefin perpetuals track USD
+
+Bluefin perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Bluefin's
+[Oracle and Index Price](https://learn.bluefin.io/bluefin/bluefin-perps-exchange/trading/oracle-and-index-price)
+page says both feeds "retrieve the USD value of perpetual contracts", and that on
+Bluefin v2 (Sui) the oracle and index prices are received from the Pyth network,
+whose feeds are `<BASE>/USD`. USDC is the only margin asset
+(`/v1/exchange/info`, weight 1). All 8 markets change.
