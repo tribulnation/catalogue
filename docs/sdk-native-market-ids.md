@@ -128,6 +128,63 @@ The index therefore tracks USD; positions settle in USDC that the protocol
 holds at par. This mirrors Hyperliquid's `quote: tether`,
 `settlement: usd-coin`, with the index currency USD instead of USDT.
 
+## GMX perpetuals track USD
+
+GMX v2 perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Checked
+2026-10-30 from the protocol itself:
+
+- GMX prices every token, including the collateral stablecoins, in USD. The
+  oracle stores a token's USD price scaled by 10^30 (gmx-synthetics `README.md`,
+  "Oracle prices"), and the keeper API
+  (`https://arbitrum-api.gmxinfra.io/prices/tickers`) quoted USDC at 0.99976 and
+  USDT at 0.99890 on 2026-10-30 17:23 UTC. USDC is a priced token like any other,
+  not the unit of account.
+- The signed prices are Chainlink Data Streams reports (`oracleType:
+  realtimeFeed2` in `/signed_prices/latest`), whose feeds are `<BASE>/USD`.
+
+Index positions are therefore valued in USD; profits are paid out in the
+market's collateral token at its own oracle price. All 100 GMX markets
+(`<BASE>/USD`) change.
+
+## Ostium perpetuals track USD
+
+Ostium perpetuals carry `quote: usd` (or the foreign currency for its `USD-*`
+FX pairs, unchanged); `settlement` stays `usd-coin`. Checked 2026-10-30:
+
+- Ostium's price publisher (`https://metadata-backend.ostium.io/PricePublish/latest-prices`)
+  defines every feed as a `from`/`to` pair. All 70 catalogued `<BASE>-USD`
+  markets have `to: USD`, including `EUR-USD` and `GBP-USD`, which are the
+  EUR/USD and GBP/USD exchange rates, not a stablecoin rate. No feed is quoted
+  in USDC or USDT.
+- Of the publisher's 94 feeds, 85 are quoted in `USD`; the rest are `USD-<CCY>`
+  FX pairs and local-currency indices (`DAX-EUR`, `NIK-JPY`, ...).
+
+USDC collateral pays the USD PnL one-for-one. The five `USD-<CCY>` markets
+(`USD-JPY`, `USD-CAD`, `USD-CHF`, `USD-HKD`, `USD-MXN`) already had base `usd`
+and their foreign currency as quote, and are unchanged.
+
+## Derive perpetuals track USD
+
+Derive perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Checked
+2026-10-30 against the Derive v3 API (`POST https://api.derive.xyz/v3/public/get_instrument`):
+
+- Every one of the 15 catalogued perpetuals reports `perp_details.index:
+  "<BASE>-USD"` (e.g. `BTC-PERP` → `BTC-USD`) next to `quote_currency: "USDC"`,
+  the cash asset it margins and settles in.
+- The spot feeds behind those indexes are USD-denominated: `public/get_currency`
+  priced USDC itself at 0.99997 and USDT at 0.99889, so USDC is a priced asset,
+  not the unit.
+
+## Paradex perpetuals track USD
+
+Paradex perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Checked
+2026-10-30 against `https://api.prod.paradex.trade/v1/markets`:
+
+- All 66 live perpetuals (`<BASE>-USD-PERP`) report `quote_currency: "USD"`
+  and `settlement_currency: "USDC"`, each with its own oracle `price_feed_id`.
+- USDC has its own mark price (`/v1/markets/summary?market=USDC`: 0.99978 on
+  2026-10-30), so the index unit is USD and USDC collateral is valued against it.
+
 ## Bluefin perpetuals track USD
 
 Bluefin perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Bluefin's
