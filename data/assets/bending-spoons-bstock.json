@@ -1,0 +1,22 @@
+{
+  "id": "bending-spoons-bstock",
+  "display_name": "Bending Spoons bStock",
+  "symbol": "BSPB",
+  "category": "rwa",
+  "about": {
+    "en": "Bending Spoons bStock (BSPB) is a tokenized share of Bending Spoons S.p.A. issued by BTech Holdings Limited, a Binance group affiliate, under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0xc895d166fe59841dc71003f80d7ef2f00f40a4be, backed 1:1 by BSP shares held with a regulated custodian and convertible 1:1 into the underlying share. Holders have a claim on the issuer rather than registered ownership of the shares. bStocks are admitted to trading under prospectuses approved by the ADGM Financial Services Regulatory Authority and are not offered in every jurisdiction."
+  },
+  "external": {
+    "coingecko": "bending-spoons-bstocks-tokenized-stock",
+    "coinmarketcap": "42682"
+  },
+  "pegged_to": {
+    "asset": "bending-spoons"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}
