@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 148">
+  <defs>
+    <linearGradient id="d" x1="-27.583" x2="176.391" y1="-27.583" y2="183.488" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DB2418"/>
+      <stop offset=".201" stop-color="#F2CC38"/>
+      <stop offset=".504" stop-color="#fff"/>
+      <stop offset=".652" stop-color="#fff"/>
+      <stop offset=".804" stop-color="#41BDF1"/>
+      <stop offset="1" stop-color="#000398"/>
+    </linearGradient>
+    <linearGradient id="f" x1="-37.3" x2="177.35" y1="-32" y2="177.35" gradientUnits="userSpaceOnUse">
+      <stop offset=".203" stop-color="#DB2418"/>
+      <stop offset=".39" stop-color="#F2CC38"/>
+      <stop offset=".448" stop-color="#fff"/>
+      <stop offset=".57" stop-color="#fff"/>
+      <stop offset=".685" stop-color="#41BDF1"/>
+      <stop offset=".845" stop-color="#000398"/>
+    </linearGradient>
+    <filter id="e" width="240.347" height="240.347" x="-46.174" y="-46.174" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="7.087"/>
+    </filter>
+    <clipPath id="c">
+      <rect width="148" height="148"/>
+    </clipPath>
+  </defs>
+  <rect width="148" height="148" fill="url(#d)"/>
+  <rect width="212" height="212" x="-32" y="-32" rx="29.889" fill="url(#f)" fill-opacity=".8" filter="url(#e)" clip-path="url(#c)"/>
+  <g transform="translate(-8.01,-3.62) scale(1.0489)">
+    <path fill="#191C1F" d="M59.939 52.255H43.942v64.685h15.997z"/>
+    <path fill="#191C1F" d="M86.451 80.821c13.107-.657 23.654-11.67 23.654-24.867 0-13.727-11.177-24.894-24.917-24.894H43.942v13.814h39.285c6.218 0 11.368 4.885 11.482 10.89a11.02 11.02 0 0 1-3.177 7.988 11.02 11.02 0 0 1-7.924 3.329H68.305a.986.986 0 0 0-.986.985v12.277a.98.98 0 0 0 .186.577l25.965 36.02h19.006z"/>
+  </g>
+</svg>
