@@ -1,0 +1,22 @@
+{
+  "id": "applovin-bstock",
+  "display_name": "AppLovin bStock",
+  "symbol": "APPB",
+  "category": "rwa",
+  "about": {
+    "en": "AppLovin bStock (APPB) is a tokenized share of AppLovin Corporation issued by BTech Holdings Limited, a Binance group affiliate, under Binance's bStocks brand. It is a BEP-20 token on BNB Chain at 0x15ec59551096d5ae2df8cde08618035145828548, backed 1:1 by APP shares held with a regulated custodian and convertible 1:1 into the underlying share. Holders have a claim on the issuer rather than registered ownership of the shares. bStocks are admitted to trading under prospectuses approved by the ADGM Financial Services Regulatory Authority and are not offered in every jurisdiction."
+  },
+  "external": {
+    "coingecko": "applovin-bstocks-tokenized-stock",
+    "coinmarketcap": "42683"
+  },
+  "pegged_to": {
+    "asset": "applovin"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "urls": {
+    "Website": "https://www.binance.com/en/bstocks-landing"
+  }
+}
