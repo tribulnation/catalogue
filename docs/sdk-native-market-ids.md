@@ -174,3 +174,13 @@ Derive perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Checked
 - The spot feeds behind those indexes are USD-denominated: `public/get_currency`
   priced USDC itself at 0.99997 and USDT at 0.99889, so USDC is a priced asset,
   not the unit.
+
+## Paradex perpetuals track USD
+
+Paradex perpetuals carry `quote: usd`; `settlement` stays `usd-coin`. Checked
+2026-10-30 against `https://api.prod.paradex.trade/v1/markets`:
+
+- All 66 live perpetuals (`<BASE>-USD-PERP`) report `quote_currency: "USD"`
+  and `settlement_currency: "USDC"`, each with its own oracle `price_feed_id`.
+- USDC has its own mark price (`/v1/markets/summary?market=USDC`: 0.99978 on
+  2026-10-30), so the index unit is USD and USDC collateral is valued against it.
