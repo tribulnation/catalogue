@@ -156,6 +156,38 @@ def woox_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str
   return f'https://woox.io/en/trade/{id.split("_")[1]}_PERP'
 
 
+def bitstamp_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
+  """`BTC/EUR` trades at `/trade/btceur/`, `BTC/USD-PERP` at `/trade/btcusd-perp/`."""
+  return f'https://www.bitstamp.net/trade/{id.replace("/", "").lower()}/'
+
+
+def bitso_spot_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
+  """`btc_mxn` trades at Bitso Alpha's `/alpha/btc/mxn` (a pair not offered in the
+  reader's region redirects to BTC/MXN with `?pair_unavailable=`)."""
+  base, quote = id.split('_')
+  return f'https://bitso.com/alpha/{base}/{quote}'
+
+
+def blofin_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str | None:
+  """USDT-margined `ETH-USDT` trades at `/futures/ETH-USDT`; the USDC and coin-margined
+  routes have not been verified."""
+  if instrument.get('settlement') != 'tether':
+    return None
+  return f'https://blofin.com/futures/{id}'
+
+
+def ostium_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
+  """`BTC-USD` trades at `/trade?from=BTC&to=USD`."""
+  base, quote = id.split('-')
+  return f'https://app.ostium.com/trade?from={base}&to={quote}'
+
+
+def pionex_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
+  """`BTC_USDT_PERP` trades at `/futures/BTC.PERP_USDT/Manual`."""
+  base, quote, _ = id.split('_')
+  return f'https://www.pionex.com/en/futures/{base}.PERP_{quote}/Manual'
+
+
 Rule = Callable[[str, Instrument, Symbols], str | None]
 
 SPOT_RULES: dict[str, Rule] = {
@@ -164,6 +196,9 @@ SPOT_RULES: dict[str, Rule] = {
   'deribit': lambda id, inst, sym: f'https://www.deribit.com/spot/{id}',
   'derive': lambda id, inst, sym: f'https://app.derive.xyz/trade/spot?symbol={id}',
   'binance': lambda id, inst, sym: 'https://www.binance.com/en/trade/{}_{}'.format(*sym.split('binance', id, inst)),
+  'bit2me': lambda id, inst, sym: 'https://pro.bit2me.com/exchange/' + id.replace('/', '-'),
+  'bitso': bitso_spot_url,
+  'bitstamp': bitstamp_url,
   'bingx': lambda id, inst, sym: 'https://bingx.com/en/spot/{}/'.format(id.replace('-', '')),
   'bitfinex': lambda id, inst, sym: f'https://trading.bitfinex.com/t/{bitfinex_pair(id)}?type=exchange',
   'bitget': lambda id, inst, sym: f'https://www.bitget.com/spot/{id}',
@@ -212,6 +247,15 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'bingx': lambda id, inst, sym: f'https://bingx.com/en/perpetual/{id}/',
   'bitfinex': lambda id, inst, sym: f'https://trading.bitfinex.com/t/{id}',
   'bitget': bitget_perpetual_url,
+  'bitstamp': bitstamp_url,
+  'blofin': blofin_perpetual_url,
+  'derive': lambda id, inst, sym: f'https://app.derive.xyz/trade/perps?symbol={id}',
+  'evedex': lambda id, inst, sym: f'https://exchange.evedex.com/en/trade/{id}',
+  'helix': lambda id, inst, sym: 'https://helixapp.com/futures/' + id.lower().replace('/', '-').replace(' ', '-'),
+  'ostium': ostium_url,
+  'pacifica': lambda id, inst, sym: f'https://app.pacifica.fi/trade/{id}',
+  'pionex': pionex_perpetual_url,
+  'qfex': lambda id, inst, sym: f'https://www.qfex.com/trade/{id}',
   'btse': lambda id, inst, sym: f'https://www.btse.com/en/futures/{id.removesuffix("PFC")}-PERP-USDT',
   'bullish': lambda id, inst, sym: f'https://exchange.bullish.com/trade/{id}',
   'bybit': lambda id, inst, sym: f'https://www.bybit.com/trade/usdt/{id}',
