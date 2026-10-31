@@ -265,3 +265,28 @@ Not changed, because the source does not name a currency:
   75, 80, 89, 124, 133, 169.
 
 These keep `usd-coin` until their sources are readable.
+
+## Extended order-book markets track USD
+
+Extended's 45 order-book perpetuals (`isRfq: false` in
+`https://api.starknet.extended.exchange/api/v1/info/markets`) carry `quote: usd`;
+`settlement` stays `usd-coin`. Checked 2026-10-30:
+
+- Crypto: the [Crypto Markets oracle page](https://docs.extended.exchange/extended-resources/trading/oracle-prices/crypto-markets)
+  says mark and index prices come from Stork and "are USD denominated. This
+  means that on Extended USD PnL is settled in USDC given USDC margin."
+- RWA: the [RWA Markets oracle page](https://docs.extended.exchange/extended-resources/trading/oracle-prices/rwa-markets)
+  references NYSE/Nasdaq midpoints (equities), CME and ICE futures (WTI, Brent,
+  natural gas, copper), spot metals and the EUR/USD rate.
+- Measured over 60 rounds on 2026-10-30, 17:30 to 17:48 UTC (USDT 11.7 bps below
+  USD), the 32 order-book crypto indexes read a median +0.3 bps against Kraken
+  USD spot and −13.6 bps against Binance USDT-M indexes; the four order-book
+  equities read a median +0.1 bps against Ostium's USD feeds.
+
+Not changed: the 271 RFQ markets. Their crypto prices come from RedStone
+"referencing Binance Index and Mark Prices" and their RWA prices from Binance or
+Hyperliquid perpetuals, but the published index is not the Binance USDT figure:
+RFQ crypto read a median −11.4 bps against the Binance USDT-M index and +1.4 bps
+against USD, so a stablecoin conversion is applied. That places them on USD or
+USDC, and the USD/USDC spread (2 to 3.5 bps) is too narrow to tell which, so they
+keep `usd-coin`.
