@@ -2,106 +2,127 @@
   "btc_ars": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "argentine-peso"
+    "quote": "argentine-peso",
+    "url": "https://bitso.com/alpha/btc/ars"
   },
   "btc_brl": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "brazilian-real"
+    "quote": "brazilian-real",
+    "url": "https://bitso.com/alpha/btc/brl"
   },
   "btc_mxn": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "mexican-peso"
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/btc/mxn"
   },
   "btc_usds": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "sky-usd"
+    "quote": "sky-usd",
+    "url": "https://bitso.com/alpha/btc/usds"
   },
   "btc_usdt": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://bitso.com/alpha/btc/usdt"
   },
   "eth_mxn": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "mexican-peso"
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/eth/mxn"
   },
   "eth_usdt": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://bitso.com/alpha/eth/usdt"
   },
   "ltc_mxn": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "mexican-peso"
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/ltc/mxn"
   },
   "mana_mxn": {
     "exchange": "spot",
     "base": "decentraland",
-    "quote": "mexican-peso"
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/mana/mxn"
   },
   "pyusd_mxn": {
     "exchange": "spot",
     "base": "paypal-usd",
-    "quote": "mexican-peso"
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/pyusd/mxn"
   },
   "rlusd_mxn": {
     "exchange": "spot",
     "base": "ripple-usd",
-    "quote": "mexican-peso"
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/rlusd/mxn"
   },
   "sol_mxn": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "mexican-peso"
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/sol/mxn"
   },
   "sol_usdt": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://bitso.com/alpha/sol/usdt"
   },
   "trx_mxn": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "mexican-peso"
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/trx/mxn"
   },
   "tusd_btc": {
     "exchange": "spot",
     "base": "true-usd",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://bitso.com/alpha/tusd/btc"
   },
   "tusd_mxn": {
     "exchange": "spot",
     "base": "true-usd",
-    "quote": "mexican-peso"
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/tusd/mxn"
   },
   "usdt_ars": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "argentine-peso"
+    "quote": "argentine-peso",
+    "url": "https://bitso.com/alpha/usdt/ars"
   },
   "usdt_brl": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "brazilian-real"
+    "quote": "brazilian-real",
+    "url": "https://bitso.com/alpha/usdt/brl"
   },
   "usdt_mxn": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "mexican-peso"
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/usdt/mxn"
   },
   "xrp_mxn": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "mexican-peso"
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/xrp/mxn"
   },
   "xrp_usdt": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://bitso.com/alpha/xrp/usdt"
   }
 }

@@ -2,1211 +2,1453 @@
   "AAVE/EUR": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/aaveeur/"
   },
   "AAVE/USD": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/aaveusd/"
   },
   "ADA/EUR": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/adaeur/"
   },
   "ADA/USD": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/adausd/"
   },
   "AERO/EUR": {
     "exchange": "spot",
     "base": "aerodrome",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/aeroeur/"
   },
   "AERO/USD": {
     "exchange": "spot",
     "base": "aerodrome",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/aerousd/"
   },
   "ALGO/EUR": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/algoeur/"
   },
   "ALGO/USD": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/algousd/"
   },
   "APE/EUR": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/apeeur/"
   },
   "APE/USD": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/apeusd/"
   },
   "APT/EUR": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/apteur/"
   },
   "APT/USD": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/aptusd/"
   },
   "ARB/EUR": {
     "exchange": "spot",
     "base": "arbitrum",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/arbeur/"
   },
   "ARB/USD": {
     "exchange": "spot",
     "base": "arbitrum",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/arbusd/"
   },
   "ASTER/EUR": {
     "exchange": "spot",
     "base": "aster",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/astereur/"
   },
   "ASTER/USD": {
     "exchange": "spot",
     "base": "aster",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/asterusd/"
   },
   "ATOM/EUR": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/atomeur/"
   },
   "ATOM/USD": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/atomusd/"
   },
   "AVAX/EUR": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/avaxeur/"
   },
   "AVAX/USD": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/avaxusd/"
   },
   "AVNT/EUR": {
     "exchange": "spot",
     "base": "avantis",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/avnteur/"
   },
   "AVNT/USD": {
     "exchange": "spot",
     "base": "avantis",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/avntusd/"
   },
   "AXS/EUR": {
     "exchange": "spot",
     "base": "axie-infinity",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/axseur/"
   },
   "AXS/USD": {
     "exchange": "spot",
     "base": "axie-infinity",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/axsusd/"
   },
   "BAT/EUR": {
     "exchange": "spot",
     "base": "basic-attention-token",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/bateur/"
   },
   "BAT/USD": {
     "exchange": "spot",
     "base": "basic-attention-token",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/batusd/"
   },
   "BCH/EUR": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/bcheur/"
   },
   "BCH/USD": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/bchusd/"
   },
   "BILL/EUR": {
     "exchange": "spot",
     "base": "billions-network",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/billeur/"
   },
   "BILL/USD": {
     "exchange": "spot",
     "base": "billions-network",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/billusd/"
   },
   "BNB/EUR": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/bnbeur/"
   },
   "BNB/USD": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/bnbusd/"
   },
   "BONK/EUR": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/bonkeur/"
   },
   "BONK/USD": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/bonkusd/"
   },
   "BTC/EUR": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/btceur/"
   },
   "BTC/EURC": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "euro-coin"
+    "quote": "euro-coin",
+    "url": "https://www.bitstamp.net/trade/btceurc/"
   },
   "BTC/EURCV": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "societe-generale-forge-eurcv"
+    "quote": "societe-generale-forge-eurcv",
+    "url": "https://www.bitstamp.net/trade/btceurcv/"
   },
   "BTC/GBP": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "british-pound"
+    "quote": "british-pound",
+    "url": "https://www.bitstamp.net/trade/btcgbp/"
   },
   "BTC/RLUSD": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "ripple-usd"
+    "quote": "ripple-usd",
+    "url": "https://www.bitstamp.net/trade/btcrlusd/"
   },
   "BTC/USD": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/btcusd/"
   },
   "BTC/USDC": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bitstamp.net/trade/btcusdc/"
   },
   "BTC/USDT": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bitstamp.net/trade/btcusdt/"
   },
   "CASHCAT/EUR": {
     "exchange": "spot",
     "base": "cash-cat",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/cashcateur/"
   },
   "CASHCAT/USD": {
     "exchange": "spot",
     "base": "cash-cat",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/cashcatusd/"
   },
   "CC/EUR": {
     "exchange": "spot",
     "base": "canton",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/cceur/"
   },
   "CC/USD": {
     "exchange": "spot",
     "base": "canton",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/ccusd/"
   },
   "CHIP/EUR": {
     "exchange": "spot",
     "base": "usd-ai",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/chipeur/"
   },
   "CHIP/USD": {
     "exchange": "spot",
     "base": "usd-ai",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/chipusd/"
   },
   "CHZ/EUR": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/chzeur/"
   },
   "CHZ/USD": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/chzusd/"
   },
   "COMP/EUR": {
     "exchange": "spot",
     "base": "compound",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/compeur/"
   },
   "COMP/USD": {
     "exchange": "spot",
     "base": "compound",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/compusd/"
   },
   "CRV/EUR": {
     "exchange": "spot",
     "base": "curve-dao",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/crveur/"
   },
   "CRV/USD": {
     "exchange": "spot",
     "base": "curve-dao",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/crvusd/"
   },
   "DOGE/EUR": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/dogeeur/"
   },
   "DOGE/USD": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/dogeusd/"
   },
   "DOT/EUR": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/doteur/"
   },
   "DOT/USD": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/dotusd/"
   },
   "EIGEN/EUR": {
     "exchange": "spot",
     "base": "eigen-layer",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/eigeneur/"
   },
   "EIGEN/USD": {
     "exchange": "spot",
     "base": "eigen-layer",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/eigenusd/"
   },
   "ENA/EUR": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/enaeur/"
   },
   "ENA/USD": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/enausd/"
   },
   "ETC/EUR": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/etceur/"
   },
   "ETC/USD": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/etcusd/"
   },
   "ETH/BTC": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.bitstamp.net/trade/ethbtc/"
   },
   "ETH/EUR": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/etheur/"
   },
   "ETH/EURC": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "euro-coin"
+    "quote": "euro-coin",
+    "url": "https://www.bitstamp.net/trade/etheurc/"
   },
   "ETH/EURCV": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "societe-generale-forge-eurcv"
+    "quote": "societe-generale-forge-eurcv",
+    "url": "https://www.bitstamp.net/trade/etheurcv/"
   },
   "ETH/GBP": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "british-pound"
+    "quote": "british-pound",
+    "url": "https://www.bitstamp.net/trade/ethgbp/"
   },
   "ETH/RLUSD": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "ripple-usd"
+    "quote": "ripple-usd",
+    "url": "https://www.bitstamp.net/trade/ethrlusd/"
   },
   "ETH/USD": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/ethusd/"
   },
   "ETH/USDC": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bitstamp.net/trade/ethusdc/"
   },
   "ETH/USDT": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bitstamp.net/trade/ethusdt/"
   },
   "EUR/USD": {
     "exchange": "spot",
     "base": "euro",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/eurusd/"
   },
   "EURC/EUR": {
     "exchange": "spot",
     "base": "euro-coin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/eurceur/"
   },
   "EURC/USDC": {
     "exchange": "spot",
     "base": "euro-coin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bitstamp.net/trade/eurcusdc/"
   },
   "EURCV/EUR": {
     "exchange": "spot",
     "base": "societe-generale-forge-eurcv",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/eurcveur/"
   },
   "EURCV/USDC": {
     "exchange": "spot",
     "base": "societe-generale-forge-eurcv",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bitstamp.net/trade/eurcvusdc/"
   },
   "EURCV/USDT": {
     "exchange": "spot",
     "base": "societe-generale-forge-eurcv",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bitstamp.net/trade/eurcvusdt/"
   },
   "FARTCOIN/USD": {
     "exchange": "spot",
     "base": "fartcoin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/fartcoinusd/"
   },
   "FET/EUR": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/feteur/"
   },
   "FET/USD": {
     "exchange": "spot",
     "base": "fetch-ai",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/fetusd/"
   },
   "FLOKI/EUR": {
     "exchange": "spot",
     "base": "floki",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/flokieur/"
   },
   "FLOKI/USD": {
     "exchange": "spot",
     "base": "floki",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/flokiusd/"
   },
   "FLR/EUR": {
     "exchange": "spot",
     "base": "flare",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/flreur/"
   },
   "FLR/USD": {
     "exchange": "spot",
     "base": "flare",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/flrusd/"
   },
   "GBP/USD": {
     "exchange": "spot",
     "base": "british-pound",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/gbpusd/"
   },
   "GRT/EUR": {
     "exchange": "spot",
     "base": "the-graph",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/grteur/"
   },
   "GRT/USD": {
     "exchange": "spot",
     "base": "the-graph",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/grtusd/"
   },
   "HBAR/EUR": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/hbareur/"
   },
   "HBAR/USD": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/hbarusd/"
   },
   "HYPE/EUR": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/hypeeur/"
   },
   "HYPE/USD": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/hypeusd/"
   },
   "ICP/EUR": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/icpeur/"
   },
   "ICP/USD": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/icpusd/"
   },
   "IMX/EUR": {
     "exchange": "spot",
     "base": "immutable-x",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/imxeur/"
   },
   "IMX/USD": {
     "exchange": "spot",
     "base": "immutable-x",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/imxusd/"
   },
   "INJ/EUR": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/injeur/"
   },
   "INJ/USD": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/injusd/"
   },
   "JTO/EUR": {
     "exchange": "spot",
     "base": "jito",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/jtoeur/"
   },
   "JTO/USD": {
     "exchange": "spot",
     "base": "jito",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/jtousd/"
   },
   "JUP/EUR": {
     "exchange": "spot",
     "base": "jupiter",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/jupeur/"
   },
   "JUP/USD": {
     "exchange": "spot",
     "base": "jupiter",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/jupusd/"
   },
   "LDO/EUR": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/ldoeur/"
   },
   "LDO/USD": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/ldousd/"
   },
   "LINK/EUR": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/linkeur/"
   },
   "LINK/GBP": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "british-pound"
+    "quote": "british-pound",
+    "url": "https://www.bitstamp.net/trade/linkgbp/"
   },
   "LINK/USD": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/linkusd/"
   },
   "LIT/EUR": {
     "exchange": "spot",
     "base": "lighter",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/liteur/"
   },
   "LIT/USD": {
     "exchange": "spot",
     "base": "lighter",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/litusd/"
   },
   "LTC/BTC": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.bitstamp.net/trade/ltcbtc/"
   },
   "LTC/EUR": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/ltceur/"
   },
   "LTC/USD": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/ltcusd/"
   },
   "MANA/EUR": {
     "exchange": "spot",
     "base": "decentraland",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/manaeur/"
   },
   "MANA/USD": {
     "exchange": "spot",
     "base": "decentraland",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/manausd/"
   },
   "MEGA/EUR": {
     "exchange": "spot",
     "base": "megaeth",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/megaeur/"
   },
   "MEGA/USD": {
     "exchange": "spot",
     "base": "megaeth",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/megausd/"
   },
   "MEW/EUR": {
     "exchange": "spot",
     "base": "cat-in-a-dogs-world",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/meweur/"
   },
   "MEW/USD": {
     "exchange": "spot",
     "base": "cat-in-a-dogs-world",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/mewusd/"
   },
   "MNT/EUR": {
     "exchange": "spot",
     "base": "mantle",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/mnteur/"
   },
   "MNT/USD": {
     "exchange": "spot",
     "base": "mantle",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/mntusd/"
   },
   "MON/EUR": {
     "exchange": "spot",
     "base": "monad",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/moneur/"
   },
   "MON/USD": {
     "exchange": "spot",
     "base": "monad",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/monusd/"
   },
   "MOODENG/EUR": {
     "exchange": "spot",
     "base": "moo-deng",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/moodengeur/"
   },
   "MOODENG/USD": {
     "exchange": "spot",
     "base": "moo-deng",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/moodengusd/"
   },
   "MORPHO/EUR": {
     "exchange": "spot",
     "base": "morpho",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/morphoeur/"
   },
   "MORPHO/USD": {
     "exchange": "spot",
     "base": "morpho",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/morphousd/"
   },
   "NEAR/EUR": {
     "exchange": "spot",
     "base": "near",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/neareur/"
   },
   "NEAR/USD": {
     "exchange": "spot",
     "base": "near",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/nearusd/"
   },
   "ONDO/EUR": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/ondoeur/"
   },
   "ONDO/USD": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/ondousd/"
   },
   "OP/EUR": {
     "exchange": "spot",
     "base": "optimism",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/opeur/"
   },
   "OP/USD": {
     "exchange": "spot",
     "base": "optimism",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/opusd/"
   },
   "ORCA/EUR": {
     "exchange": "spot",
     "base": "orca",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/orcaeur/"
   },
   "ORCA/USD": {
     "exchange": "spot",
     "base": "orca",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/orcausd/"
   },
   "PAXG/EUR": {
     "exchange": "spot",
     "base": "pax-gold",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/paxgeur/"
   },
   "PAXG/USD": {
     "exchange": "spot",
     "base": "pax-gold",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/paxgusd/"
   },
   "PENGU/EUR": {
     "exchange": "spot",
     "base": "pudgy-penguins",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/pengueur/"
   },
   "PENGU/USD": {
     "exchange": "spot",
     "base": "pudgy-penguins",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/penguusd/"
   },
   "PEPE/EUR": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/pepeeur/"
   },
   "PEPE/USD": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/pepeusd/"
   },
   "PNUT/EUR": {
     "exchange": "spot",
     "base": "peanut-the-squirrel",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/pnuteur/"
   },
   "PNUT/USD": {
     "exchange": "spot",
     "base": "peanut-the-squirrel",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/pnutusd/"
   },
   "POL/EUR": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/poleur/"
   },
   "POL/USD": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/polusd/"
   },
   "POPCAT/EUR": {
     "exchange": "spot",
     "base": "popcat",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/popcateur/"
   },
   "POPCAT/USD": {
     "exchange": "spot",
     "base": "popcat",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/popcatusd/"
   },
   "PYTH/EUR": {
     "exchange": "spot",
     "base": "pyth-network",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/pytheur/"
   },
   "PYTH/USD": {
     "exchange": "spot",
     "base": "pyth-network",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/pythusd/"
   },
   "PYUSD/USD": {
     "exchange": "spot",
     "base": "paypal-usd",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/pyusdusd/"
   },
   "QNT/EUR": {
     "exchange": "spot",
     "base": "quant",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/qnteur/"
   },
   "QNT/USD": {
     "exchange": "spot",
     "base": "quant",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/qntusd/"
   },
   "RAY/EUR": {
     "exchange": "spot",
     "base": "raydium",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/rayeur/"
   },
   "RAY/USD": {
     "exchange": "spot",
     "base": "raydium",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/rayusd/"
   },
   "RE/EUR": {
     "exchange": "spot",
     "base": "re",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/reeur/"
   },
   "RE/USD": {
     "exchange": "spot",
     "base": "re",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/reusd/"
   },
   "RENDER/EUR": {
     "exchange": "spot",
     "base": "render",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/rendereur/"
   },
   "RENDER/USD": {
     "exchange": "spot",
     "base": "render",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/renderusd/"
   },
   "RLUSD/EUR": {
     "exchange": "spot",
     "base": "ripple-usd",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/rlusdeur/"
   },
   "RLUSD/USD": {
     "exchange": "spot",
     "base": "ripple-usd",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/rlusdusd/"
   },
   "RLUSD/USDT": {
     "exchange": "spot",
     "base": "ripple-usd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bitstamp.net/trade/rlusdusdt/"
   },
   "S/EUR": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/seur/"
   },
   "S/USD": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/susd/"
   },
   "SAND/EUR": {
     "exchange": "spot",
     "base": "the-sandbox",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/sandeur/"
   },
   "SAND/USD": {
     "exchange": "spot",
     "base": "the-sandbox",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/sandusd/"
   },
   "SEI/EUR": {
     "exchange": "spot",
     "base": "sei",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/seieur/"
   },
   "SEI/USD": {
     "exchange": "spot",
     "base": "sei",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/seiusd/"
   },
   "SGD/USD": {
     "exchange": "spot",
     "base": "singapore-dollar",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/sgdusd/"
   },
   "SHIB/EUR": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/shibeur/"
   },
   "SHIB/USD": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/shibusd/"
   },
   "SKR/EUR": {
     "exchange": "spot",
     "base": "seeker",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/skreur/"
   },
   "SKR/USD": {
     "exchange": "spot",
     "base": "seeker",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/skrusd/"
   },
   "SKY/EUR": {
     "exchange": "spot",
     "base": "sky",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/skyeur/"
   },
   "SKY/USD": {
     "exchange": "spot",
     "base": "sky",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/skyusd/"
   },
   "SNX/EUR": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/snxeur/"
   },
   "SNX/USD": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/snxusd/"
   },
   "SOL/EUR": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/soleur/"
   },
   "SOL/USD": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/solusd/"
   },
   "SOL/USDC": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bitstamp.net/trade/solusdc/"
   },
   "STRK/EUR": {
     "exchange": "spot",
     "base": "starknet",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/strkeur/"
   },
   "STRK/USD": {
     "exchange": "spot",
     "base": "starknet",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/strkusd/"
   },
   "SUI/EUR": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/suieur/"
   },
   "SUI/USD": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/suiusd/"
   },
   "SYRUP/EUR": {
     "exchange": "spot",
     "base": "syrup",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/syrupeur/"
   },
   "SYRUP/USD": {
     "exchange": "spot",
     "base": "syrup",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/syrupusd/"
   },
   "TAO/EUR": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/taoeur/"
   },
   "TAO/USD": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/taousd/"
   },
   "TON/EUR": {
     "exchange": "spot",
     "base": "toncoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/toneur/"
   },
   "TON/USD": {
     "exchange": "spot",
     "base": "toncoin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/tonusd/"
   },
   "TRAC/EUR": {
     "exchange": "spot",
     "base": "origintrail",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/traceur/"
   },
   "TRAC/USD": {
     "exchange": "spot",
     "base": "origintrail",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/tracusd/"
   },
   "TRUMP/EUR": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/trumpeur/"
   },
   "TRUMP/USD": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/trumpusd/"
   },
   "TRX/EUR": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/trxeur/"
   },
   "TRX/USD": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/trxusd/"
   },
   "UNI/EUR": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/unieur/"
   },
   "UNI/USD": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/uniusd/"
   },
   "USDC/EUR": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/usdceur/"
   },
   "USDC/USD": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/usdcusd/"
   },
   "USDC/USDT": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bitstamp.net/trade/usdcusdt/"
   },
   "USDG/USD": {
     "exchange": "spot",
     "base": "global-dollar",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/usdgusd/"
   },
   "USDT/EUR": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/usdteur/"
   },
   "USDT/USD": {
     "exchange": "spot",
     "base": "tether",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/usdtusd/"
   },
   "VIRTUAL/EUR": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/virtualeur/"
   },
   "VIRTUAL/USD": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/virtualusd/"
   },
   "VVV/EUR": {
     "exchange": "spot",
     "base": "venice-token",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/vvveur/"
   },
   "VVV/USD": {
     "exchange": "spot",
     "base": "venice-token",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/vvvusd/"
   },
   "W/EUR": {
     "exchange": "spot",
     "base": "wormhole",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/weur/"
   },
   "W/USD": {
     "exchange": "spot",
     "base": "wormhole",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/wusd/"
   },
   "WIF/EUR": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/wifeur/"
   },
   "WIF/USD": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/wifusd/"
   },
   "WLD/EUR": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/wldeur/"
   },
   "WLD/USD": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/wldusd/"
   },
   "WLFI/EUR": {
     "exchange": "spot",
     "base": "world-liberty-financial",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/wlfieur/"
   },
   "WLFI/USD": {
     "exchange": "spot",
     "base": "world-liberty-financial",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/wlfiusd/"
   },
   "XCN/EUR": {
     "exchange": "spot",
     "base": "onyxcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/xcneur/"
   },
   "XCN/USD": {
     "exchange": "spot",
     "base": "onyxcoin",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/xcnusd/"
   },
   "XDC/EUR": {
     "exchange": "spot",
     "base": "xdc-network",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/xdceur/"
   },
   "XDC/USD": {
     "exchange": "spot",
     "base": "xdc-network",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/xdcusd/"
   },
   "XLM/EUR": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/xlmeur/"
   },
   "XLM/USD": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/xlmusd/"
   },
   "XPL/EUR": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/xpleur/"
   },
   "XPL/USD": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/xplusd/"
   },
   "XRP/BTC": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "bitcoin"
+    "quote": "bitcoin",
+    "url": "https://www.bitstamp.net/trade/xrpbtc/"
   },
   "XRP/EUR": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/xrpeur/"
   },
   "XRP/GBP": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "british-pound"
+    "quote": "british-pound",
+    "url": "https://www.bitstamp.net/trade/xrpgbp/"
   },
   "XRP/RLUSD": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "ripple-usd"
+    "quote": "ripple-usd",
+    "url": "https://www.bitstamp.net/trade/xrprlusd/"
   },
   "XRP/USD": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/xrpusd/"
   },
   "XRP/USDC": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://www.bitstamp.net/trade/xrpusdc/"
   },
   "XRP/USDT": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bitstamp.net/trade/xrpusdt/"
   },
   "XSGD/USD": {
     "exchange": "spot",
     "base": "xsgd",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/xsgdusd/"
   },
   "XSGD/USDT": {
     "exchange": "spot",
     "base": "xsgd",
-    "quote": "tether"
+    "quote": "tether",
+    "url": "https://www.bitstamp.net/trade/xsgdusdt/"
   },
   "XTZ/EUR": {
     "exchange": "spot",
     "base": "tezos",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/xtzeur/"
   },
   "XTZ/USD": {
     "exchange": "spot",
     "base": "tezos",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/xtzusd/"
   },
   "ZEC/EUR": {
     "exchange": "spot",
     "base": "zcash",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/zeceur/"
   },
   "ZEC/USD": {
     "exchange": "spot",
     "base": "zcash",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/zecusd/"
   },
   "ZORA/EUR": {
     "exchange": "spot",
     "base": "zora",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/zoraeur/"
   },
   "ZORA/USD": {
     "exchange": "spot",
     "base": "zora",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/zorausd/"
   },
   "ZRO/EUR": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/zroeur/"
   },
   "ZRO/USD": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/zrousd/"
   },
   "ZRX/EUR": {
     "exchange": "spot",
     "base": "0x",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://www.bitstamp.net/trade/zrxeur/"
   },
   "ZRX/USD": {
     "exchange": "spot",
     "base": "0x",
-    "quote": "usd"
+    "quote": "usd",
+    "url": "https://www.bitstamp.net/trade/zrxusd/"
   }
 }

@@ -2,427 +2,512 @@
   "B2M/EUR": {
     "exchange": "spot",
     "base": "bit2me",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/B2M-EUR"
   },
   "B2M/USDC": {
     "exchange": "spot",
     "base": "bit2me",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/B2M-USDC"
   },
   "BTC/EUR": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BTC-EUR"
   },
   "BTC/EURR": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "stablr-euro"
+    "quote": "stablr-euro",
+    "url": "https://pro.bit2me.com/exchange/BTC-EURR"
   },
   "BTC/USDC": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/BTC-USDC"
   },
   "ETH/EUR": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ETH-EUR"
   },
   "ETH/USDC": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/ETH-USDC"
   },
   "EURC/EUR": {
     "exchange": "spot",
     "base": "euro-coin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/EURC-EUR"
   },
   "EUR/EURR": {
     "exchange": "spot",
     "base": "euro",
-    "quote": "stablr-euro"
+    "quote": "stablr-euro",
+    "url": "https://pro.bit2me.com/exchange/EUR-EURR"
   },
   "USDC/EUR": {
     "exchange": "spot",
     "base": "usd-coin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/USDC-EUR"
   },
   "1INCH/EUR": {
     "exchange": "spot",
     "base": "1inch",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/1INCH-EUR"
   },
   "AAVE/EUR": {
     "exchange": "spot",
     "base": "aave",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/AAVE-EUR"
   },
   "ACT/EUR": {
     "exchange": "spot",
     "base": "act-i-the-ai-prophecy",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ACT-EUR"
   },
   "ADA/EUR": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ADA-EUR"
   },
   "ADA/USDC": {
     "exchange": "spot",
     "base": "cardano",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/ADA-USDC"
   },
   "AERO/EUR": {
     "exchange": "spot",
     "base": "aerodrome",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/AERO-EUR"
   },
   "AIOZ/EUR": {
     "exchange": "spot",
     "base": "aioz-network",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/AIOZ-EUR"
   },
   "AIXBT/EUR": {
     "exchange": "spot",
     "base": "aixbt",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/AIXBT-EUR"
   },
   "AKT/EUR": {
     "exchange": "spot",
     "base": "akash-network",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/AKT-EUR"
   },
   "ALCH/EUR": {
     "exchange": "spot",
     "base": "alchemist-ai",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ALCH-EUR"
   },
   "ALGO/EUR": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ALGO-EUR"
   },
   "ALGO/USDC": {
     "exchange": "spot",
     "base": "algorand",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/ALGO-USDC"
   },
   "ALT/EUR": {
     "exchange": "spot",
     "base": "altlayer",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ALT-EUR"
   },
   "ANIME/EUR": {
     "exchange": "spot",
     "base": "animecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ANIME-EUR"
   },
   "ANKR/EUR": {
     "exchange": "spot",
     "base": "ankr",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ANKR-EUR"
   },
   "ANON/EUR": {
     "exchange": "spot",
     "base": "heyanon",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ANON-EUR"
   },
   "APE/EUR": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/APE-EUR"
   },
   "APE/USDC": {
     "exchange": "spot",
     "base": "apecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/APE-USDC"
   },
   "API3/EUR": {
     "exchange": "spot",
     "base": "api3",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/API3-EUR"
   },
   "APT/EUR": {
     "exchange": "spot",
     "base": "aptos",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/APT-EUR"
   },
   "AR/EUR": {
     "exchange": "spot",
     "base": "arweave",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/AR-EUR"
   },
   "ARB/EUR": {
     "exchange": "spot",
     "base": "arbitrum",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ARB-EUR"
   },
   "ARKM/EUR": {
     "exchange": "spot",
     "base": "arkham",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ARKM-EUR"
   },
   "ASTR/EUR": {
     "exchange": "spot",
     "base": "astar",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ASTR-EUR"
   },
   "ATOM/EUR": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ATOM-EUR"
   },
   "ATOM/USDC": {
     "exchange": "spot",
     "base": "cosmos",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/ATOM-USDC"
   },
   "AUDIO/EUR": {
     "exchange": "spot",
     "base": "audius",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/AUDIO-EUR"
   },
   "AVAX/EUR": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/AVAX-EUR"
   },
   "AVAX/USDC": {
     "exchange": "spot",
     "base": "avalanche",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/AVAX-USDC"
   },
   "AXS/EUR": {
     "exchange": "spot",
     "base": "axie-infinity",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/AXS-EUR"
   },
   "BADGER/EUR": {
     "exchange": "spot",
     "base": "badger-dao",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BADGER-EUR"
   },
   "BAL/EUR": {
     "exchange": "spot",
     "base": "balancer",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BAL-EUR"
   },
   "BAND/EUR": {
     "exchange": "spot",
     "base": "band-protocol",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BAND-EUR"
   },
   "BAT/EUR": {
     "exchange": "spot",
     "base": "basic-attention-token",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BAT-EUR"
   },
   "BCH/EUR": {
     "exchange": "spot",
     "base": "bitcoin-cash",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BCH-EUR"
   },
   "BERA/EUR": {
     "exchange": "spot",
     "base": "berachain",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BERA-EUR"
   },
   "BERA/USDC": {
     "exchange": "spot",
     "base": "berachain",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/BERA-USDC"
   },
   "BIO/EUR": {
     "exchange": "spot",
     "base": "bio-protocol",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BIO-EUR"
   },
   "BLUR/EUR": {
     "exchange": "spot",
     "base": "blur",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BLUR-EUR"
   },
   "BNB/EUR": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BNB-EUR"
   },
   "BNB/USDC": {
     "exchange": "spot",
     "base": "bnb",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/BNB-USDC"
   },
   "BNT/EUR": {
     "exchange": "spot",
     "base": "bancor",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BNT-EUR"
   },
   "BOBA/EUR": {
     "exchange": "spot",
     "base": "boba-network",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BOBA-EUR"
   },
   "BONK/EUR": {
     "exchange": "spot",
     "base": "bonk",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BONK-EUR"
   },
   "BTC/EUROP": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "schuman-europ"
+    "quote": "schuman-europ",
+    "url": "https://pro.bit2me.com/exchange/BTC-EUROP"
   },
   "BTT/USDC": {
     "exchange": "spot",
     "base": "bittorrent",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/BTT-USDC"
   },
   "CCD/USDC": {
     "exchange": "spot",
     "base": "concordium",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/CCD-USDC"
   },
   "CELO/EUR": {
     "exchange": "spot",
     "base": "celo",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CELO-EUR"
   },
   "CELR/EUR": {
     "exchange": "spot",
     "base": "celer-network",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CELR-EUR"
   },
   "CFG/EUR": {
     "exchange": "spot",
     "base": "centrifuge",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CFG-EUR"
   },
   "CFX/EUR": {
     "exchange": "spot",
     "base": "conflux",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CFX-EUR"
   },
   "CHR/EUR": {
     "exchange": "spot",
     "base": "chromaway",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CHR-EUR"
   },
   "CHZ/EUR": {
     "exchange": "spot",
     "base": "chiliz",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CHZ-EUR"
   },
   "CLANKER/EUR": {
     "exchange": "spot",
     "base": "tokenbot",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CLANKER-EUR"
   },
   "COMP/EUR": {
     "exchange": "spot",
     "base": "compound",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/COMP-EUR"
   },
   "COTI/EUR": {
     "exchange": "spot",
     "base": "coti",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/COTI-EUR"
   },
   "COW/EUR": {
     "exchange": "spot",
     "base": "cow-protocol",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/COW-EUR"
   },
   "CPOOL/EUR": {
     "exchange": "spot",
     "base": "clearpool",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CPOOL-EUR"
   },
   "CRV/EUR": {
     "exchange": "spot",
     "base": "curve-dao",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CRV-EUR"
   },
   "CTSI/EUR": {
     "exchange": "spot",
     "base": "cartesi",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CTSI-EUR"
   },
   "CVC/EUR": {
     "exchange": "spot",
     "base": "civic",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CVC-EUR"
   },
   "CVX/EUR": {
     "exchange": "spot",
     "base": "convex-finance",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CVX-EUR"
   },
   "CYBER/EUR": {
     "exchange": "spot",
     "base": "cyberconnect",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/CYBER-EUR"
   },
   "DEGEN/EUR": {
     "exchange": "spot",
     "base": "degen-base",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/DEGEN-EUR"
   },
   "DMC/EUR": {
     "exchange": "spot",
     "base": "delorean",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/DMC-EUR"
   },
   "DOGE/EUR": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/DOGE-EUR"
   },
   "DOGE/USDC": {
     "exchange": "spot",
     "base": "dogecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/DOGE-USDC"
   },
   "DOGS/EUR": {
     "exchange": "spot",
     "base": "dogs",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/DOGS-EUR"
   },
   "DOT/EUR": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/DOT-EUR"
   },
   "DOT/USDC": {
     "exchange": "spot",
     "base": "polkadot",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/DOT-USDC"
   },
   "DRIFT/EUR": {
     "exchange": "spot",
     "base": "drift-protocol",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/DRIFT-EUR"
   },
   "DYDX/EUR": {
     "exchange": "spot",
     "base": "dydx",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/DYDX-EUR"
   },
   "DYM/EUR": {
     "exchange": "spot",
     "base": "dymension",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/DYM-EUR"
   },
   "EGLD/EUR": {
     "exchange": "spot",
     "base": "multiversx",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/EGLD-EUR"
   },
   "EIGEN/EUR": {
     "exchange": "spot",
     "base": "eigen-layer",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/EIGEN-EUR"
   },
   "ELIZAOS/EUR": {
     "exchange": "spot",
@@ -433,911 +518,1093 @@
   "ENA/EUR": {
     "exchange": "spot",
     "base": "ethena",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ENA-EUR"
   },
   "ENJ/EUR": {
     "exchange": "spot",
     "base": "enjin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ENJ-EUR"
   },
   "ENS/EUR": {
     "exchange": "spot",
     "base": "ethereum-name-service",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ENS-EUR"
   },
   "ETC/EUR": {
     "exchange": "spot",
     "base": "ethereum-classic",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ETC-EUR"
   },
   "ETHFI/EUR": {
     "exchange": "spot",
     "base": "ether-fi",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ETHFI-EUR"
   },
   "EUROP/EUR": {
     "exchange": "spot",
     "base": "schuman-europ",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/EUROP-EUR"
   },
   "EUROP/USDC": {
     "exchange": "spot",
     "base": "schuman-europ",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/EUROP-USDC"
   },
   "EURQ/EUR": {
     "exchange": "spot",
     "base": "quantoz-eurq",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/EURQ-EUR"
   },
   "EWT/EUR": {
     "exchange": "spot",
     "base": "energy-web-token",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/EWT-EUR"
   },
   "FARTCOIN/EUR": {
     "exchange": "spot",
     "base": "fartcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/FARTCOIN-EUR"
   },
   "FIDA/EUR": {
     "exchange": "spot",
     "base": "bonfida",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/FIDA-EUR"
   },
   "FIL/EUR": {
     "exchange": "spot",
     "base": "filecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/FIL-EUR"
   },
   "FLOCK/EUR": {
     "exchange": "spot",
     "base": "flock",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/FLOCK-EUR"
   },
   "FLOCK/USDC": {
     "exchange": "spot",
     "base": "flock",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/FLOCK-USDC"
   },
   "FLOKI/EUR": {
     "exchange": "spot",
     "base": "floki",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/FLOKI-EUR"
   },
   "FLOW/EUR": {
     "exchange": "spot",
     "base": "flow",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/FLOW-EUR"
   },
   "FLR/EUR": {
     "exchange": "spot",
     "base": "flare",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/FLR-EUR"
   },
   "FLUX/EUR": {
     "exchange": "spot",
     "base": "zelcash",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/FLUX-EUR"
   },
   "FWOG/EUR": {
     "exchange": "spot",
     "base": "fwog",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/FWOG-EUR"
   },
   "GALA/EUR": {
     "exchange": "spot",
     "base": "gala",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GALA-EUR"
   },
   "GFI/EUR": {
     "exchange": "spot",
     "base": "goldfinch",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GFI-EUR"
   },
   "GHST/EUR": {
     "exchange": "spot",
     "base": "aavegotchi",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GHST-EUR"
   },
   "GIGA/EUR": {
     "exchange": "spot",
     "base": "gigachad",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GIGA-EUR"
   },
   "GLMR/EUR": {
     "exchange": "spot",
     "base": "moonbeam",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GLMR-EUR"
   },
   "GMT/EUR": {
     "exchange": "spot",
     "base": "green-metaverse-token",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GMT-EUR"
   },
   "GMX/EUR": {
     "exchange": "spot",
     "base": "gmx",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GMX-EUR"
   },
   "GNO/EUR": {
     "exchange": "spot",
     "base": "gnosis",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GNO-EUR"
   },
   "GOAT/EUR": {
     "exchange": "spot",
     "base": "goatseus-maximus",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GOAT-EUR"
   },
   "GRASS/EUR": {
     "exchange": "spot",
     "base": "grass",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GRASS-EUR"
   },
   "GRIFFAIN/EUR": {
     "exchange": "spot",
     "base": "griffain",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GRIFFAIN-EUR"
   },
   "GRT/EUR": {
     "exchange": "spot",
     "base": "the-graph",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/GRT-EUR"
   },
   "HBAR/EUR": {
     "exchange": "spot",
     "base": "hedera",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/HBAR-EUR"
   },
   "HMSTR/EUR": {
     "exchange": "spot",
     "base": "hamster-kombat",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/HMSTR-EUR"
   },
   "HNT/EUR": {
     "exchange": "spot",
     "base": "helium",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/HNT-EUR"
   },
   "HPOS10I/EUR": {
     "exchange": "spot",
     "base": "harrypotterobamasonic10inu",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/HPOS10I-EUR"
   },
   "HTX/EUR": {
     "exchange": "spot",
     "base": "htx-dao",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/HTX-EUR"
   },
   "HTX/USDC": {
     "exchange": "spot",
     "base": "htx-dao",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/HTX-USDC"
   },
   "HYPE/EUR": {
     "exchange": "spot",
     "base": "hyperliquid",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/HYPE-EUR"
   },
   "ICP/EUR": {
     "exchange": "spot",
     "base": "internet-computer",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ICP-EUR"
   },
   "IMX/EUR": {
     "exchange": "spot",
     "base": "immutable-x",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/IMX-EUR"
   },
   "INIT/EUR": {
     "exchange": "spot",
     "base": "initia",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/INIT-EUR"
   },
   "INJ/EUR": {
     "exchange": "spot",
     "base": "injective",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/INJ-EUR"
   },
   "JASMY/EUR": {
     "exchange": "spot",
     "base": "jasmycoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/JASMY-EUR"
   },
   "JST/EUR": {
     "exchange": "spot",
     "base": "just",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/JST-EUR"
   },
   "JTO/EUR": {
     "exchange": "spot",
     "base": "jito",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/JTO-EUR"
   },
   "JUP/EUR": {
     "exchange": "spot",
     "base": "jupiter",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/JUP-EUR"
   },
   "KAITO/EUR": {
     "exchange": "spot",
     "base": "kaito",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/KAITO-EUR"
   },
   "KAS/EUR": {
     "exchange": "spot",
     "base": "kaspa",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/KAS-EUR"
   },
   "KAVA/EUR": {
     "exchange": "spot",
     "base": "kava",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/KAVA-EUR"
   },
   "KNC/EUR": {
     "exchange": "spot",
     "base": "kyber-network",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/KNC-EUR"
   },
   "KSM/EUR": {
     "exchange": "spot",
     "base": "kusama",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/KSM-EUR"
   },
   "KULA/EUR": {
     "exchange": "spot",
     "base": "kula",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/KULA-EUR"
   },
   "LAYER/EUR": {
     "exchange": "spot",
     "base": "solayer",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/LAYER-EUR"
   },
   "LDO/EUR": {
     "exchange": "spot",
     "base": "lido-dao",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/LDO-EUR"
   },
   "LINK/EUR": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/LINK-EUR"
   },
   "LINK/USDC": {
     "exchange": "spot",
     "base": "chainlink",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/LINK-USDC"
   },
   "LMWR/EUR": {
     "exchange": "spot",
     "base": "limewire",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/LMWR-EUR"
   },
   "LOFI/EUR": {
     "exchange": "spot",
     "base": "lofi",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/LOFI-EUR"
   },
   "LPT/EUR": {
     "exchange": "spot",
     "base": "livepeer",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/LPT-EUR"
   },
   "LRC/EUR": {
     "exchange": "spot",
     "base": "loopring",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/LRC-EUR"
   },
   "LSK/EUR": {
     "exchange": "spot",
     "base": "lisk",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/LSK-EUR"
   },
   "LTC/EUR": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/LTC-EUR"
   },
   "LTC/USDC": {
     "exchange": "spot",
     "base": "litecoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/LTC-USDC"
   },
   "MANA/EUR": {
     "exchange": "spot",
     "base": "decentraland",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/MANA-EUR"
   },
   "MASK/EUR": {
     "exchange": "spot",
     "base": "mask-network",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/MASK-EUR"
   },
   "ME/EUR": {
     "exchange": "spot",
     "base": "magic-eden",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ME-EUR"
   },
   "MELANIA/EUR": {
     "exchange": "spot",
     "base": "melania-meme",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/MELANIA-EUR"
   },
   "METIS/EUR": {
     "exchange": "spot",
     "base": "metis",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/METIS-EUR"
   },
   "MEW/EUR": {
     "exchange": "spot",
     "base": "cat-in-a-dogs-world",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/MEW-EUR"
   },
   "MINA/EUR": {
     "exchange": "spot",
     "base": "mina-protocol",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/MINA-EUR"
   },
   "MLN/EUR": {
     "exchange": "spot",
     "base": "enzyme",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/MLN-EUR"
   },
   "MOODENG/EUR": {
     "exchange": "spot",
     "base": "moo-deng",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/MOODENG-EUR"
   },
   "MORPHO/EUR": {
     "exchange": "spot",
     "base": "morpho",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/MORPHO-EUR"
   },
   "MOVR/EUR": {
     "exchange": "spot",
     "base": "moonriver",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/MOVR-EUR"
   },
   "NANO/EUR": {
     "exchange": "spot",
     "base": "nano",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/NANO-EUR"
   },
   "NEAR/EUR": {
     "exchange": "spot",
     "base": "near",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/NEAR-EUR"
   },
   "NEIRO/EUR": {
     "exchange": "spot",
     "base": "neiro",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/NEIRO-EUR"
   },
   "NEO/EUR": {
     "exchange": "spot",
     "base": "neo",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/NEO-EUR"
   },
   "NFT/EUR": {
     "exchange": "spot",
     "base": "apenft",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/NFT-EUR"
   },
   "NFT/USDC": {
     "exchange": "spot",
     "base": "apenft",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/NFT-USDC"
   },
   "NMR/EUR": {
     "exchange": "spot",
     "base": "numeraire",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/NMR-EUR"
   },
   "NOT/EUR": {
     "exchange": "spot",
     "base": "notcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/NOT-EUR"
   },
   "NPC/EUR": {
     "exchange": "spot",
     "base": "non-playable-coin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/NPC-EUR"
   },
   "OGN/EUR": {
     "exchange": "spot",
     "base": "origin-protocol",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/OGN-EUR"
   },
   "OMG/EUR": {
     "exchange": "spot",
     "base": "omisego",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/OMG-EUR"
   },
   "ONDO/EUR": {
     "exchange": "spot",
     "base": "ondo",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ONDO-EUR"
   },
   "OP/EUR": {
     "exchange": "spot",
     "base": "optimism",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/OP-EUR"
   },
   "OPEN/EUR": {
     "exchange": "spot",
     "base": "openledger",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/OPEN-EUR"
   },
   "ORCA/EUR": {
     "exchange": "spot",
     "base": "orca",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ORCA-EUR"
   },
   "OSMO/EUR": {
     "exchange": "spot",
     "base": "osmosis",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/OSMO-EUR"
   },
   "OXT/EUR": {
     "exchange": "spot",
     "base": "orchid",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/OXT-EUR"
   },
   "PEAQ/EUR": {
     "exchange": "spot",
     "base": "peaq",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PEAQ-EUR"
   },
   "PENDLE/EUR": {
     "exchange": "spot",
     "base": "pendle",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PENDLE-EUR"
   },
   "PENGU/EUR": {
     "exchange": "spot",
     "base": "pudgy-penguins",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PENGU-EUR"
   },
   "PEPE/EUR": {
     "exchange": "spot",
     "base": "pepe",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PEPE-EUR"
   },
   "PERP/EUR": {
     "exchange": "spot",
     "base": "perpetual-protocol",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PERP-EUR"
   },
   "PHA/EUR": {
     "exchange": "spot",
     "base": "pha",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PHA-EUR"
   },
   "PNUT/EUR": {
     "exchange": "spot",
     "base": "peanut-the-squirrel",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PNUT-EUR"
   },
   "POL/EUR": {
     "exchange": "spot",
     "base": "polygon",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/POL-EUR"
   },
   "POPCAT/EUR": {
     "exchange": "spot",
     "base": "popcat",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/POPCAT-EUR"
   },
   "PORTAL/EUR": {
     "exchange": "spot",
     "base": "portal",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PORTAL-EUR"
   },
   "PRIME/EUR": {
     "exchange": "spot",
     "base": "echelon-prime",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PRIME-EUR"
   },
   "PUFFER/EUR": {
     "exchange": "spot",
     "base": "puffer",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PUFFER-EUR"
   },
   "PUMP/EUR": {
     "exchange": "spot",
     "base": "pump",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PUMP-EUR"
   },
   "PYTH/EUR": {
     "exchange": "spot",
     "base": "pyth-network",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/PYTH-EUR"
   },
   "QNT/EUR": {
     "exchange": "spot",
     "base": "quant",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/QNT-EUR"
   },
   "QTUM/EUR": {
     "exchange": "spot",
     "base": "qtum",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/QTUM-EUR"
   },
   "RARI/EUR": {
     "exchange": "spot",
     "base": "rarible",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/RARI-EUR"
   },
   "RAY/EUR": {
     "exchange": "spot",
     "base": "raydium",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/RAY-EUR"
   },
   "REN/EUR": {
     "exchange": "spot",
     "base": "ren",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/REN-EUR"
   },
   "RENDER/EUR": {
     "exchange": "spot",
     "base": "render",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/RENDER-EUR"
   },
   "REQ/EUR": {
     "exchange": "spot",
     "base": "request",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/REQ-EUR"
   },
   "RLC/EUR": {
     "exchange": "spot",
     "base": "iexec-rlc",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/RLC-EUR"
   },
   "RPL/EUR": {
     "exchange": "spot",
     "base": "rocket-pool",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/RPL-EUR"
   },
   "RSR/EUR": {
     "exchange": "spot",
     "base": "reserve-rights-token",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/RSR-EUR"
   },
   "RUJI/EUR": {
     "exchange": "spot",
     "base": "rujira",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/RUJI-EUR"
   },
   "RUNE/EUR": {
     "exchange": "spot",
     "base": "thorchain",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/RUNE-EUR"
   },
   "S/EUR": {
     "exchange": "spot",
     "base": "sonic",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/S-EUR"
   },
   "SAGA/EUR": {
     "exchange": "spot",
     "base": "saga",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SAGA-EUR"
   },
   "SAND/EUR": {
     "exchange": "spot",
     "base": "the-sandbox",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SAND-EUR"
   },
   "SC/EUR": {
     "exchange": "spot",
     "base": "siacoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SC-EUR"
   },
   "SEI/EUR": {
     "exchange": "spot",
     "base": "sei",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SEI-EUR"
   },
   "SHIB/EUR": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SHIB-EUR"
   },
   "SHIB/USDC": {
     "exchange": "spot",
     "base": "shiba-inu",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/SHIB-USDC"
   },
   "SNEK/EUR": {
     "exchange": "spot",
     "base": "snek",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SNEK-EUR"
   },
   "SNX/EUR": {
     "exchange": "spot",
     "base": "synthetix",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SNX-EUR"
   },
   "SOL/EUR": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SOL-EUR"
   },
   "SOL/USDC": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/SOL-USDC"
   },
   "SPX/EUR": {
     "exchange": "spot",
     "base": "spx6900",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SPX-EUR"
   },
   "STEEM/EUR": {
     "exchange": "spot",
     "base": "steem",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/STEEM-EUR"
   },
   "STG/EUR": {
     "exchange": "spot",
     "base": "stargate-finance",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/STG-EUR"
   },
   "STORJ/EUR": {
     "exchange": "spot",
     "base": "storj",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/STORJ-EUR"
   },
   "STRK/EUR": {
     "exchange": "spot",
     "base": "starknet",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/STRK-EUR"
   },
   "STX/EUR": {
     "exchange": "spot",
     "base": "stacks",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/STX-EUR"
   },
   "SUI/EUR": {
     "exchange": "spot",
     "base": "sui",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SUI-EUR"
   },
   "SUPER/EUR": {
     "exchange": "spot",
     "base": "superfarm",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SUPER-EUR"
   },
   "SUSHI/EUR": {
     "exchange": "spot",
     "base": "sushi",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SUSHI-EUR"
   },
   "SWEAT/EUR": {
     "exchange": "spot",
     "base": "sweat-economy",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SWEAT-EUR"
   },
   "SXT/EUR": {
     "exchange": "spot",
     "base": "space-and-time",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SXT-EUR"
   },
   "SYRUP/EUR": {
     "exchange": "spot",
     "base": "syrup",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/SYRUP-EUR"
   },
   "TAO/EUR": {
     "exchange": "spot",
     "base": "bittensor",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/TAO-EUR"
   },
   "TIA/EUR": {
     "exchange": "spot",
     "base": "celestia",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/TIA-EUR"
   },
   "TNSR/EUR": {
     "exchange": "spot",
     "base": "tensor",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/TNSR-EUR"
   },
   "TON/USDC": {
     "exchange": "spot",
     "base": "toncoin",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/TON-USDC"
   },
   "TOSHI/EUR": {
     "exchange": "spot",
     "base": "toshi",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/TOSHI-EUR"
   },
   "TRU/EUR": {
     "exchange": "spot",
     "base": "truefi",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/TRU-EUR"
   },
   "TRUMP/EUR": {
     "exchange": "spot",
     "base": "official-trump",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/TRUMP-EUR"
   },
   "TRX/EUR": {
     "exchange": "spot",
     "base": "tron",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/TRX-EUR"
   },
   "TURBO/EUR": {
     "exchange": "spot",
     "base": "turbo",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/TURBO-EUR"
   },
   "UMA/EUR": {
     "exchange": "spot",
     "base": "uma",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/UMA-EUR"
   },
   "UNI/EUR": {
     "exchange": "spot",
     "base": "uniswap",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/UNI-EUR"
   },
   "USUAL/EUR": {
     "exchange": "spot",
     "base": "usual",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/USUAL-EUR"
   },
   "VELO/EUR": {
     "exchange": "spot",
     "base": "velo",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/VELO-EUR"
   },
   "VELODROME/EUR": {
     "exchange": "spot",
     "base": "velodrome",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/VELODROME-EUR"
   },
   "VET/USDC": {
     "exchange": "spot",
     "base": "vechain",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/VET-USDC"
   },
   "VIRTUAL/EUR": {
     "exchange": "spot",
     "base": "virtuals-protocol",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/VIRTUAL-EUR"
   },
   "VVV/EUR": {
     "exchange": "spot",
     "base": "venice-token",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/VVV-EUR"
   },
   "W/EUR": {
     "exchange": "spot",
     "base": "wormhole",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/W-EUR"
   },
   "WAL/EUR": {
     "exchange": "spot",
     "base": "walrus",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/WAL-EUR"
   },
   "WAXL/EUR": {
     "exchange": "spot",
     "base": "axelar",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/WAXL-EUR"
   },
   "WIF/EUR": {
     "exchange": "spot",
     "base": "dogwifcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/WIF-EUR"
   },
   "WIN/EUR": {
     "exchange": "spot",
     "base": "winklink",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/WIN-EUR"
   },
   "WIN/USDC": {
     "exchange": "spot",
     "base": "winklink",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/WIN-USDC"
   },
   "WLD/EUR": {
     "exchange": "spot",
     "base": "worldcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/WLD-EUR"
   },
   "XCN/EUR": {
     "exchange": "spot",
     "base": "onyxcoin",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/XCN-EUR"
   },
   "XLM/EUR": {
     "exchange": "spot",
     "base": "stellar",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/XLM-EUR"
   },
   "XMN/EUR": {
     "exchange": "spot",
     "base": "xmoney",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/XMN-EUR"
   },
   "XPL/EUR": {
     "exchange": "spot",
     "base": "plasma",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/XPL-EUR"
   },
   "XRP/EUR": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/XRP-EUR"
   },
   "XRP/USDC": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://pro.bit2me.com/exchange/XRP-USDC"
   },
   "XTZ/EUR": {
     "exchange": "spot",
     "base": "tezos",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/XTZ-EUR"
   },
   "YFI/EUR": {
     "exchange": "spot",
     "base": "yearn-finance",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/YFI-EUR"
   },
   "ZK/EUR": {
     "exchange": "spot",
     "base": "zksync",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ZK-EUR"
   },
   "ZRO/EUR": {
     "exchange": "spot",
     "base": "layer-zero",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ZRO-EUR"
   },
   "ZRX/EUR": {
     "exchange": "spot",
     "base": "0x",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/ZRX-EUR"
   },
   "BEAM/EUR": {
     "exchange": "spot",
     "base": "onbeam",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/BEAM-EUR"
   },
   "BTC/EURCV": {
     "exchange": "spot",
     "base": "bitcoin",
-    "quote": "societe-generale-forge-eurcv"
+    "quote": "societe-generale-forge-eurcv",
+    "url": "https://pro.bit2me.com/exchange/BTC-EURCV"
   },
   "ETH/EURCV": {
     "exchange": "spot",
     "base": "ethereum",
-    "quote": "societe-generale-forge-eurcv"
+    "quote": "societe-generale-forge-eurcv",
+    "url": "https://pro.bit2me.com/exchange/ETH-EURCV"
   },
   "EURCV/EUR": {
     "exchange": "spot",
     "base": "societe-generale-forge-eurcv",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/EURCV-EUR"
   },
   "JOE/EUR": {
     "exchange": "spot",
     "base": "joe",
-    "quote": "euro"
+    "quote": "euro",
+    "url": "https://pro.bit2me.com/exchange/JOE-EUR"
   },
   "SOL/EURCV": {
     "exchange": "spot",
     "base": "solana",
-    "quote": "societe-generale-forge-eurcv"
+    "quote": "societe-generale-forge-eurcv",
+    "url": "https://pro.bit2me.com/exchange/SOL-EURCV"
   },
   "XRP/EURCV": {
     "exchange": "spot",
     "base": "xrp",
-    "quote": "societe-generale-forge-eurcv"
+    "quote": "societe-generale-forge-eurcv",
+    "url": "https://pro.bit2me.com/exchange/XRP-EURCV"
   }
 }
