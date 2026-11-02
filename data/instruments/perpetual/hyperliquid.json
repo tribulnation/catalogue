@@ -3240,5 +3240,12 @@
     "quote": "tether",
     "settlement": "usd-coin",
     "delisted": true
+  },
+  "io:AAPL": {
+    "exchange": "io",
+    "base": "apple",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
   }
 }
