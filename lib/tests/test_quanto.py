@@ -67,7 +67,13 @@ class QuantoLookupTest(unittest.TestCase):
     """`TENCENTUSDT` is the same share priced in USD: an ordinary linear perp."""
     perp = CATALOGUE.perpetual_for('binance', 'TENCENTUSDT')
     assert perp is not None
-    self.assertEqual((perp.quote, perp.quanto), ('tether', False))
+    self.assertEqual((perp.quote, perp.quanto), ('tether', None))
+
+  def test_unstated_is_none_not_false(self):
+    """An unverified FX perp says nothing, so the lookup must not claim `False` (converted at FX)."""
+    perp = CATALOGUE.perpetual_for('aevo', 'USDJPY-PERP')
+    assert perp is not None
+    self.assertIsNone(perp.quanto)
 
 
 if __name__ == '__main__':
