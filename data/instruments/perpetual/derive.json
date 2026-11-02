@@ -3,90 +3,105 @@
     "exchange": "perp",
     "base": "cardano",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=ADA-PERP"
   },
   "BNB-PERP": {
     "exchange": "perp",
     "base": "bnb",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=BNB-PERP"
   },
   "BTC-PERP": {
     "exchange": "perp",
     "base": "bitcoin",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=BTC-PERP"
   },
   "CC-PERP": {
     "exchange": "perp",
     "base": "canton",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=CC-PERP"
   },
   "DOGE-PERP": {
     "exchange": "perp",
     "base": "dogecoin",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=DOGE-PERP"
   },
   "ETH-PERP": {
     "exchange": "perp",
     "base": "ethereum",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=ETH-PERP"
   },
   "HYPE-PERP": {
     "exchange": "perp",
     "base": "hyperliquid",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=HYPE-PERP"
   },
   "LINK-PERP": {
     "exchange": "perp",
     "base": "chainlink",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=LINK-PERP"
   },
   "LIT-PERP": {
     "exchange": "perp",
     "base": "lighter",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=LIT-PERP"
   },
   "PUMP-PERP": {
     "exchange": "perp",
     "base": "pump",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=PUMP-PERP"
   },
   "SOL-PERP": {
     "exchange": "perp",
     "base": "solana",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=SOL-PERP"
   },
   "VVV-PERP": {
     "exchange": "perp",
     "base": "venice-token",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=VVV-PERP"
   },
   "XAUT-PERP": {
     "exchange": "perp",
     "base": "tether-gold",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=XAUT-PERP"
   },
   "XRP-PERP": {
     "exchange": "perp",
     "base": "xrp",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=XRP-PERP"
   },
   "ZEC-PERP": {
     "exchange": "perp",
     "base": "zcash",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.derive.xyz/trade/perps?symbol=ZEC-PERP"
   }
 }

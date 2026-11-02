@@ -3,459 +3,535 @@
     "exchange": "perp",
     "base": "doublezero",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/2Z"
   },
   "AAVE": {
     "exchange": "perp",
     "base": "aave",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/AAVE"
   },
   "ADA": {
     "exchange": "perp",
     "base": "cardano",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/ADA"
   },
   "ARB": {
     "exchange": "perp",
     "base": "arbitrum",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/ARB"
   },
   "ASTER": {
     "exchange": "perp",
     "base": "aster",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/ASTER"
   },
   "AVAX": {
     "exchange": "perp",
     "base": "avalanche",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/AVAX"
   },
   "BCH": {
     "exchange": "perp",
     "base": "bitcoin-cash",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/BCH"
   },
   "BNB": {
     "exchange": "perp",
     "base": "bnb",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/BNB"
   },
   "BP": {
     "exchange": "perp",
     "base": "backpack",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/BP"
   },
   "BTC": {
     "exchange": "perp",
     "base": "bitcoin",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/BTC"
   },
   "CHIP": {
     "exchange": "perp",
     "base": "usd-ai",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/CHIP"
   },
   "CL": {
     "exchange": "perp",
     "base": "west-texas-intermediate",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/CL"
   },
   "COPPER": {
     "exchange": "perp",
     "base": "copper",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/COPPER"
   },
   "CRCL": {
     "exchange": "perp",
     "base": "circle-internet-group",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/CRCL"
   },
   "CRV": {
     "exchange": "perp",
     "base": "curve-dao",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/CRV"
   },
   "DOGE": {
     "exchange": "perp",
     "base": "dogecoin",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/DOGE"
   },
   "DRAM": {
     "exchange": "perp",
     "base": "roundhill-memory-etf",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/DRAM"
   },
   "ENA": {
     "exchange": "perp",
     "base": "ethena",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/ENA"
   },
   "ETH": {
     "exchange": "perp",
     "base": "ethereum",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/ETH"
   },
   "EURUSD": {
     "exchange": "perp",
     "base": "euro",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/EURUSD"
   },
   "FARTCOIN": {
     "exchange": "perp",
     "base": "fartcoin",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/FARTCOIN"
   },
   "GOOGL": {
     "exchange": "perp",
     "base": "alphabet",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/GOOGL"
   },
   "HOOD": {
     "exchange": "perp",
     "base": "robinhood-markets",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/HOOD"
   },
   "HYPE": {
     "exchange": "perp",
     "base": "hyperliquid",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/HYPE"
   },
   "ICP": {
     "exchange": "perp",
     "base": "internet-computer",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/ICP"
   },
   "JUP": {
     "exchange": "perp",
     "base": "jupiter",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/JUP"
   },
   "KAITO": {
     "exchange": "perp",
     "base": "kaito",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/KAITO"
   },
   "LDO": {
     "exchange": "perp",
     "base": "lido-dao",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/LDO"
   },
   "LINK": {
     "exchange": "perp",
     "base": "chainlink",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/LINK"
   },
   "LIT": {
     "exchange": "perp",
     "base": "lighter",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/LIT"
   },
   "LTC": {
     "exchange": "perp",
     "base": "litecoin",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/LTC"
   },
   "MEGA": {
     "exchange": "perp",
     "base": "megaeth",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/MEGA"
   },
   "META": {
     "exchange": "perp",
     "base": "meta-platforms",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/META"
   },
   "MON": {
     "exchange": "perp",
     "base": "monad",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/MON"
   },
   "MSTR": {
     "exchange": "perp",
     "base": "microstrategy",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/MSTR"
   },
   "MU": {
     "exchange": "perp",
     "base": "micron-technology",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/MU"
   },
   "NATGAS": {
     "exchange": "perp",
     "base": "natural-gas",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/NATGAS"
   },
   "NEAR": {
     "exchange": "perp",
     "base": "near",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/NEAR"
   },
   "NVDA": {
     "exchange": "perp",
     "base": "nvidia",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/NVDA"
   },
   "PAXG": {
     "exchange": "perp",
     "base": "pax-gold",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/PAXG"
   },
   "PENGU": {
     "exchange": "perp",
     "base": "pudgy-penguins",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/PENGU"
   },
   "PIPPIN": {
     "exchange": "perp",
     "base": "pippin",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/PIPPIN"
   },
   "PLATINUM": {
     "exchange": "perp",
     "base": "platinum",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/PLATINUM"
   },
   "PLTR": {
     "exchange": "perp",
     "base": "palantir-technologies",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/PLTR"
   },
   "PONS": {
     "exchange": "perp",
     "base": "pons",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/PONS"
   },
   "PUMP": {
     "exchange": "perp",
     "base": "pump",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/PUMP"
   },
   "SAMSUNG": {
     "exchange": "perp",
     "base": "samsung-electronics",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/SAMSUNG"
   },
   "SKHYNIX": {
     "exchange": "perp",
     "base": "sk-hynix",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/SKHYNIX"
   },
   "SNDK": {
     "exchange": "perp",
     "base": "sandisk",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/SNDK"
   },
   "SOL": {
     "exchange": "perp",
     "base": "solana",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/SOL"
   },
   "SPCX": {
     "exchange": "perp",
     "base": "spacex",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/SPCX"
   },
   "STRK": {
     "exchange": "perp",
     "base": "starknet",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/STRK"
   },
   "SUI": {
     "exchange": "perp",
     "base": "sui",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/SUI"
   },
   "TAO": {
     "exchange": "perp",
     "base": "bittensor",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/TAO"
   },
   "TRUMP": {
     "exchange": "perp",
     "base": "official-trump",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/TRUMP"
   },
   "TSLA": {
     "exchange": "perp",
     "base": "tesla",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/TSLA"
   },
   "UNI": {
     "exchange": "perp",
     "base": "uniswap",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/UNI"
   },
   "URNM": {
     "exchange": "perp",
     "base": "sprott-uranium-miners-etf",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/URNM"
   },
   "USDJPY": {
     "exchange": "perp",
     "base": "usd",
     "quote": "japanese-yen",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/USDJPY"
   },
   "USELESS": {
     "exchange": "perp",
     "base": "useless-coin",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/USELESS"
   },
   "VIRTUAL": {
     "exchange": "perp",
     "base": "virtuals-protocol",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/VIRTUAL"
   },
   "VVV": {
     "exchange": "perp",
     "base": "venice-token",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/VVV"
   },
   "WIF": {
     "exchange": "perp",
     "base": "dogwifcoin",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/WIF"
   },
   "WLD": {
     "exchange": "perp",
     "base": "worldcoin",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/WLD"
   },
   "WLFI": {
     "exchange": "perp",
     "base": "world-liberty-financial",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/WLFI"
   },
   "XAG": {
     "exchange": "perp",
     "base": "silver",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/XAG"
   },
   "XAU": {
     "exchange": "perp",
     "base": "gold",
     "quote": "usd-coin",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/XAU"
   },
   "XMR": {
     "exchange": "perp",
     "base": "monero",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/XMR"
   },
   "XPL": {
     "exchange": "perp",
     "base": "plasma",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/XPL"
   },
   "XRP": {
     "exchange": "perp",
     "base": "xrp",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/XRP"
   },
   "ZEC": {
     "exchange": "perp",
     "base": "zcash",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/ZEC"
   },
   "ZK": {
     "exchange": "perp",
     "base": "zksync",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/ZK"
   },
   "ZRO": {
     "exchange": "perp",
     "base": "layer-zero",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.pacifica.fi/trade/ZRO"
   },
   "kBONK": {
     "exchange": "perp",
     "base": "bonk",
     "quote": "tether",
     "settlement": "usd-coin",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://app.pacifica.fi/trade/kBONK"
   },
   "kPEPE": {
     "exchange": "perp",
     "base": "pepe",
     "quote": "tether",
     "settlement": "usd-coin",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://app.pacifica.fi/trade/kPEPE"
   },
   "kSHIB": {
     "exchange": "perp",
     "base": "shiba-inu",
     "quote": "tether",
     "settlement": "usd-coin",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://app.pacifica.fi/trade/kSHIB"
   }
 }

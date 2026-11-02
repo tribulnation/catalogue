@@ -3,450 +3,525 @@
     "exchange": "perp",
     "base": "apple",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=AAPL&to=USD"
   },
   "ADA-USD": {
     "exchange": "perp",
     "base": "cardano",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=ADA&to=USD"
   },
   "AMD-USD": {
     "exchange": "perp",
     "base": "advanced-micro-devices",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=AMD&to=USD"
   },
   "AMZN-USD": {
     "exchange": "perp",
     "base": "amazon",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=AMZN&to=USD"
   },
   "ARM-USD": {
     "exchange": "perp",
     "base": "arm-holdings-adr",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=ARM&to=USD"
   },
   "ASML-USD": {
     "exchange": "perp",
     "base": "asml-holding",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=ASML&to=USD"
   },
   "AUD-USD": {
     "exchange": "perp",
     "base": "australian-dollar",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=AUD&to=USD"
   },
   "AVGO-USD": {
     "exchange": "perp",
     "base": "broadcom",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=AVGO&to=USD"
   },
   "BABA-USD": {
     "exchange": "perp",
     "base": "alibaba-group-adr",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=BABA&to=USD"
   },
   "BB-USD": {
     "exchange": "perp",
     "base": "blackberry",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=BB&to=USD"
   },
   "BMNR-USD": {
     "exchange": "perp",
     "base": "bitmine-immersion-technologies",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=BMNR&to=USD"
   },
   "BNB-USD": {
     "exchange": "perp",
     "base": "bnb",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=BNB&to=USD"
   },
   "BRENT-USD": {
     "exchange": "perp",
     "base": "brent",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=BRENT&to=USD"
   },
   "BTC-USD": {
     "exchange": "perp",
     "base": "bitcoin",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=BTC&to=USD"
   },
   "CAT-USD": {
     "exchange": "perp",
     "base": "caterpillar",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=CAT&to=USD"
   },
   "CL-USD": {
     "exchange": "perp",
     "base": "west-texas-intermediate",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=CL&to=USD"
   },
   "COIN-USD": {
     "exchange": "perp",
     "base": "coinbase",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=COIN&to=USD"
   },
   "COST-USD": {
     "exchange": "perp",
     "base": "costco-wholesale",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=COST&to=USD"
   },
   "CRCL-USD": {
     "exchange": "perp",
     "base": "circle-internet-group",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=CRCL&to=USD"
   },
   "CRWV-USD": {
     "exchange": "perp",
     "base": "coreweave",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=CRWV&to=USD"
   },
   "CVX-USD": {
     "exchange": "perp",
     "base": "chevron",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=CVX&to=USD"
   },
   "DELL-USD": {
     "exchange": "perp",
     "base": "dell-technologies",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=DELL&to=USD"
   },
   "DRAM-USD": {
     "exchange": "perp",
     "base": "roundhill-memory-etf",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=DRAM&to=USD"
   },
   "ETH-USD": {
     "exchange": "perp",
     "base": "ethereum",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=ETH&to=USD"
   },
   "EUR-USD": {
     "exchange": "perp",
     "base": "euro",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=EUR&to=USD"
   },
   "GBP-USD": {
     "exchange": "perp",
     "base": "british-pound",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=GBP&to=USD"
   },
   "GEV-USD": {
     "exchange": "perp",
     "base": "ge-vernova",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=GEV&to=USD"
   },
   "HG-USD": {
     "exchange": "perp",
     "base": "copper",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=HG&to=USD"
   },
   "HOOD-USD": {
     "exchange": "perp",
     "base": "robinhood-markets",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=HOOD&to=USD"
   },
   "HYG-USD": {
     "exchange": "perp",
     "base": "ishares-iboxx-usd-high-yield-corporate-bond-etf",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=HYG&to=USD"
   },
   "HYPE-USD": {
     "exchange": "perp",
     "base": "hyperliquid",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=HYPE&to=USD"
   },
   "INTC-USD": {
     "exchange": "perp",
     "base": "intel",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=INTC&to=USD"
   },
   "JD-USD": {
     "exchange": "perp",
     "base": "jd-com-adr",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=JD&to=USD"
   },
   "LINK-USD": {
     "exchange": "perp",
     "base": "chainlink",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=LINK&to=USD"
   },
   "LLY-USD": {
     "exchange": "perp",
     "base": "eli-lilly",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=LLY&to=USD"
   },
   "META-USD": {
     "exchange": "perp",
     "base": "meta-platforms",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=META&to=USD"
   },
   "MP-USD": {
     "exchange": "perp",
     "base": "mp-materials",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=MP&to=USD"
   },
   "MRNA-USD": {
     "exchange": "perp",
     "base": "moderna",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=MRNA&to=USD"
   },
   "MRVL-USD": {
     "exchange": "perp",
     "base": "marvell-technology",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=MRVL&to=USD"
   },
   "MSFT-USD": {
     "exchange": "perp",
     "base": "microsoft",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=MSFT&to=USD"
   },
   "MSTR-USD": {
     "exchange": "perp",
     "base": "microstrategy",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=MSTR&to=USD"
   },
   "MU-USD": {
     "exchange": "perp",
     "base": "micron-technology",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=MU&to=USD"
   },
   "NBIS-USD": {
     "exchange": "perp",
     "base": "nebius-group",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=NBIS&to=USD"
   },
   "NDX-USD": {
     "exchange": "perp",
     "base": "nasdaq-100-index",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=NDX&to=USD"
   },
   "NFLX-USD": {
     "exchange": "perp",
     "base": "netflix",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=NFLX&to=USD"
   },
   "NVDA-USD": {
     "exchange": "perp",
     "base": "nvidia",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=NVDA&to=USD"
   },
   "NVO-USD": {
     "exchange": "perp",
     "base": "novo-nordisk-adr",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=NVO&to=USD"
   },
   "NZD-USD": {
     "exchange": "perp",
     "base": "new-zealand-dollar",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=NZD&to=USD"
   },
   "ORCL-USD": {
     "exchange": "perp",
     "base": "oracle",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=ORCL&to=USD"
   },
   "PDD-USD": {
     "exchange": "perp",
     "base": "pdd-holdings",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=PDD&to=USD"
   },
   "PLTR-USD": {
     "exchange": "perp",
     "base": "palantir-technologies",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=PLTR&to=USD"
   },
   "RIVN-USD": {
     "exchange": "perp",
     "base": "rivian-automotive",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=RIVN&to=USD"
   },
   "SHEL-USD": {
     "exchange": "perp",
     "base": "shell-adr",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=SHEL&to=USD"
   },
   "SKHY-USD": {
     "exchange": "perp",
     "base": "sk-hynix-adr",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=SKHY&to=USD"
   },
   "SMCI-USD": {
     "exchange": "perp",
     "base": "super-micro-computer",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=SMCI&to=USD"
   },
   "SNDK-USD": {
     "exchange": "perp",
     "base": "sandisk",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=SNDK&to=USD"
   },
   "SOL-USD": {
     "exchange": "perp",
     "base": "solana",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=SOL&to=USD"
   },
   "SPCX-USD": {
     "exchange": "perp",
     "base": "spacex",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=SPCX&to=USD"
   },
   "SPOT-USD": {
     "exchange": "perp",
     "base": "spotify-technology",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=SPOT&to=USD"
   },
   "TLT-USD": {
     "exchange": "perp",
     "base": "ishares-20-year-treasury-bond-etf",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=TLT&to=USD"
   },
   "TRX-USD": {
     "exchange": "perp",
     "base": "tron",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=TRX&to=USD"
   },
   "TSLA-USD": {
     "exchange": "perp",
     "base": "tesla",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=TSLA&to=USD"
   },
   "TSM-USD": {
     "exchange": "perp",
     "base": "taiwan-semiconductor-adr",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=TSM&to=USD"
   },
   "USD-CAD": {
     "exchange": "perp",
     "base": "usd",
     "quote": "canadian-dollar",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=USD&to=CAD"
   },
   "USD-CHF": {
     "exchange": "perp",
     "base": "usd",
     "quote": "swiss-franc",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=USD&to=CHF"
   },
   "USD-HKD": {
     "exchange": "perp",
     "base": "usd",
     "quote": "hong-kong-dollar",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=USD&to=HKD"
   },
   "USD-JPY": {
     "exchange": "perp",
     "base": "usd",
     "quote": "japanese-yen",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=USD&to=JPY"
   },
   "USD-MXN": {
     "exchange": "perp",
     "base": "usd",
     "quote": "mexican-peso",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=USD&to=MXN"
   },
   "XAG-USD": {
     "exchange": "perp",
     "base": "silver",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=XAG&to=USD"
   },
   "XAU-USD": {
     "exchange": "perp",
     "base": "gold",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=XAU&to=USD"
   },
   "XLE-USD": {
     "exchange": "perp",
     "base": "energy-select-sector-spdr-fund",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=XLE&to=USD"
   },
   "XOM-USD": {
     "exchange": "perp",
     "base": "exxon-mobil",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=XOM&to=USD"
   },
   "XPD-USD": {
     "exchange": "perp",
     "base": "palladium",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=XPD&to=USD"
   },
   "XPT-USD": {
     "exchange": "perp",
     "base": "platinum",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=XPT&to=USD"
   },
   "XRP-USD": {
     "exchange": "perp",
     "base": "xrp",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.ostium.com/trade?from=XRP&to=USD"
   }
 }

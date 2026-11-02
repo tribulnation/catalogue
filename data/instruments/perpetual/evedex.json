@@ -4,313 +4,365 @@
     "base": "bonk",
     "quote": "tether",
     "settlement": "tether",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://exchange.evedex.com/en/trade/1000BONKUSD"
   },
   "1000PEPEUSD": {
     "exchange": "perp",
     "base": "pepe",
     "quote": "tether",
     "settlement": "tether",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://exchange.evedex.com/en/trade/1000PEPEUSD"
   },
   "AAVEUSD": {
     "exchange": "perp",
     "base": "aave",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/AAVEUSD"
   },
   "ANTHROPICUSD": {
     "exchange": "perp",
     "base": "anthropic",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/ANTHROPICUSD"
   },
   "APTUSD": {
     "exchange": "perp",
     "base": "aptos",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/APTUSD"
   },
   "ARBUSD": {
     "exchange": "perp",
     "base": "arbitrum",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/ARBUSD"
   },
   "ASTERUSD": {
     "exchange": "perp",
     "base": "aster",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/ASTERUSD"
   },
   "ATOMUSD": {
     "exchange": "perp",
     "base": "cosmos",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/ATOMUSD"
   },
   "AVAXUSD": {
     "exchange": "perp",
     "base": "avalanche",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/AVAXUSD"
   },
   "BCHUSD": {
     "exchange": "perp",
     "base": "bitcoin-cash",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/BCHUSD"
   },
   "BNBUSD": {
     "exchange": "perp",
     "base": "bnb",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/BNBUSD"
   },
   "BTCUSD": {
     "exchange": "perp",
     "base": "bitcoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/BTCUSD"
   },
   "CLUSD": {
     "exchange": "perp",
     "base": "west-texas-intermediate",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/CLUSD"
   },
   "COINUSD": {
     "exchange": "perp",
     "base": "coinbase",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/COINUSD"
   },
   "CRCLUSD": {
     "exchange": "perp",
     "base": "circle-internet-group",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/CRCLUSD"
   },
   "DASHUSD": {
     "exchange": "perp",
     "base": "dash",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/DASHUSD"
   },
   "DOGEUSD": {
     "exchange": "perp",
     "base": "dogecoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/DOGEUSD"
   },
   "DOTUSD": {
     "exchange": "perp",
     "base": "polkadot",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/DOTUSD"
   },
   "ENAUSD": {
     "exchange": "perp",
     "base": "ethena",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/ENAUSD"
   },
   "ETHUSD": {
     "exchange": "perp",
     "base": "ethereum",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/ETHUSD"
   },
   "EURUSD": {
     "exchange": "perp",
     "base": "euro",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/EURUSD"
   },
   "FARTCOINUSD": {
     "exchange": "perp",
     "base": "fartcoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/FARTCOINUSD"
   },
   "GBPUSD": {
     "exchange": "perp",
     "base": "british-pound",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/GBPUSD"
   },
   "HYPEUSD": {
     "exchange": "perp",
     "base": "hyperliquid",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/HYPEUSD"
   },
   "LINKUSD": {
     "exchange": "perp",
     "base": "chainlink",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/LINKUSD"
   },
   "LTCUSD": {
     "exchange": "perp",
     "base": "litecoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/LTCUSD"
   },
   "MSTRUSD": {
     "exchange": "perp",
     "base": "microstrategy",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/MSTRUSD"
   },
   "MYXUSD": {
     "exchange": "perp",
     "base": "myx-finance",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/MYXUSD"
   },
   "NEARUSD": {
     "exchange": "perp",
     "base": "near",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/NEARUSD"
   },
   "OPENAIUSD": {
     "exchange": "perp",
     "base": "openai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/OPENAIUSD"
   },
   "OPUSD": {
     "exchange": "perp",
     "base": "optimism",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/OPUSD"
   },
   "PENGUUSD": {
     "exchange": "perp",
     "base": "pudgy-penguins",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/PENGUUSD"
   },
   "PIPPINUSD": {
     "exchange": "perp",
     "base": "pippin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/PIPPINUSD"
   },
   "PUMPFUNUSD": {
     "exchange": "perp",
     "base": "pump",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/PUMPFUNUSD"
   },
   "RIVERUSD": {
     "exchange": "perp",
     "base": "river",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/RIVERUSD"
   },
   "SAHARAUSD": {
     "exchange": "perp",
     "base": "sahara-ai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/SAHARAUSD"
   },
   "SOLUSD": {
     "exchange": "perp",
     "base": "solana",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/SOLUSD"
   },
   "SPCXUSD": {
     "exchange": "perp",
     "base": "spacex",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/SPCXUSD"
   },
   "SPYUSD": {
     "exchange": "perp",
     "base": "spdr-sp500-etf-trust",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/SPYUSD"
   },
   "STRKUSD": {
     "exchange": "perp",
     "base": "starknet",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/STRKUSD"
   },
   "SUIUSD": {
     "exchange": "perp",
     "base": "sui",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/SUIUSD"
   },
   "TAOUSD": {
     "exchange": "perp",
     "base": "bittensor",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/TAOUSD"
   },
   "TRXUSD": {
     "exchange": "perp",
     "base": "tron",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/TRXUSD"
   },
   "TSLAUSD": {
     "exchange": "perp",
     "base": "tesla",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/TSLAUSD"
   },
   "USDJPYUSD": {
     "exchange": "perp",
     "base": "usd",
     "quote": "japanese-yen",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/USDJPYUSD"
   },
   "VIRTUALUSD": {
     "exchange": "perp",
     "base": "virtuals-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/VIRTUALUSD"
   },
   "WLDUSD": {
     "exchange": "perp",
     "base": "worldcoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/WLDUSD"
   },
   "WLFIUSD": {
     "exchange": "perp",
     "base": "world-liberty-financial",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/WLFIUSD"
   },
   "XAGUSD": {
     "exchange": "perp",
     "base": "silver",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/XAGUSD"
   },
   "XAUTUSD": {
     "exchange": "perp",
     "base": "tether-gold",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/XAUTUSD"
   },
   "XRPUSD": {
     "exchange": "perp",
     "base": "xrp",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/XRPUSD"
   },
   "ZROUSD": {
     "exchange": "perp",
     "base": "layer-zero",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/ZROUSD"
   }
 }

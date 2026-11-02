@@ -153,5 +153,37 @@ class CoinwPionexSpotUrlsTest(unittest.TestCase):
     self.assertEqual(SPOT_RULES['pionex']('ETH_BTC', {}, symbols), 'https://www.pionex.com/en/trade/ETH_BTC/Bot')
 
 
+
+class Terminal341UrlsTest(unittest.TestCase):
+  """Rules added for the Terminal's market links (Terminal backoffice #341), each
+  checked against the live trading page on 2026-10-31."""
+
+  def test_trading_pages(self):
+    symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+    cases = [
+      (SPOT_RULES, 'bit2me', 'BTC/EURR', {}, 'https://pro.bit2me.com/exchange/BTC-EURR'),
+      (SPOT_RULES, 'bitso', 'usdt_ars', {}, 'https://bitso.com/alpha/usdt/ars'),
+      (SPOT_RULES, 'bitstamp', 'AAVE/USD', {}, 'https://www.bitstamp.net/trade/aaveusd/'),
+      (PERPETUAL_RULES, 'bitstamp', 'BTC/USD-PERP', {}, 'https://www.bitstamp.net/trade/btcusd-perp/'),
+      (PERPETUAL_RULES, 'blofin', 'SOL-USDT', {'settlement': 'tether'}, 'https://blofin.com/futures/SOL-USDT'),
+      (PERPETUAL_RULES, 'derive', 'ETH-PERP', {}, 'https://app.derive.xyz/trade/perps?symbol=ETH-PERP'),
+      (PERPETUAL_RULES, 'evedex', '1000PEPEUSD', {}, 'https://exchange.evedex.com/en/trade/1000PEPEUSD'),
+      (PERPETUAL_RULES, 'helix', 'AAPL/USDC PERP', {}, 'https://helixapp.com/futures/aapl-usdc-perp'),
+      (PERPETUAL_RULES, 'ostium', 'AAPL-USD', {}, 'https://app.ostium.com/trade?from=AAPL&to=USD'),
+      (PERPETUAL_RULES, 'pacifica', '2Z', {}, 'https://app.pacifica.fi/trade/2Z'),
+      (PERPETUAL_RULES, 'pionex', 'ETH_USDT_PERP', {}, 'https://www.pionex.com/en/futures/ETH.PERP_USDT/Manual'),
+      (PERPETUAL_RULES, 'qfex', 'AAOI-USD', {}, 'https://www.qfex.com/trade/AAOI-USD'),
+    ]
+    for rules, platform, id, instrument, url in cases:
+      with self.subTest(platform=platform, id=id):
+        self.assertEqual(rules[platform](id, instrument, symbols), url)
+
+  def test_blofin_unverified_margins_get_no_url(self):
+    """Only the USDT-margined route was verified; USDC and coin-margined get none."""
+    symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+    for settlement in ('usd-coin', 'bitcoin'):
+      self.assertIsNone(PERPETUAL_RULES['blofin']('BTC-USD', {'settlement': settlement}, symbols))
+
+
 if __name__ == '__main__':
   unittest.main()

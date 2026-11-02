@@ -3,102 +3,118 @@
     "exchange": "perp",
     "base": "zero-gravity",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/0G-USDT"
   },
   "1000000MOG-USDT": {
     "exchange": "perp",
     "base": "mog-coin",
     "quote": "tether",
     "settlement": "tether",
-    "multiplier": 1000000
+    "multiplier": 1000000,
+    "url": "https://blofin.com/futures/1000000MOG-USDT"
   },
   "1000BONK-USDT": {
     "exchange": "perp",
     "base": "bonk",
     "quote": "tether",
     "settlement": "tether",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://blofin.com/futures/1000BONK-USDT"
   },
   "1000FLOKI-USDT": {
     "exchange": "perp",
     "base": "floki",
     "quote": "tether",
     "settlement": "tether",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://blofin.com/futures/1000FLOKI-USDT"
   },
   "1000LUNC-USDT": {
     "exchange": "perp",
     "base": "terra-classic",
     "quote": "tether",
     "settlement": "tether",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://blofin.com/futures/1000LUNC-USDT"
   },
   "1000RATS-USDT": {
     "exchange": "perp",
     "base": "rats",
     "quote": "tether",
     "settlement": "tether",
-    "multiplier": 1000
+    "multiplier": 1000,
+    "url": "https://blofin.com/futures/1000RATS-USDT"
   },
   "1INCH-USDT": {
     "exchange": "perp",
     "base": "1inch",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/1INCH-USDT"
   },
   "4STOCK-USDT": {
     "exchange": "perp",
     "base": "4stock",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/4STOCK-USDT"
   },
   "A-USDT": {
     "exchange": "perp",
     "base": "vaulta",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/A-USDT"
   },
   "AAOI-USDT": {
     "exchange": "perp",
     "base": "applied-optoelectronics",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AAOI-USDT"
   },
   "AAPL-USDT": {
     "exchange": "perp",
     "base": "apple",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AAPL-USDT"
   },
   "AAVE-USDT": {
     "exchange": "perp",
     "base": "aave",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AAVE-USDT"
   },
   "ABBV-USDT": {
     "exchange": "perp",
     "base": "abbvie",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ABBV-USDT"
   },
   "ACE-USDT": {
     "exchange": "perp",
     "base": "fusionist",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ACE-USDT"
   },
   "ACH-USDT": {
     "exchange": "perp",
     "base": "alchemy-pay",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ACH-USDT"
   },
   "ACU-USDT": {
     "exchange": "perp",
     "base": "acurast",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ACU-USDT"
   },
   "ADA-USD": {
     "exchange": "perp",
@@ -116,337 +132,393 @@
     "exchange": "perp",
     "base": "cardano",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ADA-USDT"
   },
   "ADBE-USDT": {
     "exchange": "perp",
     "base": "adobe",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ADBE-USDT"
   },
   "ADI-USDT": {
     "exchange": "perp",
     "base": "analog-devices",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ADI-USDT"
   },
   "AERO-USDT": {
     "exchange": "perp",
     "base": "aerodrome",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AERO-USDT"
   },
   "AEVO-USDT": {
     "exchange": "perp",
     "base": "aevo-exchange",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AEVO-USDT"
   },
   "AGLD-USDT": {
     "exchange": "perp",
     "base": "adventure-gold",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AGLD-USDT"
   },
   "AIA-USDT": {
     "exchange": "perp",
     "base": "deagentai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AIA-USDT"
   },
   "AIXBT-USDT": {
     "exchange": "perp",
     "base": "aixbt",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AIXBT-USDT"
   },
   "AKT-USDT": {
     "exchange": "perp",
     "base": "akash-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AKT-USDT"
   },
   "ALAB-USDT": {
     "exchange": "perp",
     "base": "astera-labs",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ALAB-USDT"
   },
   "ALCH-USDT": {
     "exchange": "perp",
     "base": "alchemist-ai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ALCH-USDT"
   },
   "ALGO-USDT": {
     "exchange": "perp",
     "base": "algorand",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ALGO-USDT"
   },
   "ALICE-USDT": {
     "exchange": "perp",
     "base": "my-neighbor-alice",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ALICE-USDT"
   },
   "ALT-USDT": {
     "exchange": "perp",
     "base": "altlayer",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ALT-USDT"
   },
   "AMAT-USDT": {
     "exchange": "perp",
     "base": "applied-materials",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AMAT-USDT"
   },
   "AMD-USDT": {
     "exchange": "perp",
     "base": "advanced-micro-devices",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AMD-USDT"
   },
   "AMZN-USDT": {
     "exchange": "perp",
     "base": "amazon",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AMZN-USDT"
   },
   "ANKR-USDT": {
     "exchange": "perp",
     "base": "ankr",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ANKR-USDT"
   },
   "APE-USDT": {
     "exchange": "perp",
     "base": "apecoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/APE-USDT"
   },
   "APEX-USDT": {
     "exchange": "perp",
     "base": "apex-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/APEX-USDT"
   },
   "API3-USDT": {
     "exchange": "perp",
     "base": "api3",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/API3-USDT"
   },
   "APLD-USDT": {
     "exchange": "perp",
     "base": "applied-digital",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/APLD-USDT"
   },
   "APP-USDT": {
     "exchange": "perp",
     "base": "applovin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/APP-USDT"
   },
   "APR-USDT": {
     "exchange": "perp",
     "base": "apriori",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/APR-USDT"
   },
   "APT-USDT": {
     "exchange": "perp",
     "base": "aptos",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/APT-USDT"
   },
   "AR-USDT": {
     "exchange": "perp",
     "base": "arweave",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AR-USDT"
   },
   "ARB-USDT": {
     "exchange": "perp",
     "base": "arbitrum",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ARB-USDT"
   },
   "ARC-USDT": {
     "exchange": "perp",
     "base": "ai-rig-complex",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ARC-USDT"
   },
   "ARKM-USDT": {
     "exchange": "perp",
     "base": "arkham",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ARKM-USDT"
   },
   "ARM-USDT": {
     "exchange": "perp",
     "base": "arm-holdings-adr",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ARM-USDT"
   },
   "ARPA-USDT": {
     "exchange": "perp",
     "base": "arpa-chain",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ARPA-USDT"
   },
   "ARX-USDT": {
     "exchange": "perp",
     "base": "arcium",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ARX-USDT"
   },
   "ASML-USDT": {
     "exchange": "perp",
     "base": "asml-holding",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ASML-USDT"
   },
   "ASTER-USDT": {
     "exchange": "perp",
     "base": "aster",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ASTER-USDT"
   },
   "ASTS-USDT": {
     "exchange": "perp",
     "base": "ast-spacemobile",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ASTS-USDT"
   },
   "AT-USDT": {
     "exchange": "perp",
     "base": "apro",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AT-USDT"
   },
   "ATH-USDT": {
     "exchange": "perp",
     "base": "aethir",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ATH-USDT"
   },
   "ATOM-USDT": {
     "exchange": "perp",
     "base": "cosmos",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ATOM-USDT"
   },
   "AVAAI-USDT": {
     "exchange": "perp",
     "base": "ava-ai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AVAAI-USDT"
   },
   "AVAX-USDT": {
     "exchange": "perp",
     "base": "avalanche",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AVAX-USDT"
   },
   "AVGO-USDT": {
     "exchange": "perp",
     "base": "broadcom",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AVGO-USDT"
   },
   "AVNT-USDT": {
     "exchange": "perp",
     "base": "avantis",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AVNT-USDT"
   },
   "AWE-USDT": {
     "exchange": "perp",
     "base": "stp-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AWE-USDT"
   },
   "AXIS-USDT": {
     "exchange": "perp",
     "base": "axis-robotics",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AXIS-USDT"
   },
   "AXL-USDT": {
     "exchange": "perp",
     "base": "axelar",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AXL-USDT"
   },
   "AXS-USDT": {
     "exchange": "perp",
     "base": "axie-infinity",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AXS-USDT"
   },
   "AZTEC-USDT": {
     "exchange": "perp",
     "base": "aztec",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/AZTEC-USDT"
   },
   "B-USDT": {
     "exchange": "perp",
     "base": "build-on",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/B-USDT"
   },
   "BABY-USDT": {
     "exchange": "perp",
     "base": "babylon",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BABY-USDT"
   },
   "BANANA-USDT": {
     "exchange": "perp",
     "base": "banana-gun",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BANANA-USDT"
   },
   "BAND-USDT": {
     "exchange": "perp",
     "base": "band-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BAND-USDT"
   },
   "BANK-USDT": {
     "exchange": "perp",
     "base": "lorenzo-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BANK-USDT"
   },
   "BARD-USDT": {
     "exchange": "perp",
     "base": "lombard",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BARD-USDT"
   },
   "BAS-USDT": {
     "exchange": "perp",
     "base": "bas",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BAS-USDT"
   },
   "BASED-USDT": {
     "exchange": "perp",
     "base": "based",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BASED-USDT"
   },
   "BAT-USDT": {
     "exchange": "perp",
     "base": "basic-attention-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BAT-USDT"
   },
   "BCH-USD": {
     "exchange": "perp",
@@ -458,79 +530,92 @@
     "exchange": "perp",
     "base": "bitcoin-cash",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BCH-USDT"
   },
   "BE-USDT": {
     "exchange": "perp",
     "base": "bloom-energy",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BE-USDT"
   },
   "BEAM-USDT": {
     "exchange": "perp",
     "base": "onbeam",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BEAM-USDT"
   },
   "BEAT-USDT": {
     "exchange": "perp",
     "base": "audiera",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BEAT-USDT"
   },
   "BERA-USDT": {
     "exchange": "perp",
     "base": "berachain",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BERA-USDT"
   },
   "BIGTIME-USDT": {
     "exchange": "perp",
     "base": "big-time",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BIGTIME-USDT"
   },
   "BILL-USDT": {
     "exchange": "perp",
     "base": "billions-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BILL-USDT"
   },
   "BIO-USDT": {
     "exchange": "perp",
     "base": "bio-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BIO-USDT"
   },
   "BIRB-USDT": {
     "exchange": "perp",
     "base": "moonbirds",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BIRB-USDT"
   },
   "BLESS-USDT": {
     "exchange": "perp",
     "base": "bless-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BLESS-USDT"
   },
   "BLUAI-USDT": {
     "exchange": "perp",
     "base": "bluwhale",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BLUAI-USDT"
   },
   "BLUR-USDT": {
     "exchange": "perp",
     "base": "blur",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BLUR-USDT"
   },
   "BMNR-USDT": {
     "exchange": "perp",
     "base": "bitmine-immersion-technologies",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BMNR-USDT"
   },
   "BNB-USDC": {
     "exchange": "perp",
@@ -542,37 +627,43 @@
     "exchange": "perp",
     "base": "bnb",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BNB-USDT"
   },
   "BOME-USDT": {
     "exchange": "perp",
     "base": "book-of-meme",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BOME-USDT"
   },
   "BRETT-USDT": {
     "exchange": "perp",
     "base": "brett",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BRETT-USDT"
   },
   "BSB-USDT": {
     "exchange": "perp",
     "base": "block-street",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BSB-USDT"
   },
   "BSP-USDT": {
     "exchange": "perp",
     "base": "bending-spoons",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BSP-USDT"
   },
   "BSV-USDT": {
     "exchange": "perp",
     "base": "bitcoin-cash-sv",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BSV-USDT"
   },
   "BTC-USD": {
     "exchange": "perp",
@@ -590,301 +681,351 @@
     "exchange": "perp",
     "base": "bitcoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BTC-USDT"
   },
   "BX-USDT": {
     "exchange": "perp",
     "base": "blackstone",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BX-USDT"
   },
   "BZ-USDT": {
     "exchange": "perp",
     "base": "brent",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/BZ-USDT"
   },
   "C98-USDT": {
     "exchange": "perp",
     "base": "coin98",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/C98-USDT"
   },
   "CAKE-USDT": {
     "exchange": "perp",
     "base": "pancakeswap",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CAKE-USDT"
   },
   "CAP-USDT": {
     "exchange": "perp",
     "base": "cap",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CAP-USDT"
   },
   "CASHCAT-USDT": {
     "exchange": "perp",
     "base": "cash-cat",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CASHCAT-USDT"
   },
   "CATI-USDT": {
     "exchange": "perp",
     "base": "catizen",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CATI-USDT"
   },
   "CBRS-USDT": {
     "exchange": "perp",
     "base": "cerebras-systems",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CBRS-USDT"
   },
   "CC-USDT": {
     "exchange": "perp",
     "base": "canton",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CC-USDT"
   },
   "CELO-USDT": {
     "exchange": "perp",
     "base": "celo",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CELO-USDT"
   },
   "CELR-USDT": {
     "exchange": "perp",
     "base": "celer-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CELR-USDT"
   },
   "CETUS-USDT": {
     "exchange": "perp",
     "base": "cetus-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CETUS-USDT"
   },
   "CFG-USDT": {
     "exchange": "perp",
     "base": "centrifuge",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CFG-USDT"
   },
   "CGNX-USDT": {
     "exchange": "perp",
     "base": "cognex",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CGNX-USDT"
   },
   "CHILLGUY-USDT": {
     "exchange": "perp",
     "base": "just-a-chill-guy",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CHILLGUY-USDT"
   },
   "CHIP-USDT": {
     "exchange": "perp",
     "base": "usd-ai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CHIP-USDT"
   },
   "CHR-USDT": {
     "exchange": "perp",
     "base": "chromaway",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CHR-USDT"
   },
   "CHZ-USDT": {
     "exchange": "perp",
     "base": "chiliz",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CHZ-USDT"
   },
   "CL-USDT": {
     "exchange": "perp",
     "base": "west-texas-intermediate",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CL-USDT"
   },
   "CLANKER-USDT": {
     "exchange": "perp",
     "base": "tokenbot",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CLANKER-USDT"
   },
   "CLO-USDT": {
     "exchange": "perp",
     "base": "yei-finance",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CLO-USDT"
   },
   "CNPY-USDT": {
     "exchange": "perp",
     "base": "canopy",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CNPY-USDT"
   },
   "COHR-USDT": {
     "exchange": "perp",
     "base": "coherent-corp",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/COHR-USDT"
   },
   "COIN-USDT": {
     "exchange": "perp",
     "base": "coinbase",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/COIN-USDT"
   },
   "COLLECT-USDT": {
     "exchange": "perp",
     "base": "collect-on-fanable",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/COLLECT-USDT"
   },
   "COMP-USDT": {
     "exchange": "perp",
     "base": "compound",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/COMP-USDT"
   },
   "COPPER-USDT": {
     "exchange": "perp",
     "base": "copper",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/COPPER-USDT"
   },
   "COST-USDT": {
     "exchange": "perp",
     "base": "costco-wholesale",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/COST-USDT"
   },
   "COTI-USDT": {
     "exchange": "perp",
     "base": "coti",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/COTI-USDT"
   },
   "COW-USDT": {
     "exchange": "perp",
     "base": "cow-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/COW-USDT"
   },
   "CP-USDT": {
     "exchange": "perp",
     "base": "cluster-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CP-USDT"
   },
   "CRCL-USDT": {
     "exchange": "perp",
     "base": "circle-internet-group",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CRCL-USDT"
   },
   "CRDO-USDT": {
     "exchange": "perp",
     "base": "credo-technology-group",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CRDO-USDT"
   },
   "CRO-USDT": {
     "exchange": "perp",
     "base": "cronos",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CRO-USDT"
   },
   "CRV-USDT": {
     "exchange": "perp",
     "base": "curve-dao",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CRV-USDT"
   },
   "CRWD-USDT": {
     "exchange": "perp",
     "base": "crowdstrike",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CRWD-USDT"
   },
   "CRWV-USDT": {
     "exchange": "perp",
     "base": "coreweave",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CRWV-USDT"
   },
   "CT-USDT": {
     "exchange": "perp",
     "base": "concrete",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CT-USDT"
   },
   "CVNA-USDT": {
     "exchange": "perp",
     "base": "carvana",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CVNA-USDT"
   },
   "CVX-USDT": {
     "exchange": "perp",
     "base": "convex-finance",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CVX-USDT"
   },
   "CYBER-USDT": {
     "exchange": "perp",
     "base": "cyberconnect",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CYBER-USDT"
   },
   "CYPH-USDT": {
     "exchange": "perp",
     "base": "cypherpunk-technologies",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/CYPH-USDT"
   },
   "DASH-USDT": {
     "exchange": "perp",
     "base": "dash",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DASH-USDT"
   },
   "DEEP-USDT": {
     "exchange": "perp",
     "base": "deep",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DEEP-USDT"
   },
   "DELL-USDT": {
     "exchange": "perp",
     "base": "dell-technologies",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DELL-USDT"
   },
   "DEXE-USDT": {
     "exchange": "perp",
     "base": "dexe",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DEXE-USDT"
   },
   "DGAI-USDT": {
     "exchange": "perp",
     "base": "dgrid-ai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DGAI-USDT"
   },
   "DKNG-USDT": {
     "exchange": "perp",
     "base": "draftkings",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DKNG-USDT"
   },
   "DNA-USDT": {
     "exchange": "perp",
     "base": "neosoul",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DNA-USDT"
   },
   "DOGE-USD": {
     "exchange": "perp",
@@ -902,13 +1043,15 @@
     "exchange": "perp",
     "base": "dogecoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DOGE-USDT"
   },
   "DOS-USDT": {
     "exchange": "perp",
     "base": "dappos",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DOS-USDT"
   },
   "DOT-USD": {
     "exchange": "perp",
@@ -920,61 +1063,71 @@
     "exchange": "perp",
     "base": "polkadot",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DOT-USDT"
   },
   "DRAM-USDT": {
     "exchange": "perp",
     "base": "roundhill-memory-etf",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DRAM-USDT"
   },
   "DRIFT-USDT": {
     "exchange": "perp",
     "base": "drift-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DRIFT-USDT"
   },
   "DRV-USDT": {
     "exchange": "perp",
     "base": "derive",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DRV-USDT"
   },
   "DUSK-USDT": {
     "exchange": "perp",
     "base": "dusk-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DUSK-USDT"
   },
   "DYDX-USDT": {
     "exchange": "perp",
     "base": "dydx",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/DYDX-USDT"
   },
   "EDEN-USDT": {
     "exchange": "perp",
     "base": "openeden",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/EDEN-USDT"
   },
   "EDGE-USDT": {
     "exchange": "perp",
     "base": "edgex",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/EDGE-USDT"
   },
   "EGLD-USDT": {
     "exchange": "perp",
     "base": "multiversx",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/EGLD-USDT"
   },
   "EIGEN-USDT": {
     "exchange": "perp",
     "base": "eigen-layer",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/EIGEN-USDT"
   },
   "ENA-USDC": {
     "exchange": "perp",
@@ -986,31 +1139,36 @@
     "exchange": "perp",
     "base": "ethena",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ENA-USDT"
   },
   "ENJ-USDT": {
     "exchange": "perp",
     "base": "enjin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ENJ-USDT"
   },
   "ENS-USDT": {
     "exchange": "perp",
     "base": "ethereum-name-service",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ENS-USDT"
   },
   "ENSO-USDT": {
     "exchange": "perp",
     "base": "enso",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ENSO-USDT"
   },
   "ESP-USDT": {
     "exchange": "perp",
     "base": "espresso",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ESP-USDT"
   },
   "ETC-USD": {
     "exchange": "perp",
@@ -1022,7 +1180,8 @@
     "exchange": "perp",
     "base": "ethereum-classic",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ETC-USDT"
   },
   "ETH-USD": {
     "exchange": "perp",
@@ -1040,61 +1199,71 @@
     "exchange": "perp",
     "base": "ethereum",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ETH-USDT"
   },
   "ETHFI-USDT": {
     "exchange": "perp",
     "base": "ether-fi",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ETHFI-USDT"
   },
   "EUL-USDT": {
     "exchange": "perp",
     "base": "euler",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/EUL-USDT"
   },
   "EVAA-USDT": {
     "exchange": "perp",
     "base": "evaa-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/EVAA-USDT"
   },
   "EWJ-USDT": {
     "exchange": "perp",
     "base": "ishares-msci-japan-etf",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/EWJ-USDT"
   },
   "EWY-USDT": {
     "exchange": "perp",
     "base": "ishares-msci-south-korea-etf",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/EWY-USDT"
   },
   "FARTCOIN-USDT": {
     "exchange": "perp",
     "base": "fartcoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/FARTCOIN-USDT"
   },
   "FET-USDT": {
     "exchange": "perp",
     "base": "fetch-ai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/FET-USDT"
   },
   "FF-USDT": {
     "exchange": "perp",
     "base": "falcon-finance-ff",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/FF-USDT"
   },
   "FIGHT-USDT": {
     "exchange": "perp",
     "base": "fight",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/FIGHT-USDT"
   },
   "FIL-USD": {
     "exchange": "perp",
@@ -1106,451 +1275,526 @@
     "exchange": "perp",
     "base": "filecoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/FIL-USDT"
   },
   "FLOCK-USDT": {
     "exchange": "perp",
     "base": "flock",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/FLOCK-USDT"
   },
   "FLOW-USDT": {
     "exchange": "perp",
     "base": "flow",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/FLOW-USDT"
   },
   "FLUID-USDT": {
     "exchange": "perp",
     "base": "fluid",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/FLUID-USDT"
   },
   "FLUX-USDT": {
     "exchange": "perp",
     "base": "zelcash",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/FLUX-USDT"
   },
   "FOLKS-USDT": {
     "exchange": "perp",
     "base": "folks",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/FOLKS-USDT"
   },
   "FORM-USDT": {
     "exchange": "perp",
     "base": "four",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/FORM-USDT"
   },
   "GALA-USDT": {
     "exchange": "perp",
     "base": "gala",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GALA-USDT"
   },
   "GAS-USDT": {
     "exchange": "perp",
     "base": "neo-gas",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GAS-USDT"
   },
   "GENIUS-USDT": {
     "exchange": "perp",
     "base": "genius-terminal",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GENIUS-USDT"
   },
   "GIGGLE-USDT": {
     "exchange": "perp",
     "base": "giggle-fund",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GIGGLE-USDT"
   },
   "GLW-USDT": {
     "exchange": "perp",
     "base": "corning",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GLW-USDT"
   },
   "GMX-USDT": {
     "exchange": "perp",
     "base": "gmx",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GMX-USDT"
   },
   "GOAT-USDT": {
     "exchange": "perp",
     "base": "goatseus-maximus",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GOAT-USDT"
   },
   "GOOGL-USDT": {
     "exchange": "perp",
     "base": "alphabet",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GOOGL-USDT"
   },
   "GRASS-USDT": {
     "exchange": "perp",
     "base": "grass",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GRASS-USDT"
   },
   "GRIFFAIN-USDT": {
     "exchange": "perp",
     "base": "griffain",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GRIFFAIN-USDT"
   },
   "GRT-USDT": {
     "exchange": "perp",
     "base": "the-graph",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GRT-USDT"
   },
   "GRVT-USDT": {
     "exchange": "perp",
     "base": "grvt",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GRVT-USDT"
   },
   "GS-USDT": {
     "exchange": "perp",
     "base": "goldman-sachs",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GS-USDT"
   },
   "GUN-USDT": {
     "exchange": "perp",
     "base": "gunz",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GUN-USDT"
   },
   "GWEI-USDT": {
     "exchange": "perp",
     "base": "ethgas",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/GWEI-USDT"
   },
   "H-USDT": {
     "exchange": "perp",
     "base": "humanity",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/H-USDT"
   },
   "HANA-USDT": {
     "exchange": "perp",
     "base": "hana-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HANA-USDT"
   },
   "HBAR-USDT": {
     "exchange": "perp",
     "base": "hedera",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HBAR-USDT"
   },
   "HEMI-USDT": {
     "exchange": "perp",
     "base": "hemi",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HEMI-USDT"
   },
   "HIMS-USDT": {
     "exchange": "perp",
     "base": "hims-and-hers-health",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HIMS-USDT"
   },
   "HNT-USDT": {
     "exchange": "perp",
     "base": "helium",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HNT-USDT"
   },
   "HOLO-USDT": {
     "exchange": "perp",
     "base": "holoworld",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HOLO-USDT"
   },
   "HOME-USDT": {
     "exchange": "perp",
     "base": "defi-app",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HOME-USDT"
   },
   "HOOD-USDT": {
     "exchange": "perp",
     "base": "robinhood-markets",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HOOD-USDT"
   },
   "HOT-USDT": {
     "exchange": "perp",
     "base": "holo",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HOT-USDT"
   },
   "HUMA-USDT": {
     "exchange": "perp",
     "base": "huma-finance",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HUMA-USDT"
   },
   "HUT-USDT": {
     "exchange": "perp",
     "base": "hut-8",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HUT-USDT"
   },
   "HYPE-USDT": {
     "exchange": "perp",
     "base": "hyperliquid",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HYPE-USDT"
   },
   "HYPER-USDT": {
     "exchange": "perp",
     "base": "hyperlane",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/HYPER-USDT"
   },
   "IBM-USDT": {
     "exchange": "perp",
     "base": "international-business-machines",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/IBM-USDT"
   },
   "ICNT-USDT": {
     "exchange": "perp",
     "base": "impossible-cloud-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ICNT-USDT"
   },
   "ICP-USDT": {
     "exchange": "perp",
     "base": "internet-computer",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ICP-USDT"
   },
   "ID-USDT": {
     "exchange": "perp",
     "base": "space-id",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ID-USDT"
   },
   "ILV-USDT": {
     "exchange": "perp",
     "base": "illuvium",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ILV-USDT"
   },
   "IMX-USDT": {
     "exchange": "perp",
     "base": "immutable-x",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/IMX-USDT"
   },
   "INIT-USDT": {
     "exchange": "perp",
     "base": "initia",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/INIT-USDT"
   },
   "INJ-USDT": {
     "exchange": "perp",
     "base": "injective",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/INJ-USDT"
   },
   "INTC-USDT": {
     "exchange": "perp",
     "base": "intel",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/INTC-USDT"
   },
   "IO-USDT": {
     "exchange": "perp",
     "base": "io-net",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/IO-USDT"
   },
   "IONQ-USDT": {
     "exchange": "perp",
     "base": "ionq",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/IONQ-USDT"
   },
   "IOST-USDT": {
     "exchange": "perp",
     "base": "iost",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/IOST-USDT"
   },
   "IOTA-USDT": {
     "exchange": "perp",
     "base": "iota",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/IOTA-USDT"
   },
   "IOTX-USDT": {
     "exchange": "perp",
     "base": "iotex",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/IOTX-USDT"
   },
   "IREN-USDT": {
     "exchange": "perp",
     "base": "iren",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/IREN-USDT"
   },
   "IRYS-USDT": {
     "exchange": "perp",
     "base": "irys",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/IRYS-USDT"
   },
   "IWM-USDT": {
     "exchange": "perp",
     "base": "ishares-russell-2000-etf",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/IWM-USDT"
   },
   "JASMY-USDT": {
     "exchange": "perp",
     "base": "jasmycoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/JASMY-USDT"
   },
   "JELLYJELLY-USDT": {
     "exchange": "perp",
     "base": "jelly-my-jelly",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/JELLYJELLY-USDT"
   },
   "JPM-USDT": {
     "exchange": "perp",
     "base": "jpmorgan-chase",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/JPM-USDT"
   },
   "JTO-USDT": {
     "exchange": "perp",
     "base": "jito",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/JTO-USDT"
   },
   "JUP-USDT": {
     "exchange": "perp",
     "base": "jupiter",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/JUP-USDT"
   },
   "KAIA-USDT": {
     "exchange": "perp",
     "base": "kaia",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/KAIA-USDT"
   },
   "KAITO-USDT": {
     "exchange": "perp",
     "base": "kaito",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/KAITO-USDT"
   },
   "KAS-USDT": {
     "exchange": "perp",
     "base": "kaspa",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/KAS-USDT"
   },
   "KAT-USDT": {
     "exchange": "perp",
     "base": "katana-network-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/KAT-USDT"
   },
   "KGEN-USDT": {
     "exchange": "perp",
     "base": "kgen",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/KGEN-USDT"
   },
   "KII-USDT": {
     "exchange": "perp",
     "base": "kiichain",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/KII-USDT"
   },
   "KITE-USDT": {
     "exchange": "perp",
     "base": "kite",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/KITE-USDT"
   },
   "KLAC-USDT": {
     "exchange": "perp",
     "base": "kla",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/KLAC-USDT"
   },
   "KMNO-USDT": {
     "exchange": "perp",
     "base": "kamino",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/KMNO-USDT"
   },
   "KO-USDT": {
     "exchange": "perp",
     "base": "coca-cola",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/KO-USDT"
   },
   "KSM-USDT": {
     "exchange": "perp",
     "base": "kusama",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/KSM-USDT"
   },
   "LA-USDT": {
     "exchange": "perp",
     "base": "lagrange",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LA-USDT"
   },
   "LAB-USDT": {
     "exchange": "perp",
     "base": "lab",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LAB-USDT"
   },
   "LAYER-USDT": {
     "exchange": "perp",
     "base": "solayer",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LAYER-USDT"
   },
   "LDO-USDT": {
     "exchange": "perp",
     "base": "lido-dao",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LDO-USDT"
   },
   "LIGHT-USDT": {
     "exchange": "perp",
     "base": "bitlight",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LIGHT-USDT"
   },
   "LINEA-USDT": {
     "exchange": "perp",
     "base": "linea",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LINEA-USDT"
   },
   "LINK-USD": {
     "exchange": "perp",
@@ -1568,37 +1812,43 @@
     "exchange": "perp",
     "base": "chainlink",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LINK-USDT"
   },
   "LIT-USDT": {
     "exchange": "perp",
     "base": "lighter",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LIT-USDT"
   },
   "LITE-USDT": {
     "exchange": "perp",
     "base": "lumentum-holdings",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LITE-USDT"
   },
   "LLY-USDT": {
     "exchange": "perp",
     "base": "eli-lilly",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LLY-USDT"
   },
   "LPT-USDT": {
     "exchange": "perp",
     "base": "livepeer",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LPT-USDT"
   },
   "LRCX-USDT": {
     "exchange": "perp",
     "base": "lam-research",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LRCX-USDT"
   },
   "LTC-USD": {
     "exchange": "perp",
@@ -1610,775 +1860,904 @@
     "exchange": "perp",
     "base": "litecoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LTC-USDT"
   },
   "LYN-USDT": {
     "exchange": "perp",
     "base": "everlyn",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/LYN-USDT"
   },
   "M-USDT": {
     "exchange": "perp",
     "base": "memecore",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/M-USDT"
   },
   "MAGIC-USDT": {
     "exchange": "perp",
     "base": "magic",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MAGIC-USDT"
   },
   "MANA-USDT": {
     "exchange": "perp",
     "base": "decentraland",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MANA-USDT"
   },
   "MANTA-USDT": {
     "exchange": "perp",
     "base": "manta-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MANTA-USDT"
   },
   "MANTRA-USDT": {
     "exchange": "perp",
     "base": "mantra",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MANTRA-USDT"
   },
   "MARSCOIN-USDT": {
     "exchange": "perp",
     "base": "marscoin-bnb",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MARSCOIN-USDT"
   },
   "MASK-USDT": {
     "exchange": "perp",
     "base": "mask-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MASK-USDT"
   },
   "MCD-USDT": {
     "exchange": "perp",
     "base": "mcdonalds",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MCD-USDT"
   },
   "ME-USDT": {
     "exchange": "perp",
     "base": "magic-eden",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ME-USDT"
   },
   "MEGA-USDT": {
     "exchange": "perp",
     "base": "megaeth",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MEGA-USDT"
   },
   "MELANIA-USDT": {
     "exchange": "perp",
     "base": "melania-meme",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MELANIA-USDT"
   },
   "MEME-USDT": {
     "exchange": "perp",
     "base": "memecoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MEME-USDT"
   },
   "MERL-USDT": {
     "exchange": "perp",
     "base": "merlin-chain",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MERL-USDT"
   },
   "MET-USDT": {
     "exchange": "perp",
     "base": "meteora",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MET-USDT"
   },
   "META-USDT": {
     "exchange": "perp",
     "base": "meta-platforms",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/META-USDT"
   },
   "MINA-USDT": {
     "exchange": "perp",
     "base": "mina-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MINA-USDT"
   },
   "MIRA-USDT": {
     "exchange": "perp",
     "base": "mira-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MIRA-USDT"
   },
   "MMT-USDT": {
     "exchange": "perp",
     "base": "momentum",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MMT-USDT"
   },
   "MNT-USDT": {
     "exchange": "perp",
     "base": "mantle",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MNT-USDT"
   },
   "MON-USDT": {
     "exchange": "perp",
     "base": "monad",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MON-USDT"
   },
   "MOODENG-USDT": {
     "exchange": "perp",
     "base": "moo-deng",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MOODENG-USDT"
   },
   "MORPHO-USDT": {
     "exchange": "perp",
     "base": "morpho",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MORPHO-USDT"
   },
   "MOVE-USDT": {
     "exchange": "perp",
     "base": "movement",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MOVE-USDT"
   },
   "MOVR-USDT": {
     "exchange": "perp",
     "base": "moonriver",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MOVR-USDT"
   },
   "MRK-USDT": {
     "exchange": "perp",
     "base": "merck-and-co",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MRK-USDT"
   },
   "MRNA-USDT": {
     "exchange": "perp",
     "base": "moderna",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MRNA-USDT"
   },
   "MRVL-USDT": {
     "exchange": "perp",
     "base": "marvell-technology",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MRVL-USDT"
   },
   "MSFT-USDT": {
     "exchange": "perp",
     "base": "microsoft",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MSFT-USDT"
   },
   "MSTR-USDT": {
     "exchange": "perp",
     "base": "microstrategy",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MSTR-USDT"
   },
   "MSTU-USDT": {
     "exchange": "perp",
     "base": "t-rex-2x-long-mstr",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MSTU-USDT"
   },
   "MTL-USDT": {
     "exchange": "perp",
     "base": "metal",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MTL-USDT"
   },
   "MU-USDT": {
     "exchange": "perp",
     "base": "micron-technology",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/MU-USDT"
   },
   "NAORIS-USDT": {
     "exchange": "perp",
     "base": "naoris-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NAORIS-USDT"
   },
   "NATGAS-USDT": {
     "exchange": "perp",
     "base": "natural-gas",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NATGAS-USDT"
   },
   "NBIS-USDT": {
     "exchange": "perp",
     "base": "nebius-group",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NBIS-USDT"
   },
   "NEAR-USDT": {
     "exchange": "perp",
     "base": "near",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NEAR-USDT"
   },
   "NEO-USDT": {
     "exchange": "perp",
     "base": "neo",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NEO-USDT"
   },
   "NES-USDT": {
     "exchange": "perp",
     "base": "nesa",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NES-USDT"
   },
   "NFLX-USDT": {
     "exchange": "perp",
     "base": "netflix",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NFLX-USDT"
   },
   "NG-USDT": {
     "exchange": "perp",
     "base": "natural-gas",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NG-USDT"
   },
   "NIGHT-USDT": {
     "exchange": "perp",
     "base": "midnight",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NIGHT-USDT"
   },
   "NIL-USDT": {
     "exchange": "perp",
     "base": "nillion",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NIL-USDT"
   },
   "NKE-USDT": {
     "exchange": "perp",
     "base": "nike",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NKE-USDT"
   },
   "NOM-USDT": {
     "exchange": "perp",
     "base": "nomina",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NOM-USDT"
   },
   "NOT-USDT": {
     "exchange": "perp",
     "base": "notcoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NOT-USDT"
   },
   "NOW-USDT": {
     "exchange": "perp",
     "base": "servicenow",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NOW-USDT"
   },
   "NVDA-USDT": {
     "exchange": "perp",
     "base": "nvidia",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/NVDA-USDT"
   },
   "O-USDT": {
     "exchange": "perp",
     "base": "o1-exchange",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/O-USDT"
   },
   "OKLO-USDT": {
     "exchange": "perp",
     "base": "oklo",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/OKLO-USDT"
   },
   "ONDO-USDT": {
     "exchange": "perp",
     "base": "ondo",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ONDO-USDT"
   },
   "ONE-USDT": {
     "exchange": "perp",
     "base": "harmony",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ONE-USDT"
   },
   "ONT-USDT": {
     "exchange": "perp",
     "base": "ontology",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ONT-USDT"
   },
   "OP-USDT": {
     "exchange": "perp",
     "base": "optimism",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/OP-USDT"
   },
   "OPEN-USDT": {
     "exchange": "perp",
     "base": "openledger",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/OPEN-USDT"
   },
   "OPG-USDT": {
     "exchange": "perp",
     "base": "opengradient",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/OPG-USDT"
   },
   "OPN-USDT": {
     "exchange": "perp",
     "base": "opinion",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/OPN-USDT"
   },
   "ORCA-USDT": {
     "exchange": "perp",
     "base": "orca",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ORCA-USDT"
   },
   "ORCL-USDT": {
     "exchange": "perp",
     "base": "oracle",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ORCL-USDT"
   },
   "ORDER-USDT": {
     "exchange": "perp",
     "base": "orderly-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ORDER-USDT"
   },
   "ORDI-USDT": {
     "exchange": "perp",
     "base": "ordi",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ORDI-USDT"
   },
   "OURA-USDT": {
     "exchange": "perp",
     "base": "oura-health",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/OURA-USDT"
   },
   "PARTI-USDT": {
     "exchange": "perp",
     "base": "particle-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PARTI-USDT"
   },
   "PATH-USDT": {
     "exchange": "perp",
     "base": "uipath",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PATH-USDT"
   },
   "PENDLE-USDT": {
     "exchange": "perp",
     "base": "pendle",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PENDLE-USDT"
   },
   "PENGU-USDT": {
     "exchange": "perp",
     "base": "pudgy-penguins",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PENGU-USDT"
   },
   "PEOPLE-USDT": {
     "exchange": "perp",
     "base": "constitutiondao",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PEOPLE-USDT"
   },
   "PEPE-USDT": {
     "exchange": "perp",
     "base": "pepe",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PEPE-USDT"
   },
   "PHA-USDT": {
     "exchange": "perp",
     "base": "pha",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PHA-USDT"
   },
   "PIEVERSE-USDT": {
     "exchange": "perp",
     "base": "pieverse",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PIEVERSE-USDT"
   },
   "PIPPIN-USDT": {
     "exchange": "perp",
     "base": "pippin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PIPPIN-USDT"
   },
   "PIXEL-USDT": {
     "exchange": "perp",
     "base": "pixels",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PIXEL-USDT"
   },
   "PLTR-USDT": {
     "exchange": "perp",
     "base": "palantir-technologies",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PLTR-USDT"
   },
   "PLUME-USDT": {
     "exchange": "perp",
     "base": "plume",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PLUME-USDT"
   },
   "PNUT-USDT": {
     "exchange": "perp",
     "base": "peanut-the-squirrel",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PNUT-USDT"
   },
   "POL-USDT": {
     "exchange": "perp",
     "base": "polygon",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/POL-USDT"
   },
   "POLYX-USDT": {
     "exchange": "perp",
     "base": "polymesh",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/POLYX-USDT"
   },
   "PONS-USDT": {
     "exchange": "perp",
     "base": "pons",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PONS-USDT"
   },
   "POPCAT-USDT": {
     "exchange": "perp",
     "base": "popcat",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/POPCAT-USDT"
   },
   "PORTAL-USDT": {
     "exchange": "perp",
     "base": "portal",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PORTAL-USDT"
   },
   "POWER-USDT": {
     "exchange": "perp",
     "base": "power-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/POWER-USDT"
   },
   "PREDICT-USDT": {
     "exchange": "perp",
     "base": "predict-fun",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PREDICT-USDT"
   },
   "PRL-USDT": {
     "exchange": "perp",
     "base": "perle",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PRL-USDT"
   },
   "PROM-USDT": {
     "exchange": "perp",
     "base": "prometeus",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PROM-USDT"
   },
   "PUMP-USDT": {
     "exchange": "perp",
     "base": "pump",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PUMP-USDT"
   },
   "PYTH-USDT": {
     "exchange": "perp",
     "base": "pyth-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/PYTH-USDT"
   },
   "Q-USDT": {
     "exchange": "perp",
     "base": "quack-ai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/Q-USDT"
   },
   "QCOM-USDT": {
     "exchange": "perp",
     "base": "qualcomm",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/QCOM-USDT"
   },
   "QNT-USDT": {
     "exchange": "perp",
     "base": "quant",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/QNT-USDT"
   },
   "QQQ-USDT": {
     "exchange": "perp",
     "base": "invesco-qqq",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/QQQ-USDT"
   },
   "RAM-USDT": {
     "exchange": "perp",
     "base": "roundhill-t-rex-2x-long-dram-daily-target-etf",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RAM-USDT"
   },
   "RAVE-USDT": {
     "exchange": "perp",
     "base": "ravedao",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RAVE-USDT"
   },
   "RAY-USDT": {
     "exchange": "perp",
     "base": "raydium",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RAY-USDT"
   },
   "RDDT-USDT": {
     "exchange": "perp",
     "base": "reddit",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RDDT-USDT"
   },
   "RE-USDT": {
     "exchange": "perp",
     "base": "re",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RE-USDT"
   },
   "RED-USDT": {
     "exchange": "perp",
     "base": "redstone",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RED-USDT"
   },
   "RENDER-USDT": {
     "exchange": "perp",
     "base": "render",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RENDER-USDT"
   },
   "RESOLV-USDT": {
     "exchange": "perp",
     "base": "resolv",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RESOLV-USDT"
   },
   "REZ-USDT": {
     "exchange": "perp",
     "base": "renzo",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/REZ-USDT"
   },
   "RIVER-USDT": {
     "exchange": "perp",
     "base": "river",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RIVER-USDT"
   },
   "RKLB-USDT": {
     "exchange": "perp",
     "base": "rocket-lab",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RKLB-USDT"
   },
   "ROBO-USDT": {
     "exchange": "perp",
     "base": "fabric-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ROBO-USDT"
   },
   "ROSE-USDT": {
     "exchange": "perp",
     "base": "oasis-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ROSE-USDT"
   },
   "RSR-USDT": {
     "exchange": "perp",
     "base": "reserve-rights-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RSR-USDT"
   },
   "RUNE-USDT": {
     "exchange": "perp",
     "base": "thorchain",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RUNE-USDT"
   },
   "RVN-USDT": {
     "exchange": "perp",
     "base": "ravencoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/RVN-USDT"
   },
   "S-USDT": {
     "exchange": "perp",
     "base": "sonic",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/S-USDT"
   },
   "SAFE-USDT": {
     "exchange": "perp",
     "base": "safe",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SAFE-USDT"
   },
   "SAGA-USDT": {
     "exchange": "perp",
     "base": "saga",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SAGA-USDT"
   },
   "SAND-USDT": {
     "exchange": "perp",
     "base": "the-sandbox",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SAND-USDT"
   },
   "SAPIEN-USDT": {
     "exchange": "perp",
     "base": "sapien",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SAPIEN-USDT"
   },
   "SEI-USDT": {
     "exchange": "perp",
     "base": "sei",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SEI-USDT"
   },
   "SENT-USDT": {
     "exchange": "perp",
     "base": "sentient",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SENT-USDT"
   },
   "SFP-USDT": {
     "exchange": "perp",
     "base": "safepal",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SFP-USDT"
   },
   "SHIB-USDT": {
     "exchange": "perp",
     "base": "shiba-inu",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SHIB-USDT"
   },
   "SIGN-USDT": {
     "exchange": "perp",
     "base": "sign-global",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SIGN-USDT"
   },
   "SKHY-USDT": {
     "exchange": "perp",
     "base": "sk-hynix-adr",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SKHY-USDT"
   },
   "SKL-USDT": {
     "exchange": "perp",
     "base": "skale",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SKL-USDT"
   },
   "SKR-USDT": {
     "exchange": "perp",
     "base": "seeker",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SKR-USDT"
   },
   "SKY-USDT": {
     "exchange": "perp",
     "base": "sky",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SKY-USDT"
   },
   "SLX-USDT": {
     "exchange": "perp",
     "base": "solstice",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SLX-USDT"
   },
   "SMCI-USDT": {
     "exchange": "perp",
     "base": "super-micro-computer",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SMCI-USDT"
   },
   "SMH-USDT": {
     "exchange": "perp",
     "base": "vaneck-semiconductor-etf",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SMH-USDT"
   },
   "SNDK-USDT": {
     "exchange": "perp",
     "base": "sandisk",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SNDK-USDT"
   },
   "SNOW-USDT": {
     "exchange": "perp",
     "base": "snowflake",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SNOW-USDT"
   },
   "SNPS-USDT": {
     "exchange": "perp",
     "base": "synopsys",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SNPS-USDT"
   },
   "SNX-USDT": {
     "exchange": "perp",
     "base": "synthetix",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SNX-USDT"
   },
   "SNXX-USDT": {
     "exchange": "perp",
     "base": "tradr-2x-long-sndk-daily-etf",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SNXX-USDT"
   },
   "SOL-USD": {
     "exchange": "perp",
@@ -2396,103 +2775,120 @@
     "exchange": "perp",
     "base": "solana",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SOL-USDT"
   },
   "SONIC-USDT": {
     "exchange": "perp",
     "base": "sonic-svm",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SONIC-USDT"
   },
   "SOXL-USDT": {
     "exchange": "perp",
     "base": "direxion-daily-semiconductor-bull-3x",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SOXL-USDT"
   },
   "SOXS-USDT": {
     "exchange": "perp",
     "base": "direxion-daily-semiconductor-bear-3x",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SOXS-USDT"
   },
   "SPACE-USDT": {
     "exchange": "perp",
     "base": "spacecoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SPACE-USDT"
   },
   "SPCX-USDT": {
     "exchange": "perp",
     "base": "spacex",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SPCX-USDT"
   },
   "SPK-USDT": {
     "exchange": "perp",
     "base": "spark",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SPK-USDT"
   },
   "SPX-USDT": {
     "exchange": "perp",
     "base": "spx6900",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SPX-USDT"
   },
   "SPY-USDT": {
     "exchange": "perp",
     "base": "spdr-sp500-etf-trust",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SPY-USDT"
   },
   "SQD-USDT": {
     "exchange": "perp",
     "base": "subsquid",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SQD-USDT"
   },
   "SQQQ-USDT": {
     "exchange": "perp",
     "base": "proshares-ultrapro-short-qqq",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SQQQ-USDT"
   },
   "SSV-USDT": {
     "exchange": "perp",
     "base": "ssv-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SSV-USDT"
   },
   "STABLE-USDT": {
     "exchange": "perp",
     "base": "stable",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/STABLE-USDT"
   },
   "STBL-USDT": {
     "exchange": "perp",
     "base": "stbl",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/STBL-USDT"
   },
   "STONK-USDT": {
     "exchange": "perp",
     "base": "stonk",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/STONK-USDT"
   },
   "STRK-USDT": {
     "exchange": "perp",
     "base": "starknet",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/STRK-USDT"
   },
   "STX-USDT": {
     "exchange": "perp",
     "base": "stacks",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/STX-USDT"
   },
   "SUI-USD": {
     "exchange": "perp",
@@ -2510,223 +2906,260 @@
     "exchange": "perp",
     "base": "sui",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SUI-USDT"
   },
   "SUN-USDT": {
     "exchange": "perp",
     "base": "sun-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SUN-USDT"
   },
   "SUPER-USDT": {
     "exchange": "perp",
     "base": "superfarm",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SUPER-USDT"
   },
   "SUSHI-USDT": {
     "exchange": "perp",
     "base": "sushi",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SUSHI-USDT"
   },
   "SWARMS-USDT": {
     "exchange": "perp",
     "base": "swarms",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SWARMS-USDT"
   },
   "SXT-USDT": {
     "exchange": "perp",
     "base": "space-and-time",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SXT-USDT"
   },
   "SYRUP-USDT": {
     "exchange": "perp",
     "base": "syrup",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/SYRUP-USDT"
   },
   "TA-USDT": {
     "exchange": "perp",
     "base": "trusta-ai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TA-USDT"
   },
   "TAC-USDT": {
     "exchange": "perp",
     "base": "tac",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TAC-USDT"
   },
   "TAKE-USDT": {
     "exchange": "perp",
     "base": "overtake",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TAKE-USDT"
   },
   "TAO-USDT": {
     "exchange": "perp",
     "base": "bittensor",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TAO-USDT"
   },
   "TEAM-USDT": {
     "exchange": "perp",
     "base": "atlassian",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TEAM-USDT"
   },
   "THE-USDT": {
     "exchange": "perp",
     "base": "thena",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/THE-USDT"
   },
   "THETA-USDT": {
     "exchange": "perp",
     "base": "theta-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/THETA-USDT"
   },
   "TIA-USDT": {
     "exchange": "perp",
     "base": "celestia",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TIA-USDT"
   },
   "TLT-USDT": {
     "exchange": "perp",
     "base": "ishares-20-year-treasury-bond-etf",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TLT-USDT"
   },
   "TMF-USDT": {
     "exchange": "perp",
     "base": "direxion-daily-20-year-treasury-bull-3x",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TMF-USDT"
   },
   "TOSHI-USDT": {
     "exchange": "perp",
     "base": "toshi",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TOSHI-USDT"
   },
   "TOWNS-USDT": {
     "exchange": "perp",
     "base": "towns",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TOWNS-USDT"
   },
   "TQQQ-USDT": {
     "exchange": "perp",
     "base": "proshares-ultrapro-qqq",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TQQQ-USDT"
   },
   "TRADOOR-USDT": {
     "exchange": "perp",
     "base": "tradoor",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TRADOOR-USDT"
   },
   "TRB-USDT": {
     "exchange": "perp",
     "base": "tellor",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TRB-USDT"
   },
   "TRIA-USDT": {
     "exchange": "perp",
     "base": "tria",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TRIA-USDT"
   },
   "TRUMP-USDT": {
     "exchange": "perp",
     "base": "official-trump",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TRUMP-USDT"
   },
   "TRUTH-USDT": {
     "exchange": "perp",
     "base": "swarm-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TRUTH-USDT"
   },
   "TRX-USDT": {
     "exchange": "perp",
     "base": "tron",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TRX-USDT"
   },
   "TSLA-USDT": {
     "exchange": "perp",
     "base": "tesla",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TSLA-USDT"
   },
   "TSM-USDT": {
     "exchange": "perp",
     "base": "taiwan-semiconductor-adr",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TSM-USDT"
   },
   "TURBO-USDT": {
     "exchange": "perp",
     "base": "turbo",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TURBO-USDT"
   },
   "TURTLE-USDT": {
     "exchange": "perp",
     "base": "turtle",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TURTLE-USDT"
   },
   "TWLO-USDT": {
     "exchange": "perp",
     "base": "twilio",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TWLO-USDT"
   },
   "TWST-USDT": {
     "exchange": "perp",
     "base": "twist-bioscience",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TWST-USDT"
   },
   "TWT-USDT": {
     "exchange": "perp",
     "base": "trust-wallet-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/TWT-USDT"
   },
   "UAI-USDT": {
     "exchange": "perp",
     "base": "unifai-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/UAI-USDT"
   },
   "UB-USDT": {
     "exchange": "perp",
     "base": "unibase",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/UB-USDT"
   },
   "UMA-USDT": {
     "exchange": "perp",
     "base": "uma",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/UMA-USDT"
   },
   "UNH-USDT": {
     "exchange": "perp",
     "base": "unitedhealth-group",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/UNH-USDT"
   },
   "UNI-USD": {
     "exchange": "perp",
@@ -2738,211 +3171,246 @@
     "exchange": "perp",
     "base": "uniswap",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/UNI-USDT"
   },
   "URNM-USDT": {
     "exchange": "perp",
     "base": "sprott-uranium-miners-etf",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/URNM-USDT"
   },
   "US-USDT": {
     "exchange": "perp",
     "base": "talus",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/US-USDT"
   },
   "USELESS-USDT": {
     "exchange": "perp",
     "base": "useless-coin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/USELESS-USDT"
   },
   "UVXY-USDT": {
     "exchange": "perp",
     "base": "proshares-ultra-vix-short-term-futures-etf",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/UVXY-USDT"
   },
   "VANA-USDT": {
     "exchange": "perp",
     "base": "vana",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/VANA-USDT"
   },
   "VELVET-USDT": {
     "exchange": "perp",
     "base": "velvet",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/VELVET-USDT"
   },
   "VET-USDT": {
     "exchange": "perp",
     "base": "vechain",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/VET-USDT"
   },
   "VIRTUAL-USDT": {
     "exchange": "perp",
     "base": "virtuals-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/VIRTUAL-USDT"
   },
   "VST-USDT": {
     "exchange": "perp",
     "base": "vistra",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/VST-USDT"
   },
   "VVV-USDT": {
     "exchange": "perp",
     "base": "venice-token",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/VVV-USDT"
   },
   "WAVES-USDT": {
     "exchange": "perp",
     "base": "waves",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/WAVES-USDT"
   },
   "WCT-USDT": {
     "exchange": "perp",
     "base": "walletconnect",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/WCT-USDT"
   },
   "WDC-USDT": {
     "exchange": "perp",
     "base": "western-digital",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/WDC-USDT"
   },
   "WET-USDT": {
     "exchange": "perp",
     "base": "humidifi",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/WET-USDT"
   },
   "WIF-USDT": {
     "exchange": "perp",
     "base": "dogwifcoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/WIF-USDT"
   },
   "WLD-USDT": {
     "exchange": "perp",
     "base": "worldcoin",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/WLD-USDT"
   },
   "WLFI-USDT": {
     "exchange": "perp",
     "base": "world-liberty-financial",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/WLFI-USDT"
   },
   "WOO-USDT": {
     "exchange": "perp",
     "base": "woo-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/WOO-USDT"
   },
   "XAG-USDT": {
     "exchange": "perp",
     "base": "silver",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XAG-USDT"
   },
   "XAI-USDT": {
     "exchange": "perp",
     "base": "xai",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XAI-USDT"
   },
   "XAU-USDT": {
     "exchange": "perp",
     "base": "gold",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XAU-USDT"
   },
   "XAUT-USDT": {
     "exchange": "perp",
     "base": "tether-gold",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XAUT-USDT"
   },
   "XCU-USDT": {
     "exchange": "perp",
     "base": "copper",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XCU-USDT"
   },
   "XDC-USDT": {
     "exchange": "perp",
     "base": "xdc-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XDC-USDT"
   },
   "XDP-USDT": {
     "exchange": "perp",
     "base": "doppler-finance",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XDP-USDT"
   },
   "XLE-USDT": {
     "exchange": "perp",
     "base": "energy-select-sector-spdr-fund",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XLE-USDT"
   },
   "XLM-USDT": {
     "exchange": "perp",
     "base": "stellar",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XLM-USDT"
   },
   "XMR-USDT": {
     "exchange": "perp",
     "base": "monero",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XMR-USDT"
   },
   "XNY-USDT": {
     "exchange": "perp",
     "base": "codatta",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XNY-USDT"
   },
   "XOM-USDT": {
     "exchange": "perp",
     "base": "exxon-mobil",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XOM-USDT"
   },
   "XPD-USDT": {
     "exchange": "perp",
     "base": "palladium",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XPD-USDT"
   },
   "XPIN-USDT": {
     "exchange": "perp",
     "base": "xpin-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XPIN-USDT"
   },
   "XPL-USDT": {
     "exchange": "perp",
     "base": "plasma",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XPL-USDT"
   },
   "XPT-USDT": {
     "exchange": "perp",
     "base": "platinum",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XPT-USDT"
   },
   "XRP-USD": {
     "exchange": "perp",
@@ -2960,108 +3428,126 @@
     "exchange": "perp",
     "base": "xrp",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XRP-USDT"
   },
   "XTZ-USDT": {
     "exchange": "perp",
     "base": "tezos",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XTZ-USDT"
   },
   "XVG-USDT": {
     "exchange": "perp",
     "base": "verge",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/XVG-USDT"
   },
   "YB-USDT": {
     "exchange": "perp",
     "base": "yield-basis",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/YB-USDT"
   },
   "YFI-USDT": {
     "exchange": "perp",
     "base": "yearn-finance",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/YFI-USDT"
   },
   "ZAMA-USDT": {
     "exchange": "perp",
     "base": "zama",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZAMA-USDT"
   },
   "ZBCN-USDT": {
     "exchange": "perp",
     "base": "zebec-network",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZBCN-USDT"
   },
   "ZBT-USDT": {
     "exchange": "perp",
     "base": "zerobase",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZBT-USDT"
   },
   "ZEC-USDT": {
     "exchange": "perp",
     "base": "zcash",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZEC-USDT"
   },
   "ZEN-USDT": {
     "exchange": "perp",
     "base": "horizen",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZEN-USDT"
   },
   "ZEREBRO-USDT": {
     "exchange": "perp",
     "base": "zerebro",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZEREBRO-USDT"
   },
   "ZEST-USDT": {
     "exchange": "perp",
     "base": "zest-protocol",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZEST-USDT"
   },
   "ZETA-USDT": {
     "exchange": "perp",
     "base": "zetachain",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZETA-USDT"
   },
   "ZIL-USDT": {
     "exchange": "perp",
     "base": "zilliqa",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZIL-USDT"
   },
   "ZK-USDT": {
     "exchange": "perp",
     "base": "zksync",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZK-USDT"
   },
   "ZKP-USDT": {
     "exchange": "perp",
     "base": "zkpass",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZKP-USDT"
   },
   "ZRO-USDT": {
     "exchange": "perp",
     "base": "layer-zero",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZRO-USDT"
   },
   "ZRX-USDT": {
     "exchange": "perp",
     "base": "0x",
     "quote": "tether",
-    "settlement": "tether"
+    "settlement": "tether",
+    "url": "https://blofin.com/futures/ZRX-USDT"
   }
 }
