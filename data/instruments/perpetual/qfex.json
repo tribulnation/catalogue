@@ -284,6 +284,7 @@
     "base": "cxmt",
     "quote": "chinese-yuan",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://www.qfex.com/trade/CXMT-CNY"
   },
   "CYPH-USD": {
@@ -417,6 +418,7 @@
     "base": "hyundai-motor",
     "quote": "south-korean-won",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://www.qfex.com/trade/HYUNDAI-KRW"
   },
   "IBIT-USD": {
@@ -473,6 +475,7 @@
     "base": "kioxia",
     "quote": "japanese-yen",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://www.qfex.com/trade/KIOXIA-JPY"
   },
   "LITE-USD": {
@@ -746,6 +749,7 @@
     "base": "samsung-electronics",
     "quote": "south-korean-won",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://www.qfex.com/trade/SAMSUNG-KRW"
   },
   "SECZ-USD": {
@@ -781,6 +785,7 @@
     "base": "sk-hynix",
     "quote": "south-korean-won",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://www.qfex.com/trade/SKHYNIX-KRW"
   },
   "SMCI-USD": {
@@ -816,6 +821,7 @@
     "base": "softbank-group",
     "quote": "japanese-yen",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://www.qfex.com/trade/SOFTBANK-JPY"
   },
   "SOXL-USD": {
@@ -907,6 +913,7 @@
     "base": "unitree-robotics",
     "quote": "chinese-yuan",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://www.qfex.com/trade/UNITREE-CNY"
   },
   "USDE-USD": {

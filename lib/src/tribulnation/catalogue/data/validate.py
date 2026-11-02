@@ -289,7 +289,40 @@ def perpetual_instruments(perpetual_instruments: Mapping[str, Mapping[str, Perpe
       if settlement not in assets:
         errors.append(f'[PERPETUAL INSTRUMENT ERROR] Perpetual instrument "{id}" on "{platform}" has inexistent settlement asset "{settlement}"')
       errors.extend(_instrument_url_errors('PERPETUAL', platform, id, instrument))
+      errors.extend(_quanto_errors(platform, id, instrument, assets))
   return errors
+
+def _peg_root(id: str, assets: Mapping[str, Asset]) -> str:
+  """The asset at the end of `id`'s `pegged_to` chain: `usd` for `tether`, `id` itself when unpegged."""
+  seen = {id}
+  while (peg := assets.get(id, {}).get('pegged_to')) is not None and peg['asset'] not in seen:
+    id = peg['asset']
+    seen.add(id)
+  return id
+
+def _quanto_errors(platform: str, id: str, instrument: Perpetual, assets: Mapping[str, Asset]) -> list[str]:
+  """`quanto` is set only where quote and settlement differ, and always on a stock priced in another fiat.
+
+  Such a perp (HK$-priced Tencent settled in USDT) either pays 1 settlement unit per quote point
+  (`quanto: true`) or converts at the exchange rate (`quanto: false`). Consumers size the position
+  differently by a factor of the exchange rate, so the catalogue must say which.
+  """
+  quote, settlement = _peg_root(instrument['quote'], assets), _peg_root(instrument['settlement'], assets)
+  where = f'Perpetual instrument "{id}" on "{platform}"'
+  if 'quanto' in instrument:
+    if not isinstance(instrument['quanto'], bool):
+      return [f'[PERPETUAL QUANTO ERROR] {where} has non-boolean "quanto" {instrument["quanto"]!r}']
+    if quote == settlement:
+      return [f'[PERPETUAL QUANTO ERROR] {where} sets "quanto" but its quote and settlement are both "{quote}"']
+    return []
+  if (
+    quote != settlement
+    and assets.get(instrument['base'], {}).get('category') == 'stock'
+    and assets.get(quote, {}).get('category') == 'fiat'
+    and assets.get(settlement, {}).get('category') == 'fiat'
+  ):
+    return [f'[PERPETUAL QUANTO ERROR] {where} is a stock priced in "{instrument["quote"]}" and settled in "{instrument["settlement"]}"; set "quanto" to true (1 settlement unit per quote point) or false (converted at the exchange rate)']
+  return []
 
 def debt_instruments(debt_instruments: Mapping[str, Mapping[str, Debt]], assets: Mapping[str, Asset]):
   errors: list[str] = []

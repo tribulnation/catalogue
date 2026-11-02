@@ -49,7 +49,8 @@ const pairs = await client.getSpotInstruments('mexc');
 
 const perps = await client.getPerpetualInstruments('dydx');
 // → Record<string, PerpetualInstrument>
-// PerpetualInstrument includes optional multiplier and delisted status.
+// PerpetualInstrument includes optional multiplier, delisted status and quanto
+// (price in `quote`, P&L 1 settlement unit per quote point: notional = size x multiplier x price in `settlement`).
 
 // All instruments referencing a given asset
 const refs = await client.getAssetInstruments('bitcoin');

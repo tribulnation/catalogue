@@ -57,6 +57,8 @@ class PerpetualInstrument:
   multiplier: Decimal
   """Units of `base` per contract unit (1 unless the venue scales it, e.g. `kPEPE`)"""
   delisted: bool
+  quanto: bool = False
+  """P&L accrues 1 `settlement` unit per `quote` price point, so notional is size x multiplier x price in `settlement`"""
 
 
 @dataclass(frozen=True)
@@ -257,6 +259,7 @@ class Catalogue:
       settlement=self.canonical_id(instrument['settlement']),
       multiplier=Decimal(instrument.get('multiplier', 1)),
       delisted=instrument.get('delisted', False),
+      quanto=instrument.get('quanto', False),
     )
 
   def debt_for(self, platform: str, raw_id: str) -> DebtInstrument | None:

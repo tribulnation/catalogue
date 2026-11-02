@@ -1431,6 +1431,7 @@
     "base": "usd",
     "quote": "japanese-yen",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://app.lighter.xyz/trade/USDJPY"
   },
   "99": {
@@ -1438,6 +1439,7 @@
     "base": "usd",
     "quote": "swiss-franc",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://app.lighter.xyz/trade/USDCHF"
   },
   "100": {
@@ -1445,6 +1447,7 @@
     "base": "usd",
     "quote": "canadian-dollar",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://app.lighter.xyz/trade/USDCAD"
   },
   "105": {
@@ -1452,6 +1455,7 @@
     "base": "usd",
     "quote": "south-korean-won",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://app.lighter.xyz/trade/USDKRW"
   },
   "198": {
@@ -1459,6 +1463,7 @@
     "base": "usd",
     "quote": "hong-kong-dollar",
     "settlement": "usd-coin",
+    "quanto": true,
     "url": "https://app.lighter.xyz/trade/USDHKD"
   },
   "160": {
@@ -1550,14 +1555,16 @@
     "base": "samsung-electronics",
     "quote": "south-korean-won",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "quanto": true
   },
   "143": {
     "exchange": "perp",
     "base": "sk-hynix",
     "quote": "south-korean-won",
     "settlement": "usd-coin",
-    "delisted": true
+    "delisted": true,
+    "quanto": true
   },
   "4099": {
     "exchange": "perp",

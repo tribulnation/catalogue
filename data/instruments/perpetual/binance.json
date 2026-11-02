@@ -2788,29 +2788,33 @@
   "HK0625USDT": {
     "exchange": "usdm",
     "base": "shein",
-    "quote": "tether",
+    "quote": "hong-kong-dollar",
     "settlement": "tether",
+    "quanto": true,
     "url": "https://www.binance.com/en/futures/HK0625USDT"
   },
   "HK0700USDT": {
     "exchange": "usdm",
     "base": "tencent-holdings",
-    "quote": "tether",
+    "quote": "hong-kong-dollar",
     "settlement": "tether",
+    "quanto": true,
     "url": "https://www.binance.com/en/futures/HK0700USDT"
   },
   "HK0992USDT": {
     "exchange": "usdm",
     "base": "lenovo-group",
-    "quote": "tether",
+    "quote": "hong-kong-dollar",
     "settlement": "tether",
+    "quanto": true,
     "url": "https://www.binance.com/en/futures/HK0992USDT"
   },
   "HK1810USDT": {
     "exchange": "usdm",
     "base": "xiaomi",
-    "quote": "tether",
+    "quote": "hong-kong-dollar",
     "settlement": "tether",
+    "quanto": true,
     "url": "https://www.binance.com/en/futures/HK1810USDT"
   },
   "HMSTRUSDT": {
