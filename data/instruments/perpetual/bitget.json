@@ -4956,7 +4956,7 @@
     "quote": "tether",
     "settlement": "tether",
     "multiplier": 10000,
-    "url": "https://www.bitget.com/futures/usdt/10000NEXUSDT"
+    "delisted": true
   },
   "AALUSDT": {
     "exchange": "usdt",
@@ -5657,5 +5657,12 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitget.com/futures/usdt/龙虾USDT"
+  },
+  "CLSUSDT": {
+    "exchange": "usdt",
+    "base": "celestica",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/CLSUSDT"
   }
 }

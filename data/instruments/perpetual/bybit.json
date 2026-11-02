@@ -1843,7 +1843,7 @@
     "base": "epic-chain",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.bybit.com/trade/usdt/EPICUSDT"
+    "delisted": true
   },
   "EQTUSDT": {
     "exchange": "perp",
@@ -3159,7 +3159,7 @@
     "base": "mitosis",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.bybit.com/trade/usdt/MITOUSDT"
+    "delisted": true
   },
   "MMTUSDT": {
     "exchange": "perp",
@@ -3901,7 +3901,7 @@
     "base": "portal-to-bitcoin",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.bybit.com/trade/usdt/PTBUSDT"
+    "delisted": true
   },
   "PUFFERUSDT": {
     "exchange": "perp",
@@ -4848,7 +4848,7 @@
     "base": "termmax",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.bybit.com/trade/usdt/TMXUSDT"
+    "delisted": true
   },
   "TNSRUSDT": {
     "exchange": "perp",
@@ -5829,5 +5829,12 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/DRVUSDT"
+  },
+  "MXLUSDT": {
+    "exchange": "perp",
+    "base": "maxlinear",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/MXLUSDT"
   }
 }

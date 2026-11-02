@@ -543,7 +543,7 @@
     "exchange": "spot",
     "base": "bitcoin",
     "quote": "brazilian-real",
-    "url": "https://www.bybit.com/en/trade/spot/BTC/BRL"
+    "delisted": true
   },
   "BTCEUR": {
     "exchange": "spot",
@@ -573,7 +573,7 @@
     "exchange": "spot",
     "base": "bitcoin",
     "quote": "turkish-lira",
-    "url": "https://www.bybit.com/en/trade/spot/BTC/TRY"
+    "delisted": true
   },
   "BTCUSD": {
     "exchange": "spot",
@@ -1017,7 +1017,7 @@
     "exchange": "spot",
     "base": "ethereum",
     "quote": "brazilian-real",
-    "url": "https://www.bybit.com/en/trade/spot/ETH/BRL"
+    "delisted": true
   },
   "ETHBTC": {
     "exchange": "spot",
@@ -1065,7 +1065,7 @@
     "exchange": "spot",
     "base": "ethereum",
     "quote": "turkish-lira",
-    "url": "https://www.bybit.com/en/trade/spot/ETH/TRY"
+    "delisted": true
   },
   "ETHUSD": {
     "exchange": "spot",
@@ -1341,7 +1341,7 @@
     "exchange": "spot",
     "base": "hashflow",
     "quote": "tether",
-    "url": "https://www.bybit.com/en/trade/spot/HFT/USDT"
+    "delisted": true
   },
   "HMSTRUSDC": {
     "exchange": "spot",
@@ -2433,7 +2433,7 @@
     "exchange": "spot",
     "base": "solana",
     "quote": "brazilian-real",
-    "url": "https://www.bybit.com/en/trade/spot/SOL/BRL"
+    "delisted": true
   },
   "SOLBTC": {
     "exchange": "spot",
@@ -2883,7 +2883,7 @@
     "exchange": "spot",
     "base": "tether",
     "quote": "turkish-lira",
-    "url": "https://www.bybit.com/en/trade/spot/USDT/TRY"
+    "delisted": true
   },
   "USDTUSD": {
     "exchange": "spot",

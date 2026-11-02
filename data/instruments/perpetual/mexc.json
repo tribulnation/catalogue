@@ -697,14 +697,14 @@
     "base": "aurora",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/AURORA_USDT"
+    "delisted": true
   },
   "RHEA_USDT": {
     "exchange": "perp",
     "base": "rhea-finance",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/RHEA_USDT"
+    "delisted": true
   },
   "AKAMSTOCK_USDT": {
     "exchange": "perp",
@@ -6098,7 +6098,7 @@
     "base": "mitosis",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/MITO_USDT"
+    "delisted": true
   },
   "MSTU_USDT": {
     "exchange": "perp",
@@ -6147,7 +6147,7 @@
     "base": "onefootball-club",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/OFC_USDT"
+    "delisted": true
   },
   "OG_USDT": {
     "exchange": "perp",
@@ -6379,5 +6379,138 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/ZCAT_USDT"
+  },
+  "NOCSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "northrop-grumman",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/NOCSTOCK_USDT"
+  },
+  "ABBVSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "abbvie",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ABBVSTOCK_USDT"
+  },
+  "HONSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "honeywell",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/HONSTOCK_USDT"
+  },
+  "MMMSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "3m",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/MMMSTOCK_USDT"
+  },
+  "ADPSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "automatic-data-processing",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ADPSTOCK_USDT"
+  },
+  "EQTSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "eqt",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/EQTSTOCK_USDT"
+  },
+  "STMSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "stmicroelectronics",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/STMSTOCK_USDT"
+  },
+  "SYKSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "stryker",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/SYKSTOCK_USDT"
+  },
+  "CARTSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "maplebear",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CARTSTOCK_USDT"
+  },
+  "CMGSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "chipotle-mexican-grill",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/CMGSTOCK_USDT"
+  },
+  "GANG_USDT": {
+    "exchange": "perp",
+    "base": "gang",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/GANG_USDT"
+  },
+  "RRCSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "range-resources",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/RRCSTOCK_USDT"
+  },
+  "UPSSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "united-parcel-service",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/UPSSTOCK_USDT"
+  },
+  "DHISTOCK_USDT": {
+    "exchange": "perp",
+    "base": "dr-horton",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/DHISTOCK_USDT"
+  },
+  "EWZS_USDT": {
+    "exchange": "perp",
+    "base": "ishares-msci-brazil-small-cap-etf",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/EWZS_USDT"
+  },
+  "HWMSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "howmet-aerospace",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/HWMSTOCK_USDT"
+  },
+  "ICESTOCK_USDT": {
+    "exchange": "perp",
+    "base": "intercontinental-exchange",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ICESTOCK_USDT"
+  },
+  "INSMSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "insmed",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/INSMSTOCK_USDT"
+  },
+  "LNGSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "cheniere-energy",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/LNGSTOCK_USDT"
   }
 }
