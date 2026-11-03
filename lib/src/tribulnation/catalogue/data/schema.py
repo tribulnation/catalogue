@@ -28,6 +28,14 @@ class Perpetual(TypedDict):
   """Settlement asset ID"""
   multiplier: NotRequired[Decimal]
   """Contract multiplier for the base asset. E.g. a `10` multiplier means that the index price tracks 10x the base asset price."""
+  quanto: NotRequired[bool]
+  """Whether P&L accrues in `settlement` at a fixed 1 settlement unit per 1 `quote` price point, per unit of `base` times `multiplier`, with no `quote`/`settlement` exchange rate applied.
+
+  The price is in `quote` (e.g. HK$393.5 for Tencent) but margin, P&L and notional are in `settlement`:
+  notional = size x multiplier x price, read as `settlement` units (393.5 USDT per share, not 393.5 HKD).
+  `false` means the venue converts `quote` P&L at the exchange rate. Only meaningful when `quote` and
+  `settlement` are different currencies; required on stock perpetuals priced in a currency other than
+  the settlement's."""
   delisted: NotRequired[bool]
   """Whether the instrument has been delisted"""
   url: NotRequired[str]

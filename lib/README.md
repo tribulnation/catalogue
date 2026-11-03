@@ -89,7 +89,13 @@ catalogue.asset_for('mexc', 'UNKNOWN')         # None
 
 catalogue.perpetual_for('hyperliquid', 'kPEPE')
 # PerpetualInstrument(platform='hyperliquid', id='kPEPE', base='pepe', quote='tether',
-#                     settlement='usd-coin', multiplier=Decimal('1000'), delisted=False)
+#                     settlement='usd-coin', multiplier=Decimal('1000'), delisted=False, quanto=None)
+
+catalogue.perpetual_for('binance', 'HK0700USDT')
+# PerpetualInstrument(platform='binance', id='HK0700USDT', base='tencent-holdings', quote='hong-kong-dollar',
+#                     settlement='tether', multiplier=Decimal('1'), delisted=False, quanto=True)
+# quanto: priced in HK$, pays 1 USDT per HK$ point, so notional is size x multiplier x price in USDT
+# (False: converted at the exchange rate; None: not stated, e.g. when quote and settlement are one currency)
 
 catalogue.debt_for('ethereum', '0x72e95b8931767c79ba4eee721354d6e99a61d004')
 # DebtInstrument(platform='ethereum', id='0x72E95b89…', asset='usd-coin', name='Aave USDC Debt')

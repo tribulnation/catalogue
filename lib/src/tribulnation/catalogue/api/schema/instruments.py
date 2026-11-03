@@ -39,6 +39,8 @@ class PerpetualInstrument(BaseModel):
   """Settlement asset ID"""
   multiplier: Decimal | None = None
   """Contract multiplier for the base asset"""
+  quanto: bool | None = None
+  """P&L accrues 1 settlement unit per quote price point (times size and multiplier), with no quote/settlement conversion"""
   exchange: str | None = None
   """Exchange sub-account identifier"""
   delisted: bool | None = None

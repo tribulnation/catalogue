@@ -725,7 +725,24 @@
     "base": "lenovo-group",
     "quote": "hong-kong-dollar",
     "settlement": "tether",
+    "quanto": true,
     "url": "https://www.mexc.com/futures/HK0992_USDT"
+  },
+  "HK0700_USDT": {
+    "exchange": "perp",
+    "base": "tencent-holdings",
+    "quote": "hong-kong-dollar",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.mexc.com/futures/HK0700_USDT"
+  },
+  "HK1810_USDT": {
+    "exchange": "perp",
+    "base": "xiaomi",
+    "quote": "hong-kong-dollar",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.mexc.com/futures/HK1810_USDT"
   },
   "MEDIATEKSTOCK_USDT": {
     "exchange": "perp",

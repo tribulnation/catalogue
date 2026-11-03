@@ -71,6 +71,8 @@ export type PerpetualInstrument = {
   quote: string
   settlement: string
   multiplier?: number
+  /** P&L accrues 1 settlement unit per quote price point (times size and multiplier), with no quote/settlement conversion */
+  quanto?: boolean
   exchange?: string
   delisted?: boolean
   url?: string

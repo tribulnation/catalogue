@@ -48,6 +48,28 @@ PYTHONPATH=lib/src .venv/bin/python scripts/instrument_urls.py
 ```
 
 It only fills in missing URLs, so hand-written ones survive; pass `--overwrite` to regenerate everything. When adding a platform, add its URL rule to `SPOT_RULES` / `PERPETUAL_RULES` in that script; instruments on platforms without a rule are left without a `url`.
+
+## Quanto perpetuals
+
+A perpetual's `quote` is the currency its price is in, even when the venue labels
+the contract `USDT`. Binance `HK0700USDT` prints Tencent's HK$ share price, so its
+`quote` is `hong-kong-dollar` and its `settlement` is `tether`. Compare the venue's
+price with the underlying's local price before choosing `quote`; the same share
+can also trade USD-priced on the same venue (Binance `TENCENTUSDT`).
+
+When `quote` and `settlement` are different currencies, set `quanto`:
+
+- `true`: P&L accrues 1 `settlement` unit per 1 `quote` price point, per unit of
+  `base` times `multiplier`, with no exchange rate applied. Notional in
+  `settlement` is size x multiplier x price.
+- `false`: the venue converts `quote` P&L to `settlement` at the exchange rate.
+
+Evidence is the venue's own notional: turnover or open interest in the settlement
+asset equal to size x contract size x price (MEXC `amount24`, QFEX
+`open_interest_usd`, Lighter `open_interest_usd`) means `true`. Validation requires
+the field on every stock perpetual priced in a fiat currency other than the
+settlement's, and rejects it when both are the same currency.
+
 ## Blockchain category and chain id
 
 `namespace` and `chain_id` together form the chain's
