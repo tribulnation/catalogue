@@ -2463,7 +2463,7 @@
     "exchange": "spot",
     "base": "heima",
     "quote": "tether",
-    "url": "https://www.bitget.com/spot/HEIUSDT"
+    "delisted": true
   },
   "HMSTRUSDT": {
     "exchange": "spot",
@@ -2763,7 +2763,7 @@
     "exchange": "spot",
     "base": "moo-deng",
     "quote": "tether",
-    "url": "https://www.bitget.com/spot/MOODENGUSDT"
+    "delisted": true
   },
   "MOVEUSDT": {
     "exchange": "spot",
@@ -3795,6 +3795,6 @@
     "exchange": "spot",
     "base": "zentry",
     "quote": "tether",
-    "url": "https://www.bitget.com/spot/ZENTUSDT"
+    "delisted": true
   }
 }

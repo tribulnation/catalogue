@@ -39,7 +39,7 @@
     "exchange": "spot",
     "base": "true-usd",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/TUSD_USDT"
+    "delisted": true
   },
   "SKYUSDC": {
     "exchange": "spot",
@@ -249,7 +249,7 @@
     "exchange": "spot",
     "base": "eurite",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/EURI_USDT"
+    "delisted": true
   },
   "ASTERUSDT": {
     "exchange": "spot",
@@ -1131,25 +1131,25 @@
     "exchange": "spot",
     "base": "stockereum-fun",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/STOCKER_USDT"
+    "delisted": true
   },
   "STOCKERUSD1": {
     "exchange": "spot",
     "base": "stockereum-fun",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/STOCKER_USD1"
+    "delisted": true
   },
   "ZCUSDT": {
     "exchange": "spot",
     "base": "zip-coin",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/ZC_USDT"
+    "delisted": true
   },
   "ZCUSD1": {
     "exchange": "spot",
     "base": "zip-coin",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/ZC_USD1"
+    "delisted": true
   },
   "CTUSDT": {
     "exchange": "spot",
@@ -1173,19 +1173,19 @@
     "exchange": "spot",
     "base": "paimon-polymarket-spv",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/PPOLY_USDT"
+    "delisted": true
   },
   "NEARLYUSDT": {
     "exchange": "spot",
     "base": "nearly",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/NEARLY_USDT"
+    "delisted": true
   },
   "NEARLYUSD1": {
     "exchange": "spot",
     "base": "nearly",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/NEARLY_USD1"
+    "delisted": true
   },
   "PRIORSUSDT": {
     "exchange": "spot",
@@ -1215,13 +1215,13 @@
     "exchange": "spot",
     "base": "sapling",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/SAPLING_USDT"
+    "delisted": true
   },
   "SAPLINGUSD1": {
     "exchange": "spot",
     "base": "sapling",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/SAPLING_USD1"
+    "delisted": true
   },
   "THEOUSDT": {
     "exchange": "spot",
@@ -1269,13 +1269,13 @@
     "exchange": "spot",
     "base": "higgspad",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/HIGGS_USDT"
+    "delisted": true
   },
   "HIGGSUSD1": {
     "exchange": "spot",
     "base": "higgspad",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/HIGGS_USD1"
+    "delisted": true
   },
   "WFIUSDT": {
     "exchange": "spot",
@@ -3639,7 +3639,7 @@
     "exchange": "spot",
     "base": "layer3",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/L3_USDT"
+    "delisted": true
   },
   "LABUSDT": {
     "exchange": "spot",
@@ -4401,7 +4401,7 @@
     "exchange": "spot",
     "base": "palio",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/PAL_USDT"
+    "delisted": true
   },
   "PARTIUSDC": {
     "exchange": "spot",
@@ -4995,7 +4995,7 @@
     "exchange": "spot",
     "base": "songbird",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/SGB_USDT"
+    "delisted": true
   },
   "SHAREUSDT": {
     "exchange": "spot",
@@ -6465,7 +6465,7 @@
     "exchange": "spot",
     "base": "boson-protocol",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/BOSON_USDT"
+    "delisted": true
   },
   "BREWUSD1": {
     "exchange": "spot",
@@ -6597,13 +6597,13 @@
     "exchange": "spot",
     "base": "effective-accelerationism",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/EACC_USD1"
+    "delisted": true
   },
   "EACCUSDT": {
     "exchange": "spot",
     "base": "effective-accelerationism",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/EACC_USDT"
+    "delisted": true
   },
   "EGOUSDT": {
     "exchange": "spot",
@@ -6705,7 +6705,7 @@
     "exchange": "spot",
     "base": "gains-network",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/GNS_USDT"
+    "delisted": true
   },
   "GOOGLONUSDT": {
     "exchange": "spot",
@@ -6987,7 +6987,7 @@
     "exchange": "spot",
     "base": "onefootball-club",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/OFC_USDT"
+    "delisted": true
   },
   "OGUSDT": {
     "exchange": "spot",
@@ -7095,7 +7095,7 @@
     "exchange": "spot",
     "base": "dolphin",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/POD_USDT"
+    "delisted": true
   },
   "PORTOUSDT": {
     "exchange": "spot",
@@ -7215,13 +7215,13 @@
     "exchange": "spot",
     "base": "mushroom-shroom-network",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/SHROOM_USD1"
+    "delisted": true
   },
   "SHROOMUSDT": {
     "exchange": "spot",
     "base": "mushroom-shroom-network",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/SHROOM_USDT"
+    "delisted": true
   },
   "SIRENUSDT": {
     "exchange": "spot",
@@ -7425,7 +7425,7 @@
     "exchange": "spot",
     "base": "digitalbits",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/XDB_USDT"
+    "delisted": true
   },
   "XUSDUSDT": {
     "exchange": "spot",
