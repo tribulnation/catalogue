@@ -3254,5 +3254,19 @@
     "quote": "tether",
     "settlement": "usd-coin",
     "delisted": true
+  },
+  "xyz:MELI": {
+    "exchange": "xyz",
+    "base": "mercadolibre",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "para:HYPE2": {
+    "exchange": "para",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
   }
 }
