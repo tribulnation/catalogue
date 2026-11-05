@@ -26,6 +26,10 @@ _KRAKEN_SYMBOLS = {'XBT': 'BTC', 'XDG': 'DOGE'}
 
 _HYPERLIQUID_SPOT_INDEX = re.compile(r':\d+$')
 
+# A Lighter market quoted in any of these is named by its base leg alone; only a
+# foreign-currency quote (USDJPY, USDKRW) puts both legs in the page's symbol.
+_LIGHTER_USD_QUOTES = frozenset({'usd-coin', 'tether', 'usd'})
+
 # Lighter names a few markets differently from the asset's own symbol; FX perps carry
 # the full pair.
 _LIGHTER_SYMBOLS = {
@@ -126,9 +130,10 @@ def _lighter_symbol(asset: str, symbols: Symbols) -> str:
 
 def lighter_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
   """`/trade/<SYMBOL>`, with a contract multiplier's prefix (`1000PEPE`). A market
-  quoted in something other than USDC names both legs (`USDJPY`)."""
+  quoted in a foreign currency names both legs (`USDJPY`); a dollar quote, whichever
+  dollar asset it is, names the base leg alone (`ETH`, `NVDA`)."""
   symbol = _lighter_symbol(str(instrument['base']), symbols)
-  if instrument.get('quote') != 'usd-coin':
+  if instrument.get('quote') not in _LIGHTER_USD_QUOTES:
     symbol += _lighter_symbol(str(instrument['quote']), symbols)
   multiplier = instrument.get('multiplier')
   prefix = str(multiplier) if multiplier is not None else ''
