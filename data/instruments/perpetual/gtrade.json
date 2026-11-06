@@ -332,7 +332,7 @@
     "base": "euro",
     "quote": "australian-dollar",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-AUD"
   },
   "arbitrum-dai:EUR/USD": {
@@ -389,7 +389,7 @@
     "base": "british-pound",
     "quote": "canadian-dollar",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-CAD"
   },
   "arbitrum-dai:GBP/JPY": {
@@ -397,7 +397,7 @@
     "base": "british-pound",
     "quote": "japanese-yen",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-JPY"
   },
   "arbitrum-dai:GBP/USD": {
@@ -989,7 +989,7 @@
     "base": "usd",
     "quote": "canadian-dollar",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CAD"
   },
   "arbitrum-dai:USD/CNH": {
@@ -997,7 +997,7 @@
     "base": "usd",
     "quote": "chinese-yuan",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CNH"
   },
   "arbitrum-dai:USD/JPY": {
@@ -1005,7 +1005,7 @@
     "base": "usd",
     "quote": "japanese-yen",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-JPY"
   },
   "arbitrum-dai:USD/SGD": {
@@ -1013,7 +1013,7 @@
     "base": "usd",
     "quote": "singapore-dollar",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-SGD"
   },
   "arbitrum-dai:USELESS/USD": {
@@ -1536,7 +1536,7 @@
     "base": "euro",
     "quote": "australian-dollar",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-AUD"
   },
   "arbitrum-gns:EUR/USD": {
@@ -1600,7 +1600,7 @@
     "base": "british-pound",
     "quote": "canadian-dollar",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-CAD"
   },
   "arbitrum-gns:GBP/JPY": {
@@ -1608,7 +1608,7 @@
     "base": "british-pound",
     "quote": "japanese-yen",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-JPY"
   },
   "arbitrum-gns:GBP/USD": {
@@ -2284,7 +2284,7 @@
     "base": "usd",
     "quote": "canadian-dollar",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CAD"
   },
   "arbitrum-gns:USD/CNH": {
@@ -2292,7 +2292,7 @@
     "base": "usd",
     "quote": "chinese-yuan",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CNH"
   },
   "arbitrum-gns:USD/JPY": {
@@ -2300,7 +2300,7 @@
     "base": "usd",
     "quote": "japanese-yen",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-JPY"
   },
   "arbitrum-gns:USD/SGD": {
@@ -2308,7 +2308,7 @@
     "base": "usd",
     "quote": "singapore-dollar",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-SGD"
   },
   "arbitrum-gns:USELESS/USD": {
@@ -2832,7 +2832,7 @@
     "base": "euro",
     "quote": "australian-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-AUD"
   },
   "arbitrum-usdc:EUR/USD": {
@@ -2889,7 +2889,7 @@
     "base": "british-pound",
     "quote": "canadian-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-CAD"
   },
   "arbitrum-usdc:GBP/JPY": {
@@ -2897,7 +2897,7 @@
     "base": "british-pound",
     "quote": "japanese-yen",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-JPY"
   },
   "arbitrum-usdc:GBP/USD": {
@@ -3524,7 +3524,7 @@
     "base": "usd",
     "quote": "canadian-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CAD"
   },
   "arbitrum-usdc:USD/CNH": {
@@ -3532,7 +3532,7 @@
     "base": "usd",
     "quote": "chinese-yuan",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CNH"
   },
   "arbitrum-usdc:USD/JPY": {
@@ -3540,7 +3540,7 @@
     "base": "usd",
     "quote": "japanese-yen",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-JPY"
   },
   "arbitrum-usdc:USD/SGD": {
@@ -3548,7 +3548,7 @@
     "base": "usd",
     "quote": "singapore-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-SGD"
   },
   "arbitrum-usdc:USELESS/USD": {
@@ -4085,7 +4085,7 @@
     "base": "euro",
     "quote": "australian-dollar",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-AUD"
   },
   "arbitrum-weth:EUR/USD": {
@@ -4149,7 +4149,7 @@
     "base": "british-pound",
     "quote": "canadian-dollar",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-CAD"
   },
   "arbitrum-weth:GBP/JPY": {
@@ -4157,7 +4157,7 @@
     "base": "british-pound",
     "quote": "japanese-yen",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-JPY"
   },
   "arbitrum-weth:GBP/USD": {
@@ -4833,7 +4833,7 @@
     "base": "usd",
     "quote": "canadian-dollar",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CAD"
   },
   "arbitrum-weth:USD/CNH": {
@@ -4841,7 +4841,7 @@
     "base": "usd",
     "quote": "chinese-yuan",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CNH"
   },
   "arbitrum-weth:USD/JPY": {
@@ -4849,7 +4849,7 @@
     "base": "usd",
     "quote": "japanese-yen",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-JPY"
   },
   "arbitrum-weth:USD/SGD": {
@@ -4857,7 +4857,7 @@
     "base": "usd",
     "quote": "singapore-dollar",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-SGD"
   },
   "arbitrum-weth:USELESS/USD": {
@@ -5227,7 +5227,7 @@
     "base": "euro",
     "quote": "australian-dollar",
     "settlement": "bitcoin-usd-btcfi",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-AUD"
   },
   "base-btcusd:EUR/USD": {
@@ -5270,7 +5270,7 @@
     "base": "british-pound",
     "quote": "canadian-dollar",
     "settlement": "bitcoin-usd-btcfi",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-CAD"
   },
   "base-btcusd:GBP/JPY": {
@@ -5278,7 +5278,7 @@
     "base": "british-pound",
     "quote": "japanese-yen",
     "settlement": "bitcoin-usd-btcfi",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-JPY"
   },
   "base-btcusd:GBP/USD": {
@@ -5765,7 +5765,7 @@
     "base": "usd",
     "quote": "canadian-dollar",
     "settlement": "bitcoin-usd-btcfi",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CAD"
   },
   "base-btcusd:USD/CNH": {
@@ -5773,7 +5773,7 @@
     "base": "usd",
     "quote": "chinese-yuan",
     "settlement": "bitcoin-usd-btcfi",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CNH"
   },
   "base-btcusd:USD/JPY": {
@@ -5781,7 +5781,7 @@
     "base": "usd",
     "quote": "japanese-yen",
     "settlement": "bitcoin-usd-btcfi",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-JPY"
   },
   "base-btcusd:USD/SGD": {
@@ -5789,7 +5789,7 @@
     "base": "usd",
     "quote": "singapore-dollar",
     "settlement": "bitcoin-usd-btcfi",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-SGD"
   },
   "base-btcusd:VET/USD": {
@@ -6244,7 +6244,7 @@
     "base": "euro",
     "quote": "australian-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-AUD"
   },
   "base-usdc:EUR/USD": {
@@ -6301,7 +6301,7 @@
     "base": "british-pound",
     "quote": "canadian-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-CAD"
   },
   "base-usdc:GBP/JPY": {
@@ -6309,7 +6309,7 @@
     "base": "british-pound",
     "quote": "japanese-yen",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-JPY"
   },
   "base-usdc:GBP/USD": {
@@ -6922,7 +6922,7 @@
     "base": "usd",
     "quote": "canadian-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CAD"
   },
   "base-usdc:USD/CNH": {
@@ -6930,7 +6930,7 @@
     "base": "usd",
     "quote": "chinese-yuan",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CNH"
   },
   "base-usdc:USD/JPY": {
@@ -6938,7 +6938,7 @@
     "base": "usd",
     "quote": "japanese-yen",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-JPY"
   },
   "base-usdc:USD/SGD": {
@@ -6946,7 +6946,7 @@
     "base": "usd",
     "quote": "singapore-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-SGD"
   },
   "base-usdc:USELESS/USD": {
@@ -7934,7 +7934,7 @@
     "base": "euro",
     "quote": "australian-dollar",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-AUD"
   },
   "polygon-dai:EUR/USD": {
@@ -7991,7 +7991,7 @@
     "base": "british-pound",
     "quote": "canadian-dollar",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-CAD"
   },
   "polygon-dai:GBP/JPY": {
@@ -7999,7 +7999,7 @@
     "base": "british-pound",
     "quote": "japanese-yen",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-JPY"
   },
   "polygon-dai:GBP/USD": {
@@ -8426,7 +8426,7 @@
     "base": "usd",
     "quote": "canadian-dollar",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CAD"
   },
   "polygon-dai:USD/CNH": {
@@ -8434,7 +8434,7 @@
     "base": "usd",
     "quote": "chinese-yuan",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CNH"
   },
   "polygon-dai:USD/JPY": {
@@ -8442,7 +8442,7 @@
     "base": "usd",
     "quote": "japanese-yen",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-JPY"
   },
   "polygon-dai:USD/SGD": {
@@ -8450,7 +8450,7 @@
     "base": "usd",
     "quote": "singapore-dollar",
     "settlement": "dai",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-SGD"
   },
   "polygon-dai:USELESS/USD": {
@@ -8892,7 +8892,7 @@
     "base": "euro",
     "quote": "australian-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-AUD"
   },
   "polygon-usdc:EUR/USD": {
@@ -8949,7 +8949,7 @@
     "base": "british-pound",
     "quote": "canadian-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-CAD"
   },
   "polygon-usdc:GBP/JPY": {
@@ -8957,7 +8957,7 @@
     "base": "british-pound",
     "quote": "japanese-yen",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-JPY"
   },
   "polygon-usdc:GBP/USD": {
@@ -9419,7 +9419,7 @@
     "base": "usd",
     "quote": "canadian-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CAD"
   },
   "polygon-usdc:USD/CNH": {
@@ -9427,7 +9427,7 @@
     "base": "usd",
     "quote": "chinese-yuan",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CNH"
   },
   "polygon-usdc:USD/JPY": {
@@ -9435,7 +9435,7 @@
     "base": "usd",
     "quote": "japanese-yen",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-JPY"
   },
   "polygon-usdc:USD/SGD": {
@@ -9443,7 +9443,7 @@
     "base": "usd",
     "quote": "singapore-dollar",
     "settlement": "usd-coin",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-SGD"
   },
   "polygon-usdc:USELESS/USD": {
@@ -9918,7 +9918,7 @@
     "base": "euro",
     "quote": "australian-dollar",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-AUD"
   },
   "polygon-weth:EUR/USD": {
@@ -9982,7 +9982,7 @@
     "base": "british-pound",
     "quote": "canadian-dollar",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-CAD"
   },
   "polygon-weth:GBP/JPY": {
@@ -9990,7 +9990,7 @@
     "base": "british-pound",
     "quote": "japanese-yen",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-JPY"
   },
   "polygon-weth:GBP/USD": {
@@ -10477,7 +10477,7 @@
     "base": "usd",
     "quote": "canadian-dollar",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CAD"
   },
   "polygon-weth:USD/CNH": {
@@ -10485,7 +10485,7 @@
     "base": "usd",
     "quote": "chinese-yuan",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-CNH"
   },
   "polygon-weth:USD/JPY": {
@@ -10493,7 +10493,7 @@
     "base": "usd",
     "quote": "japanese-yen",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-JPY"
   },
   "polygon-weth:USD/SGD": {
@@ -10501,7 +10501,7 @@
     "base": "usd",
     "quote": "singapore-dollar",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USD-SGD"
   },
   "polygon-weth:USELESS/USD": {
