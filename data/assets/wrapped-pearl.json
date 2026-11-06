@@ -1,0 +1,19 @@
+{
+  "id": "wrapped-pearl",
+  "display_name": "Wrapped Pearl",
+  "symbol": "WPRL",
+  "category": "crypto",
+  "about": {
+    "en": "Wrapped Pearl is an ERC-20 on Ethereum that represents PRL, the native coin of the Pearl layer-1 blockchain. PearlBridge mints WPRL when native PRL is deposited to its bridge on Pearl and burns it when WPRL is redeemed for PRL, so each WPRL is a claim on PRL held by the bridge, not PRL itself."
+  },
+  "urls": {
+    "Website": "https://pearlbridge.xyz/",
+    "Explorer": "https://etherscan.io/token/0x07696DcaB55E62cfef953666b29Fe1970518cB00"
+  },
+  "external": {
+    "coingecko": "wrapped-pearl"
+  },
+  "pegged_to": {
+    "asset": "pearl"
+  }
+}
