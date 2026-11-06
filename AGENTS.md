@@ -70,6 +70,29 @@ asset equal to size x contract size x price (MEXC `amount24`, QFEX
 the field on every stock perpetual priced in a fiat currency other than the
 settlement's, and rejects it when both are the same currency.
 
+## Perpetual quote is never the settlement by default
+
+A perpetual's `quote` is the currency its **index** tracks; `settlement` is the
+coin it pays out in. Never copy the settlement (or the venue's collateral label)
+into `quote`. On Lighter and Hyperliquid every perpetual settles in USDC (or a
+HIP-3 dex's own collateral) while the index is not USDC:
+
+- Lighter: crypto (including prelaunch tokens such as XTEN, and delisted crypto
+  markets) -> `quote: tether`; stocks, ETFs, commodities, FX and pre-IPO markets
+  -> `quote: usd`. Lighter converts HK$/CN¥/KRW/JPY share prices to USD (TENCENT
+  reads 53 when 0700.HK is HK$420), so Asian stock markets are `usd` too, unless
+  the price really is local (the delisted `SAMSUNG` `140` printed 219,500 KRW:
+  `south-korean-won` with `quanto`). Check `priceOracleInfo` (docs/sdk-native-market-ids.md, "Lighter index sources") and the
+  [market specifications](https://docs.lighter.xyz/trading/real-world-assets-rwas/market-specifications).
+- Hyperliquid: `quote: tether` (HYPE and PURR are the documented USDC
+  exceptions).
+
+`scripts/check_perp_quotes.py` (run in CI through `lib/tests/test_perp_quotes.py`) fails on any Lighter or Hyperliquid
+perpetual with `quote: usd-coin` that `scripts/perp_quote_exceptions.json` does
+not list with evidence. A market whose sources are `internal_price` (Lighter's
+order-book EMA: pre-IPO, prelaunch, or a stock outside its trading hours) still
+gets the quote of its kind, not USDC.
+
 ## Blockchain category and chain id
 
 `namespace` and `chain_id` together form the chain's
@@ -194,7 +217,7 @@ curl -L https://api.hyperliquid.xyz/info \
   --data '{"type":"meta"}'
 ```
 
-For standard perpetuals, add entries to `data/instruments/perpetual/hyperliquid.json` using the `universe[].name` value as the instrument ID, e.g. `HYPE` or `VVV`. In this catalogue, Hyperliquid perpetuals generally use `quote: "tether"` and `settlement: "usd-coin"` unless the specific venue or market requires a different settlement asset.
+For standard perpetuals, add entries to `data/instruments/perpetual/hyperliquid.json` using the `universe[].name` value as the instrument ID, e.g. `HYPE` or `VVV`. In this catalogue, Hyperliquid perpetuals use `quote: "tether"` and `settlement: "usd-coin"` unless the specific venue or market requires a different settlement asset; `quote: "usd-coin"` fails CI unless listed in `scripts/perp_quote_exceptions.json` (see "Perpetual quote is never the settlement by default").
 
 HIP-3 builder-deployed perpetuals use the same API, but Hyperliquid identifies them with a DEX prefix. Use instrument IDs shaped `<DEX>:<COIN>`, e.g. `hyna:SOL` or `flx:XMR`, and set the instrument `exchange` field to the DEX prefix, e.g. `"exchange": "hyna"`. Check the market's collateral/settlement before adding it; HIP-3 examples in this repo include settlement assets such as `ethena-usde` and `hyperliquid-usd`, not only `usd-coin`.
 
