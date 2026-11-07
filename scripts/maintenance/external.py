@@ -192,7 +192,9 @@ def persists(obs: Observations, asset: str, reference: float, deviation: float) 
   reference by more than `PRICE_DEVIATION`.
 
   Earlier slots come from `prices.json` `history`, within `HISTORY` of the current one;
-  each is judged against its own `reference_usd` when it has one.
+  each is judged against its own `reference_usd` when it has one. A row with no
+  timestamp, or a timestamp already counted, confirms nothing, and with no current
+  observation time nothing can be confirmed.
 
   Args:
     obs: The observations.
@@ -201,15 +203,17 @@ def persists(obs: Observations, asset: str, reference: float, deviation: float) 
     deviation: The current signed deviation (implied / reference - 1).
   """
   now = timestamp(obs.get('listings_as_of') or (obs.get('prices') or {}).get('as_of'))
-  slots = 1
+  if now is None:
+    return 1
+  seen = set()
   for row in prices.history(obs, asset):
     at = timestamp(row.get('ts'))
-    if now is not None and at is not None and not timedelta(0) < now - at <= HISTORY:
+    if at is None or at in seen or not timedelta(0) < now - at <= HISTORY:
       continue
     then = float(row['implied_usd']) / float(row.get('reference_usd') or reference) - 1
     if abs(then) > PRICE_DEVIATION and (then > 0) == (deviation > 0):
-      slots += 1
-  return slots
+      seen.add(at)
+  return 1 + len(seen)
 
 
 def mismatched(

@@ -10,8 +10,12 @@ from .finding import Finding, make, market_subject
 from .observations import Market, Observations
 
 
-SETTLEMENT_LABELLED = set(check_perp_quotes.PLATFORMS)
-"""Platforms whose perpetuals' venue "quote" is always their settlement coin."""
+SETTLEMENT_LABELLED = {*check_perp_quotes.PLATFORMS, 'deribit', 'dydx', 'extended'}
+"""Platforms whose perpetuals' venue "quote" is always their settlement coin. Besides
+Lighter and Hyperliquid: Deribit's linear `BTC_USDC-PERPETUAL` (quote_currency USDC,
+index in USD), Extended's `BTC-USD` (its `USD` is the USDC collateral and translates
+to usd-coin) and dYdX's `-USD` markets, all USDC-margined and USD-indexed in the
+catalogue (`quote: usd`, `settlement: usd-coin`)."""
 
 
 def labels_settlement(instrument: dict[str, Any], platform: str) -> bool:
