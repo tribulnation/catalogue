@@ -56,6 +56,17 @@ class HyperliquidTest(unittest.TestCase):
     self.assertNotIn('draft', found['untranslated-market:hyperliquid:xyz:xyz:ODD']['evidence'])
 
 
+  def test_hip3_delisted_flag_gets_no_draft(self):
+    """On a HIP-3 dex isDelisted also means "not open yet" (#401): report, don't draft."""
+    catalogue_ = {'io:NVDA': {'exchange': 'io', 'base': 'nvidia'}, 'TON': {'exchange': '', 'base': 'ton'}}
+    venue = {'io:NVDA': market('io:NVDA', dex='io', delisted=True), 'TON': market('TON', delisted=True)}
+    found = {f['fingerprint']: f for f in hyperliquid.findings(hyperliquid.Report(), catalogue_, venue)}
+    nvda = found['stale-listing:hyperliquid:io:io:NVDA']
+    self.assertEqual(nvda['severity'], 'low')
+    self.assertNotIn('draft', nvda['evidence'])
+    self.assertEqual(found['stale-listing:hyperliquid::TON']['evidence']['draft']['set'], {'delisted': True})
+
+
 class GtradeTest(unittest.TestCase):
 
   def test_findings(self):

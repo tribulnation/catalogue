@@ -305,7 +305,8 @@ def findings(report: Report, catalogue: dict[str, dict], venue: dict[str, Market
   """The report as maintenance findings (`--report-json`), with the drafts `--write`/`--add` would apply.
 
   Flag flips become `stale-listing`/`delisted-live` (a market the venue no longer returns
-  gets no draft: it is reported, not changed), candidates and unresolved listed markets
+  gets no draft: it is reported, not changed; nor does a HIP-3 market the venue flags
+  delisted, which can mean not open yet, and it is low), candidates and unresolved listed markets
   `untranslated-market`. A missing market the venue marks delisted gives none.
   """
   out = []
@@ -317,6 +318,15 @@ def findings(report: Report, catalogue: dict[str, dict], venue: dict[str, Market
       venue_delisted=None if market is None else market.delisted,
       evidence={} if market is None else {'open_interest': market.open_interest, 'volume': market.volume},
     )
+    if found is not None and market is not None and market.dex and market.delisted and found['check'] == 'stale-listing':
+      # On a HIP-3 dex isDelisted also means "registered, not open yet" (see the module
+      # docstring): io:NVDA, io:AAPL, io:CRCL and para:ANTH were wrongly delisted that way
+      # (#401). Report it for a person, with no draft to apply.
+      found = {
+        **found, 'severity': 'low',
+        'summary': found['summary'] + ' (HIP-3: isDelisted may mean not open yet)',
+        'evidence': {k: v for k, v in found['evidence'].items() if k != 'draft'} | {'ambiguous': 'hip3-not-open-or-delisted'},
+      }
     if found is not None:
       out.append(found)
   for name, market in venue.items():
