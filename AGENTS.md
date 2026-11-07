@@ -221,6 +221,8 @@ For standard perpetuals, add entries to `data/instruments/perpetual/hyperliquid.
 
 HIP-3 builder-deployed perpetuals use the same API, but Hyperliquid identifies them with a DEX prefix. Use instrument IDs shaped `<DEX>:<COIN>`, e.g. `hyna:SOL` or `flx:XMR`, and set the instrument `exchange` field to the DEX prefix, e.g. `"exchange": "hyna"`. Check the market's collateral/settlement before adding it; HIP-3 examples in this repo include settlement assets such as `ethena-usde` and `hyperliquid-usd`, not only `usd-coin`.
 
+A Hyperliquid perpetual is `delisted` only when its `universe[]` entry in `meta` / `metaAndAssetCtxs` (with `dex`) has `isDelisted: true`. Zero open interest or zero 24h volume is not a delisting: HIP-3 deployers register markets before they open, so a market added that day can have no trades yet. io:NVDA, io:AAPL, io:CRCL and para:ANTH were marked delisted that way and then traded. `scripts/check_hyperliquid_delisted.py` (read-only, needs the network) lists every disagreement in both directions.
+
 Spot instrument IDs use Hyperliquid spot names from the `spotMeta` response. Enumerate spot markets with:
 
 ```sh
