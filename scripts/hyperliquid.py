@@ -13,7 +13,9 @@ every perp dex (`perpDexs`) and, per dex, its markets and their collateral
   identity is in doubt, each with what was found and what would change the decision.
   A watched market is reported as changed once it trades, its circulating supply
   differs from the recorded one, or its HyperEVM contract gets a nonzero supply.
-  `--check-watch` exits 1 on a change, so a scheduled run can fail loudly.
+  `--check-watch` exits 1 on a change (or when the watch could not be read) and
+  then ignores flag disagreements, so a scheduled run can fail loudly on the watch
+  alone.
 
     # report only (exit 1 when a flag disagrees)
     PYTHONPATH=lib/src .venv/bin/python scripts/hyperliquid.py
@@ -299,7 +301,8 @@ def main() -> None:
   parser.add_argument('--write', action='store_true', help='set delisted flags from isDelisted')
   parser.add_argument('--add', action='store_true', help='append the missing markets that pass every gate')
   parser.add_argument('--markdown', type=Path, help='also write the report as Markdown to this file')
-  parser.add_argument('--check-watch', action='store_true', help='exit 1 when a watched market changed')
+  parser.add_argument('--check-watch', action='store_true',
+                      help='exit 1 when a watched market changed or could not be read; the exit status then ignores flag disagreements')
   args = parser.parse_args()
 
   path = args.data / 'instruments/perpetual/hyperliquid.json'
@@ -309,7 +312,10 @@ def main() -> None:
   report = build_report(catalogue, venue, load_assets(args.data / 'assets'), collateral)
 
   entries = json.loads(WATCH.read_text())
-  changes = watch(entries, spot_contexts(), token_details, evm_supply)
+  try:
+    changes = watch(entries, spot_contexts(), token_details, evm_supply)
+  except Exception as error:  # a watch outage must not block the flag sync
+    changes = {name: [f'could not be read ({error})'] for name in entries}
   text = markdown(report, venue) + watch_markdown(entries, changes)
   print(text, end='')
   if args.markdown:
@@ -322,8 +328,8 @@ def main() -> None:
     path.write_text(json.dumps(catalogue, ensure_ascii=False, indent=2) + '\n')
     print(f'Wrote {path.relative_to(ROOT) if path.is_relative_to(ROOT) else path}: '
           f'{len(changed)} flag(s) changed, {len(report.candidates) if args.add else 0} market(s) added', file=sys.stderr)
-  if args.check_watch and any(changes.values()):
-    sys.exit(1)
+  if args.check_watch:
+    sys.exit(1 if any(changes.values()) else 0)
   sys.exit(1 if report.flips and not args.write else 0)
 
 

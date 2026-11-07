@@ -4,7 +4,7 @@
     "token_id": "0xf5543d6f4bb2078fc9de97905d838faf",
     "evm_contract": "0xb0c51c52b714ac92555cc8abc487629858dcf86b",
     "circulating_supply": "9000000000.0",
-    "unmapped_because": "Spot token 1275 (QTC, 'Quantus') matches Quantus (CoinGecko quantus, 21M hard cap) by name and ticker only: Hyperliquid reports 9e9 supply minted at genesis to one address, the HyperEVM contract's totalSupply() is 0, and the pair has never traded. Left unmapped in #395 (catalogue-ops #393 finding 1).",
+    "unmapped_because": "Spot token 1275 (QTC, 'Quantus') matches Quantus (CoinGecko quantus, 21M hard cap) by name and ticker only: Hyperliquid reports 9e9 supply minted at genesis to its HyperEVM system address 0x2000...04fb, the HyperEVM contract's totalSupply() is 0, and the pair has never traded. Left unmapped in #395 (catalogue-ops #393 finding 1).",
     "map_when": "Quantus confirms a HyperEVM or Hyperliquid deployment at this token, or the pair trades near the Quantus price with the supply reconciled to the 21M cap."
   }
 }

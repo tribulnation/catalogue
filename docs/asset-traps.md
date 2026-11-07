@@ -73,10 +73,13 @@ HIP-1 token 1275 calls itself `QTC` / "Quantus", and its HyperEVM contract
 `name() = "Quantus"` and the 12 decimals of the real coin. Everything else
 contradicts the identity (read 2026-11-06/07):
 
-- `tokenDetails` reports `maxSupply = totalSupply = circulatingSupply = 9,000,000,000`,
-  all minted at genesis to one address. Quantus is a proof-of-work L1 with a
+- `tokenDetails` reports `maxSupply = totalSupply = circulatingSupply = 9,000,000,000`
+  (on 11-06 `spotMetaAndAssetCtxs` still showed a circulating supply of 0 and a mark
+  of 0.5; on 11-07 9e9 and 57.5), all minted at genesis to
+  `0x20000000000000000000000000000000000004fb`, the token's HyperCore-to-HyperEVM
+  system address. Quantus is a proof-of-work L1 with a
   21,000,000 hard cap ([quantus.com](https://www.quantus.com/), CoinGecko `max_supply`).
-- `totalSupply()` on the HyperEVM contract is 0: nothing was ever bridged in.
+- Yet `totalSupply()` on the HyperEVM contract is 0: the EVM side holds none of it.
 - The pair has never traded (`dayNtlVlm 0`); its placeholder mark is far from Quantus.
 
 So `QTC/USDC:1188` and token 1275 stay unmapped (catalogue-ops #393 finding 1,
