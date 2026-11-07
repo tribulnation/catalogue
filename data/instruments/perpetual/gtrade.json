@@ -4,328 +4,329 @@
     "base": "1inch",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#1INCH-USD"
+    "delisted": true
   },
   "arbitrum-dai:AAPL/USD": {
     "exchange": "arbitrum-dai",
     "base": "apple",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#AAPL-USD"
+    "delisted": true
   },
   "arbitrum-dai:AAVE/USD": {
     "exchange": "arbitrum-dai",
     "base": "aave",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#AAVE-USD"
+    "delisted": true
   },
   "arbitrum-dai:ADA/USD": {
     "exchange": "arbitrum-dai",
     "base": "cardano",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ADA-USD"
+    "delisted": true
   },
   "arbitrum-dai:AERO/USD": {
     "exchange": "arbitrum-dai",
     "base": "aerodrome",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#AERO-USD"
+    "delisted": true
   },
   "arbitrum-dai:ALGO/USD": {
     "exchange": "arbitrum-dai",
     "base": "algorand",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ALGO-USD"
+    "delisted": true
   },
   "arbitrum-dai:AMD/USD": {
     "exchange": "arbitrum-dai",
     "base": "advanced-micro-devices",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#AMD-USD"
+    "delisted": true
   },
   "arbitrum-dai:AMZN_1/USD": {
     "exchange": "arbitrum-dai",
     "base": "amazon",
     "quote": "usd",
-    "settlement": "dai"
+    "settlement": "dai",
+    "delisted": true
   },
   "arbitrum-dai:APE/USD": {
     "exchange": "arbitrum-dai",
     "base": "apecoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#APE-USD"
+    "delisted": true
   },
   "arbitrum-dai:APT/USD": {
     "exchange": "arbitrum-dai",
     "base": "aptos",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#APT-USD"
+    "delisted": true
   },
   "arbitrum-dai:AR/USD": {
     "exchange": "arbitrum-dai",
     "base": "arweave",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#AR-USD"
+    "delisted": true
   },
   "arbitrum-dai:ARB/USD": {
     "exchange": "arbitrum-dai",
     "base": "arbitrum",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ARB-USD"
+    "delisted": true
   },
   "arbitrum-dai:ASTER/USD": {
     "exchange": "arbitrum-dai",
     "base": "aster",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ASTER-USD"
+    "delisted": true
   },
   "arbitrum-dai:ATOM/USD": {
     "exchange": "arbitrum-dai",
     "base": "cosmos",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ATOM-USD"
+    "delisted": true
   },
   "arbitrum-dai:AVAX/USD": {
     "exchange": "arbitrum-dai",
     "base": "avalanche",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#AVAX-USD"
+    "delisted": true
   },
   "arbitrum-dai:AVGO/USD": {
     "exchange": "arbitrum-dai",
     "base": "broadcom",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#AVGO-USD"
+    "delisted": true
   },
   "arbitrum-dai:B/USD": {
     "exchange": "arbitrum-dai",
     "base": "build-on",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#B-USD"
+    "delisted": true
   },
   "arbitrum-dai:BANANAS31/USD": {
     "exchange": "arbitrum-dai",
     "base": "banana-for-scale",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BANANAS31-USD"
+    "delisted": true
   },
   "arbitrum-dai:BAT/USD": {
     "exchange": "arbitrum-dai",
     "base": "basic-attention-token",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BAT-USD"
+    "delisted": true
   },
   "arbitrum-dai:BCH/USD": {
     "exchange": "arbitrum-dai",
     "base": "bitcoin-cash",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BCH-USD"
+    "delisted": true
   },
   "arbitrum-dai:BE/USD": {
     "exchange": "arbitrum-dai",
     "base": "bloom-energy",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BE-USD"
+    "delisted": true
   },
   "arbitrum-dai:BNB/USD": {
     "exchange": "arbitrum-dai",
     "base": "bnb",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BNB-USD"
+    "delisted": true
   },
   "arbitrum-dai:BONK/USD": {
     "exchange": "arbitrum-dai",
     "base": "bonk",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BONK-USD"
+    "delisted": true
   },
   "arbitrum-dai:BSV/USD": {
     "exchange": "arbitrum-dai",
     "base": "bitcoin-cash-sv",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BSV-USD"
+    "delisted": true
   },
   "arbitrum-dai:BTC/USD": {
     "exchange": "arbitrum-dai",
     "base": "bitcoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BTC-USD"
+    "delisted": true
   },
   "arbitrum-dai:CAKE/USD": {
     "exchange": "arbitrum-dai",
     "base": "pancakeswap",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CAKE-USD"
+    "delisted": true
   },
   "arbitrum-dai:CASHCAT/USD": {
     "exchange": "arbitrum-dai",
     "base": "cash-cat",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CASHCAT-USD"
+    "delisted": true
   },
   "arbitrum-dai:CFX/USD": {
     "exchange": "arbitrum-dai",
     "base": "conflux",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CFX-USD"
+    "delisted": true
   },
   "arbitrum-dai:CHIP/USD": {
     "exchange": "arbitrum-dai",
     "base": "usd-ai",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CHIP-USD"
+    "delisted": true
   },
   "arbitrum-dai:CHZ/USD": {
     "exchange": "arbitrum-dai",
     "base": "chiliz",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CHZ-USD"
+    "delisted": true
   },
   "arbitrum-dai:COIN/USD": {
     "exchange": "arbitrum-dai",
     "base": "coinbase",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#COIN-USD"
+    "delisted": true
   },
   "arbitrum-dai:COMP/USD": {
     "exchange": "arbitrum-dai",
     "base": "compound",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#COMP-USD"
+    "delisted": true
   },
   "arbitrum-dai:CRCL/USD": {
     "exchange": "arbitrum-dai",
     "base": "circle-internet-group",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CRCL-USD"
+    "delisted": true
   },
   "arbitrum-dai:CRO/USD": {
     "exchange": "arbitrum-dai",
     "base": "cronos",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CRO-USD"
+    "delisted": true
   },
   "arbitrum-dai:CRV/USD": {
     "exchange": "arbitrum-dai",
     "base": "curve-dao",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CRV-USD"
+    "delisted": true
   },
   "arbitrum-dai:CRWV/USD": {
     "exchange": "arbitrum-dai",
     "base": "coreweave",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CRWV-USD"
+    "delisted": true
   },
   "arbitrum-dai:DASH/USD": {
     "exchange": "arbitrum-dai",
     "base": "dash",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#DASH-USD"
+    "delisted": true
   },
   "arbitrum-dai:DIA/USD": {
     "exchange": "arbitrum-dai",
     "base": "spdr-dow-jones-industrial-average-etf",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#DIA-USD"
+    "delisted": true
   },
   "arbitrum-dai:DOGE/USD": {
     "exchange": "arbitrum-dai",
     "base": "dogecoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#DOGE-USD"
+    "delisted": true
   },
   "arbitrum-dai:DOT/USD": {
     "exchange": "arbitrum-dai",
     "base": "polkadot",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#DOT-USD"
+    "delisted": true
   },
   "arbitrum-dai:EGLD/USD": {
     "exchange": "arbitrum-dai",
     "base": "multiversx",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#EGLD-USD"
+    "delisted": true
   },
   "arbitrum-dai:EIGEN/USD": {
     "exchange": "arbitrum-dai",
     "base": "eigen-layer",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#EIGEN-USD"
+    "delisted": true
   },
   "arbitrum-dai:ENA/USD": {
     "exchange": "arbitrum-dai",
     "base": "ethena",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ENA-USD"
+    "delisted": true
   },
   "arbitrum-dai:ENS/USD": {
     "exchange": "arbitrum-dai",
     "base": "ethereum-name-service",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ENS-USD"
+    "delisted": true
   },
   "arbitrum-dai:ETC/USD": {
     "exchange": "arbitrum-dai",
     "base": "ethereum-classic",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ETC-USD"
+    "delisted": true
   },
   "arbitrum-dai:ETH/USD": {
     "exchange": "arbitrum-dai",
     "base": "ethereum",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ETH-USD"
+    "delisted": true
   },
   "arbitrum-dai:ETHFI/USD": {
     "exchange": "arbitrum-dai",
     "base": "ether-fi",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ETHFI-USD"
+    "delisted": true
   },
   "arbitrum-dai:EUR/AUD": {
     "exchange": "arbitrum-dai",
@@ -333,56 +334,56 @@
     "quote": "australian-dollar",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#EUR-AUD"
+    "delisted": true
   },
   "arbitrum-dai:EUR/USD": {
     "exchange": "arbitrum-dai",
     "base": "euro",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#EUR-USD"
+    "delisted": true
   },
   "arbitrum-dai:FARTCOIN/USD": {
     "exchange": "arbitrum-dai",
     "base": "fartcoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#FARTCOIN-USD"
+    "delisted": true
   },
   "arbitrum-dai:FET/USD": {
     "exchange": "arbitrum-dai",
     "base": "fetch-ai",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#FET-USD"
+    "delisted": true
   },
   "arbitrum-dai:FIL/USD": {
     "exchange": "arbitrum-dai",
     "base": "filecoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#FIL-USD"
+    "delisted": true
   },
   "arbitrum-dai:FLOKI/USD": {
     "exchange": "arbitrum-dai",
     "base": "floki",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#FLOKI-USD"
+    "delisted": true
   },
   "arbitrum-dai:FLUID/USD": {
     "exchange": "arbitrum-dai",
     "base": "fluid",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#FLUID-USD"
+    "delisted": true
   },
   "arbitrum-dai:GALA/USD": {
     "exchange": "arbitrum-dai",
     "base": "gala",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#GALA-USD"
+    "delisted": true
   },
   "arbitrum-dai:GBP/CAD": {
     "exchange": "arbitrum-dai",
@@ -390,7 +391,7 @@
     "quote": "canadian-dollar",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#GBP-CAD"
+    "delisted": true
   },
   "arbitrum-dai:GBP/JPY": {
     "exchange": "arbitrum-dai",
@@ -398,591 +399,595 @@
     "quote": "japanese-yen",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#GBP-JPY"
+    "delisted": true
   },
   "arbitrum-dai:GBP/USD": {
     "exchange": "arbitrum-dai",
     "base": "british-pound",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#GBP-USD"
+    "delisted": true
   },
   "arbitrum-dai:GDX/USD": {
     "exchange": "arbitrum-dai",
     "base": "vaneck-gold-miners-etf",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#GDX-USD"
+    "delisted": true
   },
   "arbitrum-dai:GME_1/USD": {
     "exchange": "arbitrum-dai",
     "base": "gamestop",
     "quote": "usd",
-    "settlement": "dai"
+    "settlement": "dai",
+    "delisted": true
   },
   "arbitrum-dai:GOOGL_1/USD": {
     "exchange": "arbitrum-dai",
     "base": "alphabet",
     "quote": "usd",
-    "settlement": "dai"
+    "settlement": "dai",
+    "delisted": true
   },
   "arbitrum-dai:GRASS/USD": {
     "exchange": "arbitrum-dai",
     "base": "grass",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#GRASS-USD"
+    "delisted": true
   },
   "arbitrum-dai:GRT/USD": {
     "exchange": "arbitrum-dai",
     "base": "the-graph",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#GRT-USD"
+    "delisted": true
   },
   "arbitrum-dai:HBAR/USD": {
     "exchange": "arbitrum-dai",
     "base": "hedera",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#HBAR-USD"
+    "delisted": true
   },
   "arbitrum-dai:HOOD/USD": {
     "exchange": "arbitrum-dai",
     "base": "robinhood-markets",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#HOOD-USD"
+    "delisted": true
   },
   "arbitrum-dai:HYPE/USD": {
     "exchange": "arbitrum-dai",
     "base": "hyperliquid",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#HYPE-USD"
+    "delisted": true
   },
   "arbitrum-dai:ICP/USD": {
     "exchange": "arbitrum-dai",
     "base": "internet-computer",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ICP-USD"
+    "delisted": true
   },
   "arbitrum-dai:IMX/USD": {
     "exchange": "arbitrum-dai",
     "base": "immutable-x",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#IMX-USD"
+    "delisted": true
   },
   "arbitrum-dai:INJ/USD": {
     "exchange": "arbitrum-dai",
     "base": "injective",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#INJ-USD"
+    "delisted": true
   },
   "arbitrum-dai:INTC/USD": {
     "exchange": "arbitrum-dai",
     "base": "intel",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#INTC-USD"
+    "delisted": true
   },
   "arbitrum-dai:IREN/USD": {
     "exchange": "arbitrum-dai",
     "base": "iren",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#IREN-USD"
+    "delisted": true
   },
   "arbitrum-dai:IWM/USD": {
     "exchange": "arbitrum-dai",
     "base": "ishares-russell-2000-etf",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#IWM-USD"
+    "delisted": true
   },
   "arbitrum-dai:JASMY/USD": {
     "exchange": "arbitrum-dai",
     "base": "jasmycoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#JASMY-USD"
+    "delisted": true
   },
   "arbitrum-dai:JPM/USD": {
     "exchange": "arbitrum-dai",
     "base": "jpmorgan-chase",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#JPM-USD"
+    "delisted": true
   },
   "arbitrum-dai:JTO/USD": {
     "exchange": "arbitrum-dai",
     "base": "jito",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#JTO-USD"
+    "delisted": true
   },
   "arbitrum-dai:JUP/USD": {
     "exchange": "arbitrum-dai",
     "base": "jupiter",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#JUP-USD"
+    "delisted": true
   },
   "arbitrum-dai:KAS/USD": {
     "exchange": "arbitrum-dai",
     "base": "kaspa",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#KAS-USD"
+    "delisted": true
   },
   "arbitrum-dai:LDO/USD": {
     "exchange": "arbitrum-dai",
     "base": "lido-dao",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#LDO-USD"
+    "delisted": true
   },
   "arbitrum-dai:LINK/USD": {
     "exchange": "arbitrum-dai",
     "base": "chainlink",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#LINK-USD"
+    "delisted": true
   },
   "arbitrum-dai:LIT/USD": {
     "exchange": "arbitrum-dai",
     "base": "lighter",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#LIT-USD"
+    "delisted": true
   },
   "arbitrum-dai:LMT/USD": {
     "exchange": "arbitrum-dai",
     "base": "lockheed-martin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#LMT-USD"
+    "delisted": true
   },
   "arbitrum-dai:LPT/USD": {
     "exchange": "arbitrum-dai",
     "base": "livepeer",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#LPT-USD"
+    "delisted": true
   },
   "arbitrum-dai:LTC/USD": {
     "exchange": "arbitrum-dai",
     "base": "litecoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#LTC-USD"
+    "delisted": true
   },
   "arbitrum-dai:MANA/USD": {
     "exchange": "arbitrum-dai",
     "base": "decentraland",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MANA-USD"
+    "delisted": true
   },
   "arbitrum-dai:MARA/USD": {
     "exchange": "arbitrum-dai",
     "base": "mara-holdings",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MARA-USD"
+    "delisted": true
   },
   "arbitrum-dai:MCD/USD": {
     "exchange": "arbitrum-dai",
     "base": "mcdonalds",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MCD-USD"
+    "delisted": true
   },
   "arbitrum-dai:MEGA/USD": {
     "exchange": "arbitrum-dai",
     "base": "megaeth",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MEGA-USD"
+    "delisted": true
   },
   "arbitrum-dai:MELANIA/USD": {
     "exchange": "arbitrum-dai",
     "base": "melania-meme",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MELANIA-USD"
+    "delisted": true
   },
   "arbitrum-dai:META/USD": {
     "exchange": "arbitrum-dai",
     "base": "meta-platforms",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#META-USD"
+    "delisted": true
   },
   "arbitrum-dai:MNT/USD": {
     "exchange": "arbitrum-dai",
     "base": "mantle",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MNT-USD"
+    "delisted": true
   },
   "arbitrum-dai:MON/USD": {
     "exchange": "arbitrum-dai",
     "base": "monad",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MON-USD"
+    "delisted": true
   },
   "arbitrum-dai:MRVL/USD": {
     "exchange": "arbitrum-dai",
     "base": "marvell-technology",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MRVL-USD"
+    "delisted": true
   },
   "arbitrum-dai:MSFT/USD": {
     "exchange": "arbitrum-dai",
     "base": "microsoft",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MSFT-USD"
+    "delisted": true
   },
   "arbitrum-dai:MSTR/USD": {
     "exchange": "arbitrum-dai",
     "base": "microstrategy",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MSTR-USD"
+    "delisted": true
   },
   "arbitrum-dai:MU/USD": {
     "exchange": "arbitrum-dai",
     "base": "micron-technology",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MU-USD"
+    "delisted": true
   },
   "arbitrum-dai:NBIS/USD": {
     "exchange": "arbitrum-dai",
     "base": "nebius-group",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#NBIS-USD"
+    "delisted": true
   },
   "arbitrum-dai:NEAR/USD": {
     "exchange": "arbitrum-dai",
     "base": "near",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#NEAR-USD"
+    "delisted": true
   },
   "arbitrum-dai:NFLX_1/USD": {
     "exchange": "arbitrum-dai",
     "base": "netflix",
     "quote": "usd",
-    "settlement": "dai"
+    "settlement": "dai",
+    "delisted": true
   },
   "arbitrum-dai:NVDA/USD": {
     "exchange": "arbitrum-dai",
     "base": "nvidia",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#NVDA-USD"
+    "delisted": true
   },
   "arbitrum-dai:OKB/USD": {
     "exchange": "arbitrum-dai",
     "base": "okb",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#OKB-USD"
+    "delisted": true
   },
   "arbitrum-dai:ONDO/USD": {
     "exchange": "arbitrum-dai",
     "base": "ondo",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ONDO-USD"
+    "delisted": true
   },
   "arbitrum-dai:OP/USD": {
     "exchange": "arbitrum-dai",
     "base": "optimism",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#OP-USD"
+    "delisted": true
   },
   "arbitrum-dai:PENDLE/USD": {
     "exchange": "arbitrum-dai",
     "base": "pendle",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PENDLE-USD"
+    "delisted": true
   },
   "arbitrum-dai:PENGU/USD": {
     "exchange": "arbitrum-dai",
     "base": "pudgy-penguins",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PENGU-USD"
+    "delisted": true
   },
   "arbitrum-dai:PEPE/USD": {
     "exchange": "arbitrum-dai",
     "base": "pepe",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PEPE-USD"
+    "delisted": true
   },
   "arbitrum-dai:PLTR/USD": {
     "exchange": "arbitrum-dai",
     "base": "palantir-technologies",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PLTR-USD"
+    "delisted": true
   },
   "arbitrum-dai:POL/USD": {
     "exchange": "arbitrum-dai",
     "base": "polygon",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#POL-USD"
+    "delisted": true
   },
   "arbitrum-dai:PUMP/USD": {
     "exchange": "arbitrum-dai",
     "base": "pump",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PUMP-USD"
+    "delisted": true
   },
   "arbitrum-dai:PYPL/USD": {
     "exchange": "arbitrum-dai",
     "base": "paypal",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PYPL-USD"
+    "delisted": true
   },
   "arbitrum-dai:PYTH/USD": {
     "exchange": "arbitrum-dai",
     "base": "pyth-network",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PYTH-USD"
+    "delisted": true
   },
   "arbitrum-dai:QNT/USD": {
     "exchange": "arbitrum-dai",
     "base": "quant",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#QNT-USD"
+    "delisted": true
   },
   "arbitrum-dai:QQQ/USD": {
     "exchange": "arbitrum-dai",
     "base": "invesco-qqq",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#QQQ-USD"
+    "delisted": true
   },
   "arbitrum-dai:RAY/USD": {
     "exchange": "arbitrum-dai",
     "base": "raydium",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#RAY-USD"
+    "delisted": true
   },
   "arbitrum-dai:RE/USD": {
     "exchange": "arbitrum-dai",
     "base": "re",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#RE-USD"
+    "delisted": true
   },
   "arbitrum-dai:RIOT/USD": {
     "exchange": "arbitrum-dai",
     "base": "riot-platforms",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#RIOT-USD"
+    "delisted": true
   },
   "arbitrum-dai:RNDR/USD": {
     "exchange": "arbitrum-dai",
     "base": "render",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#RNDR-USD"
+    "delisted": true
   },
   "arbitrum-dai:S/USD": {
     "exchange": "arbitrum-dai",
     "base": "sonic",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#S-USD"
+    "delisted": true
   },
   "arbitrum-dai:SAND/USD": {
     "exchange": "arbitrum-dai",
     "base": "the-sandbox",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SAND-USD"
+    "delisted": true
   },
   "arbitrum-dai:SEI/USD": {
     "exchange": "arbitrum-dai",
     "base": "sei",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SEI-USD"
+    "delisted": true
   },
   "arbitrum-dai:SHIB/USD": {
     "exchange": "arbitrum-dai",
     "base": "shiba-inu",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SHIB-USD"
+    "delisted": true
   },
   "arbitrum-dai:SKY/USD": {
     "exchange": "arbitrum-dai",
     "base": "sky",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SKY-USD"
+    "delisted": true
   },
   "arbitrum-dai:SNAP/USD": {
     "exchange": "arbitrum-dai",
     "base": "snap-inc",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SNAP-USD"
+    "delisted": true
   },
   "arbitrum-dai:SNDK/USD": {
     "exchange": "arbitrum-dai",
     "base": "sandisk",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SNDK-USD"
+    "delisted": true
   },
   "arbitrum-dai:SOL/USD": {
     "exchange": "arbitrum-dai",
     "base": "solana",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SOL-USD"
+    "delisted": true
   },
   "arbitrum-dai:SPCX/USD": {
     "exchange": "arbitrum-dai",
     "base": "spacex",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SPCX-USD"
+    "delisted": true
   },
   "arbitrum-dai:SPY/USD": {
     "exchange": "arbitrum-dai",
     "base": "spdr-sp500-etf-trust",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SPY-USD"
+    "delisted": true
   },
   "arbitrum-dai:STRK/USD": {
     "exchange": "arbitrum-dai",
     "base": "starknet",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#STRK-USD"
+    "delisted": true
   },
   "arbitrum-dai:STX/USD": {
     "exchange": "arbitrum-dai",
     "base": "stacks",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#STX-USD"
+    "delisted": true
   },
   "arbitrum-dai:SUI/USD": {
     "exchange": "arbitrum-dai",
     "base": "sui",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SUI-USD"
+    "delisted": true
   },
   "arbitrum-dai:SUN/USD": {
     "exchange": "arbitrum-dai",
     "base": "sun-token",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SUN-USD"
+    "delisted": true
   },
   "arbitrum-dai:SYRUP/USD": {
     "exchange": "arbitrum-dai",
     "base": "syrup",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SYRUP-USD"
+    "delisted": true
   },
   "arbitrum-dai:TAO/USD": {
     "exchange": "arbitrum-dai",
     "base": "bittensor",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TAO-USD"
+    "delisted": true
   },
   "arbitrum-dai:THETA/USD": {
     "exchange": "arbitrum-dai",
     "base": "theta-token",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#THETA-USD"
+    "delisted": true
   },
   "arbitrum-dai:TIA/USD": {
     "exchange": "arbitrum-dai",
     "base": "celestia",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TIA-USD"
+    "delisted": true
   },
   "arbitrum-dai:TON/USD": {
     "exchange": "arbitrum-dai",
     "base": "toncoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TON-USD"
+    "delisted": true
   },
   "arbitrum-dai:TRUMP/USD": {
     "exchange": "arbitrum-dai",
     "base": "official-trump",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TRUMP-USD"
+    "delisted": true
   },
   "arbitrum-dai:TRX/USD": {
     "exchange": "arbitrum-dai",
     "base": "tron",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TRX-USD"
+    "delisted": true
   },
   "arbitrum-dai:TSLA_1/USD": {
     "exchange": "arbitrum-dai",
     "base": "tesla",
     "quote": "usd",
-    "settlement": "dai"
+    "settlement": "dai",
+    "delisted": true
   },
   "arbitrum-dai:TWT/USD": {
     "exchange": "arbitrum-dai",
     "base": "trust-wallet-token",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TWT-USD"
+    "delisted": true
   },
   "arbitrum-dai:UNI/USD": {
     "exchange": "arbitrum-dai",
     "base": "uniswap",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#UNI-USD"
+    "delisted": true
   },
   "arbitrum-dai:URA/USD": {
     "exchange": "arbitrum-dai",
     "base": "global-x-uranium-etf",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#URA-USD"
+    "delisted": true
   },
   "arbitrum-dai:USD/CAD": {
     "exchange": "arbitrum-dai",
@@ -990,7 +995,7 @@
     "quote": "canadian-dollar",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#USD-CAD"
+    "delisted": true
   },
   "arbitrum-dai:USD/CNH": {
     "exchange": "arbitrum-dai",
@@ -998,7 +1003,7 @@
     "quote": "chinese-yuan",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#USD-CNH"
+    "delisted": true
   },
   "arbitrum-dai:USD/JPY": {
     "exchange": "arbitrum-dai",
@@ -1006,7 +1011,7 @@
     "quote": "japanese-yen",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#USD-JPY"
+    "delisted": true
   },
   "arbitrum-dai:USD/SGD": {
     "exchange": "arbitrum-dai",
@@ -1014,147 +1019,147 @@
     "quote": "singapore-dollar",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#USD-SGD"
+    "delisted": true
   },
   "arbitrum-dai:USELESS/USD": {
     "exchange": "arbitrum-dai",
     "base": "useless-coin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#USELESS-USD"
+    "delisted": true
   },
   "arbitrum-dai:VET/USD": {
     "exchange": "arbitrum-dai",
     "base": "vechain",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#VET-USD"
+    "delisted": true
   },
   "arbitrum-dai:VIRTUAL/USD": {
     "exchange": "arbitrum-dai",
     "base": "virtuals-protocol",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#VIRTUAL-USD"
+    "delisted": true
   },
   "arbitrum-dai:VVV/USD": {
     "exchange": "arbitrum-dai",
     "base": "venice-token",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#VVV-USD"
+    "delisted": true
   },
   "arbitrum-dai:WIF/USD": {
     "exchange": "arbitrum-dai",
     "base": "dogwifcoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#WIF-USD"
+    "delisted": true
   },
   "arbitrum-dai:WLD/USD": {
     "exchange": "arbitrum-dai",
     "base": "worldcoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#WLD-USD"
+    "delisted": true
   },
   "arbitrum-dai:WLFI/USD": {
     "exchange": "arbitrum-dai",
     "base": "world-liberty-financial",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#WLFI-USD"
+    "delisted": true
   },
   "arbitrum-dai:WPM/USD": {
     "exchange": "arbitrum-dai",
     "base": "wheaton-precious-metals",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#WPM-USD"
+    "delisted": true
   },
   "arbitrum-dai:WTI/USD": {
     "exchange": "arbitrum-dai",
     "base": "west-texas-intermediate",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#WTI-USD"
+    "delisted": true
   },
   "arbitrum-dai:XAG/USD": {
     "exchange": "arbitrum-dai",
     "base": "silver",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XAG-USD"
+    "delisted": true
   },
   "arbitrum-dai:XAU/USD": {
     "exchange": "arbitrum-dai",
     "base": "gold",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XAU-USD"
+    "delisted": true
   },
   "arbitrum-dai:XDC/USD": {
     "exchange": "arbitrum-dai",
     "base": "xdc-network",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XDC-USD"
+    "delisted": true
   },
   "arbitrum-dai:XLM/USD": {
     "exchange": "arbitrum-dai",
     "base": "stellar",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XLM-USD"
+    "delisted": true
   },
   "arbitrum-dai:XMR/USD": {
     "exchange": "arbitrum-dai",
     "base": "monero",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XMR-USD"
+    "delisted": true
   },
   "arbitrum-dai:XPL/USD": {
     "exchange": "arbitrum-dai",
     "base": "plasma",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XPL-USD"
+    "delisted": true
   },
   "arbitrum-dai:XRP/USD": {
     "exchange": "arbitrum-dai",
     "base": "xrp",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XRP-USD"
+    "delisted": true
   },
   "arbitrum-dai:XTZ/USD": {
     "exchange": "arbitrum-dai",
     "base": "tezos",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XTZ-USD"
+    "delisted": true
   },
   "arbitrum-dai:ZEC/USD": {
     "exchange": "arbitrum-dai",
     "base": "zcash",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ZEC-USD"
+    "delisted": true
   },
   "arbitrum-dai:ZEN/USD": {
     "exchange": "arbitrum-dai",
     "base": "horizen",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ZEN-USD"
+    "delisted": true
   },
   "arbitrum-dai:ZRO/USD": {
     "exchange": "arbitrum-dai",
     "base": "layer-zero",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ZRO-USD"
+    "delisted": true
   },
   "arbitrum-gns:1INCH/USD": {
     "exchange": "arbitrum-gns",
@@ -7654,280 +7659,280 @@
     "base": "1inch",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#1INCH-USD"
+    "delisted": true
   },
   "polygon-dai:AAVE/USD": {
     "exchange": "polygon-dai",
     "base": "aave",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#AAVE-USD"
+    "delisted": true
   },
   "polygon-dai:ADA/USD": {
     "exchange": "polygon-dai",
     "base": "cardano",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ADA-USD"
+    "delisted": true
   },
   "polygon-dai:AERO/USD": {
     "exchange": "polygon-dai",
     "base": "aerodrome",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#AERO-USD"
+    "delisted": true
   },
   "polygon-dai:ALGO/USD": {
     "exchange": "polygon-dai",
     "base": "algorand",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ALGO-USD"
+    "delisted": true
   },
   "polygon-dai:APE/USD": {
     "exchange": "polygon-dai",
     "base": "apecoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#APE-USD"
+    "delisted": true
   },
   "polygon-dai:APT/USD": {
     "exchange": "polygon-dai",
     "base": "aptos",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#APT-USD"
+    "delisted": true
   },
   "polygon-dai:AR/USD": {
     "exchange": "polygon-dai",
     "base": "arweave",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#AR-USD"
+    "delisted": true
   },
   "polygon-dai:ARB/USD": {
     "exchange": "polygon-dai",
     "base": "arbitrum",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ARB-USD"
+    "delisted": true
   },
   "polygon-dai:ASTER/USD": {
     "exchange": "polygon-dai",
     "base": "aster",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ASTER-USD"
+    "delisted": true
   },
   "polygon-dai:ATOM/USD": {
     "exchange": "polygon-dai",
     "base": "cosmos",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ATOM-USD"
+    "delisted": true
   },
   "polygon-dai:AVAX/USD": {
     "exchange": "polygon-dai",
     "base": "avalanche",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#AVAX-USD"
+    "delisted": true
   },
   "polygon-dai:B/USD": {
     "exchange": "polygon-dai",
     "base": "build-on",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#B-USD"
+    "delisted": true
   },
   "polygon-dai:BANANAS31/USD": {
     "exchange": "polygon-dai",
     "base": "banana-for-scale",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BANANAS31-USD"
+    "delisted": true
   },
   "polygon-dai:BAT/USD": {
     "exchange": "polygon-dai",
     "base": "basic-attention-token",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BAT-USD"
+    "delisted": true
   },
   "polygon-dai:BCH/USD": {
     "exchange": "polygon-dai",
     "base": "bitcoin-cash",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BCH-USD"
+    "delisted": true
   },
   "polygon-dai:BNB/USD": {
     "exchange": "polygon-dai",
     "base": "bnb",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BNB-USD"
+    "delisted": true
   },
   "polygon-dai:BONK/USD": {
     "exchange": "polygon-dai",
     "base": "bonk",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BONK-USD"
+    "delisted": true
   },
   "polygon-dai:BSV/USD": {
     "exchange": "polygon-dai",
     "base": "bitcoin-cash-sv",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BSV-USD"
+    "delisted": true
   },
   "polygon-dai:BTC/USD": {
     "exchange": "polygon-dai",
     "base": "bitcoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#BTC-USD"
+    "delisted": true
   },
   "polygon-dai:CAKE/USD": {
     "exchange": "polygon-dai",
     "base": "pancakeswap",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CAKE-USD"
+    "delisted": true
   },
   "polygon-dai:CASHCAT/USD": {
     "exchange": "polygon-dai",
     "base": "cash-cat",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CASHCAT-USD"
+    "delisted": true
   },
   "polygon-dai:CFX/USD": {
     "exchange": "polygon-dai",
     "base": "conflux",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CFX-USD"
+    "delisted": true
   },
   "polygon-dai:CHIP/USD": {
     "exchange": "polygon-dai",
     "base": "usd-ai",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CHIP-USD"
+    "delisted": true
   },
   "polygon-dai:CHZ/USD": {
     "exchange": "polygon-dai",
     "base": "chiliz",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CHZ-USD"
+    "delisted": true
   },
   "polygon-dai:COIN/USD": {
     "exchange": "polygon-dai",
     "base": "coinbase",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#COIN-USD"
+    "delisted": true
   },
   "polygon-dai:COMP/USD": {
     "exchange": "polygon-dai",
     "base": "compound",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#COMP-USD"
+    "delisted": true
   },
   "polygon-dai:CRCL/USD": {
     "exchange": "polygon-dai",
     "base": "circle-internet-group",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CRCL-USD"
+    "delisted": true
   },
   "polygon-dai:CRO/USD": {
     "exchange": "polygon-dai",
     "base": "cronos",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CRO-USD"
+    "delisted": true
   },
   "polygon-dai:CRV/USD": {
     "exchange": "polygon-dai",
     "base": "curve-dao",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#CRV-USD"
+    "delisted": true
   },
   "polygon-dai:DASH/USD": {
     "exchange": "polygon-dai",
     "base": "dash",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#DASH-USD"
+    "delisted": true
   },
   "polygon-dai:DOGE/USD": {
     "exchange": "polygon-dai",
     "base": "dogecoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#DOGE-USD"
+    "delisted": true
   },
   "polygon-dai:DOT/USD": {
     "exchange": "polygon-dai",
     "base": "polkadot",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#DOT-USD"
+    "delisted": true
   },
   "polygon-dai:EGLD/USD": {
     "exchange": "polygon-dai",
     "base": "multiversx",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#EGLD-USD"
+    "delisted": true
   },
   "polygon-dai:EIGEN/USD": {
     "exchange": "polygon-dai",
     "base": "eigen-layer",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#EIGEN-USD"
+    "delisted": true
   },
   "polygon-dai:ENA/USD": {
     "exchange": "polygon-dai",
     "base": "ethena",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ENA-USD"
+    "delisted": true
   },
   "polygon-dai:ENS/USD": {
     "exchange": "polygon-dai",
     "base": "ethereum-name-service",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ENS-USD"
+    "delisted": true
   },
   "polygon-dai:ETC/USD": {
     "exchange": "polygon-dai",
     "base": "ethereum-classic",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ETC-USD"
+    "delisted": true
   },
   "polygon-dai:ETH/USD": {
     "exchange": "polygon-dai",
     "base": "ethereum",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ETH-USD"
+    "delisted": true
   },
   "polygon-dai:ETHFI/USD": {
     "exchange": "polygon-dai",
     "base": "ether-fi",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ETHFI-USD"
+    "delisted": true
   },
   "polygon-dai:EUR/AUD": {
     "exchange": "polygon-dai",
@@ -7935,56 +7940,56 @@
     "quote": "australian-dollar",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#EUR-AUD"
+    "delisted": true
   },
   "polygon-dai:EUR/USD": {
     "exchange": "polygon-dai",
     "base": "euro",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#EUR-USD"
+    "delisted": true
   },
   "polygon-dai:FARTCOIN/USD": {
     "exchange": "polygon-dai",
     "base": "fartcoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#FARTCOIN-USD"
+    "delisted": true
   },
   "polygon-dai:FET/USD": {
     "exchange": "polygon-dai",
     "base": "fetch-ai",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#FET-USD"
+    "delisted": true
   },
   "polygon-dai:FIL/USD": {
     "exchange": "polygon-dai",
     "base": "filecoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#FIL-USD"
+    "delisted": true
   },
   "polygon-dai:FLOKI/USD": {
     "exchange": "polygon-dai",
     "base": "floki",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#FLOKI-USD"
+    "delisted": true
   },
   "polygon-dai:FLUID/USD": {
     "exchange": "polygon-dai",
     "base": "fluid",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#FLUID-USD"
+    "delisted": true
   },
   "polygon-dai:GALA/USD": {
     "exchange": "polygon-dai",
     "base": "gala",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#GALA-USD"
+    "delisted": true
   },
   "polygon-dai:GBP/CAD": {
     "exchange": "polygon-dai",
@@ -7992,7 +7997,7 @@
     "quote": "canadian-dollar",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#GBP-CAD"
+    "delisted": true
   },
   "polygon-dai:GBP/JPY": {
     "exchange": "polygon-dai",
@@ -8000,426 +8005,427 @@
     "quote": "japanese-yen",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#GBP-JPY"
+    "delisted": true
   },
   "polygon-dai:GBP/USD": {
     "exchange": "polygon-dai",
     "base": "british-pound",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#GBP-USD"
+    "delisted": true
   },
   "polygon-dai:GDX/USD": {
     "exchange": "polygon-dai",
     "base": "vaneck-gold-miners-etf",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#GDX-USD"
+    "delisted": true
   },
   "polygon-dai:GRASS/USD": {
     "exchange": "polygon-dai",
     "base": "grass",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#GRASS-USD"
+    "delisted": true
   },
   "polygon-dai:GRT/USD": {
     "exchange": "polygon-dai",
     "base": "the-graph",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#GRT-USD"
+    "delisted": true
   },
   "polygon-dai:HBAR/USD": {
     "exchange": "polygon-dai",
     "base": "hedera",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#HBAR-USD"
+    "delisted": true
   },
   "polygon-dai:HOOD/USD": {
     "exchange": "polygon-dai",
     "base": "robinhood-markets",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#HOOD-USD"
+    "delisted": true
   },
   "polygon-dai:HYPE/USD": {
     "exchange": "polygon-dai",
     "base": "hyperliquid",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#HYPE-USD"
+    "delisted": true
   },
   "polygon-dai:ICP/USD": {
     "exchange": "polygon-dai",
     "base": "internet-computer",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ICP-USD"
+    "delisted": true
   },
   "polygon-dai:IMX/USD": {
     "exchange": "polygon-dai",
     "base": "immutable-x",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#IMX-USD"
+    "delisted": true
   },
   "polygon-dai:INJ/USD": {
     "exchange": "polygon-dai",
     "base": "injective",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#INJ-USD"
+    "delisted": true
   },
   "polygon-dai:JASMY/USD": {
     "exchange": "polygon-dai",
     "base": "jasmycoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#JASMY-USD"
+    "delisted": true
   },
   "polygon-dai:JTO/USD": {
     "exchange": "polygon-dai",
     "base": "jito",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#JTO-USD"
+    "delisted": true
   },
   "polygon-dai:JUP/USD": {
     "exchange": "polygon-dai",
     "base": "jupiter",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#JUP-USD"
+    "delisted": true
   },
   "polygon-dai:KAS/USD": {
     "exchange": "polygon-dai",
     "base": "kaspa",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#KAS-USD"
+    "delisted": true
   },
   "polygon-dai:LDO/USD": {
     "exchange": "polygon-dai",
     "base": "lido-dao",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#LDO-USD"
+    "delisted": true
   },
   "polygon-dai:LINK/USD": {
     "exchange": "polygon-dai",
     "base": "chainlink",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#LINK-USD"
+    "delisted": true
   },
   "polygon-dai:LIT/USD": {
     "exchange": "polygon-dai",
     "base": "lighter",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#LIT-USD"
+    "delisted": true
   },
   "polygon-dai:LPT/USD": {
     "exchange": "polygon-dai",
     "base": "livepeer",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#LPT-USD"
+    "delisted": true
   },
   "polygon-dai:LTC/USD": {
     "exchange": "polygon-dai",
     "base": "litecoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#LTC-USD"
+    "delisted": true
   },
   "polygon-dai:MANA/USD": {
     "exchange": "polygon-dai",
     "base": "decentraland",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MANA-USD"
+    "delisted": true
   },
   "polygon-dai:MARA/USD": {
     "exchange": "polygon-dai",
     "base": "mara-holdings",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MARA-USD"
+    "delisted": true
   },
   "polygon-dai:MELANIA/USD": {
     "exchange": "polygon-dai",
     "base": "melania-meme",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MELANIA-USD"
+    "delisted": true
   },
   "polygon-dai:MNT/USD": {
     "exchange": "polygon-dai",
     "base": "mantle",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MNT-USD"
+    "delisted": true
   },
   "polygon-dai:MON/USD": {
     "exchange": "polygon-dai",
     "base": "monad",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#MON-USD"
+    "delisted": true
   },
   "polygon-dai:NEAR/USD": {
     "exchange": "polygon-dai",
     "base": "near",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#NEAR-USD"
+    "delisted": true
   },
   "polygon-dai:NFLX_1/USD": {
     "exchange": "polygon-dai",
     "base": "netflix",
     "quote": "usd",
-    "settlement": "dai"
+    "settlement": "dai",
+    "delisted": true
   },
   "polygon-dai:OKB/USD": {
     "exchange": "polygon-dai",
     "base": "okb",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#OKB-USD"
+    "delisted": true
   },
   "polygon-dai:ONDO/USD": {
     "exchange": "polygon-dai",
     "base": "ondo",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ONDO-USD"
+    "delisted": true
   },
   "polygon-dai:OP/USD": {
     "exchange": "polygon-dai",
     "base": "optimism",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#OP-USD"
+    "delisted": true
   },
   "polygon-dai:PENDLE/USD": {
     "exchange": "polygon-dai",
     "base": "pendle",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PENDLE-USD"
+    "delisted": true
   },
   "polygon-dai:PENGU/USD": {
     "exchange": "polygon-dai",
     "base": "pudgy-penguins",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PENGU-USD"
+    "delisted": true
   },
   "polygon-dai:PEPE/USD": {
     "exchange": "polygon-dai",
     "base": "pepe",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PEPE-USD"
+    "delisted": true
   },
   "polygon-dai:PLTR/USD": {
     "exchange": "polygon-dai",
     "base": "palantir-technologies",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PLTR-USD"
+    "delisted": true
   },
   "polygon-dai:POL/USD": {
     "exchange": "polygon-dai",
     "base": "polygon",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#POL-USD"
+    "delisted": true
   },
   "polygon-dai:PUMP/USD": {
     "exchange": "polygon-dai",
     "base": "pump",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PUMP-USD"
+    "delisted": true
   },
   "polygon-dai:PYTH/USD": {
     "exchange": "polygon-dai",
     "base": "pyth-network",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#PYTH-USD"
+    "delisted": true
   },
   "polygon-dai:QNT/USD": {
     "exchange": "polygon-dai",
     "base": "quant",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#QNT-USD"
+    "delisted": true
   },
   "polygon-dai:RAY/USD": {
     "exchange": "polygon-dai",
     "base": "raydium",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#RAY-USD"
+    "delisted": true
   },
   "polygon-dai:RE/USD": {
     "exchange": "polygon-dai",
     "base": "re",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#RE-USD"
+    "delisted": true
   },
   "polygon-dai:RNDR/USD": {
     "exchange": "polygon-dai",
     "base": "render",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#RNDR-USD"
+    "delisted": true
   },
   "polygon-dai:S/USD": {
     "exchange": "polygon-dai",
     "base": "sonic",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#S-USD"
+    "delisted": true
   },
   "polygon-dai:SAND/USD": {
     "exchange": "polygon-dai",
     "base": "the-sandbox",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SAND-USD"
+    "delisted": true
   },
   "polygon-dai:SEI/USD": {
     "exchange": "polygon-dai",
     "base": "sei",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SEI-USD"
+    "delisted": true
   },
   "polygon-dai:SHIB/USD": {
     "exchange": "polygon-dai",
     "base": "shiba-inu",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SHIB-USD"
+    "delisted": true
   },
   "polygon-dai:SKY/USD": {
     "exchange": "polygon-dai",
     "base": "sky",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SKY-USD"
+    "delisted": true
   },
   "polygon-dai:SOL/USD": {
     "exchange": "polygon-dai",
     "base": "solana",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SOL-USD"
+    "delisted": true
   },
   "polygon-dai:STRK/USD": {
     "exchange": "polygon-dai",
     "base": "starknet",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#STRK-USD"
+    "delisted": true
   },
   "polygon-dai:STX/USD": {
     "exchange": "polygon-dai",
     "base": "stacks",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#STX-USD"
+    "delisted": true
   },
   "polygon-dai:SUI/USD": {
     "exchange": "polygon-dai",
     "base": "sui",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SUI-USD"
+    "delisted": true
   },
   "polygon-dai:SUN/USD": {
     "exchange": "polygon-dai",
     "base": "sun-token",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SUN-USD"
+    "delisted": true
   },
   "polygon-dai:SYRUP/USD": {
     "exchange": "polygon-dai",
     "base": "syrup",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#SYRUP-USD"
+    "delisted": true
   },
   "polygon-dai:TAO/USD": {
     "exchange": "polygon-dai",
     "base": "bittensor",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TAO-USD"
+    "delisted": true
   },
   "polygon-dai:THETA/USD": {
     "exchange": "polygon-dai",
     "base": "theta-token",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#THETA-USD"
+    "delisted": true
   },
   "polygon-dai:TIA/USD": {
     "exchange": "polygon-dai",
     "base": "celestia",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TIA-USD"
+    "delisted": true
   },
   "polygon-dai:TON/USD": {
     "exchange": "polygon-dai",
     "base": "toncoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TON-USD"
+    "delisted": true
   },
   "polygon-dai:TRUMP/USD": {
     "exchange": "polygon-dai",
     "base": "official-trump",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TRUMP-USD"
+    "delisted": true
   },
   "polygon-dai:TRX/USD": {
     "exchange": "polygon-dai",
     "base": "tron",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TRX-USD"
+    "delisted": true
   },
   "polygon-dai:TWT/USD": {
     "exchange": "polygon-dai",
     "base": "trust-wallet-token",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#TWT-USD"
+    "delisted": true
   },
   "polygon-dai:UNI/USD": {
     "exchange": "polygon-dai",
     "base": "uniswap",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#UNI-USD"
+    "delisted": true
   },
   "polygon-dai:URA/USD": {
     "exchange": "polygon-dai",
     "base": "global-x-uranium-etf",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#URA-USD"
+    "delisted": true
   },
   "polygon-dai:USD/CAD": {
     "exchange": "polygon-dai",
@@ -8427,7 +8433,7 @@
     "quote": "canadian-dollar",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#USD-CAD"
+    "delisted": true
   },
   "polygon-dai:USD/CNH": {
     "exchange": "polygon-dai",
@@ -8435,7 +8441,7 @@
     "quote": "chinese-yuan",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#USD-CNH"
+    "delisted": true
   },
   "polygon-dai:USD/JPY": {
     "exchange": "polygon-dai",
@@ -8443,7 +8449,7 @@
     "quote": "japanese-yen",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#USD-JPY"
+    "delisted": true
   },
   "polygon-dai:USD/SGD": {
     "exchange": "polygon-dai",
@@ -8451,140 +8457,140 @@
     "quote": "singapore-dollar",
     "settlement": "dai",
     "quanto": true,
-    "url": "https://gains.trade/trading#USD-SGD"
+    "delisted": true
   },
   "polygon-dai:USELESS/USD": {
     "exchange": "polygon-dai",
     "base": "useless-coin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#USELESS-USD"
+    "delisted": true
   },
   "polygon-dai:VET/USD": {
     "exchange": "polygon-dai",
     "base": "vechain",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#VET-USD"
+    "delisted": true
   },
   "polygon-dai:VIRTUAL/USD": {
     "exchange": "polygon-dai",
     "base": "virtuals-protocol",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#VIRTUAL-USD"
+    "delisted": true
   },
   "polygon-dai:VVV/USD": {
     "exchange": "polygon-dai",
     "base": "venice-token",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#VVV-USD"
+    "delisted": true
   },
   "polygon-dai:WIF/USD": {
     "exchange": "polygon-dai",
     "base": "dogwifcoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#WIF-USD"
+    "delisted": true
   },
   "polygon-dai:WLD/USD": {
     "exchange": "polygon-dai",
     "base": "worldcoin",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#WLD-USD"
+    "delisted": true
   },
   "polygon-dai:WLFI/USD": {
     "exchange": "polygon-dai",
     "base": "world-liberty-financial",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#WLFI-USD"
+    "delisted": true
   },
   "polygon-dai:WPM/USD": {
     "exchange": "polygon-dai",
     "base": "wheaton-precious-metals",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#WPM-USD"
+    "delisted": true
   },
   "polygon-dai:XAG/USD": {
     "exchange": "polygon-dai",
     "base": "silver",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XAG-USD"
+    "delisted": true
   },
   "polygon-dai:XAU/USD": {
     "exchange": "polygon-dai",
     "base": "gold",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XAU-USD"
+    "delisted": true
   },
   "polygon-dai:XDC/USD": {
     "exchange": "polygon-dai",
     "base": "xdc-network",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XDC-USD"
+    "delisted": true
   },
   "polygon-dai:XLM/USD": {
     "exchange": "polygon-dai",
     "base": "stellar",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XLM-USD"
+    "delisted": true
   },
   "polygon-dai:XMR/USD": {
     "exchange": "polygon-dai",
     "base": "monero",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XMR-USD"
+    "delisted": true
   },
   "polygon-dai:XPL/USD": {
     "exchange": "polygon-dai",
     "base": "plasma",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XPL-USD"
+    "delisted": true
   },
   "polygon-dai:XRP/USD": {
     "exchange": "polygon-dai",
     "base": "xrp",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XRP-USD"
+    "delisted": true
   },
   "polygon-dai:XTZ/USD": {
     "exchange": "polygon-dai",
     "base": "tezos",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#XTZ-USD"
+    "delisted": true
   },
   "polygon-dai:ZEC/USD": {
     "exchange": "polygon-dai",
     "base": "zcash",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ZEC-USD"
+    "delisted": true
   },
   "polygon-dai:ZEN/USD": {
     "exchange": "polygon-dai",
     "base": "horizen",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ZEN-USD"
+    "delisted": true
   },
   "polygon-dai:ZRO/USD": {
     "exchange": "polygon-dai",
     "base": "layer-zero",
     "quote": "usd",
     "settlement": "dai",
-    "url": "https://gains.trade/trading#ZRO-USD"
+    "delisted": true
   },
   "polygon-usdc:1INCH/USD": {
     "exchange": "polygon-usdc",

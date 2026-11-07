@@ -228,6 +228,12 @@ list of missing tickers; map it (matched by price and identity, never by ticker
 alone) or add it to `EXCLUDED` in the script with a reason. `lib/tests/test_gtrade.py`
 fails CI when the committed file differs from what the fixture gives.
 
+A vault that takes no new trades keeps its instruments marked `delisted` (no `url`),
+so open positions on it still map: a collateral the backend reports inactive, or one
+in `CLOSE_ONLY` in the script, with its source. DAI (Arbitrum, Polygon) is there:
+close-only since 2025-11-12 while the backend and contracts still call it active.
+Remove an entry only when gTrade's docs or app show the collateral open again.
+
 ### Hyperliquid
 
 Perpetual instrument IDs use Hyperliquid's `coin` name from the `meta` response. Enumerate perpetual markets with:

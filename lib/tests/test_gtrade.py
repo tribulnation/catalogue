@@ -15,18 +15,20 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 import gtrade  # noqa: E402
 
 
-def chain(pairs: list[list], vaults: dict[str, list[list]]) -> dict:
+def chain(pairs: list[list], vaults: dict[str, list[list]], inactive: tuple[str, ...] = ()) -> dict:
   """A minimal recorded chain: `pairs` as `[from, to, group, maxLeverage]`, each vault's
-  rows as `[oiCap, fundingEnabled, borrowingRate, oiTokens]`."""
+  rows as `[oiCap, fundingEnabled, borrowingRate, oiTokens]`; `inactive` names the
+  collateral symbols the backend reports `isActive` false."""
   return {
     'refreshed': None, 'groups': ['crypto'], 'pairs': pairs,
-    'collaterals': [{'symbol': s, 'address': a, 'active': True, 'pairs': rows} for (s, a), rows in
+    'collaterals': [{'symbol': s, 'address': a, 'active': s not in inactive, 'pairs': rows} for (s, a), rows in
                     ((tuple(k.split('@')), v) for k, v in vaults.items())],
   }
 
 
 USDC = 'USDC@0xaf88d065e77c8cC2239327C5EDb3A432268e5831'
 WETH = 'WETH@0x82aF49447D8a07e3bd95BD0d56f35241523fBab1'
+DAI = 'DAI@0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1'
 TICKERS = {'BTC': 'bitcoin', 'BTCDEGEN': 'bitcoin', 'TSLA': 'tesla', 'USD': 'usd', 'JPY': 'japanese-yen'}
 
 
@@ -82,6 +84,28 @@ class GtradeTest(unittest.TestCase):
     self.assertIn('NEWCOIN: arbitrum-usdc:NEWCOIN/USD', message)
     self.assertIn('CHF: arbitrum-usdc:BTC/CHF', message)
     self.assertNotIn('BRUN', message)
+
+  def test_close_only_vaults_are_kept_delisted(self):
+    """A vault that takes no new trades (DAI, in CLOSE_ONLY; or one the backend reports
+    inactive) keeps its instruments, so open positions still map, marked `delisted` and
+    without a trading-page URL; the other vaults are untouched."""
+    rows = [['1', False, '0', '0'], ['1', False, '0', '0']]
+    fx = {'arbitrum': chain([['BTC', 'USD', 0, 0], ['ETH', 'USD', 0, 1]], {USDC: rows, DAI: rows, WETH: rows},
+                            inactive=('WETH',))}
+    out = gtrade.instruments(fx, TICKERS)
+    self.assertEqual(list(out), ['arbitrum-dai:BTC/USD', 'arbitrum-usdc:BTC/USD', 'arbitrum-weth:BTC/USD'])
+    for id in ('arbitrum-dai:BTC/USD', 'arbitrum-weth:BTC/USD'):
+      self.assertIs(out[id]['delisted'], True, id)
+      self.assertNotIn('url', out[id])
+    self.assertNotIn('delisted', out['arbitrum-usdc:BTC/USD'])
+    self.assertIn('url', out['arbitrum-usdc:BTC/USD'])
+
+  def test_committed_dai_instruments_are_delisted(self):
+    """Every DAI instrument in the committed file is delisted, and only those."""
+    out = json.loads(gtrade.OUTPUT.read_text())
+    dai = {k for k, v in out.items() if v['exchange'].endswith('-dai')}
+    self.assertTrue(dai)
+    self.assertEqual({k for k, v in out.items() if v.get('delisted')}, dai)
 
   def test_degen_pairs_are_separate_instruments(self):
     """DEGEN pairs share the base asset but keep their own id (no schema field marks them)."""

@@ -36,6 +36,12 @@ A pair is listed in a vault when:
   charges it funding or borrowing, or holds open interest in it;
 - and the vault gives it an open-interest cap (`pairOis[i].beforeV10.max` > 0).
 
+A vault that takes no new trades keeps its instruments, marked `delisted` (and without a
+`url`), so positions still open on it map: one whose collateral the backend reports
+inactive (`isActive` false: the contracts refuse new trades on it), and one in
+`CLOSE_ONLY`. DAI is close-only since 2025-11-12 although the backend and the contracts
+still report it active (no machine-readable signal exists, see `CLOSE_ONLY`).
+
 `quote` is the index currency (`usd`, or the FX pair's quote). `quanto` is left out when
 the collateral is pegged to the quote; dollar pairs on a non-dollar collateral (WETH,
 GNS) are `quanto: false`, the venue converting at the collateral's price; pairs quoted in
@@ -73,6 +79,19 @@ EXCLUDED = {
   'EVIV': 'Volmex implied-volatility index; no catalogue asset',
 }
 """Listed tickers deliberately left out, with the reason."""
+
+CLOSE_ONLY = {
+  'DAI': (
+    'gDAI vault sunset: DAI markets are close-only on Arbitrum and Polygon since '
+    '2025-11-12 (docs.gains.trade/gtrade-leveraged-trading/trade-collaterals: "DAI '
+    'markets are close-only, so you can no longer open a trade with it"; the trading '
+    'app refuses any DAI open with "DAI trading disabled" by collateral symbol). The '
+    'backend\'s `isActive` and the diamond\'s `isCollateralActive` both still say true, '
+    'and its OI caps are unchanged, so no field marks it; reviewed 2026-11-07'
+  ),
+}
+"""Collateral symbols whose vaults take no new trades although the backend reports them
+active, with the source. Their instruments are kept, marked `delisted`."""
 
 _SECOND_LISTING = re.compile(r'_\d+$')
 """`TSLA_1` is a second listing of TSLA: same asset, its own pair index."""
@@ -151,9 +170,9 @@ def dump_fixture(fixture: Mapping[str, Any]) -> str:
 # --- generation --------------------------------------------------------------
 
 def listed(chain: Mapping[str, Any]) -> list[list[bool]]:
-  """`[vault][pair]`: whether each active vault lists each pair (module docstring)."""
+  """`[vault][pair]`: whether each vault lists each pair (module docstring)."""
   pairs = chain['pairs']
-  vaults = [c for c in chain['collaterals'] if c['active']]
+  vaults = chain['collaterals']
   if all(p[3] == 1 for p in pairs):
     on_chain = [
       any(c['pairs'][i][1] or int(c['pairs'][i][2]) > 0 or int(c['pairs'][i][3]) > 0 for c in vaults)
@@ -185,9 +204,9 @@ def instruments(fixture: Mapping[str, Any], tickers: Mapping[str, str] | None = 
   for chain_id in sorted(fixture):
     chain = fixture[chain_id]
     addresses = {k.lower(): v for k, v in _translations(chain_id).items()}
-    vaults = [c for c in chain['collaterals'] if c['active']]
-    for vault, flags in zip(vaults, listed(chain)):
+    for vault, flags in zip(chain['collaterals'], listed(chain)):
       exchange = f'{chain_id}-{vault["symbol"].lower()}'
+      close_only = not vault['active'] or vault['symbol'] in CLOSE_ONLY
       settlement = addresses.get(vault['address'].lower())
       if settlement is None:
         unknown.setdefault(f'collateral {vault["address"]} ({vault["symbol"]})', set()).add(chain_id)
@@ -208,9 +227,12 @@ def instruments(fixture: Mapping[str, Any], tickers: Mapping[str, str] | None = 
         inst: dict[str, Any] = {'exchange': exchange, 'base': tickers[ticker], 'quote': tickers[quote_ticker], 'settlement': settlement}
         if inst['quote'] != peg:
           inst['quanto'] = inst['quote'] != 'usd'
-        url = gtrade_url(id, inst, {})
-        if url is not None:
-          inst['url'] = url
+        if close_only:
+          inst['delisted'] = True
+        else:
+          url = gtrade_url(id, inst, {})
+          if url is not None:
+            inst['url'] = url
         out[id] = inst
   if unknown:
     lines = [f'  {t}: {", ".join(sorted(where)[:4])}{" ..." if len(where) > 4 else ""}' for t, where in sorted(unknown.items())]
