@@ -187,3 +187,40 @@ class Terminal341UrlsTest(unittest.TestCase):
 
 if __name__ == '__main__':
   unittest.main()
+
+
+class LighterUrlsTest(unittest.TestCase):
+  """Lighter pages name a dollar-quoted market by its base leg alone."""
+
+  def setUp(self):
+    self.symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+
+  def test_dollar_quotes_name_the_base_only(self):
+    """tether, usd and usd-coin quotes are all dollars; only a foreign quote adds a leg."""
+    cases = [
+      ({'base': 'ethereum', 'quote': 'tether'}, 'ETH'),
+      ({'base': 'nvidia', 'quote': 'usd'}, 'NVDA'),
+      ({'base': 'ethereum', 'quote': 'usd-coin'}, 'ETH'),
+      ({'base': 'pepe', 'quote': 'tether', 'multiplier': 1000}, '1000PEPE'),
+      ({'base': 'euro', 'quote': 'usd'}, 'EURUSD'),
+      ({'base': 'tencent-holdings', 'quote': 'usd'}, 'TENCENT'),
+      ({'base': 'usd', 'quote': 'japanese-yen', 'quanto': True}, 'USDJPY'),
+      ({'base': 'usd', 'quote': 'south-korean-won', 'quanto': True}, 'USDKRW'),
+    ]
+    for instrument, page in cases:
+      with self.subTest(page=page):
+        self.assertEqual(
+          PERPETUAL_RULES['lighter']('0', {'settlement': 'usd-coin', **instrument}, self.symbols),
+          f'https://app.lighter.xyz/trade/{page}',
+        )
+
+  def test_committed_urls_match_the_rule(self):
+    """Regenerating with --overwrite must leave every committed Lighter URL unchanged."""
+    file = Path(__file__).resolve().parents[1] / 'data' / 'instruments' / 'perpetual' / 'lighter.json'
+    rule = PERPETUAL_RULES['lighter']
+    changed = {
+      id: (instrument['url'], rule(id, instrument, self.symbols))
+      for id, instrument in json.loads(file.read_text()).items()
+      if 'url' in instrument and rule(id, instrument, self.symbols) != instrument['url']
+    }
+    self.assertEqual(changed, {})
