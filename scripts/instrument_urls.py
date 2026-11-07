@@ -26,6 +26,10 @@ _KRAKEN_SYMBOLS = {'XBT': 'BTC', 'XDG': 'DOGE'}
 
 _HYPERLIQUID_SPOT_INDEX = re.compile(r':\d+$')
 
+# A Lighter market quoted in any of these is named by its base leg alone; only a
+# foreign-currency quote (USDJPY, USDKRW) puts both legs in the page's symbol.
+_LIGHTER_USD_QUOTES = frozenset({'usd-coin', 'tether', 'usd'})
+
 # Lighter names a few markets differently from the asset's own symbol; FX perps carry
 # the full pair.
 _LIGHTER_SYMBOLS = {
@@ -126,9 +130,10 @@ def _lighter_symbol(asset: str, symbols: Symbols) -> str:
 
 def lighter_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
   """`/trade/<SYMBOL>`, with a contract multiplier's prefix (`1000PEPE`). A market
-  quoted in something other than USDC names both legs (`USDJPY`)."""
+  quoted in a foreign currency names both legs (`USDJPY`); a dollar quote, whichever
+  dollar asset it is, names the base leg alone (`ETH`, `NVDA`)."""
   symbol = _lighter_symbol(str(instrument['base']), symbols)
-  if instrument.get('quote') != 'usd-coin':
+  if instrument.get('quote') not in _LIGHTER_USD_QUOTES:
     symbol += _lighter_symbol(str(instrument['quote']), symbols)
   multiplier = instrument.get('multiplier')
   prefix = str(multiplier) if multiplier is not None else ''
@@ -180,6 +185,16 @@ def ostium_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
   """`BTC-USD` trades at `/trade?from=BTC&to=USD`."""
   base, quote = id.split('-')
   return f'https://app.ostium.com/trade?from={base}&to={quote}'
+
+
+def gtrade_url(id: str, instrument: Instrument, symbols: Symbols) -> str | None:
+  """`arbitrum-usdc:BTC/USD` trades at `/trading#BTC-USD` (the pair only: the chain and
+  collateral are picked in the app). A second listing of a stock (`TSLA_1/USD`) has no
+  page of its own: the fragment falls back to BTC/USD, so it gets no URL."""
+  pair = id.split(':', 1)[1]
+  if '_' in pair:
+    return None
+  return 'https://gains.trade/trading#' + pair.replace('/', '-')
 
 
 def pionex_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
@@ -265,6 +280,7 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'edgex': lambda id, inst, sym: f'https://pro.edgex.exchange/en-US/perpetuals/{id}',
   'extended': lambda id, inst, sym: f'https://app.extended.exchange/trade/{id}',
   'gate': lambda id, inst, sym: f'https://www.gate.com/futures/USDT/{id}',
+  'gtrade': gtrade_url,
   'grvt': lambda id, inst, sym: 'https://grvt.io/exchange/perpetual/' + id.removesuffix('_Perp').replace('_', '-'),
   'htx': lambda id, inst, sym: f'https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code={id}&contract_type=swap',
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{id}',

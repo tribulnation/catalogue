@@ -3269,6 +3269,27 @@
     "settlement": "usd-coin",
     "delisted": true
   },
+  "io:GOOGL": {
+    "exchange": "io",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "xyz:STX": {
+    "exchange": "xyz",
+    "base": "seagate-technology",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "io:MU": {
+    "exchange": "io",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
   "xyz:MUU": {
     "exchange": "xyz",
     "base": "direxion-daily-mu-bull-2x",

@@ -7,7 +7,7 @@ import sys
 from tempfile import TemporaryDirectory
 import unittest
 
-from check_new_assets import metadata_errors
+from check_new_assets import metadata_errors, placeholder
 
 SCRIPT = Path(__file__).with_name('check_new_assets.py').resolve()
 
@@ -155,6 +155,40 @@ class NewAssetMetadataTest(unittest.TestCase):
     self.assertEqual(result.returncode, 1)
     self.assertIn('external.coingecko is missing', result.stderr)
     self.assertIn('external.coinmarketcap is missing', result.stderr)
+
+  def test_placeholder_justification_fails(self):
+    """A TODO left in place of a search must not pass (the #390 QONE placeholder)."""
+    self.write_asset('new', self.crypto_asset({'coingecko': 'new-token'}))
+    self.write_exceptions({
+      'new:coinmarketcap': 'TODO before merge: CoinMarketCap not searched by the resolver.',
+    })
+    self.run_git('add', '.')
+    result = self.check()
+    self.assertEqual(result.returncode, 1)
+    self.assertIn("'new:coinmarketcap' in external_id_exceptions.json is a placeholder", result.stderr)
+    self.assertIn('external.coinmarketcap is missing', result.stderr)
+
+  def test_placeholder_markers(self):
+    """Each placeholder spelling fails; real search notes, the repo's own among them, pass."""
+    asset = self.crypto_asset({'coingecko': 'new-token'})
+    for reason in [
+      'TODO', 'todo: search CMC', '- TBD', 'FIXME later', 'XXX', 'WIP',
+      'Not searched yet.', 'CoinMarketCap not yet searched', 'Unsearched.',
+      'Searched CoinGecko; CMC TODO.',
+    ]:
+      with self.subTest(reason=reason):
+        self.assertTrue(any(
+          'placeholder' in e
+          for e in metadata_errors(asset, missing={'new:coinmarketcap': reason})
+        ))
+    exceptions = json.loads(
+      SCRIPT.with_name('external_id_exceptions.json').read_text(encoding='utf-8')
+    )
+    for key, reason in exceptions.items():
+      if key.startswith('_') or key.count(':') != 1:
+        continue
+      with self.subTest(key=key):
+        self.assertFalse(placeholder(reason), reason)
 
   def test_stale_justification_fails(self):
     """A justification must go once the provider ID it excused is added."""
