@@ -207,6 +207,27 @@ Translation values must be existing catalogue asset IDs from `data/assets/<id>.j
 
 Perpetual assets have shape `<DYDX_ID>-USD`. You can enumerate markets via the API https://indexer.dydx.trade/v4/perpetualMarkets
 
+### gTrade
+
+`data/instruments/perpetual/gtrade.json` is generated; do not edit it by hand.
+`scripts/gtrade.py` builds it from gTrade's backend
+(`https://backend-<chain>.gains.trade/trading-variables`, one per chain), recorded
+in `scripts/gtrade_fixture.json`. There is one instrument per chain, collateral
+vault and pair (`arbitrum-usdc:BTC/USD`), since each vault has its own open
+interest, funding and borrowing.
+
+```sh
+# re-record the backend and rebuild the file
+PYTHONPATH=lib/src .venv/bin/python scripts/gtrade.py --refresh
+```
+
+Base and quote assets come from `data/asset_translations/gtrade.json` (gTrade ticker
+-> asset id), and settlement from the collateral's contract address in the chain's
+asset translations. A newly listed ticker that is not mapped fails the run with the
+list of missing tickers; map it (matched by price and identity, never by ticker
+alone) or add it to `EXCLUDED` in the script with a reason. `lib/tests/test_gtrade.py`
+fails CI when the committed file differs from what the fixture gives.
+
 ### Hyperliquid
 
 Perpetual instrument IDs use Hyperliquid's `coin` name from the `meta` response. Enumerate perpetual markets with:
