@@ -2,12 +2,14 @@
 
 A provider with no exact listing for the asset is acceptable only when the gap is
 justified in `scripts/external_id_exceptions.json` under an `<asset>:<provider>`
-key, saying what was searched and why nothing matched.
+key, saying what was searched and why nothing matched. A placeholder (`TODO`,
+`FIXME`, `TBD`, "not searched") is not a search and does not count.
 """
 
 import argparse
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 
@@ -18,10 +20,22 @@ EXCEPTIONS_FILE = Path(__file__).with_name('external_id_exceptions.json')
 SEARCHED_PROVIDERS = ('coingecko', 'coinmarketcap')
 CRYPTO_CATEGORIES = {'crypto', 'stablecoin', 'rwa'}
 
+# Markers of a justification written to get past this check rather than to record a
+# search: "TODO before merge: CoinMarketCap not searched" passed it once (#390).
+PLACEHOLDER = re.compile(
+  r'^\W*(TODO|FIXME|TBD|XXX|WIP)\b|\b(TODO|FIXME)\b|\bnot (yet )?searched\b|\bunsearched\b',
+  re.IGNORECASE,
+)
+
 
 def nonblank(value: object) -> bool:
   """Return whether a value is a nonblank string."""
   return isinstance(value, str) and bool(value.strip())
+
+
+def placeholder(reason: str) -> bool:
+  """Return whether a justification is a placeholder instead of search evidence."""
+  return bool(PLACEHOLDER.search(reason))
 
 
 def load_missing(file: Path = EXCEPTIONS_FILE) -> dict[str, str]:
@@ -57,6 +71,15 @@ def metadata_errors(
   justified = {
     key.split(':', 1)[1]: reason for key, reason in (missing or {}).items()
     if key.split(':', 1)[0] == asset_id and nonblank(reason)
+  }
+  for provider, reason in sorted(justified.items()):
+    if placeholder(reason):
+      errors.append(
+        f"'{asset_id}:{provider}' in {EXCEPTIONS_FILE.name} is a placeholder, not a "
+        f'search: add the verified ID, or record what was searched and why nothing matched'
+      )
+  justified = {
+    provider: reason for provider, reason in justified.items() if not placeholder(reason)
   }
   for provider in sorted(ids & set(justified)):
     errors.append(

@@ -32,7 +32,8 @@ asset for a wrapper, bridge claim or receipt.
 A provider with no exact listing is fine, but the search must be shown: add an
 `"<asset>:<provider>"` entry to `scripts/external_id_exceptions.json` saying what
 was searched (contract, issuer, chain, symbol) and why the near matches are a
-different asset. Run `scripts/check_new_assets.py --base <base-commit>`; it fails
+different asset. A placeholder such as `TODO` or "not searched" is not a search
+and fails the check. Run `scripts/check_new_assets.py --base <base-commit>`; it fails
 on any required provider (or, for other records, on having no provider at all)
 with neither an ID nor a justification, and on justifications
 left behind once an ID is added.
