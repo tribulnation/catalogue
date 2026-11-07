@@ -10,20 +10,48 @@ from .finding import Finding, make, market_subject
 from .observations import Market, Observations
 
 
-def compare(instrument: dict[str, Any], market: Market, translations: dict[str, str]) -> dict[str, Any] | None:
+SETTLEMENT_LABELLED = set(check_perp_quotes.PLATFORMS)
+"""Platforms whose perpetuals' venue "quote" is always their settlement coin."""
+
+
+def labels_settlement(instrument: dict[str, Any], platform: str) -> bool:
+  """
+  Whether the venue's quote symbol for this perpetual names its settlement, not its price currency.
+
+  A perpetual's catalogue `quote` is the currency its price is in (AGENTS.md, "Quanto
+  perpetuals"). A quanto contract is labelled by its margin coin: MEXC's
+  `HK0700_USDT`, `HK1810_USDT` and `HK0992_USDT` print HK dollars and settle in USDT,
+  and catalogue-ops reported them as base-quote errors in #383 and #387 after #382 had
+  set them right. Lighter and Hyperliquid label every perpetual with its USDC
+  settlement while the index is USDT or USD (`scripts/check_perp_quotes.py`).
+
+  Args:
+    instrument: The catalogue instrument.
+    platform: Its platform.
+  """
+  if instrument['kind'] != 'perp' or instrument.get('quote') == instrument.get('settlement'):
+    return False
+  return 'quanto' in instrument or platform in SETTLEMENT_LABELLED
+
+
+def compare(
+  instrument: dict[str, Any], market: Market, translations: dict[str, str], platform: str = '',
+) -> dict[str, Any] | None:
   """
   What the venue says the instrument's assets are, where that differs from the catalogue.
 
   The venue's own base, quote and settlement symbols are translated; a symbol with no
   translation is skipped (`untranslated-asset` reports it). A perpetual's venue base
-  is also tried without a multiplier prefix. When the market carries `index_quote`
-  (the asset its index is priced in, inferred from index prices), that is compared
-  with the catalogue's quote too.
+  is also tried without a multiplier prefix. Where the venue's quote symbol names the
+  settlement coin (`labels_settlement`), it is compared with the catalogue's
+  settlement instead. When the market carries `index_quote` (the asset its index is
+  priced in, inferred from index prices), that is compared with the catalogue's quote.
 
   Args:
     instrument: The catalogue instrument; carries `kind`.
     market: The venue market.
     translations: The platform's asset translations.
+    platform: The catalogue platform.
 
   Returns:
     `None` when they agree, else the evidence.
@@ -40,6 +68,8 @@ def compare(instrument: dict[str, Any], market: Market, translations: dict[str, 
     return None
   listed = {field: instrument.get(field) for field in observed}
   wrong = sorted(field for field in observed if observed[field] != listed[field])
+  if 'quote' in wrong and labels_settlement(instrument, platform) and observed['quote'] == instrument.get('settlement'):
+    wrong.remove('quote')
   index = market.get('index_quote')
   if perp and index and index != instrument.get('quote') and 'quote' not in wrong:
     wrong.append('quote')
@@ -109,7 +139,7 @@ def run(catalogue: Catalogue, obs: Observations) -> tuple[list[Finding], dict]:
       instrument = rows.get(key)
       if instrument is None:
         continue
-      evidence = compare(instrument, market, translations)
+      evidence = compare(instrument, market, translations, platform)
       if evidence is None:
         continue
       subject = market_subject(*key)
