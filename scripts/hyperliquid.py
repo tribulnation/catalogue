@@ -8,7 +8,14 @@ every perp dex (`perpDexs`) and, per dex, its markets and their collateral
 - every catalogue perpetual whose `delisted` flag disagrees with the venue's
   `isDelisted` (the same comparison as scripts/check_hyperliquid_delisted.py);
 - every venue market the catalogue lacks, either as a *candidate* that passed every
-  gate below, or as *unresolved* with the gate it failed.
+  gate below, or as *unresolved* with the gate it failed;
+- the markets in `scripts/hyperliquid_watch.json`: deliberately unmapped markets whose
+  identity is in doubt, each with what was found and what would change the decision.
+  A watched market is reported as changed once it trades, its circulating supply
+  differs from the recorded one, or its HyperEVM contract gets a nonzero supply.
+  `--check-watch` exits 1 on a change (or when the watch could not be read) and
+  then ignores flag disagreements, so a scheduled run can fail loudly on the watch
+  alone.
 
     # report only (exit 1 when a flag disagrees)
     PYTHONPATH=lib/src .venv/bin/python scripts/hyperliquid.py
@@ -64,6 +71,8 @@ TOLERANCE = 0.03
 """Largest relative gap between the venue mark and the reference price for a candidate."""
 QUOTE = 'tether'
 YAHOO = 'https://query1.finance.yahoo.com/v8/finance/chart/{}?range=1d&interval=1d'
+HYPEREVM = 'https://rpc.hyperliquid.xyz/evm'
+WATCH = ROOT / 'scripts/hyperliquid_watch.json'
 
 
 @dataclass
@@ -224,6 +233,56 @@ def sync_flags(catalogue: dict[str, dict], venue: dict[str, Market]) -> list[str
   return changed
 
 
+def spot_contexts() -> dict[str, dict]:
+  """Spot coin (`@<index>` or canonical name) -> its asset context."""
+  _, contexts = post({'type': 'spotMetaAndAssetCtxs'})  # type: ignore[misc]
+  return {context['coin']: context for context in contexts}
+
+
+def token_details(token_id: str) -> dict:
+  return post({'type': 'tokenDetails', 'tokenId': token_id})  # type: ignore[return-value]
+
+
+def evm_supply(contract: str) -> int:
+  """`totalSupply()` of a HyperEVM ERC-20, in its smallest unit."""
+  body = {'jsonrpc': '2.0', 'id': 1, 'method': 'eth_call', 'params': [{'to': contract, 'data': '0x18160ddd'}, 'latest']}
+  request = urllib.request.Request(HYPEREVM, data=json.dumps(body).encode(), headers={'Content-Type': 'application/json'})
+  with urllib.request.urlopen(request, timeout=30) as response:
+    return int(json.load(response)['result'], 16)
+
+
+def watch(
+  entries: dict[str, dict], contexts: dict[str, dict],
+  details: Callable[[str], dict], supply: Callable[[str], int],
+) -> dict[str, list[str]]:
+  """Watched market -> what changed since it was left unmapped (empty: nothing)."""
+  changes: dict[str, list[str]] = {}
+  for name, entry in entries.items():
+    found = []
+    context = contexts.get(entry['coin'])
+    if context is None:
+      found.append(f'{entry["coin"]} is no longer returned by spotMetaAndAssetCtxs')
+    elif number(context.get('dayNtlVlm')):
+      found.append(f'traded {context["dayNtlVlm"]} USDC in 24h at mark {context.get("markPx")}')
+    circulating = details(entry['token_id']).get('circulatingSupply')
+    if number(circulating) != number(entry['circulating_supply']):
+      found.append(f'circulating supply {circulating}, recorded {entry["circulating_supply"]}')
+    if entry.get('evm_contract') and supply(entry['evm_contract']):
+      found.append(f'HyperEVM {entry["evm_contract"]} totalSupply() is now nonzero')
+    changes[name] = found
+  return changes
+
+
+def watch_markdown(entries: dict[str, dict], changes: dict[str, list[str]]) -> str:
+  lines = ['', '### Watched unmapped markets (scripts/hyperliquid_watch.json)', '']
+  for name, found in changes.items():
+    if found:
+      lines.append(f'- `{name}` **changed**: {"; ".join(found)}. Map it when: {entries[name]["map_when"]}')
+    else:
+      lines.append(f'- `{name}`: unchanged, stays unmapped.')
+  return '\n'.join(lines) + '\n'
+
+
 def markdown(report: Report, venue: dict[str, Market]) -> str:
   lines = ['### Delisted flags that disagree with `isDelisted`', '']
   lines += [f'- `{line.split(": ", 1)[0]}`: {line.split(": ", 1)[1]}' for line in report.flips] or ['None.']
@@ -242,6 +301,8 @@ def main() -> None:
   parser.add_argument('--write', action='store_true', help='set delisted flags from isDelisted')
   parser.add_argument('--add', action='store_true', help='append the missing markets that pass every gate')
   parser.add_argument('--markdown', type=Path, help='also write the report as Markdown to this file')
+  parser.add_argument('--check-watch', action='store_true',
+                      help='exit 1 when a watched market changed or could not be read; the exit status then ignores flag disagreements')
   args = parser.parse_args()
 
   path = args.data / 'instruments/perpetual/hyperliquid.json'
@@ -250,7 +311,12 @@ def main() -> None:
   venue = fetch()
   report = build_report(catalogue, venue, load_assets(args.data / 'assets'), collateral)
 
-  text = markdown(report, venue)
+  entries = json.loads(WATCH.read_text())
+  try:
+    changes = watch(entries, spot_contexts(), token_details, evm_supply)
+  except Exception as error:  # a watch outage must not block the flag sync
+    changes = {name: [f'could not be read ({error})'] for name in entries}
+  text = markdown(report, venue) + watch_markdown(entries, changes)
   print(text, end='')
   if args.markdown:
     args.markdown.write_text(text)
@@ -262,6 +328,8 @@ def main() -> None:
     path.write_text(json.dumps(catalogue, ensure_ascii=False, indent=2) + '\n')
     print(f'Wrote {path.relative_to(ROOT) if path.is_relative_to(ROOT) else path}: '
           f'{len(changed)} flag(s) changed, {len(report.candidates) if args.add else 0} market(s) added', file=sys.stderr)
+  if args.check_watch:
+    sys.exit(1 if any(changes.values()) else 0)
   sys.exit(1 if report.flips and not args.write else 0)
 
 
