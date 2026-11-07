@@ -147,6 +147,9 @@ def dead(catalogue: Catalogue, obs: Observations, markets: dict[str, list[AssetM
   `dead-external`: liquid assets whose external IDs got no price from a source that answered.
 
   Only sources that answered this run count, so an outage can't look like a dead ID.
+  When `prices.json` has `asked` (the exporter priced only some assets, say to stay
+  within an API budget), a source counts only for the assets it was asked about, so
+  an asset left out of the run can't look dead either.
 
   Args:
     catalogue: The catalogue.
@@ -154,12 +157,16 @@ def dead(catalogue: Catalogue, obs: Observations, markets: dict[str, list[AssetM
     markets: Liquid markets by base asset.
   """
   healthy = prices.healthy(obs)
+  asked = (obs.get('prices') or {}).get('asked')
   findings = []
   for id, found in sorted(markets.items()):
     asset = catalogue.assets.get(id)
     if asset is None or asset.get('pegged_to') or prices.quotes(obs, id):
       continue
-    external = {source: value for source, value in (asset.get('external') or {}).items() if source in healthy}
+    external = {
+      source: value for source, value in (asset.get('external') or {}).items()
+      if source in healthy and (asked is None or id in (asked.get(source) or ()))
+    }
     if not external:
       continue
     findings.append(make(

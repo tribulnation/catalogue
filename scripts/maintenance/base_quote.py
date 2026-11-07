@@ -45,7 +45,9 @@ def compare(
   is also tried without a multiplier prefix. Where the venue's quote symbol names the
   settlement coin (`labels_settlement`), it is compared with the catalogue's
   settlement instead. When the market carries `index_quote` (the asset its index is
-  priced in, inferred from index prices), that is compared with the catalogue's quote.
+  priced in, inferred from index prices), that is compared with the catalogue's quote,
+  also where the venue's quote symbol has no translation (Hyperliquid and Lighter
+  label their perpetuals `USDC`, which has none).
 
   Args:
     instrument: The catalogue instrument; carries `kind`.
@@ -64,13 +66,13 @@ def compare(
     observed['quote'] = quote
   if perp and (settlement := translate(translations, market['settlement'])) is not None:
     observed['settlement'] = settlement
-  if 'base' not in observed or 'quote' not in observed:
+  index = market.get('index_quote') if perp else None
+  if 'base' not in observed or ('quote' not in observed and not index):
     return None
-  listed = {field: instrument.get(field) for field in observed}
+  listed = {field: instrument.get(field) for field in [*observed, *(['quote'] if 'quote' not in observed else [])]}
   wrong = sorted(field for field in observed if observed[field] != listed[field])
   if 'quote' in wrong and labels_settlement(instrument, platform) and observed['quote'] == instrument.get('settlement'):
     wrong.remove('quote')
-  index = market.get('index_quote')
   if perp and index and index != instrument.get('quote') and 'quote' not in wrong:
     wrong.append('quote')
   if not wrong:
