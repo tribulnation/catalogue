@@ -2,7 +2,7 @@
 
 import unittest
 
-from hyperliquid import Market, build_report, sync_flags
+from hyperliquid import Market, build_report, sync_flags, watch
 
 
 def market(name, mark, delisted=False, collateral=0):
@@ -92,6 +92,26 @@ class SyncFlagsTest(unittest.TestCase):
     self.assertEqual(catalogue['io:NVDA'], {'base': 'nvidia'})
     self.assertEqual(catalogue['TON'], {'base': 'toncoin', 'delisted': True})
     self.assertEqual(catalogue['GONE'], {'base': 'gone'})
+
+
+class WatchTest(unittest.TestCase):
+
+  ENTRY = {'QTC/USDC:1188': {
+    'coin': '@1188', 'token_id': '0xf5', 'evm_contract': '0xb0', 'circulating_supply': '9000000000.0', 'map_when': 'x',
+  }}
+
+  def changes(self, context, circulating='9000000000.0', supply=0):
+    contexts = {'@1188': context} if context is not None else {}
+    return watch(self.ENTRY, contexts, lambda _: {'circulatingSupply': circulating}, lambda _: supply)['QTC/USDC:1188']
+
+  def test_untraded_unchanged_market(self):
+    self.assertEqual(self.changes({'coin': '@1188', 'dayNtlVlm': '0.0', 'markPx': '57.5'}), [])
+
+  def test_each_trigger(self):
+    self.assertEqual(len(self.changes({'coin': '@1188', 'dayNtlVlm': '12.5', 'markPx': '0.4'})), 1)
+    self.assertEqual(len(self.changes({'coin': '@1188', 'dayNtlVlm': '0.0'}, circulating='21000000.0')), 1)
+    self.assertEqual(len(self.changes({'coin': '@1188', 'dayNtlVlm': '0.0'}, supply=10**12)), 1)
+    self.assertEqual(len(self.changes(None)), 1)
 
 
 if __name__ == '__main__':

@@ -66,6 +66,25 @@ For pricing, use the aggregate: CoinGecko's $820.28 tracks `CSPX.L` at $818.15,
 within 0.26%. Do **not** read GeckoTerminal's Gnosis pool, which sits ~23% below
 NAV on about $0.18 of daily volume.
 
+## Hyperliquid spot QTC (`@1188`) is not Quantus
+
+HIP-1 token 1275 calls itself `QTC` / "Quantus", and its HyperEVM contract
+`0xb0c51c52b714ac92555cc8abc487629858dcf86b` returns `symbol() = "QTC"`,
+`name() = "Quantus"` and the 12 decimals of the real coin. Everything else
+contradicts the identity (read 2026-11-06/07):
+
+- `tokenDetails` reports `maxSupply = totalSupply = circulatingSupply = 9,000,000,000`,
+  all minted at genesis to one address. Quantus is a proof-of-work L1 with a
+  21,000,000 hard cap ([quantus.com](https://www.quantus.com/), CoinGecko `max_supply`).
+- `totalSupply()` on the HyperEVM contract is 0: nothing was ever bridged in.
+- The pair has never traded (`dayNtlVlm 0`); its placeholder mark is far from Quantus.
+
+So `QTC/USDC:1188` and token 1275 stay unmapped (catalogue-ops #393 finding 1,
+#395). `scripts/hyperliquid_watch.json` records it, and `scripts/hyperliquid.py`
+reports when the pair trades, the supply changes or the HyperEVM side gets a
+balance. Map it only if Quantus confirms the deployment, or the market trades near
+the Quantus price with the supply reconciled to the 21M cap.
+
 ## Status changes worth knowing
 
 - **USDM (Mountain Protocol) is wound down.** Primary market closed August 2025,
