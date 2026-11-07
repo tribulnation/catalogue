@@ -185,9 +185,6 @@ class Terminal341UrlsTest(unittest.TestCase):
       self.assertIsNone(PERPETUAL_RULES['blofin']('BTC-USD', {'settlement': settlement}, symbols))
 
 
-if __name__ == '__main__':
-  unittest.main()
-
 
 class LighterUrlsTest(unittest.TestCase):
   """Lighter pages name a dollar-quoted market by its base leg alone."""
@@ -224,3 +221,7 @@ class LighterUrlsTest(unittest.TestCase):
       if 'url' in instrument and rule(id, instrument, self.symbols) != instrument['url']
     }
     self.assertEqual(changed, {})
+
+
+if __name__ == '__main__':
+  unittest.main()
