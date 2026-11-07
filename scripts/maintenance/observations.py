@@ -40,7 +40,10 @@ added from the listings with source `market`.
    "assets": {"<asset id>": {"providers": {"coingecko": {"usd": 0.0321, "as_of": "..."}}}},
    "history": {"<asset id>": [{"ts": "...", "implied_usd": 0.0255, "platforms": 3}]}}
 
-`history` holds earlier slots' venue-implied medians, newest last.
+`history` holds earlier slots' venue-implied medians, newest last. An exporter that
+prices only some assets (an API budget, a partial run) adds ``"asked": {"<source>":
+["<asset id>", ...]}``; without it every healthy source counts as asked about every
+asset, and an asset with no quote is reported as `dead-external`.
 
 `liquid.json`: ``{"assets": {"<asset id>": <24h USD volume>}}``: assets the caller
 knows to be liquidly traded, on top of those the listings show.

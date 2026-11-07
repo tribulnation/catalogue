@@ -18,7 +18,8 @@ def compare(instrument: dict[str, Any], market: Market, translations: dict[str, 
   translation is skipped (`untranslated-asset` reports it). A perpetual's venue base
   is also tried without a multiplier prefix. When the market carries `index_quote`
   (the asset its index is priced in, inferred from index prices), that is compared
-  with the catalogue's quote too.
+  with the catalogue's quote too, also where the venue's quote symbol has no
+  translation (Hyperliquid and Lighter label their perpetuals `USDC`, which has none).
 
   Args:
     instrument: The catalogue instrument; carries `kind`.
@@ -36,11 +37,11 @@ def compare(instrument: dict[str, Any], market: Market, translations: dict[str, 
     observed['quote'] = quote
   if perp and (settlement := translate(translations, market['settlement'])) is not None:
     observed['settlement'] = settlement
-  if 'base' not in observed or 'quote' not in observed:
+  index = market.get('index_quote') if perp else None
+  if 'base' not in observed or ('quote' not in observed and not index):
     return None
-  listed = {field: instrument.get(field) for field in observed}
+  listed = {field: instrument.get(field) for field in [*observed, *(['quote'] if 'quote' not in observed else [])]}
   wrong = sorted(field for field in observed if observed[field] != listed[field])
-  index = market.get('index_quote')
   if perp and index and index != instrument.get('quote') and 'quote' not in wrong:
     wrong.append('quote')
   if not wrong:

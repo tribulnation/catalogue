@@ -68,6 +68,15 @@ class BaseQuoteTest(unittest.TestCase):
     differ = self.market(base='BTC', quote='USDT', settlement='USDC', index_quote='usd')
     self.assertEqual(base_quote.compare(instrument, differ, translations)['fields'], ['quote'])
 
+  def test_index_quote_without_a_quote_translation(self):
+    """Hyperliquid labels its perps USDC, which has no translation; the index still decides."""
+    instrument = {'kind': 'perp', 'base': 'bitcoin', 'quote': 'usd-coin', 'settlement': 'usd-coin'}
+    translations = {'BTC': 'bitcoin'}
+    differ = self.market(base='BTC', quote='USDC', settlement='USDC', index_quote='tether')
+    found = base_quote.compare(instrument, differ, translations)
+    self.assertEqual((found['fields'], found['catalogue']['quote']), (['quote'], 'usd-coin'))
+    self.assertIsNone(base_quote.compare(instrument, self.market(base='BTC', quote='USDC', settlement='USDC'), translations))
+
   def test_untranslated_symbols_are_skipped(self):
     instrument = {'kind': 'perp', 'base': 'bitcoin', 'quote': 'tether', 'settlement': 'tether'}
     self.assertIsNone(base_quote.compare(instrument, self.market(base='XBT', quote='USDT'), {'USDT': 'tether'}))
@@ -95,6 +104,16 @@ class ExternalTest(unittest.TestCase):
     obs = observations.load(FIXTURES / 'observations')
     obs['prices'] = {**obs['prices'], 'healthy_sources': ['yahoo']}
     self.assertEqual(external.dead(cat, obs, external.traded(cat, obs)), [])
+
+  def test_dead_only_for_assets_asked_about(self):
+    """An exporter on a budget prices some assets; the rest are not dead."""
+    cat = catalogue.load(FIXTURES / 'data')
+    obs = observations.load(FIXTURES / 'observations')
+    self.assertEqual([f['subject'] for f in external.dead(cat, obs, external.traded(cat, obs))], ['telcoin'])
+    obs['prices'] = {**obs['prices'], 'asked': {'coingecko': ['bitcoin']}}
+    self.assertEqual(external.dead(cat, obs, external.traded(cat, obs)), [])
+    obs['prices'] = {**obs['prices'], 'asked': {'coingecko': ['telcoin']}}
+    self.assertEqual([f['subject'] for f in external.dead(cat, obs, external.traded(cat, obs))], ['telcoin'])
 
   def test_liquid_assets_need_an_external_id(self):
     errors = check_new_assets.liquid_errors(
