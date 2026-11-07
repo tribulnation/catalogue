@@ -223,6 +223,8 @@ HIP-3 builder-deployed perpetuals use the same API, but Hyperliquid identifies t
 
 A Hyperliquid perpetual is `delisted` only when its `universe[]` entry in `meta` / `metaAndAssetCtxs` (with `dex`) has `isDelisted: true`. Zero open interest or zero 24h volume is not a delisting: HIP-3 deployers register markets before they open, so a market added that day can have no trades yet. io:NVDA, io:AAPL, io:CRCL and para:ANTH were marked delisted that way and then traded. `scripts/check_hyperliquid_delisted.py` (read-only, needs the network) lists every disagreement in both directions.
 
+`scripts/hyperliquid.py` (needs the network) reports those disagreements and every venue market the catalogue lacks. `--write` sets the flags from `isDelisted`; HIP-3 flags go stale on their own when a registered market opens, so run it regularly and open a PR with the flips. `--add` appends only the missing markets that pass its gates (one catalogue asset with that symbol, no other Hyperliquid market with that coin on a different base, mark within 3% of the Yahoo quote or a listed Hyperliquid market on that base, a translated dex collateral); everything else is listed with the gate it failed and is resolved by hand under the rules above. Run `instrument_urls.py` after either.
+
 Spot instrument IDs use Hyperliquid spot names from the `spotMeta` response. Enumerate spot markets with:
 
 ```sh

@@ -3268,5 +3268,40 @@
     "quote": "tether",
     "settlement": "usd-coin",
     "delisted": true
+  },
+  "xyz:MUU": {
+    "exchange": "xyz",
+    "base": "direxion-daily-mu-bull-2x",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "para:CIEN": {
+    "exchange": "para",
+    "base": "ciena",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:CIEN"
+  },
+  "para:SOFI": {
+    "exchange": "para",
+    "base": "sofi-technologies",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:SOFI"
+  },
+  "para:CIFR": {
+    "exchange": "para",
+    "base": "cipher-digital",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:CIFR"
+  },
+  "para:GDX": {
+    "exchange": "para",
+    "base": "vaneck-gold-miners-etf",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/para:GDX"
   }
 }
