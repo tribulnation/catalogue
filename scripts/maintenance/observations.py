@@ -7,7 +7,7 @@ reports `skip` rather than "no findings", so a gap in coverage stays visible.
 
   {"as_of": "2026-11-07T04:50:00Z",
    "platforms": {"<platform>": {
-     "complete": true,               # every market surface of the platform was read
+     "complete": true,               # every market surface was read; absent means false
      "exchanges": {"<exchange id>": "spot" | "perp"},   # the exchanges that were read
      "markets": [{
        "exchange": "xyz", "market": "xyz:MU", "kind": "perp",
@@ -20,6 +20,12 @@ reports `skip` rather than "no findings", so a gap in coverage stays visible.
        "last_quote_ts": "2026-11-07T04:49:12Z",
        "index_quote": "usd"            # optional: canonical asset the index is priced in
      }]}}}
+
+`markets` must include every market the venue still quotes, even one its rules surface
+leaves out (Binance's `exchangeInfo` omits its TradFi perpetuals while the tickers quote
+them): export it with status `unknown` and its `last_quote_ts`, so `stale-listing`
+sees it is live. `complete` is what lets a missing market count as stale, so an
+exporter that omits it gets no stale findings for that platform.
 
 `asset_ids.json`: ``{"platforms": {"<platform>": {"complete": true,
 "assets": {"<venue asset id>": ["wallet", "earn"]}}}}``. Market bases and quotes are
@@ -174,7 +180,7 @@ def parse_listings(raw: dict[str, Any]) -> dict[str, Listings]:
     exchanges = dict(entry.get('exchanges') or {})
     for market in markets.values():
       exchanges.setdefault(market['exchange'], market['kind'])
-    out[platform] = Listings(complete=bool(entry.get('complete', True)), exchanges=exchanges, markets=markets)
+    out[platform] = Listings(complete=entry.get('complete') is True, exchanges=exchanges, markets=markets)
   return out
 
 
