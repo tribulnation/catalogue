@@ -248,6 +248,14 @@ so open positions on it still map: a collateral the backend reports inactive, or
 in `CLOSE_ONLY` in the script, with its source. DAI (Arbitrum, Polygon) is there:
 close-only since 2025-11-12 while the backend and contracts still call it active.
 Remove an entry only when gTrade's docs or app show the collateral open again.
+`scripts/check_gtrade_close_only.py` compares `CLOSE_ONLY` with the docs'
+collateral table, the app's `<x>TradingDisabled` messages and the vault's open
+trades; a new entry also needs its close-only block per chain in that script's
+`CLOSE_ONLY_SINCE`.
+
+`.github/workflows/gtrade-sync.yml` runs weekly: `gtrade.py --refresh`, and a pull
+request (branch `gtrade-refresh`) when the instruments change, and the close-only
+check, which fails the run when it disagrees.
 
 ### Hyperliquid
 

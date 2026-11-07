@@ -20,6 +20,11 @@ The input is each chain's `GET https://backend-<chain>.gains.trade/trading-varia
     # this through lib/tests/test_gtrade.py)
     PYTHONPATH=lib/src .venv/bin/python scripts/gtrade.py --check
 
+`--markdown PATH` also writes the ids added, removed and changed against the committed
+file. `.github/workflows/gtrade-sync.yml` runs `--refresh` weekly and opens a pull
+request when the instruments change; `scripts/check_gtrade_close_only.py` checks
+`CLOSE_ONLY` against the venue in the same workflow.
+
 Base and quote assets come from `data/asset_translations/gtrade.json` (gTrade ticker,
 without the `_1` suffix of a second listing, -> catalogue asset id). That mapping is
 reviewed by hand: base assets were matched by price against other venues, and the
@@ -279,11 +284,33 @@ def render(items: Mapping[str, Any]) -> str:
   return json.dumps(items, indent=2, ensure_ascii=False) + '\n'
 
 
+def changes(old: Mapping[str, Any], new: Mapping[str, Any], limit: int = 50) -> str:
+  """Markdown summary of how a regenerated file differs from the committed one: the ids
+  added, removed and changed (with the fields that changed), `limit` per list."""
+  added = [id for id in new if id not in old]
+  removed = [id for id in old if id not in new]
+  changed = {
+    id: sorted(k for k in old[id].keys() | new[id].keys() if old[id].get(k) != new[id].get(k))
+    for id in new if id in old and old[id] != new[id]
+  }
+  if not (added or removed or changed):
+    return 'No change to `gtrade.json`.\n'
+  def section(title: str, lines: list[str]) -> list[str]:
+    more = [f'- ... and {len(lines) - limit} more'] if len(lines) > limit else []
+    return [f'### {title} ({len(lines)})', '', *lines[:limit], *more, ''] if lines else []
+  out = [f'`gtrade.json`: {len(added)} added, {len(removed)} removed, {len(changed)} changed.', '']
+  out += section('Added', [f'- `{id}`' for id in added])
+  out += section('Removed', [f'- `{id}`' for id in removed])
+  out += section('Changed', [f'- `{id}`: {", ".join(f"`{k}`" for k in keys)}' for id, keys in changed.items()])
+  return '\n'.join(out)
+
+
 def main() -> None:
   parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
   mode = parser.add_mutually_exclusive_group()
   mode.add_argument('--refresh', action='store_true', help='re-record the fixture from the live backend first')
   mode.add_argument('--check', action='store_true', help='exit 1 if the committed file differs from the fixture\'s')
+  parser.add_argument('--markdown', type=Path, help='also write a summary of the change to the committed file here')
   args = parser.parse_args()
 
   if args.refresh:
@@ -295,6 +322,8 @@ def main() -> None:
     text = render(instruments(fixture))
   except ValueError as e:
     sys.exit(str(e))
+  if args.markdown:
+    args.markdown.write_text(changes(json.loads(OUTPUT.read_text()), json.loads(text)))
   if args.check:
     if OUTPUT.read_text() != text:
       sys.exit(f'{OUTPUT.relative_to(ROOT)} differs from scripts/gtrade.py\'s output; run it and commit the result')
