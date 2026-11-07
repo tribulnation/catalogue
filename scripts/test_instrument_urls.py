@@ -171,7 +171,7 @@ class Terminal341UrlsTest(unittest.TestCase):
       (PERPETUAL_RULES, 'helix', 'AAPL/USDC PERP', {}, 'https://helixapp.com/futures/aapl-usdc-perp'),
       (PERPETUAL_RULES, 'ostium', 'AAPL-USD', {}, 'https://app.ostium.com/trade?from=AAPL&to=USD'),
       (PERPETUAL_RULES, 'gtrade', 'base-usdc:USD/JPY', {}, 'https://gains.trade/trading#USD-JPY'),
-      (PERPETUAL_RULES, 'gtrade', 'arbitrum-usdc:TSLA_1/USD', {}, None),
+      (PERPETUAL_RULES, 'gtrade', 'arbitrum-usdc:TSLA_1/USD', {}, 'https://gains.trade/trading#TSLA-USD'),
       (PERPETUAL_RULES, 'pacifica', '2Z', {}, 'https://app.pacifica.fi/trade/2Z'),
       (PERPETUAL_RULES, 'pionex', 'ETH_USDT_PERP', {}, 'https://www.pionex.com/en/futures/ETH.PERP_USDT/Manual'),
       (PERPETUAL_RULES, 'qfex', 'AAOI-USD', {}, 'https://www.qfex.com/trade/AAOI-USD'),

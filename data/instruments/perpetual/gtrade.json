@@ -1222,7 +1222,8 @@
     "base": "amazon",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false
+    "quanto": false,
+    "url": "https://gains.trade/trading#AMZN-USD"
   },
   "arbitrum-gns:APE/USD": {
     "exchange": "arbitrum-gns",
@@ -1637,14 +1638,16 @@
     "base": "gamestop",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false
+    "quanto": false,
+    "url": "https://gains.trade/trading#GME-USD"
   },
   "arbitrum-gns:GOOGL_1/USD": {
     "exchange": "arbitrum-gns",
     "base": "alphabet",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false
+    "quanto": false,
+    "url": "https://gains.trade/trading#GOOGL-USD"
   },
   "arbitrum-gns:GRASS/USD": {
     "exchange": "arbitrum-gns",
@@ -1939,7 +1942,8 @@
     "base": "netflix",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false
+    "quanto": false,
+    "url": "https://gains.trade/trading#NFLX-USD"
   },
   "arbitrum-gns:NVDA/USD": {
     "exchange": "arbitrum-gns",
@@ -2258,7 +2262,8 @@
     "base": "tesla",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false
+    "quanto": false,
+    "url": "https://gains.trade/trading#TSLA-USD"
   },
   "arbitrum-gns:TWT/USD": {
     "exchange": "arbitrum-gns",
@@ -2529,7 +2534,8 @@
     "exchange": "arbitrum-usdc",
     "base": "amazon",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://gains.trade/trading#AMZN-USD"
   },
   "arbitrum-usdc:APE/USD": {
     "exchange": "arbitrum-usdc",
@@ -2923,13 +2929,15 @@
     "exchange": "arbitrum-usdc",
     "base": "gamestop",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://gains.trade/trading#GME-USD"
   },
   "arbitrum-usdc:GOOGL_1/USD": {
     "exchange": "arbitrum-usdc",
     "base": "alphabet",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://gains.trade/trading#GOOGL-USD"
   },
   "arbitrum-usdc:GRASS/USD": {
     "exchange": "arbitrum-usdc",
@@ -3208,7 +3216,8 @@
     "exchange": "arbitrum-usdc",
     "base": "netflix",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://gains.trade/trading#NFLX-USD"
   },
   "arbitrum-usdc:NVDA/USD": {
     "exchange": "arbitrum-usdc",
@@ -3494,7 +3503,8 @@
     "exchange": "arbitrum-usdc",
     "base": "tesla",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://gains.trade/trading#TSLA-USD"
   },
   "arbitrum-usdc:TWT/USD": {
     "exchange": "arbitrum-usdc",
@@ -3771,7 +3781,8 @@
     "base": "amazon",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false
+    "quanto": false,
+    "url": "https://gains.trade/trading#AMZN-USD"
   },
   "arbitrum-weth:APE/USD": {
     "exchange": "arbitrum-weth",
@@ -4186,14 +4197,16 @@
     "base": "gamestop",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false
+    "quanto": false,
+    "url": "https://gains.trade/trading#GME-USD"
   },
   "arbitrum-weth:GOOGL_1/USD": {
     "exchange": "arbitrum-weth",
     "base": "alphabet",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false
+    "quanto": false,
+    "url": "https://gains.trade/trading#GOOGL-USD"
   },
   "arbitrum-weth:GRASS/USD": {
     "exchange": "arbitrum-weth",
@@ -4488,7 +4501,8 @@
     "base": "netflix",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false
+    "quanto": false,
+    "url": "https://gains.trade/trading#NFLX-USD"
   },
   "arbitrum-weth:NVDA/USD": {
     "exchange": "arbitrum-weth",
@@ -4807,7 +4821,8 @@
     "base": "tesla",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false
+    "quanto": false,
+    "url": "https://gains.trade/trading#TSLA-USD"
   },
   "arbitrum-weth:TWT/USD": {
     "exchange": "arbitrum-weth",
@@ -5064,7 +5079,8 @@
     "exchange": "base-btcusd",
     "base": "amazon",
     "quote": "usd",
-    "settlement": "bitcoin-usd-btcfi"
+    "settlement": "bitcoin-usd-btcfi",
+    "url": "https://gains.trade/trading#AMZN-USD"
   },
   "base-btcusd:APT/USD": {
     "exchange": "base-btcusd",
@@ -5304,13 +5320,15 @@
     "exchange": "base-btcusd",
     "base": "gamestop",
     "quote": "usd",
-    "settlement": "bitcoin-usd-btcfi"
+    "settlement": "bitcoin-usd-btcfi",
+    "url": "https://gains.trade/trading#GME-USD"
   },
   "base-btcusd:GOOGL_1/USD": {
     "exchange": "base-btcusd",
     "base": "alphabet",
     "quote": "usd",
-    "settlement": "bitcoin-usd-btcfi"
+    "settlement": "bitcoin-usd-btcfi",
+    "url": "https://gains.trade/trading#GOOGL-USD"
   },
   "base-btcusd:GRT/USD": {
     "exchange": "base-btcusd",
@@ -5526,7 +5544,8 @@
     "exchange": "base-btcusd",
     "base": "netflix",
     "quote": "usd",
-    "settlement": "bitcoin-usd-btcfi"
+    "settlement": "bitcoin-usd-btcfi",
+    "url": "https://gains.trade/trading#NFLX-USD"
   },
   "base-btcusd:NVDA/USD": {
     "exchange": "base-btcusd",
@@ -5742,7 +5761,8 @@
     "exchange": "base-btcusd",
     "base": "tesla",
     "quote": "usd",
-    "settlement": "bitcoin-usd-btcfi"
+    "settlement": "bitcoin-usd-btcfi",
+    "url": "https://gains.trade/trading#TSLA-USD"
   },
   "base-btcusd:UNI/USD": {
     "exchange": "base-btcusd",
@@ -5955,7 +5975,8 @@
     "exchange": "base-usdc",
     "base": "amazon",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://gains.trade/trading#AMZN-USD"
   },
   "base-usdc:APE/USD": {
     "exchange": "base-usdc",
@@ -6335,13 +6356,15 @@
     "exchange": "base-usdc",
     "base": "gamestop",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://gains.trade/trading#GME-USD"
   },
   "base-usdc:GOOGL_1/USD": {
     "exchange": "base-usdc",
     "base": "alphabet",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://gains.trade/trading#GOOGL-USD"
   },
   "base-usdc:GRASS/USD": {
     "exchange": "base-usdc",
@@ -6613,7 +6636,8 @@
     "exchange": "base-usdc",
     "base": "netflix",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://gains.trade/trading#NFLX-USD"
   },
   "base-usdc:NVDA/USD": {
     "exchange": "base-usdc",
@@ -6892,7 +6916,8 @@
     "exchange": "base-usdc",
     "base": "tesla",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://gains.trade/trading#TSLA-USD"
   },
   "base-usdc:TWT/USD": {
     "exchange": "base-usdc",
@@ -9166,7 +9191,8 @@
     "exchange": "polygon-usdc",
     "base": "netflix",
     "quote": "usd",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://gains.trade/trading#NFLX-USD"
   },
   "polygon-usdc:OKB/USD": {
     "exchange": "polygon-usdc",
@@ -10204,7 +10230,8 @@
     "base": "netflix",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false
+    "quanto": false,
+    "url": "https://gains.trade/trading#NFLX-USD"
   },
   "polygon-weth:OKB/USD": {
     "exchange": "polygon-weth",

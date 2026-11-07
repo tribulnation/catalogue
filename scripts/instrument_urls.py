@@ -182,14 +182,16 @@ def ostium_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
   return f'https://app.ostium.com/trade?from={base}&to={quote}'
 
 
-def gtrade_url(id: str, instrument: Instrument, symbols: Symbols) -> str | None:
+def gtrade_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
   """`arbitrum-usdc:BTC/USD` trades at `/trading#BTC-USD` (the pair only: the chain and
-  collateral are picked in the app). A second listing of a stock (`TSLA_1/USD`) has no
-  page of its own: the fragment falls back to BTC/USD, so it gets no URL."""
+  collateral are picked in the app). A second listing of a stock (`TSLA_1/USD`) trades at
+  its plain ticker's fragment, `#TSLA-USD`: the app sends a fragment holding `_` to
+  BTC/USD, and opens the highest `<ticker>_<n>` listing for `<ticker>` when the chain also
+  has the plain pair (its `stockPairToActiveStockSplit`). `scripts/gtrade.py` checks
+  that every URL it writes opens the instrument's own pair index."""
   pair = id.split(':', 1)[1]
-  if '_' in pair:
-    return None
-  return 'https://gains.trade/trading#' + pair.replace('/', '-')
+  base, quote = pair.split('/')
+  return f'https://gains.trade/trading#{base.split("_")[0]}-{quote}'
 
 
 def pionex_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
