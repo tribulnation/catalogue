@@ -254,17 +254,61 @@ USD feeds. No market mixes suffixed and unsuffixed sources. Read on 2026-10-30 a
   five `USD<CCY>` FX markets (98, 99, 100, 105, 198) take plain `pythlazer`, as
   their foreign-currency quote assumes. Neither changes.
 
-Not changed, because the source does not name a currency:
+Not changed on 2026-10-30, because the source did not name a currency: the
+`internal_price` markets 160, 161, 162, 192, 193, 199, 201, 202, 203, 205, 217, 220,
+230, 4096, 5628; the `rolling` 159 (`BRENTOIL`); 204 and 225 (a median with no listed
+source); 4097 (plain `uniswap`); and 22, 28, 51, 70, 75, 80, 89, 124, 133, 169,
+missing from `priceOracleInfo`. They were settled on 2026-11-06:
 
-- `internal_price` (Lighter's order-book EMA while the external feed is stale,
-  e.g. Asian stocks out of hours, pre-IPO markets): 160, 161, 162, 192, 193, 199,
-  201, 202, 203, 205, 217, 220, 230, 4096, 5628.
-- `rolling` futures pricing: 159 (`BRENTOIL`); a median with no listed source:
-  204, 225; plain `uniswap`: 4097.
-- Markets missing from `priceOracleInfo` (inactive or renamed): 22, 28, 51, 70,
-  75, 80, 89, 124, 133, 169.
+`internal_price` is Lighter's order-book EMA, used whenever an external feed is
+stale ([Internal Pricing Mechanism](https://docs.lighter.xyz/trading/internal-pricing-mechanism)):
+the 10-30 read was taken while the Asian exchanges were closed, so their Pyth
+feeds were stale. It never makes the index a USDC price; the market keeps
+tracking what its specification names. Read on 2026-11-06 at 12:05 UTC (Lighter
+`orderBookDetails` index price against the local close and Yahoo FX):
 
-These keep `usd-coin` until their sources are readable.
+| Id | Market | Lighter index | Local close | In USD | Quote |
+| --- | --- | --- | --- | --- | --- |
+| 201 | TENCENT | 53.423 | 0700.HK HK$419.8 | 53.57 | `usd` |
+| 203 | XIAOMI | 3.8810 | 1810.HK HK$30.38 | 3.876 | `usd` |
+| 202 | SMIC | 5.8127 | 0981.HK HK$45.58 | 5.816 | `usd` |
+| 199 | MINIMAX | 19.797 | 0100.HK HK$155.8 | 19.88 | `usd` |
+| 205 | ZHIPU | 54.00 | 2513.HK HK$426.2 | 54.38 | `usd` |
+| 204 | POPMART | 18.094 | 9992.HK HK$141.9 | 18.11 | `usd` |
+| 230 | SHEIN | 5.1489 | 0625.HK HK$40.66 | 5.188 | `usd` |
+| 217 | CXMT | 6.1011 | 688825.SS ¥40.41 | 6.058 | `usd` |
+| 220 | UNITREE | 97.836 | 688836.SS ¥656.62 | 98.44 | `usd` |
+| 160 | HYUNDAIUSD | 209.424 | 005380.KS ₩279,500 | 205.9 | `usd` |
+| 161 | SKHYNIXUSD | 876.961 | 000660.KS ₩1,132,000 | 833.7 | `usd` |
+| 162 | SAMSUNGUSD | 143.995 | 005930.KS ₩188,700 | 139.0 | `usd` |
+| 225 | KIOXIA | 56.12 | 285A.T ¥8,511 | 53.77 | `usd` |
+| 159 | BRENTOIL | 98.60 | ICE Brent $98.69 | 98.69 | `usd` |
+
+FX: USD/HKD 7.8371, USD/CNY 6.6703, USD/KRW 1357.73, USD/JPY 158.296. The Korean
+and Japanese markets were closed for the night, so their internal prices drift a
+few percent, but every one is the USD-converted share price, not the local one
+(the delisted local-currency `SAMSUNG` 140 and `SKHYNIX` 143 printed 219,500 and
+1,225,000 and keep `south-korean-won`). Lighter's market specifications say so
+for the Korean ones ("quoted in USD"), and name a Pyth HKD/CNY feed for the
+others, converted to USD. BRENTOIL rolls Pyth's Brent `/USD` futures feeds.
+
+- Pre-IPO `OPENAI` 192, `ANTHROPIC` 193 and `OURA` 4096 track "the value of one
+  share", in USD (OPENAI 1395.79 on an assumed 1 billion shares is a $1.4tn
+  valuation): `usd`.
+- The delisted iShares Semiconductor ETF `SOXX` 169 follows Lighter's other US
+  ETFs, all on plain Pyth `/USD` feeds: `usd`.
+- `PRL` 4097 takes the median of `gate`, `uniswap` and `internal_price`; Gate's
+  pair is `PEARL_USDT` (1.6633 against Lighter's index 1.6630): `tether`.
+- The prelaunch `XTEN` 5628 has only Lighter's internal price before its TGE;
+  like every Lighter crypto market (all 117 already on `tether` take only
+  USDT-denominated sources, and Lighter even converts its one USDC source,
+  `hyperliquid * usdc / usdt`) it is `tether`.
+- The delisted crypto markets 22 (AI16Z), 28 (MKR), 51 (RESOLV), 70 (YZY),
+  75 (DOLO), 80 (MYX), 89 (EDEN), 124 (FOGO) and 133 (BIRB) are no longer in
+  `priceOracleInfo`; they follow the same venue rule: `tether`.
+
+No Lighter perpetual is quoted in USDC any more; `scripts/check_perp_quotes.py`
+keeps it that way.
 
 ## Extended order-book markets track USD
 

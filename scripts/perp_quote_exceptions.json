@@ -1,0 +1,10 @@
+{
+  "_README": [
+    "Lighter and Hyperliquid perpetuals whose index really is USDC, for scripts/check_perp_quotes.py.",
+    "Everything else on these platforms tracks USDT (crypto) or USD (stocks, ETFs, commodities,",
+    "FX, pre-IPO) while settling in USDC, so `quote: usd-coin` there fails the check.",
+    "Each key is '<platform>:<instrument id>'; the value is the evidence."
+  ],
+  "hyperliquid:HYPE": "Hyperliquid's contract specifications price HYPE against its own HYPE/USDC spot book (docs/sdk-native-market-ids.md, \"Hyperliquid quote exceptions\").",
+  "hyperliquid:PURR": "Hyperliquid's contract specifications price PURR against its own PURR/USDC spot book (docs/sdk-native-market-ids.md, \"Hyperliquid quote exceptions\")."
+}
