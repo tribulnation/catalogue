@@ -43,10 +43,13 @@ inactive (`isActive` false: the contracts refuse new trades on it), and one in
 still report it active (no machine-readable signal exists, see `CLOSE_ONLY`).
 
 `quote` is the index currency (`usd`, or the FX pair's quote). `quanto` is left out when
-the collateral is pegged to the quote; dollar pairs on a non-dollar collateral (WETH,
-GNS) are `quanto: false`, the venue converting at the collateral's price; pairs quoted in
-another currency (USD/JPY, EUR/AUD, ...) are `quanto: true`: P&L is paid as
-size x (price - open price) in the collateral, with no exchange rate applied.
+the collateral is pegged to the quote, and is `true` on every other instrument: dollar
+pairs on a non-dollar collateral (WETH, GNS) and pairs quoted in another currency
+(USD/JPY, EUR/AUD, ...) alike. gTrade sizes a position in the collateral and pays
+collateral x leverage x (price / open price - 1) in it, with no quote/collateral
+exchange rate applied (docs: "Spotlight: WETH", a position has a fixed size in ETH
+terms and its liquidation price does not move with ETH). See AGENTS.md, "Quanto
+perpetuals".
 
 DEGEN pairs (`BTCDEGEN/USD`, ...) track the same index as the plain pair but trade in
 gTrade's `crypto-degen` group (500x leverage, different fees). The schema has no field
@@ -226,7 +229,8 @@ def instruments(fixture: Mapping[str, Any], tickers: Mapping[str, str] | None = 
         id = f'{exchange}:{base_ticker}/{quote_ticker}'
         inst: dict[str, Any] = {'exchange': exchange, 'base': tickers[ticker], 'quote': tickers[quote_ticker], 'settlement': settlement}
         if inst['quote'] != peg:
-          inst['quanto'] = inst['quote'] != 'usd'
+          # P&L is a fixed share of the collateral per index point: no exchange rate applied.
+          inst['quanto'] = True
         if close_only:
           inst['delisted'] = True
         else:

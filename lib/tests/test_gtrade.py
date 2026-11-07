@@ -47,7 +47,8 @@ class GtradeTest(unittest.TestCase):
 
   def test_listing_vaults_and_quanto(self):
     """One instrument per vault; delisted pairs (maxLeverage 1) and vaults without an OI
-    cap are left out; FX is quanto, dollar pairs on WETH are not."""
+    cap are left out; quanto wherever the quote is not the collateral's peg (FX on USDC,
+    dollar pairs and FX on WETH alike)."""
     fx = {'arbitrum': chain(
       [['BTC', 'USD', 0, 0], ['ETH', 'USD', 0, 1], ['USD', 'JPY', 0, 0], ['TSLA_1', 'USD', 0, 0]],
       {USDC: [['1', False, '0', '0'], ['1', False, '0', '0'], ['1', False, '0', '0'], ['0', False, '0', '0']],
@@ -58,7 +59,8 @@ class GtradeTest(unittest.TestCase):
                                  'arbitrum-weth:BTC/USD', 'arbitrum-weth:TSLA_1/USD', 'arbitrum-weth:USD/JPY'])
     self.assertNotIn('quanto', out['arbitrum-usdc:BTC/USD'])
     self.assertIs(out['arbitrum-usdc:USD/JPY']['quanto'], True)
-    self.assertIs(out['arbitrum-weth:BTC/USD']['quanto'], False)
+    self.assertIs(out['arbitrum-weth:BTC/USD']['quanto'], True)
+    self.assertIs(out['arbitrum-weth:USD/JPY']['quanto'], True)
     self.assertEqual(out['arbitrum-weth:TSLA_1/USD']['base'], 'tesla')
     self.assertNotIn('url', out['arbitrum-weth:TSLA_1/USD'])
     self.assertEqual(out['arbitrum-usdc:BTC/USD']['settlement'], 'usd-coin')
@@ -106,6 +108,15 @@ class GtradeTest(unittest.TestCase):
     dai = {k for k, v in out.items() if v['exchange'].endswith('-dai')}
     self.assertTrue(dai)
     self.assertEqual({k for k, v in out.items() if v.get('delisted')}, dai)
+
+  def test_committed_quanto_is_uniform(self):
+    """gTrade pays every pair the same way, so every committed instrument whose quote
+    differs from its settlement's peg is `quanto: true`, and no other one sets it."""
+    out = json.loads(gtrade.OUTPUT.read_text())
+    cross = {k for k, v in out.items() if v['quote'] != gtrade._pegged_to(v['settlement'])}
+    self.assertTrue(cross)
+    self.assertEqual({k for k, v in out.items() if 'quanto' in v}, cross)
+    self.assertEqual({out[k]['quanto'] for k in cross}, {True})
 
   def test_degen_pairs_are_separate_instruments(self):
     """DEGEN pairs share the base asset but keep their own id (no schema field marks them)."""
