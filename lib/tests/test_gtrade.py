@@ -50,9 +50,9 @@ class GtradeTest(unittest.TestCase):
     cap are left out; quanto wherever the quote is not the collateral's peg (FX on USDC,
     dollar pairs and FX on WETH alike)."""
     fx = {'arbitrum': chain(
-      [['BTC', 'USD', 0, 0], ['ETH', 'USD', 0, 1], ['USD', 'JPY', 0, 0], ['TSLA_1', 'USD', 0, 0]],
-      {USDC: [['1', False, '0', '0'], ['1', False, '0', '0'], ['1', False, '0', '0'], ['0', False, '0', '0']],
-       WETH: [['1', False, '0', '0'], ['1', False, '0', '0'], ['1', False, '0', '0'], ['1', False, '0', '0']]},
+      [['BTC', 'USD', 0, 0], ['ETH', 'USD', 0, 1], ['USD', 'JPY', 0, 0], ['TSLA_1', 'USD', 0, 0], ['TSLA', 'USD', 0, 1]],
+      {USDC: [['1', False, '0', '0'], ['1', False, '0', '0'], ['1', False, '0', '0'], ['0', False, '0', '0'], ['1', False, '0', '0']],
+       WETH: [['1', False, '0', '0'], ['1', False, '0', '0'], ['1', False, '0', '0'], ['1', False, '0', '0'], ['1', False, '0', '0']]},
     )}
     out = gtrade.instruments(fx, TICKERS)
     self.assertEqual(list(out), ['arbitrum-usdc:BTC/USD', 'arbitrum-usdc:USD/JPY',
@@ -62,8 +62,37 @@ class GtradeTest(unittest.TestCase):
     self.assertIs(out['arbitrum-weth:BTC/USD']['quanto'], True)
     self.assertIs(out['arbitrum-weth:USD/JPY']['quanto'], True)
     self.assertEqual(out['arbitrum-weth:TSLA_1/USD']['base'], 'tesla')
-    self.assertNotIn('url', out['arbitrum-weth:TSLA_1/USD'])
+    self.assertEqual(out['arbitrum-weth:TSLA_1/USD']['url'], 'https://gains.trade/trading#TSLA-USD')
     self.assertEqual(out['arbitrum-usdc:BTC/USD']['settlement'], 'usd-coin')
+
+  def test_app_pair_follows_the_trading_page(self):
+    """`#TSLA-USD` opens the highest `TSLA_<n>` listing when the plain pair exists; a
+    fragment with `_`, or a second listing without its plain pair, falls back."""
+    pairs = [['BTC', 'USD', 0, 0], ['TSLA', 'USD', 0, 1], ['TSLA_1', 'USD', 0, 1], ['TSLA_2', 'USD', 0, 0],
+             ['NFLX_1', 'USD', 0, 0], ['USD', 'JPY', 0, 0]]
+    self.assertEqual(gtrade.app_pair(pairs, 'TSLA-USD'), 3)
+    self.assertEqual(gtrade.app_pair(pairs, 'tsla-usd'), 3)
+    self.assertEqual(gtrade.app_pair(pairs, 'USD-JPY'), 5)
+    self.assertIsNone(gtrade.app_pair(pairs, 'TSLA_2-USD'))
+    self.assertIsNone(gtrade.app_pair(pairs, 'NFLX-USD'))
+    self.assertIsNone(gtrade.app_pair(pairs, 'BTCUSD'))
+
+  def test_url_the_app_opens_elsewhere_fails(self):
+    """A listed pair whose URL the app routes to another pair index fails the run: here
+    the plain TSLA, which `#TSLA-USD` no longer opens once TSLA_1 exists."""
+    fx = {'arbitrum': chain([['TSLA', 'USD', 0, 0], ['TSLA_1', 'USD', 0, 0]], {USDC: [['1', False, '0', '0']] * 2})}
+    with self.assertRaises(ValueError) as e:
+      gtrade.instruments(fx, TICKERS)
+    self.assertIn('arbitrum-usdc:TSLA/USD: https://gains.trade/trading#TSLA-USD', str(e.exception))
+    self.assertNotIn('TSLA_1/USD:', str(e.exception))
+
+  def test_committed_second_listings_have_urls(self):
+    """The listed `_1` stock re-listings (now the only live ones) link to their page."""
+    out = json.loads(gtrade.OUTPUT.read_text())
+    seconds = {k: v for k, v in out.items() if '_' in k.split(':', 1)[1] and not v.get('delisted')}
+    self.assertTrue(seconds)
+    for id, inst in seconds.items():
+      self.assertEqual(inst.get('url'), 'https://gains.trade/trading#' + id.split(':')[1].split('_')[0] + '-USD', id)
 
   def test_chain_reporting_max_leverage_1_everywhere_lists_by_activity(self):
     """MegaETH reports maxLeverage 1 for every pair; there funding, borrowing or open

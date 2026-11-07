@@ -186,6 +186,26 @@ def listed(chain: Mapping[str, Any]) -> list[list[bool]]:
   return [[on_chain[i] and int(c['pairs'][i][0]) > 0 for i in range(len(pairs))] for c in vaults]
 
 
+def app_pair(pairs: list[list], fragment: str) -> int | None:
+  """The pair index gains.trade opens for `/trading#<fragment>` on a chain with `pairs`,
+  or None when the app falls back to its default pair (BTC/USD).
+
+  Mirrors the app's trading page: a fragment holding `_` or no `-` falls back; the plain
+  ticker of a stock with second listings opens the highest-numbered `<ticker>_<n>` (the
+  app's `stockPairToActiveStockSplit`, which needs the plain pair on the chain too)."""
+  if '_' in fragment or '-' not in fragment:
+    return None
+  base, quote = (re.sub('[^A-Z0-9]', '', part.upper()) for part in fragment.split('-')[:2])
+  plain = {p[0] for p in pairs if '_' not in p[0]}
+  active: dict[str, str] = {}
+  for p in pairs:
+    ticker, _, n = p[0].partition('_')
+    if n and ticker in plain and (ticker not in active or int(n) > int(active[ticker].partition('_')[2])):
+      active[ticker] = p[0]
+  name = f'{active.get(base, base)}/{quote}'
+  return next((i for i, p in enumerate(pairs) if f'{p[0]}/{p[1]}' == name), None)
+
+
 def _translations(platform: str) -> dict[str, str]:
   path = DATA / 'asset_translations' / f'{platform}.json'
   return json.loads(path.read_text()) if path.exists() else {}
@@ -199,11 +219,13 @@ def _pegged_to(asset: str) -> str | None:
 def instruments(fixture: Mapping[str, Any], tickers: Mapping[str, str] | None = None) -> dict[str, dict[str, Any]]:
   """The perpetuals the fixture lists, keyed and ordered as in the committed file.
 
-  Raises `ValueError` naming every listed ticker or collateral with no mapping.
+  Raises `ValueError` naming every listed ticker or collateral with no mapping, or every
+  trading-page URL the app would open on another pair.
   """
   tickers = _translations('gtrade') if tickers is None else tickers
   out: dict[str, dict[str, Any]] = {}
   unknown: dict[str, set[str]] = {}
+  misrouted: list[str] = []
   for chain_id in sorted(fixture):
     chain = fixture[chain_id]
     addresses = {k.lower(): v for k, v in _translations(chain_id).items()}
@@ -234,9 +256,9 @@ def instruments(fixture: Mapping[str, Any], tickers: Mapping[str, str] | None = 
         if close_only:
           inst['delisted'] = True
         else:
-          url = gtrade_url(id, inst, {})
-          if url is not None:
-            inst['url'] = url
+          inst['url'] = gtrade_url(id, inst, {})
+          if app_pair(chain['pairs'], inst['url'].split('#', 1)[1]) != i:
+            misrouted.append(f'  {id}: {inst["url"]}')
         out[id] = inst
   if unknown:
     lines = [f'  {t}: {", ".join(sorted(where)[:4])}{" ..." if len(where) > 4 else ""}' for t, where in sorted(unknown.items())]
@@ -244,6 +266,11 @@ def instruments(fixture: Mapping[str, Any], tickers: Mapping[str, str] | None = 
       'gTrade lists tickers with no mapping. Add them to data/asset_translations/gtrade.json '
       '(or EXCLUDED in scripts/gtrade.py, with a reason); collaterals go in the chain\'s '
       'asset translations:\n' + '\n'.join(lines)
+    )
+  if misrouted:
+    raise ValueError(
+      'gains.trade would open another pair for these URLs (see `app_pair`); fix `gtrade_url` '
+      'in scripts/instrument_urls.py:\n' + '\n'.join(misrouted)
     )
   return dict(sorted(out.items(), key=lambda kv: kv[0].split(':', 1)))
 
