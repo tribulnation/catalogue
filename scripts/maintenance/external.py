@@ -147,6 +147,9 @@ def dead(catalogue: Catalogue, obs: Observations, markets: dict[str, list[AssetM
   `dead-external`: liquid assets whose external IDs got no price from a source that answered.
 
   Only sources that answered this run count, so an outage can't look like a dead ID.
+  When `prices.json` has `asked` (the exporter priced only some assets, say to stay
+  within an API budget), a source counts only for the assets it was asked about, so
+  an asset left out of the run can't look dead either.
 
   Args:
     catalogue: The catalogue.
@@ -154,12 +157,16 @@ def dead(catalogue: Catalogue, obs: Observations, markets: dict[str, list[AssetM
     markets: Liquid markets by base asset.
   """
   healthy = prices.healthy(obs)
+  asked = (obs.get('prices') or {}).get('asked')
   findings = []
   for id, found in sorted(markets.items()):
     asset = catalogue.assets.get(id)
     if asset is None or asset.get('pegged_to') or prices.quotes(obs, id):
       continue
-    external = {source: value for source, value in (asset.get('external') or {}).items() if source in healthy}
+    external = {
+      source: value for source, value in (asset.get('external') or {}).items()
+      if source in healthy and (asked is None or id in (asked.get(source) or ()))
+    }
     if not external:
       continue
     findings.append(make(
@@ -185,7 +192,9 @@ def persists(obs: Observations, asset: str, reference: float, deviation: float) 
   reference by more than `PRICE_DEVIATION`.
 
   Earlier slots come from `prices.json` `history`, within `HISTORY` of the current one;
-  each is judged against its own `reference_usd` when it has one.
+  each is judged against its own `reference_usd` when it has one. A row with no
+  timestamp, or a timestamp already counted, confirms nothing, and with no current
+  observation time nothing can be confirmed.
 
   Args:
     obs: The observations.
@@ -194,15 +203,17 @@ def persists(obs: Observations, asset: str, reference: float, deviation: float) 
     deviation: The current signed deviation (implied / reference - 1).
   """
   now = timestamp(obs.get('listings_as_of') or (obs.get('prices') or {}).get('as_of'))
-  slots = 1
+  if now is None:
+    return 1
+  seen = set()
   for row in prices.history(obs, asset):
     at = timestamp(row.get('ts'))
-    if now is not None and at is not None and not timedelta(0) < now - at <= HISTORY:
+    if at is None or at in seen or not timedelta(0) < now - at <= HISTORY:
       continue
     then = float(row['implied_usd']) / float(row.get('reference_usd') or reference) - 1
     if abs(then) > PRICE_DEVIATION and (then > 0) == (deviation > 0):
-      slots += 1
-  return slots
+      seen.add(at)
+  return 1 + len(seen)
 
 
 def mismatched(

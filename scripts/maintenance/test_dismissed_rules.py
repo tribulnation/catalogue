@@ -51,6 +51,16 @@ class QuantoTest(unittest.TestCase):
     usdc = market(base='HK0700', quote='USDC', settlement='USDT')
     self.assertEqual(base_quote.compare(self.hk0700, usdc, self.translations, 'mexc')['fields'], ['quote'])
 
+  def test_usdc_margined_usd_indexed_venues(self):
+    """Deribit BTC_USDC-PERPETUAL and Extended BTC-USD: catalogue usd/usd-coin, venue label USDC."""
+    btc = {'kind': 'perp', 'base': 'bitcoin', 'quote': 'usd', 'settlement': 'usd-coin'}
+    for platform, quote in (('deribit', 'USDC'), ('extended', 'USD')):
+      with self.subTest(platform=platform):
+        venue = market(base='BTC', quote=quote, settlement=quote)
+        translations = {'BTC': 'bitcoin', quote: 'usd-coin'}
+        self.assertIsNone(base_quote.compare(btc, venue, translations, platform))
+        self.assertIsNotNone(base_quote.compare(btc, venue, translations, 'bybit'))
+
   def test_hyperliquid_labels_the_settlement(self):
     """Hyperliquid labels BTC with USDC; its index is USDT, as the catalogue says."""
     btc = {'kind': 'perp', 'base': 'bitcoin', 'quote': 'tether', 'settlement': 'usd-coin'}
@@ -150,10 +160,16 @@ class SirenTest(unittest.TestCase):
       {'ts': '2026-11-05T03:50:00Z', 'implied_usd': 0.0254, 'reference_usd': 0.0322},
       {'ts': '2026-11-07T03:50:00Z', 'implied_usd': 0.0420, 'reference_usd': 0.0322},
       {'ts': '2026-11-07T03:50:00Z', 'implied_usd': 0.0310, 'reference_usd': 0.0322},
+      {'implied_usd': 0.0254, 'reference_usd': 0.0322},
+      {'ts': '2026-11-07T04:50:00Z', 'implied_usd': 0.0254, 'reference_usd': 0.0322},
     ]:
       with self.subTest(row=row):
         _, found, _ = run(self.obs([row]), entries=[])
         self.assertNotIn('mismatched-external:catalogue:siren-bsc', found)
+
+  def test_a_repeated_slot_counts_once(self):
+    row = {'ts': '2026-11-07T03:50:00Z', 'implied_usd': 0.0254, 'reference_usd': 0.0322}
+    self.assertEqual(external.persists(self.obs([row, dict(row)]), 'siren-bsc', 0.0322, -0.21), 2)
 
   def test_split_reference(self):
     providers = {'coingecko': {'usd': 0.0399}, 'coinmarketcap': {'usd': 0.0276}}
