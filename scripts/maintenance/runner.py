@@ -51,6 +51,7 @@ def run(
   *,
   only: Iterable[str] | None = None,
   groups: list[Any] | None = None,
+  extra: Iterable[dict] = (),
 ) -> Report:
   """
   Run every check (or `only` those named) and split out the suppressed findings.
@@ -63,6 +64,8 @@ def run(
     exceptions: The reviewed exceptions.
     only: Check names to run; all when `None`.
     groups: Check modules, `GROUPS` by default.
+    extra: Generator reports (`generators.load`) to merge in. A finding both sides
+      report keeps the check's evidence plus the generator's draft.
   """
   wanted = set(only) if only is not None else set(CHECKS)
   unknown = wanted - set(CHECKS)
@@ -93,6 +96,29 @@ def run(
       else:
         status[name]['reason'] = 'no platform covered'
     findings += [f for f in found if f['check'] in wanted]
+  by_fp = {f['fingerprint']: f for f in findings}
+  for report in extra:
+    for name in report['checks']:
+      if name not in status:
+        continue
+      cover = status[name]['platforms']
+      cover['ran'] = sorted(set(cover['ran']) | set(report['platforms']))
+      for platform in report['platforms']:
+        cover['skip'].pop(platform, None)
+      status[name]['status'], status[name]['reason'] = 'ran', None
+    for f in report['findings']:
+      if f['check'] not in wanted:
+        continue
+      sources = [report['source']]
+      if f['fingerprint'] in by_fp:
+        kept = by_fp[f['fingerprint']]
+        if 'draft' in f['evidence'] and 'draft' not in kept['evidence']:
+          kept['evidence']['draft'] = f['evidence']['draft']
+        kept['evidence']['sources'] = [*kept['evidence'].get('sources', ['checks']), *sources]
+        continue
+      f = {**f, 'evidence': {**f['evidence'], 'sources': sources}}
+      by_fp[f['fingerprint']] = f
+      findings.append(f)
   split = exceptions_.apply(sorted(findings, key=_order), exceptions)
   for f in split['findings']:
     status[f['check']]['found'] += 1

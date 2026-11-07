@@ -65,6 +65,7 @@ import urllib.parse
 import urllib.request
 
 from check_hyperliquid_delisted import disagreements, post
+from maintenance import generators
 
 ROOT = Path(__file__).resolve().parent.parent
 TOLERANCE = 0.03
@@ -295,12 +296,47 @@ def markdown(report: Report, venue: dict[str, Market]) -> str:
   return '\n'.join(lines) + '\n'
 
 
+FILE = 'data/instruments/perpetual/hyperliquid.json'
+CHECKS = ('stale-listing', 'delisted-live', 'untranslated-market')
+"""The maintenance checks `--report-json` covers for Hyperliquid perpetuals."""
+
+
+def findings(report: Report, catalogue: dict[str, dict], venue: dict[str, Market]) -> list[dict]:
+  """The report as maintenance findings (`--report-json`), with the drafts `--write`/`--add` would apply.
+
+  Flag flips become `stale-listing`/`delisted-live` (a market the venue no longer returns
+  gets no draft: it is reported, not changed), candidates and unresolved listed markets
+  `untranslated-market`. A missing market the venue marks delisted gives none.
+  """
+  out = []
+  for id, instrument in catalogue.items():
+    market = venue.get(id)
+    found = generators.flag(
+      'hyperliquid', FILE, id, instrument.get('exchange', ''),
+      catalogue_delisted=bool(instrument.get('delisted')),
+      venue_delisted=None if market is None else market.delisted,
+      evidence={} if market is None else {'open_interest': market.open_interest, 'volume': market.volume},
+    )
+    if found is not None:
+      out.append(found)
+  for name, market in venue.items():
+    if name in catalogue or market.delisted:
+      continue
+    out.append(generators.missing(
+      'hyperliquid', FILE, name, market.dex,
+      instrument=report.candidates.get(name), volume_usd=number(market.volume),
+      evidence={'mark': market.mark, 'resolution': report.evidence.get(name) or report.unresolved.get(name)},
+    ))
+  return out
+
+
 def main() -> None:
   parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
   parser.add_argument('--data', type=Path, default=ROOT / 'data', help='Catalogue data directory.')
   parser.add_argument('--write', action='store_true', help='set delisted flags from isDelisted')
   parser.add_argument('--add', action='store_true', help='append the missing markets that pass every gate')
   parser.add_argument('--markdown', type=Path, help='also write the report as Markdown to this file')
+  parser.add_argument('--report-json', type=Path, help='also write the report as maintenance findings (JSON) to this file')
   parser.add_argument('--check-watch', action='store_true',
                       help='exit 1 when a watched market changed or could not be read; the exit status then ignores flag disagreements')
   args = parser.parse_args()
@@ -320,6 +356,8 @@ def main() -> None:
   print(text, end='')
   if args.markdown:
     args.markdown.write_text(text)
+  if args.report_json:
+    generators.write(args.report_json, 'scripts/hyperliquid.py', ['hyperliquid'], CHECKS, findings(report, catalogue, venue))
 
   changed = sync_flags(catalogue, venue) if args.write else []
   if args.add:
