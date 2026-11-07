@@ -1166,7 +1166,7 @@
     "base": "1inch",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#1INCH-USD"
   },
   "arbitrum-gns:AAPL/USD": {
@@ -1174,7 +1174,7 @@
     "base": "apple",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AAPL-USD"
   },
   "arbitrum-gns:AAVE/USD": {
@@ -1182,7 +1182,7 @@
     "base": "aave",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AAVE-USD"
   },
   "arbitrum-gns:ADA/USD": {
@@ -1190,7 +1190,7 @@
     "base": "cardano",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ADA-USD"
   },
   "arbitrum-gns:AERO/USD": {
@@ -1198,7 +1198,7 @@
     "base": "aerodrome",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AERO-USD"
   },
   "arbitrum-gns:ALGO/USD": {
@@ -1206,7 +1206,7 @@
     "base": "algorand",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ALGO-USD"
   },
   "arbitrum-gns:AMD/USD": {
@@ -1214,7 +1214,7 @@
     "base": "advanced-micro-devices",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AMD-USD"
   },
   "arbitrum-gns:AMZN_1/USD": {
@@ -1222,7 +1222,7 @@
     "base": "amazon",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AMZN-USD"
   },
   "arbitrum-gns:APE/USD": {
@@ -1230,7 +1230,7 @@
     "base": "apecoin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#APE-USD"
   },
   "arbitrum-gns:APT/USD": {
@@ -1238,7 +1238,7 @@
     "base": "aptos",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#APT-USD"
   },
   "arbitrum-gns:AR/USD": {
@@ -1246,7 +1246,7 @@
     "base": "arweave",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AR-USD"
   },
   "arbitrum-gns:ARB/USD": {
@@ -1254,7 +1254,7 @@
     "base": "arbitrum",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ARB-USD"
   },
   "arbitrum-gns:ASTER/USD": {
@@ -1262,7 +1262,7 @@
     "base": "aster",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ASTER-USD"
   },
   "arbitrum-gns:ATOM/USD": {
@@ -1270,7 +1270,7 @@
     "base": "cosmos",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ATOM-USD"
   },
   "arbitrum-gns:AVAX/USD": {
@@ -1278,7 +1278,7 @@
     "base": "avalanche",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AVAX-USD"
   },
   "arbitrum-gns:AVGO/USD": {
@@ -1286,7 +1286,7 @@
     "base": "broadcom",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AVGO-USD"
   },
   "arbitrum-gns:B/USD": {
@@ -1294,7 +1294,7 @@
     "base": "build-on",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#B-USD"
   },
   "arbitrum-gns:BANANAS31/USD": {
@@ -1302,7 +1302,7 @@
     "base": "banana-for-scale",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BANANAS31-USD"
   },
   "arbitrum-gns:BAT/USD": {
@@ -1310,7 +1310,7 @@
     "base": "basic-attention-token",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BAT-USD"
   },
   "arbitrum-gns:BCH/USD": {
@@ -1318,7 +1318,7 @@
     "base": "bitcoin-cash",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BCH-USD"
   },
   "arbitrum-gns:BE/USD": {
@@ -1326,7 +1326,7 @@
     "base": "bloom-energy",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BE-USD"
   },
   "arbitrum-gns:BNB/USD": {
@@ -1334,7 +1334,7 @@
     "base": "bnb",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BNB-USD"
   },
   "arbitrum-gns:BONK/USD": {
@@ -1342,7 +1342,7 @@
     "base": "bonk",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BONK-USD"
   },
   "arbitrum-gns:BSV/USD": {
@@ -1350,7 +1350,7 @@
     "base": "bitcoin-cash-sv",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BSV-USD"
   },
   "arbitrum-gns:BTC/USD": {
@@ -1358,7 +1358,7 @@
     "base": "bitcoin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BTC-USD"
   },
   "arbitrum-gns:CAKE/USD": {
@@ -1366,7 +1366,7 @@
     "base": "pancakeswap",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CAKE-USD"
   },
   "arbitrum-gns:CASHCAT/USD": {
@@ -1374,7 +1374,7 @@
     "base": "cash-cat",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CASHCAT-USD"
   },
   "arbitrum-gns:CFX/USD": {
@@ -1382,7 +1382,7 @@
     "base": "conflux",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CFX-USD"
   },
   "arbitrum-gns:CHIP/USD": {
@@ -1390,7 +1390,7 @@
     "base": "usd-ai",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CHIP-USD"
   },
   "arbitrum-gns:CHZ/USD": {
@@ -1398,7 +1398,7 @@
     "base": "chiliz",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CHZ-USD"
   },
   "arbitrum-gns:COIN/USD": {
@@ -1406,7 +1406,7 @@
     "base": "coinbase",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#COIN-USD"
   },
   "arbitrum-gns:COMP/USD": {
@@ -1414,7 +1414,7 @@
     "base": "compound",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#COMP-USD"
   },
   "arbitrum-gns:CRCL/USD": {
@@ -1422,7 +1422,7 @@
     "base": "circle-internet-group",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CRCL-USD"
   },
   "arbitrum-gns:CRO/USD": {
@@ -1430,7 +1430,7 @@
     "base": "cronos",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CRO-USD"
   },
   "arbitrum-gns:CRV/USD": {
@@ -1438,7 +1438,7 @@
     "base": "curve-dao",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CRV-USD"
   },
   "arbitrum-gns:CRWV/USD": {
@@ -1446,7 +1446,7 @@
     "base": "coreweave",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CRWV-USD"
   },
   "arbitrum-gns:DASH/USD": {
@@ -1454,7 +1454,7 @@
     "base": "dash",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#DASH-USD"
   },
   "arbitrum-gns:DIA/USD": {
@@ -1462,7 +1462,7 @@
     "base": "spdr-dow-jones-industrial-average-etf",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#DIA-USD"
   },
   "arbitrum-gns:DOGE/USD": {
@@ -1470,7 +1470,7 @@
     "base": "dogecoin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#DOGE-USD"
   },
   "arbitrum-gns:DOT/USD": {
@@ -1478,7 +1478,7 @@
     "base": "polkadot",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#DOT-USD"
   },
   "arbitrum-gns:EGLD/USD": {
@@ -1486,7 +1486,7 @@
     "base": "multiversx",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EGLD-USD"
   },
   "arbitrum-gns:EIGEN/USD": {
@@ -1494,7 +1494,7 @@
     "base": "eigen-layer",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EIGEN-USD"
   },
   "arbitrum-gns:ENA/USD": {
@@ -1502,7 +1502,7 @@
     "base": "ethena",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ENA-USD"
   },
   "arbitrum-gns:ENS/USD": {
@@ -1510,7 +1510,7 @@
     "base": "ethereum-name-service",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ENS-USD"
   },
   "arbitrum-gns:ETC/USD": {
@@ -1518,7 +1518,7 @@
     "base": "ethereum-classic",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ETC-USD"
   },
   "arbitrum-gns:ETH/USD": {
@@ -1526,7 +1526,7 @@
     "base": "ethereum",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ETH-USD"
   },
   "arbitrum-gns:ETHFI/USD": {
@@ -1534,7 +1534,7 @@
     "base": "ether-fi",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ETHFI-USD"
   },
   "arbitrum-gns:EUR/AUD": {
@@ -1550,7 +1550,7 @@
     "base": "euro",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-USD"
   },
   "arbitrum-gns:FARTCOIN/USD": {
@@ -1558,7 +1558,7 @@
     "base": "fartcoin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FARTCOIN-USD"
   },
   "arbitrum-gns:FET/USD": {
@@ -1566,7 +1566,7 @@
     "base": "fetch-ai",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FET-USD"
   },
   "arbitrum-gns:FIL/USD": {
@@ -1574,7 +1574,7 @@
     "base": "filecoin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FIL-USD"
   },
   "arbitrum-gns:FLOKI/USD": {
@@ -1582,7 +1582,7 @@
     "base": "floki",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FLOKI-USD"
   },
   "arbitrum-gns:FLUID/USD": {
@@ -1590,7 +1590,7 @@
     "base": "fluid",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FLUID-USD"
   },
   "arbitrum-gns:GALA/USD": {
@@ -1598,7 +1598,7 @@
     "base": "gala",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GALA-USD"
   },
   "arbitrum-gns:GBP/CAD": {
@@ -1622,7 +1622,7 @@
     "base": "british-pound",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-USD"
   },
   "arbitrum-gns:GDX/USD": {
@@ -1630,7 +1630,7 @@
     "base": "vaneck-gold-miners-etf",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GDX-USD"
   },
   "arbitrum-gns:GME_1/USD": {
@@ -1638,7 +1638,7 @@
     "base": "gamestop",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GME-USD"
   },
   "arbitrum-gns:GOOGL_1/USD": {
@@ -1646,7 +1646,7 @@
     "base": "alphabet",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GOOGL-USD"
   },
   "arbitrum-gns:GRASS/USD": {
@@ -1654,7 +1654,7 @@
     "base": "grass",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GRASS-USD"
   },
   "arbitrum-gns:GRT/USD": {
@@ -1662,7 +1662,7 @@
     "base": "the-graph",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GRT-USD"
   },
   "arbitrum-gns:HBAR/USD": {
@@ -1670,7 +1670,7 @@
     "base": "hedera",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#HBAR-USD"
   },
   "arbitrum-gns:HOOD/USD": {
@@ -1678,7 +1678,7 @@
     "base": "robinhood-markets",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#HOOD-USD"
   },
   "arbitrum-gns:HYPE/USD": {
@@ -1686,7 +1686,7 @@
     "base": "hyperliquid",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#HYPE-USD"
   },
   "arbitrum-gns:ICP/USD": {
@@ -1694,7 +1694,7 @@
     "base": "internet-computer",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ICP-USD"
   },
   "arbitrum-gns:IMX/USD": {
@@ -1702,7 +1702,7 @@
     "base": "immutable-x",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#IMX-USD"
   },
   "arbitrum-gns:INJ/USD": {
@@ -1710,7 +1710,7 @@
     "base": "injective",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#INJ-USD"
   },
   "arbitrum-gns:INTC/USD": {
@@ -1718,7 +1718,7 @@
     "base": "intel",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#INTC-USD"
   },
   "arbitrum-gns:IREN/USD": {
@@ -1726,7 +1726,7 @@
     "base": "iren",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#IREN-USD"
   },
   "arbitrum-gns:IWM/USD": {
@@ -1734,7 +1734,7 @@
     "base": "ishares-russell-2000-etf",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#IWM-USD"
   },
   "arbitrum-gns:JASMY/USD": {
@@ -1742,7 +1742,7 @@
     "base": "jasmycoin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#JASMY-USD"
   },
   "arbitrum-gns:JPM/USD": {
@@ -1750,7 +1750,7 @@
     "base": "jpmorgan-chase",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#JPM-USD"
   },
   "arbitrum-gns:JTO/USD": {
@@ -1758,7 +1758,7 @@
     "base": "jito",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#JTO-USD"
   },
   "arbitrum-gns:JUP/USD": {
@@ -1766,7 +1766,7 @@
     "base": "jupiter",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#JUP-USD"
   },
   "arbitrum-gns:KAS/USD": {
@@ -1774,7 +1774,7 @@
     "base": "kaspa",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#KAS-USD"
   },
   "arbitrum-gns:LDO/USD": {
@@ -1782,7 +1782,7 @@
     "base": "lido-dao",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LDO-USD"
   },
   "arbitrum-gns:LINK/USD": {
@@ -1790,7 +1790,7 @@
     "base": "chainlink",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LINK-USD"
   },
   "arbitrum-gns:LIT/USD": {
@@ -1798,7 +1798,7 @@
     "base": "lighter",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LIT-USD"
   },
   "arbitrum-gns:LMT/USD": {
@@ -1806,7 +1806,7 @@
     "base": "lockheed-martin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LMT-USD"
   },
   "arbitrum-gns:LPT/USD": {
@@ -1814,7 +1814,7 @@
     "base": "livepeer",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LPT-USD"
   },
   "arbitrum-gns:LTC/USD": {
@@ -1822,7 +1822,7 @@
     "base": "litecoin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LTC-USD"
   },
   "arbitrum-gns:MANA/USD": {
@@ -1830,7 +1830,7 @@
     "base": "decentraland",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MANA-USD"
   },
   "arbitrum-gns:MARA/USD": {
@@ -1838,7 +1838,7 @@
     "base": "mara-holdings",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MARA-USD"
   },
   "arbitrum-gns:MCD/USD": {
@@ -1846,7 +1846,7 @@
     "base": "mcdonalds",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MCD-USD"
   },
   "arbitrum-gns:MEGA/USD": {
@@ -1854,7 +1854,7 @@
     "base": "megaeth",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MEGA-USD"
   },
   "arbitrum-gns:MELANIA/USD": {
@@ -1862,7 +1862,7 @@
     "base": "melania-meme",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MELANIA-USD"
   },
   "arbitrum-gns:META/USD": {
@@ -1870,7 +1870,7 @@
     "base": "meta-platforms",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#META-USD"
   },
   "arbitrum-gns:MNT/USD": {
@@ -1878,7 +1878,7 @@
     "base": "mantle",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MNT-USD"
   },
   "arbitrum-gns:MON/USD": {
@@ -1886,7 +1886,7 @@
     "base": "monad",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MON-USD"
   },
   "arbitrum-gns:MRVL/USD": {
@@ -1894,7 +1894,7 @@
     "base": "marvell-technology",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MRVL-USD"
   },
   "arbitrum-gns:MSFT/USD": {
@@ -1902,7 +1902,7 @@
     "base": "microsoft",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MSFT-USD"
   },
   "arbitrum-gns:MSTR/USD": {
@@ -1910,7 +1910,7 @@
     "base": "microstrategy",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MSTR-USD"
   },
   "arbitrum-gns:MU/USD": {
@@ -1918,7 +1918,7 @@
     "base": "micron-technology",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MU-USD"
   },
   "arbitrum-gns:NBIS/USD": {
@@ -1926,7 +1926,7 @@
     "base": "nebius-group",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#NBIS-USD"
   },
   "arbitrum-gns:NEAR/USD": {
@@ -1934,7 +1934,7 @@
     "base": "near",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#NEAR-USD"
   },
   "arbitrum-gns:NFLX_1/USD": {
@@ -1942,7 +1942,7 @@
     "base": "netflix",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#NFLX-USD"
   },
   "arbitrum-gns:NVDA/USD": {
@@ -1950,7 +1950,7 @@
     "base": "nvidia",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#NVDA-USD"
   },
   "arbitrum-gns:OKB/USD": {
@@ -1958,7 +1958,7 @@
     "base": "okb",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#OKB-USD"
   },
   "arbitrum-gns:ONDO/USD": {
@@ -1966,7 +1966,7 @@
     "base": "ondo",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ONDO-USD"
   },
   "arbitrum-gns:OP/USD": {
@@ -1974,7 +1974,7 @@
     "base": "optimism",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#OP-USD"
   },
   "arbitrum-gns:PENDLE/USD": {
@@ -1982,7 +1982,7 @@
     "base": "pendle",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PENDLE-USD"
   },
   "arbitrum-gns:PENGU/USD": {
@@ -1990,7 +1990,7 @@
     "base": "pudgy-penguins",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PENGU-USD"
   },
   "arbitrum-gns:PEPE/USD": {
@@ -1998,7 +1998,7 @@
     "base": "pepe",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PEPE-USD"
   },
   "arbitrum-gns:PLTR/USD": {
@@ -2006,7 +2006,7 @@
     "base": "palantir-technologies",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PLTR-USD"
   },
   "arbitrum-gns:POL/USD": {
@@ -2014,7 +2014,7 @@
     "base": "polygon",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#POL-USD"
   },
   "arbitrum-gns:PUMP/USD": {
@@ -2022,7 +2022,7 @@
     "base": "pump",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PUMP-USD"
   },
   "arbitrum-gns:PYPL/USD": {
@@ -2030,7 +2030,7 @@
     "base": "paypal",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PYPL-USD"
   },
   "arbitrum-gns:PYTH/USD": {
@@ -2038,7 +2038,7 @@
     "base": "pyth-network",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PYTH-USD"
   },
   "arbitrum-gns:QNT/USD": {
@@ -2046,7 +2046,7 @@
     "base": "quant",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#QNT-USD"
   },
   "arbitrum-gns:QQQ/USD": {
@@ -2054,7 +2054,7 @@
     "base": "invesco-qqq",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#QQQ-USD"
   },
   "arbitrum-gns:RAY/USD": {
@@ -2062,7 +2062,7 @@
     "base": "raydium",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#RAY-USD"
   },
   "arbitrum-gns:RE/USD": {
@@ -2070,7 +2070,7 @@
     "base": "re",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#RE-USD"
   },
   "arbitrum-gns:RIOT/USD": {
@@ -2078,7 +2078,7 @@
     "base": "riot-platforms",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#RIOT-USD"
   },
   "arbitrum-gns:RNDR/USD": {
@@ -2086,7 +2086,7 @@
     "base": "render",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#RNDR-USD"
   },
   "arbitrum-gns:S/USD": {
@@ -2094,7 +2094,7 @@
     "base": "sonic",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#S-USD"
   },
   "arbitrum-gns:SAND/USD": {
@@ -2102,7 +2102,7 @@
     "base": "the-sandbox",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SAND-USD"
   },
   "arbitrum-gns:SEI/USD": {
@@ -2110,7 +2110,7 @@
     "base": "sei",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SEI-USD"
   },
   "arbitrum-gns:SHIB/USD": {
@@ -2118,7 +2118,7 @@
     "base": "shiba-inu",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SHIB-USD"
   },
   "arbitrum-gns:SKY/USD": {
@@ -2126,7 +2126,7 @@
     "base": "sky",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SKY-USD"
   },
   "arbitrum-gns:SNAP/USD": {
@@ -2134,7 +2134,7 @@
     "base": "snap-inc",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SNAP-USD"
   },
   "arbitrum-gns:SNDK/USD": {
@@ -2142,7 +2142,7 @@
     "base": "sandisk",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SNDK-USD"
   },
   "arbitrum-gns:SOL/USD": {
@@ -2150,7 +2150,7 @@
     "base": "solana",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SOL-USD"
   },
   "arbitrum-gns:SPCX/USD": {
@@ -2158,7 +2158,7 @@
     "base": "spacex",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SPCX-USD"
   },
   "arbitrum-gns:SPY/USD": {
@@ -2166,7 +2166,7 @@
     "base": "spdr-sp500-etf-trust",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SPY-USD"
   },
   "arbitrum-gns:STRK/USD": {
@@ -2174,7 +2174,7 @@
     "base": "starknet",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#STRK-USD"
   },
   "arbitrum-gns:STX/USD": {
@@ -2182,7 +2182,7 @@
     "base": "stacks",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#STX-USD"
   },
   "arbitrum-gns:SUI/USD": {
@@ -2190,7 +2190,7 @@
     "base": "sui",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SUI-USD"
   },
   "arbitrum-gns:SUN/USD": {
@@ -2198,7 +2198,7 @@
     "base": "sun-token",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SUN-USD"
   },
   "arbitrum-gns:SYRUP/USD": {
@@ -2206,7 +2206,7 @@
     "base": "syrup",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SYRUP-USD"
   },
   "arbitrum-gns:TAO/USD": {
@@ -2214,7 +2214,7 @@
     "base": "bittensor",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TAO-USD"
   },
   "arbitrum-gns:THETA/USD": {
@@ -2222,7 +2222,7 @@
     "base": "theta-token",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#THETA-USD"
   },
   "arbitrum-gns:TIA/USD": {
@@ -2230,7 +2230,7 @@
     "base": "celestia",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TIA-USD"
   },
   "arbitrum-gns:TON/USD": {
@@ -2238,7 +2238,7 @@
     "base": "toncoin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TON-USD"
   },
   "arbitrum-gns:TRUMP/USD": {
@@ -2246,7 +2246,7 @@
     "base": "official-trump",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TRUMP-USD"
   },
   "arbitrum-gns:TRX/USD": {
@@ -2254,7 +2254,7 @@
     "base": "tron",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TRX-USD"
   },
   "arbitrum-gns:TSLA_1/USD": {
@@ -2262,7 +2262,7 @@
     "base": "tesla",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TSLA-USD"
   },
   "arbitrum-gns:TWT/USD": {
@@ -2270,7 +2270,7 @@
     "base": "trust-wallet-token",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TWT-USD"
   },
   "arbitrum-gns:UNI/USD": {
@@ -2278,7 +2278,7 @@
     "base": "uniswap",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#UNI-USD"
   },
   "arbitrum-gns:URA/USD": {
@@ -2286,7 +2286,7 @@
     "base": "global-x-uranium-etf",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#URA-USD"
   },
   "arbitrum-gns:USD/CAD": {
@@ -2326,7 +2326,7 @@
     "base": "useless-coin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USELESS-USD"
   },
   "arbitrum-gns:VET/USD": {
@@ -2334,7 +2334,7 @@
     "base": "vechain",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#VET-USD"
   },
   "arbitrum-gns:VIRTUAL/USD": {
@@ -2342,7 +2342,7 @@
     "base": "virtuals-protocol",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#VIRTUAL-USD"
   },
   "arbitrum-gns:VVV/USD": {
@@ -2350,7 +2350,7 @@
     "base": "venice-token",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#VVV-USD"
   },
   "arbitrum-gns:WIF/USD": {
@@ -2358,7 +2358,7 @@
     "base": "dogwifcoin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WIF-USD"
   },
   "arbitrum-gns:WLD/USD": {
@@ -2366,7 +2366,7 @@
     "base": "worldcoin",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WLD-USD"
   },
   "arbitrum-gns:WLFI/USD": {
@@ -2374,7 +2374,7 @@
     "base": "world-liberty-financial",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WLFI-USD"
   },
   "arbitrum-gns:WPM/USD": {
@@ -2382,7 +2382,7 @@
     "base": "wheaton-precious-metals",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WPM-USD"
   },
   "arbitrum-gns:WTI/USD": {
@@ -2390,7 +2390,7 @@
     "base": "west-texas-intermediate",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WTI-USD"
   },
   "arbitrum-gns:XAG/USD": {
@@ -2398,7 +2398,7 @@
     "base": "silver",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XAG-USD"
   },
   "arbitrum-gns:XAU/USD": {
@@ -2406,7 +2406,7 @@
     "base": "gold",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XAU-USD"
   },
   "arbitrum-gns:XDC/USD": {
@@ -2414,7 +2414,7 @@
     "base": "xdc-network",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XDC-USD"
   },
   "arbitrum-gns:XLM/USD": {
@@ -2422,7 +2422,7 @@
     "base": "stellar",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XLM-USD"
   },
   "arbitrum-gns:XMR/USD": {
@@ -2430,7 +2430,7 @@
     "base": "monero",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XMR-USD"
   },
   "arbitrum-gns:XPL/USD": {
@@ -2438,7 +2438,7 @@
     "base": "plasma",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XPL-USD"
   },
   "arbitrum-gns:XRP/USD": {
@@ -2446,7 +2446,7 @@
     "base": "xrp",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XRP-USD"
   },
   "arbitrum-gns:XTZ/USD": {
@@ -2454,7 +2454,7 @@
     "base": "tezos",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XTZ-USD"
   },
   "arbitrum-gns:ZEC/USD": {
@@ -2462,7 +2462,7 @@
     "base": "zcash",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ZEC-USD"
   },
   "arbitrum-gns:ZEN/USD": {
@@ -2470,7 +2470,7 @@
     "base": "horizen",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ZEN-USD"
   },
   "arbitrum-gns:ZRO/USD": {
@@ -2478,7 +2478,7 @@
     "base": "layer-zero",
     "quote": "usd",
     "settlement": "gains-network",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ZRO-USD"
   },
   "arbitrum-usdc:1INCH/USD": {
@@ -3725,7 +3725,7 @@
     "base": "1inch",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#1INCH-USD"
   },
   "arbitrum-weth:AAPL/USD": {
@@ -3733,7 +3733,7 @@
     "base": "apple",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AAPL-USD"
   },
   "arbitrum-weth:AAVE/USD": {
@@ -3741,7 +3741,7 @@
     "base": "aave",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AAVE-USD"
   },
   "arbitrum-weth:ADA/USD": {
@@ -3749,7 +3749,7 @@
     "base": "cardano",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ADA-USD"
   },
   "arbitrum-weth:AERO/USD": {
@@ -3757,7 +3757,7 @@
     "base": "aerodrome",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AERO-USD"
   },
   "arbitrum-weth:ALGO/USD": {
@@ -3765,7 +3765,7 @@
     "base": "algorand",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ALGO-USD"
   },
   "arbitrum-weth:AMD/USD": {
@@ -3773,7 +3773,7 @@
     "base": "advanced-micro-devices",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AMD-USD"
   },
   "arbitrum-weth:AMZN_1/USD": {
@@ -3781,7 +3781,7 @@
     "base": "amazon",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AMZN-USD"
   },
   "arbitrum-weth:APE/USD": {
@@ -3789,7 +3789,7 @@
     "base": "apecoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#APE-USD"
   },
   "arbitrum-weth:APT/USD": {
@@ -3797,7 +3797,7 @@
     "base": "aptos",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#APT-USD"
   },
   "arbitrum-weth:AR/USD": {
@@ -3805,7 +3805,7 @@
     "base": "arweave",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AR-USD"
   },
   "arbitrum-weth:ARB/USD": {
@@ -3813,7 +3813,7 @@
     "base": "arbitrum",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ARB-USD"
   },
   "arbitrum-weth:ASTER/USD": {
@@ -3821,7 +3821,7 @@
     "base": "aster",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ASTER-USD"
   },
   "arbitrum-weth:ATOM/USD": {
@@ -3829,7 +3829,7 @@
     "base": "cosmos",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ATOM-USD"
   },
   "arbitrum-weth:AVAX/USD": {
@@ -3837,7 +3837,7 @@
     "base": "avalanche",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AVAX-USD"
   },
   "arbitrum-weth:AVGO/USD": {
@@ -3845,7 +3845,7 @@
     "base": "broadcom",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AVGO-USD"
   },
   "arbitrum-weth:B/USD": {
@@ -3853,7 +3853,7 @@
     "base": "build-on",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#B-USD"
   },
   "arbitrum-weth:BANANAS31/USD": {
@@ -3861,7 +3861,7 @@
     "base": "banana-for-scale",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BANANAS31-USD"
   },
   "arbitrum-weth:BAT/USD": {
@@ -3869,7 +3869,7 @@
     "base": "basic-attention-token",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BAT-USD"
   },
   "arbitrum-weth:BCH/USD": {
@@ -3877,7 +3877,7 @@
     "base": "bitcoin-cash",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BCH-USD"
   },
   "arbitrum-weth:BE/USD": {
@@ -3885,7 +3885,7 @@
     "base": "bloom-energy",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BE-USD"
   },
   "arbitrum-weth:BNB/USD": {
@@ -3893,7 +3893,7 @@
     "base": "bnb",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BNB-USD"
   },
   "arbitrum-weth:BONK/USD": {
@@ -3901,7 +3901,7 @@
     "base": "bonk",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BONK-USD"
   },
   "arbitrum-weth:BSV/USD": {
@@ -3909,7 +3909,7 @@
     "base": "bitcoin-cash-sv",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BSV-USD"
   },
   "arbitrum-weth:BTC/USD": {
@@ -3917,7 +3917,7 @@
     "base": "bitcoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BTC-USD"
   },
   "arbitrum-weth:CAKE/USD": {
@@ -3925,7 +3925,7 @@
     "base": "pancakeswap",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CAKE-USD"
   },
   "arbitrum-weth:CASHCAT/USD": {
@@ -3933,7 +3933,7 @@
     "base": "cash-cat",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CASHCAT-USD"
   },
   "arbitrum-weth:CFX/USD": {
@@ -3941,7 +3941,7 @@
     "base": "conflux",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CFX-USD"
   },
   "arbitrum-weth:CHIP/USD": {
@@ -3949,7 +3949,7 @@
     "base": "usd-ai",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CHIP-USD"
   },
   "arbitrum-weth:CHZ/USD": {
@@ -3957,7 +3957,7 @@
     "base": "chiliz",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CHZ-USD"
   },
   "arbitrum-weth:COIN/USD": {
@@ -3965,7 +3965,7 @@
     "base": "coinbase",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#COIN-USD"
   },
   "arbitrum-weth:COMP/USD": {
@@ -3973,7 +3973,7 @@
     "base": "compound",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#COMP-USD"
   },
   "arbitrum-weth:CRCL/USD": {
@@ -3981,7 +3981,7 @@
     "base": "circle-internet-group",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CRCL-USD"
   },
   "arbitrum-weth:CRO/USD": {
@@ -3989,7 +3989,7 @@
     "base": "cronos",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CRO-USD"
   },
   "arbitrum-weth:CRV/USD": {
@@ -3997,7 +3997,7 @@
     "base": "curve-dao",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CRV-USD"
   },
   "arbitrum-weth:CRWV/USD": {
@@ -4005,7 +4005,7 @@
     "base": "coreweave",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CRWV-USD"
   },
   "arbitrum-weth:DASH/USD": {
@@ -4013,7 +4013,7 @@
     "base": "dash",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#DASH-USD"
   },
   "arbitrum-weth:DIA/USD": {
@@ -4021,7 +4021,7 @@
     "base": "spdr-dow-jones-industrial-average-etf",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#DIA-USD"
   },
   "arbitrum-weth:DOGE/USD": {
@@ -4029,7 +4029,7 @@
     "base": "dogecoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#DOGE-USD"
   },
   "arbitrum-weth:DOT/USD": {
@@ -4037,7 +4037,7 @@
     "base": "polkadot",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#DOT-USD"
   },
   "arbitrum-weth:EGLD/USD": {
@@ -4045,7 +4045,7 @@
     "base": "multiversx",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EGLD-USD"
   },
   "arbitrum-weth:EIGEN/USD": {
@@ -4053,7 +4053,7 @@
     "base": "eigen-layer",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EIGEN-USD"
   },
   "arbitrum-weth:ENA/USD": {
@@ -4061,7 +4061,7 @@
     "base": "ethena",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ENA-USD"
   },
   "arbitrum-weth:ENS/USD": {
@@ -4069,7 +4069,7 @@
     "base": "ethereum-name-service",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ENS-USD"
   },
   "arbitrum-weth:ETC/USD": {
@@ -4077,7 +4077,7 @@
     "base": "ethereum-classic",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ETC-USD"
   },
   "arbitrum-weth:ETH/USD": {
@@ -4085,7 +4085,7 @@
     "base": "ethereum",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ETH-USD"
   },
   "arbitrum-weth:ETHFI/USD": {
@@ -4093,7 +4093,7 @@
     "base": "ether-fi",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ETHFI-USD"
   },
   "arbitrum-weth:EUR/AUD": {
@@ -4109,7 +4109,7 @@
     "base": "euro",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-USD"
   },
   "arbitrum-weth:FARTCOIN/USD": {
@@ -4117,7 +4117,7 @@
     "base": "fartcoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FARTCOIN-USD"
   },
   "arbitrum-weth:FET/USD": {
@@ -4125,7 +4125,7 @@
     "base": "fetch-ai",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FET-USD"
   },
   "arbitrum-weth:FIL/USD": {
@@ -4133,7 +4133,7 @@
     "base": "filecoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FIL-USD"
   },
   "arbitrum-weth:FLOKI/USD": {
@@ -4141,7 +4141,7 @@
     "base": "floki",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FLOKI-USD"
   },
   "arbitrum-weth:FLUID/USD": {
@@ -4149,7 +4149,7 @@
     "base": "fluid",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FLUID-USD"
   },
   "arbitrum-weth:GALA/USD": {
@@ -4157,7 +4157,7 @@
     "base": "gala",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GALA-USD"
   },
   "arbitrum-weth:GBP/CAD": {
@@ -4181,7 +4181,7 @@
     "base": "british-pound",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-USD"
   },
   "arbitrum-weth:GDX/USD": {
@@ -4189,7 +4189,7 @@
     "base": "vaneck-gold-miners-etf",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GDX-USD"
   },
   "arbitrum-weth:GME_1/USD": {
@@ -4197,7 +4197,7 @@
     "base": "gamestop",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GME-USD"
   },
   "arbitrum-weth:GOOGL_1/USD": {
@@ -4205,7 +4205,7 @@
     "base": "alphabet",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GOOGL-USD"
   },
   "arbitrum-weth:GRASS/USD": {
@@ -4213,7 +4213,7 @@
     "base": "grass",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GRASS-USD"
   },
   "arbitrum-weth:GRT/USD": {
@@ -4221,7 +4221,7 @@
     "base": "the-graph",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GRT-USD"
   },
   "arbitrum-weth:HBAR/USD": {
@@ -4229,7 +4229,7 @@
     "base": "hedera",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#HBAR-USD"
   },
   "arbitrum-weth:HOOD/USD": {
@@ -4237,7 +4237,7 @@
     "base": "robinhood-markets",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#HOOD-USD"
   },
   "arbitrum-weth:HYPE/USD": {
@@ -4245,7 +4245,7 @@
     "base": "hyperliquid",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#HYPE-USD"
   },
   "arbitrum-weth:ICP/USD": {
@@ -4253,7 +4253,7 @@
     "base": "internet-computer",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ICP-USD"
   },
   "arbitrum-weth:IMX/USD": {
@@ -4261,7 +4261,7 @@
     "base": "immutable-x",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#IMX-USD"
   },
   "arbitrum-weth:INJ/USD": {
@@ -4269,7 +4269,7 @@
     "base": "injective",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#INJ-USD"
   },
   "arbitrum-weth:INTC/USD": {
@@ -4277,7 +4277,7 @@
     "base": "intel",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#INTC-USD"
   },
   "arbitrum-weth:IREN/USD": {
@@ -4285,7 +4285,7 @@
     "base": "iren",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#IREN-USD"
   },
   "arbitrum-weth:IWM/USD": {
@@ -4293,7 +4293,7 @@
     "base": "ishares-russell-2000-etf",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#IWM-USD"
   },
   "arbitrum-weth:JASMY/USD": {
@@ -4301,7 +4301,7 @@
     "base": "jasmycoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#JASMY-USD"
   },
   "arbitrum-weth:JPM/USD": {
@@ -4309,7 +4309,7 @@
     "base": "jpmorgan-chase",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#JPM-USD"
   },
   "arbitrum-weth:JTO/USD": {
@@ -4317,7 +4317,7 @@
     "base": "jito",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#JTO-USD"
   },
   "arbitrum-weth:JUP/USD": {
@@ -4325,7 +4325,7 @@
     "base": "jupiter",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#JUP-USD"
   },
   "arbitrum-weth:KAS/USD": {
@@ -4333,7 +4333,7 @@
     "base": "kaspa",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#KAS-USD"
   },
   "arbitrum-weth:LDO/USD": {
@@ -4341,7 +4341,7 @@
     "base": "lido-dao",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LDO-USD"
   },
   "arbitrum-weth:LINK/USD": {
@@ -4349,7 +4349,7 @@
     "base": "chainlink",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LINK-USD"
   },
   "arbitrum-weth:LIT/USD": {
@@ -4357,7 +4357,7 @@
     "base": "lighter",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LIT-USD"
   },
   "arbitrum-weth:LMT/USD": {
@@ -4365,7 +4365,7 @@
     "base": "lockheed-martin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LMT-USD"
   },
   "arbitrum-weth:LPT/USD": {
@@ -4373,7 +4373,7 @@
     "base": "livepeer",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LPT-USD"
   },
   "arbitrum-weth:LTC/USD": {
@@ -4381,7 +4381,7 @@
     "base": "litecoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LTC-USD"
   },
   "arbitrum-weth:MANA/USD": {
@@ -4389,7 +4389,7 @@
     "base": "decentraland",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MANA-USD"
   },
   "arbitrum-weth:MARA/USD": {
@@ -4397,7 +4397,7 @@
     "base": "mara-holdings",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MARA-USD"
   },
   "arbitrum-weth:MCD/USD": {
@@ -4405,7 +4405,7 @@
     "base": "mcdonalds",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MCD-USD"
   },
   "arbitrum-weth:MEGA/USD": {
@@ -4413,7 +4413,7 @@
     "base": "megaeth",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MEGA-USD"
   },
   "arbitrum-weth:MELANIA/USD": {
@@ -4421,7 +4421,7 @@
     "base": "melania-meme",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MELANIA-USD"
   },
   "arbitrum-weth:META/USD": {
@@ -4429,7 +4429,7 @@
     "base": "meta-platforms",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#META-USD"
   },
   "arbitrum-weth:MNT/USD": {
@@ -4437,7 +4437,7 @@
     "base": "mantle",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MNT-USD"
   },
   "arbitrum-weth:MON/USD": {
@@ -4445,7 +4445,7 @@
     "base": "monad",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MON-USD"
   },
   "arbitrum-weth:MRVL/USD": {
@@ -4453,7 +4453,7 @@
     "base": "marvell-technology",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MRVL-USD"
   },
   "arbitrum-weth:MSFT/USD": {
@@ -4461,7 +4461,7 @@
     "base": "microsoft",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MSFT-USD"
   },
   "arbitrum-weth:MSTR/USD": {
@@ -4469,7 +4469,7 @@
     "base": "microstrategy",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MSTR-USD"
   },
   "arbitrum-weth:MU/USD": {
@@ -4477,7 +4477,7 @@
     "base": "micron-technology",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MU-USD"
   },
   "arbitrum-weth:NBIS/USD": {
@@ -4485,7 +4485,7 @@
     "base": "nebius-group",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#NBIS-USD"
   },
   "arbitrum-weth:NEAR/USD": {
@@ -4493,7 +4493,7 @@
     "base": "near",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#NEAR-USD"
   },
   "arbitrum-weth:NFLX_1/USD": {
@@ -4501,7 +4501,7 @@
     "base": "netflix",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#NFLX-USD"
   },
   "arbitrum-weth:NVDA/USD": {
@@ -4509,7 +4509,7 @@
     "base": "nvidia",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#NVDA-USD"
   },
   "arbitrum-weth:OKB/USD": {
@@ -4517,7 +4517,7 @@
     "base": "okb",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#OKB-USD"
   },
   "arbitrum-weth:ONDO/USD": {
@@ -4525,7 +4525,7 @@
     "base": "ondo",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ONDO-USD"
   },
   "arbitrum-weth:OP/USD": {
@@ -4533,7 +4533,7 @@
     "base": "optimism",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#OP-USD"
   },
   "arbitrum-weth:PENDLE/USD": {
@@ -4541,7 +4541,7 @@
     "base": "pendle",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PENDLE-USD"
   },
   "arbitrum-weth:PENGU/USD": {
@@ -4549,7 +4549,7 @@
     "base": "pudgy-penguins",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PENGU-USD"
   },
   "arbitrum-weth:PEPE/USD": {
@@ -4557,7 +4557,7 @@
     "base": "pepe",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PEPE-USD"
   },
   "arbitrum-weth:PLTR/USD": {
@@ -4565,7 +4565,7 @@
     "base": "palantir-technologies",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PLTR-USD"
   },
   "arbitrum-weth:POL/USD": {
@@ -4573,7 +4573,7 @@
     "base": "polygon",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#POL-USD"
   },
   "arbitrum-weth:PUMP/USD": {
@@ -4581,7 +4581,7 @@
     "base": "pump",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PUMP-USD"
   },
   "arbitrum-weth:PYPL/USD": {
@@ -4589,7 +4589,7 @@
     "base": "paypal",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PYPL-USD"
   },
   "arbitrum-weth:PYTH/USD": {
@@ -4597,7 +4597,7 @@
     "base": "pyth-network",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PYTH-USD"
   },
   "arbitrum-weth:QNT/USD": {
@@ -4605,7 +4605,7 @@
     "base": "quant",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#QNT-USD"
   },
   "arbitrum-weth:QQQ/USD": {
@@ -4613,7 +4613,7 @@
     "base": "invesco-qqq",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#QQQ-USD"
   },
   "arbitrum-weth:RAY/USD": {
@@ -4621,7 +4621,7 @@
     "base": "raydium",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#RAY-USD"
   },
   "arbitrum-weth:RE/USD": {
@@ -4629,7 +4629,7 @@
     "base": "re",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#RE-USD"
   },
   "arbitrum-weth:RIOT/USD": {
@@ -4637,7 +4637,7 @@
     "base": "riot-platforms",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#RIOT-USD"
   },
   "arbitrum-weth:RNDR/USD": {
@@ -4645,7 +4645,7 @@
     "base": "render",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#RNDR-USD"
   },
   "arbitrum-weth:S/USD": {
@@ -4653,7 +4653,7 @@
     "base": "sonic",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#S-USD"
   },
   "arbitrum-weth:SAND/USD": {
@@ -4661,7 +4661,7 @@
     "base": "the-sandbox",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SAND-USD"
   },
   "arbitrum-weth:SEI/USD": {
@@ -4669,7 +4669,7 @@
     "base": "sei",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SEI-USD"
   },
   "arbitrum-weth:SHIB/USD": {
@@ -4677,7 +4677,7 @@
     "base": "shiba-inu",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SHIB-USD"
   },
   "arbitrum-weth:SKY/USD": {
@@ -4685,7 +4685,7 @@
     "base": "sky",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SKY-USD"
   },
   "arbitrum-weth:SNAP/USD": {
@@ -4693,7 +4693,7 @@
     "base": "snap-inc",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SNAP-USD"
   },
   "arbitrum-weth:SNDK/USD": {
@@ -4701,7 +4701,7 @@
     "base": "sandisk",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SNDK-USD"
   },
   "arbitrum-weth:SOL/USD": {
@@ -4709,7 +4709,7 @@
     "base": "solana",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SOL-USD"
   },
   "arbitrum-weth:SPCX/USD": {
@@ -4717,7 +4717,7 @@
     "base": "spacex",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SPCX-USD"
   },
   "arbitrum-weth:SPY/USD": {
@@ -4725,7 +4725,7 @@
     "base": "spdr-sp500-etf-trust",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SPY-USD"
   },
   "arbitrum-weth:STRK/USD": {
@@ -4733,7 +4733,7 @@
     "base": "starknet",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#STRK-USD"
   },
   "arbitrum-weth:STX/USD": {
@@ -4741,7 +4741,7 @@
     "base": "stacks",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#STX-USD"
   },
   "arbitrum-weth:SUI/USD": {
@@ -4749,7 +4749,7 @@
     "base": "sui",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SUI-USD"
   },
   "arbitrum-weth:SUN/USD": {
@@ -4757,7 +4757,7 @@
     "base": "sun-token",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SUN-USD"
   },
   "arbitrum-weth:SYRUP/USD": {
@@ -4765,7 +4765,7 @@
     "base": "syrup",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SYRUP-USD"
   },
   "arbitrum-weth:TAO/USD": {
@@ -4773,7 +4773,7 @@
     "base": "bittensor",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TAO-USD"
   },
   "arbitrum-weth:THETA/USD": {
@@ -4781,7 +4781,7 @@
     "base": "theta-token",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#THETA-USD"
   },
   "arbitrum-weth:TIA/USD": {
@@ -4789,7 +4789,7 @@
     "base": "celestia",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TIA-USD"
   },
   "arbitrum-weth:TON/USD": {
@@ -4797,7 +4797,7 @@
     "base": "toncoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TON-USD"
   },
   "arbitrum-weth:TRUMP/USD": {
@@ -4805,7 +4805,7 @@
     "base": "official-trump",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TRUMP-USD"
   },
   "arbitrum-weth:TRX/USD": {
@@ -4813,7 +4813,7 @@
     "base": "tron",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TRX-USD"
   },
   "arbitrum-weth:TSLA_1/USD": {
@@ -4821,7 +4821,7 @@
     "base": "tesla",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TSLA-USD"
   },
   "arbitrum-weth:TWT/USD": {
@@ -4829,7 +4829,7 @@
     "base": "trust-wallet-token",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TWT-USD"
   },
   "arbitrum-weth:UNI/USD": {
@@ -4837,7 +4837,7 @@
     "base": "uniswap",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#UNI-USD"
   },
   "arbitrum-weth:URA/USD": {
@@ -4845,7 +4845,7 @@
     "base": "global-x-uranium-etf",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#URA-USD"
   },
   "arbitrum-weth:USD/CAD": {
@@ -4885,7 +4885,7 @@
     "base": "useless-coin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USELESS-USD"
   },
   "arbitrum-weth:VET/USD": {
@@ -4893,7 +4893,7 @@
     "base": "vechain",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#VET-USD"
   },
   "arbitrum-weth:VIRTUAL/USD": {
@@ -4901,7 +4901,7 @@
     "base": "virtuals-protocol",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#VIRTUAL-USD"
   },
   "arbitrum-weth:VVV/USD": {
@@ -4909,7 +4909,7 @@
     "base": "venice-token",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#VVV-USD"
   },
   "arbitrum-weth:WIF/USD": {
@@ -4917,7 +4917,7 @@
     "base": "dogwifcoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WIF-USD"
   },
   "arbitrum-weth:WLD/USD": {
@@ -4925,7 +4925,7 @@
     "base": "worldcoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WLD-USD"
   },
   "arbitrum-weth:WLFI/USD": {
@@ -4933,7 +4933,7 @@
     "base": "world-liberty-financial",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WLFI-USD"
   },
   "arbitrum-weth:WPM/USD": {
@@ -4941,7 +4941,7 @@
     "base": "wheaton-precious-metals",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WPM-USD"
   },
   "arbitrum-weth:WTI/USD": {
@@ -4949,7 +4949,7 @@
     "base": "west-texas-intermediate",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WTI-USD"
   },
   "arbitrum-weth:XAG/USD": {
@@ -4957,7 +4957,7 @@
     "base": "silver",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XAG-USD"
   },
   "arbitrum-weth:XAU/USD": {
@@ -4965,7 +4965,7 @@
     "base": "gold",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XAU-USD"
   },
   "arbitrum-weth:XDC/USD": {
@@ -4973,7 +4973,7 @@
     "base": "xdc-network",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XDC-USD"
   },
   "arbitrum-weth:XLM/USD": {
@@ -4981,7 +4981,7 @@
     "base": "stellar",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XLM-USD"
   },
   "arbitrum-weth:XMR/USD": {
@@ -4989,7 +4989,7 @@
     "base": "monero",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XMR-USD"
   },
   "arbitrum-weth:XPL/USD": {
@@ -4997,7 +4997,7 @@
     "base": "plasma",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XPL-USD"
   },
   "arbitrum-weth:XRP/USD": {
@@ -5005,7 +5005,7 @@
     "base": "xrp",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XRP-USD"
   },
   "arbitrum-weth:XTZ/USD": {
@@ -5013,7 +5013,7 @@
     "base": "tezos",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XTZ-USD"
   },
   "arbitrum-weth:ZEC/USD": {
@@ -5021,7 +5021,7 @@
     "base": "zcash",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ZEC-USD"
   },
   "arbitrum-weth:ZEN/USD": {
@@ -5029,7 +5029,7 @@
     "base": "horizen",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ZEN-USD"
   },
   "arbitrum-weth:ZRO/USD": {
@@ -5037,7 +5037,7 @@
     "base": "layer-zero",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ZRO-USD"
   },
   "base-btcusd:AAPL/USD": {
@@ -9630,7 +9630,7 @@
     "base": "1inch",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#1INCH-USD"
   },
   "polygon-weth:AAVE/USD": {
@@ -9638,7 +9638,7 @@
     "base": "aave",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AAVE-USD"
   },
   "polygon-weth:ADA/USD": {
@@ -9646,7 +9646,7 @@
     "base": "cardano",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ADA-USD"
   },
   "polygon-weth:AERO/USD": {
@@ -9654,7 +9654,7 @@
     "base": "aerodrome",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AERO-USD"
   },
   "polygon-weth:ALGO/USD": {
@@ -9662,7 +9662,7 @@
     "base": "algorand",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ALGO-USD"
   },
   "polygon-weth:APE/USD": {
@@ -9670,7 +9670,7 @@
     "base": "apecoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#APE-USD"
   },
   "polygon-weth:APT/USD": {
@@ -9678,7 +9678,7 @@
     "base": "aptos",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#APT-USD"
   },
   "polygon-weth:AR/USD": {
@@ -9686,7 +9686,7 @@
     "base": "arweave",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AR-USD"
   },
   "polygon-weth:ARB/USD": {
@@ -9694,7 +9694,7 @@
     "base": "arbitrum",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ARB-USD"
   },
   "polygon-weth:ASTER/USD": {
@@ -9702,7 +9702,7 @@
     "base": "aster",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ASTER-USD"
   },
   "polygon-weth:ATOM/USD": {
@@ -9710,7 +9710,7 @@
     "base": "cosmos",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ATOM-USD"
   },
   "polygon-weth:AVAX/USD": {
@@ -9718,7 +9718,7 @@
     "base": "avalanche",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#AVAX-USD"
   },
   "polygon-weth:B/USD": {
@@ -9726,7 +9726,7 @@
     "base": "build-on",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#B-USD"
   },
   "polygon-weth:BANANAS31/USD": {
@@ -9734,7 +9734,7 @@
     "base": "banana-for-scale",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BANANAS31-USD"
   },
   "polygon-weth:BAT/USD": {
@@ -9742,7 +9742,7 @@
     "base": "basic-attention-token",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BAT-USD"
   },
   "polygon-weth:BCH/USD": {
@@ -9750,7 +9750,7 @@
     "base": "bitcoin-cash",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BCH-USD"
   },
   "polygon-weth:BNB/USD": {
@@ -9758,7 +9758,7 @@
     "base": "bnb",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BNB-USD"
   },
   "polygon-weth:BONK/USD": {
@@ -9766,7 +9766,7 @@
     "base": "bonk",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BONK-USD"
   },
   "polygon-weth:BSV/USD": {
@@ -9774,7 +9774,7 @@
     "base": "bitcoin-cash-sv",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BSV-USD"
   },
   "polygon-weth:BTC/USD": {
@@ -9782,7 +9782,7 @@
     "base": "bitcoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#BTC-USD"
   },
   "polygon-weth:CAKE/USD": {
@@ -9790,7 +9790,7 @@
     "base": "pancakeswap",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CAKE-USD"
   },
   "polygon-weth:CASHCAT/USD": {
@@ -9798,7 +9798,7 @@
     "base": "cash-cat",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CASHCAT-USD"
   },
   "polygon-weth:CFX/USD": {
@@ -9806,7 +9806,7 @@
     "base": "conflux",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CFX-USD"
   },
   "polygon-weth:CHIP/USD": {
@@ -9814,7 +9814,7 @@
     "base": "usd-ai",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CHIP-USD"
   },
   "polygon-weth:CHZ/USD": {
@@ -9822,7 +9822,7 @@
     "base": "chiliz",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CHZ-USD"
   },
   "polygon-weth:COIN/USD": {
@@ -9830,7 +9830,7 @@
     "base": "coinbase",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#COIN-USD"
   },
   "polygon-weth:COMP/USD": {
@@ -9838,7 +9838,7 @@
     "base": "compound",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#COMP-USD"
   },
   "polygon-weth:CRCL/USD": {
@@ -9846,7 +9846,7 @@
     "base": "circle-internet-group",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CRCL-USD"
   },
   "polygon-weth:CRO/USD": {
@@ -9854,7 +9854,7 @@
     "base": "cronos",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CRO-USD"
   },
   "polygon-weth:CRV/USD": {
@@ -9862,7 +9862,7 @@
     "base": "curve-dao",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#CRV-USD"
   },
   "polygon-weth:DASH/USD": {
@@ -9870,7 +9870,7 @@
     "base": "dash",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#DASH-USD"
   },
   "polygon-weth:DOGE/USD": {
@@ -9878,7 +9878,7 @@
     "base": "dogecoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#DOGE-USD"
   },
   "polygon-weth:DOT/USD": {
@@ -9886,7 +9886,7 @@
     "base": "polkadot",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#DOT-USD"
   },
   "polygon-weth:EGLD/USD": {
@@ -9894,7 +9894,7 @@
     "base": "multiversx",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EGLD-USD"
   },
   "polygon-weth:EIGEN/USD": {
@@ -9902,7 +9902,7 @@
     "base": "eigen-layer",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EIGEN-USD"
   },
   "polygon-weth:ENA/USD": {
@@ -9910,7 +9910,7 @@
     "base": "ethena",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ENA-USD"
   },
   "polygon-weth:ENS/USD": {
@@ -9918,7 +9918,7 @@
     "base": "ethereum-name-service",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ENS-USD"
   },
   "polygon-weth:ETC/USD": {
@@ -9926,7 +9926,7 @@
     "base": "ethereum-classic",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ETC-USD"
   },
   "polygon-weth:ETH/USD": {
@@ -9934,7 +9934,7 @@
     "base": "ethereum",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ETH-USD"
   },
   "polygon-weth:ETHFI/USD": {
@@ -9942,7 +9942,7 @@
     "base": "ether-fi",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ETHFI-USD"
   },
   "polygon-weth:EUR/AUD": {
@@ -9958,7 +9958,7 @@
     "base": "euro",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#EUR-USD"
   },
   "polygon-weth:FARTCOIN/USD": {
@@ -9966,7 +9966,7 @@
     "base": "fartcoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FARTCOIN-USD"
   },
   "polygon-weth:FET/USD": {
@@ -9974,7 +9974,7 @@
     "base": "fetch-ai",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FET-USD"
   },
   "polygon-weth:FIL/USD": {
@@ -9982,7 +9982,7 @@
     "base": "filecoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FIL-USD"
   },
   "polygon-weth:FLOKI/USD": {
@@ -9990,7 +9990,7 @@
     "base": "floki",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FLOKI-USD"
   },
   "polygon-weth:FLUID/USD": {
@@ -9998,7 +9998,7 @@
     "base": "fluid",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#FLUID-USD"
   },
   "polygon-weth:GALA/USD": {
@@ -10006,7 +10006,7 @@
     "base": "gala",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GALA-USD"
   },
   "polygon-weth:GBP/CAD": {
@@ -10030,7 +10030,7 @@
     "base": "british-pound",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GBP-USD"
   },
   "polygon-weth:GDX/USD": {
@@ -10038,7 +10038,7 @@
     "base": "vaneck-gold-miners-etf",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GDX-USD"
   },
   "polygon-weth:GRASS/USD": {
@@ -10046,7 +10046,7 @@
     "base": "grass",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GRASS-USD"
   },
   "polygon-weth:GRT/USD": {
@@ -10054,7 +10054,7 @@
     "base": "the-graph",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#GRT-USD"
   },
   "polygon-weth:HBAR/USD": {
@@ -10062,7 +10062,7 @@
     "base": "hedera",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#HBAR-USD"
   },
   "polygon-weth:HOOD/USD": {
@@ -10070,7 +10070,7 @@
     "base": "robinhood-markets",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#HOOD-USD"
   },
   "polygon-weth:HYPE/USD": {
@@ -10078,7 +10078,7 @@
     "base": "hyperliquid",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#HYPE-USD"
   },
   "polygon-weth:ICP/USD": {
@@ -10086,7 +10086,7 @@
     "base": "internet-computer",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ICP-USD"
   },
   "polygon-weth:IMX/USD": {
@@ -10094,7 +10094,7 @@
     "base": "immutable-x",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#IMX-USD"
   },
   "polygon-weth:INJ/USD": {
@@ -10102,7 +10102,7 @@
     "base": "injective",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#INJ-USD"
   },
   "polygon-weth:JASMY/USD": {
@@ -10110,7 +10110,7 @@
     "base": "jasmycoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#JASMY-USD"
   },
   "polygon-weth:JTO/USD": {
@@ -10118,7 +10118,7 @@
     "base": "jito",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#JTO-USD"
   },
   "polygon-weth:JUP/USD": {
@@ -10126,7 +10126,7 @@
     "base": "jupiter",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#JUP-USD"
   },
   "polygon-weth:KAS/USD": {
@@ -10134,7 +10134,7 @@
     "base": "kaspa",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#KAS-USD"
   },
   "polygon-weth:LDO/USD": {
@@ -10142,7 +10142,7 @@
     "base": "lido-dao",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LDO-USD"
   },
   "polygon-weth:LINK/USD": {
@@ -10150,7 +10150,7 @@
     "base": "chainlink",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LINK-USD"
   },
   "polygon-weth:LIT/USD": {
@@ -10158,7 +10158,7 @@
     "base": "lighter",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LIT-USD"
   },
   "polygon-weth:LPT/USD": {
@@ -10166,7 +10166,7 @@
     "base": "livepeer",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LPT-USD"
   },
   "polygon-weth:LTC/USD": {
@@ -10174,7 +10174,7 @@
     "base": "litecoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#LTC-USD"
   },
   "polygon-weth:MANA/USD": {
@@ -10182,7 +10182,7 @@
     "base": "decentraland",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MANA-USD"
   },
   "polygon-weth:MARA/USD": {
@@ -10190,7 +10190,7 @@
     "base": "mara-holdings",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MARA-USD"
   },
   "polygon-weth:MELANIA/USD": {
@@ -10198,7 +10198,7 @@
     "base": "melania-meme",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MELANIA-USD"
   },
   "polygon-weth:MNT/USD": {
@@ -10206,7 +10206,7 @@
     "base": "mantle",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MNT-USD"
   },
   "polygon-weth:MON/USD": {
@@ -10214,7 +10214,7 @@
     "base": "monad",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#MON-USD"
   },
   "polygon-weth:NEAR/USD": {
@@ -10222,7 +10222,7 @@
     "base": "near",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#NEAR-USD"
   },
   "polygon-weth:NFLX_1/USD": {
@@ -10230,7 +10230,7 @@
     "base": "netflix",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#NFLX-USD"
   },
   "polygon-weth:OKB/USD": {
@@ -10238,7 +10238,7 @@
     "base": "okb",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#OKB-USD"
   },
   "polygon-weth:ONDO/USD": {
@@ -10246,7 +10246,7 @@
     "base": "ondo",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ONDO-USD"
   },
   "polygon-weth:OP/USD": {
@@ -10254,7 +10254,7 @@
     "base": "optimism",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#OP-USD"
   },
   "polygon-weth:PENDLE/USD": {
@@ -10262,7 +10262,7 @@
     "base": "pendle",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PENDLE-USD"
   },
   "polygon-weth:PENGU/USD": {
@@ -10270,7 +10270,7 @@
     "base": "pudgy-penguins",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PENGU-USD"
   },
   "polygon-weth:PEPE/USD": {
@@ -10278,7 +10278,7 @@
     "base": "pepe",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PEPE-USD"
   },
   "polygon-weth:PLTR/USD": {
@@ -10286,7 +10286,7 @@
     "base": "palantir-technologies",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PLTR-USD"
   },
   "polygon-weth:POL/USD": {
@@ -10294,7 +10294,7 @@
     "base": "polygon",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#POL-USD"
   },
   "polygon-weth:PUMP/USD": {
@@ -10302,7 +10302,7 @@
     "base": "pump",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PUMP-USD"
   },
   "polygon-weth:PYTH/USD": {
@@ -10310,7 +10310,7 @@
     "base": "pyth-network",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#PYTH-USD"
   },
   "polygon-weth:QNT/USD": {
@@ -10318,7 +10318,7 @@
     "base": "quant",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#QNT-USD"
   },
   "polygon-weth:RAY/USD": {
@@ -10326,7 +10326,7 @@
     "base": "raydium",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#RAY-USD"
   },
   "polygon-weth:RE/USD": {
@@ -10334,7 +10334,7 @@
     "base": "re",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#RE-USD"
   },
   "polygon-weth:RNDR/USD": {
@@ -10342,7 +10342,7 @@
     "base": "render",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#RNDR-USD"
   },
   "polygon-weth:S/USD": {
@@ -10350,7 +10350,7 @@
     "base": "sonic",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#S-USD"
   },
   "polygon-weth:SAND/USD": {
@@ -10358,7 +10358,7 @@
     "base": "the-sandbox",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SAND-USD"
   },
   "polygon-weth:SEI/USD": {
@@ -10366,7 +10366,7 @@
     "base": "sei",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SEI-USD"
   },
   "polygon-weth:SHIB/USD": {
@@ -10374,7 +10374,7 @@
     "base": "shiba-inu",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SHIB-USD"
   },
   "polygon-weth:SKY/USD": {
@@ -10382,7 +10382,7 @@
     "base": "sky",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SKY-USD"
   },
   "polygon-weth:SOL/USD": {
@@ -10390,7 +10390,7 @@
     "base": "solana",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SOL-USD"
   },
   "polygon-weth:STRK/USD": {
@@ -10398,7 +10398,7 @@
     "base": "starknet",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#STRK-USD"
   },
   "polygon-weth:STX/USD": {
@@ -10406,7 +10406,7 @@
     "base": "stacks",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#STX-USD"
   },
   "polygon-weth:SUI/USD": {
@@ -10414,7 +10414,7 @@
     "base": "sui",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SUI-USD"
   },
   "polygon-weth:SUN/USD": {
@@ -10422,7 +10422,7 @@
     "base": "sun-token",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SUN-USD"
   },
   "polygon-weth:SYRUP/USD": {
@@ -10430,7 +10430,7 @@
     "base": "syrup",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#SYRUP-USD"
   },
   "polygon-weth:TAO/USD": {
@@ -10438,7 +10438,7 @@
     "base": "bittensor",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TAO-USD"
   },
   "polygon-weth:THETA/USD": {
@@ -10446,7 +10446,7 @@
     "base": "theta-token",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#THETA-USD"
   },
   "polygon-weth:TIA/USD": {
@@ -10454,7 +10454,7 @@
     "base": "celestia",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TIA-USD"
   },
   "polygon-weth:TON/USD": {
@@ -10462,7 +10462,7 @@
     "base": "toncoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TON-USD"
   },
   "polygon-weth:TRUMP/USD": {
@@ -10470,7 +10470,7 @@
     "base": "official-trump",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TRUMP-USD"
   },
   "polygon-weth:TRX/USD": {
@@ -10478,7 +10478,7 @@
     "base": "tron",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TRX-USD"
   },
   "polygon-weth:TWT/USD": {
@@ -10486,7 +10486,7 @@
     "base": "trust-wallet-token",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#TWT-USD"
   },
   "polygon-weth:UNI/USD": {
@@ -10494,7 +10494,7 @@
     "base": "uniswap",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#UNI-USD"
   },
   "polygon-weth:URA/USD": {
@@ -10502,7 +10502,7 @@
     "base": "global-x-uranium-etf",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#URA-USD"
   },
   "polygon-weth:USD/CAD": {
@@ -10542,7 +10542,7 @@
     "base": "useless-coin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#USELESS-USD"
   },
   "polygon-weth:VET/USD": {
@@ -10550,7 +10550,7 @@
     "base": "vechain",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#VET-USD"
   },
   "polygon-weth:VIRTUAL/USD": {
@@ -10558,7 +10558,7 @@
     "base": "virtuals-protocol",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#VIRTUAL-USD"
   },
   "polygon-weth:VVV/USD": {
@@ -10566,7 +10566,7 @@
     "base": "venice-token",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#VVV-USD"
   },
   "polygon-weth:WIF/USD": {
@@ -10574,7 +10574,7 @@
     "base": "dogwifcoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WIF-USD"
   },
   "polygon-weth:WLD/USD": {
@@ -10582,7 +10582,7 @@
     "base": "worldcoin",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WLD-USD"
   },
   "polygon-weth:WLFI/USD": {
@@ -10590,7 +10590,7 @@
     "base": "world-liberty-financial",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WLFI-USD"
   },
   "polygon-weth:WPM/USD": {
@@ -10598,7 +10598,7 @@
     "base": "wheaton-precious-metals",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#WPM-USD"
   },
   "polygon-weth:XAG/USD": {
@@ -10606,7 +10606,7 @@
     "base": "silver",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XAG-USD"
   },
   "polygon-weth:XAU/USD": {
@@ -10614,7 +10614,7 @@
     "base": "gold",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XAU-USD"
   },
   "polygon-weth:XDC/USD": {
@@ -10622,7 +10622,7 @@
     "base": "xdc-network",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XDC-USD"
   },
   "polygon-weth:XLM/USD": {
@@ -10630,7 +10630,7 @@
     "base": "stellar",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XLM-USD"
   },
   "polygon-weth:XMR/USD": {
@@ -10638,7 +10638,7 @@
     "base": "monero",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XMR-USD"
   },
   "polygon-weth:XPL/USD": {
@@ -10646,7 +10646,7 @@
     "base": "plasma",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XPL-USD"
   },
   "polygon-weth:XRP/USD": {
@@ -10654,7 +10654,7 @@
     "base": "xrp",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XRP-USD"
   },
   "polygon-weth:XTZ/USD": {
@@ -10662,7 +10662,7 @@
     "base": "tezos",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#XTZ-USD"
   },
   "polygon-weth:ZEC/USD": {
@@ -10670,7 +10670,7 @@
     "base": "zcash",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ZEC-USD"
   },
   "polygon-weth:ZEN/USD": {
@@ -10678,7 +10678,7 @@
     "base": "horizen",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ZEN-USD"
   },
   "polygon-weth:ZRO/USD": {
@@ -10686,7 +10686,7 @@
     "base": "layer-zero",
     "quote": "usd",
     "settlement": "wrapped-ether",
-    "quanto": false,
+    "quanto": true,
     "url": "https://gains.trade/trading#ZRO-USD"
   }
 }
