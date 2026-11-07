@@ -1,0 +1,20 @@
+# Findings that are intentional, each reviewed by a person. An entry suppresses every
+# finding of `scripts/maintain.py` whose fingerprint matches `fingerprint`
+# (case-sensitive shell-style globs allowed). Fingerprints read
+# `<check>:<platform>:<subject>`, the same as catalogue-ops' issue markers. An
+# `untranslated-asset` entry also suppresses the untranslated markets whose venue base
+# or quote is that asset.
+#
+# Every entry needs a `reason` and a `ref` (the issue or PR that decided it). One that
+# matches no current finding must say `dormant = true`. Moved here from
+# tribulnation/catalogue-ops' exceptions.toml, same semantics.
+#
+# [[exception]]
+# fingerprint = "untranslated-asset:kraken:KFEE"
+# reason = "Kraken fee credits, not an asset."
+# ref = "#123"
+
+[[exception]]
+fingerprint = "untranslated-asset:bitget:r[A-Z]*"
+reason = "Bitget Reality rTokens: the mapped ones are in the catalogue, the rest are intentionally skipped."
+ref = "#147"

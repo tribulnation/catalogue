@@ -1,0 +1,13 @@
+{
+ "as_of": "2026-11-07T04:50:00Z",
+ "platforms": {
+  "bitget": {
+   "complete": true,
+   "exchanges": {"spot": "spot"},
+   "markets": [
+    {"exchange": "spot", "market": "BTCUSDT", "kind": "spot", "base": "BTC", "quote": "USDT", "status": "trading", "bid": 100000, "ask": 100010, "volume_24h_usd": 900000000},
+    {"exchange": "spot", "market": "RACADUSDT", "kind": "spot", "base": "rACAD", "quote": "USDT", "status": "trading", "bid": 1.0, "ask": 1.01, "volume_24h_usd": 20000}
+   ]
+  }
+ }
+}

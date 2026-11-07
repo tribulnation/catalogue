@@ -314,3 +314,17 @@ curl -L 'https://contract.mexc.com/api/v1/contract/detail?symbol=VVV_USDT'
 ```
 
 Add confirmed perpetuals to `data/instruments/perpetual/mexc.json`. Use `baseCoin`, `quoteCoin`, and `settleCoin` from the API response to map `base`, `quote`, and `settlement`.
+
+## Maintenance checks
+
+`scripts/maintenance/` holds the checks that compare what venues report with the
+catalogue (untranslated markets and assets, stale or wrongly delisted listings, wrong
+base/quote, bad external IDs). They are pure functions: whoever runs them exports the
+venue observations as JSON files (format in `scripts/maintenance/observations.py`) and
+runs `scripts/maintain.py`, which writes the findings. Fingerprints read
+`<check>:<platform>:<subject>`, the same as catalogue-ops' issues.
+
+A finding that is intentional goes into `maintenance/exceptions.toml` with a `reason`
+and a `ref` to the issue or PR that decided it. Do not add an exception to silence a
+check that is wrong: fix the check, with a fixture from the evidence, instead. Tests
+run on offline fixtures in `scripts/maintenance/fixtures/`.
