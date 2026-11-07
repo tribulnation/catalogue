@@ -1,0 +1,21 @@
+{
+  "id": "bitcoin-usd-btcfi",
+  "display_name": "Bitcoin USD (BTCFi)",
+  "symbol": "BTCUSD",
+  "category": "stablecoin",
+  "about": {
+    "en": "BtcUSD is a US dollar stablecoin issued by BTCFi and backed by deposited Bitcoin of various formats as collateral, letting Bitcoin holders borrow dollars against their BTC. It is not Bitcoin and not a Bitcoin price token. Its Base contract is 0xe4b20925D9E9a62F1E492e15a81dC0de62804dd4, where gTrade accepts it as collateral."
+  },
+  "urls": {
+    "Website": "https://www.btcfi.one/"
+  },
+  "external": {
+    "coingecko": "bitcoin-usd-btcfi"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "USD"
+  ]
+}

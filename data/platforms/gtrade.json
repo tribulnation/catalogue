@@ -1,0 +1,12 @@
+{
+  "display_name": "gTrade",
+  "kind": "dex",
+  "about": {
+    "en": "gTrade is Gains Network's decentralized leveraged trading platform: synthetic perpetuals on crypto, forex, stocks, indices and commodities, priced by an oracle rather than an order book. Trades fill against the platform's gToken vaults at the oracle price plus a spread and a price impact, and pay funding and borrowing fees. It runs on Arbitrum, Base, Polygon and MegaETH, each with its own collaterals (DAI, WETH, USDC, GNS, BtcUSD, USDm)."
+  },
+  "urls": {
+    "Website": "https://gains.trade/",
+    "Documentation": "https://docs.gains.trade/"
+  },
+  "icon": "icons/platform/gtrade.svg"
+}

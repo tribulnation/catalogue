@@ -70,6 +70,16 @@ asset equal to size x contract size x price (MEXC `amount24`, QFEX
 the field on every stock perpetual priced in a fiat currency other than the
 settlement's, and rejects it when both are the same currency.
 
+Venues that size a position in its collateral rather than in the base (gTrade)
+pay collateral x leverage x (price / open price - 1) in the collateral, whatever
+the pair. No exchange rate between `quote` and `settlement` is ever applied, so
+every such instrument whose `quote` is not the settlement's peg is `quanto: true`:
+FX pairs (USD/JPY on USDC) and dollar pairs on a non-dollar collateral (BTC/USD
+on WETH or GNS) alike. Read size as collateral x leverage / open price; notional
+in `settlement` is then size x price. `quanto: false` would mean the venue
+converts quote P&L at the live rate, as a CEX does on a coin-margined position
+of fixed base size; gTrade's docs ("Spotlight: WETH") say its positions do not.
+
 ## Perpetual quote is never the settlement by default
 
 A perpetual's `quote` is the currency its **index** tracks; `settlement` is the
@@ -206,6 +216,37 @@ Translation values must be existing catalogue asset IDs from `data/assets/<id>.j
 ### dYdX
 
 Perpetual assets have shape `<DYDX_ID>-USD`. You can enumerate markets via the API https://indexer.dydx.trade/v4/perpetualMarkets
+
+### gTrade
+
+`data/instruments/perpetual/gtrade.json` is generated; do not edit it by hand.
+`scripts/gtrade.py` builds it from gTrade's backend
+(`https://backend-<chain>.gains.trade/trading-variables`, one per chain), recorded
+in `scripts/gtrade_fixture.json`. There is one instrument per chain, collateral
+vault and pair (`arbitrum-usdc:BTC/USD`), since each vault has its own open
+interest, funding and borrowing.
+
+```sh
+# re-record the backend and rebuild the file
+PYTHONPATH=lib/src .venv/bin/python scripts/gtrade.py --refresh
+```
+
+Base and quote assets come from `data/asset_translations/gtrade.json` (gTrade ticker
+-> asset id), and settlement from the collateral's contract address in the chain's
+asset translations. A newly listed ticker that is not mapped fails the run with the
+list of missing tickers; map it (matched by price and identity, never by ticker
+alone) or add it to `EXCLUDED` in the script with a reason. `lib/tests/test_gtrade.py`
+fails CI when the committed file differs from what the fixture gives.
+
+`quanto` is `true` on every gTrade instrument whose quote differs from the
+collateral's peg (WETH and GNS vaults, and FX pairs on any vault), and absent
+otherwise; see "Quanto perpetuals" above.
+
+A vault that takes no new trades keeps its instruments marked `delisted` (no `url`),
+so open positions on it still map: a collateral the backend reports inactive, or one
+in `CLOSE_ONLY` in the script, with its source. DAI (Arbitrum, Polygon) is there:
+close-only since 2025-11-12 while the backend and contracts still call it active.
+Remove an entry only when gTrade's docs or app show the collateral open again.
 
 ### Hyperliquid
 
