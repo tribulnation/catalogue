@@ -26,6 +26,14 @@ class RunnerTest(unittest.TestCase):
     self.assertEqual(market['price'], 100005)
     self.assertTrue(market['tradable'])
 
+  def test_complete_must_be_explicit(self):
+    """A listing that doesn't say it is complete can't make a missing market stale."""
+    raw = {'platforms': {
+      'a': {'markets': []}, 'b': {'complete': 'yes', 'markets': []}, 'c': {'complete': True, 'markets': []},
+    }}
+    parsed = observations.parse_listings(raw)
+    self.assertEqual({p: parsed[p]['complete'] for p in parsed}, {'a': False, 'b': False, 'c': True})
+
   def test_missing_input_is_skip(self):
     fake = group(('dead-external',), ('prices',), [], {})
     without = {key: value for key, value in self.observations.items() if key != 'prices'}
