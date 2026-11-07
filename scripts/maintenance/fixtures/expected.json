@@ -1,17 +1,29 @@
 {
- "findings": {},
+ "findings": {
+  "delisted-live:hyperliquid:xyz:xyz:NVDA": "medium",
+  "stale-listing:binance:usdm:CATUSDT": "medium",
+  "stale-listing:dydx:perp:ETH-USD": "medium",
+  "stale-listing:hyperliquid:xyz:xyz:GONE": "medium",
+  "stale-listing:kraken:spot:VELODROMEEUR": "medium",
+  "untranslated-asset:dydx:AERO": "medium",
+  "untranslated-asset:hyperliquid:MU": "medium",
+  "untranslated-asset:mexc:NOCSTOCK": "medium",
+  "untranslated-asset:mexc:TSCOSTOCK": "medium",
+  "untranslated-market:dydx:perp:AERO-USD": "medium",
+  "untranslated-market:hyperliquid:io:io:MU": "low",
+  "untranslated-market:mexc:perp:NOCSTOCK_USDT": "low",
+  "untranslated-network:bitget:BEP20": "low"
+ },
  "skipped": [
   "base-quote",
   "dead-external",
-  "delisted-live",
   "duplicate-external",
   "mismatched-external",
   "missing-external",
-  "price",
-  "stale-listing",
-  "untranslated-asset",
-  "untranslated-market",
-  "untranslated-network"
+  "price"
  ],
- "suppressed": []
+ "suppressed": [
+  "untranslated-asset:bitget:rACAD",
+  "untranslated-market:bitget:spot:RACADUSDT"
+ ]
 }

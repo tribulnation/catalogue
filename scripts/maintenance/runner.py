@@ -1,17 +1,17 @@
 """Run the checks over a catalogue and its observations, then apply the exceptions."""
 
-from types import ModuleType
-from typing import Iterable, Literal, TypedDict
+from typing import Any, Iterable, Literal, NotRequired, TypedDict
 
-from . import exceptions as exceptions_
+from . import exceptions as exceptions_, status, untranslated
 from .catalogue import Catalogue
 from .finding import CHECKS, SEVERITIES, Finding
 from .observations import Observations
 
-GROUPS: list[ModuleType] = []
-"""Check modules. Each has `NAMES` (the checks it reports), `INPUTS` (the observation
+GROUPS: list[Any] = [*untranslated.GROUPS, *status.GROUPS]
+"""Check groups. Each has `NAMES` (the checks it reports), `INPUTS` (the observation
 files it needs) and `run(catalogue, observations) -> (findings, coverage)`, where
-coverage maps each name to `{"ran": [platforms], "skip": {platform: reason}}`."""
+coverage maps each name to `{"ran": [platforms], "skip": {platform: reason}}` and,
+optionally, `notes` (counts worth showing, such as markets pending open)."""
 
 
 class Coverage(TypedDict):
@@ -19,6 +19,7 @@ class Coverage(TypedDict):
 
   ran: list[str]
   skip: dict[str, str]
+  notes: NotRequired[dict[str, Any]]
 
 
 class CheckStatus(TypedDict):
@@ -49,7 +50,7 @@ def run(
   exceptions: list[exceptions_.Exception_],
   *,
   only: Iterable[str] | None = None,
-  groups: list[ModuleType] | None = None,
+  groups: list[Any] | None = None,
 ) -> Report:
   """
   Run every check (or `only` those named) and split out the suppressed findings.
@@ -85,6 +86,8 @@ def run(
     for name in names:
       cover = coverage.get(name) or Coverage(ran=[], skip={})
       status[name]['platforms'] = Coverage(ran=sorted(cover['ran']), skip=dict(sorted(cover['skip'].items())))
+      if cover.get('notes'):
+        status[name]['platforms']['notes'] = cover['notes']
       if cover['ran']:
         status[name]['status'], status[name]['reason'] = 'ran', None
       else:
