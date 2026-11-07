@@ -74,7 +74,7 @@
     "base": "blast",
     "quote": "tether",
     "settlement": "usd-coin",
-    "url": "https://app.hyperliquid.xyz/trade/BLAST"
+    "delisted": true
   },
   "REZ": {
     "exchange": "",
@@ -312,7 +312,7 @@
     "base": "toncoin",
     "quote": "tether",
     "settlement": "usd-coin",
-    "url": "https://app.hyperliquid.xyz/trade/TON"
+    "delisted": true
   },
   "PENDLE": {
     "exchange": "",
@@ -2539,7 +2539,7 @@
     "base": "anthropic",
     "quote": "tether",
     "settlement": "usd-coin",
-    "delisted": true
+    "url": "https://app.hyperliquid.xyz/trade/para:ANTH"
   },
   "para:AVGO": {
     "exchange": "para",
@@ -3197,7 +3197,7 @@
     "base": "nvidia",
     "quote": "tether",
     "settlement": "usd-coin",
-    "delisted": true
+    "url": "https://app.hyperliquid.xyz/trade/io:NVDA"
   },
   "io:SKHX": {
     "exchange": "io",
@@ -3246,11 +3246,46 @@
     "base": "apple",
     "quote": "tether",
     "settlement": "usd-coin",
-    "delisted": true
+    "url": "https://app.hyperliquid.xyz/trade/io:AAPL"
   },
   "io:CRCL": {
     "exchange": "io",
     "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/io:CRCL"
+  },
+  "xyz:MELI": {
+    "exchange": "xyz",
+    "base": "mercadolibre",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "para:HYPE2": {
+    "exchange": "para",
+    "base": "hyperliquid",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "io:GOOGL": {
+    "exchange": "io",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "xyz:STX": {
+    "exchange": "xyz",
+    "base": "seagate-technology",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "io:MU": {
+    "exchange": "io",
+    "base": "micron-technology",
     "quote": "tether",
     "settlement": "usd-coin",
     "delisted": true
