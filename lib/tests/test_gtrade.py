@@ -118,6 +118,18 @@ class GtradeTest(unittest.TestCase):
     self.assertEqual({k for k, v in out.items() if 'quanto' in v}, cross)
     self.assertEqual({out[k]['quanto'] for k in cross}, {True})
 
+  def test_changes_summary(self):
+    """The weekly refresh's pull request lists the ids added, removed and changed."""
+    old = {'a': {'base': 'x'}, 'b': {'base': 'y', 'url': 'u'}, 'c': {'base': 'z'}}
+    new = {'a': {'base': 'x'}, 'b': {'base': 'y', 'delisted': True}, 'd': {'base': 'w'}}
+    text = gtrade.changes(old, new)
+    self.assertIn('1 added, 1 removed, 1 changed', text)
+    self.assertIn('### Added (1)\n\n- `d`', text)
+    self.assertIn('### Removed (1)\n\n- `c`', text)
+    self.assertIn('- `b`: `delisted`, `url`', text)
+    self.assertEqual(gtrade.changes(old, old), 'No change to `gtrade.json`.\n')
+    self.assertIn('- ... and 1 more', gtrade.changes({}, {'a': {}, 'b': {}}, limit=1))
+
   def test_degen_pairs_are_separate_instruments(self):
     """DEGEN pairs share the base asset but keep their own id (no schema field marks them)."""
     out = json.loads(gtrade.OUTPUT.read_text())
