@@ -1,0 +1,134 @@
+{
+ "as_of": "2026-11-07T04:50:00Z",
+ "healthy_sources": [
+  "coingecko",
+  "coinmarketcap",
+  "yahoo"
+ ],
+ "assets": {
+  "bitcoin": {
+   "providers": {
+    "coingecko": {
+     "usd": 100000,
+     "as_of": "2026-11-07T04:45:00Z"
+    },
+    "coinmarketcap": {
+     "usd": 100010,
+     "as_of": "2026-11-07T04:45:00Z"
+    }
+   }
+  },
+  "tether": {
+   "providers": {
+    "coingecko": {
+     "usd": 0.9995,
+     "as_of": "2026-11-07T04:45:00Z"
+    },
+    "coinmarketcap": {
+     "usd": 0.9996,
+     "as_of": "2026-11-07T04:45:00Z"
+    }
+   }
+  },
+  "hong-kong-dollar": {
+   "providers": {
+    "yahoo": {
+     "usd": 0.1285,
+     "as_of": "2026-11-07T04:45:00Z"
+    }
+   }
+  },
+  "lenovo-group": {
+   "providers": {
+    "yahoo": {
+     "usd": 2.55,
+     "as_of": "2026-11-06T21:00:00Z"
+    }
+   }
+  },
+  "ishares-msci-taiwan-etf": {
+   "providers": {
+    "yahoo": {
+     "usd": 98.29,
+     "as_of": "2026-11-06T21:00:00Z"
+    }
+   }
+  },
+  "energy-web-token": {
+   "providers": {
+    "coingecko": {
+     "usd": 0.2866,
+     "as_of": "2026-11-07T04:45:00Z"
+    }
+   }
+  },
+  "simon-s-cat": {
+   "providers": {
+    "coingecko": {
+     "usd": 1.82e-06,
+     "as_of": "2026-11-07T04:45:00Z"
+    }
+   }
+  },
+  "caterpillar": {
+   "providers": {
+    "yahoo": {
+     "usd": 627.0,
+     "as_of": "2026-11-06T21:00:00Z"
+    }
+   }
+  },
+  "siren-bsc": {
+   "providers": {
+    "coingecko": {
+     "usd": 0.03218762,
+     "as_of": "2026-11-07T04:45:00Z"
+    }
+   }
+  },
+  "intel": {
+   "providers": {
+    "yahoo": {
+     "usd": 92.07,
+     "as_of": "2026-11-06T21:00:00Z"
+    }
+   }
+  },
+  "applovin": {
+   "providers": {
+    "yahoo": {
+     "usd": 271.75,
+     "as_of": "2026-11-06T21:00:00Z"
+    },
+    "twelvedata": {
+     "usd": 271.75,
+     "as_of": "2026-11-06T21:00:00Z"
+    }
+   }
+  },
+  "draftkings": {
+   "providers": {
+    "yahoo": {
+     "usd": 23.52,
+     "as_of": "2026-11-06T21:00:00Z"
+    }
+   }
+  },
+  "blast": {
+   "providers": {
+    "coingecko": {
+     "usd": 0.01,
+     "as_of": "2026-11-07T04:45:00Z"
+    }
+   }
+  },
+  "tencent-holdings": {
+   "providers": {
+    "yahoo": {
+     "usd": 50.8,
+     "as_of": "2026-11-07T04:45:00Z"
+    }
+   }
+  }
+ }
+}

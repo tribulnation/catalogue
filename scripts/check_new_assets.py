@@ -110,11 +110,48 @@ def git(*args: str) -> str:
   ).stdout
 
 
-def main() -> int:
+def liquid_errors(data: Path, liquid: dict[str, float], minimum: float = 100_000) -> list[str]:
+  """Liquid assets no provider can price: no `external` ID and no `pegged_to`.
+
+  The `missing-external` rule over a list of liquid assets (the format of the
+  maintenance runner's `liquid.json`: `{"assets": {"<asset id>": <24h USD volume>}}`).
+  """
+  errors = []
+  for asset_id, volume in sorted(liquid.items()):
+    if float(volume or 0) < minimum:
+      continue
+    path = data / 'assets' / f'{asset_id}.json'
+    try:
+      asset = json.loads(path.read_text(encoding='utf-8'))
+    except (OSError, ValueError):
+      errors.append(f'{asset_id}: liquid (24h ${float(volume):,.0f}) but has no asset record')
+      continue
+    if not asset.get('external') and not asset.get('pegged_to'):
+      errors.append(f'{asset_id}: liquid (24h ${float(volume):,.0f}) but has no external ID, so it can never be priced')
+  return errors
+
+
+def main(argv: list[str] | None = None) -> int:
   """Check added asset files and return a failing status with localized errors."""
   parser = argparse.ArgumentParser(description=__doc__)
-  parser.add_argument('--base', required=True, help='Git commit or ref for the PR base')
-  args = parser.parse_args()
+  parser.add_argument('--base', help='Git commit or ref for the PR base')
+  parser.add_argument('--liquid', type=Path, help='Instead, check that these liquid assets (JSON) have an external ID')
+  parser.add_argument('--data', type=Path, default=Path('data'), help='Catalogue data directory, for --liquid')
+  args = parser.parse_args(argv)
+  if args.liquid:
+    try:
+      liquid = json.loads(args.liquid.read_text(encoding='utf-8')).get('assets') or {}
+    except (OSError, ValueError, AttributeError) as error:
+      print(f'Cannot read {args.liquid}: {error}', file=sys.stderr)
+      return 2
+    errors = liquid_errors(args.data, liquid)
+    if errors:
+      print('\n'.join(errors), file=sys.stderr)
+      return 1
+    print(f'Checked {len(liquid)} liquid assets: every one can be priced.')
+    return 0
+  if not args.base:
+    parser.error('--base or --liquid is required')
   try:
     root = Path(git('rev-parse', '--show-toplevel').strip())
     base = git(

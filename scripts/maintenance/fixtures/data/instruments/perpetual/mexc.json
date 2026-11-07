@@ -1,0 +1,33 @@
+{
+ "HK0992_USDT": {
+  "exchange": "perp",
+  "base": "lenovo-group",
+  "quote": "hong-kong-dollar",
+  "settlement": "tether",
+  "quanto": true
+ },
+ "EWT_USDT": {
+  "exchange": "perp",
+  "base": "ishares-msci-taiwan-etf",
+  "quote": "tether",
+  "settlement": "tether"
+ },
+ "INTCSTOCK_USDT": {
+  "exchange": "perp",
+  "base": "intel",
+  "quote": "tether",
+  "settlement": "tether"
+ },
+ "APPSTOCK_USDT": {
+  "exchange": "perp",
+  "base": "applovin",
+  "quote": "tether",
+  "settlement": "tether"
+ },
+ "DKNGSTOCK_USDT": {
+  "exchange": "perp",
+  "base": "draftkings",
+  "quote": "tether",
+  "settlement": "tether"
+ }
+}

@@ -2,12 +2,12 @@
 
 from typing import Any, Iterable, Literal, NotRequired, TypedDict
 
-from . import exceptions as exceptions_, status, untranslated
+from . import base_quote, exceptions as exceptions_, external, status, untranslated
 from .catalogue import Catalogue
 from .finding import CHECKS, SEVERITIES, Finding
 from .observations import Observations
 
-GROUPS: list[Any] = [*untranslated.GROUPS, *status.GROUPS]
+GROUPS: list[Any] = [*untranslated.GROUPS, *status.GROUPS, *base_quote.GROUPS, *external.GROUPS]
 """Check groups. Each has `NAMES` (the checks it reports), `INPUTS` (the observation
 files it needs) and `run(catalogue, observations) -> (findings, coverage)`, where
 coverage maps each name to `{"ran": [platforms], "skip": {platform: reason}}` and,

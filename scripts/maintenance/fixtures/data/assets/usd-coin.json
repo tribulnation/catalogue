@@ -1,0 +1,12 @@
+{
+ "id": "usd-coin",
+ "display_name": "Usd Coin",
+ "symbol": "USDC",
+ "category": "stablecoin",
+ "external": {
+  "coingecko": "usd-coin"
+ },
+ "pegged_to": {
+  "asset": "usd"
+ }
+}

@@ -8,5 +8,10 @@
   "exchange": "spot",
   "base": "velodrome-finance",
   "quote": "euro"
+ },
+ "TELUSD": {
+  "exchange": "spot",
+  "base": "telcoin",
+  "quote": "usd"
  }
 }
