@@ -6999,13 +6999,13 @@
     "exchange": "spot",
     "base": "velodrome",
     "quote": "euro",
-    "url": "https://pro.kraken.com/app/trade/velodrome-eur"
+    "delisted": true
   },
   "VELODROMEUSD": {
     "exchange": "spot",
     "base": "velodrome",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/velodrome-usd"
+    "delisted": true
   },
   "VELOEUR": {
     "exchange": "spot",
