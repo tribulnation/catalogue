@@ -182,6 +182,16 @@ def ostium_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
   return f'https://app.ostium.com/trade?from={base}&to={quote}'
 
 
+def gtrade_url(id: str, instrument: Instrument, symbols: Symbols) -> str | None:
+  """`arbitrum-usdc:BTC/USD` trades at `/trading#BTC-USD` (the pair only: the chain and
+  collateral are picked in the app). A second listing of a stock (`TSLA_1/USD`) has no
+  page of its own: the fragment falls back to BTC/USD, so it gets no URL."""
+  pair = id.split(':', 1)[1]
+  if '_' in pair:
+    return None
+  return 'https://gains.trade/trading#' + pair.replace('/', '-')
+
+
 def pionex_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
   """`BTC_USDT_PERP` trades at `/futures/BTC.PERP_USDT/Manual`."""
   base, quote, _ = id.split('_')
@@ -265,6 +275,7 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'edgex': lambda id, inst, sym: f'https://pro.edgex.exchange/en-US/perpetuals/{id}',
   'extended': lambda id, inst, sym: f'https://app.extended.exchange/trade/{id}',
   'gate': lambda id, inst, sym: f'https://www.gate.com/futures/USDT/{id}',
+  'gtrade': gtrade_url,
   'grvt': lambda id, inst, sym: 'https://grvt.io/exchange/perpetual/' + id.removesuffix('_Perp').replace('_', '-'),
   'htx': lambda id, inst, sym: f'https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code={id}&contract_type=swap',
   'hyperliquid': lambda id, inst, sym: f'https://app.hyperliquid.xyz/trade/{id}',
