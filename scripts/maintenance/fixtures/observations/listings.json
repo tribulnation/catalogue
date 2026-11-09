@@ -3,10 +3,189 @@
  "platforms": {
   "bitget": {
    "complete": true,
-   "exchanges": {"spot": "spot"},
+   "exchanges": {
+    "spot": "spot"
+   },
    "markets": [
-    {"exchange": "spot", "market": "BTCUSDT", "kind": "spot", "base": "BTC", "quote": "USDT", "status": "trading", "bid": 100000, "ask": 100010, "volume_24h_usd": 900000000},
-    {"exchange": "spot", "market": "RACADUSDT", "kind": "spot", "base": "rACAD", "quote": "USDT", "status": "trading", "bid": 1.0, "ask": 1.01, "volume_24h_usd": 20000}
+    {
+     "exchange": "spot",
+     "market": "BTCUSDT",
+     "kind": "spot",
+     "base": "BTC",
+     "quote": "USDT",
+     "status": "trading",
+     "bid": 100000,
+     "ask": 100010,
+     "volume_24h_usd": 900000000
+    },
+    {
+     "exchange": "spot",
+     "market": "RACADUSDT",
+     "kind": "spot",
+     "base": "rACAD",
+     "quote": "USDT",
+     "status": "trading",
+     "bid": 1.0,
+     "ask": 1.01,
+     "volume_24h_usd": 20000
+    }
+   ]
+  },
+  "hyperliquid": {
+   "complete": true,
+   "exchanges": {
+    "": "perp",
+    "xyz": "perp",
+    "io": "perp"
+   },
+   "markets": [
+    {
+     "exchange": "",
+     "market": "BTC",
+     "kind": "perp",
+     "base": "BTC",
+     "quote": "USDC",
+     "settlement": "USDC",
+     "status": "trading",
+     "price": 100000,
+     "volume_24h_usd": 2000000000.0
+    },
+    {
+     "exchange": "xyz",
+     "market": "xyz:NVDA",
+     "kind": "perp",
+     "base": "NVDA",
+     "quote": "USDC",
+     "settlement": "USDC",
+     "status": "trading",
+     "price": 190,
+     "volume_24h_usd": 0,
+     "open_interest_usd": 0
+    },
+    {
+     "exchange": "xyz",
+     "market": "xyz:OLD",
+     "kind": "perp",
+     "base": "OLD",
+     "quote": "USDC",
+     "settlement": "USDC",
+     "status": "delisted"
+    },
+    {
+     "exchange": "xyz",
+     "market": "xyz:STX",
+     "kind": "perp",
+     "base": "STX",
+     "quote": "USDC",
+     "settlement": "USDC",
+     "status": "pending"
+    },
+    {
+     "exchange": "io",
+     "market": "io:MU",
+     "kind": "perp",
+     "base": "MU",
+     "quote": "USDC",
+     "settlement": "USDC",
+     "status": "trading",
+     "price": 0,
+     "volume_24h_usd": 0
+    }
+   ]
+  },
+  "dydx": {
+   "complete": true,
+   "exchanges": {
+    "perp": "perp"
+   },
+   "markets": [
+    {
+     "exchange": "perp",
+     "market": "ETH-USD",
+     "kind": "perp",
+     "base": "ETH",
+     "quote": "USD",
+     "settlement": "USDC",
+     "status": "settled"
+    },
+    {
+     "exchange": "perp",
+     "market": "ACX-USD",
+     "kind": "perp",
+     "base": "ACX",
+     "quote": "USD",
+     "settlement": "USDC",
+     "status": "settled"
+    },
+    {
+     "exchange": "perp",
+     "market": "AERO-USD",
+     "kind": "perp",
+     "base": "AERO",
+     "quote": "USD",
+     "settlement": "USDC",
+     "status": "trading",
+     "price": 0.9,
+     "volume_24h_usd": 250000
+    }
+   ]
+  },
+  "binance": {
+   "complete": true,
+   "exchanges": {
+    "usdm": "perp"
+   },
+   "markets": [
+    {
+     "exchange": "usdm",
+     "market": "HK0700USDT",
+     "kind": "perp",
+     "base": "HK0700",
+     "quote": "USDT",
+     "settlement": "USDT",
+     "status": "unknown",
+     "price": 395.3,
+     "volume_24h_usd": 3000000.0,
+     "last_quote_ts": "2026-11-07T04:49:30Z"
+    }
+   ]
+  },
+  "kraken": {
+   "complete": true,
+   "exchanges": {
+    "spot": "spot"
+   },
+   "markets": [
+    {
+     "exchange": "spot",
+     "market": "XBTUSD",
+     "kind": "spot",
+     "base": "XBT",
+     "quote": "USD",
+     "status": "trading",
+     "bid": 100000,
+     "ask": 100002,
+     "volume_24h_usd": 400000000.0
+    }
+   ]
+  },
+  "mexc": {
+   "complete": false,
+   "exchanges": {
+    "perp": "perp"
+   },
+   "markets": [
+    {
+     "exchange": "perp",
+     "market": "NOCSTOCK_USDT",
+     "kind": "perp",
+     "base": "NOCSTOCK",
+     "quote": "USDT",
+     "settlement": "USDT",
+     "status": "trading",
+     "price": 560,
+     "volume_24h_usd": 50000
+    }
    ]
   }
  }

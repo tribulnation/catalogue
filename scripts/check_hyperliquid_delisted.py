@@ -20,6 +20,9 @@ from pathlib import Path
 import sys
 import urllib.request
 
+from maintenance import status
+from maintenance.observations import Market
+
 INFO = 'https://api.hyperliquid.xyz/info'
 
 
@@ -47,20 +50,34 @@ def venue_markets() -> dict[str, dict]:
 
 
 def disagreements(catalogue: dict[str, dict], venue: dict[str, dict]) -> list[str]:
-  """One line per catalogue instrument whose `delisted` flag the venue contradicts."""
+  """One line per catalogue instrument whose `delisted` flag the venue contradicts.
+
+  The comparison is `maintenance.status.disagreements`, the same one the maintenance
+  runner applies to every venue; this keeps the script's own output.
+  """
+  markets = {
+    ('', name): Market(
+      exchange='', market=name, kind='perp', base=None, quote=None, settlement=None,
+      status='delisted' if market['delisted'] else 'trading', tradable=not market['delisted'],
+      price=None, volume_24h_usd=None, open_interest_usd=None, last_quote_ts=None,
+    )
+    for name, market in venue.items()
+  }
+  instruments = {('', id): {**instrument, 'kind': 'perp'} for id, instrument in catalogue.items()}
+  found = {d.key[1] for d in status.disagreements(instruments, markets, {'': 'perp'})}
   lines = []
   for id, instrument in catalogue.items():
+    if id not in found:
+      continue
     market = venue.get(id)
     if market is None:
-      if not instrument.get('delisted'):
-        lines.append(f'{id}: listed in the catalogue, not returned by the venue')
+      lines.append(f'{id}: listed in the catalogue, not returned by the venue')
       continue
-    if bool(instrument.get('delisted')) != market['delisted']:
-      state = 'delisted' if market['delisted'] else 'listed'
-      lines.append(
-        f'{id}: catalogue delisted={bool(instrument.get("delisted"))}, venue {state} '
-        f'(open interest {market["open_interest"]}, 24h volume {market["volume"]})'
-      )
+    state = 'delisted' if market['delisted'] else 'listed'
+    lines.append(
+      f'{id}: catalogue delisted={bool(instrument.get("delisted"))}, venue {state} '
+      f'(open interest {market["open_interest"]}, 24h volume {market["volume"]})'
+    )
   return lines
 
 

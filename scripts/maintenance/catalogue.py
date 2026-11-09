@@ -7,6 +7,7 @@ no dependency on the `tribulnation.catalogue` package.
 from dataclasses import dataclass, field
 import json
 from pathlib import Path
+import re
 from typing import Any, Literal
 
 Kind = Literal['spot', 'perp']
@@ -54,3 +55,35 @@ def load(data: Path) -> Catalogue:
       for id, instrument in rows.items():
         keyed[(instrument.get('exchange', ''), id)] = {**instrument, 'kind': kind, 'id': id}
   return catalogue
+
+
+MULTIPLIER = re.compile(r'^10{2,}(?=[A-Z])')
+"""A contract multiplier prefix such as the `1000` in `1000BONK`."""
+
+
+def strip_multiplier(symbol: str) -> str:
+  """
+  A venue symbol without a leading contract multiplier.
+
+  Args:
+    symbol: The venue symbol.
+  """
+  return MULTIPLIER.sub('', symbol)
+
+
+def translate(translations: dict[str, str], symbol: str | None, *, multiplier: bool = False) -> str | None:
+  """
+  Translate a venue asset symbol.
+
+  Args:
+    translations: The platform's asset translations.
+    symbol: The venue symbol.
+    multiplier: Also try without a contract multiplier prefix, for symbols read from
+      contract rows.
+  """
+  if not symbol:
+    return None
+  found = translations.get(symbol)
+  if found is None and multiplier:
+    found = translations.get(strip_multiplier(symbol))
+  return found
