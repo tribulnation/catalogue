@@ -71,6 +71,8 @@ from typing import Any, Mapping
 import urllib.request
 
 from instrument_urls import gtrade_url
+from maintenance import generators
+from maintenance.finding import make, market_subject
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
@@ -305,12 +307,65 @@ def changes(old: Mapping[str, Any], new: Mapping[str, Any], limit: int = 50) -> 
   return '\n'.join(out)
 
 
+CHECKS = ('stale-listing', 'delisted-live', 'untranslated-market', 'base-quote')
+"""The maintenance checks `--report-json` covers for gTrade."""
+
+
+def findings(old: Mapping[str, Any], new: Mapping[str, Any]) -> list[dict]:
+  """How the regenerated file differs from the committed one, as maintenance findings
+  (`--report-json`), each with the draft that regenerating would apply.
+
+  An added id is `untranslated-market`, a removed one `stale-listing`, a flipped
+  `delisted` flag `stale-listing` or `delisted-live`, and any other changed field
+  (base, quote, settlement, quanto) `base-quote`.
+  """
+  file = 'data/instruments/perpetual/gtrade.json'
+  out = []
+  for id, instrument in new.items():
+    if id not in old:
+      out.append(generators.missing('gtrade', file, id, instrument['exchange'], instrument=instrument, volume_usd=None, evidence={}))
+  for id, instrument in old.items():
+    subject = market_subject(instrument.get('exchange', ''), id)
+    if id not in new:
+      out.append(make(
+        'stale-listing', platform='gtrade', subject=subject, severity='medium',
+        summary=f'gtrade {subject} is listed in the catalogue but no longer generated from the backend',
+        evidence={'venue_lists_it': False, 'draft': {'file': file, 'id': id, 'remove': True}},
+      ))
+      continue
+    target = new[id]
+    flipped = generators.flag(
+      'gtrade', file, id, instrument.get('exchange', ''),
+      catalogue_delisted=bool(instrument.get('delisted')), venue_delisted=bool(target.get('delisted')), evidence={},
+    )
+    if flipped is not None:
+      out.append(flipped)
+    fields = sorted(k for k in (instrument.keys() | target.keys()) - {'delisted', 'url'} if instrument.get(k) != target.get(k))
+    if fields:
+      out.append(make(
+        'base-quote', platform='gtrade', subject=subject, severity='high',
+        summary=f'gtrade {subject}: {", ".join(fields)} differ from what the backend generates',
+        evidence={
+          'fields': fields,
+          'catalogue': {k: instrument.get(k) for k in fields},
+          'generated': {k: target.get(k) for k in fields},
+          'draft': {
+            'file': file, 'id': id,
+            'set': {k: target[k] for k in fields if k in target},
+            'unset': [k for k in fields if k not in target],
+          },
+        },
+      ))
+  return out
+
+
 def main() -> None:
   parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
   mode = parser.add_mutually_exclusive_group()
   mode.add_argument('--refresh', action='store_true', help='re-record the fixture from the live backend first')
   mode.add_argument('--check', action='store_true', help='exit 1 if the committed file differs from the fixture\'s')
   parser.add_argument('--markdown', type=Path, help='also write a summary of the change to the committed file here')
+  parser.add_argument('--report-json', type=Path, help='also write the change as maintenance findings (JSON) here')
   args = parser.parse_args()
 
   if args.refresh:
@@ -324,6 +379,8 @@ def main() -> None:
     sys.exit(str(e))
   if args.markdown:
     args.markdown.write_text(changes(json.loads(OUTPUT.read_text()), json.loads(text)))
+  if args.report_json:
+    generators.write(args.report_json, 'scripts/gtrade.py', ['gtrade'], CHECKS, findings(json.loads(OUTPUT.read_text()), json.loads(text)))
   if args.check:
     if OUTPUT.read_text() != text:
       sys.exit(f'{OUTPUT.relative_to(ROOT)} differs from scripts/gtrade.py\'s output; run it and commit the result')

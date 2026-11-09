@@ -25,6 +25,9 @@ from pathlib import Path
 import sys
 import urllib.request
 
+from maintenance import generators
+from maintenance.finding import make, market_subject
+
 API = 'https://api.binance.com/api/v3'
 
 
@@ -53,9 +56,50 @@ def gaps(
   return [line for _, line in found]
 
 
+USD_QUOTES = {'USDT', 'USDC', 'FDUSD', 'USD1', 'TUSD', 'USDP', 'BUSD'}
+"""Quote assets whose 24h quote volume is close enough to USD to rank a gap."""
+
+
+def findings(
+  symbols: list[dict], translations: dict[str, str], catalogue: dict[str, dict],
+  volumes: dict[str, str] | None = None,
+) -> list[dict]:
+  """The gaps as `untranslated-market` findings (`--report-json`), with the instrument to add.
+
+  Medium from 100k USD of 24h quote volume on a dollar-quoted market, else low.
+  """
+  volumes = volumes or {}
+  out = []
+  for market in symbols:
+    symbol = market['symbol']
+    if market.get('status') != 'TRADING' or symbol in catalogue:
+      continue
+    base, quote = translations.get(market['baseAsset']), translations.get(market['quoteAsset'])
+    if base is None or quote is None:
+      continue
+    volume = float(volumes.get(symbol) or 0) if market['quoteAsset'] in USD_QUOTES else None
+    severity = 'medium' if volume is not None and volume >= generators.MIN_VOLUME_USD else 'low'
+    subject = market_subject('spot', symbol)
+    out.append(make(
+      'untranslated-market', platform='binance', subject=subject, severity=severity,
+      summary=f'binance spot market {subject} is not in the catalogue',
+      evidence={
+        'exchange': 'spot', 'market': symbol, 'kind': 'spot',
+        'venue_pair': {'base': market['baseAsset'], 'quote': market['quoteAsset'], 'settlement': None},
+        'usd_volume_24h': volume,
+        'draft': {
+          'file': 'data/instruments/spot/binance.json', 'id': symbol,
+          'add': {'exchange': 'spot', 'base': base, 'quote': quote},
+        },
+      },
+    ))
+  return out
+
+
 def main() -> None:
   parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
   parser.add_argument('--data', default='data', help='Catalogue data directory.')
+  parser.add_argument('--report-json', type=Path, help='Also write the gaps as maintenance findings (JSON) here.')
   args = parser.parse_args()
   data = Path(args.data)
   translations = json.loads((data / 'asset_translations/binance.json').read_text())
@@ -63,6 +107,8 @@ def main() -> None:
   symbols = get('exchangeInfo')['symbols']  # type: ignore[index]
   volumes = {ticker['symbol']: ticker['quoteVolume'] for ticker in get('ticker/24hr')}  # type: ignore[union-attr]
   lines = gaps(symbols, translations, catalogue, volumes)
+  if args.report_json:
+    generators.write(args.report_json, 'scripts/check_binance_spot_gaps.py', ['binance'], ['untranslated-market'], findings(symbols, translations, catalogue, volumes))
   for line in lines:
     print(line)
   print(f'{len(lines)} trading Binance spot market(s) with translated assets but no instrument', file=sys.stderr)

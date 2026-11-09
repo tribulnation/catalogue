@@ -8,7 +8,8 @@ inputs are broken; `--strict` exits 1 on any finding and `--expect` on any
 difference from a recorded result (CI runs the fixtures that way).
 
   PYTHONPATH=lib/src .venv/bin/python scripts/maintain.py \\
-    --observations DIR [--data data] [--out findings.json] [--checks untranslated-market,...]
+    --observations DIR [--data data] [--out findings.json] [--checks untranslated-market,...] \\
+    [--extra hyperliquid.json ...]
 
 Output: `{"catalogue_sha", "generated_at", "observations_as_of", "checks": {<name>:
 {"status": "ran" | "skip", "reason", "found", "suppressed", "platforms"}},
@@ -22,7 +23,7 @@ from pathlib import Path
 import subprocess
 import sys
 
-from maintenance import catalogue, exceptions, observations, runner
+from maintenance import catalogue, exceptions, generators, observations, runner
 
 
 def catalogue_sha(data: Path) -> str | None:
@@ -66,6 +67,8 @@ def main(argv: list[str] | None = None) -> int:
   parser.add_argument('--exceptions', type=Path, default=exceptions.FILE, help='Exceptions TOML file.')
   parser.add_argument('--out', type=Path, help='Write the report here (default: stdout).')
   parser.add_argument('--checks', action='append', help='Only these checks (comma-separated, repeatable).')
+  parser.add_argument('--extra', type=Path, action='append', default=[],
+                      help='Merge a generator report (--report-json of hyperliquid.py, gtrade.py, check_binance_spot_gaps.py).')
   parser.add_argument('--strict', action='store_true', help='Exit 1 when there is any finding.')
   parser.add_argument('--expect', type=Path, help='Exit 1 unless the result matches this recorded one.')
   parser.add_argument('--write-expect', action='store_true', help='Record the result into --expect instead.')
@@ -82,7 +85,8 @@ def main(argv: list[str] | None = None) -> int:
     return 2
   only = [name for value in args.checks for name in value.split(',') if name] if args.checks else None
   obs = observations.load(args.observations)
-  report = runner.run(catalogue.load(args.data), obs, exceptions.load(args.exceptions), only=only)
+  extra = [generators.load(path) for path in args.extra]
+  report = runner.run(catalogue.load(args.data), obs, exceptions.load(args.exceptions), only=only, extra=extra)
   out = {
     'catalogue_sha': catalogue_sha(args.data),
     'generated_at': datetime.now(timezone.utc).isoformat(timespec='seconds'),
