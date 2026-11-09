@@ -21,13 +21,8 @@ class FixtureTest(unittest.TestCase):
 
   def test_reproduces_published_findings(self):
     for fp in [
-      'base-quote:mexc:perp:HK0992_USDT',
       'base-quote:mexc:perp:EWT_USDT',
       'base-quote:bitget:usdt:1000CATUSDT',
-      'mismatched-external:catalogue:siren-bsc',
-      'mismatched-external:catalogue:intel',
-      'mismatched-external:catalogue:applovin',
-      'mismatched-external:catalogue:draftkings',
       'dead-external:catalogue:telcoin',
       'missing-external:catalogue:openai',
       'price:coinbase:spot:BLAST-USD',
@@ -45,13 +40,6 @@ class FixtureTest(unittest.TestCase):
   def test_disputed_assets_have_no_price_findings(self):
     """Each INTC market would repeat the one `mismatched-external` disagreement."""
     self.assertFalse([fp for fp in self.found if fp.startswith('price:') and 'INTC' in fp])
-
-  def test_mismatched_evidence(self):
-    f = self.found['mismatched-external:catalogue:siren-bsc']
-    self.assertEqual(f['evidence']['platforms'], ['binance', 'bitget', 'bybit'])
-    self.assertAlmostEqual(f['evidence']['implied_usd'], 0.0255, places=3)
-    self.assertLessEqual(len(f['evidence']['liquid_markets']), external.EVIDENCE_MARKETS)
-
 
 class BaseQuoteTest(unittest.TestCase):
 

@@ -5,10 +5,12 @@ from statistics import median
 from types import SimpleNamespace
 from typing import Any, TypedDict
 
-from . import prices
+from datetime import timedelta
+
+from . import prices, sessions
 from .catalogue import Catalogue
 from .finding import CATALOGUE, Finding, make, market_subject
-from .observations import Observations
+from .observations import Observations, timestamp
 
 MIN_VOLUME_USD = 100_000
 """24h USD volume from which a market counts as liquid."""
@@ -18,6 +20,10 @@ MIN_MARKETS = 2
 """Independent platforms a market price must agree on before it outvotes a source."""
 EVIDENCE_MARKETS = 4
 """Markets quoted as evidence."""
+MIN_SLOTS = 2
+"""Observation slots a `mismatched-external` deviation must hold in, the current one included."""
+HISTORY = timedelta(hours=24)
+"""How far back earlier slots count."""
 
 
 class AssetMarket(TypedDict):
@@ -180,18 +186,59 @@ def dead(catalogue: Catalogue, obs: Observations, markets: dict[str, list[AssetM
   return findings
 
 
-def mismatched(catalogue: Catalogue, obs: Observations, markets: dict[str, list[AssetMarket]]) -> list[Finding]:
+def persists(obs: Observations, asset: str, reference: float, deviation: float) -> int:
+  """
+  In how many slots, the current one included, the venues sat on the same side of the
+  reference by more than `PRICE_DEVIATION`.
+
+  Earlier slots come from `prices.json` `history`, within `HISTORY` of the current one;
+  each is judged against its own `reference_usd` when it has one. A row with no
+  timestamp, or a timestamp already counted, confirms nothing, and with no current
+  observation time nothing can be confirmed.
+
+  Args:
+    obs: The observations.
+    asset: The canonical asset ID.
+    reference: The current reference price.
+    deviation: The current signed deviation (implied / reference - 1).
+  """
+  now = timestamp(obs.get('listings_as_of') or (obs.get('prices') or {}).get('as_of'))
+  if now is None:
+    return 1
+  seen = set()
+  for row in prices.history(obs, asset):
+    at = timestamp(row.get('ts'))
+    if at is None or at in seen or not timedelta(0) < now - at <= HISTORY:
+      continue
+    then = float(row['implied_usd']) / float(row.get('reference_usd') or reference) - 1
+    if abs(then) > PRICE_DEVIATION and (then > 0) == (deviation > 0):
+      seen.add(at)
+  return 1 + len(seen)
+
+
+def mismatched(
+  catalogue: Catalogue, obs: Observations, markets: dict[str, list[AssetMarket]], notes: dict[str, list[str]] | None = None,
+) -> list[Finding]:
   """
   `mismatched-external`: assets the venues and the price sources disagree about.
 
   The venues outvote the sources only when `MIN_MARKETS` platforms agree, which
-  separates a wrong ID from one venue's odd market.
+  separates a wrong ID from one venue's odd market. Three more conditions keep a
+  moving or one-sided reference from passing for a wrong ID; an asset that fails one
+  is listed in `notes` instead:
+
+  - `reference_split`: its providers disagree with each other (a bimodal reference);
+  - `closing_reference`: an equity whose reference is an exchange close, observed
+    outside its session or with a stale quote (`sessions.closing_reference`);
+  - `unconfirmed`: the deviation holds in fewer than `MIN_SLOTS` slots.
 
   Args:
     catalogue: The catalogue.
     obs: The observations.
     markets: Liquid markets by base asset.
+    notes: Collects the assets set aside, by reason.
   """
+  notes = {} if notes is None else notes
   findings = []
   for id, found in sorted(markets.items()):
     asset = catalogue.assets.get(id)
@@ -200,8 +247,19 @@ def mismatched(catalogue: Catalogue, obs: Observations, markets: dict[str, list[
     if asset is None or not reference or len(platforms) < MIN_MARKETS:
       continue
     implied = float(median(m['implied_usd'] for m in found))
-    deviation = abs(implied / reference - 1)
-    if deviation <= PRICE_DEVIATION:
+    deviation = implied / reference - 1
+    if abs(deviation) <= PRICE_DEVIATION:
+      continue
+    quotes = prices.quotes(obs, id)
+    if prices.split(obs, id, PRICE_DEVIATION):
+      notes.setdefault('reference_split', []).append(id)
+      continue
+    if sessions.closing_reference(catalogue, obs, id, quotes) is not None:
+      notes.setdefault('closing_reference', []).append(id)
+      continue
+    slots = persists(obs, id, reference, deviation)
+    if slots < MIN_SLOTS:
+      notes.setdefault('unconfirmed', []).append(id)
       continue
     external = dict(asset.get('external') or {})
     findings.append(make(
@@ -211,18 +269,21 @@ def mismatched(catalogue: Catalogue, obs: Observations, markets: dict[str, list[
       severity='high',
       summary=(
         f'asset {id} ({asset.get("symbol")}) trades at {implied:.6g} USD across {len(platforms)} platforms, '
-        f'{deviation:.0%} away from the {reference:.6g} its external IDs ({_ids(external)}) report'
+        f'{abs(deviation):.0%} away from the {reference:.6g} its external IDs ({_ids(external)}) report'
       ),
       evidence={
         'asset': id, 'symbol': asset.get('symbol'), 'display_name': asset.get('display_name'),
-        'external': external, 'reference_usd': reference, 'providers': prices.quotes(obs, id),
-        'implied_usd': implied, 'deviation': deviation, 'platforms': platforms, 'liquid_markets': evidence(found),
+        'external': external, 'reference_usd': reference, 'providers': quotes,
+        'implied_usd': implied, 'deviation': abs(deviation), 'slots': slots, 'platforms': platforms,
+        'liquid_markets': evidence(found),
       },
     ))
   return findings
 
 
-def price(catalogue: Catalogue, obs: Observations, disputed: set[str]) -> list[Finding]:
+def price(
+  catalogue: Catalogue, obs: Observations, disputed: set[str], notes: dict[str, list[str]] | None = None,
+) -> list[Finding]:
   """
   `price`: liquid markets far from `base price × multiplier ÷ quote price`.
 
@@ -230,13 +291,18 @@ def price(catalogue: Catalogue, obs: Observations, disputed: set[str]) -> list[F
   or one of its assets, to the wrong coin. The quote is the catalogue's, so a quanto
   perpetual (`quote: hong-kong-dollar`, settled in USDT) is compared in HK dollars.
   Delisted, non-tradable and illiquid markets are skipped, and so are assets
-  `mismatched-external` already reports: each of their markets would repeat it.
+  `mismatched-external` reports or set aside: each of their markets would repeat that
+  one disagreement about the reference. An
+  equity base priced by an exchange close outside its session is noted as
+  `closing_reference` instead (`sessions.closing_reference`).
 
   Args:
     catalogue: The catalogue.
     obs: The observations.
-    disputed: Assets with a `mismatched-external` finding.
+    disputed: Assets `mismatched-external` reported or set aside.
+    notes: Collects the markets set aside, by reason.
   """
+  notes = {} if notes is None else notes
   findings = []
   for platform, listing in sorted((obs.get('listings') or {}).items()):
     rows = catalogue.instruments.get(platform, {})
@@ -257,6 +323,10 @@ def price(catalogue: Catalogue, obs: Observations, disputed: set[str]) -> list[F
       if deviation <= PRICE_DEVIATION:
         continue
       subject = market_subject(*key)
+      base_quotes = prices.quotes(obs, instrument['base'])
+      if sessions.closing_reference(catalogue, obs, instrument['base'], base_quotes) is not None:
+        notes.setdefault('closing_reference', []).append(f'{platform}:{subject}')
+        continue
       findings.append(make(
         'price',
         platform=platform,
@@ -284,19 +354,21 @@ def run(catalogue: Catalogue, obs: Observations) -> tuple[list[Finding], dict]:
     obs: The observations; needs `listings` and `prices`.
   """
   markets = traded(catalogue, obs)
-  wrong = mismatched(catalogue, obs, markets)
+  set_aside: dict[str, list[str]] = {}
+  priced_aside: dict[str, list[str]] = {}
+  wrong = mismatched(catalogue, obs, markets, set_aside)
   findings = [
     *missing(catalogue, markets, obs.get('liquid') or {}),
     *dead(catalogue, obs, markets),
     *wrong,
-    *price(catalogue, obs, {f['subject'] for f in wrong}),
+    *price(catalogue, obs, {f['subject'] for f in wrong} | {id for ids in set_aside.values() for id in ids}, priced_aside),
   ]
   assets = {'ran': [CATALOGUE], 'skip': {}}
   return findings, {
     'missing-external': assets,
     'dead-external': assets if prices.healthy(obs) else {'ran': [], 'skip': {CATALOGUE: 'no source answered'}},
-    'mismatched-external': assets,
-    'price': {'ran': sorted(obs['listings']), 'skip': {}},
+    'mismatched-external': {**assets, **({'notes': set_aside} if set_aside else {})},
+    'price': {'ran': sorted(obs['listings']), 'skip': {}, **({'notes': priced_aside} if priced_aside else {})},
   }
 
 

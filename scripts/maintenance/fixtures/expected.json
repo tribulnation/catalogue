@@ -1,16 +1,8 @@
 {
  "findings": {
-  "base-quote:bitget:usdt:1000CATUSDT": "high",
-  "base-quote:hyperliquid::BTC": "high",
-  "base-quote:mexc:perp:EWT_USDT": "high",
-  "base-quote:mexc:perp:HK0992_USDT": "high",
   "dead-external:catalogue:telcoin": "high",
   "delisted-live:hyperliquid:xyz:xyz:NVDA": "medium",
   "duplicate-external:catalogue:coingecko:blast": "high",
-  "mismatched-external:catalogue:applovin": "high",
-  "mismatched-external:catalogue:draftkings": "high",
-  "mismatched-external:catalogue:intel": "high",
-  "mismatched-external:catalogue:siren-bsc": "high",
   "missing-external:catalogue:openai": "medium",
   "price:coinbase:spot:BLAST-USD": "high",
   "stale-listing:binance:usdm:CATUSDT": "medium",
@@ -28,6 +20,8 @@
  },
  "skipped": [],
  "suppressed": [
+  "base-quote:bitget:usdt:1000CATUSDT",
+  "base-quote:mexc:perp:EWT_USDT",
   "untranslated-asset:bitget:rACAD",
   "untranslated-market:bitget:spot:RACADUSDT"
  ]

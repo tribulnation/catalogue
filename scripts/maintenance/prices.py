@@ -53,3 +53,32 @@ def reference(catalogue: Catalogue, obs: Observations, asset: str, *, depth: int
   if peg and depth == 0:
     return reference(catalogue, obs, peg, depth=1)
   return None
+
+
+def split(obs: Observations, asset: str, threshold: float) -> bool:
+  """
+  Whether an asset's providers disagree with each other by more than `threshold`.
+
+  A split reference is no reference: CoinGecko's `siren-2` aggregated a bimodal set
+  of tickers (BSC DEX pools at 0.025, thin CEX books at 0.039) and moved 20% while
+  the token didn't (#399/#400).
+
+  Args:
+    obs: The observations.
+    asset: The canonical asset ID.
+    threshold: The relative gap that counts as disagreement.
+  """
+  values = [float(quote['usd']) for quote in quotes(obs, asset).values()]
+  return len(values) > 1 and max(values) / min(values) - 1 > threshold
+
+
+def history(obs: Observations, asset: str) -> list[dict[str, Any]]:
+  """
+  Earlier slots' venue-implied USD medians for an asset, oldest first.
+
+  Args:
+    obs: The observations.
+    asset: The canonical asset ID.
+  """
+  rows = ((obs.get('prices') or {}).get('history') or {}).get(asset) or []
+  return [row for row in rows if row.get('implied_usd')]
