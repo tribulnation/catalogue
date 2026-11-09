@@ -25,7 +25,6 @@ class RunnerTest(unittest.TestCase):
     market = self.observations['listings']['bitget']['markets'][('spot', 'BTCUSDT')]
     self.assertEqual(market['price'], 100005)
     self.assertTrue(market['tradable'])
-    self.assertNotIn('prices', self.observations)
 
   def test_complete_must_be_explicit(self):
     """A listing that doesn't say it is complete can't make a missing market stale."""
@@ -37,7 +36,8 @@ class RunnerTest(unittest.TestCase):
 
   def test_missing_input_is_skip(self):
     fake = group(('dead-external',), ('prices',), [], {})
-    report = runner.run(self.catalogue, self.observations, [], groups=[fake])
+    without = {key: value for key, value in self.observations.items() if key != 'prices'}
+    report = runner.run(self.catalogue, without, [], groups=[fake])
     self.assertEqual(report['checks']['dead-external']['status'], 'skip')
     self.assertEqual(report['checks']['dead-external']['reason'], 'no prices observations')
     self.assertEqual(report['checks']['price']['reason'], 'not implemented')

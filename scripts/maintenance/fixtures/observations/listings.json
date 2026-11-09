@@ -4,7 +4,8 @@
   "bitget": {
    "complete": true,
    "exchanges": {
-    "spot": "spot"
+    "spot": "spot",
+    "usdt": "perp"
    },
    "markets": [
     {
@@ -28,6 +29,61 @@
      "bid": 1.0,
      "ask": 1.01,
      "volume_24h_usd": 20000
+    },
+    {
+     "exchange": "usdt",
+     "market": "1000CATUSDT",
+     "kind": "perp",
+     "base": "1000CAT",
+     "quote": "USDT",
+     "settlement": null,
+     "status": "trading",
+     "price": 0.001703,
+     "volume_24h_usd": 2455000
+    },
+    {
+     "exchange": "usdt",
+     "market": "CATUSDT",
+     "kind": "perp",
+     "base": "CAT",
+     "quote": "USDT",
+     "settlement": null,
+     "status": "trading",
+     "price": 627.33,
+     "volume_24h_usd": 123000
+    },
+    {
+     "exchange": "usdt",
+     "market": "INTCUSDT",
+     "kind": "perp",
+     "base": "INTC",
+     "quote": "USDT",
+     "settlement": null,
+     "status": "trading",
+     "price": 71.62,
+     "volume_24h_usd": 112320619
+    },
+    {
+     "exchange": "usdt",
+     "market": "APPUSDT",
+     "kind": "perp",
+     "base": "APP",
+     "quote": "USDT",
+     "settlement": null,
+     "status": "trading",
+     "price": 325.61,
+     "volume_24h_usd": 2346046
+    },
+    {
+     "exchange": "usdt",
+     "market": "SIRENUSDT",
+     "kind": "perp",
+     "base": "SIREN",
+     "quote": "USDT",
+     "settlement": null,
+     "status": "trading",
+     "price": 0.025668,
+     "volume_24h_usd": 162958
     }
    ]
   },
@@ -90,6 +146,17 @@
      "status": "trading",
      "price": 0,
      "volume_24h_usd": 0
+    },
+    {
+     "exchange": "xyz",
+     "market": "xyz:DKNG",
+     "kind": "perp",
+     "base": "DKNG",
+     "quote": "USDC",
+     "settlement": "USDC",
+     "status": "trading",
+     "price": 18.299,
+     "volume_24h_usd": 2293967
     }
    ]
   },
@@ -147,6 +214,17 @@
      "price": 395.3,
      "volume_24h_usd": 3000000.0,
      "last_quote_ts": "2026-11-07T04:49:30Z"
+    },
+    {
+     "exchange": "usdm",
+     "market": "SIRENUSDT",
+     "kind": "perp",
+     "base": "SIREN",
+     "quote": "USDT",
+     "settlement": null,
+     "status": "trading",
+     "price": 0.025433,
+     "volume_24h_usd": 2373396
     }
    ]
   },
@@ -166,6 +244,17 @@
      "bid": 100000,
      "ask": 100002,
      "volume_24h_usd": 400000000.0
+    },
+    {
+     "exchange": "spot",
+     "market": "TELUSD",
+     "kind": "spot",
+     "base": "TEL",
+     "quote": "USD",
+     "settlement": null,
+     "status": "trading",
+     "price": 0.0041,
+     "volume_24h_usd": 150000
     }
    ]
   },
@@ -185,6 +274,144 @@
      "status": "trading",
      "price": 560,
      "volume_24h_usd": 50000
+    },
+    {
+     "exchange": "perp",
+     "market": "HK0992_USDT",
+     "kind": "perp",
+     "base": "HK0992",
+     "quote": "USDT",
+     "settlement": "USDT",
+     "status": "trading",
+     "price": 19.84,
+     "volume_24h_usd": 106994
+    },
+    {
+     "exchange": "perp",
+     "market": "EWT_USDT",
+     "kind": "perp",
+     "base": "EWT",
+     "quote": "USDT",
+     "settlement": "USDT",
+     "status": "trading",
+     "price": 98.9,
+     "volume_24h_usd": 100500
+    },
+    {
+     "exchange": "perp",
+     "market": "INTCSTOCK_USDT",
+     "kind": "perp",
+     "base": "INTCSTOCK",
+     "quote": "USDT",
+     "settlement": "USDT",
+     "status": "trading",
+     "price": 71.62,
+     "volume_24h_usd": 53405159
+    },
+    {
+     "exchange": "perp",
+     "market": "APPSTOCK_USDT",
+     "kind": "perp",
+     "base": "APPSTOCK",
+     "quote": "USDT",
+     "settlement": "USDT",
+     "status": "trading",
+     "price": 326.68,
+     "volume_24h_usd": 1409675
+    },
+    {
+     "exchange": "perp",
+     "market": "DKNGSTOCK_USDT",
+     "kind": "perp",
+     "base": "DKNGSTOCK",
+     "quote": "USDT",
+     "settlement": "USDT",
+     "status": "trading",
+     "price": 18.326,
+     "volume_24h_usd": 298317
+    }
+   ]
+  },
+  "bybit": {
+   "complete": true,
+   "exchanges": {
+    "perp": "perp",
+    "spot": "spot"
+   },
+   "markets": [
+    {
+     "exchange": "perp",
+     "market": "SIRENUSDT",
+     "kind": "perp",
+     "base": "SIREN",
+     "quote": "USDT",
+     "settlement": null,
+     "status": "trading",
+     "price": 0.025513,
+     "volume_24h_usd": 725020
+    },
+    {
+     "exchange": "perp",
+     "market": "INTCUSDT",
+     "kind": "perp",
+     "base": "INTC",
+     "quote": "USDT",
+     "settlement": null,
+     "status": "trading",
+     "price": 71.64,
+     "volume_24h_usd": 67134293
+    },
+    {
+     "exchange": "perp",
+     "market": "APPSTOCKUSDT",
+     "kind": "perp",
+     "base": "APPSTOCK",
+     "quote": "USDT",
+     "settlement": null,
+     "status": "trading",
+     "price": 326.38,
+     "volume_24h_usd": 4294241
+    },
+    {
+     "exchange": "perp",
+     "market": "DKNGUSDT",
+     "kind": "perp",
+     "base": "DKNG",
+     "quote": "USDT",
+     "settlement": null,
+     "status": "trading",
+     "price": 18.336,
+     "volume_24h_usd": 549678
+    },
+    {
+     "exchange": "spot",
+     "market": "TELUSDT",
+     "kind": "spot",
+     "base": "TEL",
+     "quote": "USDT",
+     "settlement": null,
+     "status": "trading",
+     "price": 0.004,
+     "volume_24h_usd": 200000
+    }
+   ]
+  },
+  "coinbase": {
+   "complete": true,
+   "exchanges": {
+    "spot": "spot"
+   },
+   "markets": [
+    {
+     "exchange": "spot",
+     "market": "BLAST-USD",
+     "kind": "spot",
+     "base": "BLAST",
+     "quote": "USD",
+     "settlement": null,
+     "status": "trading",
+     "price": 0.002,
+     "volume_24h_usd": 300000
     }
    ]
   }

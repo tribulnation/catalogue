@@ -1,0 +1,33 @@
+{
+ "1000CATUSDT": {
+  "exchange": "usdt",
+  "base": "simon-s-cat",
+  "quote": "tether",
+  "settlement": "tether",
+  "multiplier": 1000
+ },
+ "CATUSDT": {
+  "exchange": "usdt",
+  "base": "caterpillar",
+  "quote": "tether",
+  "settlement": "tether"
+ },
+ "INTCUSDT": {
+  "exchange": "usdt",
+  "base": "intel",
+  "quote": "tether",
+  "settlement": "tether"
+ },
+ "APPUSDT": {
+  "exchange": "usdt",
+  "base": "applovin",
+  "quote": "tether",
+  "settlement": "tether"
+ },
+ "SIRENUSDT": {
+  "exchange": "usdt",
+  "base": "siren-bsc",
+  "quote": "tether",
+  "settlement": "tether"
+ }
+}
