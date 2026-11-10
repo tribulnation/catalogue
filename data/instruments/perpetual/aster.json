@@ -300,7 +300,7 @@
     "base": "apm-fashion",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.asterdex.com/en/trade/pro/futures/APMUSDT"
+    "delisted": true
   },
   "APRUSDT": {
     "exchange": "perp",
@@ -3947,7 +3947,7 @@
     "base": "delta",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.asterdex.com/en/trade/pro/futures/DELTAUSDT"
+    "delisted": true
   },
   "FLORKUSDT": {
     "exchange": "perp",
