@@ -1,0 +1,26 @@
+{
+ "SIRENUSDT": {
+  "exchange": "perp",
+  "base": "siren-bsc",
+  "quote": "tether",
+  "settlement": "tether"
+ },
+ "INTCUSDT": {
+  "exchange": "perp",
+  "base": "intel",
+  "quote": "tether",
+  "settlement": "tether"
+ },
+ "APPSTOCKUSDT": {
+  "exchange": "perp",
+  "base": "applovin",
+  "quote": "tether",
+  "settlement": "tether"
+ },
+ "DKNGUSDT": {
+  "exchange": "perp",
+  "base": "draftkings",
+  "quote": "tether",
+  "settlement": "tether"
+ }
+}

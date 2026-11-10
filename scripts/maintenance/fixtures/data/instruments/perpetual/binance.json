@@ -1,0 +1,21 @@
+{
+ "HK0700USDT": {
+  "exchange": "usdm",
+  "base": "tencent-holdings",
+  "quote": "hong-kong-dollar",
+  "settlement": "tether",
+  "quanto": true
+ },
+ "CATUSDT": {
+  "exchange": "usdm",
+  "base": "caterpillar",
+  "quote": "tether",
+  "settlement": "tether"
+ },
+ "SIRENUSDT": {
+  "exchange": "usdm",
+  "base": "siren-bsc",
+  "quote": "tether",
+  "settlement": "tether"
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "BTC": {
+  "exchange": "",
+  "base": "bitcoin",
+  "quote": "tether",
+  "settlement": "usd-coin"
+ },
+ "xyz:NVDA": {
+  "exchange": "xyz",
+  "base": "nvidia",
+  "quote": "usd",
+  "settlement": "usd-coin",
+  "delisted": true
+ },
+ "xyz:GONE": {
+  "exchange": "xyz",
+  "base": "nvidia",
+  "quote": "usd",
+  "settlement": "usd-coin"
+ },
+ "xyz:OLD": {
+  "exchange": "xyz",
+  "base": "nvidia",
+  "quote": "usd",
+  "settlement": "usd-coin",
+  "delisted": true
+ },
+ "xyz:DKNG": {
+  "exchange": "xyz",
+  "base": "draftkings",
+  "quote": "usd",
+  "settlement": "usd-coin"
+ }
+}

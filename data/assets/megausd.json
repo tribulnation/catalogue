@@ -1,0 +1,23 @@
+{
+  "id": "megausd",
+  "display_name": "MegaUSD",
+  "symbol": "USDM",
+  "category": "stablecoin",
+  "about": {
+    "en": "USDm (MegaUSD) is MegaETH's native US dollar stablecoin, issued through Ethena's stablecoin stack. Its MegaETH contract is 0xFAfDdbb3FC7688494971a79cc65DCa3EF82079E7 (Ethereum: 0xEc2AF1C8B110a61fD9C3Fa6a554a031Ca9943926). The USDM ticker is reused by unrelated tokens (Mountain Protocol's USDM, Mento Dollar), so match it by contract, not by symbol."
+  },
+  "urls": {
+    "Website": "https://megaeth.com/",
+    "Documentation": "https://docs.megaeth.com/"
+  },
+  "external": {
+    "coingecko": "megausd",
+    "coinmarketcap": "38774"
+  },
+  "pegged_to": {
+    "asset": "usd"
+  },
+  "tags": [
+    "USD"
+  ]
+}

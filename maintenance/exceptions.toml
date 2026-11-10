@@ -1,0 +1,40 @@
+# Findings that are intentional, each reviewed by a person. An entry suppresses every
+# finding of `scripts/maintain.py` whose fingerprint matches `fingerprint`
+# (case-sensitive shell-style globs allowed). Fingerprints read
+# `<check>:<platform>:<subject>`, the same as catalogue-ops' issue markers. An
+# `untranslated-asset` entry also suppresses the untranslated markets whose venue base
+# or quote is that asset.
+#
+# Every entry needs a `reason` and a `ref` (the issue or PR that decided it). One that
+# matches no current finding must say `dormant = true`. Moved here from
+# tribulnation/catalogue-ops' exceptions.toml, same semantics.
+#
+# [[exception]]
+# fingerprint = "untranslated-asset:kraken:KFEE"
+# reason = "Kraken fee credits, not an asset."
+# ref = "#123"
+
+[[exception]]
+fingerprint = "untranslated-asset:bitget:r[A-Z]*"
+reason = "Bitget Reality rTokens: the mapped ones are in the catalogue, the rest are intentionally skipped."
+ref = "#147"
+
+# Findings the catalogue-ops fixer judged "not an error" or "needs a human decision" more
+# than once. Where a check was wrong, the check was fixed instead (quanto HK perps,
+# stale exchange closes for intel/INTW/applovin/draftkings, single-slot deviations);
+# these are the ones only a schema decision can settle.
+
+[[exception]]
+fingerprint = "base-quote:mexc:perp:EWT_USDT"
+reason = "MEXC uses EWT for two assets: the perp EWT_USDT is the iShares MSCI Taiwan ETF, the spot EWTUSDT is Energy Web Token. asset_translations has no per-kind dimension, so one key can't serve both. Per-kind translations: pending owner decision."
+ref = "#388"
+
+[[exception]]
+fingerprint = "base-quote:bitget:usdt:1000CATUSDT"
+reason = "1000CATUSDT is Simon's Cat at 1000x (multiplier 1000); stripping the 1000 prefix resolves CAT through the Caterpillar stock translation that CATUSDT needs. Resolving 1000-prefixed symbols: pending owner decision."
+ref = "#388"
+
+[[exception]]
+fingerprint = "mismatched-external:catalogue:siren-bsc"
+reason = "siren-2 is the right CoinGecko ID (BSC contract 0x997a...18e1); CoinGecko's aggregate swings between BSC DEX pools and thin CEX books, so the reference itself is bimodal. Reported in #383, #391 and #399; judged not an error each time."
+ref = "#400"

@@ -2,12 +2,14 @@
 
 A provider with no exact listing for the asset is acceptable only when the gap is
 justified in `scripts/external_id_exceptions.json` under an `<asset>:<provider>`
-key, saying what was searched and why nothing matched.
+key, saying what was searched and why nothing matched. A placeholder (`TODO`,
+`FIXME`, `TBD`, "not searched") is not a search and does not count.
 """
 
 import argparse
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 
@@ -18,10 +20,22 @@ EXCEPTIONS_FILE = Path(__file__).with_name('external_id_exceptions.json')
 SEARCHED_PROVIDERS = ('coingecko', 'coinmarketcap')
 CRYPTO_CATEGORIES = {'crypto', 'stablecoin', 'rwa'}
 
+# Markers of a justification written to get past this check rather than to record a
+# search: "TODO before merge: CoinMarketCap not searched" passed it once (#390).
+PLACEHOLDER = re.compile(
+  r'^\W*(TODO|FIXME|TBD|XXX|WIP)\b|\b(TODO|FIXME)\b|\bnot (yet )?searched\b|\bunsearched\b',
+  re.IGNORECASE,
+)
+
 
 def nonblank(value: object) -> bool:
   """Return whether a value is a nonblank string."""
   return isinstance(value, str) and bool(value.strip())
+
+
+def placeholder(reason: str) -> bool:
+  """Return whether a justification is a placeholder instead of search evidence."""
+  return bool(PLACEHOLDER.search(reason))
 
 
 def load_missing(file: Path = EXCEPTIONS_FILE) -> dict[str, str]:
@@ -58,6 +72,15 @@ def metadata_errors(
     key.split(':', 1)[1]: reason for key, reason in (missing or {}).items()
     if key.split(':', 1)[0] == asset_id and nonblank(reason)
   }
+  for provider, reason in sorted(justified.items()):
+    if placeholder(reason):
+      errors.append(
+        f"'{asset_id}:{provider}' in {EXCEPTIONS_FILE.name} is a placeholder, not a "
+        f'search: add the verified ID, or record what was searched and why nothing matched'
+      )
+  justified = {
+    provider: reason for provider, reason in justified.items() if not placeholder(reason)
+  }
   for provider in sorted(ids & set(justified)):
     errors.append(
       f'external.{provider} is set, so remove its stale justification from {EXCEPTIONS_FILE.name}'
@@ -87,11 +110,48 @@ def git(*args: str) -> str:
   ).stdout
 
 
-def main() -> int:
+def liquid_errors(data: Path, liquid: dict[str, float], minimum: float = 100_000) -> list[str]:
+  """Liquid assets no provider can price: no `external` ID and no `pegged_to`.
+
+  The `missing-external` rule over a list of liquid assets (the format of the
+  maintenance runner's `liquid.json`: `{"assets": {"<asset id>": <24h USD volume>}}`).
+  """
+  errors = []
+  for asset_id, volume in sorted(liquid.items()):
+    if float(volume or 0) < minimum:
+      continue
+    path = data / 'assets' / f'{asset_id}.json'
+    try:
+      asset = json.loads(path.read_text(encoding='utf-8'))
+    except (OSError, ValueError):
+      errors.append(f'{asset_id}: liquid (24h ${float(volume):,.0f}) but has no asset record')
+      continue
+    if not asset.get('external') and not asset.get('pegged_to'):
+      errors.append(f'{asset_id}: liquid (24h ${float(volume):,.0f}) but has no external ID, so it can never be priced')
+  return errors
+
+
+def main(argv: list[str] | None = None) -> int:
   """Check added asset files and return a failing status with localized errors."""
   parser = argparse.ArgumentParser(description=__doc__)
-  parser.add_argument('--base', required=True, help='Git commit or ref for the PR base')
-  args = parser.parse_args()
+  parser.add_argument('--base', help='Git commit or ref for the PR base')
+  parser.add_argument('--liquid', type=Path, help='Instead, check that these liquid assets (JSON) have an external ID')
+  parser.add_argument('--data', type=Path, default=Path('data'), help='Catalogue data directory, for --liquid')
+  args = parser.parse_args(argv)
+  if args.liquid:
+    try:
+      liquid = json.loads(args.liquid.read_text(encoding='utf-8')).get('assets') or {}
+    except (OSError, ValueError, AttributeError) as error:
+      print(f'Cannot read {args.liquid}: {error}', file=sys.stderr)
+      return 2
+    errors = liquid_errors(args.data, liquid)
+    if errors:
+      print('\n'.join(errors), file=sys.stderr)
+      return 1
+    print(f'Checked {len(liquid)} liquid assets: every one can be priced.')
+    return 0
+  if not args.base:
+    parser.error('--base or --liquid is required')
   try:
     root = Path(git('rev-parse', '--show-toplevel').strip())
     base = git(

@@ -32,7 +32,8 @@ asset for a wrapper, bridge claim or receipt.
 A provider with no exact listing is fine, but the search must be shown: add an
 `"<asset>:<provider>"` entry to `scripts/external_id_exceptions.json` saying what
 was searched (contract, issuer, chain, symbol) and why the near matches are a
-different asset. Run `scripts/check_new_assets.py --base <base-commit>`; it fails
+different asset. A placeholder such as `TODO` or "not searched" is not a search
+and fails the check. Run `scripts/check_new_assets.py --base <base-commit>`; it fails
 on any required provider (or, for other records, on having no provider at all)
 with neither an ID nor a justification, and on justifications
 left behind once an ID is added.
@@ -69,6 +70,16 @@ asset equal to size x contract size x price (MEXC `amount24`, QFEX
 `open_interest_usd`, Lighter `open_interest_usd`) means `true`. Validation requires
 the field on every stock perpetual priced in a fiat currency other than the
 settlement's, and rejects it when both are the same currency.
+
+Venues that size a position in its collateral rather than in the base (gTrade)
+pay collateral x leverage x (price / open price - 1) in the collateral, whatever
+the pair. No exchange rate between `quote` and `settlement` is ever applied, so
+every such instrument whose `quote` is not the settlement's peg is `quanto: true`:
+FX pairs (USD/JPY on USDC) and dollar pairs on a non-dollar collateral (BTC/USD
+on WETH or GNS) alike. Read size as collateral x leverage / open price; notional
+in `settlement` is then size x price. `quanto: false` would mean the venue
+converts quote P&L at the live rate, as a CEX does on a coin-margined position
+of fixed base size; gTrade's docs ("Spotlight: WETH") say its positions do not.
 
 ## Perpetual quote is never the settlement by default
 
@@ -207,6 +218,45 @@ Translation values must be existing catalogue asset IDs from `data/assets/<id>.j
 
 Perpetual assets have shape `<DYDX_ID>-USD`. You can enumerate markets via the API https://indexer.dydx.trade/v4/perpetualMarkets
 
+### gTrade
+
+`data/instruments/perpetual/gtrade.json` is generated; do not edit it by hand.
+`scripts/gtrade.py` builds it from gTrade's backend
+(`https://backend-<chain>.gains.trade/trading-variables`, one per chain), recorded
+in `scripts/gtrade_fixture.json`. There is one instrument per chain, collateral
+vault and pair (`arbitrum-usdc:BTC/USD`), since each vault has its own open
+interest, funding and borrowing.
+
+```sh
+# re-record the backend and rebuild the file
+PYTHONPATH=lib/src .venv/bin/python scripts/gtrade.py --refresh
+```
+
+Base and quote assets come from `data/asset_translations/gtrade.json` (gTrade ticker
+-> asset id), and settlement from the collateral's contract address in the chain's
+asset translations. A newly listed ticker that is not mapped fails the run with the
+list of missing tickers; map it (matched by price and identity, never by ticker
+alone) or add it to `EXCLUDED` in the script with a reason. `lib/tests/test_gtrade.py`
+fails CI when the committed file differs from what the fixture gives.
+
+`quanto` is `true` on every gTrade instrument whose quote differs from the
+collateral's peg (WETH and GNS vaults, and FX pairs on any vault), and absent
+otherwise; see "Quanto perpetuals" above.
+
+A vault that takes no new trades keeps its instruments marked `delisted` (no `url`),
+so open positions on it still map: a collateral the backend reports inactive, or one
+in `CLOSE_ONLY` in the script, with its source. DAI (Arbitrum, Polygon) is there:
+close-only since 2025-11-12 while the backend and contracts still call it active.
+Remove an entry only when gTrade's docs or app show the collateral open again.
+`scripts/check_gtrade_close_only.py` compares `CLOSE_ONLY` with the docs'
+collateral table, the app's `<x>TradingDisabled` messages and the vault's open
+trades; a new entry also needs its close-only block per chain in that script's
+`CLOSE_ONLY_SINCE`.
+
+`.github/workflows/gtrade-sync.yml` runs weekly: `gtrade.py --refresh`, and a pull
+request (branch `gtrade-refresh`) when the instruments change, and the close-only
+check, which fails the run when it disagrees.
+
 ### Hyperliquid
 
 Perpetual instrument IDs use Hyperliquid's `coin` name from the `meta` response. Enumerate perpetual markets with:
@@ -220,6 +270,10 @@ curl -L https://api.hyperliquid.xyz/info \
 For standard perpetuals, add entries to `data/instruments/perpetual/hyperliquid.json` using the `universe[].name` value as the instrument ID, e.g. `HYPE` or `VVV`. In this catalogue, Hyperliquid perpetuals use `quote: "tether"` and `settlement: "usd-coin"` unless the specific venue or market requires a different settlement asset; `quote: "usd-coin"` fails CI unless listed in `scripts/perp_quote_exceptions.json` (see "Perpetual quote is never the settlement by default").
 
 HIP-3 builder-deployed perpetuals use the same API, but Hyperliquid identifies them with a DEX prefix. Use instrument IDs shaped `<DEX>:<COIN>`, e.g. `hyna:SOL` or `flx:XMR`, and set the instrument `exchange` field to the DEX prefix, e.g. `"exchange": "hyna"`. Check the market's collateral/settlement before adding it; HIP-3 examples in this repo include settlement assets such as `ethena-usde` and `hyperliquid-usd`, not only `usd-coin`.
+
+A Hyperliquid perpetual is `delisted` only when its `universe[]` entry in `meta` / `metaAndAssetCtxs` (with `dex`) has `isDelisted: true`. Zero open interest or zero 24h volume is not a delisting on its own. On HIP-3 dexes, `isDelisted: true` can also mean "registered, not yet open": a deployer registers a market before launch, the venue reports it delisted with zero open interest and a frozen mark, and the flag flips when the market opens. A `delisted` flag copied from the venue at that point goes stale on its own: io:NVDA, io:AAPL, io:CRCL and para:ANTH were most likely flagged that way before they opened, and then traded. Treat a HIP-3 delisting as current, not final, and re-check it. `scripts/check_hyperliquid_delisted.py` (read-only, needs the network) lists every disagreement in both directions; when it reports a market that has opened, clear `delisted` and run `scripts/instrument_urls.py` to restore the URL.
+
+`scripts/hyperliquid.py` (needs the network) reports those disagreements and every venue market the catalogue lacks. `--write` sets the flags from `isDelisted`; HIP-3 flags go stale on their own when a registered market opens, so run it regularly and open a PR with the flips. `--add` appends only the missing markets that pass its gates (one catalogue asset with that symbol, no other Hyperliquid market with that coin on a different base, mark within 3% of the Yahoo quote or a listed Hyperliquid market on that base, a translated dex collateral); everything else is listed with the gate it failed and is resolved by hand under the rules above. Run `instrument_urls.py` after either.
 
 Spot instrument IDs use Hyperliquid spot names from the `spotMeta` response. Enumerate spot markets with:
 
@@ -260,3 +314,17 @@ curl -L 'https://contract.mexc.com/api/v1/contract/detail?symbol=VVV_USDT'
 ```
 
 Add confirmed perpetuals to `data/instruments/perpetual/mexc.json`. Use `baseCoin`, `quoteCoin`, and `settleCoin` from the API response to map `base`, `quote`, and `settlement`.
+
+## Maintenance checks
+
+`scripts/maintenance/` holds the checks that compare what venues report with the
+catalogue (untranslated markets and assets, stale or wrongly delisted listings, wrong
+base/quote, bad external IDs). They are pure functions: whoever runs them exports the
+venue observations as JSON files (format in `scripts/maintenance/observations.py`) and
+runs `scripts/maintain.py`, which writes the findings. Fingerprints read
+`<check>:<platform>:<subject>`, the same as catalogue-ops' issues.
+
+A finding that is intentional goes into `maintenance/exceptions.toml` with a `reason`
+and a `ref` to the issue or PR that decided it. Do not add an exception to silence a
+check that is wrong: fix the check, with a fixture from the evidence, instead. Tests
+run on offline fixtures in `scripts/maintenance/fixtures/`.

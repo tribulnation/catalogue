@@ -1,9 +1,16 @@
+from pathlib import Path
+import sys
+
 from tribulnation.catalogue.data import validate, load
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from maintenance import catalogue as maintenance_catalogue  # noqa: E402
+from maintenance.external import duplicates  # noqa: E402
 
 catalogue = load.all('data', strict=True)
 errors = validate.all(catalogue, '.')
+errors += [f'[DUPLICATE EXTERNAL ID] {f["summary"]}' for f in duplicates(maintenance_catalogue.load(Path('data')))]
 if errors:
-  import sys
   for error in errors:
     print(error, file=sys.stderr)
   sys.exit(1)
