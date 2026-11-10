@@ -1227,37 +1227,37 @@
     "exchange": "spot",
     "base": "autheo",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/THEO_USDT"
+    "delisted": true
   },
   "GTTUSDT": {
     "exchange": "spot",
     "base": "game-terminal",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/GTT_USDT"
+    "delisted": true
   },
   "AGENCYUSDT": {
     "exchange": "spot",
     "base": "agency",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/AGENCY_USDT"
+    "delisted": true
   },
   "AGENCYUSD1": {
     "exchange": "spot",
     "base": "agency",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/AGENCY_USD1"
+    "delisted": true
   },
   "旺柴USDT": {
     "exchange": "spot",
     "base": "wangchai",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/旺柴_USDT"
+    "delisted": true
   },
   "旺柴USD1": {
     "exchange": "spot",
     "base": "wangchai",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/旺柴_USD1"
+    "delisted": true
   },
   "CTXUSDT": {
     "exchange": "spot",
@@ -1341,13 +1341,13 @@
     "exchange": "spot",
     "base": "bordrless",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/BORDR_USD1"
+    "delisted": true
   },
   "BORDRUSDT": {
     "exchange": "spot",
     "base": "bordrless",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/BORDR_USDT"
+    "delisted": true
   },
   "0GUSDT": {
     "exchange": "spot",
@@ -1551,7 +1551,7 @@
     "exchange": "spot",
     "base": "alexgo",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/ALEX_USDT"
+    "delisted": true
   },
   "ALICEUSDT": {
     "exchange": "spot",
@@ -4761,7 +4761,7 @@
     "exchange": "spot",
     "base": "recall",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/RECALL_USDT"
+    "delisted": true
   },
   "REDUSDC": {
     "exchange": "spot",
@@ -5667,7 +5667,7 @@
     "exchange": "spot",
     "base": "manadia",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/UMXM_USDT"
+    "delisted": true
   },
   "UNIETH": {
     "exchange": "spot",
@@ -6027,7 +6027,7 @@
     "exchange": "spot",
     "base": "xmoney",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/XMN_USDT"
+    "delisted": true
   },
   "XNYUSDT": {
     "exchange": "spot",
@@ -7125,13 +7125,13 @@
     "exchange": "spot",
     "base": "quantum-inu",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/QI_USD1"
+    "delisted": true
   },
   "QIUSDT": {
     "exchange": "spot",
     "base": "quantum-inu",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/QI_USDT"
+    "delisted": true
   },
   "QKCUSDT": {
     "exchange": "spot",
@@ -7383,7 +7383,7 @@
     "exchange": "spot",
     "base": "paxos-standard",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/USDP_USDT"
+    "delisted": true
   },
   "VRAUSDT": {
     "exchange": "spot",

@@ -3324,5 +3324,12 @@
     "quote": "tether",
     "settlement": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/para:GDX"
+  },
+  "xyz:PANW": {
+    "exchange": "xyz",
+    "base": "palo-alto-networks",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
   }
 }
