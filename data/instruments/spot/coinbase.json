@@ -1533,7 +1533,7 @@
     "exchange": "spot",
     "base": "balancer",
     "quote": "usd",
-    "url": "https://www.coinbase.com/advanced-trade/spot/BAL-USD"
+    "delisted": true
   },
   "2Z-USD": {
     "exchange": "spot",
@@ -2679,7 +2679,7 @@
     "exchange": "spot",
     "base": "tensor",
     "quote": "usd",
-    "url": "https://www.coinbase.com/advanced-trade/spot/TNSR-USD"
+    "delisted": true
   },
   "TOSHI-USD": {
     "exchange": "spot",

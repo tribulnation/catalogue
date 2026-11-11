@@ -3331,5 +3331,12 @@
     "quote": "tether",
     "settlement": "usd-coin",
     "delisted": true
+  },
+  "io:META": {
+    "exchange": "io",
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "delisted": true
   }
 }
