@@ -62,6 +62,14 @@
     "settlement": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/xyz:EUR"
   },
+  "xyz:JPY": {
+    "exchange": "xyz",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "usd-coin",
+    "quanto": true,
+    "url": "https://app.hyperliquid.xyz/trade/xyz:JPY"
+  },
   "RENDER": {
     "exchange": "",
     "base": "render",
