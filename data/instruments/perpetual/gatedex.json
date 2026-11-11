@@ -1481,6 +1481,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "EURUSD_USDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "EVAA_USDT": {
     "exchange": "perp",
     "base": "evaa-protocol",
@@ -1664,6 +1670,12 @@
   "GAS_USDT": {
     "exchange": "perp",
     "base": "neo-gas",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "GBPUSD_USDT": {
+    "exchange": "perp",
+    "base": "british-pound",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -4161,6 +4173,12 @@
     "exchange": "perp",
     "base": "usd1",
     "quote": "tether",
+    "settlement": "tether"
+  },
+  "USDBRL_USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "brazilian-real",
     "settlement": "tether"
   },
   "USDC_USDT": {

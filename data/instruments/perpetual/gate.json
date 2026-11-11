@@ -1833,6 +1833,13 @@
     "settlement": "tether",
     "url": "https://www.gate.com/futures/USDT/EUL_USDT"
   },
+  "EURUSD_USDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.gate.com/futures/USDT/EURUSD_USDT"
+  },
   "EVAA_USDT": {
     "exchange": "perp",
     "base": "evaa-protocol",
@@ -2070,6 +2077,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.gate.com/futures/USDT/GAS_USDT"
+  },
+  "GBPUSD_USDT": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.gate.com/futures/USDT/GBPUSD_USDT"
   },
   "GDX_USDT": {
     "exchange": "perp",
@@ -5262,6 +5276,14 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.gate.com/futures/USDT/USD1_USDT"
+  },
+  "USDBRL_USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "brazilian-real",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.gate.com/futures/USDT/USDBRL_USDT"
   },
   "USDC_USDT": {
     "exchange": "perp",

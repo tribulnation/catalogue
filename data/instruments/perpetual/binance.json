@@ -5428,5 +5428,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.binance.com/en/futures/龙虾USDT"
+  },
+  "USDBRLUSDT": {
+    "exchange": "usdm",
+    "base": "usd",
+    "quote": "brazilian-real",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.binance.com/en/futures/USDBRLUSDT"
   }
 }

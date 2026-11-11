@@ -5836,5 +5836,35 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bybit.com/trade/usdt/MXLUSDT"
+  },
+  "EURUSDUSDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/EURUSDUSDT"
+  },
+  "GBPUSDUSDT": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bybit.com/trade/usdt/GBPUSDUSDT"
+  },
+  "USDJPYUSDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.bybit.com/trade/usdt/USDJPYUSDT"
+  },
+  "USDBRLUSDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "brazilian-real",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.bybit.com/trade/usdt/USDBRLUSDT"
   }
 }

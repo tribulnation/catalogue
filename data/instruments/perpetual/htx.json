@@ -699,6 +699,13 @@
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=EUL-USDT&contract_type=swap"
   },
+  "EURUSD-USDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=EURUSD-USDT&contract_type=swap"
+  },
   "EWJ-USDT": {
     "exchange": "perp",
     "base": "ishares-msci-japan-etf",
@@ -768,6 +775,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=FWDI-USDT&contract_type=swap"
+  },
+  "GBPUSD-USDT": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=GBPUSD-USDT&contract_type=swap"
   },
   "GDX-USDT": {
     "exchange": "perp",
@@ -2098,6 +2112,22 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=USAR-USDT&contract_type=swap"
+  },
+  "USDBRL-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "brazilian-real",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=USDBRL-USDT&contract_type=swap"
+  },
+  "USDJPY-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=USDJPY-USDT&contract_type=swap"
   },
   "USELESS-USDT": {
     "exchange": "perp",

@@ -1727,6 +1727,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "USDJPYUSDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "tether"
+  },
   "USELESSUSDT": {
     "exchange": "perp",
     "base": "useless-coin",

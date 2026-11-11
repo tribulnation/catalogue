@@ -1824,6 +1824,13 @@
     "settlement": "tether",
     "url": "https://www.toobit.com/futures/GAS-SWAP-USDT"
   },
+  "GBPUSD-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.toobit.com/futures/GBPUSD-SWAP-USDT"
+  },
   "GDX-SWAP-USDT": {
     "exchange": "perp",
     "base": "vaneck-gold-miners-etf",
@@ -4351,12 +4358,28 @@
     "settlement": "tether",
     "url": "https://www.toobit.com/futures/USAR-SWAP-USDT"
   },
+  "USDBRL-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "brazilian-real",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.toobit.com/futures/USDBRL-SWAP-USDT"
+  },
   "USDC-SWAP-USDT": {
     "exchange": "perp",
     "base": "usd-coin",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.toobit.com/futures/USDC-SWAP-USDT"
+  },
+  "USDJPY-SWAP-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.toobit.com/futures/USDJPY-SWAP-USDT"
   },
   "USELESS-SWAP-USDT": {
     "exchange": "perp",

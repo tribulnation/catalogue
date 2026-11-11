@@ -2378,6 +2378,258 @@
     "settlement": "tether",
     "url": "https://bingx.com/en/perpetual/NAORIS-USDT/"
   },
+  "NCCOGOLD2USD-USDT": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCCOGOLD2USD-USDT/"
+  },
+  "NCCOXAG2USD-USDT": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCCOXAG2USD-USDT/"
+  },
+  "NCCOXPT2USD-USDT": {
+    "exchange": "perp",
+    "base": "platinum",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCCOXPT2USD-USDT/"
+  },
+  "NCFXAUD2JPY-USDT": {
+    "exchange": "perp",
+    "base": "australian-dollar",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXAUD2JPY-USDT/"
+  },
+  "NCFXAUD2USD-USDT": {
+    "exchange": "perp",
+    "base": "australian-dollar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXAUD2USD-USDT/"
+  },
+  "NCFXCAD2CHF-USDT": {
+    "exchange": "perp",
+    "base": "canadian-dollar",
+    "quote": "swiss-franc",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXCAD2CHF-USDT/"
+  },
+  "NCFXCAD2JPY-USDT": {
+    "exchange": "perp",
+    "base": "canadian-dollar",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXCAD2JPY-USDT/"
+  },
+  "NCFXCHF2JPY-USDT": {
+    "exchange": "perp",
+    "base": "swiss-franc",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXCHF2JPY-USDT/"
+  },
+  "NCFXEUR2CAD-USDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "canadian-dollar",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXEUR2CAD-USDT/"
+  },
+  "NCFXEUR2CHF-USDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "swiss-franc",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXEUR2CHF-USDT/"
+  },
+  "NCFXEUR2GBP-USDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "british-pound",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXEUR2GBP-USDT/"
+  },
+  "NCFXEUR2JPY-USDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXEUR2JPY-USDT/"
+  },
+  "NCFXEUR2NZD-USDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "new-zealand-dollar",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXEUR2NZD-USDT/"
+  },
+  "NCFXEUR2USD-USDT": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXEUR2USD-USDT/"
+  },
+  "NCFXGBP2AUD-USDT": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "australian-dollar",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXGBP2AUD-USDT/"
+  },
+  "NCFXGBP2CAD-USDT": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "canadian-dollar",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXGBP2CAD-USDT/"
+  },
+  "NCFXGBP2CHF-USDT": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "swiss-franc",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXGBP2CHF-USDT/"
+  },
+  "NCFXGBP2JPY-USDT": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXGBP2JPY-USDT/"
+  },
+  "NCFXGBP2NZD-USDT": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "new-zealand-dollar",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXGBP2NZD-USDT/"
+  },
+  "NCFXGBP2USD-USDT": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXGBP2USD-USDT/"
+  },
+  "NCFXNZD2CAD-USDT": {
+    "exchange": "perp",
+    "base": "new-zealand-dollar",
+    "quote": "canadian-dollar",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXNZD2CAD-USDT/"
+  },
+  "NCFXNZD2JPY-USDT": {
+    "exchange": "perp",
+    "base": "new-zealand-dollar",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXNZD2JPY-USDT/"
+  },
+  "NCFXNZD2USD-USDT": {
+    "exchange": "perp",
+    "base": "new-zealand-dollar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXNZD2USD-USDT/"
+  },
+  "NCFXUSD2CAD-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "canadian-dollar",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2CAD-USDT/"
+  },
+  "NCFXUSD2CHF-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "swiss-franc",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2CHF-USDT/"
+  },
+  "NCFXUSD2DKK-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "danish-krone",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2DKK-USDT/"
+  },
+  "NCFXUSD2ILS-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "israeli-new-shekel",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2ILS-USDT/"
+  },
+  "NCFXUSD2JPY-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2JPY-USDT/"
+  },
+  "NCFXUSD2KRW-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "south-korean-won",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2KRW-USDT/"
+  },
+  "NCFXUSD2MXN-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "mexican-peso",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2MXN-USDT/"
+  },
+  "NCFXUSD2NOK-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "norwegian-krone",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2NOK-USDT/"
+  },
+  "NCFXUSD2PLN-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "polish-zloty",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2PLN-USDT/"
+  },
+  "NCFXUSD2SEK-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "swedish-krona",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2SEK-USDT/"
+  },
+  "NCFXUSD2THB-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "thai-baht",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2THB-USDT/"
+  },
+  "NCFXUSD2TRY-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "turkish-lira",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2TRY-USDT/"
+  },
+  "NCFXUSD2ZAR-USDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "south-african-rand",
+    "settlement": "tether",
+    "url": "https://bingx.com/en/perpetual/NCFXUSD2ZAR-USDT/"
+  },
   "NEAR-USDC": {
     "exchange": "perp",
     "base": "near",
