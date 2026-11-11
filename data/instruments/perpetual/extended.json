@@ -2222,5 +2222,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://app.extended.exchange/trade/TST-USD"
+  },
+  "USDJPY-USD": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "usd-coin",
+    "quanto": true,
+    "url": "https://app.extended.exchange/trade/USDJPY-USD"
   }
 }

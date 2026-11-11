@@ -530,6 +530,38 @@
     "settlement": "tether",
     "url": "https://www.xt.com/en/futures/trade/aud_usdt"
   },
+  "audcad_usdt": {
+    "exchange": "perp",
+    "base": "australian-dollar",
+    "quote": "canadian-dollar",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/audcad_usdt"
+  },
+  "audchf_usdt": {
+    "exchange": "perp",
+    "base": "australian-dollar",
+    "quote": "swiss-franc",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/audchf_usdt"
+  },
+  "audjpy_usdt": {
+    "exchange": "perp",
+    "base": "australian-dollar",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/audjpy_usdt"
+  },
+  "audnzd_usdt": {
+    "exchange": "perp",
+    "base": "australian-dollar",
+    "quote": "new-zealand-dollar",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/audnzd_usdt"
+  },
   "ava_usdt": {
     "exchange": "perp",
     "base": "travala",
@@ -957,6 +989,22 @@
     "settlement": "tether",
     "url": "https://www.xt.com/en/futures/trade/c_usdt"
   },
+  "cadchf_usdt": {
+    "exchange": "perp",
+    "base": "canadian-dollar",
+    "quote": "swiss-franc",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/cadchf_usdt"
+  },
+  "cadjpy_usdt": {
+    "exchange": "perp",
+    "base": "canadian-dollar",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/cadjpy_usdt"
+  },
   "cake_usdt": {
     "exchange": "perp",
     "base": "pancakeswap",
@@ -1040,6 +1088,14 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.xt.com/en/futures/trade/cgpt_usdt"
+  },
+  "chfjpy_usdt": {
+    "exchange": "perp",
+    "base": "swiss-franc",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/chfjpy_usdt"
   },
   "chillguy_usdt": {
     "exchange": "perp",
@@ -1573,6 +1629,38 @@
     "settlement": "tether",
     "url": "https://www.xt.com/en/futures/trade/eur_usdt"
   },
+  "euraud_usdt": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "australian-dollar",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/euraud_usdt"
+  },
+  "eurgbp_usdt": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "british-pound",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/eurgbp_usdt"
+  },
+  "eurjpy_usdt": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/eurjpy_usdt"
+  },
+  "eurnzd_usdt": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "new-zealand-dollar",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/eurnzd_usdt"
+  },
   "ewj_usdt": {
     "exchange": "perp",
     "base": "ishares-msci-japan-etf",
@@ -1747,6 +1835,46 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.xt.com/en/futures/trade/gbp_usdt"
+  },
+  "gbpaud_usdt": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "australian-dollar",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/gbpaud_usdt"
+  },
+  "gbpcad_usdt": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "canadian-dollar",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/gbpcad_usdt"
+  },
+  "gbpchf_usdt": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "swiss-franc",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/gbpchf_usdt"
+  },
+  "gbpjpy_usdt": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/gbpjpy_usdt"
+  },
+  "gbpnzd_usdt": {
+    "exchange": "perp",
+    "base": "british-pound",
+    "quote": "new-zealand-dollar",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/gbpnzd_usdt"
   },
   "gdx_usdt": {
     "exchange": "perp",
@@ -2923,6 +3051,37 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.xt.com/en/futures/trade/nxpc_usdt"
+  },
+  "nzdcad_usdt": {
+    "exchange": "perp",
+    "base": "new-zealand-dollar",
+    "quote": "canadian-dollar",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/nzdcad_usdt"
+  },
+  "nzdchf_usdt": {
+    "exchange": "perp",
+    "base": "new-zealand-dollar",
+    "quote": "swiss-franc",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/nzdchf_usdt"
+  },
+  "nzdjpy_usdt": {
+    "exchange": "perp",
+    "base": "new-zealand-dollar",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/nzdjpy_usdt"
+  },
+  "nzdusd_usdt": {
+    "exchange": "perp",
+    "base": "new-zealand-dollar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.xt.com/en/futures/trade/nzdusd_usdt"
   },
   "o_usdt": {
     "exchange": "perp",
@@ -4274,6 +4433,46 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.xt.com/en/futures/trade/usar_usdt"
+  },
+  "usdbrl_usdt": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "brazilian-real",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/usdbrl_usdt"
+  },
+  "usdjpy_usdt": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/usdjpy_usdt"
+  },
+  "usdmxn_usdt": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "mexican-peso",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/usdmxn_usdt"
+  },
+  "usdnok_usdt": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "norwegian-krone",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/usdnok_usdt"
+  },
+  "usdzar_usdt": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "south-african-rand",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.xt.com/en/futures/trade/usdzar_usdt"
   },
   "useless_usdt": {
     "exchange": "perp",

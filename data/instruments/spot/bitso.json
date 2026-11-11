@@ -41,6 +41,12 @@
     "quote": "tether",
     "url": "https://bitso.com/alpha/eth/usdt"
   },
+  "eur_usd": {
+    "exchange": "spot",
+    "base": "euro",
+    "quote": "usd",
+    "url": "https://bitso.com/alpha/eur/usd"
+  },
   "ltc_mxn": {
     "exchange": "spot",
     "base": "litecoin",
@@ -94,6 +100,24 @@
     "base": "true-usd",
     "quote": "mexican-peso",
     "url": "https://bitso.com/alpha/tusd/mxn"
+  },
+  "usd_ars": {
+    "exchange": "spot",
+    "base": "usd",
+    "quote": "argentine-peso",
+    "url": "https://bitso.com/alpha/usd/ars"
+  },
+  "usd_brl": {
+    "exchange": "spot",
+    "base": "usd",
+    "quote": "brazilian-real",
+    "url": "https://bitso.com/alpha/usd/brl"
+  },
+  "usd_mxn": {
+    "exchange": "spot",
+    "base": "usd",
+    "quote": "mexican-peso",
+    "url": "https://bitso.com/alpha/usd/mxn"
   },
   "usdt_ars": {
     "exchange": "spot",

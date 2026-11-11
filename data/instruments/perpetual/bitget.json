@@ -5706,5 +5706,35 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.bitget.com/futures/usdt/NUUSDT"
+  },
+  "EURUSDUSDT": {
+    "exchange": "usdt",
+    "base": "euro",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/EURUSDUSDT"
+  },
+  "GBPUSDUSDT": {
+    "exchange": "usdt",
+    "base": "british-pound",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.bitget.com/futures/usdt/GBPUSDUSDT"
+  },
+  "USDJPYUSDT": {
+    "exchange": "usdt",
+    "base": "usd",
+    "quote": "japanese-yen",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.bitget.com/futures/usdt/USDJPYUSDT"
+  },
+  "USDBRLUSDT": {
+    "exchange": "usdt",
+    "base": "usd",
+    "quote": "brazilian-real",
+    "settlement": "tether",
+    "quanto": true,
+    "url": "https://www.bitget.com/futures/usdt/USDBRLUSDT"
   }
 }

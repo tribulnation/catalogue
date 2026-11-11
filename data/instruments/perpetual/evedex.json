@@ -57,6 +57,13 @@
     "settlement": "tether",
     "url": "https://exchange.evedex.com/en/trade/ATOMUSD"
   },
+  "AUDUSD": {
+    "exchange": "perp",
+    "base": "australian-dollar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/AUDUSD"
+  },
   "AVAXUSD": {
     "exchange": "perp",
     "base": "avalanche",

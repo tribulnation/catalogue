@@ -5096,6 +5096,13 @@
     "settlement": "tether",
     "url": "https://www.weex.com/futures/USAR-USDT"
   },
+  "USDBRLUSDT": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "brazilian-real",
+    "settlement": "tether",
+    "url": "https://www.weex.com/futures/USDBRL-USDT"
+  },
   "USDCUSDT": {
     "exchange": "perp",
     "base": "usd-coin",
