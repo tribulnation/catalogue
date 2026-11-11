@@ -1288,7 +1288,7 @@
     "base": "incentiv",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/CENT_USDT"
+    "delisted": true
   },
   "CAHSTOCK_USDT": {
     "exchange": "perp",
@@ -1530,7 +1530,7 @@
     "quote": "tether",
     "settlement": "tether",
     "exchange": "perp",
-    "url": "https://www.mexc.com/futures/AGI_USDT"
+    "delisted": true
   },
   "AGLD_USDT": {
     "base": "adventure-gold",
@@ -1691,7 +1691,7 @@
     "quote": "tether",
     "settlement": "tether",
     "exchange": "perp",
-    "url": "https://www.mexc.com/futures/APEX_USDT"
+    "delisted": true
   },
   "API3_USDT": {
     "base": "api3",
@@ -5072,7 +5072,7 @@
     "quote": "tether",
     "settlement": "tether",
     "exchange": "perp",
-    "url": "https://www.mexc.com/futures/STORJ_USDT"
+    "delisted": true
   },
   "STO_USDT": {
     "base": "stakestone",
@@ -6395,7 +6395,7 @@
     "base": "anonymous-cat",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.mexc.com/futures/ZCAT_USDT"
+    "delisted": true
   },
   "NOCSTOCK_USDT": {
     "exchange": "perp",
@@ -6529,5 +6529,47 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.mexc.com/futures/LNGSTOCK_USDT"
+  },
+  "JCISTOCK_USDT": {
+    "exchange": "perp",
+    "base": "johnson-controls-international",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/JCISTOCK_USDT"
+  },
+  "FSLRSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "first-solar",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/FSLRSTOCK_USDT"
+  },
+  "ADSKSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "autodesk",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/ADSKSTOCK_USDT"
+  },
+  "TSCOSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "tractor-supply",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/TSCOSTOCK_USDT"
+  },
+  "EMRSTOCK_USDT": {
+    "exchange": "perp",
+    "base": "emerson-electric",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/EMRSTOCK_USDT"
+  },
+  "KNTQ_USDT": {
+    "exchange": "perp",
+    "base": "kinetiq",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.mexc.com/futures/KNTQ_USDT"
   }
 }
