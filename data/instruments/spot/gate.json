@@ -861,7 +861,7 @@
     "exchange": "spot",
     "base": "blast",
     "quote": "tether",
-    "url": "https://www.gate.com/trade/BLAST_USDT"
+    "delisted": true
   },
   "BLEND_USDT": {
     "exchange": "spot",
@@ -6298,5 +6298,11 @@
     "base": "lobster-bsc",
     "quote": "tether",
     "url": "https://www.gate.com/trade/龙虾_USDT"
+  },
+  "UNION_USDT": {
+    "exchange": "spot",
+    "base": "union",
+    "quote": "tether",
+    "url": "https://www.gate.com/trade/UNION_USDT"
   }
 }

@@ -199,8 +199,8 @@
     "base": "blast",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://www.kucoin.com/trade/futures/BLASTUSDTM",
-    "exchange": "perp"
+    "exchange": "perp",
+    "delisted": true
   },
   "BLURUSDTM": {
     "base": "blur",
@@ -1541,7 +1541,7 @@
   },
   "BNCUSDTM": {
     "exchange": "perp",
-    "base": "bifrost-native-coin",
+    "base": "bnb-standard",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://www.kucoin.com/trade/futures/BNCUSDTM"

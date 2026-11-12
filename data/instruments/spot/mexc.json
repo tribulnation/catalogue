@@ -1285,15 +1285,15 @@
   },
   "CLAUSUSDT": {
     "exchange": "spot",
-    "base": "claus",
+    "base": "claus-ethereum",
     "quote": "tether",
-    "url": "https://www.mexc.com/exchange/CLAUS_USDT"
+    "delisted": true
   },
   "CLAUSUSD1": {
     "exchange": "spot",
-    "base": "claus",
+    "base": "claus-ethereum",
     "quote": "usd1",
-    "url": "https://www.mexc.com/exchange/CLAUS_USD1"
+    "delisted": true
   },
   "DARKUSDT": {
     "exchange": "spot",
