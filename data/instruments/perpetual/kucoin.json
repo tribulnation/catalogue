@@ -1172,8 +1172,8 @@
     "base": "bitcoin",
     "quote": "usd",
     "settlement": "bitcoin",
-    "url": "https://www.kucoin.com/trade/futures/XBTMU26",
-    "exchange": "perp"
+    "exchange": "perp",
+    "delisted": true
   },
   "XBTUSDCM": {
     "base": "bitcoin",

@@ -1019,28 +1019,28 @@
     "base": "ethereum",
     "quote": "usd",
     "settlement": "ethereum",
-    "url": "https://futures.kraken.com/trade/futures/PI_ETHUSD"
+    "delisted": true
   },
   "PI_LTCUSD": {
     "exchange": "perp",
     "base": "litecoin",
     "quote": "usd",
     "settlement": "litecoin",
-    "url": "https://futures.kraken.com/trade/futures/PI_LTCUSD"
+    "delisted": true
   },
   "PI_XBTUSD": {
     "exchange": "perp",
     "base": "bitcoin",
     "quote": "usd",
     "settlement": "bitcoin",
-    "url": "https://futures.kraken.com/trade/futures/PI_XBTUSD"
+    "delisted": true
   },
   "PI_XRPUSD": {
     "exchange": "perp",
     "base": "xrp",
     "quote": "usd",
     "settlement": "xrp",
-    "url": "https://futures.kraken.com/trade/futures/PI_XRPUSD"
+    "delisted": true
   },
   "PF_KAVAUSD": {
     "exchange": "perp",
