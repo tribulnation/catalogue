@@ -267,7 +267,7 @@
     "exchange": "spot",
     "base": "blast",
     "quote": "tether",
-    "url": "https://www.kucoin.com/trade/BLAST-USDT"
+    "delisted": true
   },
   "BLUR-USDT": {
     "exchange": "spot",
@@ -2307,7 +2307,7 @@
     "exchange": "spot",
     "base": "bifrost-native-coin",
     "quote": "tether",
-    "url": "https://www.kucoin.com/trade/BNC-USDT"
+    "delisted": true
   },
   "CELR-USDT": {
     "exchange": "spot",

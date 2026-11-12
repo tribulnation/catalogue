@@ -1043,10 +1043,10 @@
   },
   "CLAUS-USDT": {
     "exchange": "perp",
-    "base": "claus",
+    "base": "claus-ethereum",
     "quote": "tether",
     "settlement": "tether",
-    "url": "https://bingx.com/en/perpetual/CLAUS-USDT/"
+    "delisted": true
   },
   "CLO-USDT": {
     "exchange": "perp",

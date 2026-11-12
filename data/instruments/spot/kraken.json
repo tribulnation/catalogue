@@ -1755,7 +1755,7 @@
     "exchange": "spot",
     "base": "monad",
     "quote": "agora-dollar",
-    "url": "https://pro.kraken.com/app/trade/mon-ausd"
+    "delisted": true
   },
   "MONEUR": {
     "exchange": "spot",
@@ -3699,13 +3699,13 @@
     "exchange": "spot",
     "base": "althea",
     "quote": "euro",
-    "url": "https://pro.kraken.com/app/trade/althea-eur"
+    "delisted": true
   },
   "ALTHEAUSD": {
     "exchange": "spot",
     "base": "althea",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/althea-usd"
+    "delisted": true
   },
   "AMIUSD": {
     "exchange": "spot",
@@ -3945,13 +3945,13 @@
     "exchange": "spot",
     "base": "bondex",
     "quote": "euro",
-    "url": "https://pro.kraken.com/app/trade/bdxn-eur"
+    "delisted": true
   },
   "BDXNUSD": {
     "exchange": "spot",
     "base": "bondex",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/bdxn-usd"
+    "delisted": true
   },
   "BERTEUR": {
     "exchange": "spot",
@@ -4053,7 +4053,7 @@
     "exchange": "spot",
     "base": "beamable-network",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/bmb-usd"
+    "delisted": true
   },
   "BMTEUR": {
     "exchange": "spot",
@@ -4131,7 +4131,7 @@
     "exchange": "spot",
     "base": "bitcoinos",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/bos-usd"
+    "delisted": true
   },
   "BREVEUR": {
     "exchange": "spot",
@@ -4581,13 +4581,13 @@
     "exchange": "spot",
     "base": "duckchain",
     "quote": "euro",
-    "url": "https://pro.kraken.com/app/trade/duck-eur"
+    "delisted": true
   },
   "DUCKUSD": {
     "exchange": "spot",
     "base": "duckchain",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/duck-usd"
+    "delisted": true
   },
   "EATEUR": {
     "exchange": "spot",
@@ -4653,13 +4653,13 @@
     "exchange": "spot",
     "base": "elixir-finance",
     "quote": "euro",
-    "url": "https://pro.kraken.com/app/trade/elx-eur"
+    "delisted": true
   },
   "ELXUSD": {
     "exchange": "spot",
     "base": "elixir-finance",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/elx-usd"
+    "delisted": true
   },
   "ENJEUR": {
     "exchange": "spot",
@@ -4791,13 +4791,13 @@
     "exchange": "spot",
     "base": "stafi",
     "quote": "euro",
-    "url": "https://pro.kraken.com/app/trade/fis-eur"
+    "delisted": true
   },
   "FISUSD": {
     "exchange": "spot",
     "base": "stafi",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/fis-usd"
+    "delisted": true
   },
   "FLOCKEUR": {
     "exchange": "spot",
@@ -4903,7 +4903,7 @@
   },
   "GIBUSD": {
     "exchange": "spot",
-    "base": "gib",
+    "base": "gib-hedera",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/gib-usd"
   },
@@ -5079,13 +5079,13 @@
     "exchange": "spot",
     "base": "aurora-dao",
     "quote": "euro",
-    "url": "https://pro.kraken.com/app/trade/idex-eur"
+    "delisted": true
   },
   "IDEXUSD": {
     "exchange": "spot",
     "base": "aurora-dao",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/idex-usd"
+    "delisted": true
   },
   "IDOSEUR": {
     "exchange": "spot",
@@ -5607,13 +5607,13 @@
     "exchange": "spot",
     "base": "nobody-sausage",
     "quote": "euro",
-    "url": "https://pro.kraken.com/app/trade/nobody-eur"
+    "delisted": true
   },
   "NOBODYUSD": {
     "exchange": "spot",
     "base": "nobody-sausage",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/nobody-usd"
+    "delisted": true
   },
   "NOCKUSD": {
     "exchange": "spot",
@@ -5655,19 +5655,19 @@
     "exchange": "spot",
     "base": "obol",
     "quote": "euro",
-    "url": "https://pro.kraken.com/app/trade/obol-eur"
+    "delisted": true
   },
   "OBOLUSD": {
     "exchange": "spot",
     "base": "obol",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/obol-usd"
+    "delisted": true
   },
   "OBOLUSDT": {
     "exchange": "spot",
     "base": "obol",
     "quote": "tether",
-    "url": "https://pro.kraken.com/app/trade/obol-usdt"
+    "delisted": true
   },
   "ODOSUSD": {
     "exchange": "spot",
@@ -6915,7 +6915,7 @@
     "exchange": "spot",
     "base": "union",
     "quote": "euro",
-    "url": "https://pro.kraken.com/app/trade/u-eur"
+    "delisted": true
   },
   "UFDEUR": {
     "exchange": "spot",
@@ -6987,13 +6987,13 @@
     "exchange": "spot",
     "base": "union",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/u-usd"
+    "delisted": true
   },
   "UXLINKUSD": {
     "exchange": "spot",
     "base": "uxlink",
     "quote": "usd",
-    "url": "https://pro.kraken.com/app/trade/uxlink-usd"
+    "delisted": true
   },
   "VELODROMEEUR": {
     "exchange": "spot",
@@ -7879,7 +7879,7 @@
   },
   "WOJAKUSD": {
     "exchange": "spot",
-    "base": "wojak-coin",
+    "base": "wojak-cto",
     "quote": "usd",
     "url": "https://pro.kraken.com/app/trade/wojak-usd"
   },
