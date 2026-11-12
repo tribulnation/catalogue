@@ -328,5 +328,17 @@
     "base": "qone",
     "quote": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/QONE/USDC"
+  },
+  "BRIDGE/USDC:219": {
+    "exchange": "spot",
+    "base": "hybridge",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/BRIDGE/USDC"
+  },
+  "CATBAL/USDC:59": {
+    "exchange": "spot",
+    "base": "catbal",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/CATBAL/USDC"
   }
 }
