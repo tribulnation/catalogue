@@ -328,5 +328,10 @@
     "base": "qone",
     "quote": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/QONE/USDC"
+  },
+  "BRIDGE/USDC:219": {
+    "exchange": "spot",
+    "base": "hybridge",
+    "quote": "usd-coin"
   }
 }
