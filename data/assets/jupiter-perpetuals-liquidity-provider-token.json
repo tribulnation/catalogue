@@ -1,0 +1,18 @@
+{
+  "id": "jupiter-perpetuals-liquidity-provider-token",
+  "display_name": "Jupiter Perps LP",
+  "symbol": "JLP",
+  "category": "crypto",
+  "about": {
+    "en": "JLP is the liquidity provider token of Jupiter Perpetuals on Solana. It represents a share of a pool of SOL, ETH, WBTC, USDC and USDT that takes the other side of traders' positions and earns most of the exchange's trading, borrowing and liquidation fees. Its price moves with the pool's assets and with traders' profits and losses.",
+    "es": "JLP es el token de proveedor de liquidez de Jupiter Perpetuals en Solana. Representa una participacion en un pool de SOL, ETH, WBTC, USDC y USDT que toma la contraparte de las posiciones de los traders y recibe la mayor parte de las comisiones de trading, prestamo y liquidacion del exchange. Su precio se mueve con los activos del pool y con las ganancias y perdidas de los traders.",
+    "ca": "JLP es el token de proveidor de liquiditat de Jupiter Perpetuals a Solana. Representa una participacio en un pool de SOL, ETH, WBTC, USDC i USDT que pren la contrapart de les posicions dels traders i rep la major part de les comissions de trading, prestec i liquidacio de l exchange. El seu preu es mou amb els actius del pool i amb els guanys i perdues dels traders."
+  },
+  "external": {
+    "coingecko": "jupiter-perpetuals-liquidity-provider-token",
+    "coinmarketcap": "28853"
+  },
+  "urls": {
+    "Website": "https://jup.ag/perps-earn"
+  }
+}
