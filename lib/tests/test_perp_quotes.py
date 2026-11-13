@@ -11,7 +11,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts'))
 
-from check_perp_quotes import errors, load_exceptions  # noqa: E402
+from check_perp_quotes import errors, load_exceptions  # noqa: E402  # pyright: ignore[reportMissingImports]
 
 
 def write(root: Path, platform: str, perps: dict[str, dict], assets: dict[str, str]):

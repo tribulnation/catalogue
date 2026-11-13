@@ -10,8 +10,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts'))
 
-import check_gtrade_close_only as check  # noqa: E402
-import gtrade  # noqa: E402
+import check_gtrade_close_only as check  # noqa: E402  # pyright: ignore[reportMissingImports]
+import gtrade  # noqa: E402  # pyright: ignore[reportMissingImports]
 
 DOCS = r"""
 #### Collateral availability by chain

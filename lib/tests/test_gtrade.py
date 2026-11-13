@@ -12,7 +12,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts'))
 
-import gtrade  # noqa: E402
+import gtrade  # noqa: E402  # pyright: ignore[reportMissingImports]
 
 
 def chain(pairs: list[list], vaults: dict[str, list[list]], inactive: tuple[str, ...] = ()) -> dict:
