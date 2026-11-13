@@ -1,7 +1,8 @@
 from typing_extensions import Collection, Literal, Mapping
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import UTC, datetime
 from decimal import Decimal
+from zoneinfo import ZoneInfo
 import csv
 import functools
 import re
@@ -20,6 +21,9 @@ DAILY_URL = 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml'
 DATA_URL = 'https://data-api.ecb.europa.eu/service/data/EXR'
 """ECB Data Portal, `EXR` dataset; series key `D.<currency>.EUR.SP00.A`."""
 
+FIXING_ZONE = ZoneInfo('Europe/Berlin')
+"""The ECB sets its reference rates at 14:15 Frankfurt time (CET/CEST)."""
+
 EcbQuote = Literal['USD', 'EUR']
 
 _code = re.compile(r'^[A-Z]{3}$')
@@ -37,6 +41,11 @@ def _convert(rates: Mapping[str, Decimal], ids: Collection[str], quote: str) -> 
   if (quote_rate := rates.get(quote)) is None:
     return {}
   return {id: quote_rate / rates[id] for id in ids if rates.get(id)}
+
+
+def fixing_time(day: datetime) -> datetime:
+  """The UTC instant of the 14:15 Frankfurt fixing on `day`'s date."""
+  return datetime(day.year, day.month, day.day, 14, 15, tzinfo=FIXING_ZONE).astimezone(UTC)
 
 
 def wrap_exceptions(f):
@@ -116,9 +125,11 @@ class EcbPricing(Pricing):
     return rates
 
   async def current_stats(self, ids: Collection[str]) -> Mapping[str, Stats]:
+    """The latest reference rates, each with `Stats.time` set to that day's 14:15 Frankfurt fixing."""
     ids = [_parse_id(id) for id in ids]
-    _, rates = await self._daily()
-    return {id: Stats(price=price) for id, price in _convert(rates, ids, self.quote).items()}
+    day, rates = await self._daily()
+    time = fixing_time(day)
+    return {id: Stats(price=price, time=time) for id, price in _convert(rates, ids, self.quote).items()}
 
   async def historical_price(self, id: str, time: datetime) -> Price | None:
     id = _parse_id(id)
