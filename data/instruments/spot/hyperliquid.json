@@ -340,5 +340,23 @@
     "base": "catbal",
     "quote": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/CATBAL/USDC"
+  },
+  "FEUSD/USDC:153": {
+    "exchange": "spot",
+    "base": "felix-feusd",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/FEUSD/USDC"
+  },
+  "HREKT/USDC:201": {
+    "exchange": "spot",
+    "base": "rekt",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/HREKT/USDC"
+  },
+  "LSK/USDC:1060": {
+    "exchange": "spot",
+    "base": "lisk",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/LSK/USDC"
   }
 }

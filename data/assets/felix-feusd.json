@@ -1,0 +1,15 @@
+{
+  "id": "felix-feusd",
+  "display_name": "Felix feUSD",
+  "symbol": "FEUSD",
+  "category": "stablecoin",
+  "about": {
+    "en": "feUSD is a crypto-collateralized, USD-pegged stablecoin issued by the Felix protocol on Hyperliquid/HyperEVM. Users mint it by depositing collateral into Felix's CDP (Liquity-style) borrowing system."
+  },
+  "urls": {
+    "Website": "https://usefelix.xyz/"
+  },
+  "external": {
+    "coingecko": "felix-feusd"
+  }
+}
