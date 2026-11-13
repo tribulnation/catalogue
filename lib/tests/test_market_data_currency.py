@@ -4,7 +4,7 @@ Yahoo and TwelveData payloads below are trimmed from live responses recorded on
 2026-09-29 (tribulnation/catalogue#201).
 """
 
-from datetime import datetime
+from datetime import UTC, datetime
 from decimal import Decimal
 import unittest
 
@@ -159,6 +159,31 @@ class YahooCurrentStatsTest(unittest.IsolatedAsyncioTestCase):
     with self.assertLogs('tribulnation.catalogue', 'WARNING'):
       stats = await pricing.current_stats(['AAPL', 'NOCCY'])
     self.assertEqual(set(stats), {'AAPL'})
+
+
+class YahooQuoteTimeTest(unittest.IsolatedAsyncioTestCase):
+  """`current_stats` passes each quote's `regularMarketTime` on as `Stats.time`."""
+
+  async def test_quote_time(self):
+    """A frozen pair keeps its old time, so a caller can see it is stale."""
+    quotes = {
+      'ISKUSD=X': {'currency': 'USD', 'regularMarketPrice': 0.0082, 'regularMarketTime': 1794350494},
+      'EURUSD=X': {'currency': 'USD', 'regularMarketPrice': 1.1057},
+    }
+    pricing, _ = yahoo(yahoo_quotes(quotes))
+    stats = await pricing.current_stats(['ISKUSD=X', 'EURUSD=X'])
+    self.assertEqual(stats['ISKUSD=X'].time, datetime(2026, 11, 10, 22, 41, 34, tzinfo=UTC))
+    self.assertIsNone(stats['EURUSD=X'].time)
+
+  async def test_converted_listing_keeps_its_own_time(self):
+    """A listing converted with an FX rate is stamped with the listing's quote time."""
+    quotes = {
+      '6525.T': {'currency': 'JPY', 'regularMarketPrice': 9331.0, 'regularMarketTime': 1794380400},
+      'JPYUSD=X': {'currency': 'USD', 'regularMarketPrice': 0.006347554, 'regularMarketTime': 1794390000},
+    }
+    pricing, _ = yahoo(yahoo_quotes(quotes))
+    stats = await pricing.current_stats(['6525.T'])
+    self.assertEqual(stats['6525.T'].time, datetime.fromtimestamp(1794380400, UTC))
 
 
 class YahooHistoricalPriceTest(unittest.IsolatedAsyncioTestCase):

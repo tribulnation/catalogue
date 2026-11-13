@@ -1,6 +1,6 @@
 """ISO 4217 external IDs: validation, forward-compatible loading and ECB reference rates."""
 
-from datetime import datetime
+from datetime import UTC, datetime
 from decimal import Decimal
 from pathlib import Path
 import io
@@ -122,6 +122,8 @@ class EcbPricingTest(unittest.IsolatedAsyncioTestCase):
     self.assertEqual(stats['EUR'].price, Decimal('1.1193'))
     self.assertEqual(stats['USD'].price, Decimal(1))
     self.assertEqual(stats['JPY'].price, Decimal('1.1193') / Decimal('175.51'))
+    # 14:15 Frankfurt on 2026-10-23 (CEST, UTC+2).
+    self.assertEqual(stats['JPY'].time, datetime(2026, 10, 23, 12, 15, tzinfo=UTC))
 
   async def test_current_eur(self):
     """EUR quotes invert the published rate."""

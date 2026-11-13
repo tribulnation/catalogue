@@ -66,6 +66,8 @@ class YhQuoteItem(YhModel):
   """Currency `regularMarketPrice` and `marketCap` are quoted in, possibly a minor unit."""
   regularMarketPrice: Decimal
   marketCap: int | None = None
+  regularMarketTime: int | None = None
+  """UNIX time of `regularMarketPrice`. Days old when a feed has stopped."""
 
 
 class YhQuoteResponse(YhModel):
@@ -109,6 +111,16 @@ class YhChartResult(YhModel):
 class YhChartResponse(YhModel):
   """Top-level chart endpoint response."""
   result: list[YhChartResult] = []
+
+
+def quote_time(item: YhQuoteItem) -> datetime | None:
+  """The time of a quote's `regularMarketPrice`, or `None` when Yahoo gave none."""
+  if item.regularMarketTime is None:
+    return None
+  try:
+    return datetime.fromtimestamp(item.regularMarketTime, UTC)
+  except (ValueError, OverflowError, OSError):
+    return None
 
 
 def split_currency(currency: str) -> tuple[str, int]:
@@ -277,6 +289,10 @@ class YahooPricing(Pricing):
     Listings quoted in another currency are converted with Yahoo's FX rate for
     that currency, fetched in one extra batch. Listings without a currency or
     without an available rate are omitted.
+
+    Each `Stats.time` is the listing's `regularMarketTime`: Yahoo keeps quoting a
+    pair whose feed has stopped (`ISKUSD=X` from 2026-11-10), so the caller can
+    tell a stale quote from a live one.
     """
     if not ids:
       return {}
@@ -303,6 +319,7 @@ class YahooPricing(Pricing):
       out[item.symbol] = Stats(
         price=price,
         market_cap=round(market_cap, 2) if market_cap is not None else None,
+        time=quote_time(item),
       )
     return out
 

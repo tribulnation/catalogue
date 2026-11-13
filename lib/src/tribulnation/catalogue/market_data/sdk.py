@@ -19,6 +19,13 @@ class Price:
 class Stats:
   price: Decimal | None = None
   market_cap: Decimal | None = None
+  time: datetime | None = None
+  """When `price` was quoted (timezone-aware, UTC), where the source says.
+
+  `None` when the source does not report it. A caller can tell a live quote
+  from a stale one with it: Yahoo keeps answering a pair whose feed stopped
+  with the last quote it had, days old.
+  """
 
 class Config(TypedDict, total=False):
   twelvedata_credits_per_minute: int
