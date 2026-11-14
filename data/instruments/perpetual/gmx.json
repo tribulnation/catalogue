@@ -119,6 +119,12 @@
     "quote": "usd",
     "settlement": "usd-coin"
   },
+  "BTC/USD": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd",
+    "settlement": "usd-coin"
+  },
   "CAKE/USD": {
     "exchange": "perp",
     "base": "pancakeswap",
@@ -194,6 +200,12 @@
   "ENA/USD": {
     "exchange": "perp",
     "base": "ethena",
+    "quote": "usd",
+    "settlement": "usd-coin"
+  },
+  "ETH/USD": {
+    "exchange": "perp",
+    "base": "ethereum",
     "quote": "usd",
     "settlement": "usd-coin"
   },
@@ -554,6 +566,12 @@
   "WTIOIL/USD": {
     "exchange": "perp",
     "base": "west-texas-intermediate",
+    "quote": "usd",
+    "settlement": "usd-coin"
+  },
+  "XAUT.v2/USD": {
+    "exchange": "perp",
+    "base": "tether-gold",
     "quote": "usd",
     "settlement": "usd-coin"
   },
