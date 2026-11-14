@@ -364,5 +364,10 @@
     "base": "nvidia-xstock",
     "quote": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/NVDAX/USDC"
+  },
+  "PAIR/USDC:1118": {
+    "exchange": "spot",
+    "base": "pear-protocol",
+    "quote": "usd-coin"
   }
 }
