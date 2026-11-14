@@ -374,6 +374,7 @@
   "PIP/USDC:85": {
     "exchange": "spot",
     "base": "pip-hyperliquid",
-    "quote": "usd-coin"
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/PIP/USDC"
   }
 }
