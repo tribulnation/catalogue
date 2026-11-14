@@ -358,5 +358,23 @@
     "base": "lisk",
     "quote": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/LSK/USDC"
+  },
+  "NVDAX/USDC:702": {
+    "exchange": "spot",
+    "base": "nvidia-xstock",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/NVDAX/USDC"
+  },
+  "PAIR/USDC:1118": {
+    "exchange": "spot",
+    "base": "pear-protocol",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/PAIR/USDC"
+  },
+  "PIP/USDC:85": {
+    "exchange": "spot",
+    "base": "pip-hyperliquid",
+    "quote": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/PIP/USDC"
   }
 }
