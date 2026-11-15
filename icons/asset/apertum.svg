@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
+  <rect width="56" height="56" fill="#001F37"/>
+  <g transform="translate(-11.01,-11.01) scale(1.3932)">
+  <path d="M32.25 22.9 30.58 19l-6.42 15h3.21l3.2-7.3 1.79 4.3h-3.39l1.6 3H37l-4.74-11.1Z" fill="#488BC3"/>
+    <path d="M27.08 22.9 25.4 19l-6.42 15h3.2l3.22-7.3 1.67-3.8Z" fill="url(#g1)"/>
+    <path d="M28 12a16 16 0 1 1 0 32 16 16 0 0 1 0-32Zm0 1.5a14.5 14.5 0 1 0 0 29 14.5 14.5 0 0 0 0-29Z" fill="url(#g2)"/>
+    <defs>
+      <linearGradient id="g1" x1="69.98" y1="55.08" x2="15.03" y2="21.2" gradientUnits="userSpaceOnUse">
+        <stop offset=".8" stop-color="#D3B879"/>
+        <stop offset=".84" stop-color="#F2DE9D"/>
+        <stop offset=".86" stop-color="#FFEDAB"/>
+        <stop offset=".9" stop-color="#EAD290"/>
+      </linearGradient>
+      <linearGradient id="g2" x1="38.82" y1="17.78" x2="14.11" y2="35.9" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FFECA7"/>
+        <stop offset=".32" stop-color="#CCA360"/>
+        <stop offset=".53" stop-color="#E1B870"/>
+        <stop offset="1" stop-color="#FFE9A5"/>
+      </linearGradient>
+    </defs>
+  </g>
+</svg>
