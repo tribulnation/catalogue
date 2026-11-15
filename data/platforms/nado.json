@@ -1,0 +1,14 @@
+{
+  "display_name": "Nado",
+  "kind": "dex",
+  "about": {
+    "en": "Nado is a central-limit order book DEX for spot, margin and perpetual futures trading with unified cross-margin across positions. It pairs an off-chain sequencer with an on-chain risk engine and settles trades in batches on Ink, the Ethereum Layer 2 deployed by Kraken. It is built by the team behind Kraken.",
+    "es": "Nado es un DEX con libro de \u00f3rdenes de l\u00edmite central (CLOB) para trading spot, con margen y de futuros perpetuos, con margen cruzado unificado entre posiciones. Combina un secuenciador off-chain con un motor de riesgo on-chain y liquida las operaciones por lotes en Ink, la capa 2 (Layer 2) de Ethereum desplegada por Kraken. Lo desarrolla el equipo detr\u00e1s de Kraken.",
+    "ca": "Nado \u00e9s un DEX amb llibre d'ordres de l\u00edmit central (CLOB) per a trading spot, amb marge i de futurs perpetus, amb marge creuat unificat entre posicions. Combina un seq\u00fcenciador off-chain amb un motor de risc on-chain i liquida les operacions per lots a Ink, la capa 2 (Layer 2) d'Ethereum desplegada per Kraken. El desenvolupa l'equip darrere de Kraken."
+  },
+  "urls": {
+    "Website": "https://www.nado.xyz/",
+    "Documentation": "https://docs.nado.xyz/"
+  },
+  "icon": "icons/platform/nado.svg"
+}
