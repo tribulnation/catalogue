@@ -1,0 +1,15 @@
+{
+  "id": "ornn-h100-compute-price-index",
+  "display_name": "Ornn H100 Compute Price Index",
+  "symbol": "OCPI-H100",
+  "tags": [
+    "Index"
+  ],
+  "about": {
+    "en": "The Ornn Compute Price Index for the NVIDIA H100 (OCPI-H100) is the hourly price of renting one H100 GPU, in USD per GPU-hour, published by Ornn AI from settled compute trades rather than advertised rates and updated hourly; ICE has announced GPU compute futures referenced to the OCPI series. OKX lists the H100-USDT-SWAP perpetual on it (its H100-USDT index weights Ornn's H100/USD at 50% and Lighter's H100 oracle at 45%). It is an index reference, not a token, chip or claim on compute, and a different benchmark from the Silicon Data H100 Rental Index (SDH100RT)."
+  },
+  "urls": {
+    "Website": "https://www.ornn.com",
+    "Documentation": "https://www.ornn.com/product/data"
+  }
+}
