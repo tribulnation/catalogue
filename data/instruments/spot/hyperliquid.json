@@ -376,5 +376,10 @@
     "base": "pip-hyperliquid",
     "quote": "usd-coin",
     "url": "https://app.hyperliquid.xyz/trade/PIP/USDC"
+  },
+  "SL/USDC:1154": {
+    "exchange": "spot",
+    "base": "saseul",
+    "quote": "usd-coin"
   }
 }
