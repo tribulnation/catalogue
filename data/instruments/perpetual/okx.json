@@ -1308,6 +1308,13 @@
     "settlement": "tether",
     "url": "https://www.okx.com/trade-swap/h-usdt-swap"
   },
+  "H100-USDT-SWAP": {
+    "exchange": "perp",
+    "base": "ornn-h100-compute-price-index",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://www.okx.com/trade-swap/h100-usdt-swap"
+  },
   "HBAR-USDT-SWAP": {
     "exchange": "perp",
     "base": "hedera",
