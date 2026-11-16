@@ -1,0 +1,18 @@
+{
+  "id": "ripio-wbrl",
+  "display_name": "wBRL (Ripio Brazilian Real Stablecoin)",
+  "symbol": "WBRL",
+  "category": "stablecoin",
+  "about": {
+    "en": "wBRL is a fiat-backed stablecoin pegged 1:1 to the Brazilian real (BRL), issued by a subsidiary of the Latin American crypto company Ripio. It is deployed on Ethereum, Base, BNB Chain, Polygon, Celo, Gnosis, World Chain, HyperEVM and other networks."
+  },
+  "pegged_to": {
+    "asset": "brazilian-real"
+  },
+  "urls": {
+    "Website": "https://ripio.com/es/criptos/stablecoins-locales"
+  },
+  "external": {
+    "coingecko": "brazilian-real"
+  }
+}
