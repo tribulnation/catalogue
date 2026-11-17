@@ -1,0 +1,20 @@
+{
+  "id": "kraken-wrapped-hype",
+  "display_name": "Kraken Wrapped HYPE",
+  "symbol": "kHYPE",
+  "category": "crypto",
+  "about": {
+    "en": "Kraken Wrapped HYPE (kHYPE) is a wrapped HYPE token issued by Kraken on Ink. Each kHYPE is backed by an equal amount of HYPE held in Kraken's segregated asset reserves, and Kraken account holders exchange HYPE for kHYPE at a 1:1 rate. It brings Hyperliquid's HYPE to Ink; it is a Kraken custodial claim, distinct from HYPE itself and from Kinetiq's staked kHYPE on Hyperliquid, which shares its ticker.",
+    "es": "Kraken Wrapped HYPE (kHYPE) es un token de HYPE envuelto emitido por Kraken en Ink. Cada kHYPE est\u00e1 respaldado por una cantidad equivalente de HYPE depositada en las reservas segregadas de Kraken, y los titulares de una cuenta de Kraken intercambian HYPE por kHYPE a una tasa 1:1. Lleva el HYPE de Hyperliquid a Ink; es un derecho custodiado por Kraken, distinto del propio HYPE y del kHYPE en staking de Kinetiq en Hyperliquid, que comparte su ticker.",
+    "ca": "Kraken Wrapped HYPE (kHYPE) \u00e9s un token d'HYPE embolcallat em\u00e8s per Kraken a Ink. Cada kHYPE est\u00e0 recolzat per una quantitat equivalent d'HYPE dipositada a les reserves segregades de Kraken, i els titulars d'un compte de Kraken intercanvien HYPE per kHYPE a una taxa 1:1. Porta l'HYPE de Hyperliquid a Ink; \u00e9s un dret custodiat per Kraken, diferent del mateix HYPE i del kHYPE en staking de Kinetiq a Hyperliquid, que comparteix el seu ticker."
+  },
+  "external": {
+    "coingecko": "kraken-wrapped-hype"
+  },
+  "pegged_to": {
+    "asset": "hyperliquid"
+  },
+  "urls": {
+    "Website": "https://www.kraken.com/khype"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "wrapped-tesla-xstock",
+  "display_name": "Wrapped Tesla xStock",
+  "symbol": "wTSLAx",
+  "category": "rwa",
+  "about": {
+    "en": "Wrapped Tesla xStock (wTSLAx) is an ERC-4626 vault share over Tesla xStock (TSLAx), the tokenized security issued by Backed under the xStocks brand. Its balance stays fixed while its redemption rate against the underlying xStock changes, so one wTSLAx redeems for a slowly changing amount of TSLAx rather than exactly one. It is deployed at the same address on X Layer, Ink and other networks, and is the form Nado lists on Ink.",
+    "es": "Wrapped Tesla xStock (wTSLAx) es una participaci\u00f3n de b\u00f3veda ERC-4626 sobre Tesla xStock (TSLAx), el valor tokenizado emitido por Backed bajo la marca xStocks. Su saldo se mantiene fijo mientras cambia su tasa de canje frente al xStock subyacente, de modo que un wTSLAx se canjea por una cantidad de TSLAx que var\u00eda lentamente en lugar de exactamente uno. Est\u00e1 desplegado en la misma direcci\u00f3n en X Layer, Ink y otras redes, y es la forma que Nado lista en Ink.",
+    "ca": "Wrapped Tesla xStock (wTSLAx) \u00e9s una participaci\u00f3 de caixa forta ERC-4626 sobre Tesla xStock (TSLAx), el valor tokenitzat em\u00e8s per Backed sota la marca xStocks. El seu saldo es mant\u00e9 fix mentre canvia la seva taxa de bescanvi davant l'xStock subjacent, de manera que un wTSLAx es bescanvia per una quantitat de TSLAx que varia lentament en lloc d'exactament un. Est\u00e0 desplegat a la mateixa adre\u00e7a a X Layer, Ink i altres xarxes, i \u00e9s la forma que Nado llista a Ink."
+  },
+  "external": {
+    "coingecko": "wrapped-tesla-xstock",
+    "coinmarketcap": "37227"
+  },
+  "pegged_to": {
+    "asset": "tesla-xstock"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "icon": "icons/asset/tesla-xstock.svg",
+  "urls": {
+    "Website": "https://xstocks.com/"
+  }
+}

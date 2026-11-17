@@ -1,0 +1,21 @@
+{
+  "id": "kraken-wrapped-bitcoin",
+  "display_name": "Kraken Wrapped Bitcoin",
+  "symbol": "kBTC",
+  "category": "crypto",
+  "about": {
+    "en": "Kraken Wrapped Bitcoin (kBTC) is a wrapped bitcoin token issued by Kraken. Each kBTC is backed by an equal amount of bitcoin held in Kraken's segregated asset reserves, and Kraken exchanges BTC and kBTC at a 1:1 rate. It is deployed on Ink, Unichain, Ethereum and OP Mainnet so that bitcoin can be used in on-chain applications; holders rely on Kraken as custodian, which makes it a different asset from bitcoin itself.",
+    "es": "Kraken Wrapped Bitcoin (kBTC) es un token de bitcoin envuelto emitido por Kraken. Cada kBTC est\u00e1 respaldado por una cantidad equivalente de bitcoin depositada en las reservas segregadas de Kraken, y Kraken intercambia BTC y kBTC a una tasa 1:1. Est\u00e1 desplegado en Ink, Unichain, Ethereum y OP Mainnet para que el bitcoin pueda usarse en aplicaciones on-chain; sus titulares dependen de Kraken como custodio, lo que lo convierte en un activo distinto del propio bitcoin.",
+    "ca": "Kraken Wrapped Bitcoin (kBTC) \u00e9s un token de bitcoin embolcallat em\u00e8s per Kraken. Cada kBTC est\u00e0 recolzat per una quantitat equivalent de bitcoin dipositada a les reserves segregades de Kraken, i Kraken intercanvia BTC i kBTC a una taxa 1:1. Est\u00e0 desplegat a Ink, Unichain, Ethereum i OP Mainnet perqu\u00e8 el bitcoin es pugui fer servir en aplicacions on-chain; els seus titulars depenen de Kraken com a custodi, cosa que el converteix en un actiu diferent del mateix bitcoin."
+  },
+  "external": {
+    "coingecko": "kraken-wrapped-btc",
+    "coinmarketcap": "33513"
+  },
+  "pegged_to": {
+    "asset": "bitcoin"
+  },
+  "urls": {
+    "Website": "https://www.kraken.com/kbtc"
+  }
+}

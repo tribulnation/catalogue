@@ -1,0 +1,25 @@
+{
+  "id": "wrapped-sp500-xstock",
+  "display_name": "Wrapped SP500 xStock",
+  "symbol": "wSPYx",
+  "category": "rwa",
+  "about": {
+    "en": "Wrapped SP500 xStock (wSPYx) is an ERC-4626 vault share over SP500 xStock (SPYx), the tokenized security issued by Backed under the xStocks brand. Its balance stays fixed while its redemption rate against the underlying xStock changes, so one wSPYx redeems for a slowly changing amount of SPYx rather than exactly one. It is deployed at the same address on X Layer, Ink and other networks, and is the form Nado lists on Ink.",
+    "es": "Wrapped SP500 xStock (wSPYx) es una participaci\u00f3n de b\u00f3veda ERC-4626 sobre SP500 xStock (SPYx), el valor tokenizado emitido por Backed bajo la marca xStocks. Su saldo se mantiene fijo mientras cambia su tasa de canje frente al xStock subyacente, de modo que un wSPYx se canjea por una cantidad de SPYx que var\u00eda lentamente en lugar de exactamente uno. Est\u00e1 desplegado en la misma direcci\u00f3n en X Layer, Ink y otras redes, y es la forma que Nado lista en Ink.",
+    "ca": "Wrapped SP500 xStock (wSPYx) \u00e9s una participaci\u00f3 de caixa forta ERC-4626 sobre SP500 xStock (SPYx), el valor tokenitzat em\u00e8s per Backed sota la marca xStocks. El seu saldo es mant\u00e9 fix mentre canvia la seva taxa de bescanvi davant l'xStock subjacent, de manera que un wSPYx es bescanvia per una quantitat de SPYx que varia lentament en lloc d'exactament un. Est\u00e0 desplegat a la mateixa adre\u00e7a a X Layer, Ink i altres xarxes, i \u00e9s la forma que Nado llista a Ink."
+  },
+  "external": {
+    "coingecko": "wrapped-sp500-xstock",
+    "coinmarketcap": "41525"
+  },
+  "pegged_to": {
+    "asset": "sp500-xstock"
+  },
+  "tags": [
+    "ETF"
+  ],
+  "icon": "icons/asset/sp500-xstock.svg",
+  "urls": {
+    "Website": "https://xstocks.com/"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "wrapped-apple-xstock",
+  "display_name": "Wrapped Apple xStock",
+  "symbol": "wAAPLx",
+  "category": "rwa",
+  "about": {
+    "en": "Wrapped Apple xStock (wAAPLx) is an ERC-4626 vault share over Apple xStock (AAPLx), the tokenized security issued by Backed under the xStocks brand. Its balance stays fixed while its redemption rate against the underlying xStock changes, so one wAAPLx redeems for a slowly changing amount of AAPLx rather than exactly one. It is deployed at the same address on X Layer, Ink and other networks, and is the form Nado lists on Ink.",
+    "es": "Wrapped Apple xStock (wAAPLx) es una participaci\u00f3n de b\u00f3veda ERC-4626 sobre Apple xStock (AAPLx), el valor tokenizado emitido por Backed bajo la marca xStocks. Su saldo se mantiene fijo mientras cambia su tasa de canje frente al xStock subyacente, de modo que un wAAPLx se canjea por una cantidad de AAPLx que var\u00eda lentamente en lugar de exactamente uno. Est\u00e1 desplegado en la misma direcci\u00f3n en X Layer, Ink y otras redes, y es la forma que Nado lista en Ink.",
+    "ca": "Wrapped Apple xStock (wAAPLx) \u00e9s una participaci\u00f3 de caixa forta ERC-4626 sobre Apple xStock (AAPLx), el valor tokenitzat em\u00e8s per Backed sota la marca xStocks. El seu saldo es mant\u00e9 fix mentre canvia la seva taxa de bescanvi davant l'xStock subjacent, de manera que un wAAPLx es bescanvia per una quantitat de AAPLx que varia lentament en lloc d'exactament un. Est\u00e0 desplegat a la mateixa adre\u00e7a a X Layer, Ink i altres xarxes, i \u00e9s la forma que Nado llista a Ink."
+  },
+  "external": {
+    "coingecko": "wrapped-apple-xstock",
+    "coinmarketcap": "37269"
+  },
+  "pegged_to": {
+    "asset": "apple-xstock"
+  },
+  "tags": [
+    "Stock"
+  ],
+  "icon": "icons/asset/apple-xstock.svg",
+  "urls": {
+    "Website": "https://xstocks.com/"
+  }
+}

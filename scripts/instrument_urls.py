@@ -205,6 +205,15 @@ def pionex_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> s
   return f'https://www.pionex.com/en/futures/{base}.PERP_{quote}/Manual'
 
 
+def nado_spot_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
+  """The app selects a spot market by its `<token>/USDT0` name, case-insensitively.
+
+  Wrapped xStocks (`wAAPLx`) are listed under the xStock's own symbol (`AAPLx`).
+  """
+  token = id[1:] if id.startswith('w') and id.endswith('x') else id
+  return f'https://app.nado.xyz/spot?market={token}%2FUSDT0'
+
+
 Rule = Callable[[str, Instrument, Symbols], str | None]
 
 SPOT_RULES: dict[str, Rule] = {
@@ -241,6 +250,7 @@ SPOT_RULES: dict[str, Rule] = {
   ),
   'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: 'https://www.mexc.com/exchange/{}_{}'.format(*sym.split('mexc', id, inst)),
+  'nado': nado_spot_url,
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-spot/{id.lower()}',
   'pionex': lambda id, inst, sym: f'https://www.pionex.com/en/trade/{id}/Bot',
   'phemex': lambda id, inst, sym: f'https://phemex.com/spot/trade/{id.removeprefix("s")}',
@@ -291,6 +301,7 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'lighter': lighter_perpetual_url,
   'margin-trade': margin_trade_url,
   'mexc': lambda id, inst, sym: f'https://www.mexc.com/futures/{id}',
+  'nado': lambda id, inst, sym: 'https://app.nado.xyz/perpetuals?market=' + id.removesuffix('-PERP'),
   'okx': lambda id, inst, sym: f'https://www.okx.com/trade-swap/{id.lower()}',
   'paradex': lambda id, inst, sym: f'https://app.paradex.trade/trade/{id}',
   'variational': lambda id, inst, sym: 'https://omni.variational.io/perpetual/' + id.removesuffix('-PERP'),
