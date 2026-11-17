@@ -140,6 +140,25 @@ def lighter_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> 
   return f'https://app.lighter.xyz/trade/{prefix}{symbol}'
 
 
+# RISEx names a few markets differently from the asset's own symbol.
+_RISEX_SYMBOLS = {
+  'west-texas-intermediate': 'CL',
+  'brent': 'BZ',
+  'sk-hynix': 'SKHYNIX',
+}
+
+
+def risex_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
+  """`/trade/<SYMBOL>`: the app's product id is the market name without its `/USDC`
+  quote (`BTC/USDC` is `BTC`, `1000PEPE/USDC` is `1000PEPE`), never the numeric
+  market ID the instrument is keyed by."""
+  asset = str(instrument['base'])
+  symbol = _RISEX_SYMBOLS.get(asset, str(symbols.assets[asset]['symbol']))
+  multiplier = instrument.get('multiplier')
+  prefix = str(multiplier) if multiplier is not None else ''
+  return f'https://www.rise.trade/trade/{prefix}{symbol}'
+
+
 def margin_trade_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
   """`/trade/<market>`, the pair's `/` spelled `-` (`PEARL/USDC` -> `PEARL-USDC`)."""
   return f'https://margin.trade/trade/{id.replace("/", "-")}'
@@ -306,6 +325,7 @@ PERPETUAL_RULES: dict[str, Rule] = {
   'paradex': lambda id, inst, sym: f'https://app.paradex.trade/trade/{id}',
   'variational': lambda id, inst, sym: 'https://omni.variational.io/perpetual/' + id.removesuffix('-PERP'),
   'phemex': lambda id, inst, sym: f'https://phemex.com/futures/trade/{id}',
+  'risex': risex_perpetual_url,
   'whitebit': lambda id, inst, sym: f'https://whitebit.com/trade/{id}',
   'woox': woox_perpetual_url,
   'bitunix': lambda id, inst, sym: f'https://www.bitunix.com/contract-trade/{id}',

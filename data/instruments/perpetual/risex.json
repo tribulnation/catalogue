@@ -1,0 +1,402 @@
+{
+  "1": {
+    "exchange": "perp",
+    "base": "bitcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/BTC"
+  },
+  "2": {
+    "exchange": "perp",
+    "base": "ethereum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/ETH"
+  },
+  "3": {
+    "exchange": "perp",
+    "base": "bnb",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/BNB"
+  },
+  "4": {
+    "exchange": "perp",
+    "base": "solana",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/SOL"
+  },
+  "5": {
+    "exchange": "perp",
+    "base": "hyperliquid",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/HYPE"
+  },
+  "6": {
+    "exchange": "perp",
+    "base": "xrp",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/XRP"
+  },
+  "7": {
+    "exchange": "perp",
+    "base": "bittensor",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/TAO"
+  },
+  "8": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/ZEC"
+  },
+  "9": {
+    "exchange": "perp",
+    "base": "ondo",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/ONDO"
+  },
+  "10": {
+    "exchange": "perp",
+    "base": "near",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/NEAR"
+  },
+  "11": {
+    "exchange": "perp",
+    "base": "venice-token",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/VVV"
+  },
+  "12": {
+    "exchange": "perp",
+    "base": "lighter",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/LIT"
+  },
+  "13": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "delisted": true
+  },
+  "14": {
+    "exchange": "perp",
+    "base": "dogecoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/DOGE"
+  },
+  "15": {
+    "exchange": "perp",
+    "base": "aerodrome",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/AERO"
+  },
+  "16": {
+    "exchange": "perp",
+    "base": "aave",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/AAVE"
+  },
+  "17": {
+    "exchange": "perp",
+    "base": "gold",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/XAU"
+  },
+  "18": {
+    "exchange": "perp",
+    "base": "silver",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/XAG"
+  },
+  "19": {
+    "exchange": "perp",
+    "base": "west-texas-intermediate",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/CL"
+  },
+  "20": {
+    "exchange": "perp",
+    "base": "brent",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/BZ"
+  },
+  "21": {
+    "exchange": "perp",
+    "base": "sandisk",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/SNDK"
+  },
+  "22": {
+    "exchange": "perp",
+    "base": "spacex",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/SPCX"
+  },
+  "23": {
+    "exchange": "perp",
+    "base": "pump",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/PUMP"
+  },
+  "24": {
+    "exchange": "perp",
+    "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/DRAM"
+  },
+  "25": {
+    "exchange": "perp",
+    "base": "micron-technology",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/MU"
+  },
+  "26": {
+    "exchange": "perp",
+    "base": "invesco-qqq",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/QQQ"
+  },
+  "27": {
+    "exchange": "perp",
+    "base": "spdr-sp500-etf-trust",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/SPY"
+  },
+  "28": {
+    "exchange": "perp",
+    "base": "intel",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/INTC"
+  },
+  "29": {
+    "exchange": "perp",
+    "base": "microstrategy",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/MSTR"
+  },
+  "30": {
+    "exchange": "perp",
+    "base": "direxion-daily-msci-south-korea-bull-3x",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/KORU"
+  },
+  "31": {
+    "exchange": "perp",
+    "base": "circle-internet-group",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/CRCL"
+  },
+  "32": {
+    "exchange": "perp",
+    "base": "tesla",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/TSLA"
+  },
+  "33": {
+    "exchange": "perp",
+    "base": "arbitrum",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/ARB"
+  },
+  "34": {
+    "exchange": "perp",
+    "base": "robinhood-markets",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/HOOD"
+  },
+  "35": {
+    "exchange": "perp",
+    "base": "sk-hynix",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/SKHYNIX"
+  },
+  "36": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/NVDA"
+  },
+  "37": {
+    "exchange": "perp",
+    "base": "meta-platforms",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/META"
+  },
+  "38": {
+    "exchange": "perp",
+    "base": "ethena",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/ENA"
+  },
+  "39": {
+    "exchange": "perp",
+    "base": "direxion-daily-semiconductor-bull-3x",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/SOXL"
+  },
+  "40": {
+    "exchange": "perp",
+    "base": "monad",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/MON"
+  },
+  "41": {
+    "exchange": "perp",
+    "base": "worldcoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/WLD"
+  },
+  "42": {
+    "exchange": "perp",
+    "base": "alphabet",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/GOOGL"
+  },
+  "43": {
+    "exchange": "perp",
+    "base": "starknet",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/STRK"
+  },
+  "44": {
+    "exchange": "perp",
+    "base": "layer-zero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/ZRO"
+  },
+  "45": {
+    "exchange": "perp",
+    "base": "coreweave",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/CRWV"
+  },
+  "46": {
+    "exchange": "perp",
+    "base": "monero",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/XMR"
+  },
+  "47": {
+    "exchange": "perp",
+    "base": "ishares-msci-brazil-etf",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/EWZ"
+  },
+  "48": {
+    "exchange": "perp",
+    "base": "eli-lilly",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/LLY"
+  },
+  "49": {
+    "exchange": "perp",
+    "base": "usd-ai",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/CHIP"
+  },
+  "50": {
+    "exchange": "perp",
+    "base": "qualcomm",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/QCOM"
+  },
+  "51": {
+    "exchange": "perp",
+    "base": "arm-holdings-adr",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/ARM"
+  },
+  "52": {
+    "exchange": "perp",
+    "base": "take-two-interactive",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/TTWO"
+  },
+  "53": {
+    "exchange": "perp",
+    "base": "hims-and-hers-health",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/HIMS"
+  },
+  "54": {
+    "exchange": "perp",
+    "base": "pepe",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "multiplier": 1000,
+    "url": "https://www.rise.trade/trade/1000PEPE"
+  },
+  "55": {
+    "exchange": "perp",
+    "base": "advanced-micro-devices",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/AMD"
+  },
+  "56": {
+    "exchange": "perp",
+    "base": "amazon",
+    "quote": "tether",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/AMZN"
+  },
+  "57": {
+    "exchange": "perp",
+    "base": "ether-fi",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://www.rise.trade/trade/ETHFI"
+  }
+}
