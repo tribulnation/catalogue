@@ -225,5 +225,29 @@ class LighterUrlsTest(unittest.TestCase):
     self.assertEqual(changed, {})
 
 
+class RisexUrlsTest(unittest.TestCase):
+  """RISEx pages name a market by its product id, the market name without `/USDC`."""
+
+  def setUp(self):
+    self.symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+
+  def test_product_id_from_base(self):
+    """The numeric market ID never reaches the URL; venue-specific symbols and the
+    contract multiplier's prefix do."""
+    cases = [
+      ({'base': 'bitcoin', 'quote': 'usd-coin'}, 'BTC'),
+      ({'base': 'pepe', 'quote': 'usd-coin', 'multiplier': 1000}, '1000PEPE'),
+      ({'base': 'west-texas-intermediate', 'quote': 'tether'}, 'CL'),
+      ({'base': 'brent', 'quote': 'tether'}, 'BZ'),
+      ({'base': 'sk-hynix', 'quote': 'tether'}, 'SKHYNIX'),
+      ({'base': 'gold', 'quote': 'tether'}, 'XAU'),
+    ]
+    for instrument, page in cases:
+      with self.subTest(page=page):
+        self.assertEqual(
+          PERPETUAL_RULES['risex']('1', {'settlement': 'usd-coin', **instrument}, self.symbols),
+          f'https://www.rise.trade/trade/{page}',
+        )
+
 if __name__ == '__main__':
   unittest.main()
