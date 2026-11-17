@@ -1,0 +1,19 @@
+{
+  "display_name": "RISE Chain",
+  "kind": "blockchain",
+  "about": {
+    "en": "RISE Chain is a high-performance Ethereum layer-two network built for on-chain trading, with a parallel EVM execution engine, millisecond-latency transaction confirmations and order books as a native primitive. It uses ETH as its gas token and settles to Ethereum; the RISEx perpetuals exchange runs on it.",
+    "es": "RISE Chain es una red de capa 2 (Layer 2) de Ethereum de alto rendimiento diseñada para el trading on-chain (on-chain), con un motor de ejecución EVM en paralelo, confirmaciones de transacciones con latencia de milisegundos y libros de órdenes como primitiva nativa. Usa ETH como token de gas y liquida en Ethereum; sobre ella funciona el exchange de perpetuos RISEx.",
+    "ca": "RISE Chain és una xarxa de capa 2 (Layer 2) d'Ethereum d'alt rendiment dissenyada per al trading on-chain (on-chain), amb un motor d'execució EVM en paral·lel, confirmacions de transaccions amb latència de mil·lisegons i llibres d'ordres com a primitiva nativa. Fa servir ETH com a token de gas i liquida a Ethereum; s'hi executa l'exchange de perpetus RISEx."
+  },
+  "urls": {
+    "Website": "https://risechain.com/",
+    "Documentation": "https://docs.risechain.com/",
+    "Explorer": "https://explorer.risechain.com/"
+  },
+  "icon": "icons/platform/rise-chain.svg",
+  "native_asset": "ethereum",
+  "category": "evm",
+  "namespace": "eip155",
+  "chain_id": 4153
+}
