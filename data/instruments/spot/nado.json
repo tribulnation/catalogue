@@ -1,0 +1,86 @@
+{
+  "KBTC": {
+    "exchange": "spot",
+    "base": "kraken-wrapped-bitcoin",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=KBTC%2FUSDT0"
+  },
+  "USDC": {
+    "exchange": "spot",
+    "base": "usd-coin",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=USDC%2FUSDT0"
+  },
+  "WETH": {
+    "exchange": "spot",
+    "base": "wrapped-ether",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=WETH%2FUSDT0"
+  },
+  "XAUT0": {
+    "exchange": "spot",
+    "base": "tether-gold",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=XAUT0%2FUSDT0"
+  },
+  "kHYPE": {
+    "exchange": "spot",
+    "base": "kraken-wrapped-hype",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=kHYPE%2FUSDT0"
+  },
+  "wAAPLx": {
+    "exchange": "spot",
+    "base": "wrapped-apple-xstock",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=AAPLx%2FUSDT0"
+  },
+  "wAMZNx": {
+    "exchange": "spot",
+    "base": "wrapped-amazon-xstock",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=AMZNx%2FUSDT0"
+  },
+  "wGOOGLx": {
+    "exchange": "spot",
+    "base": "wrapped-alphabet-xstock",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=GOOGLx%2FUSDT0"
+  },
+  "wMETAx": {
+    "exchange": "spot",
+    "base": "wrapped-meta-xstock",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=METAx%2FUSDT0"
+  },
+  "wMSFTx": {
+    "exchange": "spot",
+    "base": "wrapped-microsoft-xstock",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=MSFTx%2FUSDT0"
+  },
+  "wNVDAx": {
+    "exchange": "spot",
+    "base": "wrapped-nvidia-xstock",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=NVDAx%2FUSDT0"
+  },
+  "wQQQx": {
+    "exchange": "spot",
+    "base": "wrapped-nasdaq-xstock",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=QQQx%2FUSDT0"
+  },
+  "wSPYx": {
+    "exchange": "spot",
+    "base": "wrapped-sp500-xstock",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=SPYx%2FUSDT0"
+  },
+  "wTSLAx": {
+    "exchange": "spot",
+    "base": "wrapped-tesla-xstock",
+    "quote": "tether",
+    "url": "https://app.nado.xyz/spot?market=TSLAx%2FUSDT0"
+  }
+}

@@ -94,6 +94,30 @@ class GrvtUrlsTest(unittest.TestCase):
         )
 
 
+class NadoUrlsTest(unittest.TestCase):
+  """The app picks a market from `?market=<name>`, matched case-insensitively."""
+
+  def test_perpetual_name_drops_suffix(self):
+    """Perpetuals are named by base symbol: `BTC-PERP` is `BTC`, `kPEPE-PERP` is `kPEPE`."""
+    symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+    for id, name in (('BTC-PERP', 'BTC'), ('kPEPE-PERP', 'kPEPE'), ('USDJPY-PERP', 'USDJPY')):
+      with self.subTest(id=id):
+        self.assertEqual(
+          PERPETUAL_RULES['nado'](id, {}, symbols),
+          f'https://app.nado.xyz/perpetuals?market={name}',
+        )
+
+  def test_spot_name_is_token_over_usdt0(self):
+    """Spot markets are `<token>/USDT0`; wrapped xStocks use the xStock's symbol."""
+    symbols = Symbols(Path(__file__).resolve().parents[1] / 'data')
+    for id, token in (('KBTC', 'KBTC'), ('kHYPE', 'kHYPE'), ('wAAPLx', 'AAPLx'), ('WETH', 'WETH')):
+      with self.subTest(id=id):
+        self.assertEqual(
+          SPOT_RULES['nado'](id, {}, symbols),
+          f'https://app.nado.xyz/spot?market={token}%2FUSDT0',
+        )
+
+
 class MarginTradeUrlsTest(unittest.TestCase):
   """Pairs use the app's `-` slug."""
 
