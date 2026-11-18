@@ -3346,5 +3346,11 @@
     "quote": "tether",
     "settlement": "usd-coin",
     "delisted": true
+  },
+  "io:INTC": {
+    "base": "intel",
+    "exchange": "io",
+    "quote": "tether",
+    "settlement": "usd-coin"
   }
 }
