@@ -60,6 +60,12 @@ _LIGHTER_SYMBOLS = {
   'story': 'DATA',
 }
 
+# A Lighter market whose page symbol differs from the one its base asset gives, by
+# market ID: two markets on one asset (pre-IPO ANTHROPIC and the listed ANT share).
+_LIGHTER_MARKET_SYMBOLS = {
+  '10902': 'ANT',
+}
+
 
 class Symbols:
   """Platform-native asset symbols, used to split concatenated instrument IDs."""
@@ -131,8 +137,9 @@ def _lighter_symbol(asset: str, symbols: Symbols) -> str:
 def lighter_perpetual_url(id: str, instrument: Instrument, symbols: Symbols) -> str:
   """`/trade/<SYMBOL>`, with a contract multiplier's prefix (`1000PEPE`). A market
   quoted in a foreign currency names both legs (`USDJPY`); a dollar quote, whichever
-  dollar asset it is, names the base leg alone (`ETH`, `NVDA`)."""
-  symbol = _lighter_symbol(str(instrument['base']), symbols)
+  dollar asset it is, names the base leg alone (`ETH`, `NVDA`). A market listed in
+  `_LIGHTER_MARKET_SYMBOLS` takes the symbol given there for its base leg."""
+  symbol = _LIGHTER_MARKET_SYMBOLS.get(id) or _lighter_symbol(str(instrument['base']), symbols)
   if instrument.get('quote') not in _LIGHTER_USD_QUOTES:
     symbol += _lighter_symbol(str(instrument['quote']), symbols)
   multiplier = instrument.get('multiplier')

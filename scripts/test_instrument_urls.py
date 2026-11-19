@@ -237,6 +237,13 @@ class LighterUrlsTest(unittest.TestCase):
           f'https://app.lighter.xyz/trade/{page}',
         )
 
+  def test_market_symbols_override_the_asset_symbol(self):
+    """Two markets on one asset: the listed ANT share (10902) next to pre-IPO ANTHROPIC (193)."""
+    rule = PERPETUAL_RULES['lighter']
+    instrument = {'base': 'anthropic', 'quote': 'usd', 'settlement': 'usd-coin'}
+    self.assertEqual(rule('10902', instrument, self.symbols), 'https://app.lighter.xyz/trade/ANT')
+    self.assertEqual(rule('193', instrument, self.symbols), 'https://app.lighter.xyz/trade/ANTHROPIC')
+
   def test_committed_urls_match_the_rule(self):
     """Regenerating with --overwrite must leave every committed Lighter URL unchanged."""
     file = Path(__file__).resolve().parents[1] / 'data' / 'instruments' / 'perpetual' / 'lighter.json'
