@@ -18,7 +18,7 @@
     "base": "cardano",
     "quote": "usd",
     "settlement": "tether",
-    "url": "https://app.nado.xyz/perpetuals?market=ADA"
+    "delisted": true
   },
   "AMD-PERP": {
     "exchange": "perp",
@@ -39,7 +39,7 @@
     "base": "the-black-bull",
     "quote": "usd",
     "settlement": "tether",
-    "url": "https://app.nado.xyz/perpetuals?market=ANSEM"
+    "delisted": true
   },
   "ANTHROPIC-PERP": {
     "exchange": "perp",
@@ -81,7 +81,7 @@
     "base": "axie-infinity",
     "quote": "usd",
     "settlement": "tether",
-    "url": "https://app.nado.xyz/perpetuals?market=AXS"
+    "delisted": true
   },
   "BBX-PERP": {
     "exchange": "perp",
@@ -102,7 +102,7 @@
     "base": "berachain",
     "quote": "usd",
     "settlement": "tether",
-    "url": "https://app.nado.xyz/perpetuals?market=BERA"
+    "delisted": true
   },
   "BNB-PERP": {
     "exchange": "perp",
@@ -389,7 +389,7 @@
     "base": "seeker",
     "quote": "usd",
     "settlement": "tether",
-    "url": "https://app.nado.xyz/perpetuals?market=SKR"
+    "delisted": true
   },
   "SKY-PERP": {
     "exchange": "perp",
@@ -481,7 +481,7 @@
     "base": "virtuals-protocol",
     "quote": "usd",
     "settlement": "tether",
-    "url": "https://app.nado.xyz/perpetuals?market=VIRTUAL"
+    "delisted": true
   },
   "VVV-PERP": {
     "exchange": "perp",

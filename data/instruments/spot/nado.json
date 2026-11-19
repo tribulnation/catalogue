@@ -39,7 +39,7 @@
     "exchange": "spot",
     "base": "wrapped-amazon-xstock",
     "quote": "tether",
-    "url": "https://app.nado.xyz/spot?market=AMZNx%2FUSDT0"
+    "delisted": true
   },
   "wGOOGLx": {
     "exchange": "spot",
@@ -57,7 +57,7 @@
     "exchange": "spot",
     "base": "wrapped-microsoft-xstock",
     "quote": "tether",
-    "url": "https://app.nado.xyz/spot?market=MSFTx%2FUSDT0"
+    "delisted": true
   },
   "wNVDAx": {
     "exchange": "spot",
