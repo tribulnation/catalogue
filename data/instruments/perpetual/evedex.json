@@ -134,6 +134,13 @@
     "settlement": "tether",
     "url": "https://exchange.evedex.com/en/trade/DOTUSD"
   },
+  "DXYUSD": {
+    "exchange": "perp",
+    "base": "us-dollar-index",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/DXYUSD"
+  },
   "ENAUSD": {
     "exchange": "perp",
     "base": "ethena",
