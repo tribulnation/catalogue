@@ -1,0 +1,17 @@
+{
+  "id": "us-dollar-index",
+  "display_name": "U.S. Dollar Index",
+  "symbol": "DXY",
+  "tags": [
+    "Index"
+  ],
+  "about": {
+    "en": "The U.S. Dollar Index (DXY, also USDX) measures the US dollar against a weighted basket of six currencies (euro, Japanese yen, British pound, Canadian dollar, Swedish krona and Swiss franc), published by ICE. Crypto venues list perpetuals on it under tickers such as DXY. It is an index reference, not a token, fund share or redeemable basket; funds tracking it, such as the Invesco DB US Dollar Index Bullish Fund (UUP), are separate assets."
+  },
+  "urls": {
+    "Futures contract": "https://www.ice.com/products/194/US-Dollar-Index-Futures"
+  },
+  "external": {
+    "yahoo": "DX-Y.NYB"
+  }
+}
