@@ -3337,13 +3337,15 @@
     "exchange": "xyz",
     "base": "palo-alto-networks",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/xyz:PANW"
   },
   "io:META": {
     "exchange": "io",
     "base": "meta-platforms",
     "quote": "tether",
-    "settlement": "usd-coin"
+    "settlement": "usd-coin",
+    "url": "https://app.hyperliquid.xyz/trade/io:META"
   },
   "io:INTC": {
     "base": "intel",
