@@ -169,6 +169,13 @@
     "settlement": "tether",
     "url": "https://exchange.evedex.com/en/trade/GBPUSD"
   },
+  "GRAMUSD": {
+    "exchange": "perp",
+    "base": "toncoin",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/GRAMUSD"
+  },
   "HYPEUSD": {
     "exchange": "perp",
     "base": "hyperliquid",
@@ -204,12 +211,33 @@
     "settlement": "tether",
     "url": "https://exchange.evedex.com/en/trade/MYXUSD"
   },
+  "NAS100USD": {
+    "exchange": "perp",
+    "base": "nasdaq-100-index",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/NAS100USD"
+  },
+  "NATGASUSD": {
+    "exchange": "perp",
+    "base": "natural-gas",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/NATGASUSD"
+  },
   "NEARUSD": {
     "exchange": "perp",
     "base": "near",
     "quote": "tether",
     "settlement": "tether",
     "url": "https://exchange.evedex.com/en/trade/NEARUSD"
+  },
+  "NVDAUSD": {
+    "exchange": "perp",
+    "base": "nvidia",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/NVDAUSD"
   },
   "OPENAIUSD": {
     "exchange": "perp",
@@ -316,6 +344,20 @@
     "settlement": "tether",
     "url": "https://exchange.evedex.com/en/trade/TSLAUSD"
   },
+  "US30USD": {
+    "exchange": "perp",
+    "base": "dow-jones-industrial-average-index",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/US30USD"
+  },
+  "USDCADUSD": {
+    "exchange": "perp",
+    "base": "usd",
+    "quote": "canadian-dollar",
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/USDCADUSD"
+  },
   "USDJPYUSD": {
     "exchange": "perp",
     "base": "usd",
@@ -364,6 +406,13 @@
     "quote": "tether",
     "settlement": "tether",
     "url": "https://exchange.evedex.com/en/trade/XRPUSD"
+  },
+  "ZECUSD": {
+    "exchange": "perp",
+    "base": "zcash",
+    "quote": "tether",
+    "settlement": "tether",
+    "url": "https://exchange.evedex.com/en/trade/ZECUSD"
   },
   "ZROUSD": {
     "exchange": "perp",
