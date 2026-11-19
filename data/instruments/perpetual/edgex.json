@@ -86,6 +86,13 @@
     "settlement": "usd-coin",
     "url": "https://pro.edgex.exchange/en-US/perpetuals/ANTHROPICUSDC"
   },
+  "ANTUSDC": {
+    "exchange": "perp",
+    "base": "anthropic",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://pro.edgex.exchange/en-US/perpetuals/ANTUSDC"
+  },
   "APLDUSDC": {
     "exchange": "perp",
     "base": "applied-digital",
@@ -127,6 +134,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://pro.edgex.exchange/en-US/perpetuals/ATOMUSDC"
+  },
+  "AVAXUSDC": {
+    "exchange": "perp",
+    "base": "avalanche",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://pro.edgex.exchange/en-US/perpetuals/AVAXUSDC"
   },
   "AVGOUSDC": {
     "exchange": "perp",
@@ -211,6 +225,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://pro.edgex.exchange/en-US/perpetuals/BUSDC"
+  },
+  "BYDUSDC": {
+    "exchange": "perp",
+    "base": "byd",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://pro.edgex.exchange/en-US/perpetuals/BYDUSDC"
   },
   "BZUSDC": {
     "exchange": "perp",
@@ -394,6 +415,13 @@
     "settlement": "usd-coin",
     "url": "https://pro.edgex.exchange/en-US/perpetuals/EULUSDC"
   },
+  "EURUSDC": {
+    "exchange": "perp",
+    "base": "euro",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://pro.edgex.exchange/en-US/perpetuals/EURUSDC"
+  },
   "EWJUSDC": {
     "exchange": "perp",
     "base": "ishares-msci-japan-etf",
@@ -422,12 +450,26 @@
     "settlement": "usd-coin",
     "url": "https://pro.edgex.exchange/en-US/perpetuals/GDXUSDC"
   },
+  "GIGADEVUSDC": {
+    "exchange": "perp",
+    "base": "gigadevice-semiconductor",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://pro.edgex.exchange/en-US/perpetuals/GIGADEVUSDC"
+  },
   "GOOGLUSDC": {
     "exchange": "perp",
     "base": "alphabet",
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://pro.edgex.exchange/en-US/perpetuals/GOOGLUSDC"
+  },
+  "GRAMUSDC": {
+    "exchange": "perp",
+    "base": "toncoin",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://pro.edgex.exchange/en-US/perpetuals/GRAMUSDC"
   },
   "GRVTUSDC": {
     "exchange": "perp",
@@ -449,6 +491,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://pro.edgex.exchange/en-US/perpetuals/HANMIUSDC"
+  },
+  "HBARUSDC": {
+    "exchange": "perp",
+    "base": "hedera",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://pro.edgex.exchange/en-US/perpetuals/HBARUSDC"
   },
   "HEIUSDC": {
     "exchange": "perp",
@@ -806,6 +855,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://pro.edgex.exchange/en-US/perpetuals/PLTRUSDC"
+  },
+  "POLYMARKETUSDC": {
+    "exchange": "perp",
+    "base": "polymarket",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://pro.edgex.exchange/en-US/perpetuals/POLYMARKETUSDC"
   },
   "PONSUSDC": {
     "exchange": "perp",
@@ -1255,6 +1311,13 @@
     "settlement": "usd-coin",
     "url": "https://pro.edgex.exchange/en-US/perpetuals/XRPUSDC"
   },
+  "XTENUSDC": {
+    "exchange": "perp",
+    "base": "extended",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://pro.edgex.exchange/en-US/perpetuals/XTENUSDC"
+  },
   "ZAMAUSDC": {
     "exchange": "perp",
     "base": "zama",
@@ -1275,6 +1338,13 @@
     "quote": "usd-coin",
     "settlement": "usd-coin",
     "url": "https://pro.edgex.exchange/en-US/perpetuals/ZHIPUUSDC"
+  },
+  "ZHONGJIUSDC": {
+    "exchange": "perp",
+    "base": "zhongji-innolight-h-shares",
+    "quote": "usd-coin",
+    "settlement": "usd-coin",
+    "url": "https://pro.edgex.exchange/en-US/perpetuals/ZHONGJIUSDC"
   },
   "ZROUSDC": {
     "exchange": "perp",
