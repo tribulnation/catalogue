@@ -1,8 +1,9 @@
 import os as _os
 import re as _re
 from typing import Collection, Mapping, get_args
+from typing_extensions import Literal
 from .schema import (
-  Asset, Platform, Spot, Perpetual, Debt, Pool, AssetCategory, BlockchainCategory,
+  Asset, Platform, Spot, Margin, Perpetual, Debt, Pool, AssetCategory, BlockchainCategory,
   BlockchainNamespace, Protocol,
 )
 from .protocols import template_errors
@@ -139,6 +140,9 @@ def alias_references(catalogue: Catalogue):
   for platform, spots in catalogue.spot_instruments.items():
     for id, spot in spots.items():
       refs.extend((f'spot instrument "{id}" on "{platform}"', asset) for asset in (spot['base'], spot['quote']))
+  for platform, margins in catalogue.margin_instruments.items():
+    for id, margin in margins.items():
+      refs.extend((f'margin instrument "{id}" on "{platform}"', asset) for asset in (margin['base'], margin['quote']))
   for platform, perpetuals in catalogue.perpetual_instruments.items():
     for id, perpetual in perpetuals.items():
       refs.extend((f'perpetual instrument "{id}" on "{platform}"', asset) for asset in (perpetual['base'], perpetual['quote'], perpetual['settlement']))
@@ -265,17 +269,27 @@ def _instrument_url_errors(kind: str, platform: str, id: str, instrument: Mappin
     return [f'[{kind} INSTRUMENT ERROR] {kind.capitalize()} instrument "{id}" on "{platform}" has non-absolute URL "{url}"']
   return []
 
-def spot_instruments(spot_instruments: Mapping[str, Mapping[str, Spot]], assets: Mapping[str, Asset]):
+def pair_instruments(kind: Literal['SPOT', 'MARGIN'], pairs: Mapping[str, Mapping[str, Spot]], assets: Mapping[str, Asset]):
+  """Base/quote pairs (spot or margin) must reference existing assets and carry valid URLs."""
   errors: list[str] = []
-  for platform, instruments in spot_instruments.items():
+  label = kind.capitalize()
+  for platform, instruments in pairs.items():
     for id, instrument in instruments.items():
       base, quote = instrument['base'], instrument['quote']
       if base not in assets:
-        errors.append(f'[SPOT INSTRUMENT ERROR] Spot instrument "{id}" on "{platform}" has inexistent base asset "{base}"')
+        errors.append(f'[{kind} INSTRUMENT ERROR] {label} instrument "{id}" on "{platform}" has inexistent base asset "{base}"')
       if quote not in assets:
-        errors.append(f'[SPOT INSTRUMENT ERROR] Spot instrument "{id}" on "{platform}" has inexistent quote asset "{quote}"')
-      errors.extend(_instrument_url_errors('SPOT', platform, id, instrument))
+        errors.append(f'[{kind} INSTRUMENT ERROR] {label} instrument "{id}" on "{platform}" has inexistent quote asset "{quote}"')
+      errors.extend(_instrument_url_errors(kind, platform, id, instrument))
   return errors
+
+def spot_instruments(spot_instruments: Mapping[str, Mapping[str, Spot]], assets: Mapping[str, Asset]):
+  """Spot instruments must reference existing assets."""
+  return pair_instruments('SPOT', spot_instruments, assets)
+
+def margin_instruments(margin_instruments: Mapping[str, Mapping[str, Margin]], assets: Mapping[str, Asset]):
+  """Margin instruments must reference existing assets."""
+  return pair_instruments('MARGIN', margin_instruments, assets)
 
 def perpetual_instruments(perpetual_instruments: Mapping[str, Mapping[str, Perpetual]], assets: Mapping[str, Asset]):
   errors: list[str] = []
@@ -485,6 +499,7 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(platform_keys('ASSET TRANSLATION', catalogue.platforms, catalogue.asset_translations))
   errors.extend(platform_keys('NETWORK TRANSLATION', catalogue.platforms, catalogue.network_translations))
   errors.extend(platform_keys('SPOT INSTRUMENT', catalogue.platforms, catalogue.spot_instruments))
+  errors.extend(platform_keys('MARGIN INSTRUMENT', catalogue.platforms, catalogue.margin_instruments))
   errors.extend(platform_keys('PERPETUAL INSTRUMENT', catalogue.platforms, catalogue.perpetual_instruments))
   errors.extend(platform_keys('DEBT INSTRUMENT', catalogue.platforms, catalogue.debt_instruments))
   errors.extend(platform_keys('POOL', catalogue.platforms, catalogue.pools))
@@ -492,6 +507,7 @@ def all(catalogue: Catalogue, base_folder: str):
   errors.extend(asset_translations(catalogue.assets, catalogue.asset_translations))
   errors.extend(network_translations(catalogue.platforms, catalogue.network_translations))
   errors.extend(spot_instruments(catalogue.spot_instruments, catalogue.assets))
+  errors.extend(margin_instruments(catalogue.margin_instruments, catalogue.assets))
   errors.extend(perpetual_instruments(catalogue.perpetual_instruments, catalogue.assets))
   errors.extend(debt_instruments(catalogue.debt_instruments, catalogue.assets))
   errors.extend(pools(catalogue.pools, catalogue.assets))

@@ -26,6 +26,9 @@ jobs:
       - name: Test id stability guard
         run: python -m unittest discover -s scripts -p 'test_check_id_stability.py'
 
+      - name: Test Bitget margin sync
+        run: python -m unittest discover -s scripts -p 'test_bitget_margin.py'
+
       - name: Test Python package
         run: python -m unittest discover -s lib/tests
 

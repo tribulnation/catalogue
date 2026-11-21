@@ -50,6 +50,19 @@ PYTHONPATH=lib/src .venv/bin/python scripts/instrument_urls.py
 
 It only fills in missing URLs, so hand-written ones survive; pass `--overwrite` to regenerate everything. When adding a platform, add its URL rule to `SPOT_RULES` / `PERPETUAL_RULES` in that script; instruments on platforms without a rule are left without a `url`.
 
+## Margin instruments
+
+`data/instruments/margin/<platform>.json` lists the spot pairs a venue also trades on
+borrowed funds (its margin account). Same shape as spot (`exchange`, `base`, `quote`,
+optional `delisted`/`url`); `exchange` is the SDK's margin exchange id, so the SDK
+market id is `<account>:<exchange>:<instrument id>` (e.g. `bitget:margin:LITUSDT`).
+A margin pair trades the spot book of the same symbol, so its base and quote are those
+of that spot pair.
+
+Bitget's file is generated, not hand-written: run
+`PYTHONPATH=lib/src .venv/bin/python scripts/bitget_margin.py --write` (without
+`--write` it only reports). See the script's docstring for the gates.
+
 ## Quanto perpetuals
 
 A perpetual's `quote` is the currency its price is in, even when the venue labels

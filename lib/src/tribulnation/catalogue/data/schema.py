@@ -17,6 +17,13 @@ class Spot(TypedDict):
   url: NotRequired[str]
   """Trading page URL for the instrument on the platform"""
 
+class Margin(Spot):
+  """A spot pair traded on borrowed funds (the venue's margin account), e.g. Bitget UTA `MARGIN`.
+
+  Same shape as `Spot`; `exchange` names the venue's margin market (e.g. `margin`), so the SDK
+  market id is `<account>:<exchange>:<instrument id>`.
+  """
+
 class Perpetual(TypedDict):
   exchange: NotRequired[str]
   """Exchange ID (for TradingSDK)"""

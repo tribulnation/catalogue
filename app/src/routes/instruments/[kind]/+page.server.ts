@@ -1,6 +1,6 @@
 import { flattenInstruments, INSTRUMENT_PAGE_SIZE, type PlatformCount } from '$lib/instruments';
 
-const kinds = ['spot', 'perpetual', 'debt', 'pools'];
+const kinds = ['spot', 'margin', 'perpetual', 'debt', 'pools'];
 
 export const entries = () => kinds.map((kind) => ({ kind }));
 

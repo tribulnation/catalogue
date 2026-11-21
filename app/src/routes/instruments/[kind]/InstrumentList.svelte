@@ -13,6 +13,7 @@
 
 	const kindMeta: Record<string, { label: string }> = {
 		spot: { label: 'Spot' },
+		margin: { label: 'Margin' },
 		perpetual: { label: 'Perpetual' },
 		debt: { label: 'Debt' },
 		collateral: { label: 'Collateral' },
@@ -82,7 +83,7 @@
 		<p class="empty">Loading…</p>
 	{:else if rows.length === 0}
 		<p class="empty">No instruments match "{list.query}"</p>
-	{:else if data.kind === 'spot'}
+	{:else if data.kind === 'spot' || data.kind === 'margin'}
 		<table>
 			<thead>
 				<tr><th>ID</th><th>Base</th><th>Quote</th><th>Platform</th></tr>

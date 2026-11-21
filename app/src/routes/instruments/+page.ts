@@ -1,4 +1,4 @@
-const kinds = ['spot', 'perpetual', 'debt', 'pools'] as const;
+const kinds = ['spot', 'margin', 'perpetual', 'debt', 'pools'] as const;
 
 export async function load({ fetch }) {
 	const indexes = await Promise.all(

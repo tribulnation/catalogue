@@ -23,6 +23,8 @@ class Stats(BaseModel):
   """Number of assets with pegs in the catalogue"""
   spot_instruments: int
   """Number of spot instruments in the catalogue"""
+  margin_instruments: int
+  """Number of margin instruments in the catalogue"""
   perpetual_instruments: int
   """Number of perpetual instruments in the catalogue"""
   spam_addresses: int

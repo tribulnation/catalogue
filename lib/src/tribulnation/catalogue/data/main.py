@@ -11,7 +11,7 @@ from decimal import Decimal
 from functools import cached_property
 from pathlib import Path
 
-from .schema import Asset, Platform, Spot, Perpetual, Debt, Pool, SpamAddress, Protocol
+from .schema import Asset, Platform, Spot, Margin, Perpetual, Debt, Pool, SpamAddress, Protocol
 from .protocols import CorrelationError, format_key, parse_key
 from .cache import ArchiveCache, DEFAULT_URL, DEFAULT_MAX_AGE, DEFAULT_TIMEOUT
 
@@ -102,6 +102,8 @@ class Catalogue:
   """The archive cache this catalogue came from, used by `maybe_refresh`"""
   protocols: dict[str, Protocol] = field(default_factory=dict)
   """`protocol id -> protocol` (cross-chain correlation key definitions)"""
+  margin_instruments: dict[str, dict[str, Margin]] = field(default_factory=dict)
+  """`platform id -> instrument id -> margin instrument` (spot pairs traded on borrowed funds)"""
 
   @property
   def ordered_platforms(self):

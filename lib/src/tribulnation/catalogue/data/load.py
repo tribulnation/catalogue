@@ -10,7 +10,7 @@ import zipfile
 
 from pydantic import TypeAdapter, ValidationError
 
-from .schema import Asset, Platform, Spot, Perpetual, Debt, SpamAddress, Pool
+from .schema import Asset, Platform, Spot, Margin, Perpetual, Debt, SpamAddress, Pool
 from . import schema
 from .main import Catalogue
 
@@ -19,6 +19,7 @@ _platform_adapter = TypeAdapter(Platform)
 _asset_translation_adapter = TypeAdapter(dict[str, str])
 _network_translation_adapter = TypeAdapter(dict[str, str])
 _spot_instruments_adapter = TypeAdapter(dict[str, Spot])
+_margin_instruments_adapter = TypeAdapter(dict[str, Margin])
 _perpetual_instruments_adapter = TypeAdapter(dict[str, Perpetual])
 _debt_instruments_adapter = TypeAdapter(dict[str, Debt])
 _spam_adapter = TypeAdapter(dict[str, SpamAddress])
@@ -127,6 +128,10 @@ def spot_instruments(folder: Folder, *, strict: bool = False, skip_invalid: bool
   """Load spot instrument definitions."""
   return records(folder, _spot_instruments_adapter, strict=strict, skip_invalid=skip_invalid)
 
+def margin_instruments(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, dict[str, Margin]]:
+  """Load margin instrument definitions."""
+  return records(folder, _margin_instruments_adapter, strict=strict, skip_invalid=skip_invalid)
+
 def perpetual_instruments(folder: Folder, *, strict: bool = False, skip_invalid: bool = False) -> dict[str, dict[str, Perpetual]]:
   """Load perpetual instrument definitions."""
   return records(folder, _perpetual_instruments_adapter, strict=strict, skip_invalid=skip_invalid)
@@ -165,6 +170,7 @@ def all(folder: Path | str | Folder, *, strict: bool = False, skip_invalid: bool
     network_translations=network_translations(folder / 'network_translations', **kw),
     asset_translations=asset_translations(folder / 'asset_translations', **kw),
     spot_instruments=spot_instruments(folder / 'instruments' / 'spot', **kw),
+    margin_instruments=margin_instruments(folder / 'instruments' / 'margin', **kw),
     perpetual_instruments=perpetual_instruments(folder / 'instruments' / 'perpetual', **kw),
     debt_instruments=debt_instruments(folder / 'instruments' / 'debt', **kw),
     pools=pools(folder / 'instruments' / 'pools', **kw),

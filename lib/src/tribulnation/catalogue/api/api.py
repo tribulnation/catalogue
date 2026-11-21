@@ -6,7 +6,7 @@ from .schema import (
   PlatformSummary, PlatformDetail, LocalizedPlatformDetail,
   BlockchainSummary, CexSummary, DexSummary,
   InstrumentPlatformEntry,
-  SpotInstrument, PerpetualInstrument,
+  SpotInstrument, MarginInstrument, PerpetualInstrument,
   DebtInstrument, PoolInstrument,
   InstrumentReference,
   AssetTranslation, DebtTranslation, TranslateResult,
@@ -109,6 +109,16 @@ def get_spot_platforms() -> list[InstrumentPlatformEntry]:
 @app.get('/api/v1/instruments/spot/{platform}.json')
 def get_spot_instruments(platform: str) -> dict[str, SpotInstrument]:
   """Spot pairs for a platform, keyed by platform-specific ID."""
+  raise NotImplementedError
+
+@app.get('/api/v1/instruments/margin.json')
+def get_margin_platforms() -> list[InstrumentPlatformEntry]:
+  """Platforms with margin pair data."""
+  raise NotImplementedError
+
+@app.get('/api/v1/instruments/margin/{platform}.json')
+def get_margin_instruments(platform: str) -> dict[str, MarginInstrument]:
+  """Margin pairs (spot traded on borrowed funds) for a platform, keyed by platform-specific ID."""
   raise NotImplementedError
 
 @app.get('/api/v1/instruments/perpetual.json')
