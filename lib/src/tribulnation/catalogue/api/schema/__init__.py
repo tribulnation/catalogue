@@ -7,7 +7,7 @@ from .platforms import (
 )
 from .instruments import (
   InstrumentKind, InstrumentRole, InstrumentPlatformEntry,
-  SpotInstrument, PerpetualInstrument,
+  SpotInstrument, MarginInstrument, PerpetualInstrument,
   DebtInstrument, PoolInstrument,
   InstrumentReference,
   AssetTranslation, DebtTranslation, TranslateResult,

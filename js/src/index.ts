@@ -2,7 +2,7 @@ export type {
   AssetPeg, ExternalIds, AssetSummary, AssetDetail,
   PlatformKind, PlatformSummary, PlatformDetail,
   InstrumentPlatformEntry, InstrumentKind, InstrumentRole, InstrumentReference,
-  SpotInstrument, PerpetualInstrument, DebtInstrument, PoolInstrument,
+  SpotInstrument, MarginInstrument, PerpetualInstrument, DebtInstrument, PoolInstrument,
   TranslateResult,
   SpamAddress, Stats,
 } from './types.js';
@@ -11,7 +11,7 @@ import type {
   AssetSummary, AssetDetail,
   PlatformSummary, PlatformDetail,
   InstrumentPlatformEntry, InstrumentReference,
-  SpotInstrument, PerpetualInstrument, DebtInstrument, PoolInstrument,
+  SpotInstrument, MarginInstrument, PerpetualInstrument, DebtInstrument, PoolInstrument,
   TranslateResult,
   SpamAddress, Stats,
 } from './types.js';
@@ -89,6 +89,14 @@ export class Catalogue {
 
   getSpotInstruments(platform: string): Promise<Record<string, SpotInstrument>> {
     return get(`${this.base}/instruments/spot/${platform}.json`);
+  }
+
+  getMarginPlatforms(): Promise<InstrumentPlatformEntry[]> {
+    return get(`${this.base}/instruments/margin.json`);
+  }
+
+  getMarginInstruments(platform: string): Promise<Record<string, MarginInstrument>> {
+    return get(`${this.base}/instruments/margin/${platform}.json`);
   }
 
   getPerpetualPlatforms(): Promise<InstrumentPlatformEntry[]> {

@@ -20,7 +20,7 @@ from tribulnation.catalogue.api.schema import (
   AssetPeg, ExternalIds, AssetSummary, AssetDetail, LocalizedAssetDetail,
   PlatformSummary, PlatformDetail, BlockchainSummary, CexSummary, DexSummary,
   InstrumentPlatformEntry,
-  SpotInstrument, PerpetualInstrument, DebtInstrument, PoolInstrument,
+  SpotInstrument, MarginInstrument, PerpetualInstrument, DebtInstrument, PoolInstrument,
   InstrumentReference,
   AssetTranslation, DebtTranslation,
   SpamAddress,
@@ -202,6 +202,10 @@ def spot_instruments(items: dict[str, data.Spot]) -> dict[str, SpotInstrument]:
   return {id: SpotInstrument(id=id, **item) for id, item in sorted(items.items())}
 
 
+def margin_instruments(items: dict[str, data.Margin]) -> dict[str, MarginInstrument]:
+  return {id: MarginInstrument(id=id, **item) for id, item in sorted(items.items())}
+
+
 def perpetual_instruments(items: dict[str, data.Perpetual]) -> dict[str, PerpetualInstrument]:
   return {id: PerpetualInstrument(id=id, **item) for id, item in sorted(items.items())}
 
@@ -224,6 +228,11 @@ def instrument_index(catalogue: data.Catalogue) -> dict[str, list[InstrumentRefe
     for id, inst in instruments.items():
       add(inst['base'], InstrumentReference(kind='spot', platform=platform, id=id, role='base'))
       add(inst['quote'], InstrumentReference(kind='spot', platform=platform, id=id, role='quote'))
+
+  for platform, instruments in catalogue.margin_instruments.items():
+    for id, inst in instruments.items():
+      add(inst['base'], InstrumentReference(kind='margin', platform=platform, id=id, role='base'))
+      add(inst['quote'], InstrumentReference(kind='margin', platform=platform, id=id, role='quote'))
 
   for platform, instruments in catalogue.perpetual_instruments.items():
     for id, inst in instruments.items():
@@ -284,6 +293,7 @@ def stats(catalogue: data.Catalogue) -> Stats:
     asset_translations=sum(len(t) for t in catalogue.asset_translations.values()),
     network_translations=sum(len(t) for t in catalogue.network_translations.values()),
     spot_instruments=sum(len(i) for i in catalogue.spot_instruments.values()),
+    margin_instruments=sum(len(i) for i in catalogue.margin_instruments.values()),
     perpetual_instruments=sum(len(i) for i in catalogue.perpetual_instruments.values()),
     assets_with_icons=sum(1 for a in assets.values() if 'icon' in a),
     assets_with_external_ids=sum(1 for a in assets.values() if a.get('external')),
@@ -293,7 +303,7 @@ def stats(catalogue: data.Catalogue) -> Stats:
 
 
 def write_stats_svg(s: Stats, path: Path) -> None:
-  instruments = s.spot_instruments + s.perpetual_instruments
+  instruments = s.spot_instruments + s.margin_instruments + s.perpetual_instruments
   translations = s.asset_translations + s.network_translations
   cols = [
     (str(s.assets), 'assets'),
@@ -570,12 +580,15 @@ def build(args: argparse.Namespace) -> None:
       write_json(api / 'translate' / platform / f'{instrument_id}.json', DebtTranslation(kind='debt', instrument_id=instrument_id))
 
   write_json(api / 'instruments' / 'spot.json', platform_index(catalogue.spot_instruments))
+  write_json(api / 'instruments' / 'margin.json', platform_index(catalogue.margin_instruments))
   write_json(api / 'instruments' / 'perpetual.json', platform_index(catalogue.perpetual_instruments))
   write_json(api / 'instruments' / 'debt.json', platform_index(catalogue.debt_instruments))
   write_json(api / 'instruments' / 'pools.json', platform_index(catalogue.pools))
 
   for platform, items in sorted(catalogue.spot_instruments.items()):
     write_json(api / 'instruments' / 'spot' / f'{platform}.json', spot_instruments(items))
+  for platform, items in sorted(catalogue.margin_instruments.items()):
+    write_json(api / 'instruments' / 'margin' / f'{platform}.json', margin_instruments(items))
   for platform, items in sorted(catalogue.perpetual_instruments.items()):
     write_json(api / 'instruments' / 'perpetual' / f'{platform}.json', perpetual_instruments(items))
   for platform, items in sorted(catalogue.debt_instruments.items()):

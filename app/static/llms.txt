@@ -2,7 +2,7 @@
 
 > A static JSON API and web catalogue for crypto assets, trading platforms,
 > and instruments. Covers 500+ assets across CEX, DEX, and blockchain
-> platforms with canonical stable IDs, spot/perpetual/debt instruments,
+> platforms with canonical stable IDs, spot/margin/perpetual/debt instruments,
 > and platform-specific ID translation.
 
 Base URL: `https://catalogue.tribulnation.com/api/v1`
@@ -26,6 +26,7 @@ Asset and platform IDs are stable kebab-case strings (e.g. `bitcoin`, `binance`,
 ## Instruments
 
 - [Spot pairs](https://catalogue.tribulnation.com/api/v1/instruments/spot/binance.json): Spot trading pairs for a platform, each with `base` and `quote` asset IDs and an optional `delisted` status.
+- [Margin pairs](https://catalogue.tribulnation.com/api/v1/instruments/margin/bitget.json): Spot pairs a venue also trades on borrowed funds (its margin account), same shape as spot pairs; `exchange` names the venue's margin market.
 - [Perpetual markets](https://catalogue.tribulnation.com/api/v1/instruments/perpetual/dydx.json): Perpetual markets with `base`, `quote`, `settlement`, and optional `multiplier` and `delisted` fields.
 - [Debt instruments](https://catalogue.tribulnation.com/api/v1/instruments/debt/ethereum.json): Borrow positions (e.g. Aave variable debt tokens) keyed by token address.
 - [Asset instrument index](https://catalogue.tribulnation.com/api/v1/instruments/index/bitcoin.json): All instruments where a given asset appears, with `kind`, `platform`, `id`, `role`.

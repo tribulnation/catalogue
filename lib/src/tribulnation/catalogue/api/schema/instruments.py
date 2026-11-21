@@ -2,7 +2,7 @@ from typing import Literal
 from decimal import Decimal
 from pydantic import BaseModel
 
-InstrumentKind = Literal['spot', 'perpetual', 'debt', 'pool']
+InstrumentKind = Literal['spot', 'margin', 'perpetual', 'debt', 'pool']
 InstrumentRole = Literal['base', 'quote', 'settlement', 'asset']
 
 
@@ -14,6 +14,22 @@ class InstrumentPlatformEntry(BaseModel):
 
 
 class SpotInstrument(BaseModel):
+  id: str
+  """Platform-specific instrument ID"""
+  base: str
+  """Base asset ID"""
+  quote: str
+  """Quote asset ID"""
+  exchange: str | None = None
+  """Exchange sub-account identifier"""
+  delisted: bool | None = None
+  """Whether the instrument has been delisted"""
+  url: str | None = None
+  """Trading page URL for the instrument on the platform"""
+
+
+class MarginInstrument(BaseModel):
+  """A spot pair traded on borrowed funds, in the venue's margin account."""
   id: str
   """Platform-specific instrument ID"""
   base: str

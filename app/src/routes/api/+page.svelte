@@ -97,6 +97,7 @@
 		'/api/v1/translations/assets/{platform}.json': { platform: 'arbitrum' },
 		'/api/v1/translations/networks/{platform}.json': { platform: 'arbitrum' },
 		'/api/v1/instruments/spot/{platform}.json': { platform: 'mexc' },
+		'/api/v1/instruments/margin/{platform}.json': { platform: 'bitget' },
 		'/api/v1/instruments/perpetual/{platform}.json': { platform: 'dydx' },
 		'/api/v1/instruments/debt/{platform}.json': { platform: 'ethereum' },
 		'/api/v1/instruments/pools/{platform}.json': { platform: 'ethereum' },
@@ -161,7 +162,7 @@
 		},
 		{
 			label: 'Instruments',
-			stat: `${s.spot_instruments} spot · ${s.perpetual_instruments} perpetual`,
+			stat: `${s.spot_instruments} spot · ${s.margin_instruments} margin · ${s.perpetual_instruments} perpetual`,
 			browse: '/api/instruments',
 			prefix: '/api/v1/instruments'
 		},

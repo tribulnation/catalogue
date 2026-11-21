@@ -147,6 +147,7 @@ catalogue.cexs             # filtered view: kind == 'cex'
 catalogue.dexs             # filtered view: kind == 'dex'
 
 catalogue.spot_instruments        # dict[platform, dict[id, Spot]]
+catalogue.margin_instruments      # dict[platform, dict[id, Margin]] (spot pairs on borrowed funds)
 catalogue.perpetual_instruments   # dict[platform, dict[id, Perpetual]]
 catalogue.debt_instruments        # dict[platform, dict[id, Debt]]
 catalogue.pools                   # dict[platform, dict[id, Pool]]

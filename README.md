@@ -25,6 +25,7 @@ GET /api/v1/assets/{id}.json
 GET /api/v1/platforms.json
 GET /api/v1/platforms/{id}.json
 GET /api/v1/instruments/spot/{platform}.json
+GET /api/v1/instruments/margin/{platform}.json
 GET /api/v1/instruments/perpetual/{platform}.json
 GET /api/v1/instruments/index/{asset}.json
 GET /api/v1/indexes/symbols.json
@@ -161,7 +162,7 @@ Canonical records keyed by slug (e.g. `bitcoin`, `usd-coin`). Each asset has a `
 Trading venues and networks keyed by slug (e.g. `binance`, `ethereum`). Covers CEX, DEX, and blockchain platforms. Blockchains carry `namespace`, `chain_id`, `native_asset`, and EVM/SVM `category`.
 
 ### Instruments
-Spot pairs, perpetual futures, debt positions, and liquidity pools — each referencing canonical asset IDs. Maps exchange-specific tickers to the catalogue's canonical identifiers.
+Spot pairs, margin pairs (spot traded on borrowed funds), perpetual futures, debt positions, and liquidity pools — each referencing canonical asset IDs. Maps exchange-specific tickers to the catalogue's canonical identifiers.
 
 ### Translations
 Per-platform display-name mappings for assets and networks. Resolves what a given exchange calls `BTC/USDT` into `('bitcoin', 'tether')`.

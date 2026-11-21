@@ -3,6 +3,7 @@
 
 	const kindMeta: Record<string, { label: string; description: string }> = {
 		spot: { label: 'Spot', description: 'Trading pairs' },
+		margin: { label: 'Margin', description: 'Spot pairs traded on borrowed funds' },
 		perpetual: { label: 'Perpetual', description: 'Futures & perpetual contracts' },
 		debt: { label: 'Debt', description: 'Lending debt tokens' },
 		collateral: { label: 'Collateral', description: 'Lending collateral tokens' },

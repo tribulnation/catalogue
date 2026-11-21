@@ -1,0 +1,1597 @@
+{
+  "0GUSDT": {
+    "exchange": "margin",
+    "base": "zero-gravity",
+    "quote": "tether"
+  },
+  "1INCHUSDT": {
+    "exchange": "margin",
+    "base": "1inch",
+    "quote": "tether"
+  },
+  "2ZUSDT": {
+    "exchange": "margin",
+    "base": "doublezero",
+    "quote": "tether"
+  },
+  "AAVEUSDC": {
+    "exchange": "margin",
+    "base": "aave",
+    "quote": "usd-coin"
+  },
+  "AAVEUSDT": {
+    "exchange": "margin",
+    "base": "aave",
+    "quote": "tether"
+  },
+  "ACEUSDT": {
+    "exchange": "margin",
+    "base": "fusionist",
+    "quote": "tether"
+  },
+  "ACHUSDT": {
+    "exchange": "margin",
+    "base": "alchemy-pay",
+    "quote": "tether"
+  },
+  "ACTUSDT": {
+    "exchange": "margin",
+    "base": "act-i-the-ai-prophecy",
+    "quote": "tether"
+  },
+  "ADAUSDC": {
+    "exchange": "margin",
+    "base": "cardano",
+    "quote": "usd-coin"
+  },
+  "ADAUSDT": {
+    "exchange": "margin",
+    "base": "cardano",
+    "quote": "tether"
+  },
+  "AEONUSDT": {
+    "exchange": "margin",
+    "base": "aeon-xyz",
+    "quote": "tether"
+  },
+  "AEROUSDT": {
+    "exchange": "margin",
+    "base": "aerodrome",
+    "quote": "tether"
+  },
+  "AEVOUSDT": {
+    "exchange": "margin",
+    "base": "aevo-exchange",
+    "quote": "tether"
+  },
+  "AIUSDT": {
+    "exchange": "margin",
+    "base": "gensyn",
+    "quote": "tether"
+  },
+  "ALGOUSDT": {
+    "exchange": "margin",
+    "base": "algorand",
+    "quote": "tether"
+  },
+  "ALICEUSDT": {
+    "exchange": "margin",
+    "base": "my-neighbor-alice",
+    "quote": "tether"
+  },
+  "ALIGNUSDT": {
+    "exchange": "margin",
+    "base": "aligned",
+    "quote": "tether"
+  },
+  "ALLOUSDT": {
+    "exchange": "margin",
+    "base": "allora",
+    "quote": "tether"
+  },
+  "ANKRUSDT": {
+    "exchange": "margin",
+    "base": "ankr",
+    "quote": "tether"
+  },
+  "APEUSDT": {
+    "exchange": "margin",
+    "base": "apecoin",
+    "quote": "tether"
+  },
+  "API3USDT": {
+    "exchange": "margin",
+    "base": "api3",
+    "quote": "tether"
+  },
+  "APTUSDT": {
+    "exchange": "margin",
+    "base": "aptos",
+    "quote": "tether"
+  },
+  "ARBUSDT": {
+    "exchange": "margin",
+    "base": "arbitrum",
+    "quote": "tether"
+  },
+  "ARPAUSDT": {
+    "exchange": "margin",
+    "base": "arpa-chain",
+    "quote": "tether"
+  },
+  "ARUSDT": {
+    "exchange": "margin",
+    "base": "arweave",
+    "quote": "tether"
+  },
+  "ARXUSDT": {
+    "exchange": "margin",
+    "base": "arcium",
+    "quote": "tether"
+  },
+  "ASTERUSDT": {
+    "exchange": "margin",
+    "base": "aster",
+    "quote": "tether"
+  },
+  "ASTRUSDT": {
+    "exchange": "margin",
+    "base": "astar",
+    "quote": "tether"
+  },
+  "ATHUSDT": {
+    "exchange": "margin",
+    "base": "aethir",
+    "quote": "tether"
+  },
+  "ATOMUSDT": {
+    "exchange": "margin",
+    "base": "cosmos",
+    "quote": "tether"
+  },
+  "AUCTIONUSDT": {
+    "exchange": "margin",
+    "base": "auction",
+    "quote": "tether"
+  },
+  "AUSDT": {
+    "exchange": "margin",
+    "base": "vaulta",
+    "quote": "tether"
+  },
+  "AVAXUSDC": {
+    "exchange": "margin",
+    "base": "avalanche",
+    "quote": "usd-coin"
+  },
+  "AVAXUSDT": {
+    "exchange": "margin",
+    "base": "avalanche",
+    "quote": "tether"
+  },
+  "AVNTUSDT": {
+    "exchange": "margin",
+    "base": "avantis",
+    "quote": "tether"
+  },
+  "AWEUSDT": {
+    "exchange": "margin",
+    "base": "stp-network",
+    "quote": "tether"
+  },
+  "AXISUSDT": {
+    "exchange": "margin",
+    "base": "axis-robotics",
+    "quote": "tether"
+  },
+  "AXLUSDT": {
+    "exchange": "margin",
+    "base": "axelar",
+    "quote": "tether"
+  },
+  "AXSUSDT": {
+    "exchange": "margin",
+    "base": "axie-infinity",
+    "quote": "tether"
+  },
+  "B2USDT": {
+    "exchange": "margin",
+    "base": "bsquared-network",
+    "quote": "tether"
+  },
+  "BABYDOGEUSDT": {
+    "exchange": "margin",
+    "base": "baby-doge-coin",
+    "quote": "tether"
+  },
+  "BABYUSDT": {
+    "exchange": "margin",
+    "base": "babylon",
+    "quote": "tether"
+  },
+  "BANKUSDT": {
+    "exchange": "margin",
+    "base": "lorenzo-protocol",
+    "quote": "tether"
+  },
+  "BARDUSDT": {
+    "exchange": "margin",
+    "base": "lombard",
+    "quote": "tether"
+  },
+  "BATUSDT": {
+    "exchange": "margin",
+    "base": "basic-attention-token",
+    "quote": "tether"
+  },
+  "BCHUSDC": {
+    "exchange": "margin",
+    "base": "bitcoin-cash",
+    "quote": "usd-coin"
+  },
+  "BCHUSDT": {
+    "exchange": "margin",
+    "base": "bitcoin-cash",
+    "quote": "tether"
+  },
+  "BEAMUSDT": {
+    "exchange": "margin",
+    "base": "onbeam",
+    "quote": "tether"
+  },
+  "BERAUSDT": {
+    "exchange": "margin",
+    "base": "berachain",
+    "quote": "tether"
+  },
+  "BGBBTC": {
+    "exchange": "margin",
+    "base": "bitget-token",
+    "quote": "bitcoin"
+  },
+  "BGBETH": {
+    "exchange": "margin",
+    "base": "bitget-token",
+    "quote": "ethereum"
+  },
+  "BGBUSDC": {
+    "exchange": "margin",
+    "base": "bitget-token",
+    "quote": "usd-coin"
+  },
+  "BGBUSDT": {
+    "exchange": "margin",
+    "base": "bitget-token",
+    "quote": "tether"
+  },
+  "BICOUSDT": {
+    "exchange": "margin",
+    "base": "biconomy",
+    "quote": "tether"
+  },
+  "BILLUSDT": {
+    "exchange": "margin",
+    "base": "billions-network",
+    "quote": "tether"
+  },
+  "BIOUSDT": {
+    "exchange": "margin",
+    "base": "bio-protocol",
+    "quote": "tether"
+  },
+  "BLESSUSDT": {
+    "exchange": "margin",
+    "base": "bless-network",
+    "quote": "tether"
+  },
+  "BMTUSDT": {
+    "exchange": "margin",
+    "base": "bubblemaps",
+    "quote": "tether"
+  },
+  "BNBUSDC": {
+    "exchange": "margin",
+    "base": "bnb",
+    "quote": "usd-coin"
+  },
+  "BNBUSDT": {
+    "exchange": "margin",
+    "base": "bnb",
+    "quote": "tether"
+  },
+  "BOMEUSDT": {
+    "exchange": "margin",
+    "base": "book-of-meme",
+    "quote": "tether"
+  },
+  "BONKUSDT": {
+    "exchange": "margin",
+    "base": "bonk",
+    "quote": "tether"
+  },
+  "BREVUSDT": {
+    "exchange": "margin",
+    "base": "brevis",
+    "quote": "tether"
+  },
+  "BSBUSDT": {
+    "exchange": "margin",
+    "base": "block-street",
+    "quote": "tether"
+  },
+  "BSVUSDT": {
+    "exchange": "margin",
+    "base": "bitcoin-cash-sv",
+    "quote": "tether"
+  },
+  "BTCUSDC": {
+    "exchange": "margin",
+    "base": "bitcoin",
+    "quote": "usd-coin"
+  },
+  "BTCUSDT": {
+    "exchange": "margin",
+    "base": "bitcoin",
+    "quote": "tether"
+  },
+  "CAKEUSDT": {
+    "exchange": "margin",
+    "base": "pancakeswap",
+    "quote": "tether"
+  },
+  "CCUSDT": {
+    "exchange": "margin",
+    "base": "canton",
+    "quote": "tether"
+  },
+  "CELOUSDT": {
+    "exchange": "margin",
+    "base": "celo",
+    "quote": "tether"
+  },
+  "CFXUSDT": {
+    "exchange": "margin",
+    "base": "conflux",
+    "quote": "tether"
+  },
+  "CGPTUSDT": {
+    "exchange": "margin",
+    "base": "chaingpt",
+    "quote": "tether"
+  },
+  "CHZUSDT": {
+    "exchange": "margin",
+    "base": "chiliz",
+    "quote": "tether"
+  },
+  "CLANKERUSDT": {
+    "exchange": "margin",
+    "base": "tokenbot",
+    "quote": "tether"
+  },
+  "COAIUSDT": {
+    "exchange": "margin",
+    "base": "chainopera-ai",
+    "quote": "tether"
+  },
+  "COMPUSDT": {
+    "exchange": "margin",
+    "base": "compound",
+    "quote": "tether"
+  },
+  "COREUSDT": {
+    "exchange": "margin",
+    "base": "core",
+    "quote": "tether"
+  },
+  "COWUSDT": {
+    "exchange": "margin",
+    "base": "cow-protocol",
+    "quote": "tether"
+  },
+  "CPUSDT": {
+    "exchange": "margin",
+    "base": "cluster-protocol",
+    "quote": "tether"
+  },
+  "CROSSUSDT": {
+    "exchange": "margin",
+    "base": "onechain",
+    "quote": "tether"
+  },
+  "CRVUSDT": {
+    "exchange": "margin",
+    "base": "curve-dao",
+    "quote": "tether"
+  },
+  "CTSIUSDT": {
+    "exchange": "margin",
+    "base": "cartesi",
+    "quote": "tether"
+  },
+  "CTUSDT": {
+    "exchange": "margin",
+    "base": "concrete",
+    "quote": "tether"
+  },
+  "CYBERUSDT": {
+    "exchange": "margin",
+    "base": "cyberconnect",
+    "quote": "tether"
+  },
+  "CYSUSDT": {
+    "exchange": "margin",
+    "base": "cysic",
+    "quote": "tether"
+  },
+  "DGAIUSDT": {
+    "exchange": "margin",
+    "base": "dgrid-ai",
+    "quote": "tether"
+  },
+  "DOGEUSDC": {
+    "exchange": "margin",
+    "base": "dogecoin",
+    "quote": "usd-coin"
+  },
+  "DOGEUSDT": {
+    "exchange": "margin",
+    "base": "dogecoin",
+    "quote": "tether"
+  },
+  "DOGSUSDT": {
+    "exchange": "margin",
+    "base": "dogs",
+    "quote": "tether"
+  },
+  "DOSUSDT": {
+    "exchange": "margin",
+    "base": "dappos",
+    "quote": "tether"
+  },
+  "DOTUSDT": {
+    "exchange": "margin",
+    "base": "polkadot",
+    "quote": "tether"
+  },
+  "EDGEUSDT": {
+    "exchange": "margin",
+    "base": "edgex",
+    "quote": "tether"
+  },
+  "EIGENUSDT": {
+    "exchange": "margin",
+    "base": "eigen-layer",
+    "quote": "tether"
+  },
+  "ENAUSDT": {
+    "exchange": "margin",
+    "base": "ethena",
+    "quote": "tether"
+  },
+  "ENJUSDT": {
+    "exchange": "margin",
+    "base": "enjin",
+    "quote": "tether"
+  },
+  "ENSOUSDT": {
+    "exchange": "margin",
+    "base": "enso",
+    "quote": "tether"
+  },
+  "ENSUSDT": {
+    "exchange": "margin",
+    "base": "ethereum-name-service",
+    "quote": "tether"
+  },
+  "ETCUSDT": {
+    "exchange": "margin",
+    "base": "ethereum-classic",
+    "quote": "tether"
+  },
+  "ETHBTC": {
+    "exchange": "margin",
+    "base": "ethereum",
+    "quote": "bitcoin"
+  },
+  "ETHFIUSDT": {
+    "exchange": "margin",
+    "base": "ether-fi",
+    "quote": "tether"
+  },
+  "ETHUSDC": {
+    "exchange": "margin",
+    "base": "ethereum",
+    "quote": "usd-coin"
+  },
+  "ETHUSDT": {
+    "exchange": "margin",
+    "base": "ethereum",
+    "quote": "tether"
+  },
+  "EVAAUSDT": {
+    "exchange": "margin",
+    "base": "evaa-protocol",
+    "quote": "tether"
+  },
+  "FARTCOINUSDT": {
+    "exchange": "margin",
+    "base": "fartcoin",
+    "quote": "tether"
+  },
+  "FETUSDC": {
+    "exchange": "margin",
+    "base": "fetch-ai",
+    "quote": "usd-coin"
+  },
+  "FETUSDT": {
+    "exchange": "margin",
+    "base": "fetch-ai",
+    "quote": "tether"
+  },
+  "FFUSDT": {
+    "exchange": "margin",
+    "base": "falcon-finance-ff",
+    "quote": "tether"
+  },
+  "FILUSDC": {
+    "exchange": "margin",
+    "base": "filecoin",
+    "quote": "usd-coin"
+  },
+  "FILUSDT": {
+    "exchange": "margin",
+    "base": "filecoin",
+    "quote": "tether"
+  },
+  "FLOKIUSDT": {
+    "exchange": "margin",
+    "base": "floki",
+    "quote": "tether"
+  },
+  "FORMUSDT": {
+    "exchange": "margin",
+    "base": "four",
+    "quote": "tether"
+  },
+  "FUSDT": {
+    "exchange": "margin",
+    "base": "synfutures",
+    "quote": "tether"
+  },
+  "GALAUSDT": {
+    "exchange": "margin",
+    "base": "gala",
+    "quote": "tether"
+  },
+  "GENIUSUSDT": {
+    "exchange": "margin",
+    "base": "genius-terminal",
+    "quote": "tether"
+  },
+  "GMTUSDT": {
+    "exchange": "margin",
+    "base": "green-metaverse-token",
+    "quote": "tether"
+  },
+  "GMXUSDT": {
+    "exchange": "margin",
+    "base": "gmx",
+    "quote": "tether"
+  },
+  "GPSUSDT": {
+    "exchange": "margin",
+    "base": "goplus-security",
+    "quote": "tether"
+  },
+  "GRASSUSDT": {
+    "exchange": "margin",
+    "base": "grass",
+    "quote": "tether"
+  },
+  "GRVTUSDT": {
+    "exchange": "margin",
+    "base": "grvt",
+    "quote": "tether"
+  },
+  "GUNUSDT": {
+    "exchange": "margin",
+    "base": "gunz",
+    "quote": "tether"
+  },
+  "GWEIUSDT": {
+    "exchange": "margin",
+    "base": "ethgas",
+    "quote": "tether"
+  },
+  "HBARUSDT": {
+    "exchange": "margin",
+    "base": "hedera",
+    "quote": "tether"
+  },
+  "HMSTRUSDT": {
+    "exchange": "margin",
+    "base": "hamster-kombat",
+    "quote": "tether"
+  },
+  "HNTUSDT": {
+    "exchange": "margin",
+    "base": "helium",
+    "quote": "tether"
+  },
+  "HOMEUSDT": {
+    "exchange": "margin",
+    "base": "defi-app",
+    "quote": "tether"
+  },
+  "HUMAUSDT": {
+    "exchange": "margin",
+    "base": "huma-finance",
+    "quote": "tether"
+  },
+  "HUSDT": {
+    "exchange": "margin",
+    "base": "humanity",
+    "quote": "tether"
+  },
+  "HYPEUSDT": {
+    "exchange": "margin",
+    "base": "hyperliquid",
+    "quote": "tether"
+  },
+  "ICNTUSDT": {
+    "exchange": "margin",
+    "base": "impossible-cloud-network",
+    "quote": "tether"
+  },
+  "ICPUSDC": {
+    "exchange": "margin",
+    "base": "internet-computer",
+    "quote": "usd-coin"
+  },
+  "ICPUSDT": {
+    "exchange": "margin",
+    "base": "internet-computer",
+    "quote": "tether"
+  },
+  "IDOLUSDT": {
+    "exchange": "margin",
+    "base": "meet48",
+    "quote": "tether"
+  },
+  "IMXUSDT": {
+    "exchange": "margin",
+    "base": "immutable-x",
+    "quote": "tether"
+  },
+  "INITUSDT": {
+    "exchange": "margin",
+    "base": "initia",
+    "quote": "tether"
+  },
+  "INJUSDT": {
+    "exchange": "margin",
+    "base": "injective",
+    "quote": "tether"
+  },
+  "IOUSDT": {
+    "exchange": "margin",
+    "base": "io-net",
+    "quote": "tether"
+  },
+  "IRYSUSDT": {
+    "exchange": "margin",
+    "base": "irys",
+    "quote": "tether"
+  },
+  "JASMYUSDT": {
+    "exchange": "margin",
+    "base": "jasmycoin",
+    "quote": "tether"
+  },
+  "JOEUSDT": {
+    "exchange": "margin",
+    "base": "joe",
+    "quote": "tether"
+  },
+  "JSTUSDT": {
+    "exchange": "margin",
+    "base": "just",
+    "quote": "tether"
+  },
+  "JTOUSDT": {
+    "exchange": "margin",
+    "base": "jito",
+    "quote": "tether"
+  },
+  "JUPUSDT": {
+    "exchange": "margin",
+    "base": "jupiter",
+    "quote": "tether"
+  },
+  "KAIAUSDT": {
+    "exchange": "margin",
+    "base": "kaia",
+    "quote": "tether"
+  },
+  "KAITOUSDT": {
+    "exchange": "margin",
+    "base": "kaito",
+    "quote": "tether"
+  },
+  "KASUSDT": {
+    "exchange": "margin",
+    "base": "kaspa",
+    "quote": "tether"
+  },
+  "KATUSDT": {
+    "exchange": "margin",
+    "base": "katana-network-token",
+    "quote": "tether"
+  },
+  "KAVAUSDT": {
+    "exchange": "margin",
+    "base": "kava",
+    "quote": "tether"
+  },
+  "KGENUSDT": {
+    "exchange": "margin",
+    "base": "kgen",
+    "quote": "tether"
+  },
+  "KITEUSDT": {
+    "exchange": "margin",
+    "base": "kite",
+    "quote": "tether"
+  },
+  "KMNOUSDT": {
+    "exchange": "margin",
+    "base": "kamino",
+    "quote": "tether"
+  },
+  "KSMUSDT": {
+    "exchange": "margin",
+    "base": "kusama",
+    "quote": "tether"
+  },
+  "LABUSDT": {
+    "exchange": "margin",
+    "base": "lab",
+    "quote": "tether"
+  },
+  "LAUSDT": {
+    "exchange": "margin",
+    "base": "lagrange",
+    "quote": "tether"
+  },
+  "LDOUSDT": {
+    "exchange": "margin",
+    "base": "lido-dao",
+    "quote": "tether"
+  },
+  "LIGHTUSDT": {
+    "exchange": "margin",
+    "base": "bitlight",
+    "quote": "tether"
+  },
+  "LINEAUSDT": {
+    "exchange": "margin",
+    "base": "linea",
+    "quote": "tether"
+  },
+  "LINKUSDC": {
+    "exchange": "margin",
+    "base": "chainlink",
+    "quote": "usd-coin"
+  },
+  "LINKUSDT": {
+    "exchange": "margin",
+    "base": "chainlink",
+    "quote": "tether"
+  },
+  "LITUSDT": {
+    "exchange": "margin",
+    "base": "lighter",
+    "quote": "tether"
+  },
+  "LTCUSDC": {
+    "exchange": "margin",
+    "base": "litecoin",
+    "quote": "usd-coin"
+  },
+  "LTCUSDT": {
+    "exchange": "margin",
+    "base": "litecoin",
+    "quote": "tether"
+  },
+  "LUNCUSDT": {
+    "exchange": "margin",
+    "base": "terra-classic",
+    "quote": "tether"
+  },
+  "MAGMAUSDT": {
+    "exchange": "margin",
+    "base": "magma-finance",
+    "quote": "tether"
+  },
+  "MANAUSDT": {
+    "exchange": "margin",
+    "base": "decentraland",
+    "quote": "tether"
+  },
+  "MASKUSDT": {
+    "exchange": "margin",
+    "base": "mask-network",
+    "quote": "tether"
+  },
+  "MEGAUSDT": {
+    "exchange": "margin",
+    "base": "megaeth",
+    "quote": "tether"
+  },
+  "MERLUSDT": {
+    "exchange": "margin",
+    "base": "merlin-chain",
+    "quote": "tether"
+  },
+  "METUSDT": {
+    "exchange": "margin",
+    "base": "meteora",
+    "quote": "tether"
+  },
+  "MEUSDT": {
+    "exchange": "margin",
+    "base": "magic-eden",
+    "quote": "tether"
+  },
+  "MINAUSDT": {
+    "exchange": "margin",
+    "base": "mina-protocol",
+    "quote": "tether"
+  },
+  "MMTUSDT": {
+    "exchange": "margin",
+    "base": "momentum",
+    "quote": "tether"
+  },
+  "MOGUSDT": {
+    "exchange": "margin",
+    "base": "mog-coin",
+    "quote": "tether"
+  },
+  "MONUSDT": {
+    "exchange": "margin",
+    "base": "monad",
+    "quote": "tether"
+  },
+  "MORPHOUSDT": {
+    "exchange": "margin",
+    "base": "morpho",
+    "quote": "tether"
+  },
+  "MOVEUSDT": {
+    "exchange": "margin",
+    "base": "movement",
+    "quote": "tether"
+  },
+  "MOVRUSDT": {
+    "exchange": "margin",
+    "base": "moonriver",
+    "quote": "tether"
+  },
+  "MUBARAKUSDT": {
+    "exchange": "margin",
+    "base": "mubarak",
+    "quote": "tether"
+  },
+  "MUSDT": {
+    "exchange": "margin",
+    "base": "memecore",
+    "quote": "tether"
+  },
+  "MYXUSDT": {
+    "exchange": "margin",
+    "base": "myx-finance",
+    "quote": "tether"
+  },
+  "NEARUSDT": {
+    "exchange": "margin",
+    "base": "near",
+    "quote": "tether"
+  },
+  "NEIROCTOUSDT": {
+    "exchange": "margin",
+    "base": "neiro",
+    "quote": "tether"
+  },
+  "NEOUSDT": {
+    "exchange": "margin",
+    "base": "neo",
+    "quote": "tether"
+  },
+  "NEWTUSDT": {
+    "exchange": "margin",
+    "base": "newton-protocol",
+    "quote": "tether"
+  },
+  "NEXUSDT": {
+    "exchange": "margin",
+    "base": "nexus-labs",
+    "quote": "tether"
+  },
+  "NIGHTUSDT": {
+    "exchange": "margin",
+    "base": "midnight",
+    "quote": "tether"
+  },
+  "NILUSDT": {
+    "exchange": "margin",
+    "base": "nillion",
+    "quote": "tether"
+  },
+  "NMRUSDT": {
+    "exchange": "margin",
+    "base": "numeraire",
+    "quote": "tether"
+  },
+  "NXPCUSDT": {
+    "exchange": "margin",
+    "base": "nexpace",
+    "quote": "tether"
+  },
+  "OGNUSDT": {
+    "exchange": "margin",
+    "base": "origin-protocol",
+    "quote": "tether"
+  },
+  "ONDOUSDC": {
+    "exchange": "margin",
+    "base": "ondo",
+    "quote": "usd-coin"
+  },
+  "ONDOUSDT": {
+    "exchange": "margin",
+    "base": "ondo",
+    "quote": "tether"
+  },
+  "OPNUSDT": {
+    "exchange": "margin",
+    "base": "opinion",
+    "quote": "tether"
+  },
+  "OPUSDC": {
+    "exchange": "margin",
+    "base": "optimism",
+    "quote": "usd-coin"
+  },
+  "OPUSDT": {
+    "exchange": "margin",
+    "base": "optimism",
+    "quote": "tether"
+  },
+  "ORDIUSDT": {
+    "exchange": "margin",
+    "base": "ordi",
+    "quote": "tether"
+  },
+  "OUSDT": {
+    "exchange": "margin",
+    "base": "o1-exchange",
+    "quote": "tether"
+  },
+  "PARTIUSDT": {
+    "exchange": "margin",
+    "base": "particle-network",
+    "quote": "tether"
+  },
+  "PEAQUSDT": {
+    "exchange": "margin",
+    "base": "peaq",
+    "quote": "tether"
+  },
+  "PENDLEUSDT": {
+    "exchange": "margin",
+    "base": "pendle",
+    "quote": "tether"
+  },
+  "PENGUUSDT": {
+    "exchange": "margin",
+    "base": "pudgy-penguins",
+    "quote": "tether"
+  },
+  "PEPEUSDC": {
+    "exchange": "margin",
+    "base": "pepe",
+    "quote": "usd-coin"
+  },
+  "PEPEUSDT": {
+    "exchange": "margin",
+    "base": "pepe",
+    "quote": "tether"
+  },
+  "PIUSDT": {
+    "exchange": "margin",
+    "base": "pi",
+    "quote": "tether"
+  },
+  "PIXELUSDT": {
+    "exchange": "margin",
+    "base": "pixels",
+    "quote": "tether"
+  },
+  "PLUMEUSDT": {
+    "exchange": "margin",
+    "base": "plume",
+    "quote": "tether"
+  },
+  "PNUTUSDT": {
+    "exchange": "margin",
+    "base": "peanut-the-squirrel",
+    "quote": "tether"
+  },
+  "POLUSDT": {
+    "exchange": "margin",
+    "base": "polygon",
+    "quote": "tether"
+  },
+  "PONSUSDT": {
+    "exchange": "margin",
+    "base": "pons",
+    "quote": "tether"
+  },
+  "POWERUSDT": {
+    "exchange": "margin",
+    "base": "power-protocol",
+    "quote": "tether"
+  },
+  "PRLUSDT": {
+    "exchange": "margin",
+    "base": "perle",
+    "quote": "tether"
+  },
+  "PROSUSDT": {
+    "exchange": "margin",
+    "base": "pharos-network",
+    "quote": "tether"
+  },
+  "PROVEUSDT": {
+    "exchange": "margin",
+    "base": "succinct",
+    "quote": "tether"
+  },
+  "PUMPUSDT": {
+    "exchange": "margin",
+    "base": "pump",
+    "quote": "tether"
+  },
+  "PYTHUSDT": {
+    "exchange": "margin",
+    "base": "pyth-network",
+    "quote": "tether"
+  },
+  "QNTUSDT": {
+    "exchange": "margin",
+    "base": "quant",
+    "quote": "tether"
+  },
+  "QTUMUSDT": {
+    "exchange": "margin",
+    "base": "qtum",
+    "quote": "tether"
+  },
+  "QUIDUSDT": {
+    "exchange": "margin",
+    "base": "squid",
+    "quote": "tether"
+  },
+  "RAREUSDT": {
+    "exchange": "margin",
+    "base": "superrare",
+    "quote": "tether"
+  },
+  "RAVEUSDT": {
+    "exchange": "margin",
+    "base": "ravedao",
+    "quote": "tether"
+  },
+  "RAYUSDT": {
+    "exchange": "margin",
+    "base": "raydium",
+    "quote": "tether"
+  },
+  "RECALLUSDT": {
+    "exchange": "margin",
+    "base": "recall",
+    "quote": "tether"
+  },
+  "RENDERUSDC": {
+    "exchange": "margin",
+    "base": "render",
+    "quote": "usd-coin"
+  },
+  "RENDERUSDT": {
+    "exchange": "margin",
+    "base": "render",
+    "quote": "tether"
+  },
+  "RESOLVUSDT": {
+    "exchange": "margin",
+    "base": "resolv",
+    "quote": "tether"
+  },
+  "REUSDT": {
+    "exchange": "margin",
+    "base": "re",
+    "quote": "tether"
+  },
+  "REZUSDT": {
+    "exchange": "margin",
+    "base": "renzo",
+    "quote": "tether"
+  },
+  "RIFUSDT": {
+    "exchange": "margin",
+    "base": "rootstock-infrastructure-framework",
+    "quote": "tether"
+  },
+  "RLCUSDT": {
+    "exchange": "margin",
+    "base": "iexec-rlc",
+    "quote": "tether"
+  },
+  "RLSUSDT": {
+    "exchange": "margin",
+    "base": "rayls",
+    "quote": "tether"
+  },
+  "ROBOUSDT": {
+    "exchange": "margin",
+    "base": "fabric-protocol",
+    "quote": "tether"
+  },
+  "RSRUSDT": {
+    "exchange": "margin",
+    "base": "reserve-rights-token",
+    "quote": "tether"
+  },
+  "RTERUSDT": {
+    "exchange": "margin",
+    "base": "teradyne-rtoken",
+    "quote": "tether"
+  },
+  "SAFEUSDT": {
+    "exchange": "margin",
+    "base": "safe",
+    "quote": "tether"
+  },
+  "SANDUSDT": {
+    "exchange": "margin",
+    "base": "the-sandbox",
+    "quote": "tether"
+  },
+  "SAPIENUSDT": {
+    "exchange": "margin",
+    "base": "sapien",
+    "quote": "tether"
+  },
+  "SEIUSDT": {
+    "exchange": "margin",
+    "base": "sei",
+    "quote": "tether"
+  },
+  "SENTUSDT": {
+    "exchange": "margin",
+    "base": "sentient",
+    "quote": "tether"
+  },
+  "SHIBUSDT": {
+    "exchange": "margin",
+    "base": "shiba-inu",
+    "quote": "tether"
+  },
+  "SIGNUSDT": {
+    "exchange": "margin",
+    "base": "sign-global",
+    "quote": "tether"
+  },
+  "SKLUSDT": {
+    "exchange": "margin",
+    "base": "skale",
+    "quote": "tether"
+  },
+  "SKRUSDT": {
+    "exchange": "margin",
+    "base": "seeker",
+    "quote": "tether"
+  },
+  "SKYAIUSDT": {
+    "exchange": "margin",
+    "base": "skyai",
+    "quote": "tether"
+  },
+  "SKYUSDT": {
+    "exchange": "margin",
+    "base": "sky",
+    "quote": "tether"
+  },
+  "SLXUSDT": {
+    "exchange": "margin",
+    "base": "solstice",
+    "quote": "tether"
+  },
+  "SOLBTC": {
+    "exchange": "margin",
+    "base": "solana",
+    "quote": "bitcoin"
+  },
+  "SOLUSDC": {
+    "exchange": "margin",
+    "base": "solana",
+    "quote": "usd-coin"
+  },
+  "SOLUSDT": {
+    "exchange": "margin",
+    "base": "solana",
+    "quote": "tether"
+  },
+  "SOMIUSDT": {
+    "exchange": "margin",
+    "base": "somnia",
+    "quote": "tether"
+  },
+  "SONICUSDT": {
+    "exchange": "margin",
+    "base": "sonic-svm",
+    "quote": "tether"
+  },
+  "SOPHUSDT": {
+    "exchange": "margin",
+    "base": "sophon",
+    "quote": "tether"
+  },
+  "SPACEUSDT": {
+    "exchange": "margin",
+    "base": "spacecoin",
+    "quote": "tether"
+  },
+  "SPKUSDT": {
+    "exchange": "margin",
+    "base": "spark",
+    "quote": "tether"
+  },
+  "SSVUSDT": {
+    "exchange": "margin",
+    "base": "ssv-network",
+    "quote": "tether"
+  },
+  "STABLEUSDT": {
+    "exchange": "margin",
+    "base": "stable",
+    "quote": "tether"
+  },
+  "STRAXUSDT": {
+    "exchange": "margin",
+    "base": "xertra",
+    "quote": "tether"
+  },
+  "STRKUSDT": {
+    "exchange": "margin",
+    "base": "starknet",
+    "quote": "tether"
+  },
+  "STXUSDT": {
+    "exchange": "margin",
+    "base": "stacks",
+    "quote": "tether"
+  },
+  "SUIUSDC": {
+    "exchange": "margin",
+    "base": "sui",
+    "quote": "usd-coin"
+  },
+  "SUIUSDT": {
+    "exchange": "margin",
+    "base": "sui",
+    "quote": "tether"
+  },
+  "SUNUSDT": {
+    "exchange": "margin",
+    "base": "sun-token",
+    "quote": "tether"
+  },
+  "SUPERUSDT": {
+    "exchange": "margin",
+    "base": "superfarm",
+    "quote": "tether"
+  },
+  "SUSDT": {
+    "exchange": "margin",
+    "base": "sonic",
+    "quote": "tether"
+  },
+  "SUSHIUSDT": {
+    "exchange": "margin",
+    "base": "sushi",
+    "quote": "tether"
+  },
+  "SWELLUSDT": {
+    "exchange": "margin",
+    "base": "swell",
+    "quote": "tether"
+  },
+  "SXTUSDT": {
+    "exchange": "margin",
+    "base": "space-and-time",
+    "quote": "tether"
+  },
+  "SYRUPUSDT": {
+    "exchange": "margin",
+    "base": "syrup",
+    "quote": "tether"
+  },
+  "TACUSDT": {
+    "exchange": "margin",
+    "base": "tac",
+    "quote": "tether"
+  },
+  "TAOUSDC": {
+    "exchange": "margin",
+    "base": "bittensor",
+    "quote": "usd-coin"
+  },
+  "TAOUSDT": {
+    "exchange": "margin",
+    "base": "bittensor",
+    "quote": "tether"
+  },
+  "TIAUSDT": {
+    "exchange": "margin",
+    "base": "celestia",
+    "quote": "tether"
+  },
+  "TLMUSDT": {
+    "exchange": "margin",
+    "base": "alien-worlds",
+    "quote": "tether"
+  },
+  "TNSRUSDT": {
+    "exchange": "margin",
+    "base": "tensor",
+    "quote": "tether"
+  },
+  "TRBUSDT": {
+    "exchange": "margin",
+    "base": "tellor",
+    "quote": "tether"
+  },
+  "TREEUSDT": {
+    "exchange": "margin",
+    "base": "treehouse",
+    "quote": "tether"
+  },
+  "TRIAUSDT": {
+    "exchange": "margin",
+    "base": "tria",
+    "quote": "tether"
+  },
+  "TRUMPUSDT": {
+    "exchange": "margin",
+    "base": "official-trump",
+    "quote": "tether"
+  },
+  "TRUSTUSDT": {
+    "exchange": "margin",
+    "base": "intuition",
+    "quote": "tether"
+  },
+  "TRXETH": {
+    "exchange": "margin",
+    "base": "tron",
+    "quote": "ethereum"
+  },
+  "TRXUSDC": {
+    "exchange": "margin",
+    "base": "tron",
+    "quote": "usd-coin"
+  },
+  "TRXUSDT": {
+    "exchange": "margin",
+    "base": "tron",
+    "quote": "tether"
+  },
+  "TUSDT": {
+    "exchange": "margin",
+    "base": "threshold-network",
+    "quote": "tether"
+  },
+  "TUTUSDT": {
+    "exchange": "margin",
+    "base": "tutorial",
+    "quote": "tether"
+  },
+  "TWTUSDT": {
+    "exchange": "margin",
+    "base": "trust-wallet-token",
+    "quote": "tether"
+  },
+  "UAIUSDT": {
+    "exchange": "margin",
+    "base": "unifai-network",
+    "quote": "tether"
+  },
+  "UNIUSDC": {
+    "exchange": "margin",
+    "base": "uniswap",
+    "quote": "usd-coin"
+  },
+  "UNIUSDT": {
+    "exchange": "margin",
+    "base": "uniswap",
+    "quote": "tether"
+  },
+  "USDCUSDT": {
+    "exchange": "margin",
+    "base": "usd-coin",
+    "quote": "tether"
+  },
+  "USDGOUSDC": {
+    "exchange": "margin",
+    "base": "usdgo",
+    "quote": "usd-coin"
+  },
+  "USDGOUSDT": {
+    "exchange": "margin",
+    "base": "usdgo",
+    "quote": "tether"
+  },
+  "USUSDT": {
+    "exchange": "margin",
+    "base": "talus",
+    "quote": "tether"
+  },
+  "VANAUSDT": {
+    "exchange": "margin",
+    "base": "vana",
+    "quote": "tether"
+  },
+  "VELVETUSDT": {
+    "exchange": "margin",
+    "base": "velvet",
+    "quote": "tether"
+  },
+  "VETUSDT": {
+    "exchange": "margin",
+    "base": "vechain",
+    "quote": "tether"
+  },
+  "VIRTUALUSDT": {
+    "exchange": "margin",
+    "base": "virtuals-protocol",
+    "quote": "tether"
+  },
+  "WALUSDT": {
+    "exchange": "margin",
+    "base": "walrus",
+    "quote": "tether"
+  },
+  "WCTUSDT": {
+    "exchange": "margin",
+    "base": "walletconnect",
+    "quote": "tether"
+  },
+  "WIFUSDT": {
+    "exchange": "margin",
+    "base": "dogwifcoin",
+    "quote": "tether"
+  },
+  "WLDUSDT": {
+    "exchange": "margin",
+    "base": "worldcoin",
+    "quote": "tether"
+  },
+  "WLFIUSDT": {
+    "exchange": "margin",
+    "base": "world-liberty-financial",
+    "quote": "tether"
+  },
+  "WUSDT": {
+    "exchange": "margin",
+    "base": "wormhole",
+    "quote": "tether"
+  },
+  "XAIUSDT": {
+    "exchange": "margin",
+    "base": "xai",
+    "quote": "tether"
+  },
+  "XDCUSDT": {
+    "exchange": "margin",
+    "base": "xdc-network",
+    "quote": "tether"
+  },
+  "XLMUSDC": {
+    "exchange": "margin",
+    "base": "stellar",
+    "quote": "usd-coin"
+  },
+  "XLMUSDT": {
+    "exchange": "margin",
+    "base": "stellar",
+    "quote": "tether"
+  },
+  "XPLUSDT": {
+    "exchange": "margin",
+    "base": "plasma",
+    "quote": "tether"
+  },
+  "XRPUSDC": {
+    "exchange": "margin",
+    "base": "xrp",
+    "quote": "usd-coin"
+  },
+  "XRPUSDT": {
+    "exchange": "margin",
+    "base": "xrp",
+    "quote": "tether"
+  },
+  "XTZUSDT": {
+    "exchange": "margin",
+    "base": "tezos",
+    "quote": "tether"
+  },
+  "YBUSDT": {
+    "exchange": "margin",
+    "base": "yield-basis",
+    "quote": "tether"
+  },
+  "ZAMAUSDT": {
+    "exchange": "margin",
+    "base": "zama",
+    "quote": "tether"
+  },
+  "ZBTUSDT": {
+    "exchange": "margin",
+    "base": "zerobase",
+    "quote": "tether"
+  },
+  "ZECUSDT": {
+    "exchange": "margin",
+    "base": "zcash",
+    "quote": "tether"
+  },
+  "ZENUSDT": {
+    "exchange": "margin",
+    "base": "horizen",
+    "quote": "tether"
+  },
+  "ZETAUSDT": {
+    "exchange": "margin",
+    "base": "zetachain",
+    "quote": "tether"
+  },
+  "ZILUSDT": {
+    "exchange": "margin",
+    "base": "zilliqa",
+    "quote": "tether"
+  },
+  "ZKCUSDT": {
+    "exchange": "margin",
+    "base": "boundless",
+    "quote": "tether"
+  },
+  "ZKUSDT": {
+    "exchange": "margin",
+    "base": "zksync",
+    "quote": "tether"
+  },
+  "ZORAUSDT": {
+    "exchange": "margin",
+    "base": "zora",
+    "quote": "tether"
+  },
+  "ZROUSDT": {
+    "exchange": "margin",
+    "base": "layer-zero",
+    "quote": "tether"
+  }
+}

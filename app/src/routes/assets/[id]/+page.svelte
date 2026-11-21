@@ -36,6 +36,7 @@
 	});
 
 	const kindLabel: Record<string, string> = {
+		margin: 'Margin',
 		debt: 'Debt',
 		pool: 'Liquidity Pools'
 	};

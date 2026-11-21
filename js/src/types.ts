@@ -65,6 +65,9 @@ export type SpotInstrument = {
   url?: string
 }
 
+/** A spot pair traded on borrowed funds, in the venue's margin account. */
+export type MarginInstrument = SpotInstrument
+
 export type PerpetualInstrument = {
   id: string
   base: string
@@ -90,7 +93,7 @@ export type PoolInstrument = {
   name: string
 }
 
-export type InstrumentKind = 'spot' | 'perpetual' | 'debt' | 'pool'
+export type InstrumentKind = 'spot' | 'margin' | 'perpetual' | 'debt' | 'pool'
 export type InstrumentRole = 'base' | 'quote' | 'settlement' | 'asset'
 
 export type InstrumentReference = {
@@ -119,6 +122,7 @@ export type Stats = {
   asset_translations: number
   network_translations: number
   spot_instruments: number
+  margin_instruments: number
   perpetual_instruments: number
   assets_with_icons: number
   assets_with_external_ids: number
