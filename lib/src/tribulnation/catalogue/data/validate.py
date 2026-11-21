@@ -1,6 +1,7 @@
 import os as _os
 import re as _re
-from typing import Collection, Literal, Mapping, get_args
+from typing import Collection, Mapping, get_args
+from typing_extensions import Literal
 from .schema import (
   Asset, Platform, Spot, Margin, Perpetual, Debt, Pool, AssetCategory, BlockchainCategory,
   BlockchainNamespace, Protocol,

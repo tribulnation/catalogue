@@ -22,8 +22,13 @@ gate they failed:
    `instrumentType` `crypto` but are untranslated by design, so they stop here.
 3. The same symbol is a listed Bitget spot pair with that base and quote.
 
-A catalogued margin pair the venue no longer lists as online is marked `delisted`; one that
-comes back loses the flag. Pairs are never removed.
+A catalogued margin pair missing from the venue's list is marked `delisted`; one that comes
+back online loses the flag. A pair the venue still lists in another status (`limit_open`,
+maintenance, ...) keeps its flag as it is and is only reported. Pairs are never removed.
+
+`--write` refuses a reply that lists no pairs, or one that would delist more than
+`MAX_DELIST_SHARE` of the listed catalogued pairs (at least `MAX_DELIST` of them), since that
+is far more likely a truncated reply than a mass delisting.
 """
 
 import argparse
@@ -38,6 +43,10 @@ URL = 'https://api.bitget.com/api/v3/market/instruments?category=MARGIN'
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
 EXCHANGE = 'margin'
+MAX_DELIST = 5
+"""Delistings `--write` always accepts in one run"""
+MAX_DELIST_SHARE = 0.1
+"""Share of the listed catalogued pairs `--write` accepts delisting in one run, when above `MAX_DELIST`"""
 
 Gate = Literal['not-online', 'not-crypto', 'untranslated', 'no-spot-pair']
 
@@ -58,6 +67,8 @@ class Plan(TypedDict):
   added: list[str]
   delisted: list[str]
   relisted: list[str]
+  offline: dict[str, str]
+  """Catalogued symbol -> venue status, for listed pairs the venue lists but not online"""
   skipped: dict[str, Gate]
   """Venue symbol -> first gate it failed"""
 
@@ -94,6 +105,7 @@ def plan(
   added: list[str] = []
   skipped: dict[str, Gate] = {}
   listed: set[str] = set()
+  present = {pair['symbol'] for pair in pairs}
   for pair in pairs:
     symbol = pair['symbol']
     if (failed := gate(pair, translations=translations, spot=spot)) is not None:
@@ -103,17 +115,37 @@ def plan(
       if symbol not in instruments:
         instruments[symbol] = {'exchange': EXCHANGE, 'base': translations[pair['baseCoin']], 'quote': translations[pair['quoteCoin']]}
         added.append(symbol)
-  delisted = sorted(id for id, instrument in instruments.items() if id not in listed and not instrument.get('delisted'))
+  delisted = sorted(id for id, instrument in instruments.items() if id not in present and not instrument.get('delisted'))
   relisted = sorted(id for id, instrument in instruments.items() if id in listed and instrument.get('delisted'))
   for id in delisted:
     instruments[id]['delisted'] = True
     instruments[id].pop('url', None)
   for id in relisted:
     del instruments[id]['delisted']
+  offline = {
+    pair['symbol']: pair['status'] for pair in sorted(pairs, key=lambda pair: pair['symbol'])
+    if pair['status'] != 'online' and pair['symbol'] in existing and not existing[pair['symbol']].get('delisted')
+  }
   return Plan(
     instruments=dict(sorted(instruments.items())), added=sorted(added), delisted=delisted, relisted=relisted,
-    skipped=dict(sorted(skipped.items())),
+    offline=offline, skipped=dict(sorted(skipped.items())),
   )
+
+
+def refusal(pairs: list[VenuePair], result: Plan, *, existing: dict[str, dict[str, Any]]) -> str | None:
+  """Why `--write` must not apply `result`, or None when it is safe.
+
+  Args:
+    pairs: The venue's `category=MARGIN` instruments.
+    result: The plan built from `pairs`.
+    existing: Catalogued Bitget margin instruments.
+  """
+  listed = sum(1 for instrument in existing.values() if not instrument.get('delisted'))
+  limit = max(MAX_DELIST, int(listed * MAX_DELIST_SHARE))
+  if not pairs:
+    return 'the venue returned no margin pairs'
+  elif len(result['delisted']) > limit:
+    return f'{len(result["delisted"])} of {listed} listed pairs would be delisted (limit {limit})'
 
 
 def fetch() -> list[VenuePair]:
@@ -138,14 +170,17 @@ def main():
   args = parser.parse_args()
 
   path = DATA / 'instruments' / 'margin' / 'bitget.json'
+  pairs = fetch()
+  existing = read(path)
   result = plan(
-    fetch(),
+    pairs,
     translations=read(DATA / 'asset_translations' / 'bitget.json'),
     spot=read(DATA / 'instruments' / 'spot' / 'bitget.json'),
-    existing=read(path),
+    existing=existing,
   )
   for label in ('added', 'delisted', 'relisted'):
     print(f'{label}: {len(result[label])} {" ".join(result[label])}')
+  print(f'offline (kept): {len(result["offline"])} {" ".join(f"{s}={st}" for s, st in result["offline"].items())}')
   by_gate: dict[str, list[str]] = {}
   for symbol, failed in result['skipped'].items():
     by_gate.setdefault(failed, []).append(symbol)
@@ -153,7 +188,9 @@ def main():
     print(f'skipped ({failed}): {len(symbols)} {" ".join(symbols)}')
 
   changed = bool(result['added'] or result['delisted'] or result['relisted'])
-  if args.write and changed:
+  if args.write and changed and (reason := refusal(pairs, result, existing=existing)) is not None:
+    sys.exit(f'refusing to write: {reason}')
+  elif args.write and changed:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(result['instruments'], indent=2, ensure_ascii=False) + '\n')
     print(f'wrote {path.relative_to(ROOT)} ({len(result["instruments"])} instruments)')

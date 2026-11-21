@@ -8,22 +8,32 @@
 	type InstrumentRef = { kind: string; platform: string; id: string; role: string };
 	type PlatformSummary = { id: string; display_name: string; kind: string; icon?: string };
 
+	/** Kinds listed under Markets, only where the asset is the base. */
+	const marketKinds = [
+		{ kind: 'spot', label: 'Spot' },
+		{ kind: 'margin', label: 'Margin' },
+		{ kind: 'perpetual', label: 'Perpetual' }
+	];
+
 	const platformMap = $derived(
 		new Map<string, PlatformSummary>((data.platforms as PlatformSummary[]).map((p) => [p.id, p]))
 	);
 
 	const markets = $derived(
 		(data.instruments as InstrumentRef[]).filter(
-			(r) => (r.kind === 'spot' || r.kind === 'perpetual') && r.role === 'base'
+			(r) => marketKinds.some((k) => k.kind === r.kind) && r.role === 'base'
 		)
 	);
 
-	const spotMarkets = $derived(markets.filter((r) => r.kind === 'spot'));
-	const perpMarkets = $derived(markets.filter((r) => r.kind === 'perpetual'));
+	const marketGroups = $derived(
+		marketKinds
+			.map(({ kind, label }) => ({ label, refs: markets.filter((r) => r.kind === kind) }))
+			.filter((group) => group.refs.length > 0)
+	);
 
 	const otherInstruments = $derived(
 		(data.instruments as InstrumentRef[]).filter(
-			(r) => r.kind !== 'spot' && r.kind !== 'perpetual'
+			(r) => !marketKinds.some((k) => k.kind === r.kind)
 		)
 	);
 
@@ -36,7 +46,6 @@
 	});
 
 	const kindLabel: Record<string, string> = {
-		margin: 'Margin',
 		debt: 'Debt',
 		pool: 'Liquidity Pools'
 	};
@@ -143,11 +152,11 @@
 		<div class="markets">
 			<h2>Markets</h2>
 
-			{#if spotMarkets.length > 0}
+			{#each marketGroups as group}
 				<div class="market-group">
-					<span class="market-kind-label">Spot</span>
+					<span class="market-kind-label">{group.label}</span>
 					<ul class="market-list">
-						{#each spotMarkets as ref}
+						{#each group.refs as ref}
 							{@const platform = platformMap.get(ref.platform)}
 							<li class="market-row">
 								<a href={`/platforms/${ref.platform}`} class="market-platform">
@@ -163,29 +172,7 @@
 						{/each}
 					</ul>
 				</div>
-			{/if}
-
-			{#if perpMarkets.length > 0}
-				<div class="market-group">
-					<span class="market-kind-label">Perpetual</span>
-					<ul class="market-list">
-						{#each perpMarkets as ref}
-							{@const platform = platformMap.get(ref.platform)}
-							<li class="market-row">
-								<a href={`/platforms/${ref.platform}`} class="market-platform">
-									{#if platform?.icon}
-										<img src={platform.icon} alt={platform.display_name} width="20" height="20" class="platform-icon" loading="lazy" decoding="async" />
-									{:else}
-										<span class="platform-icon-fallback">{ref.platform.charAt(0).toUpperCase()}</span>
-									{/if}
-									<span>{platform?.display_name ?? ref.platform}</span>
-								</a>
-								<code class="market-ticker">{ref.id}</code>
-							</li>
-						{/each}
-					</ul>
-				</div>
-			{/if}
+			{/each}
 		</div>
 	{/if}
 
