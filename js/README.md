@@ -47,6 +47,9 @@ ethereum.namespace  // "eip155"
 const pairs = await client.getSpotInstruments('mexc');
 // → Record<string, SpotInstrument>
 
+const margin = await client.getMarginInstruments('bitget');
+// → Record<string, MarginInstrument> (spot pairs traded on borrowed funds; same shape as SpotInstrument)
+
 const perps = await client.getPerpetualInstruments('dydx');
 // → Record<string, PerpetualInstrument>
 // PerpetualInstrument includes optional multiplier, delisted status and quanto
