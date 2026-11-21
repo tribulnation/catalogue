@@ -95,6 +95,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "AIGENSYNUSDT": {
+    "exchange": "perp",
+    "base": "gensyn",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "AIXBTUSDT": {
     "exchange": "perp",
     "base": "aixbt",
@@ -335,6 +341,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "BRKBUSDT": {
+    "exchange": "perp",
+    "base": "berkshire-hathaway-class-b",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "BSVUSDT": {
     "exchange": "perp",
     "base": "bitcoin-cash-sv",
@@ -479,6 +491,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "CXMTUSDT": {
+    "exchange": "perp",
+    "base": "cxmt",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "DELLUSDT": {
     "exchange": "perp",
     "base": "dell-technologies",
@@ -512,6 +530,12 @@
   "DRAMUSDT": {
     "exchange": "perp",
     "base": "roundhill-memory-etf",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "DRVUSDT": {
+    "exchange": "perp",
+    "base": "derive",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -701,6 +725,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "HANMIUSDT": {
+    "exchange": "perp",
+    "base": "hanmi-semiconductor",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "HBARUSDT": {
     "exchange": "perp",
     "base": "hedera",
@@ -710,6 +740,12 @@
   "HOODUSDT": {
     "exchange": "perp",
     "base": "robinhood-markets",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "HUMAUSDT": {
+    "exchange": "perp",
+    "base": "huma-finance",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -791,6 +827,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "JIOUSDT": {
+    "exchange": "perp",
+    "base": "jio-platforms",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "JNJUSDT": {
     "exchange": "perp",
     "base": "johnson-and-johnson",
@@ -845,6 +887,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "KUAISHOUUSDT": {
+    "exchange": "perp",
+    "base": "kuaishou",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "LAPTOPUSDT": {
     "exchange": "perp",
     "base": "hunter-bidens-laptop",
@@ -860,6 +908,12 @@
   "LDOUSDT": {
     "exchange": "perp",
     "base": "lido-dao",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "LGELECTRONICSUSDT": {
+    "exchange": "perp",
+    "base": "lg-electronics",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -941,6 +995,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "MEITUANUSDT": {
+    "exchange": "perp",
+    "base": "meituan",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "MELANIAUSDT": {
     "exchange": "perp",
     "base": "melania-meme",
@@ -968,6 +1028,12 @@
   "MINAUSDT": {
     "exchange": "perp",
     "base": "mina-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "MINIMAXUSDT": {
+    "exchange": "perp",
+    "base": "minimax",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1169,6 +1235,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "OPENAIUSDT": {
+    "exchange": "perp",
+    "base": "openai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "OPGUSDT": {
     "exchange": "perp",
     "base": "opengradient",
@@ -1247,6 +1319,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "PHAROSUSDT": {
+    "exchange": "perp",
+    "base": "pharos-network",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "PIEVERSEUSDT": {
     "exchange": "perp",
     "base": "pieverse",
@@ -1283,6 +1361,18 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "POPMARTUSDT": {
+    "exchange": "perp",
+    "base": "pop-mart",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "PREDICTUSDT": {
+    "exchange": "perp",
+    "base": "predict-fun",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "PRLUSDT": {
     "exchange": "perp",
     "base": "perle",
@@ -1316,6 +1406,12 @@
   "QCOMUSDT": {
     "exchange": "perp",
     "base": "qualcomm",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "QNTXUSDT": {
+    "exchange": "perp",
+    "base": "quantinuum",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1373,6 +1469,18 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "SAMSUNGEMUSDT": {
+    "exchange": "perp",
+    "base": "samsung-electro-mechanics",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SAMSUNGUSDT": {
+    "exchange": "perp",
+    "base": "samsung-electronics",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "SANDUSDT": {
     "exchange": "perp",
     "base": "the-sandbox",
@@ -1394,6 +1502,12 @@
   "SHAZUSDT": {
     "exchange": "perp",
     "base": "sharonai",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SHEINUSDT": {
+    "exchange": "perp",
+    "base": "shein",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1430,6 +1544,12 @@
   "SKDDUSDT": {
     "exchange": "perp",
     "base": "graniteshares-2x-short-sk-hynix-daily-etf",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "SKHYNIXUSDT": {
+    "exchange": "perp",
+    "base": "sk-hynix",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1625,6 +1745,12 @@
     "quote": "tether",
     "settlement": "tether"
   },
+  "TENCENTUSDT": {
+    "exchange": "perp",
+    "base": "tencent-holdings",
+    "quote": "tether",
+    "settlement": "tether"
+  },
   "THETAUSDT": {
     "exchange": "perp",
     "base": "theta-token",
@@ -1712,6 +1838,12 @@
   "UNHUSDT": {
     "exchange": "perp",
     "base": "unitedhealth-group",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "UNITREEUSDT": {
+    "exchange": "perp",
+    "base": "unitree-robotics",
     "quote": "tether",
     "settlement": "tether"
   },
@@ -1898,6 +2030,12 @@
   "ZESTUSDT": {
     "exchange": "perp",
     "base": "zest-protocol",
+    "quote": "tether",
+    "settlement": "tether"
+  },
+  "ZHIPUUSDT": {
+    "exchange": "perp",
+    "base": "zhipu-ai",
     "quote": "tether",
     "settlement": "tether"
   },
