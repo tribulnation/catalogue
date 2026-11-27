@@ -6,15 +6,62 @@
 [![npm](https://img.shields.io/npm/v/@tribulnation/catalogue)](https://www.npmjs.com/package/@tribulnation/catalogue)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-A typed, open catalogue of crypto assets, trading platforms, instrument mappings, and name translations — built to resolve the inconsistent IDs and symbols that exchanges, wallets, chains, and market data APIs throw at you.
+An open catalogue of crypto assets, networks and instruments, with the names each exchange and chain uses for them.
+
+Every exchange names things its own way. Binance calls BNB Chain `BSC`, MEXC calls it `BNB Smart Chain(BEP20)` and Bybit `BSC (BEP20)`. Kraken calls bitcoin `XXBT` and Hyperliquid calls it `197`. The catalogue maps all of these to one id (`bnb-chain`, `bitcoin`), so code that talks to several venues can agree on what it holds.
 
 ![Stats](https://catalogue.tribulnation.com/stats.svg)
+
+## Why use it
+
+- The data is JSON files in this repo, MIT licensed. A wrong mapping is fixed with a pull request.
+- The JSON API needs no key, and `data.zip` and `icons.zip` hold everything for offline use.
+- Typed clients for Python and TypeScript look up assets, networks, and spot, margin and perpetual markets.
+- Asset ids are never deleted. A merged asset stays as an alias (`replaced_by`) of the one that replaced it.
+- Assets, platforms and networks come with square SVG icons that crop cleanly to a circle.
+
+## Quickstart
+
+Ask the API what Kraken means by `XXBT`:
+
+```bash
+curl https://catalogue.tribulnation.com/api/v1/translate/kraken/XXBT.json
+```
+
+```json
+{
+  "id": "bitcoin",
+  "kind": "asset"
+}
+```
+
+Or do the same lookups in Python:
+
+```bash
+pip install tribulnation-catalogue
+```
+
+```python
+from tribulnation.catalogue import Catalogue
+
+catalogue = Catalogue.load()
+
+print(catalogue.asset_for('kraken', 'XXBT'))
+print(catalogue.network_for('bybit', 'BSC (BEP20)'))
+print(catalogue.perpetual_for('hyperliquid', 'kPEPE'))
+```
+
+```
+bitcoin
+bnb-chain
+PerpetualInstrument(platform='hyperliquid', id='kPEPE', base='pepe', quote='tether', settlement='usd-coin', multiplier=Decimal('1000'), delisted=False, quanto=None)
+```
 
 ---
 
 ## API
 
-Every record in this catalogue is available as a static JSON API — no auth, no rate limits, served from GitHub Pages.
+Every record is available as a static JSON API, served from Cloudflare. No API key is needed.
 
 **Browse: [catalogue.tribulnation.com](https://catalogue.tribulnation.com)**
 
@@ -28,6 +75,7 @@ GET /api/v1/instruments/spot/{platform}.json
 GET /api/v1/instruments/margin/{platform}.json
 GET /api/v1/instruments/perpetual/{platform}.json
 GET /api/v1/instruments/index/{asset}.json
+GET /api/v1/translate/{platform}/{id}.json
 GET /api/v1/indexes/symbols.json
 GET /api/v1/indexes/external/coingecko.json
 GET /api/v1/openapi.json
@@ -52,25 +100,23 @@ Download everything at once:
 npm install @tribulnation/catalogue
 ```
 
-```tsx
+```js
 import { Catalogue } from '@tribulnation/catalogue';
 
-const client = new Catalogue();
-const matches = await client.findBySymbol('BTC');
+const catalogue = new Catalogue();
 
-return (
-  matches.map((match) => (
-    <div>
-      <p>{match.display_name}</p>
-      <img src={match.icon} alt={`Image of ${match.id}`} />
-    </div>
-  ))
-)
+console.log(await catalogue.translate('kraken', 'XXBT'));
 
-// Fetch individual records
-const bitcoin = await client.fetchAsset('bitcoin');
-const pairs   = await client.getSpotInstruments('mexc');
+const [btc] = await catalogue.findBySymbol('BTC');
+console.log(btc.id, btc.display_name, btc.icon);
 ```
+
+```
+{ id: 'bitcoin', kind: 'asset' }
+bitcoin Bitcoin https://catalogue.tribulnation.com/icons/asset/bitcoin.svg
+```
+
+The client fetches from the API above. See the [JS README](js/README.md) for instruments, platforms and the exported types.
 
 ### Python
 
@@ -107,27 +153,43 @@ catalogue.network_for_domain('cctp', 3)  # 'arbitrum'
 
 ### Pricing
 
-`MarketData` fetches prices and market caps for catalogue assets using one or more external providers. Requests are batched per provider and run in parallel. If a provider fails, assets fall back to the next configured provider that covers them.
+`MarketData` fetches prices and market caps for catalogue assets from one or more external providers. It needs the `prices` extra:
+
+```bash
+pip install 'tribulnation-catalogue[prices]'
+```
+
+Requests are batched per provider and run in parallel. If a provider fails, assets fall back to the next configured provider that covers them. This example uses the ECB reference rates, which need no API key:
 
 ```python
+import asyncio
+from datetime import datetime
 from tribulnation.catalogue import Catalogue, MarketData
 
-catalogue = Catalogue.load()
-sdk = MarketData.new('coingecko', 'twelvedata', quote='usd')
+async def main():
+    catalogue = Catalogue.load()
+    market = MarketData.new('iso4217', quote='usd')  # ECB reference rates, no key needed
+    gbp = catalogue.assets['british-pound']
 
-# Fetch all assets in one batched call
-stats, errors = await sdk.current_stats(catalogue.assets)
+    stats, errors = await market.current_stats({'british-pound': gbp})
+    print(round(stats['british-pound'].price, 4), errors)
 
-btc = stats.get('bitcoin')  # Stats(price=Decimal('...'), market_cap=Decimal('...'))
-xau = stats.get('gold')     # Stats(price=Decimal('...')) — via Twelve Data
+    price, errors = await market.historical_price(gbp, datetime(2024, 1, 2))
+    print(round(price.price, 4), price.time)
 
-# Historical price for a single asset
-price, errors = await sdk.historical_price(catalogue.assets['bitcoin'], datetime(2024, 1, 1))
+asyncio.run(main())
 ```
+
+```
+1.3122 {}
+1.2645 2024-01-02 00:00:00
+```
+
+Pass several sources to combine them, for example `MarketData.new('coingecko', 'twelvedata', 'iso4217')`, and `current_stats(catalogue.assets)` to price every asset in one call. Each result is a `Stats(price, market_cap, time)`.
 
 Assets with a `pegged_to` field (e.g. XAUT → gold, cbBTC → bitcoin) automatically inherit the pegged asset's price if no direct price is found.
 
-Each provider reads its API key from the environment:
+Providers that need an API key read it from the environment:
 
 | Provider | Source | Env var | Covers |
 |---|---|---|---|
@@ -135,9 +197,13 @@ Each provider reads its API key from the environment:
 | CoinMarketCap | `'coinmarketcap'` | `COINMARKETCAP_API_KEY` | Crypto — price, market cap, history |
 | Twelve Data | `'twelvedata'` | `TWELVEDATA_API_KEY` | Precious metals (XAU, XAG†), forex |
 | Alpha Vantage | `'alphavantage'` | `ALPHAVANTAGE_API_KEY` | US stocks, USD forex, energy & agricultural commodities |
-| ECB | `'iso4217'` | — | Daily euro reference rates for ~30 fiat currencies (ISO 4217 codes) |
+| FRED | `'fred'` | none | Daily reference series in USD: forex, oil, natural gas |
+| Yahoo Finance | `'yahoo'` | none | Stocks‡, forex |
+| ECB | `'iso4217'` | none | Daily euro reference rates for ~30 fiat currencies (ISO 4217 codes) |
 
 † XAG requires a paid Twelve Data plan.
+
+‡ Non-US listings come back in their local currency for now ([#201](https://github.com/tribulnation/catalogue/issues/201)).
 
 Provider IDs have provider-specific semantics, especially for forex, commodities, and stock symbols. See [External IDs](docs/external.md) for the conventions.
 
@@ -174,9 +240,13 @@ SVG icons for assets, platforms, and networks, organized under `icons/asset/`, `
 Known spam token addresses per chain, with optional source and reported timestamp.
 
 ### Protocols
-Cross-chain protocols (`cctp`, `ibc`, `hlbridge`, `gofast`, `relay`, `lighter`) keyed by id. Each defines a **correlation key**: a template such as `cctp:{source_domain}:{nonce}` with typed fields, which both sides of one cross-chain movement can compute independently so they can be linked. Protocol data stays in the entry, e.g. CCTP's domain → network table. Keys are built and checked with `format_correlation` / `parse_correlation`.
+Cross-chain protocols (`axelar`, `cctp`, `gofast`, `hlbridge`, `ibc`, `lighter`, `relay`) keyed by id. Each defines a **correlation key**: a template such as `cctp:{source_domain}:{nonce}` with typed fields, which both sides of one cross-chain movement can compute independently so they can be linked. Protocol data stays in the entry, e.g. CCTP's domain → network table. Keys are built and checked with `format_correlation` / `parse_correlation`.
 
 ---
+
+## Status
+
+The clients are at 0.x: their APIs can still change between minor versions, and the [release notes](https://github.com/tribulnation/catalogue/releases) list each change. The data changes often, but ids stay valid. Questions and wrong mappings go in [issues](https://github.com/tribulnation/catalogue/issues).
 
 ## Contributing
 
@@ -195,3 +265,7 @@ Add or edit files under `data/` and `icons/`, then validate:
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full data layout and field reference.
+
+## License
+
+MIT, see [LICENSE](LICENSE).

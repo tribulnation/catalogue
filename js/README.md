@@ -71,10 +71,10 @@ const stats     = await client.fetchStats();     // Stats
 ## Custom base URL
 
 ```typescript
-const client = new Catalogue('https://my-mirror.example.com/api');
+const client = new Catalogue('https://my-mirror.example.com/api/v1');
 ```
 
-The default base URL is `https://catalogue.tribulnation.com/api`.
+The default base URL is `https://catalogue.tribulnation.com/api/v1`.
 
 ## Caching
 
