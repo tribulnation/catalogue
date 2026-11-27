@@ -1,0 +1,15 @@
+name: Data Request or Correction
+description: Ask for a missing asset, platform or instrument, or report wrong data
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What's missing or wrong
+      description: The asset, platform, network or instrument, and what should change.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A link that confirms it (official site, explorer, exchange page).
